@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -10,171 +11,393 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script>
-    window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};
+    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] }, options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] } };
   </script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
+
 <body>
-<div class="app" id="app">
-  <aside class="sidebar" id="sidebar">
-    <div class="brand"><div class="brand-icon">J</div><div><strong>JEE Practice</strong><span>Personal PYQ library</span></div></div>
-
-    <div class="exam-card">
-      <div class="tiny-label">CURRENT EXAM</div>
-      <div class="exam-card-row"><strong id="sideExam">JEE Main</strong><button class="square-btn" id="cycleExam">⇄</button></div>
-    </div>
-
-    <nav class="side-nav">
-      <button class="side-link active" data-page="home"><span>▣</span> Dashboard</button>
-      <button class="side-link" data-page="chapters"><span>▤</span> Previous Year Questions</button>
-      <button class="side-link" data-page="bookmarks"><span>★</span> Bookmarks</button>
-      <button class="side-link" data-page="history"><span>◷</span> Practice History</button>
-      <button class="side-link" data-page="analytics"><span>◒</span> Analytics</button>
-    </nav>
-
-    <div class="sidebar-footer">
-      <button class="side-link muted-link" id="themeButton"><span>☼</span> Toggle appearance</button>
-    </div>
-  </aside>
-
-  <main class="main">
-    <header class="topbar">
-      <button class="mobile-menu" id="menuButton">☰</button>
-      <div class="wordmark">JEE Practice <span class="wordmark-sub">PYQ Library</span></div>
-      <div class="exam-tabs" id="examTabs">
-        <button data-exam="jee-main">JEE Main</button>
-        <button data-exam="jee-advanced">JEE Advanced</button>
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-icon">J</div>
+        <div><strong>JEE Practice</strong><span>Personal PYQ library</span></div>
       </div>
-      <div class="top-actions"><div class="avatar" aria-label="JEE Practice" title="JEE Practice">J</div></div>
+
+      <div class="exam-card">
+        <div class="tiny-label">CURRENT EXAM</div>
+        <div class="exam-card-row"><strong id="sideExam">JEE Main</strong><button class="square-btn"
+            id="cycleExam">⇄</button></div>
+      </div>
+
+      <nav class="side-nav">
+        <button class="side-link active" data-page="home"><span>▣</span> Dashboard</button>
+        <button class="side-link" data-page="chapters"><span>▤</span> Previous Year Questions</button>
+        <button class="side-link" data-page="bookmarks"><span>★</span> Bookmarks</button>
+        <button class="side-link" data-page="history"><span>◷</span> Practice History</button>
+        <button class="side-link" data-page="analytics"><span>◒</span> Analytics</button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button class="side-link muted-link" id="themeButton"><span>☼</span> Toggle appearance</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="mobile-menu" id="menuButton">☰</button>
+        <div class="wordmark">JEE Practice <span class="wordmark-sub">PYQ Library</span></div>
+        <div class="exam-tabs" id="examTabs">
+          <button data-exam="jee-main">JEE Main</button>
+          <button data-exam="jee-advanced">JEE Advanced</button>
+        </div>
+      </header>
+
+      <section class="page active" id="homePage">
+        <div class="page-title">
+          <div>
+            <div class="eyebrow">PREVIOUS YEAR QUESTIONS</div>
+            <h1 id="homeTitle">JEE Main</h1>
+            <p id="homeSubtitle">Chapter-wise questions with year, paper details, progress and solving time.</p>
+          </div>
+        </div>
+        <div class="subject-grid" id="subjectGrid"></div>
+        <div class="quick-panel">
+          <div class="quick-icon">⌁</div>
+          <div class="quick-copy">
+            <h2>Practice exactly what you need</h2>
+            <p>Pick a subject and chapter, or jump straight into your weak and unattempted questions.</p>
+          </div>
+          <div class="quick-actions"><button class="primary" id="quickPractice">Start practice</button><button
+              class="secondary" id="weakPractice">Weak questions</button></div>
+        </div>
+        <div class="mini-overview" id="homeOverview"></div>
+      </section>
+
+      <section class="page" id="chaptersPage">
+        <div class="page-title row-title">
+          <div>
+            <div class="eyebrow">QUESTION LIBRARY</div>
+            <h1 id="chaptersTitle">Chapters</h1>
+            <p>Choose a subject, then practice chapter by chapter.</p>
+          </div><button class="secondary" id="openAllQuestions">All questions</button>
+        </div>
+        <div class="subject-tabs" id="subjectTabs"></div>
+        <div class="chapter-toolbar">
+          <div class="chapter-filters"><button class="filter-chip active" data-filter="all">All</button><button
+              class="filter-chip" data-filter="weak">Weak</button><button class="filter-chip"
+              data-filter="unattempted">Unattempted</button></div><select id="chapterSort">
+            <option value="default">Default</option>
+            <option value="questions">Most questions</option>
+            <option value="accuracy">Best accuracy</option>
+            <option value="weakness">Weakest first</option>
+          </select>
+        </div>
+        <div id="chapterGroups"></div>
+      </section>
+
+      <section class="page" id="chapterPage">
+        <div class="detail-head"><button class="back-link" id="backToChapters">← Chapters</button>
+          <div class="detail-title-row">
+            <div>
+              <div class="eyebrow" id="detailSubject">PHYSICS</div>
+              <h1 id="detailTitle">Units & Measurements</h1>
+              <p id="detailSub">Chapter-wise practice</p>
+            </div><button class="primary" id="detailPractice">Start practice</button>
+          </div>
+        </div>
+        <div class="detail-stats" id="detailStats"></div>
+        <div class="chapter-view-tabs" role="tablist" aria-label="Chapter question lists">
+          <button class="chapter-view-tab active" data-chapter-view="all" role="tab" aria-selected="true">All
+            questions</button>
+          <button class="chapter-view-tab" data-chapter-view="mistakes" role="tab" aria-selected="false">Mistakes <span
+              id="mistakeCountBadge">0</span></button>
+        </div>
+        <div class="question-tools">
+          <div class="search-box"><span>⌕</span><input id="questionSearch" placeholder="Search questions…"></div><select
+            id="yearFilter">
+            <option value="">All years</option>
+          </select><select id="difficultyFilter">
+            <option value="">Difficulty</option>
+          </select><select id="typeFilter">
+            <option value="">Question type</option>
+          </select><button class="secondary" id="clearQuestionFilters">Clear</button>
+        </div>
+        <div id="chapterQuestions"></div>
+      </section>
+
+      <section class="page" id="allQuestionsPage">
+        <div class="page-title row-title">
+          <div>
+            <div class="eyebrow">QUESTION BANK</div>
+            <h1>All questions</h1>
+            <p>Search and filter the complete question library.</p>
+          </div><button class="primary" id="allPractice">Practice filtered</button>
+        </div>
+        <div class="question-tools">
+          <div class="search-box"><span>⌕</span><input id="allSearch" placeholder="Search question text, topic, paper…">
+          </div><select id="allSubject">
+            <option value="">All subjects</option>
+          </select><select id="allChapter">
+            <option value="">All chapters</option>
+          </select><select id="allYear">
+            <option value="">All years</option>
+          </select><select id="allStatus">
+            <option value="">Any status</option>
+            <option value="unattempted">Unattempted</option>
+            <option value="correct">Correct</option>
+            <option value="incorrect">Incorrect</option>
+            <option value="bookmarked">Bookmarked</option>
+            <option value="review">Review</option>
+          </select>
+        </div>
+        <div class="result-line"><span id="allCount">0 questions</span><button class="text-button"
+            id="clearAllFilters">Clear filters</button></div>
+        <div id="allQuestions"></div>
+      </section>
+
+      <section class="page" id="bookmarksPage">
+        <div class="page-title">
+          <div>
+            <div class="eyebrow">SAVED QUESTIONS</div>
+            <h1>Bookmarks</h1>
+            <p>Questions you want to revisit.</p>
+          </div>
+        </div>
+        <div id="bookmarksContent"></div>
+      </section>
+      <section class="page" id="historyPage">
+        <div class="page-title">
+          <div>
+            <div class="eyebrow">LOCAL HISTORY</div>
+            <h1>Practice history</h1>
+            <p>Every answer and solving time stays on this device.</p>
+          </div>
+        </div>
+        <div id="historyContent"></div>
+      </section>
+      <section class="page" id="analyticsPage">
+        <div class="page-title">
+          <div>
+            <div class="eyebrow">PERFORMANCE</div>
+            <h1>Analytics</h1>
+            <p>See accuracy, speed and the chapters that need more work.</p>
+          </div>
+        </div>
+        <div id="analyticsContent"></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal-overlay hidden" id="shortcutsModal">
+    <div class="modal shortcuts-modal">
+      <div class="modal-header">
+        <div>
+          <div class="modal-title">Keyboard Shortcuts</div>
+          <div class="modal-subtitle">
+            Navigate and answer questions faster
+          </div>
+        </div>
+
+        <button class="modal-close" id="closeShortcutsModal" type="button" aria-label="Close shortcuts">
+          ×
+        </button>
+      </div>
+
+      <div class="shortcuts-grid">
+
+        <div class="shortcut-section">
+          <div class="shortcut-section-title">Answer</div>
+
+          <div class="shortcut-row">
+            <span>Select option</span>
+            <span class="shortcut-keys">
+              <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd><kbd>5</kbd>
+              <span class="shortcut-or">or</span>
+              <kbd>A</kbd><kbd>B</kbd><kbd>C</kbd><kbd>D</kbd><kbd>E</kbd>
+            </span>
+          </div>
+
+          <div class="shortcut-row">
+            <span>Enter integer answer</span>
+            <span class="shortcut-keys">
+              <kbd>0–9</kbd>
+            </span>
+          </div>
+
+          <div class="shortcut-row">
+            <span>Submit answer</span>
+            <span class="shortcut-keys">
+              <kbd>Enter</kbd>
+            </span>
+          </div>
+        </div>
+
+        <div class="shortcut-section">
+          <div class="shortcut-section-title">Navigation</div>
+
+          <div class="shortcut-row">
+            <span>Next question</span>
+            <span class="shortcut-keys">
+              <kbd>N</kbd><kbd>→</kbd>
+            </span>
+          </div>
+
+          <div class="shortcut-row">
+            <span>Previous question</span>
+            <span class="shortcut-keys">
+              <kbd>P</kbd><kbd>←</kbd>
+            </span>
+          </div>
+        </div>
+
+        <div class="shortcut-section">
+          <div class="shortcut-section-title">Question Tools</div>
+
+          <div class="shortcut-row">
+            <span>Show / hide answer</span>
+            <span class="shortcut-keys">
+              <kbd>S</kbd>
+            </span>
+          </div>
+
+          <div class="shortcut-row">
+            <span>Bookmark question</span>
+            <span class="shortcut-keys">
+              <kbd>M</kbd>
+            </span>
+          </div>
+
+          <div class="shortcut-row">
+            <span>Mark for review</span>
+            <span class="shortcut-keys">
+              <kbd>R</kbd>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="modal hidden" id="sessionModal" role="dialog" aria-modal="true" aria-hidden="true"
+    aria-labelledby="sessionTitle">
+    <div class="modal-card session-card">
+      <div class="modal-head">
+        <div>
+          <div class="eyebrow">PRACTICE SETUP</div>
+          <h2 id="sessionTitle">Practice session</h2>
+          <p id="sessionSubtitle">All matching questions will be included.</p>
+        </div>
+        <button class="close" data-close="sessionModal" aria-label="Close">×</button>
+      </div>
+
+      <section class="setup-section">
+        <div class="section-heading">
+          <div>
+            <h3>Question order</h3>
+            <p>Choose how the complete question set should be arranged.</p>
+          </div>
+        </div>
+        <div class="setup-grid three">
+          <button class="setup-choice active" data-order-choice="newest"><span
+              class="choice-icon">↓</span><span><b>Newest first</b><small>New → Old</small></span></button>
+          <button class="setup-choice" data-order-choice="oldest"><span class="choice-icon">↑</span><span><b>Oldest
+                first</b><small>Old → New</small></span></button>
+          <button class="setup-choice" data-order-choice="random"><span
+              class="choice-icon">⌘</span><span><b>Random</b><small>Shuffle the complete set</small></span></button>
+        </div>
+      </section>
+
+      <section class="setup-section continue-section">
+        <div class="section-heading inline">
+          <div>
+            <h3>Continue or restart</h3>
+            <p>Your answers are kept locally on this device.</p>
+          </div>
+          <span class="session-found" id="sessionFound" hidden>Previous session found</span>
+        </div>
+        <div class="setup-grid two">
+          <button class="setup-choice active" data-resume-choice="resume"><span
+              class="choice-icon">▶</span><span><b>Resume</b><small>Continue the unfinished
+                session</small></span></button>
+          <button class="setup-choice" data-resume-choice="fresh"><span class="choice-icon">↻</span><span><b>Start
+                fresh</b><small>Begin again without deleting history</small></span></button>
+        </div>
+      </section>
+
+      <div class="session-summary"><strong id="sessionSummaryCount">All matching questions</strong><span>No
+          question-count limit</span></div>
+      <button class="primary full" id="launchSession">Start practice session <span>→</span></button>
+    </div>
+  </div>
+
+  <div class="practice-overlay hidden" id="practiceOverlay">
+    <header class="practice-header">
+      <div class="practice-name"><button class="close-practice" id="closePractice" aria-label="Back">←</button><strong
+          id="practiceChapter">Units & Measurements</strong><span id="practiceContext">Practice</span></div>
+      <div class="practice-tools"><span id="practiceExam">JEE Main · 2025</span><button class="practice-icon"
+          id="practiceThemeButton" title="Toggle appearance">☼</button></div>
     </header>
 
-    <section class="page active" id="homePage">
-      <div class="page-title"><div><div class="eyebrow">PREVIOUS YEAR QUESTIONS</div><h1 id="homeTitle">JEE Main</h1><p id="homeSubtitle">Chapter-wise questions with year, paper details, progress and solving time.</p></div></div>
-      <div class="subject-grid" id="subjectGrid"></div>
-      <div class="quick-panel">
-        <div class="quick-icon">⌁</div><div class="quick-copy"><h2>Practice exactly what you need</h2><p>Pick a subject and chapter, or jump straight into your weak and unattempted questions.</p></div>
-        <div class="quick-actions"><button class="primary" id="quickPractice">Start practice</button><button class="secondary" id="weakPractice">Weak questions</button></div>
-      </div>
-      <div class="mini-overview" id="homeOverview"></div>
-    </section>
-
-    <section class="page" id="chaptersPage">
-      <div class="page-title row-title"><div><div class="eyebrow">QUESTION LIBRARY</div><h1 id="chaptersTitle">Chapters</h1><p>Choose a subject, then practice chapter by chapter.</p></div><button class="secondary" id="openAllQuestions">All questions</button></div>
-      <div class="subject-tabs" id="subjectTabs"></div>
-      <div class="chapter-toolbar"><div class="chapter-filters"><button class="filter-chip active" data-filter="all">All</button><button class="filter-chip" data-filter="weak">Weak</button><button class="filter-chip" data-filter="unattempted">Unattempted</button></div><select id="chapterSort"><option value="default">Default</option><option value="questions">Most questions</option><option value="accuracy">Best accuracy</option><option value="weakness">Weakest first</option></select></div>
-      <div id="chapterGroups"></div>
-    </section>
-
-    <section class="page" id="chapterPage">
-      <div class="detail-head"><button class="back-link" id="backToChapters">← Chapters</button><div class="detail-title-row"><div><div class="eyebrow" id="detailSubject">PHYSICS</div><h1 id="detailTitle">Units & Measurements</h1><p id="detailSub">Chapter-wise practice</p></div><button class="primary" id="detailPractice">Start practice</button></div></div>
-      <div class="detail-stats" id="detailStats"></div>
-      <div class="question-tools"><div class="search-box"><span>⌕</span><input id="questionSearch" placeholder="Search questions…"></div><select id="yearFilter"><option value="">All years</option></select><select id="difficultyFilter"><option value="">Difficulty</option></select><select id="typeFilter"><option value="">Question type</option></select><button class="secondary" id="clearQuestionFilters">Clear</button></div>
-      <div id="chapterQuestions"></div>
-    </section>
-
-    <section class="page" id="allQuestionsPage">
-      <div class="page-title row-title"><div><div class="eyebrow">QUESTION BANK</div><h1>All questions</h1><p>Search and filter the complete question library.</p></div><button class="primary" id="allPractice">Practice filtered</button></div>
-      <div class="question-tools"><div class="search-box"><span>⌕</span><input id="allSearch" placeholder="Search question text, topic, paper…"></div><select id="allSubject"><option value="">All subjects</option></select><select id="allChapter"><option value="">All chapters</option></select><select id="allYear"><option value="">All years</option></select><select id="allStatus"><option value="">Any status</option><option value="unattempted">Unattempted</option><option value="correct">Correct</option><option value="incorrect">Incorrect</option><option value="bookmarked">Bookmarked</option><option value="review">Review</option></select></div>
-      <div class="result-line"><span id="allCount">0 questions</span><button class="text-button" id="clearAllFilters">Clear filters</button></div><div id="allQuestions"></div>
-    </section>
-
-    <section class="page" id="bookmarksPage"><div class="page-title"><div><div class="eyebrow">SAVED QUESTIONS</div><h1>Bookmarks</h1><p>Questions you want to revisit.</p></div></div><div id="bookmarksContent"></div></section>
-    <section class="page" id="historyPage"><div class="page-title"><div><div class="eyebrow">LOCAL HISTORY</div><h1>Practice history</h1><p>Every answer and solving time stays on this device.</p></div></div><div id="historyContent"></div></section>
-    <section class="page" id="analyticsPage"><div class="page-title"><div><div class="eyebrow">PERFORMANCE</div><h1>Analytics</h1><p>See accuracy, speed and the chapters that need more work.</p></div></div><div id="analyticsContent"></div></section>
-  </main>
-</div>
-
-<div class="modal hidden" id="sessionModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="sessionTitle">
-  <div class="modal-card session-card">
-    <div class="modal-head">
-      <div>
-        <div class="eyebrow">PRACTICE SETUP</div>
-        <h2 id="sessionTitle">Practice session</h2>
-        <p id="sessionSubtitle">All matching questions will be included.</p>
-      </div>
-      <button class="close" data-close="sessionModal" aria-label="Close">×</button>
+    <div class="number-strip">
+      <button class="strip-arrow" id="prevStrip" aria-label="Previous question">‹</button>
+      <div id="questionStrip" aria-label="Question navigation"></div>
+      <button class="strip-arrow" id="nextStrip" aria-label="Next question">›</button>
     </div>
 
-    <section class="setup-section">
-      <div class="section-heading">
-        <div>
-          <h3>Question order</h3>
-          <p>Choose how the complete question set should be arranged.</p>
+    <div class="practice-body">
+      <main class="practice-main">
+        <div class="question-card-head">
+          <div class="question-status-line"><span class="q-number status-blue" id="practiceNumber">1</span><span
+              class="practice-time" id="questionTime">00:00</span><span class="score-green"
+              id="scoreCorrect">+4</span><span class="score-red" id="scoreIncorrect">−0</span></div>
+          <div class="question-badges" id="practiceBadges"></div>
         </div>
-      </div>
-      <div class="setup-grid three">
-        <button class="setup-choice active" data-order-choice="newest"><span class="choice-icon">↓</span><span><b>Newest first</b><small>New → Old</small></span></button>
-        <button class="setup-choice" data-order-choice="oldest"><span class="choice-icon">↑</span><span><b>Oldest first</b><small>Old → New</small></span></button>
-        <button class="setup-choice" data-order-choice="random"><span class="choice-icon">⌘</span><span><b>Random</b><small>Shuffle the complete set</small></span></button>
-      </div>
-    </section>
-
-    <section class="setup-section continue-section">
-      <div class="section-heading inline">
-        <div>
-          <h3>Continue or restart</h3>
-          <p>Your answers are kept locally on this device.</p>
+        <div class="question-prompt" id="practicePrompt"></div>
+        <div id="answerArea"></div>
+        <div class="explanation hidden" id="explanation">
+          <div class="explanation-title">Answer & explanation</div>
+          <div id="explanationBody"></div>
         </div>
-        <span class="session-found" id="sessionFound" hidden>Previous session found</span>
-      </div>
-      <div class="setup-grid two">
-        <button class="setup-choice active" data-resume-choice="resume"><span class="choice-icon">▶</span><span><b>Resume</b><small>Continue the unfinished session</small></span></button>
-        <button class="setup-choice" data-resume-choice="fresh"><span class="choice-icon">↻</span><span><b>Start fresh</b><small>Begin again without deleting history</small></span></button>
-      </div>
-    </section>
+      </main>
 
-    <div class="session-summary"><strong id="sessionSummaryCount">All matching questions</strong><span>No question-count limit</span></div>
-    <button class="primary full" id="launchSession">Start practice session <span>→</span></button>
-  </div>
-</div>
-
-<div class="practice-overlay hidden" id="practiceOverlay">
-  <header class="practice-header">
-    <div class="practice-name"><button class="close-practice" id="closePractice" aria-label="Back">←</button><strong id="practiceChapter">Units & Measurements</strong><span id="practiceContext">Practice</span></div>
-    <div class="practice-tools"><span id="practiceExam">JEE Main · 2025</span><button class="practice-icon" id="practiceThemeButton" title="Toggle appearance">☼</button></div>
-  </header>
-
-  <div class="number-strip">
-    <button class="strip-arrow" id="prevStrip" aria-label="Previous question">‹</button>
-    <div id="questionStrip" aria-label="Question navigation"></div>
-    <button class="strip-arrow" id="nextStrip" aria-label="Next question">›</button>
-  </div>
-
-  <div class="practice-body">
-    <main class="practice-main">
-      <div class="question-card-head">
-        <div class="question-status-line"><span class="q-number status-blue" id="practiceNumber">1</span><span class="practice-time" id="questionTime">00:00</span><span class="score-green" id="scoreCorrect">+4</span><span class="score-red" id="scoreIncorrect">−0</span></div>
-        <div class="question-badges" id="practiceBadges"></div>
-      </div>
-      <div class="question-prompt" id="practicePrompt"></div>
-      <div id="answerArea"></div>
-      <div class="explanation hidden" id="explanation"><div class="explanation-title">Answer & explanation</div><div id="explanationBody"></div></div>
-    </main>
-
-    <aside class="palette">
-      <div class="palette-header"><div><strong>Questions</strong><span id="paletteSubject">Physics · 0</span></div></div>
-      <div class="legend">
-        <div><i class="dot green"></i>Correct</div><div><i class="dot red"></i>Wrong</div>
-        <div><i class="dot blue"></i>Attempted</div><div><i class="dot amber"></i>Seen</div>
-        <div><i class="dot gray"></i>Not seen</div>
-      </div>
-      <div class="palette-numbers" id="paletteNumbers"></div>
-    </aside>
-  </div>
-
-  <footer class="practice-footer">
-    <button class="secondary" id="prevQuestion">← Previous</button>
-    <div class="footer-center">
-      <button class="small-action" id="bookmarkCurrent" title="Bookmark">☆</button>
-      <button class="small-action" id="reviewCurrent" title="Review later">⚐</button>
-      <button class="answer-toggle" id="showAnswerToggle">Show Answer</button>
+      <aside class="palette">
+        <div class="palette-header">
+          <div><strong>Questions</strong><span id="paletteSubject">Physics · 0</span></div>
+        </div>
+        <div class="legend">
+          <div><i class="dot green"></i>Correct</div>
+          <div><i class="dot red"></i>Wrong</div>
+          <div><i class="dot blue"></i>Attempted</div>
+          <div><i class="dot amber"></i>Seen</div>
+          <div><i class="dot gray"></i>Not seen</div>
+        </div>
+        <div class="palette-numbers" id="paletteNumbers"></div>
+      </aside>
     </div>
-    <button class="primary" id="submitAnswer">Submit</button>
-    <button class="primary hidden" id="nextQuestion">Next →</button>
-  </footer>
-</div>
 
-<div class="toast" id="toast"></div>
-<script src="app.js"></script>
+    <footer class="practice-footer">
+      <button class="secondary" id="prevQuestion">← Previous</button>
+      <div class="footer-center">
+        <button class="small-action" id="bookmarkCurrent" title="Bookmark">☆</button>
+        <button class="small-action" id="reviewCurrent" title="Review later">⚐</button>
+        <button class="answer-toggle" id="showAnswerToggle">Show Answer</button>
+        <button class="answer-toggle shortcuts-btn" id="shortcutsBtn" type="button">
+          <span class="shortcut-icon">⌨</span>
+          Shortcuts
+        </button>
+      </div>
+      <button class="primary" id="submitAnswer">Submit</button>
+      <button class="primary hidden" id="nextQuestion">Next →</button>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
 </body>
+
 </html>

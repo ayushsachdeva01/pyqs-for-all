@@ -12,6 +12,24 @@
 
   const $ = id => document.getElementById(id);
 
+  const shortcutsBtn = $('shortcutsBtn');
+  const shortcutsModal = $('shortcutsModal');
+  const closeShortcutsModal = $('closeShortcutsModal');
+
+  shortcutsBtn?.addEventListener('click', () => {
+    shortcutsModal?.classList.remove('hidden');
+  });
+
+  closeShortcutsModal?.addEventListener('click', () => {
+    shortcutsModal?.classList.add('hidden');
+  });
+
+  shortcutsModal?.addEventListener('click', (event) => {
+    if (event.target === shortcutsModal) {
+      shortcutsModal.classList.add('hidden');
+    }
+  });
+
   const state = {
     questions: [],
     exam: 'jee-main',
@@ -19,6 +37,7 @@
     page: 'home',
     chapter: null,
     chapterFilter: 'all',
+    chapterView: 'all',
     session: null,
     index: 0,
     selected: new Set(),
@@ -330,7 +349,17 @@
     $('weakPractice').onclick = () => openSession('weak');
     $('openAllQuestions').onclick = () => showPage('allQuestions');
     $('allPractice').onclick = () => openSession('allFiltered');
-    $('detailPractice').onclick = () => openSession('chapter');
+    $('detailPractice').onclick = () => openSession(state.chapterView === 'mistakes' ? 'mistakes' : 'chapter');
+    document.querySelectorAll('[data-chapter-view]').forEach(button => {
+      button.onclick = () => {
+        state.chapterView = button.dataset.chapterView;
+        updateChapterViewTabs();
+        const mistakes = getChapterMistakes();
+        $('detailPractice').textContent = state.chapterView === 'mistakes' ? `Retry ${mistakes.length} mistake${mistakes.length === 1 ? '' : 's'}` : 'Start practice';
+        $('detailPractice').disabled = state.chapterView === 'mistakes' && mistakes.length === 0;
+        renderChapterQuestions();
+      };
+    });
     $('backToChapters').onclick = () => showPage('chapters');
     $('menuButton').onclick = () => $('sidebar').classList.toggle('open');
     $('themeButton').onclick = toggleTheme;
@@ -480,6 +509,42 @@
     });
   }
 
+  function latestAttemptsFor(qs) {
+    const ids = new Set(qs.map(q => q._id));
+    const latest = new Map();
+    attempts().forEach(item => {
+      if (ids.has(item.questionId)) latest.set(item.questionId, item);
+    });
+    return [...latest.values()];
+  }
+
+  function progressFor(qs) {
+    const latest = latestAttemptsFor(qs);
+    return {
+      attempted: latest.length,
+      correct: latest.filter(a => a.correct).length,
+      wrong: latest.filter(a => !a.correct).length
+    };
+  }
+
+  function updateChapterViewTabs() {
+    document.querySelectorAll('[data-chapter-view]').forEach(button => {
+      const active = button.dataset.chapterView === state.chapterView;
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-selected', String(active));
+    });
+    const badge = $('mistakeCountBadge');
+    if (badge) badge.textContent = String(getChapterMistakes().length);
+  }
+
+  function getChapterMistakes() {
+    if (!state.chapter) return [];
+    const allQs = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
+    const latest = latestAttemptsFor(allQs);
+    const wrongIds = new Set(latest.filter(a => !a.correct).map(a => a.questionId));
+    return allQs.filter(q => wrongIds.has(q._id));
+  }
+
   function renderChapters() {
     renderSubjectTabs();
     $('chaptersTitle').textContent = `${state.subject} Chapters`;
@@ -488,9 +553,9 @@
     const qs = examQs().filter(q => q._subject === state.subject);
     let chapters = [...new Set(qs.map(q => q._chapter))].map(chapter => {
       const data = qs.filter(q => q._chapter === chapter);
-      const attempted = new Set(attempts().filter(a => data.some(q => q._id === a.questionId)).map(a => a.questionId)).size;
-      const accuracy = accuracyFor(data);
-      return { chapter, data, attempted, accuracy, weak: data.length > 0 && accuracy < 60 };
+      const progress = progressFor(data);
+      const accuracy = progress.attempted ? Math.round(progress.correct / progress.attempted * 100) : 0;
+      return { chapter, data, ...progress, accuracy, weak: data.length > 0 && accuracy < 60 };
     });
 
     if (filter === 'weak') chapters = chapters.filter(x => x.weak);
@@ -514,40 +579,49 @@
   }
 
   function chapterCard(item) {
-    const pct = item.data.length ? Math.round(item.attempted / item.data.length * 100) : 0;
+    const correctPct = item.data.length ? (item.correct / item.data.length * 100) : 0;
+    const wrongPct = item.data.length ? (item.wrong / item.data.length * 100) : 0;
     return `<article class="chapter-card" data-chapter="${esc(item.chapter)}">
       <div class="chapter-card-top">
         <div class="chapter-count"><b>${item.data.length}</b><span>Qs</span></div>
         <div class="chapter-card-info"><h3>${esc(item.chapter)}</h3>
           <div class="chapter-tags"><span class="tag">${esc(prettyExam(item.data[0]?._exam))}</span><span class="tag">${esc(yearRange(item.data))}</span></div>
-          <div class="chapter-progress"><span>${item.attempted}/${item.data.length} attempted</span><b>${pct}%</b></div>
+          <div class="chapter-progress"><span>${item.attempted}/${item.data.length} attempted · ${item.correct} correct · ${item.wrong} wrong</span><b>${item.attempted ? item.accuracy : 0}%</b></div>
         </div>
       </div>
-      <div class="progress"><i style="width:${pct}%"></i></div>
+      <div class="progress progress-multi" aria-label="${item.correct} correct, ${item.wrong} wrong, ${item.data.length - item.attempted} unattempted">
+        <i class="progress-correct" style="width:${correctPct}%"></i><i class="progress-wrong" style="width:${wrongPct}%"></i>
+      </div>
       <div class="chapter-card-foot">Open chapter <span>→</span></div>
     </article>`;
   }
 
   function openChapter(chapter) {
     state.chapter = chapter;
+    state.chapterView = 'all';
     state.subject = examQs().find(q => q._chapter === chapter)?._subject || state.subject;
     showPage('chapter');
   }
 
   function renderChapterQuestions() {
-    const qs = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
+    const allQs = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
+    const qs = state.chapterView === 'mistakes' ? getChapterMistakes() : allQs;
+    updateChapterViewTabs();
     $('detailSubject').textContent = state.subject.toUpperCase();
     $('detailTitle').textContent = state.chapter || 'Chapter';
-    $('detailSub').textContent = `${qs.length} questions · ${new Set(qs.map(q => q._topic)).size} topics · ${yearRange(qs)}`;
+    const mistakeCount = getChapterMistakes().length;
+    $('detailSub').textContent = `${state.chapterView === 'mistakes' ? 'Questions currently in your mistake list' : `${allQs.length} questions`} · ${new Set(allQs.map(q => q._topic)).size} topics · ${yearRange(allQs)}`;
+    $('detailPractice').textContent = state.chapterView === 'mistakes' ? `Retry ${mistakeCount} mistake${mistakeCount === 1 ? '' : 's'}` : 'Start practice';
+    $('detailPractice').disabled = state.chapterView === 'mistakes' && mistakeCount === 0;
 
-    const relevant = attempts().filter(a => qs.some(q => q._id === a.questionId));
+    const relevant = latestAttemptsFor(allQs);
     const correct = relevant.filter(a => a.correct).length;
-    const avg = relevant.length ? Math.round(relevant.reduce((sum, a) => sum + a.timeMs, 0) / relevant.length) : 0;
+    const avg = relevant.length ? Math.round(relevant.reduce((sum, a) => sum + (Number(a.timeMs) || 0), 0) / relevant.length) : 0;
     $('detailStats').innerHTML = [
-      ['Questions', qs.length],
-      ['Attempted', new Set(relevant.map(a => a.questionId)).size],
+      ['Questions', allQs.length],
+      ['Attempted', relevant.length],
       ['Accuracy', relevant.length ? `${Math.round(correct / relevant.length * 100)}%` : '—'],
-      ['Avg. time', relevant.length ? formatTime(avg) : '—']
+      ['Mistakes', mistakeCount]
     ].map(([label, value]) => `<div class="detail-stat"><span>${label}</span><b>${value}</b></div>`).join('');
 
     const search = $('questionSearch').value.trim().toLowerCase();
@@ -555,15 +629,16 @@
     const selectedDifficulty = $('difficultyFilter').value;
     const selectedType = $('typeFilter').value;
 
-    const years = [...new Set(qs.map(q => q._year).filter(Boolean))].sort((a, b) => b - a);
+    const filterSource = qs.length ? qs : allQs;
+    const years = [...new Set(filterSource.map(q => q._year).filter(Boolean))].sort((a, b) => b - a);
     $('yearFilter').innerHTML = '<option value="">All years</option>' + years.map(y => `<option value="${y}">${y}</option>`).join('');
     $('yearFilter').value = years.some(y => String(y) === selectedYear) ? selectedYear : '';
 
-    const difficulties = [...new Set(qs.map(q => q._difficulty))].sort();
+    const difficulties = [...new Set(filterSource.map(q => q._difficulty))].sort();
     $('difficultyFilter').innerHTML = '<option value="">Difficulty</option>' + difficulties.map(x => `<option value="${esc(x)}">${esc(x)}</option>`).join('');
     $('difficultyFilter').value = difficulties.includes(selectedDifficulty) ? selectedDifficulty : '';
 
-    const types = [...new Set(qs.map(q => q._type))].sort();
+    const types = [...new Set(filterSource.map(q => q._type))].sort();
     $('typeFilter').innerHTML = '<option value="">Question type</option>' + types.map(x => `<option value="${esc(x)}">${esc(x)}</option>`).join('');
     $('typeFilter').value = types.includes(selectedType) ? selectedType : '';
 
@@ -581,7 +656,7 @@
     filtered.forEach(q => (grouped[q._year || 'Other'] ??= []).push(q));
     $('chapterQuestions').innerHTML = Object.entries(grouped).sort((a, b) => Number(b[0]) - Number(a[0])).map(([yearKey, list]) =>
       `<section><h2 class="year-heading">${esc(yearKey)}</h2>${list.map((q, i) => questionRow(q, i)).join('')}</section>`
-    ).join('') || '<div class="empty">No questions match these filters.</div>';
+    ).join('') || `<div class="empty"><strong>${state.chapterView === 'mistakes' ? 'No mistakes here' : 'No questions match these filters.'}</strong><span>${state.chapterView === 'mistakes' ? 'Questions leave this tab automatically once your latest attempt is correct.' : ''}</span></div>`;
 
     bindQuestionRows();
     typeset();
@@ -757,6 +832,8 @@
         const list = getAttempts(q._id);
         return list.length && (list.filter(x => x.correct).length / list.length < 0.6 || list.some(x => x.timeMs > 120000));
       });
+    } else if (source === 'mistakes') {
+      pool = getChapterMistakes();
     } else if (source === 'allFiltered') {
       pool = filteredAllQuestions();
     } else if (source === 'single') {
@@ -994,6 +1071,7 @@
       selectedIds: [...state.selected]
     };
     renderAnswers(q);
+    updateSubmitButtons(q);
     // Re-typeset after replacing the option DOM; otherwise MathJax markup can
     // temporarily appear as literal TeX when the selected state changes.
     typeset($('answerArea'));
@@ -1054,6 +1132,10 @@
     };
 
     recordAttempt(q, correct, elapsed, score);
+    // Keep the library UI in sync immediately; do not require a page reload.
+    renderHome();
+    renderChapters();
+    if (state.chapter) renderChapterQuestions();
     stopTimer();
     state.session.answerVisible = true;
     setAnswerVisibility(true);
@@ -1076,10 +1158,12 @@
 
   function updateSubmitButtons(q) {
     const submitted = !!state.session.answers[q._id]?.submitted;
-    $('submitAnswer').classList.toggle('hidden', submitted);
-    $('nextQuestion').classList.toggle('hidden', !submitted);
     const hasAnswer = qopts(q).length ? state.selected.size > 0 : !!($('fillAnswer')?.value || '').trim();
+    $('submitAnswer').classList.toggle('hidden', submitted);
     $('submitAnswer').disabled = submitted || !hasAnswer;
+    $('nextQuestion').classList.remove('hidden');
+    $('nextQuestion').textContent = state.index >= state.session.questions.length - 1 ? 'Finish →' : 'Next →';
+    $('nextQuestion').title = 'Go to the next question without submitting';
     const marks = questionMarks(q);
     $('scoreCorrect').textContent = `+${marks.correct}`;
     $('scoreIncorrect').textContent = `−${marks.incorrect}`;
@@ -1314,22 +1398,65 @@
       submitAnswer();
       return;
     }
-    if (key === 'b') {
-      event.preventDefault();
-      toggleSaved('bookmark');
-    } else if (key === 'n') {
+     if (key === 'n' || event.key === 'ArrowRight') {
       event.preventDefault();
       nextQuestion();
-    } else if (key === 'p') {
+    } else if (key === 'p' || event.key === 'ArrowLeft') {
       event.preventDefault();
       prevQuestion();
-    } else if (['1', '2', '3', '4'].includes(event.key)) {
-      const button = document.querySelectorAll('.answer-option')[Number(event.key) - 1];
-      if (button && !button.disabled) {
-        event.preventDefault();
-        button.click();
-      }
+    } else if (key === 'm') {
+      event.preventDefault();
+      toggleSaved('bookmark');
+    } else if (key === 'r') {
+      event.preventDefault();
+      toggleSaved('review');
+    } else if (key === 's') {
+      event.preventDefault();
+      toggleAnswer();
+    } else if (/^[0-9]$/.test(event.key)) {
+  const fillInput = $('fillAnswer');
+
+  // Integer/numerical question:
+  // Any number key focuses the answer field and inserts the number.
+  if (fillInput && !fillInput.disabled) {
+    event.preventDefault();
+
+    fillInput.focus();
+
+    const start = fillInput.selectionStart ?? fillInput.value.length;
+    const end = fillInput.selectionEnd ?? fillInput.value.length;
+
+    fillInput.setRangeText(event.key, start, end, 'end');
+    fillInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+    return;
+  }
+
+  // MCQ:
+  // 1-5 select options A-E.
+  const optionIndex = Number(event.key) - 1;
+
+  if (optionIndex >= 0 && optionIndex < 5) {
+    const buttons = document.querySelectorAll('.answer-option');
+    const button = buttons[optionIndex];
+
+    if (button && !button.disabled) {
+      event.preventDefault();
+      button.click();
     }
+  }
+} else if (/^[a-eA-E]$/.test(event.key)) {
+  // A-E select options 1-5.
+  const optionIndex = event.key.toUpperCase().charCodeAt(0) - 'A'.charCodeAt(0);
+
+  const buttons = document.querySelectorAll('.answer-option');
+  const button = buttons[optionIndex];
+
+  if (button && !button.disabled) {
+    event.preventDefault();
+    button.click();
+  }
+}
   }
 
   function typeset(element = null) {
