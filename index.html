@@ -40,7 +40,7 @@
   <main class="main">
     <header class="topbar">
       <button class="mobile-menu" id="menuButton">☰</button>
-      <div class="wordmark">JEE Practice</div>
+      <div class="wordmark">JEE Practice <span class="wordmark-sub">PYQ Library</span></div>
       <div class="exam-tabs" id="examTabs">
         <button data-exam="jee-main">JEE Main</button>
         <button data-exam="jee-advanced">JEE Advanced</button>
@@ -49,7 +49,7 @@
     </header>
 
     <section class="page active" id="homePage">
-      <div class="page-title"><div><div class="eyebrow">PREVIOUS YEAR QUESTIONS</div><h1 id="homeTitle">JEE Main</h1><p>Chapter-wise questions with your local progress, accuracy and solving time.</p></div></div>
+      <div class="page-title"><div><div class="eyebrow">PREVIOUS YEAR QUESTIONS</div><h1 id="homeTitle">JEE Main</h1><p id="homeSubtitle">Chapter-wise questions with year, paper details, progress and solving time.</p></div></div>
       <div class="subject-grid" id="subjectGrid"></div>
       <div class="quick-panel">
         <div class="quick-icon">⌁</div><div class="quick-copy"><h2>Practice exactly what you need</h2><p>Pick a subject and chapter, or jump straight into your weak and unattempted questions.</p></div>
@@ -130,8 +130,8 @@
 
 <div class="practice-overlay hidden" id="practiceOverlay">
   <header class="practice-header">
-    <div class="practice-name"><button class="close-practice" id="closePractice" aria-label="Back">←</button><strong id="practiceChapter">Units & Measurements</strong><span>Practice</span></div>
-    <div class="practice-tools"><span id="practiceExam">JEE Main</span><button class="practice-icon" id="practiceThemeButton" title="Toggle appearance">☼</button></div>
+    <div class="practice-name"><button class="close-practice" id="closePractice" aria-label="Back">←</button><strong id="practiceChapter">Units & Measurements</strong><span id="practiceContext">Practice</span></div>
+    <div class="practice-tools"><span id="practiceExam">JEE Main · 2025</span><button class="practice-icon" id="practiceThemeButton" title="Toggle appearance">☼</button></div>
   </header>
 
   <div class="number-strip">

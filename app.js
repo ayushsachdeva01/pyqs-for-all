@@ -186,6 +186,20 @@
   }
 
   function prettyExam(exam) { return exam === 'jee-advanced' ? 'JEE Advanced' : 'JEE Main'; }
+  function prettyYear(year) {
+    const value = Number(year);
+    return Number.isFinite(value) && value > 0 ? String(value) : 'Year not specified';
+  }
+  function paperLabel(q) {
+    const paper = q?.paperTitle || '';
+    return paper ? strip(paper) : '';
+  }
+  function yearRange(list) {
+    const years = [...new Set(list.map(q => Number(q._year)).filter(y => Number.isFinite(y) && y > 0))].sort((a, b) => b - a);
+    if (!years.length) return 'Years unavailable';
+    if (years.length === 1) return String(years[0]);
+    return `${years[years.length - 1]}–${years[0]}`;
+  }
   function examQs() { return state.questions.filter(q => q._exam === state.exam); }
   function allSubjects() { return ['Physics', 'Chemistry', 'Mathematics']; }
   function subjects() { return allSubjects().filter(s => state.questions.some(q => q._exam === state.exam && q._subject === s)); }
@@ -237,12 +251,18 @@
   async function loadQuestionLibrary() {
     const base = new URL('./questions/', document.baseURI);
     try {
-      const manifestResponse = await fetch(new URL('manifest.json', base), { cache: 'no-store' });
+      const manifestResponse = await fetch(new URL('manifest.json', base), { cache: 'default' });
       if (manifestResponse.ok) {
         const manifest = await manifestResponse.json();
         const files = Array.isArray(manifest) ? manifest : manifest.files;
         if (!Array.isArray(files)) throw new Error('Invalid question manifest');
-        const payloads = await Promise.all(files.filter(name => typeof name === 'string' && /\.json$/i.test(name)).map(name => fetchQuestionFile(new URL(name, base))));
+        const manifestFiles = files.filter(name => typeof name === 'string' && /\.json$/i.test(name));
+        const results = await Promise.allSettled(manifestFiles.map(name => fetchQuestionFile(new URL(name, base))));
+        const payloads = results.filter(result => result.status === 'fulfilled').map(result => result.value);
+        const failedFiles = results.filter(result => result.status === 'rejected').length;
+        if (!payloads.length) throw new Error('No question files could be loaded');
+        if (failedFiles) console.warn(`${failedFiles} question file(s) failed to load.`);
+
         state.questions = dedupeQuestions(normalize(payloads.flatMap(extractQuestionArray)));
         toast(`Loaded ${state.questions.length} questions`);
         return;
@@ -272,7 +292,7 @@
   }
 
   async function fetchQuestionFile(url) {
-    const response = await fetch(url, { cache: 'no-store' });
+    const response = await fetch(url, { cache: 'default' });
     if (!response.ok) throw new Error(`Failed to load ${url.pathname}`);
     return response.json();
   }
@@ -411,8 +431,9 @@
     const qs = examQs();
     $('homeTitle').textContent = prettyExam(state.exam);
     $('sideExam').textContent = prettyExam(state.exam);
+    $('homeSubtitle').textContent = `${qs.length.toLocaleString()} questions across ${new Set(qs.map(q => q._chapter)).size} chapters · ${yearRange(qs)} · progress is stored locally on this device.`;
 
-    const icons = { Physics: '⚛', Chemistry: '⚗', Mathematics: '▦' };
+    const icons = { Physics: 'PHY', Chemistry: 'CHE', Mathematics: 'MAT' };
     $('subjectGrid').innerHTML = allSubjects().map(subject => {
       const data = qs.filter(q => q._subject === subject);
       const chapters = new Set(data.map(q => q._chapter));
@@ -421,7 +442,7 @@
           <div class="subject-icon">${icons[subject]}</div>
           <h2>${subject}</h2>
           <p>${data.length ? 'Chapter-wise questions with solutions, progress and personal timing.' : 'No questions are available for this subject yet.'}</p>
-          <div class="subject-meta"><span>${data.length} questions</span><span>•</span><span>${chapters.size} chapters</span></div>
+          <div class="subject-meta"><span>${data.length} questions</span><span>•</span><span>${chapters.size} chapters</span><span>•</span><span>${esc(yearRange(data))}</span></div>
         </div>
         <div class="subject-open">${data.length ? 'Explore chapters' : 'No questions'} <span>→</span></div>
       </article>`;
@@ -498,7 +519,7 @@
       <div class="chapter-card-top">
         <div class="chapter-count"><b>${item.data.length}</b><span>Qs</span></div>
         <div class="chapter-card-info"><h3>${esc(item.chapter)}</h3>
-          <div class="chapter-tags"><span class="tag">Topic-wise</span><span class="tag green">Local</span></div>
+          <div class="chapter-tags"><span class="tag">${esc(prettyExam(item.data[0]?._exam))}</span><span class="tag">${esc(yearRange(item.data))}</span></div>
           <div class="chapter-progress"><span>${item.attempted}/${item.data.length} attempted</span><b>${pct}%</b></div>
         </div>
       </div>
@@ -517,7 +538,7 @@
     const qs = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
     $('detailSubject').textContent = state.subject.toUpperCase();
     $('detailTitle').textContent = state.chapter || 'Chapter';
-    $('detailSub').textContent = `${qs.length} questions · ${new Set(qs.map(q => q._topic)).size} topics`;
+    $('detailSub').textContent = `${qs.length} questions · ${new Set(qs.map(q => q._topic)).size} topics · ${yearRange(qs)}`;
 
     const relevant = attempts().filter(a => qs.some(q => q._id === a.questionId));
     const correct = relevant.filter(a => a.correct).length;
@@ -576,7 +597,13 @@
       <div class="q-index">${index + 1}</div>
       <div class="q-row-content">
         <div class="q-text">${esc(text.slice(0, 420))}${text.length > 420 ? '…' : ''}</div>
-        <div class="q-meta"><span>${esc(prettyExam(q._exam))} ${q._year || ''}</span><span class="difficulty">${esc(q._difficulty)}</span><span class="status-${attempt?.correct ? 'correct' : attempt ? 'wrong' : 'new'}">${status}</span></div>
+        <div class="q-meta">
+          <span class="q-exam">${esc(prettyExam(q._exam))}</span>
+          <span class="q-year">${esc(prettyYear(q._year))}</span>
+          ${paperLabel(q) ? `<span class="q-paper">${esc(paperLabel(q))}</span>` : ''}
+          <span class="difficulty">${esc(q._difficulty)}</span>
+          <span class="status-${attempt?.correct ? 'correct' : attempt ? 'wrong' : 'new'}">${status}</span>
+        </div>
       </div>
       <div class="q-actions"><button class="tiny-action" data-bookmark-q="${esc(q._id)}" title="Bookmark">${saved ? '★' : '☆'}</button></div>
     </article>`;
@@ -743,7 +770,7 @@
     state.order = 'newest';
     state.resumeChoice = 'resume';
     $('sessionTitle').textContent = source === 'chapter' ? state.chapter : 'Practice session';
-    $('sessionSubtitle').textContent = `${pool.length} questions match your current selection. All matching questions will be included.`;
+    $('sessionSubtitle').textContent = `${pool.length} questions · ${prettyExam(state.exam)} · ${yearRange(pool)}. All matching questions will be included.`;
     $('sessionSummaryCount').textContent = `${pool.length} question${pool.length === 1 ? '' : 's'} in this session`;
 
     document.querySelectorAll('[data-order-choice]').forEach(b => b.classList.toggle('active', b.dataset.orderChoice === 'newest'));
@@ -885,13 +912,21 @@
     state.qStartedAt = Date.now();
 
     $('practiceChapter').textContent = q._chapter;
-    $('practiceExam').textContent = prettyExam(q._exam);
+    $('practiceExam').textContent = `${prettyExam(q._exam)} · ${prettyYear(q._year)}`;
     $('practiceNumber').textContent = state.index + 1;
     $('questionTime').textContent = state.session.answers[q._id]?.submitted ? formatTime(state.session.answers[q._id].timeMs) : '00:00';
-    $('practiceBadges').innerHTML = `<span class="practice-badge">${esc(prettyExam(q._exam))}</span><span class="practice-badge">${esc(q._subject)}</span>`;
+    $('practiceBadges').innerHTML = [
+      `<span class="practice-badge exam-badge">${esc(prettyExam(q._exam))}</span>`,
+      `<span class="practice-badge year-badge">${esc(prettyYear(q._year))}</span>`,
+      `<span class="practice-badge">${esc(q._subject)}</span>`,
+      q.paperTitle ? `<span class="practice-badge paper-badge">${esc(paperLabel(q))}</span>` : ''
+    ].join('');
     $('practicePrompt').innerHTML = sanitizeHtml(qtext(q));
 
     renderAnswers(q);
+    // MathJax output is replaced whenever the answer options are re-rendered.
+    // Typeset the newly-created answer area so selecting an option never exposes raw TeX.
+    typeset($('answerArea'));
     updateQuestionStatusVisuals(q);
     renderStrip();
     renderPalette();
@@ -959,6 +994,9 @@
       selectedIds: [...state.selected]
     };
     renderAnswers(q);
+    // Re-typeset after replacing the option DOM; otherwise MathJax markup can
+    // temporarily appear as literal TeX when the selected state changes.
+    typeset($('answerArea'));
     renderStrip();
     renderPalette();
     saveActiveSession();
@@ -1294,9 +1332,27 @@
     }
   }
 
-  function typeset() {
-    window.MathJax?.typesetPromise?.().catch(() => {});
+  function typeset(element = null) {
+    const mathJax = window.MathJax;
+    if (!mathJax?.typesetPromise) return;
+
+    // Passing the newly-rendered container is important: answer options are
+    // replaced with innerHTML on every selection, so their TeX must be
+    // explicitly processed again.
+    const targets = element ? [element] : undefined;
+    mathJax.typesetPromise(targets).catch(error => {
+      console.warn('MathJax typesetting failed:', error);
+    });
   }
+
+  window.addEventListener('error', event => {
+    console.error('Unhandled application error:', event.error || event.message);
+    toast('Something went wrong. Please refresh and try again.');
+  });
+  window.addEventListener('unhandledrejection', event => {
+    console.error('Unhandled promise rejection:', event.reason);
+    toast('A background operation failed. Please try again.');
+  });
 
   init();
 })();
