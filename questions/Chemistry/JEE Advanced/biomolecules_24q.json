@@ -1,0 +1,1661 @@
+{
+  "questions": [
+    {
+      "question_id": "kcuwkahga0js7spma1cp",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pa-known-artificial-sweetener-mathbfx-is-composed-of-jee-advanced-chemistry-zrp3tut1fmdsz4bk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A known artificial sweetener $\\mathbf{X}$ is composed of 4-chloro-4-deoxy- $\\alpha$-D-galactose and 1,6-dichloro-1,6-dideoxy- $\\beta$-D-fructose joined by a glycosidic linkage. Structure of D-galactose is given below :</p>\n<img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Biomolecules Question 2 English\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9y1lmi/2a976c00-c6e1-444f-baab-e052b998b9db/00d231a0-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y1lmj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9y1lmi/2a976c00-c6e1-444f-baab-e052b998b9db/00d231a0-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y1lmj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n<p>The correct structure of $\\mathbf{X}$ is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Biomolecules Question 2 English Option 1\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9y2sek/3cb832b1-46f5-4ced-ac87-425899e57604/21ddf8c0-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y2sel.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9y2sek/3cb832b1-46f5-4ced-ac87-425899e57604/21ddf8c0-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y2sel.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Biomolecules Question 2 English Option 2\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9y3haf/958b1f02-3d6a-44e2-a642-1596d6a02d9d/35171570-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y3hag.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9y3haf/958b1f02-3d6a-44e2-a642-1596d6a02d9d/35171570-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y3hag.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Biomolecules Question 2 English Option 3\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9y48lr/09f6a4fb-4505-42da-b4c6-3b5bfe6a6c20/4a30b1f0-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y48ls.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9y48lr/09f6a4fb-4505-42da-b4c6-3b5bfe6a6c20/4a30b1f0-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y48ls.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Biomolecules Question 2 English Option 4\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9y51c9/5baf00f1-f9d8-475a-971b-001db3e2b1f6/60635f90-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y51ca.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9y51c9/5baf00f1-f9d8-475a-971b-001db3e2b1f6/60635f90-5207-11f1-af7d-734b282814df/file-6y3zli1mp9y51ca.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Biomolecules Question 2 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpbaj7lr/4f4248fc-55f6-4dd8-8902-5cabe589b715/a0c10cf0-52c4-11f1-b839-5bf4f86c1a08/file-6y3zli1mpbaj7ls.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpbaj7lr/4f4248fc-55f6-4dd8-8902-5cabe589b715/a0c10cf0-52c4-11f1-b839-5bf4f86c1a08/file-6y3zli1mpbaj7ls.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "carbohydrates",
+      "type": "mcq",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "A known artificial sweetener $\\mathbf{X}$ is composed of 4-chloro-4-deoxy- $\\alpha$-D-galactose and 1,6-dichloro-1,6-dideoxy- $\\beta$-D-fructose joined by a glycosidic linkage. Structure of D-galactose is given below :\n\nThe correct structur..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "96xhcb7m38z42e6fqd29",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pthe-correct-statements-regarding-sugars-isarep-jee-advanced-chemistry-z3tgsyw0lwvecycu",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The correct statement(s) regarding sugars is(are) :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>On treatment with HNO<sub>3</sub>, gluconic acid is oxidized to saccharic acid, whereas glucose is not oxidized to saccharic acid.</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>Fructose gives a positive Fehling’s test because it isomerises to glucose and another aldohexose in the presence of Fehling’s reagent.</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>Invert sugar is an equimolar mixture of D-glucose and D-fructose formed after hydrolysis of the corresponding disaccharide.</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>Specific rotation of invert sugar is −40°.</p>"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><b>Option (A)</b></p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Biomolecules Question 1 English Explanation 1\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpbdrq84/5c36dc4a-985e-44cc-8b54-f2f2c87e75d5/48ffc440-52d1-11f1-9482-3120031649b2/file-6y3zli1mpbdrq85.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpbdrq84/5c36dc4a-985e-44cc-8b54-f2f2c87e75d5/48ffc440-52d1-11f1-9482-3120031649b2/file-6y3zli1mpbdrq85.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>Glucose, when oxidized at the aldehyde group (–CHO), forms <b>gluconic acid</b>. When it is oxidized more strongly at both ends (–CHO and –CH<sub>2</sub>OH), it forms <b>saccharic acid</b>.</p>\n<p><b>Option (B)</b></p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Biomolecules Question 1 English Explanation 2\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpbduclc/248312e6-469f-481a-9a16-9d55785a4793/91e54400-52d1-11f1-9482-3120031649b2/file-6y3zli1mpbducld.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpbduclc/248312e6-469f-481a-9a16-9d55785a4793/91e54400-52d1-11f1-9482-3120031649b2/file-6y3zli1mpbducld.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>In a basic medium, fructose changes (tautomerises) into its isomers, <b>D-glucose</b> and <b>D-mannose</b>. </p>\n<p>Since glucose and mannose are reducing sugars, this explains why fructose also gives a positive test with Fehling’s solution. This solution contains a weak base (dilute NaOH), which allows the reaction to occur.</p>\n<p><b>Option (C)</b></p>\n<p>When sucrose is hydrolysed using an acid, it breaks down into <b>D-glucose</b> and <b>D-fructose</b> in equal amounts (1:1). This mixture is called <b>invert sugar</b>.</p>\n<p><b>Option (D)</b></p>\n<p>The <b>specific rotation</b> of these sugars is as follows:</p>\n<p>For D-fructose: $-92.5^{\\circ}$</p>\n<p>For D-glucose: $+52.5^{\\circ}$</p>\n<p>Therefore, the specific rotation of the invert sugar mixture is the average of the two:</p>\n<p>$$\\text{Specific rotation of invert sugar} = -\\frac{40}{2} = -20^{\\circ}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "carbohydrates",
+      "type": "mcqm",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The correct statement(s) regarding sugars is(are) :"
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "o1kiylx1qlmwsi3nlnpx",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "pa-linear-octasaccharide-molar-mass-1024-mathrmg-m-jee-advanced-chemistry-ywk2unwgmq0z2vnb",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A linear octasaccharide (molar mass $=1024 \\mathrm{~g} \\mathrm{~mol}^{-1}$ ) on complete hydrolysis produces three monosaccharides: ribose, 2-deoxyribose and glucose. The amount of 2-deoxyribose formed is $58.26 \\%(\\mathrm{w} / \\mathrm{w})$ of the total amount of the monosaccharides produced in the hydrolyzed products. The number of ribose unit(s) present in one molecule of octasaccharide is $\\qquad$ .</p>\n<p><b>Use:</b> Molar mass $\\left(\\right.$ in g $\\left.\\mathrm{mol}^{-1}\\right)$ : ribose $=150,2$-deoxyribose $=134$, glucose $=180$;</p>\n<p>Atomic mass (in amu): $\\mathrm{H}=1, \\mathrm{O}=16$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>The problem involves determining the composition of an octasaccharide that, upon complete hydrolysis, yields three types of monosaccharides: ribose, 2-deoxyribose, and glucose.</p>\n<p>First, consider the balanced chemical equation for the hydrolysis of the octasaccharide:</p>\n<p>$ \\text{Octasaccharide} + 7 \\text{H}_2\\text{O} \\rightarrow \\text{Ribose} + \\text{2-deoxyribose} + \\text{Glucose} $</p>\n<p>The initial molar mass of the octasaccharide is $1024 \\, \\text{g/mol}$, and it requires 7 water molecules (each with a molar mass of $18 \\, \\text{g/mol}$, thus totaling $126 \\, \\text{g/mol}$) to undergo hydrolysis. Therefore, the total mass on the reactant side is:</p>\n<p>$ 1024 + 126 = 1150 \\, \\text{g} $</p>\n<p>According to the given data, the 2-deoxyribose formed constitutes $58.26\\%$ of the total mass of the monosaccharides. To find the mass of 2-deoxyribose, calculate:</p>\n<p>$ 1150 \\times \\frac{58.26}{100} = 669.99 \\, \\text{g} \\approx 670 \\, \\text{g} $</p>\n<p>The molar mass of 2-deoxyribose is $134 \\, \\text{g/mol}$, so the number of units produced is:</p>\n<p>$ \\frac{670}{134} = 5 \\, \\text{units} $</p>\n<p>Assuming there is one unit of glucose (molar mass $180 \\, \\text{g/mol}$), the remaining units in the octasaccharide must be ribose. Given five units of 2-deoxyribose and one unit of glucose, the potential number of ribose units can be calculated as the difference to reach a total of eight saccharide units, ensuring:</p>\n<p>$ 5 \\text{ (2-deoxyribose)} + 1 \\text{ (glucose)} + x \\text{ (ribose)} = 8 $</p>\n<p>Solving this gives:</p>\n<p>$ x = 8 - 5 - 1 = 2 $</p>\n<p>To verify the setup, the total mass of the hydrolysis products equals the mass at the reactant side:</p>\n<p>$ 670 \\, \\text{(2-deoxyribose)} + 180 \\, \\text{(glucose)} + (2 \\times 150 \\, \\text{(ribose)}) = 1150 \\, \\text{g} $</p>\n<p>Thus, the octasaccharide contains 2 ribose units. Therefore, the number of ribose units present in one molecule of the octasaccharide is 2.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक रैखिक ऑक्टासैकैराइड (octasaccharide) (मोलर द्रव्यमान $=1024 \\mathrm{~g} \\mathrm{~mol}^{-1}$ ) पूर्णतया जल अपघटित हो कर तीन मोनोसैकैराइड (monosaccharide): राइबोस (ribose), 2-डिऑक्सीराइबोस (2-deoxyribose) तथा ग्लूकोस (glucose) देता है। जल अपघटित उत्पादों में पूर्ण मात्रा में उत्पादित मोनोसैकैराइडों में बने हुये $2-$ डिऑक्सीराइबोस (2-deoxyribose) की मात्रा $58.26 \\%(\\mathrm{w} / \\mathrm{w})$(भ ा र / भ ा र) है।\nएक ऑक्टासैकैराइड अणु में उपस्थित राइबोस (ribose) एकक(एककों) की संख्या ̱_________ है।</p>\n<p>उपयोग करे: मोलर द्रव्यमान ( $\\mathrm{g} \\mathrm{mol}^{-1}$ में): राइबोस $=150,2$-डिऑक्सीराइबोस $=134$, ग्लूकोस $=180$; परमाणु द्रव्यमान (atomic mass, amu में): $\\mathrm{H}=1, \\mathrm{O}=16$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>यह समस्या एक ऑक्टासैकेराइड की संरचना निर्धारित करने से संबंधित है जो पूर्ण जलअपघटन पर तीन प्रकार के मोनोसैकेराइड उत्पन्न करता है: राइबोस, 2-डीऑक्सीराइबोस, और ग्लूकोस।</p>\n<p>सर्वप्रथम, ऑक्टासैकेराइड के जलअपघटन के लिए संतुलित रासायनिक समीकरण पर विचार करें:</p>\n<p>$ \\text{Octasaccharide} + 7 \\text{H}_2\\text{O} \\rightarrow \\text{Ribose} + \\text{2-deoxyribose} + \\text{Glucose} $</p>\n<p>ऑक्टासैकेराइड का प्रारंभिक मोलर द्रव्यमान $1024 \\, \\text{g/mol}$ है, और इसे जलअपघटन के लिए 7 जल अणुओं की आवश्यकता होती है (प्रत्येक का मोलर द्रव्यमान $18 \\, \\text{g/mol}$ है, इस प्रकार कुल $126 \\, \\text{g/mol}$ है)। अतः, अभिकारक पक्ष पर कुल द्रव्यमान है:</p>\n<p>$ 1024 + 126 = 1150 \\, \\text{g} $</p>\n<p>दिए गए आंकड़ों के अनुसार, निर्मित 2-डीऑक्सीराइबोस मोनोसैकेराइड के कुल द्रव्यमान का $58.26\\%$ है। 2-डीऑक्सीराइबोस का द्रव्यमान ज्ञात करने के लिए, गणना करें:</p>\n<p>$ 1150 \\times \\frac{58.26}{100} = 669.99 \\, \\text{g} \\approx 670 \\, \\text{g} $</p>\n<p>2-डीऑक्सीराइबोस का मोलर द्रव्यमान $134 \\, \\text{g/mol}$ है, अतः उत्पन्न इकाइयों की संख्या है:</p>\n<p>$ \\frac{670}{134} = 5 \\, \\text{units} $</p>\n<p>मान लीजिए कि ग्लूकोस की एक इकाई (मोलर द्रव्यमान $180 \\, \\text{g/mol}$) है, तो ऑक्टासैकेराइड में शेष इकाइयाँ राइबोस की होनी चाहिए। 2-डीऑक्सीराइबोस की पाँच इकाइयों और ग्लूकोस की एक इकाई को देखते हुए, राइबोस इकाइयों की संभावित संख्या की गणना आठ सैकेराइड इकाइयों के कुल योग तक पहुँचने के लिए अंतर के रूप में की जा सकती है, यह सुनिश्चित करते हुए:</p>\n<p>$ 5 \\text{ (2-deoxyribose)} + 1 \\text{ (glucose)} + x \\text{ (ribose)} = 8 $</p>\n<p>इसे हल करने पर प्राप्त होता है:</p>\n<p>$ x = 8 - 5 - 1 = 2 $</p>\n<p>सेटअप को सत्यापित करने के लिए, जलअपघटन उत्पादों का कुल द्रव्यमान अभिकारक पक्ष के द्रव्यमान के बराबर है:</p>\n<p>$ 670 \\, \\text{(2-deoxyribose)} + 180 \\, \\text{(glucose)} + (2 \\times 150 \\, \\text{(ribose)}) = 1150 \\, \\text{g} $</p>\n<p>इस प्रकार, ऑक्टासैकेराइड में 2 राइबोस इकाइयाँ हैं। अतः, ऑक्टासैकेराइड के एक अणु में उपस्थित राइबोस इकाइयों की संख्या 2 है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "carbohydrates",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "A linear octasaccharide (molar mass $=1024 \\mathrm{~g} \\mathrm{~mol}^{-1}$ ) on complete hydrolysis produces three monosaccharides: ribose, 2-deoxyribose and glucose. The amount of 2-deoxyribose formed is $58.26 \\%(\\mathrm{w} / \\mathrm{w})$..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "एक रैखिक ऑक्टासैकैराइड (octasaccharide) (मोलर द्रव्यमान $=1024 \\mathrm{~g} \\mathrm{~mol}^{-1}$ ) पूर्णतया जल अपघटित हो कर तीन मोनोसैकैराइड (monosaccharide): राइबोस (ribose), 2-डिऑक्सीराइबोस (2-deoxyribose) तथा ग्लूकोस (glucose) देता है। जल ..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "bol5aou4mec00rvpekkd",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "pfor-a-double-strand-dna-one-strand-is-given-belowp--jee-advanced-chemistry-1rq6hywkoxrdzczz",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>For a double strand DNA, one strand is given below:</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpydf2w/e2b61bf4-e5fa-41d3-b918-c961c3d150cf/8de0a180-1cb2-11ef-853e-dba8720394f1/file-6y3zli1lwpydf2x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpydf2w/e2b61bf4-e5fa-41d3-b918-c961c3d150cf/8de0a180-1cb2-11ef-853e-dba8720394f1/file-6y3zli1lwpydf2x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Chemistry - Biomolecules Question 4 English\">\n<p>The amount of energy required to split the double strand DNA into two single strands is _______ kcal $\\operatorname{mol}^{-1}$.</p>\n\n<p>[Given: Average energy per H-bond for A-T base pair $=1.0 ~\\mathrm{kcal}~ \\mathrm{mol}^{-1}$, G-C base pair $=1.5 ~\\mathrm{kcal}$ $\\mathrm{mol}^{-1}$, and A-U base pair $=1.25 ~\\mathrm{kcal} ~\\mathrm{mol}^{-1}$. Ignore electrostatic repulsion between the phosphate groups.]</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "41",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lxj3qijl/b1756b78-c360-47bd-9af4-4a0735d780be/428cfd10-2cba-11ef-ac42-5fb2032377c1/file-jaoe38c1lxj3qijm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lxj3qijl/b1756b78-c360-47bd-9af4-4a0735d780be/428cfd10-2cba-11ef-ac42-5fb2032377c1/file-jaoe38c1lxj3qijm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Chemistry - Biomolecules Question 4 English Explanation\">\n\n<p>$\\mathrm{A}=\\mathrm{T} \\quad \\Rightarrow  2 \\mathrm{H}$-bond</p>\n\n<p>$\\mathrm{G} \\equiv \\mathrm{C} \\quad \\Rightarrow 3 \\mathrm{H}$-bond</p>\n\n<p>Number of $\\mathrm{A}=\\mathrm{T}$ pair $=7$</p>\n\n<p>Number of $\\mathrm{G} \\equiv \\mathrm{C}$ pair $=6$</p>\n\n<p>Number of $\\mathrm{H}$-bond involve in $\\mathrm{A}=\\mathrm{T}=7 \\times 2=14$</p>\n\n<p>Number of $\\mathrm{H}$-bond involve in $\\mathrm{G} \\equiv \\mathrm{C}=6 \\times 3=18$</p>\n\n<p>Energy required for $\\mathrm{A}=\\mathrm{T}=14 \\times 1=14$</p>\n\n<p>Energy required for $\\mathrm{G} \\equiv \\mathrm{C}=18 \\times 1.5=27$</p>\n\n<p>Total energy required $14+27=41$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>$\\text { एक द्विरज्जुकीय (double strand) संरचना के DNA की एक रज्नुक नीचे दी गई है }$</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpydf2w/e2b61bf4-e5fa-41d3-b918-c961c3d150cf/8de0a180-1cb2-11ef-853e-dba8720394f1/file-6y3zli1lwpydf2x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpydf2w/e2b61bf4-e5fa-41d3-b918-c961c3d150cf/8de0a180-1cb2-11ef-853e-dba8720394f1/file-6y3zli1lwpydf2x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Chemistry - Biomolecules Question 4 Hindi\">\n\n<p>इस द्विरज्जुकीय संरचना के DNA को दो एक रज्जुकों में परिवर्तित करने के लिए कुल ____________ $\\mathrm{kcal}~ \\mathrm{mol}^{-1}$ ऊर्जा की आवश्यकता है।</p>\n\n<p>[दिया गया है: प्रति हाइड्रोजन बन्ध की औसत ऊर्जा A-T क्षारक युगल (base pair) के लिए $1.0~ \\mathrm{kcal} \\mathrm{mol}^{-1}$, G-C क्षारक युगल के लिए $1.5 ~\\mathrm{kcal} \\mathrm{mol}^{-1}$ और A-U क्षारक युगल के लिए $1.25 ~\\mathrm{kcal} \\mathrm{mol}^{-1}$ है। फॉस्फेट समूहों के बीच में स्थिर विद्युत प्रतिकर्षण को नकार लें। ]</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "41",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lxj3qijl/b1756b78-c360-47bd-9af4-4a0735d780be/428cfd10-2cba-11ef-ac42-5fb2032377c1/file-jaoe38c1lxj3qijm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lxj3qijl/b1756b78-c360-47bd-9af4-4a0735d780be/428cfd10-2cba-11ef-ac42-5fb2032377c1/file-jaoe38c1lxj3qijm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Chemistry - Biomolecules Question 4 Hindi Explanation\">\n\n<p>$\\mathrm{A}=\\mathrm{T} \\quad \\Rightarrow  2 \\mathrm{H}$-बंध</p>\n\n<p>$\\mathrm{G} \\equiv \\mathrm{C} \\quad \\Rightarrow 3 \\mathrm{H}$-बंध</p>\n\n<p>$\\mathrm{A}=\\mathrm{T}$ युग्मों की संख्या $=7$</p>\n\n<p>$\\mathrm{G} \\equiv \\mathrm{C}$ युग्मों की संख्या $=6$</p>\n\n<p>$\\mathrm{A}=\\mathrm{T}$ में सम्मिलित $\\mathrm{H}$-बंधों की संख्या $=7 \\times 2=14$</p>\n\n<p>$\\mathrm{G} \\equiv \\mathrm{C}$ में सम्मिलित $\\mathrm{H}$-बंधों की संख्या $=6 \\times 3=18$</p>\n\n<p>$\\mathrm{A}=\\mathrm{T}$ के लिए आवश्यक ऊर्जा $=14 \\times 1=14$</p>\n\n<p>$\\mathrm{G} \\equiv \\mathrm{C}$ के लिए आवश्यक ऊर्जा $=18 \\times 1.5=27$</p>\n\n<p>कुल आवश्यक ऊर्जा $14+27=41$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "vitamins-and-nucleic-acids",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "For a double strand DNA, one strand is given below:\n\nThe amount of energy required to split the double strand DNA into two single strands is _______ kcal $\\operatorname{mol}^{-1}$.\n\n[Given: Average energy per H-bond for A-T base pair $=1.0 ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "$\\text { एक द्विरज्जुकीय (double strand) संरचना के DNA की एक रज्नुक नीचे दी गई है }$\n\n\n\nइस द्विरज्जुकीय संरचना के DNA को दो एक रज्जुकों में परिवर्तित करने के लिए कुल ____________ $\\mathrm{kcal}~ \\mathrm{mol}^{-1}$ ऊर्जा की आवश्यकता है।\n\n[दि..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "j99encgtd9sxlywp6ft4",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "a-disaccharide-mathbfx-cannot-be-oxidised-by-bromine-wa-jee-advanced-chemistry-31wkzkvjvysczqfv",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A disaccharide $\\mathbf{X}$ cannot be oxidised by bromine water. The acid hydrolysis of $\\mathbf{X}$ leads to a laevorotatory solution. The disaccharide $\\mathbf{X}$ is :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir3ynl/951ebdf6-41f7-47b0-b914-631cd6106cb8/a3270a10-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir3ynm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir3ynl/951ebdf6-41f7-47b0-b914-631cd6106cb8/a3270a10-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir3ynm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Biomolecules Question 5 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir4cc8/5fb3f299-9242-4a72-ae7b-c7cdd04d6dcf/adb92f80-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir4ccb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir4cc8/5fb3f299-9242-4a72-ae7b-c7cdd04d6dcf/adb92f80-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir4ccb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Biomolecules Question 5 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir4som/bb6e3f00-d87d-4c43-b133-f0afc6e222d0/ba597470-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir4son.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir4som/bb6e3f00-d87d-4c43-b133-f0afc6e222d0/ba597470-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir4son.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Biomolecules Question 5 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir56vn/a99d6151-3873-4961-a62c-b3411f7cd08e/c5507630-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir56vo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir56vn/a99d6151-3873-4961-a62c-b3411f7cd08e/c5507630-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir56vo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Biomolecules Question 5 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "A and D cannot be oxidised by bromine water as they do not have hemiacetal linkage.\n<br/><br/>The acid hydrolysis of A leads to a laevorotatory solution.\n<br/><br/>A is sucrose which is dextrorotatory, on acid hydrolysis gives mixture of α-D-glucose and β-D-fructose, the\nmixture is laevorotatory"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "डाइसैकराइड $\\mathbf{X}$ का ऑक्सीकरण ब्रोमीन जल से नहीं कर सकते $\\mathbf{X}$ के अम्लीय जल-अपघटन से वामध्रुवण-घूर्णक विलयन प्राप्त होता है। डाइसैकराइड $\\mathbf{X}$ है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir3ynl/951ebdf6-41f7-47b0-b914-631cd6106cb8/a3270a10-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir3ynm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir3ynl/951ebdf6-41f7-47b0-b914-631cd6106cb8/a3270a10-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir3ynm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Biomolecules Question 5 Hindi Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir4cc8/5fb3f299-9242-4a72-ae7b-c7cdd04d6dcf/adb92f80-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir4ccb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir4cc8/5fb3f299-9242-4a72-ae7b-c7cdd04d6dcf/adb92f80-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir4ccb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Biomolecules Question 5 Hindi Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir4som/bb6e3f00-d87d-4c43-b133-f0afc6e222d0/ba597470-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir4son.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir4som/bb6e3f00-d87d-4c43-b133-f0afc6e222d0/ba597470-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir4son.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Biomolecules Question 5 Hindi Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir56vn/a99d6151-3873-4961-a62c-b3411f7cd08e/c5507630-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir56vo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir56vn/a99d6151-3873-4961-a62c-b3411f7cd08e/c5507630-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir56vo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Biomolecules Question 5 Hindi Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "A और D ब्रोमीन जल द्वारा ऑक्सीकृत नहीं किए जा सकते क्योंकि उनमें हेमिएसिटल बंधन नहीं होता है।\n<br/><br/>A के अम्ल जलअपघटन से वामावर्ती विलयन प्राप्त होता है।\n<br/><br/>A सुक्रोज है जो दक्षिणावर्ती है, अम्ल जलअपघटन पर α-D-ग्लूकोज और β-D-फ्रक्टोज का मिश्रण देता है, यह मिश्रण वामावर्ती होता है"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "carbohydrates",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "A disaccharide $\\mathbf{X}$ cannot be oxidised by bromine water. The acid hydrolysis of $\\mathbf{X}$ leads to a laevorotatory solution. The disaccharide $\\mathbf{X}$ is :"
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "डाइसैकराइड $\\mathbf{X}$ का ऑक्सीकरण ब्रोमीन जल से नहीं कर सकते $\\mathbf{X}$ के अम्लीय जल-अपघटन से वामध्रुवण-घूर्णक विलयन प्राप्त होता है। डाइसैकराइड $\\mathbf{X}$ है"
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "sdvf3to607i3ff6zsa2v",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "treatment-of-d-glucose-with-aqueous-mathrmnaoh-results-jee-advanced-chemistry-hydrocarbons-9rhps7xxmqbz8agv",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Treatment of D-glucose with aqueous $\\mathrm{NaOH}$ results in a mixture of monosaccharides, which are",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7hmcd9i/5a523fd9-74f0-41c6-8b67-26fd21fea2b5/d5728c60-292b-11ed-8874-8be750058da4/file-1l7hmcd9j.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7hmcd9i/5a523fd9-74f0-41c6-8b67-26fd21fea2b5/d5728c60-292b-11ed-8874-8be750058da4/file-1l7hmcd9j.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7hmbua3/3cf381e5-6c80-458d-b59e-388b21af11b0/c6c86db0-292b-11ed-8874-8be750058da4/file-1l7hmbua4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7hmbua3/3cf381e5-6c80-458d-b59e-388b21af11b0/c6c86db0-292b-11ed-8874-8be750058da4/file-1l7hmbua4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7hmbf1w/a76dfc4d-327d-475d-a7a1-05c3f5d893cc/bb051b40-292b-11ed-8874-8be750058da4/file-1l7hmbf1x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7hmbf1w/a76dfc4d-327d-475d-a7a1-05c3f5d893cc/bb051b40-292b-11ed-8874-8be750058da4/file-1l7hmbf1x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7hmaws9/dac65044-1964-422c-9498-482ac450d6c3/ace89690-292b-11ed-8874-8be750058da4/file-1l7hmawsa.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7hmaws9/dac65044-1964-422c-9498-482ac450d6c3/ace89690-292b-11ed-8874-8be750058da4/file-1l7hmawsa.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldfwp5og/ce68367e-9b66-42f0-8692-44d28586ca35/0f5f68f0-9f04-11ed-85b5-7b100b9b2792/file-1ldfwp5oh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldfwp5og/ce68367e-9b66-42f0-8692-44d28586ca35/0f5f68f0-9f04-11ed-85b5-7b100b9b2792/file-1ldfwp5oh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 English Explanation\">"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>जलीय $$\\mathrm{NaOH}$$ के साथ $$\\mathrm{D}$$-ग्लूकोज के उपचार के परिणामस्वरूप मोनोसैकेराइडों का एक मिश्रण प्राप्त है, जिसमें मोनोसैकेराइड हैं</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7hmcd9i/5a523fd9-74f0-41c6-8b67-26fd21fea2b5/d5728c60-292b-11ed-8874-8be750058da4/file-1l7hmcd9j.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7hmcd9i/5a523fd9-74f0-41c6-8b67-26fd21fea2b5/d5728c60-292b-11ed-8874-8be750058da4/file-1l7hmcd9j.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 Hindi Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7hmbua3/3cf381e5-6c80-458d-b59e-388b21af11b0/c6c86db0-292b-11ed-8874-8be750058da4/file-1l7hmbua4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7hmbua3/3cf381e5-6c80-458d-b59e-388b21af11b0/c6c86db0-292b-11ed-8874-8be750058da4/file-1l7hmbua4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 Hindi Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7hmbf1w/a76dfc4d-327d-475d-a7a1-05c3f5d893cc/bb051b40-292b-11ed-8874-8be750058da4/file-1l7hmbf1x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7hmbf1w/a76dfc4d-327d-475d-a7a1-05c3f5d893cc/bb051b40-292b-11ed-8874-8be750058da4/file-1l7hmbf1x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 Hindi Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7hmaws9/dac65044-1964-422c-9498-482ac450d6c3/ace89690-292b-11ed-8874-8be750058da4/file-1l7hmawsa.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7hmaws9/dac65044-1964-422c-9498-482ac450d6c3/ace89690-292b-11ed-8874-8be750058da4/file-1l7hmawsa.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 Hindi Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldfwp5og/ce68367e-9b66-42f0-8692-44d28586ca35/0f5f68f0-9f04-11ed-85b5-7b100b9b2792/file-1ldfwp5oh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldfwp5og/ce68367e-9b66-42f0-8692-44d28586ca35/0f5f68f0-9f04-11ed-85b5-7b100b9b2792/file-1ldfwp5oh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Biomolecules Question 12 Hindi Explanation\">"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "carbohydrates",
+      "type": "mcq",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "Treatment of D-glucose with aqueous $\\mathrm{NaOH}$ results in a mixture of monosaccharides, which are"
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "जलीय $$\\mathrm{NaOH}$$ के साथ $$\\mathrm{D}$$-ग्लूकोज के उपचार के परिणामस्वरूप मोनोसैकेराइडों का एक मिश्रण प्राप्त है, जिसमें मोनोसैकेराइड हैं"
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "a6v97xy8ipd2zjqdwd2q",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "given--brbrimagebrbrthe-compounds-which-on-r-jee-advanced-chemistry-some-basic-concepts-of-chemistry-nylhvinyvzolm86y",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Given : <br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8agrif/4e2c9e77-9ea6-4dc5-ac02-5f9ab01656ac/2a81a570-5e10-11ec-85d5-e79a9afe064d/file-1kx8agrig.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8agrif/4e2c9e77-9ea6-4dc5-ac02-5f9ab01656ac/2a81a570-5e10-11ec-85d5-e79a9afe064d/file-1kx8agrig.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 English\"><br>The compound(s), which on reaction with HNO<sub>3</sub> will give the product having degree of rotation, [$$\\alpha$$]<sub>D</sub> = $$-$$52.7$$^\\circ$$ is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8akhoh/b97daf36-cee8-41b0-98cd-315caeed74e3/92261620-5e10-11ec-85d5-e79a9afe064d/file-1kx8akhoi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8akhoh/b97daf36-cee8-41b0-98cd-315caeed74e3/92261620-5e10-11ec-85d5-e79a9afe064d/file-1kx8akhoi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8al7cw/2faa71ac-dfb4-4f8e-96b9-eb432555d489/a5fbe800-5e10-11ec-b6f3-d95f9331133d/file-1kx8al7cx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8al7cw/2faa71ac-dfb4-4f8e-96b9-eb432555d489/a5fbe800-5e10-11ec-b6f3-d95f9331133d/file-1kx8al7cx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8alrki/393f1368-369b-4a78-b54d-4f729e3336f4/b598f230-5e10-11ec-b6f3-d95f9331133d/file-1kx8alrkj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8alrki/393f1368-369b-4a78-b54d-4f729e3336f4/b598f230-5e10-11ec-b6f3-d95f9331133d/file-1kx8alrkj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8amjcl/f8f6d0b4-feb4-40b3-8a1a-d92e970b2cb2/cb0e9160-5e10-11ec-b6f3-d95f9331133d/file-1kx8amjcm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8amjcl/f8f6d0b4-feb4-40b3-8a1a-d92e970b2cb2/cb0e9160-5e10-11ec-b6f3-d95f9331133d/file-1kx8amjcm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Monosaccharide oxidises on reacting with HNO<sub>3</sub>\nto\nform carboxylic acids. Primary alcohols also oxidise to\ncarboxylic acid alongwith aldehyde.</p>\n<p>Complete reaction is as follows :</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8aqag9/57c07436-95ca-4ad5-8633-d09dfe72b669/336b5590-5e11-11ec-b6f3-d95f9331133d/file-1kx8aqaga.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8aqag9/57c07436-95ca-4ad5-8633-d09dfe72b669/336b5590-5e11-11ec-b6f3-d95f9331133d/file-1kx8aqaga.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 English Explanation 1\">\n<br>The enantiomer of product (P) has rotation −52.7<sup>o</sup> . The two\nenantiomers (c and d) with their reactions are as follows :\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8autyr/757876b9-a438-4d65-bee9-4973fcfbcb22/b1bad830-5e11-11ec-b6f3-d95f9331133d/file-1kx8autys.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8autyr/757876b9-a438-4d65-bee9-4973fcfbcb22/b1bad830-5e11-11ec-b6f3-d95f9331133d/file-1kx8autys.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 English Explanation 2\">\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8avb38/eac6f82e-b0bb-48e3-b3de-bb0aa86be32e/bef53a40-5e11-11ec-b6f3-d95f9331133d/file-1kx8avb39.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8avb38/eac6f82e-b0bb-48e3-b3de-bb0aa86be32e/bef53a40-5e11-11ec-b6f3-d95f9331133d/file-1kx8avb39.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 English Explanation 3\">"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>दिया गया है:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8agrif/4e2c9e77-9ea6-4dc5-ac02-5f9ab01656ac/2a81a570-5e10-11ec-85d5-e79a9afe064d/file-1kx8agrig.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8agrif/4e2c9e77-9ea6-4dc5-ac02-5f9ab01656ac/2a81a570-5e10-11ec-85d5-e79a9afe064d/file-1kx8agrig.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 Hindi\"></p>\n<p>यौगिक(कों), जो $$\\mathrm{HNO}_{3}$$ के साथ अभिक्रिया पर घूर्णन कोण (degree of rotation), $$[\\alpha]_{D}=-52.7^{\\circ}$$ होने वाला उत्पाद देगा, वो(वें) है(हैं)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8akhoh/b97daf36-cee8-41b0-98cd-315caeed74e3/92261620-5e10-11ec-85d5-e79a9afe064d/file-1kx8akhoi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8akhoh/b97daf36-cee8-41b0-98cd-315caeed74e3/92261620-5e10-11ec-85d5-e79a9afe064d/file-1kx8akhoi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 Hindi Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8al7cw/2faa71ac-dfb4-4f8e-96b9-eb432555d489/a5fbe800-5e10-11ec-b6f3-d95f9331133d/file-1kx8al7cx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8al7cw/2faa71ac-dfb4-4f8e-96b9-eb432555d489/a5fbe800-5e10-11ec-b6f3-d95f9331133d/file-1kx8al7cx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 Hindi Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8alrki/393f1368-369b-4a78-b54d-4f729e3336f4/b598f230-5e10-11ec-b6f3-d95f9331133d/file-1kx8alrkj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8alrki/393f1368-369b-4a78-b54d-4f729e3336f4/b598f230-5e10-11ec-b6f3-d95f9331133d/file-1kx8alrkj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 Hindi Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8amjcl/f8f6d0b4-feb4-40b3-8a1a-d92e970b2cb2/cb0e9160-5e10-11ec-b6f3-d95f9331133d/file-1kx8amjcm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8amjcl/f8f6d0b4-feb4-40b3-8a1a-d92e970b2cb2/cb0e9160-5e10-11ec-b6f3-d95f9331133d/file-1kx8amjcm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 Hindi Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>मोनोसैकेराइड HNO<sub>3</sub> के साथ अभिक्रिया करके कार्बोक्सिलिक अम्ल बनाने के लिए ऑक्सीकृत होता है। प्राथमिक ऐल्कोहॉल भी एल्डिहाइड के साथ-साथ कार्बोक्सिलिक अम्ल में ऑक्सीकृत होते हैं।</p>\n<p>पूर्ण अभिक्रिया निम्नलिखित है:</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8aqag9/57c07436-95ca-4ad5-8633-d09dfe72b669/336b5590-5e11-11ec-b6f3-d95f9331133d/file-1kx8aqaga.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8aqag9/57c07436-95ca-4ad5-8633-d09dfe72b669/336b5590-5e11-11ec-b6f3-d95f9331133d/file-1kx8aqaga.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 Hindi Explanation 1\">\n<br>उत्पाद (P) के एनैन्टियोमर का घूर्णन −52.7<sup>o</sup> है। दो एनैन्टियोमर (c और d) उनकी अभिक्रियाओं के साथ निम्नलिखित हैं:\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8autyr/757876b9-a438-4d65-bee9-4973fcfbcb22/b1bad830-5e11-11ec-b6f3-d95f9331133d/file-1kx8autys.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8autyr/757876b9-a438-4d65-bee9-4973fcfbcb22/b1bad830-5e11-11ec-b6f3-d95f9331133d/file-1kx8autys.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 Hindi Explanation 2\">\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx8avb38/eac6f82e-b0bb-48e3-b3de-bb0aa86be32e/bef53a40-5e11-11ec-b6f3-d95f9331133d/file-1kx8avb39.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx8avb38/eac6f82e-b0bb-48e3-b3de-bb0aa86be32e/bef53a40-5e11-11ec-b6f3-d95f9331133d/file-1kx8avb39.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Biomolecules Question 20 Hindi Explanation 3\">"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "carbohydrates",
+      "type": "mcqm",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "Given : The compound(s), which on reaction with HNO3 will give the product having degree of rotation, [$$\\alpha$$]D = $$-$$52.7$$^\\circ$$ is (are)"
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "दिया गया है:\n\nयौगिक(कों), जो $$\\mathrm{HNO}_{3}$$ के साथ अभिक्रिया पर घूर्णन कोण (degree of rotation), $$[\\alpha]_{D}=-52.7^{\\circ}$$ होने वाला उत्पाद देगा, वो(वें) है(हैं)"
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "question_id": "zmuuef2pjunqfdpfymaz",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "the-structure-of-a-peptide-is-given-belowbrbrimagebr-jee-advanced-chemistry-some-basic-concepts-of-chemistry-d3fh2y8vsswhu4dn",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The structure of a peptide is given below.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1letdf3m7/b0b991f3-68c1-462a-af5e-24c78091a5ff/dab499f0-ba37-11ed-88a1-f386cf70a840/file-1letdf3m8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1letdf3m7/b0b991f3-68c1-462a-af5e-24c78091a5ff/dab499f0-ba37-11ed-88a1-f386cf70a840/file-1letdf3m8.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - Biomolecules Question 21 English\"><br>If the absolute values of the net charge of the peptide at $\\mathrm{pH}$ $=2$, $\\mathrm{pH}=6$, and $\\mathrm{pH}=11$ are $\\left|Z_1\\right|,\\left|Z_2\\right|$, and $\\left|Z_3\\right|$, respectively, then what is $\\left|Z_1\\right|+\\left|Z_2\\right|+\\left|Z_3\\right|$?",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "At pH = 2,<br><br>There are two $$-$$NH<sub>2</sub> group, and + 1 charge on each group because all amino groups exist in the form of $$-$$NH$$_3^ \\oplus $$.<br><br>Therefore, |Z<sub>1</sub>| = 2.<br><br>At pH = 6,<br><br>NH<sub>2</sub> of lysine (+ 1) (pH = 9.47) and COOH ($$-$$1) of glutamic (pH = 3.08) acid, so because of dipolar ion exists, therefore |Z<sub>2</sub>| = 0.<br><br>At pH = 11,<br><br>COOH of glutamic acid has ($$-$$1), COOH of lysine ($$-$$1) and OH of phenol ($$-$$1).<br><br>Therefore, |Z<sub>3</sub>| = |$$-$$3| = 3 (All COOH and OH exist in the form of $$-$$COO<sup>$$-$$</sup> and $$-$$O<sup>$$-$$</sup>).<br><br>$$ \\therefore $$ |Z<sub>1</sub>| + |Z<sub>2</sub>| + |Z<sub>3</sub>| = 2 + 0 + 3 = 5"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक पेट्टाइड की संरचना नीचे दी गयी है ।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1letdf3m7/b0b991f3-68c1-462a-af5e-24c78091a5ff/dab499f0-ba37-11ed-88a1-f386cf70a840/file-1letdf3m8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1letdf3m7/b0b991f3-68c1-462a-af5e-24c78091a5ff/dab499f0-ba37-11ed-88a1-f386cf70a840/file-1letdf3m8.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - Biomolecules Question 21 Hindi\"></p>\n<p>यदि इस पेप्टाइड पर नेट आवेश का निरपेक्ष मान (absolute value), $$\\mathrm{pH}=2, \\mathrm{pH}=6$$, तथा $$\\mathrm{pH}=11$$ पर क्रमशः $$\\left|z_{1}\\right|,\\left|z_{2}\\right|$$ तथा $$\\left|z_{3}\\right|$$ है, तो $$\\left|z_{1}\\right|+\\left|z_{2}\\right|+\\left|z_{3}\\right|$$ का मान क्या होगा ?</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "pH = 2 पर,<br><br>दो $$-$$NH<sub>2</sub> समूह हैं, और प्रत्येक समूह पर + 1 आवेश है क्योंकि सभी एमिनो समूह $$-$$NH$$_3^ \\oplus $$ के रूप में विद्यमान हैं।<br><br>इसलिए, |Z<sub>1</sub>| = 2.<br><br>pH = 6 पर,<br><br>लाइसिन का NH<sub>2</sub> (+ 1) (pH = 9.47) और ग्लूटामिक अम्ल का COOH ($$-$$1) (pH = 3.08), इसलिए द्विध्रुवीय आयन के अस्तित्व के कारण, |Z<sub>2</sub>| = 0.<br><br>pH = 11 पर,<br><br>ग्लूटामिक अम्ल का COOH ($$-$$1), लाइसिन का COOH ($$-$$1) और फीनॉल का OH ($$-$$1) है।<br><br>इसलिए, |Z<sub>3</sub>| = |$$-$$3| = 3 (सभी COOH और OH, $$-$$COO<sup>$$-$$</sup> और $$-$$O<sup>$$-$$</sup> के रूप में विद्यमान हैं)।<br><br>$$ \\therefore $$ |Z<sub>1</sub>| + |Z<sub>2</sub>| + |Z<sub>3</sub>| = 2 + 0 + 3 = 5"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "proteins-and-enzymes",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The structure of a peptide is given below. If the absolute values of the net charge of the peptide at $\\mathrm{pH}$ $=2$, $\\mathrm{pH}=6$, and $\\mathrm{pH}=11$ are $\\left|Z_1\\right|,\\left|Z_2\\right|$, and $\\left|Z_3\\right|$, respectively, t..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "एक पेट्टाइड की संरचना नीचे दी गयी है ।\n\nयदि इस पेप्टाइड पर नेट आवेश का निरपेक्ष मान (absolute value), $$\\mathrm{pH}=2, \\mathrm{pH}=6$$, तथा $$\\mathrm{pH}=11$$ पर क्रमशः $$\\left|z_{1}\\right|,\\left|z_{2}\\right|$$ तथा $$\\left|z_{3}\\right|$$ है..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "ba8jojvw9hubxcd9pvw7",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "which-of-the-following-statements-isare-true-jee-advanced-chemistry-some-basic-concepts-of-chemistry-q1qvltwshiixmoxl",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Which of the following statement(s) is(are) true?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The two six-membered cyclic hemiacetal forms of D-(+)- glucose are called anomers."
+            },
+            {
+              "identifier": "B",
+              "content": "Oxidation of glucose with bromine water gives glutamic acid"
+            },
+            {
+              "identifier": "C",
+              "content": "Monosaccharides cannot be hydrolysed to given polyhydroxy aldehydes and ketones"
+            },
+            {
+              "identifier": "D",
+              "content": "Hydrolysis of sucrose gives dextrorotatory glucose and laevorotatory fructose"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "The explanation of given statements are as follows :<br><br>(a) Two six membered cyclic hemiacetal form of D-(+)- glucose are called anomers.<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - Biomolecules Question 22 English Explanation 1\"></picture> <br><br>Both are anomers.<br><br>(b) Oxidation of glucose in presence of Br<sub>2</sub> water gives gluconic acid.<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - Biomolecules Question 22 English Explanation 2\"></picture> <br><br>(c) Monosaccharides can not be hydrolysed into polyhydroxy aldehydes and ketones.<br><br>(d) Hydrolysis of sucrose gives D-glucose and L-fructose.<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - Biomolecules Question 22 English Explanation 3\"></picture> <br><br>Hence, options (a, c, d) are correct."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>निम्न में सही कथन कौन सा है (से हैं)?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "D-(+)- ग्लूकोस के दो छ: सदस्यीय चक्रीय हैमिऐसीटैल (hemiacetal) रूपों को ऐनोमर (anomer) कहते हैं\n"
+            },
+            {
+              "identifier": "B",
+              "content": "ब्रोमीन (bromine) जल द्वारा ग्लूकोस (glucose) के आक्सीकरण पर ग्लूटामिक (glutamic) अम्ल प्राप्त होता है"
+            },
+            {
+              "identifier": "C",
+              "content": "मोनोसैकैराइडों (monosaccharides) के जलअपघटन कराने पर पालीहाइड्रोक्सी ऐल्डीहाइड (polyhydroxy aldehyde) और कीटोन (ketone) प्राप्त नहीं होते हैं"
+            },
+            {
+              "identifier": "D",
+              "content": "सूक्रोस (sucrose) के जलअपघटन पर दक्षिण घ्रूवण-घूर्णक (dextrorotatory) ग्लूकोस और वाम घ्रूवण-घूर्णक (laevorotatory) फ्रक्टोज़ (fructose) प्राप्त होते हैं"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "दिए गए कथनों की व्याख्या निम्नानुसार है :<br><br>(a) D-(+)- ग्लूकोज के दो छः सदस्यीय चक्रीय हेमीएसीटल रूपों को एनोमर कहा जाता है।<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswa8o46/d4d2811c-3555-4959-8a16-a4c5f7ce4583/0419d450-0845-11ec-830e-d9e68b723bcf/file-1kswa8o47.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - Biomolecules Question 22 Hindi Explanation 1\"></picture> <br><br>दोनों एनोमर हैं।<br><br>(b) Br<sub>2</sub> जल की उपस्थिति में ग्लूकोज का ऑक्सीकरण ग्लूकोनिक अम्ल देता है।<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswa9b3r/94b5b68a-5839-4848-88b5-a5f8f979b6f9/15dc2f80-0845-11ec-830e-d9e68b723bcf/file-1kswa9b3s.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - Biomolecules Question 22 Hindi Explanation 2\"></picture> <br><br>(c) मोनोसैकेराइड को पॉलीहाइड्रॉक्सी एल्डिहाइड और कीटोन में जल-अपघटित नहीं किया जा सकता है।<br><br>(d) सुक्रोज का जल-अपघटन D-ग्लूकोज और L-फ्रक्टोज देता है।<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswaa3g9/34b92d3e-32a6-48e7-8f00-7c9dba801f58/2bc1f5a0-0845-11ec-830e-d9e68b723bcf/file-1kswaa3ga.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - Biomolecules Question 22 Hindi Explanation 3\"></picture> <br><br>अतः, विकल्प (a, c, d) सही हैं।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "carbohydrates",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "Which of the following statement(s) is(are) true?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "निम्न में सही कथन कौन सा है (से हैं)?"
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v8bq5lx2ptcwms9sd70q",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "organic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "biomolecules",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The Fischer presentation of $$D$$-glucose is given below.\n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/HEYhV18nlA6rMb8qD/yVYwGIlC82URhja8uURNHIZNTP8Zt/4YSfzpGHLqh7q5xCBesM80/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 English\"> \n<br>The correct structure(s) of $$\\beta $$-$$L$$-glucopyranose is (are) :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/Kw1DEp0UCnkCetHfD/XmteIdrKeki3oukCgxnr9kziN2TLu/cNBVMjBWxW3H5k1uOLxcPb/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 English Option 1\"> "
+            },
+            {
+              "identifier": "B",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/msh8Ad4gRh4nPAu2F/FcKg1ZLmDfUp6RNAXyt0Ui6Y0fCMQ/aj3fixRtuun45T5AY0Wt5u/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 English Option 2\"> "
+            },
+            {
+              "identifier": "C",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/WTrWLENFGG64OqxZX/nULWlIth43Wbsue8WhiGNx6TxjE2p/wZygr8TfNCSUAtAo0rhjKl/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 English Option 3\"> "
+            },
+            {
+              "identifier": "D",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/Q7W5xWOsGJmGgLsM4/HTTzGEsZiDR4H9TilFrax81SL2qSG/3Pa8k2HqZ9mp9IN3UZJSCS/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 English Option 4\"> "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "When we move from $\\beta$-(D)-glucopyranose (obtained from D-glucose) groups it axial position becomes equatorial and at equatorial becomes axial.\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyeik05/ab61c10b-906e-45e1-a299-f7b05fe06d0f/b54dff50-f860-11ed-a585-812e165f6969/file-1lhyeik06.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyeik05/ab61c10b-906e-45e1-a299-f7b05fe06d0f/b54dff50-f860-11ed-a585-812e165f6969/file-1lhyeik06.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 English Explanation 1\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyej3qs/044ef557-754b-45c6-95ad-09ddb9d73398/c48da740-f860-11ed-a585-812e165f6969/file-1lhyej3qt.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyej3qs/044ef557-754b-45c6-95ad-09ddb9d73398/c48da740-f860-11ed-a585-812e165f6969/file-1lhyej3qt.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 English Explanation 2\">"
+        },
+        "hi": {
+          "content": "$$D$$-ग्लूकोज की फिशर प्रस्तुति नीचे दी गई है।\n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/HEYhV18nlA6rMb8qD/yVYwGIlC82URhja8uURNHIZNTP8Zt/4YSfzpGHLqh7q5xCBesM80/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 Hindi\"> \n<br>$$\\beta $$-$$L$$-ग्लूकॉपाइरानोज़ की सही संरचना(एँ) क्या है :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/Kw1DEp0UCnkCetHfD/XmteIdrKeki3oukCgxnr9kziN2TLu/cNBVMjBWxW3H5k1uOLxcPb/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 Hindi Option 1\"> "
+            },
+            {
+              "identifier": "B",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/msh8Ad4gRh4nPAu2F/FcKg1ZLmDfUp6RNAXyt0Ui6Y0fCMQ/aj3fixRtuun45T5AY0Wt5u/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 Hindi Option 2\"> "
+            },
+            {
+              "identifier": "C",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/WTrWLENFGG64OqxZX/nULWlIth43Wbsue8WhiGNx6TxjE2p/wZygr8TfNCSUAtAo0rhjKl/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 Hindi Option 3\"> "
+            },
+            {
+              "identifier": "D",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/Q7W5xWOsGJmGgLsM4/HTTzGEsZiDR4H9TilFrax81SL2qSG/3Pa8k2HqZ9mp9IN3UZJSCS/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 Hindi Option 4\"> "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "जब हम $\\beta$-(D)-ग्लूकोपाइरानोज (D-ग्लूकोज से प्राप्त) समूहों से आगे बढ़ते हैं तो इसकी अक्षीय स्थिति विषुवतीय हो जाती है और विषुवतीय स्थिति अक्षीय हो जाती है।\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyeik05/ab61c10b-906e-45e1-a299-f7b05fe06d0f/b54dff50-f860-11ed-a585-812e165f6969/file-1lhyeik06.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyeik05/ab61c10b-906e-45e1-a299-f7b05fe06d0f/b54dff50-f860-11ed-a585-812e165f6969/file-1lhyeik06.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 Hindi Explanation 1\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyej3qs/044ef557-754b-45c6-95ad-09ddb9d73398/c48da740-f860-11ed-a585-812e165f6969/file-1lhyej3qt.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyej3qs/044ef557-754b-45c6-95ad-09ddb9d73398/c48da740-f860-11ed-a585-812e165f6969/file-1lhyej3qt.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Biomolecules Question 23 Hindi Explanation 2\">",
+          "direction": null,
+          "comprehension": null
+        }
+      },
+      "permalink": "the-fischer-presentation-of-d-glucose-is-given-below-2018-marks-4-u61ibyexb6hgr5er.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "topic": "carbohydrates",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The Fischer presentation of $$D$$-glucose is given below.\n \nThe correct structure(s) of $$\\beta $$-$$L$$-glucopyranose is (are) :"
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "$$D$$-ग्लूकोज की फिशर प्रस्तुति नीचे दी गई है।\n \n$$\\beta $$-$$L$$-ग्लूकॉपाइरानोज़ की सही संरचना(एँ) क्या है :"
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "question_id": "5c93k2p776hrtts9lu9i",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "permalink": "pfor-invert-sugar-the-correct-statements-isarep-jee-advanced-chemistry-some-basic-concepts-of-chemistry-m1gihkrva7laafuz",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>For \"invert sugar\", the correct statement(s) is(are)</p>\n<p>(Given : specific rotations of (+)-sucrose, (+)-maltose, L-($$-$$)-glucose and L-(+)-fructose in aqueous solution are +66$$^\\circ$$, +140$$^\\circ$$, $$-$$52$$^\\circ$$ and +92$$^\\circ$$, respectively.)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "\"invert sugar\" is prepared by acid catalyzed hydrolysis of maltose."
+            },
+            {
+              "identifier": "B",
+              "content": "\"invert sugar\" is an equimolar mixture of D-(+)-glucose and D-($$-$$)-fructose."
+            },
+            {
+              "identifier": "C",
+              "content": "specific rotation of \"invert sugar\" is $$-$$20$$^\\circ$$."
+            },
+            {
+              "identifier": "D",
+              "content": "on reaction with Br<sub>2</sub> water, \"invert sugar\" forms saccharic acid as one of the products."
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Invert sugar is prepared by acid catalyzed hydrolysis of sucrose.</p>\n<p>$${C_{12}}{H_{22}}{O_{11}} + {H_2}O\\buildrel {HCl} \\over\n \\longrightarrow \\underbrace {\\mathop {{C_6}{H_{12}}{O_6}}\\limits_{D - ( + ) - Glu\\cos e}  + \\mathop {{C_6}{H_{12}}{O_6}}\\limits_{D - ( - ) - Fructose} }_{Invert\\,sugar}$$</p>\n<p>Specific rotation of invert sugar is</p>\n<p>[$$\\alpha$$]<sub>mix</sub> = 0.5 $$\\times$$ (+52) + 0.5 $$\\times$$ ($$-$$92) = + 26 $$-$$ 46 = $$-$$20$$^\\circ$$</p>\n<p>On reaction with Br<sub>2</sub> water, invert sugar forms gluconic acid as one of the products. Br<sub>2</sub> water oxidises glucose into gluconic acid and fructose is not oxidised by it.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "<p>\"इन्वर्ट शुगर\" के लिए सही कथन है(हैं)</p>\n<p>(दिया गया: जलीय घोल में (+)-sucrose, (+)-maltose, L-($$-$$)-glucose और L-(+)-fructose के विशिष्ट घूर्णन क्रमशः +66$$^\\circ$$, +140$$^\\circ$$, $$-$$52$$^\\circ$$ और +92$$^\\circ$$ हैं।)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "\"इन्वर्ट शुगर\" माल्टोज के अम्ल-उत्प्रेरित जल अपघटन द्वारा तैयार किया जाता है।"
+            },
+            {
+              "identifier": "B",
+              "content": "\"इन्वर्ट शुगर\" D-(+)-glucose और D-($$-$$)-fructose का एक सममोल मिश्रण है।"
+            },
+            {
+              "identifier": "C",
+              "content": "\"इन्वर्ट शुगर\" का विशिष्ट घूर्णन $$-$$20$$^\\circ$$ है।"
+            },
+            {
+              "identifier": "D",
+              "content": "Br<sub>2</sub> पानी के साथ प्रतिक्रिया करने पर, \"इन्वर्ट शुगर\" सक्कैरिक अम्ल में से एक उत्पाद के रूप में बनता है।"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "carbohydrates",
+      "type": "mcqm",
+      "year": 2016,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "For \"invert sugar\", the correct statement(s) is(are)\n(Given : specific rotations of (+)-sucrose, (+)-maltose, L-($$-$$)-glucose and L-(+)-fructose in aqueous solution are +66$$^\\circ$$, +140$$^\\circ$$, $$-$$52$$^\\circ$$ and +92$$^\\circ$$, r..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "\"इन्वर्ट शुगर\" के लिए सही कथन है(हैं)\n(दिया गया: जलीय घोल में (+)-sucrose, (+)-maltose, L-($$-$$)-glucose और L-(+)-fructose के विशिष्ट घूर्णन क्रमशः +66$$^\\circ$$, +140$$^\\circ$$, $$-$$52$$^\\circ$$ और +92$$^\\circ$$ हैं।)"
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "question_id": "woavw20tiyoupj44ewrl",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "permalink": "pthe-structure-of-d--glucose-isp-pimagep-pthe-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ezdonhscnbwhezqn",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The structure of D-(+)-glucose is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13ihj97/e52a95ca-3610-4caa-b41b-05838a3cfd73/7b3d58b0-aaa0-11ec-9e36-1782c85ce4cb/file-1l13ihj98.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13ihj97/e52a95ca-3610-4caa-b41b-05838a3cfd73/7b3d58b0-aaa0-11ec-9e36-1782c85ce4cb/file-1l13ihj98.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Biomolecules Question 17 English\"></p>\n<p>The structure of L-($$-$$)-glucose is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13ikjwm/1a40c2ac-fcd4-4916-ae2d-2780809656ad/cf2b8d70-aaa0-11ec-9e36-1782c85ce4cb/file-1l13ikjwo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13ikjwm/1a40c2ac-fcd4-4916-ae2d-2780809656ad/cf2b8d70-aaa0-11ec-9e36-1782c85ce4cb/file-1l13ikjwo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Biomolecules Question 17 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13il2du/d507d360-07ce-4555-bde8-b66039fb0023/dd719320-aaa0-11ec-9e36-1782c85ce4cb/file-1l13il2dv.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13il2du/d507d360-07ce-4555-bde8-b66039fb0023/dd719320-aaa0-11ec-9e36-1782c85ce4cb/file-1l13il2dv.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Biomolecules Question 17 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13ilihs/c96f6061-cf86-473f-8b34-f70c2121155c/e9e34e00-aaa0-11ec-9e36-1782c85ce4cb/file-1l13iliht.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13ilihs/c96f6061-cf86-473f-8b34-f70c2121155c/e9e34e00-aaa0-11ec-9e36-1782c85ce4cb/file-1l13iliht.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Biomolecules Question 17 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13ilyh8/55468259-737f-4743-8a30-e9a0f4c4b8b1/f63c50c0-aaa0-11ec-9e36-1782c85ce4cb/file-1l13ilyh9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13ilyh8/55468259-737f-4743-8a30-e9a0f4c4b8b1/f63c50c0-aaa0-11ec-9e36-1782c85ce4cb/file-1l13ilyh9.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Biomolecules Question 17 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>In D-(+)-glucose the OH group attached to the last stereocentre is on the right hand side while in L-($$-$$)-glucose it is on left hand side. The structure of L-($$-$$)-glucose is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13iny7c/ecc8e242-f9c1-484f-85ae-145b692b7b8b/2da46d90-aaa1-11ec-9e36-1782c85ce4cb/file-1l13iny7d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13iny7c/ecc8e242-f9c1-484f-85ae-145b692b7b8b/2da46d90-aaa1-11ec-9e36-1782c85ce4cb/file-1l13iny7d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Biomolecules Question 17 English Explanation\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "carbohydrates",
+      "type": "mcqm",
+      "year": 2015,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The structure of D-(+)-glucose is\n\nThe structure of L-($$-$$)-glucose is"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "question_id": "w9hqwe7vcf3tdd1u7smd",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "the-total-number-of-distinct-naturally-occurring-amino-acids-jee-advanced-chemistry-some-basic-concepts-of-chemistry-5kedsxfhxvg3xhkh",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The total number of distinct naturally occurring amino acids obtained by complete acidic hydrolysis of the peptide shown below is<br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1ax4soe/d5d96142-fa8d-4a51-b4a2-3ea6134a0e91/3e7b74e0-aeb3-11ec-a750-090dba8947a4/file-1l1ax4sof.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1ax4soe/d5d96142-fa8d-4a51-b4a2-3ea6134a0e91/3e7b74e0-aeb3-11ec-a750-090dba8947a4/file-1l1ax4sof.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Chemistry - Biomolecules Question 19 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "Chemical reaction and product formed after hydrolysis of given peptide can be represented as<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1ax8ced/ec37917b-6214-44fe-812e-caa781f3402d/a1250660-aeb3-11ec-a750-090dba8947a4/file-1l1ax8cee.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1ax8ced/ec37917b-6214-44fe-812e-caa781f3402d/a1250660-aeb3-11ec-a750-090dba8947a4/file-1l1ax8cee.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Chemistry - Biomolecules Question 19 English Explanation\"><br>(A) is glycine which is only naturally occurring amino acid. While (B), (C) and (D) are not the naturally occurring amino acids. Hence, correct integer is (1)."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "proteins-and-enzymes",
+      "type": "integer",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The total number of distinct naturally occurring amino acids obtained by complete acidic hydrolysis of the peptide shown below is "
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "30551nst7bqkym1t2uds",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "permalink": "pa-tetrapeptide-has--cooh-group-on-alanine-this-produ-jee-advanced-chemistry-some-basic-concepts-of-chemistry-5knuzwe6kubri99j",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A tetrapeptide has $$-$$COOH group on alanine. This produces glycine (Gly), valine (Val), phenyl alanine (Phe) and alanine (Ala), on complete hydrolysis. For this tetrapeptide, the number of possible sequences (primary structures) with $$-$$NH<sub>2</sub> group attached to a chiral center is _______.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "<p>The possible combinations with C-terminal as alanine and N-terminal with chiral carbon (i.e. excluding glycine) are four.</p>\n<p>Val$$-$$Phe$$-$$Gly$$-$$Ala</p>\n<p>Val$$-$$Gly$$-$$Phe$$-$$Ala</p>\n<p>Phe$$-$$Val$$-$$Gly$$-$$Ala</p>\n<p>Phe$$-$$Gly$$-$$Val$$-$$Ala</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "proteins-and-enzymes",
+      "type": "integer",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "A tetrapeptide has $$-$$COOH group on alanine. This produces glycine (Gly), valine (Val), phenyl alanine (Phe) and alanine (Ala), on complete hydrolysis. For this tetrapeptide, the number of possible sequences (primary structures) with $$-$..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zx66th22heu2kytqompu",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "organic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "biomolecules",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The total number of lone-pairs of electrons in melamine is",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>The structure of melamine is :</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lyinxqg5/4fc20537-fc09-4d00-b4d7-9d78f91c3065/b0a21550-4048-11ef-a6a6-63cbb58d1d99/file-jaoe38c1lyinxqg6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lyinxqg5/4fc20537-fc09-4d00-b4d7-9d78f91c3065/b0a21550-4048-11ef-a6a6-63cbb58d1d99/file-jaoe38c1lyinxqg6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2013 Paper 1 Offline Chemistry - Biomolecules Question 24 English Explanation\">\n\n<p>Each nitrogen has one lone pair of electrons. Number (no.) of nitrogen in a molecule $=6$</p>\n\n<p>Total no. of lone pairs in melamine</p>\n\n<p>$$ \\begin{aligned} &amp; =\\text { No. of nitrogen } \\times \\text { lone pair } \\\\\\\\ &amp; =6 \\times 1=6 \\end{aligned} $$</p>\n\n<p>Hence, total number of lone pair on nitrogen is 6.</p>"
+        }
+      },
+      "permalink": "the-total-number-of-lone-pairs-of-electrons-in-melamine-is-2013-marks-4-nscyjitwtaapyjgq.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "topic": "vitamins-and-nucleic-acids",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The total number of lone-pairs of electrons in melamine is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "question_id": "98mpn9xxzv92rnyndbu9",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pthe-substituents-rsub1sub-and-rsub2sub-for-nine-jee-advanced-chemistry-some-basic-concepts-of-chemistry-m4ovow0jnqt0wgm6",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The substituents R<sub>1</sub> and R<sub>2</sub> for nine peptides are listed in the table given below. How many of these peptides are positively charged at pH = 7.0 ?</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l24lqe58/73bb3039-1e97-48a4-bb66-d37ccee42c5a/2cfd75c0-bf06-11ec-8fbf-67f2639a0a45/file-1l24lqe59.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l24lqe58/73bb3039-1e97-48a4-bb66-d37ccee42c5a/2cfd75c0-bf06-11ec-8fbf-67f2639a0a45/file-1l24lqe59.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 1 Offline Chemistry - Biomolecules Question 15 English\"></p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n</style>\n</p><table class=\"tg\" style=\"undefined;table-layout: fixed; width: 848px\">\n<colgroup>\n<col style=\"width: 172px\">\n<col style=\"width: 312px\">\n<col style=\"width: 364px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-baqh\">Peptide</th>\n    <th class=\"tg-baqh\">$${R_1}$$</th>\n    <th class=\"tg-baqh\">$${R_2}$$</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-baqh\">I</td>\n    <td class=\"tg-baqh\">H</td>\n    <td class=\"tg-baqh\">H</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">II</td>\n    <td class=\"tg-baqh\">H</td>\n    <td class=\"tg-baqh\">$$C{H_3}$$<br></td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">III</td>\n    <td class=\"tg-baqh\">$$C{H_2}COOH$$</td>\n    <td class=\"tg-baqh\">H</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">IV</td>\n    <td class=\"tg-baqh\">$$C{H_2}CON{H_2}$$</td>\n    <td class=\"tg-baqh\">$${(C{H_2})_4}N{H_2}$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">V</td>\n    <td class=\"tg-baqh\">$$C{H_2}CON{H_2}$$</td>\n    <td class=\"tg-baqh\">$$C{H_2}CON{H_2}$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">VI</td>\n    <td class=\"tg-baqh\">$${(C{H_2})_4}N{H_2}$$</td>\n    <td class=\"tg-baqh\">$${(C{H_2})_4}N{H_2}$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">VII</td>\n    <td class=\"tg-baqh\">$$C{H_2}COOH$$</td>\n    <td class=\"tg-baqh\">$$C{H_2}CON{H_2}$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">VIII</td>\n    <td class=\"tg-baqh\">$$C{H_2}OH$$</td>\n    <td class=\"tg-baqh\">$${(C{H_2})_4}N{H_2}$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">IX</td>\n    <td class=\"tg-baqh\">$${(C{H_2})_4}N{H_2}$$</td>\n    <td class=\"tg-baqh\">$$C{H_3}$$</td>\n  </tr>\n</tbody>\n</table><p></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "<p>For basic amino acids with pH > 7, peptides will exist as cations. For example, when the substituents are basic, that is R<sub>1</sub> = CH<sub>2</sub>CONH<sub>2</sub> and R<sub>2</sub> = (CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub> or when R<sub>1</sub> = (CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub> and R<sub>2</sub> = (CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub> or when R<sub>1</sub> = CH<sub>2</sub>OH and R<sub>2</sub> = (CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub> or when R<sub>1</sub> = (CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub> and R<sub>2</sub> = CH<sub>3</sub>.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "proteins-and-enzymes",
+      "type": "integer",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The substituents R1 and R2 for nine peptides are listed in the table given below. How many of these peptides are positively charged at pH = 7.0 ?\n\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:sol..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "question_id": "o0wgmhexku3ft1g6owhp",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "pthe-following-carbohydrate-isp-pimagep-jee-advanced-chemistry-some-basic-concepts-of-chemistry-roxhyrgwcvzawds0",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The following carbohydrate is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m3col737/23cb71b8-a035-4de9-8687-ea9049bbf999/9e186020-9ffb-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3col738.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m3col737/23cb71b8-a035-4de9-8687-ea9049bbf999/9e186020-9ffb-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3col738.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Biomolecules Question 13 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "a ketohexose"
+            },
+            {
+              "identifier": "B",
+              "content": "an aldohexose"
+            },
+            {
+              "identifier": "C",
+              "content": "an $$\\alpha$$-furanose"
+            },
+            {
+              "identifier": "D",
+              "content": "an $$\\alpha$$-pyransose"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>(i) The cyclic structure of pyranose ring</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m3coqotm/7bb20b20-1978-4c1b-aff3-5dc134bc8625/36d728a0-9ffc-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3coqotn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m3coqotm/7bb20b20-1978-4c1b-aff3-5dc134bc8625/36d728a0-9ffc-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3coqotn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Biomolecules Question 13 English Explanation 1\"></p>\n<p>This is 3D structure of glucose formed as a result of cyclisation of an aldohexose.</p>\n<p>(ii) There are 2 types of groups in cyclic structure; groups that lie perpendicular to the plane of pyranose ring are axial and other are axial groups.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m3coql7v/b3bce898-cec4-4fe1-8b0b-b1013de912a6/340e6bb0-9ffc-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3coql7w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m3coql7v/b3bce898-cec4-4fe1-8b0b-b1013de912a6/340e6bb0-9ffc-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3coql7w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Biomolecules Question 13 English Explanation 2\"></p>\n<p>The fischer form of pyranose ring has groups above the ring on left and groups below the ring on right.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m3coqi4e/658280fb-7f07-42e3-9db0-d08cd248de8f/31aa15e0-9ffc-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3coqi4f.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m3coqi4e/658280fb-7f07-42e3-9db0-d08cd248de8f/31aa15e0-9ffc-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3coqi4f.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Biomolecules Question 13 English Explanation 3\"></p>\n<p>The cyclic form of pyranose ring is obtained as a result of reaction of hydroxyl group (–OH) at fifth carbon to the electropositive carbon of aldehydic group. The reaction happens as follows :</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m3coqehv/7b5d6793-b224-438f-a129-58f1649a3706/2edd1330-9ffc-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3coqehw.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m3coqehv/7b5d6793-b224-438f-a129-58f1649a3706/2edd1330-9ffc-11ef-8de7-75b6f1ed123a/file-jaoe38c1m3coqehw.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Biomolecules Question 13 English Explanation 4\">"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "carbohydrates",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The following carbohydrate is\n"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "2tmf7opg5bo4e5op1v8d",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "pa-decapeptide-mol-wt-796-on-complete-hydrolysis-gives-jee-advanced-chemistry-some-basic-concepts-of-chemistry-bvgxqahyytg6iya4",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A decapeptide (mol. wt. 796) on complete hydrolysis gives glycine (mol. wt. 75), alanine and phenylalanine. Glycine contributes 47.0% to the total weight of the hydrolysed products. The number of glycine units present in the decapeptide is _________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>(i) A decapeptide has nine peptide bonds which hydrolyzes to give ten amino acids. Each peptide bond hydrolyses, to form one molecule of water. Hence, nine molecules of water are required to hydrolysis nine peptide bonds.</p>\n<p>$$\\text{Decapeptide} \\xrightarrow{\\text{hydrolyse} +9\\, \\text{H}_2\\text{O}} \\text{Amino acids}$$</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m03i29tb/b5f6a201-2e6f-4c66-8607-e2feb1cdab30/651204e0-5f8a-11ef-a92c-8f15fdc0f3e6/file-jaoe38c1m03i29tc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m03i29tb/b5f6a201-2e6f-4c66-8607-e2feb1cdab30/651204e0-5f8a-11ef-a92c-8f15fdc0f3e6/file-jaoe38c1m03i29tc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 1 Offline Chemistry - Biomolecules Question 14 English Explanation\">\n\n<p>(ii) On hydrolysis a molecule of water (equivalent to 18 g) is added across each amino acid.</p>\n<p>Mass of hydrolysed decapeptide = Mass of decapeptide + 9 \\times \\text{mass of each water molecule}</p>\n<p>$= 796 \\, \\text{g mol}^{-1} + 9 \\times 18 \\, \\text{g mol}^{-1} $</p>\n<p>$= (796 + 162) \\, \\text{g mol}^{-1} $</p>\n<p>$= 958 \\, \\text{g mol}^{-1} $</p>\n<p>Mass of glycine in hydrolysed decapeptide</p>\n<p>$= \\frac{47}{100} \\times 958 \\, \\text{g mol}^{-1} $</p>\n<p>$= 450.26 \\, \\text{g mol}^{-1} $</p>\n<p>Mass of each glycine = 75 $\\, \\text{g mol}^{-1}$</p>\n<p>Number of glycine units</p>\n<p>$= \\frac{\\text{Mass of hydrolysed decapeptide}}{\\text{Mass of each glycine}} $</p>\n<p>$n = \\frac{450.26 \\, \\text{g mol}^{-1}}{75 \\, \\text{g mol}^{-1}} $</p>\n<p>$n = 6.00$</p>\n<p>Hence, there are six molecules of water in decapeptide.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "proteins-and-enzymes",
+      "type": "integer",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "A decapeptide (mol. wt. 796) on complete hydrolysis gives glycine (mol. wt. 75), alanine and phenylalanine. Glycine contributes 47.0% to the total weight of the hydrolysed products. The number of glycine units present in the decapeptide is ..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "xacbgiy8m99w5sow3ooi",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "permalink": "pthe-correct-statement-about-the-following-disaccharide-is-jee-advanced-chemistry-some-basic-concepts-of-chemistry-8xvuff34hxoxkzmx",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The correct statement about the following disaccharide is :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lexk29hl/36ce6f13-d04d-4460-ac0e-42a96c70009a/f8394080-bc84-11ed-98d6-2f70d8df8cde/file-1lexk29hm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lexk29hl/36ce6f13-d04d-4460-ac0e-42a96c70009a/f8394080-bc84-11ed-98d6-2f70d8df8cde/file-1lexk29hm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Chemistry - Biomolecules Question 11 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Ring (a) is pyranonse with $$\\alpha$$-glycosidic link."
+            },
+            {
+              "identifier": "B",
+              "content": "Ring (a) is furanonse with $$\\alpha$$-glycosidic link."
+            },
+            {
+              "identifier": "C",
+              "content": "Ring (b) is furanonse with $$\\alpha$$-glycosidic link."
+            },
+            {
+              "identifier": "D",
+              "content": "Ring (b) is pyranonse with $$\\alpha$$-glycosidic link."
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Pyranonse structure is a six-membered heterocyclic ring containing five carbon atoms and one oxygen atom. A glycosidic bond is formed between the hemiacetal group of a saccharide and the hydroxyl group of some organic compound such as an alcohol. C-1 of ring (a) has an\n$$\\alpha $$-glycosidic linkage.</p>\n<p>Ring (b) has\n5-members and hence is a furanose.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "carbohydrates",
+      "type": "mcq",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The correct statement about the following disaccharide is :\n"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "f34ezhxywzik0z5rjjww",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "permalink": "pthe-total-number-of-basic-group-in-the-following-form-of-jee-advanced-chemistry-some-basic-concepts-of-chemistry-gmcpbkgzzlvb8ay0",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The total number of basic groups in the following form of lysine is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lexm8qfc/fc81bc2e-5539-4e66-b0df-986a1ce23a77/7e6bd480-bc8d-11ed-98d6-2f70d8df8cde/file-1lexm8qfd.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lexm8qfc/fc81bc2e-5539-4e66-b0df-986a1ce23a77/7e6bd480-bc8d-11ed-98d6-2f70d8df8cde/file-1lexm8qfd.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Chemistry - Biomolecules Question 10 English\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>There are two basic groups in lysine</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lexmepxd/95f08f62-edf2-4fcf-aab6-cf1b67489016/24e41a20-bc8e-11ed-98d6-2f70d8df8cde/file-1lexmepxe.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lexmepxd/95f08f62-edf2-4fcf-aab6-cf1b67489016/24e41a20-bc8e-11ed-98d6-2f70d8df8cde/file-1lexmepxe.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Chemistry - Biomolecules Question 10 English Explanation\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "proteins-and-enzymes",
+      "type": "integer",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The total number of basic groups in the following form of lysine is\n"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "l3180apyn9es1pjujk8o",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pthe-correct-statements-about-the-following-sugar-x-and-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ygritqsge90lhtv4",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The correct statement(s) about the following sugar X and Y is(are)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4zi0g/efa2dafe-f63a-448c-8588-be31c77edf4b/1739af00-cde3-11ed-9ce1-7bd2ccf24231/file-1lft4zi0h.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4zi0g/efa2dafe-f63a-448c-8588-be31c77edf4b/1739af00-cde3-11ed-9ce1-7bd2ccf24231/file-1lft4zi0h.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Chemistry - Biomolecules Question 9 English 1\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4zzgu/cd7058bd-a417-46e5-8b8b-2069fdf77b02/24b586e0-cde3-11ed-9ce1-7bd2ccf24231/file-1lft4zzgv.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4zzgu/cd7058bd-a417-46e5-8b8b-2069fdf77b02/24b586e0-cde3-11ed-9ce1-7bd2ccf24231/file-1lft4zzgv.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Chemistry - Biomolecules Question 9 English 2\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "X is a reducing sugar and Y is a non-reducing sugar."
+            },
+            {
+              "identifier": "B",
+              "content": "X is a non-reducing sugar and Y is a reducing sugar. "
+            },
+            {
+              "identifier": "C",
+              "content": "The glucosidic linkages in X and Y are $$\\alpha$$ and $$\\beta$$, respectively."
+            },
+            {
+              "identifier": "D",
+              "content": "The glucosidic linkages in X and Y are $$\\beta$$ and $$\\alpha$$, respectively."
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Reducing sugars contain cyclic hemiacetal or hemiketal groups in equilibrium with the open chain from having a free $$-$$CHO or $$-$$C = O group. Non-reducing sugars contain stable acetal or ketal structures their cyclic structures cannot be opened into an open chain form having a free carbonyl group. In X the glyco-sidic linkage is in between two anomeric carbon atoms while in Y it is only with one anomeric carbon, the other one is free. So, X is non-reducing while Y is reducing.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "carbohydrates",
+      "type": "mcqm",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "The correct statement(s) about the following sugar X and Y is(are)\n"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "5s63ewjpeyjnsu5xiirf",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "pcellulose-upon-acetylation-with-excess-acetic-anhydrideh-jee-advanced-chemistry-some-basic-concepts-of-chemistry-s0l48ifwnzi00yrr",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Cellulose upon acetylation with excess acetic anhydride/H$$_2$$SO$$_4$$ (catalytic) gives cellulose triacetate whose structure is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgdwc86l/c86f384c-e174-4cd5-bc82-7c5287368f71/bca061d0-d94d-11ed-a430-db8c5f970635/file-1lgdwc86m.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgdwc86l/c86f384c-e174-4cd5-bc82-7c5287368f71/bca061d0-d94d-11ed-a430-db8c5f970635/file-1lgdwc86m.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Chemistry - Biomolecules Question 8 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgdwcn09/f50bf970-7b3e-4a8c-88b9-2b75a503854d/c813e690-d94d-11ed-a430-db8c5f970635/file-1lgdwcn0a.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgdwcn09/f50bf970-7b3e-4a8c-88b9-2b75a503854d/c813e690-d94d-11ed-a430-db8c5f970635/file-1lgdwcn0a.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Chemistry - Biomolecules Question 8 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgdwdlqh/21c1770c-3649-4788-b47e-8b9496e2fc82/e2e79390-d94d-11ed-a430-db8c5f970635/file-1lgdwdlqi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgdwdlqh/21c1770c-3649-4788-b47e-8b9496e2fc82/e2e79390-d94d-11ed-a430-db8c5f970635/file-1lgdwdlqi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Chemistry - Biomolecules Question 8 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgdwe3sf/042e7a82-c28b-43ac-a50c-40c753751b18/f0d9fb00-d94d-11ed-a430-db8c5f970635/file-1lgdwe3sg.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgdwe3sf/042e7a82-c28b-43ac-a50c-40c753751b18/f0d9fb00-d94d-11ed-a430-db8c5f970635/file-1lgdwe3sg.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Chemistry - Biomolecules Question 8 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Cellulose is linear chains of $$\\beta$$-D-glucose molecules linked together by $$\\beta$$-1, 4 glycosidic bonds. Cellulose has $$\\beta$$-1, 4 linkage between $$\\beta$$-D-glucose units. The cellulose is linear molecule.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgdwl5s6/f9494593-c618-4cc1-8558-edafd3473f81/b50df260-d94e-11ed-a430-db8c5f970635/file-1lgdwl5s7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgdwl5s6/f9494593-c618-4cc1-8558-edafd3473f81/b50df260-d94e-11ed-a430-db8c5f970635/file-1lgdwl5s7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Chemistry - Biomolecules Question 8 English Explanation 1\"></p>\n<p>A general reaction of alcohol with acetic anhydride is :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgdwllln/244f9b36-e57d-49bb-a021-6ac861bc1825/c14626b0-d94e-11ed-a430-db8c5f970635/file-1lgdwlllo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgdwllln/244f9b36-e57d-49bb-a021-6ac861bc1825/c14626b0-d94e-11ed-a430-db8c5f970635/file-1lgdwlllo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Chemistry - Biomolecules Question 8 English Explanation 2\"></p>\n<p>Acetic anhydride reacts with the alcoholic function group and converts the alcoholic function group into ester functional group. The $$-$$OH is known as an alcoholic functional group. The $$-$$OC(O)$$-$$ is known as an ester functional group.</p>\n<p>During the conversion hydrogen of alcoholic group is replaced by CH$$_3$$CO$$-$$ group of acetic anhydride. The above reaction is known as acetylation because acetyl group CH$$_3$$CO$$-$$ is attaching with the reactant alcohol.</p>\n<p>So, upon acetylation of cellulose with excess acetic anhydride/H$$_2$$SO$$_4$$ (catalytic) all the $$-$$OH group will convert into acetyl group.</p>\n<p>As the cellulose contains a large number of glucose units but our product is triacetate. It means the alcohol group of three glucose units of cellulose is converted into acetyl group. As the acetic anhydride is in excess, all alcoholic groups of three glucose units of cellulose will convert into acetyl groups.</p>\n<p>So, the structure of the product is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgdwmull/c573eef0-e102-49d7-b64a-6d8fec0689ce/e408c590-d94e-11ed-a430-db8c5f970635/file-1lgdwmulm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgdwmull/c573eef0-e102-49d7-b64a-6d8fec0689ce/e408c590-d94e-11ed-a430-db8c5f970635/file-1lgdwmulm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Chemistry - Biomolecules Question 8 English Explanation 3\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "carbohydrates",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "Cellulose upon acetylation with excess acetic anhydride/H$$_2$$SO$$_4$$ (catalytic) gives cellulose triacetate whose structure is :"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "3kw55nqphcmotambtd96",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pstatement-1-glucose-gives-a-reddish-brown-precipitate-wi-jee-advanced-chemistry-some-basic-concepts-of-chemistry-dzvilxf8b9laqhvg",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p><b>Statement-1 :</b> Glucose gives a reddish-brown precipitate with Fehling's solution.</p>\n<p><b>Statement-2 :</b> Reaction of glucose with Fehling's solution gives $$\\mathrm{CuO}$$ and gluconic acid.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement-1 is True, Statement-2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement-1 is False, Statement-2 is True"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Fehling's solution contains copper (II) ions complexed with tartrate ions in sodium hydroxide solution. Complexing the copper (II) ions with tartrate ions prevents precipitation of copper (II) hydroxide.</p>\n<p>The reducing group of glucose $$(-\\mathrm{CHO})$$ is oxidised by the $$\\mathrm{Cu}^{2+}$$ ions in Fehling's to $$\\mathrm{Cu}^{+}$$ (red copper oxide).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mghtx2sh/b12ab6c6-8662-4542-a496-37cdb8b23b9e/314ddd10-a42f-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghtx2si.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mghtx2sh/b12ab6c6-8662-4542-a496-37cdb8b23b9e/314ddd10-a42f-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghtx2si.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 2 Offline Chemistry - Biomolecules Question 7 English Explanation\"></p>\n<p>Red solution is produced due to formation of cuprous oxide. $$\\mathrm{Cu}_{2} \\mathrm{O}$$ is produced instead of $$\\mathrm{CuO}$$.</p>\n<p>Hence, statement- 1 is true but statement- 2 is incorrect.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "carbohydrates",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "Statement-1 : Glucose gives a reddish-brown precipitate with Fehling's solution.\nStatement-2 : Reaction of glucose with Fehling's solution gives $$\\mathrm{CuO}$$ and gluconic acid."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "question_id": "8jy0n874zob4o1k7sef6",
+      "chapter": "biomolecules",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pwhich-of-the-following-disaccharide-will-not-reduce-tolle-jee-advanced-chemistry-some-basic-concepts-of-chemistry-medylqawzayjk7wv",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Which of the following disaccharide will not reduce Tollen's reagent?</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9l7iwl/95418235-abe4-4863-841f-c0005a073c2a/13dd8160-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9l7iwm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9l7iwl/95418235-abe4-4863-841f-c0005a073c2a/13dd8160-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9l7iwm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Biomolecules Question 6 English\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "<p>(A) The disaccharide will reduce Tollen's reagent.</p>\n<p>(B) The disaccharide will not reduce Tollen's reagent.</p>",
+          "explanation": "<p>(A) The structure of disaccharide is shown below.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9l8qex/349c2b4b-ce3e-4047-9520-8e48071ccbbe/35797a90-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9l8qey.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9l8qex/349c2b4b-ce3e-4047-9520-8e48071ccbbe/35797a90-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9l8qey.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Biomolecules Question 6 English Explanation 1\"></p>\n<p>The given disaccharide consists of two rings, \nfirst ring is acetal whereas second is hemiacetal. \nDue to presence of hemiacetal ring, the \nTollen’s reagent will be able to react with this \ndisaccharide. This is a reducing sugar.</p>\n<p>(B) The structure of disaccharide is shown below.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9la0n7/6ed9258f-49be-4ae6-a4a3-3c6a07916066/592fa130-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9la0n8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9la0n7/6ed9258f-49be-4ae6-a4a3-3c6a07916066/592fa130-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9la0n8.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Biomolecules Question 6 English Explanation 2\"></p>\n<p>The given disaccharide is made up of two rings, \nboth are acetal rings. Thus, this disaccharide is \nunable to react with Tollen’s reagent. This is a \nnon-reducing sugar.</p>\n<p>Final Answer :</p>\n<p>(A) The disaccharide will reduce Tollen’s reagent.</p>\n<p>(B) The disaccharide will not reduce Tollen’s \nreagent.</p>\n<p>Hints :</p>\n<p>The Tollen’s reagent is silver ammoniacal \nsolution and is basic in nature. The Tollen’s\nreagent is used for distinguishing reducing \nand non-reducing sugars. The hemiacetal \nreacts with Tollen’s reagent, but acetal does \nnot react with Tollen’s reagent.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "carbohydrates",
+      "type": "subjective",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Biomolecules • Chemistry",
+          "excerpt": "Which of the following disaccharide will not reduce Tollen's reagent?\n"
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    }
+  ]
+}

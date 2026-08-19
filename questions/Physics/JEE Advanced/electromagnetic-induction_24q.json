@@ -1,0 +1,1913 @@
+{
+  "questions": [
+    {
+      "question_id": "icbphgny9k9c95ogqr08",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "pconsider-a-circuit-consisting-of-a-capacitor-of-capacitan-jee-advanced-physics-equfpm3o8r07p6ea",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider a circuit consisting of a capacitor of capacitance <i>C</i> and a coil with <i>N</i> turns per unit length, cross sectional area <i>S</i> and length <i>d</i>, where $d^2 \\gg S$. There is another coil of length $d/2$, cross sectional area $S/2$ and $2N$ turns per unit length completely inside the larger coil, as shown in the figure. The ends of this smaller coil are connected with each other by an insulated conducting wire. The self-inductance of the larger coil is <i>L</i>. Neglecting edge effects and all the Ohmic resistances, the resonant frequency of the circuit is:</p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 2 English\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9v5gxk/c25a9bb0-e066-4f55-9ca8-f98e7ccbb29f/b10b8780-51fb-11f1-af7d-734b282814df/file-6y3zli1mp9v5gxl.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9v5gxk/c25a9bb0-e066-4f55-9ca8-f98e7ccbb29f/b10b8780-51fb-11f1-af7d-734b282814df/file-6y3zli1mp9v5gxl.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$\\dfrac{4}{\\sqrt{15LC}}$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$\\dfrac{6}{\\sqrt{5LC}}$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\dfrac{2}{\\sqrt{3LC}}$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$\\sqrt{\\dfrac{2}{3LC}}$</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The outer long solenoid has length $d$, area $S$, and number of turns per unit length $N$</p>\n<p>It connected to a capacitor C, forming an LC circuit.</p>\n<p>The inner short solenoid has length $\\frac{\\mathrm{d}}{2}$, area $\\frac{\\mathrm{S}}{2}$, and number of turns per unit length 2 N is placed completely inside it and short-circuited.</p>\n<p>For a long solenoid where end-effects are negligible ( $\\mathrm{d}^2 \\gg \\mathrm{~S}$ )</p>\n<p>The magnetic field inside it when carrying a current $\\mathrm{I}_1$ is :</p>\n<p>$$ \\mathrm{B}_1=\\mu_0 \\mathrm{NI}_1 $$</p>\n<p>The total number of turns in the outer coil is $\\mathrm{N}_1=\\mathrm{N} \\cdot \\mathrm{d}$.</p>\n<p>The total magnetic flux $\\Phi_1$ linking the outer coil itself is :</p>\n<p>$$ \\Phi_1=N_1\\left(B_1 S\\right)=(N d)\\left(\\mu_0 N I_1 S\\right)=\\mu_0 N^2 S d I_1 $$</p>\n<p>The self-inductance is $\\mathrm{L}=\\Phi_1 \\mathrm{I}_1$ :</p>\n<p>$$ \\mathrm{L}=\\mu_0 \\mathrm{~N}^2 \\mathrm{Sd} $$</p>\n<p>The length of the inner coil is $\\mathrm{d}_2=\\frac{\\mathrm{d}}{2}$ and cross-sectional area is $\\mathrm{S}_2=\\frac{\\mathrm{S}}{2}$.</p>\n<p>Its number of turns per unit length is $\\mathrm{N}_2=2 \\mathrm{~N}$.</p>\n<p>The total number of turns in the inner coil is:</p>\n<p>$$ \\mathrm{N}_{\\text {total }, 2}=\\mathrm{N}_2 \\cdot \\mathrm{~d}_2=(2 \\mathrm{~N})\\left(\\frac{\\mathrm{d}}{2}\\right)=\\mathrm{Nd} $$</p>\n<p>Using the self-inductance of a solenoid,</p>\n<p>$$ \\mathrm{L}_2=\\mu_0 \\mathrm{~N}_2^2 \\mathrm{~S}_2 \\mathrm{~d}_2 $$</p>\n<p>$$\\Rightarrow $$ $L_2=\\mu_0(2 N)^2\\left(\\frac{S}{2}\\right)\\left(\\frac{d}{2}\\right)=\\mu_0\\left(4 N^2\\right) \\frac{S d}{4}=\\mu_0 N^2 S d$</p>\n<p>$$\\Rightarrow $$ $$ \\mathrm{L}_2=\\mathrm{L} $$</p>\n<p>When a current $\\mathrm{I}_1$ flows through the outer coil, it establishes a uniform magnetic field $\\mathrm{B}_1=\\mu_0 \\mathrm{~N} \\mathrm{I}_1$ inside its core. Since the inner coil is completely inside the outer coil, it experiences this exact magnetic field.</p>\n<p>The total flux $\\Phi_{21}$ linking the inner coil due to the outer coil's current is :</p>\n<p>$$ \\Phi_{21}=N_{\\text {total }, 2}\\left(B_1 S_2\\right) $$</p>\n<p>$$ \\Phi_{21}=(\\mathrm{Nd})\\left(\\mu_0 \\mathrm{NI}_1\\right)\\left(\\frac{\\mathrm{S}}{2}\\right)=\\frac{1}{2} \\mu_0 \\mathrm{~N}^2 \\mathrm{~S} \\mathrm{~d} \\mathrm{I}_1 $$</p>\n<p>The mutual inductance M is given by $\\mathrm{M}=\\Phi_{21} \\mathrm{I}_1$ :</p>\n<p>$$ M=\\frac{1}{2} \\mu_0 N^2 S d=\\frac{L}{2} $$</p>\n<p>Let q be the charge on the capacitor C at any instant, and $\\mathrm{I}_1=-\\frac{\\mathrm{dq}}{\\mathrm{dt}}$ be the current flowing through the outer loop containing the capacitor.</p>\n<p>Let $\\mathrm{I}_2$ be the induced current flowing through the short-circuited inner loop.</p>\n<img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 2 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpfbdbqf/e17652e0-efcf-433e-927e-5f24ec812e47/08d0eb70-54fb-11f1-aa27-ef3fce574b6e/file-6y3zli1mpfbdbqg.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpfbdbqf/e17652e0-efcf-433e-927e-5f24ec812e47/08d0eb70-54fb-11f1-aa27-ef3fce574b6e/file-6y3zli1mpfbdbqg.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n<p>Applying Kirchhoff’s Voltage Law (KVL) to inner short-circuited loop 2 :</p>\n<p>The total induced EMF in the inner loop must be zero because it has no ohmic resistance or external voltage sources (R=0) :</p>\n<p>$$-L_2 \\frac{dI_2}{dt} - M \\frac{dI_1}{dt} = 0$$</p>\n<p>Using $L_2 = L$ and $M = \\frac{L}{2}$:</p>\n<p>$$-L \\frac{dI_2}{dt} - \\frac{L}{2} \\frac{dI_1}{dt} = 0 \\rightarrow \\frac{dI_2}{dt} = -\\frac{1}{2} \\frac{dI_1}{dt}$$</p>\n<p>Assuming the system starts from rest where initial currents are zero:</p>\n<p>$$I_2 = -\\frac{1}{2} I_1$$</p>\n<p>Applying KVL to the loop 1</p>\n<p>$$\\frac{q}{C} - L \\frac{dI_1}{dt} - M \\frac{dI_2}{dt} = 0$$</p>\n<p>Substituting $M = \\frac{L}{2}$ and $\\frac{dI_2}{dt} = -\\frac{1}{2} \\frac{dI_1}{dt}$</p>\n<p>$$\\frac{q}{C} - L \\frac{dI_1}{dt} - \\left(\\frac{L}{2}\\right)\\left(-\\frac{1}{2} \\frac{dI_1}{dt}\\right) = 0$$</p>\n<p>$$\\frac{q}{C} - L \\frac{dI_1}{dt} + \\frac{L}{4} \\frac{dI_1}{dt} = 0$$</p>\n<p>$$\\frac{q}{C} - \\frac{3}{4} L \\frac{dI_1}{dt} = 0$$</p>\n<p>Since $I_1 = -\\frac{dq}{dt} \\rightarrow \\frac{dI_1}{dt} = -\\frac{d^2 q}{dt^2}$:</p>\n<p>$$\\frac{q}{C} - \\frac{3}{4} L \\left(-\\frac{d^2 q}{dt^2}\\right) = 0$$</p>\n<p>$$\\left(\\frac{3}{4} L\\right) \\frac{d^2 q}{dt^2} + \\left(\\frac{1}{C}\\right) q = 0$$</p>\n<p>$$\\frac{d^2 q}{dt^2} + \\left(\\frac{4}{3LC}\\right) q = 0$$</p>\n<p>On comparing with standard differential equation for simple harmonic motion,</p>\n<p>$$\\frac{d^2 q}{dt^2} + \\omega_0^2 q = 0,$$</p>\n<p>where $\\omega_0$ is the angular resonant frequency of the system:</p>\n<p>$$\\omega_0^2 = \\frac{4}{3LC}$$</p>\n<p>$$\\omega_0 = \\sqrt{\\frac{4}{3LC}} = \\frac{2}{\\sqrt{3LC}}$$</p>\n<p>Therefore, the correct option is (C).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "inductance-self-and-mutual",
+      "type": "mcq",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "Consider a circuit consisting of a capacitor of capacitance C and a coil with N turns per unit length, cross sectional area S and length d, where $d^2 \\gg S$. There is another coil of length $d/2$, cross sectional area $S/2$ and $2N$ turns ..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    },
+    {
+      "question_id": "jkee89btlbfs88vn07oj",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "plist-i-contains-four-conducting-loops-lying-in-the-xy-p-jee-advanced-physics-gh6vpa8ghfcipeug",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>List-I contains four conducting loops lying in the $XY$ plane, as shown in the figures. The loops are rotating about $Z$ axis passing through the point $O$ with time period $T$ in clockwise direction.</p>\n<p>The region $x&gt;0$ contains a uniform magnetic field $B$ in the $+z$ direction. List-II contains the qualitative variation of the induced current $i(t)$ for each of these loops. Choose the option which describes the correct match between the entries in List-I to those in List-II.</p>\n<table style=\"width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ccc;\">\n\n  <thead>\n    <tr style=\"background-color:#007BFF; color:white;\">\n      <th style=\"padding:12px; border:1px solid #ccc; text-align:left;\">List-I</th>\n      <th style=\"padding:12px; border:1px solid #ccc; text-align:left;\">List-II</th>\n    </tr>\n  </thead>\n\n  <tbody>\n\n    <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(P)</strong><br><br>\n\n        <img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English 1\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9x0jo3/bc1df9bd-54db-4ac8-8a01-6e41f11c46c7/fa5f2e30-5202-11f1-af7d-734b282814df/file-6y3zli1mp9x0jo4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9x0jo3/bc1df9bd-54db-4ac8-8a01-6e41f11c46c7/fa5f2e30-5202-11f1-af7d-734b282814df/file-6y3zli1mp9x0jo4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(1)</strong><br><br>\n\n        <img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English 2\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9x0tke/a511368f-ce4c-43bb-a487-9dd173af6c6d/02046ce0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x0tkf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9x0tke/a511368f-ce4c-43bb-a487-9dd173af6c6d/02046ce0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x0tkf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n      </td>\n    </tr>\n\n    <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(Q)</strong><br><br>\n\n        <img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English 3\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9x13yn/c7398549-a454-4fd9-8383-b299d04e34f2/0a0c3df0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x13yo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9x13yn/c7398549-a454-4fd9-8383-b299d04e34f2/0a0c3df0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x13yo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(2)</strong><br><br>\n\n       <img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English 4\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9x1cm2/33d9f83b-494e-4e10-955e-8e5fe0447c3a/10bae7a0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x1cm3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9x1cm2/33d9f83b-494e-4e10-955e-8e5fe0447c3a/10bae7a0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x1cm3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n      </td>\n    </tr>\n\n    <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(R)</strong><br><br>\n\n        <img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English 5\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9x1lbx/e74ec544-31f2-4ac0-861f-1dc6bb3e00da/1776fed0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x1lby.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9x1lbx/e74ec544-31f2-4ac0-861f-1dc6bb3e00da/1776fed0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x1lby.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"> \n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(3)</strong><br><br>\n\n        <img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English 6\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9x1uwb/5226589a-1ff3-447e-a8f1-a1626b68b98c/1edac7b0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x1uwc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9x1uwb/5226589a-1ff3-447e-a8f1-a1626b68b98c/1edac7b0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x1uwc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n      </td>\n    </tr>\n\n    <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(S)</strong><br><br>\n<img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English 7\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9x24e4/b5b44361-b21c-4ec1-91a6-46cc3d58c9fc/26305fc0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x24e5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9x24e4/b5b44361-b21c-4ec1-91a6-46cc3d58c9fc/26305fc0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x24e5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n       \n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(4)</strong> <img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English 8\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9x2e6x/78d7df20-0c2a-4452-bd1d-ff58a8d89b9c/2dc26490-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x2e6y.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9x2e6x/78d7df20-0c2a-4452-bd1d-ff58a8d89b9c/2dc26490-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x2e6y.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n\n    \n      </td>\n    </tr>\n\n  <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n       \n       \n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n      \n        <strong>(5)</strong> <img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English 9\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9x2orj/e2050915-a199-41c7-97ca-f2366b87174d/35ed26f0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x2ork.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9x2orj/e2050915-a199-41c7-97ca-f2366b87174d/35ed26f0-5203-11f1-af7d-734b282814df/file-6y3zli1mp9x2ork.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n      </td>\n    </tr>\n  </tbody>\n\n</table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>P &rarr; 5, Q &rarr; 4, R &rarr; 1, S &rarr; 3</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>P &rarr; 3, Q &rarr; 2, R &rarr; 5, S &rarr; 4</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>P &rarr; 3, Q &rarr; 2, R &rarr; 1, S &rarr; 4</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>P &rarr; 5, Q &rarr; 1, R &rarr; 2, S &rarr; 3</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>When a rigid conducting loop rotates with a constant angular velocity $\\omega=\\frac{2 \\pi}{\\mathrm{~T}}$ around a fixed axis through O perpendicular to a magnetic field boundary ( $\\mathrm{x}=0$ ), an electromotive force (EMF) is induced across any segment cutting through the flux zone.</p>\n<p>According to Faraday's law of induction, the induced EMF $\\varepsilon$ is given by the rate of change of magnetic flux $\\Phi_{\\mathrm{B}}$ through the loop:</p>\n<p>$$ \\varepsilon=-\\frac{\\mathrm{d} \\Phi_{\\mathrm{B}}}{\\mathrm{dt}} $$</p>\n<p>Since the magnetic field B is uniform and perpendicular to the loop area $\\left(\\mathrm{A}_{\\mathrm{in}}\\right)$ that has entered the $\\mathrm{x}&gt;0$ region:</p>\n<p>$$ \\Phi_{\\mathrm{B}}=\\mathrm{B} \\cdot \\mathrm{~A}_{\\mathrm{in}} \\Rightarrow \\varepsilon=-\\mathrm{Bd} \\mathrm{~A}_{\\mathrm{in}} \\mathrm{dt} $$</p>\n<p>The induced current $\\mathrm{i}(\\mathrm{t})$ passing through a loop with net resistance R is:</p>\n<p>$$ i(t)=\\frac{\\varepsilon}{R}=-\\frac{B}{R} \\frac{d A_{i n}}{d t} $$</p>\n<p>Therefore, the magnitude and sign of the current $\\mathrm{i}(\\mathrm{t})$ at any instant depend entirely on how the area inside the magnetic field region changes with time $\\left(\\frac{\\mathrm{d} \\mathrm{A}_{\\text {in }}}{\\mathrm{dt}}\\right)$.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English Explanation 1\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpffwypy/ce7cdc20-7b41-4baa-a678-382fe9e57f41/cf769660-550c-11f1-8269-b952738c53c1/file-6y3zli1mpffwypz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpffwypy/ce7cdc20-7b41-4baa-a678-382fe9e57f41/cf769660-550c-11f1-8269-b952738c53c1/file-6y3zli1mpffwypz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>It rotates clockwise into the $\\mathrm{x}&gt;0$ field region.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English Explanation 2\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpffymna/f741c132-20d9-44f6-9e76-685c38226f28/fdc12c60-550c-11f1-8269-b952738c53c1/file-6y3zli1mpffymnb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpffymna/f741c132-20d9-44f6-9e76-685c38226f28/fdc12c60-550c-11f1-8269-b952738c53c1/file-6y3zli1mpffymnb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>As the straight edge enters the field, the sector area inside the field increases linearly with the angle $\\theta = \\omega t$:</p>\n<p>$$A_{\\mathrm{in}}(t)=\\frac{1}{2}r^2\\theta=\\frac{1}{2}r^2\\omega t$$</p>\n<p>$$\\frac{dA_{\\mathrm{in}}}{dt}=\\frac{1}{2}r^2\\omega=\\text{constant}$$</p>\n<p>This yields a constant, uniform induced current value ($i=\\text{constant}$) during the entry phase.</p>\n<p>If the angular speed is constant $\\omega$, time taken to enter the magnetic field is $t_1=\\frac{\\pi}{\\omega}=\\frac{T}{2}$</p>\n<p>After that it starts moving out of the magnetic field region with same angular speed $\\omega$</p>\n<p>$$\\frac{dA_{\\mathrm{in}}}{dt}=-\\frac{1}{2}r^2\\omega=\\text{constant}$$</p>\n<p>So, the direction of induced current gets reversed.</p>\n<p>If the angular speed is constant $\\omega$, time taken to exit the magnetic field is $t_2=\\frac{\\pi}{\\omega}=\\frac{T}{2}$</p>\n<p>So, the induced current will be constant for first half (positive) and constant for another half (negative).</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English Explanation 3\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpfg17xk/b265a06e-f4ef-4ecc-86c4-23a7efb7ba2e/45d0be80-550d-11f1-8269-b952738c53c1/file-6y3zli1mpfg17xl.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpfg17xk/b265a06e-f4ef-4ecc-86c4-23a7efb7ba2e/45d0be80-550d-11f1-8269-b952738c53c1/file-6y3zli1mpfg17xl.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>(P)→(3)</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English Explanation 4\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpfg322f/559cd13c-078d-4c27-b4d3-8caedefe91e1/78e73470-550d-11f1-8269-b952738c53c1/file-6y3zli1mpfg322g.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpfg322f/559cd13c-078d-4c27-b4d3-8caedefe91e1/78e73470-550d-11f1-8269-b952738c53c1/file-6y3zli1mpfg322g.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>Since the sector angle is $60^{\\circ}$, it takes a time interval $\\Delta t_1=\\frac{T}{6}$ to completely enter the field. Once fully inside the region $\\mathrm{x}&gt;0$, the area immersed in the magnetic field remains constant for a while, meaning $\\frac{\\mathrm{dA}_{\\text {in }}}{\\mathrm{dt}}=0$, so the induced current drops sharply to zero.</p>\n<p>The time interval till second sector is about to enter is $\\Delta t_2=\\frac{T}{6}$. So from $t=0$ to $t=\\frac{T}{6}$ the current is constant and positive and from $t=\\frac{T}{6}$ to $t=\\frac{T}{6}+\\Delta t_2=\\frac{T}{6}+\\frac{T}{6}=\\frac{T}{3}$ the current is zero.</p>\n<p>When the second sector starts to enter the magnetic field the first sector is still completely inside the magnetic field.</p>\n<p>It takes a time interval $\\Delta t_3=\\frac{T}{6}$ to completely enter the field. Once fully inside the region $x&gt;0$, the area immersed in the magnetic field remains constant for a while, meaning $\\frac{\\mathrm{dA}_{\\text {in }}}{\\mathrm{dt}}=0$, so the induced current drops sharply to zero.</p>\n<p>So from $t=\\frac{T}{3}$ to $t=\\frac{T}{3}+\\Delta t_3=\\frac{T}{3}+\\frac{T}{6}=\\frac{2 T}{3}$ the current is constant and positive.</p>\n<p>When the first sector starts leaving the field region, the area decreases at a constant rate, yielding a constant negative induced current value.</p>\n<p>So, the cycle repeats.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English Explanation 5\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpfg54lp/a07a2855-0d41-46e3-b201-1257a6f4e2e5/b27ae3d0-550d-11f1-8269-b952738c53c1/file-6y3zli1mpfg54lq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpfg54lp/a07a2855-0d41-46e3-b201-1257a6f4e2e5/b27ae3d0-550d-11f1-8269-b952738c53c1/file-6y3zli1mpfg54lq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>(Q)→2</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English Explanation 6\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpfg8a0s/cd2a52f7-ad64-429e-831d-f12706f40b12/0a17efc0-550e-11f1-8269-b952738c53c1/file-6y3zli1mpfg8a0t.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpfg8a0s/cd2a52f7-ad64-429e-831d-f12706f40b12/0a17efc0-550e-11f1-8269-b952738c53c1/file-6y3zli1mpfg8a0t.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>Since the sector angle is $60^{\\circ}$, it takes a time interval $\\Delta t_1=\\frac{\\pi / 3}{\\omega}=\\frac{\\pi}{3 \\omega}$ to completely enter the field. Once fully inside the region $\\mathrm{x}&gt;0$, the area immersed in the magnetic field remains constant for a while, meaning $\\frac{\\mathrm{dA} \\mathrm{A}_{\\text {in }}}{\\mathrm{dt}}=$ 0 , so the induced current drops sharply to zero.</p>\n<p>So from $t=0$ to $t=\\frac{T}{6}$ the current is constant and positive.</p>\n<p>The angular displacement before start leaving the magnetic field is $\\pi-\\frac{\\pi}{3}=\\frac{2 \\pi}{3}$</p>\n<p>So, the time till when the sector is completely inside the magnetic field is $\\Delta \\mathrm{t}_2=\\frac{2 \\pi / 3}{\\omega}=\\frac{2 \\pi}{3 \\omega}=2 \\Delta \\mathrm{t}_1$</p>\n<p>Thus, from $\\mathrm{t}=\\frac{\\mathrm{T}}{6}$ to $\\mathrm{t}=\\frac{\\mathrm{T}}{6}+\\Delta \\mathrm{t}_2=\\frac{\\mathrm{T}}{6}+\\frac{\\mathrm{T}}{3}=\\frac{2 \\mathrm{~T}}{3}$</p>\n<p>Now, the sector starts leaving the field region, the area decreases at a constant rate, yielding a constant negative induced current value for the time interval $\\Delta t_3=\\frac{\\pi}{3 \\omega}$</p>\n<p>And then cycle repeats.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English Explanation 7\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpfgcjvo/4cf51bb4-aad2-4c22-adbb-0ff50da6c52a/80f1f640-550e-11f1-8269-b952738c53c1/file-6y3zli1mpfgcjvp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpfgcjvo/4cf51bb4-aad2-4c22-adbb-0ff50da6c52a/80f1f640-550e-11f1-8269-b952738c53c1/file-6y3zli1mpfgcjvp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>(R)→(1)</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English Explanation 8\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpfgfyf6/f369c721-4dfc-4e9c-81f1-03a13b81642e/df9b0e20-550e-11f1-8269-b952738c53c1/file-6y3zli1mpfgfyf7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpfgfyf6/f369c721-4dfc-4e9c-81f1-03a13b81642e/df9b0e20-550e-11f1-8269-b952738c53c1/file-6y3zli1mpfgfyf7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>As the first sector is inside the magnetic field completely and another sector is out of magnetic field.</p>\n<p>The angular displacement before start leaving the magnetic field is $\\pi-\\frac{\\pi}{3}=\\frac{2 \\pi}{3}$</p>\n<p>So, the time till when the sector is completely inside the magnetic field is $\\Delta \\mathrm{t}_1=\\frac{2 \\pi / 3}{\\omega}=\\frac{2 \\pi}{3 \\omega}$</p>\n<p>Thus, from $t=0$ to $t=\\frac{2 \\pi}{3 \\omega}$.</p>\n<p>Now, the first sector is leaving the magnetic field with constant angular speed $\\omega$ and another sector is entering the magnetic field with same angular speed.</p>\n<p>So, the net rate of area inside the magnetic field is zero $\\frac{\\mathrm{dA}_{\\text {in }}}{\\mathrm{dt}}=0$, thus the current in loop is zero for another $\\mathrm{t}= \\frac{2 \\pi}{3}$ time interval and the cycle repeats.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Electromagnetic Induction Question 1 English Explanation 9\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpfgirnr/e0deb78b-320b-49c5-9359-85eba5e642cd/2dcf5970-550f-11f1-8269-b952738c53c1/file-6y3zli1mpfgirns.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpfgirnr/e0deb78b-320b-49c5-9359-85eba5e642cd/2dcf5970-550f-11f1-8269-b952738c53c1/file-6y3zli1mpfgirns.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>(S)→4</p>\n<p>Therefore, the correct match is $\\mathrm{P} \\rightarrow 3, \\mathrm{Q} \\rightarrow 2, \\mathrm{R} \\rightarrow 1, \\mathrm{~S} \\rightarrow 4$. </p>\n<p>So, the correct option is (C)</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "magnetic-flux-faradays-and-lenzs-laws",
+      "type": "mcq",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "List-I contains four conducting loops lying in the $XY$ plane, as shown in the figures. The loops are rotating about $Z$ axis passing through the point $O$ with time period $T$ in clockwise direction.\nThe region $x>0$ contains a uniform mag..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    },
+    {
+      "question_id": "9867up3cj48d8ipknopv",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pa-conducting-square-loop-initially-lies-in-the-x-z-plan-jee-advanced-physics-xprjozcwf2v0qgtm",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A conducting square loop initially lies in the $X Z$ plane with its lower edge hinged along the $X$-axis. Only in the region $y \\geq 0$, there is a time dependent magnetic field pointing along the $Z$-direction, $\\vec{B}(t)=B_0(\\cos \\omega t) \\hat{k}$, where $B_0$ is a constant. The magnetic field is zero everywhere else. At time $t=0$, the loop starts rotating with constant angular speed $\\omega$ about the $X$ axis in the clockwise direction as viewed from the $+X$ axis (as shown in the figure). Ignoring self-inductance of the loop and gravity, which of the following plots correctly represents the induced e.m.f. $(V)$ in the loop as a function of time:</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d4mxe/df82da9d-ff3f-4b31-a18d-98c81855f931/20649f20-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d4mxf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d4mxe/df82da9d-ff3f-4b31-a18d-98c81855f931/20649f20-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d4mxf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d6cnr/64782b9a-f5a0-49de-b34c-dd600f60fdc2/50146a70-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6cns.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d6cnr/64782b9a-f5a0-49de-b34c-dd600f60fdc2/50146a70-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6cns.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d6elg/b497bc1d-9942-4ee7-a7a1-b8b90b27187b/51934240-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6elh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d6elg/b497bc1d-9942-4ee7-a7a1-b8b90b27187b/51934240-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6elh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d6h7r/b43776e9-882c-4cf6-beba-a60f93638ae9/53994b70-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6h7s.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d6h7r/b43776e9-882c-4cf6-beba-a60f93638ae9/53994b70-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6h7s.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d6j8b/a9e7d0e1-41f0-4d3a-b0e5-573b60d658a5/552801c0-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6j8c.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d6j8b/a9e7d0e1-41f0-4d3a-b0e5-573b60d658a5/552801c0-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6j8c.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Here, we will use the magnetic flux formula and Faraday's law. Faraday's law relates the induced EMF to the rate of change of magnetic flux, which is appropriate for a loop in a changing magnetic field and changing orientation.</p>\n<p>magnetic flux formula: $\\phi=\\vec{B} \\cdot \\vec{A}$</p>\n<p>$$ \\Rightarrow \\phi=B A \\cos \\theta $$</p>\n<p>and the induced EMF is given by Faraday's law: $\\quad v=\\frac{-d \\phi}{d t}$</p>\n<p>where, $\\phi=$ magnetic flux through the loop</p>\n<p>$B=$ magnetic field</p>\n<p>$A=$ Area of the loop</p>\n<p>$\\theta=$ Angle between a perpendicular vector to the area and the magnetic field.</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxgnyrn/0d91adff-2ca1-449a-86e4-734fd96519af/0a1c3130-5d97-11f0-bda7-076bd952ff48/file-jaoe38c1mcxgnyro.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxgnyrn/0d91adff-2ca1-449a-86e4-734fd96519af/0a1c3130-5d97-11f0-bda7-076bd952ff48/file-jaoe38c1mcxgnyro.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 English Explanation 1\">\n<p>Given: $\\quad \\vec{B}(t)=B_0(\\cos \\omega t) \\hat{k}$</p>\n<p>$$ \\theta=\\omega t $$</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxgoxbs/671abdb6-d9bb-40ce-83f8-2c82697456db/24ce9a90-5d97-11f0-bda7-076bd952ff48/file-jaoe38c1mcxgoxbt.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxgoxbs/671abdb6-d9bb-40ce-83f8-2c82697456db/24ce9a90-5d97-11f0-bda7-076bd952ff48/file-jaoe38c1mcxgoxbt.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 English Explanation 2\">\n<p>we know, $\\quad \\phi=\\vec{B} \\cdot \\vec{A}$</p>\n<p>$\\begin{aligned} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,&amp; =B A \\cos (90-\\theta) \\\\ \\phi &amp; =B A \\sin \\theta\\end{aligned}$</p>\n<p>$$ \\begin{aligned} &amp;\\begin{aligned} \\Rightarrow \\phi &amp; =B_0 \\cos (\\omega t) A \\sin (\\omega t) \\\\ \\Rightarrow \\phi &amp; =\\frac{B_0 A}{2} \\sin (2 \\omega t) \\\\ \\varepsilon=v &amp; =\\frac{-d \\phi}{d t}=\\frac{-d}{d t}\\left[\\frac{B_0 A}{2} \\sin (2 \\omega t)\\right] \\\\ &amp; =\\frac{-B_0 A}{2}(2 \\omega) \\cos (2 \\omega t) \\\\ \\Rightarrow \\varepsilon &amp; =V=-B_0 \\omega A \\cos (2 \\omega t) \\end{aligned}\\\\ &amp;\\text { (only for half rotation) } \\end{aligned} $$</p>\n<p>cos function with time period $=\\frac{2 \\pi}{2 w}$</p>\n<p>$$ =\\frac{\\pi}{w} $$</p>\n<p>Hence, option (A) is correct.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक वर्गाकार चालकीय पाश (conducting loop) प्रारम्भ में $X Z$ तल में रखा है जिसके निचले किनारे को $X$-अक्ष के अनुदिश हिंज (hinge) किया गया है| केवल $y \\geq 0$ वाले भाग (region) में एक $z$-दिशा (direction) अनुदिश कालाश्रित (time dependent) चुम्बकीय क्षेत्र (magnetic field), $\\vec{B}(t)=B_0(\\cos \\omega t) \\hat{k}$ मौजूद है, जहाँ $B_0$ एक नियतांक है। अन्य भागों में चुम्बकीय क्षेत्र शून्य है। समय $t=0$ पर पाश चित्रानुसार दक्षिणावर्त (clockwise) दिशा ( $+X$ अक्ष से देखने पर) में एक नियत कोणीय चाल $\\omega$ से $X$ अक्ष के परितः घूर्णन (rotate) शुरू करता है। गुरुत्व और पाश के स्व-प्रेरकत्व (self-inductance) की उपेक्षा करते हुए, निम्न आरेखों (plots) में से कौन सा आरेख पाश में प्रेरित e.m.f. $(V)$ को समय के फलन के साथ उचित रूप से निरुपित करता है:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d4mxe/df82da9d-ff3f-4b31-a18d-98c81855f931/20649f20-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d4mxf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d4mxe/df82da9d-ff3f-4b31-a18d-98c81855f931/20649f20-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d4mxf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d6cnr/64782b9a-f5a0-49de-b34c-dd600f60fdc2/50146a70-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6cns.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d6cnr/64782b9a-f5a0-49de-b34c-dd600f60fdc2/50146a70-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6cns.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 Hindi Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d6elg/b497bc1d-9942-4ee7-a7a1-b8b90b27187b/51934240-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6elh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d6elg/b497bc1d-9942-4ee7-a7a1-b8b90b27187b/51934240-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6elh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 Hindi Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d6h7r/b43776e9-882c-4cf6-beba-a60f93638ae9/53994b70-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6h7s.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d6h7r/b43776e9-882c-4cf6-beba-a60f93638ae9/53994b70-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6h7s.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 Hindi Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d6j8b/a9e7d0e1-41f0-4d3a-b0e5-573b60d658a5/552801c0-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6j8c.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d6j8b/a9e7d0e1-41f0-4d3a-b0e5-573b60d658a5/552801c0-3797-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d6j8c.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 Hindi Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>यहाँ, हम चुंबकीय फ्लक्स सूत्र और फैराडे के नियम का उपयोग करेंगे। फैराडे का नियम प्रेरित EMF को चुंबकीय फ्लक्स के परिवर्तन की दर से संबंधित करता है, जो परिवर्ती चुंबकीय क्षेत्र और परिवर्ती अभिविन्यास में एक लूप के लिए उपयुक्त है।</p>\n<p>चुंबकीय फ्लक्स सूत्र: $\\phi=\\vec{B} \\cdot \\vec{A}$</p>\n<p>$$ \\Rightarrow \\phi=B A \\cos \\theta $$</p>\n<p>और प्रेरित EMF फैराडे के नियम द्वारा दिया जाता है: $\\quad v=\\frac{-d \\phi}{d t}$</p>\n<p>जहाँ, $\\phi=$ लूप से गुजरने वाला चुंबकीय फ्लक्स</p>\n<p>$B=$ चुंबकीय क्षेत्र</p>\n<p>$A=$ लूप का क्षेत्रफल</p>\n<p>$\\theta=$ क्षेत्रफल के लंबवत सदिश और चुंबकीय क्षेत्र के बीच कोण।</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxgnyrn/0d91adff-2ca1-449a-86e4-734fd96519af/0a1c3130-5d97-11f0-bda7-076bd952ff48/file-jaoe38c1mcxgnyro.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxgnyrn/0d91adff-2ca1-449a-86e4-734fd96519af/0a1c3130-5d97-11f0-bda7-076bd952ff48/file-jaoe38c1mcxgnyro.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 Hindi Explanation 1\">\n<p>दिया गया है: $\\quad \\vec{B}(t)=B_0(\\cos \\omega t) \\hat{k}$</p>\n<p>$$ \\theta=\\omega t $$</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxgoxbs/671abdb6-d9bb-40ce-83f8-2c82697456db/24ce9a90-5d97-11f0-bda7-076bd952ff48/file-jaoe38c1mcxgoxbt.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxgoxbs/671abdb6-d9bb-40ce-83f8-2c82697456db/24ce9a90-5d97-11f0-bda7-076bd952ff48/file-jaoe38c1mcxgoxbt.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 7 Hindi Explanation 2\">\n<p>हम जानते हैं, $\\quad \\phi=\\vec{B} \\cdot \\vec{A}$</p>\n<p>$\\begin{aligned} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,&amp; =B A \\cos (90-\\theta) \\\\ \\phi &amp; =B A \\sin \\theta\\end{aligned}$</p>\n<p>$$ \\begin{aligned} &amp;\\begin{aligned} \\Rightarrow \\phi &amp; =B_0 \\cos (\\omega t) A \\sin (\\omega t) \\\\ \\Rightarrow \\phi &amp; =\\frac{B_0 A}{2} \\sin (2 \\omega t) \\\\ \\varepsilon=v &amp; =\\frac{-d \\phi}{d t}=\\frac{-d}{d t}\\left[\\frac{B_0 A}{2} \\sin (2 \\omega t)\\right] \\\\ &amp; =\\frac{-B_0 A}{2}(2 \\omega) \\cos (2 \\omega t) \\\\ \\Rightarrow \\varepsilon &amp; =V=-B_0 \\omega A \\cos (2 \\omega t) \\end{aligned}\\\\ &amp;\\text { (केवल आधे घूर्णन के लिए) } \\end{aligned} $$</p>\n<p>cos फलन का आवर्तकाल $=\\frac{2 \\pi}{2 w}$</p>\n<p>$$ =\\frac{\\pi}{w} $$</p>\n<p>अतः, विकल्प (A) सही है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "magnetic-flux-faradays-and-lenzs-laws",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A conducting square loop initially lies in the $X Z$ plane with its lower edge hinged along the $X$-axis. Only in the region $y \\geq 0$, there is a time dependent magnetic field pointing along the $Z$-direction, $\\vec{B}(t)=B_0(\\cos \\omega ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "एक वर्गाकार चालकीय पाश (conducting loop) प्रारम्भ में $X Z$ तल में रखा है जिसके निचले किनारे को $X$-अक्ष के अनुदिश हिंज (hinge) किया गया है| केवल $y \\geq 0$ वाले भाग (region) में एक $z$-दिशा (direction) अनुदिश कालाश्रित (time dependent) चुम..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "mjfj5tlg8xy9dnzrln1q",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pa-conducting-square-loop-of-side-l-mass-m-and-resist-jee-advanced-physics-t14tvkfkmjt8mbfe",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A conducting square loop of side $L$, mass $M$ and resistance $R$ is moving in the $X Y$ plane with its edges parallel to the $X$ and $Y$ axes. The region $y \\geq 0$ has a uniform magnetic field, $\\vec{B}=B_0 \\widehat{k}$. The magnetic field is zero everywhere else. At time $t=0$, the loop starts to enter the magnetic field with an initial velocity $v_0 \\hat{\\jmath} \\mathrm{~m} / \\mathrm{s}$, as shown in the figure. Considering the quantity $K=\\frac{B_0^2 L^2}{R M}$ in appropriate units, ignoring self-inductance of the loop and gravity, which of the following statements is/are correct:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0de11y/f3275e7c-5007-460f-970f-8e501371f704/25967760-3798-11f0-831e-111c9abd7f64/file-jaoe38c1mb0de11z.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0de11y/f3275e7c-5007-460f-970f-8e501371f704/25967760-3798-11f0-831e-111c9abd7f64/file-jaoe38c1mb0de11z.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 6 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>If $v_0 = 1.5KL$, the loop will stop before it enters completely inside the region of magnetic field.</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>When the complete loop is inside the region of magnetic field, the net force acting on the loop is zero.</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>If $v_0 = \\frac{KL}{10}$, the loop comes to rest at $t = \\left(\\frac{1}{K}\\right) \\ln\\left(\\frac{5}{2}\\right)$.</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>If $v_0 = 3KL$, the complete loop enters inside the region of magnetic field at time $t = \\left(\\frac{1}{K}\\right) \\ln\\left(\\frac{3}{2}\\right)$.</p>"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Here, as the loop enters the field, the magnetic flux through the loop is changing. Changing magnetic flux, according to Faraday's law, induces an EMF in the loop. As the loop has some resistance \n\n<br>So the loop gets an induced current and</p>\n<p> The magnetic force arises from the induced current interacting with the field.</p>\n<p>Flux : $\\phi=B_0$. (Area in Field)</p>\n<p>$$ \\Rightarrow \\phi=B_0 \\cdot L y $$</p>\n<p>EMF: $\\quad V=\\frac{-d \\phi}{d t}=-\\frac{d}{d t}\\left(B_0 L y\\right)$.</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow \\quad v=-B_0 L \\frac{d y}{d t} \\\\ &amp; \\Rightarrow \\quad v=-B_0 L v \\end{aligned} $$</p>\n<p>current $(v&gt;0$, so current direction based on Lenz's (law): $I=\\frac{V}{R}=\\frac{-B_0 v L}{R}$</p>\n<p>Force: current in the bottom edge (in field) interacts with $\\vec{B}$</p>\n<p>so force on a segment: $F=B_0 I L$</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow F=B_0\\left(\\frac{-B_0 v L}{R}\\right) L \\\\ &amp; \\Rightarrow F=\\frac{-B_0^2 L^2 v}{R} \\end{aligned} $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mdmcfgw6/1496c3c8-fc1a-4d27-9e26-6fb2ccd531e3/118c5e60-6b46-11f0-bae7-5b879bf7dc8b/file-jaoe38c1mdmcfgw7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mdmcfgw6/1496c3c8-fc1a-4d27-9e26-6fb2ccd531e3/118c5e60-6b46-11f0-bae7-5b879bf7dc8b/file-jaoe38c1mdmcfgw7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 6 English Explanation\"></p>\n<p>$$ \\text { Given, } K=\\frac{B_0^2 L^2}{R M} $$</p>\n<p>$$ \\begin{aligned} \\text { or } \\varepsilon &amp; =-B_0 v L \\\\ I &amp; =\\frac{-B_0 v L}{R} \\\\ F &amp; =B_0 I L=B_0\\left(\\frac{-B_0 v L}{R}\\right) L \\end{aligned} $$</p>\n<p>$$ \\Rightarrow \\frac{m d v}{d t}=\\frac{-\\left (B_0^2 L^2\\right) v}{R} \\quad\\left[\\begin{array}{ll} \\text { as } &amp; F=m a \\\\ &amp; =m \\frac{d v}{d t} \\end{array}\\right] $$</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow  \\text { } \\frac{mvd v}{d x}=\\frac{-\\left(B_0^2 L^2\\right)}{R} {v} \\\\ &amp; \\Rightarrow \\frac{d v}{d x}=-\\frac{B_0^2 L^2}{M R} \\\\ &amp; \\Rightarrow \\int_{v_0}^v d v=-K \\int_0^{x} dx\\\\ &amp; \\Rightarrow v-v_0=-K x \\\\ &amp; \\text { If } v_0=1.5 \\mathrm{KL} \\text { then for } x=L \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow v-1.5 \\mathrm{KL}=-K L \\\\ &amp; \\Rightarrow \\quad v=1.5 \\mathrm{KL}-\\mathrm{KL}=0.5 \\mathrm{KL} \\\\ &amp; \\Rightarrow \\quad v=0.5 \\mathrm{KL} \\end{aligned} $$</p>\n<p>So, the loop will have some velocity, and it will not stop.</p>\n<p>If the loop completely gets inside then $\\Phi$ becomes constant so $\\frac{d \\Phi}{d t}=\\varepsilon=0, \\quad I=0$ \n<br>i.e., no current flows and no force acts. </p><div></div>if $v_0=\\frac{K L}{10}$ then for $v=0$<p></p>\n<p>$$ \\begin{aligned} &amp; 0+\\frac{K L}{10}=-k x \\Rightarrow x=\\frac{L}{10} \\\\ &amp; \\frac{d v}{d t}=\\frac{-B_0^2 L^2}{M R} v \\\\ &amp; \\Rightarrow \\int_{v_0}^v \\frac{d v}{v}=-k \\int_0^t d t \\\\ &amp; \\Rightarrow[\\ln |v|]_{v_0}^v=-k t \\\\ &amp; \\Rightarrow \\ln \\left|\\frac{v}{v_0}\\right|=-k t \\\\ &amp; \\Rightarrow t=\\frac{1}{K} \\ln \\left|\\frac{v_0}{v}\\right| \\\\ &amp; \\text { for } v=0, t=\\frac{1}{k} \\ln (\\infty)=\\infty \\end{aligned} $$</p>\n<p>So it will never stop.</p>\n<p>If $v_0=3 \\mathrm{KL}$ then</p>\n<p>$v$ at $x=L$,</p>\n<p>$v-3 K L=-K L$</p>\n<p>$$ \\Rightarrow v=3 K L-K L=2 K L $$</p>\n<p>So time, $t=\\frac{1}{k} \\ln \\left|\\frac{v_0}{v}\\right|$</p>\n<p>$$ \\begin{aligned} &amp; \\quad t=\\frac{1}{k} \\ln \\left|\\frac{3 K L}{2 K L}\\right| \\\\ &amp; \\Rightarrow t=\\frac{1}{k} \\ln \\left(\\frac{3}{2}\\right) \\end{aligned} $$</p>\n<p>Hence, Options (B) and (D) are correct.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक $L$ लम्बाई, $M$ द्रव्यमान और $R$ प्रतिरोध का वर्गाकार चालक पाश (conducting loop) $X Y$ तल में इस प्रकार गतिमान है कि इसके सिरे $X$ और $Y$ अक्षों के समांतर हैं। $y \\geq 0$ भाग (region) में एक एकसमान चुम्बकीय क्षेत्र $\\vec{B}=B_0 \\hat{k}$ है। अन्य भागों में चुम्बकीय क्षेत्र शून्य है। समय $t=0$ पर पाश चित्रानुसार चुम्बकीय क्षेत्र में प्रारंभिक वेग $v_0 \\hat{\\jmath} \\mathrm{~m} / \\mathrm{s}$ से प्रवेश करना आरम्भ करता है। गुरुत्वाकर्षण और स्व-प्रेरकत्व (self-inductance) की उपेक्षा करते हुए और उपयुक्त मात्रकों में राशि $K=\\frac{B_0^2 L^2}{R M}$ को मानते हुए, निम्नलिखित कथनों में से कौन सा/से सही है/हैं:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0de11y/f3275e7c-5007-460f-970f-8e501371f704/25967760-3798-11f0-831e-111c9abd7f64/file-jaoe38c1mb0de11z.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0de11y/f3275e7c-5007-460f-970f-8e501371f704/25967760-3798-11f0-831e-111c9abd7f64/file-jaoe38c1mb0de11z.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 6 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "यदि $v_0=1.5 \\mathrm{KL}$ है तो पाश चुम्बकीय क्षेत्र वाले भाग के अन्दर पूरी तरह से प्रवेश करने से पहले ही रूक जायेगा|"
+            },
+            {
+              "identifier": "B",
+              "content": "यदि संपूर्ण पाश चुम्बकीय क्षेत्र वाले भाग के अन्दर है तो पाश पर लगने वाला कुल बल शून्य है।"
+            },
+            {
+              "identifier": "C",
+              "content": "यदि $v_0=\\frac{K L}{10}$ है तो पाश समय $t=\\left(\\frac{1}{K}\\right) \\ln \\left(\\frac{5}{2}\\right)$ पर विरामावस्था में आ जाता है।"
+            },
+            {
+              "identifier": "D",
+              "content": "यदि $v_0=3 K L$ है तो $t=\\left(\\frac{1}{K}\\right) \\ln \\left(\\frac{3}{2}\\right)$ समय पर सम्पूर्ण पाश चुम्बकीय क्षेत्र वाले भाग के अन्दर प्रवेश कर जाता है|"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>यहाँ, जैसे ही लूप क्षेत्र में प्रवेश करता है, लूप के माध्यम से चुंबकीय फ्लक्स परिवर्तित हो रहा है। फैराडे के नियम के अनुसार, परिवर्तित चुंबकीय फ्लक्स लूप में एक EMF प्रेरित करता है। चूंकि लूप में कुछ प्रतिरोध है\n\n<br>इसलिए लूप में एक प्रेरित धारा उत्पन्न होती है और</p>\n<p>चुंबकीय बल प्रेरित धारा के क्षेत्र के साथ अंतःक्रिया से उत्पन्न होता है।</p>\n<p>फ्लक्स: $\\phi=B_0$. (क्षेत्र में क्षेत्रफल)</p>\n<p>$$ \\Rightarrow \\phi=B_0 \\cdot L y $$</p>\n<p>EMF: $\\quad V=\\frac{-d \\phi}{d t}=-\\frac{d}{d t}\\left(B_0 L y\\right)$.</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow \\quad v=-B_0 L \\frac{d y}{d t} \\\\ &amp; \\Rightarrow \\quad v=-B_0 L v \\end{aligned} $$</p>\n<p>धारा $(v&gt;0$, इसलिए लेंज के (नियम) के आधार पर धारा की दिशा): $I=\\frac{V}{R}=\\frac{-B_0 v L}{R}$</p>\n<p>बल: निचले किनारे में धारा (क्षेत्र में) $\\vec{B}$ के साथ अंतःक्रिया करती है</p>\n<p>इसलिए एक खंड पर बल: $F=B_0 I L$</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow F=B_0\\left(\\frac{-B_0 v L}{R}\\right) L \\\\ &amp; \\Rightarrow F=\\frac{-B_0^2 L^2 v}{R} \\end{aligned} $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mdmcfgw6/1496c3c8-fc1a-4d27-9e26-6fb2ccd531e3/118c5e60-6b46-11f0-bae7-5b879bf7dc8b/file-jaoe38c1mdmcfgw7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mdmcfgw6/1496c3c8-fc1a-4d27-9e26-6fb2ccd531e3/118c5e60-6b46-11f0-bae7-5b879bf7dc8b/file-jaoe38c1mdmcfgw7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Electromagnetic Induction Question 6 Hindi Explanation\"></p>\n<p>$$ \\text { दिया गया है, } K=\\frac{B_0^2 L^2}{R M} $$</p>\n<p>$$ \\begin{aligned} \\text { या } \\varepsilon &amp; =-B_0 v L \\\\ I &amp; =\\frac{-B_0 v L}{R} \\\\ F &amp; =B_0 I L=B_0\\left(\\frac{-B_0 v L}{R}\\right) L \\end{aligned} $$</p>\n<p>$$ \\Rightarrow \\frac{m d v}{d t}=\\frac{-\\left (B_0^2 L^2\\right) v}{R} \\quad\\left[\\begin{array}{ll} \\text { चूंकि } &amp; F=m a \\\\ &amp; =m \\frac{d v}{d t} \\end{array}\\right] $$</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow  \\text { } \\frac{mvd v}{d x}=\\frac{-\\left(B_0^2 L^2\\right)}{R} {v} \\\\ &amp; \\Rightarrow \\frac{d v}{d x}=-\\frac{B_0^2 L^2}{M R} \\\\ &amp; \\Rightarrow \\int_{v_0}^v d v=-K \\int_0^{x} dx\\\\ &amp; \\Rightarrow v-v_0=-K x \\\\ &amp; \\text { यदि } v_0=1.5 \\mathrm{KL} \\text { तो } x=L \\text { के लिए } \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow v-1.5 \\mathrm{KL}=-K L \\\\ &amp; \\Rightarrow \\quad v=1.5 \\mathrm{KL}-\\mathrm{KL}=0.5 \\mathrm{KL} \\\\ &amp; \\Rightarrow \\quad v=0.5 \\mathrm{KL} \\end{aligned} $$</p>\n<p>अतः, लूप में कुछ वेग होगा, और यह रुकेगा नहीं।</p>\n<p>यदि लूप पूरी तरह से अंदर आ जाता है तो $\\Phi$ स्थिर हो जाता है इसलिए $\\frac{d \\Phi}{d t}=\\varepsilon=0, \\quad I=0$ \n<br>अर्थात्, कोई धारा प्रवाहित नहीं होती है और कोई बल कार्य नहीं करता है। </p><div></div>यदि $v_0=\\frac{K L}{10}$ तो $v=0$ के लिए<p></p>\n<p>$$ \\begin{aligned} &amp; 0+\\frac{K L}{10}=-k x \\Rightarrow x=\\frac{L}{10} \\\\ &amp; \\frac{d v}{d t}=\\frac{-B_0^2 L^2}{M R} v \\\\ &amp; \\Rightarrow \\int_{v_0}^v \\frac{d v}{v}=-k \\int_0^t d t \\\\ &amp; \\Rightarrow[\\ln |v|]_{v_0}^v=-k t \\\\ &amp; \\Rightarrow \\ln \\left|\\frac{v}{v_0}\\right|=-k t \\\\ &amp; \\Rightarrow t=\\frac{1}{K} \\ln \\left|\\frac{v_0}{v}\\right| \\\\ &amp; \\text { } v=0 \\text { के लिए, } t=\\frac{1}{k} \\ln (\\infty)=\\infty \\end{aligned} $$</p>\n<p>इसलिए यह कभी नहीं रुकेगा।</p>\n<p>यदि $v_0=3 \\mathrm{KL}$ तो</p>\n<p>$x=L$ पर $v$,</p>\n<p>$v-3 K L=-K L$</p>\n<p>$$ \\Rightarrow v=3 K L-K L=2 K L $$</p>\n<p>इसलिए समय, $t=\\frac{1}{k} \\ln \\left|\\frac{v_0}{v}\\right|$</p>\n<p>$$ \\begin{aligned} &amp; \\quad t=\\frac{1}{k} \\ln \\left|\\frac{3 K L}{2 K L}\\right| \\\\ &amp; \\Rightarrow t=\\frac{1}{k} \\ln \\left(\\frac{3}{2}\\right) \\end{aligned} $$</p>\n<p>अतः, विकल्प (B) और (D) सही हैं।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "motional-emf-and-eddy-current",
+      "type": "mcqm",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A conducting square loop of side $L$, mass $M$ and resistance $R$ is moving in the $X Y$ plane with its edges parallel to the $X$ and $Y$ axes. The region $y \\geq 0$ has a uniform magnetic field, $\\vec{B}=B_0 \\widehat{k}$. The magnetic fiel..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "एक $L$ लम्बाई, $M$ द्रव्यमान और $R$ प्रतिरोध का वर्गाकार चालक पाश (conducting loop) $X Y$ तल में इस प्रकार गतिमान है कि इसके सिरे $X$ और $Y$ अक्षों के समांतर हैं। $y \\geq 0$ भाग (region) में एक एकसमान चुम्बकीय क्षेत्र $\\vec{B}=B_0 \\hat{k}$ ..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "l68936jwrttl1pbi87co",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "pa-region-in-the-form-of-an-equilateral-triangle-in-x-y-jee-advanced-physics-pdofyv0kyyawwt8h",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A region in the form of an equilateral triangle (in $x-y$ plane) of height $L$ has a uniform magnetic field $\\vec{B}$ pointing in the $+z$-direction. A conducting loop $\\mathrm{PQR}$, in the form of an equilateral triangle of the same height $L$, is placed in the $x-y$ plane with its vertex $\\mathrm{P}$ at $x=0$ in the orientation shown in the figure. At $t=0$, the loop starts entering the region of the magnetic field with a uniform velocity $\\vec{v}$ along the $+x$-direction. The plane of the loop and its orientation remain unchanged throughout its motion.</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpw4d6x/10223706-4d59-4a88-8e49-de89a0b486c2/bfe0db90-1ca9-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw4d6y.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpw4d6x/10223706-4d59-4a88-8e49-de89a0b486c2/bfe0db90-1ca9-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw4d6y.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 English\">\n\n<p>Which of the following graph best depicts the variation of the induced emf $(E)$ in the loop as a function of the distance $(x)$ starting from $x=0$ ?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpw6ycx/dd3369a2-d59e-4324-8249-b5dbe5747c4c/07d8ee10-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw6ycy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpw6ycx/dd3369a2-d59e-4324-8249-b5dbe5747c4c/07d8ee10-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw6ycy.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpw8egq/281935ff-a679-4e84-9c5c-dc974890c61b/301909a0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw8egr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpw8egq/281935ff-a679-4e84-9c5c-dc974890c61b/301909a0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw8egr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpw9l19/1e9d17ae-7619-4b92-8fd5-056587a062cb/50fb76d0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw9l1a.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpw9l19/1e9d17ae-7619-4b92-8fd5-056587a062cb/50fb76d0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw9l1a.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpwafui/923205bd-d53a-4607-88b6-3ea03b7630a0/68c8c1a0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpwafuj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpwafui/923205bd-d53a-4607-88b6-3ea03b7630a0/68c8c1a0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpwafuj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>0 to L</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgfpu7m/f6b5e43d-6421-406c-b0a9-3f1e13bd3581/321d2120-52db-11ef-a041-4983d2813081/file-jaoe38c1lzgfpu7n.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgfpu7m/f6b5e43d-6421-406c-b0a9-3f1e13bd3581/321d2120-52db-11ef-a041-4983d2813081/file-jaoe38c1lzgfpu7n.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 English Explanation 1\"></p>\n<p>$$\\varepsilon=\\mathrm{B} \\ell_{\\mathrm{ent}} \\mathrm{v}=\\mathrm{B} \\times \\frac{\\mathrm{x}}{\\sqrt{3}} \\mathrm{v}$$</p>\n<p>L to 2 L</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgfqz4g/945ad91c-81fc-4e04-b5c9-58a8b32bbeac/51b7a500-52db-11ef-a041-4983d2813081/file-jaoe38c1lzgfqz4h.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgfqz4g/945ad91c-81fc-4e04-b5c9-58a8b32bbeac/51b7a500-52db-11ef-a041-4983d2813081/file-jaoe38c1lzgfqz4h.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 English Explanation 2\"></p>\n<p>$$\\begin{aligned}\n&amp; |\\operatorname{emf}|=B\\left(\\frac{L}{\\sqrt{3}}-\\frac{x_0}{\\sqrt{3}}\\right) v-B \\frac{2 x_0}{\\sqrt{3}} v \\\\\n&amp; =\\frac{B v L}{\\sqrt{3}}-\\sqrt{3} B v x_0 \\\\\n&amp; =B v\\left[\\frac{L}{\\sqrt{3}}-\\sqrt{3}(x-L)\\right] \\\\\n&amp; =\\frac{B v}{\\sqrt{3}}[L-3 x+3 L] \\\\\n&amp; =\\frac{B v}{\\sqrt{3}}[4 L-3 x] \\\\\n&amp; \\text { at } x=\\frac{4 L}{3} \\\\\n&amp; \\text { emf }=0\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>$x-y$ समतल में स्थित $L$ ऊंचाई के एक समबाहु त्रिभुजाकार क्षेत्र के अन्दर, $+z$-दिशा में एकसमान चुम्बकीय क्षेत्र $\\vec{B}$ है। इसी $x-y$ समतल पर उसी $L$ ऊंचाई के एक समबाहु त्रिभुजाकार चालक लूप $\\mathrm{PQR}$ को रखा है जिसका $\\mathrm{P}$ शीर्ष, चित्र में दिखाए गये अभिविन्यास के अनुसार, $x=0$ पर है। समय $t=0$ पर, लूप, $+x$-दिशा में एकसमान वेग $\\vec{v}$ से चुम्बकीय क्षेत्र में प्रवेश करना प्रारम्भ करता है। इस गति के दौरान लूप का तल और अभिविन्यास (orientation) अपरिवर्तित रहते हैं।</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpw4d6x/10223706-4d59-4a88-8e49-de89a0b486c2/bfe0db90-1ca9-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw4d6y.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpw4d6x/10223706-4d59-4a88-8e49-de89a0b486c2/bfe0db90-1ca9-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw4d6y.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 Hindi\">\n\n<p>निम्न में से कौन सा ग्राफ, $x=0$ से प्रारंभ करते हुए, लूप में उत्पन्न हुए विद्युत वाहक बल $(E)$ का दूरी $(x)$ के साथ फलन, सबसे उचित रूप से दर्शाता है?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpw6ycx/dd3369a2-d59e-4324-8249-b5dbe5747c4c/07d8ee10-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw6ycy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpw6ycx/dd3369a2-d59e-4324-8249-b5dbe5747c4c/07d8ee10-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw6ycy.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 Hindi Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpw8egq/281935ff-a679-4e84-9c5c-dc974890c61b/301909a0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw8egr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpw8egq/281935ff-a679-4e84-9c5c-dc974890c61b/301909a0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw8egr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 Hindi Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpw9l19/1e9d17ae-7619-4b92-8fd5-056587a062cb/50fb76d0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw9l1a.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpw9l19/1e9d17ae-7619-4b92-8fd5-056587a062cb/50fb76d0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpw9l1a.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 Hindi Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpwafui/923205bd-d53a-4607-88b6-3ea03b7630a0/68c8c1a0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpwafuj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpwafui/923205bd-d53a-4607-88b6-3ea03b7630a0/68c8c1a0-1caa-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpwafuj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 Hindi Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>0 से L</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgfpu7m/f6b5e43d-6421-406c-b0a9-3f1e13bd3581/321d2120-52db-11ef-a041-4983d2813081/file-jaoe38c1lzgfpu7n.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgfpu7m/f6b5e43d-6421-406c-b0a9-3f1e13bd3581/321d2120-52db-11ef-a041-4983d2813081/file-jaoe38c1lzgfpu7n.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 Hindi Explanation 1\"></p>\n<p>$$\\varepsilon=\\mathrm{B} \\ell_{\\mathrm{ent}} \\mathrm{v}=\\mathrm{B} \\times \\frac{\\mathrm{x}}{\\sqrt{3}} \\mathrm{v}$$</p>\n<p>L से 2 L</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgfqz4g/945ad91c-81fc-4e04-b5c9-58a8b32bbeac/51b7a500-52db-11ef-a041-4983d2813081/file-jaoe38c1lzgfqz4h.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgfqz4g/945ad91c-81fc-4e04-b5c9-58a8b32bbeac/51b7a500-52db-11ef-a041-4983d2813081/file-jaoe38c1lzgfqz4h.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Electromagnetic Induction Question 8 Hindi Explanation 2\"></p>\n<p>$$\\begin{aligned}\n&amp; |\\operatorname{emf}|=B\\left(\\frac{L}{\\sqrt{3}}-\\frac{x_0}{\\sqrt{3}}\\right) v-B \\frac{2 x_0}{\\sqrt{3}} v \\\\\n&amp; =\\frac{B v L}{\\sqrt{3}}-\\sqrt{3} B v x_0 \\\\\n&amp; =B v\\left[\\frac{L}{\\sqrt{3}}-\\sqrt{3}(x-L)\\right] \\\\\n&amp; =\\frac{B v}{\\sqrt{3}}[L-3 x+3 L] \\\\\n&amp; =\\frac{B v}{\\sqrt{3}}[4 L-3 x] \\\\\n&amp; \\text { } x=\\frac{4 L}{3} \\text { पर} \\\\\n&amp; \\text { emf }=0\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "motional-emf-and-eddy-current",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A region in the form of an equilateral triangle (in $x-y$ plane) of height $L$ has a uniform magnetic field $\\vec{B}$ pointing in the $+z$-direction. A conducting loop $\\mathrm{PQR}$, in the form of an equilateral triangle of the same heigh..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "$x-y$ समतल में स्थित $L$ ऊंचाई के एक समबाहु त्रिभुजाकार क्षेत्र के अन्दर, $+z$-दिशा में एकसमान चुम्बकीय क्षेत्र $\\vec{B}$ है। इसी $x-y$ समतल पर उसी $L$ ऊंचाई के एक समबाहु त्रिभुजाकार चालक लूप $\\mathrm{PQR}$ को रखा है जिसका $\\mathrm{P}$ शीर्..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "g3xm60moiis78tjbsduk",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "a-thin-conducting-rod-m-n-of-mass-20-mathrmgm-lengt-jee-advanced-physics-qqtocodwrevq22gb",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A thin conducting rod $M N$ of mass $20 ~\\mathrm{gm}$, length $25 \\mathrm{~cm}$ and resistance $10 ~\\Omega$ is held on frictionless, long, perfectly conducting vertical rails as shown in the figure. There is a uniform magnetic field $B_0=4 \\mathrm{~T}$ directed perpendicular to the plane of the rod-rail arrangement. The rod is released from rest at time $t=0$ and it moves down along the rails. Assume air drag is negligible. Match each quantity in List-I with an appropriate value from List-II, and choose the correct option.<br><br>\n[Given: The acceleration due to gravity $g=10 \\mathrm{~m} \\mathrm{~s}^{-2}$ and $e^{-1}=0.4$ ]<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liiq7b1e/fd093007-a7aa-4d4a-9e65-383d50218340/17044820-038e-11ee-add3-0f52d4fe427d/file-1liiq7b1f.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liiq7b1e/fd093007-a7aa-4d4a-9e65-383d50218340/17044820-038e-11ee-add3-0f52d4fe427d/file-1liiq7b1f.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Electromagnetic Induction Question 9 English\"><br>\n<style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-1wig\">List - I</th>\n    <th class=\"tg-1wig\">List - II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-0lax\">(P) At $t=0.2 \\mathrm{~s}$, the magnitude of the induced emf in Volt</td>\n    <td class=\"tg-0lax\">(1) 0.07</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\">(Q) At $t=0.2 \\mathrm{~s}$, the magnitude of the magnetic force in Newton</td>\n    <td class=\"tg-0lax\">(2) 0.14</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\">(R) At $t=0.2 \\mathrm{~s}$, the power dissipated as heat in Watt</td>\n    <td class=\"tg-0lax\">(3) 1.20</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\">(S) The magnitude of terminal velocity of the rod in $\\mathrm{m} \\mathrm{s}^{-1}$</td>\n    <td class=\"tg-0lax\">(4) 0.12</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\"></td>\n    <td class=\"tg-0lax\">(5) 2.00</td>\n  </tr>\n</tbody>\n</table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$P \\rightarrow 5, Q \\rightarrow 2, R \\rightarrow 3, S \\rightarrow 1$"
+            },
+            {
+              "identifier": "B",
+              "content": "$P \\rightarrow 3, Q \\rightarrow 1, R \\rightarrow 4, S \\rightarrow 5$"
+            },
+            {
+              "identifier": "C",
+              "content": "$P \\rightarrow 4, Q \\rightarrow 3, R \\rightarrow 1, S \\rightarrow 2$"
+            },
+            {
+              "identifier": "D",
+              "content": "$P \\rightarrow 3, Q \\rightarrow 4, R \\rightarrow 2, S \\rightarrow 5$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "From force equation\n<br/><br/>$$\n\\begin{aligned}\n& \\mathrm{mg}-\\mathrm{Bi} \\ell=\\frac{\\mathrm{mdv}}{\\mathrm{dt}} \\\\\\\\\n& \\mathrm{mg}-\\frac{\\mathrm{BBi} \\ell}{\\mathrm{R}} \\times \\ell=\\frac{\\mathrm{mdv}}{\\mathrm{dt}} \\\\\\\\\n& \\frac{\\mathrm{mgR}}{\\mathrm{B}^2 \\ell^2}-\\mathrm{v}=\\frac{\\mathrm{mR}}{\\mathrm{B}^2 \\ell^2} \\frac{\\mathrm{dv}}{\\mathrm{dt}} \\\\\\\\\n& \\frac{\\mathrm{B}^2 \\ell^2}{\\mathrm{mR}} \\int\\limits_{\\mathrm{t}=0}^{\\mathrm{t}} \\mathrm{dt}=\\int\\limits_0^{\\mathrm{v}} \\frac{\\mathrm{dv}}{\\left(\\frac{\\mathrm{mgR}}{\\mathrm{B}^2 \\ell^2}-\\mathrm{v}\\right)}\n\\end{aligned}\n$$\n<br/><br/>Now $\\frac{\\mathrm{mgR}}{\\mathrm{B}^2 \\ell^2}=\\frac{20 \\times 10^{-3} \\times 10 \\times 10}{16 \\times \\frac{1}{16}}=2$\n<br/><br/>And $\\frac{\\mathrm{B}^2 \\ell^2}{\\mathrm{mR}}=\\frac{16 \\times \\frac{1}{16}}{20 \\times 10^{-3} \\times 10}=\\frac{1}{0.2}=5$\n<br/><br/>$\\begin{aligned} & \\therefore 5 \\mathrm{t}=[-\\ln (2-\\mathrm{v})]_0^{\\mathrm{v}} \\\\\\\\ & -5 \\mathrm{t}=\\ell \\mathrm{n}\\left[\\frac{2-\\mathrm{v}}{\\mathrm{v}}\\right] \\\\\\\\ & \\therefore \\mathrm{v}=2\\left(1-\\mathrm{e}^{-5 \\mathrm{t}}\\right)\\end{aligned}$\n<br/><br/>At $\\mathrm{t}=0.2 \\mathrm{sec}$\n<br/><br/>$\\begin{aligned} & \\mathrm{v}=2\\left(1-\\mathrm{e}^{-5 \\times 0.2}\\right) \\\\\\\\ & \\mathrm{v}=2(1-0.4) \\\\\\\\ & \\mathrm{v}=1.2 \\mathrm{~m} / \\mathrm{s}\\end{aligned}$\n<br/><br/>(P) Now at $\\mathrm{t}=0.2 \\mathrm{sec}$\n<br/><br/>The magnitude of the induced emf $=\\mathrm{E}=\\mathrm{Bv} \\ell$\n<br/><br/>$$\n=4 \\times 1.2 \\times \\frac{1}{4}=1.2 \\mathrm{Volt}\n$$\n<br/><br/>(Q) At $\\mathrm{t}=0.2 \\mathrm{sec}$, the magnitude of magnetic force $=\\mathrm{BI} \\ell \\sin \\theta$\n<br/><br/>$$\n\\begin{aligned}\n& =\\mathrm{B} \\times \\frac{\\mathrm{B} \\ell \\mathrm{v}}{\\mathrm{R}} \\times \\ell \\times \\sin 90^{\\circ} \\\\\\\\\n& =\\frac{4 \\times 4 \\times \\frac{1}{4} \\times 1.3 \\times \\frac{1}{4}}{10}=0.12 \\text { Newton }\n\\end{aligned}\n$$\n<br/><br/>(R) At t $=0.2 \\mathrm{sec}$, the power dissipated as heat\n<br/><br/>$$\n\\begin{aligned}\n& P=i^2 R=\\frac{v^2}{R}=\\frac{1.2 \\times 1.2}{10} \\\\\\\\\n& P=0.144 \\text { watt }\n\\end{aligned}\n$$\n<br/><br/>(S) Magnitude of terminal velocity\n<br/><br/>At terminal velocity, the net force become zero\n<br/><br/>$$\n\\begin{aligned}\n& \\therefore \\mathrm{mg}=\\mathrm{Bi} \\ell \\\\\\\\\n& \\mathrm{mg}=\\mathrm{B} \\times \\frac{\\mathrm{B} \\ell \\mathrm{v}_{\\mathrm{t}}}{\\mathrm{R}} \\times \\ell \\\\\\\\\n& \\therefore \\mathrm{v}_{\\mathrm{T}}=\\frac{\\mathrm{mgR}}{\\mathrm{B}^2 \\ell^2}=\\frac{20 \\times 10^{-3} \\times 10 \\times 10}{16 \\times \\frac{1}{16}} \\\\\\\\\n& \\mathrm{v}_{\\mathrm{T}}=2 \\mathrm{~m} / \\mathrm{s}\n\\end{aligned}\n$$\n\n<br/><br/>Hence, Answer is (D)"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "द्रव्यमान $20 \\mathrm{gm}$, लम्बाई $25 \\mathrm{~cm}$ तथा प्रतिरोध $10 \\Omega$ की एक पतली चालक छड़ $M N$ को लम्बी, घर्षणहीन, पूर्ण चालक, ऊर्ध्वाधर रेलों पर पकड़ कर रखा है (चित्र देखें)| $B_0=4 \\mathrm{~T}$ का एकसमान चुम्बकीय क्षेत्र इस छड़-रेल समायोजन के लम्बवत विद्यमान है। छड़ को समय $t=0$ पर विरामावस्था से छोड़ने पर यह नीचे की ओर चलती है| वायु कर्षण (air drag) को नगण्य मानें| List-I में दिए गए प्रत्येक राशि (quantity) का List-II में दिए गए उचित मान के साथ मेल कर सही विकल्प चुनें|<br><br>\n[दिया है : गुरुत्वीय त्वरण $g=10 \\mathrm{~m} \\mathrm{~s}^{-2}$ तथा $\\mathrm{e}^{-1}=0.4$ ]<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liiq7b1e/fd093007-a7aa-4d4a-9e65-383d50218340/17044820-038e-11ee-add3-0f52d4fe427d/file-1liiq7b1f.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liiq7b1e/fd093007-a7aa-4d4a-9e65-383d50218340/17044820-038e-11ee-add3-0f52d4fe427d/file-1liiq7b1f.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Electromagnetic Induction Question 9 Hindi\"><br>\n<style>\n  table {\n    font-family: Arial, sans-serif;\n    border-collapse: collapse;\n    width: 100%;\n  }\n  td, th {\n    border: 1px solid #dddddd;\n    text-align: left;\n    padding: 8px;\n  }\n  th {\n    background-color: #2563EB; /* Tailwind blue-600 */\n    color: white;\n  }\n</style>\n\n<table>\n  <tbody><tr>\n    <th>List-I</th>\n    <th>List-II</th>\n  </tr>\n  <tr>\n    <td>(P) t = 0.2 s पर प्रेरित विद्युत बाधा का मान Volt में परिमाण</td>\n    <td>(1) 0.07</td>\n  </tr>\n  <tr>\n    <td>(Q) t = 0.2 s पर उद्दीपन बल का मान Newton में परिमाण</td>\n    <td>(2) 0.14</td>\n  </tr>\n  <tr>\n    <td>(R) t = 0.2 s पर उष्मा के रूप में शक्ति बाधा का मान Watt में परिमाण</td>\n    <td>(3) 1.20</td>\n  </tr>\n  <tr>\n    <td>(S) छड़ की सीमांत बेग (terminal velocity) का मान m s<sup>-1</sup> में परिमाण</td>\n    <td>(4) 0.12</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>(5) 2.00</td>\n  </tr>\n</tbody></table>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$P \\rightarrow 5, Q \\rightarrow 2, R \\rightarrow 3, S \\rightarrow 1$"
+            },
+            {
+              "identifier": "B",
+              "content": "$P \\rightarrow 3, Q \\rightarrow 1, R \\rightarrow 4, S \\rightarrow 5$"
+            },
+            {
+              "identifier": "C",
+              "content": "$P \\rightarrow 4, Q \\rightarrow 3, R \\rightarrow 1, S \\rightarrow 2$"
+            },
+            {
+              "identifier": "D",
+              "content": "$P \\rightarrow 3, Q \\rightarrow 4, R \\rightarrow 2, S \\rightarrow 5$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "बल समीकरण से\n<br/><br/>$$\n\\begin{aligned}\n& \\mathrm{mg}-\\mathrm{Bi} \\ell=\\frac{\\mathrm{mdv}}{\\mathrm{dt}} \\\\\\\\\n& \\mathrm{mg}-\\frac{\\mathrm{BBi} \\ell}{\\mathrm{R}} \\times \\ell=\\frac{\\mathrm{mdv}}{\\mathrm{dt}} \\\\\\\\\n& \\frac{\\mathrm{mgR}}{\\mathrm{B}^2 \\ell^2}-\\mathrm{v}=\\frac{\\mathrm{mR}}{\\mathrm{B}^2 \\ell^2} \\frac{\\mathrm{dv}}{\\mathrm{dt}} \\\\\\\\\n& \\frac{\\mathrm{B}^2 \\ell^2}{\\mathrm{mR}} \\int\\limits_{\\mathrm{t}=0}^{\\mathrm{t}} \\mathrm{dt}=\\int\\limits_0^{\\mathrm{v}} \\frac{\\mathrm{dv}}{\\left(\\frac{\\mathrm{mgR}}{\\mathrm{B}^2 \\ell^2}-\\mathrm{v}\\right)}\n\\end{aligned}\n$$\n<br/><br/>अब $\\frac{\\mathrm{mgR}}{\\mathrm{B}^2 \\ell^2}=\\frac{20 \\times 10^{-3} \\times 10 \\times 10}{16 \\times \\frac{1}{16}}=2$\n<br/><br/>और $\\frac{\\mathrm{B}^2 \\ell^2}{\\mathrm{mR}}=\\frac{16 \\times \\frac{1}{16}}{20 \\times 10^{-3} \\times 10}=\\frac{1}{0.2}=5$\n<br/><br/>$\\begin{aligned} & \\therefore 5 \\mathrm{t}=[-\\ln (2-\\mathrm{v})]_0^{\\mathrm{v}} \\\\\\\\ & -5 \\mathrm{t}=\\ell \\mathrm{n}\\left[\\frac{2-\\mathrm{v}}{\\mathrm{v}}\\right] \\\\\\\\ & \\therefore \\mathrm{v}=2\\left(1-\\mathrm{e}^{-5 \\mathrm{t}}\\right)\\end{aligned}$\n<br/><br/>$\\mathrm{t}=0.2 \\mathrm{sec}$ पर\n<br/><br/>$\\begin{aligned} & \\mathrm{v}=2\\left(1-\\mathrm{e}^{-5 \\times 0.2}\\right) \\\\\\\\ & \\mathrm{v}=2(1-0.4) \\\\\\\\ & \\mathrm{v}=1.2 \\mathrm{~m} / \\mathrm{s}\\end{aligned}$\n<br/><br/>(P) अब $\\mathrm{t}=0.2 \\mathrm{sec}$ पर\n<br/><br/>प्रेरित विद्युत वाहक बल का परिमाण $=\\mathrm{E}=\\mathrm{Bv} \\ell$\n<br/><br/>$$\n=4 \\times 1.2 \\times \\frac{1}{4}=1.2 \\mathrm{Volt}\n$$\n<br/><br/>(Q) $\\mathrm{t}=0.2 \\mathrm{sec}$ पर, चुंबकीय बल का परिमाण $=\\mathrm{BI} \\ell \\sin \\theta$\n<br/><br/>$$\n\\begin{aligned}\n& =\\mathrm{B} \\times \\frac{\\mathrm{B} \\ell \\mathrm{v}}{\\mathrm{R}} \\times \\ell \\times \\sin 90^{\\circ} \\\\\\\\\n& =\\frac{4 \\times 4 \\times \\frac{1}{4} \\times 1.3 \\times \\frac{1}{4}}{10}=0.12 \\text { Newton }\n\\end{aligned}\n$$\n<br/><br/>(R) t $=0.2 \\mathrm{sec}$ पर, ऊष्मा के रूप में क्षयित शक्ति\n<br/><br/>$$\n\\begin{aligned}\n& P=i^2 R=\\frac{v^2}{R}=\\frac{1.2 \\times 1.2}{10} \\\\\\\\\n& P=0.144 \\text { watt }\n\\end{aligned}\n$$\n<br/><br/>(S) सीमांत वेग का परिमाण\n<br/><br/>सीमांत वेग पर, नेट बल शून्य हो जाता है\n<br/><br/>$$\n\\begin{aligned}\n& \\therefore \\mathrm{mg}=\\mathrm{Bi} \\ell \\\\\\\\\n& \\mathrm{mg}=\\mathrm{B} \\times \\frac{\\mathrm{B} \\ell \\mathrm{v}_{\\mathrm{t}}}{\\mathrm{R}} \\times \\ell \\\\\\\\\n& \\therefore \\mathrm{v}_{\\mathrm{T}}=\\frac{\\mathrm{mgR}}{\\mathrm{B}^2 \\ell^2}=\\frac{20 \\times 10^{-3} \\times 10 \\times 10}{16 \\times \\frac{1}{16}} \\\\\\\\\n& \\mathrm{v}_{\\mathrm{T}}=2 \\mathrm{~m} / \\mathrm{s}\n\\end{aligned}\n$$\n\n<br/><br/>अतः, उत्तर (D) है"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "motional-emf-and-eddy-current",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A thin conducting rod $M N$ of mass $20 ~\\mathrm{gm}$, length $25 \\mathrm{~cm}$ and resistance $10 ~\\Omega$ is held on frictionless, long, perfectly conducting vertical rails as shown in the figure. There is a uniform magnetic field $B_0=4 ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "द्रव्यमान $20 \\mathrm{gm}$, लम्बाई $25 \\mathrm{~cm}$ तथा प्रतिरोध $10 \\Omega$ की एक पतली चालक छड़ $M N$ को लम्बी, घर्षणहीन, पूर्ण चालक, ऊर्ध्वाधर रेलों पर पकड़ कर रखा है (चित्र देखें)| $B_0=4 \\mathrm{~T}$ का एकसमान चुम्बकीय क्षेत्र इस छड़-र..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "2c9b06zncbgtfpx10p0o",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "consider-an-lc-circuit-with-inductance-l01-mathrmh-jee-advanced-physics-units-and-measurements-k3hnm1w9tsdi2uoa",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Consider an LC circuit, with inductance $L=0.1 \\,\\mathrm{H}$ and capacitance $C=10^{-3} \\mathrm{~F}$, kept on a plane. The area of the circuit is $1 \\mathrm{~m}^{2}$. It is placed in a constant magnetic field of strength $B_{0}$ which is perpendicular to the plane of the circuit. At time $t=0$, the magnetic field strength starts increasing linearly as $B=B_{0}+\\beta t$ with $\\beta=0.04 \\,\\mathrm{T\\,s}^{-1}$. The maximum magnitude of the current in the circuit is _________ $m A$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "3.98TO4.02",
+          "explanation": "Emf induced in the circuit is\n<br><br>$$\n|E|=\\left|\\frac{d \\phi}{d t}\\right|  =\\frac{d}{d t}\\left(\\left(B_0+\\beta t\\right) A\\right) $$\n<br><br>$$\n =\\beta \\times A $$\n<br><br>$$\n =0.04 \\mathrm{~V}\n\n$$\n<br><br>So the circuit can be rearranged as\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld3dwgiq/969a81ad-9e5e-4c85-ba16-d64073e54a92/252a3820-9821-11ed-aa3e-97dd93f27123/file-1ld3dwgir.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld3dwgiq/969a81ad-9e5e-4c85-ba16-d64073e54a92/252a3820-9821-11ed-aa3e-97dd93f27123/file-1ld3dwgir.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Electromagnetic Induction Question 13 English Explanation\">\n<br><br>Using Kirchhoff's law we can write\n<br><br>$$\n\\begin{aligned}\n&amp; E=L \\frac{d i}{d t}+\\frac{q}{C} \\\\\\\\\n&amp; L \\frac{d i}{d t}=E-\\frac{q}{C} \\\\\\\\\n&amp; \\text { Or } \\frac{d^2 q}{d t^2}=-\\frac{1}{L C}(q-C E)\n\\end{aligned}\n$$\n<br><br>Using SHM concept we can write\n<br><br>$$\nq=C E+A \\sin (\\omega t+\\phi)\\left(\\text { where } \\omega=\\frac{1}{\\sqrt{L C}}\\right)\n$$\n<br><br>at $t=0, q=0 \\&amp; i=0$\n<br><br>So $A=C E \\&amp; \\phi=-\\frac{\\pi}{2}$\n<br><br>$$\nq=C E-C E \\cos \\omega t\n$$\n<br><br>so $i=\\frac{d q}{d t}=C E \\omega \\sin \\omega t$\n<br><br>So, \n<br><br>$$ \ni_{\\max }  =\\frac{10^{-3} \\times 0.04}{\\sqrt{0.1 \\times 10^{-3}}} $$\n<br><br>$$ =4 \\mathrm{~mA}\n\n$$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>एक तल पर रखे प्रेरकत्व $L=0.1 \\mathrm{~H}$ तथा धारिता $C=10^{-3} \\mathrm{~F}$ वाले एक $\\mathrm{LC}$ परिपथ पर विचार कीजिए। परिपथ का क्षेत्रफल $1 \\mathrm{~m}^2$ है। इसे $B_0$ सामर्र्य के एक नियत चुम्बकीय क्षेत्र में रखा जाता है, जो परिपथ के तल के लम्बवत् है। समय $t=0$ पर, चुम्बकीय क्षेत्र सामर्थ्य $B=B_0+\\beta t$ के अनुसार रेखीय रूप से बढ़ना प्रारम्भ करता है तथा $\\beta=0.04 \\mathrm{~Ts}^{-1}$ है। परिपथ में धारा का अधिकतम परिमाण _________ $\\mathrm{mA}$ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "3.98TO4.02",
+          "explanation": "परिपथ में प्रेरित विद्युत वाहक बल है\n<br><br>$$\n|E|=\\left|\\frac{d \\phi}{d t}\\right|  =\\frac{d}{d t}\\left(\\left(B_0+\\beta t\\right) A\\right) $$\n<br><br>$$\n =\\beta \\times A $$\n<br><br>$$\n =0.04 \\mathrm{~V}\n\n$$\n<br><br>तो परिपथ को इस प्रकार पुनर्व्यवस्थित किया जा सकता है\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld3dwgiq/969a81ad-9e5e-4c85-ba16-d64073e54a92/252a3820-9821-11ed-aa3e-97dd93f27123/file-1ld3dwgir.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld3dwgiq/969a81ad-9e5e-4c85-ba16-d64073e54a92/252a3820-9821-11ed-aa3e-97dd93f27123/file-1ld3dwgir.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Electromagnetic Induction Question 13 Hindi Explanation\">\n<br><br>किरचॉफ के नियम का उपयोग करते हुए हम लिख सकते हैं\n<br><br>$$\n\\begin{aligned}\n&amp; E=L \\frac{d i}{d t}+\\frac{q}{C} \\\\\\\\\n&amp; L \\frac{d i}{d t}=E-\\frac{q}{C} \\\\\\\\\n&amp; \\text { या } \\frac{d^2 q}{d t^2}=-\\frac{1}{L C}(q-C E)\n\\end{aligned}\n$$\n<br><br>सरल आवर्त गति की अवधारणा का उपयोग करते हुए हम लिख सकते हैं\n<br><br>$$\nq=C E+A \\sin (\\omega t+\\phi)\\left(\\text { जहाँ } \\omega=\\frac{1}{\\sqrt{L C}}\\right)\n$$\n<br><br>$t=0$ पर, $q=0 \\&amp; i=0$\n<br><br>अतः $A=C E \\&amp; \\phi=-\\frac{\\pi}{2}$\n<br><br>$$\nq=C E-C E \\cos \\omega t\n$$\n<br><br>अतः $i=\\frac{d q}{d t}=C E \\omega \\sin \\omega t$\n<br><br>इसलिए, \n<br><br>$$ \ni_{\\max }  =\\frac{10^{-3} \\times 0.04}{\\sqrt{0.1 \\times 10^{-3}}} $$\n<br><br>$$ =4 \\mathrm{~mA}\n\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "inductance-self-and-mutual",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "Consider an LC circuit, with inductance $L=0.1 \\,\\mathrm{H}$ and capacitance $C=10^{-3} \\mathrm{~F}$, kept on a plane. The area of the circuit is $1 \\mathrm{~m}^{2}$. It is placed in a constant magnetic field of strength $B_{0}$ which is pe..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "एक तल पर रखे प्रेरकत्व $L=0.1 \\mathrm{~H}$ तथा धारिता $C=10^{-3} \\mathrm{~F}$ वाले एक $\\mathrm{LC}$ परिपथ पर विचार कीजिए। परिपथ का क्षेत्रफल $1 \\mathrm{~m}^2$ है। इसे $B_0$ सामर्र्य के एक नियत चुम्बकीय क्षेत्र में रखा जाता है, जो परिपथ के त..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "oedlrxg1608dtsmmdtcw",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "the-inductors-of-two-lr-circuits-are-placed-next-to-each-oth-jee-advanced-physics-units-and-measurements-ma4ptz1hsvzjhked",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The inductors of two LR circuits are placed next to each other, as shown in the figure. The values of the self-inductance of the inductors, resistors, mutual-inductance and applied voltages are specified in the given circuit. After both the switches are closed simultaneously, the total work done by the batteries against the induced EMF in the inductors by the time the currents reach their steady state values is _________ mJ.<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-860w.jpeg\"><source media=\"(max-width: 1040px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-1040w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 2 Offline Physics - Electromagnetic Induction Question 17 English\"></picture>",
+          "options": [],
+          "correct_options": [],
+          "answer": "55",
+          "explanation": "Mutual inductance is producing flux in same direction as self-inductance.<br><br>$$\\therefore$$ $$U = {1 \\over 2}{L_1}I_1^2 + {1 \\over 2}{L_2}I_2^2 + M{I_1}{I_2}$$<br><br>$$ \\Rightarrow U = {1 \\over 2} \\times (10 \\times {10^{ - 3}}){1^2} + {1 \\over 2} \\times (20 \\times {10^{ - 3}}) \\times {2^2} + (5 \\times {10^{ - 3}}) \\times 1 \\times 2$$<br><br>$$ = 55$$ mJ"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>चित्रानुसार, दो $$L R$$ परिपथों (circuits) के प्रेरकों (inductors) को एक दूसरे के समीप रखा गया है । प्रेरकों का स्व-प्रेरकत्व (self-inductance), प्रतिरोध, अन्योन्य-प्रेरकत्व (mutual inductances) एवं अनुप्रयुक्त वोल्टता (applied voltages) का मान परिपथ में दिया गया है । दोनों स्विचों को एक साथ बंद (on) करने के पश्चात् जब विद्युत् धाराएं अपनी स्थायी अवस्था (steady state) में पहुँचती हैं, तब तक प्रेरकों में प्रेरित विद्युत्-वाहकबल के विरुद्ध बैटरियों द्वारा किया गया कुल कार्य _____________ $$\\mathrm{mJ}$$ है ।</p>\n<p><picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-860w.jpeg\"><source media=\"(max-width: 1040px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk-1040w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ksgm8vzj/deac472f-72d3-421e-a153-dd2da3c07ea7/6d576f00-ffa7-11eb-821e-d90d60f34b87/file-1ksgm8vzk.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 2 Offline Physics - Electromagnetic Induction Question 17 Hindi\"></picture></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "55",
+          "explanation": "परस्पर प्रेरकत्व स्व-प्रेरकत्व की समान दिशा में फ्लक्स उत्पन्न कर रहा है।<br><br>$$\\therefore$$ $$U = {1 \\over 2}{L_1}I_1^2 + {1 \\over 2}{L_2}I_2^2 + M{I_1}{I_2}$$<br><br>$$ \\Rightarrow U = {1 \\over 2} \\times (10 \\times {10^{ - 3}}){1^2} + {1 \\over 2} \\times (20 \\times {10^{ - 3}}) \\times {2^2} + (5 \\times {10^{ - 3}}) \\times 1 \\times 2$$<br><br>$$ = 55$$ mJ"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "inductance-self-and-mutual",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "The inductors of two LR circuits are placed next to each other, as shown in the figure. The values of the self-inductance of the inductors, resistors, mutual-inductance and applied voltages are specified in the given circuit. After both the..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "चित्रानुसार, दो $$L R$$ परिपथों (circuits) के प्रेरकों (inductors) को एक दूसरे के समीप रखा गया है । प्रेरकों का स्व-प्रेरकत्व (self-inductance), प्रतिरोध, अन्योन्य-प्रेरकत्व (mutual inductances) एवं अनुप्रयुक्त वोल्टता (applied voltages) का..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "j10d09f0j9flwh6ybnr4",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2019 Paper 2 Offline",
+      "permalink": "a-10-cm-long-perfectly-conducting-wire-pq-is-moving-with-a-v-jee-advanced-physics-units-and-measurements-vfrumohl5rk6amg9",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A 10 cm long perfectly conducting wire PQ is moving with a velocity I cm/s on a pair of horizontal rails of zero resistance. One side of the rails is connected to an inductor L = 1 mH and a resistance R = 1$$\\Omega $$ as shown in figure. The horizontal rails, L and R lie in the same plane with a uniform magnetic field B = 1 T perpendicular to the plane. If the key S is closed at certain instant, the current in the circuit after 1 millisecond is x $$ \\times $$ 10<sup>-3</sup> A, where the value of x is ...........<br><br> [Assume the velocity of wire PQ remains constant (1 cm/s) after key S is closed. Given e<sup>-1</sup> = 0.37, where e is base of the natural logarithm]<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt12r3mi/bbfc88da-636c-4a87-a308-d3101e479c57/a6dc47a0-0ae7-11ec-ad2d-cff39a9e6a15/file-1kt12r3mj-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt12r3mi/bbfc88da-636c-4a87-a308-d3101e479c57/a6dc47a0-0ae7-11ec-ad2d-cff39a9e6a15/file-1kt12r3mj-500w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kt12r3mi/bbfc88da-636c-4a87-a308-d3101e479c57/a6dc47a0-0ae7-11ec-ad2d-cff39a9e6a15/file-1kt12r3mj.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Electromagnetic Induction Question 21 English\"></picture>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.63",
+          "explanation": "Motional emf,<br><br>$$e = (v \\times B)dl = {10^{ - 2}} \\times 1 \\times {10^{ - 1}}$$<br><br>e = $${10^{ - 3}}V$$<br><br>$${\\tau _L} = LR = ({10^{ - 3}})(1) = {10^{ - 3}}s = 1\\,ms$$<br><br>$$i = {i_0}(1 - {e^{ - t/{\\tau _L}}}) = {{{{10}^{ - 3}}} \\over 1}(1 - {e^{ - 1}})$$<br><br>$$i = {10^{ - 3}}(1 - 0.37)$$<br><br>i = 0.63 mA"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>दो क्षैतिज समांतर रेलों जिनका प्रतिरोध शून्य है पर एक $$10 \\mathrm{~cm}$$ लंबा सुचालक (perfectly conducting) तार $$P Q \\quad 1 \\mathrm{~cm} / \\mathrm{s}$$ के वेग से चल रहा है। रेलों के एक सिरे पर $$L=1 ~\\mathrm{mH}$$ प्रेरक (inductor) तथा $$R=1 \\Omega$$ प्रतिरोधक चित्रानुसार जुड़ा है | दोनों क्षैतिज रेलें, $$L$$ तथा $$R$$ एक ही तल में हैं और तल के लम्बवत एक समान चुंबकीय क्षेत्र $$B=1 T$$ लगा हुआ है। यदि $$\\mathrm{S}$$ कुंजी को किसी क्षण बंद करें तब परिपथ में 1 millisecond के पश्चात धारा $$x \\times 10^{-3} \\mathrm{~A}$$ है, जहाँ $$x$$ का मान __________ होगा।</p>\n<p>[ कुंजी $$\\mathrm{S}$$ बंद करने के पश्चात तार $$\\mathrm{PQ}$$ का वेग नियत $$(1 \\mathrm{~cm} / \\mathrm{s})$$ माने। दिया है, $$e^{-1}=0.37$$, जहाँ $$e$$ प्राकृतिक लघुगणक (natural logarithm) का आधार है ]</p>\n<p><picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt12r3mi/bbfc88da-636c-4a87-a308-d3101e479c57/a6dc47a0-0ae7-11ec-ad2d-cff39a9e6a15/file-1kt12r3mj-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt12r3mi/bbfc88da-636c-4a87-a308-d3101e479c57/a6dc47a0-0ae7-11ec-ad2d-cff39a9e6a15/file-1kt12r3mj-500w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kt12r3mi/bbfc88da-636c-4a87-a308-d3101e479c57/a6dc47a0-0ae7-11ec-ad2d-cff39a9e6a15/file-1kt12r3mj.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Electromagnetic Induction Question 21 Hindi\"></picture></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.63",
+          "explanation": "गतिजनित विद्युत वाहक बल,<br><br>$$e = (v \\times B)dl = {10^{ - 2}} \\times 1 \\times {10^{ - 1}}$$<br><br>e = $${10^{ - 3}}V$$<br><br>$${\\tau _L} = LR = ({10^{ - 3}})(1) = {10^{ - 3}}s = 1\\,ms$$<br><br>$$i = {i_0}(1 - {e^{ - t/{\\tau _L}}}) = {{{{10}^{ - 3}}} \\over 1}(1 - {e^{ - 1}})$$<br><br>$$i = {10^{ - 3}}(1 - 0.37)$$<br><br>i = 0.63 mA"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "motional-emf-and-eddy-current",
+      "type": "integer",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A 10 cm long perfectly conducting wire PQ is moving with a velocity I cm/s on a pair of horizontal rails of zero resistance. One side of the rails is connected to an inductor L = 1 mH and a resistance R = 1$$\\Omega $$ as shown in figure. Th..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "दो क्षैतिज समांतर रेलों जिनका प्रतिरोध शून्य है पर एक $$10 \\mathrm{~cm}$$ लंबा सुचालक (perfectly conducting) तार $$P Q \\quad 1 \\mathrm{~cm} / \\mathrm{s}$$ के वेग से चल रहा है। रेलों के एक सिरे पर $$L=1 ~\\mathrm{mH}$$ प्रेरक (inductor) तथा $..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-2-offline"
+    },
+    {
+      "question_id": "whudsq4ij4vck3fphzky",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "a-conducting-wire-of-parabolic-shape-initially-y--xsup2-jee-advanced-physics-units-and-measurements-4banxr2lsp3cvl3i",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A conducting wire of parabolic shape, initially y = x<sup>2</sup>, is moving with velocity $$v = {v_0}\\widehat i$$ in a non-uniform magnetic field $$B = {B_0}\\left( {1 + {{\\left( {{y \\over L}} \\right)}^\\beta }} \\right)\\widehat k$$, as shown in figure. If V<sub>0</sub>, B<sub>0</sub>, L and $$\\beta $$ are positive constants and $$\\Delta $$$$\\phi $$ is the potential difference developed between the ends of the wire, then the correct statement(s) is/are<br><br> <img src=\"https://imagex.cdn.examgoal.net/1kslu4yjs/38519d50-5380-422b-9e67-9319d4bba469/345d3680-0286-11ec-9e77-d9ff3a720861/file-1kslu4yjt.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Physics - Electromagnetic Induction Question 22 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left| {\\Delta \\phi } \\right| = {4 \\over 3}{B_0}{V_0}L$$ for $$\\beta $$ = 2"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left| {\\Delta \\phi } \\right|$$ remains the same if the parabolic wire is replaced by a straight wire, y =x initially, of length $$\\sqrt 2 L$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left| {\\Delta \\phi } \\right|$$ = $${1 \\over 2}{B_0}{V_0}L$$ for $$\\beta $$ = 0"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left| {\\Delta \\phi } \\right|$$ is proportional to the length of the wire projected on the y-axis."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://imagex.cdn.examgoal.net/1ksluer69/4ee604f7-a783-4dfe-84c1-356a61f329c1/44c22f20-0287-11ec-9e77-d9ff3a720861/file-1ksluer6a.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Physics - Electromagnetic Induction Question 22 English Explanation\"> <br><br>Motional emf across the length dy is,<br><br>$$d\\varepsilon  = B{V_0}\\,dy = {B_0}\\left[ {1 + {{\\left( {{y \\over L}} \\right)}^\\beta }} \\right]{V_0}dy$$<br><br>$$ \\therefore $$ $$\\varepsilon  = \\int\\limits_0^L {{B_0}} \\left( {1 + {{\\left( {{y \\over L}} \\right)}^\\beta }} \\right){V_0}dy$$<br><br>$$ = {B_0}{V_0}\\left[ {1 + {1 \\over {\\beta  + 1}}} \\right]$$<br><br>emf in loop is proportional to L for given value of $$\\beta $$,<br><br>$$\\beta  = 0,\\,\\varepsilon  = 2{B_0}{V_0}L$$<br><br>$$\\beta  = 2,\\,\\varepsilon  = {B_0}{V_0}L\\left[ {1 + {1 \\over 3}} \\right] = {4 \\over 3}{B_0}{V_0}L$$<br><br>The length of projection of the wire Y = X of length $$\\sqrt 2 L$$ on the y-axis is  thus, the answer remain unchanged.<br><br>Therefore, correct options are (a), (b) and (d)"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>चित्रानुसार एक असमान चुंबकीय क्षेत्र $$\\vec{B}=B_{0}\\left(1+\\left(\\frac{y}{L}\\right)^{\\beta}\\right) \\hat{k}$$ में एक परवलयाकार (parabolic shape), आरंभ में $$y=x^{2}$$ वाला, विद्युत चालक तार वेग $$\\vec{V}=V_{0} \\hat{\\imath}$$ से चल रहा है । यदि $$V_{0}, B_{0}, L$$ तथा $$\\beta$$ धनात्मक नियतांक हैं एवं तार के सिरों के मध्य उत्पत्र विभवांतर $$\\Delta \\phi$$ है, तब निम्नलिखित कथनों में से कौन सा(से) सही है(हैं) ?</p>\n<p><img src=\"https://imagex.cdn.examgoal.net/1kslu4yjs/38519d50-5380-422b-9e67-9319d4bba469/345d3680-0286-11ec-9e77-d9ff3a720861/file-1kslu4yjt.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Physics - Electromagnetic Induction Question 22 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\beta=2$$ के लिए, $$|\\Delta \\phi|=\\frac{4}{3} B_{0} V_{0} L$$"
+            },
+            {
+              "identifier": "B",
+              "content": "यदि इस परवलयाकार तार के स्थान पर $$\\sqrt{2} L$$ लंबाई वाला एक सीधे तार, आरम्भ में $$y=x$$, का उपयोग किया जाये तब $$|\\Delta \\phi|$$ समान रहेगा।\n\n"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\beta=0$$ के लिए, $$|\\Delta \\phi|=\\frac{1}{2} B_{0} V_{0} L$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$|\\Delta \\phi|$$ का मान $$y$$-अक्ष पर तार की प्रेक्षेपित लंबाई के समानुपाती होगा।"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://imagex.cdn.examgoal.net/1ksluer69/4ee604f7-a783-4dfe-84c1-356a61f329c1/44c22f20-0287-11ec-9e77-d9ff3a720861/file-1ksluer6a.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Physics - Electromagnetic Induction Question 22 Hindi Explanation\"> <br><br>लंबाई dy के आर-पार गतिज emf है,<br><br>$$d\\varepsilon  = B{V_0}\\,dy = {B_0}\\left[ {1 + {{\\left( {{y \\over L}} \\right)}^\\beta }} \\right]{V_0}dy$$<br><br>$$ \\therefore $$ $$\\varepsilon  = \\int\\limits_0^L {{B_0}} \\left( {1 + {{\\left( {{y \\over L}} \\right)}^\\beta }} \\right){V_0}dy$$<br><br>$$ = {B_0}{V_0}\\left[ {1 + {1 \\over {\\beta  + 1}}} \\right]$$<br><br>लूप में emf, $$\\beta $$ के दिए गए मान के लिए L के समानुपाती है,<br><br>$$\\beta  = 0,\\,\\varepsilon  = 2{B_0}{V_0}L$$<br><br>$$\\beta  = 2,\\,\\varepsilon  = {B_0}{V_0}L\\left[ {1 + {1 \\over 3}} \\right] = {4 \\over 3}{B_0}{V_0}L$$<br><br>y-अक्ष पर लंबाई $$\\sqrt 2 L$$ के तार Y = X के प्रक्षेपण की लंबाई है इस प्रकार, उत्तर अपरिवर्तित रहता है।<br><br>इसलिए, सही विकल्प (a), (b) और (d) हैं"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "motional-emf-and-eddy-current",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A conducting wire of parabolic shape, initially y = x2, is moving with velocity $$v = {v_0}\\widehat i$$ in a non-uniform magnetic field $$B = {B_0}\\left( {1 + {{\\left( {{y \\over L}} \\right)}^\\beta }} \\right)\\widehat k$$, as shown in figure...."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "चित्रानुसार एक असमान चुंबकीय क्षेत्र $$\\vec{B}=B_{0}\\left(1+\\left(\\frac{y}{L}\\right)^{\\beta}\\right) \\hat{k}$$ में एक परवलयाकार (parabolic shape), आरंभ में $$y=x^{2}$$ वाला, विद्युत चालक तार वेग $$\\vec{V}=V_{0} \\hat{\\imath}$$ से चल रहा है । ..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "a08kwzlr107m2vfrna75",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "electromagnetic-induction",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In the figure below, the switches $${S_1}$$ and $${S_2}$$ are closed simultaneously at $$t=0$$ and a current starts to flow in the circuit. Both the batteries have the same magnitude of the electromotive force (emf) and the polarities are as indicated  in the figure. Ignore mutual inductance between the inductors.  The current $$I$$ in the middle wire reaches its maximum magnitude $${I_{\\max }}$$ at time $$t = \\tau $$ . Which of the following statements is (are) true? \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/XybReelialL6Jtmt3/ArRoZHzgsKzSK0b1ErrIj3zs60Gee/J5vjaPMPJEuEXviCYGaImI/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Electromagnetic Induction Question 24 English\"> ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${I_{\\max }} = {V \\over {2R}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${I_{max}} = {V \\over {4R}}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\tau  = {L \\over R}\\ln 2$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\tau  = {{2L} \\over R}\\ln 2$$ "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$${I_1} = {V \\over R}\\left( {1 - {e^{ - {{tR} \\over L}}}} \\right)$$</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kyg0x6t3/77b4d3b5-8e60-42e5-a4e6-e9b79b1f00df/548d2c70-761d-11ec-860d-b35b50d4eea2/file-1kyg0x6t4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kyg0x6t3/77b4d3b5-8e60-42e5-a4e6-e9b79b1f00df/548d2c70-761d-11ec-860d-b35b50d4eea2/file-1kyg0x6t4.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Electromagnetic Induction Question 24 English Explanation\"> </p>\n<p>$${I_2} = {V \\over R}\\left( {1 - {e^{ - {{tR} \\over {2L}}}}} \\right)$$</p>\n<p>From principle of superposition,</p>\n<p>$$I = {I_1} - {I_2} \\Rightarrow I = {V \\over R}{e^{ - {{tR} \\over {2L}}}}\\left( {1 - {e^{ - {{tR} \\over {2L}}}}} \\right)$$ ...... (i)</p>\n<p>I is maximum when $${{dI} \\over {dt}} = 0$$, which gives</p>\n<p>$${e^{ - {{tR} \\over {2L}}}} = {1 \\over 2}$$ or $$t = {{2L} \\over R}\\ln 2$$</p>\n<p>Substituting this time in Eq. (i), we get</p>\n<p>$${I_{\\max }} = {V \\over {4R}}$$</p>"
+        },
+        "hi": {
+          "content": "निम्नलिखित चित्र में, स्विच $${S_1}$$ और $${S_2}$$ को $$t=0$$ पर एक साथ बंद किया जाता है और सर्किट में धारा प्रवाहित होने लगती है। दोनों बैटरियों के विद्युत वाहक बल (emf) का परिमाण समान है और ध्रुवताएं चित्र में दर्शाई गई हैं। इंडक्टरों के बीच पारस्परिक प्रेरण का ध्यान न दें। मध्य के तार में धारा $$I$$ अधिकतम परिमाण $${I_{\\max }}$$ पर समय $$t = \\tau$$ पर पहुंचती है। निम्नलिखित में से कौन सा (कौन से) वक्तव्य सही है (हैं)? <br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/XybReelialL6Jtmt3/ArRoZHzgsKzSK0b1ErrIj3zs60Gee/J5vjaPMPJEuEXviCYGaImI/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Electromagnetic Induction Question 24 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${I_{\\max }} = {V \\over {2R}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${I_{max}} = {V \\over {4R}}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\tau  = {L \\over R}\\ln 2$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\tau  = {{2L} \\over R}\\ln 2$$ "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$${I_1} = {V \\over R}\\left( {1 - {e^{ - {{tR} \\over L}}}} \\right)$$</p>\\n<p> <img 0=\"\" 1=\"\" 22=\"\" 2018=\"\" src=\"\\&quot;https://app-content.cdn.examgoal.net/fly/@width/image/1kyg0x6t3/77b4d3b5-8e60-42e5-a4e6-e9b79b1f00df/548d2c70-761d-11ec-860d-b35b50d4eea2/file-1kyg0x6t4.png?format=png\\&quot;\" data-orsrc=\"\\&quot;https://app-content.cdn.examgoal.net/image/1kyg0x6t3/77b4d3b5-8e60-42e5-a4e6-e9b79b1f00df/548d2c70-761d-11ec-860d-b35b50d4eea2/file-1kyg0x6t4.png\\&quot;\" loading=\"\\&quot;lazy\\&quot;\" style=\"\\&quot;max-width:\" 100%;height:=\"\" auto;display:=\"\" block;margin:=\"\" auto;max-height:=\"\" 60vh\\\"=\"\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Electromagnetic Induction Question 24 Hindi Explanation\" advanced=\"\" paper=\"\" offline=\"\" physics=\"\" -=\"\" electromagnetic=\"\" induction=\"\" question=\"\" english=\"\" explanation\\\"=\"\"> </p>\\n<p>$${I_2} = {V \\over R}\\left( {1 - {e^{ - {{tR} \\over {2L}}}}} \\right)$$</p>\\n<p>अध्यारोपण के सिद्धांत से,</p>\\n<p>$$I = {I_1} - {I_2} \\Rightarrow I = {V \\over R}{e^{ - {{tR} \\over {2L}}}}\\left( {1 - {e^{ - {{tR} \\over {2L}}}}} \\right)$$ ...... (i)</p>\\n<p>I अधिकतम होगी जब $${{dI} \\over {dt}} = 0$$, जो देता है</p>\\n<p>$${e^{ - {{tR} \\over {2L}}}} = {1 \\over 2}$$ या $$t = {{2L} \\over R}\\ln 2$$</p>\\n<p>समीकरण (i) में इस समय को प्रतिस्थापित करने पर, हमें प्राप्त होता है</p>\\n<p>$${I_{\\max }} = {V \\over {4R}}$$</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "in-the-figure-below-the-switches-s1-and-s2-ar-2018-marks-4-gxhmjy0g2z2ydjhs.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "inductance-self-and-mutual",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "In the figure below, the switches $${S_1}$$ and $${S_2}$$ are closed simultaneously at $$t=0$$ and a current starts to flow in the circuit. Both the batteries have the same magnitude of the electromotive force (emf) and the polarities are a..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "निम्नलिखित चित्र में, स्विच $${S_1}$$ और $${S_2}$$ को $$t=0$$ पर एक साथ बंद किया जाता है और सर्किट में धारा प्रवाहित होने लगती है। दोनों बैटरियों के विद्युत वाहक बल (emf) का परिमाण समान है और ध्रुवताएं चित्र में दर्शाई गई हैं। इंडक्टरों के ..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "question_id": "d7ysjo96mata8ivzxam9",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "permalink": "a-source-of-constant-voltage-v-is-connected-to-a-resistance-jee-advanced-physics-units-and-measurements-ed93yv1hyefq192n",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A source of constant voltage V is connected to a resistance R and two ideal inductors L<sub>1</sub> and L<sub>2</sub> through a switch S as shown. There is no mutual inductance between the two inductors. The switch S is initially open. At t = 0, the switch is closed and current begins to flow. Which of the following options is/are correct?<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kz1fsqmt/4664eb9d-ac6e-468a-bc63-9bb867bdfcc1/f7654050-81e3-11ec-b278-2199d5005439/file-1kz1fsqmu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kz1fsqmt/4664eb9d-ac6e-468a-bc63-9bb867bdfcc1/f7654050-81e3-11ec-b278-2199d5005439/file-1kz1fsqmu.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Electromagnetic Induction Question 16 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "After a long time, the current through L<sub>1</sub> will be $${V \\over R}{{{L_2}} \\over {{L_1} + {L_2}}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "After a long time, the current through L<sub>2</sub> will be $${V \\over R}{{{L_1}} \\over {{L_1} + {L_2}}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "The ratio of the currents through L<sub>1</sub> and L<sub>2</sub> is fixed at all times (t > 0)"
+            },
+            {
+              "identifier": "D",
+              "content": "At t = 0, the current through the resistance R is $${V \\over R}$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Let i<sub>1</sub> be the current through L<sub>1</sub>, i<sub>2</sub> be the current through L<sub>2</sub> and i be the current through R.</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kz1fwgiq/0a698432-89b3-4bb1-9a08-34cdbf23aa1e/5ed1d820-81e4-11ec-baf1-2587ab03986e/file-1kz1fwgir.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kz1fwgiq/0a698432-89b3-4bb1-9a08-34cdbf23aa1e/5ed1d820-81e4-11ec-baf1-2587ab03986e/file-1kz1fwgir.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Electromagnetic Induction Question 16 English Explanation\">\n\n<p>The inductors $ L_1 $ and $ L_2 $ are connected in parallel. Therefore, the self-induced emf in $ L_1 $ and $ L_2 $ are equal, which can be expressed as:</p>\n\n<p>$ \\varepsilon_1 = -L_1 \\frac{d i_1}{dt} = \\varepsilon_2 = -L_2 \\frac{d i_2}{dt} $</p>\n\n<p>Upon integrating this equation, we get :</p>\n\n<p>$ L_1 i_1 = L_2 i_2 $ ............(1)</p>\n\n<p>This indicates that the ratio of the currents through $ L_1 $ and $ L_2 $ is constant.</p>\n\n<p>Using Kirchhoff's current law at junction A, we have :</p>\n\n<p>$ i = i_1 + i_2 $ .............(2)</p>\n\n<p>At the moment the switch is closed (t = 0), the inductors act as open circuits (since the inductive reactance $ X_L = \\omega L $ approaches infinity as $ \\omega \\to \\infty $). Therefore, initially :</p>\n\n<p>$ i = i_1 + i_2 = 0 $</p>\n\n<p>and the current through the resistor is :</p>\n\n<p>$ i = i_1 + i_2 = 0 $</p>\n\n<p>After a long time, the inductive reactance of the inductors becomes zero. Applying Kirchhoff's loop law, the current through the resistor $ R $ is :</p>\n\n<p>$ i = \\frac{V}{R} $</p>\n\n<p>Substituting $ i = \\frac{V}{R} $ into equation (2) and solving equations (1) and (2), we find :</p>\n\n<p>$ i_1 = \\frac{V}{R} \\frac{L_2}{L_1 + L_2} $</p>\n\n<p>$ i_2 = \\frac{V}{R} \\frac{L_1}{L_1 + L_2} $</p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "एक स्थिर वोल्टेज स्रोत $$V$$ को प्रतिरोध $$R$$ और दो आदर्श इंडक्टर $$L_1$$ और $$L_2$$ के साथ एक स्विच $$S$$ के माध्यम से जोड़ा गया है जैसा कि चित्र में दिखाया गया है। दो इंडक्टरों के बीच कोई पारस्परिक प्रेरण नहीं है। स्विच $$S$$ प्रारंभ में खुला है। $$t = 0$$ पर, स्विच बंद किया जाता है और करंट बहने लगता है। निम्नलिखित विकल्पों में से कौन सा सही है?<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kz1fsqmt/4664eb9d-ac6e-468a-bc63-9bb867bdfcc1/f7654050-81e3-11ec-b278-2199d5005439/file-1kz1fsqmu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kz1fsqmt/4664eb9d-ac6e-468a-bc63-9bb867bdfcc1/f7654050-81e3-11ec-b278-2199d5005439/file-1kz1fsqmu.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Electromagnetic Induction Question 16 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "लंबे समय के बाद, $$L_1$$ के माध्यम से करंट होगा $$\\frac{V}{R}\\frac{L_2}{L_1 + L_2}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "लंबे समय के बाद, $$L_2$$ के माध्यम से करंट होगा $$\\frac{V}{R}\\frac{L_1}{L_1 + L_2}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "चालू $$t > 0$$ पर, $$L_1$$ और $$L_2$$ के माध्यम से करंट का अनुपात हमेशा स्थिर रहेगा"
+            },
+            {
+              "identifier": "D",
+              "content": "$$t = 0$$ पर, प्रतिरोध $$R$$ के माध्यम से करंट होगा $$\\frac{V}{R}$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "inductance-self-and-mutual",
+      "type": "mcqm",
+      "year": 2017,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A source of constant voltage V is connected to a resistance R and two ideal inductors L1 and L2 through a switch S as shown. There is no mutual inductance between the two inductors. The switch S is initially open. At t = 0, the switch is cl..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "एक स्थिर वोल्टेज स्रोत $$V$$ को प्रतिरोध $$R$$ और दो आदर्श इंडक्टर $$L_1$$ और $$L_2$$ के साथ एक स्विच $$S$$ के माध्यम से जोड़ा गया है जैसा कि चित्र में दिखाया गया है। दो इंडक्टरों के बीच कोई पारस्परिक प्रेरण नहीं है। स्विच $$S$$ प्रारंभ में..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "yppiqnqokpjiuhb67tzy",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "electromagnetic-induction",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A circular insulated copper wire loop is twisted to form two loops of area $$A$$ and $$2A$$ as shown in the figure. At the point of crossing the wires remain electrically insulated from each other. The entire loop lies in the plane (of the paper). A uniform magnetic field $$\\overrightarrow B $$ points into the plane of the paper. At $$t=0,$$  the loop starts rotating about the common diameter as axis with a constant angular velocity $$\\omega $$ in the magnetic field. \n<br><br>Which of the following options is/are correct? \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/b8QiDHpDYud3y1mgj/rFXyU3ZoBQTdJ5bl9IwWwaSYbkbsb/3yJvAIdJgl0hNTXzy5DwmU/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 1 Offline Physics - Electromagnetic Induction Question 23 English\"> ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The emf induced in the loop is proportional to the sum of the areas of the two loops"
+            },
+            {
+              "identifier": "B",
+              "content": "The amplitude of the maximum net emf induced due to both the loops is equal to the amplitude if maximum emf induced in the smaller loop alone"
+            },
+            {
+              "identifier": "C",
+              "content": "The net emf induced due to both the loops is proportional to $$\\cos \\,\\omega t$$  "
+            },
+            {
+              "identifier": "D",
+              "content": "The rate of change of the flux is maximum when the plane of the loops is perpendicular to plane of the paper"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Consider the coordinate axes shown in the figure. The magnetic field is into the paper, i.e., $$\\overrightarrow B  = B\\widehat k$$. Let loop 1 be the loop of area A and loop 2 be the loop of area 2A. At t = 0, both loops are in the plane of the paper. They start rotating about the x-axis with a constant angular velocity $$\\overrightarrow \\omega   = \\omega \\widehat i$$. Let the area vectors of loop 1 and 2 be $${\\overrightarrow A _1}$$ and $${\\overrightarrow A _2}$$, respectively. At t = 0, $${\\overrightarrow A _1}$$ = $$A\\widehat k$$ and $${\\overrightarrow A _2} = 2A\\widehat k$$ (we chose area into the plane of the paper as positive). In time t, the loops rotate by an angle $$\\theta$$ = $$\\omega$$t. Their area vectors make an angle $$\\theta$$ = $$\\omega$$t with z-axis (direction of the magnetic field). Thus, the magnetic fluxes passing through the loop 1 and the loop 2 at time t are given by</p>\n<p>$$\\phi$$<sub>1</sub> = $$\\overrightarrow B .{\\overrightarrow A _1}$$ = B A<sub>1</sub> cos$$\\theta$$ = B A cos $$\\omega$$t,</p>\n<p>$$\\phi$$<sub>2</sub> = $$\\overrightarrow B .{\\overrightarrow A _2}$$ = B A<sub>2</sub> cos$$\\theta$$ = 2B A cos $$\\omega$$t.</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0kk07u5/6b0e87ae-9d18-4420-9f38-6bee2c44e205/879555d0-a033-11ec-9819-f5ef8e3b6498/file-1l0kk07u6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0kk07u5/6b0e87ae-9d18-4420-9f38-6bee2c44e205/879555d0-a033-11ec-9819-f5ef8e3b6498/file-1l0kk07u6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 1 Offline Physics - Electromagnetic Induction Question 23 English Explanation\"></p>\n<p>By Faraday's law of electromagnetic induction, induced emfs in the loop 1 and in the loop 2 are given by</p>\n<p>$${\\varepsilon _1} =  - {{d{\\phi _1}} \\over {dt}} = B\\,A\\omega \\sin \\omega t$$,</p>\n<p>$${\\varepsilon _2} =  - {{d{\\phi _2}} \\over {dt}} = 2B\\,A\\omega \\sin \\omega t$$.</p>\n<p>The rate of change of flux is maximum when $$\\omega$$t = $$\\pi$$/2 i.e., when the plane of the loops is perpendicular to the plane to the paper.</p>\n<p>Let T = 2$$\\pi$$/$$\\omega$$ be the time period to complete one revolution. The fluxes $$\\phi$$<sub>1</sub> and $$\\phi$$<sub>2</sub> decrease with time if t $$\\in$$ (0, T/4). By Lenz's law, the induced current should oppose reductions in $$\\phi$$<sub>1</sub> and $$\\phi$$<sub>2</sub>. Thus, induced current in both the loops should be clockwise. Hence, the polarity of 'equivalent batteries' are as shown in the figure. These batteries are connected with reverse polarity. Thus, net emf induced due to both the loop is</p>\n<p>$$\\varepsilon  = {\\varepsilon _2} - {\\varepsilon _1} = B\\,A\\omega \\sin \\omega t$$.</p>\n<p>Note that the net emf $$\\varepsilon $$ is proportional to the difference in areas of two loops and $$\\left| \\varepsilon  \\right| = \\left| {{\\varepsilon _1}} \\right|$$.</p>"
+        },
+        "hi": {
+          "content": "एक परिपत्र, इन्सुलेटेड तांबे के तार का लूप मोड़कर चित्र में दिखाए गए $$A$$ और $$2A$$ क्षेत्रफल के दो लूप बनते हैं। तारों के क्रॉसिंग पर तार आपस में विद्युत रूप से इन्सुलेट रहते हैं। पूरा लूप कागज के तल में स्थित है। एक समान चुंबकीय क्षेत्र $$\\overrightarrow B $$ कागज के तल में इंगित करता है। $$t=0$$ पर, लूप चुंबकीय क्षेत्र में एक स्थिर कोणीय वेग $$\\omega $$ के साथ सामान्य व्यास के रूप में अक्ष के चारों ओर घूमना प्रारंभ करता है। \n<br><br>निम्नलिखित विकल्पों में से कौन सा/से सही है/हैं? \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/b8QiDHpDYud3y1mgj/rFXyU3ZoBQTdJ5bl9IwWwaSYbkbsb/3yJvAIdJgl0hNTXzy5DwmU/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 1 Offline Physics - Electromagnetic Induction Question 23 Hindi\"> ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "लूप में प्रेरित emf दोनों लूप्स के क्षेत्रफल के योग के अनुपाती है"
+            },
+            {
+              "identifier": "B",
+              "content": "दोनों लूपों के कारण होने वाले अधिकतम शुद्ध emf की परिमाण छोटे लूप में अकेले प्रेरित अधिकतम emf की परिमाण के बराबर है"
+            },
+            {
+              "identifier": "C",
+              "content": "दोनों लूपों के कारण उत्पन्न शुद्ध emf $$\\cos \\,\\omega t$$ के अनुपाती है"
+            },
+            {
+              "identifier": "D",
+              "content": "फ्लक्स के परिवर्तन की दर अधिकतम होती है जब लूप का तल कागज के तल के लंबवत हो"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-circular-insulated-copper-wire-loop-is-twisted-to-form-two-2017-marks-4-bobufs5l6xeiyqyo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-1-offline",
+      "topic": "magnetic-flux-faradays-and-lenzs-laws",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A circular insulated copper wire loop is twisted to form two loops of area $$A$$ and $$2A$$ as shown in the figure. At the point of crossing the wires remain electrically insulated from each other. The entire loop lies in the plane (of the ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "एक परिपत्र, इन्सुलेटेड तांबे के तार का लूप मोड़कर चित्र में दिखाए गए $$A$$ और $$2A$$ क्षेत्रफल के दो लूप बनते हैं। तारों के क्रॉसिंग पर तार आपस में विद्युत रूप से इन्सुलेट रहते हैं। पूरा लूप कागज के तल में स्थित है। एक समान चुंबकीय क्षेत्र ..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-1-offline"
+    },
+    {
+      "question_id": "fkvblrkblxq1x88kko4v",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "permalink": "a-rigid-wire-loop-of-square-shape-having-side-of-length-l-an-jee-advanced-physics-units-and-measurements-mcamkx989uy9sevk",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A rigid wire loop of square shape having side of length L and resistance R is moving along the X-axis with a constant velocity v<sub>0</sub> in the plane of the paper. At t = 0, the right edge of the loop enters a region of length 3L where there is a uniform magnetic field B<sub>0</sub> into the plane of the paper, as shown in the figure. For sufficiently large v<sub>0</sub>, the loop eventually crosses the region. Let x be the location of the right edge of the loop. Let v(x), I(x) and F(x) represent the velocity of the loop, current in the loop, and force on the loop, respectively, as a function of x. Counter-clockwise current is taken as positive.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxseqg/7e94ae5f-8031-4cc1-b290-06514ef9589e/597e5180-a329-11ec-8934-db0715b59417/file-1l0pxseqh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxseqg/7e94ae5f-8031-4cc1-b290-06514ef9589e/597e5180-a329-11ec-8934-db0715b59417/file-1l0pxseqh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 English\"><br>Which of the following schematic plot(s) is (are) correct? (Ignore gravity)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxwno4/f59e6269-df3c-42bb-b827-0d2eaef1b81e/cfa1d940-a329-11ec-969b-3f2ff81a437b/file-1l0pxwno5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxwno4/f59e6269-df3c-42bb-b827-0d2eaef1b81e/cfa1d940-a329-11ec-969b-3f2ff81a437b/file-1l0pxwno5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxx4m7/6ba3bc44-d97d-443c-9fb8-2d548acafee3/dcb922f0-a329-11ec-969b-3f2ff81a437b/file-1l0pxx4m8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxx4m7/6ba3bc44-d97d-443c-9fb8-2d548acafee3/dcb922f0-a329-11ec-969b-3f2ff81a437b/file-1l0pxx4m8.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxxmpo/62edc536-b233-449b-a427-93b6095c4e70/eab3c7c0-a329-11ec-969b-3f2ff81a437b/file-1l0pxxmpp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxxmpo/62edc536-b233-449b-a427-93b6095c4e70/eab3c7c0-a329-11ec-969b-3f2ff81a437b/file-1l0pxxmpp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxy8cd/eab600ea-76a2-4487-a433-9c4f13a9d26c/fb6946d0-a329-11ec-969b-3f2ff81a437b/file-1l0pxy8ce.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxy8cd/eab600ea-76a2-4487-a433-9c4f13a9d26c/fb6946d0-a329-11ec-969b-3f2ff81a437b/file-1l0pxy8ce.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>We discuss the following cases :</p>\n<p>$$\\bullet$$ For x = 0 $$\\to$$ L : The induced emf in the loop is</p>\n<p>$$\\varepsilon  = v{B_0}L$$</p>\n<p>Therefore, the induced current is</p>\n<p>$$I = {{v{B_0}L} \\over R}$$ ........ (1)</p>\n<p>As the flux is increasing, the current passes in counterclockwise direction and oppose the existing magnetic field (i.e., Lenz's law).</p>\n<p>Let us consider the loop which is labelled as shown in the following figure:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0rhqqib/4230609d-00c2-42b0-a9cb-d9bb0091e13e/2a33b920-a404-11ec-9e3c-d721fdc6a078/file-1l0rhqqic.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0rhqqib/4230609d-00c2-42b0-a9cb-d9bb0091e13e/2a33b920-a404-11ec-9e3c-d721fdc6a078/file-1l0rhqqic.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 English Explanation 1\"></p>\n<p>Force on the side CD of the loop is</p>\n<p>$$\\overrightarrow F  = i(\\overrightarrow L  \\times \\overrightarrow B ) = {{v{B_0}L} \\over R}[L\\widehat j \\times {B_0}( - \\widehat k)]$$</p>\n<p>$$\\overrightarrow F  =  - {{vB_0^2{L^2}} \\over R}\\widehat i$$ (towards left) ........ (2)</p>\n<p>$$ \\Rightarrow {{mdv} \\over {dt}} =  - {{B_0^2{L^2}} \\over R}v$$</p>\n<p>$$ \\Rightarrow {{mdv} \\over {dx}}.{{dx} \\over {dt}} =  - {{ - B_0^2{L^2}} \\over R}v$$</p>\n<p>$$ \\Rightarrow \\int\\limits_{{v_0}}^v {dv =  - {{B_0^2{L^2}} \\over {mR}}\\int\\limits_0^x {dx} } $$ (Since $${{dx} \\over {dt}} = v$$)</p>\n<p>$$ \\Rightarrow v = {v_0} - {{B_0^2{L^2}} \\over {mR}}x$$ ....... (3)</p>\n<p>From Eqs. (1) and (3), we get</p>\n<p>$$I = {{{v_0}{B_0}L} \\over R} - {{B_0^3{L^3}} \\over {m{R^2}}}x$$ ....... (4)</p>\n<p>From Eqs. (2) and (3), we get</p>\n<p>$$\\overrightarrow F  =  - {{{v_0}B_0^2{L^2}} \\over R} + {{B_0^4{L^4}} \\over {m{R^2}}}x$$</p>\n<p>$$\\bullet$$ For x = L $$\\to$$ 3L: Here, there is no change in flux and hence there is no induced current and thereby there is no force and no change in velocity.</p>\n<p>$$\\bullet$$ For x = 3L $$\\to$$ 4L :</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0rhugb6/84dcbde0-bfc3-46ff-892c-d2522d8ca586/918faf20-a404-11ec-9e3c-d721fdc6a078/file-1l0rhugb7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0rhugb6/84dcbde0-bfc3-46ff-892c-d2522d8ca586/918faf20-a404-11ec-9e3c-d721fdc6a078/file-1l0rhugb7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 English Explanation 2\"></p>\n<p>As the flux is decreasing, the current passes in clockwise direction and supports the existing magnetic field (i.e., Lenz's law).</p>\n<p>Hence, option (A) is incorrect.</p>\n<p>Consequently, the magnetic force experienced by the arm AB of the loop is</p>\n<p>$$\\overrightarrow F  = i(\\overrightarrow L  \\times \\overrightarrow B ) = {{v{B_0}L} \\over R}[L\\widehat j \\times {B_0}( - \\widehat k)]$$</p>\n<p>$$ =  - {{vB_0^2{L^2}} \\over R}\\widehat i$$ (towards left)</p>\n<p>Hence, option (B) is incorrect.</p>\n<p>Similarly, now we have</p>\n<p>$$\\int\\limits_{{v_{3L}}}^v {dv =  - {{B_0^2{L^2}} \\over {mR}}\\int\\limits_{3L}^x {dx \\Rightarrow v = {v_{3L}} - {{B_0^2{L^2}} \\over {mR}}\\left( {x - 3L} \\right)} } $$</p>\n<p>When the loop is completely within the magnetic field, the force and current is zero and velocity is constant. However, while coming out, the current passes in clockwise direction, the force exists in backwards and the velocity decreases linearly.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "एक कठोर वायर लूप, वर्गाकार आकार का जिसकी पक्ष की लंबाई L और प्रतिरोध R है, X-अक्ष के साथ एक नियत वेग v<sub>0</sub> से कागज के समतल में चल रहा है। t = 0 पर, लूप का दायां किनारा उस क्षेत्र में प्रवेश करता है जिसकी लंबाई 3L है और जहां एक समान चुंबकीय क्षेत्र B<sub>0</sub> कागज के समतल में है, जैसा कि चित्र में दिखाया गया है। पर्याप्त बड़े v<sub>0</sub> के लिए, लूप अंततः उस क्षेत्र को पार कर जाता है। मान लें कि x लूप के दाएं किनारे का स्थान है। मान लें कि v(x), I(x) और F(x) क्रमश: लूप का वेग, लूप में धारा और लूप पर बल का प्रतिनिधित्व करते हैं, x का एक फलन हैं। घुमाव दर घड़ी की दिशा में धारा को सकारात्मक लिया गया है।<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxseqg/7e94ae5f-8031-4cc1-b290-06514ef9589e/597e5180-a329-11ec-8934-db0715b59417/file-1l0pxseqh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxseqg/7e94ae5f-8031-4cc1-b290-06514ef9589e/597e5180-a329-11ec-8934-db0715b59417/file-1l0pxseqh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 Hindi\"><br>निम्नलिखित में से कौन सी स्कीमैटिक प्लॉट(s) सही है (हैं)? (गुरुत्वाकर्षण की उपेक्षा करें)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxwno4/f59e6269-df3c-42bb-b827-0d2eaef1b81e/cfa1d940-a329-11ec-969b-3f2ff81a437b/file-1l0pxwno5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxwno4/f59e6269-df3c-42bb-b827-0d2eaef1b81e/cfa1d940-a329-11ec-969b-3f2ff81a437b/file-1l0pxwno5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 Hindi Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxx4m7/6ba3bc44-d97d-443c-9fb8-2d548acafee3/dcb922f0-a329-11ec-969b-3f2ff81a437b/file-1l0pxx4m8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxx4m7/6ba3bc44-d97d-443c-9fb8-2d548acafee3/dcb922f0-a329-11ec-969b-3f2ff81a437b/file-1l0pxx4m8.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 Hindi Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxxmpo/62edc536-b233-449b-a427-93b6095c4e70/eab3c7c0-a329-11ec-969b-3f2ff81a437b/file-1l0pxxmpp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxxmpo/62edc536-b233-449b-a427-93b6095c4e70/eab3c7c0-a329-11ec-969b-3f2ff81a437b/file-1l0pxxmpp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 Hindi Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pxy8cd/eab600ea-76a2-4487-a433-9c4f13a9d26c/fb6946d0-a329-11ec-969b-3f2ff81a437b/file-1l0pxy8ce.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pxy8cd/eab600ea-76a2-4487-a433-9c4f13a9d26c/fb6946d0-a329-11ec-969b-3f2ff81a437b/file-1l0pxy8ce.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Electromagnetic Induction Question 18 Hindi Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "motional-emf-and-eddy-current",
+      "type": "mcqm",
+      "year": 2016,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A rigid wire loop of square shape having side of length L and resistance R is moving along the X-axis with a constant velocity v0 in the plane of the paper. At t = 0, the right edge of the loop enters a region of length 3L where there is a ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "एक कठोर वायर लूप, वर्गाकार आकार का जिसकी पक्ष की लंबाई L और प्रतिरोध R है, X-अक्ष के साथ एक नियत वेग v0 से कागज के समतल में चल रहा है। t = 0 पर, लूप का दायां किनारा उस क्षेत्र में प्रवेश करता है जिसकी लंबाई 3L है और जहां एक समान चुंबकीय क्ष..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "question_id": "fgiyyev5h5v43pzw042v",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "permalink": "a-conducting-loop-in-the-shape-of-a-right-angled-isosceles-t-jee-advanced-physics-units-and-measurements-gs4gjqg8klruxiwc",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A conducting loop in the shape of a right angled isosceles triangle of height 10 cm is kept such that the 90$$^\\circ$$ vertex is very close to an infinitely long conducting wire (see the figure). The wire is electrically insulated from the loop. The hypotenuse of the triangle is parallel to the wire. The current in the triangular loop is in counterclockwise direction and increased at a constant rate of 10 As<sup>$$-$$1</sup>. Which of the following statement(s) is (are) true?<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0d7fk1a/f76239d4-3b4d-42a8-b6d9-b28dd07e3ea5/deeb4bf0-9c28-11ec-823a-13aee278b549/file-1l0d7fk1b.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0d7fk1a/f76239d4-3b4d-42a8-b6d9-b28dd07e3ea5/deeb4bf0-9c28-11ec-823a-13aee278b549/file-1l0d7fk1b.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 1 Offline Physics - Electromagnetic Induction Question 19 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "There is a repulsive force between the wire and the loop."
+            },
+            {
+              "identifier": "B",
+              "content": "If the loop is rotated at a constant angular speed about the wire, an additional emf of $$\\left( {{{{\\mu _0}} \\over \\pi }} \\right)$$ volt is induced in the wire"
+            },
+            {
+              "identifier": "C",
+              "content": "The magnitude of induced emf in the wire is $$\\left( {{{{\\mu _0}} \\over \\pi }} \\right)$$ volt"
+            },
+            {
+              "identifier": "D",
+              "content": "The induced current in the wire is in opposite direction to the current along the hypotenuse."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "The flux passing through the triangular wire if ' $i$ ' current flows through the infinitely long conducting wire.\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1li36095o/80df0a8e-3f84-4bb9-b244-51045084addd/5a9349c0-faff-11ed-812e-dfff3aedbc0f/file-1li36095p.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1li36095o/80df0a8e-3f84-4bb9-b244-51045084addd/5a9349c0-faff-11ed-812e-dfff3aedbc0f/file-1li36095p.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 1 Offline Physics - Electromagnetic Induction Question 19 English Explanation 1\">\n\n<br>$$\n\\begin{aligned}\n\\frac{d \\mathrm{I}}{d t} &amp; =10 \\mathrm{As}^{-1} \\\\\\\\\n\\phi &amp; =\\int_0^{0.1} \\frac{\\mu_0 i}{2 \\pi x} \\times 2 x d x \\\\\\\\\n\\phi &amp; =\\frac{\\mu_0 i}{10 \\pi}=\\mathrm{M} i\n\\end{aligned}\n$$\n<br><br>$$\n\\therefore  \\mathrm{M}=\\frac{\\mu_0}{10 \\pi}\n$$\n<br><br>$$\n\\text { Induced emf in the wire }=\\frac{\\mathrm{M} d i}{d t}=\\frac{\\mu_0}{10 \\pi} \\times 10=\\frac{\\mu_0}{\\pi}\n$$\n<br><br>According to Lenz's law, the induced current opposes the flux change that creates it. Since the flux is increasing, the induced emf opposes the existing magnetic field and the current flows from left to right in the straight wire, that is, along the hypotenuse current. That is, there is a repulsive force between the wire and the loop.\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1li3668ri/4f956045-fb87-4532-a7b9-2945be57e31c/01204fe0-fb00-11ed-8333-f921c26ec676/file-1li3668rj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1li3668ri/4f956045-fb87-4532-a7b9-2945be57e31c/01204fe0-fb00-11ed-8333-f921c26ec676/file-1li3668rj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 1 Offline Physics - Electromagnetic Induction Question 19 English Explanation 2\">\n<br>Also, if the loop is rotated about the wire, there is no change in the flux through the wire, so no extra induced emf is generated in the wire."
+        },
+        "hi": {
+          "direction": null,
+          "content": "10 सें.मी. ऊँचाई के समकोणीय समानांत त्रिभुज के आकार का एक संवाहक लूप इस प्रकार रखा गया है कि 90 $$^\\circ$$ शीर्ष एक अनंत लंबी संवाहक तार के बहुत करीब है (चित्र देखें)। तार लूप से विद्युत रूप से अलग किया गया है। त्रिभुज का कर्ण तार के समानांतर है। त्रिकोणीय लूप में धारावाही घड़ी की दिशा में नहीं है और 10 As<sup>$$-$$1</sup> की स्थिर दर से बढ़ रही है। निम्नलिखित में से कौन सा/से कथन सत्य है (हैं)?<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0d7fk1a/f76239d4-3b4d-42a8-b6d9-b28dd07e3ea5/deeb4bf0-9c28-11ec-823a-13aee278b549/file-1l0d7fk1b.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0d7fk1a/f76239d4-3b4d-42a8-b6d9-b28dd07e3ea5/deeb4bf0-9c28-11ec-823a-13aee278b549/file-1l0d7fk1b.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 1 Offline Physics - Electromagnetic Induction Question 19 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "तार और लूप के बीच एक विकर्षक बल है।"
+            },
+            {
+              "identifier": "B",
+              "content": "यदि लूप को तार के चारों ओर स्थिर कोणीय गति से घुमाया जाए, तो तार में $$\\left( {{{{\\mu _0}} \\over \\pi }} \\right)$$ वोल्ट की अतिरिक्त ई.एम.एफ उत्पन्न होती है।"
+            },
+            {
+              "identifier": "C",
+              "content": "तार में प्रेरित ई.एम.एफ की परिमाण $$\\left( {{{{\\mu _0}} \\over \\pi }} \\right)$$ वोल्ट है।"
+            },
+            {
+              "identifier": "D",
+              "content": "तार में प्रेरित धारा कर्ण के साथ धारावाही के विपरीत दिशा में है।"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "inductance-self-and-mutual",
+      "type": "mcqm",
+      "year": 2016,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A conducting loop in the shape of a right angled isosceles triangle of height 10 cm is kept such that the 90$$^\\circ$$ vertex is very close to an infinitely long conducting wire (see the figure). The wire is electrically insulated from the ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "10 सें.मी. ऊँचाई के समकोणीय समानांत त्रिभुज के आकार का एक संवाहक लूप इस प्रकार रखा गया है कि 90 $$^\\circ$$ शीर्ष एक अनंत लंबी संवाहक तार के बहुत करीब है (चित्र देखें)। तार लूप से विद्युत रूप से अलग किया गया है। त्रिभुज का कर्ण तार के समानां..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "question_id": "qq63x0aau39si2ws4vmb",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "permalink": "two-inductors-lsub1sub-inductance-1mh-internal-resist-jee-advanced-physics-units-and-measurements-6nzesve7jq3pv2nj",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Two inductors L<sub>1</sub> (inductance 1mH, internal resistance 3$$\\Omega$$) and L<sub>2</sub> (inductance 2 mH, internal resistance 4$$\\Omega$$), and a resistor R (resistance 12$$\\Omega$$) are all connected in parallel across a 5V battery. The circuit is switched on at time t = 0. The ratio of the maximum to the minimum current (I<sub>max</sub> / I<sub>min</sub>) drawn from the battery is",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "<p>The circuit is shown in the figure</p>\n\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1li36fljq/14d4415b-2479-42d3-9a1a-4d88ce24fead/0548a760-fb01-11ed-8333-f921c26ec676/file-1li36fljr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1li36fljq/14d4415b-2479-42d3-9a1a-4d88ce24fead/0548a760-fb01-11ed-8333-f921c26ec676/file-1li36fljr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 1 Offline Physics - Electromagnetic Induction Question 20 English Explanation 1\">\n\n<p>Initially, right after the circuit is switched on ($ t \\rightarrow 0^{+} $), the impedance (effective resistance) of inductors $ L_1 $ and $ L_2 $ is extremely high. Therefore, the inductors act as open circuits, and all the current flows through the resistor $ R = 12 \\Omega $. According to Kirchhoff's law, the current through the battery at this moment is $ i_{\\min} = \\frac{V}{R} = \\frac{5}{12} \\, \\text{A} $.</p>\n\n<p>As the circuit reaches steady state ($ t \\rightarrow \\infty $), the impedance of the inductors drops to zero, and they function as resistors with their specified internal resistances.</p>\n\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1li36i2z6/ccca250c-ff6f-43ba-8db7-29593a510370/4a5d9720-fb01-11ed-8333-f921c26ec676/file-1li36i2z7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1li36i2z6/ccca250c-ff6f-43ba-8db7-29593a510370/4a5d9720-fb01-11ed-8333-f921c26ec676/file-1li36i2z7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 1 Offline Physics - Electromagnetic Induction Question 20 English Explanation 2\">\n\n<br>The effective resistance of the circuit is $R_e=(12 \\Omega \\|$ $4 \\Omega)\\|3 \\Omega=3 \\Omega\\| 3 \\Omega=3 / 2 \\Omega$.\n\n<p>In the steady state, the current through the circuit is $ i_{\\max} = \\frac{V}{R_e} = \\frac{5}{\\frac{3}{2}} = \\frac{10}{3} \\, \\text{A} $.</p>\n\n<p>Therefore, the ratio of the maximum current to the minimum current is:</p>\n\n<p>$ \\frac{i_{\\max}}{i_{\\min}} = \\frac{\\frac{10}{3}}{\\frac{5}{12}} = \\frac{10}{3} \\times \\frac{12}{5} = 8 $</p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "दो इंडक्टर्स L<sub>1</sub> (इंडक्टेंस 1mH, आंतरिक प्रतिरोध 3$$\\Omega$$) और L<sub>2</sub> (इंडक्टेंस 2 mH, आंतरिक प्रतिरोध 4$$\\Omega$$), और एक प्रतिरोधक R (प्रतिरोध 12$$\\Omega$$) को एक 5V बैटरी के समानांतर जोड़ा गया है। परिपथ को समय t = 0 पर चालू किया गया। बैटरी से खींचे गए अधिकतम और न्यूनतम धारा (I<sub>max</sub> / I<sub>min</sub>) का अनुपात क्या है",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "inductance-self-and-mutual",
+      "type": "integer",
+      "year": 2016,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "Two inductors L1 (inductance 1mH, internal resistance 3$$\\Omega$$) and L2 (inductance 2 mH, internal resistance 4$$\\Omega$$), and a resistor R (resistance 12$$\\Omega$$) are all connected in parallel across a 5V battery. The circuit is switc..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "दो इंडक्टर्स L1 (इंडक्टेंस 1mH, आंतरिक प्रतिरोध 3$$\\Omega$$) और L2 (इंडक्टेंस 2 mH, आंतरिक प्रतिरोध 4$$\\Omega$$), और एक प्रतिरोधक R (प्रतिरोध 12$$\\Omega$$) को एक 5V बैटरी के समानांतर जोड़ा गया है। परिपथ को समय t = 0 पर चालू किया गया। बैटरी ..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "question_id": "dag8kuyt8j5s29qihrl0",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2012-paper-2-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 2 Offline",
+      "permalink": "pa-current-carrying-infinitely-long-wire-is-kept-along-the-jee-advanced-physics-units-and-measurements-9xn5p2ywj3dmfu0g",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A current carrying infinitely long wire is kept along the diameter of a circular wire loop, without touching it, the correct statement(s) is(are)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the emf induced in the loop is zero if the current is constant."
+            },
+            {
+              "identifier": "B",
+              "content": "the emf induced in the loop is finite if the current is constant."
+            },
+            {
+              "identifier": "C",
+              "content": "the emf induced in the loop is zero if the current decreases at a steady state"
+            },
+            {
+              "identifier": "D",
+              "content": "the emf induced in the loop is finite if the current decreases at a steady state."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The magnetic field due to an infinitely long conductor is circumferential.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l26hlply/5e0ba735-e0aa-4159-9c3c-8ea9774ce8b3/97952860-c00f-11ec-8e78-8beb702b8cb9/file-1l26hlplz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l26hlply/5e0ba735-e0aa-4159-9c3c-8ea9774ce8b3/97952860-c00f-11ec-8e78-8beb702b8cb9/file-1l26hlplz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 2 Offline Physics - Electromagnetic Induction Question 15 English Explanation\"></p>\n<p>Since this conductor is placed along the diameter of circular loop (see figure), the total magnetic flux through the circular wire loop is always zero.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "magnetic-flux-faradays-and-lenzs-laws",
+      "type": "mcqm",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A current carrying infinitely long wire is kept along the diameter of a circular wire loop, without touching it, the correct statement(s) is(are)"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-2-offline"
+    },
+    {
+      "question_id": "njv8cv7rkj8bg7htg8gq",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pa-circular-wire-loop-of-radius-r-is-placed-in-the-xy-plan-jee-advanced-physics-units-and-measurements-ccgpwfsxgpgprqsy",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A circular wire loop of radius R is placed in the xy plane centred at the origin O. A square loop of side a(a &lt;&lt; R) having two turns is placed with its centre at z = $$\\sqrt3$$R along the axis of the circular wire loop, as shown in the figure. The plane of the square loop makes an angle of 45$$^\\circ$$ with respect to z-axis. If the mutual inductance between the loops is given by $${{{\\mu _0}{a^2}} \\over {{2^{p/2}}R}}$$, then the value of p is ___________.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l24l3kqq/9ded8c0c-aa07-49a0-9f81-41b05e881f1f/b279da20-bf03-11ec-8fbf-67f2639a0a45/file-1l24l3kqr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l24l3kqq/9ded8c0c-aa07-49a0-9f81-41b05e881f1f/b279da20-bf03-11ec-8fbf-67f2639a0a45/file-1l24l3kqr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 1 Offline Physics - Electromagnetic Induction Question 14 English\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "7",
+          "explanation": "<p>The magnetic flux through a wire loop with $ n $ turns, an area vector $ \\vec{S} $, placed in a uniform magnetic field $ \\vec{B} $, is given by the equation $ \\phi = n \\vec{B} \\cdot \\vec{S} $. For a circular loop of radius $ r $ that carries a current $ i $, the magnetic field at an axial point located a distance $ z $ from the center of the loop can be expressed as :</p>\n\n<p>$|\\vec{B}|=\\frac{\\mu_0 i r^2}{2\\left(r^2+z^2\\right)^{3 / 2}}$</p>\n\n<p>By substituting $ r = R $ and $ z = \\sqrt{3} R $ into the expression for the magnetic field at an axial point of a circular loop, we get the magnetic field $ |\\vec{B}| $ as follows:</p>\n\n<p>The formula for the magnetic field at an axial point $ z $ from a circular loop of radius $ r $ carrying a current $ i $ is given by:</p>\n\n<p>$ B = \\frac{\\mu_0 i r^2}{2 (r^2 + z^2)^{3/2}} $</p>\n\n<p>Substituting $ r = R $ and $ z = \\sqrt{3} R $ into this formula, we get:</p>\n\n<p>$ B = \\frac{\\mu_0 i R^2}{2 (R^2 + (\\sqrt{3} R)^2)^{3/2}} $</p>\n\n<p>Simplify the expression inside the parentheses:</p>\n\n<p>$ B = \\frac{\\mu_0 i R^2}{2 (R^2 + 3R^2)^{3/2}} $</p>\n\n<p>$ B = \\frac{\\mu_0 i R^2}{2 (4R^2)^{3/2}} $</p>\n\n<p>$ B = \\frac{\\mu_0 i R^2}{2 (4^{3/2} R^3)} $</p>\n\n<p>$ 4^{3/2} = 8 $</p>\n\n<p>$ B = \\frac{\\mu_0 i R^2}{2 (8 R^3)} $</p>\n\n<p>$ B = \\frac{\\mu_0 i R^2}{16 R^3} $</p>\n\n<p>$ B = \\frac{\\mu_0 i}{16 R} $</p>\n\n<p>Thus, the magnetic field at the axial point $ z = \\sqrt{3} R $ is:</p>\n\n<p>$ |\\vec{B}| = \\frac{\\mu_0 i}{16 R} $</p>\n\n<p>\n\n<p>This magnetic field is directed along the $ z $-axis and can be considered uniform at the location of the square loop (since $ a \\ll R $). Consequently, $ \\vec{B} $ forms an angle of $ 45^\\circ $ with the area vector $ \\vec{S} $ (where $ |\\vec{S}| = a^2 $) of the square loop. The magnetic flux through the square loop and the mutual inductance of the loops are given by:</p></p>\n\n<p>$\\begin{aligned} & \\phi=n|\\vec{B}||\\vec{S}| \\cos 45^{\\circ}=2 \\cdot \\frac{\\mu_0 i}{16 R} \\cdot a^2 \\cdot \\frac{1}{\\sqrt{2}}=\\frac{\\mu_0 i a^2}{2^{7 / 2} R}, \\\\\\\\ & M=\\frac{\\phi}{i}=\\frac{\\mu_0 a^2}{2^{7 / 2} R} .\\end{aligned}$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "inductance-self-and-mutual",
+      "type": "integer",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A circular wire loop of radius R is placed in the xy plane centred at the origin O. A square loop of side a(a << R) having two turns is placed with its centre at z = $$\\sqrt3$$R along the axis of the circular wire loop, as shown in the figu..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "question_id": "pi4bm4f4pup55x5ck4ns",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "ptwo-metallic-rings-a-and-b-identical-in-shape-and-size-b-jee-advanced-physics-motion-wqvsjw42eprgsiyx",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Two metallic rings A and B, identical in shape and size but having different resistivities $$\\rho_A$$ and $$\\rho_B$$, are kept on top of two identical solenoids as shown in the figure below. When current I is switched on in both the solenoids in identical manner, the rings A and B jump to heights $$h_A$$ and $$h_B$$, respectively, with $$h_A &gt; h_B$$. The possible relation(s) between their resistivities and their masses $$m_A$$ and $$m_B$$ is (are)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft49ea5/27a226bc-742c-4efe-b66d-db614735eb99/414e43d0-cde0-11ed-9ce1-7bd2ccf24231/file-1lft49ea6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft49ea5/27a226bc-742c-4efe-b66d-db614735eb99/414e43d0-cde0-11ed-9ce1-7bd2ccf24231/file-1lft49ea6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Electromagnetic Induction Question 11 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\rho_A$$ > $$\\rho_B$$ and $$m_A$$ = $$m_B$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\rho_A$$ < $$\\rho_B$$ and $$m_A$$ = $$m_B$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\rho_A$$ > $$\\rho_B$$ and $$m_A$$ > $$m_B$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\rho_A$$ < $$\\rho_B$$ and $$m_A$$ < $$m_B$$"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Induced emf is same in both the rings:</p>\n<p>$$I = {e \\over R} = {{\\rho A} \\over {\\rho l}}$$</p>\n<p>$$I \\propto {1 \\over \\rho } \\Rightarrow q \\propto {1 \\over \\rho }$$ .... (1)</p>\n<p>Impulse is</p>\n<p>$$J = \\int {Bil\\,dt = mv = Bl\\int {I\\,dl = mv} } $$</p>\n<p>That is, $$J = Blq = mv \\Rightarrow v\\left( {{q \\over m}} \\right)$$ ..... (2)</p>\n<p>and $${v^2} \\propto h$$ ...... (3)</p>\n<p>From Eqs. (1), (2) and (3), we get</p>\n<p>$$mv \\propto {1 \\over \\rho }$$</p>\n<p>$$m\\sqrt h  \\propto {1 \\over \\rho }$$</p>\n<p>$$m\\rho  \\propto {1 \\over {\\sqrt h }}$$</p>\n<p>Since $${h_A} > {h_B}$$ and for $${m_A} = {m_B},\\rho \\sqrt h  = $$ Constant. Therefore, $${\\rho _A} < {\\rho _B}$$. Also if $${m_A} < {m_B}$$ and $${\\rho _A} < {\\rho _B}$$,</p>\n<p>$${m_A}{\\rho _A} < {m_B}{\\rho _B}$$</p>\n<p>$$ \\Rightarrow {h_A} > {h_B}$$ (already given)</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "motional-emf-and-eddy-current",
+      "type": "mcqm",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "Two metallic rings A and B, identical in shape and size but having different resistivities $$\\rho_A$$ and $$\\rho_B$$, are kept on top of two identical solenoids as shown in the figure below. When current I is switched on in both the solenoi..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "byw8etxgy7s9i5xc18dk",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pthe-figure-shows-certain-wire-segments-joined-together-to-jee-advanced-physics-motion-nbltwirruywxa27g",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The figure shows certain wire segments joined together to form a coplanar loop. The loop is placed in a perpendicular magnetic field in the direction going into the plane of the figure. The magnitude of the field increases with time. $$I_1$$ and $$I_2$$ are the currents in the segments ab and cd. Then,</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrlkgpf/1983e373-d323-46e4-9778-f138eca28f70/5ef9ce30-cd0a-11ed-8124-cf50c8498624/file-1lfrlkgpg.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrlkgpf/1983e373-d323-46e4-9778-f138eca28f70/5ef9ce30-cd0a-11ed-8124-cf50c8498624/file-1lfrlkgpg.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Electromagnetic Induction Question 12 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$I_1 > I_2$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$I_1 < I_2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$I_1$$ is in the direction ba and $$I_2$$ is in the direction cd."
+            },
+            {
+              "identifier": "D",
+              "content": "$$I_1$$ is in the direction ab and $$I_2$$ is in the direction dc."
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Since $$\\phi_B$$ increases in the downward direction, according to Lenz's law, the induced current flows in such a manner to create an upward going flux, that is, a flux in anticlockwise direction. Since the outer loop has a bigger enclosed area than inner loop, the induced current flow is as follows:</p>\n<p>$$\\bullet$$ Induced current, $$I_2$$: Flows from d to c</p>\n<p>$$\\bullet$$ Induced current, $$I_1$$: Flows from a to b</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "magnetic-flux-faradays-and-lenzs-laws",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "The figure shows certain wire segments joined together to form a coplanar loop. The loop is placed in a perpendicular magnetic field in the direction going into the plane of the figure. The magnitude of the field increases with time. $$I_1$..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "1co5rjd9rwxqxqh7kkd0",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pwhat-is-the-advantage-of-this-systemp-jee-advanced-physics-motion-7rgrccud45iqg4lg",
+      "question": {
+        "en": {
+          "comprehension": "<p>Modern trains are based on Maglev technology in which trains are magnetically levitated, which runs its EDS Maglev system. There are coils on both sides of wheels. Due to motion of train, current induces in the coil of track which levitate it. This is in accordance with Lenz's law. If train lowers down, then according to Lenz's law, a repulsive force increases due to which train gets uplifted and if it goes much high then there is a net downward force due to gravity. The advantage of Maglev train is that there is no friction between the train and the track, thereby reducing the power consumption and enabling the train to attain very high speeds.</p>\n<p>Disadvantages of Maglev train is that as it slows down, $t$ the electromagnetic forces decreases and it becomes difficult to keep levitated and as it moves forward according to Lenz law there is electromagnetic drag force.</p>",
+          "direction": null,
+          "content": "<p>What is the advantage of this system?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>No friction hence no power consumption.</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>No electric power is used.</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>Gravitation force is zero.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>Electrostatic force draws the train.</p>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>In maglev system, when train is in levitation, there is no friction between the train and the track. Hence, no power consumption in this case and overall power consumption reduces.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "magnetic-flux-faradays-and-lenzs-laws",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "What is the advantage of this system?"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "rbfdgz2741o3vdhnsh3n",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pwhat-is-the-disadvantage-of-this-systemp-jee-advanced-physics-motion-5imsngivf96xvx5i",
+      "question": {
+        "en": {
+          "comprehension": "<p>Modern trains are based on Maglev technology in which trains are magnetically levitated, which runs its EDS Maglev system. There are coils on both sides of wheels. Due to motion of train, current induces in the coil of track which levitate it. This is in accordance with Lenz's law. If train lowers down, then according to Lenz's law, a repulsive force increases due to which train gets uplifted and if it goes much high then there is a net downward force due to gravity. The advantage of Maglev train is that there is no friction between the train and the track, thereby reducing the power consumption and enabling the train to attain very high speeds.</p>\n<p>Disadvantages of Maglev train is that as it slows down, $t$ the electromagnetic forces decreases and it becomes difficult to keep levitated and as it moves forward according to Lenz law there is electromagnetic drag force.</p>",
+          "direction": null,
+          "content": "<p>What is the disadvantage of this system?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>Train experiences upward force according to Lenz's law</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>Friction force creates a drag on the train.</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>Retardation.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>By Lenz's law, train experiences a drag.</p>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Disadvantages of Maglev train is that as it slows down, electromagnetic forces decreases and it becomes difficult to keep levitated and as it moves forward according to Lenz's law there is electromagnetic drag force.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "motional-emf-and-eddy-current",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "What is the disadvantage of this system?"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "d4mpz66csnlfp3n72ry7",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pwhich-force-causes-the-train-to-elevate-upwardsp-jee-advanced-physics-motion-bgcizhbslyfefvp3",
+      "question": {
+        "en": {
+          "comprehension": "<p>Modern trains are based on Maglev technology in which trains are magnetically levitated, which runs its EDS Maglev system. There are coils on both sides of wheels. Due to motion of train, current induces in the coil of track which levitate it. This is in accordance with Lenz's law. If train lowers down, then according to Lenz's law, a repulsive force increases due to which train gets uplifted and if it goes much high then there is a net downward force due to gravity. The advantage of Maglev train is that there is no friction between the train and the track, thereby reducing the power consumption and enabling the train to attain very high speeds.</p>\n<p>Disadvantages of Maglev train is that as it slows down, $t$ the electromagnetic forces decreases and it becomes difficult to keep levitated and as it moves forward according to Lenz law there is electromagnetic drag force.</p>",
+          "direction": null,
+          "content": "<p>Which force causes the train to elevate upwards</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>Electrostatic force.</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>Time-varying electric field.</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>Magnetic force.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>Induced electric field</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>As the train moves, due to induced magnetic field train elevates.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "motional-emf-and-eddy-current",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "Which force causes the train to elevate upwards"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "r9noonlwfgj18ea9s7se",
+      "chapter": "electromagnetic-induction",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pa-long-solenoid-of-radius-a-and-number-of-turns-per-unit-jee-advanced-physics-motion-1gz36yvd2hit38zb",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A long solenoid of radius a and number of turns per unit length $$n$$ is enclosed by cylindrical shell of radius R, thickness $$d$$ $$(d &lt; &lt; R)$$ and length L. A variable current $$\\mathrm{I}=\\mathrm{I}_{0} \\sin \\omega t$$ flows through the coil. If the resistivity of the material of cylindrical shell is $$\\mathrm{P}$$, find the induced current in the shell.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh7fihkf/9a8eea3a-a201-41f4-a164-53e3663eaf77/3ca86ff0-b243-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7fihkg.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh7fihkf/9a8eea3a-a201-41f4-a164-53e3663eaf77/3ca86ff0-b243-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7fihkg.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Physics - Electromagnetic Induction Question 10 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{I}=\\frac{\\left(\\mu_{0} \\mathrm{~L} d n a^{2} \\mathrm{I}_{0} \\omega \\cos \\omega t\\right)}{\\rho \\mathrm{R}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{I}=\\frac{\\left(3\\mu_{0} \\mathrm{~L} d n a^{2} \\mathrm{I}_{0} \\omega \\cos \\omega t\\right)}{2 \\rho \\mathrm{R}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{I}=\\frac{\\left(\\mu_{0} \\mathrm{~L} d n a^{2} \\mathrm{I}_{0} \\omega \\cos \\omega t\\right)}{2 \\rho \\mathrm{R}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mathrm{I}=\\frac{3\\left(\\mu_{0} \\mathrm{~L} d n a^{2} \\mathrm{I}_{0} \\omega \\cos \\omega t\\right)}{ \\rho \\mathrm{R}}$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": "$$\\left[\\mathrm{I}=\\frac{\\left(\\mu_{0} \\mathrm{~L} d n a^{2} \\mathrm{I}_{0} \\omega \\cos \\omega t\\right)}{2 \\rho \\mathrm{R}}\\right]$$",
+          "explanation": "<p>According to the question, radius of the solenoid is $$r=a$$,</p>\n<p>Number of turns per unit length $$n$$,</p>\n<p>Radius of the cylinder shell is $$\\mathrm{R}$$,</p>\n<p>Thickness of shell is $$d$$, length is L,</p>\n<p>Resistivity of cylindrical shell is $$\\rho$$.</p>\n<p>The expression of the current through solenoid is given as,</p>\n<p>$$\\mathrm{I}=\\mathrm{I}_{0} \\sin \\omega t$$</p>\n<p>In the given case the magnetic field outside the solenoid is zero. Therefore, magnetic field inside the solenoid is $$\\mu_{0} n_{i}$$</p>\n<p>Now, magnetic flux can be written as $$\\phi=\\mu_{0} n \\mathrm{I} \\times \\pi a^{2}$$ Therefore, induced emf can be written as</p>\n<p>$$\\begin{aligned}\ne & =-\\frac{d \\phi}{d t} \\\\\ne & =-\\frac{d}{d t}\\left(\\mu_{0} n \\mathrm{I} \\pi a^{2}\\right)\n\\end{aligned}$$</p>\n<p>As current through the solenoid is given as</p>\n<p>$$\\begin{aligned}\n& \\mathrm{I}=\\mathrm{I}_{0} \\sin w t \\\\\n& \\Rightarrow \\quad e=-\\frac{d}{d t}\\left(\\mu_{0} n \\mathrm{I}_{0} \\sin \\omega t \\pi a^{2}\\right) \\\\\n& =-\\left(\\mu_{0} n \\pi a^{2} \\mathrm{I}_{0}\\right) \\frac{d}{d t} \\sin \\omega t \\\\\n& \\Rightarrow \\quad e=\\left(\\mu_{0} n \\pi a^{2}\\right)\\left(\\mathrm{I}_{0} l_{0} \\omega \\cos \\omega t\\right)\n\\end{aligned}$$</p>\n<p>Resistance of the cylindrical vessel,</p>\n<p>$$\\mathrm{R}_{c}=\\frac{\\rho}{\\mathrm{S}}=\\frac{\\rho(2 \\pi \\mathrm{R})}{\\mathrm{L} d}$$</p>\n<p>$$\\therefore$$ Induced current, $$\\mathrm{I}=\\frac{e}{\\mathrm{R}_{c}}$$</p>\n<p>$$=\\frac{\\left(\\mu_{0} n \\pi a^{2}\\right)\\left(\\mathrm{I}_{0} \\omega \\cos \\omega t\\right)}{\\frac{\\rho(2 \\pi \\mathrm{R})}{\\mathrm{L} d}}$$</p>\n<p>$$\\mathrm{I}=\\frac{\\mu_{0} \\mathrm{~L} d n a^{2} i_{0} \\omega \\cos \\omega t}{2 \\rho R}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "magnetic-flux-faradays-and-lenzs-laws",
+      "type": "mcq",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Electromagnetic Induction • Physics",
+          "excerpt": "A long solenoid of radius a and number of turns per unit length $$n$$ is enclosed by cylindrical shell of radius R, thickness $$d$$ $$(d < < R)$$ and length L. A variable current $$\\mathrm{I}=\\mathrm{I}_{0} \\sin \\omega t$$ flows through the..."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    }
+  ]
+}

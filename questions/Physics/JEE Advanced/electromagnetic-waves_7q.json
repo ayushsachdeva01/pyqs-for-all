@@ -1,0 +1,571 @@
+{
+  "questions": [
+    {
+      "question_id": "6jis8mzhfjh5gksyjfmg",
+      "chapter": "electromagnetic-waves",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "pthe-electric-field-associated-with-an-electromagnetic-wav-jee-advanced-physics-kbv8b79w2yqjboqq",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The electric field associated with an electromagnetic wave travelling in vacuum is given by</p>\n<p>$E_0 \\sin(3y + 4z + \\omega t) \\hat{i}$, where $\\\\omega$ is the angular frequency. All quantities are in SI units. The correct statement(s) about this wave is/are:</p>\n<p>[Given: speed of light in vacuum $c = 3 \\times 10^8\\ \\mathrm{m\\,s^{-1}}$.]</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>The wave is travelling in $-\\frac{1}{5} (3 \\hat{j} + 4 \\hat{k})$ direction.</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>The magnitude of the wave vector is $0.5\\ \\mathrm{m}^{-1}$.</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>The value of $\\omega$ is $1.5 \\times 10^9 \\ \\mathrm{rad}\\ \\mathrm{s}^{-1}$.</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>The magnetic field associated with this wave is given by $\\frac{E_0}{c} \\sin(3y + 4z + \\omega t)(4 \\hat{j} - 3 \\hat{k})$.</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The standard for a plane electromagnetic wave traveling in a general direction is</p>\n<p>$$\\vec{E} = \\vec{E}_0 \\sin(\\vec{k} \\cdot \\vec{r} + \\omega t + \\phi)$$</p>\n<p>Here, $\\vec{k} = k_x \\hat{i} + k_y \\hat{j} + k_z \\hat{k}$ is the wave vector, and $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ is the position vector.</p>\n<p>$$\\vec{k} \\cdot \\vec{r} = k_x x + k_y y + k_z z$$</p>\n<p>The electric field phase is given as $(3y + 4z + \\omega t)$.</p>\n<p>On comparing with $(\\vec{k} \\cdot \\vec{r} + \\omega t)$, $k_x = 0$, $k_y = 3$, $k_z = 4$</p>\n<p>Therefore, the wave vector is:</p>\n<p>$$\\vec{k} = 3\\hat{j} + 4\\hat{k}$$</p>\n<p>The unit vector $\\hat{n}$ in the direction of wave propagation:</p>\n<p>$$\\hat{n} = -\\frac{\\vec{k}}{|\\vec{k}|} = \\frac{-3\\hat{j} + 4\\hat{k}}{\\sqrt{3^2 + 4^2}} = \\frac{-3\\hat{j} + 4\\hat{k}}{\\sqrt{9 + 16}} = \\frac{-3\\hat{j} + 4\\hat{k}}{5} = -\\frac{1}{5}(3\\hat{j} + 4\\hat{k})$$</p>\n<p>Thus, option (A) is correct.</p>\n<p>The magnitude of the wave vector $|\\vec{k}|$ is,</p>\n\n<p>$${k} = |\\vec{\\text{k}}| = \\sqrt{k_x^2 + k_y^2 + k_z^2} = \\sqrt{0^2 + 3^2 + 4^2} = \\sqrt{25} = 5\\ \\text{m}^{-1}$$</p>\n<p>So, the magnitude of the wave vector is $5\\ \\text{m}^{-1}$. Thus, option (B) is incorrect.</p>\n<p>In a vacuum, the angular frequency $\\omega$, the magnitude of the wave vector $\\text{k}$, and the speed of light $c$ are related by the wave speed equation:</p>\n<p>$$c = \\frac{\\omega}{\\text{k}} \\rightarrow \\omega = c \\cdot \\text{k}$$</p>\n<p>Given the speed of light $c = 3 \\times 10^8\\ \\text{ms}^{-1}$, and our calculated wave vector magnitude $\\text{k} = 5\\ \\text{m}^{-1}$:</p>\n<p>$$\\omega = (3 \\times 10^8) \\times (5) = 15 \\times 10^8\\ \\text{rad}\\ \\text{s}^{-1} = 1.5 \\times 10^9\\ \\text{rad}\\ \\text{s}^{-1}$$</p>\n<p>Thus, option (C) is correct.</p>\n<p>For a transverse electromagnetic wave, the electric field vector $\\vec{\\text{E}}$, the magnetic field vector $\\vec{\\text{B}}$, and the propagation unit vector $\\hat{\\text{n}}$ are mutually orthogonal and follow a definitive right-hand rule cross product vector relation:</p>\n<p>$$\\vec{\\text{B}} = \\frac{1}{c}\\,(\\hat{\\text{n}} \\times \\vec{\\text{E}})$$</p>\n<p>$$\\vec{\\text{B}} = \\frac{1}{\\omega}\\,(\\vec{\\text{k}} \\times \\vec{\\text{E}})$$</p>\n<p>Here, $\\vec{\\text{k}} = 3\\hat{\\text{j}} + 4\\hat{\\text{k}}$ and $\\vec{\\text{E}} = E_0 \\sin(3y + 4z + \\omega\\ t)\\,\\hat{\\text{i}}$</p>\n<p>$$\\vec{\\text{k}} \\times \\vec{\\text{E}} = (3\\hat{\\text{j}} + 4\\hat{\\text{k}}) \\times [E_0 \\sin(3y + 4z + \\omega\\ t)\\,\\hat{\\text{i}}]$$</p>\n<p>$$\\vec{\\text{k}} \\times \\vec{\\text{E}} = E_0 \\sin(3y + 4z + \\omega\\ t)\\,[3(\\hat{\\text{j}} \\times \\hat{\\text{i}}) + 4(\\hat{\\text{k}} \\times \\hat{\\text{i}})]$$</p>\n<p>$$\\vec{\\text{k}} \\times \\vec{\\text{E}} = E_0 \\sin(3y + 4z + \\omega\\ t)\\,[3(-\\hat{\\text{k}}) + 4(\\hat{\\text{j}})] = E_0 \\sin(3y + 4z + \\omega\\ t)\\,(4\\hat{\\text{j}} - 3\\hat{\\text{k}})$$</p>\n<p>Putting in magnetic field expression,</p>\n<p>$$\\vec{\\text{B}} = \\frac{1}{\\omega}\\left[E_0 \\sin(3y + 4z + \\omega\\ t)\\,(4\\hat{\\text{j}} - 3\\hat{\\text{k}})\\right]$$</p>\n<p>Since $\\omega = c \\cdot \\text{k}$ and $\\text{k} = 5$:</p>\n<p>$$\\vec{\\text{B}} = \\frac{E_0}{5c}\\sin(3y + 4z + \\omega\\ t)\\,(4\\hat{\\text{j}} - 3\\hat{\\text{k}})$$</p>\n<p>Thus, option (D) is incorrect.</p>\n<p>Therefore, the correct options are (A) and (C).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "displacement-current-and-properties-of-em-waves",
+      "type": "mcqm",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "The electric field associated with an electromagnetic wave travelling in vacuum is given by\n$E_0 \\sin(3y + 4z + \\omega t) \\hat{i}$, where $\\\\omega$ is the angular frequency. All quantities are in SI units. The correct statement(s) about thi..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    },
+    {
+      "question_id": "dym5tryphntivg1cy6h8",
+      "chapter": "electromagnetic-waves",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "a-cube-of-unit-volume-contains-35-times-107-photons-of-f-jee-advanced-physics-15unnjvikzabrcwm",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A cube of unit volume contains $35 \\times 10^7$ photons of frequency $10^{15} \\mathrm{~Hz}$. If the energy of all the photons is viewed as the average energy being contained in the electromagnetic waves within the same volume, then the amplitude of the magnetic field is $\\alpha \\times 10^{-9} \\mathrm{~T}$. Taking permeability of free space $\\mu_0=4 \\pi \\times 10^{-7} \\mathrm{Tm} / \\mathrm{A}$, Planck's constant $h=6 \\times 10^{-34} \\mathrm{Js}$ and $\\pi=\\frac{22}{7}$, the value of $\\alpha$ is ____________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "21TO25",
+          "explanation": "<p>As the cube has unit volume so energy density, $u=\\frac{E}{1}=E$</p>\n<p>where, $E=$ total energy</p>\n<p>Energy of a photon, $E_1=h \\nu$ \n<br/>So for n photon, $E=n h \\nu$</p>\n<p>Here, the question mentions \"average energy contained in the electromagnetic waves within the same volume\" which means we have to consider standing wave in a cavity (since the photons are in a cube).</p>\n<p>Average energy density for a standing wave : $\\langle u\\rangle=\\frac{1}{2}\\left(\\frac{1}{2} \\varepsilon_0 E_0{ }^2+\\frac{1}{2} \\frac{B_0{ }^2}{\\mu_0}\\right)$</p>\n<p>The factor $\\frac{1}{2}$ comes from averaging $\\sin ^2(k x)$</p>\n<p>over the volume. $\\left\\langle\\sin ^2(k x)\\right\\rangle=\\frac{1}{2}$</p>\n<p>For an $E M$ wave $E=C B$</p>\n<p>$$ \\text { so } E_0=C B_0 $$</p>\n<p>Hence, $\\langle u\\rangle=\\frac{1}{2}\\left(\\frac{1}{2} \\varepsilon_0\\left(c B_0\\right)^2+\\frac{B_0^2}{2 \\mu_0}\\right)$</p>\n<p>$$ =\\frac{1}{2}\\left(\\frac{1}{2} \\varepsilon_0 c^2 B_0^2+\\frac{B_0^2}{2 \\mu_0}\\right) $$</p>\n<p>$$ \\begin{aligned} \\Rightarrow\\langle u\\rangle=\\frac{1}{2} & {\\left[\\frac{1}{2}\\left(\\frac{1}{\\mu_0 c^2}\\right) c^2 B_0^2+\\frac{B_0^2}{2 \\mu_0}\\right]\\left(\\begin{array}{l} As, c=\\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}} \\\\ \\text { so } \\varepsilon_0=\\frac{1}{\\mu_0 c^2} \\end{array}\\right.} \\\\ \\Rightarrow\\langle u\\rangle & =\\frac{1}{2}\\left[\\frac{B_0^2}{2 \\mu_0}+\\frac{B_0^2}{2 \\mu_0}\\right] \\\\ & \\Rightarrow\\langle u\\rangle=\\frac{B_0^2}{2 \\mu_0} \\end{aligned} $$</p>\n<p> Given that this is equal to the photon energy density. so $\\frac{B_0^2}{2 \\mu_0}=n h \\nu$</p>\n<p>Total energy of photons.</p>\n<p>$$ \\begin{aligned} E & =n h \\nu \\\\ & =35 \\times 10^7 \\times 6 \\times 10^{-34} \\times 1.15 \\\\ \\Rightarrow E & =210 \\times 10^{-12} \\mathrm{~J} \\end{aligned} $$</p>\n<p>For $E M$ waves : $E=\\frac{B_0{ }^2}{2 \\mu_0}$</p>\n<p>So $\\frac{B_0^2}{2 \\mu_0}=210 \\times 10^{-12}$</p>\n<p>$$ \\begin{aligned} & \\Rightarrow B_0^2=2 \\times 4 \\times \\frac{22}{7} \\times 10^{-7} \\times 210 \\times 10^{-12} \\\\ & \\Rightarrow B_0^2=5280 \\times 10^{-19} \\\\ & \\Rightarrow B_0^2=528 \\times 10^{-18} \\\\ & \\Rightarrow B_0=\\sqrt{528} \\times 10^{-9} \\\\ & \\Rightarrow B_0=22.978 \\times 10^{-9} \\mathrm{~T} \\\\ & \\\\ & \\text { = } \\alpha \\times 10^{-9} \\mathrm{~T} \\text { (given) } \\\\ &So, \\alpha=22.98 \\text { Ans. } \\end{aligned} $$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "एक इकाई आयतन वाले घन में $10^{15} \\mathrm{~Hz}$ आवृत्ति के फोटोन (photons) की संख्या $35 \\times 10^7$ है। यदि सभी फोटोन की उर्जा को उसी आयतन में स्थित विद्युतचुम्बकीय तरंगों की औसत उर्जा माना जाये, तो चुम्बकीय क्षेत्र का आयाम $\\alpha \\times 10^{-9} \\mathrm{~T}$ है। मुक्त आकाश की चुम्बकशीलता (permeability of free space) $\\mu_0=$ $4 \\pi \\times 10^{-7} \\frac{\\mathrm{Tm}}{\\mathrm{A}}$, प्लांक स्थिरांक (Planck's constant) $h=6 \\times 10^{-34} \\mathrm{Js}$ और $\\pi=\\frac{22}{7}$ लेते हुए, $\\alpha$ का मान है _________",
+          "options": [],
+          "correct_options": [],
+          "answer": "22.98",
+          "explanation": "<p>चूँकि घन का आयतन इकाई है, इसलिए ऊर्जा घनत्व, $u=\\frac{E}{1}=E$</p>\n<p>जहाँ, $E=$ कुल ऊर्जा</p>\n<p>एक फोटॉन की ऊर्जा, $E_1=h \\nu$ \n<br/>अतः n फोटॉन के लिए, $E=n h \\nu$</p>\n<p>यहाँ, प्रश्न में \"समान आयतन के भीतर विद्युत चुम्बकीय तरंगों में निहित औसत ऊर्जा\" का उल्लेख है जिसका अर्थ है कि हमें एक कोटर में स्थायी तरंग पर विचार करना है (क्योंकि फोटॉन एक घन में हैं)।</p>\n<p>स्थायी तरंग के लिए औसत ऊर्जा घनत्व : $\\langle u\\rangle=\\frac{1}{2}\\left(\\frac{1}{2} \\varepsilon_0 E_0{ }^2+\\frac{1}{2} \\frac{B_0{ }^2}{\\mu_0}\\right)$</p>\n<p>गुणक $\\frac{1}{2}$, $\\sin ^2(k x)$ के आयतन पर औसत लेने से आता है।</p>\n<p>$\\left\\langle\\sin ^2(k x)\\right\\rangle=\\frac{1}{2}$</p>\n<p>एक $E M$ तरंग के लिए $E=C B$</p>\n<p>$$ \\text { अतः } E_0=C B_0 $$</p>\n<p>अतः, $\\langle u\\rangle=\\frac{1}{2}\\left(\\frac{1}{2} \\varepsilon_0\\left(c B_0\\right)^2+\\frac{B_0^2}{2 \\mu_0}\\right)$</p>\n<p>$$ =\\frac{1}{2}\\left(\\frac{1}{2} \\varepsilon_0 c^2 B_0^2+\\frac{B_0^2}{2 \\mu_0}\\right) $$</p>\n<p>$$ \\begin{aligned} \\Rightarrow\\langle u\\rangle=\\frac{1}{2} & {\\left[\\frac{1}{2}\\left(\\frac{1}{\\mu_0 c^2}\\right) c^2 B_0^2+\\frac{B_0^2}{2 \\mu_0}\\right]\\left(\\begin{array}{l} \\text{चूँकि}, c=\\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}} \\\\ \\text { अतः } \\varepsilon_0=\\frac{1}{\\mu_0 c^2} \\end{array}\\right.} \\\\ \\Rightarrow\\langle u\\rangle & =\\frac{1}{2}\\left[\\frac{B_0^2}{2 \\mu_0}+\\frac{B_0^2}{2 \\mu_0}\\right] \\\\ & \\Rightarrow\\langle u\\rangle=\\frac{B_0^2}{2 \\mu_0} \\end{aligned} $$</p>\n<p> दिया गया है कि यह फोटॉन ऊर्जा घनत्व के बराबर है। अतः $\\frac{B_0^2}{2 \\mu_0}=n h \\nu$</p>\n<p>फोटॉनों की कुल ऊर्जा।</p>\n<p>$$ \\begin{aligned} E & =n h \\nu \\\\ & =35 \\times 10^7 \\times 6 \\times 10^{-34} \\times 1.15 \\\\ \\Rightarrow E & =210 \\times 10^{-12} \\mathrm{~J} \\end{aligned} $$</p>\n<p>$E M$ तरंगों के लिए : $E=\\frac{B_0{ }^2}{2 \\mu_0}$</p>\n<p>अतः $\\frac{B_0^2}{2 \\mu_0}=210 \\times 10^{-12}$</p>\n<p>$$ \\begin{aligned} & \\Rightarrow B_0^2=2 \\times 4 \\times \\frac{22}{7} \\times 10^{-7} \\times 210 \\times 10^{-12} \\\\ & \\Rightarrow B_0^2=5280 \\times 10^{-19} \\\\ & \\Rightarrow B_0^2=528 \\times 10^{-18} \\\\ & \\Rightarrow B_0=\\sqrt{528} \\times 10^{-9} \\\\ & \\Rightarrow B_0=22.978 \\times 10^{-9} \\mathrm{~T} \\\\ & \\\\ & \\text { = } \\alpha \\times 10^{-9} \\mathrm{~T} \\text { (दिया गया)} \\\\ &\\text{अतः}, \\alpha=22.98 \\text { उत्तर} \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "displacement-current-and-properties-of-em-waves",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "A cube of unit volume contains $35 \\times 10^7$ photons of frequency $10^{15} \\mathrm{~Hz}$. If the energy of all the photons is viewed as the average energy being contained in the electromagnetic waves within the same volume, then the ampl..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "एक इकाई आयतन वाले घन में $10^{15} \\mathrm{~Hz}$ आवृत्ति के फोटोन (photons) की संख्या $35 \\times 10^7$ है। यदि सभी फोटोन की उर्जा को उसी आयतन में स्थित विद्युतचुम्बकीय तरंगों की औसत उर्जा माना जाये, तो चुम्बकीय क्षेत्र का आयाम $\\alpha \\times..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "ytu12j7lsxemaeap7os9",
+      "chapter": "electromagnetic-waves",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "the-electric-field-associated-with-an-electromagnetic-wave-p-jee-advanced-physics-suvuvy50v7djb5ua",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "The electric field associated with an electromagnetic wave propagating in a dielectric medium is given by $\\vec{E}=30(2 \\hat{x}+\\hat{y}) \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Vm}^{-1}$. Which of the following option(s) is(are) correct?\n<br/><br/>[Given: The speed of light in vacuum, $c=3 \\times 10^8 \\mathrm{~m} \\mathrm{~s}^{-1}$ ]",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$B_x=-2 \\times 10^{-7} \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Wb} \\mathrm{m}^{-2}$."
+            },
+            {
+              "identifier": "B",
+              "content": "$B_y=2 \\times 10^{-7} \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Wb} \\mathrm{m}^{-2}$."
+            },
+            {
+              "identifier": "C",
+              "content": "The wave is polarized in the $x y$-plane with polarization angle $30^{\\circ}$ with respect to the $x$-axis."
+            },
+            {
+              "identifier": "D",
+              "content": "The refractive index of the medium is 2."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<b>1. Calculation of the Speed of Light in a Medium:</b>\n <br><br>  - The speed of light in a medium, denoted as $$ V $$, is given by the formula $$ V = \\frac{W}{k} $$.\n <br><br>  - Substituting values, we get $$ V = \\frac{3 \\times 5 \\times 10^{14}}{10^7} = 1.5 \\times 10^8 \\text{ m/s} $$.\n<br><br><b>2. Determination of the Refractive Index:</b>\n  <br><br> - The refractive index, $$ \\mu $$, is the ratio of the speed of light in vacuum, $$ C $$, to the speed of light in the medium, $$ V $$.\n  <br><br> - Substituting values, $$ \\mu = \\frac{3 \\times 10^8}{1.5 \\times 10^8} = 2 $$.\n<br><br>   - Hence, the refractive index $$ \\mu $$ is 2.\n<br><br>Therefore, the option (D) is the answer.\n<br><br>Given, $\\vec{E}=30(2 \\hat{x}+\\hat{y}) \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Vm}^{-1}$\n<br><br>Now magnitude of\n<br><br>$$\n\\begin{aligned}\nB &amp; =\\frac{E}{v} \\\\\\\\\n\\Rightarrow B &amp; =\\frac{30 \\sqrt{5}}{1.5 \\times 10^8}\n\\end{aligned}\n$$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrph97s3/bee49f12-e722-4970-8e7f-b6ceea5bc4a8/88e93820-b972-11ee-88f5-ff9626f95908/file-6y3zli1lrph97s4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrph97s3/bee49f12-e722-4970-8e7f-b6ceea5bc4a8/88e93820-b972-11ee-88f5-ff9626f95908/file-6y3zli1lrph97s4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Physics - Electromagnetic Waves Question 3 English Explanation\">\n<br><br>$\\begin{aligned} &amp; \\tan \\alpha=\\frac{1}{2} \\\\\\\\ &amp; \\sin \\alpha=\\frac{1}{\\sqrt{5}}\\end{aligned}$\n<br><br>The direction of $\\vec{B}$ is along the direction of $\\vec{v} \\times \\vec{E}$\n<br><br> i.e. $\\hat{v} \\times \\hat{E}=\\hat{B}$\n\n<br><br>Now $ B_x=-B \\sin \\alpha$\n<br><br>$$\n\\Rightarrow B_x=-\\frac{30 \\sqrt{5}}{1.5 \\times 10^8} \\times \\frac{1}{\\sqrt{5}}=-2 \\times 10^7\n$$\n\n<br><br>Therefore, option (A) is the answer."
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "एक परावैद्युत (dielectric) माध्यम में चलने वाली विद्युतचुम्बकीय तरंग से सम्बंधित वैद्युत क्षेत्र<br/><br/> $\\overrightarrow{\\mathrm{E}}=30(2 \\hat{x}+\\hat{y}) \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Vm}^{-1}$ है।\nनिम्न में से कौन सा(से) कथन सही है(हैं)?<br/><br/>\n[दिया है: निर्वात में प्रकाश की चाल $c=3 \\times 10^8 \\mathrm{~m} \\mathrm{~s}^{-1}$ ]\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$B_x=-2 \\times 10^{-7} \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Wb} \\mathrm{m}^{-2}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$B_y=2 \\times 10^{-7} \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Wb} \\mathrm{m}^{-2}$."
+            },
+            {
+              "identifier": "C",
+              "content": " तरंग $x y$-तल में $x$-अक्ष से $30^{\\circ}$ का ध्रुव्रण कोण बनाते हुए ध्रुवित (polarized) है।"
+            },
+            {
+              "identifier": "D",
+              "content": "इस माध्यम का अपवर्तनांक 2 है|"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<b>1. माध्यम में प्रकाश की चाल की गणना:</b>\n <br><br>  - किसी माध्यम में प्रकाश की चाल, जिसे $$ V $$ से निरूपित किया जाता है, सूत्र $$ V = \\frac{W}{k} $$ द्वारा दी जाती है।\n <br><br>  - मान प्रतिस्थापित करने पर, हमें $$ V = \\frac{3 \\times 5 \\times 10^{14}}{10^7} = 1.5 \\times 10^8 \\text{ m/s} $$ प्राप्त होता है।\n<br><br><b>2. अपवर्तनांक का निर्धारण:</b>\n  <br><br> - अपवर्तनांक, $$ \\mu $$, निर्वात में प्रकाश की चाल, $$ C $$, और माध्यम में प्रकाश की चाल, $$ V $$, का अनुपात है।\n  <br><br> - मान प्रतिस्थापित करने पर, $$ \\mu = \\frac{3 \\times 10^8}{1.5 \\times 10^8} = 2 $$।\n<br><br>   - अतः, अपवर्तनांक $$ \\mu $$ का मान 2 है।\n<br><br>इसलिए, विकल्प (D) उत्तर है।\n<br><br>दिया गया है, $\\vec{E}=30(2 \\hat{x}+\\hat{y}) \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Vm}^{-1}$\n<br><br>अब इसका परिमाण\n<br><br>$$\n\\begin{aligned}\nB &amp; =\\frac{E}{v} \\\\\\\\\n\\Rightarrow B &amp; =\\frac{30 \\sqrt{5}}{1.5 \\times 10^8}\n\\end{aligned}\n$$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrph97s3/bee49f12-e722-4970-8e7f-b6ceea5bc4a8/88e93820-b972-11ee-88f5-ff9626f95908/file-6y3zli1lrph97s4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrph97s3/bee49f12-e722-4970-8e7f-b6ceea5bc4a8/88e93820-b972-11ee-88f5-ff9626f95908/file-6y3zli1lrph97s4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Physics - Electromagnetic Waves Question 3 Hindi Explanation\">\n<br><br>$\\begin{aligned} &amp; \\tan \\alpha=\\frac{1}{2} \\\\\\\\ &amp; \\sin \\alpha=\\frac{1}{\\sqrt{5}}\\end{aligned}$\n<br><br>$\\vec{B}$ की दिशा $\\vec{v} \\times \\vec{E}$ की दिशा के अनुदिश है\n<br><br> अर्थात् $\\hat{v} \\times \\hat{E}=\\hat{B}$\n\n<br><br>अब $ B_x=-B \\sin \\alpha$\n<br><br>$$\n\\Rightarrow B_x=-\\frac{30 \\sqrt{5}}{1.5 \\times 10^8} \\times \\frac{1}{\\sqrt{5}}=-2 \\times 10^7\n$$\n\n<br><br>इसलिए, विकल्प (A) उत्तर है।"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "displacement-current-and-properties-of-em-waves",
+      "type": "mcqm",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "The electric field associated with an electromagnetic wave propagating in a dielectric medium is given by $\\vec{E}=30(2 \\hat{x}+\\hat{y}) \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Vm}^{-1}$. Which of the..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "एक परावैद्युत (dielectric) माध्यम में चलने वाली विद्युतचुम्बकीय तरंग से सम्बंधित वैद्युत क्षेत्र $\\overrightarrow{\\mathrm{E}}=30(2 \\hat{x}+\\hat{y}) \\sin \\left[2 \\pi\\left(5 \\times 10^{14} t-\\frac{10^7}{3} z\\right)\\right] \\mathrm{Vm}^{-1}$ है..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "hll3mdpkgsqns0bsg3uu",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "chapter": "electromagnetic-waves",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In electromagnetic theory, the electric and magnetic phenomena are related to each other. Therefore, the dimensions of electric and magnetic quantities must also be related to each other. In the questions below, $$[E]$$ and $$[B]$$ stand for dimensions of electric and magnetic fields respectively, while $$\\left[ {{\\varepsilon _0}} \\right]$$ and $$\\left[ {{\\mu _0}} \\right]$$ stand for dimensions of the permittivity and permeability of free space respectively. $$\\left[ L \\right]$$ and $$\\left[ T \\right]$$ are dimensions of length and time respectively. All the quantities are given in $$SI$$ units. \n<br><br>The relation between $$[E]$$ and $$[B]$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left[ E \\right] = \\left[ B \\right]\\left[ L \\right]\\left[ T \\right]$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left[ E \\right] = \\left[ B \\right]{\\left[ L \\right]^{ - 1}}\\left[ T \\right]$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left[ E \\right] = \\left[ B \\right]\\left[ L \\right]{\\left[ T \\right]^{ - 1}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left[ E \\right] = \\left[ B \\right]{\\left[ L \\right]^{ - 1}}{\\left[ T \\right]^{ - 1}}$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>We know $$B = {E \\over c}$$ or $$E = Bc$$</p>\n<p>Now, $$[E] = [B][c]$$</p>\n<p>We know that $$[c] = [L{T^{ - 1}}]$$</p>\n<p>Therefore, $$[E] = [B][L{T^{ - 1}}] = [B][L]{[T]^{ - 1}}$$</p>"
+        },
+        "hi": {
+          "content": "विद्युतचुम्बकीय सिद्धांत में, विद्युत और चुम्बकीय घटनाएं एक दूसरे से संबंधित होती हैं। इसलिए, विद्युत और चुम्बकीय मात्राओं के आयाम भी एक दूसरे से संबंधित होने चाहिए। नीचे दिए गए प्रश्नों में, $$[E]$$ और $$[B]$$ विद्युत और चुम्बकीय क्षेत्रों के आयामों को सूचित करते हैं, जबकि $$\\left[ {{\\varepsilon _0}} \\right]$$ और $$\\left[ {{\\mu _0}} \\right]$$ मुक्त स्थान की विसर्पिता और पारगम्यता के आयामों को सूचित करते हैं। $$\\left[ L \\right]$$ और $$\\left[ T \\right]$$ क्रमशः लंबाई और समय के आयाम हैं। सभी मात्राएं $$SI$$ इकाइयों में दी गई हैं। \n<br><br>$$[E]$$ और $$[B]$$ के बीच संबंध है ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left[ E \\right] = \\left[ B \\right]\\left[ L \\right]\\left[ T \\right]$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left[ E \\right] = \\left[ B \\right]{\\left[ L \\right]^{ - 1}}\\left[ T \\right]$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left[ E \\right] = \\left[ B \\right]\\left[ L \\right]{\\left[ T \\right]^{ - 1}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left[ E \\right] = \\left[ B \\right]{\\left[ L \\right]^{ - 1}}{\\left[ T \\right]^{ - 1}}$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>हम जानते हैं $$B = {E \\over c}$$ या $$E = Bc$$</p>\n<p>अब, $$[E] = [B][c]$$</p>\n<p>हम जानते हैं कि $$[c] = [L{T^{ - 1}}]$$</p>\n<p>इसलिए, $$[E] = [B][L{T^{ - 1}}] = [B][L]{[T]^{ - 1}}$$</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "in-electromagnetic-theory-the-electric-and-magnetic-phenome-2018-marks-3-7qjhfub2rbcw2zm9.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "displacement-current-and-properties-of-em-waves",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "In electromagnetic theory, the electric and magnetic phenomena are related to each other. Therefore, the dimensions of electric and magnetic quantities must also be related to each other. In the questions below, $$[E]$$ and $$[B]$$ stand fo..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "विद्युतचुम्बकीय सिद्धांत में, विद्युत और चुम्बकीय घटनाएं एक दूसरे से संबंधित होती हैं। इसलिए, विद्युत और चुम्बकीय मात्राओं के आयाम भी एक दूसरे से संबंधित होने चाहिए। नीचे दिए गए प्रश्नों में, $$[E]$$ और $$[B]$$ विद्युत और चुम्बकीय क्षेत्रों..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8fc3pbe1djm17uerf0d4",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "chapter": "electromagnetic-waves",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In electromagnetic theory, the electric and magnetic phenomena are related to each other. Therefore, the dimensions of electric and magnetic quantities must also be related to each other. In the questions below, $$[E]$$ and $$[B]$$ stand for dimensions of electric and magnetic fields respectively, while $$\\left[ {{\\varepsilon _0}} \\right]$$ and $$\\left[ {{\\mu _0}} \\right]$$ stand for dimensions of the permittivity and permeability of free space respectively. $$\\left[ L \\right]$$ and $$\\left[ T \\right]$$ are dimensions of length and time respectively. All the quantities are given in $$SI$$ units. \n<br><br>The relation between $$\\left[ {{\\varepsilon _0}} \\right]$$ and $$\\left[ {{\\mu _0}} \\right]$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left[ {{\\mu _0}} \\right] = \\left[ {{\\varepsilon _0}} \\right]{\\left[ L \\right]^2}{\\left[ T \\right]^{ - 2}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left[ {{\\mu _0}} \\right] = \\left[ {{\\varepsilon _0}} \\right]{\\left[ L \\right]^{ - 2}}{\\left[ T \\right]^2}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left[ {{\\mu _0}} \\right] = {\\left[ {{\\varepsilon _0}} \\right]^{ - 1}}{\\left[ L \\right]^2}{\\left[ T \\right]^{ - 2}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left[ {{\\mu _0}} \\right] = {\\left[ {{\\varepsilon _0}} \\right]^{ - 1}}{\\left[ L \\right]^{ - 2}}{\\left[ T \\right]^2}$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$c = {1 \\over {\\sqrt {{\\mu _0}{\\varepsilon _0}} }}$$</p>\n<p>$${c^2} = {1 \\over {{\\mu _0}{\\varepsilon _0}}}$$</p>\n<p>$${\\mu _0} = \\varepsilon _0^{ - 1}\\,.\\,{c^{ - 2}}$$</p>\n<p>$$[{\\mu _0}] = {[{\\varepsilon _0}]^{ - 1}}[{L^{ - 2}}{T^2}]$$</p>"
+        },
+        "hi": {
+          "content": "विद्युतचुम्बकीय सिद्धांत में, विद्युत और चुम्बकीय घटनाएं आपस में संबंधित होती हैं। इसलिए, विद्युत और चुम्बकीय मात्राओं के आयाम भी एक दूसरे से संबंधित होने चाहिए। नीचे दिए गए सवालों में, $$[E]$$ और $$[B]$$ क्रमशः विद्युत क्षेत्र और चुम्बकीय क्षेत्र के आयामों को अभिव्यक्त करते हैं, जबकि $$\\left[ {{\\varepsilon _0}} \\right]$$ और $$\\left[ {{\\mu _0}} \\right]$$ क्रमशः मुक्त स्थान की विद्युत निरपेक्षता और चुंबकीय पारगम्यता के आयामों को अभिव्यक्त करते हैं। $$\\left[ L \\right]$$ और $$\\left[ T \\right]$$ क्रमशः लंबाई और समय के आयाम हैं। सभी मात्राएँ $$SI$$ इकाइयों में दी गई हैं। \n<br><br>$$\\left[ {{\\varepsilon _0}} \\right]$$ और $$\\left[ {{\\mu _0}} \\right]$$ के बीच का संबंध है ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left[ {{\\mu _0}} \\right] = \\left[ {{\\varepsilon _0}} \\right]{\\left[ L \\right]^2}{\\left[ T \\right]^{ - 2}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left[ {{\\mu _0}} \\right] = \\left[ {{\\varepsilon _0}} \\right]{\\left[ L \\right]^{ - 2}}{\\left[ T \\right]^2}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left[ {{\\mu _0}} \\right] = {\\left[ {{\\varepsilon _0}} \\right]^{ - 1}}{\\left[ L \\right]^2}{\\left[ T \\right]^{ - 2}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left[ {{\\mu _0}} \\right] = {\\left[ {{\\varepsilon _0}} \\right]^{ - 1}}{\\left[ L \\right]^{ - 2}}{\\left[ T \\right]^2}$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$c = {1 \\over {\\sqrt {{{\\mu _0}}{\\varepsilon _0}} }}$$</p>\n<p>$${c^2} = {1 \\over {{\\mu _0}{\\varepsilon _0}}}$$</p>\n<p>$${{\\mu _0}} = \\varepsilon _0^{ - 1}\\,.\\,{c^{ - 2}}$$</p>\n<p>$$[{\\mu _0}] = {[{\\varepsilon _0}]^{ - 1}}[{L^{ - 2}}{T^2}]$$</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "in-electromagnetic-theory-the-electric-and-magnetic-phenome-2018-marks-3-uth8q6q8a8nwckcx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "displacement-current-and-properties-of-em-waves",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "In electromagnetic theory, the electric and magnetic phenomena are related to each other. Therefore, the dimensions of electric and magnetic quantities must also be related to each other. In the questions below, $$[E]$$ and $$[B]$$ stand fo..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "विद्युतचुम्बकीय सिद्धांत में, विद्युत और चुम्बकीय घटनाएं आपस में संबंधित होती हैं। इसलिए, विद्युत और चुम्बकीय मात्राओं के आयाम भी एक दूसरे से संबंधित होने चाहिए। नीचे दिए गए सवालों में, $$[E]$$ और $$[B]$$ क्रमशः विद्युत क्षेत्र और चुम्बकीय ..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dlsfry94cro269kqxuf3",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "electromagnetic-waves",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In terms of potential difference V, electric current I, permittivity $${\\varepsilon _0}$$, permeability $${\\mu _0}$$ and speed of light c,\nthe dimensionally correct equation(s) is(are) :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${\\mu _0}{I^2} = {\\varepsilon _0}{V^2}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${\\varepsilon _0}I = {\\mu _0}V$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$I = {\\varepsilon _0}cV$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${\\mu _0}cI = {\\varepsilon _0}V$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p> The speed of light in vacuum is given by, $$c = {1 \\over {\\sqrt {{\\mu _0}{\\varepsilon _0}} }}$$ and  The impedance (resistance) of free space is\ndefined a $$R = \\sqrt {{{{\\mu _0}} \\over {{\\varepsilon _0}}}} $$. Using this check the dimensional correctness of equations.</p>\n<p>(a) $${\\mu _0}{I^2} = {\\varepsilon _0}{V^2}$$</p>\n<p>$${{{\\mu _0}} \\over {{\\varepsilon _0}}} = {{{V^2}} \\over {{I^2}}} = {R^2}$$</p>\n<p>$$\\therefore$$ $${R^2} = {R^2}$$ which is dimensionally correct.</p>\n<p>(b) $${\\varepsilon _0}I = {\\mu _0}V \\Rightarrow {{{\\varepsilon _0}} \\over {{\\mu _0}}} = {V \\over I} \\Rightarrow {1 \\over {{R^2}}} = R$$</p>\n<p>which is dimensionally incorrect.</p>\n<p>(c) $$I = {\\varepsilon _0}cV \\Rightarrow {I \\over V} = {\\varepsilon _0}C = {{{\\varepsilon _0}} \\over {\\sqrt {{\\varepsilon _0}{\\mu _0}} }}$$ = $$\\sqrt {{{{\\varepsilon _0}} \\over {{\\mu _0}}}} $$ = $$ {1 \\over R}$$</p>\n<p>$${1 \\over R} = \\sqrt {{{{\\varepsilon _0}} \\over {{\\mu _0}}}}  \\Rightarrow {1 \\over R} = {1 \\over R}$$</p>\n<p>which is dimensionally correct.</p>\n<p>(d) $${\\mu _0}cI = {\\varepsilon _0}V \\Rightarrow {{{\\mu _0}c} \\over {{\\varepsilon _0}}} = {V \\over I}$$</p>\n<p>$${{{\\mu _0}} \\over {{\\varepsilon _0}}}{1 \\over {\\sqrt {{\\varepsilon _0}{\\mu _0}} }} = R \\Rightarrow {1 \\over {{\\varepsilon _0}}}\\sqrt {{{{\\mu _0}} \\over {{\\varepsilon _0}}}}  = R$$</p>\n<p>$${R \\over {{\\varepsilon _0}}} = R$$, which is dimensionally incorrect.</p>"
+        }
+      },
+      "permalink": "in-terms-of-potential-difference-v-electric-current-i-perm-2015-marks-4-osqas33dhhkgyhza.htm",
+      "timeAllotted": 180000,
+      "topic": "displacement-current-and-properties-of-em-waves",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "In terms of potential difference V, electric current I, permittivity $${\\varepsilon _0}$$, permeability $${\\mu _0}$$ and speed of light c,\nthe dimensionally correct equation(s) is(are) :"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "question_id": "2vdca7mqvx78dtr5txf3",
+      "chapter": "electromagnetic-waves",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "permalink": "pa-pulse-of-light-of-duration-100-ns-is-absorbed-completel-jee-advanced-physics-units-and-measurements-x5qkx8bmtfv6psya",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A pulse of light of duration 100 ns is absorbed completely by a small object initially at rest. Power of the pulse is 30 mW and the speed of light is 3 $$\\times$$ 10<sup>8</sup> ms<sup>$$-$$1</sup>. The final momentum of the object is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.3 $$\\times$$ 10<sup>$$-$$17</sup> kg-ms<sup>$$-$$1</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "1.0 $$\\times$$ 10<sup>$$-$$17</sup> kg-ms<sup>$$-$$1</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "3.0 $$\\times$$ 10<sup>$$-$$17</sup> kg-ms<sup>$$-$$1</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "9.0 $$\\times$$ 10<sup>$$-$$17</sup> kg-ms<sup>$$-$$1</sup>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Duration of pulse, t = 100 ns = 100 $$\\times$$ 10<sup>$$-$$9</sup> s.</p>\n<p>Power of the pulse, P = 30 mW = 30 $$\\times$$ 10<sup>$$-$$3</sup> W.</p>\n<p>Speed of light, c = 3 $$\\times$$ 10<sup>8</sup> ms<sup>$$-$$1</sup></p>\n<p>The final momentum of the object is</p>\n<p>$$p = {E \\over c} = {{P \\times t} \\over c} = {{30 \\times {{10}^{ - 3}} \\times 100 \\times {{10}^{ - 9}}} \\over {3 \\times {{10}^8}}} = {10^{ - 17}}$$ kg-ms<sup>$$-$$1</sup></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "displacement-current-and-properties-of-em-waves",
+      "type": "mcq",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Electromagnetic Waves • Physics",
+          "excerpt": "A pulse of light of duration 100 ns is absorbed completely by a small object initially at rest. Power of the pulse is 30 mW and the speed of light is 3 $$\\times$$ 108 ms$$-$$1. The final momentum of the object is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    }
+  ]
+}

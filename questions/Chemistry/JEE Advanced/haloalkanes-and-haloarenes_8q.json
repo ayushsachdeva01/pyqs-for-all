@@ -1,0 +1,584 @@
+{
+  "questions": [
+    {
+      "question_id": "2ucjya9f23uel4wuiteb",
+      "chapter": "haloalkanes-and-haloarenes",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pfor-the-reaction-sequence-given-below-the-correct-statem-jee-advanced-chemistry-fvnp3zt3y3gohmlk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>For the reaction sequence given below, the correct statement(s) is(are)</p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1nmpd5/64ab3c18-00b3-4cb9-9299-ac9d29f68eba/fac80d90-384c-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1nmpd6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1nmpd5/64ab3c18-00b3-4cb9-9299-ac9d29f68eba/fac80d90-384c-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1nmpd6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 English\"><p>(In the options, X is any atom other than carbon and hydrogen, and it is different in <b>P, Q and R</b>)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>C–X bond length in <b>P, Q</b> and <b>R</b> follows the order <b>Q &gt; R &gt; P</b>.</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>C–X bond enthalpy in <b>P, Q</b> and <b>R</b> follows the order <b>R &gt; P &gt; Q</b>.</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>Relative reactivity toward S<sub>N</sub>2 reaction in <b>P, Q</b> and <b>R</b> follows the order <b>P &gt; R &gt; Q</b>.</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>pK<sub>a</sub> value of the conjugate acids of the leaving groups in <b>P, Q</b> and <b>R</b> follows the order <b>R &gt; Q &gt; P</b>.</p>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz24hv9/1e037a9f-55a9-4788-bcdc-f98dcf8aeba8/86cb7870-4aab-11f0-923a-1595f23bdd58/file-jaoe38c1mbz24hvb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz24hv9/1e037a9f-55a9-4788-bcdc-f98dcf8aeba8/86cb7870-4aab-11f0-923a-1595f23bdd58/file-jaoe38c1mbz24hvb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 English Explanation 1\"><div></div>Atoms H and Br are added across the double bond.<div></div>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz263jt/92ad4cb0-7838-4bc8-b69c-7d44790ca492/b35a0690-4aab-11f0-923a-1595f23bdd58/file-jaoe38c1mbz263ju.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz263jt/92ad4cb0-7838-4bc8-b69c-7d44790ca492/b35a0690-4aab-11f0-923a-1595f23bdd58/file-jaoe38c1mbz263ju.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 English Explanation 2\">\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2csh3/52dff1d8-c6e9-466d-aef0-aaaec1f93d45/6d75c370-4aac-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2csh4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2csh3/52dff1d8-c6e9-466d-aef0-aaaec1f93d45/6d75c370-4aac-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2csh4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 English Explanation 3\"><div></div>Finkelstein the action is 1 an SN2 (Substitution Nucleophilic Bimolecular) relation mechanism that involves the exchange of one halogen atom for another. Here, $\\mathrm{Br}^{-}$is replaced by I.<div></div>In this reaction, I attacks the carbon atom attached to the halogen Br.<div></div>\nGeneral reaction:<div></div>$$\n\\begin{aligned}\n&amp; R-X+N a I \\rightarrow R-I+N a X \\\\\n&amp; X: C l / b r\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,(\\mathrm{NaCl}, \\mathrm{NaBr})\n\\end{aligned}\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2ioyk/e3ed7dc6-4e55-47ba-a6bb-ea5493b69c0f/119991c0-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2ioyl.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2ioyk/e3ed7dc6-4e55-47ba-a6bb-ea5493b69c0f/119991c0-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2ioyl.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 English Explanation 4\"><div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2j704/1fd80d20-4e40-4b69-91bd-9a6b104a56d5/1f89af40-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2j705.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2j704/1fd80d20-4e40-4b69-91bd-9a6b104a56d5/1f89af40-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2j705.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 English Explanation 5\"><div></div>Swart reaction is the reaction used to synthesize alkyl fluorides from alkyl chlorides or bromides. It involves heating the alkyl halide (chloride or bromide) with a metal fluoride (AgF) to replace, the halogen $(\\mathrm{Cl}$ or Br$)$ with a fluorine atom.<div></div>$$\n\\text { Hero, } \\mathrm{Br}^{-} \\text {is replaced by } \\mathrm{F}^{-}\n$$<div></div>$$\n\\text { General reaction: }\n$$<div></div>\n$$\n\\begin{aligned}\n&amp; R-X \\quad + \\quad \\text { AgF } \\quad \\rightarrow R \\rightarrow F \\quad +\\operatorname{Ag} X \\\\\n&amp; (X =Cl, B r)\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,(\\mathrm{AgCl}, \\mathrm{AgBr})\n\\end{aligned}\n$$<div></div>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2pql2/e73e5eb4-e4e4-4f2d-8967-0b47adb970f8/d584e760-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2pql3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2pql2/e73e5eb4-e4e4-4f2d-8967-0b47adb970f8/d584e760-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2pql3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 English Explanation 6\"><div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2q76j/8df8c105-6b72-412f-91f4-7e4980be1c1a/e256eab0-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2q76k.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2q76j/8df8c105-6b72-412f-91f4-7e4980be1c1a/e256eab0-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2q76k.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 English Explanation 7\"><div></div>A) $C-X$ bond length in $P, Q$ and $R$ follows the order $Q &gt; R &gt; P $.<div></div>\nBond length order $C-F &lt; C - B r &lt; C-I$\nBond length increases with the size of the halogen atom. Iodine is/ larger than bromine, which is longer than fluorine. Therefore the C-I bond (Q) is longer than $C-B r$ bond $(P)$, which is longer than the C-F bond (R). The correct order is $Q&gt;P&gt;R$. So, the statement is not correct.<div></div>B) $C-X$, bond enthalpy in $P, Q$ and $R$ flows the order $R&gt;P&gt;Q$\nBond enthalpy is the energy required to break a bond stronger, bonds are shorter in length and require more energy to break the bond. The C-F bond (R) is the strongest and shortest bond, followed by $C -B r$ bond $(P)$, and the $C-I$ bond $(Q)$ is the weakest and longest loons. So, C-F Fond (R) requires higher energy to bond breaking. Its bond enthalpy is higher. C - I  bond (Q) is the weakest bond and its bond enthalpy is lower. The bond enthalpy of $C-B r(P)$ is intermediate between $R_1$ and $Q$.<div></div>$$\n\\text { So, the statement is correct. }\n$$<div></div>c) Relative reactivity toward $S_{N 2}$ reaction in $P, Q$ and $\\ R$ follows the order $P&gt;R&gt;Q$ <div></div>Reactivity towards. $S_{N^2}$, order is $C-I&gt;C-B r&gt;C-F$\n$Q&gt;P&gt;R$<div></div>$S_N 2$ reactions are favoured by less steric hindrance. The order of reactivity is $I&gt;B r&gt;C l&gt;F$, because larger halogens are better leaving groups. So, the correct order is $Q&gt;P&gt;R$. The statement is not correct.<div></div>D) PK value of the conjugate acids of the leaving groups In $P, Q$ and $R$ follows the order $\\quad R&gt;Q&gt;P$.<div></div>\n$$\n\\text { Leaving group } \\Rightarrow \\text { P }\\,\\,\\,\\,\\,\\,Q \\,\\,\\,\\,\\,\\,\\,R\n$$<div></div>$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\mathrm{Br}^{-} \\,\\,\\,  \\mathrm{I}^{-}\\quad \\mathrm{F}^{-}$<div></div>$$\n\\text { Conjugate acids } \\Rightarrow  \\mathrm{HBr}\\,\\,\\, HI\\,\\,\\,\\,\\,HF\n$$<div></div>$$\n\\text { pka order conjugate acids } \\Rightarrow \\mathrm{HI}&lt;\\mathrm{HBr}&lt;\\mathrm{HF}\n$$<div></div>The acidity of the acids HBr, HI and HF, increases in the order HF &lt; HBr &lt; HI. So, the Orrder of pka is HI&lt; HBr &lt; HF orThe acidity of the acids HBr, HI and HF, increases in the order HF &lt; HBr &lt; HI. So, the Orrder of pka is HI&lt; HBr &lt; HF or<div></div>$Q &lt; P &lt; R$ or $R &gt; P &gt; Q$ :<div></div>\nSo, the given statement is not correct.<div></div>\nCorrect statement is (B).<div></div>\n\nAnswer: Option (B)"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>नीचे दिये गये अभिक्रिया के अनुक्रमों के लिए, सही कथन है(हैं)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1nmpd5/64ab3c18-00b3-4cb9-9299-ac9d29f68eba/fac80d90-384c-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1nmpd6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1nmpd5/64ab3c18-00b3-4cb9-9299-ac9d29f68eba/fac80d90-384c-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1nmpd6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 Hindi\"></p>\n<p>(विकल्पों में X कार्बन और हाइड्रोजन के अलावा कोई परमाणु है, तथा यह $\\mathbf{P}, \\mathbf{Q}$ और $\\mathbf{R}$ में भिन्न-भिन्न है।)</p>\n<p>(Finkelstein reaction: फिंकेल्स्टाइन अभिक्रिया; Swarts reaction: स्वार्ट्स अभिक्रिया)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathbf{P}, \\mathbf{Q}$ और $\\mathbf{R}$ में C-X आबन्ध लम्बाई (bond length) $\\mathbf{Q}>\\mathbf{R}>\\mathbf{P}$ क्रम का अनुगमन करती है।"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathbf{P}, \\mathbf{Q}$ और $\\mathbf{R}$ में C-X आबन्ध एन्थैल्पी (bond enthalpy) $\\mathbf{R}>\\mathbf{P}>\\mathbf{Q}$ क्रम का अनुगमन करती है।"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathbf{P}, \\mathbf{Q}$ और $\\mathbf{R}$ की $\\mathrm{S}_{\\mathrm{N}} 2$ अभिक्रिया की सापेक्षिक अभिक्रियाशीलता $\\mathbf{P}>\\mathbf{R}>\\mathbf{Q}$ क्रम का अनुगमन करती है।"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathbf{P}, \\mathbf{Q}$ और $\\mathbf{R}$ के अवशिष्ट समूहों (leaving groups) के संयुग्मित (conjugate) अम्लों के $\\mathrm{p} K_{\\mathrm{a}}$ के मान $\\mathbf{R}>\\mathbf{Q}>\\mathbf{P}$ क्रम का अनुगमन करते हैं।"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz24hv9/1e037a9f-55a9-4788-bcdc-f98dcf8aeba8/86cb7870-4aab-11f0-923a-1595f23bdd58/file-jaoe38c1mbz24hvb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz24hv9/1e037a9f-55a9-4788-bcdc-f98dcf8aeba8/86cb7870-4aab-11f0-923a-1595f23bdd58/file-jaoe38c1mbz24hvb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 Hindi Explanation 1\"><div></div>परमाणु H और Br द्विबंध के आर-पार जुड़ते हैं।<div></div>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz263jt/92ad4cb0-7838-4bc8-b69c-7d44790ca492/b35a0690-4aab-11f0-923a-1595f23bdd58/file-jaoe38c1mbz263ju.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz263jt/92ad4cb0-7838-4bc8-b69c-7d44790ca492/b35a0690-4aab-11f0-923a-1595f23bdd58/file-jaoe38c1mbz263ju.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 Hindi Explanation 2\">\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2csh3/52dff1d8-c6e9-466d-aef0-aaaec1f93d45/6d75c370-4aac-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2csh4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2csh3/52dff1d8-c6e9-466d-aef0-aaaec1f93d45/6d75c370-4aac-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2csh4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 Hindi Explanation 3\"><div></div>फिंकेलस्टीन अभिक्रिया एक SN2 (प्रतिस्थापन नाभिकस्नेही द्विआण्विक) अभिक्रिया तंत्र है जिसमें एक हैलोजन परमाणु का दूसरे हैलोजन परमाणु से आदान-प्रदान होता है। यहाँ, $\\mathrm{Br}^{-}$ को I से प्रतिस्थापित किया जाता है।<div></div>इस अभिक्रिया में, I उस कार्बन परमाणु पर आक्रमण करता है जो हैलोजन Br से जुड़ा होता है।<div></div>\nसामान्य अभिक्रिया:<div></div>$$\n\\begin{aligned}\n&amp; R-X+N a I \\rightarrow R-I+N a X \\\\\n&amp; X: C l / b r\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,(\\mathrm{NaCl}, \\mathrm{NaBr})\n\\end{aligned}\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2ioyk/e3ed7dc6-4e55-47ba-a6bb-ea5493b69c0f/119991c0-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2ioyl.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2ioyk/e3ed7dc6-4e55-47ba-a6bb-ea5493b69c0f/119991c0-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2ioyl.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 Hindi Explanation 4\"><div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2j704/1fd80d20-4e40-4b69-91bd-9a6b104a56d5/1f89af40-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2j705.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2j704/1fd80d20-4e40-4b69-91bd-9a6b104a56d5/1f89af40-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2j705.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 Hindi Explanation 5\"><div></div>स्वार्ट अभिक्रिया वह अभिक्रिया है जिसका उपयोग ऐल्किल क्लोराइड या ब्रोमाइड से ऐल्किल फ्लोराइड के संश्लेषण में किया जाता है। इसमें ऐल्किल हैलाइड (क्लोराइड या ब्रोमाइड) को धातु फ्लोराइड (AgF) के साथ गर्म करना शामिल है ताकि हैलोजन $(\\mathrm{Cl}$ या Br$)$ को फ्लोरीन परमाणु से प्रतिस्थापित किया जा सके।<div></div>$$\n\\text { यहाँ, } \\mathrm{Br}^{-} \\text { को } \\mathrm{F}^{-} \\text{ से प्रतिस्थापित किया जाता है}\n$$<div></div>$$\n\\text { सामान्य अभिक्रिया: }\n$$<div></div>\n$$\n\\begin{aligned}\n&amp; R-X \\quad + \\quad \\text { AgF } \\quad \\rightarrow R \\rightarrow F \\quad +\\operatorname{Ag} X \\\\\n&amp; (X =Cl, B r)\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,(\\mathrm{AgCl}, \\mathrm{AgBr})\n\\end{aligned}\n$$<div></div>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2pql2/e73e5eb4-e4e4-4f2d-8967-0b47adb970f8/d584e760-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2pql3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2pql2/e73e5eb4-e4e4-4f2d-8967-0b47adb970f8/d584e760-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2pql3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 Hindi Explanation 6\"><div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbz2q76j/8df8c105-6b72-412f-91f4-7e4980be1c1a/e256eab0-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2q76k.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbz2q76j/8df8c105-6b72-412f-91f4-7e4980be1c1a/e256eab0-4aad-11f0-923a-1595f23bdd58/file-jaoe38c1mbz2q76k.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Haloalkanes and Haloarenes Question 1 Hindi Explanation 7\"><div></div>A) $P, Q$ और $R$ में $C-X$ बंध लंबाई का क्रम $Q &gt; R &gt; P $ है।<div></div>\nबंध लंबाई क्रम $C-F &lt; C - B r &lt; C-I$\nबंध लंबाई हैलोजन परमाणु के आकार के साथ बढ़ती है। आयोडीन ब्रोमीन से बड़ा है, जो फ्लोरीन से बड़ा है। इसलिए C-I बंध (Q), $C-B r$ बंध $(P)$ से लंबा है, जो C-F बंध (R) से लंबा है। सही क्रम $Q&gt;P&gt;R$ है। इसलिए, कथन सही नहीं है।<div></div>B) $P, Q$ और $R$ में $C-X$ बंध एन्थैल्पी का क्रम $R&gt;P&gt;Q$ है।\nबंध एन्थैल्पी वह ऊर्जा है जो एक बंध को तोड़ने के लिए आवश्यक होती है। मजबूत बंध लंबाई में छोटे होते हैं और उन्हें तोड़ने के लिए अधिक ऊर्जा की आवश्यकता होती है। C-F बंध (R) सबसे मजबूत और सबसे छोटा बंध है, इसके बाद $C -B r$ बंध $(P)$ है, और $C-I$ बंध $(Q)$ सबसे कमजोर और सबसे लंबा बंध है। इसलिए, C-F बंध (R) को तोड़ने के लिए उच्च ऊर्जा की आवश्यकता होती है। इसकी बंध एन्थैल्पी अधिक है। C - I बंध (Q) सबसे कमजोर बंध है और इसकी बंध एन्थैल्पी कम है। $C-B r(P)$ की बंध एन्थैल्पी $R$ और $Q$ के बीच मध्यवर्ती है।<div></div>$$\n\\text { इसलिए, कथन सही है। }\n$$<div></div>c) $P, Q$ और $\\ R$ में $S_{N 2}$ अभिक्रिया के प्रति सापेक्ष अभिक्रियाशीलता का क्रम $P&gt;R&gt;Q$ है।<div></div>$S_{N^2}$ के प्रति अभिक्रियाशीलता का क्रम $C-I&gt;C-B r&gt;C-F$ है।\n$Q&gt;P&gt;R$<div></div>$S_N 2$ अभिक्रियाएं कम स्टेरिक बाधा द्वारा अनुकूलित होती हैं। अभिक्रियाशीलता का क्रम $I&gt;B r&gt;C l&gt;F$ है, क्योंकि बड़े हैलोजन बेहतर त्यागी समूह होते हैं। इसलिए, सही क्रम $Q&gt;P&gt;R$ है। कथन सही नहीं है।<div></div>D) $P, Q$ और $R$ में त्यागी समूहों के संयुग्मी अम्लों के PK मान का क्रम $\\quad R&gt;Q&gt;P$ है।<div></div>\n$$\n\\text { त्यागी समूह } \\Rightarrow \\text { P }\\,\\,\\,\\,\\,\\,Q \\,\\,\\,\\,\\,\\,\\,R\n$$<div></div>$\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\mathrm{Br}^{-} \\,\\,\\,  \\mathrm{I}^{-}\\quad \\mathrm{F}^{-}$<div></div>$$\n\\text { संयुग्मी अम्ल } \\Rightarrow  \\mathrm{HBr}\\,\\,\\, HI\\,\\,\\,\\,\\,HF\n$$<div></div>$$\n\\text { संयुग्मी अम्लों का pka क्रम } \\Rightarrow \\mathrm{HI}&lt;\\mathrm{HBr}&lt;\\mathrm{HF}\n$$<div></div>अम्ल HBr, HI और HF की अम्लता का क्रम HF &lt; HBr &lt; HI है। इसलिए, pka का क्रम HI&lt; HBr &lt; HF है या अम्ल HBr, HI और HF की अम्लता का क्रम HF &lt; HBr &lt; HI है। इसलिए, pka का क्रम HI&lt; HBr &lt; HF है या<div></div>$Q &lt; P &lt; R$ या $R &gt; P &gt; Q$ :<div></div>\nइसलिए, दिया गया कथन सही नहीं है।<div></div>\nसही कथन (B) है।<div></div>\n\nउत्तर: विकल्प (B)"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "haloalkanes",
+      "type": "mcqm",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "For the reaction sequence given below, the correct statement(s) is(are) (In the options, X is any atom other than carbon and hydrogen, and it is different in P, Q and R)"
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "नीचे दिये गये अभिक्रिया के अनुक्रमों के लिए, सही कथन है(हैं)\n\n(विकल्पों में X कार्बन और हाइड्रोजन के अलावा कोई परमाणु है, तथा यह $\\mathbf{P}, \\mathbf{Q}$ और $\\mathbf{R}$ में भिन्न-भिन्न है।)\n(Finkelstein reaction: फिंकेल्स्टाइन अभिक्रिया; S..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "ahty53r3q5nk7ma4q5l3",
+      "chapter": "haloalkanes-and-haloarenes",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "in-the-following-reactions-mathbfp-mathbfq-mathbf-jee-advanced-chemistry-kli2ewxabmlhg1dd",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "In the following reactions, $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ are the major products.\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liiquykx/1336f00a-8f94-4120-8583-7ee29bc5c70d/a8d02010-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiquyky.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liiquykx/1336f00a-8f94-4120-8583-7ee29bc5c70d/a8d02010-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiquyky.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 English 1\">\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liiqvvlx/b5262bb1-0ea6-4b1a-a086-e42cfbfa4cdb/c2537f50-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiqvvly.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liiqvvlx/b5262bb1-0ea6-4b1a-a086-e42cfbfa4cdb/c2537f50-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiqvvly.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 English 2\">\n<br>The correct statement about $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ is :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathbf{P}$ is a primary alcohol with four carbons."
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathbf{Q}$ undergoes Kolbe's electrolysis to give an eight-carbon product."
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathbf{R}$ has six carbons and it undergoes Cannizzaro reaction."
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathbf{S}$ is a primary amine with six carbons."
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1liw8qizc/fdb78d03-9dd0-4194-be4c-5de684d3011f/c24b1180-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8qizd.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1liw8qizc/fdb78d03-9dd0-4194-be4c-5de684d3011f/c24b1180-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8qizd.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 English Explanation 1\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1liw8qfsd/6c1bb8c7-2376-4fc7-a9cd-4deffee4ce4c/bfd381d0-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8qfse.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1liw8qfsd/6c1bb8c7-2376-4fc7-a9cd-4deffee4ce4c/bfd381d0-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8qfse.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 English Explanation 2\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1liw8stxt/1062e613-4deb-472f-9820-1222f93e38f0/02604010-0afd-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8stxu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1liw8stxt/1062e613-4deb-472f-9820-1222f93e38f0/02604010-0afd-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8stxu.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 English Explanation 3\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1liw8sq5f/4512bfff-51ba-4665-a674-b0121df4b6c8/ff730b30-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8sq5g.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1liw8sq5f/4512bfff-51ba-4665-a674-b0121df4b6c8/ff730b30-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8sq5g.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 English Explanation 4\">"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$\\text { निम्नलिखित अभिक्रियाओं में, } \\mathbf{P}, \\mathbf{Q}, \\mathbf{R} \\text {, तथा } \\mathbf{S} \\text { प्रमुख उत्पाद हैं। }$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liiquykx/1336f00a-8f94-4120-8583-7ee29bc5c70d/a8d02010-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiquyky.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liiquykx/1336f00a-8f94-4120-8583-7ee29bc5c70d/a8d02010-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiquyky.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 Hindi 1\">\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liiqvvlx/b5262bb1-0ea6-4b1a-a086-e42cfbfa4cdb/c2537f50-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiqvvly.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liiqvvlx/b5262bb1-0ea6-4b1a-a086-e42cfbfa4cdb/c2537f50-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiqvvly.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 Hindi 2\">\n<br>$\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, तथा $\\mathbf{S}$ के संदर्भ में सही कथन है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathbf{P}$ चार कार्बन वाला प्राइमरी अल्कोहल है।"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathbf{Q}$ कोल्बे विध्युत-अपघटन (Kolbe's electrolysis) करने पर आठ-कार्बन का उत्पाद देता है।"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathbf{R}$ में छह कार्बन हैं तथा वो कैनिज़ारो अभिक्रिया करता है।"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathbf{S}$ छह कार्बन वाला प्राइमरी ऐमीन है।"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1liw8qizc/fdb78d03-9dd0-4194-be4c-5de684d3011f/c24b1180-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8qizd.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1liw8qizc/fdb78d03-9dd0-4194-be4c-5de684d3011f/c24b1180-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8qizd.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 Hindi Explanation 1\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1liw8qfsd/6c1bb8c7-2376-4fc7-a9cd-4deffee4ce4c/bfd381d0-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8qfse.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1liw8qfsd/6c1bb8c7-2376-4fc7-a9cd-4deffee4ce4c/bfd381d0-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8qfse.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 Hindi Explanation 2\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1liw8stxt/1062e613-4deb-472f-9820-1222f93e38f0/02604010-0afd-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8stxu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1liw8stxt/1062e613-4deb-472f-9820-1222f93e38f0/02604010-0afd-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8stxu.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 Hindi Explanation 3\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1liw8sq5f/4512bfff-51ba-4665-a674-b0121df4b6c8/ff730b30-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8sq5g.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1liw8sq5f/4512bfff-51ba-4665-a674-b0121df4b6c8/ff730b30-0afc-11ee-8e6d-ed93ab6ac878/file-6y3zli1liw8sq5g.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Haloalkanes and Haloarenes Question 2 Hindi Explanation 4\">"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "haloalkanes",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "In the following reactions, $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ are the major products.\n\n\nThe correct statement about $\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, and $\\mathbf{S}$ is :"
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "$\\text { निम्नलिखित अभिक्रियाओं में, } \\mathbf{P}, \\mathbf{Q}, \\mathbf{R} \\text {, तथा } \\mathbf{S} \\text { प्रमुख उत्पाद हैं। }$\n\n\n$\\mathbf{P}, \\mathbf{Q}, \\mathbf{R}$, तथा $\\mathbf{S}$ के संदर्भ में सही कथन है"
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "5fellhyxvo4h9zyf8q4o",
+      "chapter": "haloalkanes-and-haloarenes",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "permalink": "pcompounds-that-on-hydrogenation-produces-optically-in-jee-advanced-chemistry-some-basic-concepts-of-chemistry-lkqaax56ktaapidf",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Compound(s) that on hydrogenation produce(s) optically inactive compound(s) is(are)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13i6nb3/11023713-daf1-488e-b7fa-8d04bbb017e6/4c785800-aa9f-11ec-9e36-1782c85ce4cb/file-1l13i6nb4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13i6nb3/11023713-daf1-488e-b7fa-8d04bbb017e6/4c785800-aa9f-11ec-9e36-1782c85ce4cb/file-1l13i6nb4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 8 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13i7732/47ab22cd-043f-43bd-857b-f36a492de9ab/5bbf2be0-aa9f-11ec-9e36-1782c85ce4cb/file-1l13i7733.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13i7732/47ab22cd-043f-43bd-857b-f36a492de9ab/5bbf2be0-aa9f-11ec-9e36-1782c85ce4cb/file-1l13i7733.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 8 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13i7nsd/03237933-6f94-41c1-9f4e-74ee3e67f44c/68a63dd0-aa9f-11ec-9e36-1782c85ce4cb/file-1l13i7nse.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13i7nsd/03237933-6f94-41c1-9f4e-74ee3e67f44c/68a63dd0-aa9f-11ec-9e36-1782c85ce4cb/file-1l13i7nse.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 8 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13i82oj/793ed3f4-b36f-4789-bb00-22ae20b86bf0/7427a540-aa9f-11ec-9e36-1782c85ce4cb/file-1l13i82ok.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13i82oj/793ed3f4-b36f-4789-bb00-22ae20b86bf0/7427a540-aa9f-11ec-9e36-1782c85ce4cb/file-1l13i82ok.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 8 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13ibg2i/5524b190-6f77-466b-86e4-05efcf0442da/d1ec77a0-aa9f-11ec-9e36-1782c85ce4cb/file-1l13ibg2j.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13ibg2i/5524b190-6f77-466b-86e4-05efcf0442da/d1ec77a0-aa9f-11ec-9e36-1782c85ce4cb/file-1l13ibg2j.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 8 English Explanation 1\"></p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13ibzpi/e3801ba1-96a4-44e9-b366-fba83e84a22a/e1184970-aa9f-11ec-9e36-1782c85ce4cb/file-1l13ibzpj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13ibzpi/e3801ba1-96a4-44e9-b366-fba83e84a22a/e1184970-aa9f-11ec-9e36-1782c85ce4cb/file-1l13ibzpj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 8 English Explanation 2\"> </p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13icnrz/e9bb6df7-8a10-4e2d-9178-d59db5819c8a/f3afcef0-aa9f-11ec-9e36-1782c85ce4cb/file-1l13icns0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13icnrz/e9bb6df7-8a10-4e2d-9178-d59db5819c8a/f3afcef0-aa9f-11ec-9e36-1782c85ce4cb/file-1l13icns0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 8 English Explanation 3\"> </p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l13iddcw/d70b6c5b-f3b7-489d-89f9-874684793e94/07728e00-aaa0-11ec-9e36-1782c85ce4cb/file-1l13iddcx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l13iddcw/d70b6c5b-f3b7-489d-89f9-874684793e94/07728e00-aaa0-11ec-9e36-1782c85ce4cb/file-1l13iddcx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 8 English Explanation 4\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "haloalkanes",
+      "type": "mcqm",
+      "year": 2015,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "Compound(s) that on hydrogenation produce(s) optically inactive compound(s) is(are)"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "question_id": "vjh9n30ntacdo81ydg6w",
+      "chapter": "haloalkanes-and-haloarenes",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "permalink": "pki-in-acetone-undergoes-ssubnsub2-reaction-with-each-jee-advanced-chemistry-some-basic-concepts-of-chemistry-otlaajeujbyvul2a",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>KI in acetone, undergoes S<sub>N</sub>2 reaction with each of P, Q, R and S. The rates of the reaction vary as</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1sah9ln/7acb6a63-1042-41fb-859d-61e1ab0f8c5f/c2fbeab0-b840-11ec-a05a-a710251ca16c/file-1l1sah9lo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1sah9ln/7acb6a63-1042-41fb-859d-61e1ab0f8c5f/c2fbeab0-b840-11ec-a05a-a710251ca16c/file-1l1sah9lo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2013 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 7 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "P > Q > R > S"
+            },
+            {
+              "identifier": "B",
+              "content": "S > P > R > Q"
+            },
+            {
+              "identifier": "C",
+              "content": "P > R > Q > S"
+            },
+            {
+              "identifier": "D",
+              "content": "R > P > S > Q"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p> The bulky groups cause steric hindrance in the formation of transition state. Therefore, higher homologues (Q) are less reactive than lower homologues (P). In compound (S), the transition state is highly stabilized by Ph-(C=O)- group, so it has highest rate of reaction towards S<sub>N</sub>2. </p>\n<p>The relative reactivities towards S<sub>N</sub>2 reaction S > P > R > Q.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "haloalkanes",
+      "type": "mcq",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "KI in acetone, undergoes SN2 reaction with each of P, Q, R and S. The rates of the reaction vary as\n"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "question_id": "wzcs0zwpo09un2070y3u",
+      "chapter": "haloalkanes-and-haloarenes",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pthe-major-product-of-the-following-reaction-isp-pim-jee-advanced-chemistry-some-basic-concepts-of-chemistry-wgexydlng2ruw2eq",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The major product of the following reaction is:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg870gif/a7dc522f-c59f-4d96-a64f-17cba805f2ca/c5dfea70-d62a-11ed-8aa5-3d8518058bec/file-1lg870gig.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg870gif/a7dc522f-c59f-4d96-a64f-17cba805f2ca/c5dfea70-d62a-11ed-8aa5-3d8518058bec/file-1lg870gig.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 6 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg870zhs/17c493ac-465a-4815-bfbe-b4506f3e548f/d48993f0-d62a-11ed-a810-4d71dabfb4ba/file-1lg870zht.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg870zhs/17c493ac-465a-4815-bfbe-b4506f3e548f/d48993f0-d62a-11ed-a810-4d71dabfb4ba/file-1lg870zht.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 6 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg871nvl/b8a30a49-26e9-41b4-b00f-c8173840f302/e75fa910-d62a-11ed-a810-4d71dabfb4ba/file-1lg871nvm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg871nvl/b8a30a49-26e9-41b4-b00f-c8173840f302/e75fa910-d62a-11ed-a810-4d71dabfb4ba/file-1lg871nvm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 6 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg872a2r/b2476fd3-733b-4269-a3e8-d0ba110e7728/f8859d30-d62a-11ed-a810-4d71dabfb4ba/file-1lg872a2s.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg872a2r/b2476fd3-733b-4269-a3e8-d0ba110e7728/f8859d30-d62a-11ed-a810-4d71dabfb4ba/file-1lg872a2s.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 6 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg872tf1/cf36844c-9074-4b5a-90fc-db98b4390f7e/077661d0-d62b-11ed-a810-4d71dabfb4ba/file-1lg872tf2.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg872tf1/cf36844c-9074-4b5a-90fc-db98b4390f7e/077661d0-d62b-11ed-a810-4d71dabfb4ba/file-1lg872tf2.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 6 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Alkyl halides undergo nucleophilic substitution more readily than aryl halides due to partial double bond character between aryl carbon and halogen. Hence, substitution occurs more readily in the side chain rather than in the ring. PhS$$^-$$ is a strong nucleophile and dimethylformamide (DMF) is a highly polar aprotic solvent. Hence, nucleophilic substitution (S$$_\\mathrm{N}2$$) takes place at 2$$^\\circ$$ benzylic carbon. Stereochemically, it involves inversion of configuration at benzylic carbon atom.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg87c96w/4d30c3ab-e61f-4d6d-a00f-ae9d22605c46/0dee0080-d62c-11ed-a810-4d71dabfb4ba/file-1lg87c96x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg87c96w/4d30c3ab-e61f-4d6d-a00f-ae9d22605c46/0dee0080-d62c-11ed-a810-4d71dabfb4ba/file-1lg87c96x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 6 English Explanation\"></p>\n<p>Alkyl group exhibit neighbouring group participation or anchimeric assistance from aryl group but deactivation by $$-$$NO$$_2$$ and $$-$$F makes S$$_\\mathrm{N}1$$ difficult and retention of configuration at chiral carbon does not takes place.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "haloarenes",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "The major product of the following reaction is:\n"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "zctvvim23krrnpm8b968",
+      "chapter": "haloalkanes-and-haloarenes",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pstatement-1--bromobenzene-upon-reaction-with-br2fe-jee-advanced-chemistry-some-basic-concepts-of-chemistry-4tibrkfdv462m21y",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Statement 1 : Bromobenzene upon reaction with Br$$_2$$/Fe gives 1, 4-dibromobenzene as the major product.</p>\n<p>and</p>\n<p>Statement 2: In bromobenzene, the inductive effect of the bromo group is more dominant than the mesomeric effect in directing the incoming electrophile.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement 1 is True, Statement 2 is True; Statement 2 is a correct explanation for Statement 1."
+            },
+            {
+              "identifier": "B",
+              "content": "Statement 1 is True, Statement 2 is True; Statement 2 is a NOT correct explanation for Statement 1."
+            },
+            {
+              "identifier": "C",
+              "content": "Statement 1 is True, Statement 2 is False."
+            },
+            {
+              "identifier": "D",
+              "content": "Statement 1 is False, Statement 2 is True."
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg6ow6bf/ff85daa2-45dc-4401-b2e3-956a7a0fc47c/21c9fcb0-d557-11ed-a8c9-174ee3544ddd/file-1lg6ow6bg.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg6ow6bf/ff85daa2-45dc-4401-b2e3-956a7a0fc47c/21c9fcb0-d557-11ed-a8c9-174ee3544ddd/file-1lg6ow6bg.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 4 English Explanation 1\"></p>\n<p>Bromine orientation is controlled by its mesomeric effect. Its stabilisation of arenium ion by +M activity.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg6oxz2n/c1278a6b-ce60-4aed-88dc-7748ef4cae20/53cfc5f0-d557-11ed-a8c9-174ee3544ddd/file-1lg6oxz2o.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg6oxz2n/c1278a6b-ce60-4aed-88dc-7748ef4cae20/53cfc5f0-d557-11ed-a8c9-174ee3544ddd/file-1lg6oxz2o.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 4 English Explanation 2\"></p>\n<p>In bromobenzene, the inductive effect of the bromo group is more dominant than the mesomeric effect in directing the incoming electrophile at para position. As a result, only mono substitution of bromobenzene takes place.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "haloarenes",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "Statement 1 : Bromobenzene upon reaction with Br$$_2$$/Fe gives 1, 4-dibromobenzene as the major product.\nand\nStatement 2: In bromobenzene, the inductive effect of the bromo group is more dominant than the mesomeric effect in directing the ..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "bkud2y5zmu2fr1yejqhp",
+      "chapter": "haloalkanes-and-haloarenes",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pthe-correct-statements-about-the-compound-given-below-i-jee-advanced-chemistry-some-basic-concepts-of-chemistry-o3kofposxblz29yi",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The correct statement(s) about the compound given below is(are):</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg94ninp/2e60ee92-d515-4dd0-89fe-79437490b1db/54678f40-d6ae-11ed-89f6-65b3651d9edd/file-1lg94ninq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg94ninp/2e60ee92-d515-4dd0-89fe-79437490b1db/54678f40-d6ae-11ed-89f6-65b3651d9edd/file-1lg94ninq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 5 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The compound is optically active."
+            },
+            {
+              "identifier": "B",
+              "content": "The compound possesses centre of symmetry."
+            },
+            {
+              "identifier": "C",
+              "content": "The compound possesses plane of symmetry."
+            },
+            {
+              "identifier": "D",
+              "content": "The compound possesses axis of symmetry."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>We know that following are the cases when a compound is optically inactive:</p>\n<p>1. When it does not have a chiral carbon atom e.g., Methyl bromide</p>\n<p>2. When it has a plane or axis of symmetry e.g., Tartaric acid (these compounds are called as Meso compounds)</p>\n<p>3. When it forms a racemic mixture e.g.: Equimolar mixture of d-Lactic acid and l-Lactic acid.</p>\n<p>The given compound possesses an axis of symmetry</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg94r1z1/210adddc-5648-4cde-b0b4-6f10ad06bc43/b6c0b6d0-d6ae-11ed-89f6-65b3651d9edd/file-1lg94r1z2.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg94r1z1/210adddc-5648-4cde-b0b4-6f10ad06bc43/b6c0b6d0-d6ae-11ed-89f6-65b3651d9edd/file-1lg94r1z2.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Haloalkanes and Haloarenes Question 5 English Explanation\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "haloalkanes",
+      "type": "mcqm",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "The correct statement(s) about the compound given below is(are):\n"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "2p0v4pqrdglpph1mp0i7",
+      "chapter": "haloalkanes-and-haloarenes",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pgive-reasonsp-pimagep-jee-advanced-chemistry-some-basic-concepts-of-chemistry-nld8ouvcnqtbsofr",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Give reasons :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9m3gc0/91d43c45-6814-4956-8c4d-06d715e6b3b4/8bc54700-b376-11f0-b034-2711d08df967/file-jaoe38c1mh9m3gc1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9m3gc0/91d43c45-6814-4956-8c4d-06d715e6b3b4/8bc54700-b376-11f0-b034-2711d08df967/file-jaoe38c1mh9m3gc1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English 1\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9m4lgj/67cae95e-6759-4bb0-80b1-1e0fe284fac8/ab8a0f30-b376-11f0-b034-2711d08df967/file-jaoe38c1mh9m4lgk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9m4lgj/67cae95e-6759-4bb0-80b1-1e0fe284fac8/ab8a0f30-b376-11f0-b034-2711d08df967/file-jaoe38c1mh9m4lgk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English 2\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9m5upj/3b897429-87a0-4e2d-9267-6f82bbaa3431/ce7e6c70-b376-11f0-b034-2711d08df967/file-jaoe38c1mh9m5upk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9m5upj/3b897429-87a0-4e2d-9267-6f82bbaa3431/ce7e6c70-b376-11f0-b034-2711d08df967/file-jaoe38c1mh9m5upk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English 3\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9m71ld/0e1f685c-0af1-40bc-af1a-3be0b6ceed9a/ef9ef410-b376-11f0-b034-2711d08df967/file-jaoe38c1mh9m71le.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9m71ld/0e1f685c-0af1-40bc-af1a-3be0b6ceed9a/ef9ef410-b376-11f0-b034-2711d08df967/file-jaoe38c1mh9m71le.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English 4\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "<p>(A) (i) Due to formation of acid, HBr (ii) No reaction</p>\n<p>(B) (i) Bimolecular reaction occurs. (ii) No bimolecular reaction.</p>\n<p>(C) (i) Nitro group is both ortho and para directing in this case and N atom of NO group has a lone pair of electrons on it.</p>\n<p>(ii) In this case, nitro group is meta directing.</p>\n<p>(D) The reduction of central benzene ring will give stability to 3 four membered antiaromatic rings, producing a stable compound.</p>",
+          "explanation": "<p>(A) (i) When (2-bromopropan-2-yl)benzene on \nreaction with aqueous ethanol, an ether is \nformed by replacement of bromide ion by \nethoxy ion. The products formed are an ether \nand an acid, hydrogen bromide. </p>\n<p>The presence of HBr makes the solution \nacidic.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9m8l8r/a1299e27-60ea-493d-991d-40dad274a3dd/1a9be5b0-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9m8l8s.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9m8l8r/a1299e27-60ea-493d-991d-40dad274a3dd/1a9be5b0-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9m8l8s.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English Explanation 1\"></p>\n<p>(ii) The 1-bromo-4-(propan-2-yl)benzene does \nnot react with aqueous ethanol. Thus, solution \nis neutral in nature.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9m9edy/150b8280-0b8c-4735-aba5-85ca56280144/311f4b60-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9m9edz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9m9edy/150b8280-0b8c-4735-aba5-85ca56280144/311f4b60-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9m9edz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English Explanation 2\"></p>\n<p>(B) (i) The reaction between given compound with \naqueous NaOH is an example of bimolecular \nreaction. The fluoride group at ortho position \nis replaced with hydroxy group. The fluoride \nion is liberated during the reaction. The rate \nof reaction is enhanced by the presence of \nelectron withdrawing groups at ortho and para \npositions.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9mam83/0497ba93-a001-4974-a79c-9a1bfd7d9f2a/52fc4530-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9mam84.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9mam83/0497ba93-a001-4974-a79c-9a1bfd7d9f2a/52fc4530-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9mam84.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English Explanation 3\"></p>\n<p>(ii) In this case, a bimolecular reaction does not \noccur. Thus, fluoride ion does not get eliminated \nfrom the compound.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9mbr96/8ba6782a-573c-484b-ae2b-676fdedd9a1e/72ae21a0-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9mbr97.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9mbr96/8ba6782a-573c-484b-ae2b-676fdedd9a1e/72ae21a0-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9mbr97.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English Explanation 4\"></p>\n<p>(C) (i) The nitrosobenzene on reaction with\nmixture of conc. HNO$$_3$$ and conc. H$$_2$$SO$$_4$$\nundergoes nitration. The nitrogen atom has a \nlone pair of electrons on it. Also, nitro so group \nis both ortho and para directing. Therefore, H \natoms at ortho and para will be replaced by \nnitro group producing mixture of ortho and \npara products.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9md5kd/a368c6d5-29e0-4022-9c01-55a19b657be5/998b51d0-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9md5ke.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9md5kd/a368c6d5-29e0-4022-9c01-55a19b657be5/998b51d0-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9md5ke.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English Explanation 5\"></p>\n<p>(ii) The nitrobenzene on further nitration using \nthe mixture of conc. HNO$$_3$$ and conc. H$$_2$$SO$$_4$$, \nproduces dinitrobenzene, by substituting H \natom at meta position by nitro group.\nThe nitro group is electron withdrawing group \nand is meta directing in nature.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9mea6d/329e688e-b91a-46c5-b5ec-f602d2e65545/b8ea5350-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9mea6e.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9mea6d/329e688e-b91a-46c5-b5ec-f602d2e65545/b8ea5350-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9mea6e.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English Explanation 6\"></p>\n<p>(D) The reaction of compound with hydrogen gas \nin presence of Pd/C as a catalyst, the compound \nundergoes reduction producing following \nproduct.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9mfnuj/7916aed1-cc0b-4426-bbc0-8a70c4b31fde/df4904b0-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9mfnuk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9mfnuj/7916aed1-cc0b-4426-bbc0-8a70c4b31fde/df4904b0-b377-11f0-b034-2711d08df967/file-jaoe38c1mh9mfnuk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Haloalkanes and Haloarenes Question 3 English Explanation 7\"></p>\n<p>In the given compound, there is a central \nbenzene ring attached to three four membered \nrings which further attached to terminal \nbenzene rings. The three 4 membered rings \nare antiaromatic in nature. During a chemical \nreaction, the rings will be undergoing reaction \nsuch that most stable product will be formed.</p>\n<p>When a central benzene ring will undergo \nreduction, the stability of three antiaromatic \nrings will be achieved. Thus, compound \nobtained is quite stable.</p>\n<p>If the reduction of one of the terminal benzene \nrings occurs, only one four membered \nantiaromatic ring will attain stability. Thus, \nthe compound produced will be less stable as \ncompared to that of first compound. </p>\n<p>Final Answer :</p>\n<p>(A) (i) Due to formation of acid, HBr</p>\n<p>(ii) No reaction</p>\n<p>(B) (i) Bimolecular reaction occurs.</p>\n<p>(ii) No bimolecular reaction.</p>\n<p>(C) (i) Nitro group is both ortho and para directing \nin this case and N atom of NO group has a lone \npair of electrons on it.</p>\n<p>(ii) In this case, nitro group is meta directing.</p>\n<p>(D) The reduction of central benzene ring will give \nstability to 3 four membered antiaromatic rings, \nproducing a stable compound.</p>\n<p>Hints :</p>\n<p>The reaction between (2-bromopropan-2-yl)\nbenzene with aqueous ethanol, produces an \nether with HBr which is an acid. Hence, the \nsolution becomes acidic in nature.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "haloarenes",
+      "type": "subjective",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Haloalkanes and Haloarenes • Chemistry",
+          "excerpt": "Give reasons :\n\n\n\n"
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    }
+  ]
+}

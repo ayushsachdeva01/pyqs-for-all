@@ -1,0 +1,1192 @@
+{
+  "questions": [
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7meqicmpw84zdwuj586t",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 2012,
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The integral $\\int \\frac{\\sec ^2 x}{(\\sec x+\\tan x)^{9 / 2}} d x$ equals (for some arbitrary constant $$K$$)\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$-\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}-\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}-\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$"
+            },
+            {
+              "identifier": "C",
+              "content": "$-\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "We have\n<br/><br/>$$\nI=\\int \\frac{\\sec ^2 x}{(\\sec x+\\tan x)^{9 / 2}} d x\n$$\n<br/><br/>Let $\\sec x+\\tan x=t $\n<br/><br/>$\\Rightarrow \\sec x-\\tan x=1 / t$.\n<br/><br/>$$ \\Rightarrow $$ $\\frac{1}{2}\\left(t+\\frac{1}{t}\\right)=\\sec x$\n<br/><br/>Now, $\\left(\\sec x \\tan x+\\sec ^2 x\\right) d x=d t$\n<br/><br/>$$ \\Rightarrow $$ $\\sec x(\\sec x+\\tan x) d x=d t$\n<br/><br/>$$ \\Rightarrow $$ $\\sec x d x=\\frac{d t}{t} $\n<br/><br/>$ I  =\\frac{1}{2} \\int \\frac{\\left(t+\\frac{1}{t}\\right)}{t^{9 / 2}} \\frac{d t}{t}$\n<br/><br/>$=\\frac{1}{2} \\int\\left(t^{-9 / 2}+t^{-13 / 2}\\right) d t $\n<br/><br/>$ =\\frac{1}{2}\\left[\\frac{t^{-\\frac{9}{2}+1}}{-\\frac{9}{2}+1}+\\frac{t^{-\\frac{13}{2}+1}}{-\\frac{13}{2}+1}\\right] $\n<br/><br/>$=\\frac{1}{2}\\left[\\frac{t^{-7 / 2}}{-\\frac{7}{2}}+\\frac{t^{-11 / 2}}{-\\frac{11}{2}}\\right]$\n<br/><br/>$=-\\frac{1}{7} t^{-7 / 2}-\\frac{1}{11} t^{-11 / 2}$\n<br/><br/>$=-\\frac{1}{7} \\frac{1}{t^{7 / 2}}-\\frac{1}{11} \\frac{1}{t^{11 / 2}}$\n<br/><br/>$=-\\frac{1}{t^{11 / 2}}\\left(\\frac{1}{11}+\\frac{t^2}{7}\\right)$\n<br/><br/>$=-\\frac{1}{(\\sec x+\\tan x)^{11 / 2}}\\left\\{\\frac{1}{11}+\\frac{1}{7}(\\sec x+\\tan x)^2\\right\\}+K$"
+        }
+      },
+      "permalink": "the-integral-int-sec-2x-over-left-sec-x-tan-x-right9-over-2d-jee-advanced-2012-marks-4-sjxwehcjufmkoooh.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "topic": "integration-by-substitution",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "The integral $\\int \\frac{\\sec ^2 x}{(\\sec x+\\tan x)^{9 / 2}} d x$ equals (for some arbitrary constant $$K$$)\n"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "nejtmd9kl29fztms91y7",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$I = \\int {{{{e^x}} \\over {{e^{4x}} + {e^{2x}} + 1}}dx,\\,\\,J = \\int {{{{e^{ - x}}} \\over {{e^{ - 4x}} + {e^{ - 2x}} + 1}}dx.} } $$ Then \n<br><br/>for an arbitrary constant $$C$$, the value of $$J -I$$ equals :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${1 \\over 2}\\log \\left( {{{{e^{4x}} - {e^{2x}} + 1} \\over {{e^{4x}} + {e^{2x}} + 1}}} \\right) + C$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${1 \\over 2}\\log \\left( {{{{e^{2x}} + {e^x} + 1} \\over {{e^{2x}} - {e^x} + 1}}} \\right) + C$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${1 \\over 2}\\log \\left( {{{{e^{2x}} - {e^x} + 1} \\over {{e^{2x}} + {e^x} + 1}}} \\right) + C$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${1 \\over 2}\\log \\left( {{{{e^{4x}} + {e^{2x}} + 1} \\over {{e^{4x}} - {e^{2x}} + 1}}} \\right) + C$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Given,</p>\n<p>$$I = \\int {{{{e^x}} \\over {{e^{4x}} + {e^{2x}} + 1}}dx} $$</p>\n<p>$$J = \\int {{{{e^{ - x}}} \\over {{e^{ - 4x}} + {e^{ - 2x}} + 1}}dx = \\int {{{{e^{3x}}} \\over {{e^{4x}} + {e^{2x}} + 1}}dx} } $$</p>\n<p>$$\\therefore$$ $$J - I = \\int {{{{e^x}({e^{2x}} - 1)} \\over {{e^{4x}} + {e^{2x}} + 1}}dx} $$</p>\n<p>Let $${e^x} = t \\Rightarrow {e^x}dx = dt$$</p>\n<p>$$\\therefore$$ $$J - I = \\int {{{{t^2} - 1} \\over {{t^4} + {t^2} + 1}}dt} $$</p>\n<p>$$ = \\int {{{1 - {1 \\over {{t^2}}}} \\over {{t^2} + 1 + {1 \\over {{t^2}}}}}dt} $$</p>\n<p>Let, $$t + {1 \\over t} = u \\Rightarrow \\left( {1 - {1 \\over {{t^2}}}} \\right)dt = du$$</p>\n<p>$$J - I = \\int {{{du} \\over {{u^2} - 1}} = {1 \\over 2}\\log \\left| {{{u - 1} \\over {u + 1}}} \\right| + C} $$</p>\n<p>$$ = {1 \\over 2}\\log \\left| {{{{{{t^2} + 1} \\over t} - 1} \\over {{{{t^2} + 1} \\over t} + 1}}} \\right| + C$$</p>\n<p>$$ = {1 \\over 2}\\log \\left| {{{{e^{2x}} - {e^x} + 1} \\over {{e^{2x}} + {e^x} + 1}}} \\right| + C$$</p>"
+        }
+      },
+      "permalink": "let-i-int-ex-over-e4x-e2x-1dxj-int-e-x-over-e-4x-e-2x-1dx-th-jee-advanced-2008-marks-4-6ybvm4okloovmihm.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "topic": "integration-by-substitution",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Let $$I = \\int {{{{e^x}} \\over {{e^{4x}} + {e^{2x}} + 1}}dx,\\,\\,J = \\int {{{{e^{ - x}}} \\over {{e^{ - 4x}} + {e^{ - 2x}} + 1}}dx.} } $$ Then \nfor an arbitrary constant $$C$$, the value of $$J -I$$ equals :"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zn2hvximfhowo45fvxx3",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 2007,
+      "paperTitle": "IIT-JEE 2007",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$F(x)$$ be an indefinite integral of $$si{n^2}x.$$ \n<p><b>STATEMENT-1:</b> The function $$F(x)$$ satisfies $$F\\left( {x + \\pi } \\right) = F\\left( x \\right)$$\n<br> for all real $$x$$. <b>because</b></p>\n<p><b>STATEMENT-2:</b> $${\\sin ^2}\\left( {x + \\pi } \\right) = {\\sin ^2}x$$ for all real $$x$$.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is is a correct explanation for Statement-1."
+            },
+            {
+              "identifier": "B",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1."
+            },
+            {
+              "identifier": "C",
+              "content": "Statement- 1 is True, Statement-2 is False."
+            },
+            {
+              "identifier": "D",
+              "content": "Statement-1 is False, Statement-2 is True."
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "let-fx-be-an-indefinite-integral-of-sin2x-statement-1-the-fu-jee-advanced-2007-marks-3-pj0saciiowmkkd1a.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2007",
+      "isOutOfSyllabus": false,
+      "topic": "standard-integral",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Let $$F(x)$$ be an indefinite integral of $$si{n^2}x.$$ \nSTATEMENT-1: The function $$F(x)$$ satisfies $$F\\left( {x + \\pi } \\right) = F\\left( x \\right)$$\n for all real $$x$$. because\nSTATEMENT-2: $${\\sin ^2}\\left( {x + \\pi } \\right) = {\\sin ..."
+        }
+      },
+      "yearKey": "iit-jee-2007"
+    },
+    {
+      "question_id": "lofgiei2q5j5bxg1zptp",
+      "chapter": "indefinite-integrals",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "plet-fxfracxleft1xnright1--n-for--jee-advanced-mathematics-complex-numbers-fbhrnlhh73qkxkio",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $$f(x)=\\frac{x}{\\left(1+x^{n}\\right)^{1 / n}}$$ for $$n \\geq 2$$ and $$g(x)=\\underbrace{(f o f o \\ldots . o f)}_{f \\text { occurs } n \\text { times }}(x)$$. Then $$\\int x^{n-2} g(x) d x$$ equals :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\frac{1}{n(n-1)}\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}+k$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\frac{1}{n(n+1)}\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}+k$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\frac{1}{n(n-1)}\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}+k$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\frac{1}{(n+1)}\\left(1+n x^{n}\\right)^{1+\\frac{1}{n}}+k$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\begin{aligned}\n& \\text { Given, } f(x)=\\frac{x}{\\left(1+x^{n}\\right)^{\\frac{1}{n}}} \\\\\n& \\therefore f(f(x))=\\frac{y}{\\left(1+y^{n}\\right)^{\\frac{1}{n}}} \\text {, where } y=\\frac{x}{\\left(1+x^{n}\\right)^{\\frac{1}{n}}} \\\\\n& =\\frac{x}{\\left(1+2 x^{n}\\right)^{\\frac{1}{n}}}\n~~......(\\mathrm{i})\\end{aligned}$$</p>\n<p>Similarly, $$f(f(f(x)))=\\frac{x}{\\left(1+3 x^{n}\\right)^{\\frac{1}{n}}}$$ and</p>\n<p>$$\\begin{aligned}\n\\frac{(f \\circ f \\circ f \\circ \\ldots f)(x)}{n \\text { times }} & =g(x)=\\frac{x}{\\left(1+n x^{n}\\right)^{\\frac{1}{n}}}~~......(\\mathrm{ii}) \\\\\n\\int x^{n-2} g(x) d x & =\\int \\frac{x^{n-1}}{\\left(1+n x^{n}\\right)^{1 / n}} d x \\\\\n& =\\frac{1}{n^{2}} \\int n^{2}\\left[x^{n-1}\\left(1+n x^{n}\\right)^{\\frac{-1}{n}}\\right] d x \\\\\n& =\\frac{1}{n^{2}} \\cdot \\frac{\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}}{1-\\frac{1}{n}}+k \\\\\n& =\\frac{\\left(1+n x^{n}\\right)^{1-\\frac{1}{n}}}{n(n-1)}+k\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "integration-by-substitution",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Let $$f(x)=\\frac{x}{\\left(1+x^{n}\\right)^{1 / n}}$$ for $$n \\geq 2$$ and $$g(x)=\\underbrace{(f o f o \\ldots . o f)}_{f \\text { occurs } n \\text { times }}(x)$$. Then $$\\int x^{n-2} g(x) d x$$ equals :"
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "question_id": "5zo8csd0kr425qkp807l",
+      "chapter": "indefinite-integrals",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pint-fracx2-1x3-sqrt2-x4-2-x21-d-x-is-equa-jee-advanced-mathematics-complex-numbers-ndfavoq3hwohgcrk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>$\\int \\frac{x^2-1}{x^3 \\sqrt{2 x^4-2 x^2+1}} d x$ is equal to</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$\\frac{\\sqrt{2 x^4-2 x^2+1}}{x^2}+\\mathrm{C}$</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$\\frac{\\sqrt{2 x^4-2 x^2+1}}{x^3}+\\mathrm{C}$</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\frac{\\sqrt{2 x^4-2 x^2+1}}{x}+\\mathrm{C}$</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$\\frac{\\sqrt{2 x^4-2 x^2+1}}{2 x^2}+C$</p>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$ \\int \\frac{x^2-1}{x^3 \\sqrt{2 x^4-2 x^2+1}} $$</p>\n<p>Taking $x^2$ from the expression under root</p>\n<p>$$ \\begin{aligned} & =\\int \\frac{x^2-1}{x^5 \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}} d x \\\\ & =\\int \\frac{\\frac{\\left(x^2-1\\right)}{x^5}}{\\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}} d x \\\\ & =\\int \\frac{\\left(\\frac{1}{x^3}-\\frac{1}{x^5}\\right)}{\\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}} d x \\end{aligned} $$</p>\n<p>Substitute $2-\\frac{2}{x^2}+\\frac{1}{x^4}=u$</p>\n<p>$$ \\begin{aligned} &\\text { Differentiating both sides, we have }\\\\ &\\begin{array}{r} \\left(0+2 \\cdot \\frac{2}{x^3}-\\frac{4}{x^5}\\right) d x=d u \\\\ \\Rightarrow \\quad 4\\left(\\frac{1}{x^2}-\\frac{1}{x^5}\\right) d x=d u \\end{array} \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} &\\text { Now, above integral becomes after substitution. }\\\\ &\\begin{aligned} \\int \\frac{d u}{4 \\sqrt{u}} & =\\frac{1}{4}\\left(\\frac{u^{\\frac{-1}{2}+1}}{\\frac{-1}{2}+1}\\right)+\\mathrm{C} \\\\ & =\\frac{1}{2} \\sqrt{u}+\\mathrm{C} \\\\ & =\\frac{1}{2} \\sqrt{2-\\frac{2}{x^2}+\\frac{1}{x^4}}+\\mathrm{C} \\\\ & =\\frac{1}{2} \\frac{\\sqrt{2 x^4-2 x^2+1}}{x^2}+\\mathrm{C} \\\\ & =\\frac{\\sqrt{2 x^4-2 x^2+1}}{2 x^2}+\\mathrm{C} \\end{aligned} \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 200000,
+      "topic": "integration-by-substitution",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "$\\int \\frac{x^2-1}{x^3 \\sqrt{2 x^4-2 x^2+1}} d x$ is equal to"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ii1hv23grzlfon961g3s",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$\\int\\limits_{\\sin x}^1 {{t^2}f\\left( t \\right)dt = 1 - \\sin x,} $$ then f$$\\left( {{1 \\over {\\sqrt 3 }}} \\right)$$ is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${1 \\over 3}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{1 \\over {\\sqrt 3 }}}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$3$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${\\sqrt 3 }$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-intlimitssin-x1-t2fleft-t-rightdt-1-sin-x-then-fleft-1-ov-jee-advanced-2005-screening-marks-3-gqcl2uv7l61fxp71.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005-screening",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Screening",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "If $$\\int\\limits_{\\sin x}^1 {{t^2}f\\left( t \\right)dt = 1 - \\sin x,} $$ then f$$\\left( {{1 \\over {\\sqrt 3 }}} \\right)$$ is"
+        }
+      },
+      "yearKey": "iit-jee-2005-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ebyzlmwgdvo5pettq6up",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 2002,
+      "paperTitle": "IIT-JEE 2002",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "For any natural number $$m$$, evaluate\n<br>$$\\int {\\left( {{x^{3m}} + {x^{2m}} + {x^m}} \\right){{\\left( {2{x^{2m}} + 3{x^m} + 6} \\right)}^{l/m}}dx,x &gt; 0.} $$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${1 \\over 6}{{{{\\left( {2{x^{3m}} + 3{x^{2m}} + 6{x^m}} \\right)}^{{{m + 1} \\over m}}}} \\over {m + 1}} + C$$",
+          "explanation": null
+        }
+      },
+      "permalink": "for-any-natural-number-m-evaluateint-left-x3m-x2m-xm-rightle-jee-advanced-2002-marks-5-wmis20h1ltu4fo1j.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2002",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2002",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "For any natural number $$m$$, evaluate\n$$\\int {\\left( {{x^{3m}} + {x^{2m}} + {x^m}} \\right){{\\left( {2{x^{2m}} + 3{x^m} + 6} \\right)}^{l/m}}dx,x > 0.} $$ "
+        }
+      },
+      "yearKey": "iit-jee-2002"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "eovrb8mw8nqzh369kkdf",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 2001,
+      "paperTitle": "IIT-JEE 2001",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate $$\\int {{{\\sin }^{ - 1}}\\left( {{{2x + 2} \\over {\\sqrt {4{x^2} + 8x + 13} }}} \\right)} \\,dx.$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$\\left( {x + 1} \\right){\\tan ^{ - 1}}\\left( {{{2x + 2} \\over 3}} \\right) - {3 \\over 4}\\log \\left( {4{x^2} + 8x + 13} \\right) + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-int-sin-1left-2x-2-over-sqrt-4x2-8x-13-right-dx-jee-advanced-2001-marks-5-gln0mssijfphla0j.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2001",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2001",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate $$\\int {{{\\sin }^{ - 1}}\\left( {{{2x + 2} \\over {\\sqrt {4{x^2} + 8x + 13} }}} \\right)} \\,dx.$$ "
+        }
+      },
+      "yearKey": "iit-jee-2001"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ozfyvfyof3smoxc8daa9",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Integrate $$\\int {{{{x^3} + 3x + 2} \\over {{{\\left( {{x^2} + 1} \\right)}^2}\\left( {x + 1} \\right)}}dx.} $$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$ - {1 \\over 2}\\log \\left| {x + 1} \\right| + {1 \\over 4}\\log \\left( {{x^2} + 1} \\right) + {3 \\over 2}{\\tan ^{ - 1}}x + {x \\over {1 + {x^2}}} + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "integrate-int-x3-3x-2-over-left-x2-1-right2left-x-1-rightdx-jee-advanced-1999-marks-5-2tquyii333zybzuy.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-partial-fraction",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Integrate $$\\int {{{{x^3} + 3x + 2} \\over {{{\\left( {{x^2} + 1} \\right)}^2}\\left( {x + 1} \\right)}}dx.} $$ "
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "phsexu305zcdbowd5e13",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate $$\\int {{{\\left( {x + 1} \\right)} \\over {x{{\\left( {1 + x{e^x}} \\right)}^2}}}dx} $$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$\\log \\left( {{{1 + x{e^x}} \\over {x{e^x}}}} \\right) - {1 \\over {1 + x{e^x}}} + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-int-left-x-1-right-over-xleft-1-xex-right2dx-jee-advanced-1996-marks-2-1rsgqmw3wn9av9dz.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate $$\\int {{{\\left( {x + 1} \\right)} \\over {x{{\\left( {1 + x{e^x}} \\right)}^2}}}dx} $$."
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0nlg0qyl7s8m2qhrg2bd",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1995,
+      "paperTitle": "IIT-JEE 1995 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The value of the integral $$\\int {{{{{\\cos }^3}x + {{\\cos }^5}x} \\over {{{\\sin }^2}x + {{\\sin }^4}x}}} \\,dx\\,$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sin x - 6{\\tan ^{ - 1}}\\left( {\\sin x} \\right) + c$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sin x - 2{\\left( {\\sin x} \\right)^{ - 1}} + c$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sin x - 2{\\left( {\\sin x} \\right)^{ - 1}} - 6{\\tan ^{ - 1}}\\left( {\\sin x} \\right) + c$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\,\\sin x - 2{\\left( {\\sin x} \\right)^{ - 1}} + 5{\\tan ^{ - 1}}\\left( {\\sin x} \\right) + c$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-value-of-the-integral-int-cos-3x-cos-5x-over-sin-2x-sin-jee-advanced-1995-screening-marks-3-vssenxuevhqizllo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1995-screening",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1995 Screening",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "The value of the integral $$\\int {{{{{\\cos }^3}x + {{\\cos }^5}x} \\over {{{\\sin }^2}x + {{\\sin }^4}x}}} \\,dx\\,$$ is "
+        }
+      },
+      "yearKey": "iit-jee-1995-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8uee345fetg7lhgnj9y5",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Find the indefinite integral $$\\,\\int {\\cos 2\\theta {\\mkern 1mu} ln\\left( {{{\\cos \\theta  + \\sin \\theta } \\over {\\cos \\theta  - \\sin \\theta }}} \\right)} {\\mkern 1mu} d\\theta $$",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$\\,\\,{{\\sin 2\\theta } \\over 2}\\,ln\\left( {{{\\cos \\theta  + \\sin \\theta } \\over {\\cos \\theta  - \\sin \\theta }}} \\right)$$ $$ - {1 \\over 2}l$$$$n\\sec 2\\theta  + C$$",
+          "explanation": null
+        }
+      },
+      "permalink": "find-the-indefinite-integral-int-cos-2theta-mkern-1mu-lnleft-jee-advanced-1994-marks-5-8bygcs2y92h9nv4x.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-parts",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Find the indefinite integral $$\\,\\int {\\cos 2\\theta {\\mkern 1mu} ln\\left( {{{\\cos \\theta  + \\sin \\theta } \\over {\\cos \\theta  - \\sin \\theta }}} \\right)} {\\mkern 1mu} d\\theta $$"
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "cqwsa0aar3me5rthq1tb",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1992,
+      "paperTitle": "IIT-JEE 1992",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Find the indefinite integral $$\\int {\\left( {{1 \\over {\\root 3 \\of x  + \\root 4 \\of 4 }} + {{In\\left( {1 + \\root 6 \\of x } \\right)} \\over {\\root 3 \\of x  + \\root \\, \\of x }}} \\right)} dx$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "find-the-indefinite-integral-int-left-1-over-root-3-of-x-roo-jee-advanced-1992-marks-4-b56qqunbwzltmsjh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1992",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1992",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Find the indefinite integral $$\\int {\\left( {{1 \\over {\\root 3 \\of x  + \\root 4 \\of 4 }} + {{In\\left( {1 + \\root 6 \\of x } \\right)} \\over {\\root 3 \\of x  + \\root \\, \\of x }}} \\right)} dx$$ "
+        }
+      },
+      "yearKey": "iit-jee-1992"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dqffyi8yt0kj2b2trst5",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1990,
+      "paperTitle": "IIT-JEE 1990",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$\\int {{{4{e^x} + 6{e^{ - x}}} \\over {9{e^x} - 4{e^{ - x}}}}\\,dx = Ax + B\\,\\,\\log \\left( {9{e^{2x}} - 4} \\right) + C,} $$ then\n<br>$$A = .....,B = .....$$ and $$C = .....$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$ - {3 \\over 2},{{35} \\over {36}},$$ any real value",
+          "explanation": null
+        }
+      },
+      "permalink": "if-int-4ex-6e-x-over-9ex-4e-xdx-ax-blog-left-9e2x-4-right-c-jee-advanced-1990-marks-2-zpk20nffvbeoutol.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1990",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1990",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "If $$\\int {{{4{e^x} + 6{e^{ - x}}} \\over {9{e^x} - 4{e^{ - x}}}}\\,dx = Ax + B\\,\\,\\log \\left( {9{e^{2x}} - 4} \\right) + C,} $$ then\n$$A = .....,B = .....$$ and $$C = .....$$"
+        }
+      },
+      "yearKey": "iit-jee-1990"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "t02ugf95nt4fkqm6iylr",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate $$\\int {\\left( {\\sqrt {\\tan x}  + \\sqrt {\\cot x} } \\right)dx} $$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$\\sqrt 2 {\\tan ^{ - 1}}\\left( {{{\\sqrt {\\tan x}  - \\sqrt {\\cot x} } \\over {\\sqrt 2 }}} \\right) + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-int-left-sqrt-tan-x-sqrt-cot-x-rightdx-jee-advanced-1989-marks-3-f71beldrrfl2iliq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate $$\\int {\\left( {\\sqrt {\\tan x}  + \\sqrt {\\cot x} } \\right)dx} $$ "
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "fr8jvqcd9jp4lkjo9ttb",
+      "exam": "jee-advanced",
+      "marks": 6,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate :$$\\,\\,\\int {\\left[ {{{{{\\left( {\\cos 2x} \\right)}^{1/2}}} \\over {\\sin x}}} \\right]dx} $$",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${1 \\over {\\sqrt 2 }}\\,\\log \\left[ {{{\\sqrt 2  + \\sqrt {1 - {{\\tan }^2}x} } \\over {\\sqrt 2  - \\sqrt {1 - {{\\tan }^2}x} }}} \\right] - \\log \\left( {\\cot x + \\sqrt {{{\\cot }^2}x - 1} } \\right) + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-int-left-left-cos-2x-right12-over-sin-x-rightdx-jee-advanced-1987-marks-6-vhbydyfx7gdynsxn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate :$$\\,\\,\\int {\\left[ {{{{{\\left( {\\cos 2x} \\right)}^{1/2}}} \\over {\\sin x}}} \\right]dx} $$"
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "hrm23kilannq4hgmcp4e",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate the following $$\\int {\\sqrt {{{1 - \\sqrt x } \\over {1 + \\sqrt x }}dx} } $$",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$ - 2\\sqrt {1 - x}  + {\\cos ^{ - 1}}\\sqrt x  + \\sqrt x \\sqrt {1 - x}  + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-the-following-int-sqrt-1-sqrt-x-over-1-sqrt-x-dx-jee-advanced-1985-marks-2-nvdtbw8nhmyridvk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate the following $$\\int {\\sqrt {{{1 - \\sqrt x } \\over {1 + \\sqrt x }}dx} } $$"
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dmpvkoc0frqe5ypy5nmt",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate the following $$\\int {{{dx} \\over {{x^2}{{\\left( {{x^4} + 1} \\right)}^{3/4}}}}} $$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$ - {\\left( {1 + {1 \\over {{x^{ \\to 4}}}}} \\right)^{{\\raise0.5ex\\hbox{$\\scriptstyle 1$}\n\\kern-0.1em/\\kern-0.15em\n\\lower0.25ex\\hbox{$\\scriptstyle 4$}}}} + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-the-following-int-dx-over-x2left-x4-1-right34-jee-advanced-1984-marks-2-0ieso4k9vbt1dxps.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate the following $$\\int {{{dx} \\over {{x^2}{{\\left( {{x^4} + 1} \\right)}^{3/4}}}}} $$ "
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "4w2czoljmn26hg6x7ja7",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate : $$\\int {{{\\left( {x - 1} \\right){e^x}} \\over {{{\\left( {x + 1} \\right)}^3}}}dx} $$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{{e^x}} \\over {{{\\left( {x + 1} \\right)}^2}}} + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-int-left-x-1-rightex-over-left-x-1-right3dx-jee-advanced-1983-marks-2-xeyfplzmpti9mz57.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-parts",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate : $$\\int {{{\\left( {x - 1} \\right){e^x}} \\over {{{\\left( {x + 1} \\right)}^3}}}dx} $$ "
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "p5jbwfbe5nilycippk5z",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate $$\\int {\\left( {{e^{\\log x}} + \\sin x} \\right)\\cos x\\,\\,dx.} $$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$x\\sin x + \\cos x - {1 \\over 4}\\cos 2x + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-int-left-elog-x-sin-x-rightcos-xdx-jee-advanced-1981-marks-2-p5glh0adi6ue3ixo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate $$\\int {\\left( {{e^{\\log x}} + \\sin x} \\right)\\cos x\\,\\,dx.} $$ "
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ae88k6fb1nv9izee8mca",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1979,
+      "paperTitle": "IIT-JEE 1979",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate $$\\int {{{{x^2}dx} \\over {{{\\left( {a + bx} \\right)}^2}}}} $$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${1 \\over {{b^3}}}\\left[ {a + bx - 2a\\log \\left| {a + bx} \\right| - {{{a^2}} \\over {a + bx}}} \\right] + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-int-x2dx-over-left-a-bx-right2-jee-advanced-1979-marks-3-l8johjklhexoyajo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1979",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1979",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate $$\\int {{{{x^2}dx} \\over {{{\\left( {a + bx} \\right)}^2}}}} $$ "
+        }
+      },
+      "yearKey": "iit-jee-1979"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "niad90nbrw918ca4e18z",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "indefinite-integrals",
+      "year": 1978,
+      "paperTitle": "IIT-JEE 1978",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Evaluate $$\\int {{{\\sin x} \\over {\\sin x - \\cos x}}dx} $$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${1 \\over 2}\\log \\left| {\\sin x - \\cos x} \\right| + {x \\over 2} + C$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "evaluate-int-sin-x-over-sin-x-cos-xdx-jee-advanced-1978-marks-3-gtvoorgs5yyhj4lk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1978",
+      "isOutOfSyllabus": false,
+      "topic": "integration-by-substitution",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1978",
+          "subTitle": "Indefinite Integrals • Mathematics",
+          "excerpt": "Evaluate $$\\int {{{\\sin x} \\over {\\sin x - \\cos x}}dx} $$ "
+        }
+      },
+      "yearKey": "iit-jee-1978"
+    }
+  ]
+}

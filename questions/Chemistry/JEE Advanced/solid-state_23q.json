@@ -1,0 +1,1640 @@
+{
+  "questions": [
+    {
+      "question_id": "d2ll2e6twgfsqsiyjkyf",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "pthe-density-in-mathrmg-mathrmcm-3--of-the-me-jee-advanced-chemistry-tbzvw6zxtsfuevoq",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The density (in $\\mathrm{g} \\mathrm{cm}^{-3}$ ) of the metal which forms a cubic close packed (ccp) lattice with an axial distance (edge length) equal to 400 pm is ___________.</p>\n<p>Use: Atomic mass of metal $=105.6 \\mathrm{amu}$ and Avogadro's constant $=6 \\times 10^{23} \\mathrm{~mol}^{-1}$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "10.85TO11.1",
+          "explanation": "<p>•  In a ccp (fcc) unit cell, number of atoms per cell, n = 4  </p>\n<p>•  Edge length  </p>\n<p>$$a=400\\text{ pm}=400\\times10^{-12}\\text{ m}=4.0\\times10^{-8}\\text{ cm}$$  </p>\n<p>•  Volume of cell  </p>\n<p>$$V=a^3=(4.0\\times10^{-8}\\text{ cm})^3=6.4\\times10^{-23}\\text{ cm}^3$$  </p>\n<p>•  Mass of one atom  </p>\n<p>$$m_{\\rm atom}=\\frac{M}{N_A}=\\frac{105.6\\text{ g/mol}}{6.0\\times10^{23}\\text{ mol}^{-1}}      =1.76\\times10^{-22}\\text{ g}$$  </p>\n<p>•  Mass of unit cell  </p>\n<p>$$m_{\\rm cell}=n\\;m_{\\rm atom}=4\\times1.76\\times10^{-22}=7.04\\times10^{-22}\\text{ g}$$  </p>\n<p>•  Density  </p>\n<p>$$\\rho=\\frac{m_{\\rm cell}}{V}      =\\frac{7.04\\times10^{-22}}{6.4\\times10^{-23}}      \\approx11\\;\\text{g/cm}^3$$  </p>\n<p>Answer: <strong>11 g·cm⁻³</strong>.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>धातु जो 400 pm की अक्षीय दूरी (कोर लम्बाई) का एक घनीय निविड संकुलित जालक (cubic close packed lattice) बनाती है, का घनत्व $\\left(\\mathrm{g} \\mathrm{cm}^{-3}\\right.$ में $)$ __________ है।</p>\n<p>उपयोग करें: धातु का परमाणु द्रव्यमान (atomic mass) $=105.6 ~\\mathrm{amu}$ तथा आवोगाद्रो नियतांक $($ Avogadro's constant $)=6 \\times 10^{23} \\mathrm{~mol}^{-1}$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "10.85TO11.1",
+          "explanation": "<p>•  एक ccp (fcc) एकक कोशिका में, प्रति कोशिका परमाणुओं की संख्या, n = 4  </p>\n<p>•  किनारे की लंबाई  </p>\n<p>$$a=400\\text{ pm}=400\\times10^{-12}\\text{ m}=4.0\\times10^{-8}\\text{ cm}$$  </p>\n<p>•  कोशिका का आयतन  </p>\n<p>$$V=a^3=(4.0\\times10^{-8}\\text{ cm})^3=6.4\\times10^{-23}\\text{ cm}^3$$  </p>\n<p>•  एक परमाणु का द्रव्यमान  </p>\n<p>$$m_{\\rm atom}=\\frac{M}{N_A}=\\frac{105.6\\text{ g/mol}}{6.0\\times10^{23}\\text{ mol}^{-1}}      =1.76\\times10^{-22}\\text{ g}$$  </p>\n<p>•  एकक कोशिका का द्रव्यमान  </p>\n<p>$$m_{\\rm cell}=n\\;m_{\\rm atom}=4\\times1.76\\times10^{-22}=7.04\\times10^{-22}\\text{ g}$$  </p>\n<p>•  घनत्व  </p>\n<p>$$\\rho=\\frac{m_{\\rm cell}}{V}      =\\frac{7.04\\times10^{-22}}{6.4\\times10^{-23}}      \\approx11\\;\\text{g/cm}^3$$  </p>\n<p>उत्तर: <strong>11 g·cm⁻³</strong>.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "close-packing-in-crystals",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The density (in $\\mathrm{g} \\mathrm{cm}^{-3}$ ) of the metal which forms a cubic close packed (ccp) lattice with an axial distance (edge length) equal to 400 pm is ___________.\nUse: Atomic mass of metal $=105.6 \\mathrm{amu}$ and Avogadro's ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "धातु जो 400 pm की अक्षीय दूरी (कोर लम्बाई) का एक घनीय निविड संकुलित जालक (cubic close packed lattice) बनाती है, का घनत्व $\\left(\\mathrm{g} \\mathrm{cm}^{-3}\\right.$ में $)$ __________ है।\nउपयोग करें: धातु का परमाणु द्रव्यमान (atomic mass) $=..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "eb0vgxjqtrtbjuv55rr5",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "in-a-metal-deficient-oxide-sample-mathbfmmathbfx-jee-advanced-chemistry-llhabjvyj9ylqvqs",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "In a metal deficient oxide sample, $\\mathbf{M}_{\\mathbf{x}} \\mathbf{Y}_2 \\mathbf{O}_4$ ( $\\mathbf{M}$ and $\\mathbf{Y}$ are metals), $\\mathbf{M}$ is present in both +2 and +3 oxidation states and $\\mathbf{Y}$ is in +3 oxidation state. If the fraction of $\\mathbf{M}^{2+}$ ions present in $\\mathbf{M}$ is $\\frac{1}{3}$, the value of $\\mathbf{X}$ is _______ . ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.25"
+            },
+            {
+              "identifier": "B",
+              "content": "0.33"
+            },
+            {
+              "identifier": "C",
+              "content": "0.67"
+            },
+            {
+              "identifier": "D",
+              "content": "0.75"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>To find the value of $ X $ in the metal deficient oxide sample $ M_x Y_2 O_4 $, where $ M $ is present in both +2 and +3 oxidation states and $ Y $ is in the +3 oxidation state, and given that the fraction of $ M^{2+} $ ions present in $ M $ is $\\frac{1}{3}$, follow these steps:</p>\n\n<ol>\n\n<li><strong>Charge Balance Equation:</strong></li>\n\n</ol>\n\n<p>The total charge contributed by the cations ($ M $ and $ Y $) must balance the total negative charge contributed by the oxide ions $ O $:</p>\n\n<p></p>\n\n<p>$    x(M^{2+} + M^{3+}) + 2(Y^{3+}) = 4(-2)    $</p>\n\n<ol>\n\n<li><strong>Oxidation States and Charges:</strong></li>\n\n<br/></ol>\n\n<ul>\n\n<li>Let the total number of $ M $ ions be $ x $.</li><br>\n\n<li>Given $\\frac{1}{3}$ of $ M $ ions are $ M^{2+} $, the remaining $\\frac{2}{3}$ are $ M^{3+} $.</li>\n\n</ul>\n\n<ol>\n\n<br/><li><strong>Number of Ions:</strong></li>\n\n</ol>\n\n<br/><ul>\n\n<li>Number of $ M^{2+} $ ions = $\\frac{x}{3}$.</li><br>\n\n<li>Number of $ M^{3+} $ ions = $\\frac{2x}{3}$.</li>\n\n</ul>\n\n<br/><ol>\n\n<li><strong>Total Positive Charge:</strong></li>\n\n</ol>\n\n<br/><ul>\n\n<li>Charge from $ M^{2+} $ ions = $ \\left(\\frac{x}{3}\\right) \\times 2 = \\frac{2x}{3} $.</li><br>\n\n<li>Charge from $ M^{3+} $ ions = $ \\left(\\frac{2x}{3}\\right) \\times 3 = 2x $.</li><br>\n\n<li>Charge from $ Y^{3+} $ ions = $ 2 \\times 3 = 6 $.</li>\n\n</ul>\n\n<br/><ol>\n\n<li><strong>Total Positive Charge Calculation:</strong></li>\n\n</ol>\n\n<p>$    \\frac{2x}{3} + 2x + 6    $</p>\n\n<br/><ol>\n\n<li><strong>Total Negative Charge:</strong></li>\n\n</ol>\n\n<br/><ul>\n\n<li>Charge from 4 oxygen ions $ (O^{2-}) $:</li>\n\n</ul>\n\n<p>$    4 \\times (-2) = -8    $</p>\n\n<ol>\n\n<li><strong>Setting Up the Charge Balance:</strong></li>\n\n</ol>\n\n<p>$    \\frac{2x}{3} + 2x + 6 = 8    $</p>\n\n<ol>\n\n<li><strong>Solving for $ x $:</strong></li>\n\n</ol>\n\n<p>$    \\frac{2x}{3} + 2x + 6 = 8    $</p>\n\n<p>$    \\frac{2x}{3} + 2x = 2    $</p>\n\n<p>$    \\frac{2x + 6x}{3} = 2    $</p>\n\n<p>$    \\frac{8x}{3} = 2    $</p>\n\n<p>$    8x = 6    $</p>\n\n<p>$    x = \\frac{6}{8}    $</p>\n\n<p>$    x = 0.75    $</p>\n\n<p>Thus, the value of $ X $ is $ \\boxed{0.75} $.</p>\n\n<strong>Answer:</strong>\n\n<p>Option D: 0.75</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "एक धातु न्यून (metal deficient) ऑक्साइड $\\mathbf{M}_{\\mathbf{x}} \\mathbf{Y}_2 \\mathbf{O}_4$ ( $\\mathbf{M}$ तथा $\\mathbf{Y}$ धातु हैं ) के नमूने में $\\mathbf{M}_4+2$ और +3 ऑक्सीकरण अवस्थाओं में तथा $\\mathbf{Y},+3$ ऑक्सीकरण अवस्था में उपस्थित है। यदि $\\mathbf{M}^{2+}$ का $\\mathbf{M}$ में अंश $\\frac{1}{3}$ है, तो $\\mathrm{X}$ का मान __________ है।",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.25"
+            },
+            {
+              "identifier": "B",
+              "content": "0.33"
+            },
+            {
+              "identifier": "C",
+              "content": "0.67"
+            },
+            {
+              "identifier": "D",
+              "content": "0.75"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>धातु-न्यून ऑक्साइड नमूने $ M_x Y_2 O_4 $ में $ X $ का मान ज्ञात करने के लिए, जहाँ $ M $ +2 और +3 दोनों ऑक्सीकरण अवस्थाओं में उपस्थित है और $ Y $, +3 ऑक्सीकरण अवस्था में है, और दिया गया है कि $ M $ में उपस्थित $ M^{2+} $ आयनों का अंश $\\frac{1}{3}$ है, निम्नलिखित चरणों का पालन करें:</p>\n\n<ol>\n\n<li><strong>आवेश संतुलन समीकरण:</strong></li>\n\n</ol>\n\n<p>धनायनों ($ M $ और $ Y $) द्वारा योगदान किया गया कुल आवेश ऑक्साइड आयनों $ O $ द्वारा योगदान किए गए कुल ऋणात्मक आवेश को संतुलित करना चाहिए:</p>\n\n<p></p>\n\n<p>$    x(M^{2+} + M^{3+}) + 2(Y^{3+}) = 4(-2)    $</p>\n\n<ol>\n\n<li><strong>ऑक्सीकरण अवस्थाएँ और आवेश:</strong></li>\n\n<br/></ol>\n\n<ul>\n\n<li>माना $ M $ आयनों की कुल संख्या $ x $ है।</li><br>\n\n<li>दिया गया है कि $ M $ आयनों का $\\frac{1}{3}$ भाग $ M^{2+} $ है, शेष $\\frac{2}{3}$ भाग $ M^{3+} $ है।</li>\n\n</ul>\n\n<ol>\n\n<br/><li><strong>आयनों की संख्या:</strong></li>\n\n</ol>\n\n<br/><ul>\n\n<li>$ M^{2+} $ आयनों की संख्या = $\\frac{x}{3}$।</li><br>\n\n<li>$ M^{3+} $ आयनों की संख्या = $\\frac{2x}{3}$।</li>\n\n</ul>\n\n<br/><ol>\n\n<li><strong>कुल धनात्मक आवेश:</strong></li>\n\n</ol>\n\n<br/><ul>\n\n<li>$ M^{2+} $ आयनों से आवेश = $ \\left(\\frac{x}{3}\\right) \\times 2 = \\frac{2x}{3} $।</li><br>\n\n<li>$ M^{3+} $ आयनों से आवेश = $ \\left(\\frac{2x}{3}\\right) \\times 3 = 2x $।</li><br>\n\n<li>$ Y^{3+} $ आयनों से आवेश = $ 2 \\times 3 = 6 $।</li>\n\n</ul>\n\n<br/><ol>\n\n<li><strong>कुल धनात्मक आवेश की गणना:</strong></li>\n\n</ol>\n\n<p>$    \\frac{2x}{3} + 2x + 6    $</p>\n\n<br/><ol>\n\n<li><strong>कुल ऋणात्मक आवेश:</strong></li>\n\n</ol>\n\n<br/><ul>\n\n<li>4 ऑक्सीजन आयनों $ (O^{2-}) $ से आवेश:</li>\n\n</ul>\n\n<p>$    4 \\times (-2) = -8    $</p>\n\n<ol>\n\n<li><strong>आवेश संतुलन की स्थापना:</strong></li>\n\n</ol>\n\n<p>$    \\frac{2x}{3} + 2x + 6 = 8    $</p>\n\n<ol>\n\n<li><strong>$ x $ के लिए हल करना:</strong></li>\n\n</ol>\n\n<p>$    \\frac{2x}{3} + 2x + 6 = 8    $</p>\n\n<p>$    \\frac{2x}{3} + 2x = 2    $</p>\n\n<p>$    \\frac{2x + 6x}{3} = 2    $</p>\n\n<p>$    \\frac{8x}{3} = 2    $</p>\n\n<p>$    8x = 6    $</p>\n\n<p>$    x = \\frac{6}{8}    $</p>\n\n<p>$    x = 0.75    $</p>\n\n<p>इस प्रकार, $ X $ का मान $ \\boxed{0.75} $ है।</p>\n\n<strong>उत्तर:</strong>\n\n<p>विकल्प D: 0.75</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "defects-in-crystal",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "In a metal deficient oxide sample, $\\mathbf{M}_{\\mathbf{x}} \\mathbf{Y}_2 \\mathbf{O}_4$ ( $\\mathbf{M}$ and $\\mathbf{Y}$ are metals), $\\mathbf{M}$ is present in both +2 and +3 oxidation states and $\\mathbf{Y}$ is in +3 oxidation state. If the..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "एक धातु न्यून (metal deficient) ऑक्साइड $\\mathbf{M}_{\\mathbf{x}} \\mathbf{Y}_2 \\mathbf{O}_4$ ( $\\mathbf{M}$ तथा $\\mathbf{Y}$ धातु हैं ) के नमूने में $\\mathbf{M}_4+2$ और +3 ऑक्सीकरण अवस्थाओं में तथा $\\mathbf{Y},+3$ ऑक्सीकरण अवस्था में उपस्थित..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "khk3fvgsotluiixaw4pu",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "atoms-of-metals-mathrmx-mathrmy-and-mathrmz-f-jee-advanced-chemistry-ecoe4oul3bygsply",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Atoms of metals $\\mathrm{x}, \\mathrm{y}$, and $\\mathrm{z}$ form face-centred cubic (fcc) unit cell of edge length $\\mathrm{L}_{\\mathrm{x}}$, body-centred cubic (bcc) unit cell of edge length $\\mathrm{L}_y$, and simple cubic unit cell of edge length $\\mathrm{L}_z$, respectively.\n<br/><br/>If $\\mathrm{r}_{\\mathrm{z}}=\\frac{\\sqrt{3}}{2} r_{\\mathrm{y}} ; \\mathrm{r}_{\\mathrm{y}}=\\frac{8}{\\sqrt{3}} \\mathrm{r}_{\\mathrm{x}} ; M_{\\mathrm{z}}=\\frac{3}{2} M_{\\mathrm{y}}$ and $M_{\\mathrm{z}}=3 M_{\\mathrm{x}}$, then the correct statement(s) is(are) :\n<br/><br/>[Given: $M_x, M_y$, and $M_z$ are molar masses of metals $x, y$, and $z$, respectively.\n<br/>$\\mathrm{r}_{\\mathrm{x}}, \\mathrm{r}_{\\mathrm{y}}$, and $\\mathrm{r}_{\\mathrm{z}}$ are atomic radii of metals $\\mathrm{x}, \\mathrm{y}$, and $\\mathrm{z}$, respectively.]",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Packing efficiency of unit cell of $x>$ Packing efficiency of unit cell of $y>$ Packing efficiency of unit cell of $z$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{L}_{\\mathrm{y}}>\\mathrm{L}_{\\mathrm{z}}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{L}_{\\mathrm{x}}>\\mathrm{L}_{\\mathrm{y}}$"
+            },
+            {
+              "identifier": "D",
+              "content": "Density of $x>$ Density of $y$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "\n\n<b>1. Atomic radii relations :</b>\n\n<br/><br/>Given,\n<br/><br/>$$ r_{y} = \\frac{8}{\\sqrt{3}} r_{x} \\tag{1} $$ ......(1)\n<br/><br/>$$ r_{z} = \\frac{\\sqrt{3}}{2} r_{y} \\tag{2} $$ ........(2)\n\n<br/><br/>Substituting Eq. (1) into Eq. (2), we get :\n<br/><br/>$$ r_{z} = \\frac{\\sqrt{3}}{2} \\times \\frac{8}{\\sqrt{3}} r_{x} = 4 r_{x} \\tag{3} $$ .......(3)\n\n<br/><br/><b>2. Edge lengths of the unit cells :</b>\n\n<br/><br/>The edge lengths (L) of the unit cells for x, y, and z are given by :\n<br/><br/>$$ L_x = 2 \\sqrt{2} r_x \\quad \\text{(for FCC)} \\tag{4} $$ .......(4)\n<br/><br/>$$ L_y = 4 r_y = \\frac{32}{\\sqrt{3}} r_x \\quad \\text{(for BCC, using Eq. (1))} \\tag{5} $$ .......(5)\n<br/><br/>$$ L_z = 2 r_z = 8 r_x \\quad \\text{(for simple cubic, using Eq. (3))} \\tag{6} $$ .......(6)\n\n<br/><br/><b>3. Comparing the edge lengths :</b>\n\n<br/><br/>From Eq. (4), (5) and (6), we find :\n<br/><br/>$$ L_y > L_z > L_x \\tag{7} $$\n\n<br/><br/>This means Option B : $L_y > L_z$ is correct.\n\n<br/><br/><b>4. Packing Efficiencies :</b>\n\n<br/><br/>The packing efficiencies for FCC, BCC, and simple cubic are calculated as follows :\n\n<br/><br/>- FCC : \n\n<br/><br/>$$ PE_{fcc} = \\frac{4 \\times \\frac{4}{3} \\pi r_x^3}{(L_x)^3} = \\frac{\\pi}{\\sqrt{2}} \\tag{8} $$\n\n<br/><br/>- BCC : \n\n<br/><br/>$$ PE_{bcc} = \\frac{2 \\times \\frac{4}{3} \\pi r_y^3}{(L_y)^3} = \\frac{3 \\pi \\sqrt{3}}{32} \\tag{9} $$\n\n<br/><br/>- Simple Cubic :\n\n<br/><br/>$$ PE_{sc} = \\frac{1 \\times \\frac{4}{3} \\pi r_z^3}{(L_z)^3} = \\frac{\\pi}{6} \\tag{10} $$\n\n<br/><br/>Comparing these packing efficiencies, we find :\n<br/><br/>$$ PE_{fcc} > PE_{bcc} > PE_{sc} \\tag{11} $$\n\n<br/><br/>This means Option A : Packing efficiency of unit cell of $x > y > z$ is correct.\n\n<br/><br/><b>5. Calculating Densities :</b>\n\n<br/><br/>The densities of x and y are given by the formula $d = \\frac{Z \\cdot M}{N_a \\cdot L^3}$, where $Z$ is the number of atoms in the unit cell, $M$ is the molar mass of the metal, $N_a$ is Avogadro's number, and $L$ is the edge length of the unit cell.\n\n<br/><br/>- For x (FCC), $Z=4$ :\n<br/><br/>$$ d_x = \\frac{4 M_x}{N_a (L_x)^3} \\tag{12} $$\n\n<br/><br/>- For y (BCC), $Z=2$ :\n<br/><br/>$$ d_y = \\frac{2 M_y}{N_a (L_y)^3} \\tag{13} $$\n\n<br/><br/>$M_z=\\frac{3}{2} M_y$ and $M_z=3 M_x$. This implies that $M_x=\\frac{M_y}{2}$. Thus, $2M_x=M_y$, we can write :\n<br/><br/>$$ \\frac{d_x}{d_y} = \\frac{2 M_x}{M_y} \\times \\left(\\frac{L_y}{L_x}\\right)^3 \\tag{14} $$ .......(7)\n\n<br/><br/>Substituting the given relation $2 M_x = M_y$ into Eq. (7), we get :\n\n<br/><br/>$$ \\frac{d_x}{d_y} = 2 \\times 1 \\times \\left(\\frac{32/3}{2 \\sqrt{2}}\\right)^3 \\tag{15} $$ ..........(8)\n\n<br/><br/>After simplifying Eq. (8), we find $d_x > d_y$.\n\n<br/><br/>This means Option D : Density of $x > y$ is correct.\n\n<br/><br/>So, the correct answers are Options A, B, and D."
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$\\mathrm{x}, \\mathrm{y}$, और $\\mathrm{z}$ धातुओं के परमाणु क्रमशः $\\mathrm{L}_{\\mathrm{x}}$ कोर लंबाई (edge length) वाला फलक केंद्रित घनीय (fcc) एकक सेल, $\\mathrm{L}_{\\mathrm{y}}$ कोर लंबाई वाला अंतः केंद्रित घनीय (bcc) एकक सेल, और $\\mathrm{L}_{\\mathrm{z}}$ कोर लंबाई वाला सरल घनीय (simple cubic) एकक सेल बनाते हैं।\nयदि $r_z=\\frac{\\sqrt{3}}{2} r_y ; r_y=\\frac{8}{\\sqrt{3}} r_x ; M_z=\\frac{3}{2} M_y$ और $M_z=3 M_x$ तो सही कथन है(हैं)।\n<br/><br/>[दिया गया है : $\\mathrm{M}_{\\mathrm{x}}, \\mathrm{M}_{\\mathrm{y}}$, और $\\mathrm{M}_{\\mathrm{z}}$ क्रमशः धातु $\\mathrm{x}, \\mathrm{y}$, और $\\mathrm{z}$ के मोलर द्रव्यमान हैं<br/><br/>\n$\\mathrm{r}_{\\mathrm{x}}, \\mathrm{r}_{\\mathrm{y}}$, और $\\mathrm{r}_{\\mathrm{z}}$ क्रमशः धातुओं $\\mathrm{x}, \\mathrm{y}$, और $\\mathrm{z}$ की परमाणु त्रिज्या (atomic radii) हैं ]",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$x$ के एकक सेल की संकुलन क्षमता (Packing efficiency) $>y$ के एकक सेल की संकुलन क्षमता $>z$ के एकक सेल की संकुलन क्षमता"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{L}_{\\mathrm{y}}>\\mathrm{L}_{\\mathrm{z}}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{L}_{\\mathrm{x}}>\\mathrm{L}_{\\mathrm{y}}$"
+            },
+            {
+              "identifier": "D",
+              "content": " $x$ का घनत्व $>y$ का घनत्व"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<b>1. परमाणु त्रिज्याओं के संबंध :</b>\n\n<br/><br/>दिया गया है,\n<br/><br/>$$ r_{y} = \\frac{8}{\\sqrt{3}} r_{x} \\tag{1} $$ ......(1)\n<br/><br/>$$ r_{z} = \\frac{\\sqrt{3}}{2} r_{y} \\tag{2} $$ ........(2)\n\n<br/><br/>समीकरण (1) को समीकरण (2) में प्रतिस्थापित करने पर, हमें प्राप्त होता है :\n<br/><br/>$$ r_{z} = \\frac{\\sqrt{3}}{2} \\times \\frac{8}{\\sqrt{3}} r_{x} = 4 r_{x} \\tag{3} $$ .......(3)\n\n<br/><br/><b>2. इकाई कोष्ठिकाओं की कोर लंबाइयाँ :</b>\n\n<br/><br/>x, y, और z के लिए इकाई कोष्ठिकाओं की कोर लंबाइयाँ (L) निम्नलिखित द्वारा दी गई हैं :\n<br/><br/>$$ L_x = 2 \\sqrt{2} r_x \\quad \\text{(FCC के लिए)} \\tag{4} $$ .......(4)\n<br/><br/>$$ L_y = 4 r_y = \\frac{32}{\\sqrt{3}} r_x \\quad \\text{(BCC के लिए, समीकरण (1) का उपयोग करते हुए)} \\tag{5} $$ .......(5)\n<br/><br/>$$ L_z = 2 r_z = 8 r_x \\quad \\text{(सरल घनीय के लिए, समीकरण (3) का उपयोग करते हुए)} \\tag{6} $$ .......(6)\n\n<br/><br/><b>3. कोर लंबाइयों की तुलना :</b>\n\n<br/><br/>समीकरण (4), (5) और (6) से, हम पाते हैं :\n<br/><br/>$$ L_y > L_z > L_x \\tag{7} $$\n\n<br/><br/>इसका अर्थ है कि विकल्प B : $L_y > L_z$ सही है।\n\n<br/><br/><b>4. संकुलन दक्षताएँ :</b>\n\n<br/><br/>FCC, BCC, और सरल घनीय के लिए संकुलन दक्षताओं की गणना निम्नानुसार की जाती है :\n\n<br/><br/>- FCC : \n\n<br/><br/>$$ PE_{fcc} = \\frac{4 \\times \\frac{4}{3} \\pi r_x^3}{(L_x)^3} = \\frac{\\pi}{\\sqrt{2}} \\tag{8} $$\n\n<br/><br/>- BCC : \n\n<br/><br/>$$ PE_{bcc} = \\frac{2 \\times \\frac{4}{3} \\pi r_y^3}{(L_y)^3} = \\frac{3 \\pi \\sqrt{3}}{32} \\tag{9} $$\n\n<br/><br/>- सरल घनीय :\n\n<br/><br/>$$ PE_{sc} = \\frac{1 \\times \\frac{4}{3} \\pi r_z^3}{(L_z)^3} = \\frac{\\pi}{6} \\tag{10} $$\n\n<br/><br/>इन संकुलन दक्षताओं की तुलना करने पर, हम पाते हैं :\n<br/><br/>$$ PE_{fcc} > PE_{bcc} > PE_{sc} \\tag{11} $$\n\n<br/><br/>इसका अर्थ है कि विकल्प A : $x > y > z$ की इकाई कोष्ठिका की संकुलन दक्षता सही है।\n\n<br/><br/><b>5. घनत्वों की गणना :</b>\n\n<br/><br/>x और y के घनत्व सूत्र $d = \\frac{Z \\cdot M}{N_a \\cdot L^3}$ द्वारा दिए जाते हैं, जहाँ $Z$ इकाई कोष्ठिका में परमाणुओं की संख्या है, $M$ धातु का मोलर द्रव्यमान है, $N_a$ आवोगाद्रो संख्या है, और $L$ इकाई कोष्ठिका की कोर लंबाई है।\n\n<br/><br/>- x (FCC) के लिए, $Z=4$ :\n<br/><br/>$$ d_x = \\frac{4 M_x}{N_a (L_x)^3} \\tag{12} $$\n\n<br/><br/>- y (BCC) के लिए, $Z=2$ :\n<br/><br/>$$ d_y = \\frac{2 M_y}{N_a (L_y)^3} \\tag{13} $$\n\n<br/><br/>$M_z=\\frac{3}{2} M_y$ और $M_z=3 M_x$। इसका तात्पर्य है कि $M_x=\\frac{M_y}{2}$। इस प्रकार, $2M_x=M_y$, हम लिख सकते हैं :\n<br/><br/>$$ \\frac{d_x}{d_y} = \\frac{2 M_x}{M_y} \\times \\left(\\frac{L_y}{L_x}\\right)^3 \\tag{14} $$ .......(7)\n\n<br/><br/>दिए गए संबंध $2 M_x = M_y$ को समीकरण (7) में प्रतिस्थापित करने पर, हमें प्राप्त होता है :\n\n<br/><br/>$$ \\frac{d_x}{d_y} = 2 \\times 1 \\times \\left(\\frac{32/3}{2 \\sqrt{2}}\\right)^3 \\tag{15} $$ ..........(8)\n\n<br/><br/>समीकरण (8) को सरल करने के बाद, हम पाते हैं $d_x > d_y$।\n\n<br/><br/>इसका अर्थ है कि विकल्प D : $x > y$ का घनत्व सही है।\n\n<br/><br/>अतः, सही उत्तर विकल्प A, B, और D हैं।"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "crystal-structure-of-solids",
+      "type": "mcqm",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "Atoms of metals $\\mathrm{x}, \\mathrm{y}$, and $\\mathrm{z}$ form face-centred cubic (fcc) unit cell of edge length $\\mathrm{L}_{\\mathrm{x}}$, body-centred cubic (bcc) unit cell of edge length $\\mathrm{L}_y$, and simple cubic unit cell of edg..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "$\\mathrm{x}, \\mathrm{y}$, और $\\mathrm{z}$ धातुओं के परमाणु क्रमशः $\\mathrm{L}_{\\mathrm{x}}$ कोर लंबाई (edge length) वाला फलक केंद्रित घनीय (fcc) एकक सेल, $\\mathrm{L}_{\\mathrm{y}}$ कोर लंबाई वाला अंतः केंद्रित घनीय (bcc) एकक सेल, और $\\mathrm..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "ih7bw0spl43p5zdfekqp",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "atom-mathrmx-occupies-the-fcc-lattice-sites-as-well-as-jee-advanced-chemistry-hydrocarbons-forvxxe03xjldx4e",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Atom $\\mathrm{X}$ occupies the fcc lattice sites as well as alternate tetrahedral voids of the same lattice. The packing efficiency (in %) of the resultant solid is closest to",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "25"
+            },
+            {
+              "identifier": "B",
+              "content": "35"
+            },
+            {
+              "identifier": "C",
+              "content": "55"
+            },
+            {
+              "identifier": "D",
+              "content": "75"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "Atom $X$ occupies FCC lattice sites as well as alternate tetrahedral voids of FCC.\n<br/><br/>In FCC, tetrahedral voids are 8 (in a unit cell)\n<br/><br/>Hence\n<br/><br/>Atom $X$ in a unit cell (FCC lattice sites) $=8 \\times \\frac{1}{8}+6 \\times \\frac{1}{2}=4$\n<br/><br/>Atom $X$ in a unit cell (in T.V.) $=\\frac{1}{2} \\times 8=4$\n<br/><br/>Total atom $\\mathrm{X}$ in one unit cell $=8$\n<br/><br/>For relation between a and r, since T.V. forms at $\\frac{1}{4}$ th of body diagonal,\n<br/><br/>$$\n\\begin{aligned}\n& \\frac{a \\sqrt{3}}{4}=2 r \\\\\\\\\n&\\Rightarrow a=\\frac{8 r}{\\sqrt{3}}\n\\end{aligned}\n$$\n<br/><br/>Packing efficiency \n<br/><br/>$=\\frac{8 \\times \\frac{4}{3} \\pi r^3}{a^3} \\times 100=\\frac{8 \\times \\frac{4}{3} \\pi r^3}{\\left(\\frac{8 r}{\\sqrt{3}}\\right)^3} \\times 100 \\simeq 35 \\%$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>परमाणु $$X, \\mathrm{fcc}$$ जालक स्थलों तथा इसी जालक की एकांतर चतुष्फलकीय रिक्तियों को ग्रहण करते हैं। परिणामी ठोस की संकुलन क्षमता (% में) लगभग है</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "25"
+            },
+            {
+              "identifier": "B",
+              "content": "35"
+            },
+            {
+              "identifier": "C",
+              "content": "55"
+            },
+            {
+              "identifier": "D",
+              "content": "75"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "परमाणु $X$, FCC जालक स्थलों के साथ-साथ FCC के एकान्तर चतुष्फलकीय रिक्तियों को भी घेरता है।\n<br/><br/>FCC में, चतुष्फलकीय रिक्तियाँ 8 होती हैं (एक इकाई सेल में)\n<br/><br/>अतः\n<br/><br/>इकाई सेल में परमाणु $X$ (FCC जालक स्थलों पर) $=8 \\times \\frac{1}{8}+6 \\times \\frac{1}{2}=4$\n<br/><br/>इकाई सेल में परमाणु $X$ (T.V. में) $=\\frac{1}{2} \\times 8=4$\n<br/><br/>एक इकाई सेल में कुल परमाणु $\\mathrm{X}$ $=8$\n<br/><br/>a और r के बीच संबंध के लिए, चूँकि T.V. काय विकर्ण के $\\frac{1}{4}$ वें भाग पर बनता है,\n<br/><br/>$$\n\\begin{aligned}\n& \\frac{a \\sqrt{3}}{4}=2 r \\\\\\\\\n&\\Rightarrow a=\\frac{8 r}{\\sqrt{3}}\n\\end{aligned}\n$$\n<br/><br/>संकुलन दक्षता \n<br/><br/>$=\\frac{8 \\times \\frac{4}{3} \\pi r^3}{a^3} \\times 100=\\frac{8 \\times \\frac{4}{3} \\pi r^3}{\\left(\\frac{8 r}{\\sqrt{3}}\\right)^3} \\times 100 \\simeq 35 \\%$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "interestitial-voids",
+      "type": "mcq",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "Atom $\\mathrm{X}$ occupies the fcc lattice sites as well as alternate tetrahedral voids of the same lattice. The packing efficiency (in %) of the resultant solid is closest to"
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "परमाणु $$X, \\mathrm{fcc}$$ जालक स्थलों तथा इसी जालक की एकांतर चतुष्फलकीय रिक्तियों को ग्रहण करते हैं। परिणामी ठोस की संकुलन क्षमता (% में) लगभग है"
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "jgekls4drj6ym2f6tuxm",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "for-the-given-close-packed-structure-of-a-salt-made-of-catio-jee-advanced-chemistry-some-basic-concepts-of-chemistry-hcecexqosoa2etsz",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "For the given close packed structure of a salt made of cation X and anion Y shown below (ions of only one face are shown for clarity), the packing fraction is approximately (packing fraction = $${{packing\\,efficiency} \\over {100}}$$)<br><br><img src=\"https://imagex.cdn.examgoal.net/1kufzsmiq/cf5d783a-c0d2-4b44-90f4-65bd94643a78/0eff8e20-26e8-11ec-8f50-79560aebf318/file-1kufzsmir.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Solid State Question 16 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.74"
+            },
+            {
+              "identifier": "B",
+              "content": "0.63"
+            },
+            {
+              "identifier": "C",
+              "content": "0.52"
+            },
+            {
+              "identifier": "D",
+              "content": "0.48"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx79j9w1/21f8c495-ec44-4e83-9866-2d4cf80dd108/be8b1b20-5d7f-11ec-a257-1bc02d1e5ae7/file-1kx79j9w2.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx79j9w1/21f8c495-ec44-4e83-9866-2d4cf80dd108/be8b1b20-5d7f-11ec-a257-1bc02d1e5ae7/file-1kx79j9w2.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Solid State Question 16 English Explanation\"><br>Radius of cation X = r<sub>+</sub><br><br>Number of cation X present = $$6 \\times {1 \\over 2} = 3$$<br><br>Radius of anion Y = r<sub>$$-$$</sub><br><br>Number of anion Y present = $${1 \\over 8} \\times 8 = 1$$<br><br>Side of unit cell = a<br><br>As two anions are touching each other, so side of unit cell,<br><br>a = 2r<sub>$$-$$</sub><br><br>Volume of unit cell = a<sup>3</sup> = (2r<sub>$$-$$</sub>)<sup>3</sup> = 8r$$_ - ^3$$<br><br>Volume of cations X = Number of cation $$\\times$$ Volume of one cation = 3 $$\\times$$ $${4 \\over 3}\\pi r_ + ^3$$<br><br>Volume of anions Y = Number of anion $$\\times$$ Volume of one anion = 1 $$\\times$$ $${4 \\over 3}\\pi r_ - ^3$$<br><br>Radius ratio for close packed structure, $${{{r_ + }} \\over {{r_ - }}} = 0.414$$<br><br>Packing efficiency = $${{Volume\\,of\\,cation \\times Number\\,of\\,cations + Volume\\,of\\,anion \\times Number\\,of\\,anions} \\over {Volume\\,of\\,unit\\,cell}} \\times 100$$<br><br>Packing fraction = $${{Packing\\,efficiency} \\over {100}}$$<br><br>$$ = {{1 \\times {4 \\over 3}\\pi r_ - ^3 + 3 \\times {4 \\over 3}\\pi r_ + ^3} \\over {8r_ - ^3}}$$<br><br>$$ = {{4\\pi } \\over {3 \\times 8}}\\left[ {{{r_ - ^3} \\over {r_ - ^3}} + {{3r_ + ^3} \\over {r_ - ^3}}} \\right] = {\\pi  \\over 6}[1 + 3{(0.414)^3}]$$<br><br>$$ = {{3.14} \\over 6}(1 + 3 \\times 0.0710) = {{3.14} \\over 6} \\times 1.213 = 0.63$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>जैसा की नीचे दर्शाया गया है, दिए गए एक लवण की निविड़ संकुलीत संरचना (close packed structure), जो धनायन $$\\mathbf{X}$$ और ऋणायन $$\\mathbf{Y}$$ से बने है (स्पष्टता के लिए एक ही फलक के आयनों को दर्शाए गए है), का संकुलित गुणांक (packing fraction) लगभग होगा (packing fraction $$=\\frac{\\text { packing efficiency }}{100}$$ )</p>\n<p><img src=\"https://imagex.cdn.examgoal.net/1kufzsmiq/cf5d783a-c0d2-4b44-90f4-65bd94643a78/0eff8e20-26e8-11ec-8f50-79560aebf318/file-1kufzsmir.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Solid State Question 16 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.74"
+            },
+            {
+              "identifier": "B",
+              "content": "0.63"
+            },
+            {
+              "identifier": "C",
+              "content": "0.52"
+            },
+            {
+              "identifier": "D",
+              "content": "0.48"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx79j9w1/21f8c495-ec44-4e83-9866-2d4cf80dd108/be8b1b20-5d7f-11ec-a257-1bc02d1e5ae7/file-1kx79j9w2.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx79j9w1/21f8c495-ec44-4e83-9866-2d4cf80dd108/be8b1b20-5d7f-11ec-a257-1bc02d1e5ae7/file-1kx79j9w2.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Chemistry - Solid State Question 16 Hindi Explanation\"><br>धनायन X की त्रिज्या = r<sub>+</sub><br><br>उपस्थित धनायन X की संख्या = $$6 \\times {1 \\over 2} = 3$$<br><br>ऋणायन Y की त्रिज्या = r<sub>$$-$$</sub><br><br>उपस्थित ऋणायन Y की संख्या = $${1 \\over 8} \\times 8 = 1$$<br><br>इकाई सेल की भुजा = a<br><br>चूंकि दो ऋणायन एक दूसरे को स्पर्श कर रहे हैं, इसलिए इकाई सेल की भुजा,<br><br>a = 2r<sub>$$-$$</sub><br><br>इकाई सेल का आयतन = a<sup>3</sup> = (2r<sub>$$-$$</sub>)<sup>3</sup> = 8r$$_ - ^3$$<br><br>धनायनों X का आयतन = धनायनों की संख्या $$\\times$$ एक धनायन का आयतन = 3 $$\\times$$ $${4 \\over 3}\\pi r_ + ^3$$<br><br>ऋणायनों Y का आयतन = ऋणायनों की संख्या $$\\times$$ एक ऋणायन का आयतन = 1 $$\\times$$ $${4 \\over 3}\\pi r_ - ^3$$<br><br>निविड संकुलित संरचना के लिए त्रिज्या अनुपात, $${{{r_ + }} \\over {{r_ - }}} = 0.414$$<br><br>संकुलन दक्षता = $${{धनायन\\,का\\,आयतन \\times धनायनों\\,की\\,संख्या + ऋणायन\\,का\\,आयतन \\times ऋणायनों\\,की\\,संख्या} \\over {इकाई\\,सेल\\,का\\,आयतन}} \\times 100$$<br><br>संकुलन भिन्न = $${{संकुलन\\,दक्षता} \\over {100}}$$<br><br>$$ = {{1 \\times {4 \\over 3}\\pi r_ - ^3 + 3 \\times {4 \\over 3}\\pi r_ + ^3} \\over {8r_ - ^3}}$$<br><br>$$ = {{4\\pi } \\over {3 \\times 8}}\\left[ {{{r_ - ^3} \\over {r_ - ^3}} + {{3r_ + ^3} \\over {r_ - ^3}}} \\right] = {\\pi  \\over 6}[1 + 3{(0.414)^3}]$$<br><br>$$ = {{3.14} \\over 6}(1 + 3 \\times 0.0710) = {{3.14} \\over 6} \\times 1.213 = 0.63$$"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "close-packing-in-crystals",
+      "type": "mcq",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "For the given close packed structure of a salt made of cation X and anion Y shown below (ions of only one face are shown for clarity), the packing fraction is approximately (packing fraction = $${{packing\\,efficiency} \\over {100}}$$)"
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "जैसा की नीचे दर्शाया गया है, दिए गए एक लवण की निविड़ संकुलीत संरचना (close packed structure), जो धनायन $$\\mathbf{X}$$ और ऋणायन $$\\mathbf{Y}$$ से बने है (स्पष्टता के लिए एक ही फलक के आयनों को दर्शाए गए है), का संकुलित गुणांक (packing fractio..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "question_id": "q49aibhcijisrrmtljan",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "permalink": "the-cubic-unit-cell-structure-of-a-compound-containing-catio-jee-advanced-chemistry-some-basic-concepts-of-chemistry-qnq7qsuzazn66gw9",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The cubic unit cell structure of a compound containing cation M and anion X is shown below. When compared to the anion, the cation has smaller ionic radius. Choose the correct statement(s).<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9t7fqe/7f164289-ccb6-44c6-a6dd-a2ab43c9cd5e/3d3a9060-5ee6-11ec-8042-adaa217011ef/file-1kx9t7fqf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9t7fqe/7f164289-ccb6-44c6-a6dd-a2ab43c9cd5e/3d3a9060-5ee6-11ec-8042-adaa217011ef/file-1kx9t7fqf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2020 Paper 1 Offline Chemistry - Solid State Question 17 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The empirical formula of the compound is MX."
+            },
+            {
+              "identifier": "B",
+              "content": "The cation M and anion X have different coordination geometries."
+            },
+            {
+              "identifier": "C",
+              "content": "The ratio of M$$-$$X bond length of the cubic unit cell edge length is 0.866."
+            },
+            {
+              "identifier": "D",
+              "content": "The ratio of the ionic radii of cation M to anion X is 0.414."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "(a) The empirical formula of the compound : <br><br>Contribution of M and X :<br><br>$${M_{\\left( {2 \\times {1 \\over 2}} \\right)}}{X_{\\left( {4 \\times {1 \\over 4}} \\right)}} \\Rightarrow MX$$<br><br>(b) Coordination number of both M and X is 8.<br><br>(c) Distance between M and X<br><br>$$ = \\sqrt {{{{a^2}} \\over 4} + {{{a^2}} \\over 2}}  = \\sqrt {{3 \\over 4}} a = {{\\sqrt 3 } \\over 2}a$$<br><br>$$ \\Rightarrow $$ 0.866 a<br><br>(d) $${r_M}\\,:\\,{r_X} = (\\sqrt 3  - 1)\\,:\\,1 \\Rightarrow 0.732:1$$, thus statement (d) is incorrect."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>धनायन $$\\mathrm{M}$$ और ऋणायन $$\\mathrm{X}$$ से निर्मित एक यौगिक की घनीय एकक कोष्ठिका (cubic unit cell) की संरचना नीचे दिखाई गयी है। इस यौगिक में धनायन की आयनिक त्रिज्या ऋणायन की आयनिक त्रिज्या से छोटी है। सही कथन (कथनों) का चयन करें।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9t7fqe/7f164289-ccb6-44c6-a6dd-a2ab43c9cd5e/3d3a9060-5ee6-11ec-8042-adaa217011ef/file-1kx9t7fqf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9t7fqe/7f164289-ccb6-44c6-a6dd-a2ab43c9cd5e/3d3a9060-5ee6-11ec-8042-adaa217011ef/file-1kx9t7fqf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2020 Paper 1 Offline Chemistry - Solid State Question 17 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "यौगिक का मूलानुपाति सूत्र (empirical formula) MX है।"
+            },
+            {
+              "identifier": "B",
+              "content": "धनायन M और ऋणायन X की उपसहसंयोजन ज्यामितियाँ (coordination geometries) भित्र हैं।"
+            },
+            {
+              "identifier": "C",
+              "content": "M-X की आबंध लम्बाई और घनीय एकक कोष्ठिका के कोर की लम्बाई का अनुपात 0.866 है।"
+            },
+            {
+              "identifier": "D",
+              "content": "धनायन M और ऋणायन X की आयनिक त्रिज्याओं का अनुपात 0.414 है ।"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "(a) यौगिक का मूलानुपाती सूत्र : <br><br>M और X का योगदान :<br><br>$${M_{\\left( {2 \\times {1 \\over 2}} \\right)}}{X_{\\left( {4 \\times {1 \\over 4}} \\right)}} \\Rightarrow MX$$<br><br>(b) M और X दोनों की समन्वय संख्या 8 है।<br><br>(c) M और X के बीच की दूरी<br><br>$$ = \\sqrt {{{a^2} \\over 4} + {{a^2} \\over 2}}  = \\sqrt {{3 \\over 4}} a = {{\\sqrt 3 } \\over 2}a$$<br><br>$$ \\Rightarrow $$ 0.866 a<br><br>(d) $${r_M}\\,:\\,{r_X} = (\\sqrt 3  - 1)\\,:\\,1 \\Rightarrow 0.732:1$$, इस प्रकार कथन (d) गलत है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "structure-of-ionic-compounds",
+      "type": "mcqm",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The cubic unit cell structure of a compound containing cation M and anion X is shown below. When compared to the anion, the cation has smaller ionic radius. Choose the correct statement(s)."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "धनायन $$\\mathrm{M}$$ और ऋणायन $$\\mathrm{X}$$ से निर्मित एक यौगिक की घनीय एकक कोष्ठिका (cubic unit cell) की संरचना नीचे दिखाई गयी है। इस यौगिक में धनायन की आयनिक त्रिज्या ऋणायन की आयनिक त्रिज्या से छोटी है। सही कथन (कथनों) का चयन करें।\n"
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ezdlis2exfdubvhg2781",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solid-state",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Consider an ionic solid $$MX$$ with $$NaCl$$ structure. Construct a new structure $$(Z)$$ whose unit cell is constructed from the unit cell of $$MX$$ following the sequential instructions given below. Neglect the charge balance. \n<br>$$(i)\\,\\,\\,\\,\\,$$ Remove all the anions $$(X)$$ except the central one \n<br><br>$$(ii)\\,\\,\\,\\,$$ Replace all the face centered cations $$(M)$$ by anions $$(X)$$ \n<br><br>$$(iii)\\,\\,$$ Remove all the corner cations $$(M)$$\n<br><br>$$(iv)\\,\\,\\,\\,$$ Replace the central anion $$(X)$$ with cation $$(M)$$ \n<br><br>The value of $$\\,\\,\\left( {{{number\\,\\,of\\,\\,anions} \\over {number\\,\\,of\\,\\,cations}}} \\right)\\,\\,$$ in $$Z$$ is ___________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "<p>The unit cell of initial structure of ionic solid MX looks like</p>\n<p> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6.jpeg\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - Solid State Question 19 English Explanation\"></picture> </p>\n<p>In NaCl type of solids cations (Na<sup>+</sup>) occupy the octahedral voids while anions (Cl<sup>$$-$$</sup>) occupy the face centre positions.</p>\n<p>However, as per the demand of problem the position of cations and anions are swapped.</p>\n<p>We also know that (for 1 unit cell)</p>\n<p>(A) Total number of atoms at FCC = 4</p>\n<p>(B) Total number of octahedral voids = 4 (as no. of atoms at FCC = No. of octahedral voids)</p>\n<p>Now taking the conditions one by one</p>\n<p>(i) If we remove all the anions except the central one than number of left anions.</p>\n<p>= 4 $$-$ 3 = 1</p>\n<p>(ii) If we replace all the face centred cations by anions than effective number of cations will be = 4 $$-$$ 3 = 1 Likewise effective number of anions will be = 1 + 3 = 4</p>\n<p>(iii) If we remove all the corner cations then effective number of cations will be 1 $$-$$ 1 = 0</p>\n<p>(iv) If we replace central anion with cation then effective number of cations will be 0 + 1 = 1 Likewise effective number of anions will be 4 $$-$$ 1 = 3</p>\n<p>Thus, as the final outcome, total number of cations present in Z after fulfilling all the four sequential instructions = 1 Likewise, total number of anions = 3</p>\n<p>Hence, the value of $${{Number\\,of\\,anions} \\over {Number\\,of\\,cations}} = {3 \\over 1} = 3$$</p>"
+        },
+        "hi": {
+          "content": "एक आयनिक ठोस $$MX$$ को $$NaCl$$ संरचना के साथ मानें। एक नई संरचना $$(Z)$$ बनाएं, जिसकी इकाई कोशिका का निर्माण $$MX$$ की इकाई कोशिका से अनुक्रमिक निर्देशों का पालन करते हुए किया गया है। चार्ज बैलेंस की उपेक्षा करें। \n<br>$$(i)\\,\\,\\,\\,$$ सभी ऐनायन $$(X)$$ हटाएं सिवाय केन्द्र वाली के \n<br><br>$$(ii)\\,\\,\\,\\,$$ सभी फेस सेंटर्ड कैटायन $$(M)$$ को ऐनायन $$(X)$$ से बदलें \n<br><br>$$(iii)\\,\\,$$ सभी कॉर्नर कैटायन $$(M)$$ को हटाएं\n<br><br>$$(iv)\\,\\,\\,\\,$$ केंद्र ऐनायन $$(X)$$ को कैटायन $$(M)$$ से बदलें \n<br><br>$$Z$$ में $$\\,\\,\\left( {{\\text{ ऐनायन की संख्या} \\over \\text{कैटायन की संख्या}}} \\right)\\,\\,$$ का मान ___________ है।",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "<p>आयनिक ठोस MX की प्रारंभिक संरचना की इकाई कोष्ठिका इस प्रकार दिखती है</p>\n<p> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kywoqaj5/e22a3a88-cb37-4c1a-b19f-e82d29b4f7b6/fa411410-7f46-11ec-9a1e-9f87431102fd/file-1kywoqaj6.jpeg\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - Solid State Question 19 Hindi Explanation\"></picture> </p>\n<p>NaCl प्रकार के ठोसों में धनायन (Na<sup>+</sup>) अष्टफलकीय रिक्तियों को घेरते हैं जबकि ऋणायन (Cl<sup>$$-$$</sup>) फलक केंद्र स्थितियों को घेरते हैं।</p>\n<p>हालांकि, प्रश्न की मांग के अनुसार धनायन और ऋणायन की स्थिति को आपस में बदल दिया गया है।</p>\n<p>हम यह भी जानते हैं कि (1 इकाई कोष्ठिका के लिए)</p>\n<p>(A) FCC पर परमाणुओं की कुल संख्या = 4</p>\n<p>(B) अष्टफलकीय रिक्तियों की कुल संख्या = 4 (क्योंकि FCC पर परमाणुओं की संख्या = अष्टफलकीय रिक्तियों की संख्या)</p>\n<p>अब शर्तों को एक-एक करके लेते हैं</p>\n<p>(i) यदि हम केंद्रीय ऋणायन को छोड़कर सभी ऋणायनों को हटा दें तो शेष ऋणायनों की संख्या।</p>\n<p>= 4 $$-$$ 3 = 1</p>\n<p>(ii) यदि हम सभी फलक केंद्रित धनायनों को ऋणायनों से प्रतिस्थापित करें तो धनायनों की प्रभावी संख्या = 4 $$-$$ 3 = 1 होगी इसी प्रकार ऋणायनों की प्रभावी संख्या = 1 + 3 = 4 होगी</p>\n<p>(iii) यदि हम सभी कोने के धनायनों को हटा दें तो धनायनों की प्रभावी संख्या 1 $$-$$ 1 = 0 होगी</p>\n<p>(iv) यदि हम केंद्रीय ऋणायन को धनायन से प्रतिस्थापित करें तो धनायनों की प्रभावी संख्या 0 + 1 = 1 होगी इसी प्रकार ऋणायनों की प्रभावी संख्या 4 $$-$$ 1 = 3 होगी</p>\n<p>इस प्रकार, अंतिम परिणाम के रूप में, सभी चार क्रमिक निर्देशों को पूरा करने के बाद Z में उपस्थित धनायनों की कुल संख्या = 1 इसी प्रकार, ऋणायनों की कुल संख्या = 3</p>\n<p>अतः, $${{ऋणायनों\\,की\\,संख्या} \\over {धनायनों\\,की\\,संख्या}}$$ का मान = $${3 \\over 1} = 3$$</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "consider-an-ionic-solid-mx-with-nacl-structure-cons-2018-marks-3-wjznnwbmzqfnholq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "crystal-structure-of-solids",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "Consider an ionic solid $$MX$$ with $$NaCl$$ structure. Construct a new structure $$(Z)$$ whose unit cell is constructed from the unit cell of $$MX$$ following the sequential instructions given below. Neglect the charge balance. \n$$(i)\\,\\,\\..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "एक आयनिक ठोस $$MX$$ को $$NaCl$$ संरचना के साथ मानें। एक नई संरचना $$(Z)$$ बनाएं, जिसकी इकाई कोशिका का निर्माण $$MX$$ की इकाई कोशिका से अनुक्रमिक निर्देशों का पालन करते हुए किया गया है। चार्ज बैलेंस की उपेक्षा करें। \n$$(i)\\,\\,\\,\\,$$ सभी ऐनाय..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7py1dt8yf1z2uby0j07k",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solid-state",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A crystalline solid of a pure substance has a face-centered cubic structure with a cell edge of $$400$$ $$pm.$$ If the density of the substance in the crystal is $$8$$ $$g\\,c{m^{ - 3}},$$ then the number of atoms present in $$256$$ $$g$$ of the crystal is $$N \\times {10^{24}}.$$ The value of $$N$$ is ",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<b>Given</b>:<br/><br/>\n(i) Edge length of face centred cubic (FCC) unit cell (a) $=400 \\mathrm{pm}$<br/><br/>\n(ii) Density of the substance $(\\rho)=8 \\mathrm{~g} \\mathrm{~cm}^{-3}$<br/><br/>\n(iii) Mass of the crystal $(m)=256 \\mathrm{~g}$<br/><br/>\n<b>To Find</b>: The value of $\\mathrm{N}$ in $\\mathrm{N} \\times 10^{24}$<br/><br/>\n<b>Formula</b>: Density of the cell $(\\rho)$<br/><br/>\n$$\n\\begin{aligned}\n& =\\frac{\\text { Mass of crystal }(\\mathrm{M}) \\times \\begin{array}{l}\n\\text { No. of atoms in unit cell } \\\\\n\\end{array}}{\\text { Volume of unit cell } \\times \\text { No. of atoms of pure substance in mass m }} \\\\\n\\end{aligned}\n$$\n<br/><br/>\n<b>Calculations</b>: A face-centred cubic (F.C.C.) lattice has atoms of pure substance at the corner of the unit cell and/or atom each at the centre of the face of the unit cell.\n<br/><br/>\nSince there are eight atoms at the corners and one atom at each of the six faces (i.e., six atoms in total):\n<br/><br/>\nTotal number of atoms present per unit cell $(z)$<br/><br/>\n$$\n=\\frac{1}{8} \\times 8+\\frac{1}{2} \\times 6=4\n$$<br/><br/>\nDensity of the cell $(\\rho)$<br/><br/>\n$$\n\\begin{aligned}\n& =\\frac{256 \\mathrm{~g} \\times 4}{\\left(400 \\times 10^{-10}\\right)^3 \\times \\mathrm{N}^1} \\\\\\\\\n& 8 \\mathrm{~g} \\mathrm{~cm}^{-3}=\\frac{256 \\mathrm{~g} \\times 4}{\\left(400 \\times 10^{-10}\\right) \\times \\mathrm{N}^1} \\\\\\\\\n& \\mathrm{~N}^{\\prime}=\\frac{256 \\mathrm{~g} \\times 4}{8 \\mathrm{~g} \\mathrm{~cm}^{-3} \\times(400)^3 \\times 10^{-30}} \\\\\\\\\n& \\mathbf{N}^{\\prime}=2 \\times 10^{24} \\text { atoms }\n\\end{aligned}\n$$<br/><br/>\nHence, the crystal of pure substance of mass $256 \\mathrm{~g}$ contains $2 \\times 10^{24}$ atoms.<br/><br/>\nNow, $\\mathrm{N}^{\\prime}=\\mathrm{N} \\times 10^{24}$<br/><br/>\nTherefore, value of $\\mathrm{N}=2$."
+        },
+        "hi": {
+          "content": "एक शुद्ध पदार्थ का एक सजीव ठोस भ्रकेंद्रित घन संरचना के सेल किनारे के साथ $$400$$ $$pm$$ है। यदि क्रिस्टल में पदार्थ की घनत्व $$8$$ $$g\\,c{m^{ - 3}}$$ है, तो क्रिस्टल के $$256$$ $$g$$ में उपस्थित परमाणुओं की संख्या $$N \\times {10^{24}}$$ है। $$N$$ का मान कितना है",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-crystalline-solid-of-a-pure-substance-has-a-face-centered-2018-marks-3-k0g2odqlb6ib7vcg.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-1-offline",
+      "topic": "crystal-structure-of-solids",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "A crystalline solid of a pure substance has a face-centered cubic structure with a cell edge of $$400$$ $$pm.$$ If the density of the substance in the crystal is $$8$$ $$g\\,c{m^{ - 3}},$$ then the number of atoms present in $$256$$ $$g$$ of..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "एक शुद्ध पदार्थ का एक सजीव ठोस भ्रकेंद्रित घन संरचना के सेल किनारे के साथ $$400$$ $$pm$$ है। यदि क्रिस्टल में पदार्थ की घनत्व $$8$$ $$g\\,c{m^{ - 3}}$$ है, तो क्रिस्टल के $$256$$ $$g$$ में उपस्थित परमाणुओं की संख्या $$N \\times {10^{24}}$$ है..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "lig0t47q9qjea8e4k85v",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solid-state",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The CORRECT statement(s) for cubic close packed (ccp) three dimensional structure is (are) :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The number of the nearest neighbours of an atom present in the topmost layer is 12"
+            },
+            {
+              "identifier": "B",
+              "content": "The efficiency of an atom packing is 74%"
+            },
+            {
+              "identifier": "C",
+              "content": "The number of octahedral and tetrahedral voids per atom are 1 and 2, respectively"
+            },
+            {
+              "identifier": "D",
+              "content": "The unit cell edge length is $$2 \\sqrt 2$$ times the radius of the atom"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Coordination number cannot be 12, for any atom in the topmost layer, as there is no layer above it. Thus, each atom is in contact with six atoms in the same layer and three atoms from the layer below it.</p>\n<p>For cubic close packing, we have</p>\n<p>Packing fraction = $${{Volume\\,of\\,four\\,spheres\\,in\\,the\\,unit\\,cell} \\over {Total\\,volume\\,of\\,the\\,unit\\,cell}}$$</p>\n<p>$$ = 4 \\times {{(4/3)\\pi {r^3}} \\over {16\\sqrt 2 {r^3}}} = {\\pi  \\over {3\\sqrt 2 }} = 0.74 = 74\\% $$</p>\n<p>In fcc unit cell, the effective number of atoms is</p>\n<p>One atom at each corner = 8 corner atoms $$ \\times {1 \\over 8} = 1$$</p>\n<p>Atoms at each of the six face centres :</p>\n<p>6 face centered atoms $$ \\times {1 \\over 2} = 3$$.</p>\n<p>Number of octahedral voids = 4.</p>\n<p>Number of tetrahedral voids = 8.</p>\n<p>Therefore, per atom, there is one octahedral void and two tetrahedral voids.</p>\n<p>In fcc (or ccp), the unit edge length is given by</p>\n<p>$$\\sqrt 2 a = 4r \\Rightarrow a = {{4r} \\over {\\sqrt 2 }} = 2\\sqrt 2 r$$</p>"
+        },
+        "hi": {
+          "content": "क्यूबिक क्लोज पैक्ड (ccp) तीन आयामी संरचना के लिए सही कथन यह हैं:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "शीर्ष परत में उपस्थित एक परमाणु के निकटतम पड़ोसियों की संख्या 12 है"
+            },
+            {
+              "identifier": "B",
+              "content": "परमाणु पैकिंग की दक्षता 74% है"
+            },
+            {
+              "identifier": "C",
+              "content": "प्रत्येक परमाणु के प्रति ऑक्टाहैड्रल और टेट्राहैड्रल रिक्तियाँ क्रमशः 1 और 2 होती हैं"
+            },
+            {
+              "identifier": "D",
+              "content": "यूनिट सेल की एज लंबाई परमाणु के त्रिज्या की $$2 \\sqrt 2$$ गुना होती है"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-correct-statements-for-cubic-close-packed-ccp-three-2016-marks-4-rimpefc0he4fnpov.htm",
+      "timeAllotted": 200000,
+      "topic": "close-packing-in-crystals",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The CORRECT statement(s) for cubic close packed (ccp) three dimensional structure is (are) :"
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "क्यूबिक क्लोज पैक्ड (ccp) तीन आयामी संरचना के लिए सही कथन यह हैं:"
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "17hy08waik4s4svvp171",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solid-state",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If the unit cell of a mineral has cubic close packed (ccp) array of oxygen atoms with m fraction of octahedral holes occupied by aluminium ions and n fraction of tetrahedral holes occupied by magnesium ions, m and n, respectively, are",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1/2, 1/8"
+            },
+            {
+              "identifier": "B",
+              "content": "1, 1/4"
+            },
+            {
+              "identifier": "C",
+              "content": "1/2, 1/2"
+            },
+            {
+              "identifier": "D",
+              "content": "1/4, 1/8"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>For ccp, Z = 4 = no. of O-atoms</p>\n<p>No. of octahedral voids = 4</p>\n<p>No. of tetrahedral voids = 2 $$\\times$$ 4 = 8</p>\n<p>No. of Al<sup>3+</sup> ions = m $$\\times$$ 4</p>\n<p>No. of Mg<sup>2+</sup> ions = n $$\\times$$ 8</p>\n<p>Thus, the formula of the mineral is Al<sub>4m</sub> Mg<sub>8n</sub>O<sub>4</sub></p>\n<p>4m(+3) + 8n(+2) + 4($$-$$2) = 0</p>\n<p>12m + 16n $$-$$ 8 = 0</p>\n<p>4(3m + 4n $$-$$ 2) = 0</p>\n<p>3m + 4n = 2</p>\n<p>Possible values of m and n are $${1 \\over 2}$$ and $${1 \\over 8}$$ respectively.</p>"
+        }
+      },
+      "permalink": "if-the-unit-cell-of-a-mineral-has-cubic-close-packed-ccp-a-2015-marks-4-zkcbp9chm4pruu6f.htm",
+      "timeAllotted": 180000,
+      "topic": "interestitial-voids",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "If the unit cell of a mineral has cubic close packed (ccp) array of oxygen atoms with m fraction of octahedral holes occupied by aluminium ions and n fraction of tetrahedral holes occupied by magnesium ions, m and n, respectively, are"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "question_id": "udc3ticfdeovastj0428",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "permalink": "pthe-arrangement-of-xsup-sup-ions-around-asup-jee-advanced-chemistry-some-basic-concepts-of-chemistry-sfda8hj5mxz2pbxx",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The arrangement of X<sup>$$-$$</sup> ions around A<sup>+</sup> ion in solid AX is given in the figure (not drawn to scale). If the radius of X<sup>$$-$$</sup> is 250 pm, the radius of A<sup>+</sup> is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1tvt9pq/4adf1917-cb35-40ab-a1f9-23fa9e6b6a0d/f92471d0-b920-11ec-aba9-13802b916eff/file-1l1tvt9pr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1tvt9pq/4adf1917-cb35-40ab-a1f9-23fa9e6b6a0d/f92471d0-b920-11ec-aba9-13802b916eff/file-1l1tvt9pr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2013 Paper 1 Offline Chemistry - Solid State Question 15 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "104 pm"
+            },
+            {
+              "identifier": "B",
+              "content": "125 pm"
+            },
+            {
+              "identifier": "C",
+              "content": "183 pm"
+            },
+            {
+              "identifier": "D",
+              "content": "57 pm"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>From the figure, it can be seen that the cation A<sup>+</sup> occupies octahedral void formed by the anion X<sup>$$-$$</sup>. The radius ratio for an octahedral void is r<sub>A<sup>+</sup></sub> / r<sub>X<sup>$$-$$</sup></sub> = 0.414. Now, given that the radius of anion X<sup>$$-$$</sup> is 250 pm, so the radius of A<sup>+</sup> is</p>\n<p>r<sub>A<sup>+</sup></sub> = 0.414 $$\\times$$ 250 = 103.50 $$ \\simeq $$ 104 pm</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "structure-of-ionic-compounds",
+      "type": "mcq",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The arrangement of X$$-$$ ions around A+ ion in solid AX is given in the figure (not drawn to scale). If the radius of X$$-$$ is 250 pm, the radius of A+ is\n"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "question_id": "ti6ggsd2h8197j6a47kb",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pa-compound-msubpsubxsubqsub-has-cubic-close-pac-jee-advanced-chemistry-some-basic-concepts-of-chemistry-yn3vs0thnwazrafv",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A compound M<sub>p</sub>X<sub>q</sub> has cubic close packing (ccp) arrangement of X. Its unit cell structure is shown below. The empirical formula of the compound is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l24ldf3w/e1ac3232-35a2-483a-bdf2-10e1a361a6b0/c4370fc0-bf04-11ec-8fbf-67f2639a0a45/file-1l24ldf3x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l24ldf3w/e1ac3232-35a2-483a-bdf2-10e1a361a6b0/c4370fc0-bf04-11ec-8fbf-67f2639a0a45/file-1l24ldf3x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 1 Offline Chemistry - Solid State Question 14 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "MX"
+            },
+            {
+              "identifier": "B",
+              "content": "MX<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "M<sub>2</sub>X"
+            },
+            {
+              "identifier": "D",
+              "content": "M<sub>5</sub>X<sub>14</sub>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>8 X atoms present at the corners.</p>\n<p>Atoms contribute to 1 unit cell $$ = {1 \\over 8} \\times 8 = 1$$</p>\n<p>6 X atoms present at the face centres.</p>\n<p>Atoms contribute to 1 unit cell $$ = 6 \\times {1 \\over 2} = 3$$</p>\n<p>Total X atoms $$ = 3 + 1 = 4$$</p>\n<p>4 M atoms present at edge centres.</p>\n<p>Atoms present in 1 unit cell $$ = 4 \\times {1 \\over 4} = 1$$</p>\n<p>1 M atom present at body centre and it contribute completely to 1 unit cell.</p>\n<p>Thus, total M atoms in one unit cell $$ = 1 + 1 = 2$$</p>\n<p>Ratio is $$M:X::2:4::1:2$$</p>\n<p>Thus, empirical formula is $$M{X_2}$$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "structure-of-ionic-compounds",
+      "type": "mcq",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "A compound MpXq has cubic close packing (ccp) arrangement of X. Its unit cell structure is shown below. The empirical formula of the compound is\n"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v85bxjnr2a2mmsuu0k6a",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solid-state",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The number of hexagonal faces that are present in a truncated octahedron is ____________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "<p>(i) The shape of a regular octahedron :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m0dviqo4/789418bd-1318-42d0-a12d-d92b0088277f/dc360440-653e-11ef-a8bc-8f2e844b097a/file-jaoe38c1m0dviqo5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m0dviqo4/789418bd-1318-42d0-a12d-d92b0088277f/dc360440-653e-11ef-a8bc-8f2e844b097a/file-jaoe38c1m0dviqo5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Solid State Question 20 English Explanation 1\"></p>\n<p>When the octahedron is truncated from all edges.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m0dvl6xr/1125b98a-daab-4287-931e-a9e2b697b6e5/20654ef0-653f-11ef-a8bc-8f2e844b097a/file-jaoe38c1m0dvl6xs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m0dvl6xr/1125b98a-daab-4287-931e-a9e2b697b6e5/20654ef0-653f-11ef-a8bc-8f2e844b097a/file-jaoe38c1m0dvl6xs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Solid State Question 20 English Explanation 2\"></p>\n<p>(ii) Each face of truncated octahedron is hexagonal.</p>\n<p>Since, there are 8 faces, there are eight hexagons.</p>"
+        }
+      },
+      "permalink": "the-number-of-hexagonal-face-that-present-in-a-truncated-oct-2011-marks-1-j92lp28tnaynqj05.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "topic": "close-packing-in-crystals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The number of hexagonal faces that are present in a truncated octahedron is ____________."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "hp5tfsa8dnqel8yvaang",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "permalink": "the-packing-efficiency-of-the-twodimensional-square-unit-cel-jee-advanced-chemistry-quvwrotlxjp1f6dn",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "The packing efficiency of the twodimensional square unit cell shown below is\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m4me1u3s/07a69953-b5b8-41a1-8ff2-6dcd5828d699/76462280-b91e-11ef-8816-99ffeaa487af/file-jaoe38c1m4me1u3t.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m4me1u3s/07a69953-b5b8-41a1-8ff2-6dcd5828d699/76462280-b91e-11ef-8816-99ffeaa487af/file-jaoe38c1m4me1u3t.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2010 Paper 2 Offline Chemistry - Solid State Question 2 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$39.27 \\%$"
+            },
+            {
+              "identifier": "B",
+              "content": "$68.02 \\%$"
+            },
+            {
+              "identifier": "C",
+              "content": "$74.05 \\%$"
+            },
+            {
+              "identifier": "D",
+              "content": "$78.54 \\%$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The diagonal is given as 4r, where r is the radius of atom or sphere forming close packed structure.</p>\n<p>$$ \\begin{aligned} \\text { Diagonal } & =\\sqrt{\\mathrm{L}^2+\\mathrm{L}^2}=\\sqrt{2 \\mathrm{~L}^2} \\\\\\\\ 4 r & =\\sqrt{2 \\mathrm{~L}^2} \\text { or } \\mathrm{L}=\\frac{4 r}{\\sqrt{2}}=2 \\sqrt{2} r \\\\\\\\ \\text { or } \\text { Total area } & =\\mathrm{L}^2 \\\\\\\\ (2 \\sqrt{2} r)^2 & =8 r^2 \\end{aligned} $$</p>\n<p>Number of spheres inside the square is</p>\n<p>$$ 1+4\\left(\\frac{1}{4}\\right)=2 $$</p>\n<p>Area of each sphere $=\\pi r^2$</p>\n<p>Total area of spheres $=2 \\times \\pi r^2$</p>\n<p>$$ \\begin{aligned} \\text { Packing fraction } & =\\frac{\\text { Total area of spheres }}{\\text { Total area }} \\\\\\\\ & =\\frac{2 \\times \\pi r^2}{8 r^2}=\\frac{\\pi}{4}=0.785 \\end{aligned} $$</p>\n<p>So, the percentage fraction is $78.5 \\%$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 200000,
+      "topic": "crystal-structure-of-solids",
+      "type": "mcq",
+      "year": 2010,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The packing efficiency of the twodimensional square unit cell shown below is\n\n"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "question_id": "q2gndk82r2ybvymqk7je",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pthe-coordination-number-of-al-in-the-crystalline-state-of-jee-advanced-chemistry-some-basic-concepts-of-chemistry-hqxzamg2eebzogdx",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The coordination number of Al in the crystalline state of AlCl$$_3$$ is ___________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>AlCl<sub>3</sub> exists as a close packed lattice of chloride\nions Cl<sup>–</sup>\n with Al<sup>3+</sup> occupying octahedral holes.\nHence, coordination number of Al<sup>3+</sup> is = 6.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "structure-of-ionic-compounds",
+      "type": "integer",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The coordination number of Al in the crystalline state of AlCl$$_3$$ is ___________."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "7z70xe3sp3etvie62455",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pthe-correct-statements-regarding-defects-in-solids-is--jee-advanced-chemistry-some-basic-concepts-of-chemistry-rvj8y4j8maqsk8jj",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The correct statement(s) regarding defects in solids is (are)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Frenkel defect is usually favoured by a very small difference in the sizes of cation and anion."
+            },
+            {
+              "identifier": "B",
+              "content": "Frenkel defect is a dislocation defect."
+            },
+            {
+              "identifier": "C",
+              "content": "Trapping of an electron in the lattice leads to the formation of F-centre."
+            },
+            {
+              "identifier": "D",
+              "content": "Schottky defects have no effect on the physical properties of solids."
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Frenkel defect occurs in compounds in which the anions are much larger in size than cations. It is a dislocation effect. The presence of Schottky defects lowers the density of the crystal, it hence affects the physical properties of the crystal. In the metal excess defects, the electrons trapped in anion vacancies are known as F-centres.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "imperfections-in-solids",
+      "type": "mcqm",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The correct statement(s) regarding defects in solids is (are)"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "663vszimbkf0b8urnzi3",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "pthe-number-of-atoms-in-this-hcp-unit-cell-isp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-jkkzlhdn2cmxpqpk",
+      "question": {
+        "en": {
+          "comprehension": "<p>In hexagonal systems of crystals, a frequently encountered arrangement of atoms is described as a hexagonal prism. Here, the top and bottom of the cell are regular hexagons and three atoms are sandwiched in between them. A space-filling model of this structure, called hexagonal close-packed (HCP), is constituted of a sphere on a flat surface surrounded in the same plane by six identical spheres as closely as possible. Three spheres are then placed over the first layer so that they touch each other and represent the second layer. Each one of these three spheres touches three spheres of the bottom layer. Finally, the second layer is covered with a third layer that is identical to the bottom layer in relative position. Assume radius of every sphere to be 'r'.</p>",
+          "direction": null,
+          "content": "<p>The number of atoms in this HCP unit cell is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "4"
+            },
+            {
+              "identifier": "B",
+              "content": "6"
+            },
+            {
+              "identifier": "C",
+              "content": "12"
+            },
+            {
+              "identifier": "D",
+              "content": "17"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The number of atoms in a HCP unit cells is 6.</p>\n<p>3 atoms are at the middle of the unit cell and each atom contributes 1 atom to the unit cell.</p>\n<p>2 atoms are at the two face centres of the unit cell and each atom contributes 1/2 atom to the unit cell.</p>\n<p>12 atoms are at the 12 corners of the unit cell and each atom contributes 1/6 atom to the unit cell.</p>\n<p>The number of atoms in one unit cell</p>\n<p>(3 $$\\times$$ 1) + (2 $$\\times$$ 1/2) + (12 $$\\times$$ 1/6) = 3 + 1 + 2 = 6</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "close-packing-in-crystals",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The number of atoms in this HCP unit cell is :"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "ouqtpv7twp5cibd3iz9e",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "pthe-volume-of-this-hcp-unit-cell-isp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-rpgtggt3qitnjhyk",
+      "question": {
+        "en": {
+          "comprehension": "<p>In hexagonal systems of crystals, a frequently encountered arrangement of atoms is described as a hexagonal prism. Here, the top and bottom of the cell are regular hexagons and three atoms are sandwiched in between them. A space-filling model of this structure, called hexagonal close-packed (HCP), is constituted of a sphere on a flat surface surrounded in the same plane by six identical spheres as closely as possible. Three spheres are then placed over the first layer so that they touch each other and represent the second layer. Each one of these three spheres touches three spheres of the bottom layer. Finally, the second layer is covered with a third layer that is identical to the bottom layer in relative position. Assume radius of every sphere to be 'r'.</p>",
+          "direction": null,
+          "content": "<p>The volume of this HCP unit cell is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$24\\sqrt 2 \\,{r^3}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$16\\sqrt 2 \\,{r^3}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$12\\sqrt 2 \\,{r^3}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{64} \\over {3\\sqrt 3 }}\\,{r^3}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Volume of unit cell = Area of base $$\\times$$ Height of the unit cell</p>\n<p>The (HCP) is a hexagonal prism structure. The base of (HCP) is a hexagon. We know that the hexagon is made of the 6 equilateral triangles.</p>\n<p>Area of equilateral triangle $$ = {{\\sqrt 3 } \\over 4}\\,{a^2}$$</p>\n<p>Therefore, the area of the base is given as,</p>\n<p>Area of base $$ = 6\\times{{\\sqrt 3 } \\over 4}\\,{a^2}$$</p>\n<p>Let's the 'h' be the height of the hexagonal unit</p>\n<p>Therefore, we have</p>\n<p>$${h \\over a} = \\sqrt {{8 \\over 3}} $$</p>\n<p>Now, substitute these values in the volumes of (HCP) we have,</p>\n<p>Volume of HCP = Area of base $$\\times$$ height of the hexagon</p>\n<p>$$\\therefore$$ Volume of HCP $$ = 6 \\times {{\\sqrt 3 } \\over 4}\\,{a^2} \\times \\sqrt {{8 \\over 3}} a$$</p>\n<p>Since, spheres touch each other, the edge length 'a' is equal to twice the radius of the atom. That is a = 2r</p>\n<p>Substitute these values in the volume we get,</p>\n<p>Volume of HCP $$ = 6 \\times {{\\sqrt 3 } \\over 4}\\,{a^2} \\times \\sqrt {{8 \\over 3}} a$$</p>\n<p>$$ = 6 \\times {{\\sqrt 3 } \\over 4}\\,{(2r)^2} \\times {{\\sqrt 8 } \\over {\\sqrt 2 }}2r = 24\\sqrt 2 {r^3}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "close-packing-in-crystals",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The volume of this HCP unit cell is :"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "i16hntkxg5gf9j7zxsk5",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "pthe-empty-space-in-this-hcp-unit-cell-isp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-0yetjne90rfnheby",
+      "question": {
+        "en": {
+          "comprehension": "<p>In hexagonal systems of crystals, a frequently encountered arrangement of atoms is described as a hexagonal prism. Here, the top and bottom of the cell are regular hexagons and three atoms are sandwiched in between them. A space-filling model of this structure, called hexagonal close-packed (HCP), is constituted of a sphere on a flat surface surrounded in the same plane by six identical spheres as closely as possible. Three spheres are then placed over the first layer so that they touch each other and represent the second layer. Each one of these three spheres touches three spheres of the bottom layer. Finally, the second layer is covered with a third layer that is identical to the bottom layer in relative position. Assume radius of every sphere to be 'r'.</p>",
+          "direction": null,
+          "content": "<p>The empty space in this HCP unit cell is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "74%"
+            },
+            {
+              "identifier": "B",
+              "content": "47.6%"
+            },
+            {
+              "identifier": "C",
+              "content": "32%"
+            },
+            {
+              "identifier": "D",
+              "content": "26%"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Packing fraction = $$\\frac{\\mathrm{Total~volume~of~unit~cell}}{\\mathrm{Volume~occupied}}$$</p>\n<p>Substituting the values of occupied sphere and volume of the unit cell we have:</p>\n<p>$$ \\Rightarrow {{6 \\times {4 \\over 3} \\times \\pi {r^3}} \\over {24\\sqrt 2 {r^3}}} = 0.74$$</p>\n<p>Rearranging and solving % occupied space = 74%</p>\n<p>The space in the HCP unit cell = 100 $$-$$ 74 = 26%</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "close-packing-in-crystals",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The empty space in this HCP unit cell is :"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "x8a2ahhmqe26b3qieq4k",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pmatch-the-crystal-systemunit-cells-mentioned-in-column-i-jee-advanced-chemistry-some-basic-concepts-of-chemistry-huopgft7csptrw7j",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Match the crystal system/unit cells mentioned in Column I with their characteristic features mentioned in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 472px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 192px\">\n<col style=\"width: 53px\">\n<col style=\"width: 179px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">(A)</td>\n    <td class=\"tg-0pky\">Simple cubic and face-centred cubic</td>\n    <td class=\"tg-c3ow\">(P)</td>\n    <td class=\"tg-0pky\">have these cell parameters $$a=b=c$$ and $$\\alpha=\\beta=\\gamma$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(B)</td>\n    <td class=\"tg-0pky\">cubic and rhombohedral</td>\n    <td class=\"tg-c3ow\">(Q)</td>\n    <td class=\"tg-0pky\">are two crystal systems</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(C)</td>\n    <td class=\"tg-0pky\">cubic and tetragonal</td>\n    <td class=\"tg-c3ow\">(R)</td>\n    <td class=\"tg-0pky\">have only two crystallographic of 90$$^\\circ$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(D)</td>\n    <td class=\"tg-0pky\">hexagonal and monoclinic</td>\n    <td class=\"tg-c3ow\">(S)</td>\n    <td class=\"tg-0pky\">belong to same crystal system</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{A-(s);B-(q);C-(q);(d)-(q,r)}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{A-(p,s);B-(p);C-(q);(d)-(r)}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{A-(p,s);B-(p,q);C-(q);(d)-(q,r)}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mathrm{A-(s);B-(q);C-(q);(d)-(q)}$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": "$$\\mathrm{A-(p,s);B-(p,q);C-(q);(d)-(q,r)}$$",
+          "explanation": "<p>(A) Simple cubic and face centered cubic unit cells \nhave cell parameters as $$a = b = c$$ and $$\\alpha = \\beta = \\gamma= 90$$</p>\n<p>They belong to same crystal system.</p>\n<p>(B) Cubic and rhombohedral unit cells have cell \nparameters $$a = b = c$$ and $$\\alpha = \\beta = \\gamma$$. They are two crystal systems.</p>\n<p>(C) Cell parameters of cubic unit cell: $$a = b = c$$ and $$\\alpha = \\beta = \\gamma= 90$$</p>\n<p>b. Rhombohedral unit cell has cell parameters:</p>\n<p>$$a = b = c$$ and $$\\alpha = \\beta = \\gamma= 90$$ not equal to 90</p>\n<p>(D) Hexagonal and monoclinic unit cells are two \ncrystal system:</p>\n<p>The have only two crystallography angles of \n90$$^\\circ$$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "crystal-structure-of-solids",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "Match the crystal system/unit cells mentioned in Column I with their characteristic features mentioned in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg  {border-coll..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "question_id": "t2nbtjihngw92yh0tw21",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pthe-edge-length-of-unit-cell-of-a-metal-having-molecular-jee-advanced-chemistry-some-basic-concepts-of-chemistry-yc00du6hozbctd2z",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The edge length of unit cell of a metal having molecular weight $$75 \\mathrm{~g} \\mathrm{~mol}^{-1}$$ is 5 $$\\mathop A\\limits^o $$ which crystallizes in cubic lattice. If the density is $$2 \\mathrm{~g} / \\mathrm{cc}$$, find the radius of metal atom. $$\\left(\\mathrm{N}_{\\mathrm{A}}=6 \\times 10^{23}\\right)$$. Give the answer in $$\\mathrm{pm}$$.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "216.5",
+          "explanation": "<p>Given,</p>\n<p>$$\\mathrm{M}_{w}=75 \\mathrm{~g} \\mathrm{~mol}^{-1}$$</p>\n<p>$$a=5$$ $$\\mathop A\\limits^o $$ = 5 $$\\times$$ 10$$^{-8}$$ cm</p>\n<p>$$\\rho=2$$ g cm$$^{-3}$$</p>\n<p>$$\\mathrm{N_A=6\\times10^{23}}$$</p>\n<p>To Find: Radius of metal atom ($$r$$)</p>\n<p>To find the value of $$r$$, we need to find out \nthe type of unit cell. For that, the value of Z \nis required. On the basis of the value of Z the \ntype of unit cell can be identified and using \nsuitable formula, radius of metal atom will be \ndetermined.</p>\n<p>Step 1 : Determination of $$Z_{\\text {eff }}$$</p>\n<p>The formula for calculating $$\\mathrm{Z}_{\\text {eff }}$$ will be obtained from the formula for density.</p>\n<p>The formula for calculating density is,</p>\n<p>$$\\rho=\\frac{\\mathrm{Z} \\times \\mathrm{M}_{w}}{a^{3} \\times \\mathrm{N}_{\\mathrm{A}}}$$</p>\n<p>Here, $$\\rho$$ is the density of unit cell, Z is the number of atoms present in a unit cell, $$\\mathrm{M}_{w}$$ is the molecular weight, $$a$$ is the edge length of a unit cell and $$\\mathrm{N}_{\\mathrm{A}}$$ is the Avogadro's number.</p>\n<p>On rearranging this formula,</p>\n<p>$$\\mathrm{Z}=\\frac{\\rho \\times a^{3} \\times \\mathrm{N}_{\\mathrm{A}}}{\\mathrm{M}_{w}}$$ ...... (i)</p>\n<p>Substituting the respective values in equation (i),</p>\n<p>$$Z=\\frac{2 \\times\\left(5 \\times 10^{-8}\\right)^{3} \\times\\left(6 \\times 10^{23}\\right)}{75}$$</p>\n<p>$$\\therefore \\quad \\mathrm{Z}=1.98 \\approx 2$$</p>\n<p>The value of Z is 2 for BCC (body centered cubic) unit cell.</p>\n<p>Step 1: Determination of radius of metal atom.</p>\n<p>For $$\\mathrm{BCC}$$, the radius of atom is given by,</p>\n<p>$$4 r=\\sqrt{3} a$$</p>\n<p>Here, $$r$$ denotes the radius of the atom.</p>\n<p>$$\\begin{array}{ll}\n\\therefore & r=\\frac{\\sqrt{3}}{4} a \\\\\n\\therefore & r=\\frac{\\sqrt{3}}{4} \\times 5=2.165 ~\\mathop A\\limits^o \\\\\n\\therefore & r=216.5 ~\\mathrm{pm}\n\\end{array}$$</p>\n<p>The radius of metal atom is $$216.5 ~\\mathrm{pm}$$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "crystal-structure-of-solids",
+      "type": "subjective",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "The edge length of unit cell of a metal having molecular weight $$75 \\mathrm{~g} \\mathrm{~mol}^{-1}$$ is 5 $$\\mathop A\\limits^o $$ which crystallizes in cubic lattice. If the density is $$2 \\mathrm{~g} / \\mathrm{cc}$$, find the radius of me..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "uxyn9oyn4fs8wq4slqc3",
+      "chapter": "solid-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pan-element-crystallises-in-fcc-lattice-having-edge-length-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ttygkxxig7qs44l9",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>An element crystallises in fcc lattice having edge length 400 pm. Calculate the maximum diameter of the atom which can be placed in interstitial site such that the structure is not distorted.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "117.1",
+          "explanation": "<p><b>Types of Voids in FCC:</b></p>\n<p>In a face-centered cubic (FCC) structure, there are two types of empty spaces, called voids: tetrahedral voids and octahedral voids.</p>\n<p><b>Ratio for Void Sizes:</b></p>\n<p>For a tetrahedral void: $$\\frac{r}{R}=0.225$$</p>\n<p>For an octahedral void: $$\\frac{r}{R}=0.414$$</p>\n<p>Here, $r$ is the radius of the smaller atom that goes into the empty site (the interstitial atom), and $R$ is the radius of the atom making up the structure.</p>\n<p><b>Choosing the Correct Void:</b></p>\n<p>The largest atom that can fit into the FCC structure without changing its shape fits in the octahedral void, because this void is bigger than the tetrahedral one. So, we use the octahedral void ratio: $$\\frac{r}{R}=0.414$$</p>\n<p><b>Finding the Radius ($R$) of the Main Atom:</b></p>\n<p>In FCC, the relation between the radius $R$ and the edge length $a$ is: $$R=\\frac{a}{2\\sqrt{2}}$$</p>\n<p>The question says $a = 400$ pm.</p>\n<p><b>Calculate $R$:</b></p>\n<p>$$R=\\frac{400}{2\\sqrt{2}}$$</p>\n<p><b>Find $r$ (radius of the maximum atom that fits in an octahedral site):</b></p>\n<p>Substitute the value of $R$ into the octahedral void ratio:</p>\n<p>$$r=0.414\\times\\frac{400}{2\\sqrt{2}}=58.55~\\text{pm}$$</p>\n<p><b>Calculate Diameter:</b></p>\n<p>The diameter of the atom is twice the radius:</p>\n<p>Diameter = $2r = 2 \\times 58.55 = 117.1~\\text{pm}$</p>\n<p><b>Final Answer:</b></p>\n<p>The largest atom that can fit into the empty site in an FCC lattice (without changing the structure) has a diameter of 117.1 pm.</p>\n<p><b>Note:</b></p>\n<p>Only the octahedral void is considered for calculating the maximum possible diameter, because it is the largest void in FCC structures.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "interestitial-voids",
+      "type": "integer",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "An element crystallises in fcc lattice having edge length 400 pm. Calculate the maximum diameter of the atom which can be placed in interstitial site such that the structure is not distorted."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "nsi29pxxp2bn2et9t6ss",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solid-state",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A compound AB has rock salt type structure. The formula weight of AB is 6.023 Y amu, and the closest A - B distance is Y<sup>1/3</sup> nm, where Y is an arbitrary number<br>\n(a) Find the density of the lattice<br>\n(b) If the density of lattice is found to be 20 kg m<sup>-3</sup>, then predict the type of defect",
+          "options": [],
+          "correct_options": [],
+          "answer": "(a) 5.0 kg/m<sup>3</sup>, (b) metal excess defect",
+          "explanation": "<p>AB has a rock salt (NaCl) structure. This type of crystal structure possesses fcc unit cell and contains four formula units per unit cell, i.e., Z = 4.</p>\n<p>In case of a rock salt structure, the edge-length (a) of the unit cell = 2 $$\\times$$ (radius of cation + radius of anion)</p>\n<p>Therefore, the edge-length (a) of the unit cell of AB crystal = 2 $$\\times$$ Y<sup>1/3</sup> nm = 2Y<sup>1/3</sup> $$\\times$$ 10<sup>$$-$$9</sup> m.</p>\n<p>We know, $$\\rho  = {{Z \\times M} \\over {N \\times {a^3}}}$$</p>\n<p>Given : M = 6.022 Y g mol<sup>$$-$$1</sup> = 6.022 $$\\times$$ 10<sup>$$-$$3</sup> Y kg mol<sup>$$-$$1</sup></p>\n<p>$$\\therefore$$ $$\\rho  = {{4 \\times 6.022 \\times {{10}^{ - 3}}Y} \\over {6.022 \\times {{10}^{23}} \\times {{(2{Y^{1/3}} \\times {{10}^{ - 9}})}^3}}} = 5.0$$ kg m<sup>$$-$$3</sup></p>\n<p>(1) Density of the crystal = 5.0 kg m<sup>$$-$$3</sup></p>\n<p>(2) The observed density (= 20 kg m<sup>$$-$$3</sup>) is higher than that of the calculated density. This indicates that the crystal structure of AB is likely to have non-stoichiometric defect in the form of metal excess or metal deficiency defect or to have impurity defect in the form of substitutional impurity defect or interstitial impurity defect.</p>"
+        }
+      },
+      "permalink": "a-compound-ab-has-rock-salt-type-structure-the-formula-weig-2004-marks-2-posvmuxwtpaiuxnz.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004",
+      "topic": "defects-in-crystal",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004",
+          "subTitle": "Solid State • Chemistry",
+          "excerpt": "A compound AB has rock salt type structure. The formula weight of AB is 6.023 Y amu, and the closest A - B distance is Y1/3 nm, where Y is an arbitrary number\n(a) Find the density of the lattice\n(b) If the density of lattice is found to be ..."
+        }
+      },
+      "yearKey": "iit-jee-2004"
+    }
+  ]
+}

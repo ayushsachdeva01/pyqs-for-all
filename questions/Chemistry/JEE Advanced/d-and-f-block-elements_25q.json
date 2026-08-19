@@ -1,0 +1,1985 @@
+{
+  "questions": [
+    {
+      "question_id": "fc2upoo1wp8iduhuog2i",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pthe-pairs-of-diamagnetic-ions-isarep-jee-advanced-chemistry-gahbu6ob5zidah0v",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The pair(s) of diamagnetic ions is(are)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>La<sup>3+</sup>, Ce<sup>4+</sup></p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>Yb<sup>2+</sup>, Lu<sup>3+</sup></p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>La<sup>2+</sup>, Ce<sup>3+</sup></p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>Yb<sup>3+</sup>, Lu<sup>2+</sup></p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "(6) Diamagnetic - No unpaired electrons. All the electrons are paired.<div></div>\nA) $\\mathrm{La}^{3+}, \\mathrm{Ce}^{4+}$.<div></div>\n\nElement $L a$ election configuration is $[\\mathrm{Xe}] 5 \\mathrm{~d}^{\\prime} 6 \\mathrm{~s}^2$<div></div>\n\nFor $\\mathrm{La}^{3+}$, three valence electrons are removed So, the electron configuration of $\\mathrm{La}^{3+}$ is $\\left[\\mathrm{Xe}\\right]$<div></div>\nThe configuration [ $x_e$ ] is the noble gas configuration and all the elections are paired.\nSo, $\\mathrm{La}^{3+}$ is diamagnetic.<div></div>\nElement $\\mathrm{Ce}_{\\text { }}$ election configuration is $\\left[x_e\\right] 4 f^{\\prime} 5 d^{\\prime} 6 s^2$<div></div>\n\nFor $\\mathrm{Ce} ^{4+}$, for valence elections are removed. so, the electron configuration of $\\mathrm{Ce}^{4+}$ is $\\left[\\mathrm{Xe}\\right]$.<div></div>\nThe origination $\\left[X_e\\right]$ is the noble gas configuration and all the electrons are paired.<div></div>\nSo, $Ce^{4+}$ is diamagnetic.<div></div>\nSo, It is a pair of a diamagnetic ions.<div></div>\nB) $\\mathrm{Yb}^{2+}, \\mathrm{Lu}^{3+}$<div></div>\n\nElement Yb electron configuration is : $\\left[x_e\\right] 4 f^{14} 6 s^2$<div></div>\n\nFor $y b^{2+}$, two valence electrons are removed from $y b$ - So, the election configuration of ${y} b^{2+}$ is $[x e] \\& f^{14}$.<div></div>\n\nThe configuration $\\left[X_e\\right] 4 f^{14}$ has no unpaired electrons. All the electrons are paired and hence $yb^{2+}$ is diamagnetic.<div></div>\n\nElement Lu electron configuration is $\\left[x_e\\right] 4 f^{\\prime 4} 5 d^1 6 s^2$<div></div>\n\nFor $\\mathrm{Lu}^{3+}$, three valence electrons we removed from. Lu . So, the electron configuration of $\\mathrm{Lu}^{3+}$ is $\\left[x_e\\right] 4 f^{14}$.<div></div>\nThe configuration $\\left[\\mathrm{Xe}\\right] 4 f^{14}$ has no unpaired electrons. All the electrons are paired and hence $L u^3 t$ is diamagnetic.<div></div>\nSo, It is a pair of diamagnetic ions:\n<div></div>\nc) $\\mathrm{La}^{2+}, \\mathrm{Ce}^{3+}$<div></div>\n\nElement la electron configuration is [ $x e$ ] $5 d^{\\prime} 6 s^2$.<div></div>\n\nFor $\\mathrm{La}^{2+}$, two valence electrons are removed so, the electron configuration of $\\mathrm{La}^{2+}$ is $[\\mathrm{Xe}] 5 d^{\\prime}$.<div></div>\n\nThe configuration $\\left[X_e\\right] 5 d^{\\prime}$ has one unpaired election and hence it is paramagnetic, not diamagnetic.<div></div>\nElement $C_e$ electron configuration is $[x e] 4 f^{\\prime} 5 d^{\\prime} 6 s^2$<div></div>\nFor $\\mathrm{Ce}^{3+}$, three valence electrons we removed. So, the electron configuration of $\\mathrm{Ce}^{3+}$ is $[x e] 4 f^{\\prime}$<div></div>\n\nThe configuration $[\\mathrm{Xe}]$. $4f^{\\prime}$ has one unpaired electron and hence it is paramagnetic, not diamagnetic.<div></div>\nSo, it is not a pair of diamagnetic ions.<div></div>\n\nD) $\\mathrm{Yb}^{3+}, \\mathrm{Lu}^{2+}$<div></div>\nyb electron configuration is $[x e] 4 f^{14} 6 s^2$.<div></div>\nFor $y b^{3+}$, three valence electrons are removed from $y b$. So, the electron configuration of $\\mathrm{Yb}^{3+}$ is $\\left[x_e\\right] 4 f^{13}$<div></div>\nThe configuration $\\left[x_e\\right] 4 f^{13}$ has unpaired election and it is paramagnetic, not diamagnetic.<div></div>\nLu electron configuration is $\\left[X_e\\right] 4 f^{14} 5 d^1 6 s^2$.<div></div>\nFor $L u^{2+}$, two valence electrons are removed from LU. So, the electron configuration of $\\mathrm{Lu}^{2+}$ is $\\left[\\mathrm{Xe}_e\\right] 4 f^{14} 5 d^1$.<div></div>\nThe configuration $[x]$. $4 f^{\\prime 4} 5 d^{\\prime}$ has unpaired electron and it is paramagnetic, not diamagnetic.<div></div>\nSo, it is not a pair of diamagnetic ions.<div></div>\nThe pairs of diamagnetic ions are<div></div>\nA) $\\mathrm{La}^{3+}, \\mathrm{Cl}^{4+}$<div></div>\nB) $\\mathrm{Yb}^{2+}, \\mathrm{Lu}^{3+}$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>प्रतिचुम्बकीय (diamagnetic)आयनों का(के) युग्म है(हैं)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{La}^{3+}, \\mathrm{Ce}^{4+}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{Yb}^{2+}, \\mathrm{Lu}^{3+}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{La}^{2+}, \\mathrm{Ce}^{3+}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{Yb}^{3+}, \\mathrm{Lu}^{2+}$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "(6) प्रतिचुंबकीय - कोई अयुग्मित इलेक्ट्रॉन नहीं। सभी इलेक्ट्रॉन युग्मित हैं।<div></div>\nA) $\\mathrm{La}^{3+}, \\mathrm{Ce}^{4+}$.<div></div>\n\nतत्व $La$ का इलेक्ट्रॉन विन्यास $[\\mathrm{Xe}] 5 \\mathrm{~d}^{\\prime} 6 \\mathrm{~s}^2$ है<div></div>\n\n$\\mathrm{La}^{3+}$ के लिए, तीन संयोजी इलेक्ट्रॉन हटा दिए जाते हैं। अतः, $\\mathrm{La}^{3+}$ का इलेक्ट्रॉन विन्यास $\\left[\\mathrm{Xe}\\right]$ है<div></div>\nविन्यास [$x_e$] उत्कृष्ट गैस विन्यास है और सभी इलेक्ट्रॉन युग्मित हैं।\nअतः, $\\mathrm{La}^{3+}$ प्रतिचुंबकीय है।<div></div>\nतत्व $\\mathrm{Ce}$ का इलेक्ट्रॉन विन्यास $\\left[x_e\\right] 4 f^{\\prime} 5 d^{\\prime} 6 s^2$ है<div></div>\n\n$\\mathrm{Ce}^{4+}$ के लिए, चार संयोजी इलेक्ट्रॉन हटा दिए जाते हैं। अतः, $\\mathrm{Ce}^{4+}$ का इलेक्ट्रॉन विन्यास $\\left[\\mathrm{Xe}\\right]$ है।<div></div>\nविन्यास $\\left[X_e\\right]$ उत्कृष्ट गैस विन्यास है और सभी इलेक्ट्रॉन युग्मित हैं।<div></div>\nअतः, $Ce^{4+}$ प्रतिचुंबकीय है।<div></div>\nअतः, यह प्रतिचुंबकीय आयनों का एक युग्म है।<div></div>\nB) $\\mathrm{Yb}^{2+}, \\mathrm{Lu}^{3+}$<div></div>\n\nतत्व Yb का इलेक्ट्रॉन विन्यास : $\\left[x_e\\right] 4 f^{14} 6 s^2$ है<div></div>\n\n$yb^{2+}$ के लिए, $yb$ से दो संयोजी इलेक्ट्रॉन हटा दिए जाते हैं - अतः, ${y}b^{2+}$ का इलेक्ट्रॉन विन्यास $[xe] 4f^{14}$ है।<div></div>\n\nविन्यास $\\left[X_e\\right] 4 f^{14}$ में कोई अयुग्मित इलेक्ट्रॉन नहीं है। सभी इलेक्ट्रॉन युग्मित हैं और इसलिए $yb^{2+}$ प्रतिचुंबकीय है।<div></div>\n\nतत्व Lu का इलेक्ट्रॉन विन्यास $\\left[x_e\\right] 4 f^{\\prime 4} 5 d^1 6 s^2$ है<div></div>\n\n$\\mathrm{Lu}^{3+}$ के लिए, Lu से तीन संयोजी इलेक्ट्रॉन हटा दिए जाते हैं। अतः, $\\mathrm{Lu}^{3+}$ का इलेक्ट्रॉन विन्यास $\\left[x_e\\right] 4 f^{14}$ है।<div></div>\nविन्यास $\\left[\\mathrm{Xe}\\right] 4 f^{14}$ में कोई अयुग्मित इलेक्ट्रॉन नहीं है। सभी इलेक्ट्रॉन युग्मित हैं और इसलिए $Lu^{3+}$ प्रतिचुंबकीय है।<div></div>\nअतः, यह प्रतिचुंबकीय आयनों का एक युग्म है।\n<div></div>\nc) $\\mathrm{La}^{2+}, \\mathrm{Ce}^{3+}$<div></div>\n\nतत्व La का इलेक्ट्रॉन विन्यास [$xe$] $5 d^{\\prime} 6 s^2$ है।<div></div>\n\n$\\mathrm{La}^{2+}$ के लिए, दो संयोजी इलेक्ट्रॉन हटा दिए जाते हैं, अतः $\\mathrm{La}^{2+}$ का इलेक्ट्रॉन विन्यास $[\\mathrm{Xe}] 5 d^{\\prime}$ है।<div></div>\n\nविन्यास $\\left[X_e\\right] 5 d^{\\prime}$ में एक अयुग्मित इलेक्ट्रॉन है और इसलिए यह अनुचुंबकीय (paramagnetic) है, प्रतिचुंबकीय नहीं।<div></div>\nतत्व $C_e$ का इलेक्ट्रॉन विन्यास $[xe] 4 f^{\\prime} 5 d^{\\prime} 6 s^2$ है<div></div>\n$\\mathrm{Ce}^{3+}$ के लिए, तीन संयोजी इलेक्ट्रॉन हटा दिए जाते हैं। अतः, $\\mathrm{Ce}^{3+}$ का इलेक्ट्रॉन विन्यास $[xe] 4 f^{\\prime}$ है<div></div>\n\nविन्यास $[\\mathrm{Xe}]$ $4f^{\\prime}$ में एक अयुग्मित इलेक्ट्रॉन है और इसलिए यह अनुचुंबकीय है, प्रतिचुंबकीय नहीं।<div></div>\nअतः, यह प्रतिचुंबकीय आयनों का युग्म नहीं है।<div></div>\n\nD) $\\mathrm{Yb}^{3+}, \\mathrm{Lu}^{2+}$<div></div>\nyb का इलेक्ट्रॉन विन्यास $[xe] 4 f^{14} 6 s^2$ है।<div></div>\n$yb^{3+}$ के लिए, $yb$ से तीन संयोजी इलेक्ट्रॉन हटा दिए जाते हैं। अतः, $\\mathrm{Yb}^{3+}$ का इलेक्ट्रॉन विन्यास $\\left[x_e\\right] 4 f^{13}$ है<div></div>\nविन्यास $\\left[x_e\\right] 4 f^{13}$ में अयुग्मित इलेक्ट्रॉन है और यह अनुचुंबकीय है, प्रतिचुंबकीय नहीं।<div></div>\nLu का इलेक्ट्रॉन विन्यास $\\left[X_e\\right] 4 f^{14} 5 d^1 6 s^2$ है।<div></div>\n$Lu^{2+}$ के लिए, Lu से दो संयोजी इलेक्ट्रॉन हटा दिए जाते हैं। अतः, $\\mathrm{Lu}^{2+}$ का इलेक्ट्रॉन विन्यास $\\left[\\mathrm{Xe}\\right] 4 f^{14} 5 d^1$ है।<div></div>\nविन्यास $[\\mathrm{Xe}]$ $4 f^{\\prime 4} 5 d^{\\prime}$ में अयुग्मित इलेक्ट्रॉन है और यह अनुचुंबकीय है, प्रतिचुंबकीय नहीं।<div></div>\nअतः, यह प्रतिचुंबकीय आयनों का युग्म नहीं है।<div></div>\nप्रतिचुंबकीय आयनों के युग्म हैं<div></div>\nA) $\\mathrm{La}^{3+}, \\mathrm{Ce}^{4+}$<div></div>\nB) $\\mathrm{Yb}^{2+}, \\mathrm{Lu}^{3+}$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "inner-transition-elements-lanthanoids-and-actinoids",
+      "type": "mcqm",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The pair(s) of diamagnetic ions is(are)"
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "प्रतिचुम्बकीय (diamagnetic)आयनों का(के) युग्म है(हैं)"
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "an9t3k08d961ptpa7orb",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "in-the-scheme-given-below-mathbfx-and-mathbfy-re-jee-advanced-chemistry-0wgdq11wbe1bilua",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "In the scheme given below, $\\mathbf{X}$ and $\\mathbf{Y}$, respectively, are<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liiqrcsx/7c383ac2-cee8-4ac8-a3df-b1b98ce23df1/44901010-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiqrcsy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liiqrcsx/7c383ac2-cee8-4ac8-a3df-b1b98ce23df1/44901010-0390-11ee-94c1-c5ddbb3cc6a9/file-1liiqrcsy.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2023 Paper 1 Online Chemistry - d and f Block Elements Question 2 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{CrO}_4{ }^{2-}$ and $\\mathrm{Br}_2$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{MnO}_4{ }^{2-}$ and $\\mathrm{Cl}_2$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{MnO}_4{ }^{-}$and $\\mathrm{Cl}_2$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{MnSO}_4$ and $\\mathrm{HOCl}$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "$$\n\\mathrm{MnCl}_2 \\stackrel{\\mathrm{NaOH}(\\mathrm{aq})}{\\longrightarrow} \\underset{(\\mathrm{P})}{\\mathrm{Mn}\\left(\\mathrm{OH}_2\\right)}+\\underset{(\\mathrm{Q})}{\\mathrm{NaCl}}\n$$\n<br/><br/>$$\n\\mathrm{Mn}(\\mathrm{OH})_2 \\underset{\\mathrm{PbO}_2(\\text { excess })}{\\stackrel{\\text { aq. } \\mathrm{H}_2 \\mathrm{SO}_4}{\\longrightarrow}} \\underset{(\\mathrm{X})}{\\mathrm{MnO}_4^{-}}+\\mathrm{Pb}^{2+}\n$$\n<br/><br/>$$\n\\mathrm{NaCl} \\frac{\\mathrm{MnO}(\\mathrm{OH})_2}{\\text { conc. } \\mathrm{H}_2 \\mathrm{SO}_4 \\text { warm }} \\underset{(\\mathrm{Y})}{\\mathrm{Cl}_2}\n$$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$\\text { नीचे दिए गये अधियोजना (Scheme) में, } \\mathbf{X} \\text { तथा } \\mathbf{Y} \\text { क्रमशः हैं }$<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1ltany4hi/0b399db2-2887-4771-ae20-b9cea9f32bfc/616455e0-d8e5-11ee-a868-79761dafd483/file-6y3zli1ltany4hq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ltany4hi/0b399db2-2887-4771-ae20-b9cea9f32bfc/616455e0-d8e5-11ee-a868-79761dafd483/file-6y3zli1ltany4hq.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh;vertical-align: baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Chemistry - d and f Block Elements Question 2 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{CrO}_4{ }^{2-}$ और $\\mathrm{Br}_2$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{MnO}_4{ }^{2-}$ और $\\mathrm{Cl}_2$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{MnO}_4{ }^{-}$और $\\mathrm{Cl}_2$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{MnSO}_4$ और $\\mathrm{HOCl}$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "$$\n\\mathrm{MnCl}_2 \\stackrel{\\mathrm{NaOH}(\\mathrm{aq})}{\\longrightarrow} \\underset{(\\mathrm{P})}{\\mathrm{Mn}\\left(\\mathrm{OH}_2\\right)}+\\underset{(\\mathrm{Q})}{\\mathrm{NaCl}}\n$$\n<br/><br/>$$\n\\mathrm{Mn}(\\mathrm{OH})_2 \\underset{\\mathrm{PbO}_2(\\text { आधिक्य })}{\\stackrel{\\text { जलीय } \\mathrm{H}_2 \\mathrm{SO}_4}{\\longrightarrow}} \\underset{(\\mathrm{X})}{\\mathrm{MnO}_4^{-}}+\\mathrm{Pb}^{2+}\n$$\n<br/><br/>$$\n\\mathrm{NaCl} \\frac{\\mathrm{MnO}(\\mathrm{OH})_2}{\\text { सांद्र } \\mathrm{H}_2 \\mathrm{SO}_4 \\text { गर्म }} \\underset{(\\mathrm{Y})}{\\mathrm{Cl}_2}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "In the scheme given below, $\\mathbf{X}$ and $\\mathbf{Y}$, respectively, are"
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "$\\text { नीचे दिए गये अधियोजना (Scheme) में, } \\mathbf{X} \\text { तथा } \\mathbf{Y} \\text { क्रमशः हैं }$"
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "hlik45xef9pqmulu9cla",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "the-reaction-of-mathrmxe-and-mathrmo2-mathrmf-jee-advanced-chemistry-p-block-elements-rmy5btdlvhv8pw2f",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "The reaction of $\\mathrm{Xe}$ and $\\mathrm{O}_{2}{F}_{2}$ gives a $\\mathrm{Xe}$ compound $\\mathbf{P}$. The number of moles of $\\mathrm{HF}$ produced by the complete hydrolysis of $1 \\mathrm{~mol}$ of $\\mathbf{P}$ is __________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "<p>$$\\mathrm{Xe}+2 \\mathrm{O}_{2}{F}_{2} \\rightarrow \\underset{(\\mathrm{P})}{\\mathrm{XeF}_{4}}+2 \\mathrm{O}_{2}$$</p>\n<p>$$\\underset{(\\mathrm{P})}{\\mathrm{6XeF}_{4}}+12 \\mathrm{H}_{2} \\mathrm{O} \\longrightarrow 4 \\mathrm{Xe}+2 \\mathrm{XeO}_{3}+24 \\mathrm{HF}+3 \\mathrm{O}_{2}$$</p>\n<p>So, from the above reaction, it is clear that 6 moles of $\\mathrm{XeF}_4$ produces 24 moles of $\\mathrm{HF}$.\n\n<br/><br/>So, 1 mole of $\\mathrm{XeF}_4$ will produce $\\frac{24}{6}$ moles of HF, i.e., 4 moles of $\\mathrm{HF}$.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$\\mathrm{Xe}$$ तथा $$\\mathrm{O}_{2} \\mathrm{F}_{2}$$ की अभिक्रिया पर $$\\mathrm{Xe}$$ का यौगिक $$\\mathbf{P}$$ बनता है। 1 मोल $$\\mathbf{P}$$ के पूर्ण जलअपघटन द्वारा प्राप्त $$\\mathrm{HF}$$ के मोलों की संख्या _____________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "<p>$$\\mathrm{Xe}+2 \\mathrm{O}_{2}{F}_{2} \\rightarrow \\underset{(\\mathrm{P})}{\\mathrm{XeF}_{4}}+2 \\mathrm{O}_{2}$$</p>\n<p>$$\\underset{(\\mathrm{P})}{\\mathrm{6XeF}_{4}}+12 \\mathrm{H}_{2} \\mathrm{O} \\longrightarrow 4 \\mathrm{Xe}+2 \\mathrm{XeO}_{3}+24 \\mathrm{HF}+3 \\mathrm{O}_{2}$$</p>\n<p>अतः, उपरोक्त अभिक्रिया से यह स्पष्ट है कि $\\mathrm{XeF}_4$ के 6 मोल, $\\mathrm{HF}$ के 24 मोल उत्पन्न करते हैं।\n\n<br/><br/>अतः, $\\mathrm{XeF}_4$ का 1 मोल $\\frac{24}{6}$ मोल HF उत्पन्न करेगा, अर्थात्, $\\mathrm{HF}$ के 4 मोल।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "inner-transition-elements-lanthanoids-and-actinoids",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The reaction of $\\mathrm{Xe}$ and $\\mathrm{O}_{2}{F}_{2}$ gives a $\\mathrm{Xe}$ compound $\\mathbf{P}$. The number of moles of $\\mathrm{HF}$ produced by the complete hydrolysis of $1 \\mathrm{~mol}$ of $\\mathbf{P}$ is __________."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "$$\\mathrm{Xe}$$ तथा $$\\mathrm{O}_{2} \\mathrm{F}_{2}$$ की अभिक्रिया पर $$\\mathrm{Xe}$$ का यौगिक $$\\mathbf{P}$$ बनता है। 1 मोल $$\\mathbf{P}$$ के पूर्ण जलअपघटन द्वारा प्राप्त $$\\mathrm{HF}$$ के मोलों की संख्या _____________ है।"
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "xjecd0rinjw958wye5hs",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "thermal-decomposition-of-mathrmagno3-produces-two-p-jee-advanced-chemistry-chemical-bonding-and-molecular-structure-6mqdt1bvzrcirfgw",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": " Thermal decomposition of $\\mathrm{AgNO}_{3}$ produces two paramagnetic gases. The total number of electrons present in the antibonding molecular orbitals of the gas that has the higher number of unpaired electrons is ____________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>$$\n2 \\mathrm{AgNO}_3(\\mathrm{~s}) \\stackrel{\\Delta}{\\longrightarrow} 2 \\mathrm{Ag}(\\mathrm{s})+2 \\mathrm{NO}_2(\\mathrm{~g})+\\mathrm{O}_2(\\mathrm{~g})\n$$</p>\n<p>Both the $\\mathrm{NO}_2$ and $\\mathrm{O}_2$ gases are paramagnetic. $\\mathrm{NO}_2(\\mathrm{~g})$ has 1 unpaired electron and $\\mathrm{O}_2(\\mathrm{~g})$ has 2 unpaired electrons.</p><p> According to MOT,</p>\n$$\\therefore\\,\\,\\,\\,$$ Molecular orbital configuration of O<sub>2</sub> (16 electrons) is \n<br><br>$${\\sigma _{1{s^2}}}\\,\\,\\sigma _{1{s^2}}^ * \\,$$ $${\\sigma _{2{s^2}}}\\,\\,\\sigma _{2{s^2}}^ * \\,$$ $${\\sigma _{2p_z^2}}\\,\\,{\\pi _{2p_x^2}} = {\\pi _{2p_y^2}}\\,\\,\\pi _{2p_x^1}^ * \\,\\, = \\pi _{2p_y^1}^ * $$\n<br><br>$$\\therefore\\,\\,\\,\\,$$N<sub>a</sub> = Anti bonding electrons = 6\n<br><br>N<sub>b</sub> = 10\n\n<br><br><b><u>Note</u> :</b>\n<br><br>N<sub>b</sub> = Number of electrons in bonding molecular orbital \n<br><br>N<sub>a</sub> $$=$$ Number of electrons in anti bonding molecular orbital \n<br><br>(1) $$\\,\\,\\,\\,$$ upto 14 electrons, molecular orbital configuration is \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/BCZnqLDgpImUxYpB2/Zg1gK5Q1xLj1n6tAiUJqhAxB3rbvD/vRErIfl3wacw1pMY708M3N/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - d and f Block Elements Question 5 English Explanation 1\">\n<br><br>Here N<sub>a</sub> = Anti bonding electrons $$=$$ 4 and N<sub>b</sub> = 10\n<br><br>(2) $$\\,\\,\\,\\,$$ After 14  electrons to 20 electrons molecular orbital configuration is - - -\n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/3716soaUWwytJgHTQ/oPYd44rDhbA5TN79TWk4x4Gr9ndzq/EsglJdUOMHR8rQaoVR1KAZ/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - d and f Block Elements Question 5 English Explanation 2\">\n<br><br>Here N<sub>a</sub> = 10\n<br><br>and N<sub>b</sub> = 10"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$\\mathrm{AgNO}_{3}$$ के ऊष्मीय अपघटन पर दो अनुचुम्बकीय गैसें प्राप्त होती हैं। अयुग्मित इलेक्ट्रॉनों की अधिकतम संख्या वाली गैस के प्रतिआबंधी आणविक कक्षकों में उपस्थिथ कुल इलेक्टॉनों की संख्या ___________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>$$\n2 \\mathrm{AgNO}_3(\\mathrm{~s}) \\stackrel{\\Delta}{\\longrightarrow} 2 \\mathrm{Ag}(\\mathrm{s})+2 \\mathrm{NO}_2(\\mathrm{~g})+\\mathrm{O}_2(\\mathrm{~g})\n$$</p>\n<p>$\\mathrm{NO}_2$ और $\\mathrm{O}_2$ दोनों गैसें अनुचुंबकीय हैं। $\\mathrm{NO}_2(\\mathrm{~g})$ में 1 अयुग्मित इलेक्ट्रॉन है और $\\mathrm{O}_2(\\mathrm{~g})$ में 2 अयुग्मित इलेक्ट्रॉन हैं।</p><p> आण्विक कक्षक सिद्धांत के अनुसार,</p>\n$$\\therefore\\,\\,\\,\\,$$ O<sub>2</sub> (16 इलेक्ट्रॉन) का आण्विक कक्षक विन्यास है \n<br><br>$${\\sigma _{1{s^2}}}\\,\\,\\sigma _{1{s^2}}^ * \\,$$ $${\\sigma _{2{s^2}}}\\,\\,\\sigma _{2{s^2}}^ * \\,$$ $${\\sigma _{2p_z^2}}\\,\\,{\\pi _{2p_x^2}} = {\\pi _{2p_y^2}}\\,\\,\\pi _{2p_x^1}^ * \\,\\, = \\pi _{2p_y^1}^ * $$\n<br><br>$$\\therefore\\,\\,\\,\\,$$N<sub>a</sub> = प्रतिबंधी इलेक्ट्रॉन = 6\n<br><br>N<sub>b</sub> = 10\n\n<br><br><b><u>नोट</u> :</b>\n<br><br>N<sub>b</sub> = बंधी आण्विक कक्षक में इलेक्ट्रॉनों की संख्या \n<br><br>N<sub>a</sub> $$=$$ प्रतिबंधी आण्विक कक्षक में इलेक्ट्रॉनों की संख्या \n<br><br>(1) $$\\,\\,\\,\\,$$ 14 इलेक्ट्रॉनों तक, आण्विक कक्षक विन्यास है \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/BCZnqLDgpImUxYpB2/Zg1gK5Q1xLj1n6tAiUJqhAxB3rbvD/vRErIfl3wacw1pMY708M3N/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - d and f Block Elements Question 5 Hindi Explanation 1\">\n<br><br>यहाँ N<sub>a</sub> = प्रतिबंधी इलेक्ट्रॉन $$=$$ 4 और N<sub>b</sub> = 10\n<br><br>(2) $$\\,\\,\\,\\,$$ 14 इलेक्ट्रॉनों के बाद से 20 इलेक्ट्रॉनों तक आण्विक कक्षक विन्यास है - - -\n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/3716soaUWwytJgHTQ/oPYd44rDhbA5TN79TWk4x4Gr9ndzq/EsglJdUOMHR8rQaoVR1KAZ/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - d and f Block Elements Question 5 Hindi Explanation 2\">\n<br><br>यहाँ N<sub>a</sub> = 10\n<br><br>और N<sub>b</sub> = 10"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": " Thermal decomposition of $\\mathrm{AgNO}_{3}$ produces two paramagnetic gases. The total number of electrons present in the antibonding molecular orbitals of the gas that has the higher number of unpaired electrons is ____________."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "$$\\mathrm{AgNO}_{3}$$ के ऊष्मीय अपघटन पर दो अनुचुम्बकीय गैसें प्राप्त होती हैं। अयुग्मित इलेक्ट्रॉनों की अधिकतम संख्या वाली गैस के प्रतिआबंधी आणविक कक्षकों में उपस्थिथ कुल इलेक्टॉनों की संख्या ___________ है।"
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "5p49eep2ykfk19d5nllv",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "the-treatment-of-galena-with-mathrmhno3-produces-a-g-jee-advanced-chemistry-some-basic-concepts-of-chemistry-e6vlmxkfcysnzqst",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "The treatment of galena with $\\mathrm{HNO}_{3}$ produces a gas that is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "paramagnetic"
+            },
+            {
+              "identifier": "B",
+              "content": "bent in geometry"
+            },
+            {
+              "identifier": "C",
+              "content": "an acidic oxide"
+            },
+            {
+              "identifier": "D",
+              "content": "colorless"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\mathrm{PbS+dil.\\,HNO_3\\to Pb(NO_3)_2+S+NO+H_2O}$$</p>\n<p>NO is paramagnetic due to the presence of unpaired electron. It is a neutral oxide. It is colourless.</p>\n<p>Hence, (A) and (D) are correct statements.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>गैलेना (galena) को $$\\mathrm{HNO}_{3}$$ से उपचारित करने पर एक गैस प्राप्त होती है, जो (जिसकी)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "अनुचुम्बकीय है"
+            },
+            {
+              "identifier": "B",
+              "content": "अम्लीय ऑक्साइड है"
+            },
+            {
+              "identifier": "C",
+              "content": "ज्यामिति में मोड़ है"
+            },
+            {
+              "identifier": "D",
+              "content": "रंगहीन है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\mathrm{PbS+dil.\\,HNO_3\\to Pb(NO_3)_2+S+NO+H_2O}$$</p>\n<p>NO अयुग्मित इलेक्ट्रॉन की उपस्थिति के कारण अनुचुंबकीय है। यह एक उदासीन ऑक्साइड है। यह रंगहीन है।</p>\n<p>अतः, (A) और (D) सही कथन हैं।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "mcqm",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The treatment of galena with $\\mathrm{HNO}_{3}$ produces a gas that is"
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "गैलेना (galena) को $$\\mathrm{HNO}_{3}$$ से उपचारित करने पर एक गैस प्राप्त होती है, जो (जिसकी)"
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "y6phxrpuv07g9amms58q",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "an-acidified-solution-of-potassium-chromate-was-layered-with-jee-advanced-chemistry-some-basic-concepts-of-chemistry-vfq8dnmvtjaegpfl",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "An acidified solution of potassium chromate was layered with an equal volume of amyl alcohol. When it was shaken after the addition of 1 mL of 3% H<sub>2</sub>O<sub>2</sub>, a blue alcohol layer was obtained. The blue colour is due to the formation of a chromium (VI) compound 'X'. What is the number of oxygen atoms bonded to chromium through only single bond in a molecule of X?",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "When a solution of K<sub>2</sub>CrO<sub>4</sub> is treated with amyl alcohol and acidified H<sub>2</sub>O<sub>2</sub>, the layer of amyl alcohol turns blue because acidified H<sub>2</sub>O<sub>2</sub> converts K<sub>2</sub>CrO<sub>4</sub> to CrO<sub>5</sub> to given the blue colouration,<br><br><img src=\"https://imagex.cdn.examgoal.net/1ksatjelo/f5827a90-1c30-4e38-b443-178e7c11b5de/3dd1cec0-fc77-11eb-8344-bb0a6e74ee21/file-1ksatjelp.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - d and f Block Elements Question 17 English Explanation 1\">\n<br><br><b>The structure of CrO<sub>5</sub> is :</b>\n<br><img src=\"https://imagex.cdn.examgoal.net/1ksatn4zk/2b0e7828-c253-42f1-9438-dab92fa99419/a5a14710-fc77-11eb-8344-bb0a6e74ee21/file-1ksatn4zl.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - d and f Block Elements Question 17 English Explanation 2\">\n<br><br>Number of oxygen atom bonded with chromium with single bond is = 4."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>पोटैशियम क्रोमेट (potassium chromate) के एक अम्लीकृत विलयन पर समान आयतन की ऐमिल ऐल्कोहॉल (amyl alcohol) की परत बनायी गयी | इसमें $$1 \\mathrm{~mL} ~3 \\% ~\\mathrm{H}_{2} \\mathrm{O}_{2}$$ को मिलाने के बाद अच्छी तरह से हिलाने पर ऐल्कोहॉल की नीले रंग की परत बनती है | यह नीला रंग क्रोमियम (VI) के एक यौगिक '$$\\mathbf{X}$$' के बनने के कारण होता है | $$\\mathbf{X}$$ के एक अणु में ऑक्सीजन के कितने परमाणु क्रोमियम के साथ एकल आबंध द्वारा बंधित हैं ?</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "जब K<sub>2</sub>CrO<sub>4</sub> के विलयन को एमिल ऐल्कोहॉल और अम्लीकृत H<sub>2</sub>O<sub>2</sub> के साथ उपचारित किया जाता है, तो एमिल ऐल्कोहॉल की परत नीली हो जाती है क्योंकि अम्लीकृत H<sub>2</sub>O<sub>2</sub>, K<sub>2</sub>CrO<sub>4</sub> को CrO<sub>5</sub> में परिवर्तित कर देता है जो नीला रंग प्रदान करता है,<br><br><img src=\"https://imagex.cdn.examgoal.net/1ksatjelo/f5827a90-1c30-4e38-b443-178e7c11b5de/3dd1cec0-fc77-11eb-8344-bb0a6e74ee21/file-1ksatjelp.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - d and f Block Elements Question 17 Hindi Explanation 1\">\n<br><br><b>CrO<sub>5</sub> की संरचना है:</b>\n<br><img src=\"https://imagex.cdn.examgoal.net/1ksatn4zk/2b0e7828-c253-42f1-9438-dab92fa99419/a5a14710-fc77-11eb-8344-bb0a6e74ee21/file-1ksatn4zl.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - d and f Block Elements Question 17 Hindi Explanation 2\">\n<br><br>क्रोमियम के साथ एकल बंध द्वारा जुड़े ऑक्सीजन परमाणुओं की संख्या = 4 है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "An acidified solution of potassium chromate was layered with an equal volume of amyl alcohol. When it was shaken after the addition of 1 mL of 3% H2O2, a blue alcohol layer was obtained. The blue colour is due to the formation of a chromium..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "पोटैशियम क्रोमेट (potassium chromate) के एक अम्लीकृत विलयन पर समान आयतन की ऐमिल ऐल्कोहॉल (amyl alcohol) की परत बनायी गयी | इसमें $$1 \\mathrm{~mL} ~3 \\% ~\\mathrm{H}_{2} \\mathrm{O}_{2}$$ को मिलाने के बाद अच्छी तरह से हिलाने पर ऐल्कोहॉल की नील..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "naxikcgrw8mrq819xj4e",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 2 Offline",
+      "permalink": "with-reference-to-aqua-regia-choose-the-correct-options-jee-advanced-chemistry-some-basic-concepts-of-chemistry-km1n7apiiaiplz1l",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "With reference to aqua-regia, choose the correct option(s).",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Aqua-regia is prepared by mixing conc. HCl and conc. HNO<sub>3</sub> in 3 : 1 (v / v) ratio"
+            },
+            {
+              "identifier": "B",
+              "content": "The yellow colour of aqua-regia is due to the presence of NOCl and Cl<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "Reaction of gold with aqua-regia produces an anion having Au in +3 oxidation state"
+            },
+            {
+              "identifier": "D",
+              "content": "Reaction of gold with aqua regia produces NO<sub>2</sub> in the absence of air"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "The explanation of given statements are as follows :<br><br>(a) Aqua-regia is prepared by mixing conc. HCl and conc. HNO<sub>3</sub> in 3 : 1 (v/v) ratio and is used in oxidation of gold and platinum. Hence, option (a) is correct.<br><br>(b) Yellow colour of aqua-regia is due to its decomposition into NOCl (orange yellow) and Cl<sub>2</sub> (greenish yellow). Hence, option (b) is correct.<br><br>(c) When gold reacts with aqua-regia then it produces $$AuCl_4^ - $$ anion complex in which Au has +3 oxidation state.<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-860w.jpeg\"><source media=\"(max-width: 1040px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-1040w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - d and f Block Elements Question 19 English Explanation\"></picture> <br><br>Hence, option (c) is correct.<br><br>(d) Reaction of gold with aqua-regia produces NO gas in absence of air. Hence, option (d) is incorrect."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक्रारेजिया (aqua regia) के संदर्भ में सही विकल्प(विकल्पों) को चुनिये</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "एक्रारेजिया को सांद्रित $$\\mathrm{HCl}$$ और सांद्रित $$\\mathrm{HNO}_{3}$$ के $$3: 1$$ आयतनिक मात्रा $$(\\mathrm{V} / \\mathrm{V})$$ के मिश्रण से बनाया जाता है"
+            },
+            {
+              "identifier": "B",
+              "content": "एक्रारेजिया का पीला रंग $$\\mathrm{NOCl}$$ और $$\\mathrm{Cl}_{2}$$ की उपस्थिति के कारण है"
+            },
+            {
+              "identifier": "C",
+              "content": "एक्रारेजिया की सोने के साथ अभिक्रिया पर एक ऋणायन (anion) उत्पादित होता है जिसमे $$\\mathrm{Au}$$ की आक्सीकरण अवस्था (oxidation state) +3 है"
+            },
+            {
+              "identifier": "D",
+              "content": "सोने की एक्रारेजिया के साथ हवा की अनुपस्थिति में अभिक्रिया कराने पर $$\\mathrm{NO}_{2}$$ उत्पादित होता है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "दिए गए कथनों की व्याख्या इस प्रकार है :<br><br>(a) एक्वा-रेजिया को सांद्र HCl और सांद्र HNO<sub>3</sub> को 3 : 1 (v/v) अनुपात में मिलाकर तैयार किया जाता है और इसका उपयोग सोने और प्लैटिनम के ऑक्सीकरण में किया जाता है। अतः, विकल्प (a) सही है।<br><br>(b) एक्वा-रेजिया का पीला रंग इसके NOCl (नारंगी पीला) और Cl<sub>2</sub> (हरा-पीला) में अपघटन के कारण होता है। अतः, विकल्प (b) सही है।<br><br>(c) जब सोना एक्वा-रेजिया के साथ अभिक्रिया करता है तो यह $$AuCl_4^ - $$ ऋणायन संकुल उत्पन्न करता है जिसमें Au की ऑक्सीकरण अवस्था +3 होती है।<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-860w.jpeg\"><source media=\"(max-width: 1040px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90-1040w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kt7uyk8z/62c72267-7deb-472b-a5d7-ac9c3c4f60e5/a9e10530-0ea2-11ec-a094-893340f9a6ca/file-1kt7uyk90.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - d and f Block Elements Question 19 Hindi Explanation\"></picture> <br><br>अतः, विकल्प (c) सही है।<br><br>(d) सोने की एक्वा-रेजिया के साथ अभिक्रिया वायु की अनुपस्थिति में NO गैस उत्पन्न करती है। अतः, विकल्प (d) गलत है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "With reference to aqua-regia, choose the correct option(s)."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "एक्रारेजिया (aqua regia) के संदर्भ में सही विकल्प(विकल्पों) को चुनिये"
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-2-offline"
+    },
+    {
+      "question_id": "20gc7hjwyfpcm54p6kg1",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "the-green-colour-produced-in-the-borax-bead-test-of-a-chromi-jee-advanced-chemistry-some-basic-concepts-of-chemistry-mtdave5mpefdxjrs",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The green colour produced in the borax bead test of a chromium (III) salt is due to ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Cr<sub>2</sub>O<sub>3</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "CrB"
+            },
+            {
+              "identifier": "C",
+              "content": "Cr(BO<sub>2</sub>)<sub>3</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "Cr<sub>2</sub>(B<sub>4</sub>O<sub>7</sub>)<sub>3</sub>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "Borax bead test is performed only for coloured salt. Borax (sodium pyroborate), Na<sub>2</sub>B<sub>4</sub>O<sub>7</sub>.10H<sub>2</sub>O on heating gets fused and lose water of crystallisation. It swells up into fluffy white porous mass which melts into a colourless liquid which later form a clear transparent glassy bead consisting of boric anhydride and sodium metaborate.<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksus9wsj/fd352163-777e-4fc8-be03-b6826eda089f/f9a39930-0771-11ec-a0ab-05c984536117/file-1ksus9wsk-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksus9wsj/fd352163-777e-4fc8-be03-b6826eda089f/f9a39930-0771-11ec-a0ab-05c984536117/file-1ksus9wsk-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksus9wsj/fd352163-777e-4fc8-be03-b6826eda089f/f9a39930-0771-11ec-a0ab-05c984536117/file-1ksus9wsk-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ksus9wsj/fd352163-777e-4fc8-be03-b6826eda089f/f9a39930-0771-11ec-a0ab-05c984536117/file-1ksus9wsk.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 20 English Explanation 1\"></picture> <br><br>Boric anhydride is non-volatile. When it react with Cr(III) salt then deep green complex is formed.<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksusak32/a8d7592d-011e-48f1-aa9c-68e54ff0b1ea/0ba1ebf0-0772-11ec-a0ab-05c984536117/file-1ksusak33-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksusak32/a8d7592d-011e-48f1-aa9c-68e54ff0b1ea/0ba1ebf0-0772-11ec-a0ab-05c984536117/file-1ksusak33-500w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ksusak32/a8d7592d-011e-48f1-aa9c-68e54ff0b1ea/0ba1ebf0-0772-11ec-a0ab-05c984536117/file-1ksusak33.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 20 English Explanation 2\"></picture> <br><br>Hence, option (c) is correct."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>क्रोमियम(III) लवण के सुहागा-मनका परीक्षण (borax bead test) में हरे रंग का कारण है</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Cr<sub>2</sub>O<sub>3</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "CrB"
+            },
+            {
+              "identifier": "C",
+              "content": "Cr(BO<sub>2</sub>)<sub>3</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "Cr<sub>2</sub>(B<sub>4</sub>O<sub>7</sub>)<sub>3</sub>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "बोरेक्स मणिका परीक्षण केवल रंगीन लवणों के लिए किया जाता है। बोरेक्स (सोडियम पाइरोबोरेट), Na<sub>2</sub>B<sub>4</sub>O<sub>7</sub>.10H<sub>2</sub>O को गर्म करने पर यह संगलित हो जाता है और क्रिस्टलीकरण का जल खो देता है। यह एक फूले हुए सफेद झरझरे द्रव्यमान में फैल जाता है जो एक रंगहीन द्रव में पिघल जाता है जो बाद में एक स्पष्ट पारदर्शी कांच जैसी मणिका बनाता है जिसमें बोरिक एनहाइड्राइड और सोडियम मेटाबोरेट होते हैं।<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksus9wsj/fd352163-777e-4fc8-be03-b6826eda089f/f9a39930-0771-11ec-a0ab-05c984536117/file-1ksus9wsk-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksus9wsj/fd352163-777e-4fc8-be03-b6826eda089f/f9a39930-0771-11ec-a0ab-05c984536117/file-1ksus9wsk-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksus9wsj/fd352163-777e-4fc8-be03-b6826eda089f/f9a39930-0771-11ec-a0ab-05c984536117/file-1ksus9wsk-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ksus9wsj/fd352163-777e-4fc8-be03-b6826eda089f/f9a39930-0771-11ec-a0ab-05c984536117/file-1ksus9wsk.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 20 Hindi Explanation 1\"></picture> <br><br>बोरिक एनहाइड्राइड अवाष्पशील है। जब यह Cr(III) लवण के साथ अभिक्रिया करता है तो गहरा हरा संकुल बनता है।<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksusak32/a8d7592d-011e-48f1-aa9c-68e54ff0b1ea/0ba1ebf0-0772-11ec-a0ab-05c984536117/file-1ksusak33-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksusak32/a8d7592d-011e-48f1-aa9c-68e54ff0b1ea/0ba1ebf0-0772-11ec-a0ab-05c984536117/file-1ksusak33-500w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ksusak32/a8d7592d-011e-48f1-aa9c-68e54ff0b1ea/0ba1ebf0-0772-11ec-a0ab-05c984536117/file-1ksusak33.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 20 Hindi Explanation 2\"></picture> <br><br>अतः, विकल्प (c) सही है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "mcq",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The green colour produced in the borax bead test of a chromium (III) salt is due to "
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "क्रोमियम(III) लवण के सुहागा-मनका परीक्षण (borax bead test) में हरे रंग का कारण है"
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "question_id": "wtq3sl99lp7rcm8px547",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "fusion-of-mnosub2sub-with-koh-in-presence-of-osub2s-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ihxtdnwpjcwdu6up",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Fusion of MnO<sub>2</sub> with KOH in presence of O<sub>2</sub> produces a salt W. Alkaline solution of W upon electrolytic oxidation yields another salt X. The manganese containing ions present in W and X, respectively, are Y and Z. Correct statement(s) is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Both Y and Z are coloured and have tetrahedral shape"
+            },
+            {
+              "identifier": "B",
+              "content": "Y is diamagnetic in nature while Z is paramagnetic"
+            },
+            {
+              "identifier": "C",
+              "content": "In both Y and Z, $$\\pi $$-bonding occurs between p-orbitals of oxygen and d-orbitals of manganese"
+            },
+            {
+              "identifier": "D",
+              "content": "In aqueous acidic solution, Y undergoes disproportionation reaction to give Z and MnO<sub>2</sub>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaolu8/e04545f0-d608-493e-9b2b-5bbc52dd59f9/bf4a1900-0846-11ec-830e-d9e68b723bcf/file-1kswaolu9-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaolu8/e04545f0-d608-493e-9b2b-5bbc52dd59f9/bf4a1900-0846-11ec-830e-d9e68b723bcf/file-1kswaolu9-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaolu8/e04545f0-d608-493e-9b2b-5bbc52dd59f9/bf4a1900-0846-11ec-830e-d9e68b723bcf/file-1kswaolu9-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswaolu8/e04545f0-d608-493e-9b2b-5bbc52dd59f9/bf4a1900-0846-11ec-830e-d9e68b723bcf/file-1kswaolu9.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 18 English Explanation 1\"></picture> <br><br>$$MnO_4^{2 - }$$ ion has one unpaired electrons, therefore it gives d-d transition to form green colour. Y complex has paramagnetic nature due to presence of one unpaired electron.<br><br>In aqueous solution,<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswap5i9/192688d6-bf6c-4f29-9231-454ba233b87d/ce7b9020-0846-11ec-830e-d9e68b723bcf/file-1kswap5ia-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswap5i9/192688d6-bf6c-4f29-9231-454ba233b87d/ce7b9020-0846-11ec-830e-d9e68b723bcf/file-1kswap5ia-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswap5i9/192688d6-bf6c-4f29-9231-454ba233b87d/ce7b9020-0846-11ec-830e-d9e68b723bcf/file-1kswap5ia-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswap5i9/192688d6-bf6c-4f29-9231-454ba233b87d/ce7b9020-0846-11ec-830e-d9e68b723bcf/file-1kswap5ia.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 18 English Explanation 2\"></picture> <br><br>$$MnO_4^{2 - }$$ ions gives charge transfer spectrum in which a fraction of electronic charge is transferred between the molecular entities.<br><br>$$ \\because $$ $$\\mathop {MnO_4^{2 - }}\\limits_{(Y)} \\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{oxidation}^{Electrolytic}} \\mathop {MnO_4^ - }\\limits_{(Z)}  + {e^ - }$$<br><br>In acidic medium, Y undergoes disproportionation reaction.<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 18 English Explanation 3\"></picture> <br><br>$$\\mathop {MnO_4^{2 - }}\\limits_{(Y)} $$ and $$\\mathop {MnO_4^ - }\\limits_{(Z)} $$ both ions form $$\\pi $$-bonding between p-orbitals of oxygen and d-orbitals of manganese.<br><br>Thus, options (a, c, d) are correct."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$\\mathrm{O}_{2}$$ की उपस्थिति मे, $$\\mathrm{MnO}_{2}$$ का $$\\mathrm{KOH}$$ के साथ संगलन पर एक लवण $$\\mathrm{W}$$ उत्पादित होता है। $$\\mathrm{W}$$ के क्षारीय विलयन का विद्युतअपघटनी ऑक्सीकरण (electrolytic oxidation) पर एक अन्य लवण $$\\mathrm{X}$$ उत्पादित होता है। $$\\mathrm{W}$$ और $$\\mathrm{X}$$ मे उपस्थित मैंगनीज रहनेवाला आयन क्रमशः $$\\mathrm{Y}$$ और $$\\mathrm{Z}$$ हैं। सही कथन है (हैं)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{Y}$$ और $$\\mathrm{Z}$$ दोनों रंगीन और चतुष्फलकीय (tetrahedral) आकार के हैं"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{Y}$$ प्रतिचुंबकीय (diamagnetic) स्वभाव और $$\\mathrm{Z}$$ अनुचुंबकीय (paramagnetic) स्वभाव के है"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{Y}$$ और $$\\mathrm{Z}$$ दोनों मे, $$\\pi$$-आबंध ऑक्सिजन के $$p$$ कक्षकों एवं मैंगनीज के $$d$$ कक्षकों के बीच है"
+            },
+            {
+              "identifier": "D",
+              "content": "जलीय अम्लीय घोल मे, $$\\mathrm{Y}$$ असमानुपातन अभिक्रिया (disproportionation reaction) के पश्चात $$\\mathrm{Z}$$ और $$\\mathrm{MnO}_{2}$$ देता है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaolu8/e04545f0-d608-493e-9b2b-5bbc52dd59f9/bf4a1900-0846-11ec-830e-d9e68b723bcf/file-1kswaolu9-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaolu8/e04545f0-d608-493e-9b2b-5bbc52dd59f9/bf4a1900-0846-11ec-830e-d9e68b723bcf/file-1kswaolu9-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswaolu8/e04545f0-d608-493e-9b2b-5bbc52dd59f9/bf4a1900-0846-11ec-830e-d9e68b723bcf/file-1kswaolu9-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswaolu8/e04545f0-d608-493e-9b2b-5bbc52dd59f9/bf4a1900-0846-11ec-830e-d9e68b723bcf/file-1kswaolu9.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 18 Hindi Explanation 1\"></picture> <br><br>$$MnO_4^{2 - }$$ आयन में एक अयुग्मित इलेक्ट्रॉन होता है, इसलिए यह हरा रंग बनाने के लिए d-d संक्रमण देता है। Y संकुल एक अयुग्मित इलेक्ट्रॉन की उपस्थिति के कारण अनुचुंबकीय प्रकृति का होता है।<br><br>जलीय विलयन में,<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswap5i9/192688d6-bf6c-4f29-9231-454ba233b87d/ce7b9020-0846-11ec-830e-d9e68b723bcf/file-1kswap5ia-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswap5i9/192688d6-bf6c-4f29-9231-454ba233b87d/ce7b9020-0846-11ec-830e-d9e68b723bcf/file-1kswap5ia-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswap5i9/192688d6-bf6c-4f29-9231-454ba233b87d/ce7b9020-0846-11ec-830e-d9e68b723bcf/file-1kswap5ia-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswap5i9/192688d6-bf6c-4f29-9231-454ba233b87d/ce7b9020-0846-11ec-830e-d9e68b723bcf/file-1kswap5ia.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 18 Hindi Explanation 2\"></picture> <br><br>$$MnO_4^{2 - }$$ आयन आवेश स्थानांतरण स्पेक्ट्रम देते हैं जिसमें इलेक्ट्रॉनिक आवेश का एक अंश आणविक इकाइयों के बीच स्थानांतरित होता है।<br><br>$$ \\because $$ $$\\mathop {MnO_4^{2 - }}\\limits_{(Y)} \\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{oxidation}^{Electrolytic}} \\mathop {MnO_4^ - }\\limits_{(Z)}  + {e^ - }$$<br><br>अम्लीय माध्यम में, Y असमानुपातन अभिक्रिया से गुजरता है।<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswapoez/b9b02fd5-813c-42d7-88c6-c38256afca2d/dd16e1c0-0846-11ec-830e-d9e68b723bcf/file-1kswapof0.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - d and f Block Elements Question 18 Hindi Explanation 3\"></picture> <br><br>$$\\mathop {MnO_4^{2 - }}\\limits_{(Y)} $$ और $$\\mathop {MnO_4^ - }\\limits_{(Z)} $$ दोनों आयन ऑक्सीजन के p-कक्षकों और मैंगनीज के d-कक्षकों के बीच $$\\pi $$-बंधन बनाते हैं।<br><br>इस प्रकार, विकल्प (a, c, d) सही हैं।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "Fusion of MnO2 with KOH in presence of O2 produces a salt W. Alkaline solution of W upon electrolytic oxidation yields another salt X. The manganese containing ions present in W and X, respectively, are Y and Z. Correct statement(s) is (are..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "$$\\mathrm{O}_{2}$$ की उपस्थिति मे, $$\\mathrm{MnO}_{2}$$ का $$\\mathrm{KOH}$$ के साथ संगलन पर एक लवण $$\\mathrm{W}$$ उत्पादित होता है। $$\\mathrm{W}$$ के क्षारीय विलयन का विद्युतअपघटनी ऑक्सीकरण (electrolytic oxidation) पर एक अन्य लवण $$\\mathrm{..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "a595wi91mdjlxex3y92a",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "d-and-f-block-elements",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The correct option(s) to distinguish nitrate salts of $$M{n^{2 + }}$$ and $$C{u^{2 + }}$$ taken separately is (are) ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$M{n^{2 + }}$$ shows the characteristic green color in the flame test "
+            },
+            {
+              "identifier": "B",
+              "content": "Only $$C{u^{2 + }}$$ shows the formation of precipitate by passing $${H_2}S$$  in acidic medium"
+            },
+            {
+              "identifier": "C",
+              "content": "Only $$M{n^{2 + }}$$  shows the formation of precipitate by passing $${H_2}S$$  in faintly basic medium"
+            },
+            {
+              "identifier": "D",
+              "content": "$$C{u^{2 + }}/Cu$$  has higher reduction potential than $$M{n^{2 + }}/Mn$$ (measured under similar conditions) "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Statement wise explanation is</p>\n<p>Statement (a) Mn<sup>2+</sup> produces yellow-green colour in flame test while Cu<sup>2+</sup> produces bluish-green colour in flame test. Thus, due to the presence of green colour in both the cases, flame test is not the suitable method to distinguish between nitrate salts of Cu<sup>2+</sup> and Mn<sup>2+</sup>. Hence this statement is wrong.</p>\n<p>Statement (b) Cu<sup>2+</sup> belong to group II of cationic or basic radicals. It gives black ppt. of CuS if H<sub>2</sub>S is passed through it in the presence of acid (e.g. HCl). Mn<sub>2+</sub> does not show this property hence this can be considered as a suitable method to distinguish between Mn<sup>2+</sup> and Cu<sup>2+</sup>. Hence, this statement is correct.</p>\n<p>Statement (c) In faintly basic medium when H<sub>2</sub>S is passed both Cu<sup>2+</sup> and Mn<sup>2+</sup> forms precipitates. Thus, it is not suitable method to distinguish between them. Hence, this statement is incorrect.</p>\n<p>Statement (d) The standard reduction potential of Cu<sup>2+</sup> /Cu is +0.34 V while that of Mn<sup>2+</sup>/Mn is $$-$$1.18 V. This can be used to distinguish between Cu<sup>2+</sup> and Mn<sup>2+</sup>. In general less electropositive metals have higher SRP. Hence, this statement is correct.</p>"
+        },
+        "hi": {
+          "content": "$$M{n^{2 + }}$$ और $$C{u^{2 + }}$$ के नाइट्रेट लवणों को अलग-अलग पहचानने के लिए सही विकल्प है (हैं) ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$M{n^{2 + }}$$ लौ परीक्षण में विशेष हरे रंग को दिखाता है "
+            },
+            {
+              "identifier": "B",
+              "content": "केवल $$C{u^{2 + }}$$ अम्लीय माध्यम में $${H_2}S$$ के प्रभावित होने पर अवक्षेप बनाता है"
+            },
+            {
+              "identifier": "C",
+              "content": "केवल $$M{n^{2 + }}$$ हल्के क्षारीय माध्यम में $${H_2}S$$ के प्रभावित होने पर अवक्षेप बनाता है"
+            },
+            {
+              "identifier": "D",
+              "content": "$$C{u^{2 + }}/Cu$$ का अपचयन विभव $$M{n^{2 + }}/Mn$$ की तुलना में अधिक है (समान परिस्थितियों में मापा गया)"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>कथनों की व्याख्या इस प्रकार है</p>\n<p>कथन (a) Mn<sup>2+</sup> ज्वाला परीक्षण में पीला-हरा रंग उत्पन्न करता है जबकि Cu<sup>2+</sup> ज्वाला परीक्षण में नीला-हरा रंग उत्पन्न करता है। इस प्रकार, दोनों स्थितियों में हरे रंग की उपस्थिति के कारण, ज्वाला परीक्षण Cu<sup>2+</sup> और Mn<sup>2+</sup> के नाइट्रेट लवणों के बीच अंतर करने की उपयुक्त विधि नहीं है। अतः यह कथन गलत है।</p>\n<p>कथन (b) Cu<sup>2+</sup> धनायनी या क्षारीय मूलकों के समूह II से संबंधित है। यदि अम्ल (जैसे HCl) की उपस्थिति में इसमें से H<sub>2</sub>S गैस प्रवाहित की जाए तो यह CuS का काला अवक्षेप देता है। Mn<sup>2+</sup> यह गुण नहीं दर्शाता है अतः इसे Mn<sup>2+</sup> और Cu<sup>2+</sup> के बीच अंतर करने की उपयुक्त विधि माना जा सकता है। अतः यह कथन सही है।</p>\n<p>कथन (c) हल्के क्षारीय माध्यम में जब H<sub>2</sub>S प्रवाहित की जाती है तो Cu<sup>2+</sup> और Mn<sup>2+</sup> दोनों अवक्षेप बनाते हैं। अतः यह उनके बीच अंतर करने की उपयुक्त विधि नहीं है। अतः यह कथन गलत है।</p>\n<p>कथन (d) Cu<sup>2+</sup> /Cu का मानक अपचयन विभव +0.34 V है जबकि Mn<sup>2+</sup>/Mn का $$-$$1.18 V है। इसका उपयोग Cu<sup>2+</sup> और Mn<sup>2+</sup> के बीच अंतर करने के लिए किया जा सकता है। सामान्यतः कम विद्युत धनात्मक धातुओं का मानक अपचयन विभव अधिक होता है। अतः यह कथन सही है।</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-correct-options-to-distinguish-nitrate-salts-of-mn-2018-marks-4-vbpmaihw70lbrkwq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "topic": "properties-of-transition-elements",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The correct option(s) to distinguish nitrate salts of $$M{n^{2 + }}$$ and $$C{u^{2 + }}$$ taken separately is (are) "
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "$$M{n^{2 + }}$$ और $$C{u^{2 + }}$$ के नाइट्रेट लवणों को अलग-अलग पहचानने के लिए सही विकल्प है (हैं) "
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "59bfrabsfeidhnnjwzqv",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "d-and-f-block-elements",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Among the species given below, the total number of diamagnetic species is _____________.\n<br><br>$$H$$ atom, $$N{O_2}$$ monomer, $${O_2}^ - $$ (superoxide), dimeric sulphur in vapor phase, $$M{n_3}{O_4},\\,\\,$$ $${\\left( {N{H_4}} \\right)_2}\\left[ {FeC{l_4}} \\right],$$ $${\\left( {N{H_4}} \\right)_2}\\left[ {NiC{l_4}} \\right],\\,$$ $$\\,{K_2}Mn{O_4},\\,$$$${K_2}Cr{O_4}$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "<p>Among the given species only K<sub>2</sub>CrO<sub>4</sub> is diamagnetic as central metal atom Cr in it has [Ar]3d<sup>0</sup> electronic configuration i.e., all paired electrons. The structure and oxidation state of central metal atom of this compound are as follows</p>\n<p>Structure</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywgtxcv/55ff3871-6aca-45f2-bd13-ad6ba69828f7/16480200-7f28-11ec-a207-df8a0438c2ad/file-1kywgtxcx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywgtxcv/55ff3871-6aca-45f2-bd13-ad6ba69828f7/16480200-7f28-11ec-a207-df8a0438c2ad/file-1kywgtxcx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 English Explanation 1\"> </p>\n<p>Oxidation state Cr<sup>6+</sup></p>\n<p>Rest all the compounds are paramagnetic. Reasons for their paramagnetism are given below.</p>\n<p>(i) H-atom have 1s<sup>1</sup> electronic configuration i.e., 1 unpaired electron.</p>\n<p>(ii) NO<sub>2</sub> i.e. </p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywgwnho/1a89b5fc-8f2c-4eff-8d27-9e184041f5ce/621622c0-7f28-11ec-a207-df8a0438c2ad/file-1kywgwnhp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywgwnho/1a89b5fc-8f2c-4eff-8d27-9e184041f5ce/621622c0-7f28-11ec-a207-df8a0438c2ad/file-1kywgwnhp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 English Explanation 2\"> </p>\n<p>in itself is an odd electron species.</p>\n<p>(iii) O$$_2^ - $$ (Superoxide) has one unpaired electron in $$\\pi$$* molecular orbital.</p>\n<p>(iv) S<sub>2</sub> in vapour phase has O<sub>2</sub> like electronic configuration i.e., have 2 unpaired electrons in $$\\pi$$* molecular orbitals.</p>\n<p>(v) Mn<sub>3</sub>O<sub>4</sub> has following structure</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh07ph/c380f8d6-5457-4f1e-b587-7f77b6237def/c5218350-7f28-11ec-a207-df8a0438c2ad/file-1kywh07pi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh07ph/c380f8d6-5457-4f1e-b587-7f77b6237def/c5218350-7f28-11ec-a207-df8a0438c2ad/file-1kywh07pi.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 English Explanation 3\"> </p>\n<p>Thus, Mn is showing +2 and +4 oxidation states. The outermost electronic configuration of elemental Mn is 3d<sup>5</sup>4s<sup>2</sup>. Hence, in both the above oxidation states it has unpaired electron as</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh1sbg/f8395e55-5323-43ae-a156-8a8c25e8b8c6/f0dc6dc0-7f28-11ec-a207-df8a0438c2ad/file-1kywh1sbh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh1sbg/f8395e55-5323-43ae-a156-8a8c25e8b8c6/f0dc6dc0-7f28-11ec-a207-df8a0438c2ad/file-1kywh1sbh.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 English Explanation 4\"> </p>\n(vi) (NH<sub>4</sub>)<sub>2</sub>FeCl<sub>4</sub> has Fe as central metal atom with +2 oxidation state. The electronic configuration of Fe<sup>2+</sup> in the complex is<p></p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh33dg/5859a8d7-4ad9-4d06-802d-3230af1c5fe5/1535d940-7f29-11ec-a207-df8a0438c2ad/file-1kywh33dh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh33dg/5859a8d7-4ad9-4d06-802d-3230af1c5fe5/1535d940-7f29-11ec-a207-df8a0438c2ad/file-1kywh33dh.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 English Explanation 5\"> </p>\n<p>(vii) (NH<sub>4</sub>)<sub>2</sub>NiCl<sub>4</sub> has Ni as central metal atom with +2 oxidation state. The electronic configuration of Ni<sup>2+</sup> in the complex is</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh4fpg/844f63b9-7359-421c-8155-93739a36c220/3a8bf440-7f29-11ec-a207-df8a0438c2ad/file-1kywh4fph.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh4fpg/844f63b9-7359-421c-8155-93739a36c220/3a8bf440-7f29-11ec-a207-df8a0438c2ad/file-1kywh4fph.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 English Explanation 6\"> </p>\n<p>(viii) In K<sub>2</sub>MnO<sub>4</sub> central metal atom Mn has +6 oxidation state with following structure</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh67ko/114c8551-a1c0-4a2a-a503-85d4a601c8a2/6be21c90-7f29-11ec-a207-df8a0438c2ad/file-1kywh67kp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh67ko/114c8551-a1c0-4a2a-a503-85d4a601c8a2/6be21c90-7f29-11ec-a207-df8a0438c2ad/file-1kywh67kp.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 English Explanation 7\"></p>\n<p>Electronic configuration of Mn<sup>6+</sup> is </p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh7ce8/723e0089-386b-4b2e-b390-9c0870f22000/8b6a9f10-7f29-11ec-a207-df8a0438c2ad/file-1kywh7ce9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh7ce8/723e0089-386b-4b2e-b390-9c0870f22000/8b6a9f10-7f29-11ec-a207-df8a0438c2ad/file-1kywh7ce9.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 English Explanation 8\"></p>"
+        },
+        "hi": {
+          "content": "नीचे दिए गए प्रजातियों के बीच, संपूर्ण संख्या का निसीमात्रिक प्रजातियां _____________ हैं।\n<br><br>$$H$$ परमाणु, $$N{O_2}$$ मोनोमर, $${O_2}^ - $$ (सुपरऑक्साइड), वाष्प चरण में डायमेरिक सल्फर, $$M{n_3}{O_4},\\,\\,$$ $${\\left( {N{H_4}} \\right)_2}\\left[ {FeC{l_4}} \\right],$$ $${\\left( {N{H_4}} \\right)_2}\\left[ {NiC{l_4}} \\right],\\,$$ $$\\,{K_2}Mn{O_4},\\,$$$${K_2}Cr{O_4}$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "<p>दी गई स्पीशीज़ में केवल K<sub>2</sub>CrO<sub>4</sub> प्रतिचुंबकीय है क्योंकि इसमें केंद्रीय धातु परमाणु Cr का [Ar]3d<sup>0</sup> इलेक्ट्रॉनिक विन्यास है अर्थात, सभी युग्मित इलेक्ट्रॉन हैं। इस यौगिक के केंद्रीय धातु परमाणु की संरचना और ऑक्सीकरण अवस्था निम्नानुसार हैं</p>\n<p>संरचना</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywgtxcv/55ff3871-6aca-45f2-bd13-ad6ba69828f7/16480200-7f28-11ec-a207-df8a0438c2ad/file-1kywgtxcx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywgtxcv/55ff3871-6aca-45f2-bd13-ad6ba69828f7/16480200-7f28-11ec-a207-df8a0438c2ad/file-1kywgtxcx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 Hindi Explanation 1\"> </p>\n<p>ऑक्सीकरण अवस्था Cr<sup>6+</sup></p>\n<p>शेष सभी यौगिक अनुचुंबकीय हैं। उनके अनुचुंबकत्व के कारण नीचे दिए गए हैं।</p>\n<p>(i) H-परमाणु में 1s<sup>1</sup> इलेक्ट्रॉनिक विन्यास है अर्थात, 1 अयुग्मित इलेक्ट्रॉन।</p>\n<p>(ii) NO<sub>2</sub> अर्थात </p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywgwnho/1a89b5fc-8f2c-4eff-8d27-9e184041f5ce/621622c0-7f28-11ec-a207-df8a0438c2ad/file-1kywgwnhp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywgwnho/1a89b5fc-8f2c-4eff-8d27-9e184041f5ce/621622c0-7f28-11ec-a207-df8a0438c2ad/file-1kywgwnhp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 Hindi Explanation 2\"> </p>\n<p>स्वयं एक विषम इलेक्ट्रॉन स्पीशीज़ है।</p>\n<p>(iii) O$$_2^ - $$ (सुपरऑक्साइड) में $$\\pi$$* आण्विक कक्षक में एक अयुग्मित इलेक्ट्रॉन है।</p>\n<p>(iv) वाष्प प्रावस्था में S<sub>2</sub> का O<sub>2</sub> जैसा इलेक्ट्रॉनिक विन्यास होता है अर्थात, $$\\pi$$* आण्विक कक्षकों में 2 अयुग्मित इलेक्ट्रॉन होते हैं।</p>\n<p>(v) Mn<sub>3</sub>O<sub>4</sub> की निम्नलिखित संरचना है</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh07ph/c380f8d6-5457-4f1e-b587-7f77b6237def/c5218350-7f28-11ec-a207-df8a0438c2ad/file-1kywh07pi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh07ph/c380f8d6-5457-4f1e-b587-7f77b6237def/c5218350-7f28-11ec-a207-df8a0438c2ad/file-1kywh07pi.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 Hindi Explanation 3\"> </p>\n<p>इस प्रकार, Mn +2 और +4 ऑक्सीकरण अवस्थाएँ दर्शा रहा है। तत्वीय Mn का बाह्यतम इलेक्ट्रॉनिक विन्यास 3d<sup>5</sup>4s<sup>2</sup> है। अतः, उपरोक्त दोनों ऑक्सीकरण अवस्थाओं में इसमें अयुग्मित इलेक्ट्रॉन हैं जैसे</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh1sbg/f8395e55-5323-43ae-a156-8a8c25e8b8c6/f0dc6dc0-7f28-11ec-a207-df8a0438c2ad/file-1kywh1sbh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh1sbg/f8395e55-5323-43ae-a156-8a8c25e8b8c6/f0dc6dc0-7f28-11ec-a207-df8a0438c2ad/file-1kywh1sbh.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 Hindi Explanation 4\"> </p>\n(vi) (NH<sub>4</sub>)<sub>2</sub>FeCl<sub>4</sub> में केंद्रीय धातु परमाणु Fe +2 ऑक्सीकरण अवस्था में है। संकुल में Fe<sup>2+</sup> का इलेक्ट्रॉनिक विन्यास है<p></p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh33dg/5859a8d7-4ad9-4d06-802d-3230af1c5fe5/1535d940-7f29-11ec-a207-df8a0438c2ad/file-1kywh33dh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh33dg/5859a8d7-4ad9-4d06-802d-3230af1c5fe5/1535d940-7f29-11ec-a207-df8a0438c2ad/file-1kywh33dh.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 Hindi Explanation 5\"> </p>\n<p>(vii) (NH<sub>4</sub>)<sub>2</sub>NiCl<sub>4</sub> में केंद्रीय धातु परमाणु Ni +2 ऑक्सीकरण अवस्था में है। संकुल में Ni<sup>2+</sup> का इलेक्ट्रॉनिक विन्यास है</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh4fpg/844f63b9-7359-421c-8155-93739a36c220/3a8bf440-7f29-11ec-a207-df8a0438c2ad/file-1kywh4fph.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh4fpg/844f63b9-7359-421c-8155-93739a36c220/3a8bf440-7f29-11ec-a207-df8a0438c2ad/file-1kywh4fph.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 Hindi Explanation 6\"> </p>\n<p>(viii) K<sub>2</sub>MnO<sub>4</sub> में केंद्रीय धातु परमाणु Mn +6 ऑक्सीकरण अवस्था में निम्नलिखित संरचना के साथ है</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh67ko/114c8551-a1c0-4a2a-a503-85d4a601c8a2/6be21c90-7f29-11ec-a207-df8a0438c2ad/file-1kywh67kp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh67ko/114c8551-a1c0-4a2a-a503-85d4a601c8a2/6be21c90-7f29-11ec-a207-df8a0438c2ad/file-1kywh67kp.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 Hindi Explanation 7\"></p>\n<p>Mn<sup>6+</sup> का इलेक्ट्रॉनिक विन्यास है </p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywh7ce8/723e0089-386b-4b2e-b390-9c0870f22000/8b6a9f10-7f29-11ec-a207-df8a0438c2ad/file-1kywh7ce9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywh7ce8/723e0089-386b-4b2e-b390-9c0870f22000/8b6a9f10-7f29-11ec-a207-df8a0438c2ad/file-1kywh7ce9.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - d and f Block Elements Question 24 Hindi Explanation 8\"></p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "among-the-species-given-below-the-total-number-of-diamagnet-2018-marks-3-9y02yagrllrgkozc.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "properties-of-transition-elements",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "Among the species given below, the total number of diamagnetic species is _____________.\n$$H$$ atom, $$N{O_2}$$ monomer, $${O_2}^ - $$ (superoxide), dimeric sulphur in vapor phase, $$M{n_3}{O_4},\\,\\,$$ $${\\left( {N{H_4}} \\right)_2}\\left[ {F..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "नीचे दिए गए प्रजातियों के बीच, संपूर्ण संख्या का निसीमात्रिक प्रजातियां _____________ हैं।\n$$H$$ परमाणु, $$N{O_2}$$ मोनोमर, $${O_2}^ - $$ (सुपरऑक्साइड), वाष्प चरण में डायमेरिक सल्फर, $$M{n_3}{O_4},\\,\\,$$ $${\\left( {N{H_4}} \\right)_2}\\left[ ..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "rg2aptjscka6pys5roiz",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "d-and-f-block-elements",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Which of the following combination will produce $${H_2}$$ gas ? ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Fe metal and conc. $$HN{O_3}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$Cu$$ metal and conc. $$HN{O_3}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$Zn$$ metal and $$NaOH(aq)$$"
+            },
+            {
+              "identifier": "D",
+              "content": "Au metal and $$NaCN\\left( {aq} \\right)$$ in the presence of air "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>(a) Conc. HNO<sub>3</sub> makes iron passive. Cold relatively concentrated HNO<sub>3</sub> will react with Fe.</p>\n<p>$$\\mathop {Fe}\\limits_{Iron}  + \\mathop {6HN{O_3}}\\limits_{Nitric\\,acid}  \\to \\mathop {Fe{{(N{O_3})}_3}}\\limits_{Iron\\,nitrate}  + \\mathop {3N{O_2}}\\limits_{Nitrogen\\,dioxide}  + \\mathop {3{H_2}O}\\limits_{Water} $$</p>\n<p>(b) $$\\mathop {Cu}\\limits_{Copper}  + \\mathop {4HN{O_3}(conc.)}\\limits_{Nitric\\,acid}  \\to \\mathop {Cu{{(N{O_3})}_2}}\\limits_{Copper\\,nitrate}  + \\mathop {2N{O_2}}\\limits_{Nitrogen\\,dioxide}  + \\mathop {2{H_2}O}\\limits_{Water} $$</p>\n<p>(c) $$\\mathop {Zn}\\limits_{Zinc}  + \\mathop {2NaO{H_{(aq)}}}\\limits_{Sodium\\,hydroxide}  \\to \\mathop {N{a_2}Zn{O_2}}\\limits_{Sodium\\,zincate}  + \\mathop {{H_2}}\\limits_{Hydrogen} $$</p>\n<p>(d) $$\\mathop {4Au}\\limits_{Gold}  + \\mathop {8NaCN}\\limits_{Sodium\\,cyanide}  + \\mathop {{O_2}}\\limits_{Oxygen}  + \\mathop {2{H_2}O}\\limits_{Water}  \\to \\mathop {4Na[Au{{(CN)}_2}]}\\limits_{Sodium\\,dicyanoaurate}  + \\mathop {4NaOH}\\limits_{Sodium\\,hydroxide} $$</p>"
+        },
+        "hi": {
+          "content": "निम्नलिखित में से कौन सा संयोजन $${H_2}$$ गैस का उत्पादन करेगा ?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Fe धातु और सांद्र $$HN{O_3}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$Cu$$ धातु और सांद्र $$HN{O_3}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$Zn$$ धातु और $$NaOH(aq)$$"
+            },
+            {
+              "identifier": "D",
+              "content": "Au धातु और $$NaCN\\left( {aq} \\right)$$ की उपस्थिति में वायु "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "which-of-the-following-combination-will-produce-h2-ga-2017-marks-3-txz8sgypbjdqnzz6.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "important-compounds-of-transition-elements",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "Which of the following combination will produce $${H_2}$$ gas ? "
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "निम्नलिखित में से कौन सा संयोजन $${H_2}$$ गैस का उत्पादन करेगा ?"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qawgmv729rz8g86e2wmh",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "d-and-f-block-elements",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The options(s) with only amphoteric oxides is (are) ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$C{r_2}{O_3},BeO,SnO,Sn{O_2}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$C{r_2}{O_3},CrO,SnO,PbO$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$NO,{B_2}{O_3},PbO,Sn{O_2}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$ZnO,A{l_2}{O_3},PbO,Pb{O_2}$$ "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Compounds which dissolve in both acids and bases are known as amphoteric oxides.</p>\n<p>Amphoteric oxides are :</p>\n\n<p>Cr<sub>2</sub>O<sub>3</sub>, BeO, SnO, SnO<sub>2</sub>, ZnO, Al<sub>2</sub>O<sub>3</sub> , PbO and PbO<sub>2</sub>  Whereas, NO is a neutral oxide, B<sub>2</sub>O<sub>3</sub> is an acidic oxide and CrO is a basic oxide.</p><p></p>"
+        },
+        "hi": {
+          "content": "केवल एम्फोटेरिक ऑक्साइड के साथ विकल्प (विकल्प) हैं ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$C{r_2}{O_3},BeO,SnO,Sn{O_2}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$C{r_2}{O_3},CrO,SnO,PbO$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$NO,{B_2}{O_3},PbO,Sn{O_2}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$ZnO,A{l_2}{O_3},PbO,Pb{O_2}$$ "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-optionss-with-only-amphoteric-oxides-is-are-2017-marks-4-xlwzlvoua4tlqkzo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "properties-of-transition-elements",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The options(s) with only amphoteric oxides is (are) "
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "केवल एम्फोटेरिक ऑक्साइड के साथ विकल्प (विकल्प) हैं "
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "ofd8u6fnx18rotao5jss",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "permalink": "pin-the-following-reaction-sequence-in-aqueous-solution-jee-advanced-chemistry-some-basic-concepts-of-chemistry-lg3mvepz3dofatkw",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>In the following reaction, sequence in aqueous solution, the species X, Y and Z, respectively, are</p>\n<p>$${S_2}O_3^{2 - }\\buildrel {A{g^ + }} \\over\n \\longrightarrow \\mathop X\\limits_{Clear\\,solution} \\buildrel {A{g^ + }} \\over\n \\longrightarrow \\mathop Y\\limits_{White\\,precipitate} \\buildrel {With\\,time} \\over\n \\longrightarrow \\mathop Z\\limits_{Black\\,precipitate} $$</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "[Ag(S<sub>2</sub>O<sub>3</sub>)<sub>2</sub>]<sup>3$$-$$</sup>, Ag<sub>2</sub>S<sub>2</sub>O<sub>3</sub>, Ag<sub>2</sub>S"
+            },
+            {
+              "identifier": "B",
+              "content": "[Ag(S<sub>2</sub>O<sub>3</sub>)<sub>2</sub>]<sup>5$$-$$</sup>, Ag<sub>2</sub>SO<sub>3</sub>, Ag<sub>2</sub>S"
+            },
+            {
+              "identifier": "C",
+              "content": "[Ag(SO<sub>3</sub>)<sub>2</sub>]<sup>3$$-$$</sup>, Ag<sub>2</sub>S<sub>2</sub>O<sub>3</sub>, Ag"
+            },
+            {
+              "identifier": "D",
+              "content": "[Ag(SO<sub>3</sub>)<sub>3</sub>]<sup>3$$-$$</sup>, Ag<sub>2</sub>SO<sub>4</sub>, Ag"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>$$A{g^ + }\\mathop {2{S_2}O_3^{2 - }}\\limits_{(Excess)}  \\to \\mathop {{{[Ag{{({S_2}{O_3})}_2}]}^{3 - }}}\\limits_{Argentothiosulphate\\,(X)\\,(Soluble)} \\buildrel {A{g^ + }} \\over\n \\longrightarrow \\mathop {A{g_2}{S_2}{O_3}}\\limits_{(Y)\\,(White\\,ppt.)} \\mathrel{\\mathop{\\kern0pt\\longrightarrow}\n\\limits_{(due\\,to\\,hydrolysis)}^{With\\,time}} \\mathop {A{g_2}S}\\limits_{(Z)\\,(Black\\,ppt.)} $$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "<p>पानी के घोल में निम्नलिखित प्रतिक्रिया श्रृंखला में क्रमशः X, Y और Z प्रजाति हैं</p>\n<p>$${S_2}O_3^{2 - }\\buildrel {A{g^ + }} \\over\n \\longrightarrow \\mathop X\\limits_{Clear\\,solution} \\buildrel {A{g^ + }} \\over\n \\longrightarrow \\mathop Y\\limits_{White\\,precipitate} \\buildrel {With\\,time} \\over\n \\longrightarrow \\mathop Z\\limits_{Black\\,precipitate} $$</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "[Ag(S<sub>2</sub>O<sub>3</sub>)<sub>2</sub>]<sup>3$$-$$</sup>, Ag<sub>2</sub>S<sub>2</sub>O<sub>3</sub>, Ag<sub>2</sub>S"
+            },
+            {
+              "identifier": "B",
+              "content": "[Ag(S<sub>2</sub>O<sub>3</sub>)<sub>2</sub>]<sup>5$$-$$</sup>, Ag<sub>2</sub>SO<sub>3</sub>, Ag<sub>2</sub>S"
+            },
+            {
+              "identifier": "C",
+              "content": "[Ag(SO<sub>3</sub>)<sub>2</sub>]<sup>3$$-$$</sup>, Ag<sub>2</sub>S<sub>2</sub>O<sub>3</sub>, Ag"
+            },
+            {
+              "identifier": "D",
+              "content": "[Ag(SO<sub>3</sub>)<sub>3</sub>]<sup>3$$-$$</sup>, Ag<sub>2</sub>SO<sub>4</sub>, Ag"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "mcq",
+      "year": 2016,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "In the following reaction, sequence in aqueous solution, the species X, Y and Z, respectively, are\n$${S_2}O_3^{2 - }\\buildrel {A{g^ + }} \\over\n \\longrightarrow \\mathop X\\limits_{Clear\\,solution} \\buildrel {A{g^ + }} \\over\n \\longrightarrow \\..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "पानी के घोल में निम्नलिखित प्रतिक्रिया श्रृंखला में क्रमशः X, Y और Z प्रजाति हैं\n$${S_2}O_3^{2 - }\\buildrel {A{g^ + }} \\over\n \\longrightarrow \\mathop X\\limits_{Clear\\,solution} \\buildrel {A{g^ + }} \\over\n \\longrightarrow \\mathop Y\\limits_{W..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "question_id": "srp2cipizxrnu8oyyfch",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "permalink": "the-reagents-that-can-selectively-precipitate-ssup2-s-jee-advanced-chemistry-some-basic-concepts-of-chemistry-iljfo0o8n1v6seoy",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The reagent(s) that can selectively  precipitate S<sup>2-</sup> from a mixture of  S<sup>2-</sup> and SO<sub>4</sub><sup>2-</sup> in aqueous solution is  (are) :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "CuCl<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "BaCl<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "Pb(OOCCH<sub>3</sub>)<sub>2</sub>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "Na<sub>2</sub>[Fe(CN)<sub>5</sub>NO]"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "Consider the reactions of the given compounds with $\\mathrm{S}^{2-}$ and $\\mathrm{SO}_4^{2-}$.<br/><br/>\n(i) With $\\mathrm{CuCl}_2$ :<br/><br/>\n$$\n\\begin{aligned}\n&\\mathrm{CuCl}_2+\\mathrm{S}^{2-} \\rightarrow \\underset{\\text { black ppt }}{\\mathrm{CuS}}+2 \\mathrm{Cl}^{-} \\\\\\\\\n&\\mathrm{CuCl}_2+\\mathrm{SO}_4{ }^{2-} \\rightarrow \\text { No precipitate }\n\\end{aligned}\n$$<br/><br/>\n(ii) With $\\mathrm{BaCl}_2$ : Alkaline earth metal sulphides are sparingly soluble in water but pass into solution with time and hence do not give precipitates from their aqueous solutions.<br/><br/>\n$$\n\\begin{aligned}\n&\\mathrm{BaCl}_2+\\mathrm{S}^{2-} \\rightarrow \\underset{\\text { No ppt }}{\\mathrm{BaS}}+2 \\mathrm{Cl}^{-} \\\\\\\\\n&\\mathrm{BaS}+2 \\mathrm{H}_2 \\mathrm{O} \\rightleftharpoons \\underset{\\text { water soluble }}{\\mathrm{Ba}(\\mathrm{OH})_2+{\\mathrm{Ba}(\\mathrm{SH})_2}}\n\\end{aligned}\n$$<br/><br/>\nAlkaline earth metal sulphates, $\\mathrm{BaSO}_4, \\mathrm{CaSO}_4$ and $\\mathrm{SrSO}_4$ are insoluble in water.<br/><br/>\n$\\mathrm{BaCl}_2+\\mathrm{SO}_4^{2-} \\rightarrow \\underset{\\text { white ppt }}{\\mathrm{BaSO}_4}+2 \\mathrm{Cl}^{-}$<br/><br/>\n(iii) With $\\mathrm{Pb}(\\mathrm{OAc})_2$ :<br/><br/>\n$$\n\\begin{aligned}\n&\\mathrm{Pb}(\\mathrm{OAc})_2+\\mathrm{S}^{2-} \\rightarrow \\underset{\\text { black ppt }}{\\mathrm{PbS}}+2 \\mathrm{CH}_3 \\mathrm{COO}^{-} \\\\\\\\\n&\\mathrm{Pb}(\\mathrm{OAc})_2+\\mathrm{SO}_4^{2-} \\rightarrow \\underset{\\text { white ppt }}{\\mathrm{PbSO}_4}+2 \\mathrm{CH}_3 \\mathrm{COO}^{-}\n\\end{aligned}\n$$<br/><br/>\nThe $K_{\\mathrm{sp}}$ of $\\mathrm{PbS}$ is $3 \\times 10^{-28}$ and of $\\mathrm{PbSO}_4$ is $25 \\times$ $10^{-28}$. The difference is large, thus only $\\mathrm{PbS}$ is selectively precipitated.<br/><br/>\n(iv) With $\\mathrm{Na}_2\\left[\\mathrm{Fe}(\\mathrm{CN})_5 \\mathrm{NO}\\right]$ : When sodium nitroprusside is added to solution of sulphide ions, purple colouration is observed. This is a confirmative test for sulphides.<br/><br/>\n$$\n\\begin{aligned}\n&{\\left[\\mathrm{Fe}(\\mathrm{CN})_5 \\mathrm{NO}\\right]^{2-}+\\mathrm{S}^{2-} \\rightarrow \\underset{\\text { Purple colour }}{\\left[\\mathrm{Fe}(\\mathrm{CN})_5 \\mathrm{NOS}\\right]}} \\\\\\\\\n&\\mathrm{Na}_2\\left[\\mathrm{Fe}(\\mathrm{CN})_5 \\mathrm{NO}\\right]+\\mathrm{SO}_4{ }^{2-} \\rightarrow \\text { No precipitate }\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "direction": null,
+          "content": "शोधक जो $$S^{2-} $$ के मिश्रण से चयनात्मक रूप से $$S^{2-} $$ की अवक्षेपण कर सकता है और $$ SO_4^{2-} $$ जल समाधान में है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "CuCl<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "BaCl<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "Pb(OOCCH<sub>3</sub>)<sub>2</sub>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "Na<sub>2</sub>[Fe(CN)<sub>5</sub>NO]"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "mcqm",
+      "year": 2016,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The reagent(s) that can selectively  precipitate S2- from a mixture of  S2- and SO42- in aqueous solution is  (are) :"
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "शोधक जो $$S^{2-} $$ के मिश्रण से चयनात्मक रूप से $$S^{2-} $$ की अवक्षेपण कर सकता है और $$ SO_4^{2-} $$ जल समाधान में है"
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "question_id": "bar6i1bkqpdbsbv6e00z",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "permalink": "pthe-pairs-of-ions-where-both-the-ions-are-precipitated-up-jee-advanced-chemistry-some-basic-concepts-of-chemistry-fkopfhty1rtlbss1",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The pairs of ions where BOTH the ions are precipitated upon passing H<sub>2</sub>S gas in presence of dilute HCl, is(are)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Ba<sup>2+</sup>, Zn<sup>2+</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "Bi<sup>3+</sup>, Fe<sup>3+</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "Cu<sup>2+</sup>, Pb<sup>2+</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "Hg<sup>2+</sup>, Bi<sup>3+</sup>"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The pairs Cu<sup>2+</sup>, Pb<sup>2+</sup> and Hg<sup>2+</sup>, Bi<sup>3+</sup> are precipitated as sulphides upon passing H<sub>2</sub>S in acidic medium.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "properties-of-transition-elements",
+      "type": "mcqm",
+      "year": 2015,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The pairs of ions where BOTH the ions are precipitated upon passing H2S gas in presence of dilute HCl, is(are)"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "question_id": "b5w7qj6j795ud69lfosw",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "permalink": "pthe-correct-statements-about-crsup2sup-and-mnsup3-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ty3jxbr49u8fx3ut",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The correct statements about Cr<sup>2+</sup> and Mn<sup>3+</sup> is(are) (Atomic numbers of Cr = 24 and Mn = 25)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Cr<sup>2+</sup> is a reducing agent."
+            },
+            {
+              "identifier": "B",
+              "content": "Mn<sup>3+</sup> is an oxidizing agent."
+            },
+            {
+              "identifier": "C",
+              "content": "both Cr<sup>2+</sup> and Mn<sup>3+</sup> exhibit d<sup>4</sup> electronic configuration."
+            },
+            {
+              "identifier": "D",
+              "content": "when Cr<sup>2+</sup> is used as a reducing agent, the chromium ion attains d<sup>5</sup> electronic configuration."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The correct statements are as follows:</p>\n<p>(A) Cr<sup>3+</sup> is more stable than Cr<sup>2+</sup>, thus, Cr<sup>2+</sup> act as reducing agent.</p>\n<p>(B) Mn<sup>2+</sup> is more stable than Mn<sup>3+</sup>, thus, Mn<sup>3+</sup> act as an oxidizing agent.</p>\n<p>(C) Both Cr<sup>2+</sup> and Mn<sup>3+</sup> exhibit d<sup>4</sup> electronic configuration.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "properties-of-transition-elements",
+      "type": "mcqm",
+      "year": 2015,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The correct statements about Cr2+ and Mn3+ is(are) (Atomic numbers of Cr = 24 and Mn = 25)"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "question_id": "fy0y0qsk0yvjrm1baq64",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "the-pairs-of-reagents-that-yield-paramagnetic-species-isa-jee-advanced-chemistry-some-basic-concepts-of-chemistry-pwqy9byeprvhwqm3",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The pair(s) of reagents that yield paramagnetic species is/are",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Na and excess of NH<sub>3</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "K and excess of O<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "Cu and dilute HNO<sub>3</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "O<sub>2</sub> and 2-ethylanthraquinol"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "Reaction of alkali metals with ammonia depends upon the physical state of ammonia whether it is in gaseous state or liquid state. If ammonia is considered as a gas then reaction will be<br><br>(a) $$Na + \\mathop {N{H_3}}\\limits_{(Excess)}  \\to NaN{H_2} + {1 \\over 2}{H_2}$$<br><br>(NaNH<sub>2</sub> + 1/2H<sub>2</sub> are diamagnetic) If ammonia is considered as a liquid then reaction will be<br><br>$$M + (x + y)N{H_3} \\to {[M{(N{H_3})_x}]^ + } + {[e{(N{H_3})_y}]^ - }$$<br><br>$$\\bullet$$ ammoniated electron<br><br>$$\\bullet$$ blue colour<br><br>$$\\bullet$$ paramagnetic<br><br>$$\\bullet$$ very strong reducing agent<br><br>(b) $$K + \\mathop {{O_2}}\\limits_{(Excess)}  \\to \\mathop {K{O_2}({K^ + },O_2^ - )}\\limits_{Potassium\\,\\sup eroxide\\,Paramagnetic} $$<br><br>(c) $$3Cu + 8HN{O_3} \\to \\mathop {3Cu{{(N{O_3})}_2}}\\limits_{Paramagnetic}  + \\mathop {2NO}\\limits_{Paramagnetic}  + 4{H_2}O$$<br><br>(d) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1ayod2g/e10947ea-2934-4ea4-be45-2a6f0a9ae86a/47bca190-aeb9-11ec-9d01-8f770d3c908f/file-1l1ayod2h.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1ayod2g/e10947ea-2934-4ea4-be45-2a6f0a9ae86a/47bca190-aeb9-11ec-9d01-8f770d3c908f/file-1l1ayod2h.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Chemistry - d and f Block Elements Question 14 English Explanation\"><br>Hence, option (a), (b) and (c) are correct choices."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "properties-of-transition-elements",
+      "type": "mcqm",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The pair(s) of reagents that yield paramagnetic species is/are"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zbyn11vpmnu8d9ig38hx",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "d-and-f-block-elements",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Upon heating with Cu<sub>2</sub>S, the reagent(s) that give copper metal is/are",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "CuFeS<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "CuO"
+            },
+            {
+              "identifier": "C",
+              "content": "Cu<sub>2</sub>O"
+            },
+            {
+              "identifier": "D",
+              "content": "CuSO<sub>4</sub>"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>To understand which of the given reagents will give copper metal upon heating with $Cu_2S$, let's discuss each one based on their chemical reactions during the process:</p>\n\n<p><strong>Option A: CuFeS<sub>2</sub></strong></p>\n\n<p>$CuFeS_2$ (Chalcopyrite) when heated with $Cu_2S$, it can react to form copper metal as part of the copper extraction process. However, the direct reaction between $CuFeS_2$ and $Cu_2S$ is more involved and typically requires a series of steps, including smelting and conversion to get to the copper metal. Therefore, while $CuFeS_2$ is a source of copper, it's not directly because of its reaction with $Cu_2S$, but through a complex metallurgical process.</p>\n\n<p><strong>Option B: CuO</strong></p>\n\n<p>$$\n\\begin{aligned}\n& 4 \\mathrm{CuO} \\xrightarrow{\\Delta} 2 \\mathrm{Cu}_2 \\mathrm{O}+\\mathrm{O}_2 \\\\\\\\\n& \\mathrm{Cu}_2 \\mathrm{~S}+2 \\mathrm{Cu}_2 \\mathrm{O} \\xrightarrow{\\Delta} 6 \\mathrm{Cu}+\\mathrm{SO}_2\n\\end{aligned}\n$$</p>\n\n<p><strong>Option C: Cu<sub>2</sub>O</strong></p>\n\n<p>Copper(I) oxide ($Cu_2O$) can also react with $Cu_2S$ to produce copper metal directly. The equation for this reaction is:</p>\n\n<p>$2Cu_2O + Cu_2S \\rightarrow 6Cu + SO_2$</p>\n\n<p>Here, $Cu_2O$ serves as the oxidizing agent, reducing $Cu_2S$ to copper metal, while itself being reduced to copper, and sulfur is oxidized to sulfur dioxide. This reaction is similar in principle to the reaction with $CuO$, but involves copper(I) oxide instead.</p>\n\n<p><strong>Option D: CuSO<sub>4</sub></strong></p>\n\n<p>$\\begin{array}{r}\\mathrm{CuSO}_4 \\xrightarrow{720^{\\circ} \\mathrm{C}} \\mathrm{CuO}+\\mathrm{SO}_2+\\frac{1}{2} \\mathrm{O}_2 \\\\\\\\ 4 \\mathrm{CuO} \\xrightarrow{1100^{\\circ} \\mathrm{C}} 2 \\mathrm{Cu}_2 \\mathrm{O}+\\mathrm{O}_2 \\\\\\\\ 2 \\mathrm{Cu}_2 \\mathrm{O}+\\mathrm{Cu}_2 \\mathrm{~S} \\xrightarrow{\\Delta} 6 \\mathrm{Cu}+\\mathrm{SO}_2\\end{array}$</p>\n\n"
+        }
+      },
+      "permalink": "upon-heating-with-cu2s-the-reagents-that-give-copper-meta-2014-marks-3-ibqp0czqzgb5xhps.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "topic": "important-compounds-of-transition-elements",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "Upon heating with Cu2S, the reagent(s) that give copper metal is/are"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "trfo03uwpnseq0o4oixn",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "among-pbs-cus-hgs-mns-agsub2subs-nis-cos-bisub-jee-advanced-chemistry-some-basic-concepts-of-chemistry-vz2umcfjkxqxc85j",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Among PbS, CuS, HgS, MnS, Ag<sub>2</sub>S, NiS, CoS, Bi<sub>2</sub>S<sub>3</sub> and SnS<sub>2</sub> the total number of black coloured sulphides is ",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>(i) Lead in +2 oxidation state as $\\mathrm{Pb}^{2+}$ reacts with hydrogen sulphide gas $\\left(\\mathrm{H}_2 \\mathrm{~S}\\right)$ to form black coloured precipitate of lead sulphide $(\\mathrm{PbS})$.</p>\n\n<p>$\\begin{aligned} & \\mathrm{Pb}^{2+}(a q)+\\mathrm{H}_2 \\mathrm{~S}(g) \\rightarrow \\mathrm{PbS}(s) \\downarrow\\text { (Black }  \\text { ppt) }+2 \\mathrm{H}^{+}(a q)   \\\\\\\\ & \\mathrm{PbS} \\text { is black coloured precipitate. } \\\\ & \\end{aligned}$</p>\n\n<p>(ii) Silver in +1 oxidation state as $\\mathrm{Ag}^{+}$reacts with hydrogen sulphide in neutral or acidic medium to form black coloured precipitate of silver sulphide $\\left(\\mathrm{Ag}_2 \\mathrm{~S}\\right)$.</p>\n\n<p>$$ 2 \\mathrm{Ag}^{+}(a q)+\\mathrm{H}_2 \\mathrm{~S}(g) \\xrightarrow[\\text { or acidic medium }]{\\text { Neutral }} \\mathrm{Ag}_2 \\mathrm{~S}(s) $$(Black ppt)</p>\n\n<p><b>$\\mathrm{Ag}_2 \\mathrm{~S}$ is black coloured precipitate.</b></p>\n\n<p>(iii) Mercury in +2 oxidation state as $\\mathrm{Hg}^{2+}$ reacts with hydrogen sulphide in dilute hydrochloric acid to form black coloured precipitate of mercury sulphide (HgS).</p>\n\n<p>$$ \\mathrm{Hg}^{2+}(a q)+\\underset{\\begin{array}{c} \\text { (saturated aq. } \\\\ \\text { solution or gas) } \\end{array}}{\\mathrm{H}_2 \\mathrm{~S}} \\xrightarrow{\\text { dil. } \\mathrm{HCl}} \\underset{\\begin{array}{c} \\text { Black } \\\\ \\text { ppt } \\end{array}}{\\mathrm{HgS}(s)} $$</p>\n\n<p><b>HgS is black coloured precipitate.</b></p>\n\n<p>(iv) Copper in +2 oxidation state as $\\mathrm{Cu}^{2+}$ reacts with dilute hydrochloric acid to form black coloured precipitate of copper sulphide (CuS).</p>\n\n<p>$$ \\begin{aligned} & \\mathrm{Cu}^{2+}(a q)+\\mathrm{H}_2 \\mathrm{~S}(\\mathrm{~g}) \\text { (saturated aq. solution) } \\xrightarrow[\\text { HCl }]{\\text { dil }} \\mathrm{CuS}(\\mathrm{s}) \\text { (black ppt) } \\\\ & \\end{aligned} $$</p>\n\n<p><b>CuS is black coloured precipitate.</b></p>\n\n<p>(v) Cobalt in +2 oxidation state as $\\mathrm{Co}^{2+}$ reacts with hydrogen sulphide in neutral or alkaline solution to form black coloured precipitate of cobalt sulphide.</p>\n\n<p>$\\mathrm{Co}^{2+}(a q) \\text { (ammonical hydrogen sulphide) }+\\mathrm{H}_2 \\mathrm{~S} \\longrightarrow \\mathrm{CoS}(\\mathrm{s})\\text { (Black ppt.) }$</p>\n\n<p><b>$(\\mathrm{CoS})$ is black coloured precipitate.</b></p>\n\n<p>(vi) Nickel in +2 oxidation state as $\\mathrm{Ni}^{2+}$ reacts with hydrogen sulphide in neutral or slightly alkaline solution to form, black coloured precipitate of nickel sulphide.</p>\n\n<p>$$ \\mathrm{Ni}^{2+}(a q)+\\mathrm{H}_2 \\mathrm{~S} \\longrightarrow \\underset{\\substack{\\text { Black } \\\\ \\text { ppt. }}}{\\mathrm{NiS}(\\mathrm{s})} $$</p>\n\n<p><b>NiS is black coloured precipitate.</b></p>\n\n<p>(vii) Bismuth in +3 oxidation state as $\\mathrm{Bi}^{3+}$ reacts with hydrogen sulphide in cold dilute hydrochloric acid to form crystalline dark brown coloured precipitate, but appears black coloured solid of $\\mathrm{Bi}_2 \\mathrm{~S}_3$.</p>\n\n<p>$\\mathrm{Bi}^{3+}(a q) \\text { (Saturated solution) }+\\mathrm{H}_2 \\mathrm{~S} \\longrightarrow \\mathrm{Bi}_2 \\mathrm{~S}_3(\\mathrm{~s})\\text { (Dark brown or Black precipitate  brownish) }$</p>\n\n<p><b>$\\mathrm{Bi}_2 \\mathrm{~S}_3$ may appear black in colours.</b></p>\n\n<p>Either compounds of sulphur are black in colour.</p>\n\n<p>(viii) In mildly acidic, medium tin in +2 state, i.e., $\\mathrm{Sn}^{2+}$ reacts with Hydrogen sulphide $\\left(\\mathrm{H}_2 \\mathrm{~S}\\right)$ to form brown coloured tin (II) sulphide which further reacts with excess of hydrogen sulphide to form light yellow coloured tin (IV) sulphide $\\left(\\mathrm{SnS}_2\\right)$.</p>\n\n<p>$\\begin{aligned} \\mathrm{Sn}^{2+}(a q)+\\mathrm{H}_2 \\mathrm{~S} \\rightleftharpoons \\underset{\\text { Brown }}{\\mathrm{SnS}(s)} \\\\ \\mathrm{SnS}(\\mathrm{s})+\\mathrm{H}_2 \\mathrm{~S} \\rightleftharpoons \\underset{\\text { Yellow }}{\\mathrm{SnS}_2(\\mathrm{~s})}+2 \\mathrm{H}^{+}\\end{aligned}$</p>\n\n<p>Hence, tin (IV) sulphide or $\\mathrm{SnS}_2$ is yellow in colour.</p>\n\n<p>(ix) MnS is known to be dirty pink coloured.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "properties-of-transition-elements",
+      "type": "integer",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "Among PbS, CuS, HgS, MnS, Ag2S, NiS, CoS, Bi2S3 and SnS2 the total number of black coloured sulphides is "
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "6rwvrawoosr3biyv82tl",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "permalink": "pupon-treatment-with-ammoniacal-hsub2subs-the-metal-jee-advanced-chemistry-some-basic-concepts-of-chemistry-tkkms3knowfdbf7l",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Upon treatment with ammoniacal H<sub>2</sub>S, the metal ion that precipitates as a sulphide is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Fe(III)"
+            },
+            {
+              "identifier": "B",
+              "content": "Al(III)"
+            },
+            {
+              "identifier": "C",
+              "content": "Mg(II)"
+            },
+            {
+              "identifier": "D",
+              "content": "Zn(II)"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>On treatment with H<sub>2</sub>S, Zn(II) gets precipitated as ZnS. Mg(II) does not get precipitated, while Fe<sup>3+</sup> and Al<sup>3+</sup> get precipitated as hydroxides.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "properties-of-transition-elements",
+      "type": "mcq",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "Upon treatment with ammoniacal H2S, the metal ion that precipitates as a sulphide is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "question_id": "i3ii5f140i88yvn5ryip",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2012-paper-2-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 2 Offline",
+      "permalink": "pfor-the-given-aqueous-reactions-which-of-the-statements-jee-advanced-chemistry-some-basic-concepts-of-chemistry-16dc0y11hgfwvarx",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>For the given aqueous reactions, which of the statement(s) is(are) true?</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l26ahj0p/f5257576-3303-4423-bce8-7aa2ed172ce9/c359e790-bff3-11ec-9807-3fb7842b4dc6/file-1l26ahj0q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l26ahj0p/f5257576-3303-4423-bce8-7aa2ed172ce9/c359e790-bff3-11ec-9807-3fb7842b4dc6/file-1l26ahj0q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 2 Offline Chemistry - d and f Block Elements Question 8 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The first reaction is a redox reaction."
+            },
+            {
+              "identifier": "B",
+              "content": "White precipitate is Zn<sub>3</sub>[Fe(CN)<sub>6</sub>]<sub>2</sub>."
+            },
+            {
+              "identifier": "C",
+              "content": "Addition of filtrate to starch solution gives blue colour."
+            },
+            {
+              "identifier": "D",
+              "content": "White precipitate is soluble in NaOH solution."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The first reaction is</p>\n<p>$${K_3}[Fe{(CN)_6}] + \\mathop {KI}\\limits_{excess}  \\to {K_4}[Fe{(CN)_6}] + \\mathop {K{I_3}}\\limits_{brownish\\,yellow\\,solution} $$</p>\n<p>This is a redox reaction as both oxidation and reduction are taking place.</p>\n<p>$$\\mathop {{K_4}[Fe{{(CN)}_6}]}\\limits_{soluble} \\, + ZnS{O_4} \\to \\mathop {{K_2}Z{n_3}{{[Fe{{(CN)}_6}]}_3}}\\limits_{white\\,ppt}  + NaOH \\to \\mathop {N{a_2}{{[Zn{{(OH)}_4}]}^{2 - }}}\\limits_{soluble} $$</p>\n<p>$$2I_3^ -  + 2N{a_2}{S_2}{O_3} \\to \\mathop {N{a_2}{S_4}{O_6}}\\limits_{clear\\,solution}  + 2NaI + \\mathop {2{I_2}}\\limits_{(blue\\,colour)} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "properties-of-transition-elements",
+      "type": "mcqm",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "For the given aqueous reactions, which of the statement(s) is(are) true?\n"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-2-offline"
+    },
+    {
+      "question_id": "k3i02rdz0gn3zkzgo4dr",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pthe-colour-of-light-absorbed-by-an-aqueous-solution-of-cu-jee-advanced-chemistry-some-basic-concepts-of-chemistry-mziys50tu256jetn",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The colour of light absorbed by an aqueous solution of CuSO<sub>4</sub> is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "orange-red"
+            },
+            {
+              "identifier": "B",
+              "content": "blue-green"
+            },
+            {
+              "identifier": "C",
+              "content": "yellow"
+            },
+            {
+              "identifier": "D",
+              "content": "violet"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>When we consider the color of light absorbed by a substance, we are referring to the complementary color of the light that is transmitted or reflected by the substance. An aqueous solution of copper(II) sulfate (CuSO<sub>4</sub>) appears blue to our eyes. This color results from the absorption of light in the complementary color range.</p>\n\n<p>The visible spectrum of light can be divided into several regions, each corresponding to a different color. The complementary color of blue is orange-red. This means that the aqueous solution of CuSO<sub>4</sub> absorbs light in the orange-red region of the spectrum.</p>\n\n<p>Therefore, the correct answer is:</p>\n\n<p>Option A: orange-red</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "mcq",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The colour of light absorbed by an aqueous solution of CuSO4 is"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "question_id": "8q3zz1xbnqe53awwsdt9",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pthe-oxidation-number-of-mn-in-the-product-of-alkaline-oxi-jee-advanced-chemistry-some-basic-concepts-of-chemistry-bstbh4u1wrvhn8pm",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The oxidation number of Mn in the product of alkaline oxidative fusion of MnO$$_2$$ is ___________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>The reaction for alkaline oxidative fusion is</p>\n<p>2MnO$$_2$$ + 4KOH + O$$_2$$ $$\\to$$ 2K$$_2$$MnO$$_4$$ + 2H$$_2$$O</p>\n<p>In potassium manganite formed as product :</p>\n<p>K$$_2$$MnO$$_4$$</p>\n<p>2(+1) + $$x$$ + 4($$-$$2) = 0</p>\n<p>$$2+x-8=0$$</p>\n<p>$$x-6=0\\Rightarrow x=+6$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "integer",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "The oxidation number of Mn in the product of alkaline oxidative fusion of MnO$$_2$$ is ___________."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "xnqxanadrlnu3c6440zc",
+      "chapter": "d-and-f-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pwrite-the-balanced-chemical-equation-for-developing-a-bac-jee-advanced-chemistry-some-basic-concepts-of-chemistry-z6vbn6ubozhhhips",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Write the balanced chemical equation for developing a back and white photographic film. Also explain why the solution of sodium thiosulphate on acidification turns milky white.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9ldbp4/f600a80f-fe31-436e-8860-9965dc610b3d/b526df80-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9ldbp5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9ldbp4/f600a80f-fe31-436e-8860-9965dc610b3d/b526df80-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9ldbp5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - d and f Block Elements Question 3 English Answer\">",
+          "explanation": "<p>In the development of photographic film, the \nblack and white photographic film is developed \nas follows:</p>\n<p>The silver bromide reacts with hydroquinone \nproducing black coloured silver particles along \nwith HBr and quinone. During this process, \nsilver bromide gets reduced to silver and \nhydroquinone is oxidised to quinone.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9lf6qr/6d9b7a23-1c29-497d-ba48-3e81e9e4fdb6/e8f16330-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9lf6qs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9lf6qr/6d9b7a23-1c29-497d-ba48-3e81e9e4fdb6/e8f16330-b373-11f0-b034-2711d08df967/file-jaoe38c1mh9lf6qs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - d and f Block Elements Question 3 English Explanation 1\"></p>\n<p>The hydroquinone acts as a developer during \nthis process.</p>\n<p>The unreacted silver bromide then reacts \nwith sodium thiosulphate to produce soluble \ncomplex and sodium bromide.</p>\n<p>$$\\mathrm{AgBr + \\mathop {2N{a_2}{S_2}{O_3}}\\limits_{hypo\\,solution}  \\to \\mathop {N{a_3}[Ag{{({S_2}{O_3})}_2}]}\\limits_{so{\\mathop{\\rm lub}} le}  + NaBr}$$</p>\n<p>The reaction occurs in acidic medium. In acidic \nmedium, sulphur from sodium thiosulphate \nwill precipitate out. The colloidal sulphur is \nobtained which gives milky white turbidity.\n</p>\n<p>$\\mathrm{Na}_2 \\mathrm{~S}_2 \\mathrm{O}_3+2 \\mathrm{H}^{+}(a q) \\longrightarrow 2 \\mathrm{Na}^{+}+\\mathrm{H}_2 \\mathrm{SO}_3+\\underset{\\substack{\\text { colloidal } \\\\ \\text { sulphur }}}{\\mathrm{S} \\downarrow}$</p>\n<p>Final Answer :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9lhe7i/6dac6191-41ca-4858-9b07-c58bed7108a8/2653f4e0-b374-11f0-b034-2711d08df967/file-jaoe38c1mh9lhe7j.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9lhe7i/6dac6191-41ca-4858-9b07-c58bed7108a8/2653f4e0-b374-11f0-b034-2711d08df967/file-jaoe38c1mh9lhe7j.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - d and f Block Elements Question 3 English Explanation 2\"></p>\n<p>$$\\mathrm{AgBr + \\mathop {2N{a_2}{S_2}{O_3}}\\limits_{hypo\\,solution}  \\to \\mathop {N{a_3}[Ag{{({S_2}{O_3})}_2}]}\\limits_{so{\\mathop{\\rm lub}} le}  + NaBr}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "important-compounds-of-transition-elements",
+      "type": "subjective",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "D and F Block Elements • Chemistry",
+          "excerpt": "Write the balanced chemical equation for developing a back and white photographic film. Also explain why the solution of sodium thiosulphate on acidification turns milky white."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    }
+  ]
+}

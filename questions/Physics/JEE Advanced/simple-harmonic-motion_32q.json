@@ -1,0 +1,2128 @@
+{
+  "questions": [
+    {
+      "question_id": "3ow99xql5ueu659lpb19",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "pa-tank-contains-two-immiscible-liquids-of-densities-6rh-jee-advanced-physics-0yy39mip844irxoc",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A tank contains two immiscible liquids of densities $6\\rho$ and $2\\rho$. The higher density liquid is filled up to a height $L/2$ from the bottom. A thin rod of density $\\rho$ and length $L$ is fully immersed and hinged at the bottom so that it can oscillate freely, as shown in the figure. If the rod is slightly disturbed from its equilibrium, the time period of small oscillations is $$\\frac{2\\pi}{n}\\sqrt{\\frac{L}{g}},$$ where $g$ is the acceleration due to gravity. The value of $n$ is:</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Simple Harmonic Motion Question 1 English\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpe1h1hb/7d78940e-a68a-4590-9c31-d29500346779/8c3104f0-5447-11f1-bc34-47175b396b4a/file-6y3zli1mpe1h1hc.webp?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpe1h1hb/7d78940e-a68a-4590-9c31-d29500346779/8c3104f0-5447-11f1-bc34-47175b396b4a/file-6y3zli1mpe1h1hc.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.70TO1.75",
+          "explanation": "<p>Let a uniform thin rod of mass $M$, length $L$, cross-sectional area $A$, and density $\\rho$ be hinged at the bottom of the tank (origin $O$). The total mass of the rod can be expressed as:</p>\n<p>$$M = \\rho A L$$</p>\n<p>The lower layer has a density $\\rho_1 = 6\\rho$ and extends from $y = 0$ to $y = \\frac{L}{2}$</p>\n<p>The upper layer has a density $\\rho_2 = 2\\rho$ and extends from $y = \\frac{L}{2}$ to $y = L$.</p>\n<p>When the rod is tilted by a small angle $\\theta$ relative to the vertical axis, the forces exert a torque about the hinge $O$:</p>\n<p>Gravitational force $F_g = Mg$ is acting downwards at the center of mass.</p>\n<p>Buoyant force $(F_{B1})$ from the lower heavy liquid layer.</p>\n<p>Buoyant Force $(F_{B2})$ from the upper lighter liquid layer.</p>\n<p>The mass of the rod is uniformly distributed, so its center of mass lies exactly at its geometric center, which is at a distance of $\\frac{L}{2}$ from the hinge $O$.</p>\n<p>When tilted by an angle $\\theta$, the restoring torque due to gravity tending to pull the rod back towards the vertical line is :</p>\n<p>$$\\tau_g = -Mg\\left(\\frac{L}{2}\\right)\\sin\\theta$$</p>\n<p>Using the small-angle approximation $\\sin\\theta \\approx \\theta$ :</p>\n<p>$$ \\tau_g=-(\\rho \\mathrm{AL}) \\mathrm{g} \\frac{\\mathrm{~L}}{2} \\theta=-\\frac{1}{2} \\rho \\mathrm{Ag} \\mathrm{~L}^2 \\theta $$</p>\n<p>The buoyant force on any submerged segment of a body equals the weight of the fluid displaced by that segment. Since the buoyant force acts upwards, it pushes the rod away from the vertical axis, creating an overturning torque that opposes gravity.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Simple Harmonic Motion Question 1 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpe1jbt4/c3d231de-2ac6-4b4a-90d7-e74184fed921/cbc9b080-5447-11f1-bc34-47175b396b4a/file-6y3zli1mpe1jbt5.webp?format=webp\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpe1jbt4/c3d231de-2ac6-4b4a-90d7-e74184fed921/cbc9b080-5447-11f1-bc34-47175b396b4a/file-6y3zli1mpe1jbt5.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>For lower segment $\\mathrm{y}=0$ to $\\mathrm{y}=\\frac{\\mathrm{L}}{2}$ :</p>\n<p>The length of this segment inside the lower liquid is $\\mathrm{l}_1=\\frac{\\mathrm{L}}{2}$.</p>\n<p>The mass of the displaced liquid is $\\mathrm{M}_{\\mathrm{fluid} 1}=\\rho_1 \\mathrm{Al}_1=(6 \\rho) \\mathrm{A}\\left(\\frac{\\mathrm{L}}{2}\\right)=3 \\rho \\mathrm{AL}$.</p>\n<p>So, the buoyant force is :</p>\n<p>$$ \\mathrm{F}_{\\mathrm{B} 1}=3 \\rho \\mathrm{ALg} $$</p>\n<p>Since the segment is uniform, this force acts at its midpoint, which is at a distance of $\\mathrm{y}_1=\\mathrm{L} 4$ from the hinge O.</p>\n<p>The torque due to $\\mathrm{F}_{\\mathrm{B} 1}$ about the hinge is :</p>\n<p>$$ \\tau_{\\mathrm{B} 1}=+\\mathrm{F}_{\\mathrm{B} 1} \\cdot \\mathrm{y}_1 \\sin \\theta \\approx+(3 \\rho \\mathrm{ALg})\\left(\\frac{\\mathrm{L}}{4}\\right) \\theta=+\\frac{3}{4} \\rho \\mathrm{Ag} \\mathrm{~L}^2 \\theta $$</p>\n<p>For the upper segment $y=\\frac{L}{2}$ to $y=L$ :</p>\n<p>The length of this segment inside the upper liquid is $\\mathrm{l}_2=\\frac{\\mathrm{L}}{2}$.</p>\n<p>The mass of the displaced liquid is $\\mathrm{M}_{\\text {fluid2 }}=\\rho_2 \\mathrm{Al}_2=(2 \\rho) \\mathrm{A}\\left(\\frac{\\mathrm{L}}{2}\\right)=\\rho \\mathrm{AL}$.</p>\n<p>So, the buoyant force is :</p>\n<p>$$ \\mathrm{F}_{\\mathrm{B} 2}=\\rho \\mathrm{ALg} $$</p>\n<p>This force acts at the midpoint of the upper segment. The distance of this midpoint from the hinge O is :</p>\n<p>$$ \\mathrm{y}_2=\\frac{\\mathrm{L}}{2}+\\frac{\\mathrm{L}}{4}=\\frac{3 \\mathrm{~L}}{4} $$</p>\n<p>The torque due to $\\mathrm{F}_{\\mathrm{B} 2}$ about the hinge is :</p>\n<p>$$\\tau_{B2} = +F_{B2} \\cdot y_2 \\sin \\theta \\approx +(\\rho A L g)\\left(\\frac{3L}{4}\\right)\\theta = +\\frac{3}{4}\\rho A g L^2\\theta$$</p>\n<p>The net restoring torque $\\tau_{\\text{net}}$ acting on the rod about the hinge O is</p>\n<p>$$\\tau_{\\text{net}} = \\tau_g + \\tau_{B1} + \\tau_{B2}$$</p>\n<p>$$\\tau_{\\text{net}} = -\\frac{1}{2}\\rho A g L^2\\theta + \\frac{3}{4}\\rho A g L^2\\theta + \\frac{3}{4}\\rho A g L^2\\theta$$</p>\n<p>$$\\tau_{\\text{net}} = \\left(-\\frac{1}{2} + \\frac{3}{4} + \\frac{3}{4}\\right)\\rho A g L^2\\theta$$</p>\n<p>$$\\tau_{\\text{net}} = +1\\cdot \\rho A g L^2\\theta$$</p>\n<p>The positive sign indicates that the net torque is in the direction opposite to the angular displacement $\\theta$</p>\n<p>$$\\tau_{\\text{restoring}} = -\\rho A g L^2\\theta$$</p>\n<p>The moment of inertia $I$ of a uniform thin rod of mass $M$ and length $L$ rotating about an axis passing through one of its ends is derived as :</p>\n<p>$$I = \\frac{1}{3}ML^2$$</p>\n<p>Substituting $M = \\rho A L$:</p>\n<p>$$I = \\frac{1}{3}(\\rho A L)L^2 = \\frac{1}{3}\\rho A L^3$$</p>\n<p>The equation of rotational simple harmonic motion is given by:</p>\n<p>$$I\\alpha = \\tau_{\\text{restoring}} \\Rightarrow I\\frac{d^2\\theta}{dt^2} = -\\rho A g L^2\\theta$$</p>\n<p>$$\\left(\\frac{1}{3}\\rho A L^3\\right)\\frac{d^2\\theta}{dt^2} = -\\rho A g L^2\\theta$$</p>\n<p>$$\\frac{1}{3}L\\frac{d^2\\theta}{dt^2} = -g\\theta \\Rightarrow \\frac{d^2\\theta}{dt^2} + \\left(\\frac{3g}{L}\\right)\\theta = 0$$</p>\n<p>Comparing with standard SHM equation $\\frac{d^2\\theta}{dt^2} + \\omega^2\\theta = 0$, the angular frequency $\\omega$ is :</p>\n<p>$$\\omega = \\sqrt{\\frac{3g}{L}}$$</p>\n<p>So, the time period $T$ of the small oscillations is :</p>\n<p>$$T = \\frac{2\\pi}{\\omega} = 2\\pi\\sqrt{\\frac{L}{3g}} = \\frac{2\\pi}{\\sqrt{3}}\\sqrt{\\frac{L}{g}}$$</p>\n<p>$$\\Rightarrow $$ $$ \\mathrm{T}=\\frac{2 \\pi}{\\mathrm{n}} \\sqrt{\\frac{\\mathrm{~L}}{\\mathrm{~g}}}=\\frac{2 \\pi}{\\sqrt{3}} \\sqrt{\\frac{\\mathrm{~L}}{\\mathrm{~g}}} \\Rightarrow \\mathrm{n}=\\sqrt{3} \\approx 1.73 $$</p>\n<p>Therefore, the correct answer is 1.73.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "some-systems-of-executing-shm",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A tank contains two immiscible liquids of densities $6\\rho$ and $2\\rho$. The higher density liquid is filled up to a height $L/2$ from the bottom. A thin rod of density $\\rho$ and length $L$ is fully immersed and hinged at the bottom so tha..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    },
+    {
+      "question_id": "f06f9m3l34w21yv1lspu",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "pas-shown-in-the-figures-a-uniform-rod-boob-of-leng-jee-advanced-physics-rauewlq8al3kgdb0",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>As shown in the figures, a uniform rod <b>OO'</b> of length <b>l</b> is hinged at the point <b>O</b> and held in place vertically between two walls using two massless springs of same spring constant. The springs are connected at the midpoint and at the top-end (<b>O'</b>) of the rod, as shown in Fig. 1 and the rod is made to oscillate by a small angular displacement. The frequency of oscillation of the rod is <i>f₁</i>. On the other hand, if both the springs are connected at the midpoint of the rod, as shown in Fig. 2 and the rod is made to oscillate by a small angular displacement, then the frequency of oscillation is <i>f₂</i>. Ignoring gravity and assuming motion only in the plane of the diagram, the value of <b>$ \\frac{f_1}{f_2} $</b> is:</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maw4p1b6/a8448357-b3f1-41c9-a27b-ee9822214b90/02ed1c20-3543-11f0-b8a5-69aa313ed27c/file-jaoe38c1maw4p1b7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maw4p1b6/a8448357-b3f1-41c9-a27b-ee9822214b90/02ed1c20-3543-11f0-b8a5-69aa313ed27c/file-jaoe38c1maw4p1b7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Simple Harmonic Motion Question 4 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>2</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$\\sqrt{2}$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\sqrt{\\frac{5}{2}}$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$\\sqrt{\\frac{2}{5}}$</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maxzk0ho/2bb11068-61cc-4b7b-bc68-d5f64e9fe0c2/7ae68bc0-3648-11f0-b4c7-3fd17612738b/file-jaoe38c1maxzk0hp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maxzk0ho/2bb11068-61cc-4b7b-bc68-d5f64e9fe0c2/7ae68bc0-3648-11f0-b4c7-3fd17612738b/file-jaoe38c1maxzk0hp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Simple Harmonic Motion Question 4 English Explanation 1\"></p>\n<p>$\\begin{aligned} &amp; \\frac{\\mathrm{ML}^2}{3} \\ddot{\\theta}+\\mathrm{K} \\cdot \\frac{\\ell}{2} \\theta \\cdot \\frac{\\ell}{2}+\\mathrm{K} \\cdot \\ell \\cdot \\theta \\cdot \\ell=0 \\\\ &amp; \\ddot{\\theta}+\\frac{15}{4} \\frac{\\mathrm{k}}{\\mathrm{M}} \\theta=0 \\\\ &amp; \\ddot{\\theta}=-\\left(\\frac{15}{4} \\frac{\\mathrm{k}}{\\mathrm{M}}\\right) \\theta \\\\ &amp; \\omega_1=\\sqrt{\\frac{15 \\mathrm{~K}}{4 \\mathrm{M}}}\\end{aligned}$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maxzmdli/2b4a86e1-f733-4766-8d9b-da8241a1dc24/bca4af60-3648-11f0-b4c7-3fd17612738b/file-jaoe38c1maxzmdlj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maxzmdli/2b4a86e1-f733-4766-8d9b-da8241a1dc24/bca4af60-3648-11f0-b4c7-3fd17612738b/file-jaoe38c1maxzmdlj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Simple Harmonic Motion Question 4 English Explanation 2\"></p>\n<p>$\\frac{1}{3} \\mathrm{ML}^2 \\ddot{\\theta}+2 \\mathrm{~K} \\frac{\\mathrm{~L}}{2} \\theta \\cdot \\frac{\\mathrm{~L}}{2}=0$</p>\n<p>$\\begin{aligned} &amp; \\ddot{\\theta}+\\frac{3}{2} \\frac{K}{M} \\theta=0 \\\\ &amp; \\ddot{\\theta}=-\\frac{3}{2} \\frac{K}{M} \\theta \\\\ &amp; \\omega_2=\\sqrt{\\frac{3}{2} \\frac{K}{M}} \\\\ &amp; \\frac{\\omega_1}{\\omega_2}=\\sqrt{\\frac{15}{4} \\times \\frac{2}{3}}=\\sqrt{\\frac{5}{2}}\\end{aligned}$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक $l$ लम्बाई की एकसमान छड़ $O O^{\\prime}$ को बिन्दु $O$ पर चित्रानुसार हिंज (hinge) किया गया है। छड़ को दो समान कमानी स्थिरांक (spring constant) वाली द्रव्यमान रहित कमानियों (springs) की सहायता से दो दीवारों के बीच में ऊर्ध्वाधर रूप से रखा गया है| एक कमानी को छड़ के मध्य बिन्दु पर और दूसरी को सबसे ऊपरी बिन्दु $O^{\\prime}$ पर चित्र 1 के अनुसार जोड़ा गया है। एक छोटे कोणीय विस्थापन (angular displacement) के कारण छड़ $f_1$ आवृत्ति के दोलन (oscillation) करती है। यदि दोनों कमानियों को छड़ के मध्य बिन्दु पर चित्र 2 के अनुसार जोड़ा जाता है तो एक छोटे कोणीय विस्थापन (angular displacement) के कारण छड़ $f_2$ आवृत्ति के दोलन (oscillation) करती है| गुरुत्वीय प्रभाव की उपेक्षा करते हुये और गति को आरेख (diagram) के तल में ही मानते हुये, $\\frac{f_1}{f_2}$ का मान है:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maw4p1b6/a8448357-b3f1-41c9-a27b-ee9822214b90/02ed1c20-3543-11f0-b8a5-69aa313ed27c/file-jaoe38c1maw4p1b7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maw4p1b6/a8448357-b3f1-41c9-a27b-ee9822214b90/02ed1c20-3543-11f0-b8a5-69aa313ed27c/file-jaoe38c1maw4p1b7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Simple Harmonic Motion Question 4 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "2"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\sqrt2$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\sqrt{\\frac{5}{2}}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\sqrt{\\frac{2}{5}}$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maxzk0ho/2bb11068-61cc-4b7b-bc68-d5f64e9fe0c2/7ae68bc0-3648-11f0-b4c7-3fd17612738b/file-jaoe38c1maxzk0hp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maxzk0ho/2bb11068-61cc-4b7b-bc68-d5f64e9fe0c2/7ae68bc0-3648-11f0-b4c7-3fd17612738b/file-jaoe38c1maxzk0hp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Simple Harmonic Motion Question 4 Hindi Explanation 1\"></p>\n<p>$\\begin{aligned} &amp; \\frac{\\mathrm{ML}^2}{3} \\ddot{\\theta}+\\mathrm{K} \\cdot \\frac{\\ell}{2} \\theta \\cdot \\frac{\\ell}{2}+\\mathrm{K} \\cdot \\ell \\cdot \\theta \\cdot \\ell=0 \\\\ &amp; \\ddot{\\theta}+\\frac{15}{4} \\frac{\\mathrm{k}}{\\mathrm{M}} \\theta=0 \\\\ &amp; \\ddot{\\theta}=-\\left(\\frac{15}{4} \\frac{\\mathrm{k}}{\\mathrm{M}}\\right) \\theta \\\\ &amp; \\omega_1=\\sqrt{\\frac{15 \\mathrm{~K}}{4 \\mathrm{M}}}\\end{aligned}$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maxzmdli/2b4a86e1-f733-4766-8d9b-da8241a1dc24/bca4af60-3648-11f0-b4c7-3fd17612738b/file-jaoe38c1maxzmdlj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maxzmdli/2b4a86e1-f733-4766-8d9b-da8241a1dc24/bca4af60-3648-11f0-b4c7-3fd17612738b/file-jaoe38c1maxzmdlj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Simple Harmonic Motion Question 4 Hindi Explanation 2\"></p>\n<p>$\\frac{1}{3} \\mathrm{ML}^2 \\ddot{\\theta}+2 \\mathrm{~K} \\frac{\\mathrm{~L}}{2} \\theta \\cdot \\frac{\\mathrm{~L}}{2}=0$</p>\n<p>$\\begin{aligned} &amp; \\ddot{\\theta}+\\frac{3}{2} \\frac{K}{M} \\theta=0 \\\\ &amp; \\ddot{\\theta}=-\\frac{3}{2} \\frac{K}{M} \\theta \\\\ &amp; \\omega_2=\\sqrt{\\frac{3}{2} \\frac{K}{M}} \\\\ &amp; \\frac{\\omega_1}{\\omega_2}=\\sqrt{\\frac{15}{4} \\times \\frac{2}{3}}=\\sqrt{\\frac{5}{2}}\\end{aligned}$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "some-systems-of-executing-shm",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "As shown in the figures, a uniform rod OO' of length l is hinged at the point O and held in place vertically between two walls using two massless springs of same spring constant. The springs are connected at the midpoint and at the top-end ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "एक $l$ लम्बाई की एकसमान छड़ $O O^{\\prime}$ को बिन्दु $O$ पर चित्रानुसार हिंज (hinge) किया गया है। छड़ को दो समान कमानी स्थिरांक (spring constant) वाली द्रव्यमान रहित कमानियों (springs) की सहायता से दो दीवारों के बीच में ऊर्ध्वाधर रूप से रखा..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "jgitkjfiyod52d9hzwq1",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "a-person-sitting-inside-an-elevator-performs-a-weighing-expe-jee-advanced-physics-levtkqqh07q8ixlx",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A person sitting inside an elevator performs a weighing experiment with an object of mass 50 kg . Suppose that the variation of the height $y$ (in m ) of the elevator, from the ground, with time $t$ (in s) is given by $y=8\\left[1+\\sin \\left(\\frac{2 \\pi t}{T}\\right)\\right]$, where $T=40 \\pi \\mathrm{~s}$. Taking acceleration due to gravity, $g=10$ $\\mathrm{m} / \\mathrm{s}^2$, the maximum variation of the object's weight (in N ) as observed in the experiment is ___________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>Here, we will use the formula for apparent weight in elevator as the elevator has some acceleration.</p>\n<p>The normal force (apparent weight) adjusts for the elevations acceleration</p>\n<p>relative to gravity.</p>\n<p>Apparent weight: $w=m(g+a)$, where $a$ is the elevator's acceleration.</p>\n<p>Here, elevator's position, $y$ is given so we can find elevator's acceleration using</p>\n<p>$$ a=\\frac{d^2 y}{d t^2} $$</p>\n<p>Given, $m=50 \\mathrm{~kg}$</p>\n<p>$$ \\begin{aligned} & \\text { and } y=8\\left[1+\\sin \\left(\\frac{2 \\pi t}{T}\\right)\\right] \\\\ & T=40 \\pi \\mathrm{~s} . \\\\ & \\Rightarrow y=8(1+\\sin (\\omega t)) \\quad\\left(as, \\omega=\\frac{2 \\pi}{T}\\right) \\\\ & \\omega=\\frac{2 \\pi}{40 \\pi}=\\frac{1}{20} \\\\ & a=\\frac{d^2 y}{d t^2}=-8 \\omega^2 \\sin (\\omega t) \\\\ & \\left|a_{\\text {max }}\\right|=8 \\omega^2=8\\left(\\frac{1}{20}\\right)^2=8 \\times \\frac{1}{400}  \\\\ & \\left|a_{\\text {max }}\\right|=\\frac{1}{50} \\end{aligned} $$</p>\n<p>$W_{\\text {max }}=m\\left(g+a_{\\text {max }}\\right)$ (when lift goes up)</p>\n<p>and. $W_{\\text {min }}=m\\left(g-a_{\\text {max }}\\right)$ (when lift goes down)</p>\n<p>so</p>\n<p>$$ \\begin{aligned} \\Delta w & =w_{\\text {max }}-w_{\\text {min }}=2 m a_{\\text {max }} \\\\ & =2 \\times 50 \\times \\frac{1}{50} \\Rightarrow \\Delta w=2 \\mathrm{~N} \\end{aligned} $$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "एक एलिवेटर (elevator) के अन्दर बैठ कर एक व्यक्ति 50 kg द्रव्यमान की वस्तु के भार को मापने का प्रयोग करता है| माना कि धरातल से एलिवेटर की उंचाई $y(\\mathrm{~m}$ में) का समय $t(\\mathrm{~s}$ में) के साथ विचरण (variation), $y=8\\left[1+\\sin \\left(\\frac{2 \\pi t}{T}\\right)\\right]$ से दिया गया है, जहाँ $T=40 \\pi \\mathrm{~s}$ है। गुरुत्वीय त्वरण $g=10 \\mathrm{~m} / \\mathrm{s}^2$ लेते हुए, इस प्रयोग में वस्तु के भार में प्रेक्षित (observed) अधिकतम बदलाव (N में) है ________",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>यहाँ, हम लिफ्ट में आभासी भार के सूत्र का उपयोग करेंगे क्योंकि लिफ्ट में कुछ त्वरण है।</p>\n<p>अभिलम्ब बल (आभासी भार) लिफ्ट के त्वरण के लिए समायोजित होता है</p>\n<p>गुरुत्वाकर्षण के सापेक्ष।</p>\n<p>आभासी भार: $w=m(g+a)$, जहाँ $a$ लिफ्ट का त्वरण है।</p>\n<p>यहाँ, लिफ्ट की स्थिति, $y$ दी गई है इसलिए हम लिफ्ट का त्वरण निम्न प्रकार ज्ञात कर सकते हैं</p>\n<p>$$ a=\\frac{d^2 y}{d t^2} $$</p>\n<p>दिया गया है, $m=50 \\mathrm{~kg}$</p>\n<p>$$ \\begin{aligned} & \\text { और } y=8\\left[1+\\sin \\left(\\frac{2 \\pi t}{T}\\right)\\right] \\\\ & T=40 \\pi \\mathrm{~s} . \\\\ & \\Rightarrow y=8(1+\\sin (\\omega t)) \\quad\\left(\\text{क्योंकि}, \\omega=\\frac{2 \\pi}{T}\\right) \\\\ & \\omega=\\frac{2 \\pi}{40 \\pi}=\\frac{1}{20} \\\\ & a=\\frac{d^2 y}{d t^2}=-8 \\omega^2 \\sin (\\omega t) \\\\ & \\left|a_{\\text {max }}\\right|=8 \\omega^2=8\\left(\\frac{1}{20}\\right)^2=8 \\times \\frac{1}{400}  \\\\ & \\left|a_{\\text {max }}\\right|=\\frac{1}{50} \\end{aligned} $$</p>\n<p>$W_{\\text {max }}=m\\left(g+a_{\\text {max }}\\right)$ (जब लिफ्ट ऊपर जाती है)</p>\n<p>और. $W_{\\text {min }}=m\\left(g-a_{\\text {max }}\\right)$ (जब लिफ्ट नीचे जाती है)</p>\n<p>अतः</p>\n<p>$$ \\begin{aligned} \\Delta w & =w_{\\text {max }}-w_{\\text {min }}=2 m a_{\\text {max }} \\\\ & =2 \\times 50 \\times \\frac{1}{50} \\Rightarrow \\Delta w=2 \\mathrm{~N} \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "simple-harmonic-motion",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A person sitting inside an elevator performs a weighing experiment with an object of mass 50 kg . Suppose that the variation of the height $y$ (in m ) of the elevator, from the ground, with time $t$ (in s) is given by $y=8\\left[1+\\sin \\left..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "एक एलिवेटर (elevator) के अन्दर बैठ कर एक व्यक्ति 50 kg द्रव्यमान की वस्तु के भार को मापने का प्रयोग करता है| माना कि धरातल से एलिवेटर की उंचाई $y(\\mathrm{~m}$ में) का समय $t(\\mathrm{~s}$ में) के साथ विचरण (variation), $y=8\\left[1+\\sin \\left..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "zrnanxkd7khtzgxj85fq",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "if-the-collision-occurs-at-time-t00-the-value-of-vm-jee-advanced-physics-mhmaxaweb2p4scsq",
+      "question": {
+        "en": {
+          "comprehension": "<p>Two particles, 1 and 2, each of mass $m$, are connected by a massless spring, and are on a horizontal frictionless plane, as shown in the figure. Initially, the two particles, with their center of mass at $x_0$, are oscillating with amplitude $a$ and angular frequency $\\omega$. Thus, their positions at time $t$ are given by $x_1(t)=\\left(x_0+d\\right)+a \\sin \\omega t$ and $x_2(t)=\\left(x_0-d\\right)-a \\sin \\omega t$, respectively, where $d&gt;2 a$. Particle 3 of mass $m$ moves towards this system with speed $u_0=a \\omega / 2$, and undergoes instantaneous elastic collision with particle 2 , at time $t_0$. Finally, particles 1 and 2 acquire a center of mass speed $v_{\\mathrm{cm}}$ and oscillate with amplitude $b$ and the same angular frequency $\\omega$.</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxearx/9f300fa7-53d0-435c-a873-9f95013f4b6e/bd3b6bd0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxeary.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxearx/9f300fa7-53d0-435c-a873-9f95013f4b6e/bd3b6bd0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxeary.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 6 English Comprehension\">",
+          "direction": null,
+          "content": "If the collision occurs at time $t_0=0$, the value of $v_{\\mathrm{cm}} /(a \\omega)$ will be ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.75",
+          "explanation": "<p>At T t$$_0$$ = 0</p>\n<p>Before collision</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgjrng2/332c4d18-4245-47b3-8fa4-ff4d07729ba8/0905c520-52eb-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgjrng3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgjrng2/332c4d18-4245-47b3-8fa4-ff4d07729ba8/0905c520-52eb-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgjrng3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 6 English Explanation 1\"></p>\n<p>After collision</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgjs9aa/2717b0fc-62cf-4700-80a6-716a7752cd9c/19e49e20-52eb-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgjs9ab.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgjs9aa/2717b0fc-62cf-4700-80a6-716a7752cd9c/19e49e20-52eb-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgjs9ab.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 6 English Explanation 2\"></p>\n<p>$$\\begin{aligned}\n\\mathrm{v}_{\\mathrm{CM}} &amp; =\\frac{\\mathrm{m} \\cdot \\frac{\\mathrm{a} \\omega}{2}+\\mathrm{m} \\cdot \\mathrm{a} \\omega}{\\mathrm{m}+\\mathrm{m}} \\\\\n\\mathrm{v}_{\\mathrm{CM}} &amp; =\\frac{3 \\mathrm{a} \\omega}{4} \\\\\n\\frac{\\mathrm{V}_{\\mathrm{CM}}}{\\mathrm{a} \\omega} &amp; =\\frac{3}{4} \\\\\n\\frac{\\mathrm{V}_{\\mathrm{CM}}}{\\mathrm{a} \\omega} &amp; =0.75\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": "<p>एक द्रव्यमानरहित स्प्रिंग से जुड़े एक ही द्रव्यमान $m$ के दो कण, 1 और 2 , चित्रानुसार एक घर्षण रहित समतल पर हैं| प्रारंभ में, ये दोनों कण, जिनका द्रव्यमान केंद्र $x_0$ पर है, आयाम $a$ तथा कोणीय आवृति $\\omega$ से दोलन कर रहे हैं। अतः, समय $t$ पर उनकी स्थितियां, क्रमशः, $x_1(t)=\\left(x_0+d\\right)+a \\sin \\omega t$ और $x_2(t)=\\left(x_0-d\\right)-a \\sin \\omega t$ हैं, जहां $d&gt;2 a$ है। द्रव्यमान $m$ का एक कण 3 , चाल $u_0=a \\omega / 2$ से इस निकाय की तरफ चलते हुए समय $t_0$ पर कण 2 से तात्क्षणिक प्रत्यास्थ संघट्ट (elastic collision) करता है| अंततः, कणों 1 व 2 का द्रव्यमान-केंद्र चाल $v_{\\mathrm{cm}}$ से चलता है और ये कण आयाम $b$ तथा उसी कोणीय आवृति $\\omega$ से दोलन करते हैं।</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxearx/9f300fa7-53d0-435c-a873-9f95013f4b6e/bd3b6bd0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxeary.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxearx/9f300fa7-53d0-435c-a873-9f95013f4b6e/bd3b6bd0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxeary.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 6 Hindi Comprehension\">",
+          "direction": null,
+          "content": "यदि संघट्ट, समय $t_0=0$ पर होता है तो $v_{\\mathrm{cm}} /(a \\omega)$ का मान _________ होगा|",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.75",
+          "explanation": "<p>T = t$$_0$$ = 0 पर</p>\n<p>टक्कर से पहले</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgjrng2/332c4d18-4245-47b3-8fa4-ff4d07729ba8/0905c520-52eb-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgjrng3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgjrng2/332c4d18-4245-47b3-8fa4-ff4d07729ba8/0905c520-52eb-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgjrng3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 6 Hindi Explanation 1\"></p>\n<p>टक्कर के बाद</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgjs9aa/2717b0fc-62cf-4700-80a6-716a7752cd9c/19e49e20-52eb-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgjs9ab.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgjs9aa/2717b0fc-62cf-4700-80a6-716a7752cd9c/19e49e20-52eb-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgjs9ab.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 6 Hindi Explanation 2\"></p>\n<p>$$\\begin{aligned}\n\\mathrm{v}_{\\mathrm{CM}} &amp; =\\frac{\\mathrm{m} \\cdot \\frac{\\mathrm{a} \\omega}{2}+\\mathrm{m} \\cdot \\mathrm{a} \\omega}{\\mathrm{m}+\\mathrm{m}} \\\\\n\\mathrm{v}_{\\mathrm{CM}} &amp; =\\frac{3 \\mathrm{a} \\omega}{4} \\\\\n\\frac{\\mathrm{V}_{\\mathrm{CM}}}{\\mathrm{a} \\omega} &amp; =\\frac{3}{4} \\\\\n\\frac{\\mathrm{V}_{\\mathrm{CM}}}{\\mathrm{a} \\omega} &amp; =0.75\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "some-systems-of-executing-shm",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "If the collision occurs at time $t_0=0$, the value of $v_{\\mathrm{cm}} /(a \\omega)$ will be ______."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "यदि संघट्ट, समय $t_0=0$ पर होता है तो $v_{\\mathrm{cm}} /(a \\omega)$ का मान _________ होगा|"
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "gji49uzhge6gnjocfnum",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "if-the-collision-occurs-at-time-t0pi-2-omega-then-jee-advanced-physics-qakvvvseww7xlvv6",
+      "question": {
+        "en": {
+          "comprehension": "<p>Two particles, 1 and 2, each of mass $m$, are connected by a massless spring, and are on a horizontal frictionless plane, as shown in the figure. Initially, the two particles, with their center of mass at $x_0$, are oscillating with amplitude $a$ and angular frequency $\\omega$. Thus, their positions at time $t$ are given by $x_1(t)=\\left(x_0+d\\right)+a \\sin \\omega t$ and $x_2(t)=\\left(x_0-d\\right)-a \\sin \\omega t$, respectively, where $d&gt;2 a$. Particle 3 of mass $m$ moves towards this system with speed $u_0=a \\omega / 2$, and undergoes instantaneous elastic collision with particle 2 , at time $t_0$. Finally, particles 1 and 2 acquire a center of mass speed $v_{\\mathrm{cm}}$ and oscillate with amplitude $b$ and the same angular frequency $\\omega$.</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxearx/9f300fa7-53d0-435c-a873-9f95013f4b6e/bd3b6bd0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxeary.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxearx/9f300fa7-53d0-435c-a873-9f95013f4b6e/bd3b6bd0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxeary.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 English Comprehension\">",
+          "direction": null,
+          "content": "If the collision occurs at time $t_0=\\pi /(2 \\omega)$, then the value of $4 b^2 / a^2$ will be ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "4.25",
+          "explanation": "<p>$$\\mathrm{t}_0=\\frac{\\pi}{2 \\omega}=\\frac{\\mathrm{T}}{4}$$</p>\n<p>Particles are at extreme position</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgqa4l4/970b3bcf-2b12-4e16-8dc1-b090361979db/819a4380-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqa4l5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgqa4l4/970b3bcf-2b12-4e16-8dc1-b090361979db/819a4380-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqa4l5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 English Explanation 1\"></p>\n<p>After collision</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgqatnw/7b555e7a-bfb1-4d1c-8503-3f8123128ea3/94f95ec0-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqatnx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgqatnw/7b555e7a-bfb1-4d1c-8503-3f8123128ea3/94f95ec0-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqatnx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 English Explanation 2\"></p>\n<p>in C-frame</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgqcfgv/8ede624b-b632-44a9-8042-dc305f983a7f/c1a07df0-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqcfgw.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgqcfgv/8ede624b-b632-44a9-8042-dc305f983a7f/c1a07df0-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqcfgw.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 English Explanation 3\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgqczt1/73a0ec3c-0360-45ee-80bc-725cd102925d/d156b570-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqczt3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgqczt1/73a0ec3c-0360-45ee-80bc-725cd102925d/d156b570-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqczt3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 English Explanation 4\"></p>\n<p>using WET,</p>\n<p>$$\\begin{aligned}\n&amp; \\mathrm{W}_{\\text {spring }}=\\Delta \\mathrm{K} \\\\\n&amp; \\frac{1}{2} \\mathrm{k}(2 \\mathrm{~b})^2-\\frac{1}{2} \\mathrm{k}(2 \\mathrm{a})^2=2 \\times \\frac{1}{2} \\mathrm{~m} \\times\\left(\\frac{\\mathrm{a} \\omega}{4}\\right)^2 \\quad(\\mathrm{k}=\\text { spring constant }) \\\\\n&amp; 4 \\mathrm{~kb}^2-4 \\mathrm{ka}^2=2 \\times \\mathrm{m} \\times \\frac{\\mathrm{a}^2}{16} \\times \\frac{2 \\mathrm{k}}{\\mathrm{m}} \\\\\n&amp; 4 \\mathrm{~b}^2=\\frac{17}{4} \\mathrm{a}^2 \\\\\n&amp; \\frac{4 \\mathrm{~b}^2}{\\mathrm{a}^2}=4.25\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": "<p>एक द्रव्यमानरहित स्प्रिंग से जुड़े एक ही द्रव्यमान $m$ के दो कण, 1 और 2 , चित्रानुसार एक घर्षण रहित समतल पर हैं| प्रारंभ में, ये दोनों कण, जिनका द्रव्यमान केंद्र $x_0$ पर है, आयाम $a$ तथा कोणीय आवृति $\\omega$ से दोलन कर रहे हैं। अतः, समय $t$ पर उनकी स्थितियां, क्रमशः, $x_1(t)=\\left(x_0+d\\right)+a \\sin \\omega t$ और $x_2(t)=\\left(x_0-d\\right)-a \\sin \\omega t$ हैं, जहां $d&gt;2 a$ है। द्रव्यमान $m$ का एक कण 3 , चाल $u_0=a \\omega / 2$ से इस निकाय की तरफ चलते हुए समय $t_0$ पर कण 2 से तात्क्षणिक प्रत्यास्थ संघट्ट (elastic collision) करता है| अंततः, कणों 1 व 2 का द्रव्यमान-केंद्र चाल $v_{\\mathrm{cm}}$ से चलता है और ये कण आयाम $b$ तथा उसी कोणीय आवृति $\\omega$ से दोलन करते हैं।</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxearx/9f300fa7-53d0-435c-a873-9f95013f4b6e/bd3b6bd0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxeary.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxearx/9f300fa7-53d0-435c-a873-9f95013f4b6e/bd3b6bd0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxeary.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 Hindi Comprehension\">",
+          "direction": null,
+          "content": "यदि संघट्ट, समय $t_0=\\pi /(2 \\omega)$ पर होता है तो $4 b^2 / a^2$ का मान _________ होगा|",
+          "options": [],
+          "correct_options": [],
+          "answer": "4.25",
+          "explanation": "<p>$$\\mathrm{t}_0=\\frac{\\pi}{2 \\omega}=\\frac{\\mathrm{T}}{4}$$</p>\n<p>कण चरम स्थिति पर हैं</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgqa4l4/970b3bcf-2b12-4e16-8dc1-b090361979db/819a4380-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqa4l5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgqa4l4/970b3bcf-2b12-4e16-8dc1-b090361979db/819a4380-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqa4l5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 Hindi Explanation 1\"></p>\n<p>टक्कर के बाद</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgqatnw/7b555e7a-bfb1-4d1c-8503-3f8123128ea3/94f95ec0-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqatnx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgqatnw/7b555e7a-bfb1-4d1c-8503-3f8123128ea3/94f95ec0-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqatnx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 Hindi Explanation 2\"></p>\n<p>C-निर्देश तंत्र में</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgqcfgv/8ede624b-b632-44a9-8042-dc305f983a7f/c1a07df0-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqcfgw.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgqcfgv/8ede624b-b632-44a9-8042-dc305f983a7f/c1a07df0-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqcfgw.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 Hindi Explanation 3\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgqczt1/73a0ec3c-0360-45ee-80bc-725cd102925d/d156b570-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqczt3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgqczt1/73a0ec3c-0360-45ee-80bc-725cd102925d/d156b570-5304-11ef-8a37-e3d681a4faeb/file-jaoe38c1lzgqczt3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Simple Harmonic Motion Question 5 Hindi Explanation 4\"></p>\n<p>कार्य-ऊर्जा प्रमेय का उपयोग करने पर,</p>\n<p>$$\\begin{aligned}\n&amp; \\mathrm{W}_{\\text {spring }}=\\Delta \\mathrm{K} \\\\\n&amp; \\frac{1}{2} \\mathrm{k}(2 \\mathrm{~b})^2-\\frac{1}{2} \\mathrm{k}(2 \\mathrm{~a})^2=2 \\times \\frac{1}{2} \\mathrm{~m} \\times\\left(\\frac{\\mathrm{a} \\omega}{4}\\right)^2 \\quad(\\mathrm{k}=\\text { स्प्रिंग नियतांक }) \\\\\n&amp; 4 \\mathrm{~kb}^2-4 \\mathrm{ka}^2=2 \\times \\mathrm{m} \\times \\frac{\\mathrm{a}^2}{16} \\times \\frac{2 \\mathrm{k}}{\\mathrm{m}} \\\\\n&amp; 4 \\mathrm{~b}^2=\\frac{17}{4} \\mathrm{a}^2 \\\\\n&amp; \\frac{4 \\mathrm{~b}^2}{\\mathrm{a}^2}=4.25\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "some-systems-of-executing-shm",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "If the collision occurs at time $t_0=\\pi /(2 \\omega)$, then the value of $4 b^2 / a^2$ will be ______."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "यदि संघट्ट, समय $t_0=\\pi /(2 \\omega)$ पर होता है तो $4 b^2 / a^2$ का मान _________ होगा|"
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "1jt766rjqn2f4b7gc1rs",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "a-particle-of-mass-1-mathrmkg-is-subjected-to-a-force-jee-advanced-physics-units-and-measurements-efgmk0r04dgmajqn",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A particle of mass $1 \\mathrm{~kg}$ is subjected to a force which depends on the position as $\\vec{F}=$ $-k(x \\hat{\\imath}+y \\hat{\\jmath}) \\mathrm{kg}\\, \\mathrm{m} \\mathrm{s}^{-2}$ with $k=1 \\mathrm{~kg} \\mathrm{~s}^{-2}$. At time $t=0$, the particle's position $\\vec{r}=$ $\\left(\\frac{1}{\\sqrt{2}} \\hat{\\imath}+\\sqrt{2} \\hat{\\jmath}\\right) m$ and its velocity $\\vec{v}=\\left(-\\sqrt{2} \\hat{\\imath}+\\sqrt{2} \\hat{\\jmath}+\\frac{2}{\\pi} \\hat{k}\\right) m s^{-1}$. Let $v_{x}$ and $v_{y}$ denote the $x$ and the $y$ components of the particle's velocity, respectively. Ignore gravity. When $z=0.5 \\mathrm{~m}$, the value of $\\left(x v_{y}-y v_{x}\\right)$ is __________ $m^{2} s^{-1}$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "$$\nF_x=-x=m a_x\n$$\n<br/><br/>So $a_x=\\frac{d^2 x}{d t^2}=-x$\n<br/><br/>$$\n\\Rightarrow x=A_x \\sin \\left(\\omega t+\\phi_x\\right) \\quad(\\omega=1 \\mathrm{rad} / \\mathrm{s})\n$$\n<br/><br/>and $v_x=A_x \\omega \\cos \\left(\\omega t+\\phi_x\\right)$\n<br/><br/>at $t=0, x=\\frac{1}{\\sqrt{2}} \\mathrm{~m}$ and $v_x=-\\sqrt{2} \\mathrm{~m} / \\mathrm{s}$\n<br/><br/>So $\\frac{1}{\\sqrt{2}}=A_x \\sin \\phi_x$\n<br/><br/>and $-\\sqrt{2}=A_x \\cos \\phi_x$\n<br/><br/>$$\n\\begin{aligned}\n& \\Rightarrow \\tan \\phi_x=-\\frac{1}{2} ......(1) \\\\\n& \\text { and } A_x=\\sqrt{\\frac{5}{2}} \\mathrm{~m} ......(2)\n\\end{aligned}\n$$\n<br/><br/>Similarly\n<br/><br/>$$\n\\begin{aligned}\n& F_y=-y=m a_y . \\\\\\\\\n& \\Rightarrow \\frac{d^2 y}{d t^2}=-y\n\\end{aligned}\n$$\n<br/><br/>So, $y=A_y \\sin \\left(\\omega \\mathrm{t}+\\phi_{\\mathrm{y}}\\right) \\quad(\\omega=1 \\mathrm{rad} / \\mathrm{s})$ and <br/><br/>$v_y=A_y \\omega \\cos \\left(\\omega t+\\phi_y\\right)$\n<br/><br/> at $t=0,y=\\sqrt{2} \\mathrm{~m}$ and $v_y=\\sqrt{2} \\mathrm{~m} / \\mathrm{s}$\n<br/><br/> So $\\sqrt{2}=A_y \\sin \\phi$\n<br/><br/> and $\\sqrt{2}=A_y \\cos \\phi$\n<br/><br/>$$\n\\Rightarrow \\phi=\\frac{\\pi}{4} \\text { and } A_y=2\n$$\n<br/><br/>So, \n<br/><br/>$\\left(x v_y-y v_x\\right) $\n<br/><br/>$\n =\\sqrt{\\frac{5}{2}} \\sin \\left(\\omega t+\\phi_x\\right) \\times 2 \\cos \\left(\\omega t+\\phi_y\\right)-2 \\sin \\left(\\omega t+\\phi_y\\right) \\times \\sqrt{\\frac{5}{2}} \\cos \\left(\\omega t+\\phi_x\\right) $\n<br/><br/>$ =\\sqrt{\\frac{5}{2}} \\times 2\\left(\\sin \\left(\\omega t+\\phi_x\\right) \\cos \\left(\\omega t+\\phi_y\\right)-\\sin \\left(\\omega t+\\phi_y\\right) \\times \\cos \\left(\\omega t+\\phi_x\\right)\\right. $\n<br/><br/>$ =\\sqrt{10} \\sin \\left(\\phi_x-\\phi_y\\right)$\n<br/><br/>$ =\\sqrt{10}\\left(\\sin \\phi_x \\cos \\phi_y-\\cos \\phi_x \\sin \\phi_y\\right) $\n<br/><br/>$ =\\sqrt{10}\\left(\\frac{1}{\\sqrt{5}} \\times \\frac{1}{\\sqrt{2}}-\\left(-\\frac{2}{\\sqrt{5}}\\right) \\times \\frac{1}{\\sqrt{2}}\\right) $\n<br/><br/>$=3$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक $$1 \\mathrm{~kg}$$ द्रव्यमान के एक कण पर एक बल आरोपित किया जाता है जो स्थिति पर $$\\vec{F}=-k(x \\hat{i}+y \\hat{j}) \\mathrm{kg}\\, \\mathrm{ms}^{-2}$$ के अनुसार निर्भर करता है, जहाँ $$k=1 \\mathrm{~kg} \\mathrm{~s}^{-2}$$ है। समय $$t=0$$ पर, कण की स्तिथि $$\\vec{r}=\\left(\\frac{1}{\\sqrt{2}} \\hat{i}+\\sqrt{2} \\hat{j}\\right) \\mathrm{m}$$ तथा इसका वेग $$\\vec{v}=\\left(-\\sqrt{2} \\hat{i}+\\sqrt{2} \\hat{j}+\\frac{2}{\\pi} \\hat{k}\\right) \\mathrm{ms}^{-1}$$ है। माना $$v_{x}$$ तथा $$v_{y}$$ क्रमशः कण के वेग के $$x$$ तथा $$y$$ घटक को प्रदर्शित करते हैं। गुरूत्व को नगय मानिये। जब $$z=0.5 \\mathrm{~m}$$, तब $$\\left(x v_{y}-y v_{x}\\right)$$ का मान __________ $$m^{2} s^{-1}$$ है</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "$$\nF_x=-x=m a_x\n$$\n<br/><br/>अतः $a_x=\\frac{d^2 x}{d t^2}=-x$\n<br/><br/>$$\n\\Rightarrow x=A_x \\sin \\left(\\omega t+\\phi_x\\right) \\quad(\\omega=1 \\mathrm{rad} / \\mathrm{s})\n$$\n<br/><br/>और $v_x=A_x \\omega \\cos \\left(\\omega t+\\phi_x\\right)$\n<br/><br/>$t=0$ पर, $x=\\frac{1}{\\sqrt{2}} \\mathrm{~m}$ और $v_x=-\\sqrt{2} \\mathrm{~m} / \\mathrm{s}$\n<br/><br/>अतः $\\frac{1}{\\sqrt{2}}=A_x \\sin \\phi_x$\n<br/><br/>और $-\\sqrt{2}=A_x \\cos \\phi_x$\n<br/><br/>$$\n\\begin{aligned}\n& \\Rightarrow \\tan \\phi_x=-\\frac{1}{2} ......(1) \\\\\n& \\text { और } A_x=\\sqrt{\\frac{5}{2}} \\mathrm{~m} ......(2)\n\\end{aligned}\n$$\n<br/><br/>इसी प्रकार\n<br/><br/>$$\n\\begin{aligned}\n& F_y=-y=m a_y . \\\\\\\\\n& \\Rightarrow \\frac{d^2 y}{d t^2}=-y\n\\end{aligned}\n$$\n<br/><br/>अतः, $y=A_y \\sin \\left(\\omega \\mathrm{t}+\\phi_{\\mathrm{y}}\\right) \\quad(\\omega=1 \\mathrm{rad} / \\mathrm{s})$ और <br/><br/>$v_y=A_y \\omega \\cos \\left(\\omega t+\\phi_y\\right)$\n<br/><br/> $t=0$ पर, $y=\\sqrt{2} \\mathrm{~m}$ और $v_y=\\sqrt{2} \\mathrm{~m} / \\mathrm{s}$\n<br/><br/> अतः $\\sqrt{2}=A_y \\sin \\phi$\n<br/><br/> और $\\sqrt{2}=A_y \\cos \\phi$\n<br/><br/>$$\n\\Rightarrow \\phi=\\frac{\\pi}{4} \\text { और } A_y=2\n$$\n<br/><br/>अतः, \n<br/><br/>$\\left(x v_y-y v_x\\right) $\n<br/><br/>$\n =\\sqrt{\\frac{5}{2}} \\sin \\left(\\omega t+\\phi_x\\right) \\times 2 \\cos \\left(\\omega t+\\phi_y\\right)-2 \\sin \\left(\\omega t+\\phi_y\\right) \\times \\sqrt{\\frac{5}{2}} \\cos \\left(\\omega t+\\phi_x\\right) $\n<br/><br/>$ =\\sqrt{\\frac{5}{2}} \\times 2\\left(\\sin \\left(\\omega t+\\phi_x\\right) \\cos \\left(\\omega t+\\phi_y\\right)-\\sin \\left(\\omega t+\\phi_y\\right) \\times \\cos \\left(\\omega t+\\phi_x\\right)\\right. $\n<br/><br/>$ =\\sqrt{10} \\sin \\left(\\phi_x-\\phi_y\\right)$\n<br/><br/>$ =\\sqrt{10}\\left(\\sin \\phi_x \\cos \\phi_y-\\cos \\phi_x \\sin \\phi_y\\right) $\n<br/><br/>$ =\\sqrt{10}\\left(\\frac{1}{\\sqrt{5}} \\times \\frac{1}{\\sqrt{2}}-\\left(-\\frac{2}{\\sqrt{5}}\\right) \\times \\frac{1}{\\sqrt{2}}\\right) $\n<br/><br/>$=3$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A particle of mass $1 \\mathrm{~kg}$ is subjected to a force which depends on the position as $\\vec{F}=$ $-k(x \\hat{\\imath}+y \\hat{\\jmath}) \\mathrm{kg}\\, \\mathrm{m} \\mathrm{s}^{-2}$ with $k=1 \\mathrm{~kg} \\mathrm{~s}^{-2}$. At time $t=0$, th..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "एक $$1 \\mathrm{~kg}$$ द्रव्यमान के एक कण पर एक बल आरोपित किया जाता है जो स्थिति पर $$\\vec{F}=-k(x \\hat{i}+y \\hat{j}) \\mathrm{kg}\\, \\mathrm{ms}^{-2}$$ के अनुसार निर्भर करता है, जहाँ $$k=1 \\mathrm{~kg} \\mathrm{~s}^{-2}$$ है। समय $$t=0$$ पर, क..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "jmmgtytaumtjjx92l01g",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "pon-a-frictionless-horizontal-plane-a-bob-of-mass-m01-jee-advanced-physics-units-and-measurements-m1oaaww7polyh8vj",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>On a frictionless horizontal plane, a bob of mass $m=0.1 \\mathrm{~kg}$ is attached to a spring with natural length $l_{0}=0.1 \\mathrm{~m}$. The spring constant is $k_{1}=0.009 \\,\\mathrm{Nm}^{-1}$ when the length of the spring $l>l_{0}$ and is $k_{2}=0.016 \\,\\mathrm{Nm}^{-1}$ when $l < l_{0}$. Initially the bob is released from $l=$ $0.15 \\mathrm{~m}$. Assume that Hooke's law remains valid throughout the motion. If the time period of the full oscillation is $T=(n \\pi) s$, then the integer closest to $n$ is __________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "Time period of oscillation\n<br/><br/>$$\n\\begin{aligned}\n& =\\mathrm{T}_1+\\mathrm{T}_2 \\\\\\\\\n& =\\pi \\sqrt{\\frac{m}{K_1}}+\\pi \\sqrt{\\frac{m}{K_2}} \\\\\\\\\n& =\\pi \\sqrt{\\frac{0.1}{0.009}}+\\pi \\sqrt{\\frac{0.1}{0.016}} \\\\\\\\\n& =\\frac{\\pi}{0.3}+\\frac{\\pi}{0.4} \\\\\\\\\n& =\\frac{\\pi(0.4+0.3)}{0.12} \\\\\\\\\n& =\\frac{70 \\pi}{12} \\\\\\\\\n& =5.83 \\pi \\text { seconds } \\\\\\\\\n& \\simeq 6 \\pi \\text { seconds }\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>किसी घर्षणहीन क्षैतिज तल पर, द्रव्यमान $$m=0.1 \\mathrm{~kg}$$ के एक गोलक को मूल लम्बाई $$I_{0}=0.1 \\mathrm{~m}$$ की स्प्रिंग से संयोजित किया जाता है। स्प्रिंग नियतांक $$k_{1}=0.009\\, \\mathrm{Nm}^{-1}$$ है, जब स्प्रिंग की लंबाई $$1> I_{0}$$ है; तथा $$k_{2}=0.016 \\,\\mathrm{Nm}^{-1}$$ है जब $$I < I_{0}$$ है। प्रारम्भ में गोलक को $$I=0.15 \\mathrm{~m}$$ से छोड़ा जाता है। माना कि हुक का नियम सम्पूर्ण गति के दौरान वैद्य है। यदि संपूर्ण दोलन का आवर्तकाल $$T=(n \\pi) \\mathrm{s}$$ है, तब $$n$$ का निकटतम पूर्णांक __________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "दोलन का आवर्तकाल\n<br/><br/>$$\n\\begin{aligned}\n& =\\mathrm{T}_1+\\mathrm{T}_2 \\\\\\\\\n& =\\pi \\sqrt{\\frac{m}{K_1}}+\\pi \\sqrt{\\frac{m}{K_2}} \\\\\\\\\n& =\\pi \\sqrt{\\frac{0.1}{0.009}}+\\pi \\sqrt{\\frac{0.1}{0.016}} \\\\\\\\\n& =\\frac{\\pi}{0.3}+\\frac{\\pi}{0.4} \\\\\\\\\n& =\\frac{\\pi(0.4+0.3)}{0.12} \\\\\\\\\n& =\\frac{70 \\pi}{12} \\\\\\\\\n& =5.83 \\pi \\text { सेकंड } \\\\\\\\\n& \\simeq 6 \\pi \\text { सेकंड }\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "some-systems-of-executing-shm",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "On a frictionless horizontal plane, a bob of mass $m=0.1 \\mathrm{~kg}$ is attached to a spring with natural length $l_{0}=0.1 \\mathrm{~m}$. The spring constant is $k_{1}=0.009 \\,\\mathrm{Nm}^{-1}$ when the length of the spring $l>l_{0}$ and ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "किसी घर्षणहीन क्षैतिज तल पर, द्रव्यमान $$m=0.1 \\mathrm{~kg}$$ के एक गोलक को मूल लम्बाई $$I_{0}=0.1 \\mathrm{~m}$$ की स्प्रिंग से संयोजित किया जाता है। स्प्रिंग नियतांक $$k_{1}=0.009\\, \\mathrm{Nm}^{-1}$$ है, जब स्प्रिंग की लंबाई $$1> I_{0}$$ ..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "mo7f42dj9g9vasj2m2g9",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A block with mass M is connected by a massless spring with stiffness constant k to a rigid wall and moves without friction on a horizontal surface. The block oscillates with small amplitude A about an equilibrium position x<sub>0</sub>. Consider two cases:\n<br>(i) when the block is at x<sub>0</sub>; and\n<br>(ii) when the block is at x = x<sub>0</sub> + A.\n<br>In both cases, a particle with mass m( &lt; M) is softly placed on the block after which they stick on each other. Which of the following statement(s) is(are) true about the motion after the mass m is placed on the mass M?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The amplitude of oscillation in the first case changes by a factor of $$\\sqrt {{M \\over {m + M}}} $$, whereas in the second case it remains unchanged."
+            },
+            {
+              "identifier": "B",
+              "content": "The final time period of oscillation in both the cases is same"
+            },
+            {
+              "identifier": "C",
+              "content": "The total energy decreases in both the cases"
+            },
+            {
+              "identifier": "D",
+              "content": "The instantaneous speed at x<sub>0</sub> of the combined masses decreases in both the cases"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "Case - I<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kle47wyv/72b871cc-e40e-45ac-b48c-090062483c2f/d9039b70-73b1-11eb-866f-cf1a7ff35e0c/file-1kle47wyw-320w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kle47wyv/72b871cc-e40e-45ac-b48c-090062483c2f/d9039b70-73b1-11eb-866f-cf1a7ff35e0c/file-1kle47wyw-500w.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Simple Harmonic Motion Question 24 English Explanation 1\"></picture> <br><br>Case - II<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kle48s2j/0b72ae52-3aa5-4ec6-942d-13eb1a2d4317/f10a1eb0-73b1-11eb-866f-cf1a7ff35e0c/file-1kle48s2k-320w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kle48s2j/0b72ae52-3aa5-4ec6-942d-13eb1a2d4317/f10a1eb0-73b1-11eb-866f-cf1a7ff35e0c/file-1kle48s2k-500w.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Simple Harmonic Motion Question 24 English Explanation 2\"></picture> <br><br>In case 1,<br><br>$$M{v_1} = (M + m){v_2} \\Rightarrow {v_2} = \\left( {{M \\over {M + m}}} \\right){v_1}$$<br><br>$$\\sqrt {{k \\over {M + m}}} {A_2} = \\left( {{M \\over {M + m}}} \\right)\\sqrt {{k \\over M}} {A_1}$$<br><br>$${A_2} = \\sqrt {{k \\over {M + m}}} {A_1}$$<br><br>In case - 2, $${A_2} = {A_1}$$<br><br>$$T = 2\\pi \\sqrt {{{M + m} \\over k}} $$ in both cases.<br><br>Total energy decreases in first case whereas remain same in 2nd case. Instantaneous speed at x<sub>0</sub> decreases in both cases."
+        },
+        "hi": {
+          "content": "द्रव्यमान M वाला एक ब्लॉक एक कठोर दीवार से बिना द्रव्यमान वाले स्प्रिंग के साथ जुड़ा होता है जिसकी स्थिरता स्थिरांक k होती है और यह एक क्षैतिज सतह पर बिना घर्षण के चलता है। ब्लॉक x<sub>0</sub> संतुलन स्थिति के चारों ओर छोटी आयाम A के साथ दोलन करता है। दो मामलों पर विचार करें:<br>(i) जब ब्लॉक x<sub>0</sub> पर होता है; और<br>(ii) जब ब्लॉक x = x<sub>0</sub> + A पर होता है।<br>दोनों मामलों में, एक द्रव्यमान m( < M) को ब्लॉक पर धीरे से रखा जाता है जिसके बाद वे एक-दूसरे से चिपक जाते हैं। जब द्रव्यमान m को द्रव्यमान M पर रखा जाता है तब गति के बारे में निम्नलिखित कथनों में से कौन सा सत्य है?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "पहले मामले में दोलन का आयाम $$\\sqrt {{M \\over {m + M}}} $$ के गुणक से बदल जाता है, जबकि दूसरे मामले में यह अपरिवर्तित रहता है।"
+            },
+            {
+              "identifier": "B",
+              "content": "दोनों मामलों में दोलन की अंतिम अवधि समान होती है"
+            },
+            {
+              "identifier": "C",
+              "content": "दोनों मामलों में कुल ऊर्जा कम हो जाती है"
+            },
+            {
+              "identifier": "D",
+              "content": "संयुक्त द्रव्यमान की तात्कालिक गति x<sub>0</sub> पर दोनों मामलों में घट जाती है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-block-with-mass-m-is-connected-by-a-massless-spring-with-s-2016-marks-5-zpo3bvwokweayqhb.htm",
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A block with mass M is connected by a massless spring with stiffness constant k to a rigid wall and moves without friction on a horizontal surface. The block oscillates with small amplitude A about an equilibrium position x0. Consider two c..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "द्रव्यमान M वाला एक ब्लॉक एक कठोर दीवार से बिना द्रव्यमान वाले स्प्रिंग के साथ जुड़ा होता है जिसकी स्थिरता स्थिरांक k होती है और यह एक क्षैतिज सतह पर बिना घर्षण के चलता है। ब्लॉक x0 संतुलन स्थिति के चारों ओर छोटी आयाम A के साथ दोलन करता है।..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "question_id": "6ok9ufp3cohsz4zvqev1",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "permalink": "two-independent-harmonic-oscillators-of-equal-masses-are-osc-jee-advanced-physics-units-and-measurements-ukhleosi8c9hkcvu",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Two independent harmonic oscillators of equal masses are oscillating about the origin with angular frequencies $$\\omega$$<sub>1</sub> and $$\\omega$$<sub>2</sub> and have total energies E<sub>1</sub> and E<sub>2</sub>, respectively. The variations of their momenta p with positions x are shown in the figures. If $${a \\over b} = {n^2}$$ and $${a \\over R} = n$$, then the correct equations is/are<br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l11z64zo/a88cca7d-3a6b-408a-99b1-cc129e548840/28377840-a9c8-11ec-8265-8513bb2a18eb/file-1l11z64zp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l11z64zo/a88cca7d-3a6b-408a-99b1-cc129e548840/28377840-a9c8-11ec-8265-8513bb2a18eb/file-1l11z64zp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Simple Harmonic Motion Question 22 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "E<sub>1</sub>$$\\omega$$<sub>1</sub> = E<sub>2</sub>$$\\omega$$<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{{\\omega _2}} \\over {{\\omega _1}}} = {n^2}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${\\omega _1}{\\omega _2} = {n^2}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{{E_1}} \\over {{\\omega _1}}} = {{{E_2}} \\over {{\\omega _2}}}$$"
+            }
+          ],
+          "correct_options": [
+            "D",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>1st Particle</p>\n<p>P = 0 at x = a $$\\Rightarrow$$ 'a' is the amplitude of oscillation 'A<sub>1</sub>'.</p>\n<p>At x = 0, P = b (at mean position)</p>\n<p>$$ \\Rightarrow m{v_{\\max }} = b \\Rightarrow {v_{\\max }} = {b \\over m}$$</p>\n<p>$${E_1} = {1 \\over 2}mv_{\\max }^2 = {m \\over 2}{\\left[ {{b \\over m}} \\right]^2} = {{{b^2}} \\over {2m}}$$</p>\n<p>$${A_1}{\\omega _1} = {v_{\\max }} = {b \\over m}$$</p>\n<p>$$ \\Rightarrow {\\omega _1} = {b \\over {ma}} = {1 \\over {m{n^2}}}(A = a,\\,{a \\over b} = {n^2})$$</p>\n<p>2nd Particle</p>\n<p>P = 0 at x = R $$\\Rightarrow$$ A<sub>2</sub> = R</p>\n<p>At x = 0, P = R $$\\Rightarrow$$ $${v_{\\max }} = {R \\over m}$$</p>\n<p>$${E_2} = {1 \\over 2}mv_{\\max }^2 = {m \\over 2}{\\left[ {{R \\over m}} \\right]^2} = {{{R^2}} \\over {2m}}$$</p>\n<p>$${A_2}{\\omega _2} = {R \\over m} \\Rightarrow {\\omega _2} = {R \\over {mR}} = {1 \\over m}$$</p>\n<p>(b) $${{{\\omega _2}} \\over {{\\omega _1}}} = {{1/m} \\over {1/m{n^2}}} = {n^2}$$</p>\n<p>(c) $${\\omega _1}{\\omega _2} = {1 \\over {m{n^2}}} \\times {1 \\over m} = {1 \\over {{m^2}{n^2}}}$$</p>\n<p>(d) $${{{E_1}} \\over {{\\omega _1}}} = {{{b^2}/2m} \\over {1/m{n^2}}} = {{{b^2}{n^2}} \\over 2} = {{{a^2}} \\over {2{n^2}}} = {{{R^2}} \\over 2}$$</p>\n<p>$${{{E_2}} \\over {{\\omega _2}}} = {{{R^2}/2m} \\over {1/m}} = {{{R^2}} \\over 2}$$</p>\n<p>$$ \\Rightarrow {{{E_1}} \\over {{\\omega _1}}} = {{{E_2}} \\over {{\\omega _2}}}$$</p>"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcqm",
+      "year": 2015,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "Two independent harmonic oscillators of equal masses are oscillating about the origin with angular frequencies $$\\omega$$1 and $$\\omega$$2 and have total energies E1 and E2, respectively. The variations of their momenta p with positions x a..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "question_id": "5cwqxqggjyu09ouzyb67",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pa-small-block-is-connected-to-one-end-of-a-massless-sprin-jee-advanced-physics-units-and-measurements-fxsn4oczfaawk3e3",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A small block is connected to one end of a massless spring of un-stretched length 4.9 m. The other end of the spring (see the figure) is fixed. The system lies on a horizontal frictionless surface. The block is stretched by 0.2 m and released from rest at t = 0. It then executes simple harmonic motion with angular frequency $$\\omega$$ = ($$\\pi$$/3) rad/s. Simultaneously, at t = 0, a small pebble is projected with speed v from point P at an angle of 45$$^\\circ$$ as shown in the figure. Point O is at a horizontal distance of 10 m from O. If the pebble hits the block at t = 1 s, the value of v is (take g = 10 m/s<sup>2</sup>)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l24krui7/bbec5170-14b2-434b-88fd-9e81392d343f/6c4edbf0-bf02-11ec-8fbf-67f2639a0a45/file-1l24krui8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l24krui7/bbec5170-14b2-434b-88fd-9e81392d343f/6c4edbf0-bf02-11ec-8fbf-67f2639a0a45/file-1l24krui8.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 1 Offline Physics - Simple Harmonic Motion Question 21 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sqrt {50} $$ m/s"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt {51} $$ m/s"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sqrt {52} $$ m/s"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\sqrt {53} $$ m/s"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Since, the block starts executing simple harmonic motion from extreme position, we have</p>\n<p>$$x = a\\cos \\omega t$$</p>\n<p>At 1 s, we have</p>\n<p>$$x = 0.2\\cos \\left( {{\\pi  \\over 3}} \\right) = 0.1\\,m$$</p>\n<p>That is, the block is at a distance 5.1 $$-$$ 0.10 = 5 m from O, which is the range of the bebble as well. Now,</p>\n<p>$$R = {{{v^2}\\sin 2\\alpha } \\over g}$$</p>\n<p>$$S = {{{v^2}\\sin 2(\\pi /4)} \\over {10}}$$</p>\n<p>Therefore, $$v = \\sqrt {50} $$ m/s</p>\n<p><b>Alternate Method :</b></p>\n<p>Since, pebble strikes the oscillating mass after 1 sec., its time of flight is $1 \\mathrm{~s}$</p>\n<p>$$\n\\begin{aligned}\n& 1=\\frac{2 v \\sin 45^{\\circ}}{\\mathrm{g}}=\\frac{\\sqrt{2} v}{10} \\\\\\\\\n& v=\\frac{10}{\\sqrt{2}}=5 \\sqrt{2}=\\sqrt{50} \\mathrm{~m} / \\mathrm{s}\n\\end{aligned}\n$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcq",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A small block is connected to one end of a massless spring of un-stretched length 4.9 m. The other end of the spring (see the figure) is fixed. The system lies on a horizontal frictionless surface. The block is stretched by 0.2 m and releas..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ks8letwqbvzgz9mq5xd3",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A wooden block performs $$SHM$$ on a frictionless surface with frequency, $${v_0}.$$  The block carries a charge $$+Q$$ on its surface . If now a uniform electric field $$\\overrightarrow E $$ is switched- on as shown, then the $$SHM$$ of the block will be \n<br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/ZFyH3fE4pDjAZu1Ia/fyx7AtLnyyulRwQlvd1GYyzE9sBKf/ufM381hIDIhu1GE3ouJsk5/image.png\" loading=\"lazy\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Simple Harmonic Motion Question 23 English\"> ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "of the same frequency and with shifted mean position. "
+            },
+            {
+              "identifier": "B",
+              "content": "of the same frequency and with the same mean position"
+            },
+            {
+              "identifier": "C",
+              "content": "of changed frequency and with shifted mean position. "
+            },
+            {
+              "identifier": "D",
+              "content": "of changed frequency and with the same mean position.  "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The force exerted on charge +Q by the electric field $$\\overrightarrow E $$ is</p>\n<p>$$\\overrightarrow F  = Q\\overrightarrow E $$</p>\n<p>in the direction of $$\\overrightarrow E $$. Since $$\\overrightarrow F $$ is constant, a constant force is added to the applied force. Hence only the mean position will change.</p>\n<p>The frequency will be same.</p>\n<p>As $${v_0} = {1 \\over {2\\pi }}\\sqrt {{k \\over m}} $$ does not depend on the constant external force.</p>"
+        }
+      },
+      "permalink": "a-wooden-block-performs-shm-on-a-frictionless-surface-wi-2011-marks-2-9oh6j3dzviqrvghd.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "topic": "simple-harmonic-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A wooden block performs $$SHM$$ on a frictionless surface with frequency, $${v_0}.$$  The block carries a charge $$+Q$$ on its surface . If now a uniform electric field $$\\overrightarrow E $$ is switched- on as shown, then the $$SHM$$ of th..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6yks8xxswd1nl096j8dl",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A point mass is subjected to two simultaneous sinusoidal displacements in x-direction, $${x_1}\\left( t \\right) = A\\sin \\omega t$$ and $${x_2}\\left( t \\right) = A\\sin \\left( {\\omega t + {{2\\pi } \\over 3}} \\right)$$. Adding a third sinusoidal displacement $${x_3}\\left( t \\right) = B\\sin \\left( {\\omega t + \\phi } \\right)$$ brings the mass to a complete rest. The values of B and $$\\phi $$ are",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sqrt 2 A,{{3\\pi } \\over 4}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$A,{{4\\pi } \\over 3}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sqrt 3 A,{{5\\pi } \\over 6}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$A,{\\pi  \\over 3}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Here, $${x_1} = A\\sin \\omega t$$</p>\n<p>$${x_2} = A\\sin \\left( {\\omega t + {{2\\pi } \\over 3}} \\right)$$</p>\n<p>$$\\therefore$$ $${x_1} + {x_2} = A\\sin \\omega t + A\\sin \\left( {\\omega t + {{2\\pi } \\over 3}} \\right)$$</p>\n<p>$$ = A\\sin \\omega t + A\\left[ {\\sin \\omega t\\cos {{2\\pi } \\over 3} + \\cos \\omega t\\sin {{2\\pi } \\over 3}} \\right]$$</p>\n<p>$$ = A\\sin \\omega t + A\\left[ {\\sin \\omega t\\left( { - {1 \\over 2}} \\right) + \\cos \\omega t\\left( {{{\\sqrt 3 } \\over 2}} \\right)} \\right]$$</p>\n<p>$$ = {A \\over 2}\\sin \\omega t + {{\\sqrt 3 } \\over 2}A\\cos \\omega t = A\\left[ {\\sin \\omega t\\cos {\\pi  \\over 3} + \\cos \\omega t\\sin {\\pi  \\over 3}} \\right]$$</p>\n<p>$$ = A\\sin \\left( {\\omega t + {\\pi  \\over 3}} \\right)$$</p>\n<p>$$\\because$$ $${x_1} + {x_2} + {x_3} = 0$$</p>\n<p>$$ \\Rightarrow {x_3} =  - ({x_1} + {x_2}) =  - A\\sin \\left( {\\omega t + {\\pi  \\over 3}} \\right)$$</p>\n<p>$$ = A\\sin \\left( {\\omega t + \\pi  + {\\pi  \\over 3}} \\right)$$</p>\n<p>$${x_3} = A\\sin \\left( {\\omega t + {{4\\pi } \\over 3}} \\right)$$</p>\n<p>$$\\because$$ $${x_3} = B\\sin (\\omega t + \\phi )$$</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l4k3ei2s/2b5d51e7-1470-473c-8957-0a8a8516f1ed/77243c40-ef23-11ec-af85-e5c347851f91/file-1l4k3ei2t.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l4k3ei2s/2b5d51e7-1470-473c-8957-0a8a8516f1ed/77243c40-ef23-11ec-af85-e5c347851f91/file-1l4k3ei2t.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Simple Harmonic Motion Question 25 English Explanation\">\n\n<p>Hence, $$B = A,\\,\\phi  = {{4\\pi } \\over 3}$$</p>"
+        }
+      },
+      "permalink": "a-point-mass-is-subjected-to-two-simultaneous-sinusoidal-dis-2011-marks-3-fuzbvnxzboho0kuo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "topic": "simple-harmonic-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A point mass is subjected to two simultaneous sinusoidal displacements in x-direction, $${x_1}\\left( t \\right) = A\\sin \\omega t$$ and $${x_2}\\left( t \\right) = A\\sin \\left( {\\omega t + {{2\\pi } \\over 3}} \\right)$$. Adding a third sinusoidal..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "relnaddkopydg3ymvpkp",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "pthe-phase-space-diagram-for-a-ball-thrown-vertically-up-f-jee-advanced-physics-units-and-measurements-xuqx6lswlkc1ibmp",
+      "question": {
+        "en": {
+          "content": "<p>The phase space diagram for a ball thrown vertically up from ground is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2loccoj/ee93337f-eda4-4b79-9794-b71ea528d149/b4f59f40-c869-11ec-830c-7163a5cc8dc8/file-1l2loccok.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2loccoj/ee93337f-eda4-4b79-9794-b71ea528d149/b4f59f40-c869-11ec-830c-7163a5cc8dc8/file-1l2loccok.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 20 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2loflrg/72a7db19-5fd9-4031-b48f-9b9764883daa/0f66b2c0-c86a-11ec-89fd-bbbe9a45bfc7/file-1l2loflrh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2loflrg/72a7db19-5fd9-4031-b48f-9b9764883daa/0f66b2c0-c86a-11ec-89fd-bbbe9a45bfc7/file-1l2loflrh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 20 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2log2r4/d79735dd-81c2-4f73-b77f-b89adc3f12f1/1c86af00-c86a-11ec-89fd-bbbe9a45bfc7/file-1l2log2r5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2log2r4/d79735dd-81c2-4f73-b77f-b89adc3f12f1/1c86af00-c86a-11ec-89fd-bbbe9a45bfc7/file-1l2log2r5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 20 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2logivt/696ea8f8-e24c-4b31-8757-fa500d7971bd/28fc8890-c86a-11ec-89fd-bbbe9a45bfc7/file-1l2logivu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2logivt/696ea8f8-e24c-4b31-8757-fa500d7971bd/28fc8890-c86a-11ec-89fd-bbbe9a45bfc7/file-1l2logivu.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 20 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Let the ball of mass m be thrown up with an initial velocity u. Its velocity v and displacement x are related by v<sup>2</sup> $$-$$ u<sup>2</sup> = $$-$$2gx, where g is the acceleration due to gravity. The momentum (p = mv) is given by</p>\n<p>p<sup>2</sup> = m<sup>2</sup>u<sup>2</sup> $$-$$ 2m<sup>2</sup>gx,</p>\n<p>which gives</p>\n<p>$$p =  \\pm \\sqrt {{m^2}{u^2} - 2{m^2}gx} $$.</p>\n<p>At x = 0, the momentum is mu when the ball starts going up and it becomes $$-$$mu when the ball comes back. At the maximum height, x = u<sup>2</sup>/(2g), the momentum becomes zero.</p>",
+          "comprehension": "<p>Phase space diagrams are useful tools in analyzing all kinds of dynamical problems. They are especially useful in studying the changes in motion as initial position and momentum are changed. Here we consider some simple dynamical systems in one-dimension. For such systems, phase space is a plane in which position is plotted along horizontal axis and momentum is plotted along vertical axis. The phase space diagram is x(t) vs. p(t) curve in this plane. The arrow on the curve indicates the time flow. For example, the phase space diagram for a particle moving with constant velocity is a straight line as shown int he figure. We use the sign convention in which position or momentum upwards (or to right) is positive and downwards (or to left) is negative.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2ln55l0/f7646daa-4728-4ebf-aa79-a9de22ddbd48/03aec440-c865-11ec-a2dd-0119426654c4/file-1l2ln55l1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2ln55l0/f7646daa-4728-4ebf-aa79-a9de22ddbd48/03aec440-c865-11ec-a2dd-0119426654c4/file-1l2ln55l1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 20 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "The phase space diagram for a ball thrown vertically up from ground is"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "dxp8u06u0m4dpel3es5z",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "pthe-phase-space-diagram-for-simple-harmonic-motion-is-a-c-jee-advanced-physics-units-and-measurements-ffvdpu4gg5j46wh1",
+      "question": {
+        "en": {
+          "content": "<p>The phase space diagram for simple harmonic motion is a circle centred at the origin. In the figure, the two circles represent the same oscillator but for different initial conditions, and E<sub>1</sub> and E<sub>2</sub> are the total mechanical energies respectively. Then</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2lo8kea/d482c3f9-f9f4-40f3-9672-ce23350bc7d9/4baea220-c869-11ec-830c-7163a5cc8dc8/file-1l2lo8keb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2lo8kea/d482c3f9-f9f4-40f3-9672-ce23350bc7d9/4baea220-c869-11ec-830c-7163a5cc8dc8/file-1l2lo8keb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 18 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "E<sub>1</sub> = $$\\sqrt2$$E<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "E<sub>1</sub> = 2E<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "E<sub>1</sub> = 4E<sub>2</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "E<sub>1</sub> = 16E<sub>2</sub>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Energy of simple harmonic oscillator is</p>\n<p>$$E = {1 \\over 2}k{A^2}$$</p>\n<p>where k is the force constant and A the amplitude of the oscillator. Since the oscillator is the same, the value of k is the same. Hence</p>\n<p>$${E_1} = {1 \\over 2}kA_1^2$$ and $${E_2} = {1 \\over 2}kA_2^2$$</p>\n<p>$$\\therefore$$ $${{{E_1}} \\over {{E_2}}} = {\\left( {{{{A_1}} \\over {{A_2}}}} \\right)^2}$$</p>\n<p>Now, A<sub>1</sub> = maximum value of displacement of oscillator having energy E<sub>1</sub> = 2a and A<sub>2</sub> = a. Therefore</p>\n<p>$${{{E_1}} \\over {{E_2}}} = {\\left( {{{2a} \\over a}} \\right)^2} = 4$$. So, $${E_1} = 4{E_2}$$</p>",
+          "comprehension": "<p>Phase space diagrams are useful tools in analyzing all kinds of dynamical problems. They are especially useful in studying the changes in motion as initial position and momentum are changed. Here we consider some simple dynamical systems in one-dimension. For such systems, phase space is a plane in which position is plotted along horizontal axis and momentum is plotted along vertical axis. The phase space diagram is x(t) vs. p(t) curve in this plane. The arrow on the curve indicates the time flow. For example, the phase space diagram for a particle moving with constant velocity is a straight line as shown int he figure. We use the sign convention in which position or momentum upwards (or to right) is positive and downwards (or to left) is negative.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2ln55l0/f7646daa-4728-4ebf-aa79-a9de22ddbd48/03aec440-c865-11ec-a2dd-0119426654c4/file-1l2ln55l1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2ln55l0/f7646daa-4728-4ebf-aa79-a9de22ddbd48/03aec440-c865-11ec-a2dd-0119426654c4/file-1l2ln55l1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 18 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "The phase space diagram for simple harmonic motion is a circle centred at the origin. In the figure, the two circles represent the same oscillator but for different initial conditions, and E1 and E2 are the total mechanical energies respect..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "ygkrnrgklcwo9eaw7r6v",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "pconsider-the-spring-mass-system-with-the-mass-submerged-jee-advanced-physics-units-and-measurements-2vmyp7q8nhnymbei",
+      "question": {
+        "en": {
+          "content": "<p>Consider the spring-mass system, with the mass submerged in water, as shown in the figure. The phase space diagram for one cycle of this system is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2ly4tct/94c6ed92-13eb-4fb1-a8a3-aed02ae9445c/fea864d0-c88f-11ec-8a2d-d3d567fb7bd2/file-1l2ly4tcu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2ly4tct/94c6ed92-13eb-4fb1-a8a3-aed02ae9445c/fea864d0-c88f-11ec-8a2d-d3d567fb7bd2/file-1l2ly4tcu.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 19 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2ly9a8k/329c1307-4702-4b65-8864-891a49d68ec9/7aef9450-c890-11ec-8a2d-d3d567fb7bd2/file-1l2ly9a8l.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2ly9a8k/329c1307-4702-4b65-8864-891a49d68ec9/7aef9450-c890-11ec-8a2d-d3d567fb7bd2/file-1l2ly9a8l.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 19 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2ly9vzr/7f37c23f-3134-422d-ba41-89d831d131bc/8bbda470-c890-11ec-9a3d-695daad02a0a/file-1l2ly9vzs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2ly9vzr/7f37c23f-3134-422d-ba41-89d831d131bc/8bbda470-c890-11ec-9a3d-695daad02a0a/file-1l2ly9vzs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 19 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2lyal3n/0529dea5-c44b-49ab-9de6-d27ee5689648/9f22da30-c890-11ec-9a3d-695daad02a0a/file-1l2lyal3o.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2lyal3n/0529dea5-c44b-49ab-9de6-d27ee5689648/9f22da30-c890-11ec-9a3d-695daad02a0a/file-1l2lyal3o.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 19 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2lyb18s/a81e3729-b230-4a38-b175-9939ac4f52fa/ab9b24c0-c890-11ec-9a3d-695daad02a0a/file-1l2lyb18t.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2lyb18s/a81e3729-b230-4a38-b175-9939ac4f52fa/ab9b24c0-c890-11ec-9a3d-695daad02a0a/file-1l2lyb18t.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 19 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Due to upthrust, the spring will be compressed. Due to damping by the liquid, the final position will be smaller than the initial position. Hence choices (c) and (d) are not possible. Due to buoyancy, the block will move upwards. Hence, according to the given sign convention, position (x) is positive initially. When the system is released, x will decrease and momentum (p) will increase becoming maximum when the system reaches the mean position (x = 0) after which the momentum will decrease to zero when the oscillator reaches the extreme position, after which the momentum becomes negative. Hence the correct graph is (b).</p>",
+          "comprehension": "<p>Phase space diagrams are useful tools in analyzing all kinds of dynamical problems. They are especially useful in studying the changes in motion as initial position and momentum are changed. Here we consider some simple dynamical systems in one-dimension. For such systems, phase space is a plane in which position is plotted along horizontal axis and momentum is plotted along vertical axis. The phase space diagram is x(t) vs. p(t) curve in this plane. The arrow on the curve indicates the time flow. For example, the phase space diagram for a particle moving with constant velocity is a straight line as shown int he figure. We use the sign convention in which position or momentum upwards (or to right) is positive and downwards (or to left) is negative.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2lxcliy/334ad331-8f38-4a70-b772-b558a6c1211a/edf425a0-c88c-11ec-b116-b3dd213b19fe/file-1l2lxcliz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2lxcliy/334ad331-8f38-4a70-b772-b558a6c1211a/edf425a0-c88c-11ec-b116-b3dd213b19fe/file-1l2lxcliz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Simple Harmonic Motion Question 19 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "some-systems-of-executing-shm",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "Consider the spring-mass system, with the mass submerged in water, as shown in the figure. The phase space diagram for one cycle of this system is\n"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "cm5nt3qvpfvjo9a13iby",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "permalink": "pif-the-total-energy-of-the-particle-is-e-it-will-perform-jee-advanced-physics-magnetism-iniwkxabeukxbkwk",
+      "question": {
+        "en": {
+          "content": "<p>If the total energy of the particle is E, it will perform periodic motion only if</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "E < 0"
+            },
+            {
+              "identifier": "B",
+              "content": "E > 0"
+            },
+            {
+              "identifier": "C",
+              "content": "V<sub>0</sub> > E > 0"
+            },
+            {
+              "identifier": "D",
+              "content": "E > V<sub>0</sub>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The kinetic energy of the particle cannot be negative. The total energy E is the sum of the kinetic energy K(x) and potential energy V(x) i.e.,</p>\n<p>E = K(x) + V(x). ....... (1)</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l31krb4q/31a8bfd6-9679-4f0e-9b5b-7af2521de1ad/3ac5eeb0-d128-11ec-b5bf-9d106fd05fc4/file-1l31krb4r.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l31krb4q/31a8bfd6-9679-4f0e-9b5b-7af2521de1ad/3ac5eeb0-d128-11ec-b5bf-9d106fd05fc4/file-1l31krb4r.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Simple Harmonic Motion Question 17 English Explanation\"></p>\n<p>From the given figure, V(x) $$\\ge$$ 0 for all x. If E $$\\le$$ 0 for some x then kinetic energy K(x) = E $$-$$ V(x) $$\\le$$ 0 for those x and hence the motion of the particle is not allowed for those x. On the other hand, if E $$\\ge$$ V<sub>0</sub> then K(x) = E $$-$$ V(x) $$\\ge$$ 0 for all x and particle is allowed to move for all x, including infinity (in this case the particle will escape to infinity). Thus, for the particle to have a periodic motion, V<sub>0</sub> &gt; E &gt; 0. In this case, particle is allowed at points where</p>\n<p>K(x) = E $$-$$ V(x) = E $$-$$ $$\\alpha$$x<sup>4</sup> $$\\ge$$ 0 i.e.,</p>\n<p>| x | $$\\le$$ (E/$$\\alpha$$)<sup>1/4</sup>.</p>",
+          "comprehension": "<p>When a particle of mass m moves on the x-axis in a potential of the form V(x) = kx<sup>2</sup>, it performs simple harmonic motion. The corresponding time period is proportional to $$\\sqrt {{m \\over k}} $$, as can be seen easily using dimensional analysis. However, the motion of a particle can be periodic even when its potential energy increases on both sides of x = 0 in a way different from kx<sup>2</sup> and its total energy is such that the particle does not escape to infinity. Consider a particle of mass m moving on the x-axis. Its potential energy is V(x) = $$\\alpha$$x<sup>4</sup> ($$\\alpha$$ &gt; 0) for | x | near the origin and becomes a constant equal to V<sub>0</sub> for (see figure).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l31km1oy/9062ceb7-1d06-4ac8-a560-9d5ec8300523/a86fc630-d127-11ec-b5bf-9d106fd05fc4/file-1l31km1oz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l31km1oy/9062ceb7-1d06-4ac8-a560-9d5ec8300523/a86fc630-d127-11ec-b5bf-9d106fd05fc4/file-1l31km1oz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Simple Harmonic Motion Question 17 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcq",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "If the total energy of the particle is E, it will perform periodic motion only if"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "pj0x9k89custq7fjn13p",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "permalink": "pfor-periodic-motion-of-small-amplitude-a-the-time-period-jee-advanced-physics-magnetism-5lrmlbyym0e5ye6e",
+      "question": {
+        "en": {
+          "content": "<p>For periodic motion of small amplitude A, the time period T of this particle is proportional to</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$A\\sqrt {m/\\alpha } $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${1 \\over A}\\sqrt {m/\\alpha } $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$A\\sqrt {\\alpha /m} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${1 \\over A}\\sqrt {\\alpha /m} $$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>As $$V = a{x^4}$$</p>\n<p>$$[\\alpha ] = {{[V]} \\over {[{x^4}]}} = {{[M{L^2}{T^{ - 2}}]} \\over {[{L^4}]}} = [M{L^{ - 2}}{T^{ - 2}}]$$</p>\n<p>By method of dimensions,</p>\n<p>$$\\left[ {{1 \\over A}\\sqrt {{m \\over \\alpha }} } \\right] = {{{{[M]}^{1/2}}} \\over {[L]{{[M{L^{ - 2}}{T^{ - 2}}]}^{1/2}}}} = [T]$$</p>\n<p>Only option (b) has the dimensions of time.</p>",
+          "comprehension": "<p>When a particle of mass m moves on the x-axis in a potential of the form V(x) = kx<sup>2</sup>, it performs simple harmonic motion. The corresponding time period is proportional to $$\\sqrt {{m \\over k}} $$, as can be seen easily using dimensional analysis. However, the motion of a particle can be periodic even when its potential energy increases on both sides of x = 0 in a way different from kx<sup>2</sup> and its total energy is such that the particle does not escape to infinity. Consider a particle of mass m moving on the x-axis. Its potential energy is V(x) = $$\\alpha$$x<sup>4</sup> ($$\\alpha$$ &gt; 0) for | x | near the origin and becomes a constant equal to V<sub>0</sub> for (see figure).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l31km1oy/9062ceb7-1d06-4ac8-a560-9d5ec8300523/a86fc630-d127-11ec-b5bf-9d106fd05fc4/file-1l31km1oz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l31km1oy/9062ceb7-1d06-4ac8-a560-9d5ec8300523/a86fc630-d127-11ec-b5bf-9d106fd05fc4/file-1l31km1oz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Simple Harmonic Motion Question 16 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcq",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "For periodic motion of small amplitude A, the time period T of this particle is proportional to"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "64r46hpfrvwx3f5lb7id",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "permalink": "pthe-acceleration-of-this-particle-for-x--x0-is-jee-advanced-physics-magnetism-96mpmbkeozsqepuu",
+      "question": {
+        "en": {
+          "content": "<p>The acceleration of this particle for $$|x| > {X_0}$$ is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "proportional to V<sub>0</sub>."
+            },
+            {
+              "identifier": "B",
+              "content": "proportional to V<sub>0</sub>/mX<sub>0</sub>."
+            },
+            {
+              "identifier": "C",
+              "content": "proportional to $$\\sqrt {{V_0}/m{X_0}} $$."
+            },
+            {
+              "identifier": "D",
+              "content": "zero."
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>For $$|x| > {X_0}$$, $$V = {V_0}$$ = constant</p>\n<p>Force $$ =  - {{dV} \\over {dx}} = 0$$</p>\n<p>Hence, acceleration of the particle is zero for $$|x| > {X_0}$$.</p>",
+          "comprehension": "<p>When a particle of mass m moves on the x-axis in a potential of the form V(x) = kx<sup>2</sup>, it performs simple harmonic motion. The corresponding time period is proportional to $$\\sqrt {{m \\over k}} $$, as can be seen easily using dimensional analysis. However, the motion of a particle can be periodic even when its potential energy increases on both sides of x = 0 in a way different from kx<sup>2</sup> and its total energy is such that the particle does not escape to infinity. Consider a particle of mass m moving on the x-axis. Its potential energy is V(x) = $$\\alpha$$x<sup>4</sup> ($$\\alpha$$ &gt; 0) for | x | near the origin and becomes a constant equal to V<sub>0</sub> for (see figure).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l31km1oy/9062ceb7-1d06-4ac8-a560-9d5ec8300523/a86fc630-d127-11ec-b5bf-9d106fd05fc4/file-1l31km1oz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l31km1oy/9062ceb7-1d06-4ac8-a560-9d5ec8300523/a86fc630-d127-11ec-b5bf-9d106fd05fc4/file-1l31km1oz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Simple Harmonic Motion Question 15 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "forced-damped-oscillations-and-resonance",
+      "type": "mcq",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "The acceleration of this particle for $$|x| > {X_0}$$ is"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "38lazccx9vgzzh7g9d2s",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A 0.1 kg mass is suspended from a wire of negligible mass. The length of the wire is 1 m and its crosssectional area is 4.9 $$ \\times $$ 10<sup>-7</sup> m<sup>2</sup>. If the mass is pulled a little in the vertically downward direction and released, it performs simple harmonic motion of angular frequency 140 rad s<sup>−1</sup>. If the Young’s modulus of the material of the wire is n $$ \\times $$ 10<sup>9</sup> Nm<sup>-2</sup>, the value of n is",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "<p>When mass m is pulled by a force F, the wire elongation x, length l, cross-sectional area A, and Young's modulus of wire material Y are related by $$Y = {{F/A} \\over {x/l}}$$ i.e.,</p>\n<p>$$F = (Y\\,A/l)x$$.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l307wq8w/a5045773-3019-4f13-b93c-1b949c70efb8/322a9e00-d069-11ec-bfa4-213dbe55022f/file-1l307wq8x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l307wq8w/a5045773-3019-4f13-b93c-1b949c70efb8/322a9e00-d069-11ec-bfa4-213dbe55022f/file-1l307wq8x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Simple Harmonic Motion Question 32 English Explanation\"></p>\n<p>The restoring force by the wire is equal but opposite to F i.e., F<sub>r</sub> = $$-$$F. Apply Newton's second law to get</p>\n<p>$$m{d^2}x/d{t^2} =  - (YA/l)x =  - {\\omega ^2}x$$.</p>\n<p>This equation represents SHM with an angular frequency $$\\omega  = \\sqrt {YA/(lm)} $$. Substitute the values to get $$Y = {\\omega ^2}lm/A = 4 \\times {10^9}$$ N/m<sup>2</sup>.</p>"
+        }
+      },
+      "permalink": "a-01-kg-mass-is-suspended-from-a-wire-of-negligible-mass-t-2010-marks-3-2xgtgaxmwvskxequ.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "some-systems-of-executing-shm",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A 0.1 kg mass is suspended from a wire of negligible mass. The length of the wire is 1 m and its crosssectional area is 4.9 $$ \\times $$ 10-7 m2. If the mass is pulled a little in the vertically downward direction and released, it performs ..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "mb4iizs6cghaaiy621o4",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pthe-mass-m-shown-in-the-figure-below-oscillates-in-simple-jee-advanced-physics-motion-k9q24bkhapsusef3",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The mass M shown in the figure below oscillates in simple harmonic motion with amplitude A. The amplitude of the point P is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft44esm/5fe27176-463e-420e-84c3-4cce06756b16/b6a80860-cddf-11ed-9ce1-7bd2ccf24231/file-1lft44esn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft44esm/5fe27176-463e-420e-84c3-4cce06756b16/b6a80860-cddf-11ed-9ce1-7bd2ccf24231/file-1lft44esn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Simple Harmonic Motion Question 10 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{{k_1}A} \\over {{k_2}}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{{k_2}A} \\over {{k_1}}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{{k_1}A} \\over {{k_1} + {k_2}}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{{k_2}A} \\over {{k_1} + {k_2}}}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Since the restoring force is same in both springs (which are being in series), we have</p>\n<p>$${k_1}{x_1} = {k_2}{x_2}$$</p>\n<p>It is given that</p>\n<p>$${x_1} + {x_2} = A$$</p>\n<p>$$ \\Rightarrow {x_1} = {{A{k_2}} \\over {{k_1} + {k_2}}}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "some-systems-of-executing-shm",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "The mass M shown in the figure below oscillates in simple harmonic motion with amplitude A. The amplitude of the point P is\n"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "nlqx147b8ea4vcdu55id",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pa-uniform-rod-of-length-l-and-mass-m-is-pivoted-at-the-ce-jee-advanced-physics-motion-ijmbkifm7vvfm0o0",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A uniform rod of length L and mass M is pivoted at the centre. Its two ends are attached to two springs of equal spring constants $$k$$. The springs are fixed to rigid supports as shown in the figure, and the rod is free to oscillate in the horizontal plane. The rod is gently pushed through a small angle $$\\theta$$ in one direction and released. The frequency of oscillation is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft45bao/020a406c-7541-4fc0-bc64-0815e1c2fc7a/cfc35700-cddf-11ed-9ce1-7bd2ccf24231/file-1lft45bap.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft45bao/020a406c-7541-4fc0-bc64-0815e1c2fc7a/cfc35700-cddf-11ed-9ce1-7bd2ccf24231/file-1lft45bap.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Simple Harmonic Motion Question 11 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${1 \\over {2\\pi }}\\sqrt {{{2k} \\over M}} $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${1 \\over {2\\pi }}\\sqrt {{k \\over M}} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${1 \\over {2\\pi }}\\sqrt {{{6k} \\over M}} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${1 \\over {2\\pi }}\\sqrt {{{24k} \\over M}} $$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The restoring torque is</p>\n<p>$$J =  - 2 \\times kx\\left( {{L \\over 2}} \\right)\\cos \\theta  = I\\left( {{{{d^2}\\theta } \\over {d{t^2}}}} \\right)$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4635c/e9d20297-14dc-4c95-a721-f29d4d117243/e5472700-cddf-11ed-9ce1-7bd2ccf24231/file-1lft4635d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4635c/e9d20297-14dc-4c95-a721-f29d4d117243/e5472700-cddf-11ed-9ce1-7bd2ccf24231/file-1lft4635d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Simple Harmonic Motion Question 11 English Explanation\"></p>\n<p>Now, $$x = {L \\over 2}\\sin \\theta $$</p>\n<p>Therefore, $$J =  - k\\left( {{{{L^2}} \\over 2}} \\right)\\sin \\theta \\cos \\theta  = I\\left( {{{{d^2}\\theta } \\over {d{t^2}}}} \\right)$$</p>\n<p>$$ \\Rightarrow \\left( {{{ - k{L^2}} \\over 4}} \\right)\\sin 2\\theta  = I\\left( {{{{d^2}\\theta } \\over {d{t^2}}}} \\right)$$</p>\n<p>For small $$\\theta$$, $$\\sin 2\\theta  = 2\\theta $$. Therefore,</p>\n<p>$${{ - k{L^2}\\theta } \\over 2} = I\\left( {{{{d^2}\\theta } \\over {d{t^2}}}} \\right)$$</p>\n<p>where $$I = {{M{L^2}} \\over {12}}$$. Therefore,</p>\n<p>$${{{d^2}\\theta } \\over {d{t^2}}} = \\left( {{{ - 6k} \\over M}} \\right)\\theta  =  - {\\omega ^2}\\theta $$ (SHM)</p>\n<p>$$ \\Rightarrow \\omega  = \\sqrt {{{6k} \\over M}} $$</p>\n<p>Hence, the frequency of oscillation is</p>\n<p>$${\\omega  \\over {2\\pi }} = {1 \\over {2\\pi }}\\sqrt {{{6k} \\over M}} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "some-systems-of-executing-shm",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A uniform rod of length L and mass M is pivoted at the centre. Its two ends are attached to two springs of equal spring constants $$k$$. The springs are fixed to rigid supports as shown in the figure, and the rod is free to oscillate in the..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "fkrwp9dpvudorvs6y5oq",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pa-student-performed-the-experiment-to-measure-the-speed-o-jee-advanced-physics-motion-18oxik4zdwvlbity",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A student performed the experiment to measure the speed of sound in air using resonance air-column method. Two resonances in the air-column were obtained by lowering the water level. The resonance with the shorter air-column is the first resonance and that with the longer air-column is the second resonance. Then,</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the intensity of the sound heard at the first resonance was more than that at the second resonance."
+            },
+            {
+              "identifier": "B",
+              "content": "the prongs of the tuning fork were kept in a horizontal plane above the resonance tube."
+            },
+            {
+              "identifier": "C",
+              "content": "the amplitude of vibration of the ends of the prongs is typically around 1 cm."
+            },
+            {
+              "identifier": "D",
+              "content": "the length of the air-column at the first resonance was somewhat shorter than 1/4th of the wavelength of the sound in air."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The sharpness of resonance decreases with increasing column length.</p>\n<p>The first resonance happens when length of air column $$\\approx$$ $$\\lambda/2$$. The prongs of the tuning fork are always kept in a vertical plane and amplitude of vibration is typically in the mm range.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4bha4/1c05367a-b934-42b2-9763-bf2c011e070e/7b3da7c0-cde0-11ed-9ce1-7bd2ccf24231/file-1lft4bha5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4bha4/1c05367a-b934-42b2-9763-bf2c011e070e/7b3da7c0-cde0-11ed-9ce1-7bd2ccf24231/file-1lft4bha5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Simple Harmonic Motion Question 9 English Explanation\"></p>\n<p>From the figure, we have</p>\n<p>$${\\lambda  \\over 4} = {l_1} + e$$</p>\n<p>where e is the end-correction. Therefore,</p>\n<p>$${l_1} + \\left( {{\\lambda  \\over 4} - e} \\right) &lt; {\\lambda  \\over 4}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "forced-damped-oscillations-and-resonance",
+      "type": "mcqm",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A student performed the experiment to measure the speed of sound in air using resonance air-column method. Two resonances in the air-column were obtained by lowering the water level. The resonance with the shorter air-column is the first re..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "7iwoxggmfvqmqqkeagcy",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pthe-x-t-graph-of-a-particle-undergoing-simple-har-jee-advanced-physics-motion-n1l1bvap5jawmpk6",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The $$x$$-$$t$$ graph of a particle undergoing simple harmonic motion is shown in the figure. The acceleration of the particle at $$t=4/3$$ s is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrloxnh/d6ed570d-1ecf-43f7-9b07-53e370ee3c03/db4d80d0-cd0a-11ed-8124-cf50c8498624/file-1lfrloxni.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrloxnh/d6ed570d-1ecf-43f7-9b07-53e370ee3c03/db4d80d0-cd0a-11ed-8124-cf50c8498624/file-1lfrloxni.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Simple Harmonic Motion Question 12 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{\\sqrt 3 } \\over {32}}{\\pi ^2}$$ cm/s$$^2$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{ - {\\pi ^2}} \\over {32}}$$ cm/s$$^2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{  {\\pi ^2}} \\over {32}}$$ cm/s$$^2$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$ - {{\\sqrt 3 } \\over {32}}{\\pi ^2}$$ cm/s$$^2$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The equation of single harmonic motion is $$x = A\\sin \\left( {{{2\\pi } \\over T}t} \\right)$$, where A is amplitude and T is the time period of the motion.</p>\n<p>From the given figure, $$A = 1$$ and $$T = 8$$. Thus,</p>\n<p>$$x = \\sin \\left( {{\\pi  \\over 4}t} \\right)$$</p>\n<p>The acceleration is</p>\n<p>$$a = {{{d^2}x} \\over {d{t^2}}} = {{ - {\\pi ^2}} \\over {16}}\\sin \\left( {{\\pi  \\over 4}t} \\right)$$</p>\n<p>At time $$t = {4 \\over 3}s$$, the acceleration is</p>\n<p>$$a = {{ - {\\pi ^2}} \\over {16}}\\sin \\left( {{\\pi  \\over 4} \\times {4 \\over 3}} \\right) =  - {{\\sqrt 3 } \\over {32}}{\\pi ^2}$$ cm/s$$^2$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "The $$x$$-$$t$$ graph of a particle undergoing simple harmonic motion is shown in the figure. The acceleration of the particle at $$t=4/3$$ s is\n"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "i2nrzozt1jmrul3hl5y0",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "pcolumn-i-gives-a-list-of-possible-set-of-parameters-measu-jee-advanced-physics-motion-nf013ohskzlev2qc",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Column I gives a list of possible set of parameters measured in some experiments. The variations of the parameters in the form of graphs are shown in Column II. Match the set of parameters given in Column I with the graphs given in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n</p><table class=\"tg\" style=\"undefined;table-layout: fixed; width: 448px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 197px\">\n<col style=\"width: 53px\">\n<col style=\"width: 150px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-amwm\"></th>\n    <th class=\"tg-amwm\">Column I</th>\n    <th class=\"tg-amwm\"></th>\n    <th class=\"tg-amwm\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-baqh\">(A)</td>\n    <td class=\"tg-0lax\">Potential energy of a simple pendulum (y-axis) as a function of displacement (x) axis</td>\n    <td class=\"tg-baqh\">(P)</td>\n    <td class=\"tg-0lax\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmsusv4/921d46b1-bd33-4f4e-bdfb-e8ee5db1afa0/2a7eba00-de33-11ed-b125-778efdd0865e/file-1lgmsusv5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmsusv4/921d46b1-bd33-4f4e-bdfb-e8ee5db1afa0/2a7eba00-de33-11ed-b125-778efdd0865e/file-1lgmsusv5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English 1\"></td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(B)</td>\n    <td class=\"tg-0lax\">Displacement (y-axis) as a function of time (x-axis) for a one dimensional motion at zero or constant acceleration when the body is moving along the positive x-direction</td>\n    <td class=\"tg-baqh\">(Q)</td>\n    <td class=\"tg-0lax\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmswewr/7ecea60c-951d-4b5d-8b84-40514a398208/575574b0-de33-11ed-b429-3ba3fe2b1a93/file-1lgmswews.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmswewr/7ecea60c-951d-4b5d-8b84-40514a398208/575574b0-de33-11ed-b429-3ba3fe2b1a93/file-1lgmswews.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English 2\"></td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(C)</td>\n    <td class=\"tg-0lax\">Range of a projectile (y-axis) as a function of its velocity (x-axis) when projected at a fixed angle</td>\n    <td class=\"tg-baqh\">(R)</td>\n    <td class=\"tg-0lax\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmsxd6g/8a33ca12-1336-4f60-bfe8-68bc09c79b1b/71ce5780-de33-11ed-b429-3ba3fe2b1a93/file-1lgmsxd6h.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmsxd6g/8a33ca12-1336-4f60-bfe8-68bc09c79b1b/71ce5780-de33-11ed-b429-3ba3fe2b1a93/file-1lgmsxd6h.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English 3\"></td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(D)</td>\n    <td class=\"tg-0lax\">The square of the time period (y-axis) of a simple pendulum as a function of its length (x-axis)</td>\n    <td class=\"tg-baqh\">(S)</td>\n    <td class=\"tg-0lax\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmsy2ur/f65192b3-fde2-433f-9a92-9ac4a22999c0/85a3db40-de33-11ed-b429-3ba3fe2b1a93/file-1lgmsy2us.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmsy2ur/f65192b3-fde2-433f-9a92-9ac4a22999c0/85a3db40-de33-11ed-b429-3ba3fe2b1a93/file-1lgmsy2us.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English 4\"></td>\n  </tr>\n</tbody>\n</table><p></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "A$$\\to$$(P, S); B$$\\to$$(Q, S); C$$\\to$$(S); (D)$$\\to$$(Q)"
+            },
+            {
+              "identifier": "B",
+              "content": "A$$\\to$$(S); B$$\\to$$(Q, S); C$$\\to$$(S); (D)$$\\to$$(Q, S)"
+            },
+            {
+              "identifier": "C",
+              "content": "A$$\\to$$(P, S); B$$\\to$$(Q); C$$\\to$$(S); (D)$$\\to$$(Q, S)"
+            },
+            {
+              "identifier": "D",
+              "content": "A$$\\to$$(S); B$$\\to$$(Q, S); C$$\\to$$(S, P); (D)$$\\to$$(Q)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": "A$$\\to$$(P, S); B$$\\to$$(Q, S); C$$\\to$$(S); (D)$$\\to$$(Q)",
+          "explanation": "(A) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmta8tu/73f74693-6eb6-4626-9df6-08e32f16c421/d7f6e120-de34-11ed-b429-3ba3fe2b1a93/file-1lgmta8tv.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmta8tu/73f74693-6eb6-4626-9df6-08e32f16c421/d7f6e120-de34-11ed-b429-3ba3fe2b1a93/file-1lgmta8tv.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English Explanation 1\"><p></p>\n<p>Potential energy at point A. U$$_\\mathrm{A}$$ = 0,</p>\n<p>Kinetic Energy K$$_\\mathrm{A}$$ = maximum</p>\n<p>Potential energy at point B, U<sub>B</sub> = maximum,</p>\n<p>K<sub>B</sub> = 0</p>\n<p>The graph of potential energy as function of\ndisplacement of a simple pendulum will be parabolic graph \nas given in option p. Hence (A) $$ \\to $$ (P). The choice (S) is also \ncorrect if the mean position of the pendulum is at the origin. \nHence (A) $$ \\to $$ (P), (S).\n</p>\n<p>(P) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmtcke5/70f08074-051c-4116-a38b-56f5f6e8f5f5/1883fed0-de35-11ed-b429-3ba3fe2b1a93/file-1lgmtcke6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmtcke5/70f08074-051c-4116-a38b-56f5f6e8f5f5/1883fed0-de35-11ed-b429-3ba3fe2b1a93/file-1lgmtcke6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English Explanation 2\"></p>\n<p>(S) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmsy2ur/f65192b3-fde2-433f-9a92-9ac4a22999c0/85a3db40-de33-11ed-b429-3ba3fe2b1a93/file-1lgmsy2us.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmsy2ur/f65192b3-fde2-433f-9a92-9ac4a22999c0/85a3db40-de33-11ed-b429-3ba3fe2b1a93/file-1lgmsy2us.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English Explanation 3\"></p>\n<p>(B) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmtduzz/a2fb4d9b-b904-4aae-b27d-b10459365df0/3c849bf0-de35-11ed-b429-3ba3fe2b1a93/file-1lgmtdv00.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmtduzz/a2fb4d9b-b904-4aae-b27d-b10459365df0/3c849bf0-de35-11ed-b429-3ba3fe2b1a93/file-1lgmtdv00.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English Explanation 4\"></p>\n<p>Slope of displacement time graph gives velocity.</p>\n<p>$$\\therefore$$ $$v = {{ds} \\over {dt}}$$</p>\n<p>If $$\\overrightarrow a  = 0$$ or constant</p>\n<p>$$v = u + at$$</p>\n<p>$$v = 0 + at$$</p>\n<p>$$\\therefore$$ $$a = v/t$$</p>\n<p>$$a = $$ constant</p>\n<p>(S) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmsy2ur/f65192b3-fde2-433f-9a92-9ac4a22999c0/85a3db40-de33-11ed-b429-3ba3fe2b1a93/file-1lgmsy2us.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmsy2ur/f65192b3-fde2-433f-9a92-9ac4a22999c0/85a3db40-de33-11ed-b429-3ba3fe2b1a93/file-1lgmsy2us.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English Explanation 5\"></p>\n<p>$$\n\\begin{aligned}\n&amp; \\text { (C) } \\quad R=\\frac{v^2 \\sin 2 \\theta}{g} \\\\\n&amp; \\therefore \\quad R \\propto v^2 \\rightarrow \\operatorname{option}(\\mathrm{S})\n\\end{aligned}\n$$</p>\n<p>(D) $$T = 2\\pi \\sqrt {{l \\over g}} $$</p>\n<p>$$\\therefore$$ $$T \\propto \\sqrt l $$</p>\n<p>$${T^2} \\propto l$$ is a straight line</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmswewr/7ecea60c-951d-4b5d-8b84-40514a398208/575574b0-de33-11ed-b429-3ba3fe2b1a93/file-1lgmswews.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmswewr/7ecea60c-951d-4b5d-8b84-40514a398208/575574b0-de33-11ed-b429-3ba3fe2b1a93/file-1lgmswews.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Simple Harmonic Motion Question 8 English Explanation 6\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "Column I gives a list of possible set of parameters measured in some experiments. The variations of the parameters in the form of graphs are shown in Column II. Match the set of parameters given in Column I with the graphs given in Column I..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "wvu0twzmhacxd7u5amol",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pfunction-xmathrma-sin-2-omega-tmathrmb-cos--jee-advanced-physics-motion-gepamnnnbeiyqu4l",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Function $x=\\mathrm{A} \\sin ^2 \\omega t+\\mathrm{B} \\cos ^2 \\omega t+\\mathrm{C} \\sin \\omega t \\cos \\omega t$ represents SHM</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>for any value ol $\\mathrm{A}, \\mathrm{B}$ and C (except $\\mathrm{C}=0$ ).</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>if $\\mathrm{A}=-\\mathrm{B} ; \\mathrm{C}=2 \\mathrm{~B}$, amplitude $=|\\mathrm{B} \\sqrt{2}|$.</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>if $\\mathrm{A}=\\mathrm{B} ; \\mathrm{C}=0$.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>if $\\mathrm{A}=\\mathrm{B} ; \\mathrm{C}=2 \\mathrm{~B}$, amplitude $=|\\mathrm{B}|$</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$ \\begin{aligned} & x=A \\sin ^2 \\omega t+B \\cos ^2 \\omega t+C \\sin \\omega t \\cos \\omega t \\\\ & x=\\frac{A}{2}(1-\\cos 2 \\omega t)+\\frac{B}{2}(1+\\cos 2 \\omega t)+\\frac{C}{2} \\sin 2 \\omega t \\\\ & x=\\frac{A+B}{2}+\\left(\\frac{B}{2}-\\frac{A}{2}\\right)+\\cos 2 \\omega t+\\frac{C}{2} \\sin 2 \\omega t \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)\\end{aligned} $$</p>\n<p>$$ \\begin{aligned} & x=\\frac{A+B}{2} \\sqrt{\\left(\\frac{B-A}{2}\\right)^2+\\left(\\frac{C}{2}\\right)^2} \\sin (2 \\omega t+\\alpha) \\\\ & \\qquad \\tan \\alpha=\\frac{B-A}{C} \\\\ & x-\\frac{A+B}{2}=\\sqrt{\\left(\\frac{B-A}{2}\\right)^2+\\left(\\frac{C}{2}\\right)^2} \\sin (2 \\omega t+\\alpha) \\\\ & x-x_0=a_0 \\sin (\\omega t+\\alpha) \\\\ & \\text { for } A=-B, C=2 B . \\\\ & \\text { Amplitude } a_0=\\sqrt{\\left(\\frac{B-A}{2}\\right)^2+\\left(\\frac{C}{2}\\right)^2}=\\sqrt{2} B \\end{aligned} $$</p>\n<p>From (i)</p>\n<p>(A) For $\\mathrm{A}=\\mathrm{B}=0, x=\\frac{\\mathrm{C}}{2} \\quad \\sin 2 \\omega t(\\mathrm{SHM})$</p>\n<p>(B) For $\\mathrm{A}=-\\mathrm{B}, \\mathrm{C}=2 \\mathrm{~B}$</p>\n<p>$$ \\begin{aligned} & x=\\frac{-\\mathrm{B}+\\mathrm{B}}{2}+\\left(+\\frac{\\mathrm{B}}{2}+\\frac{\\mathrm{B}}{2}\\right) \\cos 2 \\omega t+\\frac{2 \\mathrm{~B}}{2} \\sin 2 \\omega t \\\\ & x=\\cos 2 \\omega t+\\mathrm{B} \\sin 2 \\omega t \\\\ & x=\\sqrt{2} \\mathrm{~B} \\sin \\left(2 \\omega t+\\frac{\\pi}{4}\\right)(\\mathrm{SHM}) \\end{aligned} $$</p>\n<p>Resultant amplitude $=\\sqrt{2}$</p>\n<p>(C) For $\\mathrm{A}=\\mathrm{B}, \\mathrm{C}=0$,</p>\n<p>$$ \\begin{aligned} x & =\\frac{A+A}{2}+\\left(\\frac{A}{2}-\\frac{A}{2}\\right) \\cos 2 \\omega t+0 \\\\ & =\\frac{A+A}{2}=A(\\text { no SHM }) \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} & \\text { (D) } \\mathrm{A}=\\mathrm{B}, \\mathrm{C}=2 \\mathrm{~B} \\\\ & \\begin{aligned} x=\\frac{\\mathrm{A}+\\mathrm{A}}{2}+\\left(\\frac{\\mathrm{A}}{2}-\\frac{\\mathrm{A}}{2}\\right) \\cos 2 \\omega t+\\frac{2 \\mathrm{~B}}{2} \\sin 2 \\omega t & \\\\  =\\mathrm{A}+\\mathrm{B} \\sin 2 \\omega t(\\mathrm{OR}) \\\\ x=\\mathrm{B}+\\mathrm{B} \\sin 2 \\omega t(\\mathrm{SHM}),  \\text { Amplitude }=|\\mathrm{B}| \\end{aligned} \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcqm",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "Function $x=\\mathrm{A} \\sin ^2 \\omega t+\\mathrm{B} \\cos ^2 \\omega t+\\mathrm{C} \\sin \\omega t \\cos \\omega t$ represents SHM"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0r6elmz6zugx0mah3sl7",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A simple pendulum has time period T<sub>1</sub>. The point of suspension is now moved upward according to the relation y = Kt<sup>2</sup>, (K = 1 m/s<sup>2</sup>) where y is the vertical displacement. The time period now become T<sub>2</sub>. The ratio of $${{T_1^2} \\over {T_2^2}}$$ is (g = 10 m/s<sup>2</sup>)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${5 \\over 6}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${6 \\over 5}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "1"
+            },
+            {
+              "identifier": "D",
+              "content": "$${4 \\over 5}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<h3>Given data:</h3>\n<ul>\n<li><p>In the beginning, the <strong>time period</strong> of the simple pendulum is $ T_1 $.</p></li>\n<li><p>The <strong>point of suspension</strong> moves <strong>upward</strong> according to  </p>\n<p>$   y = K t^2, \\quad K = 1 \\, \\text{m/s}^2   $</p></li>\n<li><p>Thus, the <strong>acceleration of the support</strong> is:</p>\n<p>$   a = \\frac{d^2y}{dt^2} = 2K = 2 \\, \\text{m/s}^2   $</p></li>\n<li><p>$ g = 10 \\, \\text{m/s}^2 $</p></li>\n</ul>\n<p>We have to find the ratio:</p>\n<p>$ \\frac{T_1^2}{T_2^2} $</p>\n\n<h3>Step 1: Relation between acceleration and effective gravity</h3>\n<p>When the support is <strong>accelerated upward</strong> with acceleration $ a $, the <strong>effective gravity</strong> for the pendulum becomes:</p>\n<p>$ g' = g + a $</p>\n<p>Here,</p>\n<p>$ a = 2 \\, \\text{m/s}^2 $</p>\n<p>so,</p>\n<p>$ g' = 10 + 2 = 12 \\, \\text{m/s}^2 $</p>\n\n<h3>Step 2: Relation of time period with gravity</h3>\n<p>For a simple pendulum:</p>\n<p>$ T = 2\\pi \\sqrt{\\frac{L}{g_{\\text{eff}}}} $</p>\n<p>Thus:</p>\n<p>$ T_1 = 2\\pi \\sqrt{\\frac{L}{g}} $</p>\n<p>$ T_2 = 2\\pi \\sqrt{\\frac{L}{g'}} $</p>\n\n<h3>Step 3: Ratio of squares of time periods</h3>\n<p>$ \\frac{T_1^2}{T_2^2} = \\frac{\\frac{L}{g}}{\\frac{L}{g'}} = \\frac{g'}{g} $</p>\n<p>Substitute values:</p>\n<p>$ \\frac{T_1^2}{T_2^2} = \\frac{12}{10} = \\frac{6}{5} $</p>\n\n<p>✅ <strong>Final Answer:</strong></p>\n<p>$ \\boxed{\\frac{T_1^2}{T_2^2} = \\frac{6}{5}} $</p>\n<p><strong>Option B</strong></p>"
+        }
+      },
+      "permalink": "a-simple-pendulum-has-time-period-t1-the-point-of-suspensio-2005-screening-marks-2-t83cb8gbxprs6hnr.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005-screening",
+      "topic": "simple-harmonic-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Screening",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A simple pendulum has time period T1. The point of suspension is now moved upward according to the relation y = Kt2, (K = 1 m/s2) where y is the vertical displacement. The time period now become T2. The ratio of $${{T_1^2} \\over {T_2^2}}$$ ..."
+        }
+      },
+      "yearKey": "iit-jee-2005-screening"
+    },
+    {
+      "question_id": "aollx7z36qpx89874eo0",
+      "chapter": "simple-harmonic-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pa-small-body-attached-to-one-end-of-a-vertically-hanging-jee-advanced-physics-motion-tlspfupxmfmxsxm9",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A small body attached to one end of a vertically hanging spring is performing SHM about its mean position with angular frequency $$\\omega$$ and amplitude $$a$$. If at a height $$y^{\\prime}$$ from the mean position, the body gets detached from the spring, calculate the value of $$y^{\\prime}$$ so that the height $$\\mathrm{H}$$ attained by the mass is maximum. The body does not interact with the spring during its subsequent motion after detachment $$\\left(a \\omega^{2}&gt;g\\right)$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh7g0g50/ba1f07b0-f97a-45af-820e-6f109fc473f0/301e8740-b245-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7g0g51.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh7g0g50/ba1f07b0-f97a-45af-820e-6f109fc473f0/301e8740-b245-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7g0g51.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Physics - Simple Harmonic Motion Question 7 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$y=\\frac{g}{\\omega^{2}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$y=\\frac{2g}{\\omega^{2}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$y=\\frac{g}{3\\omega^{2}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$y=\\frac{4g}{7\\omega^{2}}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": "$$\\left[y=\\frac{g}{\\omega^{2}}\\right]$$",
+          "explanation": "<p>Here, A small body of mass $$m$$ attached to one \nend of a vertically hanging spring performs \nSHM.</p>\n<p>Angular frequency $$=\\omega$$, Amplitude $$=a$$.</p>\n<p>Under SHM, velocity $$v=\\omega \\sqrt{a^{2}-y^{2}}$$ After detaching from spring, net downward acceleration of the block $$=\\mathrm{g}$$</p>\n<p>$$\\therefore$$ Height attained by the block $$=h$$.</p>\n<p>$$\\therefore \\quad h=y+\\frac{v^{2}}{2 g}$$ or $$h=y+\\frac{\\omega^{2}\\left(a^{2}-y^{2}\\right)}{2 g}$$</p>\n<p>For $$h$$ to be maximum, $$\\frac{d h}{d y}=0, y=y''$$</p>\n<p>$$\\therefore \\quad \\frac{d h}{d y}=1+\\frac{\\omega^{2}}{2 g}\\left(-2 y^{\\prime}\\right)$$</p>\n<p>$$0=\\frac{1-2 \\omega^{2} y^{\\prime}}{2 g}$$</p>\n<p>$$\\frac{\\omega^{2} y^{\\prime}}{g}=1$$</p>\n<p>$$y^{\\prime}=\\frac{g}{\\omega^{2}}$$</p>\n<p>Since, $$w^{2} > g$$ (given)</p>\n<p>$$\\therefore a > \\frac{g}{\\omega^{2}} \\therefore a > y', y'$$ from mean position $$ < a$$.</p>\n<p>Hence, $$y'=\\frac{g}{\\omega^{2}}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "simple-harmonic-motion",
+      "type": "mcq",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A small body attached to one end of a vertically hanging spring is performing SHM about its mean position with angular frequency $$\\omega$$ and amplitude $$a$$. If at a height $$y^{\\prime}$$ from the mean position, the body gets detached fr..."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1bn390ytb62xhx1cynkw",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 2001,
+      "paperTitle": "IIT-JEE 2001 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle executes simple harmonic motion between x = - A to x = + A. The time taken for it to go from 0 to $${A \\over 2}$$ is T<sub>1</sub> and to go from $${A \\over 2}$$ to A is T<sub>2</sub>. Then",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "T<sub>1</sub> &lt; T<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "T<sub>1</sub> &gt; T<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "T<sub>1</sub> = T<sub>2</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "T<sub>1</sub> = 2T<sub>2</sub>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-particle-executes-simple-harmonic-motion-between-x-a-t-2001-screening-marks-2-rlp7kjcutxkbmddp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2001-screening",
+      "topic": "simple-harmonic-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2001 Screening",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A particle executes simple harmonic motion between x = - A to x = + A. The time taken for it to go from 0 to $${A \\over 2}$$ is T1 and to go from $${A \\over 2}$$ to A is T2. Then"
+        }
+      },
+      "yearKey": "iit-jee-2001-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "rfk7nuoq8bn130d404pd",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The period of oscillation of a simple pendulum of length $$L$$ suspended from the roof of a vehicle which moves without friction down an inclined plane of inclination $$\\alpha$$, is given by",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$2\\pi \\sqrt {{L \\over {g\\cos \\alpha }}} $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$2\\pi \\sqrt {{L \\over {g\\sin \\alpha }}} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$2\\pi \\sqrt {{L \\over g}} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$2\\pi \\sqrt {{L \\over {g\\tan \\alpha }}} $$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-period-of-oscillation-of-a-simple-pendulum-of-length-l-2000-screening-marks-2-8nw5cinf8nwgezze.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000-screening",
+      "topic": "some-systems-of-executing-shm",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000 Screening",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "The period of oscillation of a simple pendulum of length $$L$$ suspended from the roof of a vehicle which moves without friction down an inclined plane of inclination $$\\alpha$$, is given by"
+        }
+      },
+      "yearKey": "iit-jee-2000-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kz07sirkqtmyo9uylkx1",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle free to move along the x-axis has potential energy given by $$U\\left( x \\right) = k\\left[ {1 - \\exp \\left( { - {x^2}} \\right)} \\right]$$ for $$ - \\infty  \\le x \\le  - \\infty $$, where k is a positive constant of appropriate dimensions. Then",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "at points away from the origin, the particle is in unstable equilibrium"
+            },
+            {
+              "identifier": "B",
+              "content": "for any finite nonzero value of x, there is a force directed away from the origin"
+            },
+            {
+              "identifier": "C",
+              "content": "if its total mechanical energy is $${k \\over 2}$$, it has its minimum kinetic energy at the origin"
+            },
+            {
+              "identifier": "D",
+              "content": "for small displacement from x = 0, the motion is simple harmonic"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The potential energy $U(x)=k\\left[1-e^{-x^2}\\right]$, varies with $x$ as shown in the figure.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m4ck83er/f36ab942-2bed-4005-8367-95902f12fb2f/c498c220-b3b6-11ef-b135-9fbc8d53ce5d/file-jaoe38c1m4ck83es.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m4ck83er/f36ab942-2bed-4005-8367-95902f12fb2f/c498c220-b3b6-11ef-b135-9fbc8d53ce5d/file-jaoe38c1m4ck83es.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 1999 Screening Physics - Simple Harmonic Motion Question 29 English Explanation\"></p>\n<p>The potential energy has a local minimum $\\left(\\frac{\\mathrm{d} U}{\\mathrm{~d} x}=\\right.$ $0, \\frac{\\mathrm{~d}^2 U}{\\mathrm{~d} x^2}&gt;0$ ) at stable equilibrium and local maximum $\\left(\\frac{\\mathrm{d} U}{\\mathrm{~d} x}=0, \\frac{\\mathrm{~d}^2 U}{\\mathrm{~d} x^2}&lt;0\\right)$ at unstable equilibrium. It is given that potential energy has a stable equilibrium at $x=0$. When particle is displaced from the origin, the force $F=-\\mathrm{d} U / \\mathrm{d} x$ brings it back. This force points towards the origin. There is no unstable equilibrium.</p>\n<p>Total mechanical energy, $U+K=k / 2$, gives kinetic energy of the particle as $K=k / 2-U$, which is maximum at $x=0$. The force on a particle of mass $m$ placed near $x=0$ is given by</p>\n<p>$$ \\begin{aligned} F &amp; =-\\frac{\\mathrm{d} U}{\\mathrm{~d} x}=-2 k x e^{-x^2}=-2 k x\\left(1-\\frac{x^2}{2!}+\\cdots\\right) \\\\\\\\ &amp; \\approx-2 k x \\end{aligned} $$</p>\n<p>The force $F$ is proportional to $x$ and points towards $x=$ 0 . Thus, particle executes SHM with angular frequency $\\omega=\\sqrt{2 k / m}$.</p>"
+        }
+      },
+      "permalink": "a-particle-free-to-move-along-the-x-axis-has-potential-energ-1999-screening-marks-2-6upbw5gpp9lnsu93.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999-screening",
+      "topic": "simple-harmonic-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999 Screening",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "A particle free to move along the x-axis has potential energy given by $$U\\left( x \\right) = k\\left[ {1 - \\exp \\left( { - {x^2}} \\right)} \\right]$$ for $$ - \\infty  \\le x \\le  - \\infty $$, where k is a positive constant of appropriate dimen..."
+        }
+      },
+      "yearKey": "iit-jee-1999-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ujcibb4wmbr6gbzuojtt",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "An object of mass 0.2 kg executes simple harmonic oscillation along the x-axis with a frequency of $$\\left( {{{25} \\over \\pi }} \\right)$$ Hz. At the position x = 0.04, the object has kinetic energy of 0.5 J and potential energy 0.4 J. The amplitude of oscillations is ................ m.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.06",
+          "explanation": "<p>To find the amplitude of oscillation, let's start by considering the given data and the formulae related to simple harmonic motion (SHM).</p>\n<p>The total mechanical energy of a system in SHM is constant and is the sum of kinetic energy (KE) and potential energy (PE) at any point in its motion. We are given:</p>\n\n<p><p>Kinetic Energy, $$ KE = 0.5 \\, \\text{J} $$</p></p>\n<p><p>Potential Energy, $$ PE = 0.4 \\, \\text{J} $$</p></p>\n\n<p>Therefore, the total energy (E) is:</p>\n<p>$$ E = KE + PE = 0.5 + 0.4 = 0.9 \\, \\text{J} $$</p>\n<p>In SHM, the total mechanical energy can also be expressed as:</p>\n<p>$$ E = \\frac{1}{2} k A^2 $$</p>\n<p>where $ k $ is the spring constant and $ A $ is the amplitude.</p>\n<p>We can also express kinetic and potential energy in SHM in terms of amplitude $ A $, position $ x $, and angular frequency $ \\omega $:</p>\n\n<p><p>Kinetic Energy: $$ KE = \\frac{1}{2} m \\omega^2 (A^2 - x^2) $$</p></p>\n<p><p>Potential Energy: $$ PE = \\frac{1}{2} m \\omega^2 x^2 $$</p></p>\n\n<p>Given mass $ m = 0.2 \\, \\text{kg} $, position $ x = 0.04 \\, \\text{m} $.</p>\n<p>The angular frequency $ \\omega $ is related to the frequency $ f $ by:</p>\n<p>$$ \\omega = 2\\pi f $$</p>\n<p>Given frequency:</p>\n<p>$$ f = \\frac{25}{\\pi} \\, \\text{Hz} $$</p>\n<p>Thus,</p>\n<p>$$ \\omega = 2\\pi \\left(\\frac{25}{\\pi}\\right) = 50 \\, \\text{rad/s} $$</p>\n<p>Using the expression for the total energy in SHM:</p>\n<p>$$ \\frac{1}{2} k A^2 = \\frac{1}{2} m \\omega^2 A^2 $$</p>\n<p>Since the total energy $ E = 0.9 \\, \\text{J} $, it follows:</p>\n<p>$$ 0.9 = \\frac{1}{2} \\cdot 0.2 \\cdot (50)^2 \\cdot A^2 $$</p>\n<p>Solving for $ A^2 $:</p>\n<p>$$ 0.9 = \\frac{1}{2} \\cdot 0.2 \\cdot 2500 \\cdot A^2 $$</p>\n<p>$$ 0.9 = \\frac{1}{2} \\cdot 500 \\cdot A^2 $$</p>\n<p>$$ 0.9 = 250 \\cdot A^2 $$</p>\n<p>$$ A^2 = \\frac{0.9}{250} $$</p>\n<p>$$ A^2 = 0.0036 $$</p>\n<p>$$ A = \\sqrt{0.0036} $$</p>\n<p>$$ A = 0.06 \\, \\text{m} $$</p>\n<p>The amplitude of the oscillations is <strong>0.06 m</strong>.</p>"
+        }
+      },
+      "permalink": "an-object-of-mass-02-kg-executes-simple-harmonic-oscillatio-1994-marks-2-ljugqxmrwqqbxjmv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "topic": "simple-harmonic-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "An object of mass 0.2 kg executes simple harmonic oscillation along the x-axis with a frequency of $$\\left( {{{25} \\over \\pi }} \\right)$$ Hz. At the position x = 0.04, the object has kinetic energy of 0.5 J and potential energy 0.4 J. The a..."
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "tofreyygnbgp7ltrnnmt",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "simple-harmonic-motion",
+      "year": 1988,
+      "paperTitle": "IIT-JEE 1988",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Two bodies M and N of equal masses are suspended from two separate massless springs of spring constant k<sub>1</sub> and k<sub>2</sub> respectively. If the two bodies oscillate vertically such that their maximum velocities are equal, the ratio of the amplitude of vibration of M to that of N is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{{k_1}} \\over {{k_2}}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt {{{{k_1}} \\over {{k_2}}}} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{{k_2}} \\over {{k_1}}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\sqrt {{{{k_2}} \\over {{k_1}}}} $$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "two-bodies-m-and-n-of-equal-masses-are-suspended-from-two-se-1988-marks-1-mnhlhifauhot7evp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1988",
+      "topic": "some-systems-of-executing-shm",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1988",
+          "subTitle": "Simple Harmonic Motion • Physics",
+          "excerpt": "Two bodies M and N of equal masses are suspended from two separate massless springs of spring constant k1 and k2 respectively. If the two bodies oscillate vertically such that their maximum velocities are equal, the ratio of the amplitude o..."
+        }
+      },
+      "yearKey": "iit-jee-1988"
+    }
+  ]
+}

@@ -1,0 +1,2279 @@
+{
+  "questions": [
+    {
+      "question_id": "6h1kai2e0cz4qwsc3kt0",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "preaction-of-ptfsub6sub-with-oxygen-osub2sub-g-jee-advanced-chemistry-evayb4wo3k6uj962",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Reaction of PtF<sub>6</sub> with oxygen (O<sub>2</sub>) gas results in the formation of an ionic compound, X<sup>+</sup>Y<sup>-</sup>.<br>Correct statement(s) is(are)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>The bond order of X<sup>+</sup> is 1.5.</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>Valence <i>d</i>-orbitals of the metal ion in X<sup>+</sup>Y<sup>-</sup> has 5 electrons.</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>PtF<sub>6</sub> acts as an oxidant in this reaction.</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>PtF<sub>6</sub> acts as a fluorinating agent in this reaction.</p>"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The reaction of oxygen gas with platinum hexafluoride can be written as:</p>\n<p>$$\\mathrm{O_2 + PtF_6 \\rightarrow X^{+}Y^{-}}$$</p>\n<p>The product formed is:</p>\n<p>$$\\mathrm{O_2^{+}[PtF_6]^{-}}$$</p>\n<p>Hence, we identify the ions as:</p>\n<p>$$\\mathrm{X^{+} \\rightarrow O_2^{+}}$$</p>\n<p>$$\\mathrm{Y^{-} \\rightarrow [PtF_6]^{-}}$$</p>\n<p><b>(A) For $\\mathrm{O_2^{+}}$, Bond Order (BO) = 2.5</b></p>\n<p>The molecular orbital electronic configuration of $\\mathrm{O_2^{+}}$ is:</p>\n<p>$$\\sigma 1s^2\\\\ \\sigma^{*}1s^2\\\\ \\sigma 2s^2\\\\ \\sigma^{*}2s^2\\\\ \\sigma 2p_z^2\\\\ \\pi 2p_x^2 = \\pi 2p_y^2\\\\ \\pi^{*}2p_x^1 = \\pi^{*}2p_y^0$$</p>\n<p>From this configuration, the bond order is calculated as:</p>\n<p>$$\\text{BO} = 2.5$$</p>\n<p>Therefore, statement A is incorrect as given.</p>\n<p><b>(B) In $\\mathrm{O_2^{+}[PtF_6]^{-}}$, oxidation state of Pt = +5</b></p>\n<p>We have $\\mathrm{Pt^{+5}}$ with the electronic configuration $5d^5$. The atomic configuration of Pt is $5d^9 6s^1$. Hence, the oxidation state of +5 is correct.</p>\n<p>So, statement B is correct.</p>\n<p><b>(C) $\\mathrm{PtF_6}$ acts as an oxidising agent</b></p>\n<p>As $\\mathrm{O_2}$ is oxidised to $\\mathrm{O_2^{+}}$, $\\mathrm{PtF_6}$ works as the oxidant that accepts electrons.</p>\n<p>Hence, statement C is correct.</p>\n<p><b>(D) No fluorine atom transfer occurs from $\\mathrm{PtF_6}$</b></p>\n<p>Since there is no fluorine transfer during the reaction, this statement is incorrect in this context.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "oxidation-and-reduction-reactions",
+      "type": "mcqm",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Reaction of PtF6 with oxygen (O2) gas results in the formation of an ionic compound, X+Y-.Correct statement(s) is(are)"
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    },
+    {
+      "question_id": "pgsduv2dbt5mv0qigb9s",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pone-of-the-products-formed-from-the-reaction-of-permangan-jee-advanced-chemistry-fbtn6y6xkthan7er",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>One of the products formed from the reaction of permanganate ion with iodide ion in neutral aqueous medium is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>I<sub>2</sub></p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>IO<sub>3</sub><sup>−</sup></p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>IO<sub>4</sub><sup>−</sup></p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>IO<sub>2</sub><sup>−</sup></p>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": " Reaction of permanganate ion with iodide ion in neutral aqueous medium<div></div>\n\nIn neutral medium, $\\mathrm{MnO}_4^{-}$is reduced to $\\mathrm{MnO}_2$ and io did ion oxidizes to $\\mathrm{IO}_3^{-}$.<div></div>\n\nIn the reaction of $\\mathrm{MnO}_4^{-}$and $I^{-}, \\mathrm{MnO}_4^{-}$is the oxidizing agent (it gets reduced) and $I^{-}$acts as the reducing agent (it get oxidized).<div></div>\nThe products of the redux reaction between $\\mathrm{MnO}_4^{-1}$ and $I^{-}$is determined by the reaction medium.<div></div>\nIn acidic medium, $\\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{Mn}^{2+}$<div></div>\nIn basic medium, $\\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{MnO}_4^{2-}$<div></div>\nIn neutral medium, $\\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{MnO}_2$<div></div>\nHere, the reaction medium given is neutral and hence $\\mathrm{MnO}_4^{-}$is reduced to $\\mathrm{MnO}_2$.\nAlso, the $\\mathrm{I}^{-}$ion is oxidized to $\\mathrm{IO}_3^{-}$in the neutral medium.<div></div>\n\n$$\n\\begin{aligned}\n& \\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{MnO}_2 \\\\\n& \\mathrm{I}^{-} \\rightarrow \\mathrm{IO}_3^{-}\n\\end{aligned}\n$$<div></div>\nThe balanced chemical equation can be written as<div></div>\n\n$$\n\\mathrm{2MnO}_4^{-}+\\mathrm{I}^{-}+\\mathrm{H}_2 \\mathrm{O} \\longrightarrow \\mathrm{IMnO}_2+\\mathrm{IO}_3^{-}+2 \\mathrm{OH}^{-}\n$$<div></div>\n\n\nAnswer: Option (B) $\\mathrm{IO}_3^{-}$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>उदासीन जलीय माध्यम (neutral aqueous medium) में परमैन्गनेट आयन की आयोडाइड आयन से अभिक्रिया से बने उत्पादों में एक है</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{I}_2^{}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{IO}_3^{-}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{IO}_4^{-}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{IO}_2^{-}$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "तटस्थ जलीय माध्यम में परमैंगनेट आयन की आयोडाइड आयन के साथ अभिक्रिया<div></div>\n\nतटस्थ माध्यम में, $\\mathrm{MnO}_4^{-}$ अपचयित होकर $\\mathrm{MnO}_2$ बनता है और आयोडाइड आयन $\\mathrm{IO}_3^{-}$ में ऑक्सीकृत होता है।<div></div>\n\n$\\mathrm{MnO}_4^{-}$ और $I^{-}$ की अभिक्रिया में, $\\mathrm{MnO}_4^{-}$ ऑक्सीकारक (यह अपचयित होता है) है और $I^{-}$ अपचायक (यह ऑक्सीकृत होता है) के रूप में कार्य करता है।<div></div>\n$\\mathrm{MnO}_4^{-1}$ और $I^{-}$ के बीच रेडॉक्स अभिक्रिया के उत्पाद अभिक्रिया माध्यम द्वारा निर्धारित होते हैं।<div></div>\nअम्लीय माध्यम में, $\\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{Mn}^{2+}$<div></div>\nक्षारीय माध्यम में, $\\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{MnO}_4^{2-}$<div></div>\nतटस्थ माध्यम में, $\\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{MnO}_2$<div></div>\nयहाँ, दिया गया अभिक्रिया माध्यम तटस्थ है और इसलिए $\\mathrm{MnO}_4^{-}$ अपचयित होकर $\\mathrm{MnO}_2$ बनता है।\nसाथ ही, तटस्थ माध्यम में $\\mathrm{I}^{-}$ आयन $\\mathrm{IO}_3^{-}$ में ऑक्सीकृत होता है।<div></div>\n\n$$\n\\begin{aligned}\n& \\mathrm{MnO}_4^{-} \\rightarrow \\mathrm{MnO}_2 \\\\\n& \\mathrm{I}^{-} \\rightarrow \\mathrm{IO}_3^{-}\n\\end{aligned}\n$$<div></div>\nसंतुलित रासायनिक समीकरण इस प्रकार लिखा जा सकता है<div></div>\n\n$$\n\\mathrm{2MnO}_4^{-}+\\mathrm{I}^{-}+\\mathrm{H}_2 \\mathrm{O} \\longrightarrow \\mathrm{IMnO}_2+\\mathrm{IO}_3^{-}+2 \\mathrm{OH}^{-}\n$$<div></div>\n\n\nउत्तर: विकल्प (B) $\\mathrm{IO}_3^{-}$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "types-of-redox-reactions",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "One of the products formed from the reaction of permanganate ion with iodide ion in neutral aqueous medium is"
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "उदासीन जलीय माध्यम (neutral aqueous medium) में परमैन्गनेट आयन की आयोडाइड आयन से अभिक्रिया से बने उत्पादों में एक है"
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "nwqw3wps9e5n1uu3jdfd",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "a-sample-56-g-containing-iron-is-completely-dissolved-in-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ptyyrbgoujskjvqh",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A sample (5.6 g) containing iron is completely dissolved in cold dilute HCl to prepare a 250 mL of solution. Titration of 25.0 mL of this solution requires 12.5 mL of 0.03 M KMnO<sub>4</sub> solution to reach the end point. Number of moles of Fe<sup>2+</sup> present in 250 mL solution is x $$\\times$$ 10<sup>$$-$$2</sup> (consider complete dissolution of FeCl<sub>2</sub>). The amount of iron present in the sample is y% by weight.<br><br>(Assume : KMnO<sub>4</sub> reacts only with Fe<sup>2+</sup> in the solution <br><br>Use : Molar mass of iron as 56 g mol<sup>$$-$$1</sup>)<br><br>The value of x is ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.875",
+          "explanation": "$$\\mathop {Fe}\\limits_{(x \\times {{10}^{ - 2}}mol)}  + 2HCl \\to \\mathop {FeC{l_2}}\\limits_{(x \\times {{10}^{ - 2}}mol)}  + {H_2}$$<br/><br/>Concentration of Fe<sup>2+</sup>, $${M_1} = {{x \\times {{10}^{ - 2}}} \\over {250}} \\times 1000$$<br/><br/>$$ = {{10x} \\over {250}}M = {x \\over {25}}M$$<br/><br/>Volume of Fe<sup>2+</sup> solution titrated, V<sub>1</sub> = 25.0 mL<br/><br/>Concentration of $$MnO_4^ - $$, M<sub>2</sub> = 0.03 M<br/><br/>Volume of $$MnO_4^ - $$ used, V<sub>2</sub> = 12.5 mL<br/><br/>$$5F{e^{2 + }} + MnO_4^ -  \\to M{n^{2 + }} + 5F{e^{3 + }}$$<br/><br/>Using relation,<br/><br/>$${{{M_1}{V_1}} \\over {{n_1}}} = {{{M_2}{V_2}} \\over {{n_2}}}$$<br/><br/>n<sub>2</sub>M<sub>1</sub>V<sub>1</sub> = n<sub>1</sub>M<sub>2</sub>V<sub>2</sub> [n<sub>1</sub> and n<sub>2</sub> are number of moles of Fe<sup>2+</sup> and MnO$$_4^ - $$ reacting]<br/><br/>$$1 \\times {x \\over {25}} \\times 25 = 5 \\times 0.03 \\times 12.5 \\Rightarrow x = 1.88$$<br/><br/>The volume of x is 1.88."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक प्रतिदर्श $$(5.6 \\mathrm{~g})$$, जिसमे लोहा है, ठन्डे तनु $$\\mathrm{HCl}$$ में पूर्णतः घोलकर $$250 \\mathrm{~mL}$$ का एक विलयन बनता है। इस विलयन के $$25.0 \\mathrm{~mL}$$ के अनुमापन में अन्त्यबिंदु को पहुचने के लिए $$0.03 ~\\mathrm{M} ~\\mathrm{KMnO}_{4}$$ विलयन का $$12.5 \\mathrm{~mL}$$ लगता है | $$250 \\mathrm{~mL}$$ विलयन में $$\\mathrm{Fe}^{2+}$$ के मोलों की संख्या $$\\mathbf{x} \\times 10^{-2}$$ है $$\\left(\\mathrm{FeCl}_{2}\\right.$$ का पूर्ण घोलना मानिये)। प्रतिदर्श में मौजूद लोहे की मात्रा वजन के अनुसार (by weight) $$\\mathbf{y} \\%$$ है।</p>\n<p>(मान लें: विलयन में $$\\mathrm{KMnO}_{4}$$ केवल $$\\mathrm{Fe}^{2+}$$ के साथ ही अभिक्रिया करता है। उपयोग करें: लोहा का मोलर द्रव्यमान $$56 \\mathrm{~g} \\mathrm{~mol}^{-1}$$ )</p>\n<p>$$\\mathbf{x}$$ का मान __________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.875",
+          "explanation": " $$\\mathop {Fe}\\limits_{(x \\times {{10}^{ - 2}}mol)}  + 2HCl \\to \\mathop {FeC{l_2}}\\limits_{(x \\times {{10}^{ - 2}}mol)}  + {H_2}$$<br/><br/>Fe<sup>2+</sup> की सांद्रता, $${M_1} = {{x \\times {{10}^{ - 2}}} \\over {250}} \\times 1000$$<br/><br/>$$ = {{10x} \\over {250}}M = {x \\over {25}}M$$<br/><br/>Fe<sup>2+</sup> विलयन का अनुमापित आयतन, V<sub>1</sub> = 25.0 mL<br/><br/>$$MnO_4^ - $$ की सांद्रता, M<sub>2</sub> = 0.03 M<br/><br/>$$MnO_4^ - $$ का उपयोग किया गया आयतन, V<sub>2</sub> = 12.5 mL<br/><br/>$$5F{e^{2 + }} + MnO_4^ -  \\to M{n^{2 + }} + 5F{e^{3 + }}$$<br/><br/>संबंध का उपयोग करते हुए,<br/><br/>$${{{M_1}{V_1}} \\over {{n_1}}} = {{{M_2}{V_2}} \\over {{n_2}}}$$<br/><br/>n<sub>2</sub>M<sub>1</sub>V<sub>1</sub> = n<sub>1</sub>M<sub>2</sub>V<sub>2</sub> [n<sub>1</sub> और n<sub>2</sub>, Fe<sup>2+</sup> और MnO$$_4^ - $$ के अभिक्रिया करने वाले मोलों की संख्या हैं]<br/><br/>$$1 \\times {x \\over {25}} \\times 25 = 5 \\times 0.03 \\times 12.5 \\Rightarrow x = 1.88$$<br/><br/>x का मान 1.88 है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "redox-titration",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "A sample (5.6 g) containing iron is completely dissolved in cold dilute HCl to prepare a 250 mL of solution. Titration of 25.0 mL of this solution requires 12.5 mL of 0.03 M KMnO4 solution to reach the end point. Number of moles of Fe2+ pre..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "एक प्रतिदर्श $$(5.6 \\mathrm{~g})$$, जिसमे लोहा है, ठन्डे तनु $$\\mathrm{HCl}$$ में पूर्णतः घोलकर $$250 \\mathrm{~mL}$$ का एक विलयन बनता है। इस विलयन के $$25.0 \\mathrm{~mL}$$ के अनुमापन में अन्त्यबिंदु को पहुचने के लिए $$0.03 ~\\mathrm{M} ~\\mat..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "v5rj5eop41ddqiaril6w",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "a-sample-56-g-containing-iron-is-completely-dissolved-in-jee-advanced-chemistry-some-basic-concepts-of-chemistry-pznvifgx5ojk61j4",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A sample (5.6 g) containing iron is completely dissolved in cold dilute HCl to prepare a 250 mL of solution. Titration of 25.0 mL of this solution requires 12.5 mL of 0.03 M KMnO<sub>4</sub> solution to reach the end point. Number of moles of Fe<sup>2+</sup> present in 250 mL solution is x $$\\times$$ 10<sup>$$-$$2</sup> (consider complete dissolution of FeCl<sub>2</sub>). The amount of iron present in the sample is y% by weight.<br><br>(Assume : KMnO<sub>4</sub> reacts only with Fe<sup>2+</sup> in the solution <br><br>Use : Molar mass of iron as 56 g mol<sup>$$-$$1</sup>)<br><br>The value of y is ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "18.75",
+          "explanation": "Mass of sample = 5.6 g<br/><br/>Number of moles of Fe  = 1.88 $$\\times$$ 10<sup>$$-$$2</sup> mol<br/><br/>Molar mass of Fe = 56 g/mol<br/><br/>Mass of Fe = Moles of Fe $$\\times$$ Molar mass<br/><br/>= 1.88 $$\\times$$ 10<sup>$$-$$2</sup> $$\\times$$ 56 = 1.05 g<br/><br/>% Fe = $${{Mass\\,of\\,Fe} \\over {Mass\\,of\\,sample}} \\times 100 = {{1.05} \\over {5.6}} \\times 100$$<br/><br/>$$\\Rightarrow$$ y = 18.75%<br/><br/>The value of y is 18.75."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक प्रतिदर्श $$(5.6 \\mathrm{~g})$$, जिसमे लोहा है, ठन्डे तनु $$\\mathrm{HCl}$$ में पूर्णतः घोलकर $$250 \\mathrm{~mL}$$ का एक विलयन बनता है। इस विलयन के $$25.0 \\mathrm{~mL}$$ के अनुमापन में अन्त्यबिंदु को पहुचने के लिए $$0.03 ~\\mathrm{M} ~\\mathrm{KMnO}_{4}$$ विलयन का $$12.5 \\mathrm{~mL}$$ लगता है | $$250 \\mathrm{~mL}$$ विलयन में $$\\mathrm{Fe}^{2+}$$ के मोलों की संख्या $$\\mathbf{x} \\times 10^{-2}$$ है $$\\left(\\mathrm{FeCl}_{2}\\right.$$ का पूर्ण घोलना मानिये)। प्रतिदर्श में मौजूद लोहे की मात्रा वजन के अनुसार (by weight) $$\\mathbf{y} \\%$$ है।</p>\n<p>(मान लें: विलयन में $$\\mathrm{KMnO}_{4}$$ केवल $$\\mathrm{Fe}^{2+}$$ के साथ ही अभिक्रिया करता है। उपयोग करें: लोहा का मोलर द्रव्यमान $$56 \\mathrm{~g} \\mathrm{~mol}^{-1}$$ )</p>\n<p>$$\\mathbf{y}$$ का मान __________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "18.75",
+          "explanation": "नमूने का द्रव्यमान = 5.6 g<br/><br/>Fe के मोलों की संख्या = 1.88 $$\\times$$ 10<sup>$$-$$2</sup> mol<br/><br/>Fe का मोलर द्रव्यमान = 56 g/mol<br/><br/>Fe का द्रव्यमान = Fe के मोल $$\\times$$ मोलर द्रव्यमान<br/><br/>= 1.88 $$\\times$$ 10<sup>$$-$$2</sup> $$\\times$$ 56 = 1.05 g<br/><br/>% Fe = $${{Fe\\,का\\,द्रव्यमान} \\over {नमूने\\,का\\,द्रव्यमान}} \\times 100 = {{1.05} \\over {5.6}} \\times 100$$<br/><br/>$$\\Rightarrow$$ y = 18.75%<br/><br/>y का मान 18.75 है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "redox-titration",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "A sample (5.6 g) containing iron is completely dissolved in cold dilute HCl to prepare a 250 mL of solution. Titration of 25.0 mL of this solution requires 12.5 mL of 0.03 M KMnO4 solution to reach the end point. Number of moles of Fe2+ pre..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "एक प्रतिदर्श $$(5.6 \\mathrm{~g})$$, जिसमे लोहा है, ठन्डे तनु $$\\mathrm{HCl}$$ में पूर्णतः घोलकर $$250 \\mathrm{~mL}$$ का एक विलयन बनता है। इस विलयन के $$25.0 \\mathrm{~mL}$$ के अनुमापन में अन्त्यबिंदु को पहुचने के लिए $$0.03 ~\\mathrm{M} ~\\mat..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "bpm5thx1hskjqshcfb2z",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "ozonolysis-of-closub2sub-produces-an-oxide-of-chlorine-jee-advanced-chemistry-some-basic-concepts-of-chemistry-0hdbppldh5iyqgla",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Ozonolysis of ClO<sub>2</sub> produces an oxide of chlorine. The average oxidation state of chlorine in this oxide is __________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>$$\\mathop {2Cl{O_2}}\\limits_{Chlorine\\,dioxide}  + 2{O_3}\\buildrel {} \\over\n \\longrightarrow \\mathop {C{l_2}{O_6}}\\limits_{Chloral\\,perchlorate}  + 2{O_2}$$</p>\n<p>Oxidation state of Cl in Cl<sub>2</sub>O<sub>6</sub> = 2x + 6($$-$$2) = 0</p>\n<p>2x $$-$$ 12 = 0</p>\n<p>2x = 12 $$\\Rightarrow$$ x = + 6</p>\n<p>Average oxidation state of Cl in Cl<sub>2</sub>O<sub>6</sub> is 6.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$\\mathrm{ClO}_{2}$$ का ओज़ोनी अपघटन (ozonolysis), क्लोरीन का एक ऑक्साइड उत्पादीत करता है | इस ऑक्साइड में क्लोरीन की औसत ऑक्सीकरण अवस्था (average oxidation state) ___________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>$$\\mathop {2Cl{O_2}}\\limits_{क्लोरीन\\,डाइऑक्साइड}  + 2{O_3}\\buildrel {} \\over\n \\longrightarrow \\mathop {C{l_2}{O_6}}\\limits_{क्लोरल\\,परक्लोरेट}  + 2{O_2}$$</p>\n<p>Cl<sub>2</sub>O<sub>6</sub> में Cl की ऑक्सीकरण अवस्था = 2x + 6($$-$$2) = 0</p>\n<p>2x $$-$$ 12 = 0</p>\n<p>2x = 12 $$\\Rightarrow$$ x = + 6</p>\n<p>Cl<sub>2</sub>O<sub>6</sub> में Cl की औसत ऑक्सीकरण अवस्था 6 है।</p>"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "oxidation-number",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Ozonolysis of ClO2 produces an oxide of chlorine. The average oxidation state of chlorine in this oxide is __________."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "$$\\mathrm{ClO}_{2}$$ का ओज़ोनी अपघटन (ozonolysis), क्लोरीन का एक ऑक्साइड उत्पादीत करता है | इस ऑक्साइड में क्लोरीन की औसत ऑक्सीकरण अवस्था (average oxidation state) ___________ है।"
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "ot36gmurkqedrpkkhdgi",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "choose-the-correct-statements-among-the-following--jee-advanced-chemistry-some-basic-concepts-of-chemistry-34aq6hdyudw8nc8k",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Choose the correct statement(s) among the following :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "SnCl<sub>2</sub> . 2H<sub>2</sub>O is a reducing agent."
+            },
+            {
+              "identifier": "B",
+              "content": "SnO<sub>2</sub> reacts with KOH to form K<sub>2</sub>[Sn(OH)<sub>6</sub>]."
+            },
+            {
+              "identifier": "C",
+              "content": "A solution of PbCl<sub>2</sub> in HCl contains Pb<sup>2+</sup> and Cl<sup>$$-$$</sup> ions."
+            },
+            {
+              "identifier": "D",
+              "content": "The reaction of Pb<sub>3</sub>O<sub>4</sub> with hot dilute nitric acid to give PbO<sub>2</sub> is a redox reaction."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "Sn<sup>2+</sup> of stannous chloride dihydrate (SnCl<sub>2</sub> . 2H<sub>2</sub>O) tends to convert into Sn<sup>4+</sup>.<br><br>Hence, statement (a) is correct.<br><br>(b) SnO<sub>2</sub> reacts with KOH and gives K<sub>2</sub>SnO<sub>3</sub> . 3H<sub>2</sub>O or K<sub>2</sub>[Sn(OH)<sub>6</sub>] because it is amphoteric in nature.<br><br>$$Sn{O_2} + KOH\\buildrel {} \\over\n \\longrightarrow {K_2}Sn{O_3} + {H_2}O$$<br><br>or $${K_2}[Sn{(OH)_6}]$$<br><br>Hence, statement (b) is correct.<br><br>(c) In conc. HCl, PbCl<sub>2</sub> exists as chloroplumbous acid, H<sub>2</sub>[PbCl<sub>4</sub>]<br><br>$$\\mathop {PbC{l_2}}\\limits^{II}  + 2HCl\\buildrel {} \\over\n \\longrightarrow \\mathop {{H_2}[PbC{l_4}]}\\limits^{II} $$<br><br>Hence, statement (c) is incorrect.<br><br>(d) Pb<sub>3</sub>O<sub>4</sub> is a mixture of $$(2\\mathop {PbO}\\limits^{ + 2}  + {\\mathop {PbO}\\limits^{ + 4} _2})$$<br><br>$$P{b_3}{O_4} + 4HN{O_3}\\buildrel {} \\over\n \\longrightarrow \\mathop {2Pb{{(N{O_3})}_2}}\\limits^{ + 2}  + \\mathop {Pb{O_2}}\\limits^{ + 4}  + 2{H_2}O$$<br><br>It is not a redox reaction. Thus, the statement (d) is incorrect."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>निम्नलिखित में से सही कथन (कथनों) का चयन करें।</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{SnCl}_{2} \\cdot 2 \\mathrm{H}_{2} \\mathrm{O}$$ एक अपचायक (reducing agent) है।"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{SnO}_{2}, \\mathrm{KOH}$$ से अभिक्रिया कर के, $$\\mathrm{K}_{2}\\left[\\mathrm{Sn}(\\mathrm{OH})_{6}\\right]$$ बनता है ।"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{PbCl}_{2}$$ के $$\\mathrm{HCl}$$ के विलयन में $$\\mathrm{Pb}^{2+}$$ तथा $$\\mathrm{Cl}^{-}$$ आयन होते हैं।"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mathrm{Pb}_{3} \\mathrm{O}_{4}$$ की गर्म तनु नाइट्रिक अम्ल के साथ अभिक्रिया, जो $$\\mathrm{PbO}_{2}$$ बनाती है, एक रेडॉक्स अभिक्रिया है।"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "स्टैनस क्लोराइड डाईहाइड्रेट (SnCl<sub>2</sub> . 2H<sub>2</sub>O) का Sn<sup>2+</sup>, Sn<sup>4+</sup> में परिवर्तित होने की प्रवृत्ति रखता है।<br><br>अतः, कथन (a) सही है।<br><br>(b) SnO<sub>2</sub>, KOH के साथ अभिक्रिया करके K<sub>2</sub>SnO<sub>3</sub> . 3H<sub>2</sub>O या K<sub>2</sub>[Sn(OH)<sub>6</sub>] देता है क्योंकि यह उभयधर्मी प्रकृति का होता है।<br><br>$$Sn{O_2} + KOH\\buildrel {} \\over\n \\longrightarrow {K_2}Sn{O_3} + {H_2}O$$<br><br>या $${K_2}[Sn{(OH)_6}]$$<br><br>अतः, कथन (b) सही है।<br><br>(c) सांद्र HCl में, PbCl<sub>2</sub> क्लोरोप्लम्बस अम्ल, H<sub>2</sub>[PbCl<sub>4</sub>] के रूप में विद्यमान रहता है<br><br>$$\\mathop {PbC{l_2}}\\limits^{II}  + 2HCl\\buildrel {} \\over\n \\longrightarrow \\mathop {{H_2}[PbC{l_4}]}\\limits^{II} $$<br><br>अतः, कथन (c) गलत है।<br><br>(d) Pb<sub>3</sub>O<sub>4</sub>, $$(2\\mathop {PbO}\\limits^{ + 2}  + {\\mathop {PbO}\\limits^{ + 4} _2})$$ का मिश्रण है<br><br>$$P{b_3}{O_4} + 4HN{O_3}\\buildrel {} \\over\n \\longrightarrow \\mathop {2Pb{{(N{O_3})}_2}}\\limits^{ + 2}  + \\mathop {Pb{O_2}}\\limits^{ + 4}  + 2{H_2}O$$<br><br>यह एक रेडॉक्स अभिक्रिया नहीं है। इस प्रकार, कथन (d) गलत है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "oxidation-and-reduction-reactions",
+      "type": "mcqm",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Choose the correct statement(s) among the following :"
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "निम्नलिखित में से सही कथन (कथनों) का चयन करें।"
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "irjecy35aa4ljh19cir8",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The order of the oxidation state of the phosphorous atom in \n<br><br>$${H_3}P{O_2},{H_3}P{O_4},{H_3}P{O_3}$$ and $${H_4}{P_2}{O_6}$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${H_3}P{O_3} &gt; {H_3}P{O_2} &gt; {H_3}P{O_4} &gt; {H_4}{P_2}{O_6}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${H_3}P{O_4} &gt; {H_3}P{O_2} &gt; {H_3}P{O_3} &gt; {H_4}{P_2}{O_6}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${H_3}P{O_4} &gt; {H_4}{P_2}{O_6} &gt; {H_3}P{O_3} &gt; {H_3}P{O_2}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${H_3}P{O_2} &gt; {H_3}P{O_3} &gt; {H_4}{P_2}{O_6} &gt; {H_3}P{O_4}$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Let oxidation states of phosphorus in H<sub>3</sub>PO<sub>2</sub>, H<sub>3</sub>PO<sub>4</sub>, H<sub>3</sub>PO<sub>3</sub> and H<sub>4</sub>P<sub>2</sub>O<sub>6</sub> be p, q, r and s respectively.</p>\n<p>Oxidation state of hydrogen = + 1</p>\n<p>Oxidation state of oxygen = $$-$$2</p>\n<p>Thus, in H<sub>3</sub>PO<sub>2</sub> :</p>\n<p>3 $$\\times$$ (+1) + p + 2 $$\\times$$ ($$-$$2) = 0 $$\\therefore$$ p = +1</p>\n<p>In H<sub>3</sub>PO<sub>4</sub> :</p>\n<p>3 $$\\times$$ (+1) + q + 4 $$\\times$$ ($$-$$2) = 0 $$\\therefore$$ q = +5</p>\n<p>In H<sub>3</sub>PO<sub>3</sub> :</p>\n<p>3 $$\\times$$ (+1) + r + 3 $$\\times$$ ($$-$$2) = 0 $$\\therefore$$ r = + 3</p>\n<p>In H<sub>4</sub>P<sub>2</sub>O<sub>6</sub> :</p>\n<p>4 $$\\times$$ (+1) + 2s + 6 $$\\times$$ ($$-$$2) = 0 $$\\therefore$$ s = +4</p>\n<p>Thus, the order of oxidation state is :</p>\n<p>H<sub>3</sub>PO<sub>4</sub> > H<sub>4</sub>P<sub>2</sub>O<sub>6</sub> > H<sub>3</sub>PO<sub>3</sub> > H<sub>3</sub>PO<sub>2</sub></p>"
+        },
+        "hi": {
+          "content": "फॉस्फोरस परमाणु की ऑक्सीकरण स्थिति का क्रम \n<br><br>$${H_3}P{O_2},{H_3}P{O_4},{H_3}P{O_3}$$ और $${H_4}{P_2}{O_6}$$ में है ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${H_3}P{O_3} &gt; {H_3}P{O_2} &gt; {H_3}P{O_4} &gt; {H_4}{P_2}{O_6}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${H_3}P{O_4} &gt; {H_3}P{O_2} &gt; {H_3}P{O_3} &gt; {H_4}{P_2}{O_6}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${H_3}P{O_4} &gt; {H_4}{P_2}{O_6} &gt; {H_3}P{O_3} &gt; {H_3}P{O_2}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${H_3}P{O_2} &gt; {H_3}P{O_3} &gt; {H_4}{P_2}{O_6} &gt; {H_3}P{O_4}$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-order-of-the-oxidation-state-of-the-phosphorous-atom-in-2017-marks-3-xnwnmzxx4e0z3ldn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "oxidation-number",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "The order of the oxidation state of the phosphorous atom in \n$${H_3}P{O_2},{H_3}P{O_4},{H_3}P{O_3}$$ and $${H_4}{P_2}{O_6}$$ is "
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "फॉस्फोरस परमाणु की ऑक्सीकरण स्थिति का क्रम \n$${H_3}P{O_2},{H_3}P{O_4},{H_3}P{O_3}$$ और $${H_4}{P_2}{O_6}$$ में है "
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "99z8zh2d1t6gvbe0y8vx",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "permalink": "in-neutral-or-faintly-alkaline-solution-8-moles-of-permanga-jee-advanced-chemistry-some-basic-concepts-of-chemistry-wlsfdk6w3bqtpfpp",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In neutral or faintly alkaline solution, 8 moles of permanganate anion quantitative oxidise thiosulphate anions to produce X moles of a sulphur containing product. The magnitude of X is.... ",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>In neutral or faintly alkaline solution, thiosulphate is\noxidized to sulphate by permanganate,</p>\n<p>8MnO<sub>4</sub><sup>–</sup> + 3S<sub>2</sub>O<sub>3</sub><sup>2–</sup> + H<sub>2</sub>O $$ \\to $$ 8MnO<sub>2</sub> + 6SO<sub>4</sub><sup>2–</sup> + 2OH<sup>–</sup></p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "तटस्थ या हल्के क्षारीय घोल में, 8 मोल परमैंगनेट एनायन थायोसल्फेट एनायन को मात्रात्मक रूप से X मोल एक सल्फर युक्त उत्पाद में ऑक्सीकृत करते हैं। X का परिमाण है.... ",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "balancing-of-redox-reactions",
+      "type": "integer",
+      "year": 2016,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "In neutral or faintly alkaline solution, 8 moles of permanganate anion quantitative oxidise thiosulphate anions to produce X moles of a sulphur containing product. The magnitude of X is.... "
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "तटस्थ या हल्के क्षारीय घोल में, 8 मोल परमैंगनेट एनायन थायोसल्फेट एनायन को मात्रात्मक रूप से X मोल एक सल्फर युक्त उत्पाद में ऑक्सीकृत करते हैं। X का परिमाण है.... "
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "question_id": "jl2gij8g7e5qu1gipxjq",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "permalink": "pfesup3sup-is-reduced-to-fesup2sup-by-usingp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-xxeoopeaxlxf4urs",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Fe<sup>3+</sup> is reduced to Fe<sup>2+</sup> by using</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "H<sub>2</sub>O<sub>2</sub> in presence of NaOH."
+            },
+            {
+              "identifier": "B",
+              "content": "Na<sub>2</sub>O<sub>2</sub> in water."
+            },
+            {
+              "identifier": "C",
+              "content": "H<sub>2</sub>O<sub>2</sub> in presence of H<sub>2</sub>SO<sub>4</sub>."
+            },
+            {
+              "identifier": "D",
+              "content": "Na<sub>2</sub>O<sub>2</sub> in presence of H<sub>2</sub>SO<sub>4</sub>."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Fe<sup>3+</sup> is reduced to Fe<sup>2+</sup> by H<sub>2</sub>O<sub>2</sub>/NaOH and Na<sub>2</sub>O<sub>2</sub>/H<sub>2</sub>O.</p>\n<p>$$2F{e^{3 + }} + {H_2}{O_2} + O{H^ - } \\to 2F{e^{2 + }} + 2{H_2}O + {O_2}$$</p>\n<p>$$N{a_2}{O_2} + {H_2}O \\to {H_2}{O_2} + NaOH$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "oxidation-and-reduction-reactions",
+      "type": "mcqm",
+      "year": 2015,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Fe3+ is reduced to Fe2+ by using"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "question_id": "gpekgzv7d3o8hv0y3xaa",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "for-the-reactionbrbri---cio3--h2so-jee-advanced-chemistry-some-basic-concepts-of-chemistry-aybgvendhkfvw1pr",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "For the reaction,<br/><br/>$${I^ - } + ClO_3^ -  + {H_2}S{O_4} \\to C{l^ - } + HSO_4^ -  + {I_2}$$<br/><br/>the correct statement(s) in the balanced equation is/are",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "stoichiometric coefficient of HSO$$_4^ - $$ is 6"
+            },
+            {
+              "identifier": "B",
+              "content": "iodide is oxidised"
+            },
+            {
+              "identifier": "C",
+              "content": "sulphur is reduced"
+            },
+            {
+              "identifier": "D",
+              "content": "H<sub>2</sub>O is one of the products"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "Oxidation half-reaction,<br><br>$$2{I^ - } \\to {I_2} + 2{e^ - }$$ .... (i)<br><br>Here, I<sup>$$-$$</sup> is converted into I<sub>2</sub>. Oxidation number of I is increasing from $$-$$1 to 0 hence, this is a type of oxidation reaction.<br><br>Reduction half-reaction<br><br>$$6{H^ + } + ClO_3^ -  + 6{e^ - } \\to C{l^ - } + 3{H_2}O$$ ..... (ii)<br><br>Here, H<sub>2</sub>O releases as a product. Hence, option (d) is correct.<br><br>Multiplying equation (i) by 3 and adding in equation (ii)<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1awcl0n/d8bf7f8c-6434-4eb6-ba0f-51d77c925d1a/2de8c770-aeb0-11ec-b33f-bb21af84cf55/file-1l1awcl0o.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1awcl0n/d8bf7f8c-6434-4eb6-ba0f-51d77c925d1a/2de8c770-aeb0-11ec-b33f-bb21af84cf55/file-1l1awcl0o.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Chemistry - Redox Reactions Question 6 English Explanation\"><br>Stoichiometric coefficient of $$HSO_4^ - $$ is 6.<br><br>Hence, option (a), (b) and (d) are correct."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "balancing-of-redox-reactions",
+      "type": "mcqm",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "For the reaction,$${I^ - } + ClO_3^ -  + {H_2}S{O_4} \\to C{l^ - } + HSO_4^ -  + {I_2}$$the correct statement(s) in the balanced equation is/are"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "ruawqousymvkexufwfgn",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "consider-the-following-list-of-reagents-acidified-ksub2-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ak3i1jos0kcj6atp",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Consider the following list of reagents, acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, alkaline KMnO<sub>4</sub>, CuSO<sub>4</sub>, H<sub>2</sub>O<sub>2</sub>, Cl<sub>2</sub>, O<sub>3</sub>, FeCl<sub>3</sub>, HNO<sub>3</sub> and Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>. The total number of reagents that can oxidise aqueous iodide to iodine is",
+          "options": [],
+          "correct_options": [],
+          "answer": "7",
+          "explanation": "Acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, CuSO<sub>4</sub>, H<sub>2</sub>O<sub>2</sub>, Cl<sub>2</sub>, O<sub>3</sub>, FeCl<sub>3</sub> and HNO<sub>3</sub> oxidise aq. iodide to iodine. Alkaline KMnO<sub>4</sub> oxidise aq. iodide to IO$$_3^ - $$.<br/><br/>Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> is a strong reducing agent which on reaction with I<sub>2</sub> produces I<sup>$$-$$</sup>.<br/><br/>Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> + I<sub>2</sub> $$\\to$$ 2I<sup>$$-$$</sup> + Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub><br/><br/>Therefore, no reaction takes place between Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> and iodide ion. Hence, correct integer is (7)."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "oxidation-and-reduction-reactions",
+      "type": "integer",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Consider the following list of reagents, acidified K2Cr2O7, alkaline KMnO4, CuSO4, H2O2, Cl2, O3, FeCl3, HNO3 and Na2S2O3. The total number of reagents that can oxidise aqueous iodide to iodine is"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "229cs0hyevu1j0gch41o",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "preduction-of-the-metal-centre-in-aqueous-permanganate-ion-jee-advanced-chemistry-some-basic-concepts-of-chemistry-9fld5vwhua9cv1i6",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Reduction of the metal centre in aqueous permanganate ion involves</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "3 electrons in neutral medium."
+            },
+            {
+              "identifier": "B",
+              "content": "5 electrons in neutral medium."
+            },
+            {
+              "identifier": "C",
+              "content": "3 electrons in alkaline medium."
+            },
+            {
+              "identifier": "D",
+              "content": "5 electrons in acidic medium."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>In an aqueous solution, the reduction of the metal center in permanganate ions ($MnO_4^-$) varies depending on the medium :</p>\n\n<p><p><strong>Acidic Medium</strong> : Permanganate acts as a strong oxidizing agent. The reaction can be represented as :</p>\n<p>$$8H^+ + 5e^- + MnO_4^- \\to Mn^{2+} + 4H_2O$$</p>\n<p>This indicates that 5 electrons are involved in the reduction process in an acidic medium.</p></p>\n<p><p><strong>Neutral Medium</strong> : Permanganate acts as a moderate oxidizing agent. The reaction in a neutral medium is :</p>\n<p>$$2H_2O + 3e^- + MnO_4^- \\to MnO_2 + 4OH^-$$</p>\n<p>Here, 3 electrons are involved in the reduction process in a neutral medium.</p></p>\n<p><p><strong>Alkaline Medium</strong> : In alkaline conditions, the reaction is similar to that in a neutral medium :</p>\n<p>$$2H_2O + 3e^- + MnO_4^- \\to MnO_2 + 4OH^-$$</p>\n<p>Again, 3 electrons are involved in the reduction process in an alkaline medium.</p></p>\n"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "oxidation-and-reduction-reactions",
+      "type": "mcqm",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Reduction of the metal centre in aqueous permanganate ion involves"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "d3qtlw5of6qcb4ryi4ny",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The difference in the oxidation numbers of the two types of sulphur atoms in Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub> is",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "<p>(i) The structure of compound containing sulphur in $\\mathrm{Na}_2 \\mathrm{~S}_4 \\mathrm{O}_6$ is :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m04mqqmg/eef15739-e06e-4bae-b2cf-71fe14771757/7aa42c80-6029-11ef-a1c9-9b299e7750eb/file-jaoe38c1m04mqqmh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m04mqqmg/eef15739-e06e-4bae-b2cf-71fe14771757/7aa42c80-6029-11ef-a1c9-9b299e7750eb/file-jaoe38c1m04mqqmh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 1 Offline Chemistry - Redox Reactions Question 17 English Explanation\"></p>\n<p>Let the oxidation state of sulpher be $x$ :</p>\n<p>$$ \\begin{gathered} 4 \\times x+2 \\times(+1)+6 \\times(-2)=0 \\\\ 4 x=12-2=0 \\\\ 4 x=10 \\\\ x=\\frac{5}{2}=2.5 \\end{gathered} $$</p>\n<p>(ii) Each of the corner sulphurs utilises five valence electrons to form bond with oxygen atoms.</p>\n<p>Their oxidation state is +5.</p>\n<p>(iii) Oxidation state of central sulphur atom is zero (0). </p>\n<p>Difference between two types of sulphur = 5 – 0 = 5.</p>"
+        }
+      },
+      "permalink": "the-difference-in-the-oxidation-numbers-of-the-two-types-of-jee-advanced-2011-marks-2-rwdgvbk3iml5bxut.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "topic": "oxidation-number",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "The difference in the oxidation numbers of the two types of sulphur atoms in Na2S4O6 is"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "sk81mufud83ezi2hb9ah",
+      "chapter": "redox-reactions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pmatch-the-reactions-in-column-i-with-nature-of-the-reacti-jee-advanced-chemistry-some-basic-concepts-of-chemistry-4yyoc0kzuuek9f7u",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Match the reactions in Column I with nature of the reactions/type of the products in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 472px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 192px\">\n<col style=\"width: 53px\">\n<col style=\"width: 179px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">(A)</td>\n    <td class=\"tg-0pky\">$$\\mathrm{O_2^ -  \\to {O_2} + O_2^{2 - }}$$</td>\n    <td class=\"tg-c3ow\">(P)</td>\n    <td class=\"tg-0pky\">redox reaction</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(B)</td>\n    <td class=\"tg-0pky\">$$\\mathrm{CrO_4^{2 - } + {H^ + }}$$</td>\n    <td class=\"tg-c3ow\">(Q)</td>\n    <td class=\"tg-0pky\">one of the products has trigonal planar structure</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(C)</td>\n    <td class=\"tg-0pky\">$$\\mathrm{MnO_4^ -  + NO_2^ -  + {H^ + } \\to}$$</td>\n    <td class=\"tg-c3ow\">(R)</td>\n    <td class=\"tg-0pky\">dimeric bridged tetrahedral metal ion</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(D)</td>\n    <td class=\"tg-0pky\">$$\\mathrm{NO_3^ -  + {H_2}S{O_4} + F{e^{2 + }} \\to }$$</td>\n    <td class=\"tg-c3ow\">(S)</td>\n    <td class=\"tg-0pky\">disproportionation</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{A-(p,s);B-(r);C-(p,q);D-(p)}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{A-(p);B-(r);C-(p);D-(p)}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{A-(p,s);B-(r);C-(p);D-(p, q)}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mathrm{A-(p);B-(r, s);C-(p,q);D-(p)}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": "$$\\mathrm{A-(p,s);B-(r);C-(p,q);D-(p)}$$",
+          "explanation": "<p>When the same molecule is oxidised or reduced, \nthen the reaction is called disproportionation \nreaction.</p>\n<p>The reaction in which oxidation and reduction \ntakes place simultaneously are called redox \nreactions. Thus,</p>\n<p>(A) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mghuxp01/f15bf33c-8885-4b9f-8c1b-28814045e9c1/2b970410-a433-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghuxp02.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mghuxp01/f15bf33c-8885-4b9f-8c1b-28814045e9c1/2b970410-a433-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghuxp02.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 2 Offline Chemistry - Redox Reactions Question 3 English Explanation 1\"></p>\n<p>(B) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mghuy6wg/80fbd082-0bcc-4d63-812d-ef93092700aa/396ae700-a433-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghuy6wh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mghuy6wg/80fbd082-0bcc-4d63-812d-ef93092700aa/396ae700-a433-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghuy6wh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 2 Offline Chemistry - Redox Reactions Question 3 English Explanation 2\"></p>\n<p>(C) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mghuytdz/ec7ba30e-f3c1-4428-9747-361aef8ce979/4ac9c570-a433-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghuyte0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mghuytdz/ec7ba30e-f3c1-4428-9747-361aef8ce979/4ac9c570-a433-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghuyte0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 2 Offline Chemistry - Redox Reactions Question 3 English Explanation 3\"></p>\n<p>(D) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mghuzn2k/2ab360ee-3c17-49a1-9f97-84f351e387bf/61b7acc0-a433-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghuzn2l.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mghuzn2k/2ab360ee-3c17-49a1-9f97-84f351e387bf/61b7acc0-a433-11f0-beb4-71bca5ea08a4/file-jaoe38c1mghuzn2l.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 2 Offline Chemistry - Redox Reactions Question 3 English Explanation 4\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "types-of-redox-reactions",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Match the reactions in Column I with nature of the reactions/type of the products in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg  {border-collapse:collapse;border-..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "q65jeg5u5yz8xd96pfw2",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 2001,
+      "paperTitle": "IIT-JEE 2001 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The reaction, $$3Cl{O^ - }(aq)$$$$ \\to ClO_3^ - (aq) + 2C{l^ - }(aq)$$ is an example of :\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Oxidation reaction"
+            },
+            {
+              "identifier": "B",
+              "content": "Reduction reaction"
+            },
+            {
+              "identifier": "C",
+              "content": "Disproportionate reaction"
+            },
+            {
+              "identifier": "D",
+              "content": "Decomposition reaction"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The given reaction is:</p>\n\n<p>$$3ClO^- (aq) \\to ClO_3^- (aq) + 2Cl^- (aq)$$</p>\n\n<p>This reaction is an example of a Disproportionation Reaction. Disproportionation reactions are a type of redox reaction in which the same element is simultaneously oxidized and reduced. In this given reaction, chlorine undergoes both oxidation and reduction.</p>\n\n<p>To understand why it is a disproportionation reaction, let's assign oxidation states to chlorine in different species:</p>\n\n<ul>\n<li>In $ClO^-$, chlorine has an oxidation state of +1.</li><br>\n<li>In $ClO_3^-$, chlorine has an oxidation state of +5.</li><br>\n<li>In $Cl^-$, chlorine has an oxidation state of -1.</li>\n</ul>\n<p>In going from $ClO^-$ to $ClO_3^-$, the oxidation state of chlorine increases from +1 to +5, indicating oxidation. Simultaneously, in going from $ClO^-$ to $Cl^-$, the oxidation state of chlorine decreases from +1 to -1, indicating reduction. Since one species of chlorine is getting oxidized while another is getting reduced, and both processes involve the same element (chlorine in this case), it classifies as a disproportionation reaction.</p>\n\n<p>Therefore, the correct answer is:</p>\n\n<p><strong>Option C: Disproportionate reaction</strong></p>"
+        }
+      },
+      "permalink": "the-reaction-3clo-aq-to-clo3-aq-2cl-aq-is-an-example-of-jee-advanced-2001-screening-marks-2-axweo38a2afqtrsg.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2001-screening",
+      "isOutOfSyllabus": false,
+      "topic": "types-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2001 Screening",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "The reaction, $$3Cl{O^ - }(aq)$$$$ \\to ClO_3^ - (aq) + 2C{l^ - }(aq)$$ is an example of :\n"
+        }
+      },
+      "yearKey": "iit-jee-2001-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vcfz8gi57hnvbctlqt2x",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Amongst the following identify the species with an atom in +6 oxidation state",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$MnO_4^ - $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$Cr(CN)_6^{3 - }$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$NiF_6^{2 - }$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$Cr{O_2}C{l_2}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>To identify the species with an atom in +6 oxidation state, let's analyze each option given:</p>\n\n<p><strong>Option A: $MnO_4^-$</strong></p>\n\n<p>To determine the oxidation state of Mn in $MnO_4^-$, recall that the oxidation state of oxygen is typically -2. In the permanganate ion, there are four oxygens, contributing a total of $4 \\times (-2) = -8$ to the charge. The overall charge of the $MnO_4^-$ ion is -1, which means the oxidation state of Mn must balance the charge contributed by oxygen to achieve the overall -1 charge. Thus, if we let the oxidation state of Mn be x, we have:</p>\n\n<p>$$x + 4(-2) = -1$$</p>\n\n<p>Solving for x gives:</p>\n\n<p>$$x - 8 = -1 \\Rightarrow x = +7$$</p>\n\n<p><strong>Option B: $Cr(CN)_6^{3-}$</strong></p>\n\n<p>For the $Cr(CN)_6^{3-}$ ion, cyanide $(CN)^-$ is a ligand with a -1 charge. With six cyanide ions, the total charge contributed by the ligands is $6 \\times (-1) = -6$. The overall charge of the complex is -3, which means the oxidation state of Cr must offset the ligands' charge to achieve the overall -3 charge. Letting the oxidation state of Cr be x, we can set up the equation:</p>\n\n<p>$$x + 6(-1) = -3$$</p>\n\n<p>Solving for x gives:</p>\n\n<p>$$x - 6 = -3 \\Rightarrow x = +3$$</p>\n\n<p><strong>Option C: $NiF_6^{2-}$</strong></p>\n\n<p>In $NiF_6^{2-}$, the fluoride ion $(F^-)$ has an oxidation state of -1. With six fluoride ions, the total charge from the fluoride ions is $6 \\times (-1) = -6$. For the complex to have an overall charge of -2, the oxidation state of Ni (let's call it x) needs to satisfy the following equation:</p>\n\n<p>$$x + 6(-1) = -2$$</p>\n\n<p>Solving for x gives:</p>\n\n<p>$$x - 6 = -2 \\Rightarrow x = +4$$</p>\n\n<p><strong>Option D: $CrO_2Cl_2$</strong></p>\n\n<p>In chromium dioxide dichloride, we have two oxygen atoms and two chlorine atoms bonded to chromium. Oxygen has a typical oxidation state of -2, and chlorine has a typical oxidation state of -1. However, being in a molecule (not an ion), the total must sum to zero. Let the oxidation state of Cr be x; we can set up the equation as follows:</p>\n\n<p>$$x + 2(-2) + 2(-1) = 0$$</p>\n\n<p>This simplifies to:</p>\n\n<p>$$x - 4 - 2 = 0 \\Rightarrow x = +6$$</p>\n\n<p><strong>Conclusion:</strong> From the analysis above, the species with a chromium atom in the +6 oxidation state is found in Option D: $CrO_2Cl_2$.</p>"
+        }
+      },
+      "permalink": "amongst-the-following-identify-the-species-with-an-atom-in-6-jee-advanced-2000-screening-marks-2-mcqbvzarxvkngm4d.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000-screening",
+      "isOutOfSyllabus": false,
+      "topic": "oxidation-number",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000 Screening",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Amongst the following identify the species with an atom in +6 oxidation state"
+        }
+      },
+      "yearKey": "iit-jee-2000-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "iw02pfi45b8oogqnm0zz",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The normality of 0.3 M phosphorus acid (H<sub>3</sub>PO<sub>3</sub>) is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.1"
+            },
+            {
+              "identifier": "B",
+              "content": "0.9"
+            },
+            {
+              "identifier": "C",
+              "content": "0.3"
+            },
+            {
+              "identifier": "D",
+              "content": "0.6"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Normality (N) is a measure of concentration equivalent to the gram equivalent weight per liter of solution. For acids, it's determined by the amount of H<sup>+</sup> ions that one molecule of acid can furnish in its reaction. Phosphorous acid, $H_3PO_3$, is a diprotic acid, meaning each molecule can furnish two H<sup>+</sup> ions for reactions, despite having three hydrogen atoms, because only two of the hydrogen atoms are bonded in such a way that they can be ionized and participate in a reaction as protons ($H^+$).</p>\n\n<p>To calculate the normality of a solution, you use the formula:</p>\n\n<p>$N = M \\times n$</p>\n\n<p>where:</p>\n\n<ul>\n\n<li>$N$ is the normality,</li>\n\n<li>$M$ is the molarity of the solution, and</li>\n\n<li>$n$ is the number of moles of replaceable ions furnished by one mole of solute (in this case, the $H^+$ ions from phosphorus acid).</li>\n\n</ul>\n\n<p>Given that the molarity ($M$) of phosphorus acid is 0.3 M, and it can furnish 2 $H^+$ ions per molecule, we use $n = 2$:</p>\n\n<p>$N = 0.3 \\,M \\times 2 = 0.6\\,N$</p>\n\n<p>Therefore, the normality of the 0.3 M phosphorus acid ($H_3PO_3$) solution is 0.6 N. So, the correct option is:</p>\n\n<p><strong>Option D: 0.6</strong></p>"
+        }
+      },
+      "permalink": "the-normality-of-03-m-phosphorus-acid-h3po3-is-jee-advanced-1999-marks-2-2spsgj5scgoxq3o0.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "equivalence",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "The normality of 0.3 M phosphorus acid (H3PO3) is"
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "5wspgilkmnipej3g8b7y",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1997,
+      "paperTitle": "IIT-JEE 1997",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "To a 25ml H<sub>2</sub>O<sub>2</sub> solution, excess of acidified solution of potassium iodide was added. The iodine liberated required 20 ml of 0.3 N sodium thiosulphate solution. Calculate the volume strength of H<sub>2</sub>O<sub>2</sub> solution.",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.344",
+          "explanation": null
+        }
+      },
+      "permalink": "to-a-25ml-h2o2-solution-excess-of-acidified-solution-of-pot-1997-marks-5-iqfprov2kay8pstk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1997",
+      "isOutOfSyllabus": false,
+      "topic": "redox-titration",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1997",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "To a 25ml H2O2 solution, excess of acidified solution of potassium iodide was added. The iodine liberated required 20 ml of 0.3 N sodium thiosulphate solution. Calculate the volume strength of H2O2 solution."
+        }
+      },
+      "yearKey": "iit-jee-1997"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "gyeh8rlnxbjyp54hngie",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1995,
+      "paperTitle": "IIT-JEE 1995",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A 5.0 cm<sup>3</sup> solution of H<sub>2</sub>O<sub>2</sub> liberates 0.508 g of iodine from an acidified KI solution. Calculate the strength of H<sub>2</sub>O<sub>2</sub> solution in terms of volume strength at STP.",
+          "options": [],
+          "correct_options": [],
+          "answer": "4.48 volumes",
+          "explanation": null
+        }
+      },
+      "permalink": "a-50-cm3-solution-of-h2o2-liberates-0508-g-of-iodine-from-1995-marks-2-1j4b9dd4l2yykbkv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1995",
+      "isOutOfSyllabus": false,
+      "topic": "redox-titration",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1995",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "A 5.0 cm3 solution of H2O2 liberates 0.508 g of iodine from an acidified KI solution. Calculate the strength of H2O2 solution in terms of volume strength at STP."
+        }
+      },
+      "yearKey": "iit-jee-1995"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "4zco3ekht9qe7pvxpbla",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1992,
+      "paperTitle": "IIT-JEE 1992",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "For the redox reaction:<br>\n$$MnO_4^ -  + {C_2}O_4^{ - 2} + {H^ + }$$ $$ \\to M{n^{2 + }} + C{O_2} + {H_2}O$$<br>\nThe correct coefficients of the reactants for the balanced \nreaction are",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$MnO_4^ - \\,\\, \\to \\,\\,2,\\,\\,{C_2}O_4^{2 - }\\, \\to \\,\\,5,\\,{H^ + } \\to \\,\\,16$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$MnO_4^ - \\,\\, \\to \\,\\,16,\\,\\,{C_2}O_4^{2 - }\\, \\to \\,\\,5,\\,{H^ + } \\to \\,\\,2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$MnO_4^ - \\,\\, \\to \\,\\,5,\\,\\,{C_2}O_4^{2 - }\\, \\to \\,\\,16,\\,{H^ + } \\to \\,\\,2$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$MnO_4^ - \\,\\, \\to \\,\\,2,\\,\\,{C_2}O_4^{2 - }\\, \\to \\,\\,16,\\,{H^ + } \\to \\,\\,5$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "for-the-redox-reactionmno4-c2o4-2-h-to-mn2-co2-h2othe-correc-jee-advanced-1992-marks-1-4isfhrypobo4teea.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1992",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1992",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "For the redox reaction:\n$$MnO_4^ -  + {C_2}O_4^{ - 2} + {H^ + }$$ $$ \\to M{n^{2 + }} + C{O_2} + {H_2}O$$\nThe correct coefficients of the reactants for the balanced \nreaction are"
+        }
+      },
+      "yearKey": "iit-jee-1992"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "gvqaq0lamp0if1g0jn3g",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1991,
+      "paperTitle": "IIT-JEE 1991",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The volume strength of 1.5 N H<sub>2</sub>O<sub>2</sub> solution is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "4.8"
+            },
+            {
+              "identifier": "B",
+              "content": "8.4"
+            },
+            {
+              "identifier": "C",
+              "content": "3.0"
+            },
+            {
+              "identifier": "D",
+              "content": "8.0"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-volume-strength-of-15-n-h2o2-solution-is-1991-marks-1-cv6oq7vkv51wfjhn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1991",
+      "isOutOfSyllabus": false,
+      "topic": "redox-titration",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1991",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "The volume strength of 1.5 N H2O2 solution is"
+        }
+      },
+      "yearKey": "iit-jee-1991"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "5z7sv4urjtfu04ngsr1w",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1990,
+      "paperTitle": "IIT-JEE 1990",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The oxidation number of phosphorus in Ba(H<sub>2</sub>PO<sub>2</sub>) is :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "+3"
+            },
+            {
+              "identifier": "B",
+              "content": "+2"
+            },
+            {
+              "identifier": "C",
+              "content": "+1"
+            },
+            {
+              "identifier": "D",
+              "content": "-1"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-oxidation-number-of-phosphorus-in-bah2po2-is-jee-advanced-1990-marks-1-ndupw0cjvlcqnxk9.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1990",
+      "isOutOfSyllabus": false,
+      "topic": "laws-of-chemical-combination",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1990",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "The oxidation number of phosphorus in Ba(H2PO2) is :"
+        }
+      },
+      "yearKey": "iit-jee-1990"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ohxgk3i17et5nn5agaby",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1988,
+      "paperTitle": "IIT-JEE 1988",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The equivalent weight of MnSO<sub>4</sub> is half of its molecular weight, when it converts to ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Mn<sub>2</sub>O<sub>3</sub> "
+            },
+            {
+              "identifier": "B",
+              "content": "MnO<sub>2</sub> "
+            },
+            {
+              "identifier": "C",
+              "content": "$$MnO_4^ - $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$MnO_4^{2 - }$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine which option corresponds to the scenario where the equivalent weight of $MnSO_4$ is half its molecular weight upon conversion, we need to analyze each oxidation process and find out the change in oxidation state of manganese (Mn) in each case. The equivalent weight of a compound in a given reaction depends on the change in oxidation number per atom of the element in question. It is calculated as the molecular weight divided by the number of electrons lost or gained in the reaction.</p>\n\n<p>The molecular weight of $MnSO_4$ (Manganese(II) sulfate) is primarily irrelevant for the specifics of calculating equivalent weight in this manner; what's crucial is the stoichiometry of the electron transfer involved in its reaction.</p>\n\n<p>Let's consider the oxidation state of Mn in $MnSO_4$, which is +2.</p>\n\n<p>Option A: $Mn_2O_3$</p>\n\n<p>Mn's oxidation state in $Mn_2O_3$ is +3. Thus, going from +2 in $MnSO_4$ to +3 in $Mn_2O_3$ involves a loss (or gain) of 1 electron per manganese atom. Given that there are two Mn atoms in $Mn_2O_3$, this would not match the stated requirement directly without considering the specifics of the individual reaction stoichiometry.</p>\n\n<p>Option B: $MnO_2$</p>\n\n<p>The oxidation state of Mn in $MnO_2$ is +4. The change from +2 to +4 implies a gain or loss of 2 electrons.</p>\n\n<p>Option C: $MnO_4^-$ (Permanganate)</p>\n\n<p>In $MnO_4^-$, the oxidation state of Mn is +7. The change from +2 in $MnSO_4$ to +7 in $MnO_4^-$ involves a change of 5 electrons.</p>\n\n<p>Option D: $MnO_4^{2-}$</p>\n\n<p>This oxidation state is not typically encountered for manganese and may represent a mistaken formulation, as Mn typically shows +7 oxidation state in permanganate $(MnO_4^-)$, not a doubly charged anion.</p>\n\n<p>Given these considerations, the question's conditions mention that the equivalent weight of $MnSO_4$ becomes half of its molecular weight when it converts to one of these products. This would imply a situation where the number of electrons transferred per formula unit of $MnSO_4$ is equivalent to 2 (since the molecular weight divided by 2 equals the equivalent weight when each mole of $MnSO_4$ involves the transfer of 2 moles of electrons).</p>\n\n<p>Thus, the correct answer is:</p>\n\n<p>Option B: $MnO_2$, because the conversion from $Mn^{+2}$ to $Mn^{+4}$ involves a transfer of 2 electrons per manganese atom, which fits the condition that the equivalent weight is half the molecular weight in this context.</p>"
+        }
+      },
+      "permalink": "the-equivalent-weight-of-mnso4-is-half-of-its-molecular-weig-jee-advanced-1988-marks-1-zyojyfhdjnpjaard.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1988",
+      "isOutOfSyllabus": false,
+      "topic": "equivalence",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1988",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "The equivalent weight of MnSO4 is half of its molecular weight, when it converts to "
+        }
+      },
+      "yearKey": "iit-jee-1988"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ucxna563e3z0jfxte7kd",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following equation:<br><br>\nMn<sup>2+</sup> + PbO<sub>2</sub> $$\\to$$ $$MnO_4^-$$ + H<sub>2</sub>O ",
+          "options": [],
+          "correct_options": [],
+          "answer": "<p>$$2Mn^{2+} + 5PbO_2 + 16H^+ \\to 2MnO_4^- + 5Pb^{2+} + 8H_2O$$</p>",
+          "explanation": "<p>To complete and balance the reaction between $$Mn^{2+}$$ and $$PbO_2$$ that results in $$MnO_4^-$$ and $$H_2O$$, we need to take into account both the redox aspect of this reaction and the need for balancing atoms and charges. This reaction occurs in acidic solution, so we'll be using $$H^+$$ ions to balance hydrogen atoms and electrons to balance the charges.</p>\n\n<p>The half-reactions are as follows:</p>\n\n<p><strong>Oxidation half-reaction:</strong> The manganese goes from a +2 oxidation state in $$Mn^{2+}$$ to a +7 oxidation state in $$MnO_4^-$$.</p>\n\n<p>$$Mn^{2+} \\to MnO_4^-$$</p>\n\n<p>We add 4 $$H_2O$$ on the right side to balance the oxygen, giving 8 $$H^+$$ on the left side to balance the hydrogen. Then, we add electrons to balance the charge:</p>\n\n<p>$$Mn^{2+} + 8H^+ + 4H_2O \\to MnO_4^- + 5e^-$$</p>\n\n<p><strong>Reduction half-reaction:</strong> The lead goes from a +4 oxidation state in $$PbO_2$$ to a +2 oxidation state in the product not mentioned explicitly (since $$PbO_2$$ is being reduced, we can assume it becomes $$Pb^{2+}$$ in acidic solution).</p>\n\n<p>$$PbO_2 + 4H^+ + 2e^- \\to Pb^{2+} + 2H_2O$$</p>\n\n<p>Now, to balance the electrons in both half-reactions, we need to equalize the number of electrons. Since the oxidation half-reaction produces 5 electrons and the reduction half-reaction consumes 2 electrons, we multiply the reduction half-reaction by 5 and the oxidation half-reaction by 2 to get 10 electrons in both:</p>\n\n<p>$$2(Mn^{2+} + 8H^+ + 4H_2O \\to MnO_4^- + 5e^-)$$</p>\n\n<p>$$5(PbO_2 + 4H^+ + 2e^- \\to Pb^{2+} + 2H_2O)$$</p>\n\n<p>By multiplying, we have:</p>\n\n<p>$$2Mn^{2+} + 16H^+ + 8H_2O \\to 2MnO_4^- + 10e^-$$</p>\n\n<p>$$5PbO_2 + 20H^+ + 10e^- \\to 5Pb^{2+} + 10H_2O$$</p>\n\n<p>Combining and simplifying these equations, while also canceling out electrons and what's common on both sides, we find:</p>\n\n<p>$$2Mn^{2+} + 5PbO_2 + 16H^+ \\to 2MnO_4^- + 5Pb^{2+} + 8H_2O$$</p>\n\n<p>In this balanced equation, both the charges and the atoms are balanced, giving a clear representation of the chemical reaction that occurs.</p>"
+        }
+      },
+      "permalink": "complete-and-balance-the-following-equationmn2-pbo2-to-mno4-jee-advanced-1986-marks-1-3828wjxtt5mbotyf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Complete and balance the following equation:\nMn2+ + PbO2 $$\\to$$ $$MnO_4^-$$ + H2O "
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ss39szswawj3drvm84ag",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following equation:<br><br>\nAg<sup>+</sup> + AsH<sub>3</sub> $$\\to$$ H<sub>3</sub>AsO<sub>3</sub> + H<sup>+</sup> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "6Ag<sup>+</sup> + AsH<sub>3</sub> + 3H<sub>2</sub>O $$\\to$$ 6Ag + H<sub>3</sub>AsO<sub>3</sub> + 6H<sup>+</sup>",
+          "explanation": null
+        }
+      },
+      "permalink": "complete-and-balance-the-following-equationag-ash3-to-h3aso3-jee-advanced-1986-marks-1-gpvncctgw7mhc1ve.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Complete and balance the following equation:\nAg+ + AsH3 $$\\to$$ H3AsO3 + H+ "
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qmlib7oyuhapy4eq6xbc",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Arrange the following in increasing oxidation number of iodine.<br><br>\nI<sub>2</sub>, HI, HIO<sub>4</sub>, ICl",
+          "options": [],
+          "correct_options": [],
+          "answer": "HI &lt; I<sub>2</sub> &lt; ICl &lt; HIO<sub>4</sub>",
+          "explanation": "<p>When arranging the species I<sub>2</sub>, HI, HIO<sub>4</sub>, and ICl by the oxidation number of iodine (I) in increasing order, we need to identify the oxidation number of iodine in each compound or molecule.</p>\n\n<ul>\n\n<li>In molecular iodine, I<sub>2</sub>, iodine is in its elemental form, so its oxidation number is 0.</li>\n\n<li>In hydrogen iodide, HI, hydrogen usually has an oxidation number of +1 (except in metal hydrides, which is not the case here), and since the compound is neutral, iodine must have an oxidation number of -1 to balance the +1 from hydrogen.</li>\n\n<li>In iodine monochloride, ICl, chlorine usually has an oxidation state of -1 (except in compounds with oxygen or fluorine). Given that the compound is neutral, iodine must have an oxidation number of +1 to balance the -1 from chlorine.</li>\n\n<li>In periodic acid, HIO<sub>4</sub>, oxygen has a typical oxidation state of -2 (except in peroxides, superoxides, or when bonded to fluorine). Considering there are 4 oxygen atoms, this gives a total oxidation state of -8 from oxygen. Hydrogen, as usual, is +1. To make the compound neutral, the oxidation state of iodine must be such that when added to the +1 from hydrogen and -8 from oxygen, the total is 0. Therefore,\n\n<p>$+1 + (\\text{Oxidation state of I}) - 8 = 0$</p>\n\n<p>Solving for the oxidation state of iodine:</p>\n\n<p>$ \\text{Oxidation state of I} = 7$</li></p>\n\n</ul>\n\n<p>So, the oxidation numbers of iodine in the given species are:</p>\n\n<ul>\n\n<li>I<sub>2</sub>: 0</li>\n\n<li>HI: -1</li>\n\n<li>ICl: +1</li>\n\n<li>HIO<sub>4</sub>: +7</li>\n\n</ul>\n\n<p>Arranging them in increasing order of the oxidation number of iodine, we get:</p>\n\n<p>HI (-1) &lt; I<sub>2</sub> (0) &lt; ICl (+1) &lt; HIO<sub>4</sub> (+7)</p>"
+        }
+      },
+      "permalink": "arrange-the-following-in-increasing-oxidation-number-of-iodi-jee-advanced-1986-marks-1-ule6fw8b86x7thhk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "oxidation-number",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Arrange the following in increasing oxidation number of iodine.\nI2, HI, HIO4, ICl"
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "mqah94eqjmk3cjub24h1",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following equation:<br><br>\n$$ClO_3^-$$ + I<sup>-</sup> + H<sub>2</sub>SO<sub>4</sub> $$\\to$$ Cl<sup>-</sup> + $$HSO_4^-$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "<p>$6\\text{I}^- + \\text{ClO}_3^- + 3\\text{H}_2\\text{SO}_4 \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O} + 3\\text{HSO}_4^-$</p>",
+          "explanation": "<p>To complete and balance the given equation, it's important to first understand that this is a redox reaction where chlorate ion ($$ClO_3^-$$) is reduced to chloride ion ($$Cl^-$$), and iodide ion ($$\\text{I}^-$$) is oxidized to iodine ($$I_2$$). The presence of sulfuric acid ($$\\text{H}_2\\text{SO}_4$$) suggests it mainly acts as a source of protons (H<sup>+</sup>) and the bisulfate ion ($$HSO_4^-$$) is a byproduct of the reaction.\n\n<p>First, let's write down all the half-reactions and balance them:</p>\n\n<b>Oxidation half-reaction (Iodide to Iodine):</b>\n\n<p>$\\text{I}^- \\to \\text{I}_2$</p>\n\n<p>To balance the iodine atoms, we need 2 I<sup>-</sup> on the left:</p>\n\n<p>$2\\text{I}^- \\to \\text{I}_2$</p>\n\n<b>Reduction half-reaction (Chlorate to Chloride):</b>\n\n<p>$\\text{ClO}_3^- + 6\\text{H}^+ + 6\\text{e}^- \\to \\text{Cl}^- + 3\\text{H}_2\\text{O}$</p>\n\n<p>The iodine half-reaction needs to be balanced in terms of electrons to conclude the overall redox reaction:</p>\n\n<p>$2\\text{I}^- \\to \\text{I}_2 + 2\\text{e}^-$</p>\n\n<p>Now, to combine these half-reactions keeping the electron count balanced, we notice that the reduction half-reaction involves 6 electrons, whereas the oxidation half-reaction involves only 2 electrons. Therefore, to balance electrons, we need to multiply the oxidation half-reaction by 3:</p>\n\n<p>$6\\text{I}^- \\to 3\\text{I}_2 + 6\\text{e}^-$</p>\n\n<p>Now, adding the balanced half-reactions:</p>\n\n<p>$6\\text{I}^- + \\text{ClO}_3^- + 6\\text{H}^+ \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O}$</p>\n\n<p>Since the reaction occurs in acidic medium (indicated by the presence of sulfuric acid), the $6\\text{H}^+$ comes from $3\\text{H}_2\\text{SO}_4$, but because sulfate ions ($SO_4^{2-}$) are not changed in the reduction process, for every $\\text{H}_2\\text{SO}_4$ that donates two $H^+$, one $HSO_4^-$ is formed:</p>\n\n<p>$6\\text{I}^- + \\text{ClO}_3^- + 3\\text{H}_2\\text{SO}_4 \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O} + 3HSO_4^-$</p>\n\n<p>However, we need to ensure the sulfate ions are properly accounted for. Since each $\\text{H}_2\\text{SO}_4$ provides two hydrogens and we use 3 $\\text{H}_2\\text{SO}_4$, it's correct as shown. Thus, the complete and balanced equation in acidic solution is:</p>\n\n<p>$6\\text{I}^- + \\text{ClO}_3^- + 3\\text{H}_2\\text{SO}_4 \\to 3\\text{I}_2 + \\text{Cl}^- + 3\\text{H}_2\\text{O} + 3\\text{HSO}_4^-$</p></p>"
+        }
+      },
+      "permalink": "complete-and-balance-the-following-equationclo3-i-h2so4-to-c-jee-advanced-1986-marks-1-xl0vghbqtrdljhji.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Complete and balance the following equation:\n$$ClO_3^-$$ + I- + H2SO4 $$\\to$$ Cl- + $$HSO_4^-$$"
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "4zrsy28qsgnaotkej4a7",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following equation:<br><br>\nS + OH<sup>-</sup> $$\\to$$ S<sup>2-</sup> + $$S_2O_3^-$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "4S + 6OH<sup>-</sup> $$\\to$$ 2S<sup>2-</sup> + $$S_2O_3^-$$ + 3H<sub>2</sub>O",
+          "explanation": null
+        }
+      },
+      "permalink": "complete-and-balance-the-following-equations-oh-to-s2-s2o3-jee-advanced-1986-marks-1-zpravzxn8yv5sd9g.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Complete and balance the following equation:\nS + OH- $$\\to$$ S2- + $$S_2O_3^-$$"
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "n2jnt76r910na16lmgbs",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following equation:<br><br>\nCe<sup>3+</sup> + $$S_2O_8^{-2} \\to $$ $$SO_4^{-2}$$ + Ce<sup>4+</sup>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2Ce<sup>3+</sup> + $$S_2O_8^{-2} \\to $$ $$2SO_4^{-2}$$ + 2Ce<sup>4+</sup>",
+          "explanation": "<p>To complete and balance the given redox reaction between cerium(III) ions ($$Ce^{3+}$$) and peroxodisulfate ions ($$S_2O_8^{2-}$$) to form sulfate ions ($$SO_4^{2-}$$) and cerium(IV) ions ($$Ce^{4+}$$), we need to follow a step-by-step approach. This involves balancing the atoms and charges through oxidation and reduction half-reactions.</p>\n\n<p>First, we separate the reaction into half-reactions:</p>\n\n<p>Oxidation half-reaction (cerium is oxidized):</p>\n\n<p>$$Ce^{3+} \\to Ce^{4+} + e^-$$</p>\n\n<p>Reduction half-reaction (peroxodisulfate is reduced):</p>\n\n<p>$$S_2O_8^{2-} + 2e^- \\to 2SO_4^{2-}$$</p>\n\n<p>Next, we balance the electrons between the two half-reactions. The oxidation half-reaction releases 1 electron, while the reduction half-reaction consumes 2 electrons. To balance the electrons, we multiply the oxidation half-reaction by 2:</p>\n\n<p>Oxidation half-reaction balanced with electrons:</p>\n\n<p>$$2Ce^{3+} \\to 2Ce^{4+} + 2e^-$$</p>\n\n<p>Now, the electrons in both half-reactions are balanced, and we can combine them:</p>\n\n<p>$$2Ce^{3+} + S_2O_8^{2-} \\to 2Ce^{4+} + 2SO_4^{2-}$$</p>\n\n<p>Finally, we have a balanced redox reaction. Both the number of atoms and the charges are balanced:</p>\n\n<p>$$2Ce^{3+} + S_2O_8^{2-} \\to 2Ce^{4+} + 2SO_4^{2-}$$</p>\n\n<p>This reaction shows that two cerium(III) ions are oxidized to cerium(IV) ions, while a peroxodisulfate ion is reduced to two sulfate ions, with the transfer of two electrons to maintain charge balance.</p>"
+        }
+      },
+      "permalink": "complete-and-balance-the-following-equationce3-s2o8-2-to-so4-jee-advanced-1983-marks-1-odqands6fjtupspt.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Complete and balance the following equation:\nCe3+ + $$S_2O_8^{-2} \\to $$ $$SO_4^{-2}$$ + Ce4+"
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "arswaz6t0zutrvjaku5u",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following equations:<br><br>\nCl<sub>2</sub> + OH<sup>-</sup> $$\\to$$ Cl<sup>-</sup> + ClO<sup>-</sup> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "Cl<sub>2</sub> + 2OH<sup>-</sup> $$\\to$$ Cl<sup>-</sup> + ClO<sup>-</sup> + H<sub>2</sub>O",
+          "explanation": "<p>To complete and balance the reaction between chlorine gas (Cl<sub>2</sub>) and hydroxide ions (OH<sup>-</sup>) to produce chloride ions (Cl<sup>-</sup>) and hypochlorite ions (ClO<sup>-</sup>), we need to take into account both the conservation of mass and the conservation of charge. This reaction occurs in aqueous solution, and it depends on the conditions such as temperature and the concentration of the hydroxide ions. There are actually two possible reactions. In a basic solution, we can have a balanced equation that reflects the production of both chloride and hypochlorite ions:</p>\n\n<p>$$\\text{Cl}_2 + 2\\text{OH}^- \\to \\text{Cl}^- + \\text{ClO}^- + \\text{H}_2\\text{O}$$</p>\n\n<p>Explanation:</p>\n\n<p>- The chlorine gas (Cl<sub>2</sub>) reacts with hydroxide ions (OH<sup>-</sup>) present in the aqueous solution.</p>\n\n<p>- Two hydroxide ions are required to balance the equation, ensuring that the chlorine from Cl<sub>2</sub> is distributed between the produced chloride ions (Cl<sup>-</sup>) and hypochlorite ions (ClO<sup>-</sup>).</p>\n\n<p>- The equation is balanced as written because there are two chlorine atoms on each side, the charges are balanced (2 negative charges on the reactant side from the hydroxide ions and 2 negative charges on the product side from Cl<sup>-</sup> and ClO<sup>-</sup> ions), and the additional product is water (H<sub>2</sub>O), formed by the combination of the hydrogen from the hydroxide ions and an oxygen atom from one of the hydroxide ions.</p>\n\n<p>This equation highlights how the presence of OH<sup>-</sup> drives the disproportionation of Cl<sub>2</sub>, splitting it into two different oxidation states in the products (Cl<sup>-</sup> at -1 and ClO<sup>-</sup> at +1). This is a common type of reaction for halogens in the presence of base.</p>"
+        }
+      },
+      "permalink": "complete-and-balance-the-following-equationscl2-oh-to-cl-clo-jee-advanced-1983-marks-1-pcmatrcxm0sgja5q.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Complete and balance the following equations:\nCl2 + OH- $$\\to$$ Cl- + ClO- "
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v794tppnzv3g9j0r4h3p",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following equation:<br><br>\nZn + $$NO_3^- \\to$$ Zn<sup>2+</sup> + $$NH_4^+$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "4Zn + $$NO_3^- + 10H^+ \\to$$ 4Zn<sup>2+</sup> + $$NH_4^+$$ + 3H<sub>2</sub>O",
+          "explanation": "<p>To complete and balance the given chemical equation:</p>\n<p>$$Zn + NO_3^- \\to Zn^{2+} + NH_4^+$$</p>\n<p>We start by looking at the oxidation and reduction processes separately. In this reaction:</p>\n<ul>\n<li>Zinc (Zn) is oxidized to zinc ions ($$Zn^{2+}$$).</li>\n<li>The nitrate ion ($$NO_3^-$$) is reduced to ammonium ions ($$NH_4^+$$).</li>\n</ul>\n<p>To balance this equation, we should keep in mind that both mass and charge must be conserved. Therefore, we have to balance not only the atoms but also the charges throughout the equation.</p>\n<p>First, let's write the half-reactions:</p>\n<ul>\n<li>Oxidation (loss of electrons): $$Zn \\to Zn^{2+} + 2e^-$$</li>\n<li>Reduction (gain of electrons): Since nitrate ($$NO_3^-$$) is reducing to ammonia ($$NH_4^+$$), let's assume a general reduction half-reaction that will be balanced later: $$NO_3^- + xH^+ + ye^- \\to NH_4^+ + zH_2O$$</li>\n</ul>\n<p>Now, balancing the reduction half-reaction involves getting the nitrogen from a +5 oxidation state in $$NO_3^-$$ to a -3 state in $$NH_4^+$$. This process consumes 8 electrons (e-) to reduce each nitrogen atom, also hydrogen ions ($$H^+$$) are required to form $$NH_4^+$$, and water ($$H_2O$$) is a product due to the oxygen from the nitrate.</p>\n<p>The correct balanced reduction half-reaction, considering water as the source of $$H^+$$ and the formation of $$H_2O$$, is:</p>\n<p>$$NO_3^- + 10H^+ + 8e^- \\to NH_4^+ + 3H_2O$$</p>\n<p>Thus, combining our half-reactions and ensuring the electrons are balanced:</p>\n<ul>\n<li>For the zinc oxidation: $$Zn \\to Zn^{2+} + 2e^-$$</li>\n<li>For the reduction of nitrate: $$NO_3^- + 10H^+ + 8e^- \\to NH_4^+ + 3H_2O$$</li>\n</ul>\n<p>Since the reduction half-reaction consumes 8 electrons and the oxidation produces only 2, we need to multiply the oxidation half-reaction by 4 to balance the electrons:</p>\n<p>$$4Zn \\to 4Zn^{2+} + 8e^-$$</p>\n<p>The full reaction, adding the two half-reactions together and balancing mass and charge, now looks like this:</p>\n<p>$$4Zn + 10H^+ + NO_3^- \\to 4Zn^{2+} + NH_4^+ + 3H_2O$$</p>\n<p>It is important to note that this equation assumes acidic conditions due to the presence of $$H^+$$ ions. However, the original equation did not specify the reaction environment, so this balanced equation is based on typical conditions that allow for $$NO_3^-$$ reduction to $$NH_4^+$$.</p>"
+        }
+      },
+      "permalink": "complete-and-balance-the-following-equationzn-no3-to-zn2-nh4-jee-advanced-1983-marks-1-z4w4nhf3muut21cq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Complete and balance the following equation:\nZn + $$NO_3^- \\to$$ Zn2+ + $$NH_4^+$$"
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "c91kl6xujnjhg7wt7rbl",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following equation:<br><br>\n$$Cr_2O_7^{2-}$$ + C<sub>2</sub>H<sub>4</sub>O $$\\to$$ C<sub>2</sub>H<sub>4</sub>O<sub>2</sub> + Cr<sup>3+</sup>",
+          "options": [],
+          "correct_options": [],
+          "answer": "<p>$Cr_2O_7^{2-} + 14H^+ + 3C_2H_4O \\to 3C_2H_4O_2 + 2Cr^{3+} + 7H_2O$</p>",
+          "explanation": "<p>To complete and balance the given equation, which involves the dichromate ion ($$Cr_2O_7^{2-}$$) reacting with ethylene glycol (C<sub>2</sub>H<sub>4</sub>O) to form acetic acid (C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>) and chromium (III) ion (Cr<sup>3+</sup>), we need to follow a systematic approach. First, let's write down the unbalanced equation:</p>\n\n<p>$Cr_2O_7^{2-} + C_2H_4O \\to C_2H_4O_2 + Cr^{3+}$</p>\n\n<p>Next, we balance the equation in acidic solution using the half-reaction method, which involves balancing the reduction and oxidation half-reactions separately and then combining them.</p>\n\n<strong>Step 1: Split into half-reactions.</strong>\n\n<p>Oxidation (Ethylene glycol to acetic acid):</p>\n\n<p>$C_2H_4O \\to C_2H_4O_2$</p>\n\n<p>Reduction (Dichromate to Chromium (III)):</p>\n\n<p>$Cr_2O_7^{2-} \\to Cr^{3+}$</p>\n\n<strong>Step 2: Balance the atoms other than O and H.</strong>\n\n<p>Oxidation doesn’t need balancing in this respect. For the reduction:</p>\n\n<p>$Cr_2O_7^{2-} \\to 2Cr^{3+}$</p>\n\n<strong>Step 3: Balance oxygen by adding water molecules.</strong>\n\n<p>For the reduction half:</p>\n\n<p>$Cr_2O_7^{2-} \\to 2Cr^{3+} + 7H_2O$</p>\n\n<strong>Step 4: Balance hydrogen by adding H^+ ions.</strong>\n\n<p>For the reduction half:</p>\n\n<p>$Cr_2O_7^{2-} + 14H^+ \\to 2Cr^{3+} + 7H_2O$</p>\n\n<p>The oxidation half does not involve oxygen or hydrogen atoms changing, so we skip balancing them directly here.</p>\n\n<strong>Step 5: Balance the charges by adding electrons.</strong>\n\n<p>Oxidation half (2 electrons are needed to balance the change from +2 to +3 oxidation state for 2 Carbon atoms):</p>\n\n<p>$C_2H_4O \\to C_2H_4O_2 + 2e^-$</p>\n\n<p>Reduction half (to balance it, we need to add 6 electrons):</p>\n\n<p>$Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+} + 7H_2O$</p>\n\n<strong>Step 6: Make the number of electrons equal in both half-reactions and combine.</strong>\n\n<p>To balance electrons, multiply the oxidation half-reaction by 3 and the reduction half-reaction by 1 (since 6 electrons are transferred in the reduction and 2 in the oxidation; the least common multiple is 6).</p>\n\n<p>$3(C_2H_4O \\to C_2H_4O_2 + 2e^-)$</p>\n\n<p>$Cr_2O_7^{2-} + 14H^+ + 6e^- \\to 2Cr^{3+} + 7H_2O$</p>\n\n<p>Combine and simplify:</p>\n\n<p>$Cr_2O_7^{2-} + 14H^+ + 3C_2H_4O \\to 3C_2H_4O_2 + 2Cr^{3+} + 7H_2O$</p>\n\n<strong>Balanced equation:</strong>\n\n<p>$Cr_2O_7^{2-} + 14H^+ + 3C_2H_4O \\to 3C_2H_4O_2 + 2Cr^{3+} + 7H_2O$</p>\n\n<p>This represents the balanced chemical equation for the reaction between $$Cr_2O_7^{2-}$$ and ethylene glycol in an acidic medium, producing acetic acid and chromium (III) ions alongside water.</p>"
+        }
+      },
+      "permalink": "complete-and-balance-the-following-equationcr2o72-c2h4o-to-c-jee-advanced-1983-marks-1-muzgm0u95l6l12mq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Complete and balance the following equation:\n$$Cr_2O_7^{2-}$$ + C2H4O $$\\to$$ C2H4O2 + Cr3+"
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "warivmsm1xq8an7gc15i",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following equation:<br><br>\nHNO<sub>3</sub> + HCl $$\\to$$ NO + Cl<sub>2</sub> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "3HNO<sub>3</sub> + 6HCl $$\\to$$ 2NO + 3Cl<sub>2</sub>  + 4H<sub>2</sub>O",
+          "explanation": "<p>To complete and balance the given chemical equation, we must ensure that the number of atoms for each element on the reactant side is the same as on the product side. The given chemical reaction involves nitric acid (HNO<sub>3</sub>) reacting with hydrochloric acid (HCl) to produce nitric oxide (NO) and chlorine gas (Cl<sub>2</sub>). This reaction is part of the aqua regia process, which is used to dissolve noble metals, and involves redox reactions where the nitrate ion acts as an oxidizing agent.</p>\n\n<p>The initial unbalanced equation is:</p>\n\n<p>$ \\text{HNO}_3 + \\text{HCl} \\rightarrow \\text{NO} + \\text{Cl}_2 $</p>\n\n<p>To balance the equation, follow these steps:</p>\n\n<ol>\n\n<li>Balance the atoms of elements that appear in only one reactant and one product first. In this reaction, balancing chlorine (Cl) is a good starting point. Notice that there are 2 chlorine atoms on the product side because of Cl<sub>2</sub>, so we need 2 HCl molecules on the reactant side to balance the chlorine atoms.</li>\n\n<li>Balance the number of nitrogen atoms next. There is 1 nitrogen atom on each side of the equation, so the nitric acid and nitric oxide are already balanced for nitrogen.</li>\n\n<li>Balance the oxygen atoms. There is 1 oxygen atom in HNO<sub>3</sub> and none in the products. We must account for this discrepancy. Here, realizing that water (H<sub>2</sub>O) is often a product in reactions involving acids can help. Adding water to the products will allow us to balance oxygen.</li>\n\n<li>Adjust hydrogen atoms last. After adding water to the products for oxygen balance, we will add hydrogen atoms accordingly to both sides to maintain balance.</li>\n\n</ol>\n\n<p>Considering the points above, let's add water to the products and then balance the hydrogen atoms:</p>\n\n<p>$ 3\\text{HNO}_3 + 6\\text{HCl} \\rightarrow \\text{NO} + 3\\text{Cl}_2 + 2\\text{H}_2\\text{O} $</p>\n\n<p>This equation is now balanced with respect to all atoms:</p>\n\n<ul>\n\n<li>Nitrogen: There are 3 nitrogen atoms on the reactant side and 1 nitrogen atom on the product side.</li>\n\n<li>Oxygen: There are 3 oxygen atoms from HNO<sub>3</sub> on the reactant side and 2 from water (H<sub>2</sub>O) on the product side.</li>\n\n<li>Chlorine: There are 6 chlorine atoms from HCl on the reactant side and 3$\\times$2=6 chlorine atoms in Cl<sub>2</sub> on the product side.</li>\n\n<li>Hydrogen: There are 6 hydrogen atoms from HCl on the reactant side and 2$\\times$2=4 hydrogen atoms in 2 molecules of water (H<sub>2</sub>O).</li>\n\n</ul>\n\n<p>This reflects the complete balanced chemical equation for the reaction involving nitric acid and hydrochloric acid to produce nitric oxide, chlorine gas, and water:</p>\n\n<p>$ 3\\text{HNO}_3 + 6\\text{HCl} \\rightarrow \\text{NO} + 3\\text{Cl}_2 + 2\\text{H}_2\\text{O} $</p>"
+        }
+      },
+      "permalink": "complete-and-balance-the-following-equationhno3-hcl-to-no-cl-jee-advanced-1983-marks-1-xr3km5rdzadweqpy.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Complete and balance the following equation:\nHNO3 + HCl $$\\to$$ NO + Cl2 "
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "48djcurpi97f0i2dgsuw",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The oxidation number of carbon in CH<sub>2</sub>O is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "-2"
+            },
+            {
+              "identifier": "B",
+              "content": "+2"
+            },
+            {
+              "identifier": "C",
+              "content": "0"
+            },
+            {
+              "identifier": "D",
+              "content": "+4"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-oxidation-number-of-carbon-in-ch2o-is-jee-advanced-1982-marks-1-denths4paodxeq5p.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "oxidation-number",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "The oxidation number of carbon in CH2O is"
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kh44hves2ym0mfjsx801",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "1 mole of N<sub>2</sub>H<sub>4</sub> loses 10 moles of electrons to form a new compound Y. assuming that all nitrogen appears in the new compound , what is the oxidation state of nitrogen in Y  ? (there is no change in the oxidation state of hydrogen)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "-1"
+            },
+            {
+              "identifier": "B",
+              "content": "-3"
+            },
+            {
+              "identifier": "C",
+              "content": "+3"
+            },
+            {
+              "identifier": "D",
+              "content": "+5"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>First, let's understand the given information. We have hydrazine (N<sub>2</sub>H<sub>4</sub>) losing 10 moles of electrons to form a new compound (Y). In this context, the oxidation state of hydrogen remains unchanged, which is +1.</p>\n\n<p>To solve this problem, we should follow these steps:</p>\n\n<p>1. Determine the initial oxidation state of nitrogen in N<sub>2</sub>H<sub>4</sub>.<br>\n\n<p>In N<sub>2</sub>H<sub>4</sub>, hydrogen is in the +1 oxidation state. Since the molecule is neutral, the sum of oxidation states must equal 0. We can express this relationship as:<br></p>\n\n<p>2x + 4(+1) = 0<br></p>\n\n<p>Where x is the oxidation state of one nitrogen atom. This can be rearranged to find x:<br></p>\n\n<p>2x = -4<br></p>\n\n<p>x = -2<br></p>\n\n<p>So, the initial oxidation state of nitrogen in N<sub>2</sub>H<sub>4</sub> is -2.</p></p>\n\n<p>2. Determine the change in oxidation state of nitrogen.<br>\n\n<p>When 1 mole of N<sub>2</sub>H<sub>4</sub> loses 10 moles of electrons, the nitrogen atoms undergo oxidation, meaning their oxidation state increases. The loss of 10 electrons per mole of N<sub>2</sub>H<sub>4</sub> means that there's an increase of 5 oxidation states per nitrogen atom, because there are 2 nitrogen atoms in each molecule of N<sub>2</sub>H<sub>4</sub>.</p></p>\n\n<p>3. Calculate the final oxidation state of nitrogen.<br>\n\n<p>The initial oxidation state of nitrogen is -2. With the loss of electrons, the oxidation state increases by 5 for each nitrogen atom:<br></p>\n\n<p>Final oxidation state = Initial oxidation state + Increase in oxidation state<br></p>\n\n<p>Final oxidation state of nitrogen = -2 + 5 = +3</p></p>\n\n<p>Therefore, the oxidation state of nitrogen in the new compound Y is +3.</p>\n\n<p>The correct answer is Option C: +3.</p>"
+        }
+      },
+      "permalink": "1-mole-of-n2h4-loses-10-moles-of-electrons-to-form-a-new-com-jee-advanced-1981-marks-1-kfqhencj7bklsheh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "oxidation-number",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "1 mole of N2H4 loses 10 moles of electrons to form a new compound Y. assuming that all nitrogen appears in the new compound , what is the oxidation state of nitrogen in Y  ? (there is no change in the oxidation state of hydrogen)"
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6rrtxawllxz7phxsrtoo",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Balance the following Equations:<br><br>\n<b>(i)</b> Cu<sub>2</sub>O + H<sup>+</sup> + $$NO_3^ -  \\to $$ Cu<sup>2+</sup> + NO + H<sub>2</sub>O<br><br>\n<b>(ii)</b> K<sub>4</sub>[Fe(CN)<sub>6</sub>] + H<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O $$\\to$$ K<sub>2</sub>SO<sub>4</sub> + FeSO<sub>4</sub> + (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> + CO<br><br> \n<b>(iii)</b> C2H5OH + I<sub>2</sub> + OH<sup>-</sup> $$\\to$$ CHI<sub>3</sub> + $$HCO_3^-$$ + I<sup>-</sup> + 4H<sub>2</sub>O",
+          "options": [],
+          "correct_options": [],
+          "answer": "<b>(i)</b> 3Cu<sub>2</sub>O + 14H<sup>+</sup> + $$2NO_3^- \\to$$ 6Cu<sup>2+</sup> + 2NO + 7H<sub>2</sub>O<br><br>\n<b>(ii)</b> K<sub>4</sub>[Fe(CN)<sub>6</sub>] + 6H<sub>2</sub>SO<sub>4</sub> + 6H<sub>2</sub>O $$\\to$$ 2K<sub>2</sub>SO<sub>4</sub> + FeSO<sub>4</sub> + 3(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> + 6CO <br><br>\n<b>(iii)</b> C<sub>2</sub>H<sub>5</sub>OH + 4I<sub>2</sub> + 8OH<sup>-</sup> $$\\to$$ CHI<sub>3</sub> + $$HCO_3^-$$ + 5I<sup>-</sup> + 6H<sub>2</sub>O",
+          "explanation": null
+        }
+      },
+      "permalink": "balance-the-following-equationsi-cu2o-h-no3-to-cu2-no-h2oii-jee-advanced-1981-marks-3-hjxlerisnt1tart6.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "balancing-of-redox-reactions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "Balance the following Equations:\n(i) Cu2O + H+ + $$NO_3^ -  \\to $$ Cu2+ + NO + H2O\n(ii) K4[Fe(CN)6] + H2SO4 + H2O $$\\to$$ K2SO4 + FeSO4 + (NH4)2SO4 + CO \n(iii) C2H5OH + I2 + OH- $$\\to$$ CHI3 + $$HCO_3^-$$ + I- + 4H2O"
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1pmfihix3fumdyre58sc",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "redox-reactions",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "M is molecular weight of KMnO<sub>4</sub>. The equivalent wight of KMnO<sub>4</sub> when it is converted into K<sub>2</sub>MnO<sub>4</sub> is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "M"
+            },
+            {
+              "identifier": "B",
+              "content": "M/3"
+            },
+            {
+              "identifier": "C",
+              "content": "M/5"
+            },
+            {
+              "identifier": "D",
+              "content": "M/7"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The equivalent weight of a substance is given by the formula:</p>\n\n<p>$$\\text{Equivalent weight} = \\frac{\\text{Molecular weight}}{\\text{n}}$$</p>\n\n<p>where <b>n</b> is the change in oxidation number per molecule of the reactant (the valence change).</p>\n\n<p>To find the equivalent weight of $ KMnO_4 $ when it is converted to $ K_2MnO_4 $, we first need to establish the oxidation states of manganese (Mn) in both compounds.</p>\n\n<ul>\n<li>In $ KMnO_4 $, Mn has an oxidation state of +7.</li><br>\n<li>In $ K_2MnO_4 $, Mn has an oxidation state of +6.</li>\n</ul>\n<p>The change in oxidation state per $ KMnO_4 $ molecule is from +7 to +6, which is a decrease of 1. Therefore, $ n = 1 $ in this case.</p>\n\n<p>Substituting this value into the formula gives us:</p>\n\n<p>$$\\text{Equivalent weight} = \\frac{\\text{Molecular weight (M)}}{1} = M$$</p>\n\n<p>Thus, the correct option is <b>Option A: M</b>.</p>"
+        }
+      },
+      "permalink": "m-is-molecular-weight-of-kmno4-the-equivalent-wight-of-kmno4-jee-advanced-1980-marks-2-xi2ddellok10l2ik.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "isOutOfSyllabus": false,
+      "topic": "quantitative-measures-in-chemical-equations",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "Redox Reactions • Chemistry",
+          "excerpt": "M is molecular weight of KMnO4. The equivalent wight of KMnO4 when it is converted into K2MnO4 is"
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    }
+  ]
+}

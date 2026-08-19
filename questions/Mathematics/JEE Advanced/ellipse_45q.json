@@ -1,0 +1,3107 @@
+{
+  "questions": [
+    {
+      "question_id": "vq7z9nfwdhahfagi98f4",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pconsider-the-ellipses-given-byp-p-x24-y21-qua-jee-advanced-mathematics-ng3cavxr6npyzhb9",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider the ellipses given by</p>\n<p>$$ x^2+4 y^2=1 \\quad \\text { and } \\quad 4 x^2+y^2=1 $$</p>\n<p>Let $P$ be the point in the first quadrant where the given ellipses intersect. If $\\theta$ is the acute angle between the tangents to the given ellipses at the point $P$, then the value of $4 \\tan \\theta$ is $\\_\\_\\_\\_$ .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "7.4TO7.6",
+          "explanation": "<p><img alt=\"JEE Advanced 2026 Paper 2 Online Mathematics - Ellipse Question 1 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpcknbao/25e89416-c4f0-4383-a786-3ea23b9597f1/f6c89f00-5378-11f1-aed4-773fcb3828ea/file-6y3zli1mpcknbap.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpcknbao/25e89416-c4f0-4383-a786-3ea23b9597f1/f6c89f00-5378-11f1-aed4-773fcb3828ea/file-6y3zli1mpcknbap.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>$E_1: x^2+4 y^2=1, E_2: 4 x^2+y^2=1$</p>\n<p>Intersection point in $1^{\\text {st }}$ quadrant is $P\\left(\\frac{1}{\\sqrt{5}}, \\frac{1}{\\sqrt{5}}\\right)$ tangent to $E_1$ at point $P$ is $x \\cdot \\frac{1}{\\sqrt{5}}+4 y \\cdot \\frac{1}{\\sqrt{5}}=1$</p>\n<p>$$ \\Rightarrow \\quad x+4 y=\\sqrt{5}, m_1=-\\frac{1}{4} $$</p>\n<p>Tangent to $E_2$ at point $P$ is $4 x \\cdot \\frac{1}{\\sqrt{5}}+y \\cdot \\frac{1}{\\sqrt{5}}=1$</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow \\quad 4 x+y=\\sqrt{5}, m_2=-4 \\\\ &amp; \\Rightarrow \\quad \\tan \\theta=\\left|\\frac{m_1-m_2}{1+m_1 m_2}\\right|=\\left|\\frac{-\\frac{1}{4}+4}{1+\\frac{1}{4} \\times 4}\\right|=\\frac{15}{8} \\\\ &amp; \\Rightarrow \\quad 4 \\tan \\theta=\\frac{15}{2}=07.50 \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 120000,
+      "topic": "tangent-to-ellipse",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Consider the ellipses given by\n$$ x^2+4 y^2=1 \\quad \\text { and } \\quad 4 x^2+y^2=1 $$\nLet $P$ be the point in the first quadrant where the given ellipses intersect. If $\\theta$ is the acute angle between the tangents to the given ellipses ..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "fb447q8rbiwl45m04498",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "plet-pleftx1-y1right-and-qleftx2-y2right-jee-advanced-mathematics-zqmbz6hzdze5nxos",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $P\\left(x_1, y_1\\right)$ and $Q\\left(x_2, y_2\\right)$ be two distinct points on the ellipse</p>\n<p>$$ \\frac{x^2}{9}+\\frac{y^2}{4}=1 $$</p>\n<p>such that $y_1>0$, and $y_2>0$. Let $C$ denote the circle $x^2+y^2=9$, and $M$ be the point $(3,0)$.</p>\n<p>Suppose the line $x=x_1$ intersects $C$ at $R$, and the line $x=x_2$ intersects C at $S$, such that the $y$-coordinates of $R$ and $S$ are positive. Let $\\angle R O M=\\frac{\\pi}{6}$ and $\\angle S O M=\\frac{\\pi}{3}$, where $O$ denotes the origin $(0,0)$. Let $|X Y|$ denote the length of the line segment $X Y$.</p>\n<p>Then which of the following statements is (are) TRUE?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>The equation of the line joining <b>P</b> and <b>Q</b> is $2x + 3y = 3(1 + \\sqrt{3})$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>The equation of the line joining <b>P</b> and <b>Q</b> is $2x + y = 3(1 + \\sqrt{3})$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>If $N_2 = (x_2, 0)$, then $3|N_2Q| = 2|N_2S|$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>If $N_1 = (x_1, 0)$, then $9|N_1P| = 4|N_1R|$</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maz2ejxa/5a6068dc-d21a-48df-a7fb-924ecad7aae8/671810d0-36e0-11f0-9569-8b6215a44c65/file-jaoe38c1maz2ejxb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maz2ejxa/5a6068dc-d21a-48df-a7fb-924ecad7aae8/671810d0-36e0-11f0-9569-8b6215a44c65/file-jaoe38c1maz2ejxb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Mathematics - Ellipse Question 2 English Explanation\"></p>\n<p>$\\begin{aligned} &amp; \\mathrm{P} \\equiv\\left(3 \\cos 30^{\\circ}, 2 \\sin 30^{\\circ}\\right) \\equiv\\left(\\frac{3 \\sqrt{3}}{2}, 1\\right) \\\\ &amp; \\mathrm{Q} \\equiv\\left(3 \\cos 60^{\\circ}, 2 \\sin 60^{\\circ}\\right) \\equiv\\left(\\frac{3}{2}, \\sqrt{3}\\right) \\\\ &amp; \\mathrm{R}\\left(\\frac{3 \\sqrt{3}}{2}, \\frac{3}{2}\\right), \\mathrm{S}\\left(\\frac{3}{2}, \\frac{3 \\sqrt{3}}{2}\\right)\\end{aligned}$</p>\n<p>Slope of $\\mathrm{PQ}=\\mathrm{m}_{\\mathrm{PQ}}=\\frac{\\sqrt{3}-1}{\\frac{3}{2}-\\frac{3 \\sqrt{3}}{2}}=-\\frac{2}{3}$</p>\n<p>Equation of line PQ</p>\n<p>$$ y-\\sqrt{3}=-\\frac{2}{3}\\left(x-\\frac{3}{2}\\right) $$</p>\n<p>$\\Rightarrow 2 x+3 y=3(\\sqrt{3}+1) \\quad$ option (A) is correct</p>\n<p>Now</p>\n<p>if $\\mathrm{N}_2=\\left(\\mathrm{x}_2, 0\\right)=\\left(\\frac{3}{2}, 0\\right)$</p>\n<p>$\\left|\\mathrm{N}_2 \\mathrm{Q}\\right|=\\sqrt{3}$ and $\\left|\\mathrm{N}_2 \\mathrm{~S}\\right|=\\frac{3 \\sqrt{3}}{2}$</p>\n<p>$\\Rightarrow 3\\left|\\mathrm{~N}_2 \\mathrm{Q}\\right|=2\\left|\\mathrm{~N}_2 \\mathrm{~S}\\right| \\quad$ option (C) is correct</p>\n<p>Now, if $\\mathrm{N}_1=\\left(\\mathrm{x}_1, 0\\right) \\Rightarrow \\mathrm{N}_1=\\left(\\frac{3 \\sqrt{3}}{2}, 0\\right)$</p>\n<p>$\\Rightarrow\\left|\\mathrm{N}_1 \\mathrm{P}\\right|=1,\\left|\\mathrm{~N}_1 \\mathrm{R}\\right|=\\frac{3}{2} \\quad$ option (D) is incorrect</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>मान लीजिए कि $P\\left(x_1, y_1\\right)$ और $Q\\left(x_2, y_2\\right)$, दीर्घवृत्त (ellipse)</p>\n<p>$$ \\frac{x^2}{9}+\\frac{y^2}{4}=1 $$</p>\n<p>पर दो ऐसे भिन्न बिंदु हैं, कि $y_1>0$ और $y_2>0$ हैं। मान लीजिए कि $C$, वृत्त (circle) $x^2+y^2=9$ को दर्शाता है, और $M$, बिंदु $(3,0)$ है। मान लीजिए कि रेखा (line) $x=x_1$, वृत्त $C$ को $R$ पर प्रतिच्छेदित (intersect) करती है, और रेखा $x=x_2$, वृत्त $C$ को $S$ पर प्रतिच्छेदित करती है, जहाँ $R$ तथा $S$ के $y$-निर्देशांक ( $y$-coordinates) धनात्मक (positive) हैं।</p>\n<p>मान लीजिए कि $\\angle R O M=\\frac{\\pi}{6}$ और $\\angle S O M=\\frac{\\pi}{3}$ हैं, जहाँ $O$ मूलबिंदु (origin) $(0,0)$ को दर्शाता है। मान लीजिए कि $|X Y|$, रेखाखंड (line segment) $X Y$ की लंबाई को दर्शाता है।</p>\n<p>तब निम्नलिखित कथनों में से कौन सा (से) सत्य है (हैं) ?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$P$ और $Q$ को जोड़ने वाली रेखा का समीकरण (equation) $2 x+3 y=3(1+\\sqrt{3})$ है"
+            },
+            {
+              "identifier": "B",
+              "content": "$P$ और $Q$ को जोड़ने वाली रेखा का समीकरण (equation) $2 x+y=3(1+\\sqrt{3})$ है"
+            },
+            {
+              "identifier": "C",
+              "content": "यदि $N_2=\\left(x_2, 0\\right)$ है, तब $3\\left|N_2 Q\\right|=2\\left|N_2 S\\right|$ है"
+            },
+            {
+              "identifier": "D",
+              "content": "यदि $N_1=\\left(x_1, 0\\right)$ है, तब $9\\left|N_1 P\\right|=4\\left|N_1 R\\right|$ है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maz2ejxa/5a6068dc-d21a-48df-a7fb-924ecad7aae8/671810d0-36e0-11f0-9569-8b6215a44c65/file-jaoe38c1maz2ejxb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maz2ejxa/5a6068dc-d21a-48df-a7fb-924ecad7aae8/671810d0-36e0-11f0-9569-8b6215a44c65/file-jaoe38c1maz2ejxb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Mathematics - Ellipse Question 2 Hindi Explanation\"></p>\n<p>$\\begin{aligned} &amp; \\mathrm{P} \\equiv\\left(3 \\cos 30^{\\circ}, 2 \\sin 30^{\\circ}\\right) \\equiv\\left(\\frac{3 \\sqrt{3}}{2}, 1\\right) \\\\ &amp; \\mathrm{Q} \\equiv\\left(3 \\cos 60^{\\circ}, 2 \\sin 60^{\\circ}\\right) \\equiv\\left(\\frac{3}{2}, \\sqrt{3}\\right) \\\\ &amp; \\mathrm{R}\\left(\\frac{3 \\sqrt{3}}{2}, \\frac{3}{2}\\right), \\mathrm{S}\\left(\\frac{3}{2}, \\frac{3 \\sqrt{3}}{2}\\right)\\end{aligned}$</p>\n<p>PQ की प्रवणता $=\\mathrm{m}_{\\mathrm{PQ}}=\\frac{\\sqrt{3}-1}{\\frac{3}{2}-\\frac{3 \\sqrt{3}}{2}}=-\\frac{2}{3}$</p>\n<p>रेखा PQ का समीकरण</p>\n<p>$$ y-\\sqrt{3}=-\\frac{2}{3}\\left(x-\\frac{3}{2}\\right) $$</p>\n<p>$\\Rightarrow 2 x+3 y=3(\\sqrt{3}+1) \\quad$ विकल्प (A) सही है</p>\n<p>अब</p>\n<p>यदि $\\mathrm{N}_2=\\left(\\mathrm{x}_2, 0\\right)=\\left(\\frac{3}{2}, 0\\right)$</p>\n<p>$\\left|\\mathrm{N}_2 \\mathrm{Q}\\right|=\\sqrt{3}$ और $\\left|\\mathrm{N}_2 \\mathrm{~S}\\right|=\\frac{3 \\sqrt{3}}{2}$</p>\n<p>$\\Rightarrow 3\\left|\\mathrm{~N}_2 \\mathrm{Q}\\right|=2\\left|\\mathrm{~N}_2 \\mathrm{~S}\\right| \\quad$ विकल्प (C) सही है</p>\n<p>अब, यदि $\\mathrm{N}_1=\\left(\\mathrm{x}_1, 0\\right) \\Rightarrow \\mathrm{N}_1=\\left(\\frac{3 \\sqrt{3}}{2}, 0\\right)$</p>\n<p>$\\Rightarrow\\left|\\mathrm{N}_1 \\mathrm{P}\\right|=1,\\left|\\mathrm{~N}_1 \\mathrm{R}\\right|=\\frac{3}{2} \\quad$ विकल्प (D) गलत है</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "chord-of-ellipse",
+      "type": "mcqm",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let $P\\left(x_1, y_1\\right)$ and $Q\\left(x_2, y_2\\right)$ be two distinct points on the ellipse\n$$ \\frac{x^2}{9}+\\frac{y^2}{4}=1 $$\nsuch that $y_1>0$, and $y_2>0$. Let $C$ denote the circle $x^2+y^2=9$, and $M$ be the point $(3,0)$.\nSuppose..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "मान लीजिए कि $P\\left(x_1, y_1\\right)$ और $Q\\left(x_2, y_2\\right)$, दीर्घवृत्त (ellipse)\n$$ \\frac{x^2}{9}+\\frac{y^2}{4}=1 $$\nपर दो ऐसे भिन्न बिंदु हैं, कि $y_1>0$ और $y_2>0$ हैं। मान लीजिए कि $C$, वृत्त (circle) $x^2+y^2=9$ को दर्शाता है, और..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "2djsejsdn41ubg975i2z",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-1-online",
+      "paperTitle": "JEE Advanced 2024 Paper 1 Online",
+      "permalink": "pconsider-the-ellipse-fracx29fracy241-let-jee-advanced-mathematics-lqubngl2tpybie1o",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider the ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$. Let $S(p, q)$ be a point in the first quadrant such that $\\frac{p^2}{9}+\\frac{q^2}{4}>1$. Two tangents are drawn from $S$ to the ellipse, of which one meets the ellipse at one end point of the minor axis and the other meets the ellipse at a point $T$ in the fourth quadrant. Let $R$ be the vertex of the ellipse with positive $x$-coordinate and $O$ be the center of the ellipse. If the area of the triangle $\\triangle O R T$ is $\\frac{3}{2}$, then which of the following options is correct?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$q=2, p=3 \\sqrt{3}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$q=2, p=4 \\sqrt{3}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$q=1, p=5 \\sqrt{3}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$q=1, p=6 \\sqrt{3}$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwxhv0ts/83f47b16-fb99-470d-ac46-419840a7cb69/416e57f0-20d8-11ef-9cb8-55fd0c638932/file-6y3zli1lwxhv0tt.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwxhv0ts/83f47b16-fb99-470d-ac46-419840a7cb69/416e57f0-20d8-11ef-9cb8-55fd0c638932/file-6y3zli1lwxhv0tt.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Mathematics - Ellipse Question 3 English Explanation\">\n\n<p>$\\operatorname{Ar}(\\Delta \\mathrm{ORT})=\\frac{3}{2}$</p>\n\n<p>$\\begin{aligned} &amp; \\left|\\frac{1}{2} \\times 3 \\times 2 \\sin \\theta\\right|=\\frac{3}{2} \\\\\\\\ &amp; \\sin \\theta=\\frac{1}{2} \\Rightarrow \\theta=\\frac{11 \\pi}{6} \\\\\\\\ &amp; \\mathrm{~T}\\left(\\frac{3 \\sqrt{3}}{2},-1\\right)\\end{aligned}$</p>\n\n<p>Tanget at $(0,2) \n$,\n<br><br>$\\frac{x(0)}{9}+\\frac{y(2)}{4}=1 \\Rightarrow y=2$ .........(1)</p>\n\n<p>Tangent at $\\left(\\frac{3 \\sqrt{3}}{2},-1\\right) $,\n\n<br><br>$\\frac{x\\left(\\frac{3 \\sqrt{3}}{2}\\right)}{9}+\\frac{y(-1)}{4}=1$ ...........(2)</p>\n\n<p>$\\therefore$ By solving (1) &amp; (2) $\\Rightarrow \\mathrm{p}=3 \\sqrt{3}, \\mathrm{q}=2$</p>\n\n<p>$\\Rightarrow$ Option $(\\mathrm{A})$ is Correct.</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "दीर्घवृत (ellipse) $\\frac{x^2}{9}+\\frac{y^2}{4}=1$ पर विचार कीजिये। माना कि $S(p, q)$ प्रथम चतुर्थांश (first quadrant) में एक इस प्रकार का बिंदु है कि $\\frac{p^2}{9}+\\frac{q^2}{4}>1$ है। बिंदु $S$ से दीर्घवृत के लिए दो स्पर्श रेखाएं (tangents) खींची गयी हैं, जिनमें से एक रेखा, दीर्धवृत पर लघु अक्ष (minor axis) के एक अंत्य बिंदु (end point) पर मिलती है तथा दूसरी रेखा चौथे चतुर्थांश (fourth quadrant) में दीर्घवृत के एक बिंदु $T$ पर मिलती है। माना कि $R$ दीर्घवृत का वह शीर्ष (vertex) है जिसका $x$-निर्देशांक ( $x$-coordinate) धनात्मक (positive) है, और दीर्घवृत का केंद्र $O$ है। यदि त्रिभुज $\\triangle O R T$ का क्षेत्रफल $\\frac{3}{2}$ है, तब निम्नलिखित विकल्पों में से कौन सा सही है?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$q=2, p=3 \\sqrt{3}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$q=2, p=4 \\sqrt{3}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$q=1, p=5 \\sqrt{3}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$q=1, p=6 \\sqrt{3}$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwxhv0ts/83f47b16-fb99-470d-ac46-419840a7cb69/416e57f0-20d8-11ef-9cb8-55fd0c638932/file-6y3zli1lwxhv0tt.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwxhv0ts/83f47b16-fb99-470d-ac46-419840a7cb69/416e57f0-20d8-11ef-9cb8-55fd0c638932/file-6y3zli1lwxhv0tt.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Mathematics - Ellipse Question 3 Hindi Explanation\">\n\n<p>$\\operatorname{Ar}(\\Delta \\mathrm{ORT})=\\frac{3}{2}$</p>\n\n<p>$\\begin{aligned} &amp;\\left|\\frac{1}{2} \\times 3 \\times 2 \\sin \\theta\\right|=\\frac{3}{2} \\\\\\\\ &amp;\\sin \\theta=\\frac{1}{2} \\Rightarrow \\theta=\\frac{11 \\pi}{6} \\\\\\\\ &amp;\\mathrm{~T}\\left(\\frac{3 \\sqrt{3}}{2},-1\\right)\\end{aligned}$</p>\n\n<p>बिंदु $(0,2)$ पर स्पर्श रेखा,\n<br><br>$\\frac{x(0)}{9}+\\frac{y(2)}{4}=1 \\Rightarrow y=2$ .........(1)</p>\n\n<p>बिंदु $\\left(\\frac{3 \\sqrt{3}}{2},-1\\right)$ पर स्पर्श रेखा,\n\n<br><br>$\\frac{x\\left(\\frac{3 \\sqrt{3}}{2}\\right)}{9}+\\frac{y(-1)}{4}=1$ ...........(2)</p>\n\n<p>$\\therefore$ समीकरण (1) और (2) को हल करने पर $\\Rightarrow \\mathrm{p}=3 \\sqrt{3}, \\mathrm{q}=2$</p>\n\n<p>$\\Rightarrow$ विकल्प $(\\mathrm{A})$ सही है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 180000,
+      "topic": "tangent-to-ellipse",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Consider the ellipse $\\frac{x^2}{9}+\\frac{y^2}{4}=1$. Let $S(p, q)$ be a point in the first quadrant such that $\\frac{p^2}{9}+\\frac{q^2}{4}>1$. Two tangents are drawn from $S$ to the ellipse, of which one meets the ellipse at one end point ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "दीर्घवृत (ellipse) $\\frac{x^2}{9}+\\frac{y^2}{4}=1$ पर विचार कीजिये। माना कि $S(p, q)$ प्रथम चतुर्थांश (first quadrant) में एक इस प्रकार का बिंदु है कि $\\frac{p^2}{9}+\\frac{q^2}{4}>1$ है। बिंदु $S$ से दीर्घवृत के लिए दो स्पर्श रेखाएं (tangen..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-1-online"
+    },
+    {
+      "question_id": "d2zeh152mnw33mu10b27",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "let-t1-and-t2-be-two-distinct-common-tangents-to-the-e-jee-advanced-mathematics-umdu5j8a8vjtjo89",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Let $T_1$ and $T_2$ be two distinct common tangents to the ellipse $E: \\frac{x^2}{6}+\\frac{y^2}{3}=1$ and the parabola $P: y^2=12 x$. Suppose that the tangent $T_1$ touches $P$ and $E$ at the points $A_1$ and $A_2$, respectively and the tangent $T_2$ touches $P$ and $E$ at the points $A_4$ and $A_3$, respectively. Then which of the following statements is(are) true?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The area of the quadrilateral $A_1 A_2 A_3 A_4$ is 35 square units"
+            },
+            {
+              "identifier": "B",
+              "content": "The area of the quadrilateral $A_1 A_2 A_3 A_4$ is 36 square units"
+            },
+            {
+              "identifier": "C",
+              "content": "The tangents $T_1$ and $T_2$ meet the $x$-axis at the point $(-3,0)$"
+            },
+            {
+              "identifier": "D",
+              "content": "The tangents $T_1$ and $T_2$ meet the $x$-axis at the point $(-6,0)$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "$$\n\\begin{aligned}\n&amp; E: \\frac{x^2}{6}+\\frac{y^2}{3}=1 \\text {, Tangent : } y=m_1 x \\pm \\sqrt{6 m_1^2+3} \\\\\\\\\n&amp; P: y^2=12 x, \\text { Tangent: } y=m_2 x+\\frac{3}{m_2}\n\\end{aligned}\n$$\n\n<br><br>For common tangent\n<br><br>$$\n\\begin{aligned}\n&amp; m=m_1=m_2, \\pm \\sqrt{6 m_1^2+3}=\\frac{3}{m_2} \\\\\\\\\n&amp; \\Rightarrow m= \\pm 1\n\\end{aligned}\n$$\n<br><br>$\\Rightarrow$ Equation of common tangents $y=x+3$ and $y=-x-3$ point of contact for parabola is $\\left(\\frac{a}{m^2}, \\frac{2 a}{m}\\right)$\n<br><br>$$\n\\Rightarrow A_1 \\equiv(3,6), \\quad A_4(3-6)\n$$\n\n<br><br>Let $A_2\\left(x_1, y_1\\right) \\Rightarrow$ tangent to $E$ is $\\frac{x x_1}{6}+\\frac{y y_1}{3}=1$\n<br><br>$A_3$ is mirror image of $A_2$ in $x$-axis $\\Rightarrow A_3(-2,-1)$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrv17k8v/36cdea38-3996-45b9-84dd-d9db5a0fc939/7cc0ccf0-bc80-11ee-8bcb-35b04a6ab76c/file-6y3zli1lrv17k8w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrv17k8v/36cdea38-3996-45b9-84dd-d9db5a0fc939/7cc0ccf0-bc80-11ee-8bcb-35b04a6ab76c/file-6y3zli1lrv17k8w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Mathematics - Ellipse Question 4 English Explanation\">\n<br>Intersection point of $T_1=0$ and $T_2=0$ is $(-3,0)$\n<br><br>Area of quadrilateral $A_1 A_2 A_3 A_4=\\frac{1}{2}(12+2) \\times 5=35$ square units"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "माना कि $T_1$ एवं $T_2$ दीर्घवृत (ellipse) $E: \\frac{x^2}{6}+\\frac{y^2}{3}=1$ एवं परवलय (parabola) $P: y^2=12 x$ की दो भिन्न उभयनिष्ठ स्पर्श रेखाएं (distinct common tangents) हैं। माना कि स्पर्श रेखा $T_1, P$ एवं $E$ को क्रमशः बिन्दुओं $A_1$ एवं $A_2$ पर स्पर्श करती है और स्पर्श रेखा $T_2, P$ एवं $E$ को क्रमशः बिन्दुओं $A_4$ एवं $A_3$ पर स्पर्श करती है। तब निम्न में से कौन सा(से) कथन सत्य है(हैं)?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "चतुर्भुज $A_1 A_2 A_3 A_4$ का क्षेत्रफल 35 वर्ग इकाई है"
+            },
+            {
+              "identifier": "B",
+              "content": "चतुर्भुज $A_1 A_2 A_3 A_4$ का क्षेत्रफल 36 वर्ग इकाई है"
+            },
+            {
+              "identifier": "C",
+              "content": "स्पर्श रेखाएं $T_1$ एवं $T_2, x$-अक्ष को बिंदु $(-3,0)$ पर मिलती हैं"
+            },
+            {
+              "identifier": "D",
+              "content": "स्पर्श रेखाएं $T_1$ एवं $T_2, x$-अक्ष को बिंदु $(-6,0)$ पर मिलती हैं"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "$$\n\\begin{aligned}\n&amp; E: \\frac{x^2}{6}+\\frac{y^2}{3}=1 \\text {, स्पर्श रेखा : } y=m_1 x \\pm \\sqrt{6 m_1^2+3} \\\\\\\\\n&amp; P: y^2=12 x, \\text { स्पर्श रेखा: } y=m_2 x+\\frac{3}{m_2}\n\\end{aligned}\n$$\n\n<br><br>उभयनिष्ठ स्पर्श रेखा के लिए\n<br><br>$$\n\\begin{aligned}\n&amp; m=m_1=m_2, \\pm \\sqrt{6 m_1^2+3}=\\frac{3}{m_2} \\\\\\\\\n&amp; \\Rightarrow m= \\pm 1\n\\end{aligned}\n$$\n<br><br>$\\Rightarrow$ उभयनिष्ठ स्पर्श रेखाओं का समीकरण $y=x+3$ और $y=-x-3$ परवलय के लिए स्पर्श बिंदु $\\left(\\frac{a}{m^2}, \\frac{2 a}{m}\\right)$ है\n<br><br>$$\n\\Rightarrow A_1 \\equiv(3,6), \\quad A_4(3-6)\n$$\n\n<br><br>मान लीजिए $A_2\\left(x_1, y_1\\right) \\Rightarrow$ $E$ पर स्पर्श रेखा $\\frac{x x_1}{6}+\\frac{y y_1}{3}=1$ है\n<br><br>$A_3$, $A_2$ का $x$-अक्ष में दर्पण प्रतिबिम्ब है $\\Rightarrow A_3(-2,-1)$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrv17k8v/36cdea38-3996-45b9-84dd-d9db5a0fc939/7cc0ccf0-bc80-11ee-8bcb-35b04a6ab76c/file-6y3zli1lrv17k8w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrv17k8v/36cdea38-3996-45b9-84dd-d9db5a0fc939/7cc0ccf0-bc80-11ee-8bcb-35b04a6ab76c/file-6y3zli1lrv17k8w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Mathematics - Ellipse Question 4 Hindi Explanation\">\n<br>$T_1=0$ और $T_2=0$ का प्रतिच्छेद बिंदु $(-3,0)$ है\n<br><br>चतुर्भुज $A_1 A_2 A_3 A_4$ का क्षेत्रफल $=\\frac{1}{2}(12+2) \\times 5=35$ वर्ग इकाई"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "common-tangent",
+      "type": "mcqm",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let $T_1$ and $T_2$ be two distinct common tangents to the ellipse $E: \\frac{x^2}{6}+\\frac{y^2}{3}=1$ and the parabola $P: y^2=12 x$. Suppose that the tangent $T_1$ touches $P$ and $E$ at the points $A_1$ and $A_2$, respectively and the tan..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "माना कि $T_1$ एवं $T_2$ दीर्घवृत (ellipse) $E: \\frac{x^2}{6}+\\frac{y^2}{3}=1$ एवं परवलय (parabola) $P: y^2=12 x$ की दो भिन्न उभयनिष्ठ स्पर्श रेखाएं (distinct common tangents) हैं। माना कि स्पर्श रेखा $T_1, P$ एवं $E$ को क्रमशः बिन्दुओं $A_1..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "qfjf73odbp9zs9c2h7xv",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "pconsider-the-ellipse-p-p-fracx24fracy-jee-advanced-mathematics-complex-numbers-nv7mf89jomgkjus6",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider the ellipse\n</p>\n<p>$$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$$</p>\n\n<p>Let $H(\\alpha, 0), 0<\\alpha<2$, be a point. A straight line drawn through $H$ parallel to the $y$-axis crosses the ellipse and its auxiliary circle at points $E$ and $F$ respectively, in the first quadrant. The tangent to the ellipse at the point $E$ intersects the positive $x$-axis at a point $G$. Suppose the straight line joining $F$ and the origin makes an angle $\\phi$ with the positive $x$-axis.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-7btt\">List-I</th>\n    <th class=\"tg-7btt\"><span style=\"font-weight:bold;font-style:normal\">List-II</span></th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-0pky\">(I) If $\\phi=\\frac{\\pi}{4}$, then the area of the triangle $F G H$ is</td>\n    <td class=\"tg-0pky\">(P) $\\frac{(\\sqrt{3}-1)^{4}}{8}$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\">(II) If $\\phi=\\frac{\\pi}{3}$, then the area of the triangle $F G H$ is</td>\n    <td class=\"tg-0pky\">(Q) 1</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\">(III) If $\\phi=\\frac{\\pi}{6}$, then the area of the triangle $F G H$ is</td>\n    <td class=\"tg-0pky\">(R) $\\frac{3}{4}$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\">(IV) If $\\phi=\\frac{\\pi}{12}$, then the area of the triangle $F G H$ is</td>\n    <td class=\"tg-0pky\">(S) $\\frac{1}{2 \\sqrt{3}}$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\"></td>\n    <td class=\"tg-0pky\">(T) $\\frac{3 \\sqrt{3}}{2}$</td>\n  </tr>\n</tbody>\n</table></p>\n<p>The correct option is:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$(\\mathrm{I}) \\rightarrow(\\mathrm{R}) ;(\\mathrm{II}) \\rightarrow(\\mathrm{S}) ;(\\mathrm{III}) \\rightarrow(\\mathrm{Q}) ;(\\mathrm{IV}) \\rightarrow(\\mathrm{P})$"
+            },
+            {
+              "identifier": "B",
+              "content": "(I) $\\rightarrow$ (R); (II) $\\rightarrow(\\mathrm{T}) ;(\\mathrm{III}) \\rightarrow(\\mathrm{S}) ;(\\mathrm{IV}) \\rightarrow(\\mathrm{P})$"
+            },
+            {
+              "identifier": "C",
+              "content": "(I) $\\rightarrow(\\mathrm{Q}) ;(\\mathrm{II}) \\rightarrow(\\mathrm{T}) ;(\\mathrm{III}) \\rightarrow(\\mathrm{S}) ;(\\mathrm{IV}) \\rightarrow(\\mathrm{P})$"
+            },
+            {
+              "identifier": "D",
+              "content": "(I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfqoru6v/aa295a2a-9b5d-46bc-9528-f59f57038041/1ecb5a70-cc8a-11ed-bc7f-53cb7b9bd082/file-1lfqoru6w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfqoru6v/aa295a2a-9b5d-46bc-9528-f59f57038041/1ecb5a70-cc8a-11ed-bc7f-53cb7b9bd082/file-1lfqoru6w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Mathematics - Ellipse Question 6 English Explanation\">\n<br>Given:\n$$\n\\frac{x^2}{4}+\\frac{y^2}{3}=1\n$$\n<br><br>Let $\\quad \\alpha=2 \\cos \\phi$\n<br><br>Tangent at $\\mathrm{E}(2 \\cos \\phi, \\sqrt{3} \\sin \\phi)$\n<br><br>to the ellipse is $\\frac{x \\cos \\phi}{2}+\\frac{y \\sin \\phi}{\\sqrt{3}}=1$\n<br><br>This intersect $x$-axis at $\\mathrm{G}(2 \\sec \\phi, 0)$\n<br><br>$$\n\\begin{aligned}\n&amp; \\text { Area of triangle } \\mathrm{FGH}=\\frac{1}{2}(2 \\sec \\phi-2 \\cos \\phi) 2 \\sin \\phi \\\\\\\\\n&amp; \\Delta=2 \\sin ^2 \\phi \\cdot \\tan \\phi \\\\\\\\\n&amp; \\Delta=(1-\\cos 2 \\phi) \\cdot \\tan \\phi\n\\end{aligned}\n$$\n<br><br>$$\n\\begin{aligned}\n\\text {I. If }\\phi &amp; =\\frac{\\pi}{4}, \\Delta=1 \\rightarrow Q \\\\\\\\\n\\text {II. If }\\phi &amp; =\\frac{\\pi}{3}, \\Delta=2\\left(\\frac{\\sqrt{3}}{2}\\right)^2 \\cdot \\sqrt{3} \\\\\\\\\n&amp; =\\frac{3 \\sqrt{3}}{2} \\rightarrow \\mathrm{T}\n\\end{aligned}\n$$\n<br><br>\n$$\n\\begin{aligned}\n\\text {III. If }\\phi &amp; =\\frac{\\pi}{6}, \\Delta=2\\left(\\frac{1}{2}\\right)^2 \\cdot \\frac{1}{\\sqrt{3}} \\\\\\\\\n&amp; =\\frac{1}{2 \\sqrt{3}} \\rightarrow S\n\\end{aligned}\n$$\n\n<br><br>$$\n\\begin{aligned}\n\\text {IV. If }\\phi=\\frac{\\pi}{12}, \\Delta &amp; =\\left(1-\\frac{\\sqrt{3}}{2}\\right) \\cdot(2-\\sqrt{3}) \\\\\\\\\n&amp; =\\frac{(\\sqrt{3}-1)^4}{8} \\rightarrow P\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>दीर्घवृत्त (ellipse)</p>\n<p>$$\\frac{x^2}{4}+\\frac{y^2}{3}=1$$</p>\n<p>पर विचार कीजिए। माना कि $$H(\\alpha, 0), 0 < \\alpha < 2$$, एक बिंदु (point) है। बिंदु $$H$$ से होती हुई एवं $$y$$-अक्ष के समांतर (parallel to the $$y$$-axis) एक सरल रेखा (straight line) दीर्घवृत्त एवं इसके सहवृत्त (auxiliary circle) को प्रथम चतुर्थांश (first quadrant) में क्रमशः बिंदुओं $$E$$ एवं $$F$$ पर प्रतिच्छेदित (intersect) करती है। बिंदु $$E$$ पर दीर्घवृत्त की स्पर्श रेखा (tangent) धनात्मक $$x$$ अक्ष को एक बिंदु $$G$$ पर प्रतिच्छेदित करती है । मान लीजिए कि $$F$$ एवं मूलबिंदु (origin) को जोड़ने वाली सरल रेखा, धनात्मक $$x$$-अक्ष के साथ एक कोण (angle) $$\\phi$$ बनाती है।</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 678px\">\n<colgroup>\n<col style=\"width: 40px\">\n<col style=\"width: 319px\">\n<col style=\"width: 44px\">\n<col style=\"width: 275px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-amwm\"></th>\n    <th class=\"tg-amwm\">सूची-I</th>\n    <th class=\"tg-amwm\"></th>\n    <th class=\"tg-amwm\">सूची-II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-baqh\">(I)</td>\n    <td class=\"tg-0lax\">यदि $$\\phi=\\frac{\\pi}{4}$$ है, तब त्रिभुज $$F G H$$ का क्षेत्रफल</td>\n    <td class=\"tg-baqh\">(P)</td>\n    <td class=\"tg-0lax\">$$\\frac{(\\sqrt{3}-1)^{4}}{8}$$ है</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(II)</td>\n    <td class=\"tg-0lax\">यदि $$\\phi=\\frac{\\pi}{3}$$ है, तब त्रिभुज $$F G H$$ का क्षेत्रफल</td>\n    <td class=\"tg-baqh\">(Q)</td>\n    <td class=\"tg-0lax\">1 है</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(III)</td>\n    <td class=\"tg-0lax\">यदि $$\\phi=\\frac{\\pi}{6}$$ है, तब त्रिभुज $$F G H$$ का क्षेत्रफल</td>\n    <td class=\"tg-baqh\">(R)</td>\n    <td class=\"tg-0lax\">$$\\frac{3}{4}$$ है</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(IV)</td>\n    <td class=\"tg-0lax\">यदि $$\\phi=\\frac{\\pi}{12}$$ है, तब त्रिभुज $$F G H$$ का क्षेत्रफल</td>\n    <td class=\"tg-baqh\">(S)</td>\n    <td class=\"tg-0lax\">$$\\frac{1}{2 \\sqrt{3}}$$ है</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\"></td>\n    <td class=\"tg-0lax\"></td>\n    <td class=\"tg-baqh\">(T)</td>\n    <td class=\"tg-0lax\">$$\\frac{3 \\sqrt{3}}{2}$$ है</td>\n  </tr>\n</tbody>\n</table></p>\n<p>सही विकल्प है:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(I) $$\\to$$ (R); (II) $$\\to$$ (S); (III) $$\\to$$ (Q); (IV) $$\\to$$ (P)"
+            },
+            {
+              "identifier": "B",
+              "content": "(I) $$\\to$$ (R); (II) $$\\to$$ (T); (III) $$\\to$$ (S); (IV) $$\\to$$ (P)"
+            },
+            {
+              "identifier": "C",
+              "content": "(I) $$\\to$$ (Q); (II) $$\\to$$ (T); (III) $$\\to$$ (S); (IV) $$\\to$$ (P)"
+            },
+            {
+              "identifier": "D",
+              "content": "(I) $$\\to$$ (Q); (II) $$\\to$$ (S); (III) $$\\to$$ (Q); (IV) $$\\to$$ (P)"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfqoru6v/aa295a2a-9b5d-46bc-9528-f59f57038041/1ecb5a70-cc8a-11ed-bc7f-53cb7b9bd082/file-1lfqoru6w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfqoru6v/aa295a2a-9b5d-46bc-9528-f59f57038041/1ecb5a70-cc8a-11ed-bc7f-53cb7b9bd082/file-1lfqoru6w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Mathematics - Ellipse Question 6 Hindi Explanation\">\n<br>दिया है:\n$$\n\\frac{x^2}{4}+\\frac{y^2}{3}=1\n$$\n<br><br>माना $\\quad \\alpha=2 \\cos \\phi$\n<br><br>$\\mathrm{E}(2 \\cos \\phi, \\sqrt{3} \\sin \\phi)$ पर स्पर्श रेखा\n<br><br>दीर्घवृत्त की $\\frac{x \\cos \\phi}{2}+\\frac{y \\sin \\phi}{\\sqrt{3}}=1$ है\n<br><br>यह $x$-अक्ष को $\\mathrm{G}(2 \\sec \\phi, 0)$ पर प्रतिच्छेद करती है\n<br><br>$$\n\\begin{aligned}\n&amp; \\text { त्रिभुज } \\mathrm{FGH} \\text{ का क्षेत्रफल}=\\frac{1}{2}(2 \\sec \\phi-2 \\cos \\phi) 2 \\sin \\phi \\\\\\\\\n&amp; \\Delta=2 \\sin ^2 \\phi \\cdot \\tan \\phi \\\\\\\\\n&amp; \\Delta=(1-\\cos 2 \\phi) \\cdot \\tan \\phi\n\\end{aligned}\n$$\n<br><br>$$\n\\begin{aligned}\n\\text {I. यदि }\\phi &amp;=\\frac{\\pi}{4}, \\Delta=1 \\rightarrow Q \\\\\\\\\n\\text {II. यदि }\\phi &amp;=\\frac{\\pi}{3}, \\Delta=2\\left(\\frac{\\sqrt{3}}{2}\\right)^2 \\cdot \\sqrt{3} \\\\\\\\\n&amp; =\\frac{3 \\sqrt{3}}{2} \\rightarrow \\mathrm{T}\n\\end{aligned}\n$$\n<br><br>\n$$\n\\begin{aligned}\n\\text {III. यदि }\\phi &amp;=\\frac{\\pi}{6}, \\Delta=2\\left(\\frac{1}{2}\\right)^2 \\cdot \\frac{1}{\\sqrt{3}} \\\\\\\\\n&amp; =\\frac{1}{2 \\sqrt{3}} \\rightarrow S\n\\end{aligned}\n$$\n\n<br><br>$$\n\\begin{aligned}\n\\text {IV. यदि }\\phi=\\frac{\\pi}{12}, \\Delta &amp;=\\left(1-\\frac{\\sqrt{3}}{2}\\right) \\cdot(2-\\sqrt{3}) \\\\\\\\\n&amp; =\\frac{(\\sqrt{3}-1)^4}{8} \\rightarrow P\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "tangent-to-ellipse",
+      "type": "mcq",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Consider the ellipse\n\n$$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$$\n\nLet $H(\\alpha, 0), 0<\\alpha<2$, be a point. A straight line drawn through $H$ parallel to the $y$-axis crosses the ellipse and its auxiliary circle at points $E$ and $F$ respe..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "दीर्घवृत्त (ellipse)\n$$\\frac{x^2}{4}+\\frac{y^2}{3}=1$$\nपर विचार कीजिए। माना कि $$H(\\alpha, 0), 0 < \\alpha < 2$$, एक बिंदु (point) है। बिंदु $$H$$ से होती हुई एवं $$y$$-अक्ष के समांतर (parallel to the $$y$$-axis) एक सरल रेखा (straight line) ..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "8kpmeiplqx2l8l12j7mj",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "let-e-be-the-ellipse-x2-over-16--y2-over-jee-advanced-mathematics-trigonometric-functions-and-equations-fsvfd7bhc6kkorqo",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let E be the ellipse $${{{x^2}} \\over {16}} + {{{y^2}} \\over 9} = 1$$. For any three distinct points P, Q and Q' on E, let M(P, Q) be the mid-point of the line segment joining P and Q, and M(P, Q') be the mid-point of the line segment joining P and Q'. Then the maximum possible value of the distance between M(P, Q) and M(P, Q'), as P, Q and Q' vary on E, is _______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "As we know that, in a triangle, sides joining the mid-points of two sides is half and parallel to the third side.<br><br>$$\\therefore$$ $${M_1}{M_2} = {1 \\over 2}QQ'$$<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0lt0c7d/8a4c6928-64c4-4ee7-85a6-6ce0baa342f7/85c4cb90-a0e3-11ec-abea-3bfb25ce19a4/file-1l0lt0c7e.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0lt0c7d/8a4c6928-64c4-4ee7-85a6-6ce0baa342f7/85c4cb90-a0e3-11ec-abea-3bfb25ce19a4/file-1l0lt0c7e.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Mathematics - Ellipse Question 7 English Explanation\"><br>Maximum value of QQ' is AA'<br><br>Hence, maximum value of $${M_1}{M_2} = {1 \\over 2}AA' = 4$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>मान लीजिए कि $$E$$ दीर्घवृत (ellipse) $$\\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1$$ को दर्शाता है। $$E$$ पर किसी भी तीन भित्न बिंदुओं $$P, Q$$ और $$Q'$$ के लिए, मान लीजिए कि $$M(P, Q), P$$ और $$Q$$ को मिलाने वाले रेखाखंड (line segment) का मध्यबिंदु है, तथा $$M\\left(P, Q'\\right), P$$ और $$Q'$$ को मिलाने वाले रेखाखंड का मध्यबिंदु है। जब $$P, Q$$ और $$Q', E$$ पर परिवर्तित होते रहते हैं तब $$M(P, Q)$$ और $$M\\left(P, Q'\\right)$$ के बीच की अधिकतम संभावित दूरी __________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "जैसा कि हम जानते हैं कि, एक त्रिभुज में, दो भुजाओं के मध्य-बिंदुओं को जोड़ने वाली भुजा तीसरी भुजा की आधी और समांतर होती है।<br><br>$$\\therefore$$ $${M_1}{M_2} = {1 \\over 2}QQ'$$<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0lt0c7d/8a4c6928-64c4-4ee7-85a6-6ce0baa342f7/85c4cb90-a0e3-11ec-abea-3bfb25ce19a4/file-1l0lt0c7e.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0lt0c7d/8a4c6928-64c4-4ee7-85a6-6ce0baa342f7/85c4cb90-a0e3-11ec-abea-3bfb25ce19a4/file-1l0lt0c7e.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Mathematics - Ellipse Question 7 Hindi Explanation\"><br>QQ' का अधिकतम मान AA' है<br><br>अतः, $${M_1}{M_2}$$ का अधिकतम मान $= {1 \\over 2}AA' = 4$$"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "position-of-point-and-chord-joining-of-two-points",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let E be the ellipse $${{{x^2}} \\over {16}} + {{{y^2}} \\over 9} = 1$$. For any three distinct points P, Q and Q' on E, let M(P, Q) be the mid-point of the line segment joining P and Q, and M(P, Q') be the mid-point of the line segment joini..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "मान लीजिए कि $$E$$ दीर्घवृत (ellipse) $$\\frac{x^{2}}{16}+\\frac{y^{2}}{9}=1$$ को दर्शाता है। $$E$$ पर किसी भी तीन भित्न बिंदुओं $$P, Q$$ और $$Q'$$ के लिए, मान लीजिए कि $$M(P, Q), P$$ और $$Q$$ को मिलाने वाले रेखाखंड (line segment) का मध्यबिंद..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "dvboiq352v38a0rnps4q",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "define-the-collections-esub1sub-esub2sub-esub-jee-advanced-mathematics-trigonometric-functions-and-equations-bka0mwk30b8strkt",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Define the collections {E<sub>1</sub>, E<sub>2</sub>, E<sub>3</sub>, ...} of ellipses and {R<sub>1</sub>, R<sub>2</sub>, R<sub>3</sub>.....} of rectangles as follows :<br><br>$${E_1}:{{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$<br><br>R<sub>1</sub> : rectangle of largest area, with sides parallel to the axes, inscribed in E<sub>1</sub>;<br><br>En : ellipse $${{{x^2}} \\over {a_n^2}} + {{{y^2}} \\over {b_n^2}} = 1$$ of the largest area inscribed in $${R_{n - 1}},n &gt; 1$$;<br><br>R<sub>n</sub> : rectangle of largest area, with sides parallel to the axes, inscribed in E<sub>n</sub>, n &gt; 1.<br><br>Then which of the following options is/are correct?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The eccentricities of E<sub>18</sub> and E<sub>19</sub> are not equal."
+            },
+            {
+              "identifier": "B",
+              "content": "The distance of a focus from the centre in E<sub>9</sub> is $${{\\sqrt 5 } \\over {32}}$$."
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sum\\limits_{n = 1}^N {(area\\,of\\,{R_n})} $$ &lt; 24, for each positive integer N."
+            },
+            {
+              "identifier": "D",
+              "content": "The length of latusrectum of E<sub>9</sub> is $${1 \\over 6}$$"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "Given equation of ellipse<br><br>$${E_1}:{{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ ... (i)<br><br>Now, let a vertex of rectangle of largest area with sides parallel to the axes, inscribed in E<sub>1</sub> be (3cos$$\\theta $$, 2sin$$\\theta $$).<br><br>So, area of rectangle<br><br>R<sub>1</sub> = 2(3cos$$\\theta $$) $$ \\times $$ 2(2sin$$\\theta $$) = 12sin(2$$\\theta $$)<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswg5mrq/46bdd405-d185-44f5-afdd-da490b15bb60/2668d260-085c-11ec-b113-c51967274113/file-1kswg5mrr-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswg5mrq/46bdd405-d185-44f5-afdd-da490b15bb60/2668d260-085c-11ec-b113-c51967274113/file-1kswg5mrr-500w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswg5mrq/46bdd405-d185-44f5-afdd-da490b15bb60/2668d260-085c-11ec-b113-c51967274113/file-1kswg5mrr.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Mathematics - Ellipse Question 11 English Explanation\"></picture> <br><br>The area of R<sub>1</sub> will be maximum, $$\\theta  = {\\pi  \\over 4}$$ and maximum area is 12 square units and length of sides of rectangle R<sub>1</sub> are $$2a\\cos \\theta  = \\sqrt 2 a = 3\\sqrt 2 $$ = length of major axis of ellipse E<sub>2</sub> and<br><br>$$2b\\sin \\theta  = \\sqrt 2 b = 2\\sqrt 2 $$ = length of minor axis of ellipse E<sub>2</sub>.<br><br>So, $${E_2}:{{{x^2}} \\over {{{\\left( {{a \\over {\\sqrt 2 }}} \\right)}^2}}} + {{{y^2}} \\over {{{\\left( {{b \\over {\\sqrt 2 }}} \\right)}^2}}} = 1$$ and <br><br>maximum area of rectangle <br><br>$${R_2}:2\\left( {{a \\over {\\sqrt 2 }}} \\right)\\left( {{b \\over {\\sqrt 2 }}} \\right)$$ and so on.<br><br>So, $${E_n} = {{{x^2}} \\over {{{\\left( {{a \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right)}^2}}} + {{{y^2}} \\over {{{\\left( {{b \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right)}^2}}} = 1$$,<br><br>and maximum area of rectangle<br><br>$${R_n} = 2\\left( {{a \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right) + \\left( {{b \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right)$$<br><br>Now option (a),<br><br>Since, eccentricity of ellipse<br><br>$${E_n} = e{'_n} = \\sqrt {1 - {{{{({b_n})}^2}} \\over {{{({a_n})}^2}}}} $$<br><br>$$ = \\sqrt {1 - {{{{\\left( {{b \\over {(\\sqrt {2{)^{n - 1}}} }}} \\right)}^2}} \\over {{{\\left( {{a \\over {(\\sqrt {2{)^{n - 1}}} }}} \\right)}^2}}}} $$<br><br>$$ = \\sqrt {1 - {{{b^2}} \\over {{a^2}}}}  = \\sqrt {1 - {4 \\over 9}}  = {{\\sqrt 5 } \\over 3}$$<br><br>is independent of 'n', so eccentricity of E<sub>18</sub> and E<sub>19</sub> are equal.<br><br>Option (b),<br><br>Distance between focus and centre of <br><br>$${E_9} = e.{a_9} = {a \\over {{{(\\sqrt 2 )}^8}}}(e)$$<br><br>$$ = {3 \\over {{2^4}}} \\times {{\\sqrt 5 } \\over 3} = {{\\sqrt 5 } \\over {16}}$$ unit<br><br>Option (c),<br><br>$$ \\because $$ $$\\sum\\limits_{n = 1}^N {(area\\,of\\,{R_n})}  &lt; (area\\,of\\,{R_1}) + (area\\,of\\,{R_2}) + .....\\infty $$<br><br>$$ &lt; 2ab + 2{{ab} \\over 2} + 2{{ab} \\over {{2^2}}} + .......$$<br><br>$$ &lt; 2ab\\left( {1 + {1 \\over 2} + {1 \\over {{2^2}}} + .....} \\right)$$<br><br>$$ &lt; 12\\left( {{1 \\over {1 - 1/2}}} \\right)$$<br><br>$$ \\Rightarrow \\sum\\limits_{n = 1}^N {(area\\,of\\,{R_n}} ) &lt; 24$$, for each positive integer N.<br><br>Option (d),<br><br>Length of latusrectum $${E_9} = {{2b_9^2} \\over {{a_9}}} = {{2{b^2}} \\over {a{{(\\sqrt 2 )}^8}}}$$<br><br>$$ = {{2 \\times 4} \\over {3 \\times 16}} = {1 \\over 6}$$ units<br><br>Hence, options (c) and (d) are correct."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>दीर्घवृतों (ellipses) $$\\left\\{E_{1}, E_{2}, E_{3}, \\ldots\\right\\}$$ और आयतों (rectangles) $$\\left\\{R_{1}, R_{2}, R_{3}, \\ldots\\right\\}$$ के संग्रहों को निम्न प्रकार से परिभाषित करें :</p>\n<p>$$E_{1}: \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$$</p>\n<p>$$R_{1}$$ : अधिकतम क्षेत्र (largest area) का आयत, जिसकी भुजाएं अक्षों (axes) के समान्तर हैं, और जो $$E_{1}$$ में अंतस्थित (inscribed) है;</p>\n<p>$$E_{n}$$ : अधिकतम क्षेत्र वाला दीर्घवृत $$\\frac{x^{2}}{a_{n}^{2}}+\\frac{y^{2}}{b_{n}^{2}}=1$$ जो $$R_{n-1}, n > 1$$ में अंतस्थित है;</p>\n<p>$$R_{n}$$ : अधिकतम क्षेत्र का आयत, जिसकी भुजाएं अक्षों के समान्तर हैं, और जो $$E_{n}, n > 1$$ में अंतस्थित है।</p>\n<p>तब निम्न में से कौन सा (से) विकल्प सही है ( हैं ) ?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$E_{18}$$ और $$E_{19}$$ की उत्केंद्रतायें (eccentricities) समान नहीं हैं"
+            },
+            {
+              "identifier": "B",
+              "content": "$$E_{9}$$ में केंद्र से एक नाभि (focus) की दूरी $$\\frac{\\sqrt{5}}{32}$$ है"
+            },
+            {
+              "identifier": "C",
+              "content": "प्रत्येक पूर्णांक $$N$$ के लिए, $$\\sum_\\limits{n=1}^{N}\\left(R_{n}\\right.$$ का क्षेत्रफल $$) < 24$$ है"
+            },
+            {
+              "identifier": "D",
+              "content": "$$E_{9}$$ के नाभिलम्ब (latus rectum) की लम्बाई $$\\frac{1}{6}$$ है"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "दी गई दीर्घवृत्त का समीकरण<br><br>$${E_1}:{{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ ... (i)<br><br>अब, माना E<sub>1</sub> में अंकित अक्षों के समानांतर भुजाओं वाले सबसे बड़े क्षेत्रफल के आयत का एक शीर्ष (3cos$$\\theta $$, 2sin$$\\theta $$) है।<br><br>अतः, आयत का क्षेत्रफल<br><br>R<sub>1</sub> = 2(3cos$$\\theta $$) $$ \\times $$ 2(2sin$$\\theta $$) = 12sin(2$$\\theta $$)<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswg5mrq/46bdd405-d185-44f5-afdd-da490b15bb60/2668d260-085c-11ec-b113-c51967274113/file-1kswg5mrr-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kswg5mrq/46bdd405-d185-44f5-afdd-da490b15bb60/2668d260-085c-11ec-b113-c51967274113/file-1kswg5mrr-500w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kswg5mrq/46bdd405-d185-44f5-afdd-da490b15bb60/2668d260-085c-11ec-b113-c51967274113/file-1kswg5mrr.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Mathematics - Ellipse Question 11 Hindi Explanation\"></picture> <br><br>R<sub>1</sub> का क्षेत्रफल अधिकतम होगा, $$\\theta  = {\\pi  \\over 4}$$ पर और अधिकतम क्षेत्रफल 12 वर्ग इकाई है तथा आयत R<sub>1</sub> की भुजाओं की लंबाई $$2a\\cos \\theta  = \\sqrt 2 a = 3\\sqrt 2 $$ = दीर्घवृत्त E<sub>2</sub> की दीर्घ अक्ष की लंबाई और<br><br>$$2b\\sin \\theta  = \\sqrt 2 b = 2\\sqrt 2 $$ = दीर्घवृत्त E<sub>2</sub> की लघु अक्ष की लंबाई।<br><br>अतः, $${E_2}:{{{x^2}} \\over {{{\\left( {{a \\over {\\sqrt 2 }}} \\right)}^2}}} + {{{y^2}} \\over {{{\\left( {{b \\over {\\sqrt 2 }}} \\right)}^2}}} = 1$$ और <br><br>आयत का अधिकतम क्षेत्रफल <br><br>$${R_2}:2\\left( {{a \\over {\\sqrt 2 }}} \\right)\\left( {{b \\over {\\sqrt 2 }}} \\right)$$ और इसी प्रकार।<br><br>अतः, $${E_n} = {{{x^2}} \\over {{{\\left( {{a \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right)}^2}}} + {{{y^2}} \\over {{{\\left( {{b \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right)}^2}}} = 1$$,<br><br>और आयत का अधिकतम क्षेत्रफल<br><br>$${R_n} = 2\\left( {{a \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right) + \\left( {{b \\over {{{(\\sqrt 2 )}^{n - 1}}}}} \\right)$$<br><br>अब विकल्प (a),<br><br>चूंकि, दीर्घवृत्त की उत्केंद्रता<br><br>$${E_n} = e{'_n} = \\sqrt {1 - {{{{({b_n})}^2}} \\over {{{({a_n})}^2}}}} $$<br><br>$$ = \\sqrt {1 - {{{{{\\left( {{b \\over {(\\sqrt {2{)^{n - 1}}} }}} \\right)}^2}} \\over {{{\\left( {{a \\over {(\\sqrt {2{)^{n - 1}}} }}} \\right)}^2}}}} $$<br><br>$$ = \\sqrt {1 - {{{b^2}} \\over {{a^2}}}}  = \\sqrt {1 - {4 \\over 9}}  = {{\\sqrt 5 } \\over 3}$$<br><br>'n' से स्वतंत्र है, इसलिए E<sub>18</sub> और E<sub>19</sub> की उत्केंद्रता समान है।<br><br>विकल्प (b),<br><br>नाभि और केंद्र के बीच की दूरी<br><br>$${E_9} = e.{a_9} = {a \\over {{{(\\sqrt 2 )}^8}}}(e)$$<br><br>$$ = {3 \\over {{2^4}}} \\times {{\\sqrt 5 } \\over 3} = {{\\sqrt 5 } \\over {16}}$$ इकाई<br><br>विकल्प (c),<br><br>$$ \\because $$ $$\\sum\\limits_{n = 1}^N {(area\\,of\\,{R_n})}  &lt; (area\\,of\\,{R_1}) + (area\\,of\\,{R_2}) + .....\\infty $$<br><br>$$ &lt; 2ab + 2{{ab} \\over 2} + 2{{ab} \\over {{2^2}}} + .......$$<br><br>$$ &lt; 2ab\\left( {1 + {1 \\over 2} + {1 \\over {{2^2}}} + .....} \\right)$$<br><br>$$ &lt; 12\\left( {{1 \\over {1 - 1/2}}} \\right)$$<br><br>$$ \\Rightarrow \\sum\\limits_{n = 1}^N {(area\\,of\\,{R_n}} ) &lt; 24$$, प्रत्येक धनात्मक पूर्णांक N के लिए।<br><br>विकल्प (d),<br><br>नाभिलंब की लंबाई $${E_9} = {{2b_9^2} \\over {{a_9}}} = {{2{b^2}} \\over {a{{(\\sqrt 2 )}^8}}}$$<br><br>$$ = {{2 \\times 4} \\over {3 \\times 16}} = {1 \\over 6}$$ इकाई<br><br>अतः, विकल्प (c) और (d) सही हैं।"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Define the collections {E1, E2, E3, ...} of ellipses and {R1, R2, R3.....} of rectangles as follows :$${E_1}:{{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$R1 : rectangle of largest area, with sides parallel to the axes, inscribed in E1;En : el..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "दीर्घवृतों (ellipses) $$\\left\\{E_{1}, E_{2}, E_{3}, \\ldots\\right\\}$$ और आयतों (rectangles) $$\\left\\{R_{1}, R_{2}, R_{3}, \\ldots\\right\\}$$ के संग्रहों को निम्न प्रकार से परिभाषित करें :\n$$E_{1}: \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$$\n$$R_{1}$$ ..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "question_id": "vnfe0nzp73ky82e7w13k",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "permalink": "consider-two-straight-lines-each-of-which-is-tangent-to-bot-jee-advanced-mathematics-trigonometric-functions-and-equations-gb3u9epgduaixmr9",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Consider two straight lines, each of which is tangent to both the circle x<sup>2</sup> + y<sup>2</sup> = (1/2) and the parabola y<sup>2</sup> = 4x. Let these lines intersect at the point Q. Consider the ellipse whose centre is at the origin O(0, 0) and whose semi-major axis is OQ. If the length of the minor axis of this ellipse is $$\\sqrt 2 $$, then which of the following statement(s) is (are) TRUE?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "For the ellipse, the eccentricity is 1$$\\sqrt 2 $$ and the length of the latus rectum is 1"
+            },
+            {
+              "identifier": "B",
+              "content": "For the ellipse, the eccentricity is 1/2 and the length of the latus rectum is 1/2"
+            },
+            {
+              "identifier": "C",
+              "content": "The area of the region bounded by the ellipse between the lines $$x = {1 \\over {\\sqrt 2 }}$$ and x = 1 is $${1 \\over {4\\sqrt 2 }}(\\pi  - 2)$$"
+            },
+            {
+              "identifier": "D",
+              "content": "The area of the region bounded by the ellipse between the lines $$x = {1 \\over {\\sqrt 2 }}$$ and x = 1 is $${1 \\over {16}}(\\pi  - 2)$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "We have, <br><br>Equations of circle<br><br>$${x^2} + {y^2} = {1 \\over 2}$$<br><br>and Equations of parabola<br><br>y<sup>2</sup> = 4x<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywtgr6r/28e8b480-f65e-4214-a2e7-8d2d8a289cc5/7eace640-7f59-11ec-91f0-35ffd68c9c48/file-1kywtgr6s.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywtgr6r/28e8b480-f65e-4214-a2e7-8d2d8a289cc5/7eace640-7f59-11ec-91f0-35ffd68c9c48/file-1kywtgr6s.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Ellipse Question 9 English Explanation 1\"> <br><br>Let the equation of common tangent of parabola and circle is<br><br>$$y = mx + {1 \\over m}$$<br><br>Since, radius of circle = $${1 \\over {\\sqrt 2 }}$$<br><br>$$ \\therefore $$ $${1 \\over {\\sqrt 2 }}$$ = $$\\left| {{{0 + 0 + {1 \\over m}} \\over {\\sqrt {1 + {m^2}} }}} \\right|$$<br><br>$$ \\Rightarrow $$ m<sup>4</sup> + m<sup>2</sup> $$-$$ 2 = 0<br><br>$$ \\Rightarrow $$ m =$$ \\pm $$1<br><br>$$ \\therefore $$ Equation of common tangents are<br><br>y = x + 1 and y = $$-$$x$$-$$1<br><br>Intersection  point of common tangent at Q($$-$$1, 0)<br><br>$$ \\therefore $$ Equation of ellipse<br><br>$${{{x^2}} \\over 1} + {{{y^2}} \\over {1/2}} = 1$$<br><br>where, $${a^2} = 1$$, $${b^2} = 1/2$$<br><br>Now, eccentricity<br><br>$$ = \\sqrt {1 - {{{b^2}} \\over {{a^2}}}}  = \\sqrt {1 - {1 \\over 2}}  = {1 \\over {\\sqrt 2 }}$$<br><br>and length of latusrectum<br><br>$$ = {{2{b^2}} \\over a} = {{2\\left( {{1 \\over 2}} \\right)} \\over 1} = 1$$<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywtjuno/7f360897-d3f6-47ac-8152-d0643da44ca6/d4c85b40-7f59-11ec-91f0-35ffd68c9c48/file-1kywtjunp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywtjuno/7f360897-d3f6-47ac-8152-d0643da44ca6/d4c85b40-7f59-11ec-91f0-35ffd68c9c48/file-1kywtjunp.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Ellipse Question 9 English Explanation 2\"><br><br>$$ \\therefore $$ Area of shaded region<br><br>$$ = 2\\int_{1/\\sqrt 2 }^1 {{1 \\over {\\sqrt 2 }}} \\sqrt {1 - {x^2}} dx$$<br><br>$$\\eqalign{\n  &amp;  = \\sqrt 2 \\left[ {{x \\over 2}\\sqrt {1 - {x^2}}  + {1 \\over 2}{{\\sin }^{ - 1}}x} \\right]_{1/\\sqrt 2 }^1  \\cr \n  &amp;  = \\sqrt 2 \\left[ {\\left( {0 + {\\pi  \\over 4}} \\right) - \\left( {{1 \\over 4} + {\\pi  \\over 8}} \\right)} \\right] \\cr} $$<br><br>$$ = \\sqrt 2 \\left[ {\\left( {0 + {\\pi  \\over 4}} \\right) - \\left( {{1 \\over 4} + {\\pi  \\over 8}} \\right)} \\right]$$<br><br>$$ = \\sqrt 2 \\left( {{\\pi  \\over 8} - {1 \\over 4}} \\right) = {{\\pi  - 2} \\over {4\\sqrt 2 }}$$"
+        },
+        "hi": {
+          "direction": null,
+          "content": "दो प्रत्यक्ष सरल रेखाओं पर विचार करें, जिनमें से प्रत्येक वृत्त x<sup>2</sup> + y<sup>2</sup> = (1/2) और परवलय y<sup>2</sup> = 4x को स्पर्श करती है। ये रेखाएँ बिंदु Q पर एक-दूसरे को प्रतिच्छेद करती हैं। उस एलिप्स पर विचार करें जिसका केंद्र O(0, 0) पर है और जिसकी अर्ध-महाअक्ष OQ है। यदि इस एलिप्स की लघु-अक्ष की लंबाई $$\\sqrt 2 $$ है, तो निम्नलिखित कथन में से कौन सा/से सत्य है/हैं?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "एलिप्स के लिए, उत्केंद्रीयता 1$$\\sqrt 2 $$ है और लक्ष रेखा की लंबाई 1 है"
+            },
+            {
+              "identifier": "B",
+              "content": "एलिप्स के लिए, उत्केंद्रीयता 1/2 है और लक्ष रेखा की लंबाई 1/2 है"
+            },
+            {
+              "identifier": "C",
+              "content": "रेखा $$x = {1 \\over {\\sqrt 2 }}$$ और x = 1 के बीच का क्षेत्रफल जो एलिप्स द्वारा सीमित है $${1 \\over {4\\sqrt 2 }}(\\pi  - 2)$$ है"
+            },
+            {
+              "identifier": "D",
+              "content": "रेखा $$x = {1 \\over {\\sqrt 2 }}$$ और x = 1 के बीच का क्षेत्रफल जो एलिप्स द्वारा सीमित है $${1 \\over {16}}(\\pi  - 2)$$ है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "हमारे पास है, <br><br>वृत्त का समीकरण<br><br>$${x^2} + {y^2} = {1 \\over 2}$$<br><br>और परवलय का समीकरण<br><br>y<sup>2</sup> = 4x<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywtgr6r/28e8b480-f65e-4214-a2e7-8d2d8a289cc5/7eace640-7f59-11ec-91f0-35ffd68c9c48/file-1kywtgr6s.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywtgr6r/28e8b480-f65e-4214-a2e7-8d2d8a289cc5/7eace640-7f59-11ec-91f0-35ffd68c9c48/file-1kywtgr6s.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Ellipse Question 9 Hindi Explanation 1\"> <br><br>माना परवलय और वृत्त की उभयनिष्ठ स्पर्श रेखा का समीकरण है<br><br>$$y = mx + {1 \\over m}$$<br><br>चूंकि, वृत्त की त्रिज्या = $${1 \\over {\\sqrt 2 }}$$<br><br>$$ \\therefore $$ $${1 \\over {\\sqrt 2 }}$$ = $$\\left| {{{0 + 0 + {1 \\over m}} \\over {\\sqrt {1 + {m^2}} }}} \\right|$$<br><br>$$ \\Rightarrow $$ m<sup>4</sup> + m<sup>2</sup> $$-$$ 2 = 0<br><br>$$ \\Rightarrow $$ m =$$ \\pm $$1<br><br>$$ \\therefore $$ उभयनिष्ठ स्पर्श रेखाओं का समीकरण है<br><br>y = x + 1 और y = $$-$$x$$-$$1<br><br>Q($$-$$1, 0) पर उभयनिष्ठ स्पर्श रेखाओं का प्रतिच्छेद बिंदु<br><br>$$ \\therefore $$ दीर्घवृत्त का समीकरण<br><br>$${{{x^2}} \\over 1} + {{{y^2}} \\over {1/2}} = 1$$<br><br>जहाँ, $${a^2} = 1$$, $${b^2} = 1/2$$<br><br>अब, उत्केंद्रता<br><br>$$ = \\sqrt {1 - {{{b^2}} \\over {{a^2}}}}  = \\sqrt {1 - {1 \\over 2}}  = {1 \\over {\\sqrt 2 }}$$<br><br>और नाभिलम्ब की लंबाई<br><br>$$ = {{2{b^2}} \\over a} = {{2\\left( {{1 \\over 2}} \\right)} \\over 1} = 1$$<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywtjuno/7f360897-d3f6-47ac-8152-d0643da44ca6/d4c85b40-7f59-11ec-91f0-35ffd68c9c48/file-1kywtjunp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywtjuno/7f360897-d3f6-47ac-8152-d0643da44ca6/d4c85b40-7f59-11ec-91f0-35ffd68c9c48/file-1kywtjunp.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Ellipse Question 9 Hindi Explanation 2\"><br><br>$$ \\therefore $$ छायांकित क्षेत्र का क्षेत्रफल<br><br>$$ = 2\\int_{1/\\sqrt 2 }^1 {{1 \\over {\\sqrt 2 }}} \\sqrt {1 - {x^2}} dx$$<br><br>$$\\eqalign{\n  &amp;  = \\sqrt 2 \\left[ {{x \\over 2}\\sqrt {1 - {x^2}}  + {1 \\over 2}{{\\sin }^{ - 1}}x} \\right]_{1/\\sqrt 2 }^1  \\cr \n  &amp;  = \\sqrt 2 \\left[ {\\left( {0 + {\\pi  \\over 4}} \\right) - \\left( {{1 \\over 4} + {\\pi  \\over 8}} \\right)} \\right] \\cr} $$<br><br>$$ = \\sqrt 2 \\left[ {\\left( {0 + {\\pi  \\over 4}} \\right) - \\left( {{1 \\over 4} + {\\pi  \\over 8}} \\right)} \\right]$$<br><br>$$ = \\sqrt 2 \\left( {{\\pi  \\over 8} - {1 \\over 4}} \\right) = {{\\pi  - 2} \\over {4\\sqrt 2 }}$$",
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "position-of-point-and-chord-joining-of-two-points",
+      "type": "mcqm",
+      "year": 2018,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Consider two straight lines, each of which is tangent to both the circle x2 + y2 = (1/2) and the parabola y2 = 4x. Let these lines intersect at the point Q. Consider the ellipse whose centre is at the origin O(0, 0) and whose semi-major axi..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "दो प्रत्यक्ष सरल रेखाओं पर विचार करें, जिनमें से प्रत्येक वृत्त x2 + y2 = (1/2) और परवलय y2 = 4x को स्पर्श करती है। ये रेखाएँ बिंदु Q पर एक-दूसरे को प्रतिच्छेद करती हैं। उस एलिप्स पर विचार करें जिसका केंद्र O(0, 0) पर है और जिसकी अर्ध-महाअक..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "question_id": "cl0dxkn2vh6pheaasok0",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "permalink": "let-s-be-the-circle-in-the-xy-plane-defined-the-equation-xs-jee-advanced-mathematics-trigonometric-functions-and-equations-eemdixwij6zgbc2h",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let S be the circle in the XY-plane defined the equation x<sup>2</sup> + y<sup>2</sup> = 4.<br><br>Let P be a point on the circle S with both coordinates being positive. Let the tangent to S at P intersect the coordinate axes at the points M and N. Then, the mid-point of the line segment MN must lie on the curve",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(x + y)<sup>2</sup> = 3xy"
+            },
+            {
+              "identifier": "B",
+              "content": "x<sup>2/3</sup> + y<sup>2/3</sup> = 2<sup>4/3</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "x<sup>2</sup> + y<sup>2</sup> = 2xy"
+            },
+            {
+              "identifier": "D",
+              "content": "x<sup>2</sup> + y<sup>2</sup> = x<sup>2</sup>y<sup>2</sup>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "We have,<br><br>x<sup>2</sup> + y<sup>2</sup> = 4<br><br>Let P(2 cos$$\\theta $$, 2 sin$$\\theta $$) be a point on a circle.<br><br>$$ \\therefore $$ Tangent at P is<br><br>2 cos$$\\theta $$x + 2 sin$$\\theta $$y = 4<br><br>$$ \\Rightarrow $$ x cos$$\\theta $$ + y sin$$\\theta $$ = 2<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx16mead/36137180-6145-4e9f-80ca-f6fd257f6e8a/a6159760-5a27-11ec-b374-b7a436fb4b4d/file-1kx16meae.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx16mead/36137180-6145-4e9f-80ca-f6fd257f6e8a/a6159760-5a27-11ec-b374-b7a436fb4b4d/file-1kx16meae.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 70vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Mathematics - Ellipse Question 10 English Explanation\"><br>$$ \\therefore $$ The coordinates at $$M\\left( {{2 \\over {\\cos \\theta }},0} \\right)$$ and $$N\\left( {0,{2 \\over {\\sin \\theta }}} \\right)$$<br><br>Let (h, k) is mid-point of MN<br><br>$$ \\therefore $$ $$h = {1 \\over {\\cos \\theta }}$$ and $$k = {1 \\over {\\sin \\theta }}$$<br><br>$$ \\Rightarrow $$ $$\\cos \\theta  = {1 \\over h}$$<br><br>and $$\\sin \\theta  = {1 \\over k}$$<br><br>$$ \\Rightarrow $$ $${\\cos ^2}\\theta  + {\\sin ^2}\\theta  = {1 \\over {{h^2}}} + {1 \\over {{k^2}}}$$<br><br>$$ \\Rightarrow 1 = {{{h^2} + {k^2}} \\over {{h^2}.{k^2}}}$$<br><br>$${h^2} + {k^2} = {h^2}{k^2}$$<br><br>$$ \\therefore $$ Mid-point of MN lie on the curve<br><br>$${x^2} + {y^2} = {x^2}{y^2}$$"
+        },
+        "hi": {
+          "direction": null,
+          "content": "मान लें कि S XY-समतल में वृत्त का परिभाषित समीकरण x<sup>2</sup> + y<sup>2</sup> = 4 है।<br><br>मान लें कि P S में एक बिंदु है जिसके दोनों निर्देशांक सकारात्मक हैं। P पर S का स्पर्शरेखा समन्वय अक्षों को M और N बिंदुओं पर प्रतिच्छेद करती है। तब रेखा खंड MN का मध्य बिंदु वक्र में स्थित होना चाहिए:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(x + y)<sup>2</sup> = 3xy"
+            },
+            {
+              "identifier": "B",
+              "content": "x<sup>2/3</sup> + y<sup>2/3</sup> = 2<sup>4/3</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "x<sup>2</sup> + y<sup>2</sup> = 2xy"
+            },
+            {
+              "identifier": "D",
+              "content": "x<sup>2</sup> + y<sup>2</sup> = x<sup>2</sup>y<sup>2</sup>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "हमारे पास है,<br><br>x<sup>2</sup> + y<sup>2</sup> = 4<br><br>माना P(2 cos$$\\theta $$, 2 sin$$\\theta $$) वृत्त पर एक बिंदु है।<br><br>$$ \\therefore $$ P पर स्पर्श रेखा है<br><br>2 cos$$\\theta $$x + 2 sin$$\\theta $$y = 4<br><br>$$ \\Rightarrow $$ x cos$$\\theta $$ + y sin$$\\theta $$ = 2<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx16mead/36137180-6145-4e9f-80ca-f6fd257f6e8a/a6159760-5a27-11ec-b374-b7a436fb4b4d/file-1kx16meae.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx16mead/36137180-6145-4e9f-80ca-f6fd257f6e8a/a6159760-5a27-11ec-b374-b7a436fb4b4d/file-1kx16meae.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 70vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Mathematics - Ellipse Question 10 Hindi Explanation\"><br>$$ \\therefore $$ $$M\\left( {{2 \\over {\\cos \\theta }},0} \\right)$$ और $$N\\left( {0,{2 \\over {\\sin \\theta }}} \\right)$$ पर निर्देशांक हैं<br><br>माना (h, k), MN का मध्य-बिंदु है<br><br>$$ \\therefore $$ $$h = {1 \\over {\\cos \\theta }}$$ और $$k = {1 \\over {\\sin \\theta }}$$<br><br>$$ \\Rightarrow $$ $$\\cos \\theta  = {1 \\over h}$$<br><br>और $$\\sin \\theta  = {1 \\over k}$$<br><br>$$ \\Rightarrow $$ $${\\cos ^2}\\theta  + {\\sin ^2}\\theta  = {1 \\over {{h^2}}} + {1 \\over {{k^2}}}$$<br><br>$$ \\Rightarrow 1 = {{{h^2} + {k^2}} \\over {{h^2}.{k^2}}}$$<br><br>$${h^2} + {k^2} = {h^2}{k^2}$$<br><br>$$ \\therefore $$ MN का मध्य-बिंदु वक्र पर स्थित है<br><br>$${x^2} + {y^2} = {x^2}{y^2}$$",
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "locus",
+      "type": "mcq",
+      "year": 2018,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let S be the circle in the XY-plane defined the equation x2 + y2 = 4.Let P be a point on the circle S with both coordinates being positive. Let the tangent to S at P intersect the coordinate axes at the points M and N. Then, the mid-point o..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "मान लें कि S XY-समतल में वृत्त का परिभाषित समीकरण x2 + y2 = 4 है।मान लें कि P S में एक बिंदु है जिसके दोनों निर्देशांक सकारात्मक हैं। P पर S का स्पर्शरेखा समन्वय अक्षों को M और N बिंदुओं पर प्रतिच्छेद करती है। तब रेखा खंड MN का मध्य बिंदु व..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "question_id": "hgekgxy89ylgfkco65vo",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2017 Paper 1 Offline",
+      "permalink": "for-how-many-values-of-p-the-circle-xsup2sup--ysup2-jee-advanced-mathematics-trigonometric-functions-and-equations-juyw6yzjxtob7flt",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "For how many values of p, the circle x<sup>2</sup> + y<sup>2</sup> + 2x + 4y $$-$$ p = 0 and the coordinate axes have exactly three common points?",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>We will consider three cases</p>\n<p>Case 1 : Circle passes through origin, that is, p = 0 the equation of circle becomes</p>\n<p>x<sup>2</sup> + y<sup>2</sup> + 2x + 4y = 0</p>\n<p>x = 0 $$\\Rightarrow$$ y<sup>2</sup> + 4y = 0 $$\\Rightarrow$$ y(y + 4) = 0</p>\n<p>y = 0, $$-$$4</p>\n<p>y = 0 $$\\Rightarrow$$ x<sup>2</sup> + 2x = 0 $$\\Rightarrow$$ x(x + 2) = 0 $$\\Rightarrow$$ x = 0, $$-$$ 2</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l02c4tmk/ac6e3c36-69e1-4355-b04a-869be251e9d1/a2edd3c0-962e-11ec-ad0b-13b5a0a5d166/file-1l02c4tml.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l02c4tmk/ac6e3c36-69e1-4355-b04a-869be251e9d1/a2edd3c0-962e-11ec-ad0b-13b5a0a5d166/file-1l02c4tml.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 1 Offline Mathematics - Ellipse Question 8 English Explanation 1\"></p>\n<p>Case 2 : Circle touches y axis then circle will intersect x axis at two distinct points</p>\n<p>Put y = 0 in equation of circle, we get</p>\n<p>x<sup>2</sup> + 2x $$-$$ p = 0</p>\n<p>Now from g<sup>2</sup> $$-$$ c &gt; 0 and f<sup>2</sup> $$-$$ c = 0</p>\n<p>$$\\Rightarrow$$ 1<sup>2</sup> $$-$$ ($$-$$p) &gt; 0 and 2<sup>2</sup> $$-$$ ($$-$$p) = 0</p>\n<p>1 + p &gt; 0 and 4 + p = 0</p>\n<p>p &gt; $$-$$1 and p = $$-$$ 4</p>\n<p>which is a contradiction. Also, for p = $$-$$4 we get</p>\n<p>x<sup>2</sup> $$-$$ 2x + 4 = 0</p>\n<p>$$x = {{2 \\pm \\sqrt {4 - 4 \\times 4} } \\over 2} = {{2 \\pm 2\\sqrt 3 i} \\over 2} = 1 \\pm \\sqrt 3 i$$</p>\n<p>They are imaginary roots.</p>\n<p>Therefore, Case 2 is not possible.</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l02c5k1z/5bd18ea7-9a60-41c5-a572-e6327b378a23/b7581d70-962e-11ec-ad0b-13b5a0a5d166/file-1l02c5k20.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l02c5k1z/5bd18ea7-9a60-41c5-a572-e6327b378a23/b7581d70-962e-11ec-ad0b-13b5a0a5d166/file-1l02c5k20.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 1 Offline Mathematics - Ellipse Question 8 English Explanation 2\"></p>\n<p>Case 3 : Circle touches x axis. Then the circle will intersect y axis at two distinct points.</p>\n<p>Substituting x = 0, we get</p>\n<p>y<sup>2</sup> + 4y $$-$$ p = 0</p>\n<p>Now, from g<sup>2</sup> $$-$$ C = 0 and f<sup>2</sup> $$-$$ C &gt; 0, we have</p>\n<p>1<sup>2</sup> $$-$$ ($$-$$p) = 0 and 2<sup>2</sup> = ($$-$$p) &gt; 0</p>\n<p>p = $$-$$1 and 4 + p &gt; 0 $$\\Rightarrow$$ p &gt; $$-$$4</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l02c6cwg/e6afe92e-1d73-4bd5-b939-383c843910c7/cda09d00-962e-11ec-ad0b-13b5a0a5d166/file-1l02c6cwh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l02c6cwg/e6afe92e-1d73-4bd5-b939-383c843910c7/cda09d00-962e-11ec-ad0b-13b5a0a5d166/file-1l02c6cwh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 1 Offline Mathematics - Ellipse Question 8 English Explanation 3\"></p>\n<p>Therefore, the equation of circle becomes</p>\n<p>y<sup>2</sup> + 4y + 1 = 0</p>\n<p>$$ \\Rightarrow y = {{ - 4 \\pm \\sqrt {16 - 4} } \\over 2} = {{ - 4 \\pm \\sqrt {12} } \\over 2}$$</p>\n<p>$$y = {{ - 4 \\pm \\sqrt {4 \\times 3} } \\over 2}$$</p>\n<p>$$ = {{ - 4 \\pm 2\\sqrt 3 } \\over 2} =  - 2 \\pm \\sqrt 3 $$ real values</p>\n<p>Thus, Case 3 is possible.</p>\n<p>Thus, for p = 0 and p = $$-$$1 the circle and coordinates have exactly three points in common. Hence, the correct answer is 2.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "कितनी $$p$$ मूल्यों के लिए, वृत्त $$x^2 + y^2 + 2x + 4y - p = 0$$ और निर्देशांक अक्षों के साथ ठीक तीन सामान्य बिंदु होते हैं?",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "position-of-point-and-chord-joining-of-two-points",
+      "type": "integer",
+      "year": 2017,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "For how many values of p, the circle x2 + y2 + 2x + 4y $$-$$ p = 0 and the coordinate axes have exactly three common points?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "कितनी $$p$$ मूल्यों के लिए, वृत्त $$x^2 + y^2 + 2x + 4y - p = 0$$ और निर्देशांक अक्षों के साथ ठीक तीन सामान्य बिंदु होते हैं?"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "gja887xoxcr4a820kyol",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $${F_1}\\left( {{x_1},0} \\right)$$ and $${F_2}\\left( {{x_2},0} \\right)$$ for $${{x_1} &lt; 0}$$ and $${{x_2} &gt; 0}$$, be the foci of the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$. Suppose a parabola having vertex at the origin and focus at $${F_2}$$ intersects the ellipse at point $$M$$ in the first quadrant and at point $$N$$ in the fourth quadrant. \n<br><br><p>The orthocentre of the triangle $${F_1}MN$$ is </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( { - {9 \\over {10}},0} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( {  {2 \\over {3}},0} \\right)$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( {  {9 \\over {10}},0} \\right)$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left( {{2 \\over 3},\\sqrt 6 } \\right)$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>F<sub>1</sub>(x, 0) and F<sub>2</sub>(x<sub>2</sub>, 0) are the foci of the ellipse:</p>\n<p>$${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$</p>\n<p>Therefore, a<sup>2</sup> = 9 and b<sup>2</sup> = 8.</p>\n<p>$${b^2} = {a^2}(1 - {e^2})$$</p>\n<p>$$1 - {e^2} = {8 \\over 9} \\Rightarrow {e^2} = 1 - {8 \\over 9} = {1 \\over 9} \\Rightarrow e = {1 \\over 3}$$</p>\n<p>The focus is</p>\n<p>$${F_1}\\left( { - 3 \\times {1 \\over 3},0} \\right)$$ and $${F_2}\\left( {3 \\times {1 \\over 3},0} \\right)$$</p>\n<p>That is, F<sub>1</sub>($$-$$1, 0) and F<sub>2</sub>(1, 0).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0ri1rwr/6eca64eb-8b1f-4b48-91b6-8520b36e0cdc/5d2facc0-a405-11ec-9e3c-d721fdc6a078/file-1l0ri1rws.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0ri1rwr/6eca64eb-8b1f-4b48-91b6-8520b36e0cdc/5d2facc0-a405-11ec-9e3c-d721fdc6a078/file-1l0ri1rws.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Mathematics - Ellipse Question 15 English Explanation 1\"></p>\n<p>The equation of parabola is</p>\n<p>$${y^2} = 4(O{F_2})x$$</p>\n<p>$${y^2} = 4x(O{F_2} = 1)$$</p>\n<p>The point of intersection of ellipse and parabola is</p>\n<p>$${{{x^2}} \\over 9} + {{4x} \\over 8} = 1 \\Rightarrow {{{x^2}} \\over 9} + {x \\over 2} = 1$$</p>\n<p>$$ \\Rightarrow 2{x^2} + 9x - 18 = 0$$</p>\n<p>$$ \\Rightarrow 2{x^2} + 12x - 3x - 18 = 0$$</p>\n<p>$$ \\Rightarrow 2x(x + 6) - 3(x + 6) = 0$$</p>\n<p>$$ \\Rightarrow x = {3 \\over 2}$$ (x $$-$$6 is rejected)</p>\n<p>Now, $${y^2}(4){3 \\over 2} = 6$$</p>\n<p>$$y =  \\pm \\sqrt 6 $$</p>\n<p>That is, the points M and N are, respectively, $$M\\left( {{3 \\over 2},\\sqrt 6 } \\right)$$ and $$N\\left( {{3 \\over 2}, - \\sqrt 6 } \\right)$$.</p>\n<p>Let the orthocenter be (h, k).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0ri2j0n/faa3d707-d5b5-4f3f-9d9c-8e2f2bbd06fa/72203d70-a405-11ec-9e3c-d721fdc6a078/file-1l0ri2j0o.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0ri2j0n/faa3d707-d5b5-4f3f-9d9c-8e2f2bbd06fa/72203d70-a405-11ec-9e3c-d721fdc6a078/file-1l0ri2j0o.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Mathematics - Ellipse Question 15 English Explanation 2\"></p>\n<p>The slope of $$OM = {{k - \\sqrt 6 } \\over {h - (3/2)}}$$</p>\n<p>The slope of $$ON = {{\\sqrt 6 } \\over { - 1 - (3/2)}} = {{ - 2\\sqrt 6 } \\over 5}$$</p>\n<p>Now, $$\\left( {{{k - \\sqrt 6 } \\over {h - (3/2)}}} \\right)\\left( {{{ - 2\\sqrt 6 } \\over 5}} \\right) =  - 1$$</p>\n<p>$$2\\sqrt 6 k - 12 = 5h - {{15} \\over 2}$$</p>\n<p>$$5h - 2\\sqrt 6 k = {{15} \\over 2} - 12 = {{ - 9} \\over 2}$$</p>\n<p>The slope of $$ON = {{k + \\sqrt 6 } \\over {h - (3/2)}}$$</p>\n<p>The slope of $${F_1}M = {{\\sqrt 6 } \\over {1 + (3/2)}} = {{2\\sqrt 6 } \\over 5}$$</p>\n<p>$${{k + \\sqrt 6 } \\over {h - (3/2)}} \\times {{2\\sqrt 6 } \\over 5} =  - 1$$</p>\n<p>$$2\\sqrt 6 k + 12 =  - 5h + {{15} \\over 2}$$</p>\n<p>$$5h + 2\\sqrt 6 k = {{15} \\over 2} - 12 = {{ - 9} \\over 2}$$</p>\n<p>$$5h + 2\\sqrt 6 k = {{ - 9} \\over 2}$$ ....... (1)</p>\n<p>$$5h - 2\\sqrt 6 k = {{ - 9} \\over 2}$$ ........ (2)</p>\n<p>Solving Eqs. (1) and (2), we get</p>\n<p>$$10h =  - 9 \\Rightarrow h = {{ - 9} \\over {10}}$$ and k = 0</p>\n<p>Hence, the orthocentre of the triangle F<sub>1</sub>MN is $$\\left( {{{ - 9} \\over {10}},0} \\right)$$.</p>"
+        },
+        "hi": {
+          "content": "मान लें $${F_1}\\left( {{x_1},0} \\right)$$ और $${F_2}\\left( {{x_2},0} \\right)$$ जहाँ $${{x_1} &lt; 0}$$ और $${{x_2} &gt; 0}$$, दीर्घवृत्त के केंद्र $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$ के नाभिक हैं। मान लें कि एक परवलय जिसका शीर्ष मूल बिंदु पर है और नाभिक $${F_2}$$ है, दीर्घवृत्त को पहले चतुर्थांश में बिंदु $$M$$ और चौथे चतुर्थांश में बिंदु $$N$$ पर प्रतिच्छेदित करता है। \n<br><br><p>त्रिभुज $${F_1}MN$$ का लम्बकेंद्र है </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( { - {9 \\over {10}},0} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( {  {2 \\over {3}},0} \\right)$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( {  {9 \\over {10}},0} \\right)$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left( {{2 \\over 3},\\sqrt 6 } \\right)$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "let-f1left-x10-right-and-f2left-x20-right-for-x1-0-and-x2-0-jee-advanced-2016-marks-4-o5lrt1pzrq3u0sal.htm",
+      "timeAllotted": 200000,
+      "topic": "position-of-point-and-chord-joining-of-two-points",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let $${F_1}\\left( {{x_1},0} \\right)$$ and $${F_2}\\left( {{x_2},0} \\right)$$ for $${{x_1} < 0}$$ and $${{x_2} > 0}$$, be the foci of the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$. Suppose a parabola having vertex at the origin an..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "मान लें $${F_1}\\left( {{x_1},0} \\right)$$ और $${F_2}\\left( {{x_2},0} \\right)$$ जहाँ $${{x_1} < 0}$$ और $${{x_2} > 0}$$, दीर्घवृत्त के केंद्र $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$ के नाभिक हैं। मान लें कि एक परवलय जिसका शीर्ष मूल बिं..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3ewz7w08uhq5e7tmv7k3",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $${F_1}\\left( {{x_1},0} \\right)$$ and $${F_2}\\left( {{x_2},0} \\right)$$ for $${{x_1} &lt; 0}$$ and $${{x_2} &gt; 0}$$, be the foci of the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$. Suppose a parabola having vertex at the origin and focus at $${F_2}$$ intersects the ellipse at point $$M$$ in the first quadrant and at point $$N$$ in the fourth quadrant. \n<br><br><p>If the tangents to the ellipse at $$M$$ and $$N$$ meet at $$R$$ and the normal to the parabola at $$M$$ meets the $$x$$-axis at $$Q$$, then the ratio of area of the triangle $$MQR$$ to area of the quadrilateral $$M{F_1}N{F_2}$$is </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$3:4$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$4:5$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$5:8$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$2:3$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Equation of tangent at M(3/2, $$\\sqrt6$$) to $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$ is</p>\n<p>$${3 \\over 2}.{x \\over 9} + \\sqrt 6 .{y \\over 8} = 1$$ ....... (i)</p>\n<p>which intersect X-axis at (6, 0).</p>\n<p>Also, equation of tangent at N(3/2, $$-$$$$\\sqrt6$$) is</p>\n<p>$${3 \\over 2}.{x \\over 9} - \\sqrt 6 .{y \\over 8} = 1$$ ....... (ii)</p>\n<p>Eqs. (i) and (ii) intersect on X-axis at R(6, 0). ........ (iii)</p>\n<p>Also, normal at $$M(3/2,\\sqrt 6 )$$ is</p>\n<p>$$y - \\sqrt 6  = {{ - \\sqrt 6 } \\over 2}\\left( {x - {3 \\over 2}} \\right)$$</p>\n<p>On solving with y = 0, we get Q(7/2, 0) ....... (iv)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0ri61s9/b9935b25-125a-4f6f-b5a0-58071128d196/d40ce790-a405-11ec-9e3c-d721fdc6a078/file-1l0ri61sa.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0ri61s9/b9935b25-125a-4f6f-b5a0-58071128d196/d40ce790-a405-11ec-9e3c-d721fdc6a078/file-1l0ri61sa.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Mathematics - Ellipse Question 14 English Explanation\"></p>\n<p>The area of MQR is</p>\n<p>$$\\left| {{1 \\over 2}} \\right|\\left| {\\matrix{\n   {3/2} &amp; {\\sqrt 6 } &amp; 1  \\cr \n   6 &amp; 0 &amp; 1  \\cr \n   {7/2} &amp; 0 &amp; 1  \\cr \n\n } } \\right| = \\left| {{{\\sqrt 6 } \\over 2}\\left( {6 - {7 \\over 2}} \\right)} \\right| = {{5\\sqrt 6 } \\over 4}$$</p>\n<p>The area of the quadrilateral MF<sub>1</sub>NF<sub>2</sub> is</p>\n<p>$$2(\\Delta {m_1}{F_1}{F_2}) = 2\\sqrt 6 $$</p>\n<p>and the required ratio is</p>\n<p>$${{5\\sqrt 6 } \\over {4\\,.\\,2\\sqrt 6 }} = {5 \\over 8}$$</p>"
+        },
+        "hi": {
+          "content": "मान लें $${F_1}\\left( {{x_1},0} \\right)$$ और $${F_2}\\left( {{x_2},0} \\right)$$ जहां $${{x_1} < 0}$$ और $${{x_2} > 0}$$, दीर्घवृत्त के फोकस हैं $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$। मान लें कि एक परबोला जिसकी शीर्ष बिंदु बीच पर फिर $${F_2}$$ पर केंद्रित है, पहले चतुर्वांस में बिंदु $$M$$ पर और चौथे चतुर्वांस में बिंदु $$N$$ पर दीर्घवृत्त को काटता है। \n<br><br><p>यदि दीर्घवृत्त के बिंदु $$M$$ और $$N$$ पर स्पर्श रेखाएँ $$R$$ पर मिलती हैं और परबोला की समानक $$M$$ पर $$x$$-अक्ष पर $$Q$$ से मिलती हैं, तो त्रिभुज $$MQR$$ का क्षेत्रफल और चतुर्भुज $$M{F_1}N{F_2}$$ का क्षेत्रफल का अनुपात है </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$3:4$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$4:5$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$5:8$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$2:3$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "let-f1left-x10-right-and-f2left-x20-right-for-x1-0-and-x2-0-jee-advanced-2016-marks-4-f1pg5mfxzuomjuot.htm",
+      "timeAllotted": 200000,
+      "topic": "tangent-to-ellipse",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let $${F_1}\\left( {{x_1},0} \\right)$$ and $${F_2}\\left( {{x_2},0} \\right)$$ for $${{x_1} < 0}$$ and $${{x_2} > 0}$$, be the foci of the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$. Suppose a parabola having vertex at the origin an..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "मान लें $${F_1}\\left( {{x_1},0} \\right)$$ और $${F_2}\\left( {{x_2},0} \\right)$$ जहां $${{x_1} < 0}$$ और $${{x_2} > 0}$$, दीर्घवृत्त के फोकस हैं $${{{x^2}} \\over 9} + {{{y^2}} \\over 8} = 1$$। मान लें कि एक परबोला जिसकी शीर्ष बिंदु बीच पर फिर ..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "c8jab071magxfdpy8a2h",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $${E_1}$$ and $${E_2}$$ be two ellipses whose centres are at the origin. The major axes of $${E_1}$$ and $${E_2}$$ lie along the $$x$$-axis and the $$y$$-axis, respectively.  Let $$S$$ be the circle $${x^2} + {\\left( {y - 1} \\right)^2} = 2$$. The straight line $$x+y=3$$ touches the curves $$S$$, $${E_1}$$ and $${E_2}$$ at $$P, Q$$ and $$R$$ respectively. Suppose that $$PQ = PR = {{2\\sqrt 2 } \\over 3}$$. If $${e_1}$$ and $${e_2}$$ are the eccentricities of $${E_1}$$ and $${E_2}$$, respectively, then the correct expression(s) is (are) ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathop e\\nolimits_1^2  + \\mathop e\\nolimits_2^2  = {{43} \\over {40}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${e_1}{e_2} = {{\\sqrt 7 } \\over {2\\sqrt {10} }}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left| {\\mathop e\\nolimits_1^2  + \\mathop e\\nolimits_2^2 } \\right| = {5 \\over 8}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${e_1}{e_2} = {{\\sqrt 3 } \\over 4}$$ "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Here, $${E_1}:{{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1,\\,(a &gt; b)$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0vya8xr/f7e8d491-9914-4ae5-a7bd-93d27f4f2ff1/fd79cde0-a677-11ec-b657-f36cdb86382c/file-1l0vya8xs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0vya8xr/f7e8d491-9914-4ae5-a7bd-93d27f4f2ff1/fd79cde0-a677-11ec-b657-f36cdb86382c/file-1l0vya8xs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Mathematics - Ellipse Question 28 English Explanation\"></p>\n<p>$${E_2}:{{{x^2}} \\over {{c^2}}} + {{{y^2}} \\over {{d^2}}} = 1,\\,(c &lt; d)$$</p>\n<p>and $$S:{x^2} + {(y - 1)^2} = 2$$</p>\n<p>as tangent to E<sub>1</sub>, E<sub>2</sub> and S is $$x + y = 3$$.</p>\n<p>Let the point of contact of tangent be $$({x_1},{y_1})$$ to S.</p>\n<p>$$\\therefore$$ $$x\\,.\\,{x_1} + y\\,.\\,{y_1} - (y + {y_1}) + 1 = 2$$</p>\n<p>or $$x{x_1} + y{y_1} - y = (1 + {y_1})$$, same as $$x + y = 3$$.</p>\n<p>$$ \\Rightarrow {{{x_1}} \\over 1} = {{{y_1} - 1} \\over 1} = {{1 + {y_1}} \\over 3}$$</p>\n<p>i.e. $${x_1} = 1$$ and $${y_1} = 2$$</p>\n<p>$$\\therefore$$ $$P = (1,2)$$</p>\n<p>Since, $$PR = PQ = {{2\\sqrt 2 } \\over 3}$$. Thus, by parametric form,</p>\n<p>$${{x - 1} \\over { - 1/\\sqrt 2 }} = {{y - 2} \\over {1/\\sqrt 2 }} =  \\pm {{2\\sqrt 2 } \\over 3}$$</p>\n<p>$$ \\Rightarrow \\left( {x = {5 \\over 3},y = {4 \\over 3}} \\right)$$</p>\n<p>and $$\\left( {x = {1 \\over 3},y = {8 \\over 3}} \\right)$$</p>\n<p>$$\\therefore$$ $$Q = \\left( {{5 \\over 3},{4 \\over 3}} \\right)$$ and $$R = \\left( {{1 \\over 3},{8 \\over 3}} \\right)$$</p>\n<p>Now, equation of tangent at Q on ellipse E<sub>1</sub> is</p>\n<p>$${{x\\,.\\,5} \\over {{a^2}\\,.\\,3}} + {{y\\,.\\,4} \\over {{b^2}\\,.\\,3}} = 1$$</p>\n<p>On comparing with x + y = 3, we get</p>\n<p>$${a^2} = 5$$ and $${b^2} = 4$$</p>\n<p>$$\\therefore$$ $$e_1^2 = 1 - {{{b^2}} \\over {{a^2}}} = 1 - {4 \\over 5} = {1 \\over 5}$$ ..... (i)</p>\n<p>Also, equation of tangent at R on ellipse E<sub>2</sub> is</p>\n<p>$${{x\\,.\\,1} \\over {{a^2}\\,.\\,3}} + {{y\\,.\\,8} \\over {{b^2}\\,.\\,3}} = 1$$</p>\n<p>On comparing with x + y = 3, we get</p>\n<p>$${a^2} = 1,\\,{b^2} = 8$$</p>\n<p>$$\\therefore$$ $$e_2^2 = 1 - {{{a^2}} \\over {{b^2}}} = 1 - {1 \\over 8} = {7 \\over 8}$$ ...... (ii)</p>\n<p>Now, $$e_1^2\\,.\\,e_2^2 = {7 \\over {40}} \\Rightarrow {e_1}{e_2} = {{\\sqrt 7 } \\over {2\\sqrt {10} }}$$</p>\n<p>and $$e_1^2 + e_2^2 = {1 \\over 5} + {7 \\over 8} = {{43} \\over {40}}$$</p>\n<p>Also, $$\\left| {e_1^2 - e_2^2} \\right| = \\left| {{1 \\over 5} - {7 \\over 8}} \\right| = {{27} \\over {40}}$$</p>"
+        }
+      },
+      "permalink": "let-e1-and-e2-be-two-ellipses-whose-centres-are-at-the-origi-jee-advanced-2015-marks-4-ka55ecmzcxro6z0d.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "topic": "tangent-to-ellipse",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let $${E_1}$$ and $${E_2}$$ be two ellipses whose centres are at the origin. The major axes of $${E_1}$$ and $${E_2}$$ lie along the $$x$$-axis and the $$y$$-axis, respectively.  Let $$S$$ be the circle $${x^2} + {\\left( {y - 1} \\right)^2} ..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3p0wzlazqk4ojhxn6ycf",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The common tangents to the circle $${x^2} + {y^2} = 2$$ and the parabola $${y^2} = 8x$$ touch the circle at the points $$P, Q$$ and the parabola at the points $$R$$, $$S$$. Then the area of the quadrilateral $$PQRS$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$3$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$6$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$9$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$15$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Given, a circle $$x^2+y^2=2$$ and a parabola $$y^2=8 x$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzqkmotz/38d61776-307d-4307-bee4-3d21bc172c53/3eabd470-586e-11ef-9c29-0db97be36189/file-jaoe38c1lzqkmou0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzqkmotz/38d61776-307d-4307-bee4-3d21bc172c53/3eabd470-586e-11ef-9c29-0db97be36189/file-jaoe38c1lzqkmou0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2014 Paper 2 Offline Mathematics - Ellipse Question 35 English Explanation 1\"></p>\n<p>Let $$P R$$ and $$Q R$$ are common tangents of given circle and parabola intersect at A.</p>\n<p>Let $$\\mathrm{R}=\\left(2 t^2, 4 t\\right)$$ and $$S=\\left(2 t^2,-4 t\\right)$$</p>\n<p>Equation of tangent of parabola</p>\n<p>$$y^2=8 x \\text { at } \\mathrm{R}\\left(2 t^2, 4 t\\right) \\text { is } t y=x+2 t^2$$</p>\n<p>Here, $$A$$ is the point of intersection of tangent</p>\n<p>$$\\begin{aligned}\nt y &amp; =x+2 t^2 \\text { and } X \\text {-axis } \\\\\n\\Rightarrow \\mathrm{A} &amp; =\\left(-2 t^2, 0\\right)\n\\end{aligned}$$</p>\n<p>Here, $$t y=x+2 t^2$$ also touches the circle at P</p>\n<p>$$\\begin{array}{lr}\n\\therefore &amp; \\sqrt{2}=\\frac{\\left|0-t \\times 0+2 t^2\\right|}{\\sqrt{1^2+(-t)^2}} \\\\\n\\Rightarrow &amp; \\sqrt{2} \\cdot \\sqrt{1+t^2}=2 t^2 \\\\\n\\Rightarrow &amp; 2+2 t^2=4 t^4 \\\\\n\\Rightarrow &amp; 2 t^4-t^2-1=0 \\\\\n\\Rightarrow &amp; 2 t^4-2 t^2+t^2-1=0 \\\\\n\\Rightarrow &amp; \\left(2 t^2+1\\right)\\left(t^2-1\\right)=0 \\\\\n\\Rightarrow &amp; t^2=\\frac{-1}{2}, 1\n\\end{array}$$</p>\n<p>$$\\begin{array}{ll}\n\\Rightarrow t^2=1 \\left(t^2=-\\frac{1}{2} \\text { is impossible }\\right) \\\\\n\\Rightarrow t = \\pm 1\n\\end{array}$$</p>\n<p>$$\\therefore \\quad \\mathrm{R}=(2,4), \\mathrm{S}=(2,-4) \\text { and } \\mathrm{A}=(-2,0)$$</p>\n<p>Now, the equation of chord PQ w.r.t. point $$(-2,0)$$ is</p>\n<p>$$\\begin{aligned}\n\\Rightarrow &amp; &amp; -2 \\cdot x+0 \\cdot y-2 &amp; =0 \\\\\n\\Rightarrow &amp; &amp; x &amp; =-1\n\\end{aligned}$$</p>\n<p>Here, P and Q are the point of intersection of circle $$x^2+y^2=2$$ and the line $$x=-1$$</p>\n<p>$$\\begin{aligned}\n&amp; \\therefore &amp; (-1)^2+y^2 &amp; =2 \\\\\n\\Rightarrow &amp; &amp; y &amp; = \\pm 1 \\\\\n\\Rightarrow &amp; &amp; P &amp; =(-1,1) \\text { and } \\mathrm{Q}=(-1,-1)\n\\end{aligned}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzqksrnx/3fdf7a11-3174-4595-ab5c-661a38fb6fa7/e7b6abd0-586e-11ef-9e64-d9c958c457ed/file-jaoe38c1lzqksrny.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzqksrnx/3fdf7a11-3174-4595-ab5c-661a38fb6fa7/e7b6abd0-586e-11ef-9e64-d9c958c457ed/file-jaoe38c1lzqksrny.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2014 Paper 2 Offline Mathematics - Ellipse Question 35 English Explanation 2\"></p><p>Area of quadrilateral $$\\mathrm{PQRS}=\\frac{1}{2} \\times 3 \\times(2+8) =15$$ Sq. units.</p>\n<p>Hint:</p>\n<p>(i) The parametric point of the parabola $$y^2=4 a x$$ is $$\\left(a t^2, 2 a t\\right)$$</p>\n<p>(ii) Equation of tangent of the parabola $$y^2=4 a x$$ at $$\\left(a t^2, 2 a t\\right)$$ is $$t y=x+a t^2$$</p>\n<p>(iii) If a line $$a x+b y+c=0$$ touches the circle $$\\left(x-x_1\\right)^2+\\left(y-y_1\\right)^2=R^2$$, then</p>\n<p>$$\\mathrm{R}=\\frac{\\left|a x_1+b y_1+\\mathrm{C}\\right|}{\\sqrt{a^2+b^2}}$$</p>"
+        }
+      },
+      "permalink": "the-common-tangents-to-the-circle-x2-y2-2-and-the-parabola-y-jee-advanced-2014-marks-3-i8uo4tyncjaxl43h.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "topic": "common-tangent",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "The common tangents to the circle $${x^2} + {y^2} = 2$$ and the parabola $${y^2} = 8x$$ touch the circle at the points $$P, Q$$ and the parabola at the points $$R$$, $$S$$. Then the area of the quadrilateral $$PQRS$$ is "
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "104bnd6my5estjr52r3s",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A vertical line passing through the point $$(h,0)$$ intersects the ellipse $${{{x^2}} \\over 4} + {{{y^2}} \\over 3} = 1$$ at the points $$P$$ and $$Q$$. Let the tangents to the ellipse at $$P$$ and $$Q$$ meet at the point $$R$$. If  $$\\Delta \\left( h \\right)$$$$=$$ area of the triangle $$PQR$$, $${{\\Delta _1}}$$ $$ = \\mathop {\\max }\\limits_{1/2 \\le h \\le 1} \\Delta \\left( h \\right)$$ and $${{\\Delta _2}}$$ $$ = \\mathop {\\min }\\limits_{1/2 \\le h \\le 1} \\Delta \\left( h \\right)$$, then $${8 \\over {\\sqrt 5 }}{\\Delta _1} - 8{\\Delta _2} = $$",
+          "options": [],
+          "correct_options": [],
+          "answer": "9",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzsmvvxx/5546e691-3d32-4303-bd7c-00a092562eca/a200aa50-5990-11ef-95a9-196e6a75cdc0/file-jaoe38c1lzsmvvxy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzsmvvxx/5546e691-3d32-4303-bd7c-00a092562eca/a200aa50-5990-11ef-95a9-196e6a75cdc0/file-jaoe38c1lzsmvvxy.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2013 Paper 1 Offline Mathematics - Ellipse Question 13 English Explanation\"></p>\n<p>A vertical line passing through $$(h, 0)$$ is $$x=h$$ and this vertical line intersect the ellipse $$\\frac{x^2}{4}+\\frac{y^2}{3}=1$$ at P and Q.</p>\n<p>Put $$x=h$$ in the ellipse $$\\frac{x^2}{4}+\\frac{y^2}{3}=1$$</p>\n<p>$$\\begin{aligned}\n&amp; \\Rightarrow \\frac{h^2}{4}+\\frac{y^2}{3}=1 \\\\\n&amp; \\Rightarrow y= \\pm \\sqrt{3-\\frac{3 h^2}{4}}\n\\end{aligned}$$</p>\n<p>So $$\\mathrm{P}=\\left(h, \\sqrt{3-\\frac{3 h^2}{4}}\\right)$$ and $$\\mathrm{Q}=\\left(h,-\\sqrt{3-\\frac{3 h^2}{4}}\\right)$$</p>\n<p>Equation of tangent of ellipse $$\\frac{x^2}{4}+\\frac{y^2}{3}=1$$ at P is</p>\n<p>$$\\frac{h x}{4}+\\frac{y}{3} \\sqrt{3-\\frac{3 h^2}{4}}=1 \\quad \\text{... (i)}$$</p>\n<p>Equation of tangent of ellipse $$\\frac{x^2}{4}+\\frac{y^2}{3}=1$$ at Q is</p>\n<p>$$\\frac{h x}{4}-\\frac{y}{3} \\sqrt{3-\\frac{3 h^2}{4}}=1 \\quad \\text{... (ii)}$$</p>\n<p>Given, $$R$$ is the point of intersection of tangents at $$P$$ and at $$Q$$.</p>\n<p>On solving the equations (i) and (ii)</p>\n<p>$$\\Rightarrow \\quad \\mathrm{R}=\\left(\\frac{8}{h}, 0\\right)$$</p>\n<p>Given, $$\\Delta(h)=$$ Area of $$\\Delta \\mathrm{PQR}$$</p>\n<p>$$\\begin{aligned}\n\\Rightarrow \\quad \\Delta(h) &amp; =\\frac{1}{2}\\left(\\frac{8}{h}-h\\right) \\cdot 2 \\sqrt{3-\\frac{3 h^2}{4}} \\\\\n\\Rightarrow \\quad \\Delta(h) &amp; =\\frac{\\sqrt{3}}{2}\\left(\\frac{8}{h}-h\\right) \\sqrt{4-h^2} \\\\\n\\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}= &amp; \\frac{\\sqrt{3}}{2}\\left(\\frac{-8}{h^2}-1\\right) \\sqrt{4-h^2} +\\frac{\\sqrt{3}}{2}\\left(\\frac{8}{h}-h\\right) \\cdot \\frac{(-2 h)}{2 \\sqrt{4-h^2}}\n\\end{aligned}$$</p>\n<p>$$\\begin{aligned}\n\\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}= &amp; \\frac{-\\sqrt{3}}{2 \\sqrt{4-h^2}} \\\\\n&amp; {\\left[\\left(\\frac{8}{h^2}+1\\right)\\left(4-h^2\\right)+\\left(\\frac{8}{h}-h\\right) h\\right] }\n\\end{aligned}$$</p>\n<p>$$\\begin{aligned}\n&amp; \\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}=\\frac{-\\sqrt{3}}{2 \\sqrt{4-h^2}}\\left[\\frac{32}{h^2}-8+4-\\hbar^2+8-h^2\\right] \\\\\n&amp; \\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}=\\frac{-\\sqrt{3}}{2 \\sqrt{4-h^2}}\\left[-2 h^2+\\frac{32}{h^2}+4\\right] \\\\\n&amp; \\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}=\\frac{\\sqrt{3}}{h^2 \\sqrt{4-h^2}}\\left[h^4-2 h^2-16\\right] \\\\\n&amp; \\Rightarrow \\quad \\frac{d \\Delta(h)}{d h}=\\frac{\\sqrt{3}}{h^2 \\sqrt{4-h^2}}\\left[\\left(h^2-1\\right)^2-17\\right]\n\\end{aligned}$$</p>\n<p>For, $$\\frac{1}{2} \\leq h \\leq 1, \\quad \\frac{d \\Delta(h)}{d h}&lt;0$$</p>\n<p>$$\\therefore \\quad \\Delta(h)$$ is a decreasing function for $$x \\in\\left[\\frac{1}{2}, 1\\right]$$</p>\n<p>$$\\Rightarrow \\Delta(1) \\leq \\Delta(h) \\leq \\Delta\\left(\\frac{1}{2}\\right)$$</p>\n<p>Given $$\\quad \\Delta_1=\\max _{\\frac{1}{2} \\leq h \\leq 1} \\Delta(h)$$ and</p>\n<p>$$\\begin{aligned}\n\\Delta_2 &amp; =\\min _{\\frac{1}{2} \\leq h \\leq 1} \\Delta(h) \\\\\n\\Rightarrow \\quad \\Delta_1 &amp; =\\Delta\\left(\\frac{1}{2}\\right) \\text { and } \\Delta_2=\\Delta(1) \\\\\n\\Rightarrow \\quad \\Delta_1 &amp; =\\frac{\\sqrt{3}}{2}\\left(16-\\frac{1}{2}\\right) \\sqrt{4-\\frac{1}{4}} \\text { and } \\\\\n\\Delta_2 &amp; =\\frac{\\sqrt{3}}{2}(8-1) \\sqrt{4-1} \\\\\n\\Rightarrow \\quad \\Delta_1 &amp; =\\frac{\\sqrt{3}}{2} \\times \\frac{31}{2} \\times \\frac{\\sqrt{5} \\cdot \\sqrt{3}}{2} \\text { and } \\Delta_2=\\frac{21}{2} \\\\\n\\Rightarrow \\quad \\frac{8 \\Delta_1}{\\sqrt{5}} &amp; =93 \\text { and } 8 \\Delta_2=84\n\\end{aligned}$$</p>\n<p>$$\\Rightarrow \\frac{8 \\Delta_1}{\\sqrt{5}}-8 \\Delta_2=9$$</p>\n<p>Hints: </p>\n<p>(i) If $$f(x)$$ is a decreasing function in $$x \\in[a, b]$$, then $$f(b) \\leq f(x) \\leq f(a)$$</p>\n<p>(ii) If $$\\left(x_1, y_1\\right)$$ is a point on the curve $$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$$, then equation of tangent at $$\\left(x_1, y_1\\right)$$ is $$\\frac{x x_1}{a^2}+\\frac{y y_1}{b^2}=1$$.</p>"
+        }
+      },
+      "permalink": "a-vertical-line-passing-through-the-point-h0-intersects-the-jee-advanced-2013-marks-4-zlkuuyd5gjlqgiyz.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "A vertical line passing through the point $$(h,0)$$ intersects the ellipse $${{{x^2}} \\over 4} + {{{y^2}} \\over 3} = 1$$ at the points $$P$$ and $$Q$$. Let the tangents to the ellipse at $$P$$ and $$Q$$ meet at the point $$R$$. If  $$\\Delta..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "5cnqmxpvbwsrh2d1q0rk",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2012,
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The ellipse $${E_1}:{{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ is inscribed in a rectangle $$R$$ whose sides are parallel to the coordinate axes. Another ellipse $${E_2}$$ passing through the point $$(0, 4)$$ circumscribes the rectangle $$R$$. The eccentricity of the ellipse $${E_2}$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{\\sqrt 2 } \\over 2}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{\\sqrt 3 } \\over 2}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{1 \\over 2}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{3 \\over 4}}$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzuwjsyy/98bdc2b5-d848-42bc-9d12-07c1aa892073/fe967ca0-5acf-11ef-8c7b-af8cf9e332e1/file-jaoe38c1lzuwjsyz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzuwjsyy/98bdc2b5-d848-42bc-9d12-07c1aa892073/fe967ca0-5acf-11ef-8c7b-af8cf9e332e1/file-jaoe38c1lzuwjsyz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2012 Paper 1 Offline Mathematics - Ellipse Question 36 English Explanation\"></p><p>Let the equation of ellipse $$\\mathrm{E}_2$$ is $$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$$.</p>\n<p>Now, it is given that $$\\mathrm{E}_2$$ passes through $$(0,4)$$</p>\n<p>$$\\begin{aligned}\n\\Rightarrow \\quad \\frac{0^2}{a^2}+\\frac{4^2}{b^2} &amp; =1 \\\\\nb^2 &amp; =16\n\\end{aligned}$$</p>\n<p>Also, $$\\mathrm{E}_2$$ passes through $$( \\pm 3, \\pm 2)$$</p>\n<p>$$\\begin{aligned}\n&amp; \\Rightarrow \\quad \\frac{3^2}{a^2}+\\frac{2^2}{b^2}=1 \\\\\n&amp; \\Rightarrow \\quad \\frac{9}{a^2}+\\frac{4}{16}=1 \\\\\n&amp; \\Rightarrow \\quad \\frac{9}{a^2}=\\frac{3}{4} \\\\\n&amp; \\Rightarrow \\quad a^2=12 \\\\\n&amp; \\text { Now, } \\quad b^2&gt;a^2 \\\\\n&amp; \\Rightarrow \\quad b&gt;a \\\\\n&amp; \\therefore \\quad a^2=b^2\\left(1-e^2\\right) \\\\\n&amp; \\Rightarrow \\quad 12=16\\left(1-e^2\\right) \\\\\n&amp; \\Rightarrow \\quad \\frac{12}{16}=1-e^2 \\\\\n&amp; \\Rightarrow \\quad e^2=1-\\frac{3}{4} \\\\\n&amp; \\Rightarrow \\quad e^2=\\frac{1}{4} \\\\\n&amp; \\Rightarrow \\quad e=\\frac{1}{2} \\\\\n\\end{aligned}$$</p>"
+        }
+      },
+      "permalink": "the-ellipse-e1x2-over-9-y2-over-4-1-is-inscribed-in-a-rectan-jee-advanced-2012-marks-3-n3sfpadc9wtvlsdf.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "The ellipse $${E_1}:{{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ is inscribed in a rectangle $$R$$ whose sides are parallel to the coordinate axes. Another ellipse $${E_2}$$ passing through the point $$(0, 4)$$ circumscribes the rectangle $$..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "577s6e7e2sv8lqq60dju",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>Tangents are drawn from the point $$P(3, 4)$$ to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ touching the ellipse at points $$A$$ and $$B$$.</p>\n<p>The coordinates of $$A$$ and $$B$$ are</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$(3,0)$$ and $$(0,2)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( { - {8 \\over 5},{{2\\sqrt {161} } \\over {15}}} \\right)$$ and $$\\left( { - {9 \\over 5},{8 \\over 5}} \\right)$$  "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( { - {8 \\over 5},{{2\\sqrt {161} } \\over {15}}} \\right)$$ and $$(0,2)$$  "
+            },
+            {
+              "identifier": "D",
+              "content": "$$(3,0)$$ and $$\\left( { - {9 \\over 5},{8 \\over 5}} \\right)$$  "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Equation of chord of contact is $${x \\over 3} + y = 1$$, i.e. $$x = 3(1 - y)$$</p>\n<p>Solving it with the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$</p>\n<p>$${(1 - y)^2} + {{{y^2}} \\over 4} = 1 \\Rightarrow 4({y^2} - 2y + 1) + {y^2} = 4$$</p>\n<p>$$\\therefore$$ $$y = 0 \\Rightarrow 5{y^2} - 8y = 0$$</p>\n<p>$$\\therefore$$ $$y = 0,\\,8/5$$</p>\n<p>Correspondingly $$x = 3,\\, - 9/5$$</p>\n<p>Points are $$(3,0)$$ and $$\\left( { - {9 \\over 5},{8 \\over 5}} \\right)$$</p>"
+        }
+      },
+      "permalink": "tangents-are-drawn-from-the-point-p3-4-to-the-ellipse-x2-ove-jee-advanced-2010-marks-4-10scjewqiu0l3nyg.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "topic": "tangent-to-ellipse",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Tangents are drawn from the point $$P(3, 4)$$ to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ touching the ellipse at points $$A$$ and $$B$$.\nThe coordinates of $$A$$ and $$B$$ are"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8ln9750rxcjsdq904c07",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Tangents are drawn from the point $$P(3, 4)$$ to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ touching the ellipse at points $$A$$ and $$B$$.\n<p>The orthocentre of the triangle $$PAB$$ is </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( {5,{8 \\over 7}} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( {{7 \\over 5},{{25} \\over 8}} \\right)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( {{11 \\over 5},{{8} \\over 5}} \\right)$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left( {{8 \\over 25},{{7} \\over 5}} \\right)$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Equation of AB is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l6aoexbw/f7010636-a948-417e-8627-aa56e24c1a58/3ae667c0-118e-11ed-be43-e3f2ba4dcf27/file-1l6aoexbx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l6aoexbw/f7010636-a948-417e-8627-aa56e24c1a58/3ae667c0-118e-11ed-be43-e3f2ba4dcf27/file-1l6aoexbx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 2 Offline Mathematics - Ellipse Question 18 English Explanation\"></p>\n<p>$$y - 0 = {{{8 \\over 5}} \\over { - {9 \\over 5} - 3}}(x - 3) = {8 \\over { - 24}}(x - 3)$$</p>\n<p>$$ \\Rightarrow y =  - {1 \\over 3}(x - 3)$$</p>\n<p>$$ \\Rightarrow x + 3y = 3$$ ...... (i)</p>\n<p>Equation of the straight line perpendicular to AB through P is $$3x - y = 5$$.</p>\n<p>Equation of PA is $$x - 3 = 0$$.</p>\n<p>The equation of straight line perpendicular to PA through $$B\\left( {{{ - 9} \\over 5},{8 \\over 5}} \\right)$$ is $$y = {8 \\over 5}$$.</p>\n<p>Hence, the orthocentre is $$\\left( {{{11} \\over 5},{8 \\over 5}} \\right)$$.</p>"
+        }
+      },
+      "permalink": "tangents-are-drawn-from-the-point-p3-4-to-the-ellipse-x2-ove-jee-advanced-2010-marks-4-a9xoeinb3hqcm1fx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "topic": "tangent-to-ellipse",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Tangents are drawn from the point $$P(3, 4)$$ to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ touching the ellipse at points $$A$$ and $$B$$.\nThe orthocentre of the triangle $$PAB$$ is "
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "229qc57dg06wmrmufwqf",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>Tangents are drawn from the point $$P(3, 4)$$ to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ touching the ellipse at points $$A$$ and $$B$$.</p>\n<p>The equation of the locus of the point whose distances from the point $$P$$ and the line $$AB$$ are equal, is </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$9{x^2} + {y^2} - 6xy - 54x - 62y + 241 = 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${x^2} + 9{y^2} + 6xy - 54x + 62y - 241 = 0$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$9{x^2} + 9{y^2} - 6xy - 54x - 62y - 241 = 0$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${x^2} + {y^2} - 2xy + 27x + 31y - 120 = 0$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>From the given condition,</p>\n<p>$$\\sqrt {{{(x - 3)}^2} - {{(y - 4)}^2}}  = {{|x + 3y - 3|} \\over {\\sqrt {1 + 9} }}$$</p>\n<p>$$ \\Rightarrow 10\\{ ({x^2} - 6x + 9) + ({y^2} - 8y + 16)\\}  = {(x + 3y - 3)^2}$$</p>\n<p>$$ \\Rightarrow 10{x^2} + 10{y^2} - 60x - 80y + 250 = {x^2} + 9{y^2} + 9 + 6xy - 6x - 18y$$</p>\n<p>$$ \\Rightarrow 9{x^2} + {y^2} - 6xy - 54x - 62y + 241 = 0$$</p>"
+        }
+      },
+      "permalink": "tangents-are-drawn-from-the-point-p3-4-to-the-ellipse-x2-ove-jee-advanced-2010-marks-4-tearwwkhzeejgwd6.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "topic": "locus",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Tangents are drawn from the point $$P(3, 4)$$ to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ touching the ellipse at points $$A$$ and $$B$$.\nThe equation of the locus of the point whose distances from the point $$P$$ and the l..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "sqkh08ea3d2oqmcvuqye",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The normal at a point $$P$$ on the ellipse $${x^2} + 4{y^2} = 16$$ meets the $$x$$- axis $$Q$$. If $$M$$ is the mid point of the line segment $$PQ$$, then the locus of $$M$$ intersects the latus rectums of the given ellipse at the points",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( { \\pm {{3\\sqrt 5 } \\over 2},\\, \\pm {2 \\over 7}} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( { \\pm {{3\\sqrt 5 } \\over 2},\\, \\pm \\sqrt {{{19} \\over 4}} } \\right)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( { \\pm 2\\sqrt 3 , \\pm {1 \\over 7}} \\right)$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left( { \\pm 2\\sqrt 3 , \\pm {{4\\sqrt 3 } \\over 7}} \\right)$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The normal is</p>\n<p>$$4x\\sec \\phi  - 2y\\cos ec\\phi  = 12$$</p>\n<p>Now, the points Q and M are given by</p>\n<p>$$Q \\equiv (3\\cos \\phi ,0)$$</p>\n<p>$$M \\equiv (\\alpha ,\\beta )$$</p>\n<p>Therefore, $$\\alpha  = {{3\\cos \\phi  + 4\\cos \\phi } \\over 2} = {7 \\over 2}\\cos \\phi  \\Rightarrow \\cos \\phi  = {2 \\over 7}\\alpha $$</p>\n<p>and $$\\beta  = \\sin \\phi ;{\\cos ^2}\\phi  + {\\sin ^2}\\phi  = 1$$.</p>\n<p>Therefore, $${4 \\over {49}}{\\alpha ^2} + {\\beta ^2} = 1 \\Rightarrow {4 \\over {49}}{x^2} + {y^2} = 1$$</p>\n<p>Hence, the rectum is $$x =  \\pm 2\\sqrt 3 $$.</p>\n<p>Hence,</p>\n<p>$${{48} \\over {49}} + {y^2} = 1 \\Rightarrow y =  \\pm {1 \\over 7}$$</p>\n<p>$$\\left( { \\pm 2\\sqrt 3 , \\pm {1 \\over 7}} \\right)$$</p>\n<p>Hence, the locus of M intersects the latus rectum of the given ellipse at the points</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft5hcu5/3359bbe7-8121-416d-a51d-a665c8529f5f/07caced0-cde5-11ed-9ce1-7bd2ccf24231/file-1lft5hcu6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft5hcu5/3359bbe7-8121-416d-a51d-a665c8529f5f/07caced0-cde5-11ed-9ce1-7bd2ccf24231/file-1lft5hcu6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Mathematics - Ellipse Question 37 English Explanation\"></p>"
+        }
+      },
+      "permalink": "the-normal-at-a-point-p-on-the-ellipse-x2-4y2-16-meets-the-x-jee-advanced-2009-marks-3-ou6ydlvw1pcfcpeh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "topic": "normal-to-ellipse",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "The normal at a point $$P$$ on the ellipse $${x^2} + 4{y^2} = 16$$ meets the $$x$$- axis $$Q$$. If $$M$$ is the mid point of the line segment $$PQ$$, then the locus of $$M$$ intersects the latus rectums of the given ellipse at the points"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6ssbjqr8u3kr0ly6brxf",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "An ellipse intersects the hyperbola $$2{x^2} - 2{y^2} = 1$$ orthogonally. The eccentricity of the ellipse is reciprocal of that of the hyperbola. If the axes of the ellipse are along the coordinate axes then ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "equation of ellipse is $${x^2} + 2{y^2} = 2$$"
+            },
+            {
+              "identifier": "B",
+              "content": "the foci of ellipse are $$\\left( { \\pm 1,0} \\right)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "equation of ellipse is $${x^2} + 2{y^2} = 4$$"
+            },
+            {
+              "identifier": "D",
+              "content": "the foci of ellipse are $$\\left( { \\pm \\sqrt 2 ,0} \\right)$$ "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The ellipse and hyperbola will be confocal. Therefore,</p>\n<p>$$( \\pm ae,0) \\equiv ( \\pm 1,0)$$</p>\n<p>$$ \\Rightarrow \\left( { \\pm a \\times {1 \\over {\\sqrt 2 }},0} \\right) \\equiv ( \\pm 1,0)$$</p>\n<p>$$ \\Rightarrow a = \\sqrt 2 $$ and $$e = {1 \\over {\\sqrt 2 }}$$</p>\n<p>$$ \\Rightarrow {b^2} = {a^2}(1 - {e^2}) \\Rightarrow {b^2} = 1$$</p>\n<p>Hence, the equation of ellipse $${{{x^2}} \\over 2} + {{{y^2}} \\over 1} = 1$$.</p>"
+        }
+      },
+      "permalink": "an-ellipse-intersects-the-hyperbola-2x2-2y2-1-orthogonally-t-jee-advanced-2009-marks-4-lmdnb5r8t7ngckyc.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "topic": "common-tangent",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "An ellipse intersects the hyperbola $$2{x^2} - 2{y^2} = 1$$ orthogonally. The eccentricity of the ellipse is reciprocal of that of the hyperbola. If the axes of the ellipse are along the coordinate axes then "
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "uy26cvbgpx88c4a9qf32",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The line passing through the extremity $$A$$ of the major axis and extremity $$B$$ of the minor axis of the ellipse $${x^2} + 9{y^2} = 9$$ meets its auxiliary circle at the point $$M$$. Then the area of the triangle with vertices at $$A$$, $$M$$ and the origin $$O$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{31} \\over {10}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{29} \\over {10}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{21} \\over {10}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{27} \\over {10}}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Equation of line AM is $$x + 3y - 3 = 0$$.</p>\n<p>Perpendicular distance of line from origin is $$3/\\sqrt {10} $$.</p>\n<p>Length of AM is</p>\n<p>$$2\\sqrt {9 - {9 \\over {10}}}  = 2 \\times {9 \\over {\\sqrt {10} }}$$</p>\n<p>The required area of the rectangle is</p>\n<p>$${1 \\over 2} \\times 2 \\times {9 \\over {\\sqrt {10} }} \\times {3 \\over {\\sqrt {10} }} = {{27} \\over {10}}$$ sq. unit</p>"
+        }
+      },
+      "permalink": "the-line-passing-through-the-extremity-a-of-the-major-axis-a-jee-advanced-2009-marks-3-1qurjbfisyzuzbez.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "topic": "position-of-point-and-chord-joining-of-two-points",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "The line passing through the extremity $$A$$ of the major axis and extremity $$B$$ of the minor axis of the ellipse $${x^2} + 9{y^2} = 9$$ meets its auxiliary circle at the point $$M$$. Then the area of the triangle with vertices at $$A$$, ..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "468y7523yghyibgvdls8",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>Match the conics in Column I with the statements/expressions in Column II :</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 635px\">\n<colgroup>\n<col style=\"width: 50px\">\n<col style=\"width: 240px\">\n<col style=\"width: 51px\">\n<col style=\"width: 294px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-7btt\">(A)</td>\n    <td class=\"tg-0pky\">Circle</td>\n    <td class=\"tg-7btt\">(P)</td>\n    <td class=\"tg-0pky\">The locus of the point ($$h,k$$) for which the line $$hx+ky=1$$ touches the circle $$x^2+y^2=4$$.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(B)</td>\n    <td class=\"tg-0pky\">Parabola</td>\n    <td class=\"tg-7btt\">(Q)</td>\n    <td class=\"tg-0pky\">Points z in the complex plane satisfying $$|z+2|-|z-2|=\\pm3$$.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(C)</td>\n    <td class=\"tg-0pky\">Ellipse</td>\n    <td class=\"tg-7btt\">(R)</td>\n    <td class=\"tg-0pky\">Points of the conic have parametric representation $$x = \\sqrt 3 \\left( {{{1 - {t^2}} \\over {1 + {t^2}}}} \\right),y = {{2t} \\over {1 + {t^2}}}$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(D)</td>\n    <td class=\"tg-0pky\">Hyperbola</td>\n    <td class=\"tg-7btt\">(S)</td>\n    <td class=\"tg-0pky\">The eccentricity of the conic lies in the interval $$1 \\le x \\le \\infty $$.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-fymr\"></td>\n    <td class=\"tg-0pky\"></td>\n    <td class=\"tg-7btt\">(T)</td>\n    <td class=\"tg-0pky\">Points z in the complex plane satisfying $${\\mathop{\\rm Re}\\nolimits} {(z + 1)^2} = |z{|^2} + 1$$.</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(A)$$\\to$$(P); (B)$$\\to$$(S), (T); (C)$$\\to$$(R); (D)$$\\to$$(R), (S)"
+            },
+            {
+              "identifier": "B",
+              "content": "(A)$$\\to$$(P); (B)$$\\to$$(S), (T); (C)$$\\to$$(R); (D)$$\\to$$(Q), (S)"
+            },
+            {
+              "identifier": "C",
+              "content": "(A)$$\\to$$(P); (B)$$\\to$$(S), (T); (C)$$\\to$$(S); (D)$$\\to$$(R), (S)"
+            },
+            {
+              "identifier": "D",
+              "content": "(A)$$\\to$$(P); (B)$$\\to$$(P), (T); (C)$$\\to$$(R); (D)$$\\to$$(Q), (S)"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": "$$\\left( A \\right) - p;$$  $$\\left( B \\right) - s,t;$$  $$\\left( C \\right) - r;\\,\\,$$$$\\left( D \\right) - q,s$$ ",
+          "explanation": "<p>(P) We have $${1 \\over {{k^2}}} = 4\\left( {1 + {{{h^2}} \\over {{k^2}}}} \\right) \\Rightarrow 1 = 4({k^2} + {h^2})$$</p>\n<p>Hence, $${h^2} + {k^2} = {\\left( {{1 \\over 2}} \\right)^2}$$ , which is a circle.</p>\n<p>(Q) If $$|z - {z_1}| - |z - {z_2}| = k$$, where $$k < |{z_1} - {z_2}|$$, the locus is a hyperbola.</p>\n<p>(R) Let $$t = \\tan \\alpha $$. Hence,</p>\n<p>$$x = \\sqrt 3 \\cos 2\\alpha $$ and $$y = \\sin 2\\alpha $$</p>\n<p>or $$\\cos 2\\alpha  = {x \\over {\\sqrt 3 }}$$ and $$\\sin 2\\alpha  = y$$</p>\n<p>$${{{x^2}} \\over 3} + {y^2} = {\\sin ^2}2\\alpha  + {\\cos ^2}2\\alpha  = 1$$, which is an ellipse.</p>\n<p>(S) If eccentricity is $$[1,\\infty]$$, then the conic can be a parabola (if $$e=1$$) and a hyperbola if $$e\\in(1,\\infty)$$.</p>\n<p>(T) Let $$z = x + iy;x,y \\in R$$. Hence,</p>\n<p>$${(x + 1)^2} - {y^2} = {x^2} + {y^2} + 1$$</p>\n<p>$$ \\Rightarrow {y^2} = x;$$ which is a parabola</p>"
+        }
+      },
+      "permalink": "match-the-conics-in-column-i-with-the-statementsexpressions-jee-advanced-2009-marks-4-xyeuya0bimf4htpc.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "topic": "locus",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Match the conics in Column I with the statements/expressions in Column II :\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  ove..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "2li7b6l754f9cuang179",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In a triangle $$ABC$$ with fixed base $$BC$$, the vertex $$A$$ moves such that \n$$$\\cos \\,B + \\cos \\,C = 4{\\sin ^2}{A \\over 2}.$$$\n<p>If $$a, b$$ and $$c$$ denote the lengths of the sides of the triangle opposite to the angles $$A, B$$ and $$C$$, respectively, then </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$b+c=4a$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$b+c=2a$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "locus of point $$A$$ is an ellipse "
+            },
+            {
+              "identifier": "D",
+              "content": "locus of point $$A$$ is a pair of straight lines "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>From this given data, we can write as</p>\n<p>$$2\\cos \\left( {{{B + C} \\over 2}} \\right)\\cos \\left( {{{B - C} \\over 2}} \\right) = 4{\\sin ^2}{A \\over 2}$$</p>\n<p>$$\\cos \\left( {{{B - C} \\over 2}} \\right) = 2\\sin (A/2)$$</p>\n<p>$$ \\Rightarrow {{\\cos \\left( {{{B - C} \\over 2}} \\right)} \\over {\\sin A/2}} = 2$$</p>\n<p>$$ \\Rightarrow {{\\sin B + \\sin C} \\over {\\sin A}} = 2$$</p>\n<p>$$ \\Rightarrow b + c = 2a$$</p>\n<p>where a is a constant. Therefore, the locus of point A is an ellipse.</p>"
+        }
+      },
+      "permalink": "in-a-triangle-abc-with-fixed-base-bc-the-vertex-a-moves-such-jee-advanced-2009-marks-3-0wbq7ohsdqd5ipto.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "topic": "locus",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "In a triangle $$ABC$$ with fixed base $$BC$$, the vertex $$A$$ moves such that \n$$$\\cos \\,B + \\cos \\,C = 4{\\sin ^2}{A \\over 2}.$$$\nIf $$a, b$$ and $$c$$ denote the lengths of the sides of the triangle opposite to the angles $$A, B$$ and $$C..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kleclwvpdiwae8vez6by",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Consider the two curves $${C_1}:{y^2} = 4x,\\,{C_2}:{x^2} + {y^2} - 6x + 1 = 0$$. Then, ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${C_1}$$ and $${C_2}$$ touch each other only at one point. "
+            },
+            {
+              "identifier": "B",
+              "content": "$${C_1}$$ and $${C_2}$$ touch each other exactly at two points"
+            },
+            {
+              "identifier": "C",
+              "content": "$${C_1}$$ and $${C_2}$$  intersect (but do not touch ) at exactly two points "
+            },
+            {
+              "identifier": "D",
+              "content": "$${C_1}$$ and $${C_2}$$  neither intersect nor touch each other"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Given that,</p>\n<p>$${C_1}:{y^2} = 4x$$</p>\n<p>$${C^2}:{x^2} + {y^2} - 6x + 1 = 0$$</p>\n<p>Putting $${y^2} = 4x$$ in $${x^2} + {y^2} - 6x + 1 = 0$$, we get</p>\n<p>$${x^2} + 4x - 6x + 1 = 0 \\Rightarrow {(x - 1)^2} = 0$$</p>\n<p>$$x = 1$$</p>\n<p>putting $$x = 1$$ in $${y^2} = 4x$$ we get $$y = \\, \\pm ~2$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgg71znh/3aedb621-8e24-424a-beeb-a845d8111408/35aa26d0-da91-11ed-b475-959e4e33238c/file-1lgg71zni.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgg71znh/3aedb621-8e24-424a-beeb-a845d8111408/35aa26d0-da91-11ed-b475-959e4e33238c/file-1lgg71zni.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Mathematics - Ellipse Question 12 English Explanation\"></p>\n<p>So, the curves touches each other at two points (1, 2) and (1, $$-$$2),</p>"
+        }
+      },
+      "permalink": "consider-the-two-curves-c1y2-4xc2x2-y2-6x-1-0-then-jee-advanced-2008-marks-4-yyb16n5x1icqh68t.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "topic": "common-tangent",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Consider the two curves $${C_1}:{y^2} = 4x,\\,{C_2}:{x^2} + {y^2} - 6x + 1 = 0$$. Then, "
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "lb2wrkzts2maj9ly5zvl",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$P\\left( {{x_1},{y_1}} \\right)$$ and $$Q\\left( {{x_2},{y_2}} \\right),{y_1} &lt; 0,{y_2} &lt; 0,$$ be the end points of the latus rectum of the ellipse $${x^2} + 4{y^2} = 4.$$  The equations of parabolas with latus rectum $$PQ$$ are :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${x^2} + 2\\sqrt 3y = 3 + \\sqrt 3 $$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${x^2} - 2\\sqrt 3y = 3 + \\sqrt 3 $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${x^2} + 2\\sqrt 3y = 3 - \\sqrt 3 $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${x^2} - 2\\sqrt 3 y = 3 - \\sqrt 3 $$"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The ellipse is $${x^2} + 4{y^2} = 4$$,</p>\n<p>$${{{x^2}} \\over 4} + {{{y^2}} \\over 1} = 1$$</p>\n<p>We have $${b^2} - {a^2}(1 - {e^2})$$</p>\n<p>$$e = {{\\sqrt 3 } \\over 2}$$</p>\n<p>P and Q are obtained as</p>\n<p>$$P\\left( {\\sqrt 3 ,{{ - 1} \\over 2}} \\right),Q = \\left( { - \\sqrt 3 ,{{ - 1} \\over 2}} \\right)$$</p>\n<p>We have $$PQ = 2\\sqrt 3 $$</p>\n<p>With PQ as latus rectum two parabolas are possible their vertices being</p>\n<p>$$\\left( {0,{{ - \\sqrt 3  - 1} \\over 2}} \\right)$$ and $$\\left( {0,{{\\sqrt 3  - 1} \\over 2}} \\right)$$</p>\n<p>The equation of the parabola s can be obtained as</p>\n<p>$${x^2} - 2\\sqrt 3 y = 3 + \\sqrt 3 $$ and $${x^2} + 2\\sqrt 3 y = 3 - \\sqrt 3 $$</p>"
+        }
+      },
+      "permalink": "let-pleft-x1y1-right-and-qleft-x2y2-righty1-0y2-0-be-the-end-jee-advanced-2008-marks-3-nijzmqytlduz37ce.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "topic": "chord-of-ellipse",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let $$P\\left( {{x_1},{y_1}} \\right)$$ and $$Q\\left( {{x_2},{y_2}} \\right),{y_1} < 0,{y_2} < 0,$$ be the end points of the latus rectum of the ellipse $${x^2} + 4{y^2} = 4.$$  The equations of parabolas with latus rectum $$PQ$$ are :"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "yzprs179qc64jalqiwyt",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The minimum area of triangle formed by the tangent to the $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$ and coordinate axes is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$ab$$ sq. units"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{{{a^2} + {b^2}} \\over 2}}$$ sq. units"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{{{\\left( {a + b} \\right)}^2}} \\over 2}$$ sq. units "
+            },
+            {
+              "identifier": "D",
+              "content": "$${{{a^2} + ab + {b^2}} \\over 3}$$ sq. units"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-minimum-area-of-triangle-formed-by-the-tangent-to-the-x2-jee-advanced-2005-screening-marks-2-echknk17bjfa3u9v.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005-screening",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Screening",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "The minimum area of triangle formed by the tangent to the $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$ and coordinate axes is "
+        }
+      },
+      "yearKey": "iit-jee-2005-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qmgnjskqha0gx1rele6p",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Find the equation of the common tangent in $${1^{st}}$$ quadrant to the circle $${x^2} + {y^2} = 16$$ and the ellipse $${{{x^2}} \\over {25}} + {{{y^2}} \\over 4} = 1$$. Also find the length of the intercept of the tangent between the coordinate axes.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$y =  - {2 \\over {\\sqrt 3 }}x + 4\\sqrt {{7 \\over 3}} ,\\,\\,\\,\\,\\,{{14} \\over {\\sqrt 3 }}$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "find-the-equation-of-the-common-tangent-in-1st-quadrant-to-t-jee-advanced-2005-marks-4-ev5d7qmhthui5cvv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005",
+      "isOutOfSyllabus": false,
+      "topic": "common-tangent",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Find the equation of the common tangent in $${1^{st}}$$ quadrant to the circle $${x^2} + {y^2} = 16$$ and the ellipse $${{{x^2}} \\over {25}} + {{{y^2}} \\over 4} = 1$$. Also find the length of the intercept of the tangent between the coordin..."
+        }
+      },
+      "yearKey": "iit-jee-2005"
+    },
+    {
+      "question_id": "xn9qlhvnduvx1fik63ot",
+      "chapter": "ellipse",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pfind-the-equation-of-the-common-tangent-in-the-first-quad-jee-advanced-mathematics-complex-numbers-ewbn7wbosabljvrp",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Find the equation of the common tangent in the first quadrant to the circle $$x^{2}+y^{2}=16$$ and the ellipse $$\\frac{x^{2}}{25}+\\frac{y^{2}}{4}=1$$. Also find the length of the intercept of the tangent between the coordinate axes.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\frac{14}{\\sqrt5}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\frac{5}{\\sqrt3}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\frac{14}{\\sqrt3}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\frac{15}{\\sqrt3}$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": "$$\\frac{14}{\\sqrt3}$$",
+          "explanation": "<p>Equation of tangent to ellipse.</p>\n<p>$$\\frac{x \\cos \\theta}{5}+\\frac{y \\sin \\theta}{2}=1$$</p>\n<p>For all real values of $$\\theta$$</p>\n<p>This line also touches the given circle which implies that</p>\n<p>$$\\left|\\frac{-10}{\\sqrt{4 \\cos ^{2} \\theta+25 \\sin ^{2} \\theta}}\\right|=4$$</p>\n<p>$$\\Rightarrow 4\\left(4 \\cos ^{2} \\theta+25 \\sin ^{2} \\theta\\right)=25$$</p>\n<p>$$\\Rightarrow 16 \\cos ^{2} \\theta+100 \\sin ^{2} \\theta=25$$</p>\n<p>$$\\Rightarrow \\quad 84 \\sin ^{2} \\theta+16=25$$</p>\n<p>$$\\Rightarrow \\sin ^{2} \\theta=\\frac{9}{84}$$ and $$\\cos ^{2} \\theta=\\frac{75}{84}$$</p>\n<p>Since, the tangent is in first quadrant, its slope must negative. Hence, the equation of tangent is</p>\n<p>$$\\Rightarrow y=\\left(\\frac{-2}{5} \\frac{\\cos \\theta}{\\sin \\theta}\\right) x+\\frac{2}{\\sin \\theta}$$</p>\n<p>$$\\Rightarrow y=\\frac{-2}{5} \\times \\sqrt{\\frac{75}{9}} x+\\frac{2}{3} \\sqrt{84}$$</p>\n<p>$$\\Rightarrow y=\\frac{-2}{\\sqrt{3}} x+\\frac{4}{\\sqrt{3}} \\sqrt{7}$$</p>\n<p>$$\\Rightarrow 2 x+\\sqrt{3} y=4 \\sqrt{7}$$</p>\n<p>Therefore, the common tangent is</p>\n<p>$$2 x+\\sqrt{3} y=4 \\sqrt{7}$$</p>\n<p>The common tangent meet the axes in the points.</p>\n<p>A $$(2 \\sqrt{7}, 0)$$ and $$B\\left(0,4 \\frac{\\sqrt{7}}{\\sqrt{3}}\\right)$$</p>\n<p>Hence, length $$\\mathrm{AB}=\\sqrt{(0-2 \\sqrt{7})^{2}+\\left(\\frac{4 \\sqrt{7}}{\\sqrt{3}}\\right)^{2}-0}$$</p>\n<p>$$=\\sqrt{28+\\frac{112}{3}}=\\sqrt{\\frac{196}{3}}=\\frac{14}{\\sqrt{3}} \\text { units }$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "common-tangent",
+      "type": "mcq",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Find the equation of the common tangent in the first quadrant to the circle $$x^{2}+y^{2}=16$$ and the ellipse $$\\frac{x^{2}}{25}+\\frac{y^{2}}{4}=1$$. Also find the length of the intercept of the tangent between the coordinate axes."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "a0ar2o40do7808y3tfdq",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If tangents are drawn to the ellipse $${x^2} + 2{y^2} = 2,$$ then the locus of the mid-point of the intercept made by the tangents between the coordinate axes is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${1 \\over {2{x^2}}} + {1 \\over {4{y^2}}} = 1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${1 \\over {4{x^2}}} + {1 \\over {2{y^2}}} = 1$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{{x^2}} \\over 2} + {{{y^2}} \\over 4} = 1$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${{{x^2}} \\over 4} + {{{y^2}} \\over 2} = 1$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-tangents-are-drawn-to-the-ellipse-x2-2y2-2-then-the-locus-jee-advanced-2004-screening-marks-2-w9csvaefamt1lx2v.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004-screening",
+      "isOutOfSyllabus": false,
+      "topic": "locus",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004 Screening",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "If tangents are drawn to the ellipse $${x^2} + 2{y^2} = 2,$$ then the locus of the mid-point of the intercept made by the tangents between the coordinate axes is "
+        }
+      },
+      "yearKey": "iit-jee-2004-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "cx72evgj1f6jb1e79mk2",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2003,
+      "paperTitle": "IIT-JEE 2003 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The area of the quadrilateral formed by the tangents at the end points of latus rectum to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 5} = 1,$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$27/4$$ sq. units "
+            },
+            {
+              "identifier": "B",
+              "content": "$$9$$ sq. units "
+            },
+            {
+              "identifier": "C",
+              "content": "$$27/2$$ sq. units "
+            },
+            {
+              "identifier": "D",
+              "content": "$$27$$ sq. units "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-area-of-the-quadrilateral-formed-by-the-tangents-at-the-jee-advanced-2003-screening-marks-2-ytgtyitwtu5hbg0g.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2003-screening",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2003 Screening",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "The area of the quadrilateral formed by the tangents at the end points of latus rectum to the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 5} = 1,$$ is "
+        }
+      },
+      "yearKey": "iit-jee-2003-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kjgfr6gx5yufnr5bcrkp",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2002,
+      "paperTitle": "IIT-JEE 2002",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Prove that, in an ellipse, the perpendicular from a focus upon any tangent and the line joining the centre of the ellipse to the point of contact meet on the corresponding directrix.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "prove-that-in-an-ellipse-the-perpendicular-from-a-focus-upon-jee-advanced-2002-marks-5-mmajon8oazpto9qm.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2002",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2002",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Prove that, in an ellipse, the perpendicular from a focus upon any tangent and the line joining the centre of the ellipse to the point of contact meet on the corresponding directrix."
+        }
+      },
+      "yearKey": "iit-jee-2002"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9sgfyopufgeez3juh2cr",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2001,
+      "paperTitle": "IIT-JEE 2001",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$P$$ be a point on the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1,0 &lt; b &lt; a$$. Let the line parallel to $$y$$-axis passing through $$P$$ meet the circle $${x^2} + {y^2} = {a^2}$$ at the point $$Q$$ such that $$P$$ and $$Q$$ are on the same side of $$x$$-axis. For two positive real numbers $$r$$ and $$s$$, find the locus of the point $$R$$ on $$PQ$$ such that $$PR$$ : $$RQ = r: s$$ as $$P$$ varies over the ellipse.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{{x^2}} \\over {{a^2}}} + {{{y^2}{{\\left( {r + s} \\right)}^2}} \\over {{{\\left( {bs + ar} \\right)}^2}}} = 1$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "let-p-be-a-point-on-the-ellipse-x2-over-a2-y2-over-b2-10-b-a-jee-advanced-2001-marks-4-avql35qxnbfdhoob.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2001",
+      "isOutOfSyllabus": false,
+      "topic": "locus",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2001",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let $$P$$ be a point on the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1,0 < b < a$$. Let the line parallel to $$y$$-axis passing through $$P$$ meet the circle $${x^2} + {y^2} = {a^2}$$ at the point $$Q$$ such that $$P$$ ..."
+        }
+      },
+      "yearKey": "iit-jee-2001"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zsz2me6c7blofu7lp0uk",
+      "exam": "jee-advanced",
+      "marks": 7,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$ABC$$ be an equilateral triangle inscribed in the circle $${x^2} + {y^2} = {a^2}$$. Suppose perpendiculars from $$A, B, C$$ to the major axis of the ellipse $$x.{{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$, $$(a&gt;b)$$ meets the ellipse respectively, at $$P, Q, R$$. so that $$P, Q, R$$ lie on the same side of the major axis as $$A, B, C$$ respectively. Prove that the normals to the ellipse drawn at the points $$P, Q$$ and $$R$$  are concurrent.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "let-abc-be-an-equilateral-triangle-inscribed-in-the-circle-x-jee-advanced-2000-marks-7-sdmvhtw2wxcnd2at.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000",
+      "isOutOfSyllabus": false,
+      "topic": "normal-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let $$ABC$$ be an equilateral triangle inscribed in the circle $${x^2} + {y^2} = {a^2}$$. Suppose perpendiculars from $$A, B, C$$ to the major axis of the ellipse $$x.{{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$, $$(a>b)$$ meets ..."
+        }
+      },
+      "yearKey": "iit-jee-2000"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "udrabtf2n6t816mws2aa",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "On the ellipse $$4{x^2} + 9{y^2} = 1,$$ the points at which the tangents are parallel to the line $$8x = 9y$$ are ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( {{2 \\over 5},{1 \\over 5}} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( -{{2 \\over 5},{1 \\over 5}} \\right)$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( -{{2 \\over 5},-{1 \\over 5}} \\right)$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left( {{2 \\over 5},-{1 \\over 5}} \\right)$$ "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "on-the-ellipse-4x2-9y2-1-the-points-at-which-the-tangents-ar-jee-advanced-1999-marks-3-1bzvagqogyrbv1cp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "On the ellipse $$4{x^2} + 9{y^2} = 1,$$ the points at which the tangents are parallel to the line $$8x = 9y$$ are "
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3wmeyf11u2a3ot60jb8z",
+      "exam": "jee-advanced",
+      "marks": 10,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Consider the family of circles $${x^2} + {y^2} = {r^2},\\,\\,2 &lt; r &lt; 5$$. If in the first quadrant, the common taingent to a circle of this family and the ellipse $$4{x^2} + 25{y^2} = 100$$ meets the co-ordinate axes at $$A$$ and $$B$$, then find the equation of the locus of vthe mid-point of $$AB$$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{25} \\over {{x^2}}} + {4 \\over {{y^2}}} = 4$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "consider-the-family-of-circles-x2-y2-r22-r-5-if-in-the-first-jee-advanced-1999-marks-10-05izpzhequbnnl15.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "common-tangent",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Consider the family of circles $${x^2} + {y^2} = {r^2},\\,\\,2 < r < 5$$. If in the first quadrant, the common taingent to a circle of this family and the ellipse $$4{x^2} + 25{y^2} = 100$$ meets the co-ordinate axes at $$A$$ and $$B$$, then ..."
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "wpjb9u4ebm4rsrow2i6k",
+      "exam": "jee-advanced",
+      "marks": 10,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Find the co-ordinates of all the points $$P$$ on the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$, for which the area of the triangle $$PON$$ is maximum, where $$O$$ denotes the origin and $$N$$, the foot of the perpendicular from $$O$$ to the tangent at $$P$$. ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$\\left( {{{{a^2}} \\over {\\sqrt {{a^2} + {b^2}} }},{{{b^2}} \\over {\\sqrt {{a^2} + {b^2}} }}} \\right)$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "find-the-co-ordinates-of-all-the-points-p-on-the-ellipse-x2-jee-advanced-1999-marks-10-cjnj6etkdwf1bmqx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "normal-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Find the co-ordinates of all the points $$P$$ on the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$, for which the area of the triangle $$PON$$ is maximum, where $$O$$ denotes the origin and $$N$$, the foot of the perpend..."
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "a8p2ti5v7154767htllr",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The number of values of $$c$$ such that the straight line $$y=4x + c$$ touches the  curve $$\\left( {{x^2}/4} \\right) + {y^2} = 1$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$2$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "infinite."
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-number-of-values-of-c-such-that-the-straight-line-y4x-c-jee-advanced-1998-marks-2-5bpkjeyfstrlpsh5.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "The number of values of $$c$$ such that the straight line $$y=4x + c$$ touches the  curve $$\\left( {{x^2}/4} \\right) + {y^2} = 1$$ is "
+        }
+      },
+      "yearKey": "iit-jee-1998"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "d3wkbabdi0gx0y79unn1",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$P=(x, y)$$, $${F_1} = \\left( {3,0} \\right),\\,{F_2} = \\left( { - 3,0} \\right)$$ and $$16{x^2} + 25{y^2} = 400,$$ then $$P{F_1} + P{F_2}$$ equals ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$8$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$6$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$10$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$12$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-px-y-f1-left-30-rightf2-left-30-right-and-16x2-25y2-400-t-jee-advanced-1998-marks-2-vikht1a0yqbnguv8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998",
+      "isOutOfSyllabus": false,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "If $$P=(x, y)$$, $${F_1} = \\left( {3,0} \\right),\\,{F_2} = \\left( { - 3,0} \\right)$$ and $$16{x^2} + 25{y^2} = 400,$$ then $$P{F_1} + P{F_2}$$ equals "
+        }
+      },
+      "yearKey": "iit-jee-1998"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "mmkg5cs53ztwsje5ihol",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1997,
+      "paperTitle": "IIT-JEE 1997",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A tangent to the ellipse x<sup>2</sup> + 4y<sup>2</sup> = 4 meets the ellipse x<sup>2</sup> + 2y<sup>2</sup> = 6 at P and Q. Prove that the tangents at P and Q of the ellipse x<sup>2</sup> + 2y<sup>2</sup> = 6 are at right angles.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "a-tangent-to-the-ellipse-x2-4y2-4-meets-the-ellipse-x2-2y2-6-jee-advanced-1997-marks-5-4kz1gubwnvduymd2.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1997",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1997",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "A tangent to the ellipse x2 + 4y2 = 4 meets the ellipse x2 + 2y2 = 6 at P and Q. Prove that the tangents at P and Q of the ellipse x2 + 2y2 = 6 are at right angles."
+        }
+      },
+      "yearKey": "iit-jee-1997"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vtpqlw942t1epucpsc33",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "An ellipse has eccentricity $${1 \\over 2}$$ and one focus at the point $$P\\left( {{1 \\over 2},1} \\right)$$. Its one directrix is the common tangent, nearer to the point $$P$$, to the circle $${x^2} + {y^2} = 1$$ and the hyperbol;a $${x^2} - {y^2} = 1$$. The equation of the ellipse, in the standard form, is ............",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{{{\\left( {x - {1 \\over 3}} \\right)}^2}} \\over {{{\\left( {{1 \\over 3}} \\right)}^2}}} + {{{{\\left( {y - 1} \\right)}^2}} \\over {{{\\left( {{1 \\over {2\\sqrt 3 }}} \\right)}^2}}} = 1$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "an-ellipse-has-eccentricity-1-over-2-and-one-focus-at-the-po-jee-advanced-1996-marks-2-61bml9jjfbcs46cu.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "isOutOfSyllabus": false,
+      "topic": "common-tangent",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "An ellipse has eccentricity $${1 \\over 2}$$ and one focus at the point $$P\\left( {{1 \\over 2},1} \\right)$$. Its one directrix is the common tangent, nearer to the point $$P$$, to the circle $${x^2} + {y^2} = 1$$ and the hyperbol;a $${x^2} -..."
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "sg4veokmzwahvtx7naol",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1995,
+      "paperTitle": "IIT-JEE 1995 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The radius of the circle passing through the foci of the ellipse $${{{x^2}} \\over {16}} + {{{y^2}} \\over 9} = 1$$, and having its centre at $$(0, 3)$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$4$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$3$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sqrt {{1 \\over 2}} $$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${{7 \\over 2}}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-radius-of-the-circle-passing-through-the-foci-of-the-ell-jee-advanced-1995-screening-marks-2-3vsduidzfdzntwmj.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1995-screening",
+      "isOutOfSyllabus": false,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1995 Screening",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "The radius of the circle passing through the foci of the ellipse $${{{x^2}} \\over {16}} + {{{y^2}} \\over 9} = 1$$, and having its centre at $$(0, 3)$$ is "
+        }
+      },
+      "yearKey": "iit-jee-1995-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kd7o61939grm10wxg24l",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1995,
+      "paperTitle": "IIT-JEE 1995",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let '$$d$$' be the perpendicular distance from the centre of the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$ to the tangent drawn at a point $$P$$ on the ellipse. If $${F_1}$$ and $${F_2}$$ are the two foci of the ellipse, then show that $${\\left( {P{F_1} - P{F_2}} \\right)^2} = 4{a^2}\\left( {1 - {{{b^2}} \\over {{d^2}}}} \\right)$$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "let-d-be-the-perpendicular-distance-from-the-centre-of-the-e-jee-advanced-1995-marks-5-myvj4hu2p3jqf3gx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1995",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-ellipse",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1995",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let '$$d$$' be the perpendicular distance from the centre of the ellipse $${{{x^2}} \\over {{a^2}}} + {{{y^2}} \\over {{b^2}}} = 1$$ to the tangent drawn at a point $$P$$ on the ellipse. If $${F_1}$$ and $${F_2}$$ are the two foci of the elli..."
+        }
+      },
+      "yearKey": "iit-jee-1995"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "65u4pqmpp7kf3ct4s4b9",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$E$$ be the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ and $$C$$ be the circle $${x^2} + {y^2} = 9$$. Let $$P$$ and $$Q$$ be the points $$(1, 2)$$ and $$(2, 1)$$ respectively. Then ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$Q$$ lies inside $$C$$ but outside $$E$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$Q$$ lies outside both $$C$$ and $$E$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$P$$ lies inside both $$C$$ and $$E$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$P$$ lies inside $$C$$ but outside $$E$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "let-e-be-the-ellipse-x2-over-9-y2-over-4-1-and-c-be-the-circ-jee-advanced-1994-marks-2-afta9qpmemoxphvz.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "isOutOfSyllabus": false,
+      "topic": "position-of-point-and-chord-joining-of-two-points",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "Let $$E$$ be the ellipse $${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = 1$$ and $$C$$ be the circle $${x^2} + {y^2} = 9$$. Let $$P$$ and $$Q$$ be the points $$(1, 2)$$ and $$(2, 1)$$ respectively. Then "
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "s9henx4hnzvytoz6vq5y",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ellipse",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The equation $$2{x^2} + 3{y^2} - 8x - 18y + 35 = k$$ represents ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "no locus if $$k &gt; 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "an ellipse if $$k &lt; 0$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "a point if $$k = 0$$"
+            },
+            {
+              "identifier": "D",
+              "content": "a hyperbola if $$k &gt; 0$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-equation-2x2-3y2-8x-18y-35-k-represents-jee-advanced-1994-marks-2-kqaejalrje2fhitc.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "isOutOfSyllabus": false,
+      "topic": "locus",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Ellipse • Mathematics",
+          "excerpt": "The equation $$2{x^2} + 3{y^2} - 8x - 18y + 35 = k$$ represents "
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    }
+  ]
+}

@@ -1,0 +1,888 @@
+{
+  "questions": [
+    {
+      "question_id": "lbtigzsk2amx4pwij86e",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-main-2026-online-8th-april-evening-shift",
+      "paperTitle": "JEE Main 2026 (Online) 8th April Evening Shift",
+      "permalink": "pthe-sum-of-squares-of-all-the-real-solutions-of-the-equat-jee-main-mathematics-trigonometric-functions-and-equations-diwsxwjwh5b7tipg",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The sum of squares of all the real solutions of the equation \n<br/><br/>$\\log _{(x+1)}\\left(2 x^2+5 x+3\\right)=4-\\log _{(2 x+3)}\\left(x^2+2 x+1\\right)$ is equal to $\\_\\_\\_\\_$ .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>$\\log _{(x+1)}\\left(2 x^2+5 x+3\\right)=4-\\log _{(2 x+3)}\\left(x^2+2 x+1\\right)$</p>\n<p>$$\\Rightarrow $$ $\\log _{(x+1)}(x+1)(2 x+3)=4-\\log _{(2 x+3)}(x+1)^2$</p>\n<p>$$\\Rightarrow $$ $\\log _{(x+1)}(x+1)+\\log _{(x+1)}(2 x+3)=4-2 \\log _{(2 x+3)}(x+1)$</p>\n<p>$$\\Rightarrow $$ $1+\\frac{1}{\\log _{(2 x+3)}(x+1)}=4-2 \\log _{(2 x+3)}(x+1)$</p>\n<p>Substitute $\\log _{(2 x+3)}(x+1)=\\boldsymbol{t}$</p>\n<p>$$\\therefore $$ $1+\\frac{1}{\\boldsymbol{t}}=4-2 \\boldsymbol{t} \\Rightarrow 2 \\boldsymbol{t}^2-3 \\boldsymbol{t}+1=0$</p>\n<p>$\\Rightarrow(\\boldsymbol{t}-1)(2 \\boldsymbol{t}-1)=0 \\Rightarrow \\boldsymbol{t}=\\left\\{1, \\frac{1}{2}\\right\\}$</p>\n<p>For t = 1,</p>\n<p>$\\log _{(2 x+3)}(x+1)=1 \\Rightarrow 2 x+3=x+1 \\Rightarrow x=-2$</p>\n<p>For t = $\\frac{1}{2}$,</p>\n<p>$\\log _{(2 x+3)}(x+1)=\\frac{1}{2} \\Rightarrow(x+1)^2=2 x+3 \\Rightarrow x^2=2 \\Rightarrow x= \\pm \\sqrt{2}$</p>\n<table>\n\n  <tr>\n\n    <th>j</th>\n\n    <th>x<sub>j</sub></th>\n\n    <th>x + 1</th>\n\n    <th>Base</th>\n\n    <th>2x + 3</th>\n\n    <th>Base</th>\n\n    <th>2x<sup>2</sup> + 5x + 3</th>\n\n    <th>Argument</th>\n\n    <th>x<sup>2</sup> + 2x + 1</th>\n\n    <th>Argument</th>\n\n    <th>Remarks</th>\n\n    <th>Verdict</th>\n\n  </tr>\n\n  <tr>\n\n    <td>1</td>\n\n    <td>−2</td>\n\n    <td>−1</td>\n\n    <td>&lt; 0</td>\n\n    <td>−1</td>\n\n    <td>&lt; 0</td>\n\n    <td>1</td>\n\n    <td>&gt; 0</td>\n\n    <td>1</td>\n\n    <td>&gt; 0</td>\n\n    <td>1<sup>st</sup> and 2<sup>nd</sup> base −ve</td>\n\n    <td>Invalid</td>\n\n  </tr>\n\n  <tr>\n\n    <td>2</td>\n\n    <td>−√2</td>\n\n    <td>1 − √2</td>\n\n    <td>&lt; 0</td>\n\n    <td>3 − 2√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>7 − 5√2</td>\n\n    <td>&lt; 0</td>\n\n    <td>3 − 2√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>1<sup>st</sup> base and 1<sup>st</sup> argument −ve</td>\n\n    <td>Invalid</td>\n\n  </tr>\n\n  <tr>\n\n    <td>3</td>\n\n    <td>√2</td>\n\n    <td>1 + √2</td>\n\n    <td>&gt; 0</td>\n\n    <td>3 + 2√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>7 + 5√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>3 + 2√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>All bases and arguments +ve</td>\n\n    <td>Valid</td>\n\n  </tr>\n\n</table>\n<p>$\\sum\\limits_{j=1}^3\\left[x_j\\right]^2=0+0+(\\sqrt{2})^2=2$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>समीकरण $\\log _{(x+1)}\\left(2 x^2+5 x+3\\right)=4-\\log _{(2 x+3)}\\left(x^2+2 x+1\\right)$ के सभी वास्तविक हलों के वर्गों का योग बराबर है $\\_\\_\\_\\_$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>$\\log _{(x+1)}\\left(2 x^2+5 x+3\\right)=4-\\log _{(2 x+3)}\\left(x^2+2 x+1\\right)$</p>\n<p>$$\\Rightarrow $$ $\\log _{(x+1)}(x+1)(2 x+3)=4-\\log _{(2 x+3)}(x+1)^2$</p>\n<p>$$\\Rightarrow $$ $\\log _{(x+1)}(x+1)+\\log _{(x+1)}(2 x+3)=4-2 \\log _{(2 x+3)}(x+1)$</p>\n<p>$$\\Rightarrow $$ $1+\\frac{1}{\\log _{(2 x+3)}(x+1)}=4-2 \\log _{(2 x+3)}(x+1)$</p>\n<p>$\\log _{(2 x+3)}(x+1)=\\boldsymbol{t}$ रखने पर</p>\n<p>$$\\therefore $$ $1+\\frac{1}{\\boldsymbol{t}}=4-2 \\boldsymbol{t} \\Rightarrow 2 \\boldsymbol{t}^2-3 \\boldsymbol{t}+1=0$</p>\n<p>$\\Rightarrow(\\boldsymbol{t}-1)(2 \\boldsymbol{t}-1)=0 \\Rightarrow \\boldsymbol{t}=\\left\\{1, \\frac{1}{2}\\right\\}$</p>\n<p>t = 1 के लिए,</p>\n<p>$\\log _{(2 x+3)}(x+1)=1 \\Rightarrow 2 x+3=x+1 \\Rightarrow x=-2$</p>\n<p>t = $\\frac{1}{2}$ के लिए,</p>\n<p>$\\log _{(2 x+3)}(x+1)=\\frac{1}{2} \\Rightarrow(x+1)^2=2 x+3 \\Rightarrow x^2=2 \\Rightarrow x= \\pm \\sqrt{2}$</p>\n<table>\n\n  <tr>\n\n    <th>j</th>\n\n    <th>x<sub>j</sub></th>\n\n    <th>x + 1</th>\n\n    <th>आधार</th>\n\n    <th>2x + 3</th>\n\n    <th>आधार</th>\n\n    <th>2x<sup>2</sup> + 5x + 3</th>\n\n    <th>संख्या</th>\n\n    <th>x<sup>2</sup> + 2x + 1</th>\n\n    <th>संख्या</th>\n\n    <th>टिप्पणी</th>\n\n    <th>निष्कर्ष</th>\n\n  </tr>\n\n  <tr>\n\n    <td>1</td>\n\n    <td>−2</td>\n\n    <td>−1</td>\n\n    <td>&lt; 0</td>\n\n    <td>−1</td>\n\n    <td>&lt; 0</td>\n\n    <td>1</td>\n\n    <td>&gt; 0</td>\n\n    <td>1</td>\n\n    <td>&gt; 0</td>\n\n    <td>पहला और दूसरा आधार ऋणात्मक</td>\n\n    <td>अमान्य</td>\n\n  </tr>\n\n  <tr>\n\n    <td>2</td>\n\n    <td>−√2</td>\n\n    <td>1 − √2</td>\n\n    <td>&lt; 0</td>\n\n    <td>3 − 2√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>7 − 5√2</td>\n\n    <td>&lt; 0</td>\n\n    <td>3 − 2√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>पहला आधार और पहली संख्या ऋणात्मक</td>\n\n    <td>अमान्य</td>\n\n  </tr>\n\n  <tr>\n\n    <td>3</td>\n\n    <td>√2</td>\n\n    <td>1 + √2</td>\n\n    <td>&gt; 0</td>\n\n    <td>3 + 2√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>7 + 5√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>3 + 2√2</td>\n\n    <td>&gt; 0</td>\n\n    <td>सभी आधार और संख्याएँ धनात्मक</td>\n\n    <td>मान्य</td>\n\n  </tr>\n\n</table>\n<p>$\\sum\\limits_{j=1}^3\\left[x_j\\right]^2=0+0+(\\sqrt{2})^2=2$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 144000,
+      "topic": "logarithmic-equations",
+      "type": "integer",
+      "year": 2026,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2026 (Online) 8th April Evening Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "The sum of squares of all the real solutions of the equation \n$\\log _{(x+1)}\\left(2 x^2+5 x+3\\right)=4-\\log _{(2 x+3)}\\left(x^2+2 x+1\\right)$ is equal to $\\_\\_\\_\\_$ ."
+        },
+        "hi": {
+          "title": "JEE Main 2026 (Online) 8th April Evening Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "समीकरण $\\log _{(x+1)}\\left(2 x^2+5 x+3\\right)=4-\\log _{(2 x+3)}\\left(x^2+2 x+1\\right)$ के सभी वास्तविक हलों के वर्गों का योग बराबर है $\\_\\_\\_\\_$"
+        }
+      },
+      "yearKey": "jee-main-2026-online-8th-april-evening-shift"
+    },
+    {
+      "question_id": "00v5hy5awavvjlin87b3",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-main-2026-online-4th-april-evening-shift",
+      "paperTitle": "JEE Main 2026 (Online) 4th April Evening Shift",
+      "permalink": "plet-alphafrac14frac18frac116ldots--jee-main-mathematics-trigonometric-functions-and-equations-owxgbvfmgajlynki",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $\\alpha=\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\ldots \\infty$ and \n<br/><br/>$\\beta=\\frac{1}{3}+\\frac{1}{9}+\\frac{1}{27}+\\ldots \\infty$. Then the value of \n<br/><br/>$(0.2)^{\\log _{\\sqrt{5}}(\\alpha)}+(0.04)^{\\log _5(\\beta)}$ is equal to :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>4</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>5</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>8</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>25</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>We first find the values of $\\alpha$ and $\\beta$.</p>\n<p>Given</p>\n<p>$$ \\alpha=\\frac14+\\frac18+\\frac1{16}+\\cdots $$</p>\n<p>This is an infinite geometric progression with</p>\n<p>$$ a=\\frac14,\\quad r=\\frac12 $$</p>\n<p>So,</p>\n<p>$$ \\alpha=\\frac{a}{1-r}=\\frac{\\frac14}{1-\\frac12}=\\frac{\\frac14}{\\frac12}=\\frac12 $$</p>\n<p>Now,</p>\n<p>$$ \\beta=\\frac13+\\frac19+\\frac1{27}+\\cdots $$</p>\n<p>This is also an infinite geometric progression with</p>\n<p>$$ a=\\frac13,\\quad r=\\frac13 $$</p>\n<p>Thus,</p>\n<p>$$ \\beta=\\frac{a}{1-r}=\\frac{\\frac13}{1-\\frac13}=\\frac{\\frac13}{\\frac23}=\\frac12 $$</p>\n<p>So both are equal to $\\frac12$.</p>\n<p>Now the expression becomes</p>\n<p>$$ (0.2)^{\\log_{\\sqrt5}\\left(\\frac12\\right)}+(0.04)^{\\log_5\\left(\\frac12\\right)} $$</p>\n<p>Convert decimals into fractions:</p>\n<p>$$ 0.2=\\frac15,\\qquad 0.04=\\frac1{25}=5^{-2} $$</p>\n<p>So,</p>\n<p>$$ \\left(\\frac15\\right)^{\\log_{\\sqrt5}\\left(\\frac12\\right)}+\\left(\\frac1{25}\\right)^{\\log_5\\left(\\frac12\\right)} $$</p>\n<p>That is,</p>\n<p>$$ 5^{-\\log_{\\sqrt5}\\left(\\frac12\\right)}+5^{-2\\log_5\\left(\\frac12\\right)} $$</p>\n<p>Now use the change of base idea:</p>\n<p>$$ \\log_{\\sqrt5}\\left(\\frac12\\right)=\\frac{\\log_5\\left(\\frac12\\right)}{\\log_5(\\sqrt5)} $$</p>\n<p>Since</p>\n<p>$$ \\log_5(\\sqrt5)=\\log_5\\left(5^{1/2}\\right)=\\frac12 $$</p>\n<p>therefore</p>\n<p>$$ \\log_{\\sqrt5}\\left(\\frac12\\right)=\\frac{\\log_5\\left(\\frac12\\right)}{1/2}=2\\log_5\\left(\\frac12\\right) $$</p>\n<p>Hence first term:</p>\n<p>$$ 5^{-\\log_{\\sqrt5}(1/2)}=5^{-2\\log_5(1/2)} $$</p>\n<p>So both terms are same:</p>\n<p>$$ 5^{-2\\log_5(1/2)}+5^{-2\\log_5(1/2)}=2\\cdot 5^{-2\\log_5(1/2)} $$</p>\n<p>Now use the identity</p>\n<p>$$ a^{\\log_a x}=x $$</p>\n<p>Then</p>\n<p>$$ 5^{-2\\log_5(1/2)}=5^{\\log_5(1/2)^{-2}} \\text{ is not correct} $$</p>\n<p>So let us simplify properly:</p>\n<p>$$ -2\\log_5\\left(\\frac12\\right)=\\log_5\\left(\\frac12\\right)^{-2}?  $$</p>\n<p>Instead, use</p>\n<p>$$ k\\log_a b=\\log_a(b^k) $$</p>\n<p>Thus,</p>\n<p>$$ -2\\log_5\\left(\\frac12\\right)=\\log_5\\left(\\left(\\frac12\\right)^{-2}\\right)=\\log_5(4) $$</p>\n<p>Therefore,</p>\n<p>$$ 5^{-2\\log_5(1/2)}=5^{\\log_5 4}=4 $$</p>\n<p>So the total value is</p>\n<p>$$ 2\\times 4=8 $$</p>\n<p>Hence, the required value is</p>\n<p>$$ \\boxed{8} $$</p>\n<p>So the correct option is <strong>Option C</strong>.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना $\\alpha=\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\ldots \\infty$ और $\\beta=\\frac{1}{3}+\\frac{1}{9}+\\frac{1}{27}+\\ldots \\infty$ हैं। तो $(0.2)^{\\log _{\\sqrt{5}}(\\alpha)}+(0.04)^{\\log _5(\\beta)}$ का मान बराबर है:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>4</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>5</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>8</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>25</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>हम पहले $\\alpha$ और $\\beta$ के मान ज्ञात करते हैं।</p>\n<p>दिया गया है,</p>\n<p>$$ \\alpha=\\frac14+\\frac18+\\frac1{16}+\\cdots $$</p>\n<p>यह एक अनंत गुणोत्तर श्रेढ़ी (infinite geometric progression) है, जहाँ</p>\n<p>$$ a=\\frac14,\\quad r=\\frac12 $$</p>\n<p>इसलिए,</p>\n<p>$$ \\alpha=\\frac{a}{1-r}=\\frac{\\frac14}{1-\\frac12}=\\frac{\\frac14}{\\frac12}=\\frac12 $$</p>\n<p>अब,</p>\n<p>$$ \\beta=\\frac13+\\frac19+\\frac1{27}+\\cdots $$</p>\n<p>यह भी एक अनंत गुणोत्तर श्रेढ़ी है, जहाँ</p>\n<p>$$ a=\\frac13,\\quad r=\\frac13 $$</p>\n<p>अत:,</p>\n<p>$$ \\beta=\\frac{a}{1-r}=\\frac{\\frac13}{1-\\frac13}=\\frac{\\frac13}{\\frac23}=\\frac12 $$</p>\n<p>इसलिए दोनों $\\frac12$ के बराबर हैं।</p>\n<p>अब व्यंजक हो जाता है</p>\n<p>$$ (0.2)^{\\log_{\\sqrt5}\\left(\\frac12\\right)}+(0.04)^{\\log_5}\\left(\\frac12\\right)} $$</p>\n<p>दशमलवों को भिन्नों में बदलें:</p>\n<p>$$ 0.2=\\frac15,\\qquad 0.04=\\frac1{25}=5^{-2} $$</p>\n<p>इसलिए,</p>\n<p>$$ \\left(\\frac15\\right)^{\\log_{\\sqrt5}\\left(\\frac12\\right)}+\\left(\\frac1{25}\\right)^{\\log_5\\left(\\frac12\\right)} $$</p>\n<p>अर्थात्,</p>\n<p>$$ 5^{-\\log_{\\sqrt5}\\left(\\frac12\\right)}+5^{-2\\log_5\\left(\\frac12\\right)} $$</p>\n<p>अब आधार परिवर्तन (change of base) की अवधारणा का उपयोग करें:</p>\n<p>$$ \\log_{\\sqrt5}\\left(\\frac12\\right)=\\frac{\\log_5\\left(\\frac12\\right)}{\\log_5(\\sqrt5)} $$</p>\n<p>चूँकि</p>\n<p>$$ \\log_5(\\sqrt5)=\\log_5\\left(5^{1/2}\\right)=\\frac12 $$</p>\n<p>इसलिए</p>\n<p>$$ \\log_{\\sqrt5}\\left(\\frac12\\right)=\\frac{\\log_5\\left(\\frac12\\right)}{1/2}=2\\log_5\\left(\\frac12\\right) $$</p>\n<p>अत: पहला पद:</p>\n<p>$$ 5^{-\\log_{\\sqrt5}(1/2)}=5^{-2\\log_5(1/2)} $$</p>\n<p>इसलिए दोनों पद समान हैं:</p>\n<p>$$ 5^{-2\\log_5(1/2)}+5^{-2\\log_5(1/2)}=2\\cdot 5^{-2\\log_5(1/2)} $$</p>\n<p>अब सर्वसमिका (identity) का उपयोग करें</p>\n<p>$$ a^{\\log_a x}=x $$</p>\n<p>तब</p>\n<p>$$ 5^{-2\\log_5(1/2)}=5^{\\log_5(1/2)^{-2}} \\text{ सही नहीं है} $$</p>\n<p>तो आइए इसे ठीक से सरल करें:</p>\n<p>$$ -2\\log_5\\left(\\frac12\\right)=\\log_5\\left(\\frac12\\right)^{-2}?  $$</p>\n<p>इसके बजाय, इसका उपयोग करें</p>\n<p>$$ k\\log_a b=\\log_a(b^k) $$</p>\n<p>इस प्रकार,</p>\n<p>$$ -2\\log_5\\left(\\frac12\\right)=\\log_5\\left(\\left(\\frac12\\right)^{-2}\\right)=\\log_5(4) $$</p>\n<p>इसलिए,</p>\n<p>$$ 5^{-2\\log_5(1/2)}=5^{\\log_5 4}=4 $$</p>\n<p>अतः कुल मान है</p>\n<p>$$ 2\\times 4=8 $$</p>\n<p>इसलिए, अभीष्ट मान है</p>\n<p>$$ \\boxed{8} $$</p>\n<p>अतः सही विकल्प <strong>विकल्प C</strong> है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 144000,
+      "topic": "logarithmic-properties",
+      "type": "mcq",
+      "year": 2026,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2026 (Online) 4th April Evening Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "Let $\\alpha=\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\ldots \\infty$ and \n$\\beta=\\frac{1}{3}+\\frac{1}{9}+\\frac{1}{27}+\\ldots \\infty$. Then the value of \n$(0.2)^{\\log _{\\sqrt{5}}(\\alpha)}+(0.04)^{\\log _5(\\beta)}$ is equal to :"
+        },
+        "hi": {
+          "title": "JEE Main 2026 (Online) 4th April Evening Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "माना $\\alpha=\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\ldots \\infty$ और $\\beta=\\frac{1}{3}+\\frac{1}{9}+\\frac{1}{27}+\\ldots \\infty$ हैं। तो $(0.2)^{\\log _{\\sqrt{5}}(\\alpha)}+(0.04)^{\\log _5(\\beta)}$ का मान बराबर है:"
+        }
+      },
+      "yearKey": "jee-main-2026-online-4th-april-evening-shift"
+    },
+    {
+      "question_id": "cgszmalsinmpe60si4vo",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-main-2026-online-23rd-january-evening-shift",
+      "paperTitle": "JEE Main 2026 (Online) 23rd January Evening Shift",
+      "permalink": "pthe-sum-of-all-the-real-solutions-of-the-equation-log--jee-main-mathematics-trigonometric-functions-and-equations-corptfpwlgtwerzf",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The sum of all the real solutions of the equation $\\log _{(x+3)}\\left(6 x^2+28 x+30\\right)=5-2 \\log _{(6 x+10)}\\left(x^2+6 x+9\\right)$ is equal to :</p>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>1</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>4</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>0</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>2</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>$\\begin{aligned} & \\log _{(x+3)}\\left(6 x^2+28 x+30\\right)=5-2 \\log _{(6 x+10)}\\left(x^2+6 x+9\\right)-1 \\\\ & \\log _{(x+3)} 2\\left(3 x^2+14 x+15\\right)+2 \\log _{(6 x+10)}\\left(x^2+6 x+9\\right)=5 \\\\ & \\log _{(x+3)} 2(x+3)(3 x+5)+2 \\log _{(6 x+10)}(x+3)^2=5 \\\\ & \\log _{(x+3)}(x+3)+\\log _{(x+3)}(6 x+10)+4 \\log _{(6 x+10)}(x+3)=5 \\\\ & \\log _{(x+3)}(6 x+10)+4 \\log _{(6 x+10)}(x+3)=4 \\quad\\left\\{\\log _{(x+3)}(x+3)=1\\right\\}\\end{aligned}$</p>\n<p>Let, $\\log _{(x+3)}(6 x+10)=t$</p>\n<p>$\\Rightarrow \\log _{(6 x+10)}(x+3)=\\frac{1}{t}$</p>\n<p>$$\\therefore $$ $t+4 \\times \\frac{1}{t}=4$</p>\n<p>$\\begin{aligned} & t^2-4 t+4=0 \\\\ & (t-2)^2=0 \\Longrightarrow t=2\\end{aligned}$</p>\n<p>$\\begin{aligned} & \\text { Checking } x=1 \\text { in equation (1) } \\\\ & \\log _{(1+3)}\\left(6(1)^2+28(1)+30\\right)=5-2 \\log _{(6(1)+10)}\\left(1^2+6(1)+9\\right) \\\\ & \\log _4 64=5-2 \\log _{16} 16 \\\\ & 3=5-2=3 \\text { true } \\\\ & \\text { Checking } x=-1 \\text { in equation (1) } \\\\ & \\log _{(-1+3)}\\left(6(-1)^2+28(-1)+30\\right)=5-2 \\log _{(6(-1)+10)}\\left((-1)^2+6(-1)+9\\right) \\\\ & \\log _2 8=5-2 \\log _4 4 \\\\ & 3=3 \\text { true } \\\\ & \\text { So, solutions are } x=1 \\text { and } x=-1 \\\\ & \\text { Sum of solution }=1+(-1)=0\\end{aligned}$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>समीकरण $\\log _{(x+3)}\\left(6 x^2+28 x+30\\right)=5-2 \\log _{(6 x+10)}\\left(x^2+6 x+9\\right)$ के सभी वास्तविक हलों का योग है</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>1</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>4</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>0</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>2</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>$\\begin{aligned} & \\log _{(x+3)}\\left(6 x^2+28 x+30\\right)=5-2 \\log _{(6 x+10)}\\left(x^2+6 x+9\\right)-1 \\\\ & \\log _{(x+3)} 2\\left(3 x^2+14 x+15\\right)+2 \\log _{(6 x+10)}\\left(x^2+6 x+9\\right)=5 \\\\ & \\log _{(x+3)} 2(x+3)(3 x+5)+2 \\log _{(6 x+10)}(x+3)^2=5 \\\\ & \\log _{(x+3)}(x+3)+\\log _{(x+3)}(6 x+10)+4 \\log _{(6 x+10)}(x+3)=5 \\\\ & \\log _{(x+3)}(6 x+10)+4 \\log _{(6 x+10)}(x+3)=4 \\quad\\left\\{\\log _{(x+3)}(x+3)=1\\right\\}\\end{aligned}$</p>\n<p>माना, $\\log _{(x+3)}(6 x+10)=t$</p>\n<p>$\\Rightarrow \\log _{(6 x+10)}(x+3)=\\frac{1}{t}$</p>\n<p>$$\\therefore $$ $t+4 \\times \\frac{1}{t}=4$</p>\n<p>$\\begin{aligned} & t^2-4 t+4=0 \\\\ & (t-2)^2=0 \\Longrightarrow t=2\\end{aligned}$</p>\n<p>$\\begin{aligned} & \\text { समीकरण (1) में } x=1 \\text { की जाँच करने पर } \\\\ & \\log _{(1+3)}\\left(6(1)^2+28(1)+30\\right)=5-2 \\log _{(6(1)+10)}\\left(1^2+6(1)+9\\right) \\\\ & \\log _4 64=5-2 \\log _{16} 16 \\\\ & 3=5-2=3 \\text { सत्य है } \\\\ & \\text { समीकरण (1) में } x=-1 \\text { की जाँच करने पर } \\\\ & \\log _{(-1+3)}\\left(6(-1)^2+28(-1)+30\\right)=5-2 \\log _{(6(-1)+10)}\\left((-1)^2+6(-1)+9\\right) \\\\ & \\log _2 8=5-2 \\log _4 4 \\\\ & 3=3 \\text { सत्य है } \\\\ & \\text { इसलिए, हल } x=1 \\text { और } x=-1 \\text { हैं } \\\\ & \\text { हलों का योग }=1+(-1)=0\\end{aligned}$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 144000,
+      "topic": "logarithmic-equations",
+      "type": "mcq",
+      "year": 2026,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2026 (Online) 23rd January Evening Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "The sum of all the real solutions of the equation $\\log _{(x+3)}\\left(6 x^2+28 x+30\\right)=5-2 \\log _{(6 x+10)}\\left(x^2+6 x+9\\right)$ is equal to :\n"
+        },
+        "hi": {
+          "title": "JEE Main 2026 (Online) 23rd January Evening Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "समीकरण $\\log _{(x+3)}\\left(6 x^2+28 x+30\\right)=5-2 \\log _{(6 x+10)}\\left(x^2+6 x+9\\right)$ के सभी वास्तविक हलों का योग है"
+        }
+      },
+      "yearKey": "jee-main-2026-online-23rd-january-evening-shift"
+    },
+    {
+      "question_id": "r1o16ov8dah2sux9fkqt",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-main-2025-online-22nd-january-morning-shift",
+      "paperTitle": "JEE Main 2025 (Online) 22nd January Morning Shift",
+      "permalink": "pthe-product-of-all-solutions-of-the-equation-mathrme-jee-main-mathematics-trigonometric-functions-and-equations-sr1z9ah6ix0s8n5o",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The product of all solutions of the equation $\\mathrm{e}^{5\\left(\\log _{\\mathrm{e}} x\\right)^2+3}=x^8, x>0$, is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$e^2$\n"
+            },
+            {
+              "identifier": "B",
+              "content": "$e$\n"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{e}^{6 / 5}$\n"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{e}^{8 / 5}$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>We begin with the equation:</p>\n<p>$ e^{5(\\log_e x)^2 + 3} = x^8, \\; x > 0. $</p>\n<p>Equating the exponents, we have:</p>\n<p>$ 5(\\log_e x)^2 + 3 = \\log_e x^8 = 8 \\log_e x. $</p>\n<p>Let $ t = \\log_e x $. Substituting, the equation becomes:</p>\n<p>$ 5t^2 + 3 = 8t. $</p>\n<p>Rewriting this as a quadratic equation:</p>\n<p>$ 5t^2 - 8t + 3 = 0. $</p>\n<p>Factoring the quadratic:</p>\n<p>$ 5t^2 - 5t - 3t + 3 = 0, $</p>\n<p>$ (5t - 3)(t - 1) = 0. $</p>\n<p>Thus, the solutions for $ t $ are:</p>\n\n<p><p>$ t = 1 $ implies $ \\log_e x = 1 $, giving $ x = e $.</p></p>\n<p><p>$ t = \\frac{3}{5} $ implies $ \\log_e x = \\frac{3}{5} $, giving $ x = e^{\\frac{3}{5}} $.</p></p>\n\n<p>The product of all solutions is:</p>\n<p>$ e^1 \\times e^{\\frac{3}{5}} = e^{1 + \\frac{3}{5}} = e^{\\frac{8}{5}}. $</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>समीकरण $\\mathrm{e}^{5\\left(\\log _{\\mathrm{e}} x\\right)^2+3}=x^8, x>0$ के सभी हलों का गुणनफल है :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$e^2$\n"
+            },
+            {
+              "identifier": "B",
+              "content": "$e$\n"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{e}^{6 / 5}$\n"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{e}^{8 / 5}$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>हम समीकरण से शुरू करते हैं:</p>\n<p>$ e^{5(\\log_e x)^2 + 3} = x^8, \\; x > 0. $</p>\n<p>घातांकों को बराबर करने पर, हमें प्राप्त होता है:</p>\n<p>$ 5(\\log_e x)^2 + 3 = \\log_e x^8 = 8 \\log_e x. $</p>\n<p>माना $ t = \\log_e x $. प्रतिस्थापित करने पर, समीकरण बन जाती है:</p>\n<p>$ 5t^2 + 3 = 8t. $</p>\n<p>इसे द्विघात समीकरण के रूप में लिखने पर:</p>\n<p>$ 5t^2 - 8t + 3 = 0. $</p>\n<p>द्विघात का गुणनखंडन करने पर:</p>\n<p>$ 5t^2 - 5t - 3t + 3 = 0, $</p>\n<p>$ (5t - 3)(t - 1) = 0. $</p>\n<p>इस प्रकार, $ t $ के हल हैं:</p>\n\n<p><p>$ t = 1 $ का अर्थ है $ \\log_e x = 1 $, जो $ x = e $ देता है।</p></p>\n<p><p>$ t = \\frac{3}{5} $ का अर्थ है $ \\log_e x = \\frac{3}{5} $, जो $ x = e^{\\frac{3}{5}} $ देता है।</p></p>\n\n<p>सभी हलों का गुणनफल है:</p>\n<p>$ e^1 \\times e^{\\frac{3}{5}} = e^{1 + \\frac{3}{5}} = e^{\\frac{8}{5}}. $</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 144000,
+      "topic": "logarithmic-equations",
+      "type": "mcq",
+      "year": 2025,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2025 (Online) 22nd January Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "The product of all solutions of the equation $\\mathrm{e}^{5\\left(\\log _{\\mathrm{e}} x\\right)^2+3}=x^8, x>0$, is :"
+        },
+        "hi": {
+          "title": "JEE Main 2025 (Online) 22nd January Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "समीकरण $\\mathrm{e}^{5\\left(\\log _{\\mathrm{e}} x\\right)^2+3}=x^8, x>0$ के सभी हलों का गुणनफल है :"
+        }
+      },
+      "yearKey": "jee-main-2025-online-22nd-january-morning-shift"
+    },
+    {
+      "question_id": "oi0ecxc1dwdeosqkxqea",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-main-2023-online-11th-april-morning-shift",
+      "paperTitle": "JEE Main 2023 (Online) 11th April Morning Shift",
+      "permalink": "pthe-number-of-integral-solutions-x-of-log-left-jee-main-mathematics-trigonometric-functions-and-equations-2pe28lvzwsrvdhrw",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The number of integral solutions $$x$$ of $$\\log _{\\left(x+\\frac{7}{2}\\right)}\\left(\\frac{x-7}{2 x-3}\\right)^{2} \\geq 0$$ is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "8"
+            },
+            {
+              "identifier": "B",
+              "content": "7"
+            },
+            {
+              "identifier": "C",
+              "content": "5"
+            },
+            {
+              "identifier": "D",
+              "content": "6"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "$$\\log _{\\left(x+\\frac{7}{2}\\right)}\\left(\\frac{x-7}{2 x-3}\\right)^{2} \\geq 0$$\n<br/><br/><b>Domain :</b>\n<br/><br/>$$\n\\begin{aligned}\n& x+\\frac{7}{2}>0 \\\\\\\\\n& x>\\frac{-7}{2} \\\\\\\\\n& x+\\frac{7}{2} \\neq 1 \\\\\\\\\n& x \\neq \\frac{-5}{2} \\\\\\\\\n& \\frac{x-7}{2 x-3} \\neq 0 \\\\\\\\\n& x \\neq 7 \\\\\\\\\n& x \\neq \\frac{3}{2}\n\\end{aligned}\n$$\n<br/><br/>$$\n\\text { Taking intersection : } x \\in\\left(\\frac{-7}{2}, \\infty\\right)-\\left\\{-\\frac{5}{2}, \\frac{3}{2}, 7\\right\\}\n$$\n<br/><br/>Now $\\log _{\\mathrm{a}} \\mathrm{b} \\geq 0$ if $\\mathrm{a}>1$ and $\\mathrm{b} \\geq 1$\n<br/><br/>$$\n\\begin{gathered}\n\\text { Or } \\\\\\\\\na \\in(0,1) \\text { and } b \\in(0,1)\n\\end{gathered}\n$$\n<br/><br/><b>Case I :</b> $$\nx+\\frac{7}{2}>1 \\text { and }\\left(\\frac{x-7}{2 x-3}\\right)^2 \\geq 1\n$$\n<br/><br/>$$ \\therefore $$ $$\nx > -\\frac{5}{2}\n$$\n<br/><br/>and \n<br/><br/>$$\n\\begin{aligned}\n& (2 x-3)^2-(x-7)^2 \\leq 0 \\\\\\\\\n& (2 x-3+x-7)(2 x-3-x+7) \\leq 0 \\\\\\\\\n& (3 x-10)(x+4) \\leq 0\n\\end{aligned}\n$$\n<br/><br/>$$\nx \\in\\left[-4, \\frac{10}{3}\\right]\n$$\n<br/><br/>$$\n\\text { Intersection : } \\mathrm{x} \\in\\left(\\frac{-5}{2}, \\frac{10}{3}\\right]\n$$\n<br/><br/><b>Case II :</b> $$\nx+\\frac{7}{2} \\in(0,1) \\text { and }\\left(\\frac{x-7}{2 x-3}\\right)^2 \\in(0,1)\n$$\n<br/><br/>$$\n\\begin{aligned}\n& \\therefore 0 < x+\\frac{7}{2}<1 \\\\\\\\\n& -\\frac{7}{2} < x < \\frac{-5}{2}\n\\end{aligned}\n$$\n<br/><br/>and\n<br/><br/>$$\n\\begin{aligned}\n& \\left(\\frac{x-7}{2 x-3}\\right)^2<1 \\\\\\\\\n& \\Rightarrow  (x-7)^2 < (2 x-3)^2\n\\end{aligned}\n$$\n<br/><br/>$$ \\therefore $$ $$\nx \\in(-\\infty,-4) \\cup\\left(\\frac{10}{3}, \\infty\\right)\n$$\n<br/><br/>No common values of $\\mathrm{x}$.\n<br/><br/>Hence intersection with feasible region. \n<br/><br/>We get $x \\in\\left(\\frac{-5}{2}, \\frac{10}{3}\\right]-\\left\\{\\frac{3}{2}\\right\\}$\n\n<br/><br/>Integral value of $x$ are $\\{-2,-1,0,1,2,3\\}$\n<br/><br/>No. of integral values $=6$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$\\log _{\\left(x+\\frac{7}{2}\\right)}\\left(\\frac{x-7}{2 x-3}\\right)^2 \\geq 0$$ के पूर्णांक हलों $$x$$ की संख्या है :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "8"
+            },
+            {
+              "identifier": "B",
+              "content": "7"
+            },
+            {
+              "identifier": "C",
+              "content": "5"
+            },
+            {
+              "identifier": "D",
+              "content": "6"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 120000,
+      "topic": "logarithm-inequalities",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2023 (Online) 11th April Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "The number of integral solutions $$x$$ of $$\\log _{\\left(x+\\frac{7}{2}\\right)}\\left(\\frac{x-7}{2 x-3}\\right)^{2} \\geq 0$$ is :"
+        },
+        "hi": {
+          "title": "JEE Main 2023 (Online) 11th April Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "$$\\log _{\\left(x+\\frac{7}{2}\\right)}\\left(\\frac{x-7}{2 x-3}\\right)^2 \\geq 0$$ के पूर्णांक हलों $$x$$ की संख्या है :"
+        }
+      },
+      "yearKey": "jee-main-2023-online-11th-april-morning-shift"
+    },
+    {
+      "question_id": "xl9xw4n62y8kbni3ia4a",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-main-2023-online-10th-april-morning-shift",
+      "paperTitle": "JEE Main 2023 (Online) 10th April Morning Shift",
+      "permalink": "plet-a-b-c-be-three-distinct-positive-real-numbers-such-jee-main-mathematics-trigonometric-functions-and-equations-uuzkxmryatyyj18a",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let a, b, c be three distinct positive real numbers such that $${(2a)^{{{\\log }_e}a}} = {(bc)^{{{\\log }_e}b}}$$ and $${b^{{{\\log }_e}2}} = {a^{{{\\log }_e}c}}$$.<br/><br/>Then, 6a + 5bc is equal to ___________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "Given, $(2 a)^{\\ln a}=(b c)^{\\ln b}$, where $2 a>0, b c>0$\n<br/><br/>$$\n\\Rightarrow \\ln a(\\ln 2+\\ln a)=\\ln b(\\ln b+\\ln c)\n$$ ..........(i)\n<br/><br/>and\n$(b)^{\\ln 2}=(a)^{\\ln c}$\n<br/><br/>$$\n\\Rightarrow \\ln 2 \\cdot \\ln b=\\ln c \\cdot \\ln a\n$$ ..........(ii)\n<br/><br/>Now, let $\\ln a=x, \\ln b=y$\n<br/><br/>$$\n\\ln 2=p, \\ln c=z\n$$\n<br/><br/>Now, from Eqs. (i) and (ii), we get\n<br/><br/>$$\np \\cdot y=x z \\text { and } x(p+x)=y(y+z)\n$$\n<br/><br/>$$\n\\begin{aligned}\n& \\therefore p=\\frac{x z}{y} \\\\\\\\\n& \\therefore x\\left(\\frac{x z}{y}+x\\right)=y(y+z) \\\\\\\\\n& \\Rightarrow x^2 z+x^2 y=y^2(y+z) \\\\\\\\\n& \\Rightarrow \\left(x^2-y^2\\right)(y+z)=0\n\\end{aligned}\n$$\n<p>$$ \\therefore $$ $ x^2 = y^2 $\n<br/><br/>$ x = \\pm y $</p>\n<p>So, from the equations, there are two cases :</p>\n<p>Case 1 :\n<br/><br/>$ x = y $\n<br/><br/>In this case, since x and y are natural logarithms of positive numbers a and b respectively, this implies that a = b. However, this cannot be true as a, b, and c are given to be distinct positive real numbers.</p>\n<p>Case 2 :\n<br/><br/>x = -y\n<br/><br/>In this case, $ \\ln a = -\\ln b $\n<br/><br/>$ \\Rightarrow a \\times b = 1$\n<br/><br/>$ \\Rightarrow b = \\frac{1}{a} $</p>\n<p>Also, y + z = 0 (from the equations above)\n<br/><br/>$ \\Rightarrow \\ln b + \\ln c = 0 $\n<br/><br/>$ \\Rightarrow \\ln (b \\times c) = 0 $\n<br/><br/>$ \\Rightarrow b \\times c = 1 $</p>\n<p>Given $ b = \\frac{1}{a} $ and $ b \\times c = 1 $\n$ \\Rightarrow c = a $</p>\n<p>Thus, in the case where x = -y, the possible values are :\n <br/><br/>$b = \\frac{1}{a} $\n <br/><br/>$c = a$</p>\n<br/>$$\n\\begin{aligned}\n& \\text { If } b c=1 \\Rightarrow(2 a)^{\\ln a}=1 \\\\\\\\\n& \\Rightarrow a=1 / 2 \\\\\\\\\n& \\text { So, } 6 a+5 b c=6\\left(\\frac{1}{2}\\right)+5=3+5=8\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना तीन भिन्न धनात्मक वास्तविक संख्याओं $$a, b, c$$ के लिए $$(2 a)^{\\log _e a}=(b c)^{\\log _e b}$$ तथा $$b^{\\log _e 2}=a^{\\log _e c}$$ हैं। तो $$6 a+5 b c$$ बराबर है ____________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 120000,
+      "topic": "logarithmic-equations",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2023 (Online) 10th April Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "Let a, b, c be three distinct positive real numbers such that $${(2a)^{{{\\log }_e}a}} = {(bc)^{{{\\log }_e}b}}$$ and $${b^{{{\\log }_e}2}} = {a^{{{\\log }_e}c}}$$.Then, 6a + 5bc is equal to ___________."
+        },
+        "hi": {
+          "title": "JEE Main 2023 (Online) 10th April Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "माना तीन भिन्न धनात्मक वास्तविक संख्याओं $$a, b, c$$ के लिए $$(2 a)^{\\log _e a}=(b c)^{\\log _e b}$$ तथा $$b^{\\log _e 2}=a^{\\log _e c}$$ हैं। तो $$6 a+5 b c$$ बराबर है ____________"
+        }
+      },
+      "yearKey": "jee-main-2023-online-10th-april-morning-shift"
+    },
+    {
+      "question_id": "ifbx1iu0oh8yb1vardm7",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-main-2023-online-30th-january-morning-shift",
+      "paperTitle": "JEE Main 2023 (Online) 30th January Morning Shift",
+      "permalink": "pif-the-solution-of-the-equation-log-cos-x-cot-x4-jee-main-mathematics-trigonometric-functions-and-equations-ayrbnm3yisqg0pzb",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>If the solution of the equation $$\\log _{\\cos x} \\cot x+4 \\log _{\\sin x} \\tan x=1, x \\in\\left(0, \\frac{\\pi}{2}\\right)$$, is $$\\sin ^{-1}\\left(\\frac{\\alpha+\\sqrt{\\beta}}{2}\\right)$$, where $$\\alpha$$, $$\\beta$$ are integers, then $$\\alpha+\\beta$$ is equal to :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "3"
+            },
+            {
+              "identifier": "B",
+              "content": "6"
+            },
+            {
+              "identifier": "C",
+              "content": "4"
+            },
+            {
+              "identifier": "D",
+              "content": "5"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>$${\\log _{\\cos x}}\\cot x + 4{\\log _{\\sin x}}\\tan x = 1$$</p>\n<p>$$ \\Rightarrow {\\log _{\\cos x}}\\cot x - 4{\\log _{\\sin x}}\\cot x = 1$$</p>\n<p>$$ \\Rightarrow 1 - {\\log _{\\cos x}}\\sin x - 4 - 4{\\log _{\\sin x}}\\cos x = 1$$</p>\n<p>Let $${\\log _{\\cos x}}\\sin x = t$$</p>\n<p>$$t + {4 \\over t} = 4$$</p>\n<p>$$ \\Rightarrow t = 2$$</p>\n<p>$$\\sin x = {\\cos ^2}x$$</p>\n<p>$$ \\Rightarrow \\sin x = 1 - {\\sin ^2}x$$</p>\n<p>$$ \\Rightarrow {\\sin ^2}x + \\sin {x^{ - 1}} = 0$$</p>\n<p>$$ \\Rightarrow \\sin x = {{ - 1\\, \\pm \\,\\sqrt 5 } \\over 2}$$</p>\n<p>as $$x \\in \\left( {0,{\\pi  \\over 2}} \\right)$$</p>\n<p>$$\\sin x = {{\\sqrt 5  - 1} \\over 2}$$</p>\n<p>$$x = {\\sin ^{ - 1}}\\left( {{{ - 1 + \\sqrt 5 } \\over 2}} \\right)$$</p>\n<p>$$ \\Rightarrow \\alpha  =  - 1,\\beta  = 5$$</p>\n<p>$$\\alpha  + \\beta  = 4$$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>यदि समीकरण $$\\left(\\log _{\\cos x} \\cot x\\right)+4\\left(\\log _{\\sin x} \\tan x\\right)=1, x \\in\\left(0, \\frac{\\pi}{2}\\right)$$, का हल $$\\sin ^{-1}\\left(\\frac{\\alpha+\\sqrt{\\beta}}{2}\\right)$$ हैं , जहाँ $$\\alpha, \\beta$$ पूर्णांक हैं, तो $$\\alpha+\\beta$$ बराबर है :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "3"
+            },
+            {
+              "identifier": "B",
+              "content": "6"
+            },
+            {
+              "identifier": "C",
+              "content": "4"
+            },
+            {
+              "identifier": "D",
+              "content": "5"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 120000,
+      "topic": "logarithmic-equations",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2023 (Online) 30th January Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "If the solution of the equation $$\\log _{\\cos x} \\cot x+4 \\log _{\\sin x} \\tan x=1, x \\in\\left(0, \\frac{\\pi}{2}\\right)$$, is $$\\sin ^{-1}\\left(\\frac{\\alpha+\\sqrt{\\beta}}{2}\\right)$$, where $$\\alpha$$, $$\\beta$$ are integers, then $$\\alpha+\\b..."
+        },
+        "hi": {
+          "title": "JEE Main 2023 (Online) 30th January Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "यदि समीकरण $$\\left(\\log _{\\cos x} \\cot x\\right)+4\\left(\\log _{\\sin x} \\tan x\\right)=1, x \\in\\left(0, \\frac{\\pi}{2}\\right)$$, का हल $$\\sin ^{-1}\\left(\\frac{\\alpha+\\sqrt{\\beta}}{2}\\right)$$ हैं , जहाँ $$\\alpha, \\beta$$ पूर्णांक हैं, तो $$\\alp..."
+        }
+      },
+      "yearKey": "jee-main-2023-online-30th-january-morning-shift"
+    },
+    {
+      "question_id": "mci6yvfiiw82sohps5il",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-main-2023-online-25th-january-morning-shift",
+      "paperTitle": "JEE Main 2023 (Online) 25th January Morning Shift",
+      "permalink": "plet-s--left-alpha-log-292alpha-4-jee-main-mathematics-trigonometric-functions-and-equations-hepqzafqkur3fxbk",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Let $$S = \\left\\{ {\\alpha :{{\\log }_2}({9^{2\\alpha  - 4}} + 13) - {{\\log }_2}\\left( {{5 \\over 2}.\\,{3^{2\\alpha  - 4}} + 1} \\right) = 2} \\right\\}$$. Then the maximum value of $$\\beta$$ for which the equation $${x^2} - 2{\\left( {\\sum\\limits_{\\alpha  \\in s} \\alpha  } \\right)^2}x + \\sum\\limits_{\\alpha  \\in s} {{{(\\alpha  + 1)}^2}\\beta  = 0} $$ has real roots, is ____________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "25",
+          "explanation": "$$\n\\begin{aligned}\n& \\log _2\\left(9^{2 \\alpha-4}+13\\right)-\\log _2\\left(\\frac{5}{2} \\cdot 3^{2 \\alpha-4}+1\\right)=2 \\\\\\\\\n& \\Rightarrow \\frac{9^{2 \\alpha-4}+13}{\\frac{5}{2} 3^{2 \\alpha-4}+1}=4 \\\\\\\\\n& \\Rightarrow \\alpha=2 \\quad \\text { or } \\quad 3 \\\\\\\\\n& \\sum_{\\alpha \\in \\mathrm{S}} \\alpha=5 \\text { and } \\sum_{\\alpha \\in \\mathrm{S}}(\\alpha+1)^2=25 \\\\\\\\\n& \\Rightarrow x^2-50 x+25 \\beta=0 \\text { has real roots } \\\\\\\\\n& \\Rightarrow \\beta \\leq 25 \\\\\\\\\n& \\Rightarrow \\beta_{\\max }=25\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना $$S=\\left\\{\\alpha: \\log _{2}\\left(9^{2 \\alpha-4}+13\\right)-\\log _{2}\\left(\\frac{5}{2} \\cdot 3^{2 \\alpha-4}+1\\right)=2\\right\\}$$ है । तो $$\\beta$$ का अधिकतम मान, जिसके लिए समीकरण $$x^{2}-2\\left(\\sum_\\limits{\\alpha \\in S} \\alpha\\right)^{2} x+\\sum_\\limits{\\alpha \\in S}(\\alpha+1)^{2} \\beta=0$$ के वास्तविक मूल हैं, ____________ है ।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "25",
+          "explanation": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 120000,
+      "topic": "logarithmic-equations",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2023 (Online) 25th January Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "Let $$S = \\left\\{ {\\alpha :{{\\log }_2}({9^{2\\alpha  - 4}} + 13) - {{\\log }_2}\\left( {{5 \\over 2}.\\,{3^{2\\alpha  - 4}} + 1} \\right) = 2} \\right\\}$$. Then the maximum value of $$\\beta$$ for which the equation $${x^2} - 2{\\left( {\\sum\\limits_{..."
+        },
+        "hi": {
+          "title": "JEE Main 2023 (Online) 25th January Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "माना $$S=\\left\\{\\alpha: \\log _{2}\\left(9^{2 \\alpha-4}+13\\right)-\\log _{2}\\left(\\frac{5}{2} \\cdot 3^{2 \\alpha-4}+1\\right)=2\\right\\}$$ है । तो $$\\beta$$ का अधिकतम मान, जिसके लिए समीकरण $$x^{2}-2\\left(\\sum_\\limits{\\alpha \\in S} \\alpha\\right)^{..."
+        }
+      },
+      "yearKey": "jee-main-2023-online-25th-january-morning-shift"
+    },
+    {
+      "question_id": "50mymt5bhte1b8o6eow6",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Main 2021 (Online) 20th July Evening Shift",
+      "permalink": "the-number-of-solutions-of-the-equation-brbrlog--jee-main-mathematics-trigonometric-functions-and-equations-d0uxchehnybvrjct",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The number of solutions of the equation <br><br>$${\\log _{(x + 1)}}(2{x^2} + 7x + 5) + {\\log _{(2x + 5)}}{(x + 1)^2} - 4 = 0$$, x &gt; 0, is :",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "$${\\log _{(x + 1)}}(2{x^2} + 7x + 5) + {\\log _{(2x + 5)}}{(x + 1)^2} - 4 = 0$$<br><br>$${\\log _{(x + 1)}}(2x + 5)(x + 1) + 2{\\log _{(2x + 5)}}(x + 1) = 4$$<br><br>$${\\log _{(x + 1)}}(2x + 5) + 1 + 2{\\log _{(2x + 5)}}(x + 1) = 4$$<br><br>Put $${\\log _{(x + 1)}}(2x + 5) = t$$<br><br>$$t + {2 \\over t} = 3 \\Rightarrow {t^2} - 3t + 2 = 0$$<br><br>t = 1, 2<br><br>$${\\log _{(x + 1)}}(2x + 5) = 1$$ &amp; $${\\log _{(x + 1)}}(2x + 5) = 2$$<br><br>$$x + 1 = 2x + 3$$ &amp; $$2x + 5 = {(x + 1)^2}$$<br><br>$$x =  - 4$$ (rejected)<br><br>$${x^2} = 4 \\Rightarrow x = 2, - 2$$ (rejected)<br><br>So, x = 2<br><br>No. of solution = 1"
+        },
+        "hi": {
+          "direction": null,
+          "content": "समीकरण <br><br>$${\\log _{(x + 1)}}(2{x^2} + 7x + 5) + {\\log _{(2x + 5)}}{(x + 1)^2} - 4 = 0$$, x &gt; 0, के समाधानों की संख्या है :",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 120000,
+      "topic": "logarithmic-equations",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-main-2021-online-20th-july-evening-shift",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2021 (Online) 20th July Evening Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "The number of solutions of the equation $${\\log _{(x + 1)}}(2{x^2} + 7x + 5) + {\\log _{(2x + 5)}}{(x + 1)^2} - 4 = 0$$, x > 0, is :"
+        },
+        "hi": {
+          "title": "JEE Main 2021 (Online) 20th July Evening Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "समीकरण $${\\log _{(x + 1)}}(2{x^2} + 7x + 5) + {\\log _{(2x + 5)}}{(x + 1)^2} - 4 = 0$$, x > 0, के समाधानों की संख्या है :"
+        }
+      },
+      "yearKey": "jee-main-2021-online-20th-july-evening-shift"
+    },
+    {
+      "question_id": "8gc6mzkpyqmfo3ufftxg",
+      "chapter": "logarithm",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-main",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Main 2021 (Online) 26th February Morning Shift",
+      "permalink": "the-number-of-solutions-of-the-equation-logsub4subx--jee-main-mathematics-trigonometric-functions-and-equations-zhpypah0azr0xfgd",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The number of solutions of the equation log<sub>4</sub>(x $$-$$ 1) = log<sub>2</sub>(x $$-$$ 3) is _________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "$${\\log _4}(x - 1) = {\\log _2}(x - 3)$$<br><br>$$ \\Rightarrow {1 \\over 2}{\\log _2}(x - 1) = {\\log _2}(x - 3)$$<br><br>$$ \\Rightarrow {\\log _2}{(x - 1)^{1/2}} = {\\log _2}(x - 3)$$<br><br>$$ \\Rightarrow {(x - 1)^{1/2}} = {\\log _2}(x - 3)$$<br><br>$$ \\Rightarrow {(x - 1)^{1/2}} = x - 3$$<br><br>$$ \\Rightarrow x - 1 = {x^2} + 9 - 6x$$<br><br>$$ \\Rightarrow {x^2} - 7x + 10 = 0$$<br><br>$$ \\Rightarrow (x - 2)(x - 5) = 0$$<br><br>$$ \\Rightarrow x = 2,5$$<br><br>But x $$ \\ne $$ 2 because it is not satisfying the domain of given equation i.e. log<sub>2</sub>(x $$-$$ 3) $$ \\to $$ its domain x &gt; 3<br><br>finally x is 5<br><br>$$ \\therefore $$ No. of solutions = 1."
+        },
+        "hi": {
+          "direction": null,
+          "content": "समीकरण log<sub>4</sub>(x $$-$$ 1) = log<sub>2</sub>(x $$-$$ 3) के समाधानों की संख्या _______ है।",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 120000,
+      "topic": "logarithmic-equations",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-main-2021-online-26th-february-morning-slot",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2021 (Online) 26th February Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "The number of solutions of the equation log4(x $$-$$ 1) = log2(x $$-$$ 3) is _________."
+        },
+        "hi": {
+          "title": "JEE Main 2021 (Online) 26th February Morning Shift",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "समीकरण log4(x $$-$$ 1) = log2(x $$-$$ 3) के समाधानों की संख्या _______ है।"
+        }
+      },
+      "yearKey": "jee-main-2021-online-26th-february-morning-slot"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "exam": "jee-main",
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "algebra",
+      "chapter": "logarithm",
+      "year": 2020,
+      "paperTitle": "JEE Main 2020 (Online) 9th January Morning Slot",
+      "marks": 4,
+      "negMarks": 0,
+      "languages": [
+        "en"
+      ],
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": "2020-01-09 09:30",
+      "question": {
+        "en": {
+          "content": "The number of distinct solutions of the equation<br>\n $${\\log _{{1 \\over 2}}}\\left| {\\sin x} \\right| = 2 - {\\log _{{1 \\over 2}}}\\left| {\\cos x} \\right|$$ in the interval\n[0, 2$$\\pi $$], is ____.",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "$${\\log _{{1 \\over 2}}}\\left| {\\sin x} \\right| = 2 - {\\log _{{1 \\over 2}}}\\left| {\\cos x} \\right|$$\n<br><br>$$ \\Rightarrow $$ $${\\log _{{1 \\over 2}}}\\left| {\\sin x} \\right|$$ + $${\\log _{{1 \\over 2}}}\\left| {\\cos x} \\right|$$ = 2\n<br><br>$$ \\Rightarrow $$ $${\\log _{{1 \\over 2}}}\\left( {\\left| {\\sin x\\cos x} \\right|} \\right)$$ = 2\n<br><br>$$ \\Rightarrow $$ $${\\left| {\\sin x\\cos x} \\right| = {1 \\over 4}}$$\n<br><br>$$ \\Rightarrow $$ sin 2x = $$ \\pm $$ $${1 \\over 2}$$\n<img src=\"https://imagex.cdn.examgoal.net/7kd4dk677t58t/6d349409-cce3-41d7-b19a-920c16152b03/278ea7d0-46ef-11ea-b62d-51ccc5d4afb6/file-7kd4dk677t58u-486w.jpg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Main 2020 (Online) 9th January Morning Slot Mathematics - Logarithm Question 11 English Explanation\">\n<br><br>$$ \\therefore $$ Number of distinct solution = 8"
+        },
+        "hi": {
+          "content": "समीकरण के विभिन्न समाधानों की संख्या\n $${\\log _{{1 \\over 2}}}\\left| {\\sin x} \\right| = 2 - {\\log _{{1 \\over 2}}}\\left| {\\cos x} \\right|$$ अंतराल\n[0, 2$$\\pi $$] में, ____.",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "question_id": "gfocwlzql7h7ag9ezzzb",
+      "updated_time": 1580780420,
+      "permalink": "the-number-of-distinct-solutions-of-the-equationbr-l-jee-main-mathematics-functions-qlaipdoiud2xbs3p",
+      "timeAllotted": 144000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-main-2020-online-9th-january-morning-slot",
+      "topic": "logarithmic-equations",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "tags": [],
+      "bookmark": {
+        "en": {
+          "title": "JEE Main 2020 (Online) 9th January Morning Slot",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "The number of distinct solutions of the equation\n $${\\log _{{1 \\over 2}}}\\left| {\\sin x} \\right| = 2 - {\\log _{{1 \\over 2}}}\\left| {\\cos x} \\right|$$ in the interval\n[0, 2$$\\pi $$], is ____."
+        },
+        "hi": {
+          "title": "JEE Main 2020 (Online) 9th January Morning Slot",
+          "subTitle": "Logarithm • Mathematics",
+          "excerpt": "समीकरण के विभिन्न समाधानों की संख्या\n $${\\log _{{1 \\over 2}}}\\left| {\\sin x} \\right| = 2 - {\\log _{{1 \\over 2}}}\\left| {\\cos x} \\right|$$ अंतराल\n[0, 2$$\\pi $$] में, ____."
+        }
+      },
+      "yearKey": "jee-main-2020-online-9th-january-morning-slot"
+    }
+  ]
+}

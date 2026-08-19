@@ -1,0 +1,2369 @@
+{
+  "questions": [
+    {
+      "question_id": "yq6qxb8kn91ydxkmaftp",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "plet-mathbbn-denote-the-set-of-all-positive-integers-jee-advanced-mathematics-9aeace2d2sjlsnut",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $\\mathbb{N}$ denote the set of all positive integers. Consider the sets</p>\n<p>$$ A=\\{1,2,3,4,5\\} \\text { and } B=\\{1,2,3,4,5,6,7\\} . $$</p>\n<p>Let $S$ be the set of all functions $f: A \\rightarrow B$ such that $f(2) \\neq 2$ and $f(4) \\neq 4$. Consider the set $T=\\left\\{f \\in S:\\right.$ there exists a function $g: B \\rightarrow \\mathbb{N}$ such that $g(f(x))=2^x$ for all $\\left.x \\in A\\right\\}$.</p>\n<p>Then the number of elements in the set $T$ is $\\_\\_\\_\\_$ .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1860",
+          "explanation": "<p>From the condition $ g(f(x)) = 2^x $ for all $ x \\in A $, we can see that if two different values of $ x $ had the same $ f(x) $, then $ g $ would have to assign the same value to two different powers of 2. This is not possible because each $ 2^x $ is unique. </p>\n<p>Therefore, $ f $ must be a <b>one-one (injective)</b> function from $ A $ to $ B $.</p>\n<p>To find the total number of one-one functions from a set of 5 elements ($ A $) to a set of 7 elements ($ B $), we first choose any 5 elements from 7 and then arrange them. Hence,</p>\n<p>$$ \\text{Total one-one functions} = {}^7C_5 \\times 5! = 21 \\times 120 = 2520 $$</p>\n<p>Now we subtract the functions that do not satisfy the given conditions: $ f(2) \\neq 2 $ and $ f(4) \\neq 4 $.</p>\n<p>Functions where $ f(2)=2 $: choose images for remaining 4 elements of $ A $ from the remaining 6 elements of $ B $, and arrange them.</p>\n<p>$$ {}^6C_4 \\times 4! = 15 \\times 24 = 360 $$</p>\n<p>Similarly, functions where $ f(4)=4 $ are also $ 360 $ in number.</p>\n<p>Functions where both $ f(2)=2 $ and $ f(4)=4 $: we choose images for the remaining 3 elements from the remaining 5 elements of $ B $, and arrange them.</p>\n<p>$$ {}^5C_3 \\times 3! = 10 \\times 6 = 60 $$</p>\n<p>By the principle of inclusion and exclusion:</p>\n<p>$$ \\text{Required number of functions} = 2520 - (360 + 360) + 60 = 1860 $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "composite-functions",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $\\mathbb{N}$ denote the set of all positive integers. Consider the sets\n$$ A=\\{1,2,3,4,5\\} \\text { and } B=\\{1,2,3,4,5,6,7\\} . $$\nLet $S$ be the set of all functions $f: A \\rightarrow B$ such that $f(2) \\neq 2$ and $f(4) \\neq 4$. Consid..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "zx49cdsxc9sht3ssuh0k",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "plet-mathbbr-denote-the-set-of-all-real-numbers-let-jee-advanced-mathematics-ub2hunivvjdwpfux",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $\\mathbb{R}$ denote the set of all real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow(0,4)$ be functions defined by</p>\n<p>$$ f(x)=\\log _e\\left(x^2+2 x+4\\right), \\text { and } g(x)=\\frac{4}{1+e^{-2 x}} $$</p>\n<p>Define the composite function $f \\circ g^{-1}$ by $\\left(f \\circ g^{-1}\\right)(x)=f\\left(g^{-1}(x)\\right)$, where $g^{-1}$ is the inverse of the function $g$.</p>\n<p>Then the value of the derivative of the composite function $f \\circ g^{-1}$ at $x=2$ is ________________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.2TO0.3",
+          "explanation": "<p><strong>Function $ f $:</strong></p>\n<p>$    f(x) = \\log_e\\left(x^2 + 2x + 4\\right) = \\log_e\\left[(x+1)^2 + 3\\right]    $</p></p>\n<p><p><strong>Function $ g $:</strong></p>\n<p>$    g(x) = \\frac{4}{1 + e^{-2x}}    $</p></p>\n\n<p>To find the inverse of $ g $, $ g^{-1} $, we solve for $ x $:</p>\n\n<p><p>Start with $ y = \\frac{4}{1 + e^{-2x}} $.</p></p>\n<p><p>Rearranging gives $ 1 + e^{-2x} = \\frac{4}{y} $.</p></p>\n<p><p>Solving for $ e^{-2x} $, we have $ e^{-2x} = \\frac{4}{y} - 1 $.</p></p>\n<p><p>Taking the natural logarithm, we find $ -2x = \\ln\\left(\\frac{4}{y} - 1\\right) $.</p></p>\n<p><p>Thus, we solve for $ x $:</p>\n<p>$   x = -\\frac{1}{2} \\ln\\left(\\frac{4-y}{y}\\right) = \\frac{1}{2} \\ln\\left(\\frac{y}{4-y}\\right)   $</p></p>\n\n<p>So, the inverse function:</p>\n<p>$ g^{-1}(x) = \\frac{1}{2} \\ln\\left(\\frac{x}{4-x}\\right) $</p>\n<p>Now, let's evaluate $ g^{-1}(2) $:</p>\n<p>$ g^{-1}(2) = \\frac{1}{2} \\ln\\left(\\frac{2}{4-2}\\right) = \\frac{1}{2} \\ln(1) = 0 $</p>\n<p>Thus, $ f(g^{-1}(x)) = f\\left(\\frac{1}{2} \\ln\\left(\\frac{x}{4-x}\\right)\\right) $.</p>\n<p>Next, we differentiate $ f \\circ g^{-1} $:</p>\n<p>$ \\frac{d}{dx}\\left(f(g^{-1}(x))\\right) = \\frac{d}{dx}\\left[\\log_e\\left(\\left(g^{-1}(x) + 1\\right)^2 + 3\\right)\\right] $</p>\n<p>Using the chain rule, the derivative is:</p>\n<p>$ \\frac{1}{\\left[\\left(g^{-1}(x) + 1\\right)^2 + 3\\right]} \\cdot 2 \\left(g^{-1}(x) + 1\\right) \\cdot \\frac{d}{dx}\\left(g^{-1}(x)\\right) $</p>\n<p>Calculate the derivative of $ g^{-1}(x) $:</p>\n<p>$ \\frac{d}{dx}\\left(\\frac{1}{2} \\ln\\left(\\frac{x}{4-x}\\right)\\right) = \\frac{1}{2} \\cdot \\frac{1}{\\frac{x}{4-x}} \\cdot \\left(\\frac{(4-x)x' + x(4-x)'}{(4-x)^2}\\right) $</p>\n<p>Evaluate at $ x = 2 $:</p>\n\n<p>$ g^{-1}(2) = 0 $ means $ \\left(g^{-1}(2) + 1\\right)^2 + 3 = 4 $.</p>\n\n<p>At $ x = 2 $:</p>\n<p>$ \\frac{d}{dx} f(g^{-1}(x))\\big|_{x=2} = \\frac{2}{4} \\cdot \\frac{2}{4} = \\frac{1}{4} = 0.25 $</p>\n<p>Therefore, the value of the derivative of the composite function $ f \\circ g^{-1} $ at $ x = 2 $ is $ 0.25 $.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>मान लीजिए कि $\\mathbb{R}$ सभी वास्तविक संख्याओं (real numbers) के समुच्चय (set) को दर्शाता है। मान लीजिए कि फलन (functions) $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ और $g: \\mathbb{R} \\rightarrow(0,4)$,</p>\n<p>$$f(x)=\\log _e\\left(x^2+2 x+4\\right), \\quad \\text { और } \\quad g(x)=\\frac{4}{1+e^{-2 x}}$$</p>\n<p>द्वारा परिभाषित हैं। संयुक्त फलन (composite function) $f \\circ g^{-1}$ को $\\left(f \\circ g^{-1}\\right)(x)=f\\left(g^{-1}(x)\\right)$ द्वारा परिभाषित कीजिए, जहाँ $g^{-1}$, फलन $g$ का प्रतिलोम (inverse) है।</p>\n<p>तब $x=2$ पर संयुक्त फलन $f \\circ g^{-1}$ के अवकलज (derivative) का मान _________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.2TO0.3",
+          "explanation": "<p><strong>फलन $ f $:</strong></p>\n<p>$    f(x) = \\log_e\\left(x^2 + 2x + 4\\right) = \\log_e\\left[(x+1)^2 + 3\\right]    $</p></p>\n<p><p><strong>फलन $ g $:</strong></p>\n<p>$    g(x) = \\frac{4}{1 + e^{-2x}}    $</p></p>\n\n<p>$ g $ के प्रतिलोम $ g^{-1} $ को ज्ञात करने के लिए, हम $ x $ के लिए हल करते हैं:</p>\n\n<p><p>$ y = \\frac{4}{1 + e^{-2x}} $ से शुरू करते हैं।</p></p>\n<p><p>पुनर्व्यवस्थित करने पर $ 1 + e^{-2x} = \\frac{4}{y} $ मिलता है।</p></p>\n<p><p>$ e^{-2x} $ के लिए हल करने पर, हमें $ e^{-2x} = \\frac{4}{y} - 1 $ प्राप्त होता है।</p></p>\n<p><p>प्राकृतिक लघुगणक लेने पर, हम पाते हैं $ -2x = \\ln\\left(\\frac{4}{y} - 1\\right) $।</p></p>\n<p><p>इस प्रकार, हम $ x $ के लिए हल करते हैं:</p>\n<p>$   x = -\\frac{1}{2} \\ln\\left(\\frac{4-y}{y}\\right) = \\frac{1}{2} \\ln\\left(\\frac{y}{4-y}\\right)   $</p></p>\n\n<p>अतः, प्रतिलोम फलन:</p>\n<p>$ g^{-1}(x) = \\frac{1}{2} \\ln\\left(\\frac{x}{4-x}\\right) $</p>\n<p>अब, आइए $ g^{-1}(2) $ का मान ज्ञात करें:</p>\n<p>$ g^{-1}(2) = \\frac{1}{2} \\ln\\left(\\frac{2}{4-2}\\right) = \\frac{1}{2} \\ln(1) = 0 $</p>\n<p>इस प्रकार, $ f(g^{-1}(x)) = f\\left(\\frac{1}{2} \\ln\\left(\\frac{x}{4-x}\\right)\\right) $।</p>\n<p>आगे, हम $ f \\circ g^{-1} $ का अवकलन करते हैं:</p>\n<p>$ \\frac{d}{dx}\\left(f(g^{-1}(x))\\right) = \\frac{d}{dx}\\left[\\log_e\\left(\\left(g^{-1}(x) + 1\\right)^2 + 3\\right)\\right] $</p>\n<p>श्रृंखला नियम का उपयोग करते हुए, अवकलज है:</p>\n<p>$ \\frac{1}{\\left[\\left(g^{-1}(x) + 1\\right)^2 + 3\\right]} \\cdot 2 \\left(g^{-1}(x) + 1\\right) \\cdot \\frac{d}{dx}\\left(g^{-1}(x)\\right) $</p>\n<p>$ g^{-1}(x) $ का अवकलज ज्ञात कीजिए:</p>\n<p>$ \\frac{d}{dx}\\left(\\frac{1}{2} \\ln\\left(\\frac{x}{4-x}\\right)\\right) = \\frac{1}{2} \\cdot \\frac{1}{\\frac{x}{4-x}} \\cdot \\left(\\frac{(4-x)x' + x(4-x)'}{(4-x)^2}\\right) $</p>\n<p>$ x = 2 $ पर मान ज्ञात कीजिए:</p>\n\n<p>$ g^{-1}(2) = 0 $ का अर्थ है $ \\left(g^{-1}(2) + 1\\right)^2 + 3 = 4 $।</p>\n\n<p>$ x = 2 $ पर:</p>\n<p>$ \\frac{d}{dx} f(g^{-1}(x))\\big|_{x=2} = \\frac{2}{4} \\cdot \\frac{2}{4} = \\frac{1}{4} = 0.25 $</p>\n<p>इसलिए, $ x = 2 $ पर संयुक्त फलन $ f \\circ g^{-1} $ के अवकलज का मान $ 0.25 $ है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "composite-functions",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow(0,4)$ be functions defined by\n$$ f(x)=\\log _e\\left(x^2+2 x+4\\right), \\text { and } g(x)=\\frac{4}{1+e^{-2 x}} $$\nD..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "मान लीजिए कि $\\mathbb{R}$ सभी वास्तविक संख्याओं (real numbers) के समुच्चय (set) को दर्शाता है। मान लीजिए कि फलन (functions) $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ और $g: \\mathbb{R} \\rightarrow(0,4)$,\n$$f(x)=\\log _e\\left(x^2+2 x+4\\right), \\q..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "lhdp9z1w57cayuddc3wa",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "plet-b8469b-denote-the-set-of-all-natural-numbers-jee-advanced-mathematics-dfeqnrycel8mwhaz",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let <b>&#8469;</b> denote the set of all natural numbers, and <b>&#8484;</b> denote the set of all integers. Consider the functions <i>f: &#8469; &rarr; &#8484;</i> and <i>g: &#8484; &rarr; &#8469;</i> defined by</p><p>$$ f(n) = \\begin{cases} \\frac{(n + 1)}{2} &amp; \\text{if } n \\text{ is odd,} \\\\ \\frac{(4-n)}{2} &amp; \\text{if } n \\text{ is even,} \\end{cases} $$</p><p>and</p><p>$$ g(n) = \\begin{cases} 3 + 2n &amp; \\text{if } n \\ge 0 , \\\\ -2n &amp; \\text{if } n &lt; 0 . \\end{cases} $$ </p><p>Define $$(g \\circ f)(n) = g(f(n))$$ for all $n \\in \\mathbb{N}$, and $$(f \\circ g)(n) = f(g(n))$$ for all $n \\in \\mathbb{Z}$.</p><p>Then which of the following statements is (are) TRUE?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p><b>g $\\circ $ f</b> is <u>NOT</u> one-one and <b>g $\\circ $ f</b> is <u>NOT</u> onto</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p><b>f $\\circ $ g</b> is <u>NOT</u> one-one but <b>f $\\circ $ g</b> is onto</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p><b>g</b> is one-one and <b>g</b> is onto</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p><b>f</b> is <u>NOT</u> one-one but <b>f</b> is onto</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>मान लीजिए कि $\\mathbb{N}$ सभी प्राकृत संख्याओं (natural numbers) के समुच्चय (set) को दर्शाता है, और $\\mathbb{Z}$ सभी पूर्णांकों (integers) के समुच्चय को दर्शाता है। फलनों (functions) $f: \\mathbb{N} \\rightarrow \\mathbb{Z}$ और $g: \\mathbb{Z} \\rightarrow \\mathbb{N}$ जो</p>\n<p>$$f(n)= \\begin{cases}(n+1) / 2 & \\text { यदि } n \\text { विषम }(\\text { odd }) \\text { है, } \\\\ (4-n) / 2 & \\text { यदि } n \\text { सम }(\\text { even }) \\text { है, }\\end{cases}$$</p>\n<p>और</p>\n<p>$$g(n)= \\begin{cases}3+2 n & \\text { यदि } n \\geq 0 \\text { है, } \\\\ -2 n & \\text { यदि } n<0 \\text { है, }\\end{cases}$$</p>\n<p>द्वारा परिभाषित हैं, पर विचार कीजिए। सभी $n \\in \\mathbb{N}$ के लिए $(g \\circ f)(n)=g(f(n))$, और सभी $n \\in \\mathbb{Z}$ के लिए $(f \\circ g)(n)=f(g(n))$ परिभाषित कीजिये।</p>\n<p>तब निम्नलिखित कथनों में से कौन सा (से) सत्य है (हैं) ?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$g \\circ f$ एकैकी (one-one) नहीं है और $g \\circ f$ आच्छादक (onto) भी नहीं है"
+            },
+            {
+              "identifier": "B",
+              "content": "$f \\circ g$ एकैकी (one-one) नहीं है परन्तु $f \\circ g$ आच्छादक (onto) है"
+            },
+            {
+              "identifier": "C",
+              "content": "$g$ एकैकी (one-one) है और $g$ आच्छादक (onto) भी है"
+            },
+            {
+              "identifier": "D",
+              "content": "$f$ एकैकी (one-one) नहीं है परन्तु $f$ आच्छादक (onto) है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "composite-functions",
+      "type": "mcqm",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let ℕ denote the set of all natural numbers, and ℤ denote the set of all integers. Consider the functions f: ℕ → ℤ and g: ℤ → ℕ defined by$$ f(n) = \\begin{cases} \\frac{(n + 1)}{2} & \\text{if } n \\text{ is odd,} \\\\ \\frac{(4-n)}{2} & \\text{if..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "मान लीजिए कि $\\mathbb{N}$ सभी प्राकृत संख्याओं (natural numbers) के समुच्चय (set) को दर्शाता है, और $\\mathbb{Z}$ सभी पूर्णांकों (integers) के समुच्चय को दर्शाता है। फलनों (functions) $f: \\mathbb{N} \\rightarrow \\mathbb{Z}$ और $g: \\mathbb{Z} ..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "7xwuv642z7kzl6wiqcyb",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "plet-bb-denote-the-set-of-all-real-numbers-let-bf-jee-advanced-mathematics-ie01aaxfznlz7dfb",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let <b>ℝ</b> denote the set of all real numbers. Let <b>f: ℝ → ℝ</b> be a function such that <b>f(x) &gt; 0</b> for all <b>x ∈ ℝ</b>, and <b>f(x+y) = f(x)f(y)</b> for all <b>x, y ∈ ℝ</b>.</p>\n<p>Let the real numbers <b>a₁, a₂, ..., a₅₀</b> be in an arithmetic progression. If <b>f(a₃₁) = 64f(a₂₅)</b>, and</p>\n<p>$ \\sum\\limits_{i=1}^{50} f(a_i) = 3(2^{25}+1), $</p>\n<p>then the value of</p>\n<p>$ \\sum\\limits_{i=6}^{30} f(a_i) $</p>\n<p>is ________________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "96",
+          "explanation": null
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>मान लीजिए कि $\\mathbb{R}$ सभी वास्तविक संख्याओं (real numbers) के समुच्चय (set) को दर्शाता है। मान लीजिए कि $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ एक इस प्रकार का फलन (function) है कि सभी $x \\in \\mathbb{R}$ के लिए $f(x)>0$ है, और सभी $x, y \\in \\mathbb{R}$ के लिए $f(x+y)=f(x) f(y)$ है।</p>\n<p>मान लीजिए कि वास्तविक संख्याएँ $a_1, a_2, \\ldots, a_{50}$ एक समांतर श्रेणी (arithmetic progression) में हैं। यदि $f\\left(a_{31}\\right)=64 f\\left(a_{25}\\right)$ है, और</p>\n<p>$$\\sum_{i=1}^{50} f\\left(a_i\\right)=3\\left(2^{25}+1\\right)$$</p>\n<p>है, तब</p>\n<p>$$\\sum_{i=6}^{30} f\\left(a_i\\right)$$</p>\n<p>का मान _______ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "96",
+          "explanation": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "functional-equations",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let ℝ denote the set of all real numbers. Let f: ℝ → ℝ be a function such that f(x) > 0 for all x ∈ ℝ, and f(x+y) = f(x)f(y) for all x, y ∈ ℝ.\nLet the real numbers a₁, a₂, ..., a₅₀ be in an arithmetic progression. If f(a₃₁) = 64f(a₂₅), and\n..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "मान लीजिए कि $\\mathbb{R}$ सभी वास्तविक संख्याओं (real numbers) के समुच्चय (set) को दर्शाता है। मान लीजिए कि $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ एक इस प्रकार का फलन (function) है कि सभी $x \\in \\mathbb{R}$ के लिए $f(x)>0$ है, और सभी $x, y ..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "x5wpb8mszmmr02e3lf2t",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "let-f-mathbbr-rightarrow-mathbbr-be-a-function-suc-jee-advanced-mathematics-ulvcfzvqkwngqoil",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that $f(x+y)=f(x)+f(y)$ for all $x, y \\in \\mathbb{R}$, and $g: \\mathbb{R} \\rightarrow(0, \\infty)$ be a function such that $g(x+y)=g(x) g(y)$ for all $x, y \\in \\mathbb{R}$. If $f\\left(\\frac{-3}{5}\\right)=12$ and $g\\left(\\frac{-1}{3}\\right)=2$, then the value of $\\left(f\\left(\\frac{1}{4}\\right)+g(-2)-8\\right) g(0)$ is _________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "51",
+          "explanation": "<p>$$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x}+\\mathrm{y})=\\mathrm{f}(\\mathrm{x})+\\mathrm{f}(\\mathrm{y}) \\quad \\text{... (1)}\\\\\n& \\Rightarrow \\quad \\mathrm{f}(\\mathrm{nx})=\\operatorname{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{N} \\quad \\text{... (2)}\n\\end{aligned}$$</p>\n<p>$$\n\\begin{array}{ll}\n\\text { Now } & \\text { put } \\mathrm{y}=-\\mathrm{x} \\text { in eq.(1) } \\\\\n& \\mathrm{f}(\\mathrm{x})+\\mathrm{f}(-\\mathrm{x})=\\mathrm{f}(0) \\quad\\{\\mathrm{f}(0)=0\\} \\\\\n\\Rightarrow \\quad & \\mathrm{f}(-\\mathrm{x})=-\\mathrm{f}(\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f} \\text { is odd function } \\\\\n& \\text { from eq. (2) } \\\\\n& \\mathrm{f}(-\\mathrm{nx})=\\mathrm{nf}(-\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f}(-\\mathrm{nx})=-\\mathrm{nf}(\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f}(\\mathrm{mx})=\\operatorname{mf}(\\mathrm{x}) \\forall \\mathrm{m} \\in \\mathrm{Z}^{-} \\quad \\text{... (3)}\\\\\n& \\text {from eq. (2) and eq. (3) } \\\\\n& \\mathrm{f}(\\mathrm{nx})=\\mathrm{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{Z} \\quad \\text{... (4)}\n\\end{array}$$</p>\n<p>$$\\begin{aligned}\n\\text { Now } & \\text { put } x=\\frac{p}{q} \\text { where } p, q \\in Z, q \\neq 0 \\\\\nf\\left(\\frac{n p}{q}\\right) & =n f\\left(\\frac{p}{q}\\right) \\forall n \\in Z \\\\\n\\text { put } n & =q \\\\\n& f(p)=q f\\left(\\frac{p}{q}\\right)\n\\end{aligned}$$</p>\n<p>$$\\Rightarrow \\quad \\mathrm{pf}(1)=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\quad \\{\\text{from eq.(4)}\\}$$</p>\n<p>Let $$f(1)=a$$</p>\n<p>$$\\begin{array}{ll}\n\\text { then } \\quad & \\mathrm{pa}=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\\\\n& \\mathrm{f}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right)=\\frac{\\mathrm{ap}}{\\mathrm{q}} \\\\\n\\Rightarrow \\quad & \\mathrm{f}(\\mathrm{x})=\\mathrm{ax} \\forall \\mathrm{x} \\in \\mathbb{Q}\n\\end{array}$$</p>\n<p>Now, $$f\\left(\\frac{-3}{5}\\right)=a\\left(\\frac{-3}{5}\\right)=12 \\Rightarrow a=-20$$</p>\n<p>$$\\Rightarrow \\quad \\mathrm{f}(\\mathrm{x})=-20 \\mathrm{x} \\forall \\mathrm{x} \\in \\mathbb{Q} \\quad \\text{... (5)}$$</p>\n<p>From the given functional equation it is not possible to find a unique function for irrational values of '$$x$$', there are infinitely many such functions satisfying given functional equation for irrational values of $$x$$, but in this problem we finally need the function at rational values of '$$x$$' only. So, for rational values of $$x$$ we are getting a unique function mentioned in (5).</p>\n<p>Now, $$g(x+y)=g(x) \\cdot g(y)$$</p>\n<p>$$\\begin{array}{ll}\n\\Rightarrow & \\ln (\\mathrm{g}(\\mathrm{x}+\\mathrm{y})=\\ln (\\mathrm{g}(\\mathrm{x}))+\\ln (\\mathrm{g}(\\mathrm{y})) \\\\\n\\text { Let } & \\ln (\\mathrm{g}(\\mathrm{x}))=\\mathrm{h}(\\mathrm{x}) \\\\\n\\Rightarrow & \\mathrm{h}(\\mathrm{x}+\\mathrm{y})=\\mathrm{h}(\\mathrm{x})+\\mathrm{h}(\\mathrm{y}) \\\\\n\\Rightarrow & \\mathrm{h}(\\mathrm{x})=\\mathrm{kx} \\forall \\mathrm{x} \\in \\mathbb{Q} \\\\\n\\Rightarrow & \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\mathrm{kx}} \\forall \\mathrm{x} \\in \\mathbb{Q} \\quad \\text{... (6)}\n\\end{array}$$</p>\n<p>$$\\begin{aligned}\n& \\text { and } \\quad \\mathrm{g}\\left(\\frac{-1}{3}\\right)=\\mathrm{e}^{-\\frac{\\mathrm{K}}{3}}=2 \\quad \\Rightarrow \\quad \\mathrm{K}=-3 \\ln 2 \\\\\n& \\Rightarrow \\quad \\mathrm{K}=\\ln \\left(\\frac{1}{8}\\right) \\\\\n& \\Rightarrow \\quad \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\ln \\left(\\frac{1}{8}\\right) \\cdot \\mathrm{x}}=\\left(\\frac{1}{8}\\right)^x=2^{-3 \\mathrm{x}} \\forall \\mathrm{x} \\in \\mathbb{Q}\n\\end{aligned}$$</p>\n<p>Now, $$f\\left(\\frac{1}{4}\\right)=-5, g(-2)=2^6=64$$</p>\n<p>$$\\mathrm{g}(0)=1$$</p>\n<p>$$\\begin{aligned}\n\\text{So} \\quad & \\left(\\mathrm{f}\\left(\\frac{1}{4}\\right)+\\mathrm{g}(-2)-(8) \\mathrm{g}(0)\\right) \\\\\n& =(-5+64-8)(1)=51\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "माना कि $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ एक ऐसा फलन (function) है कि सभी $x, y \\in \\mathbb{R}$ के लिए $f(x+y)=f(x)+f(y)$ है, और $g: \\mathbb{R} \\rightarrow(0, \\infty)$ एक ऐसा फलन है कि सभी $x, y \\in \\mathbb{R}$ के लिए $g(x+y)=g(x) g(y)$ है। यदि $f\\left(\\frac{-3}{5}\\right)=12$ और $g\\left(\\frac{-1}{3}\\right)=2$ हैं, तब $\\left(f\\left(\\frac{1}{4}\\right)+g(-2)-8\\right) g(0)$ का मान __________ है।",
+          "options": [],
+          "correct_options": [],
+          "answer": "51",
+          "explanation": "<p>$$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x}+\\mathrm{y})=\\mathrm{f}(\\mathrm{x})+\\mathrm{f}(\\mathrm{y}) \\quad \\text{... (1)}\\\\\n& \\Rightarrow \\quad \\mathrm{f}(\\mathrm{nx})=\\operatorname{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{N} \\quad \\text{... (2)}\n\\end{aligned}$$</p>\n<p>$$\n\\begin{array}{ll}\n\\text { अब } & \\text { समीकरण (1) में } \\mathrm{y}=-\\mathrm{x} \\text { रखें } \\\\\n& \\mathrm{f}(\\mathrm{x})+\\mathrm{f}(-\\mathrm{x})=\\mathrm{f}(0) \\quad\\{\\mathrm{f}(0)=0\\} \\\\\n\\Rightarrow \\quad & \\mathrm{f}(-\\mathrm{x})=-\\mathrm{f}(\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f} \\text { विषम फलन है } \\\\\n& \\text { समीकरण (2) से } \\\\\n& \\mathrm{f}(-\\mathrm{nx})=\\mathrm{nf}(-\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f}(-\\mathrm{nx})=-\\mathrm{nf}(\\mathrm{x}) \\\\\n\\Rightarrow \\quad & \\mathrm{f}(\\mathrm{mx})=\\operatorname{mf}(\\mathrm{x}) \\forall \\mathrm{m} \\in \\mathrm{Z}^{-} \\quad \\text{... (3)}\\\\\n& \\text {समीकरण (2) और समीकरण (3) से } \\\\\n& \\mathrm{f}(\\mathrm{nx})=\\mathrm{nf}(\\mathrm{x}) \\forall \\mathrm{n} \\in \\mathrm{Z} \\quad \\text{... (4)}\n\\end{array}$$</p>\n<p>$$\\begin{aligned}\n\\text { अब } & \\text { रखें } x=\\frac{p}{q} \\text { जहाँ } p, q \\in Z, q \\neq 0 \\\\\nf\\left(\\frac{n p}{q}\\right) & =n f\\left(\\frac{p}{q}\\right) \\forall n \\in Z \\\\\n\\text { रखें } n & =q \\\\\n& f(p)=q f\\left(\\frac{p}{q}\\right)\n\\end{aligned}$$</p>\n<p>$$\\Rightarrow \\quad \\mathrm{pf}(1)=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\quad \\{\\text{समीकरण (4) से}\\}$$</p>\n<p>मान लें $$f(1)=a$$</p>\n<p>$$\\begin{array}{ll}\n\\text { तब } \\quad & \\mathrm{pa}=\\mathrm{qf}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right) \\\\\n& \\mathrm{f}\\left(\\frac{\\mathrm{p}}{\\mathrm{q}}\\right)=\\frac{\\mathrm{ap}}{\\mathrm{q}} \\\\\n\\Rightarrow \\quad & \\mathrm{f}(\\mathrm{x})=\\mathrm{ax} \\forall \\mathrm{x} \\in \\mathbb{Q}\n\\end{array}$$</p>\n<p>अब, $$f\\left(\\frac{-3}{5}\\right)=a\\left(\\frac{-3}{5}\\right)=12 \\Rightarrow a=-20$$</p>\n<p>$$\\Rightarrow \\quad \\mathrm{f}(\\mathrm{x})=-20 \\mathrm{x} \\forall \\mathrm{x} \\in \\mathbb{Q} \\quad \\text{... (5)}$$</p>\n<p>दिए गए फलनात्मक समीकरण से '$$x$$' के अपरिमेय मानों के लिए एक अद्वितीय फलन ज्ञात करना संभव नहीं है, ऐसे अनंत फलन हैं जो $$x$$ के अपरिमेय मानों के लिए दिए गए फलनात्मक समीकरण को संतुष्ट करते हैं, लेकिन इस समस्या में हमें अंततः केवल '$$x$$' के परिमेय मानों पर फलन की आवश्यकता है। अतः, $$x$$ के परिमेय मानों के लिए हमें (5) में उल्लिखित एक अद्वितीय फलन प्राप्त हो रहा है।</p>\n<p>अब, $$g(x+y)=g(x) \\cdot g(y)$$</p>\n<p>$$\\begin{array}{ll}\n\\Rightarrow & \\ln (\\mathrm{g}(\\mathrm{x}+\\mathrm{y})=\\ln (\\mathrm{g}(\\mathrm{x}))+\\ln (\\mathrm{g}(\\mathrm{y})) \\\\\n\\text { मान लें } & \\ln (\\mathrm{g}(\\mathrm{x}))=\\mathrm{h}(\\mathrm{x}) \\\\\n\\Rightarrow & \\mathrm{h}(\\mathrm{x}+\\mathrm{y})=\\mathrm{h}(\\mathrm{x})+\\mathrm{h}(\\mathrm{y}) \\\\\n\\Rightarrow & \\mathrm{h}(\\mathrm{x})=\\mathrm{kx} \\forall \\mathrm{x} \\in \\mathbb{Q} \\\\\n\\Rightarrow & \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\mathrm{kx}} \\forall \\mathrm{x} \\in \\mathbb{Q} \\quad \\text{... (6)}\n\\end{array}$$</p>\n<p>$$\\begin{aligned}\n& \\text { और } \\quad \\mathrm{g}\\left(\\frac{-1}{3}\\right)=\\mathrm{e}^{-\\frac{\\mathrm{K}}{3}}=2 \\quad \\Rightarrow \\quad \\mathrm{K}=-3 \\ln 2 \\\\\n& \\Rightarrow \\quad \\mathrm{K}=\\ln \\left(\\frac{1}{8}\\right) \\\\\n& \\Rightarrow \\quad \\mathrm{g}(\\mathrm{x})=\\mathrm{e}^{\\ln \\left(\\frac{1}{8}\\right) \\cdot \\mathrm{x}}=\\left(\\frac{1}{8}\\right)^x=2^{-3 \\mathrm{x}} \\forall \\mathrm{x} \\in \\mathbb{Q}\n\\end{aligned}$$</p>\n<p>अब, $$f\\left(\\frac{1}{4}\\right)=-5, g(-2)=2^6=64$$</p>\n<p>$$\\mathrm{g}(0)=1$$</p>\n<p>$$\\begin{aligned}\n\\text{अतः} \\quad & \\left(\\mathrm{f}\\left(\\frac{1}{4}\\right)+\\mathrm{g}(-2)-(8) \\mathrm{g}(0)\\right) \\\\\n& =(-5+64-8)(1)=51\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "functional-equations",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that $f(x+y)=f(x)+f(y)$ for all $x, y \\in \\mathbb{R}$, and $g: \\mathbb{R} \\rightarrow(0, \\infty)$ be a function such that $g(x+y)=g(x) g(y)$ for all $x, y \\in \\mathbb{R}$. If $f\\..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "माना कि $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ एक ऐसा फलन (function) है कि सभी $x, y \\in \\mathbb{R}$ के लिए $f(x+y)=f(x)+f(y)$ है, और $g: \\mathbb{R} \\rightarrow(0, \\infty)$ एक ऐसा फलन है कि सभी $x, y \\in \\mathbb{R}$ के लिए $g(x+y)=g(x) g(y)..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "s4of38f087f098ln32k8",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "plet-the-function-f-mathbbr-rightarrow-mathbbr-b-jee-advanced-mathematics-xs7azreprzzea61d",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined by</p>\n\n<p>$$ f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)}+\\frac{2}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)} . $$</p>\n\n<p>Then the number of solutions of $f(x)=0$ in $\\mathbb{R}$ is _________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "<p>$$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x})=\\frac{\\left(\\mathrm{x}^{2023}+2024 \\mathrm{x}+2025\\right)}{\\mathrm{e}^{\\pi \\mathrm{x}}\\left(\\mathrm{x}^2-\\mathrm{x}+3\\right)}(\\sin \\mathrm{x}+2) \\\\\n& \\because(\\sin \\mathrm{x}+2) \\text { is never zero } \\\\\n& \\therefore \\text { for } \\mathrm{x}^{2223}+2024 \\mathrm{x}+2025=0 \\\\\n& \\text { let } \\phi(\\mathrm{x})=\\mathrm{x}^{2023}+2024 \\mathrm{x}+2025 \\\\\n& \\phi^{\\prime}(\\mathrm{x})=2023 \\mathrm{x}^{2022}+2024>0 \\forall \\mathrm{x} \\in \\mathrm{R} \\\\\n& \\therefore \\phi(\\mathrm{x}) \\text { is an Strictly Increasing function } \\\\\n& \\therefore \\phi(\\mathrm{x})=0 \\text { for exactly one value of } \\mathrm{x} \\\\\n& \\therefore \\mathrm{f}(\\mathrm{x})=0 \\text { has one solution }\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>माना कि फलन (function) $f: \\mathbb{R} \\rightarrow \\mathbb{R}$,</p>\n\n<p>$$ f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)}+\\frac{2}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)} $$</p>\n\n<p>द्वारा परिभाषित है। तब $\\mathbb{R}$ में, $f(x)=0$ के हलों (solutions) की संख्या ________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "<p>$$\\begin{aligned}\n& \\mathrm{f}(\\mathrm{x})=\\frac{\\left(\\mathrm{x}^{2023}+2024 \\mathrm{x}+2025\\right)}{\\mathrm{e}^{\\pi \\mathrm{x}}\\left(\\mathrm{x}^2-\\mathrm{x}+3\\right)}(\\sin \\mathrm{x}+2) \\\\\n& \\because(\\sin \\mathrm{x}+2) \\text{ कभी भी शून्य नहीं है} \\\\\n& \\therefore \\text{ के लिए } \\mathrm{x}^{2023}+2024 \\mathrm{x}+2025=0 \\\\\n& \\text{ माना } \\phi(\\mathrm{x})=\\mathrm{x}^{2023}+2024 \\mathrm{x}+2025 \\\\\n& \\phi^{\\prime}(\\mathrm{x})=2023 \\mathrm{x}^{2022}+2024>0 \\forall \\mathrm{x} \\in \\mathrm{R} \\\\\n& \\therefore \\phi(\\mathrm{x}) \\text{ एक सख्ती से वर्धमान फलन है} \\\\\n& \\therefore \\phi(\\mathrm{x})=0 \\text{ केवल एक } \\mathrm{x} \\text{ के मान के लिए} \\\\\n& \\therefore \\mathrm{f}(\\mathrm{x})=0 \\text{ का एक हल है}\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "even-and-odd-functions",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined by\n\n$$ f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)}+\\frac{2}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "माना कि फलन (function) $f: \\mathbb{R} \\rightarrow \\mathbb{R}$,\n\n$$ f(x)=\\frac{\\sin x}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right)}+\\frac{2}{e^{\\pi x}} \\frac{\\left(x^{2023}+2024 x+2025\\right)}{\\left(x^2-x+3\\right..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "03p09nes4695hwfiysdb",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "let-s01-cup12-cup34-and-t0123-then-jee-advanced-mathematics-s1xjfullyb3l95ve",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Let $S=(0,1) \\cup(1,2) \\cup(3,4)$ and $T=\\{0,1,2,3\\}$. Then which of the following statements is(are) true?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "There are infinitely many functions from $S$ to $T$"
+            },
+            {
+              "identifier": "B",
+              "content": "There are infinitely many strictly increasing functions from $S$ to $T$"
+            },
+            {
+              "identifier": "C",
+              "content": "The number of continuous functions from $S$ to $T$ is at most 120"
+            },
+            {
+              "identifier": "D",
+              "content": "Every continuous function from $S$ to $T$ is differentiable"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "$$\nS=(0,1) \\cup(1,2) \\cup(3,4) \\text { and } T=\\{0,1,2,3\\} \\text {. }\n$$\n\n<br/><br/>Let domain and co-domain of a function $y=f(x)$ are $S$ and $T$ respectively.\n<br/><br/>(A) There are infinitely many elements in domain and four elements in co-domain.\n<br/><br/>$\\Rightarrow$ There are infinitely many functions from $S$ to $T$.\n<br/><br/>$\\Rightarrow$ Option $(A)$ is correct\n<br/><br/>(B) If number of elements in domain is greater than number of elements in co-domain, then number of strictly increasing function is zero.\n<br/><br/>$\\Rightarrow$ Option (B) is incorrect\n<br/><br/>(C) Maximum number of continuous functions = $4 \\times 4 \\times 4=64$\n<br/><br/>(Every subset $(0,1),(1,2),(3,4)$ has four choices)\n<br/><br/>$\\because 64 < 120 \\Rightarrow$ option (C) is correct.\n<br/><br/>(D) For every point at which $f(x)$ is continuous, $f(x)=0$\n<br/><br/>$\\Rightarrow$ Every continuous function from $S$ to $T$ is differentiable.\n<br/><br/>Option (D) is correct."
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "माना कि $S=(0,1) \\cup(1,2) \\cup(3,4)$ एवं $T=\\{0,1,2,3\\}$ है। तब निम्न में से कौन सा(से) कथन सत्य है(हैं)?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$S$ से $T$ तक अनंततः अनेक (infinitely many) फलन हैं"
+            },
+            {
+              "identifier": "B",
+              "content": "$S$ से $T$ तक अनंततः अनेक (infinitely many) निरंतर वर्धमान (strictly increasing) फलन हैं"
+            },
+            {
+              "identifier": "C",
+              "content": "$S$ से $T$ तक संतत (continuous) फलनों की संख्या 120 या उससे कम है"
+            },
+            {
+              "identifier": "D",
+              "content": "$S$ से $T$ तक प्रत्येक संतत फलन अवकलनीय (differentiable) है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "$$\nS=(0,1) \\cup(1,2) \\cup(3,4) \\text { और } T=\\{0,1,2,3\\} \\text {. }\n$$\n\n<br/><br/>माना कि फलन $y=f(x)$ का प्रांत और सहप्रांत क्रमशः $S$ और $T$ हैं।\n<br/><br/>(A) प्रांत में अपरिमित रूप से कई अवयव हैं और सहप्रांत में चार अवयव हैं।\n<br/><br/>$\\Rightarrow$ $S$ से $T$ में अपरिमित रूप से कई फलन हैं।\n<br/><br/>$\\Rightarrow$ विकल्प $(A)$ सही है\n<br/><br/>(B) यदि प्रांत में अवयवों की संख्या सहप्रांत में अवयवों की संख्या से अधिक है, तो निरंतर वर्धमान फलनों की संख्या शून्य है।\n<br/><br/>$\\Rightarrow$ विकल्प (B) गलत है\n<br/><br/>(C) संतत फलनों की अधिकतम संख्या = $4 \\times 4 \\times 4=64$\n<br/><br/>(प्रत्येक उपसमुच्चय $(0,1),(1,2),(3,4)$ के पास चार विकल्प हैं)\n<br/><br/>$\\because 64 < 120 \\Rightarrow$ विकल्प (C) सही है।\n<br/><br/>(D) प्रत्येक बिंदु पर जहाँ $f(x)$ संतत है, $f(x)=0$\n<br/><br/>$\\Rightarrow$ $S$ से $T$ में प्रत्येक संतत फलन अवकलनीय है।\n<br/><br/>विकल्प (D) सही है।"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "classification-of-functions",
+      "type": "mcqm",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $S=(0,1) \\cup(1,2) \\cup(3,4)$ and $T=\\{0,1,2,3\\}$. Then which of the following statements is(are) true?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "माना कि $S=(0,1) \\cup(1,2) \\cup(3,4)$ एवं $T=\\{0,1,2,3\\}$ है। तब निम्न में से कौन सा(से) कथन सत्य है(हैं)?"
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "0z7uwxfttooy2vvh5hr3",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "let-f01-rightarrow01-be-the-function-defined-by-f-jee-advanced-mathematics-x7fzoetdexylbw1s",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Let $f:[0,1] \\rightarrow[0,1]$ be the function defined by $f(x)=\\frac{x^3}{3}-x^2+\\frac{5}{9} x+\\frac{17}{36}$. Consider the square region $S=[0,1] \\times[0,1]$. Let $G=\\{(x, y) \\in S: y>f(x)\\}$ be called the green region and $R=\\{(x, y) \\in S: y < f(x)\\}$ be called the red region. Let $L_h=\\{(x, h) \\in S: x \\in[0,1]\\}$ be the horizontal line drawn at a height $h \\in[0,1]$. Then which of the following statements is(are) true?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the green region above the line $L_h$ equals the area of the green region below the line $L_h$"
+            },
+            {
+              "identifier": "B",
+              "content": "There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the red region above the line $L_h$ equals the area of the red region below the line $L_h$"
+            },
+            {
+              "identifier": "C",
+              "content": "There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the green region above the line $L_h$ equals the area of the red region below the line $L_h$"
+            },
+            {
+              "identifier": "D",
+              "content": "There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the red region above the line $L_h$ equals the area of the green region below the line $L_k$"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "$\\begin{aligned} \\text { Given } f:[0,1] &amp; \\rightarrow[0,1] \\\\\\\\ f(x) &amp; =\\frac{x^3}{3}-x^2+\\frac{5}{9} x+\\frac{17}{36} \\\\\\\\ f^{\\prime}(x) &amp; =\\frac{3 x^2}{3}-2 x+\\frac{5}{9}\\end{aligned}$\n<br><br>$\\begin{aligned} &amp; \\quad f^{\\prime}(x)=0 \\\\\\\\ &amp; 9 x^2-18 x+5=0 \\\\\\\\ &amp; \\Rightarrow 9 x^2-15 x-3 x+5=0 \\\\\\\\ &amp; \\Rightarrow 3 x(3 x-5)-1(3 x-5)=0 \\\\\\\\ &amp; \\Rightarrow(3 x-5)(3 x-1)=0 \\\\\\\\ &amp; \\Rightarrow x=\\frac{1}{3} \\text { or } \\frac{5}{3} \\\\\\\\ &amp; f^{\\prime \\prime}(x)=2 x-2 \\\\\\\\ &amp; f^{\\prime \\prime}\\left(\\frac{1}{3}\\right)=\\frac{2}{3}-2&lt;0 \\text { point of maxima }\\end{aligned}$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrv25ety/8e2587a7-f07c-48d9-a4d6-0a07f84e84e8/2a14b850-bc84-11ee-ade3-e55b42dd57e0/file-6y3zli1lrv25etz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrv25ety/8e2587a7-f07c-48d9-a4d6-0a07f84e84e8/2a14b850-bc84-11ee-ade3-e55b42dd57e0/file-6y3zli1lrv25etz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Mathematics - Functions Question 8 English Explanation\">\n<br>$\\begin{aligned} \\text { Area }_{\\text {red }} &amp; =\\int_0^1 f(x) d x \\\\\\\\ &amp; =\\left[\\frac{x^4}{12}-\\frac{x^3}{3}+\\frac{5 x^2}{18}+\\frac{17 x}{36}\\right]_0^1 \\\\\\\\ &amp; =\\frac{1}{12}-\\frac{1}{3}+\\frac{5}{18}+\\frac{17}{36} \\\\\\\\ &amp; =\\frac{3-12+10+17}{36} \\\\\\\\ &amp; =\\frac{18}{36}=\\frac{1}{2}=0.5 \\\\\\\\ \\therefore (\\text { Area })_{\\text {green }} &amp; =1-\\frac{1}{2}=0.5\\end{aligned}$\n<br><br>(A) $1-h=h-\\frac{1}{2} \\Rightarrow h=\\frac{3}{4}, \\frac{3}{4}&gt;\\frac{2}{3}$ option (A) is incorrect\n<br><br>(B) $h=\\frac{1}{2}-h \\Rightarrow h=\\frac{1}{4} \\Rightarrow$ option (B) is correct.\n<br><br>(C) $\\int\\limits_0^1 f(x) d x=\\frac{1}{2}, \\int\\limits_0^1 \\frac{1}{2} d x=\\frac{1}{2} \\Rightarrow \\int\\limits_0^1\\left(f(x)-\\frac{1}{2}\\right) d x=0$\n<br><br>$\\Rightarrow h=\\frac{1}{2} \\Rightarrow$ option (C) is correct.\n<br><br>(D) $\\because$ Option (C) is correct $\\Rightarrow$ option (D) is also correct."
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "माना कि फलन $f:[0,1] \\rightarrow[0,1], f(x)=\\frac{x^3}{3}-x^2+\\frac{5}{9} x+\\frac{17}{36}$ से परिभाषित है । वर्गाकार क्षेत्र (square region) $S=[0,1] \\times[0,1]$ पर विचार कीजिए। माना कि $G=\\{(x, y) \\in S: y>f(x)\\}$ हरित क्षेत्र (green region) एवं $R=\\{(x, y) \\in S: y<f(x)\\}$ लाल क्षेत्र (red region) कहलाता है। मान लीजिये की $h \\in[0,1]$ की ऊंचाई (height) पर खींची गई क्षैतिज रेखा (horizontal line) $L_h=\\{(x, h) \\in S: x \\in[0,1]\\}$ है। तब निम्न में से कौन सा (से) कथन सत्य है(हैं)?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "एक ऐसा $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ है कि रेखा $L_h$ के ऊपर के हरित क्षेत्र का क्षेत्रफल रेखा $L_h$ के नीचे के हरित क्षेत्र के क्षेत्रफल के बराबर है"
+            },
+            {
+              "identifier": "B",
+              "content": "एक ऐसा $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ है कि रेखा $L_h$ के ऊपर के लाल क्षेत्र का क्षेत्रफल रेखा $L_h$ के नीचे के लाल क्षेत्र के क्षेत्रफल के बराबर है"
+            },
+            {
+              "identifier": "C",
+              "content": "एक ऐसा $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ है कि रेखा $L_h$ के ऊपर के हरित क्षेत्र का क्षेत्रफल रेखा $L_h$ के नीचे के लाल क्षेत्र के क्षेत्रफल के बराबर है"
+            },
+            {
+              "identifier": "D",
+              "content": "एक ऐसा $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ है कि रेखा $L_h$ के ऊपर के लाल क्षेत्र का क्षेत्रफल रेखा $L_h$ के नीचे के हरित क्षेत्र के क्षेत्रफल के बराबर है"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "$\\begin{aligned} \\text { दिया है } f:[0,1] &amp; \\rightarrow[0,1] \\\\\\ f(x) &amp; =\\frac{x^3}{3}-x^2+\\frac{5}{9} x+\\frac{17}{36} \\\\\\ f^{\\prime}(x) &amp; =\\frac{3 x^2}{3}-2 x+\\frac{5}{9}\\end{aligned}$\n<br><br>$\\begin{aligned} &amp; \\quad f^{\\prime}(x)=0 \\\\\\ &amp; 9 x^2-18 x+5=0 \\\\\\ &amp; \\Rightarrow 9 x^2-15 x-3 x+5=0 \\\\\\ &amp; \\Rightarrow 3 x(3 x-5)-1(3 x-5)=0 \\\\\\ &amp; \\Rightarrow(3 x-5)(3 x-1)=0 \\\\\\ &amp; \\Rightarrow x=\\frac{1}{3} \\text { या } \\frac{5}{3} \\\\\\ &amp; f^{\\prime \\prime}(x)=2 x-2 \\\\\\ &amp; f^{\\prime \\prime}\\left(\\frac{1}{3}\\right)=\\frac{2}{3}-2&lt;0 \\text { उच्चिष्ठ का बिंदु }\\end{aligned}$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrv25ety/8e2587a7-f07c-48d9-a4d6-0a07f84e84e8/2a14b850-bc84-11ee-ade3-e55b42dd57e0/file-6y3zli1lrv25etz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrv25ety/8e2587a7-f07c-48d9-a4d6-0a07f84e84e8/2a14b850-bc84-11ee-ade3-e55b42dd57e0/file-6y3zli1lrv25etz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Mathematics - Functions Question 8 Hindi Explanation\">\n<br>$\\begin{aligned} \\text { क्षेत्रफल }_{\\text {लाल }} &amp; =\\int_0^1 f(x) d x \\\\\\ &amp; =\\left[\\frac{x^4}{12}-\\frac{x^3}{3}+\\frac{5 x^2}{18}+\\frac{17 x}{36}\\right]_0^1 \\\\\\ &amp; =\\frac{1}{12}-\\frac{1}{3}+\\frac{5}{18}+\\frac{17}{36} \\\\\\ &amp; =\\frac{3-12+10+17}{36} \\\\\\ &amp; =\\frac{18}{36}=\\frac{1}{2}=0.5 \\\\\\ \\therefore (\\text { क्षेत्रफल })_{\\text {हरा }} &amp; =1-\\frac{1}{2}=0.5\\end{aligned}$\n<br><br>(A) $1-h=h-\\frac{1}{2} \\Rightarrow h=\\frac{3}{4}, \\frac{3}{4}&gt;\\frac{2}{3}$ विकल्प (A) गलत है\n<br><br>(B) $h=\\frac{1}{2}-h \\Rightarrow h=\\frac{1}{4} \\Rightarrow$ विकल्प (B) सही है।\n<br><br>(C) $\\int\\limits_0^1 f(x) d x=\\frac{1}{2}, \\int\\limits_0^1 \\frac{1}{2} d x=\\frac{1}{2} \\Rightarrow \\int\\limits_0^1\\left(f(x)-\\frac{1}{2}\\right) d x=0$\n<br><br>$\\Rightarrow h=\\frac{1}{2} \\Rightarrow$ विकल्प (C) सही है।\n<br><br>(D) $\\because$ विकल्प (C) सही है $\\Rightarrow$ विकल्प (D) भी सही है।"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "functional-equations",
+      "type": "mcqm",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $f:[0,1] \\rightarrow[0,1]$ be the function defined by $f(x)=\\frac{x^3}{3}-x^2+\\frac{5}{9} x+\\frac{17}{36}$. Consider the square region $S=[0,1] \\times[0,1]$. Let $G=\\{(x, y) \\in S: y>f(x)\\}$ be called the green region and $R=\\{(x, y) \\i..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "माना कि फलन $f:[0,1] \\rightarrow[0,1], f(x)=\\frac{x^3}{3}-x^2+\\frac{5}{9} x+\\frac{17}{36}$ से परिभाषित है । वर्गाकार क्षेत्र (square region) $S=[0,1] \\times[0,1]$ पर विचार कीजिए। माना कि $G=\\{(x, y) \\in S: y>f(x)\\}$ हरित क्षेत्र (green regi..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "nyj9148secdrbyyi46qd",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "plet-m-denote-the-determinant-of-a-square-matrix-m-jee-advanced-mathematics-complex-numbers-mc4qyyjqavqgmqrl",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $$|M|$$ denote the determinant of a square matrix $$M$$. Let $$g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$$ be the function defined by</p>\n<p>$$\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1}\n$$</p>\n<p>where</p>\n<p>$$\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n1 & \\sin \\theta & 1 \\\\\n-\\sin \\theta & 1 & \\sin \\theta \\\\\n-1 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\\n\\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\n\\end{array}\\right| .\n$$</p>\n<p>Let $$p(x)$$ be a quadratic polynomial whose roots are the maximum and minimum values of the function $$g(\\theta)$$, and $$p(2)=2-\\sqrt{2}$$. Then, which of the following is/are TRUE ?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$p\\left(\\frac{3+\\sqrt{2}}{4}\\right)<0$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$p\\left(\\frac{1+3 \\sqrt{2}}{4}\\right)>0$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$p\\left(\\frac{5 \\sqrt{2}-1}{4}\\right)>0$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$p\\left(\\frac{5-\\sqrt{2}}{4}\\right)<0$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "Given,\n<p>$$\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n1 & \\sin \\theta & 1 \\\\\n-\\sin \\theta & 1 & \\sin \\theta \\\\\n-1 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\\n\\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\n\\end{array}\\right|\n$$</p>\n<p>Here $\\cos \\left(\\theta+\\frac{\\pi}{4}\\right)=-\\sin \\left(\\theta-\\frac{\\pi}{4}\\right)$\n<br/><br/> and $\\tan \\left(\\theta-\\frac{\\pi}{4}\\right)=-\\cot \\left(\\theta+\\frac{\\pi}{4}\\right)$\n<br/><br/> and $\\log _e\\left(\\frac{4}{\\pi}\\right)=-\\log _e\\left(\\frac{\\pi}{4}\\right)$\n<br/><br/>Also $\\sin \\pi=-\\cos \\frac{\\pi}{2}=\\tan \\pi=0$</p>\n<p>$$ \\Rightarrow $$ $$\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n2 & \\sin \\theta & 1 \\\\\n0 & 1 & \\sin \\theta \\\\\n0 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n0 & -\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & 0 & \\log _{\\mathrm{e}}\\left(\\frac{4}{\\pi}\\right) \\\\\n-\\tan \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\log _{\\mathrm{e}}\\left(\\frac{4}{\\pi}\\right) & 0\n\\end{array}\\right|\n$$</p>\n<p>$$\n\\begin{aligned}\n& f(\\theta)=\\left(1+\\sin ^2 \\theta\\right)+0 \\text { (skew symmetric) } \\\\\\\\\n& g(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1} \\\\\\\\\n& =|\\sin \\theta|+|\\cos \\theta| \\quad  \\\\\\\\\n& g(\\theta) \\in[1, \\sqrt{2}] \\text { for } \\theta \\in\\left[0, \\frac{\\pi}{2}\\right]\n\\end{aligned}\n$$</p>\n<p>Again let $\\mathrm{P}(\\mathrm{x})=\\mathrm{k}(\\mathrm{x}-\\sqrt{2})(\\mathrm{x}-1)$\n<br/><br/>$$\n\\begin{aligned}\n& 2-\\sqrt{2}=\\mathrm{k}(2-\\sqrt{2})(2-1) \\\\\\\\\n& \\Rightarrow \\mathrm{k}=1 \\quad(\\mathrm{P}(2)=2-\\sqrt{2} \\text { given }) \\\\\\\\\n& \\therefore \\mathrm{P}(\\mathrm{x})=(\\mathrm{x}-\\sqrt{2})(\\mathrm{x}-1)\n\\end{aligned}\n$$</p>\n<p>For option (A) $P\\left(\\frac{3+\\sqrt{2}}{4}\\right)<0$ Correct.\n<br/><br/>For option (B) $P\\left(\\frac{1+3 \\sqrt{2}}{4}\\right)<0$ Incorrect.\n<br/><br/>For option (C) $P\\left(\\frac{5 \\sqrt{2}-1}{4}\\right)>0$ Correct.\n<br/><br/>For option (D) $P\\left(\\frac{5-\\sqrt{2}}{4}\\right)>0$ Incorrect.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना कि $$|M|$$ एक वर्ग आव्यूह (square matrix) $$M$$ के सारणिक (determinant) को निरुपित करता है। माना कि फलन (function) $$g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$$ को</p>\n<p>$$\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1}\n$$</p>\n<p>द्वारा परिभाषित किया जाता है, जहाँ</p>\n<p>$$f(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}1 & \\sin \\theta & 1 \\\\ -\\sin \\theta & 1 & \\sin \\theta \\\\ -1 & -\\sin \\theta & 1\\end{array}\\right|+\\left|\\begin{array}{ccc}\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\ \\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\ \\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\\end{array}\\right|$$</p>\n<p>है । माना कि $$p(x)$$ एक ऐसा द्विघातीय बहुपद (quadratic polynomial) है जिसके मूल (roots) फलन $$g(\\theta)$$ के निम्नतम (minimum) एवं उच्चतम (maximum) मान हैं, एवं $$p(2)=2-\\sqrt{2}$$ है। तब निम्न में से कौन सा (से) सत्य है (हैं) ?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$p\\left(\\frac{3+\\sqrt{2}}{4}\\right)<0$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$p\\left(\\frac{1+3 \\sqrt{2}}{4}\\right)>0$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$p\\left(\\frac{5 \\sqrt{2}-1}{4}\\right)>0$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$p\\left(\\frac{5-\\sqrt{2}}{4}\\right)<0$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>दिया गया है,\n$$\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n1 & \\sin \\theta & 1 \\\\\n-\\sin \\theta & 1 & \\sin \\theta \\\\\n-1 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\\n\\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\n\\end{array}\\right|\n$$</p>\n<p>यहाँ $\\cos \\left(\\theta+\\frac{\\pi}{4}\\right)=-\\sin \\left(\\theta-\\frac{\\pi}{4}\\right)$\n<br/><br/> और $\\tan \\left(\\theta-\\frac{\\pi}{4}\\right)=-\\cot \\left(\\theta+\\frac{\\pi}{4}\\right)$\n<br/><br/> और $\\log _e\\left(\\frac{4}{\\pi}\\right)=-\\log _e\\left(\\frac{\\pi}{4}\\right)$\n<br/><br/>साथ ही $\\sin \\pi=-\\cos \\frac{\\pi}{2}=\\tan \\pi=0$</p>\n<p>$$ \\Rightarrow $$ $$\nf(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}\n2 & \\sin \\theta & 1 \\\\\n0 & 1 & \\sin \\theta \\\\\n0 & -\\sin \\theta & 1\n\\end{array}\\right|+\\left|\\begin{array}{ccc}\n0 & -\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\\n\\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & 0 & \\log _{\\mathrm{e}}\\left(\\frac{4}{\\pi}\\right) \\\\\n-\\tan \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\log _{\\mathrm{e}}\\left(\\frac{4}{\\pi}\\right) & 0\n\\end{array}\\right|\n$$</p>\n<p>$$\n\\begin{aligned}\n& f(\\theta)=\\left(1+\\sin ^2 \\theta\\right)+0 \\text { (विषम सममित) } \\\\\\\\\n& g(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1} \\\\\\\\\n& =|\\sin \\theta|+|\\cos \\theta| \\quad  \\\\\\\\\n& g(\\theta) \\in[1, \\sqrt{2}] \\text { के लिए } \\theta \\in\\left[0, \\frac{\\pi}{2}\\right]\n\\end{aligned}\n$$</p>\n<p>पुनः माना $\\mathrm{P}(\\mathrm{x})=\\mathrm{k}(\\mathrm{x}-\\sqrt{2})(\\mathrm{x}-1)$\n<br/><br/>$$\n\\begin{aligned}\n& 2-\\sqrt{2}=\\mathrm{k}(2-\\sqrt{2})(2-1) \\\\\\\\\n& \\Rightarrow \\mathrm{k}=1 \\quad(\\mathrm{P}(2)=2-\\sqrt{2} \\text { दिया गया है }) \\\\\\\\\n& \\therefore \\mathrm{P}(\\mathrm{x})=(\\mathrm{x}-\\sqrt{2})(\\mathrm{x}-1)\n\\end{aligned}\n$$</p>\n<p>विकल्प (A) के लिए $P\\left(\\frac{3+\\sqrt{2}}{4}\\right)<0$ सही है।\n<br/><br/>विकल्प (B) के लिए $P\\left(\\frac{1+3 \\sqrt{2}}{4}\\right)<0$ गलत है।\n<br/><br/>विकल्प (C) के लिए $P\\left(\\frac{5 \\sqrt{2}-1}{4}\\right)>0$ सही है।\n<br/><br/>विकल्प (D) के लिए $P\\left(\\frac{5-\\sqrt{2}}{4}\\right)>0$ गलत है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "range",
+      "type": "mcqm",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $$|M|$$ denote the determinant of a square matrix $$M$$. Let $$g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$$ be the function defined by\n$$\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1}\n$$\nwhere\n$$\nf..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "माना कि $$|M|$$ एक वर्ग आव्यूह (square matrix) $$M$$ के सारणिक (determinant) को निरुपित करता है। माना कि फलन (function) $$g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$$ को\n$$\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "o794xf6tdatbotocqchw",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "let-the-function-f--0-1--to--r-be-defined-bybrb-jee-advanced-mathematics-trigonometric-functions-and-equations-0wxichf0tixmpmoc",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let the function f : [0, 1] $$ \\to $$ R be defined by<br><br>$$f(x) = {{{4^x}} \\over {{4^x} + 2}}$$<br><br>Then the value of $$f\\left( {{1 \\over {40}}} \\right) + f\\left( {{2 \\over {40}}} \\right) + f\\left( {{3 \\over {40}}} \\right) + ... + f\\left( {{{39} \\over {40}}} \\right) - f\\left( {{1 \\over 2}} \\right)$$ is ..........",
+          "options": [],
+          "correct_options": [],
+          "answer": "19",
+          "explanation": "The given function f : [0, 1] $$ \\to $$ R be define by<br><br>$$f(x) = {{{4^x}} \\over {{4^x} + 2}}$$<br><br>$$ \\because $$ $$f(1 - x) = {{{4^{1 - x}}} \\over {{4^{1 - x}} + 2}} = {2 \\over {2 + {4^x}}}$$<br><br>$$ \\therefore $$ $$f(x) + f(1 - x) = {{{4^x}} \\over {{4^x} + 2}} + {2 \\over {2 + {4^x}}}$$<br><br>$$ = {{{4^x} + 2} \\over {{4^x} + 2}}$$<br><br>So, f(x) + f(1 $$-$$ x) = 1 .....(i)<br><br>$$ \\therefore $$ $$f\\left( {{1 \\over {40}}} \\right) + f\\left( {{2 \\over {40}}} \\right) + f\\left( {{3 \\over {40}}} \\right) + ... + f\\left( {{{39} \\over {40}}} \\right) - f\\left( {{1 \\over 2}} \\right)$$<br><br>$$ = \\left[ {f\\left( {{1 \\over {40}}} \\right) + f\\left( {{{39} \\over {40}}} \\right)} \\right] + \\left[ {f\\left( {{2 \\over {40}}} \\right) + f\\left( {{{38} \\over {40}}} \\right)} \\right] + ... + \\left[ {f\\left( {{{18} \\over {40}}} \\right) + f\\left( {{{22} \\over {40}}} \\right)} \\right] + \\left[ {f\\left( {{{19} \\over {40}}} \\right) + f\\left( {{{21} \\over {40}}} \\right)} \\right] + \\left[ {f\\left( {{{20} \\over {40}}} \\right) - f\\left( {{1 \\over 2}} \\right)} \\right]$$<br><br>$$ = \\{ 1 + 1 + ... + 1 + 1\\}  + f\\left( {{1 \\over 2}} \\right) - f\\left( {{1 \\over 2}} \\right)$$\n<br><br> $$ = \\{ 1 + 1 + ... + 1 + 1\\}$$(19 times)\n{from Eq. (i)}<br><br>= 19."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना कि फलन (function) $$f:[0,1] \\rightarrow \\mathbb{R}$$ को</p>\n<p>$$f(x)=\\frac{4^{x}}{4^{x}+2}$$</p>\n<p>से परिभाषित किया जाता है। तब</p>\n<p>$$f\\left(\\frac{1}{40}\\right)+f\\left(\\frac{2}{40}\\right)+f\\left(\\frac{3}{40}\\right)+\\cdots+f\\left(\\frac{39}{40}\\right)-f\\left(\\frac{1}{2}\\right)$$</p>\n<p>का मान है ____________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "19",
+          "explanation": "दिया गया फलन f : [0, 1] $$ \\to $$ R इस प्रकार परिभाषित है<br><br>$$f(x) = {{{4^x}} \\over {{4^x} + 2}}$$<br><br>$$ \\because $$ $$f(1 - x) = {{{4^{1 - x}}} \\over {{4^{1 - x}} + 2}} = {2 \\over {2 + {4^x}}}$$<br><br>$$ \\therefore $$ $$f(x) + f(1 - x) = {{{4^x}} \\over {{4^x} + 2}} + {2 \\over {2 + {4^x}}}$$<br><br>$$ = {{{4^x} + 2} \\over {{4^x} + 2}}$$<br><br>अतः, f(x) + f(1 $$-$$ x) = 1 .....(i)<br><br>$$ \\therefore $$ $$f\\left( {{1 \\over {40}}} \\right) + f\\left( {{2 \\over {40}}} \\right) + f\\left( {{3 \\over {40}}} \\right) + ... + f\\left( {{{39} \\over {40}}} \\right) - f\\left( {{1 \\over 2}} \\right)$$<br><br>$$ = \\left[ {f\\left( {{1 \\over {40}}} \\right) + f\\left( {{{39} \\over {40}}} \\right)} \\right] + \\left[ {f\\left( {{2 \\over {40}}} \\right) + f\\left( {{{38} \\over {40}}} \\right)} \\right] + ... + \\left[ {f\\left( {{{18} \\over {40}}} \\right) + f\\left( {{{22} \\over {40}}} \\right)} \\right] + \\left[ {f\\left( {{{19} \\over {40}}} \\right) + f\\left( {{{21} \\over {40}}} \\right)} \\right] + \\left[ {f\\left( {{{20} \\over {40}}} \\right) - f\\left( {{1 \\over 2}} \\right)} \\right]$$<br><br>$$ = \\{ 1 + 1 + ... + 1 + 1\\}  + f\\left( {{1 \\over 2}} \\right) - f\\left( {{1 \\over 2}} \\right)$$<br><br> $$ = \\{ 1 + 1 + ... + 1 + 1\\}$$(19 बार){समी. (i) से}<br><br>= 19."
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "functional-equations",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let the function f : [0, 1] $$ \\to $$ R be defined by$$f(x) = {{{4^x}} \\over {{4^x} + 2}}$$Then the value of $$f\\left( {{1 \\over {40}}} \\right) + f\\left( {{2 \\over {40}}} \\right) + f\\left( {{3 \\over {40}}} \\right) + ... + f\\left( {{{39} \\ov..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "माना कि फलन (function) $$f:[0,1] \\rightarrow \\mathbb{R}$$ को\n$$f(x)=\\frac{4^{x}}{4^{x}+2}$$\nसे परिभाषित किया जाता है। तब\n$$f\\left(\\frac{1}{40}\\right)+f\\left(\\frac{2}{40}\\right)+f\\left(\\frac{3}{40}\\right)+\\cdots+f\\left(\\frac{39}{40}\\right)-f..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "r3dl7hr9dl7v74weavi1",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "let-the-function-f0pi--to-r-be-defined-by-fthe-jee-advanced-mathematics-trigonometric-functions-and-equations-6koyqhh64mrdhuek",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let the function $$f:(0,\\pi ) \\to R$$ be defined by $$f(\\theta ) = {(\\sin \\theta  + \\cos \\theta )^2} + {(\\sin \\theta  - \\cos \\theta )^4}$$<br><br>Suppose the function  f  has a local minimum at $$\\theta $$ precisely when $$\\theta  \\in \\{ {\\lambda _1}\\pi ,....,{\\lambda _r}\\pi \\} $$, where $$0 &lt; {\\lambda _1} &lt; ...{\\lambda _r} &lt; 1$$. Then the value of $${\\lambda _1} + ... + {\\lambda _r}$$ is .............",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.5",
+          "explanation": "The given function f : R $$ \\to $$ R be defined by<br><br>$$f(\\theta ) = {(\\sin \\theta  + \\cos \\theta )^2} + {(\\sin \\theta  - \\cos \\theta )^4}$$<br><br>$$ = 1 + \\sin 2\\theta  + {(1 - \\sin 2\\theta )^2}$$<br><br>$$ = 1 + \\sin 2\\theta  + 1 + {\\sin ^2}2\\theta  - 2\\sin 2\\theta $$<br><br>$$ = {\\sin ^2}2\\theta  - \\sin 2\\theta  + 2$$<br><br>$$ = {\\left( {\\sin 2\\theta  - {1 \\over 2}} \\right)^2} + {7 \\over 4}$$<br><br>The local minimum of function 'f' occurs when<br><br>$$\\sin 2\\theta  = {1 \\over 2}$$<br><br>$$ \\Rightarrow 2\\theta  = {\\pi  \\over 6},\\,{{5\\pi } \\over 6},\\,{{13\\pi } \\over 6},\\,...$$<br><br>$$ \\Rightarrow \\theta  = {\\pi  \\over {12}},\\,{{5\\pi } \\over {12}},\\,{{13\\pi } \\over {12}},\\,...$$<br><br>but $$\\theta  \\in \\{ {\\lambda _1}\\pi ,\\,{\\lambda _2}\\pi ,\\,...,\\,{\\lambda _r}\\pi \\} $$,<br><br>where $$0 &lt; {\\lambda _1} &lt; .... &lt; {\\lambda _r} &lt; 1$$.<br><br>$$ \\therefore $$ $$\\theta  = {\\pi  \\over {12}},\\,{{5\\pi } \\over {12}}$$<br><br>So, $${\\lambda _1} + ... + {\\lambda _r} = {1 \\over {12}} + {5 \\over {12}} = 0.50$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना कि फलन (function) $$f:(0, \\pi) \\rightarrow \\mathbb{R}$$ को</p>\n<p>$$f(\\theta)=(\\sin \\theta+\\cos \\theta)^{2}+(\\sin \\theta-\\cos \\theta)^{4}$$</p>\n<p>से परिभाषित किया जाता है । मान लीजिये कि फलन $$f$$ का स्थानीय न्यूनतम (local minimum) केवल और केवल (precisely) उन्हीं $$\\theta$$ पर है जिनके लिये $$\\theta \\in\\left\\{\\lambda_{1} \\pi, \\ldots, \\lambda_{r} \\pi\\right\\}$$ हो, जहाँ $$0 < \\lambda_{1}< \\cdots < \\lambda_{r} < 1$$ है । तब $$\\lambda_{1}+\\cdots+\\lambda_{r}$$ का मान है __________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.5",
+          "explanation": "दिया गया फलन f : R $$ \\to $$ R निम्नानुसार परिभाषित है<br><br>$$f(\\theta ) = {(\\sin \\theta  + \\cos \\theta )^2} + {(\\sin \\theta  - \\cos \\theta )^4}$$<br><br>$$ = 1 + \\sin 2\\theta  + {(1 - \\sin 2\\theta )^2}$$<br><br>$$ = 1 + \\sin 2\\theta  + 1 + {\\sin ^2}2\\theta  - 2\\sin 2\\theta $$<br><br>$$ = {\\sin ^2}2\\theta  - \\sin 2\\theta  + 2$$<br><br>$$ = {\\left( {\\sin 2\\theta  - {1 \\over 2}} \\right)^2} + {7 \\over 4}$$<br><br>फलन 'f' का स्थानीय निम्नतम तब होता है जब<br><br>$$\\sin 2\\theta  = {1 \\over 2}$$<br><br>$$ \\Rightarrow 2\\theta  = {\\pi  \\over 6},\\,{{5\\pi } \\over 6},\\,{{13\\pi } \\over 6},\\,...$$<br><br>$$ \\Rightarrow \\theta  = {\\pi  \\over {12}},\\,{{5\\pi } \\over {12}},\\,{{13\\pi } \\over {12}},\\,...$$<br><br>परन्तु $$\\theta  \\in \\{ {\\lambda _1}\\pi ,\\,{\\lambda _2}\\pi ,\\,...,\\,{\\lambda _r}\\pi \\} $$,<br><br>जहाँ $$0 &lt; {\\lambda _1} &lt; .... &lt; {\\lambda _r} &lt; 1$$.<br><br>$$ \\therefore $$ $$\\theta  = {\\pi  \\over {12}},\\,{{5\\pi } \\over {12}}$$<br><br>अतः, $${\\lambda _1} + ... + {\\lambda _r} = {1 \\over {12}} + {5 \\over {12}} = 0.50$$"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "functional-equations",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let the function $$f:(0,\\pi ) \\to R$$ be defined by $$f(\\theta ) = {(\\sin \\theta  + \\cos \\theta )^2} + {(\\sin \\theta  - \\cos \\theta )^4}$$Suppose the function  f  has a local minimum at $$\\theta $$ precisely when $$\\theta  \\in \\{ {\\lambda _..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "माना कि फलन (function) $$f:(0, \\pi) \\rightarrow \\mathbb{R}$$ को\n$$f(\\theta)=(\\sin \\theta+\\cos \\theta)^{2}+(\\sin \\theta-\\cos \\theta)^{4}$$\nसे परिभाषित किया जाता है । मान लीजिये कि फलन $$f$$ का स्थानीय न्यूनतम (local minimum) केवल और केवल (pr..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "szbdvsryq7krpqlc6x10",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "permalink": "if-the-function-f--r--to--r-is-defined-by-fx--x--jee-advanced-mathematics-trigonometric-functions-and-equations-2oomoqvgyb5eu1ha",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "If the function f : R $$ \\to $$ R is defined by f(x) = |x| (x $$-$$ sin x), then which of the following statements is TRUE?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "f is one-one, but NOT onto"
+            },
+            {
+              "identifier": "B",
+              "content": "f is onto, but NOT one-one"
+            },
+            {
+              "identifier": "C",
+              "content": "f is BOTH one-one and onto"
+            },
+            {
+              "identifier": "D",
+              "content": "f is NEITHER one-one NOR onto"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "The given function f : R $$ \\to $$ R is<br><br>$$f(x) = |x|(x - \\sin x)$$ .....(i)<br><br>$$ \\because $$ The function 'f' is a odd and continuous function and as $$\\mathop {\\lim }\\limits_{x \\to \\infty } f(x) = \\infty $$ and $$\\mathop {\\lim }\\limits_{x \\to \\infty } f(x) =  - \\infty $$, so range is R, therefore, 'f' is a onto function.<br><br>$$ \\because $$ $$f(x) = \\left[ \\matrix{\n  x(x - \\sin x),\\,x \\ge \\,0 \\hfill \\cr \n   - x(x - \\sin x),\\,x\\, &lt; \\,0 \\hfill \\cr}  \\right.$$<br><br>$$ \\therefore $$ $$f'(x) = \\left[ \\matrix{\n  2x - \\sin x - x\\cos x,\\,x &gt; \\,0 \\hfill \\cr \n   - 2x + \\sin x + x\\cos x,\\,x\\, &lt; \\,0 \\hfill \\cr}  \\right.$$<br><br>$$\\left[ \\matrix{\n  (x - \\sin x) + x(1 - \\cos x),\\,x &gt; \\,0 \\hfill \\cr \n  ( - x + \\sin x) - x(1 - \\cos x),\\,x\\, &lt; \\,0 \\hfill \\cr}  \\right.$$<br><br>$$ \\because $$ for x &gt; 0, x $$-$$ sin x &gt; 0 and x(1 $$-$$ cos x) &gt; 0<br><br>$$ \\therefore $$ $$f'(x) &gt; 0\\forall x \\in (0,\\infty )$$<br><br>$$ \\Rightarrow $$ f is strictly increasing function. $$\\forall x \\in (0,\\infty )$$.<br><br>Similarly, for x &lt; 0, $$-$$x + sin x &gt; 0 and ($$-$$ x) (1 $$-$$ cos x) &gt; 0, therefore, $$f'(x) &gt; 0\\forall x \\in ( - \\infty ,0)$$<br><br>$$ \\Rightarrow $$ f is strictly increasing function, $$\\forall x \\in $$(0, $$\\infty $$)<br><br>Therefore 'f' is a strictly increasing function for x$$ \\in $$R and it implies that f is one-one function."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>यदि फलन (function) $$f: \\mathbb{R} \\rightarrow \\mathbb{R}$$ को $$f(x)=|x|(x-\\sin x)$$ से परिभाषित किया जाता है, तब निम्न में से कौन सा कथन सही है?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$f$$ एकैकी (one-one) है, लेकिन आच्छादक (onto) नहीं है"
+            },
+            {
+              "identifier": "B",
+              "content": "$$f$$ आच्छादक है, लेकिन एकैकी नहीं है"
+            },
+            {
+              "identifier": "C",
+              "content": "$$f$$ एकैकी एवं आच्छादक दोनों है"
+            },
+            {
+              "identifier": "D",
+              "content": "$$f$$ एकैकी भी नहीं है एवं आच्छादक भी नहीं है"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "दिया गया फलन f : R $$ \\to $$ R है<br><br>$$f(x) = |x|(x - \\sin x)$$ .....(i)<br><br>$$ \\because $$ फलन 'f' एक विषम और संतत फलन है और चूँकि $$\\mathop {\\lim }\\limits_{x \\to \\infty } f(x) = \\infty $$ और $$\\mathop {\\lim }\\limits_{x \\to -\\infty } f(x) =  - \\infty $$, इसलिए परिसर R है, अतः 'f' एक आच्छादक फलन है।<br><br>$$ \\because $$ $$f(x) = \\left[ \\matrix{\n  x(x - \\sin x),\\,x \\ge \\,0 \\hfill \\cr \n   - x(x - \\sin x),\\,x\\, &lt; \\,0 \\hfill \\cr}  \\right.$$<br><br>$$ \\therefore $$ $$f'(x) = \\left[ \\matrix{\n  2x - \\sin x - x\\cos x,\\,x &gt; \\,0 \\hfill \\cr \n   - 2x + \\sin x + x\\cos x,\\,x\\, &lt; \\,0 \\hfill \\cr}  \\right.$$<br><br>$$\\left[ \\matrix{\n  (x - \\sin x) + x(1 - \\cos x),\\,x &gt; \\,0 \\hfill \\cr \n  ( - x + \\sin x) - x(1 - \\cos x),\\,x\\, &lt; \\,0 \\hfill \\cr}  \\right.$$<br><br>$$ \\because $$ x &gt; 0 के लिए, x $$-$$ sin x &gt; 0 और x(1 $$-$$ cos x) &gt; 0<br><br>$$ \\therefore $$ $$f'(x) &gt; 0\\forall x \\in (0,\\infty )$$<br><br>$$ \\Rightarrow $$ f निरंतर वर्धमान फलन है। $$\\forall x \\in (0,\\infty )$$.<br><br>इसी प्रकार, x &lt; 0 के लिए, $$-$$x + sin x &gt; 0 और ($$-$$ x) (1 $$-$$ cos x) &gt; 0, इसलिए, $$f'(x) &gt; 0\\forall x \\in ( - \\infty ,0)$$<br><br>$$ \\Rightarrow $$ f निरंतर वर्धमान फलन है, $$\\forall x \\in $$(-\\infty, 0)<br><br>अतः 'f' एक निरंतर वर्धमान फलन है x$$ \\in $$R के लिए और इससे यह सिद्ध होता है कि f एकैकी फलन है।"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "classification-of-functions",
+      "type": "mcq",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "If the function f : R $$ \\to $$ R is defined by f(x) = |x| (x $$-$$ sin x), then which of the following statements is TRUE?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "यदि फलन (function) $$f: \\mathbb{R} \\rightarrow \\mathbb{R}$$ को $$f(x)=|x|(x-\\sin x)$$ से परिभाषित किया जाता है, तब निम्न में से कौन सा कथन सही है?"
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "question_id": "1slyg5v7mr60twbe8qud",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "permalink": "let-f--0-2--to--r-be-the-function-defined-bybrb-jee-advanced-mathematics-trigonometric-functions-and-equations-ncxctduw0rawsc90",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let f : [0, 2] $$ \\to $$ R be the function defined by<br><br>$$f(x) = (3 - \\sin (2\\pi x))\\sin \\left( {\\pi x - {\\pi  \\over 4}} \\right) - \\sin \\left( {3\\pi x + {\\pi  \\over 4}} \\right)$$<br><br>If $$\\alpha ,\\,\\beta  \\in [0,2]$$ are such that $$\\{ x \\in [0,2]:f(x) \\ge 0\\}  = [\\alpha ,\\beta ]$$, then the value of $$\\beta  - \\alpha $$ is ..........",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "The given function f : [0, 2] $$ \\to $$ R defined by<br><br>$$f(x) = (3 - \\sin (2\\pi x))\\sin \\left( {\\pi x - {\\pi  \\over 4}} \\right) - \\sin \\left( {3\\pi x + {\\pi  \\over 4}} \\right)$$<br><br>$$ = (3 - \\sin (2\\pi x))\\left[ {{{\\sin \\pi x} \\over {\\sqrt 2 }} - {{\\cos \\pi x} \\over {\\sqrt 2 }}} \\right] - \\left\\{ {{{\\sin 3\\pi x} \\over {\\sqrt 2 }} + {{\\cos (3\\pi x)} \\over {\\sqrt 2 }}} \\right\\}$$<br><br>$$ = (3 - \\sin (2\\pi x)){{[\\sin (\\pi x) - \\cos (\\pi x)} \\over {\\sqrt 2 }} - {1 \\over {\\sqrt 2 }}[3\\sin (\\pi x) - 4{\\sin ^3}(\\pi x) + 4{\\cos ^3}(\\pi x) - 3\\cos (\\pi x)]$$<br><br>$$ = {{\\sin (\\pi x) - \\cos (\\pi x)} \\over {\\sqrt 2 }}[3 - \\sin (2\\pi x) - 3 + 4\\{ {\\sin ^2}(\\pi x) + {\\cos ^2}(\\pi x) + \\sin (\\pi x)\\cos (\\pi x)\\} ]$$<br><br>$$ = {{\\sin (\\pi x) - \\cos (\\pi x)} \\over {\\sqrt 2 }}[4 + \\sin (2\\pi x)]$$<br><br>As, $$f(x) \\ge 0\\forall  \\in [\\alpha ,\\beta ]$$, where $$\\alpha ,\\beta  \\in [0,2]$$, so<br><br>$$\\sin (\\pi x) - \\cos (\\pi x) \\ge 0$$<br><br>as $$4 + \\sin (2\\pi x) &gt; 0\\,\\forall x \\in R$$.<br><br>$$ \\Rightarrow \\pi x \\in \\left[ {{\\pi  \\over 4},{{5\\pi } \\over 4}} \\right] \\Rightarrow x \\in \\left[ {{1 \\over 4},{5 \\over 4}} \\right]$$<br><br>$$ \\therefore $$ $$\\alpha  = {1 \\over 4}$$ and $$\\beta  = {5 \\over 4}$$<br><br>Therefore the value of $$(\\beta  - \\alpha ) = 1$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना कि फलन (function) $$f:[0,2] \\rightarrow \\mathbb{R}$$ को</p>\n<p>$$f(x)=(3-\\sin (2 \\pi x)) \\sin \\left(\\pi x-\\frac{\\pi}{4}\\right)-\\sin \\left(3 \\pi x+\\frac{\\pi}{4}\\right)$$</p>\n<p>द्वारा परिभाषित किया जाता है । यदि $$\\alpha, \\beta \\in[0,2]$$ इस प्रकार से हैं कि $$\\{x \\in[0,2]: f(x) \\geq 0\\}=[\\alpha, \\beta]$$, तब $$\\beta-\\alpha$$ का मान है ___________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "दिया गया फलन f : [0, 2] $$ \\to $$ R इस प्रकार परिभाषित है<br><br>$$f(x) = (3 - \\sin (2\\pi x))\\sin \\left( {\\pi x - {\\pi  \\over 4}} \\right) - \\sin \\left( {3\\pi x + {\\pi  \\over 4}} \\right)$$<br><br>$$ = (3 - \\sin (2\\pi x))\\left[ {{{\\sin \\pi x} \\over {\\sqrt 2 }} - {{\\cos \\pi x} \\over {\\sqrt 2 }}} \\right] - \\left\\{ {{\\sin 3\\pi x} \\over {\\sqrt 2 }} + {{\\cos (3\\pi x)} \\over {\\sqrt 2 }}} \\right\\}$$<br><br>$$ = (3 - \\sin (2\\pi x)){{[\\sin (\\pi x) - \\cos (\\pi x)} \\over {\\sqrt 2 }} - {1 \\over {\\sqrt 2 }}[3\\sin (\\pi x) - 4{\\sin ^3}(\\pi x) + 4{\\cos ^3}(\\pi x) - 3\\cos (\\pi x)]$$<br><br>$$ = {{\\sin (\\pi x) - \\cos (\\pi x)} \\over {\\sqrt 2 }}[3 - \\sin (2\\pi x) - 3 + 4\\{ {\\sin ^2}(\\pi x) + {\\cos ^2}(\\pi x) + \\sin (\\pi x)\\cos (\\pi x)\\} ]$$<br><br>$$ = {{\\sin (\\pi x) - \\cos (\\pi x)} \\over {\\sqrt 2 }}[4 + \\sin (2\\pi x)]$$<br><br>चूँकि, $$f(x) \\ge 0\\forall  \\in [\\alpha ,\\beta ]$$, जहाँ $$\\alpha ,\\beta  \\in [0,2]$$, अतः<br><br>$$\\sin (\\pi x) - \\cos (\\pi x) \\ge 0$$<br><br>क्योंकि $$4 + \\sin (2\\pi x) &gt; 0\\,\\forall x \\in R$$.<br><br>$$ \\Rightarrow \\pi x \\in \\left[ {{\\pi  \\over 4},{{5\\pi } \\over 4}} \\right] \\Rightarrow x \\in \\left[ {{1 \\over 4},{5 \\over 4}} \\right]$$<br><br>$$ \\therefore $$ $$\\alpha  = {1 \\over 4}$$ और $$\\beta  = {5 \\over 4}$$<br><br>इसलिए $$(\\beta  - \\alpha ) = 1$$ का मान है"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "periodic-functions",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let f : [0, 2] $$ \\to $$ R be the function defined by$$f(x) = (3 - \\sin (2\\pi x))\\sin \\left( {\\pi x - {\\pi  \\over 4}} \\right) - \\sin \\left( {3\\pi x + {\\pi  \\over 4}} \\right)$$If $$\\alpha ,\\,\\beta  \\in [0,2]$$ are such that $$\\{ x \\in [0,2]:..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "माना कि फलन (function) $$f:[0,2] \\rightarrow \\mathbb{R}$$ को\n$$f(x)=(3-\\sin (2 \\pi x)) \\sin \\left(\\pi x-\\frac{\\pi}{4}\\right)-\\sin \\left(3 \\pi x+\\frac{\\pi}{4}\\right)$$\nद्वारा परिभाषित किया जाता है । यदि $$\\alpha, \\beta \\in[0,2]$$ इस प्रकार स..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "question_id": "qrsvw7z39nq8lz20kyl0",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "permalink": "for-a-polynomial-gx-with-real-coefficients-let-msubgs-jee-advanced-mathematics-trigonometric-functions-and-equations-gewcjc8cqegue9hv",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "For a polynomial g(x) with real coefficients, let m<sub>g</sub> denote the number of distinct real roots of g(x). Suppose S is the set of polynomials with real coefficients defined by <br><br>$$S = \\{ {({x^2} - 1)^2}({a_0} + {a_1}x + {a_2}{x^2} + {a_3}{x^3}):{a_0},{a_1},{a_2},{a_3} \\in R\\} $$;<br><br>For a polynomial f, let f' and f'' denote its first and second order derivatives, respectively. Then the minimum possible value of (m<sub>f'</sub> + m<sub>f''</sub>), where f $$ \\in $$ S, is ..............",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "Given set S of polynomials with real coefficients <br><br>$$S = \\{ {({x^2} - 1)^2}({a_0} + {a_1}x + {a_2}{x^2} + {a_3}{x^3}):{a_0},{a_1},{a_2},{a_3} \\in R\\} $$<br><br>and for a polynomial $$f \\in S$$, Let<br><br>$$f(x) = {({x^2} - 1)^2}({a_0} + {a_1}x + {a_2}{x^2} + {a_3}{x^3})$$ <br><br>it have $$-$$1 and 1 as repeated roots twice, so graph of f(x) touches the X-axis at x = $$-$$1 and x = 1, so f'(x) having at least three roots x = $$-$$1, 1 and $$\\alpha $$. Where $$\\alpha $$$$ \\in $$($$-$$1, 1) and f''(x) having at least two roots in interval ($$-$$1, 1)<br><br>So, m<sub>f'</sub> = 3 and m<sub>f''</sub> = 2<br><br>$$ \\therefore $$ Minimum possible value of (m<sub>f'</sub> + m<sub>f''</sub>) = 5"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>वास्तविक गुणांकों (real coefficients) के बहुपद (polynomial) $$g(x)$$ के लिये, माना कि $$g(x)$$ की भित्र वास्तविक मूलों की संख्या (number of distinct real roots) को $$m_{g}$$ से दर्शाते हैं। मान लीजिये कि $$S$$ वास्तविक गुणांकों के बहुपदों का समुच्चय (set) है जो कि</p>\n<p>$$S=\\left\\{\\left(x^{2}-1\\right)^{2}\\left(a_{0}+a_{1} x+a_{2} x^{2}+a_{3} x^{3}\\right): a_{0}, a_{1}, a_{2}, a_{3} \\in \\mathbb{R}\\right\\}$$</p>\n<p>द्वारा परिभाषित है। माना कि बहुपद $$f$$ के प्रथम एवं द्वितीय कोटि के अवकलजों (first and second order derivatives) को क्रमशः $$f'$$ एवं $$f''$$ से दर्शाते हैं।तब $$\\left(m_{f'}+m_{f''}\\right)$$, जहाँ $$f \\in S$$, का न्यूनतम संभावित मान (minimum possible value) है ____________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "दिया गया वास्तविक गुणांकों वाले बहुपदों का समुच्चय S <br><br>$$S = \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ {({x^2} - 1)^2}({a_0} + {a_1}x + {a_2}{x^2} + {a_3}{x^3}):{a_0},{a_1},{a_2},{a_3} \\in R\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ $$<br><br>और एक बहुपद $$f \\in S$$ के लिए, माना<br><br>$$f(x) = {({x^2} - 1)^2}({a_0} + {a_1}x + {a_2}{x^2} + {a_3}{x^3})$$ <br><br>इसके $$-$$1 और 1 दो बार पुनरावृत्त मूल हैं, इसलिए f(x) का आलेख x = $$-$$1 और x = 1 पर X-अक्ष को स्पर्श करता है, इसलिए f'(x) के कम से कम तीन मूल x = $$-$$1, 1 और $$\\alpha $$ हैं। जहाँ $$\\alpha $$$$ \\in $$($$-$$1, 1) और f''(x) के अंतराल ($$-$$1, 1) में कम से कम दो मूल हैं<br><br>अतः, m<sub>f'</sub> = 3 और m<sub>f''</sub> = 2<br><br>$$ \\therefore $$ (m<sub>f'</sub> + m<sub>f''</sub>) का न्यूनतम संभव मान = 5"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "functional-equations",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "For a polynomial g(x) with real coefficients, let mg denote the number of distinct real roots of g(x). Suppose S is the set of polynomials with real coefficients defined by $$S = \\{ {({x^2} - 1)^2}({a_0} + {a_1}x + {a_2}{x^2} + {a_3}{x^3}):..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "वास्तविक गुणांकों (real coefficients) के बहुपद (polynomial) $$g(x)$$ के लिये, माना कि $$g(x)$$ की भित्र वास्तविक मूलों की संख्या (number of distinct real roots) को $$m_{g}$$ से दर्शाते हैं। मान लीजिये कि $$S$$ वास्तविक गुणांकों के बहुपदों क..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "question_id": "5vyr5mbvziyfrx72yxv6",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "permalink": "let-e1--left-x-in-rx-ne-1andx-over-x-1-jee-advanced-mathematics-trigonometric-functions-and-equations-4viuy6iisaj9db3g",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let $${E_1} = \\left\\{ {x \\in R:x \\ne 1\\,and\\,{x \\over {x - 1}} &gt; 0} \\right\\}$$ and <br><br><br>$${E_2} = \\left\\{ \\matrix{\n  x \\in {E_1}:{\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right) \\hfill \\cr \n  is\\,a\\,real\\,number \\hfill \\cr}  \\right\\}$$ <br><br>(Here, the inverse trigonometric function $${\\sin ^{ - 1}}$$ x assumes values in $$\\left[ { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right]$$.).<br><br>Let f : E<sub>1</sub> $$ \\to $$ R be the function defined by f(x) = $${{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)}$$ and g : E<sub>2</sub> $$ \\to $$ R be the function defined by g(x) = $${\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right)$$.<br>\n <style>\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin: 20px 0;\n        }\n        th {\n            background-color: blue;\n            color: white;\n            border: 1px solid black;\n            padding: 10px;\n        }\n        td {\n            border: 1px solid black;\n            padding: 10px;\n            text-align: left;\n        }\n    </style>\n<table>\n    <tr>\n        <th>LIST-I</th>\n        <th>LIST-II</th>\n    </tr>\n    <tr>\n        <td>P. The range of $f$ is</td>\n        <td>1. $\\left( -\\infty, \\frac{1}{1-e} \\right] \\cup \\left[ \\frac{e}{e-1}, \\infty \\right)$</td>\n    </tr>\n    <tr>\n        <td>Q. The range of $g$ contains</td>\n        <td>2. $(0, 1)$</td>\n    </tr>\n    <tr>\n        <td>R. The domain of $f$ contains</td>\n        <td>3. $\\left[ -\\frac{1}{2}, \\frac{1}{2} \\right]$</td>\n    </tr>\n    <tr>\n        <td>S. The domain of $g$ is</td>\n        <td>4. $(-\\infty, 0) \\cup (0, \\infty)$</td>\n    </tr>\n    <tr>\n        <td></td>\n        <td>5. $\\left( -\\infty, \\frac{e}{e-1} \\right)$</td>\n    </tr>\n    <tr>\n        <td></td>\n        <td>6. $(-\\infty, 0) \\cup \\left( \\frac{1}{2}, \\frac{e}{e-1} \\right]$</td>\n    </tr>\n</table>The correct option is :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "P $$ \\to $$ 4; Q $$ \\to $$ 2; R $$ \\to $$ 1 ; S $$ \\to $$ 1"
+            },
+            {
+              "identifier": "B",
+              "content": "P $$ \\to $$ 3; Q $$ \\to $$ 3; R $$ \\to $$ 6 ; S $$ \\to $$ 5"
+            },
+            {
+              "identifier": "C",
+              "content": "P $$ \\to $$ 4; Q $$ \\to $$ 2; R $$ \\to $$ 1 ; S $$ \\to $$ 6"
+            },
+            {
+              "identifier": "D",
+              "content": "P $$ \\to $$ 4; Q $$ \\to $$ 3; R $$ \\to $$ 6 ; S $$ \\to $$ 5"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "We have,<br><br>$${E_1} = \\left\\{ {x \\in R:x \\ne 1\\,and\\,{x \\over {x - 1}} &gt; 0} \\right\\}$$<br><br>$$ \\therefore $$ $${E_1} = {x \\over {x - 1}} &gt; 0$$<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx13g6z5/53a65f35-0d64-4508-a121-2823b8ac232b/3e317c10-5a1b-11ec-9197-413c7acc42fc/file-1kx13g6z6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx13g6z5/53a65f35-0d64-4508-a121-2823b8ac232b/3e317c10-5a1b-11ec-9197-413c7acc42fc/file-1kx13g6z6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Functions Question 28 English Explanation 1\"><br><br>$${E_1} = x \\in ( - \\infty ,0) \\cup (1,\\infty )$$<br><br>and $${E_2} = \\left\\{ \\matrix{\n  x \\in {E_1}:{\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right) \\hfill \\cr \n  is\\,a\\,real\\,number \\hfill \\cr}  \\right\\}$$<br><br>$${E_2} =  - 1 \\le {\\log _e}{x \\over {x - 1}} \\le 1$$<br><br>$$ \\Rightarrow {e^{ - 1}} \\le {x \\over {x - 1}} \\le e$$<br><br>Now, $${x \\over {x - 1}} \\ge {e^{ - 1}} \\Rightarrow {x \\over {x - 1}} - {1 \\over e} \\ge 0$$<br><br>$$ \\Rightarrow {{ex - x + 1} \\over {e(x - 1)}} \\ge 0 \\Rightarrow {{x(e - 1) + 1} \\over {(x - 1)e}} \\ge 0$$<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx13h996/f0f207a7-81ec-4124-8a83-1f50a710db54/5bc337a0-5a1b-11ec-9197-413c7acc42fc/file-1kx13h997.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx13h996/f0f207a7-81ec-4124-8a83-1f50a710db54/5bc337a0-5a1b-11ec-9197-413c7acc42fc/file-1kx13h997.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Functions Question 28 English Explanation 2\"><br><br>$$ \\Rightarrow x \\in \\left( { - \\infty ,\\,{1 \\over {1 - e}}} \\right) \\cup (1,\\infty )$$<br><br>Also, $${x \\over {x - 1}} \\le e$$<br><br>$$ \\Rightarrow {{(e - 1)x - e} \\over {x - 1}} \\ge 0$$<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx13iisa/63110af1-7566-42aa-b0fc-b795326bccb6/7eef1fa0-5a1b-11ec-9197-413c7acc42fc/file-1kx13iisb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx13iisa/63110af1-7566-42aa-b0fc-b795326bccb6/7eef1fa0-5a1b-11ec-9197-413c7acc42fc/file-1kx13iisb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Functions Question 28 English Explanation 3\"><br><br>$$ \\Rightarrow x \\in ( - \\infty ,\\,1) \\cup \\left[ {{e \\over {e - 1}},\\infty } \\right)$$<br><br>So, $${E_2} = \\left( { - \\infty ,\\,{1 \\over {1 - e}}} \\right] \\cup \\left[ {{e \\over {e - 1}},\\,\\infty } \\right)$$<br><br>$$ \\therefore $$ The domain of f and g are<br><br>$$\\left( { - \\infty ,\\,{1 \\over {1 - e}}} \\right] \\cup \\left[ {{e \\over {e - 1}},\\,\\infty } \\right)$$<br><br>and Range of $${x \\over {x - 1}}$$ is R<sup>+</sup> $$-$$ {1}<br><br>$$ \\Rightarrow $$ Range of f is R $$-$$ {0} or ($$-$$$$\\infty $$, 0) $$ \\cup $$ (0, $$\\infty $$)<br><br>Range of g is $$\\left[ { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right] - \\{ 0\\} $$ or $$\\left[ { - {\\pi  \\over 2},0} \\right) \\cup \\left( {0,{\\pi  \\over 2}} \\right]$$<br><br>Now, P $$ \\to $$ 4, Q $$ \\to $$ 2, R $$ \\to $$ 1, S $$ \\to $$ 1<br><br>Hence, option (a) is correct answer."
+        },
+        "hi": {
+          "direction": null,
+          "content": "मान लें $${E_1} = \\left\\{ {x \\in R:x \\ne 1\\,और\\,{x \\over {x - 1}} &gt; 0} \\right\\}$$ और <br><br><br>$${E_2} = \\left\\{ \\matrix{\n  x \\in {E_1}:{\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right) \\hfill \\cr \n  एक\\,वास्तविक\\,संख्या\\,है \\hfill \\cr}  \\right\\}$$ <br><br>(यहाँ पर, इनवर्स ट्रिगोनोमेट्रिक फंक्शन $${\\sin ^{ - 1}}$$ x मान ग्रहण करता है $$\\left[ { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right]$$.).<br><br>मान लें f : E<sub>1</sub> $$ \\to $$ R वह फ़ंक्शन है जिसे f(x) = $${{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)}$$ द्वारा परिभाषित किया गया है और g : E<sub>2</sub> $$ \\to $$ R वह फ़ंक्शन है जिसे g(x) = $${\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right)$$ द्वारा परिभाषित किया गया है।<br>\n <style>\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin: 20px 0;\n        }\n        th {\n            background-color: blue;\n            color: white;\n            border: 1px solid black;\n            padding: 10px;\n        }\n        td {\n            border: 1px solid black;\n            padding: 10px;\n            text-align: left;\n        }\n    </style>\n<table>\n    <tr>\n        <th>सूची-I</th>\n        <th>सूची-II</th>\n    </tr>\n    <tr>\n        <td>P. $f$ की रेंज है</td>\n        <td>1. $\\left( -\\infty, \\frac{1}{1-e} \\right] \\cup \\left[ \\frac{e}{e-1}, \\infty \\right)$</td>\n    </tr>\n    <tr>\n        <td>Q. $g$ की रेंज में शामिल है</td>\n        <td>2. $(0, 1)$</td>\n    </tr>\n    <tr>\n        <td>R. $f$ का डोमेन शामिल है</td>\n        <td>3. $\\left[ -\\frac{1}{2}, \\frac{1}{2} \\right]$</td>\n    </tr>\n    <tr>\n        <td>S. $g$ का डोमेन है</td>\n        <td>4. $(-\\infty, 0) \\cup (0, \\infty)$</td>\n    </tr>\n    <tr>\n        <td></td>\n        <td>5. $\\left( -\\infty, \\frac{e}{e-1} \\right)$</td>\n    </tr>\n    <tr>\n        <td></td>\n        <td>6. $(-\\infty, 0) \\cup \\left( \\frac{1}{2}, \\frac{e}{e-1} \\right]$</td>\n    </tr>\n</table>सही विकल्प है :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "P $$ \\to $$ 4; Q $$ \\to $$ 2; R $$ \\to $$ 1 ; S $$ \\to $$ 1"
+            },
+            {
+              "identifier": "B",
+              "content": "P $$ \\to $$ 3; Q $$ \\to $$ 3; R $$ \\to $$ 6 ; S $$ \\to $$ 5"
+            },
+            {
+              "identifier": "C",
+              "content": "P $$ \\to $$ 4; Q $$ \\to $$ 2; R $$ \\to $$ 1 ; S $$ \\to $$ 6"
+            },
+            {
+              "identifier": "D",
+              "content": "P $$ \\to $$ 4; Q $$ \\to $$ 3; R $$ \\to $$ 6 ; S $$ \\to $$ 5"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "हमारे पास है,<br><br>$${E_1} = \\left\\{ {x \\in R:x \\ne 1\\,and\\,{x \\over {x - 1}} &gt; 0} \\right\\}$$<br><br>$$ \\therefore $$ $${E_1} = {x \\over {x - 1}} &gt; 0$$<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx13g6z5/53a65f35-0d64-4508-a121-2823b8ac232b/3e317c10-5a1b-11ec-9197-413c7acc42fc/file-1kx13g6z6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx13g6z5/53a65f35-0d64-4508-a121-2823b8ac232b/3e317c10-5a1b-11ec-9197-413c7acc42fc/file-1kx13g6z6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Functions Question 28 Hindi Explanation 1\"><br><br>$${E_1} = x \\in ( - \\infty ,0) \\cup (1,\\infty )$$<br><br>और $${E_2} = \\left\\{ \\matrix{  x \\in {E_1}:{\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right) \\hfill \\cr   is\\,a\\,real\\,number \\hfill \\cr}  \\right\\}$$<br><br>$${E_2} =  - 1 \\le {\\log _e}{x \\over {x - 1}} \\le 1$$<br><br>$$ \\Rightarrow {e^{ - 1}} \\le {x \\over {x - 1}} \\le e$$<br><br>अब, $${x \\over {x - 1}} \\ge {e^{ - 1}} \\Rightarrow {x \\over {x - 1}} - {1 \\over e} \\ge 0$$<br><br>$$ \\Rightarrow {{ex - x + 1} \\over {e(x - 1)}} \\ge 0 \\Rightarrow {{x(e - 1) + 1} \\over {(x - 1)e}} \\ge 0$$<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx13h996/f0f207a7-81ec-4124-8a83-1f50a710db54/5bc337a0-5a1b-11ec-9197-413c7acc42fc/file-1kx13h997.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx13h996/f0f207a7-81ec-4124-8a83-1f50a710db54/5bc337a0-5a1b-11ec-9197-413c7acc42fc/file-1kx13h997.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Functions Question 28 Hindi Explanation 2\"><br><br>$$ \\Rightarrow x \\in \\left( { - \\infty ,\\,{1 \\over {1 - e}}} \\right) \\cup (1,\\infty )$$<br><br>साथ ही, $${x \\over {x - 1}} \\le e$$<br><br>$$ \\Rightarrow {{(e - 1)x - e} \\over {x - 1}} \\ge 0$$<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx13iisa/63110af1-7566-42aa-b0fc-b795326bccb6/7eef1fa0-5a1b-11ec-9197-413c7acc42fc/file-1kx13iisb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx13iisa/63110af1-7566-42aa-b0fc-b795326bccb6/7eef1fa0-5a1b-11ec-9197-413c7acc42fc/file-1kx13iisb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Functions Question 28 Hindi Explanation 3\"><br><br>$$ \\Rightarrow x \\in ( - \\infty ,\\,1) \\cup \\left[ {{e \\over {e - 1}},\\infty } \\right)$$<br><br>अतः, $${E_2} = \\left( { - \\infty ,\\,{1 \\over {1 - e}}} \\right] \\cup \\left[ {{e \\over {e - 1}},\\,\\infty } \\right)$$<br><br>$$ \\therefore $$ f और g के प्रांत हैं<br><br>$$\\left( { - \\infty ,\\,{1 \\over {1 - e}}} \\right] \\cup \\left[ {{e \\over {e - 1}},\\,\\infty } \\right)$$<br><br>और $${x \\over {x - 1}}$$ का परिसर R<sup>+</sup> $$-$$ {1} है<br><br>$$ \\Rightarrow $$ f का परिसर R $$-$$ {0} या ($$-$$$$\\infty $$, 0) $$ \\cup $$ (0, $$\\infty $$) है<br><br>g का परिसर $$\\left[ { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right] - \\{ 0\\} $$ या $$\\left[ { - {\\pi  \\over 2},0} \\right) \\cup \\left( {0,{\\pi  \\over 2}} \\right]$$ है<br><br>अब, P $$ \\to $$ 4, Q $$ \\to $$ 2, R $$ \\to $$ 1, S $$ \\to $$ 1<br><br>अतः, विकल्प (a) सही उत्तर है।",
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "range",
+      "type": "mcq",
+      "year": 2018,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $${E_1} = \\left\\{ {x \\in R:x \\ne 1\\,and\\,{x \\over {x - 1}} > 0} \\right\\}$$ and $${E_2} = \\left\\{ \\matrix{\n  x \\in {E_1}:{\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right) \\hfill \\cr \n  is\\,a\\,real\\,number \\hfil..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "मान लें $${E_1} = \\left\\{ {x \\in R:x \\ne 1\\,और\\,{x \\over {x - 1}} > 0} \\right\\}$$ और $${E_2} = \\left\\{ \\matrix{\n  x \\in {E_1}:{\\sin ^{ - 1}}\\left( {{{\\log }_e}\\left( {{x \\over {x - 1}}} \\right)} \\right) \\hfill \\cr \n  एक\\,वास्तविक\\,संख्या\\,ह..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "question_id": "f6jfec9vwlvkmh5w3lze",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "permalink": "let-x-be-a-set-with-exactly-5-elements-and-y-be-a-set-with-e-jee-advanced-mathematics-trigonometric-functions-and-equations-falosjm9xnuhugvx",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let X be a set with exactly 5 elements and Y be a set with exactly 7 elements. If $$\\alpha $$ is the number of one-one functions from X to Y and $$\\beta $$ is the number of onto functions from Y to X, then the value of $${1 \\over {5!}}(\\beta  - \\alpha )$$ is ..................",
+          "options": [],
+          "correct_options": [],
+          "answer": "119",
+          "explanation": "Given, X has exactly 5 elements and Y has exactly 7 elements.<br><br>$$ \\therefore $$ n(X) = 5<br><br>and n(Y) = 7<br><br>Now, number of one-one functions from X to Y is<br><br>$$\\alpha  = {}^7{P_5} = {}^7{C_5} \\times 5!$$<br><br>Number of onto functions from Y to X is $$\\beta $$<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx12yufz/e73a4071-db37-4777-aa93-746f250f3bb0/5bc1c2f0-5a19-11ec-9197-413c7acc42fc/file-1kx12yug0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx12yufz/e73a4071-db37-4777-aa93-746f250f3bb0/5bc1c2f0-5a19-11ec-9197-413c7acc42fc/file-1kx12yug0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Functions Question 29 English Explanation\"><br>1, 1, 1, 1, 3 or 1, 1, 1, 2, 2<br><br>$$ \\therefore $$ $$\\beta  = {{7!} \\over {3!4!}} \\times 5! + {{7!} \\over {{{(2!)}^3}3!}} \\times 5!$$<br><br>$$ = ({}^7{C_3} + 3{}^7{C_3})5! = 4 \\times {}^7{C_3} \\times 5!$$<br><br>$$ \\therefore $$ $${{\\beta  - \\alpha } \\over {5!}} = {{(4 \\times {}^7{C_3} - {}^7{C_5})5!} \\over {5!}}$$<br><br>$$ = 4 \\times 35 - 21 = 140 - 21 = 119$$"
+        },
+        "hi": {
+          "direction": null,
+          "content": "मान लीजिए X एक सेट है जिसमें ठीक 5 तत्व हैं और Y एक सेट है जिसमें ठीक 7 तत्व हैं। यदि $$\\alpha $$ X से Y के लिए सभी एक-एक कार्यों की संख्या है और $$\\beta $$ Y से X तक सभी ऑन-टू कार्यों की संख्या है, तो $${1 \\over {5!}}(\\beta - \\alpha )$$ का मान .................. है।",
+          "options": [],
+          "correct_options": [],
+          "answer": "119",
+          "explanation": "दिया है, X में ठीक 5 अवयव हैं और Y में ठीक 7 अवयव हैं।<br><br>$$ \\therefore $$ n(X) = 5<br><br>और n(Y) = 7<br><br>अब, X से Y में एकैकी फलनों की संख्या है<br><br>$$\\alpha  = {}^7{P_5} = {}^7{C_5} \\times 5!$$<br><br>Y से X में आच्छादक फलनों की संख्या $$\\beta $$ है<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx12yufz/e73a4071-db37-4777-aa93-746f250f3bb0/5bc1c2f0-5a19-11ec-9197-413c7acc42fc/file-1kx12yug0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx12yufz/e73a4071-db37-4777-aa93-746f250f3bb0/5bc1c2f0-5a19-11ec-9197-413c7acc42fc/file-1kx12yug0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Functions Question 29 Hindi Explanation\"><br>1, 1, 1, 1, 3 या 1, 1, 1, 2, 2<br><br>$$ \\therefore $$ $$\\beta  = {{7!} \\over {3!4!}} \\times 5! + {{7!} \\over {{{(2!)}^3}3!}} \\times 5!$$<br><br>$$ = ({}^7{C_3} + 3{}^7{C_3})5! = 4 \\times {}^7{C_3} \\times 5!$$<br><br>$$ \\therefore $$ $${{\\beta  - \\alpha } \\over {5!}} = {{(4 \\times {}^7{C_3} - {}^7{C_5})5!} \\over {5!}}$$<br><br>$$ = 4 \\times 35 - 21 = 140 - 21 = 119$$",
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "classification-of-functions",
+      "type": "integer",
+      "year": 2018,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let X be a set with exactly 5 elements and Y be a set with exactly 7 elements. If $$\\alpha $$ is the number of one-one functions from X to Y and $$\\beta $$ is the number of onto functions from Y to X, then the value of $${1 \\over {5!}}(\\bet..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "मान लीजिए X एक सेट है जिसमें ठीक 5 तत्व हैं और Y एक सेट है जिसमें ठीक 7 तत्व हैं। यदि $$\\alpha $$ X से Y के लिए सभी एक-एक कार्यों की संख्या है और $$\\beta $$ Y से X तक सभी ऑन-टू कार्यों की संख्या है, तो $${1 \\over {5!}}(\\beta - \\alpha )$$ का..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "question_id": "53qktwadvsdw4wrpox4e",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "permalink": "let-s--1-2-3--9-for-k--1-2--jee-advanced-mathematics-trigonometric-functions-and-equations-ut8lg8gsfr0c1lvi",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let S = {1, 2, 3, .........., 9}. For k = 1, 2, .........., 5, let N<sub>k</sub> be the number of subsets of S, each containing five elements out of which exactly k are odd. Then N<sub>1</sub> + N<sub>2</sub> + N<sub>3</sub> + N<sub>4</sub> + N<sub>5</sub> = ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "210"
+            },
+            {
+              "identifier": "B",
+              "content": "252"
+            },
+            {
+              "identifier": "C",
+              "content": "126"
+            },
+            {
+              "identifier": "D",
+              "content": "125"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "$${N_i} = {}^5{C_k} \\times {}^4{C_{5 - k}}$$<br><br>$$\\eqalign{\n  &amp; {N_1} = 5 \\times 1  \\cr \n  &amp; {N_2} = 10 \\times 4  \\cr \n  &amp; {N_3} = 10 \\times 6  \\cr \n  &amp; {N_4} = 5 \\times 4  \\cr \n  &amp; {N_5} = 1  \\cr \n  &amp; {N_1} + {N_2} + {N_3} + {N_4} + {N_5} = 126 \\cr} $$"
+        },
+        "hi": {
+          "direction": null,
+          "content": "माना $$S = \\{1, 2, 3, .........., 9\\}$$ है। $$k = 1, 2, .........., 5$$ के लिए, $$N_k$$ $$S$$ के उपसमुच्चयों की संख्या है, जिनमें पांच तत्व होते हैं जिनमें से ठीक $$k$$ विषम होते हैं। तो $$N_1 + N_2 + N_3 + N_4 + N_5 =$$",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "210"
+            },
+            {
+              "identifier": "B",
+              "content": "252"
+            },
+            {
+              "identifier": "C",
+              "content": "126"
+            },
+            {
+              "identifier": "D",
+              "content": "125"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "even-and-odd-functions",
+      "type": "mcq",
+      "year": 2017,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let S = {1, 2, 3, .........., 9}. For k = 1, 2, .........., 5, let Nk be the number of subsets of S, each containing five elements out of which exactly k are odd. Then N1 + N2 + N3 + N4 + N5 = "
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "माना $$S = \\{1, 2, 3, .........., 9\\}$$ है। $$k = 1, 2, .........., 5$$ के लिए, $$N_k$$ $$S$$ के उपसमुच्चयों की संख्या है, जिनमें पांच तत्व होते हैं जिनमें से ठीक $$k$$ विषम होते हैं। तो $$N_1 + N_2 + N_3 + N_4 + N_5 =$$"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "91phdseet2emiv03mfpc",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "permalink": "plet-fx--sin-left-pi-over-6sin-left-pi-jee-advanced-mathematics-complex-numbers-ryvbxlzkg9raparr",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Let $$f(x) = \\sin \\left( {{\\pi  \\over 6}\\sin \\left( {{\\pi  \\over 2}\\sin x} \\right)} \\right)$$ for all $$x \\in R$$ and g(x) = $${{\\pi  \\over 2}\\sin x}$$ for all x$$\\in$$R. Let $$(f \\circ g)(x)$$ denote f(g(x)) and $$(g \\circ f)(x)$$ denote g(f(x)). Then which of the following is/are true?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Range of f is $$\\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$."
+            },
+            {
+              "identifier": "B",
+              "content": "Range of f $$\\circ$$ g is $$\\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$."
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathop {\\lim }\\limits_{x \\to 0} {{f(x)} \\over {g(x)}} = {\\pi  \\over 6}$$."
+            },
+            {
+              "identifier": "D",
+              "content": "There is an x$$\\in$$R such that (g $$\\circ$$ f)(x) = 1."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>(a) $$f(x) = \\sin \\left[ {{\\pi  \\over 6}\\sin \\left( {{\\pi  \\over 2}\\sin x} \\right)} \\right],\\,x \\in R$$</p>\n<p>$$ = \\sin \\left( {{\\pi  \\over 6}\\sin \\theta } \\right),\\,\\theta  \\in \\left[ { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right]$$,</p>\n<p>where, $$\\theta  = {\\pi  \\over 2}\\sin x$$</p>\n<p>$$ = \\sin \\alpha ,\\alpha  \\in \\left[ { - {\\pi  \\over 6},{\\pi  \\over 6}} \\right]$$,</p>\n<p>where, $$\\alpha  = {\\pi  \\over 6}\\sin \\theta $$</p>\n<p>$$\\therefore$$ $$f(x) \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$</p>\n<p>Hence, range of $$f(x) \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$</p>\n<p>So, option (a) is correct.</p>\n<p>(b) $$f\\{ g(x)\\}  = f(t),t \\in \\left[ { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right]$$</p>\n<p>$$ \\Rightarrow f(t) \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$</p>\n<p>$$\\therefore$$ Option (b) is correct.</p>\n<p>(c) $$\\mathop {\\lim }\\limits_{x \\to 0} {{f(x)} \\over {g(x)}}$$</p>\n<p>$$ = \\mathop {\\lim }\\limits_{x \\to 0} {{\\sin \\left[ {{\\pi  \\over 6}\\sin \\left( {{\\pi  \\over 2}\\sin x} \\right)} \\right]} \\over {{\\pi  \\over 2}(\\sin x)}}$$</p>\n<p>$$ = \\mathop {\\lim }\\limits_{x \\to 0} {{\\sin \\left[ {{\\pi  \\over 6}\\sin \\left( {{\\pi  \\over 2}\\sin x} \\right)} \\right]} \\over {{\\pi  \\over 6}\\sin \\left( {{\\pi  \\over 2}\\sin x} \\right)}}\\,.\\,{{{\\pi  \\over 6}\\sin \\left( {{\\pi  \\over 2}\\sin x} \\right)} \\over {\\left( {{\\pi  \\over 2}\\sin x} \\right)}}$$</p>\n<p>$$ = 1 \\times {\\pi  \\over 6} \\times 1 = {\\pi  \\over 6}$$</p>\n<p>$$\\therefore$$ Option (c) is correct.</p>\n<p>(d) $$g\\{ f(x)\\}  = 1$$</p>\n<p>$$ \\Rightarrow {\\pi  \\over 2}\\sin \\{ f(x)\\}  = 1$$</p>\n<p>$$ \\Rightarrow \\sin \\{ f(x)\\}  = {2 \\over \\pi }$$ ..... (i)</p>\n<p>But, $$f(x) \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right] \\subset \\left[ { - {\\pi  \\over 6},{\\pi  \\over 6}} \\right]$$</p>\n<p>$$\\therefore$$ $$\\sin \\{ f(x)\\}  \\in \\left[ { - {1 \\over 2},{1 \\over 2}} \\right]$$ ..... (ii)</p>\n<p>$$ \\Rightarrow \\sin \\{ f(x)\\}  \\ne {2 \\over \\pi }$$, [from Eqs. (i) and (ii)]</p>\n<p>i.e. No solution.</p>\n<p>$$\\therefore$$ Option (d) is not correct.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "range",
+      "type": "mcqm",
+      "year": 2015,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $$f(x) = \\sin \\left( {{\\pi  \\over 6}\\sin \\left( {{\\pi  \\over 2}\\sin x} \\right)} \\right)$$ for all $$x \\in R$$ and g(x) = $${{\\pi  \\over 2}\\sin x}$$ for all x$$\\in$$R. Let $$(f \\circ g)(x)$$ denote f(g(x)) and $$(g \\circ f)(x)$$ denote g..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "question_id": "jy1btiabbdg87kc7yoqu",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "permalink": "let-fsub1sub--r--to--r-fsub2sub--0-in-jee-advanced-mathematics-functions-5miwbnpaeidopmit",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Let f<sub>1</sub> : R $$ \\to $$ R, f<sub>2</sub> : [0, $$\\infty $$) $$ \\to $$ R, f<sub>3</sub> : R $$ \\to $$ R, and f<sub>4</sub> : R $$ \\to $$ [0, $$\\infty $$) be defined by\n<p>$${f_1}\\left( x \\right) = \\left\\{ {\\matrix{\n   {\\left| x \\right|} &amp; {if\\,x &lt; 0,}  \\cr \n   {{e^x}} &amp; {if\\,x \\ge 0;}  \\cr \n\n } } \\right.$$</p>\n<p>f<sub>2</sub>(x) = x<sup>2</sup> ;</p>\n$${f_3}\\left( x \\right) = \\left\\{ {\\matrix{\n   {\\sin x} &amp; {if\\,x &lt; 0,}  \\cr \n   x &amp; {if\\,x \\ge 0;}  \\cr \n\n } } \\right.$$\n<p>and</p>\n<p>$${f_4}\\left( x \\right) = \\left\\{ {\\matrix{\n   {{f_2}\\left( {{f_1}\\left( x \\right)} \\right)} &amp; {if\\,x &lt; 0,}  \\cr \n   {{f_2}\\left( {{f_1}\\left( x \\right)} \\right) - 1} &amp; {if\\,x \\ge 0;}  \\cr \n\n } } \\right.$$</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1aapt42/96cebc15-689f-448f-b4bc-df01b3c97581/94d70820-ae5b-11ec-a458-a14cb955046d/file-1l1aapt43.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1aapt42/96cebc15-689f-448f-b4bc-df01b3c97581/94d70820-ae5b-11ec-a458-a14cb955046d/file-1l1aapt43.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 2 Offline Mathematics - Functions Question 18 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "P - 3, Q - 1, R - 4, S - 2"
+            },
+            {
+              "identifier": "B",
+              "content": "P - 1, Q - 3, R - 4, S - 2"
+            },
+            {
+              "identifier": "C",
+              "content": "P - 3, Q - 1, R - 2, S - 4"
+            },
+            {
+              "identifier": "D",
+              "content": "P - 1, Q - 3, R - 2, S - 4"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\text { Given } f_2(x)=x^2 \\text { for } x \\in[0, \\infty) \\text { and co-domain } \\mathrm{R} \\text {. }$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzqpm23j/ad58fb7a-2ae6-4a1e-9b66-4741762b00f1/bac14af0-5881-11ef-898f-a10dcec80905/file-jaoe38c1lzqpm23k.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzqpm23j/ad58fb7a-2ae6-4a1e-9b66-4741762b00f1/bac14af0-5881-11ef-898f-a10dcec80905/file-jaoe38c1lzqpm23k.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2014 Paper 2 Offline Mathematics - Functions Question 18 English Explanation 1\"></p>\n<p>It is clear that $$f_2(x)$$ is continuous, differential and one-one but not onto because range of $$f_2(x)$$ is $$[0, \\infty)$$ and given co-domain is R.</p>\n<p>Hence $$S$$ match with 4.</p>\n<p>Given, $$f_3(x)=\\left\\{\\begin{array}{cc}\\sin x, &amp; \\text { if } x&lt;0 \\\\ x, &amp; \\text { if } x \\geq 0\\end{array}\\right.$$. Domain of $$f_2(x)$$ is $$R$$ and co-domain $$R$$.</p>\n<p>Draw the graph of $$f_3(x)$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzqpnygo/cf5db5bf-6baa-4ed1-9d0a-5efea957aa00/ef90bb80-5881-11ef-898f-a10dcec80905/file-jaoe38c1lzqpnygp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzqpnygo/cf5db5bf-6baa-4ed1-9d0a-5efea957aa00/ef90bb80-5881-11ef-898f-a10dcec80905/file-jaoe38c1lzqpnygp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2014 Paper 2 Offline Mathematics - Functions Question 18 English Explanation 2\"></p>\n<p>Range of $$f_3(x) \\in(-\\infty, 1] \\neq$$ co-domain of $$f_3(x)$$</p>\n<p>So, $$f_3(x)$$ is not onto.</p>\n<p>$$\\because \\sin x$$ is not one-one function for $$x \\geq 0$$</p>\n<p>$$\\therefore f_3(x)$$ is not one-one function.</p>\n<p>We know $$y=\\sin x$$ and $$y=x$$ both are continuous in the given domain.</p>\n<p>At $$\\quad x=0$$</p>\n<p>$$\\begin{aligned}\n\\lim _{x \\rightarrow 0^{+}} f_3(x) &amp; =\\lim _{x \\rightarrow 0^{+}} \\sin x=0 \\\\\n\\lim _{x \\rightarrow 0^{-}} f_3(x) &amp; =\\lim _{x \\rightarrow 0^{-}} x=0 \\\\\nf_3(0) &amp; =\\sin 0=0 \\\\\n\\Rightarrow \\lim _{x \\rightarrow 0^{+}} f_3(x) &amp; =\\lim _{x \\rightarrow 0^{-}} f_3(x)=f_3(0)\n\\end{aligned}$$</p>\n<p>$$\\therefore f_3(x)$$ is continuous for all $$x \\in \\mathrm{R}$$.</p>\n<p>We know that $$y=\\sin x$$ and $$y=x$$ both are differentiable in the given domain R.H.D at $$x=0$$ is</p>\n<p>$$\\lim _\\limits{h \\rightarrow 0} \\frac{f_3(0+h)-f_3(0)}{h}=\\lim _\\limits{h \\rightarrow 0} \\frac{\\sin h-0}{h}=1$$</p>\n<p>L.H.D at $$x=0$$ is</p>\n<p>$$\\lim _\\limits{h \\rightarrow 0} \\frac{f_3(0-h)-f_3(0)}{-h}=\\lim _\\limits{h \\rightarrow 0} \\frac{-h-0}{-h}=1$$</p>\n<p>$$\\Rightarrow$$ R.H.D $$=$$ L.H.D at $$x=0$$</p>\n<p>$$\\therefore f_3(x)$$ is differentiable for all $$x \\in R$$.</p>\n<p>Hence, Q match with 3.</p>\n<p>Now, $$f_2{ }^{\\circ} f_1(x)= \\begin{cases}x^2, &amp; x&lt;0 \\\\ e^{2 x}, &amp; x \\geq 0\\end{cases}$$</p>\n<p>Draw the graph of $$y=f_2{ }^{\\circ} f_1(x)$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzqq0ms7/c2791b71-34fd-4374-bd3b-15cb53ce986f/500ffd80-5883-11ef-898f-a10dcec80905/file-jaoe38c1lzqq0ms8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzqq0ms7/c2791b71-34fd-4374-bd3b-15cb53ce986f/500ffd80-5883-11ef-898f-a10dcec80905/file-jaoe38c1lzqq0ms8.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2014 Paper 2 Offline Mathematics - Functions Question 18 English Explanation 3\"></p><p>It is clear that $$f_2{ }^{\\circ} f_1(x)$$ is neither continuous nor one-one.</p>\n<p>Hence, R match with 2.</p>\n<p>Given, $$f_4: \\mathrm{R} \\rightarrow[0, \\infty)$$ and</p>\n<p>$$f_4(x)=\\left\\{\\begin{array}{l}\nf_2\\left(f_1(x)\\right), \\text { if } x&lt;0 \\\\\nf_2\\left(f_1(x)\\right)-1, \\text { if } x \\geq 0\n\\end{array}\\right.$$</p>\n<p>Draw the graph of $$y=f_4(x)$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzqq2cz2/ae0518f9-7c65-4bb6-83cd-1ecf46fea833/801a44e0-5883-11ef-898f-a10dcec80905/file-jaoe38c1lzqq2cz3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzqq2cz2/ae0518f9-7c65-4bb6-83cd-1ecf46fea833/801a44e0-5883-11ef-898f-a10dcec80905/file-jaoe38c1lzqq2cz3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2014 Paper 2 Offline Mathematics - Functions Question 18 English Explanation 4\"></p>\n<p>Range of $$f_4(x)=$$ co-domain of $$f_4(x)=[0, \\infty)$$</p>\n<p>$$\\therefore \\quad f_4(x)$$ is an onto function</p>\n<p>$$f_4(x)$$ is continuous, on to but not one-one.</p>\n<p>Hence, P match with 1.</p>\n<p>Hint:</p>\n<p>(i) If $$f(x)$$ is continuous at $$x=a$$, if and only if $$\\lim _\\limits{x \\rightarrow a^{+}} f(x)=\\lim _\\limits{x \\rightarrow a^{-}} f(x)=f(a)$$.</p>\n<p>(ii) If $$f(x)$$ is differentiable at $$x=a$$ if and only if $$\\lim _\\limits{h \\rightarrow 0} \\frac{f(a+h)-f(a)}{h}=\\lim _\\limits{h \\rightarrow 0} \\frac{f(a-h)-f(a)}{-h}$$.</p>\n<p>(iii) If Range of $$f(x)=\\operatorname{co-domain}$$ of $$f(x)$$, then $$f(x)$$ is called an onto function.</p>\n<p>(iv) If $$f\\left(x_1\\right)=f\\left(x_2\\right)$$ is possible only for $$x_1=x_2$$, then $$f(x)$$ is called an one-one function.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "composite-functions",
+      "type": "mcq",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let f1 : R $$ \\to $$ R, f2 : [0, $$\\infty $$) $$ \\to $$ R, f3 : R $$ \\to $$ R, and f4 : R $$ \\to $$ [0, $$\\infty $$) be defined by\n$${f_1}\\left( x \\right) = \\left\\{ {\\matrix{\n   {\\left| x \\right|} & {if\\,x < 0,}  \\cr \n   {{e^x}} & {if\\,x \\g..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "question_id": "kgj2izd9z9q7lgrj8svc",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "for-every-pair-of-continuous-function-f-g--0-1-to-jee-advanced-mathematics-trigonometric-functions-and-equations-77ufzgfkeokxymeq",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "For every pair of continuous function f, g : [0, 1] $$\\to$$ R such that max {f(x) : x $$\\in$$ [0, 1]} = max {g(x) : x $$\\in$$ [0, 1]}. The correct statement(s) is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "[f(c)]<sup>2</sup> + 3f(c) = [g(c)]<sup>2</sup> + 3g(c) for some c $$\\in$$ [0, 1]"
+            },
+            {
+              "identifier": "B",
+              "content": "[f(c)]<sup>2</sup> + f(c) = [g(c)]<sup>2</sup> + 3g(c) for some c $$\\in$$ [0, 1]"
+            },
+            {
+              "identifier": "C",
+              "content": "[f(c)]<sup>2</sup> + 3f(c) = [g(c)]<sup>2</sup> + g(c) for some c $$\\in$$ [0, 1]"
+            },
+            {
+              "identifier": "D",
+              "content": "[f(c)]<sup>2</sup> = [g(c)]<sup>2</sup> for some c $$\\in$$ [0, 1]"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "Suppose f(x) is maximum at c<sub>1</sub> and g(x) is maximum at c<sub>2</sub>. When f(x) is maximum g(x) may or may not be maximum.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kyamujkg/e90a5b07-0eb6-4233-9ca0-480b4cdee1d4/5fecd1f0-7326-11ec-8f4d-d3aaef3fbc03/file-1kyamujkh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kyamujkg/e90a5b07-0eb6-4233-9ca0-480b4cdee1d4/5fecd1f0-7326-11ec-8f4d-d3aaef3fbc03/file-1kyamujkh.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Mathematics - Functions Question 21 English Explanation 1\"> <br>Therefore, in the function h(x) = f(x) $$-$$ g(x), we get<br><br>$$h({c_1}) = f({c_1}) - g({c_1}) \\ge 0$$ and $$h({c_2}) = f({c_2}) - g({c_2}) \\ge 0$$.<br><br>Therefore, h(x) = 0 for some c $$\\in$$ [0, 1].<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kyamwdpa/0bf8a3b9-cc66-4ef8-a384-e2a1b52ca29c/930347e0-7326-11ec-8f4d-d3aaef3fbc03/file-1kyamwdpb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kyamwdpa/0bf8a3b9-cc66-4ef8-a384-e2a1b52ca29c/930347e0-7326-11ec-8f4d-d3aaef3fbc03/file-1kyamwdpb.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Mathematics - Functions Question 21 English Explanation 2\"> <br>Therefore, $$h(c) = 0 \\Rightarrow f(c) - g(c) = 0$$.<br><br>Therefore, $$f(c) = g(c)$$.<br><br>Option (a) $$ \\Rightarrow {f^2}(c) - {g^2}(c) + 3[f(c) - g(c)] = 0$$ which is true from Eq. (i).<br><br>Option (d) $$ \\Rightarrow {f^2}(c) - {g^2}(c) = 0$$ which is true from Eq. (i)<br><br>Now, if we take <br><br>f(x) = 1 and g(x) = 1, $$\\forall$$x $$\\in$$[0, 1]<br><br>Option (b) and (c) does not hold. Hence, option (a) and (d) are correct."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "functional-equations",
+      "type": "mcqm",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "For every pair of continuous function f, g : [0, 1] $$\\to$$ R such that max {f(x) : x $$\\in$$ [0, 1]} = max {g(x) : x $$\\in$$ [0, 1]}. The correct statement(s) is (are)"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "2a8uuw6pwhdwd8eg89dh",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "let-fleft--pi-over-2pi-over-2-right-t-jee-advanced-mathematics-trigonometric-functions-and-equations-rg86k51amqrycr0s",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let $$f:\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right) \\to R$$ be given by $$f(x) = {[\\log (\\sec x + \\tan x)]^3}$$. Then,",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "f(x) is an odd function"
+            },
+            {
+              "identifier": "B",
+              "content": "f(x) is a one-one function"
+            },
+            {
+              "identifier": "C",
+              "content": "f(x) is an onto function"
+            },
+            {
+              "identifier": "D",
+              "content": "f(x) is an even function"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "$$f:\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right) \\to R$$<br/><br/>$$f(x) = {[\\log (\\sec x + \\tan x)]^3}$$<br/><br/>$$f( - x) = {[\\log (\\sec x - \\tan x)]^3}$$<br/><br/>$$ = {\\left[ {\\log \\left( {{{(\\sec x - \\tan x)(\\sec x + \\tan x)} \\over {\\sec x + \\tan x}}} \\right)} \\right]^3}$$<br/><br/>$$ = {\\left[ {\\log \\left( {{1 \\over {\\sec x + \\tan x}}} \\right)} \\right]^3} = {[ - \\log (\\sec x + \\tan x)]^3}$$<br/><br/>$$ =  - {[\\log (\\sec x + \\tan x)]^3} =  - f(x)$$<br/><br/>$$\\therefore$$ f is an odd function. (a) is correct and (d) is not correct.<br/><br/>Also, <br/><br/>$$f'(x) = 3{[\\log (\\sec x + \\tan x)]^2}\\,.\\,{{\\sec x\\tan x + {{\\sec }^2}x} \\over {\\sec x + \\tan x}}$$<br/><br/>$$ = 3\\sec x{[\\log (\\sec x + \\tan x)]^2} > 0\\,\\forall x \\in \\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right)$$<br/><br/>$$\\therefore$$ f is increasing on $$\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right)$$<br/><br/>We know that strictly increasing function is one one. <br/><br/>$$\\therefore$$ f is one one<br/><br/>$$\\therefore$$ (b) is correct.<br/><br/>$$(\\sec x + \\tan x) = \\tan \\left( {{\\pi  \\over 4} + {\\pi  \\over 2}} \\right)$$<br/><br/>as $$x \\in \\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right)$$, then<br/><br/>$$0 < \\tan \\left( {{\\pi  \\over 4} + {\\pi  \\over 2}} \\right) < \\infty $$<br/><br/>$$0 < \\sec x + \\tan x < \\infty $$<br/><br/>$$ \\Rightarrow  - \\infty  < \\ln (\\sec x + \\tan x) < \\infty $$<br/><br/>$$ - \\infty  < {[\\ln (\\sec x + \\tan x)]^3} < \\infty $$<br/><br/>$$ \\Rightarrow  - \\infty  < f(x) < \\infty $$<br/><br/>Range of f(x) is R and thus f(x) is an onto function.<br/><br/>$$\\therefore$$ (c) is correct."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "even-and-odd-functions",
+      "type": "mcqm",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $$f:\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right) \\to R$$ be given by $$f(x) = {[\\log (\\sec x + \\tan x)]^3}$$. Then,"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "67fp7q90w90y8ad3fxno",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "iit-jee-2012-paper-2-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 2 Offline",
+      "permalink": "plet-f-11-to-r-be-such-that-fcos-4theta--jee-advanced-mathematics-complex-numbers-50hivqkfr0an8yef",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Let $$f:( - 1,1) \\to R$$ be such that $$f(\\cos 4\\theta ) = {2 \\over {2 - {{\\sec }^2}\\theta }}$$ for $$\\theta  \\in \\left( {0,{\\pi  \\over 4}} \\right) \\cup \\left( {{\\pi  \\over 4},{\\pi  \\over 2}} \\right)$$. Then the value(s) of $$f\\left( {{1 \\over 3}} \\right)$$ is(are)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1 - \\sqrt {{3 \\over 2}} $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$1 + \\sqrt {{3 \\over 2}} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$1 - \\sqrt {{2 \\over 3}} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$1 + \\sqrt {{2 \\over 3}} $$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>$$f(\\cos 4\\theta ) = {2 \\over {2 - {{\\sec }^2}\\theta }}$$</p>\n<p>Let $$\\cos 4\\theta  = t$$</p>\n<p>$$ \\Rightarrow 2{\\cos ^2}2\\theta  - 1 = t \\Rightarrow {\\cos ^2}2\\theta  = {2 \\over 3}$$</p>\n<p>For $$t = {1 \\over 3}$$ we have $${\\cos ^2}2\\theta  = {2 \\over 3}$$</p>\n<p>$$\\cos 2\\theta  = \\sqrt {{2 \\over 3}} $$ or $$\\cos 2\\theta  =  - \\sqrt {{2 \\over 3}} $$</p>\n<p>$$f(\\cos 4\\theta ) = {2 \\over {2 - {1 \\over {{{\\cos }^2}\\theta }}}} = {{2{{\\cos }^2}\\theta } \\over {2{{\\cos }^2}\\theta  - 1}} = {{1 + \\cos 2\\theta } \\over {\\cos 2\\theta }} = 1 + {1 \\over {\\cos 2\\theta }}$$</p>\n<p>Hence, $$f\\left( {{1 \\over 3}} \\right) = 1 + \\sqrt {{3 \\over 2}} $$ or $$1 - \\sqrt {{3 \\over 2}} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "functional-equations",
+      "type": "mcqm",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $$f:( - 1,1) \\to R$$ be such that $$f(\\cos 4\\theta ) = {2 \\over {2 - {{\\sec }^2}\\theta }}$$ for $$\\theta  \\in \\left( {0,{\\pi  \\over 4}} \\right) \\cup \\left( {{\\pi  \\over 4},{\\pi  \\over 2}} \\right)$$. Then the value(s) of $$f\\left( {{1 \\o..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-2-offline"
+    },
+    {
+      "question_id": "wd32qrzkmoau63pdhzmx",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pthe-function-f03-to-129-defined-by-fx--jee-advanced-mathematics-complex-numbers-j57liw8m9dgepppb",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The function $$f:[0,3] \\to [1,29]$$, defined by $$f(x) = 2{x^3} - 15{x^2} + 36x + 1$$, is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "one-one and onto."
+            },
+            {
+              "identifier": "B",
+              "content": "onto but not one-one."
+            },
+            {
+              "identifier": "C",
+              "content": "one-one but not onto."
+            },
+            {
+              "identifier": "D",
+              "content": "neither one-one nor onto."
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The function $$f:[0,3] \\to [1,29]$$, defined by $$f(x) = 2x^3 - 15x^2 + 36x + 1$$, is :</p>\n\n<p>First, calculate the derivative of $ f $ :</p>\n\n<p>$$ f'(x) = 6x^2 - 30x + 36 $$</p>\n\n<p>Which simplifies to :</p>\n\n<p>$$ f'(x) = 6(x^2 - 5x + 6) = 6(x - 2)(x - 3) $$</p>\n\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2535w41/492b10fc-52e6-4c46-a0b7-09c3d3957add/57337d00-bf4a-11ec-8a13-c364d46c85d0/file-1l2535w42.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2535w41/492b10fc-52e6-4c46-a0b7-09c3d3957add/57337d00-bf4a-11ec-8a13-c364d46c85d0/file-1l2535w42.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 1 Offline Mathematics - Functions Question 16 English Explanation\"></p>\n\n<p>For the given domain $[0, 3]$, the function $ f(x) $ is both increasing and decreasing. Therefore, $ f(x) $ is many-to-one.</p>\n\n<p>Setting $ f'(x) = 0 $ gives the critical points :</p>\n\n<p>$$ x = 2, 3 $$</p>\n\n<p>We now evaluate the function at these points within the domain to determine the range :</p>\n\n<p>$$ f(0) = 1 $$</p>\n\n<p>$$ f(2) = 29 $$</p>\n\n<p>$$ f(3) = 28 $$</p>\n\n<p>Thus, the range of $ f $ is $[1, 29]$, indicating that the function is onto.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "classification-of-functions",
+      "type": "mcq",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "The function $$f:[0,3] \\to [1,29]$$, defined by $$f(x) = 2{x^3} - 15{x^2} + 36x + 1$$, is"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "question_id": "l759jwhfvgjejo2wynls",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "plet-fx--xsup2sup-and-gx--sin-x-for-all-x-in-jee-advanced-mathematics-complex-numbers-luitmm7r9l0zjzgo",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Let f(x) = x<sup>2</sup> and g(x) = sin x for all x $$\\in$$ R. Then the set of all x satisfying $$(f \\circ g \\circ g \\circ f)(x) = (g \\circ g \\circ f)(x)$$, where $$(f \\circ g)(x) = f(g(x))$$, is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$ \\pm \\sqrt {n\\pi } ,\\,n \\in \\{ 0,1,2,....\\} $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$ \\pm \\sqrt {n\\pi } ,\\,n \\in \\{ 1,2,....\\} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${\\pi  \\over 2} + 2n\\pi ,\\,n \\in \\{ ....., - 2, - 1,0,1,2,....\\} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$2n\\pi ,n \\in \\{ ....., - 2, - 1,0,1,2,....\\} $$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>$$f(x) = {x^2}$$, $$g(x) = \\sin x$$</p>\n<p>$$(g \\circ f)(x) = \\sin {x^2}$$</p>\n<p>$$g \\circ (g \\circ f)(x) = \\sin (\\sin {x^2})$$</p>\n<p>$$(f \\circ g \\circ g \\circ f)(x) = {(\\sin (\\sin {x^2}))^2}$$ ..... (i)</p>\n<p>Again, $$(g \\circ f)(x) = \\sin {x^2}$$</p>\n<p>$$(g \\circ g \\circ f)(x) = \\sin (\\sin {x^2})$$ ..... (ii)</p>\n<p>Given, $$(f \\circ g \\circ g \\circ f)(x) = (g \\circ g \\circ f)(x)$$</p>\n<p>$$ \\Rightarrow {(\\sin (\\sin {x^2}))^2} = \\sin (\\sin {x^2})$$</p>\n<p>$$ \\Rightarrow \\sin (\\sin {x^2})\\{ \\sin (\\sin {x^2}) - 1\\}  = 0$$</p>\n<p>$$ \\Rightarrow \\sin (\\sin {x^2}) = 0$$ or $$\\sin (\\sin {x^2}) = 1$$</p>\n<p>$$ \\Rightarrow \\sin {x^2} = 0$$ or $$\\sin {x^2} = {\\pi  \\over 2}$$</p>\n<p>$$\\therefore$$ $${x^2} = n\\pi $$ (i.e. not possible as $$ - 1 \\le \\sin \\theta  \\le 1$$)</p>\n<p>$$x =  \\pm \\sqrt {n\\pi } $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "composite-functions",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let f(x) = x2 and g(x) = sin x for all x $$\\in$$ R. Then the set of all x satisfying $$(f \\circ g \\circ g \\circ f)(x) = (g \\circ g \\circ f)(x)$$, where $$(f \\circ g)(x) = f(g(x))$$, is"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "8b0pcaktyl4gp7ppuoxq",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "pmatch-the-statements-given-in-column-i-with-the-intervals-jee-advanced-mathematics-complex-numbers-xliytbmdr4xp6ejb",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Match the statements given in Column I with the intervals/union of intervals given in Column II :</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2wrw242/079f1721-8416-43b8-a3af-41da6c7fc897/33828740-ce84-11ec-901b-8be36c28b5b2/file-1l2wrw244.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2wrw242/079f1721-8416-43b8-a3af-41da6c7fc897/33828740-ce84-11ec-901b-8be36c28b5b2/file-1l2wrw244.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Mathematics - Functions Question 13 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(A) $$\\to$$ (S), (B) $$\\to$$ (T), (C) $$\\to$$ (P), (D) $$\\to$$ (Q)"
+            },
+            {
+              "identifier": "B",
+              "content": "(A) $$\\to$$ (S), (B) $$\\to$$ (T), (C) $$\\to$$ (R), (D) $$\\to$$ (P)"
+            },
+            {
+              "identifier": "C",
+              "content": "(A) $$\\to$$ (S), (B) $$\\to$$ (T), (C) $$\\to$$ (R), (D) $$\\to$$ (R)"
+            },
+            {
+              "identifier": "D",
+              "content": "(A) $$\\to$$ (P), (B) $$\\to$$ (Q), (C) $$\\to$$ (R), (D) $$\\to$$ (R)"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>(A) $$z = {{2i(x + iy)} \\over {1 - {{(x + iy)}^2}}} = {{2i(x + iy)} \\over {1 - ({x^2} - {y^2} + 2ixy)}}$$</p>\n<p>Using $$1 - {x^2} = {y^2}$$, we get</p>\n<p>$$Z = {{2ix - 2y} \\over {2{y^2} - 2ixy}} =  - {1 \\over y}$$</p>\n<p>Since $$ - 1 \\le y \\le 1 \\Rightarrow  - {1 \\over y} \\le  - 1$$ or $$ - {1 \\over y} \\ge 1$$.</p>\n<p>(B) For domain :</p>\n<p>$$ - 1 \\le {{8({3^{x - 2}})} \\over {1 - {3^{2(x - 1)}}}} \\le 1 \\Rightarrow  - 1 \\le {{{3^x} - {3^{x - 2}}} \\over {1 - {3^{2x - 2}}}} \\le 1$$</p>\n<p>Case 1 : $${{{3^x} - {3^{x - 2}}} \\over {1 - {3^{2x - 2}}}} - 1 \\le 0$$.</p>\n<p>$$ \\Rightarrow {{({3^x} - 1)({3^{x - 2}} - 1)} \\over {({3^{2x - 2}} - 1)}} \\ge 0$$</p>\n<p>$$ \\Rightarrow x \\in ( - \\infty ,0] \\cup (1,\\infty )$$<p>\n<p>Case 2 : $${{{3^x} - {3^{x - 2}}} \\over {1 - {3^{2x}} - 2}} + 1 \\ge 0$$</p>\n<p>$$ \\Rightarrow {{({x^{x - 2}} - 1)({3^x} + 1)} \\over {({3^x}\\,.\\,{3^{x - 2}} - 1)}} \\ge 0$$</p>\n<p>$$ \\Rightarrow x \\in ( - \\infty ,1) \\cup [2,\\infty )$$</p>\n<p>So, $$x \\in ( - \\infty ,0] \\cup [2,\\infty )$$.\n<p>(C) R<sub>1</sub> $$\\to$$ R<sub>1</sub> + R<sub>3</sub> :</p>\n<p>$$f(\\theta ) = \\left| {\\matrix{\n   0 & 0 & 2  \\cr \n   { - \\tan \\theta } & 1 & {\\tan \\theta }  \\cr \n   { - 1} & { - \\tan \\theta } & 1  \\cr \n\n } } \\right| = 2({\\tan ^2}\\theta  + 1) = 2{\\sec ^2}\\theta $$</p>\n<p>(D) $$f'(x) = {3 \\over 2}{(x)^{1/2}}(3x - 10) + {(x)^{3/2}} \\times 3 = {{15} \\over 2}{(x)^{1/2}}(x - 2)$$</p>\n<p>Increasing, when $$x \\ge 2$$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "domain",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Match the statements given in Column I with the intervals/union of intervals given in Column II :\n "
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "5kobtmv3zwo2h1ma6wfw",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "plet-f01-to-r-be-defined-by-fx--b-x-ov-jee-advanced-mathematics-complex-numbers-khjrdhynvngcs7zj",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Let $$f:(0,1) \\to R$$ be defined by $$f(x) = {{b - x} \\over {1 - bx}}$$, where b is a constant such that $$0 < b < 1$$. Then</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "f is not invertible on (0, 1)."
+            },
+            {
+              "identifier": "B",
+              "content": "f $$\\ne$$ f<sup>$$-$$1</sup> on (0, 1) and $$f'(b) = {1 \\over {f'(0)}}$$."
+            },
+            {
+              "identifier": "C",
+              "content": "f = f<sup>$$-$$1</sup> on (0, 1) and $$f'(b) = {1 \\over {f'(0)}}$$."
+            },
+            {
+              "identifier": "D",
+              "content": "f<sup>$$-$$1</sup> is differentiable on (0, 1)."
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Here, $$f(x) = {{b - x} \\over {1 - bx}}$$</p>\n<p>where, 0 < b < 1, 0 < x < 1</p>\n<p>For function to be invertible it should be one-one onto.</p>\n<p>$$\\therefore$$ Check range :</p>\n<p>Let $$f(x) = y \\Rightarrow y = {{b - x} \\over {1 - bx}}$$</p>\n<p>$$ \\Rightarrow y - bxy = b - x \\Rightarrow x(1 - by) = b - y$$</p>\n<p>$$ \\Rightarrow x = {{b - y} \\over {1 - by}}$$</p>\n<p>where, 0 < x < 1</p>\n<p>$$\\therefore$$ $$0 < {{b - y} \\over {1 - by}} < 1$$</p>\n<p>$${{b - y} \\over {1 - by}} > 0$$ and $${{b - y} \\over {1 - by}} < 1$$</p>\n<p>$$ \\Rightarrow y < b$$ or $$y > {1 \\over b}$$ .... (i)<p>\n<p>$${{(b - 1)(y + 1)} \\over {1 - by}} <  - 1 < y < {1 \\over b}$$ ..... (ii)</p>\n<p>From Eqs. (i) and (ii), we get</p>\n<p>$$y \\in \\left( { - 1,{1 \\over b}} \\right) \\subset $$ Codomain</p>\n<p>Thus, f(x) is not invertible.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "inverse-functions",
+      "type": "mcqm",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $$f:(0,1) \\to R$$ be defined by $$f(x) = {{b - x} \\over {1 - bx}}$$, where b is a constant such that $$0 < b < 1$$. Then"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "xvipph96m2f07enwcw97",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "functions",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $S=\\{1,2,3,4\\}$. The total number of unordered pairs of disjoint subsets of $S$ is equal to :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "25"
+            },
+            {
+              "identifier": "B",
+              "content": "34"
+            },
+            {
+              "identifier": "C",
+              "content": "42"
+            },
+            {
+              "identifier": "D",
+              "content": "41"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>To solve this problem, we need to determine the total number of <strong>unordered pairs</strong> of <strong>disjoint subsets</strong> of the set $ S = \\{1, 2, 3, 4\\} $.</p>\n<h3><strong>Understanding the Problem:</strong></h3>\n\n<p><p><strong>Disjoint Subsets:</strong> Two subsets $ A $ and $ B $ are disjoint if they have no elements in common, i.e., $ A \\cap B = \\emptyset $.</p></p>\n<p><p><strong>Unordered Pairs:</strong> Pairs where $ \\{A, B\\} $ is considered the same as $ \\{B, A\\} $.</p></p>\n\n<h3><strong>Approach:</strong></h3>\n\n<p><strong>Counting Ordered Pairs of Disjoint Subsets:</strong></p>\n\n\n<p><p>For each element in $ S $, it can be in:</p>\n\n<p><p>Subset $ A $ only,</p></p>\n<p><p>Subset $ B $ only,</p></p>\n<p><p>Neither $ A $ nor $ B $.</p></p></p>\n<p><p><strong>Note:</strong> An element cannot be in both $ A $ and $ B $ because $ A $ and $ B $ are disjoint.</p></p>\n<p><p>Therefore, each element has <strong>3 choices</strong>.</p></p>\n<p><p>Total number of <strong>ordered pairs</strong> $ (A, B) $ is $ 3^4 = 81 $.</p></p>\n\n\n<p><strong>Identifying Ordered Pairs where $ A = B $:</strong></p>\n\n\n<p><p>Since $ A $ and $ B $ are disjoint and $ A = B $, the only possibility is when both are the <strong>empty set</strong>.</p></p>\n<p><p>So, there's <strong>1 ordered pair</strong> where $ A = B = \\emptyset $.</p></p>\n\n\n<p><strong>Calculating Unordered Pairs:</strong></p>\n\n\n<p><p><strong>Ordered Pairs with $ A \\ne B $:</strong> $ 81 - 1 = 80 $.</p></p>\n<p><p><strong>Unordered Pairs from Ordered Pairs with $ A \\ne B $:</strong> Each unordered pair corresponds to <strong>2 ordered pairs</strong> (since $ (A, B) $ and $ (B, A) $ are different but represent the same unordered pair).</p></p>\n<p><p>Number of unordered pairs from $ A \\ne B $ is $ \\frac{80}{2} = 40 $.</p></p>\n<p><p><strong>Include the pair where $ A = B = \\emptyset $:</strong> Add $ 1 $.</p></p>\n<p><p><strong>Total Unordered Pairs:</strong> $ 40 + 1 = 41 $.</p></p>\n\n<h3><strong>Conclusion:</strong></h3>\n\n<p>The total number of unordered pairs of disjoint subsets of $ S $ is <strong>41</strong>.</p>\n\n<hr />\n<p><strong>Answer:</strong> Option D</p>"
+        }
+      },
+      "permalink": "let-f-be-a-real-valued-function-defined-on-the-interval-left-jee-advanced-2010-marks-4-05ukzz7qtdk8rb7t.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "topic": "classification-of-functions",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $S=\\{1,2,3,4\\}$. The total number of unordered pairs of disjoint subsets of $S$ is equal to :"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "w5w6cn01nbo4wwz5gcuh",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "functions",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>Consider the polynomial\n<br>$$f\\left( x \\right) = 1 + 2x + 3{x^2} + 4{x^3}.$$\n<br>Let $$s$$ be the sum of all distinct real roots of $$f(x)$$ and let $$t = \\left| s \\right|.$$ </p>\n<p>The function$$f'(x)$$ is </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "increasing in $$\\left( { - t, - {1 \\over 4}} \\right)$$ and decreasing in $$\\left( { - {1 \\over 4},t} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "decreasing in $$\\left( { - t, - {1 \\over 4}} \\right)$$ and increasing in $$\\left( { - {1 \\over 4},t} \\right)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "increasing in $$(-t, t)$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "decreasing in $$(-t, t)$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l6aoj36t/41130424-6e72-4616-a431-a5109c19442b/aea99150-118e-11ed-be43-e3f2ba4dcf27/file-1l6aoj36u.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l6aoj36t/41130424-6e72-4616-a431-a5109c19442b/aea99150-118e-11ed-be43-e3f2ba4dcf27/file-1l6aoj36u.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 2 Offline Mathematics - Functions Question 30 English Explanation\">"
+        }
+      },
+      "permalink": "consider-the-polynomialfleft-x-right-1-2x-3x2-4x3let-s-be-th-jee-advanced-2010-marks-4-vvolwsu7qrsyhonx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "topic": null,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Consider the polynomial\n$$f\\left( x \\right) = 1 + 2x + 3{x^2} + 4{x^3}.$$\nLet $$s$$ be the sum of all distinct real roots of $$f(x)$$ and let $$t = \\left| s \\right|.$$ \nThe function$$f'(x)$$ is "
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9bxgvciedwsqzai7ygdu",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "functions",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>Consider the polynomial\n<br>$$f\\left( x \\right) = 1 + 2x + 3{x^2} + 4{x^3}.$$\n<br>Let $$s$$ be the sum of all distinct real roots of $$f(x)$$ and let $$t = \\left| s \\right|.$$</p>\n<p>The real numbers lies in the interval </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( { - {1 \\over 4},0} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( { - 11, - {3 \\over 4}} \\right)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( { - {3 \\over 4}, - {1 \\over 2}} \\right)$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left( {0,{1 \\over 4}} \\right)$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Given, $$f(x) = 4{x^3} + 3{x^2} + 2x + 1$$</p>\n<p>$$f'(x) = 2(6{x^2} + 3x + 1)$$</p>\n<p>$$D = 9 - 24 < 0$$</p>\n<p>Hence, f(x) = 0 has only one real root.</p>\n<p>$$f\\left( { - {1 \\over 2}} \\right) = 1 - 1 + {3 \\over 4} - {4 \\over 8} > 0$$</p>\n<p>$$f\\left( { - {3 \\over 4}} \\right) = 1 - {6 \\over 4} + {{27} \\over {16}} - {{108} \\over {64}}$$</p>\n<p>$$ = {{64 - 96 + 108 - 108} \\over {64}} < 0$$</p>\n<p>f(x) changes its sign in $$\\left( { - {3 \\over 4},{{ - 1} \\over 2}} \\right)$$,</p>\n<p>hence f(x) = 0 has a root in $$\\left( { - {3 \\over 4},{{ - 1} \\over 2}} \\right)$$.</p>"
+        }
+      },
+      "permalink": "consider-the-polynomialfleft-x-right-1-2x-3x2-4x3let-s-be-th-jee-advanced-2010-marks-4-y9mcx2wfibsduffs.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "topic": null,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Consider the polynomial\n$$f\\left( x \\right) = 1 + 2x + 3{x^2} + 4{x^3}.$$\nLet $$s$$ be the sum of all distinct real roots of $$f(x)$$ and let $$t = \\left| s \\right|.$$\nThe real numbers lies in the interval "
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "question_id": "on4ojfmb3cyyuw6e983c",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "permalink": "plet-f-g-and-h-be-real-valued-functions-defined-on-th-jee-advanced-mathematics-mzgg57vssdlqumfz",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $f, g$ and $h$ be real valued functions defined on the interval $[0,1]$ by \n<br/><br/>$f(x)=e^{x^2}+e^{-x^2}$, \n<br/><br/>$g(x)=x e^{x^2}+e^{-x^2}$ \n<br/><br/>and $h(x)=x^2 e^{x^2}+e^{-x^2}$. \n<br/><br/>If $a, b$ and $c$ denote, respectively, the absolute maximum of $f, g$ and $h$ on $[0,1]$, then :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$a=b$ and $c \\neq b$"
+            },
+            {
+              "identifier": "B",
+              "content": "$a=c$ and $a \\neq b$"
+            },
+            {
+              "identifier": "C",
+              "content": "$a \\neq b$ and $c \\neq b$"
+            },
+            {
+              "identifier": "D",
+              "content": "$a=b=c$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$ \\begin{aligned} & f(x)=e^{x^2}+e^{-x^2} \\\\\\\\ & \\begin{aligned} f^{\\prime}(x) & =e^{x^2} \\frac{d}{d x}\\left(x^2\\right)+e^{-x^2} \\frac{d}{d x}\\left(-x^2\\right) \\\\\\\\ & =e^{x^2}(2 x)+e^{-x^2}(-2 x) \\\\\\\\ & =2 x\\left(e^{x^2}-e^{-x^2}\\right) \\geq 0 \\forall x \\in[0,1] \\\\\\\\ g(x) & =x e^{x^2}+e^{-x^2} \\\\\\\\ h(x) & =x^2 e^{x^2}+e^{-x^2} \\end{aligned} \\end{aligned} $$</p>\n<p>Clearly for $0 \\leq x \\leq 1 \\quad f(x) \\geq g(x) \\geq h(x)$</p>\n<p>$\\because f(1)=g(1)=h(1)=e+\\frac{1}{e}$ and $f(1)$ is greatest</p>\n<p>$$ \\because a=b=c=e+\\frac{1}{e} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 200000,
+      "topic": "classification-of-functions",
+      "type": "mcq",
+      "year": 2010,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Let $f, g$ and $h$ be real valued functions defined on the interval $[0,1]$ by \n$f(x)=e^{x^2}+e^{-x^2}$, \n$g(x)=x e^{x^2}+e^{-x^2}$ \nand $h(x)=x^2 e^{x^2}+e^{-x^2}$. \nIf $a, b$ and $c$ denote, respectively, the absolute maximum of $f, g$ an..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "mgq9jhibjvsgp04m0763",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "functions",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>If the function $$f(x) = {x^3} + {e^{x/2}}$$ and $$g(x) = {f^{ - 1}}(x)$$, then the value of $$g'(1)$$ is _________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>We have $$f(0) = 1,f'(x) = 3{x^2} + {1 \\over 2}{e^{x/2}}$$</p>\n<p>$$ \\Rightarrow f'(g(x))g'(x) = 1$$</p>\n<p>Substituting $$x = 0 \\Rightarrow g'(1) = {1 \\over {f'(0)}} = 2$$.</p>"
+        }
+      },
+      "permalink": "if-the-function-fleft-x-right-x3-ex-over-2-and-gleft-x-right-jee-advanced-2009-marks-4-p2kpm503mop4bur9.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "topic": "inverse-functions",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "If the function $$f(x) = {x^3} + {e^{x/2}}$$ and $$g(x) = {f^{ - 1}}(x)$$, then the value of $$g'(1)$$ is _________."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "alfqzxdj9aj1k0mw23ed",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pif-fx-fx-and-gxfx-and-mathrmfx-jee-advanced-mathematics-complex-numbers-yq2vlztsossfcx9j",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>If $$f''(x)=-f(x)$$ and $$g(x)=f'(x)$$ and $$\\mathrm{F}(x)=\\left(f\\left(\\frac{x}{2}\\right)\\right)^{2}+\\left(g\\left(\\frac{x}{2}\\right)\\right)^{2}$$ and given that $$\\mathrm{F}(5)=5$$, then $$\\mathrm{F}(10)$$ is equal to :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "5"
+            },
+            {
+              "identifier": "B",
+              "content": "10"
+            },
+            {
+              "identifier": "C",
+              "content": "0"
+            },
+            {
+              "identifier": "D",
+              "content": "15"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>If $$f''(x)=-f(x)$$</p>\n<p>$$\nf'(x)=g(x)$$</p>\n<p>$$\nf''(x) f'(x)=-f(x) \\cdot g(x)$$</p>\n<p>$$\nf''(x) f'(x)+f(x) \\cdot g(x)=0$$</p>\n<p>$$f''(x) f'(x)+f(x) \\cdot f'(x)=0 \\quad \\because f'(x)=g(x)$$</p>\n<p>$$\\frac{d}{d x}\\left[\\left(f^{\\prime}(x)\\right)^{2}+(f(x))^{2}\\right]=c$$</p>\n<p>$$\\Rightarrow \\quad\\left[f^{\\prime}(x)\\right]^{2}+[f(x)]^{2}=c$$</p>\n<p>$$\\Rightarrow \\quad[f(x)]^{2}+[g(x)]^{2}=$$ Constant</p>\n<p>$$\\Rightarrow \\quad f(x)=$$ Constant</p>\n<p>$$\\because \\quad f(5)=5$$</p>\n<p>Therefore $$ f(10)=5$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "functional-equations",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "If $$f''(x)=-f(x)$$ and $$g(x)=f'(x)$$ and $$\\mathrm{F}(x)=\\left(f\\left(\\frac{x}{2}\\right)\\right)^{2}+\\left(g\\left(\\frac{x}{2}\\right)\\right)^{2}$$ and given that $$\\mathrm{F}(5)=5$$, then $$\\mathrm{F}(10)$$ is equal to :"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "lg9rqrpulgq6dhx1nuhj",
+      "chapter": "functions",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pfind-the-range-of-value-of-t-for-whichp-p2-si-jee-advanced-mathematics-complex-numbers-j2pqnyjaqoi7cmfl",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Find the range of value of $$t$$ for which</p>\n<p>$$2 \\sin t=\\frac{1-2 x+5 x^{2}}{3 x^{2}-2 x-1}, t \\in\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$$</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left[ { - {\\pi  \\over 3},{{ - \\pi } \\over {10}}} \\right] \\cup \\left[ {{{\\pi } \\over {10}},{\\pi  \\over 2}} \\right]$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left[ { - {\\pi  \\over 2},{{ - \\pi } \\over {10}}} \\right] \\cup \\left[ {{{3\\pi } \\over {10}},{\\pi  \\over 2}} \\right]$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left[ { - {\\pi  \\over 2},{{ - \\pi } \\over {6}}} \\right] \\cup \\left[ {{{3\\pi } \\over {10}},{\\pi  \\over 3}} \\right]$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left[ { {\\pi  \\over 2},{{ - \\pi } \\over {10}}} \\right] \\cup \\left[ {{{\\pi } \\over {10}},{\\pi  \\over 2}} \\right]$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": "",
+          "explanation": "<p>Range of $$t:\\left[-\\frac{\\pi}{2}, \\frac{-\\pi}{10}\\right] \\cup\\left[\\frac{3 \\pi}{10}, \\frac{\\pi}{2}\\right]$$.</p>\n<p>$$2 \\sin t=\\frac{1-2 x+5 x^{2}}{3 x^{2}-2 x-1}, t \\in\\left[\\frac{-\\pi}{2}, \\frac{\\pi}{2}\\right]$$</p>\n<p>Let, $$y=2 \\sin t$$</p>\n<p>then, $$y=\\frac{1-2 x+5 x^{2}}{3 x^{2}-2 x-1}$$</p>\n<p>$$\\Rightarrow y\\left(3 x^{2}-2 x-1\\right)=1-2 x+5 x^{2}$$</p>\n<p>$$\\Rightarrow x^{2}(5-3 y)-2 x(1-y)+(1+y)=0$$</p>\n<p>Here, the roots of above quadratic must be real then Discriminant $$\\geq 0$$</p>\n<p>$$[-2(1-y)]^{2}-4(5-3 y)(1+y) \\geq 0$$</p>\n<p>$$\\Rightarrow 1+y^{2}-2 y-\\left(5-3 y^{2}+2 y\\right) \\geq 0$$</p>\n<p>$$\\Rightarrow 4 y^{2}-4 y-4 \\geq 0$$</p>\n<p>$$\\Rightarrow y^{2}-y-1 \\geq 0$$</p>\n<p>$$\\Rightarrow y \\geq \\frac{1 \\pm \\sqrt{5}}{2}$$</p>\n<p>$$\\Rightarrow\\left[y-\\left(\\frac{1+\\sqrt{5}}{2}\\right)\\right]\\left[y-\\left(\\frac{1-\\sqrt{5}}{2}\\right)\\right] \\geq 0$$</p>\n<p>$$\\Rightarrow y \\leq\\left(\\frac{1-\\sqrt{5}}{2}\\right) \\text { and } y \\geq\\left(\\frac{\\sqrt{5}+1}{2}\\right)$$</p>\n<p>$$\\Rightarrow 2 \\sin t \\leq\\left(\\frac{1-\\sqrt{5}}{2}\\right) \\text { and } 2 \\sin t \\geq\\left(\\frac{\\sqrt{5}+1}{2}\\right)$$</p>\n<p>$$\\Rightarrow \\sin t \\leq\\left(\\frac{1-\\sqrt{5}}{4}\\right) \\text { and } \\sin t \\geq\\left(\\frac{\\sqrt{5}+1}{4}\\right)$$</p>\n<p>$$\\Rightarrow t \\leq-\\sin 18^{\\circ}$$ and $$t \\geq \\sin 54^{\\circ}$$</p>\n<p>or $$t \\leq-\\sin \\frac{\\pi}{10}$$ and $$t \\geq \\sin \\left(\\frac{3 \\pi}{10}\\right)$$</p>\n<p>So, after plotting the point on graph</p>\n<p>Range of $$t:\\left[-\\frac{\\pi}{2}, \\frac{-\\pi}{10}\\right] \\cup\\left[\\frac{3 \\pi}{10}, \\frac{\\pi}{2}\\right]$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mhdqv0f0/b3adfe8d-20c2-4764-bf4b-3ee5b22991e7/513ee1c0-b5bc-11f0-951a-4917ed83fbe2/file-jaoe38c1mhdqv0f1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mhdqv0f0/b3adfe8d-20c2-4764-bf4b-3ee5b22991e7/513ee1c0-b5bc-11f0-951a-4917ed83fbe2/file-jaoe38c1mhdqv0f1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Mathematics - Functions Question 10 English Explanation\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "range",
+      "type": "mcq",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Functions • Mathematics",
+          "excerpt": "Find the range of value of $$t$$ for which\n$$2 \\sin t=\\frac{1-2 x+5 x^{2}}{3 x^{2}-2 x-1}, t \\in\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$$"
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "questions": [
+    {
+      "question_id": "z88pzxc7lnlpwgztpq1o",
+      "chapter": "hydrogen",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "p-list-i-contains-compounds-and-list-ii-contains-reactions-jee-advanced-chemistry-some-basic-concepts-of-chemistry-yw2kplosdgn9uemy",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p> LIST-I contains compounds and LIST-II contains reactions</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-7btt\">List-I</th>\n    <th class=\"tg-7btt\"><span style=\"font-weight:bold;font-style:normal\">List-II</span></th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-0pky\">(I) $\\mathrm{H}_{2} \\mathrm{O}_{2}$<br></td>\n    <td class=\"tg-0pky\">(P) $\\mathrm{Mg}\\left(\\mathrm{HCO}_{3}\\right)_{2}+\\mathrm{Ca}(\\mathrm{OH})_{2} \\rightarrow$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\">(II) $\\mathrm{Mg}(\\mathrm{OH})_{2}$<br></td>\n    <td class=\"tg-0pky\">(Q) $\\mathrm{BaO}_{2}+\\mathrm{H}_{2} \\mathrm{SO}_{4} \\rightarrow$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\">(III) $\\mathrm{BaCl}_{2}$<br></td>\n    <td class=\"tg-0pky\">(R) $\\mathrm{Ca}(\\mathrm{OH})_{2}+\\mathrm{MgCl}_{2} \\rightarrow$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\">(IV) $\\mathrm{CaCO}_{3}$<br></td>\n    <td class=\"tg-0pky\">(S) $\\mathrm{BaO}_{2}+\\mathrm{HCl} \\rightarrow$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0pky\"></td>\n    <td class=\"tg-0pky\">(T) $\\mathrm{Ca}\\left(\\mathrm{HCO}_{3}\\right)_{2}+\\mathrm{Ca}(\\mathrm{OH})_{2} \\rightarrow$</td>\n  </tr>\n</tbody>\n</table></p>\n<p>Match each compound in LIST-I with its formation reaction(s) in LIST-II, and choose the correct option</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "I $\\rightarrow$ Q; II $\\rightarrow$ P; III $\\rightarrow$ S; IV $\\rightarrow$ R"
+            },
+            {
+              "identifier": "B",
+              "content": "I $\\rightarrow$ T; II $\\rightarrow$ P; III $\\rightarrow$ Q; IV $\\rightarrow$ R"
+            },
+            {
+              "identifier": "C",
+              "content": "I $\\rightarrow$ T; II $\\rightarrow$ R; III $\\rightarrow$ Q; IV $\\rightarrow$ P"
+            },
+            {
+              "identifier": "D",
+              "content": "I $\\rightarrow$ Q; II $\\rightarrow$ R; III $\\rightarrow$ S; IV $\\rightarrow$ P"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "(P) $\\mathrm{Mg}\\left(\\mathrm{HCO}_3\\right)_2+\\mathrm{Ca}(\\mathrm{OH})_2 \\rightarrow \\mathrm{Mg}(\\mathrm{OH})_2+\\mathrm{CaCO}_3+\\mathrm{H}_2 \\mathrm{O}$\n<br/><br/>(Q) $\\mathrm{BaO}_2+\\mathrm{H}_2 \\mathrm{SO}_4 \\rightarrow \\mathrm{BaSO}_4+\\mathrm{H}_2 \\mathrm{O}_2$\n<br/><br/>(R) $\\mathrm{Ca}(\\mathrm{OH})_2+\\mathrm{MgCl}_2 \\rightarrow \\mathrm{Mg}(\\mathrm{OH})_2+\\mathrm{CaCl}_2$\n<br/><br/>(S) $\\mathrm{BaO}_2+\\mathrm{HCl} \\rightarrow \\mathrm{BaCl}_2+\\mathrm{H}_2 \\mathrm{O}_2$\n<br/><br/>(T) $\\mathrm{Ca}\\left(\\mathrm{HCO}_3\\right)_2+\\mathrm{Ca}(\\mathrm{OH})_2 \\rightarrow 2 \\mathrm{CaCO}_3+2 \\mathrm{H}_2 \\mathrm{O}$\n<br/><br/>Ans. $\\quad \\mathrm{I} \\rightarrow \\mathrm{Q}, \\mathrm{S} ; \\mathrm{II} \\rightarrow \\mathrm{P}, \\mathrm{R} ; \\mathrm{III} \\rightarrow \\mathrm{S} ; \\mathrm{IV} \\rightarrow \\mathrm{P}, \\mathrm{T}$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>सूची-। में यौगिक और सूची-II में अभिक्रिया है</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 564px\">\n<colgroup>\n<col style=\"width: 40px\">\n<col style=\"width: 224px\">\n<col style=\"width: 44px\">\n<col style=\"width: 256px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-amwm\"></th>\n    <th class=\"tg-amwm\">सूची-I</th>\n    <th class=\"tg-amwm\"></th>\n    <th class=\"tg-amwm\">सूची-II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-baqh\">(I)</td>\n    <td class=\"tg-0lax\">$${H_2}{O_2}$$</td>\n    <td class=\"tg-baqh\">(P)</td>\n    <td class=\"tg-0lax\">$$Mg{(HC{O_3})_2} + Ca{(OH)_2} \\to $$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(II)</td>\n    <td class=\"tg-0lax\">$$Mg{(OH)_2}$$<br></td>\n    <td class=\"tg-baqh\">(Q)</td>\n    <td class=\"tg-0lax\">$$Ba{O_2} + {H_2}S{O_4} \\to $$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(III)</td>\n    <td class=\"tg-0lax\">$$BaC{l_2}$$<br></td>\n    <td class=\"tg-baqh\">(R)</td>\n    <td class=\"tg-0lax\">$$Ca{(OH)_2} + MgC{l_2} \\to $$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(IV)</td>\n    <td class=\"tg-0lax\">$$CaC{O_3}$$<br></td>\n    <td class=\"tg-baqh\">(S)</td>\n    <td class=\"tg-0lax\">$$Ba{O_2} + HCl \\to $$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\"></td>\n    <td class=\"tg-0lax\"></td>\n    <td class=\"tg-baqh\">(T)</td>\n    <td class=\"tg-0lax\">$$Ca{(HC{O_3})_2} + Ca{(OH)_2} \\to $$</td>\n  </tr>\n</tbody>\n</table></p>\n<p>सूची-I के प्रत्येक यौगिक को सूची-I। में उनको बनानेवाले अभिक्रियाओं से मिलायें और सही विकल्प चुनें</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "I $$\\to$$ Q; II $$\\to$$ P; III $$\\to$$ S; IV $$\\to$$ R"
+            },
+            {
+              "identifier": "B",
+              "content": "I $$\\to$$ T; II $$\\to$$ P; III $$\\to$$ Q; IV $$\\to$$ R"
+            },
+            {
+              "identifier": "C",
+              "content": "I $$\\to$$ T; II $$\\to$$ R; III $$\\to$$ Q; IV $$\\to$$ P"
+            },
+            {
+              "identifier": "D",
+              "content": "I $$\\to$$ Q; II $$\\to$$ R; III $$\\to$$ S; IV $$\\to$$ P"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "(P) $\\mathrm{Mg}\\left(\\mathrm{HCO}_3\\right)_2+\\mathrm{Ca}(\\mathrm{OH})_2 \\rightarrow \\mathrm{Mg}(\\mathrm{OH})_2+\\mathrm{CaCO}_3+\\mathrm{H}_2 \\mathrm{O}$<br/><br/>(Q) $\\mathrm{BaO}_2+\\mathrm{H}_2 \\mathrm{SO}_4 \\rightarrow \\mathrm{BaSO}_4+\\mathrm{H}_2 \\mathrm{O}_2$<br/><br/>(R) $\\mathrm{Ca}(\\mathrm{OH})_2+\\mathrm{MgCl}_2 \\rightarrow \\mathrm{Mg}(\\mathrm{OH})_2+\\mathrm{CaCl}_2$<br/><br/>(S) $\\mathrm{BaO}_2+\\mathrm{HCl} \\rightarrow \\mathrm{BaCl}_2+\\mathrm{H}_2 \\mathrm{O}_2$<br/><br/>(T) $\\mathrm{Ca}\\left(\\mathrm{HCO}_3\\right)_2+\\mathrm{Ca}(\\mathrm{OH})_2 \\rightarrow 2 \\mathrm{CaCO}_3+2 \\mathrm{H}_2 \\mathrm{O}$<br/><br/>उत्तर $\\quad \\mathrm{I} \\rightarrow \\mathrm{Q}, \\mathrm{S} ; \\mathrm{II} \\rightarrow \\mathrm{P}, \\mathrm{R} ; \\mathrm{III} \\rightarrow \\mathrm{S} ; \\mathrm{IV} \\rightarrow \\mathrm{P}, \\mathrm{T}$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "hydrogen-peroxide",
+      "type": "mcq",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": " LIST-I contains compounds and LIST-II contains reactions\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;paddi..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "सूची-। में यौगिक और सूची-II में अभिक्रिया है\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;w..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "rj0v03b05nfyezirmyye",
+      "chapter": "hydrogen",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "permalink": "which-of-the-following-liberates-osub2sub-upon-hydrolys-jee-advanced-chemistry-some-basic-concepts-of-chemistry-virtdwpihbybcoxm",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Which of the following liberates O<sub>2</sub> upon hydrolysis?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Pb<sub>3</sub>O<sub>4</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "KO<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "Na<sub>2</sub>O<sub>2</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "Li<sub>2</sub>O<sub>2</sub>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "(a) $$P{b_3}{O_4} + {H_2}O\\buildrel {} \\over\n \\longrightarrow $$ No reaction Pb<sub>3</sub>O<sub>4</sub> is insoluble in water or do not react with water.<br><br>(b) $$K{O_2} + 2{H_2}O\\buildrel {} \\over\n \\longrightarrow KOH + {H_2}{O_2} + 1/2{O_2}$$<br><br>Potassium superoxide is a strong oxidant, able to convert oxides into peroxides or molecular oxygen. Hydrolysis gives oxygen gas, hydrogen peroxide and potassium hydroxide.<br><br>(c) $$N{a_2}{O_2} + 2{H_2}O\\buildrel {} \\over\n \\longrightarrow 2NaOH + {H_2}{O_2}$$<br><br>When sodium peroxide dissolves in water, it is hydrolysed and forms sodium hydroxide and hydrogen peroxide. The reaction is highly exothermic.<br><br>(d) $$L{i_2}{O_2} + 2{H_2}O\\buildrel {} \\over\n \\longrightarrow 2LiOH + {H_2}{O_2}$$<br><br>The reactivity of Li<sub>2</sub>O<sub>2</sub> toward water differs from LiO<sub>2</sub>, in Li<sub>2</sub>O<sub>2</sub> results in H<sub>2</sub>O<sub>2</sub> as a product.<br><br>Hence, the correct option is (b)."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>निम्नलिखित में से कौन, जल-अपघटन (hydrolysis) पर $$\\mathrm{O}_{2}$$ मुक्त करता है?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{Pb}_{3} \\mathrm{O}_{4}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{KO}_{2}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{Na}_{2} \\mathrm{O}_{2}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mathrm{Li}_{2} \\mathrm{O}_{2}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "(a) $$P{b_3}{O_4} + {H_2}O\\buildrel {} \\over\n \\longrightarrow $$ कोई अभिक्रिया नहीं Pb<sub>3</sub>O<sub>4</sub> जल में अविलेय है या जल के साथ अभिक्रिया नहीं करता है।<br><br>(b) $$K{O_2} + 2{H_2}O\\buildrel {} \\over\n \\longrightarrow KOH + {H_2}{O_2} + 1/2{O_2}$$<br><br>पोटैशियम सुपरऑक्साइड एक प्रबल ऑक्सीकारक है, जो ऑक्साइड को पेरॉक्साइड या आणविक ऑक्सीजन में परिवर्तित करने में सक्षम है। जल-अपघटन से ऑक्सीजन गैस, हाइड्रोजन पेरॉक्साइड और पोटैशियम हाइड्रॉक्साइड प्राप्त होते हैं।<br><br>(c) $$N{a_2}{O_2} + 2{H_2}O\\buildrel {} \\over\n \\longrightarrow 2NaOH + {H_2}{O_2}$$<br><br>जब सोडियम पेरॉक्साइड जल में घुलता है, तो इसका जल-अपघटन होता है और सोडियम हाइड्रॉक्साइड तथा हाइड्रोजन पेरॉक्साइड बनते हैं। यह अभिक्रिया अत्यधिक ऊष्माक्षेपी है।<br><br>(d) $$L{i_2}{O_2} + 2{H_2}O\\buildrel {} \\over\n \\longrightarrow 2LiOH + {H_2}{O_2}$$<br><br>जल के प्रति Li<sub>2</sub>O<sub>2</sub> की अभिक्रियाशीलता LiO<sub>2</sub> से भिन्न है, Li<sub>2</sub>O<sub>2</sub> में H<sub>2</sub>O<sub>2</sub> एक उत्पाद के रूप में प्राप्त होता है।<br><br>अतः, सही विकल्प (b) है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "hydrogen-peroxide",
+      "type": "mcq",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "Which of the following liberates O2 upon hydrolysis?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "निम्नलिखित में से कौन, जल-अपघटन (hydrolysis) पर $$\\mathrm{O}_{2}$$ मुक्त करता है?"
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "u8oiznl5l47fw9tvwqn7",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hydrogen",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Hydrogen peroxide in its reaction with KIO<sub>4</sub> and NH<sub>2</sub>OH respectively, is acting as a",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "reducing agent, oxidising agent"
+            },
+            {
+              "identifier": "B",
+              "content": "reducing agent, reducing agent"
+            },
+            {
+              "identifier": "C",
+              "content": "oxidising agent, oxidising agent"
+            },
+            {
+              "identifier": "D",
+              "content": "oxidising agent, reducing agent"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>In the reaction with potassium periodate (KIO<sub>4</sub>) and hydroxylamine (NH<sub>2</sub>OH), hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) exhibits different roles :</p>\n\n<p>(i) When hydrogen peroxide reacts with potassium periodate (KIO<sub>4</sub>), it forms potassium iodate (KIO<sub>3</sub>).</p>\n\n<p><b>The balanced chemical reaction is :</b></p>\n\n<p>$$ \\mathrm{H}_2 \\mathrm{O}_2 + \\underset{\\substack{\\text{Potassium}\\\\ \\text{periodate}}}{\\mathrm{KIO}_4} \\longrightarrow \\underset{\\begin{array}{c}\\text{Potassium}\\\\ \\text{iodate}\\end{array}}{\\mathrm{KIO}_3} + \\mathrm{H}_2 \\mathrm{O} + \\mathrm{O}_2 $$</p>\n\n<p>Oxidation state of oxygen in hydrogen peroxide :</p>\n\n<p>(a) In H<sub>2</sub>O<sub>2</sub> :</p>\n\n<p>$$ \\begin{aligned} & 2x + 2 = 0 \\\\\\\\ & x = -1 \\end{aligned} $$</p>\n\n<p>(b) In O<sub>2</sub> :</p>\n\n<p>$$ x = 0 $$</p>\n\n<p>The oxidation state of oxygen increases from -1 to 0, indicating that H<sub>2</sub>O<sub>2</sub> is oxidized and acts as a reducing agent for KIO<sub>4</sub>.</p>\n\n<p>(iii) When hydrogen peroxide reacts with hydroxylamine (NH<sub>2</sub>OH), it produces nitric acid (HNO<sub>3</sub>) and water (H<sub>2</sub>O).</p>\n\n<p>$$ 3 \\mathrm{H}_2 \\mathrm{O}_2 + \\mathrm{NH}_2 \\mathrm{OH} \\longrightarrow \\mathrm{HNO}_3 + 4 \\mathrm{H}_2 \\mathrm{O} $$</p>\n\n<p><b>Oxidation state of oxygen :</b></p>\n\n<p>(a) In H<sub>2</sub>O<sub>2</sub>  :</p>\n\n<p>$$ \\begin{aligned} & 2x + 2 = 0 \\\\\\\\ & x = -1 \\end{aligned} $$</p>\n\n<p>(b) In H<sub>2</sub>O :</p>\n\n<p>$$ 2 + x = 0 $$</p>\n\n<p>$$ x = -2 $$</p>\n\n<p>The oxidation state of oxygen decreases from -1 to -2, meaning H<sub>2</sub>O<sub>2</sub> is reduced and acts as an oxidizing agent for NH<sub>2</sub>OH.</p>"
+        }
+      },
+      "permalink": "hydrogen-peroxide-in-its-reaction-with-kio4-and-nh2oh-respec-2014-marks-1-qfxd1wjgfpkz1cpi.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "topic": "hydrogen-peroxide",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "Hydrogen peroxide in its reaction with KIO4 and NH2OH respectively, is acting as a"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "wjy2t7r78bq29z7ghn23",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hydrogen",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The reagent(s) used for softening the temporary hardness of water is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "Ca(OH)<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "Na<sub>2</sub>CO<sub>3</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "NaOCl"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-reagents-used-for-softening-the-temporary-hardness-of-2010-marks-2-ixeplogzupnaacbt.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "hard-and-soft-water",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "The reagent(s) used for softening the temporary hardness of water is (are)"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "t13lxk8skueiaorohuv5",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hydrogen",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Hydrogen peroxide acts both as an oxidising and as a reducing agent in alkaline solution towards certain first row transition metal ions. Illustrate both these properties of H<sub>2</sub>O<sub>2</sub> using chemical equations.",
+          "options": [],
+          "correct_options": [],
+          "answer": "",
+          "explanation": "<p>Hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) can act as both an oxidizing agent and a reducing agent, depending on the reactants and the conditions of the reaction. Let's illustrate both properties using chemical equations involving first row transition metal ions.</p>\n\n<p><strong>Hydrogen peroxide as an oxidizing agent:</strong></p>\n\n<p>In an alkaline solution, hydrogen peroxide can oxidize manganese(II) ions (Mn<sup>2+</sup>) to manganese dioxide (MnO<sub>2</sub>). The balanced chemical equation for this reaction is:</p>\n\n<p>$$2\\text{Mn}^{2+} + \\text{H}_2\\text{O}_2 + 4\\text{OH}^- \\rightarrow 2\\text{MnO}_2 + 4\\text{H}_2\\text{O}$$</p>\n\n<p>In this reaction, H<sub>2</sub>O<sub>2</sub> is reduced to water (H<sub>2</sub>O), while Mn<sup>2+</sup> is oxidized to MnO<sub>2</sub>.</p>\n\n<p><strong>Hydrogen peroxide as a reducing agent:</strong></p>\n\n<p>Conversely, in an alkaline solution, hydrogen peroxide can reduce chromium(VI) ions (CrO<sub>4</sub><sup>2-</sup>) to chromium(III) ions (Cr<sup>3+</sup>). The balanced chemical equation for this reaction is:</p>\n\n<p>$$2\\text{CrO}_4^{2-} + 3\\text{H}_2\\text{O}_2 + 2\\text{OH}^- \\rightarrow 2\\text{Cr}^{3+} + 3\\text{O}_2 + 5\\text{H}_2\\text{O}$$</p>\n\n<p>In this reaction, H<sub>2</sub>O<sub>2</sub> is oxidized to oxygen (O<sub>2</sub>), while CrO<sub>4</sub><sup>2-</sup> is reduced to Cr<sup>3+</sup>.</p>\n\n<p>Through these equations, it is clear that hydrogen peroxide can exhibit both oxidizing and reducing properties in alkaline solutions, depending on the nature of the transition metal ion it interacts with. These dual roles make H<sub>2</sub>O<sub>2</sub> a versatile reagent in various chemical processes.</p>"
+        }
+      },
+      "permalink": "hydrogen-peroxide-acts-both-as-an-oxidising-and-as-a-reducin-1998-marks-4-ixxeypevcqikjdh8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998",
+      "isOutOfSyllabus": false,
+      "topic": "hydrogen-peroxide",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "Hydrogen peroxide acts both as an oxidising and as a reducing agent in alkaline solution towards certain first row transition metal ions. Illustrate both these properties of H2O2 using chemical equations."
+        }
+      },
+      "yearKey": "iit-jee-1998"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1ky8xeywpcr9oxwuewj2",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hydrogen",
+      "year": 1997,
+      "paperTitle": "IIT-JEE 1997",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Give reactions for the oxidation of hydrogen peroxide with potassium permanganate in acidic medium.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself.",
+          "explanation": null
+        }
+      },
+      "permalink": "give-reactions-for-the-oxidation-of-hydrogen-peroxide-with-p-1997-marks-1-edluffz6hsa0utmo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1997",
+      "isOutOfSyllabus": false,
+      "topic": "hydrogen-peroxide",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1997",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "Give reactions for the oxidation of hydrogen peroxide with potassium permanganate in acidic medium."
+        }
+      },
+      "yearKey": "iit-jee-1997"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3xfuu39p46wgypcvzbyz",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hydrogen",
+      "year": 1992,
+      "paperTitle": "IIT-JEE 1992",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Give reasons of the following:<br>\nHydrogen peroxide acts as an oxidising as well as a reducing agent.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by your self",
+          "explanation": null
+        }
+      },
+      "permalink": "give-reasons-of-the-following-hydrogen-peroxide-acts-as-an-1992-marks-1-cj4g02owddsc3sw8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1992",
+      "isOutOfSyllabus": false,
+      "topic": "hydrogen-peroxide",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1992",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "Give reasons of the following:\nHydrogen peroxide acts as an oxidising as well as a reducing agent."
+        }
+      },
+      "yearKey": "iit-jee-1992"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "408f6rauq08vgq3gflbl",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hydrogen",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Give reasons of the following:<br>\nHydrogen peroxide is a better oxidising agent than water.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Do by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "give-reasons-of-the-following-hydrogen-peroxide-is-a-better-1986-marks-1-rtpq7sy04kya97li.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "hydrogen-peroxide",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "Give reasons of the following:\nHydrogen peroxide is a better oxidising agent than water."
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zrsqsba739ud19d63fqt",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hydrogen",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Hydrogen gas will not reduce",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "heated cupric oxide"
+            },
+            {
+              "identifier": "B",
+              "content": "heated ferric oxide"
+            },
+            {
+              "identifier": "C",
+              "content": "heated stannic oxide"
+            },
+            {
+              "identifier": "D",
+              "content": "heated aluminium oxide"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Reduction is a chemical process by which a substance gains electrons. Hydrogen gas is commonly used as a reducing agent because it can easily donate electrons to other substances. However, the ability of hydrogen to reduce an oxide depends on the reactivity of the metal in the oxide. </p>\n\n<p>Let's consider each option:</p>\n\n<p><strong>Option A: Heated Cupric Oxide (CuO)</strong></p>\n\n<p>Copper(II) oxide can be reduced by hydrogen gas to form metallic copper and water. The reaction is as follows:</p>\n\n<p>$$\\text{CuO} + \\text{H}_2 \\rightarrow \\text{Cu} + \\text{H}_2\\text{O}$$</p>\n\n<p><strong>Option B: Heated Ferric Oxide (Fe_2O_3)</strong></p>\n\n<p>Ferric oxide can also be reduced by hydrogen gas to form metallic iron and water. The reaction is as follows:</p>\n\n<p>$$\\text{Fe}_2\\text{O}_3 + 3\\text{H}_2 \\rightarrow 2\\text{Fe} + 3\\text{H}_2\\text{O}$$</p>\n\n<p><strong>Option C: Heated Stannic Oxide (SnO_2)</strong></p>\n\n<p>Stannic oxide can be reduced by hydrogen gas to form metallic tin and water. The reaction is as follows:</p>\n\n<p>$$\\text{SnO}_2 + 2\\text{H}_2 \\rightarrow \\text{Sn} + 2\\text{H}_2\\text{O}$$</p>\n\n<p><strong>Option D: Heated Aluminium Oxide (Al_2O_3)</strong></p>\n\n<p>Aluminium oxide cannot be reduced by hydrogen gas. Aluminium has a very high affinity for oxygen, making the reduction of aluminium oxide (Al_2O_3) with hydrogen gas not feasible under normal conditions. This is because aluminium is much more reactive and forms a very stable oxide.</p>\n\n<p>Therefore, the correct answer is <strong>Option D: heated aluminium oxide</strong>.</p>"
+        }
+      },
+      "permalink": "hydrogen-gas-will-not-reduce-1985-marks-1-bfeulwpcancblp2t.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "preparation-and-properties-of-hydrogen",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "Hydrogen gas will not reduce"
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3edgkxdxm70o03yks8bb",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hydrogen",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Heavy water is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "H<sub>2</sub><sup>18</sup>O"
+            },
+            {
+              "identifier": "B",
+              "content": "water obtained by repeated distillation"
+            },
+            {
+              "identifier": "C",
+              "content": "D<sub>2</sub>O"
+            },
+            {
+              "identifier": "D",
+              "content": "water at 4<sup>o</sup>C"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "heavy-water-is-1983-marks-1-bhpr3uo8b4cxcvnf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "water-and-heavy-water",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "Heavy water is"
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "uj2u7fd8gpayyglhirum",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hydrogen",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The absorption of hydrogen by palladium is commonly known as ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "occlusion",
+          "explanation": "<p>The absorption of hydrogen by palladium is commonly known as \"occlusion\".</p>\n\n<p>Let's dive a bit deeper into this concept:</p>\n\n<p>Palladium has a unique ability to absorb large quantities of hydrogen gas. When hydrogen gas comes into contact with palladium, the hydrogen molecules dissociate into individual hydrogen atoms. These atoms are then absorbed into the interstitial spaces between the palladium atoms in its crystal lattice. This process of hydrogen absorption is not merely a physical process but also involves some chemical interactions at the atomic level.</p>\n\n<p>The term \"occlusion\" refers to this specific phenomenon. The absorbed hydrogen can be released again upon heating or by applying a vacuum, making palladium-hydrogen systems very useful in various applications, such as hydrogen storage, purification, and sensors.</p>\n\n<p>To understand this interaction more quantitatively, consider the solubility of hydrogen in palladium which can be described by the Sieverts' law:</p>\n\n<p>\n\n<p>$$ C_H = K \\cdot \\sqrt{P_H} $$</p>\n\n</p>\n\n<p>Where:</p>\n\n<ul>\n\n<li>$$C_H$$ is the concentration of hydrogen in palladium.</li>\n\n<li>$$K$$ is the Sieverts' constant.</li>\n\n<li>$$P_H$$ is the partial pressure of hydrogen gas.</li>\n\n</ul>\n\n<p>This relationship shows that the concentration of absorbed hydrogen is proportional to the square root of the hydrogen gas pressure.</p>"
+        }
+      },
+      "permalink": "the-absorption-of-hydrogen-by-palladium-is-commonly-known-as-1983-marks-1-vphxoi7evzixxwvi.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "preparation-and-properties-of-hydrogen",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Hydrogen • Chemistry",
+          "excerpt": "The absorption of hydrogen by palladium is commonly known as ______."
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "questions": [
+    {
+      "question_id": "zrdos0gkrqqic7r5nqus",
+      "chapter": "chemical-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "the-plot-of-log-kf-versus-1--t-for-a-reversible-react-jee-advanced-chemistry-wbic2xb2mrtxh7kk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "The plot of $\\log k_f$ versus $1 / T$ for a reversible reaction $\\mathrm{A}(\\mathrm{g}) \\rightleftharpoons \\mathrm{P}(\\mathrm{g})$ is shown.<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir07s6/dab28081-bff3-4a0b-b1a3-06d4b0a17ba1/3af77060-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir07s7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir07s6/dab28081-bff3-4a0b-b1a3-06d4b0a17ba1/3af77060-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir07s7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Chemistry - Chemical Equilibrium Question 3 English\"><br>Pre-exponential factors for the forward and backward reactions are $10^{15} \\mathrm{~s}^{-1}$ and $10^{11} \\mathrm{~s}^{-1}$, respectively. If the value of $\\log K$ for the reaction at $500 \\mathrm{~K}$ is 6 , the value of $\\left|\\log k_b\\right|$ at $250 \\mathrm{~K}$ is ______.<br><br>\n$$\n\\begin{aligned}\n&amp; {[K=\\text { equilibrium constant of the reaction }} \\\\\\\\\n&amp; k_f=\\text { rate constant of forward reaction } \\\\\\\\\n&amp; \\left.k_b=\\text { rate constant of backward reaction }\\right]\n\\end{aligned}\n$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "For reaction $\\mathrm{A}(\\mathrm{g}) \\rightleftharpoons \\mathrm{P}(\\mathrm{g})$\n<br/><br/>$\\log \\mathrm{k}_{\\mathrm{f}}=\\frac{-\\mathrm{E}_{\\mathrm{f}}}{2.303 \\mathrm{RT}}+\\log \\mathrm{A}_{\\mathrm{f}}$ [Arrhenius equation for forward reaction] \n<br/><br/>From plot when, $\\frac{1}{\\mathrm{~T}}=0.002, \\log \\mathrm{k}_{\\mathrm{f}}=9$\n<br/><br/>$\\begin{aligned} & \\Rightarrow 9=\\frac{-E_f}{2.303 R}(0.002)+\\log \\left(A_f\\right) \\\\\\\\ & \\text { Given }: A_f=10^{15} \\mathrm{~s}^{-1} \\\\\\\\ & \\Rightarrow 9=\\frac{-E_f}{2.303 R}(0.002)+15 \\\\\\\\ & \\Rightarrow \\frac{E_f}{2.303 R}=\\frac{6}{0.002}=3000\\end{aligned}$\n<br/><br/>$\\begin{aligned} \\text { Now, } \\mathrm{K} & =\\frac{\\mathrm{k}_{\\mathrm{f}}}{\\mathrm{k}_{\\mathrm{b}}}=\\frac{\\mathrm{A}_{\\mathrm{f}}}{\\mathrm{A}_{\\mathrm{b}}} \\mathrm{e}^{-\\left(\\mathrm{E}_{\\mathrm{f}}-\\mathrm{E}_{\\mathrm{b}}\\right) / \\mathrm{RT}} \\\\\\\\ \\log \\mathrm{K} & =-\\frac{1}{2.303} \\frac{\\left(\\mathrm{E}_{\\mathrm{f}}-\\mathrm{E}_{\\mathrm{b}}\\right)}{R T}+\\log \\left(\\frac{10^{15}}{10^{11}}\\right)\\end{aligned}$\n<br/><br/>At $500 \\mathrm{~K}$\n<br/><br/>$$\n\\begin{aligned}\n& \\Rightarrow 6=\\frac{-\\left(\\mathrm{E}_{\\mathrm{f}}-\\mathrm{E}_{\\mathrm{b}}\\right)}{500 \\mathrm{R}(2.303)}+4 \\\\\\\\\n& \\Rightarrow(1000 \\mathrm{R})(2.303)=\\mathrm{E}_{\\mathrm{b}}-\\mathrm{E}_{\\mathrm{f}} \\\\\\\\\n& \\Rightarrow(1000 \\mathrm{R})(2.303)=\\mathrm{E}_{\\mathrm{b}}-3000(2.303 \\mathrm{R}) \\\\\\\\\n& \\Rightarrow \\mathrm{E}_{\\mathrm{b}}=4000 \\mathrm{R}(2.303) ..........(i)\n\\end{aligned}\n$$\n<br/><br/>Now $\\mathrm{k}_{\\mathrm{b}}=\\mathrm{A}_{\\mathrm{b}} \\mathrm{e}^{-\\mathrm{E}_{\\mathrm{b}} / \\mathrm{RT}}$\n<br/><br/>$\\begin{aligned} & \\Rightarrow \\log \\mathrm{k}_{\\mathrm{b}}=\\frac{-\\mathrm{E}_{\\mathrm{b}}}{2.303 \\mathrm{RT}}+\\log \\mathrm{A}_{\\mathrm{b}} \\\\\\\\ & \\text { At } 250 \\mathrm{~K}, \\\\\\\\ & \\Rightarrow \\log \\mathrm{k}_{\\mathrm{b}}=-\\frac{4000}{250}+\\log \\left(10^{11}\\right) \\text { [From equation (1)] } \\\\\\\\ & \\quad=-16+11=-5 \\\\\\\\ & \\left|\\log \\mathrm{k}_{\\mathrm{b}}\\right|=5\\end{aligned}$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "एक उत्क्रमणीय (reversible) अभिक्रिया $\\mathrm{A}(\\mathrm{g}) \\rightleftharpoons \\mathrm{P}(\\mathrm{g})$ के लिए $\\log k_f$ तथा $1 / T$ के मध्य का प्लाट (plot) प्रदर्शित है।<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liir07s6/dab28081-bff3-4a0b-b1a3-06d4b0a17ba1/3af77060-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir07s7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liir07s6/dab28081-bff3-4a0b-b1a3-06d4b0a17ba1/3af77060-0391-11ee-94c1-c5ddbb3cc6a9/file-1liir07s7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Chemistry - Chemical Equilibrium Question 3 Hindi\"><br>अग्र तथा प्रतीप अभिक्रियाओं का पूर्व चरघातांकी गुणक (Pre-exponential factor) क्रमशः $10^{15} \\mathrm{~s}^{-1}$ तथा $10^{11} \\mathrm{~s}^{-1}$ है | यदि $500 \\mathrm{~K}$ पर अभिक्रिया के $\\log K$ का मान 6 है तो $250 \\mathrm{~K}$ पर $\\left|\\log k_b\\right|$ का मान है ______<br><br> $[K=$ अभिक्रिया का साम्य स्थिरांक<br><br>\n$k_f=$ अग्र अभिक्रिया का वेग नियतांक<br><br>\n$k_b=$ प्रतीप अभिक्रिया का वेग नियतांक ]",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "अभिक्रिया $\\mathrm{A}(\\mathrm{g}) \\rightleftharpoons \\mathrm{P}(\\mathrm{g})$ के लिए\n<br/><br/>$\\log \\mathrm{k}_{\\mathrm{f}}=\\frac{-\\mathrm{E}_{\\mathrm{f}}}{2.303 \\mathrm{RT}}+\\log \\mathrm{A}_{\\mathrm{f}}$ [अग्र अभिक्रिया के लिए आर्हेनियस समीकरण] \n<br/><br/>आलेख से जब, $\\frac{1}{\\mathrm{~T}}=0.002, \\log \\mathrm{k}_{\\mathrm{f}}=9$\n<br/><br/>$\\begin{aligned} & \\Rightarrow 9=\\frac{-E_f}{2.303 R}(0.002)+\\log \\left(A_f\\right) \\\\\\\\ & \\text { दिया है }: A_f=10^{15} \\mathrm{~s}^{-1} \\\\\\\\ & \\Rightarrow 9=\\frac{-E_f}{2.303 R}(0.002)+15 \\\\\\\\ & \\Rightarrow \\frac{E_f}{2.303 R}=\\frac{6}{0.002}=3000\\end{aligned}$\n<br/><br/>$\\begin{aligned} \\text { अब, } \\mathrm{K} & =\\frac{\\mathrm{k}_{\\mathrm{f}}}{\\mathrm{k}_{\\mathrm{b}}}=\\frac{\\mathrm{A}_{\\mathrm{f}}}{\\mathrm{A}_{\\mathrm{b}}} \\mathrm{e}^{-\\left(\\mathrm{E}_{\\mathrm{f}}-\\mathrm{E}_{\\mathrm{b}}\\right) / \\mathrm{RT}} \\\\\\\\ \\log \\mathrm{K} & =-\\frac{1}{2.303} \\frac{\\left(\\mathrm{E}_{\\mathrm{f}}-\\mathrm{E}_{\\mathrm{b}}\\right)}{R T}+\\log \\left(\\frac{10^{15}}{10^{11}}\\right)\\end{aligned}$\n<br/><br/>$500 \\mathrm{~K}$ पर\n<br/><br/>$$\n\\begin{aligned}\n& \\Rightarrow 6=\\frac{-\\left(\\mathrm{E}_{\\mathrm{f}}-\\mathrm{E}_{\\mathrm{b}}\\right)}{500 \\mathrm{R}(2.303)}+4 \\\\\\\\\n& \\Rightarrow(1000 \\mathrm{R})(2.303)=\\mathrm{E}_{\\mathrm{b}}-\\mathrm{E}_{\\mathrm{f}} \\\\\\\\\n& \\Rightarrow(1000 \\mathrm{R})(2.303)=\\mathrm{E}_{\\mathrm{b}}-3000(2.303 \\mathrm{R}) \\\\\\\\\n& \\Rightarrow \\mathrm{E}_{\\mathrm{b}}=4000 \\mathrm{R}(2.303) ..........(i)\n\\end{aligned}\n$$\n<br/><br/>अब $\\mathrm{k}_{\\mathrm{b}}=\\mathrm{A}_{\\mathrm{b}} \\mathrm{e}^{-\\mathrm{E}_{\\mathrm{b}} / \\mathrm{RT}}$\n<br/><br/>$\\begin{aligned} & \\Rightarrow \\log \\mathrm{k}_{\\mathrm{b}}=\\frac{-\\mathrm{E}_{\\mathrm{b}}}{2.303 \\mathrm{RT}}+\\log \\mathrm{A}_{\\mathrm{b}} \\\\\\\\ & \\text { } 250 \\mathrm{~K} \\text{ पर}, \\\\\\\\ & \\Rightarrow \\log \\mathrm{k}_{\\mathrm{b}}=-\\frac{4000}{250}+\\log \\left(10^{11}\\right) \\text { [समीकरण (1) से] } \\\\\\\\ & \\quad=-16+11=-5 \\\\\\\\ & \\left|\\log \\mathrm{k}_{\\mathrm{b}}\\right|=5\\end{aligned}$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "chemical-equilibrium-law-of-mass-action-and-equilibrium-constant",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "The plot of $\\log k_f$ versus $1 / T$ for a reversible reaction $\\mathrm{A}(\\mathrm{g}) \\rightleftharpoons \\mathrm{P}(\\mathrm{g})$ is shown.\nPre-exponential factors for the forward and backward reactions are $10^{15} \\mathrm{~s}^{-1}$ and $..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "एक उत्क्रमणीय (reversible) अभिक्रिया $\\mathrm{A}(\\mathrm{g}) \\rightleftharpoons \\mathrm{P}(\\mathrm{g})$ के लिए $\\log k_f$ तथा $1 / T$ के मध्य का प्लाट (plot) प्रदर्शित है।\nअग्र तथा प्रतीप अभिक्रियाओं का पूर्व चरघातांकी गुणक (Pre-exponential..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "h6arq51d2yy41m0vvlsh",
+      "chapter": "chemical-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "permalink": "consider-the-reactionbrbrimagebrbrat-1000-k-at-jee-advanced-chemistry-some-basic-concepts-of-chemistry-bvd0yucudoehd2s4",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Consider the reaction,<br><br>A $$\\rightleftharpoons  $$ B<br><br>at 1000 K. At time t', the temperature of the system was increased to 2000 K and the system was allowed to reach equilibrium. Throughout this experiment the partial pressure of A was maintained at 1 bar. Given, below is the plot of the partial pressure of B with time. What is the ratio of the standard Gibbs energy of the reaction at 1000 K to that at 2000 K?<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9uq4ya/f5fdd02e-3a50-437b-9b73-617f1eeae4d1/2e675720-5eec-11ec-b1f6-5f1771b464e3/file-1kx9uq4yb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9uq4ya/f5fdd02e-3a50-437b-9b73-617f1eeae4d1/2e675720-5eec-11ec-b1f6-5f1771b464e3/file-1kx9uq4yb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2020 Paper 1 Offline Chemistry - Chemical Equilibrium Question 6 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.25",
+          "explanation": "Given : Image<br><br>Using $$\\Delta G = \\Delta {G^o} + RT\\ln {K_p}$$<br><br>At equilibrium : $$\\Delta {G^o} =  - RT\\ln {K_p}$$<br><br>$$\\Delta G_1^0 =  - R{T_1}\\ln {K_{p1}}$$ ... (i)<br><br>$$\\Delta G_2^0 =  - R{T_2}\\ln {K_{p2}}$$ ...(ii)<br><br>From Eqs. (i) and (ii),<br><br>$${{\\Delta G_1^o} \\over {\\Delta G_2^o}} = {{{T_1}} \\over {{T_2}}} \\times {{\\ln K{p_1}} \\over {\\ln K{p_2}}}$$<br><br>$$ = {{1000} \\over {2000}} \\times {{\\ln (10)} \\over {\\ln (100)}} = {1 \\over 4} = 0.25$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>ताप $$1000 \\mathrm{~K}$$ पर अभिक्रिया \n<br><br>$$\\mathbf{A} \\rightleftharpoons \\mathbf{B}$$ \n<br><br>पर ध्यान दें। एक समय $$t'$$ पर निकाय का ताप बढ़ाकर $$2000 \\mathrm{~K}$$ किया गया और निकाय को साम्यावस्था में पहुँचने दिया गया। इस प्रयोग के दौरान $$\\mathrm{A}$$ के आंशिक दाब (partial pressure) को $$1 ~\\mathrm{bar}$$ पर स्थिर रखा गया। $$\\mathbf{B}$$ के आंशिक दाब का समय के साथ आरेख नीचे दिखाया गया है। ताप $$1000 \\mathrm{~K}$$ तथा $$2000 \\mathrm{~K}$$ पर मानक गिब्ज़ ऊर्जाओं (standard Gibbs energy) का अनुपात क्या है ? (आरेख में Partial Pressure of $$\\mathbf{B: B}$$ का आंशिक दाब, तथा time: समय है)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9uq4ya/f5fdd02e-3a50-437b-9b73-617f1eeae4d1/2e675720-5eec-11ec-b1f6-5f1771b464e3/file-1kx9uq4yb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9uq4ya/f5fdd02e-3a50-437b-9b73-617f1eeae4d1/2e675720-5eec-11ec-b1f6-5f1771b464e3/file-1kx9uq4yb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2020 Paper 1 Offline Chemistry - Chemical Equilibrium Question 6 Hindi\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.25",
+          "explanation": "दिया गया है : Image<br><br>$$\\Delta G = \\Delta {G^o} + RT\\ln {K_p}$$ का उपयोग करते हुए<br><br>साम्यावस्था पर : $$\\Delta {G^o} =  - RT\\ln {K_p}$$<br><br>$$\\Delta G_1^0 =  - R{T_1}\\ln {K_{p1}}$$ ... (i)<br><br>$$\\Delta G_2^0 =  - R{T_2}\\ln {K_{p2}}$$ ...(ii)<br><br>समीकरण (i) और (ii) से,<br><br>$${{{\\Delta G_1^o} \\over {\\Delta G_2^o}} = {{{T_1}} \\over {{T_2}}} \\times {{\\ln K{p_1}} \\over {\\ln K{p_2}}}}$$<br><br>$$ = {{1000} \\over {2000}} \\times {{\\ln (10)} \\over {\\ln (100)}} = {1 \\over 4} = 0.25$$"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "le-chateliers-principle-and-factors-affecting-chemical-equilibrium",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "Consider the reaction,A $$\\rightleftharpoons  $$ Bat 1000 K. At time t', the temperature of the system was increased to 2000 K and the system was allowed to reach equilibrium. Throughout this experiment the partial pressure of A was maintai..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "ताप $$1000 \\mathrm{~K}$$ पर अभिक्रिया \n$$\\mathbf{A} \\rightleftharpoons \\mathbf{B}$$ \nपर ध्यान दें। एक समय $$t'$$ पर निकाय का ताप बढ़ाकर $$2000 \\mathrm{~K}$$ किया गया और निकाय को साम्यावस्था में पहुँचने दिया गया। इस प्रयोग के दौरान $$\\mathrm..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "question_id": "ajazndnm0w45upri30e1",
+      "chapter": "chemical-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "for-the-following-reaction-the-equilibrium-constant-ksubc-jee-advanced-chemistry-some-basic-concepts-of-chemistry-th0dwclyqnbzkv6l",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "For the following reaction, the equilibrium constant K<sub>c</sub> at 298 K is 1.6 $$ \\times $$ 10<sup>17</sup>.<br><br>Fe<sup>2+</sup>(aq) + S<sup>2-</sup>(aq) ⇌ FeS(s)<br><br>When equal volumes of <br><br>0.06 M Fe<sup>2+</sup>(aq) and 0.2 M S<sup>2$$ - $$</sup>(aq)<br><br>solutions are mixed, the equilibrium concentration of Fe<sup>2+</sup>(aq) is found by Y $$ \\times $$ 10<sup>$$ - $$17</sup> M. The value of Y is .................",
+          "options": [],
+          "correct_options": [],
+          "answer": "8.9",
+          "explanation": "Given, equilibrium constant (K<sub>c</sub>) at 298 K = 1.6 $$ \\times $$ 10<sup>17</sup><br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9ut2te/e5fd43c4-5bf1-4858-bc13-256a7564e0ba/802e6620-5eec-11ec-b1f6-5f1771b464e3/file-1kx9ut2tf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9ut2te/e5fd43c4-5bf1-4858-bc13-256a7564e0ba/802e6620-5eec-11ec-b1f6-5f1771b464e3/file-1kx9ut2tf.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - Chemical Equilibrium Question 7 English Explanation\"><br>[Here, K<sub>c</sub> &gt;&gt;10<sup>3</sup>, thus limiting reagent will be consumed almost completely, 0.03 $$ - $$ X = 0 $$ \\therefore $$ X = 0.03]<br><br>From equilibrium constant,<br><br>$${K_c} = {{[FeS]} \\over {[F{e^{2 + }}][{S^{2 - }}]}}$$<br><br>$${K_c} = {1 \\over {X \\times 0.07}}$$<br><br>[For $$\\mathop {Fes(s)}\\limits_{(Pure\\,solid)}  = 1\\,mol\\,{L^{ - 1}}]$$]<br><br>$$1.6 \\times {10^{17}} = {1 \\over {X \\times 0.07}}$$<br><br>$$X = {1 \\over {1.6 \\times {{10}^{17}} \\times 0.07}}$$<br><br>$$ = 8.9 \\times {10^{ - 17}}$$<br><br>Given, X = Y $$ \\times $$ 10<sup>-17</sup> = 8.9 $$ \\times $$ 10<sup>-17</sup><br><br>$$ \\therefore $$ Y = 8.9"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$298 \\mathrm{~K}$$ पर, निम्न अभिक्रिया का साम्यावस्ता स्थिरांक $$\\mathrm{K}_{\\mathrm{c}}$$ (equilibrium constant) $$1.6 \\times 10^{17}$$ है।</p>\n<p>$$\\mathrm{Fe}^{2+}(a q)+\\mathrm{S}^{2-}(a q) \\Longrightarrow \\mathrm{FeS}(s)$$</p>\n<p>जब $$0.06 ~\\mathrm{M} ~\\mathrm{Fe}^{2+}(a q)$$ और $$0.2 ~\\mathrm{M} ~\\mathrm{S}^{2-}(a q)$$ के समान आयतनों का मिश्रण किया गया, तब $$\\mathrm{Fe}^{2+}(a q)$$ की साम्य सान्द्रता (equilibrium concentration) $$\\mathrm{Y} \\times 10^{-17} ~\\mathrm{M}$$ पायी गयी । $$\\mathrm{Y}$$ का मान है ___________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "8.9",
+          "explanation": "दिया गया है, साम्यावस्था स्थिरांक (K<sub>c</sub>) 298 K पर = 1.6 $$ \\times $$ 10<sup>17</sup><br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9ut2te/e5fd43c4-5bf1-4858-bc13-256a7564e0ba/802e6620-5eec-11ec-b1f6-5f1771b464e3/file-1kx9ut2tf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9ut2te/e5fd43c4-5bf1-4858-bc13-256a7564e0ba/802e6620-5eec-11ec-b1f6-5f1771b464e3/file-1kx9ut2tf.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2019 Paper 1 Offline Chemistry - Chemical Equilibrium Question 7 Hindi Explanation\"><br>[यहाँ, K<sub>c</sub> &gt;&gt;10<sup>3</sup>, अतः सीमांत अभिकारक लगभग पूर्णतः उपभुक्त हो जाएगा, 0.03 $$ - $$ X = 0 $$ \\therefore $$ X = 0.03]<br><br>साम्यावस्था स्थिरांक से,<br><br>$${K_c} = {{[FeS]} \\over {[F{e^{2 + }}][{S^{2 - }}]}}$$<br><br>$${K_c} = {1 \\over {X \\times 0.07}}$$<br><br>[$$\\mathop {Fes(s)}\\limits_{(शुद्ध\\,ठोस)} = 1\\,mol\\,{L^{ - 1}}]$$ के लिए]<br><br>$$1.6 \\times {10^{17}} = {1 \\over {X \\times 0.07}}$$<br><br>$$X = {1 \\over {1.6 \\times {{10}^{17}} \\times 0.07}}$$<br><br>$$ = 8.9 \\times {10^{ - 17}}$$<br><br>दिया गया है, X = Y $$ \\times $$ 10<sup>-17</sup> = 8.9 $$ \\times $$ 10<sup>-17</sup><br><br>$$ \\therefore $$ Y = 8.9"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "chemical-equilibrium-law-of-mass-action-and-equilibrium-constant",
+      "type": "integer",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "For the following reaction, the equilibrium constant Kc at 298 K is 1.6 $$ \\times $$ 1017.Fe2+(aq) + S2-(aq) ⇌ FeS(s)When equal volumes of 0.06 M Fe2+(aq) and 0.2 M S2$$ - $$(aq)solutions are mixed, the equilibrium concentration of Fe2+(aq)..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "$$298 \\mathrm{~K}$$ पर, निम्न अभिक्रिया का साम्यावस्ता स्थिरांक $$\\mathrm{K}_{\\mathrm{c}}$$ (equilibrium constant) $$1.6 \\times 10^{17}$$ है।\n$$\\mathrm{Fe}^{2+}(a q)+\\mathrm{S}^{2-}(a q) \\Longrightarrow \\mathrm{FeS}(s)$$\nजब $$0.06 ~\\mathrm{..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "u3l99nyrobrt6cfr5qcg",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "chemical-equilibrium",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A closed tank has two compartments $$A$$ and $$B,$$ both filled with oxygen (assumed to be ideal gas). The partition separating the two compartments is fixed and is a perfect heat insulator (Figure $$1.$$). If the old partition is replaced by a new partition which can slide and conduct heat but does <b>NOT</b> allow the gas to leak across (Figure $$2$$), the volume (in $${m^3}$$) of the compartment A after the system attains equilibrium is ______________.\n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/V0rXLDRbV7MlKxJnL/Hn98dIzq0wYOIJ5igrlkjX9HKmr06/zDXgCFVmuPzajUFFxvZNtK/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - Chemical Equilibrium Question 8 English\"> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.22",
+          "explanation": "<p>Given p<sub>1</sub> = 5 bar, V<sub>1</sub> = 1 m<sup>3</sup>, T<sub>1</sub> = 400 K</p>\n<p>So, $${n_1} = {5 \\over {400R}}$$ (from pV = nRT)</p>\n<p>Similarly, p<sub>2</sub> = 1 bar, V<sub>2</sub> = 3 m<sup>3</sup>, T<sub>2</sub> = 300 K, </p>\n<p>$${n_2} = {3 \\over {300R}}$$</p>\n<p>Let at equilibrium the new volume of A will be (1 + x)</p>\n<p>So, the new volume of B will be (3 $$-$$ x)</p>\n<p>Now, from the ideal gas equation,</p>\n<p>$${{{p_1}{V_1}} \\over {{n_1}R{T_1}}} = {{{p_2}{V_2}} \\over {{n_2}R{T_2}}}$$</p>\n<p>and at equilibrium (due to conduction of heat)</p>\n<p>$${{{p_1}} \\over {{T_1}}} = {{{p_2}} \\over {{T_2}}}$$</p>\n<p>So, $${{{V_1}} \\over {{n_1}}} = {{{V_2}} \\over {{n_2}}}$$ or $${V_1}{n_2} = {V_2}{n_1}$$</p>\n<p>After putting the values</p>\n<p>$$(1 + x) \\times {3 \\over {300R}} = (3 - x) \\times {5 \\over {400R}}$$</p>\n<p>or $$(1 + x) = {{(3 - x)5} \\over 4}$$ or $$4(1 + x) = 15 - 5x$$</p>\n<p>or $$4 + 4x = 15 - 5x$$ or $$x = {{11} \\over 9}$$</p>\n<p>Hence, new volume of A i.e., (1 + x) will comes as $$1 + {{11} \\over 9} = {{20} \\over 9}$$ or 2.22. </p>"
+        },
+        "hi": {
+          "content": "एक बंद टैंक में दो अनुभाग $$A$$ और $$B$$ होते हैं, दोनों ऑक्सीजन (आदर्श गैस मानी गई) से भरे होते हैं। दोनों अनुभागों को विभाजित करने वाला विभाजन स्थिर है और एक आदर्श ऊष्मा अवरोधक है (चित्र $$1$$)। यदि पुराने विभाजन को एक नए विभाजन द्वारा बदल दिया जाए जो स्लाइड और ऊष्मा का संचालन कर सकता है लेकिन गैस को लीक होने नहीं देता (चित्र $$2$$), तो संतुलन प्राप्त करने के बाद अनुभाग A का आयतन (में $${m^3}$$) ______________ है।\n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/V0rXLDRbV7MlKxJnL/Hn98dIzq0wYOIJ5igrlkjX9HKmr06/zDXgCFVmuPzajUFFxvZNtK/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - Chemical Equilibrium Question 8 Hindi\"> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.22",
+          "explanation": "<p>दिया गया है p<sub>1</sub> = 5 bar, V<sub>1</sub> = 1 m<sup>3</sup>, T<sub>1</sub> = 400 K</p>\n<p>अतः, $${n_1} = {5 \\over {400R}}$$ (pV = nRT से)</p>\n<p>इसी प्रकार, p<sub>2</sub> = 1 bar, V<sub>2</sub> = 3 m<sup>3</sup>, T<sub>2</sub> = 300 K, </p>\n<p>$${n_2} = {3 \\over {300R}}$$</p>\n<p>माना साम्यावस्था पर A का नया आयतन (1 + x) होगा</p>\n<p>अतः, B का नया आयतन (3 $$-$$ x) होगा</p>\n<p>अब, आदर्श गैस समीकरण से,</p>\n<p>$${{{p_1}{V_1}} \\over {{n_1}R{T_1}}} = {{{p_2}{V_2}} \\over {{n_2}R{T_2}}}$$</p>\n<p>और साम्यावस्था पर (ऊष्मा चालन के कारण)</p>\n<p>$${{{p_1}} \\over {{T_1}}} = {{{p_2}} \\over {{T_2}}}$$</p>\n<p>अतः, $${{{V_1}} \\over {{n_1}}} = {{{V_2}} \\over {{n_2}}}$$ या $${V_1}{n_2} = {V_2}{n_1}$$</p>\n<p>मान रखने पर</p>\n<p>$$(1 + x) \\times {3 \\over {300R}} = (3 - x) \\times {5 \\over {400R}}$$</p>\n<p>या $$(1 + x) = {{(3 - x)5} \\over 4}$$ या $$4(1 + x) = 15 - 5x$$</p>\n<p>या $$4 + 4x = 15 - 5x$$ या $$x = {{11} \\over 9}$$</p>\n<p>अतः, A का नया आयतन अर्थात्, (1 + x) होगा $$1 + {{11} \\over 9} = {{20} \\over 9}$$ या 2.22।</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-closed-tank-has-two-compartments-a-and-b-both-fil-2018-marks-3-qxdl6pbinkdxu1es.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "le-chateliers-principle-and-factors-affecting-chemical-equilibrium",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "A closed tank has two compartments $$A$$ and $$B,$$ both filled with oxygen (assumed to be ideal gas). The partition separating the two compartments is fixed and is a perfect heat insulator (Figure $$1.$$). If the old partition is replaced ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "एक बंद टैंक में दो अनुभाग $$A$$ और $$B$$ होते हैं, दोनों ऑक्सीजन (आदर्श गैस मानी गई) से भरे होते हैं। दोनों अनुभागों को विभाजित करने वाला विभाजन स्थिर है और एक आदर्श ऊष्मा अवरोधक है (चित्र $$1$$)। यदि पुराने विभाजन को एक नए विभाजन द्वारा बद..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "209zaedu5ftza0w3579k",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "chemical-equilibrium",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<b>Paragraph</b><br>\nThermal decomposition of gaseous X<sub>2</sub> to gaseous X at 298 K takes place according to the following equations:<br>\nX<sub>2</sub> (g) $$\\leftrightharpoons$$ 2X (g)<br>\nThe standard reaction Gibbs energy, $$\\Delta _rG^o$$, of this reaction is positive. At the start of the reaction, there is one mole of X<sub>2</sub> and no X. As the reaction proceeds, the number of moles of X formed is given by $$\\beta$$. Thus, $$\\beta _{equilibrium}$$ is the number of moles of X formed at equilibrium. The reaction is carried out at a constant total pressure of 2 bar. Consider the gases to behave ideally.\n(Given R = 0.083 L bar K<sup>-1</sup> mol<sup>-1</sup>)\n<br>\n<b>Question</b><br>\nThe equilibrium constant K<sub>p</sub> for this reaction at 298 K, in terms of $$\\beta _{equilibrium}$$, is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{8\\beta _{equilibrium}^2} \\over {2 - {\\beta _{equilibrium}}}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{8\\beta _{equilibrium}^2} \\over {4 - {\\beta _{equilibrium}^2}}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{4\\beta _{equilibrium}^2} \\over {2 - {\\beta _{equilibrium}}}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${{4\\beta _{equilibrium}^2} \\over {4 - {\\beta _{equilibrium}^2}}}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1klgh3403/730e036a-e011-47c3-9ef1-3086fd9e6635/bb615c40-74fd-11eb-aef3-852b1ba56c97/file-1klgh3404-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1klgh3403/730e036a-e011-47c3-9ef1-3086fd9e6635/bb615c40-74fd-11eb-aef3-852b1ba56c97/file-1klgh3404-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1klgh3403/730e036a-e011-47c3-9ef1-3086fd9e6635/bb615c40-74fd-11eb-aef3-852b1ba56c97/file-1klgh3404-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1klgh3403/730e036a-e011-47c3-9ef1-3086fd9e6635/bb615c40-74fd-11eb-aef3-852b1ba56c97/file-1klgh3404-860w.jpeg\"><source media=\"(max-width: 1040px)\" srcset=\"https://imagex.cdn.examgoal.net/1klgh3403/730e036a-e011-47c3-9ef1-3086fd9e6635/bb615c40-74fd-11eb-aef3-852b1ba56c97/file-1klgh3404-1040w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1klgh3403/730e036a-e011-47c3-9ef1-3086fd9e6635/bb615c40-74fd-11eb-aef3-852b1ba56c97/file-1klgh3404-1220w.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2016 Paper 2 Offline Chemistry - Chemical Equilibrium Question 10 English Explanation\"></picture> <br><br>Total number of moles at equilibrium = (1 + $$\\alpha$$) = 1 + (b<sub>eq</sub> / 2)<br><br>Therefore,<br><br>$${p_x} = \\left( {{{{\\beta _{eq}}} \\over {1 + ({\\beta _{eq}}/2)}}{p_T}} \\right)$$<br><br>$${p_{{x_2}}} = \\left( {{{1 - ({\\beta _{eq}}/2)} \\over {1 + ({\\beta _{eq}}/2)}}{p_T}} \\right)$$<br><br>Therefore, the equilibrium constant K<sub>p</sub> is given by<br><br>$${K_p} = {{p_x^2} \\over {{p_{{x_2}}}}} = {{\\left( {{{{\\beta _{eq}}} \\over {1 + ({\\beta _{eq}}/2)}}{p_T}} \\right)} \\over {\\left( {{{1 - ({\\beta _{eq}}/2)} \\over {1 + ({\\beta _{eq}}/2)}}{p_T}} \\right)}}$$<br><br>$$ = {{\\beta _{eq}^2} \\over {1 - (\\beta _{eq}^2/4)}}{p_T} = {{\\beta _{eq}^2} \\over {1 - (\\beta _{eq}^2/4)}} \\times 2 = {{8\\beta _{eq}^2} \\over {4 - \\beta _{eq}^2}}$$"
+        },
+        "hi": {
+          "content": "<b>पैरा</b><br>\nगैसिय X<sub>2</sub> के 298 K पर गैसिय $$X$$ में थर्मल अपघटन निम्नलिखित समीकरणों के अनुसार होता है:<br>\nX<sub>2</sub> (g) $$\\leftrightharpoons$$ 2X (g)<br>\nइस प्रतिक्रिया का मानक प्रतिक्रिया गिब्स ऊर्जा, $$\\Delta _rG^o$$, सकारात्मक है। प्रतिक्रिया के प्रारंभ में, एक मोल X<sub>2</sub> है और कोई $$X$$ नहीं है। जैसे ही प्रतिक्रिया आगे बढ़ती है, X के बने मोल की संख्या $$\\beta$$ द्वारा दी जाती है। इस प्रकार, $$\\beta _{equilibrium}$$ संतुलन में बने X के मोल की संख्या है। प्रतिक्रिया को 2 बार के स्थिर कुल दबाव पर किया जाता है। गैसों को आदर्श रूप से व्यवहार करने दें।\n(दी गई $$R = 0.083 L bar K<sup>-1</sup> mol<sup>-1</sup>)\n<br>\n<b>प्रश्न</b><br>\n298 K पर इस प्रतिक्रिया के लिए संतुलन स्थिरांक K<sub>p</sub>, $$\\beta _{equilibrium}$$ के रूप में है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{8\\beta _{equilibrium}^2} \\over {2 - {\\beta _{equilibrium}}}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{8\\beta _{equilibrium}^2} \\over {4 - {\\beta _{equilibrium}^2}}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{4\\beta _{equilibrium}^2} \\over {2 - {\\beta _{equilibrium}}}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${{4\\beta _{equilibrium}^2} \\over {4 - {\\beta _{equilibrium}^2}}}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "paragraph-thermal-decomposition-of-gaseous-x2-to-gaseous-x-a-2016-marks-4-jym1nbe24gml80dv.htm",
+      "timeAllotted": 200000,
+      "topic": "chemical-equilibrium-law-of-mass-action-and-equilibrium-constant",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "Paragraph\nThermal decomposition of gaseous X2 to gaseous X at 298 K takes place according to the following equations:\nX2 (g) $$\\leftrightharpoons$$ 2X (g)\nThe standard reaction Gibbs energy, $$\\Delta _rG^o$$, of this reaction is positive. A..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "पैरा\nगैसिय X2 के 298 K पर गैसिय $$X$$ में थर्मल अपघटन निम्नलिखित समीकरणों के अनुसार होता है:\nX2 (g) $$\\leftrightharpoons$$ 2X (g)\nइस प्रतिक्रिया का मानक प्रतिक्रिया गिब्स ऊर्जा, $$\\Delta _rG^o$$, सकारात्मक है। प्रतिक्रिया के प्रारंभ में, एक..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v4anm5dkdsqnh68qxwgs",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "chemical-equilibrium",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<b>Paragraph</b><br>\nThermal decomposition of gaseous X<sub>2</sub> to gaseous X at 298 K takes place according to the following equations:<br>\nX<sub>2</sub> (g) $$\\leftrightharpoons$$ 2X (g)<br>\nThe standard reaction Gibbs energy, $$\\Delta _rG^o$$, of this reaction is positive. At the start of the reaction, there is one mole of X<sub>2</sub> and no X. As the reaction proceeds, the number of moles of X formed is given by $$\\beta$$. Thus, $$\\beta _{equilibrium}$$ is the number of moles of X formed at equilibrium. The reaction is carried out at a constant total pressure of 2 bar. Consider the gases to behave ideally.\n(Given R = 0.083 L bar K<sup>-1</sup> mol<sup>-1</sup>)\n<br>\n<b>Question</b><br>\nThe INCORRECT statement among the following for this reaction, is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Decrease in the total pressure will result in formation of more moles of gaseous X"
+            },
+            {
+              "identifier": "B",
+              "content": "At the start of the reaction, dissociation of gaseous X<sub>2</sub> takes place spontaneously"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{\\beta _{equilibrium}}}$$ = 0.7"
+            },
+            {
+              "identifier": "D",
+              "content": "K<sub>c</sub> &lt; 1"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "On decreasing total pressure, the reaction will move in the forward direction where number of gaseous molecules is less.<br><br>Hence, option (A) is correct.<br><br>At the start of reaction Q = 0. From $$\\Delta$$G = $$\\Delta$$G<sup>o</sup> + RT lnQ, we have that for Q = 0 at the start of reaction $$\\Delta$$<sub>r</sub>G is negative, this causes dissociation of X<sub>2</sub> to take place spontaneously.<br><br>Hence, option (B) is correct.<br><br>If b<sub>equilibrium</sub> = 0.7, then value of equilibrium constant is<br><br>$${K_p} = {{8\\beta _{eq}^2} \\over {4 - \\beta _{eq}^2}} = {{8{{(0.7)}^2}} \\over {7 - {{(0.7)}^2}}}$$<br><br>The value of K<sub>p</sub> is greater than 1, which is not possible as given that $$\\Delta$$G<sup>o</sup> &gt; 0 for the reaction.<br><br>Hence, option (C) is incorrect.<br><br>As $$\\Delta$$G<sup>o</sup> &gt; 0 and $$\\Delta$$G<sup>o</sup> = $$-$$RT ln(K<sub>p</sub>)<br><br>$$\\Delta$$G<sup>o</sup> &gt; 1, so K<sub>p</sub> should be less than 1.<br><br>We know that<br><br>$${K_p} = {K_c}{(RT)^{\\Delta {n_g}}}$$<br><br>$${K_c} = {{{K_p}} \\over {{{(RT)}^{\\Delta {n_g}}}}}$$<br><br>Therefore, K<sub>c</sub> &lt; K<sub>p</sub> . As K<sub>p</sub> is less than 1, so K<sub>c</sub> is also less than 1.<br><br>Hence, option (D) is correct."
+        },
+        "hi": {
+          "content": "<b>पैराग्राफ</b><br>\nगैसीय X<sub>2</sub> का गैसीय X में 298 K पर थर्मल अपघटन निम्नलिखित समीकरणों के अनुसार होता है:<br>\nX<sub>2</sub> (g) $$\\leftrightharpoons$$ 2X (g)<br>\nइस अभिक्रिया की मानक प्रतिक्रिया गिब्स ऊर्जा, $$\\Delta _rG^o$$, धनात्मक है। प्रतिक्रिया की शुरुआत में, X<sub>2</sub> का एक मोल है और X नहीं है। जैसे-जैसे प्रतिक्रिया आगे बढ़ती है, X के उत्पन्न होने वाले मोलों की संख्या $$\\beta$$ से दी जाती है। इस प्रकार, $$\\beta _{equilibrium}$$ वह संख्या है जो संतुलन पर उत्पन्न होती है। प्रतिक्रिया को 2 बार के स्थिर कुल दबाव पर संचालित किया जाता है। गैसों को आदर्श समझें।\n(दी गई R = 0.083 L bar K<sup>-1</sup> mol<sup>-1</sup>)\n<br>\n<b>प्रश्न</b><br>\nइस प्रतिक्रिया के लिए निम्नलिखित में से कौन सा कथन गलत है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "कुल दबाव में कमी से अधिक गैसीय X के मोल उत्पन्न होंगे"
+            },
+            {
+              "identifier": "B",
+              "content": "प्रतिक्रिया की शुरुआत में, गैसीय X<sub>2</sub> का विघटन स्वतःस्फूर्त होता है"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{\\beta _{equilibrium}}}$$ = 0.7"
+            },
+            {
+              "identifier": "D",
+              "content": "K<sub>c</sub> &lt; 1"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "paragraph-thermal-decomposition-of-gaseous-x2-to-gaseous-x-a-2016-marks-4-skdehwf8rwabuzg3.htm",
+      "timeAllotted": 200000,
+      "topic": "chemical-equilibrium-law-of-mass-action-and-equilibrium-constant",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "Paragraph\nThermal decomposition of gaseous X2 to gaseous X at 298 K takes place according to the following equations:\nX2 (g) $$\\leftrightharpoons$$ 2X (g)\nThe standard reaction Gibbs energy, $$\\Delta _rG^o$$, of this reaction is positive. A..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "पैराग्राफ\nगैसीय X2 का गैसीय X में 298 K पर थर्मल अपघटन निम्नलिखित समीकरणों के अनुसार होता है:\nX2 (g) $$\\leftrightharpoons$$ 2X (g)\nइस अभिक्रिया की मानक प्रतिक्रिया गिब्स ऊर्जा, $$\\Delta _rG^o$$, धनात्मक है। प्रतिक्रिया की शुरुआत में, X2 का ..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ragiksiltvholoh857r2",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "chemical-equilibrium",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The thermal dissociation equilibrium of CaCO<sub>3</sub>(s) is studied under different conditions<br>\n<br/>CaCO<sub>3</sub>(s) $$\\leftrightharpoons$$ CaO(s) + CO<sub>2</sub>(g).<br/><br/> For this equilibrium, the correct statement(s) is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\Delta H$$ is dependent on T"
+            },
+            {
+              "identifier": "B",
+              "content": "K is independent of the initial amount of CaCO<sub>3</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "K is dependent on the pressure of CO<sub>2</sub> at a given T"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\Delta H$$ is independent of catalyst, if any"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The thermal decomposition of limestone (CaCO<sub>3</sub>) is represented as:</p>\n\n<p>$$ \\mathrm{CaCO}_3(\\mathrm{s}) \\rightleftharpoons \\mathrm{CaO}(\\mathrm{s}) + \\mathrm{CO}_2(\\mathrm{g}), \\Delta_r \\mathrm{H} = \\text {positive} $$</p>\n\n<p>The reaction is endothermic, meaning it requires heat to proceed.</p>\n\n<p>(i) The forward reaction is endothermic (ΔH &gt; 0), indicating heat absorption, while the reverse reaction is exothermic (ΔH &lt; 0), indicating heat release.</p>\n\n<p>Therefore, increasing the temperature will favor the forward reaction, leading to more CaCO<sub>3</sub> dissociation. Conversely, decreasing the temperature will favor the reverse reaction. Option (A) is correct.</p>\n\n<p>The equilibrium constant (K) varies with temperature but does not depend on the concentration of any species in an aqueous solution or the pressure of gases such as CO<sub>2</sub>. Option (B) is correct.</p>\n\n<p>(ii) The equilibrium constant (K) for the reaction is expressed as:</p>\n\n<p>$$ \\mathrm{K}_{\\mathrm{C}} = [\\mathrm{CO}_2] $$</p>\n\n<p>Because CaCO<sub>3</sub> and CaO are solids, their concentrations do not affect the equilibrium constant. Option (B) is correct.</p>\n\n<p>(iii) At a given temperature, the equilibrium constant in terms of pressure (K<sub>P</sub>) depends on the vapour pressure of CO<sub>2</sub>.</p>\n\n<p>$$ \\mathrm{K}_{\\mathrm{P}} = \\mathrm{P}_{\\mathrm{CO}_2} $$</p>\n\n<p>The equilibrium constant (K<sub>C</sub>) also depends on the pressure of CO<sub>2</sub>:</p>\n\n<p>$$ \\mathrm{K}_{\\mathrm{C}} = \\mathrm{P}_{\\mathrm{CO}_2} (\\mathrm{RT})^{-\\Delta n} $$</p>\n\n<p>Option (C) is correct.</p>\n\n<p>The temperature dependence of the Arrhenius constant is given by:</p>\n\n<p>$$ \\ln \\frac{\\mathrm{K}_2}{\\mathrm{K}_1} = \\frac{\\Delta_r \\mathrm{H}}{\\mathrm{R}} \\left[ \\frac{1}{\\mathrm{T}_2} - \\frac{1}{\\mathrm{T}_1} \\right] $$</p>\n\n<p>(iv) A catalyst alters the activation energy of the reaction, thus affecting its speed. However, it does not change the enthalpy or heat of the reactants and products. As a result, the enthalpy of the reaction ($\\Delta_r H$) remains unchanged. Option (D) is correct.</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzoxo3z8/dc5de08c-4009-4b2a-b7e3-a6863707a93b/ab8f4730-5787-11ef-8c18-492e14d7f200/file-jaoe38c1lzoxo3z9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzoxo3z8/dc5de08c-4009-4b2a-b7e3-a6863707a93b/ab8f4730-5787-11ef-8c18-492e14d7f200/file-jaoe38c1lzoxo3z9.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2013 Paper 2 Offline Chemistry - Chemical Equilibrium Question 12 English Explanation\">\n\n<p>Δ<sub>r</sub>H is the enthalpy of the reaction.</p>"
+        }
+      },
+      "permalink": "the-thermal-dissociation-equilibrium-of-caco3s-is-studied-2013-marks-3-hqcwb0vxnbrke7rf.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "topic": "chemical-equilibrium-law-of-mass-action-and-equilibrium-constant",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "The thermal dissociation equilibrium of CaCO3(s) is studied under different conditions\nCaCO3(s) $$\\leftrightharpoons$$ CaO(s) + CO2(g). For this equilibrium, the correct statement(s) is (are)"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "question_id": "ejrn5wb4s3txrmc10cl7",
+      "chapter": "chemical-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "pthe-equilibriump-p2cui-to-cucirc--cuii-jee-advanced-chemistry-some-basic-concepts-of-chemistry-zmakufuu0v6a25fz",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The equilibrium</p>\n<p>$$2C{u^+} \\to Cu^\\circ  + C{u^{2+}}$$</p>\n<p>In aqueous medium at 25$$^\\circ$$C shifts towards the left in the presence of</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "NO$$_3^ - $$"
+            },
+            {
+              "identifier": "B",
+              "content": "Cl<sup>$$-$$</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "SCN<sup>$$-$$</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "CN<sup>$$-$$</sup>"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>For the equilibrium reaction in aqueous medium :</p>\n<p>$$ 2 \\mathrm{Cu}^{+} \\rightleftharpoons \\mathrm{Cu}^0+\\mathrm{Cu}^{2+} $$</p>\n<p>(i) If concentration of copper (I) is reduced, then according to Le-chatelier's principle the equilibrium reaction will shift backward.</p>\n<p>(ii) The copper (II) ion reacts with chloride $\\left(\\mathrm{Cl}^{-}\\right)$ion forming copper (III) chloride, which reacts with copper to produce the precipitate of CuCl .</p>\n<p>$$ \\begin{aligned} & \\mathrm{Cu}^{2+}+2 \\mathrm{Cl}^{-} \\rightarrow \\mathrm{CuCl}_2 \\\\\\\\ & \\mathrm{CuCl}_2+\\mathrm{Cu} \\rightarrow 2 \\mathrm{CuCl} \\end{aligned} $$</p>\n<p>Since, the end product involves consumption of copper (I) ion to form CuCl , hence, reactive shifts backward.</p>\n<p>(iii) The copper (II) ion also reacts with cyanide $\\left(\\mathrm{CN}^{-}\\right)$ion forming copper (II) cyanide which on further reactions form $\\left[\\mathrm{Cu}(\\mathrm{CN})_4\\right]^{3-}$ with copper in (I) oxidation state shifting reaction backward.</p>\n<p>$$ \\begin{aligned} \\mathrm{Cu}^{2+}+2 \\mathrm{CN}^{-} & \\rightarrow \\mathrm{Cu}(\\mathrm{CO})_2 \\\\\\\\ 2 \\mathrm{Cu}(\\mathrm{CN})_2 & \\rightarrow 2 \\mathrm{CuCN}+(\\mathrm{CN})_2 \\\\\\\\ \\mathrm{CuCN}+3 \\mathrm{CN}^{-} & \\rightarrow\\left[\\mathrm{Cu}(\\mathrm{CN})_4\\right]^{3-} \\end{aligned} $$</p>\n<p>(iv) Reaction of copper (II) ion with thiocyanide $\\left(\\mathrm{SCN}^{-}\\right)$gives a complex $\\left(\\mathrm{Cu}(\\mathrm{SCN})_4\\right]^{3-}$ with copper in +1 oxidation state. This shifts reaction backward.</p>\n<p>$$ \\mathrm{Cu}^{2+}+4 \\mathrm{SCN}^{-} \\rightarrow\\left[\\mathrm{Cu}(\\mathrm{SCN})_4\\right]^{3-} $$</p>\n<p>Hence, cyanide, thiocyanide and chloride forms complexes with copper in I oxidation state. Hence, reaction shifts backward to generate more copper (I) ions.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "le-chateliers-principle-and-factors-affecting-chemical-equilibrium",
+      "type": "mcqm",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "The equilibrium\n$$2C{u^+} \\to Cu^\\circ  + C{u^{2+}}$$\nIn aqueous medium at 25$$^\\circ$$C shifts towards the left in the presence of"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "6mr19d89jarncqz2rvxl",
+      "chapter": "chemical-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pstatement-1--for-every-chemical-reaction-at-equilibrium-jee-advanced-chemistry-some-basic-concepts-of-chemistry-yi45reswxwbh8t71",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Statement 1 : For every chemical reaction at equilibrium, standard Gibbs energy of reaction is zero.</p>\n<p>and</p>\n<p>Statement 2 : At constant temperature and pressure, chemical reactions are spontaneous in the direction of decreasing Gibbs energy.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement 1 is True, Statement 2 is True; Statement 2 is correct explanation for Statement 1."
+            },
+            {
+              "identifier": "B",
+              "content": "Statement 1 is True, Statement 2 is True; Statement 2 is NOT correct explanation for Statement 1."
+            },
+            {
+              "identifier": "C",
+              "content": "Statement 1 is True, Statement 2 is False."
+            },
+            {
+              "identifier": "D",
+              "content": "Statement 1 is False, Statement 2 is True."
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The Gibbs free energy varies from standard value as a function of temperature and equilibrium constant.</p>\n<p>$$\\Delta$$G = $$\\Delta$$G$$^\\circ$$ + RT ln K$$_{eq}$$</p>\n<p>The standard Gibbs energy for a reaction is given by $$\\Delta$$G$$^\\circ$$.</p>\n<p>At equilibrium, $$\\Delta$$G = 0whereas $$\\Delta$$G$$^\\circ$$ for a reaction may or may not be zero.</p>\n<p>$$\\Delta$$G$$^\\circ$$ = $$-$$RT ln K$$_{eq}$$</p>\n<p>For a spontaneous process, Gibbs energy for a reaction is always negative, $$\\Delta$$G < 0.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "chemical-equilibrium-law-of-mass-action-and-equilibrium-constant",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "Statement 1 : For every chemical reaction at equilibrium, standard Gibbs energy of reaction is zero.\nand\nStatement 2 : At constant temperature and pressure, chemical reactions are spontaneous in the direction of decreasing Gibbs energy."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "3znp0xmmde5wb8fkr9yq",
+      "chapter": "chemical-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "p-beginaligned--mathrmagmathrmnh3-quad-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ixmdzps7giu9xq65",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>$$ \\begin{aligned} & \\mathrm{Ag}^{+}+\\mathrm{NH}_3 \\quad\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)\\right]^{+} \\\\ & k_1=3.5 \\times 10^{-3} \\\\ & {\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right]^{+}+\\mathrm{NH}_3 \\quad\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2\\right]^{+}\\right.} \\end{aligned} $$</p>\n<p>$k_2=1.7 \\times 10^{-3}$, then the formation constant of $\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2\\right]^{+}$ is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$6.08 \\times 10^{-6}$</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$6.08 \\times 10^6$</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$6.08 \\times 10^{-9}$</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>None of these</p>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>In complex $\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2\\right]^{+}$, the central metal ion is Ag and $\\mathrm{NH}_3$ groups are ligands. The formation constant is denoted by $\\mathrm{K}_f$.</p>\n<p>$$ \\mathrm{Ag}^{+}+2 \\mathrm{NH}_3 \\rightleftharpoons\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2\\right]^{+} $$</p>\n<p>The chemical reactions involved in the formation of $\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2\\right]^{+}$complex are given below:</p>\n<p>Step 1: $\\mathrm{Ag}^{+}+\\mathrm{NH}_3 \\rightleftharpoons\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)^{+}\\right] ; \\mathrm{K}_1=3.5 \\times 10^{-3}$</p>\n<p>Step 2: $\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)\\right]^{+} \\mathrm{NH}_3 \\rightleftharpoons\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2\\right]^{+}$;$$ \\mathrm{K}_2=1.7 \\times 10^{-3} $$</p>\n<p>In the formation of $\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)_2\\right]^{+}$, two steps. The value of $\\mathrm{K}_f$ can be obtained by following Formula:</p>\n<p>$$ \\mathrm{K}_f=k_1 \\times k_2 $$</p>\n<p>Substitute the values in the above formula,</p>\n<p>$$ \\begin{array}{ll}  & \\mathrm{K}_f=3.5 \\times 10^{-3} \\times 1.7 \\times 10^{-3} \\\\ \\therefore & \\mathrm{~K}_f=5.95 \\times 10^{-6} \\end{array} $$</p>\n<p>The $\\mathrm{K}_f$ value does not match with values in options A, B and C.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 200000,
+      "topic": "chemical-equilibrium-law-of-mass-action-and-equilibrium-constant",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "$$ \\begin{aligned} & \\mathrm{Ag}^{+}+\\mathrm{NH}_3 \\quad\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right)\\right]^{+} \\\\ & k_1=3.5 \\times 10^{-3} \\\\ & {\\left[\\mathrm{Ag}\\left(\\mathrm{NH}_3\\right]^{+}+\\mathrm{NH}_3 \\quad\\left[\\mathrm{Ag}\\left(\\math..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "bpkmrduhmnhzd5d0xd27",
+      "chapter": "chemical-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "p-mathrmn23-mathrmh2-quad-2-mathrmnh3--jee-advanced-chemistry-some-basic-concepts-of-chemistry-lqcy1hqwe1lquczy",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>$$ \\mathrm{N}_2+3 \\mathrm{H}_2 \\to 2 \\mathrm{NH}_3 $$</p>\n<p>Which is the correct statement if $\\mathrm{N}_2$ is added at equilibrium condition?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>The equilibrium will shift to forward direction because according to second law of thermodynamics, the entropy must increase in the direction of spontaneous reaction.</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>The condition for equilibrium is $\\mathrm{G}_{\\mathrm{N}_2}+3 \\mathrm{G}_{\\mathrm{H}_2} \\quad 2 \\mathrm{G}_{\\mathrm{NH}_3}$ where G is Gibbs free energy per mole of the gaseous species measured at that partial pressure. The condition of equilibrium is unaffected by the use of catalyst, which increases the rate of both the forward and backward reactions to the same extent.</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>The catalyst will increase the rate of forward reaction by and that of backward reaction by $\\beta$.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p> Catalyst will not alter the rate of either of the reaction.</p>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The chemical reaction for formation of $\\mathrm{NH}_3$ is reversible in nature.</p>\n<p>Forward reaction: $\\mathrm{N}_2+3 \\mathrm{H}_2 \\rightarrow 2 \\mathrm{NH}_3$</p>\n<p>$$ \\mathrm{N}_2+3 \\mathrm{H}_2 \\rightleftharpoons \\mathrm{~K}_{\\mathrm{c}} 2 \\mathrm{NH}_3 $$</p>\n<p>Backward reaction: $2 \\mathrm{NH}_3 \\rightarrow \\mathrm{~N}_2+3 \\mathrm{H}_2$</p>\n<p>The equilibrium constant $K_c$ in terms of concentration of reactants and products for the reaction is given below:</p>\n<p>$$ \\mathrm{K}_c=\\frac{\\left[\\mathrm{NH}_3\\right]^2}{\\left[\\mathrm{~N}_2\\right]\\left[\\mathrm{H}_2\\right]^3} $$</p>\n<p>The equilibrium constant $\\mathrm{K}_p$ in terms of partial pressure of reactants and products for the reaction is given below :</p>\n<p>$$ \\mathrm{K}_p=\\frac{\\left(\\mathrm{p}_{\\mathrm{NH}_3}\\right)^2}{\\mathrm{p}_{\\mathrm{N}_2}\\left(\\mathrm{p}_{\\mathrm{H}_2}\\right)^3} $$</p>\n<p>At constant temperature, the values for $\\mathrm{K}_c$ and $\\mathrm{K}_p$ remain constant.</p>\n<p>When $\\mathrm{N}_2$ is added at equilibrium condition during this reaction, lowering of activation energy for both forward and backward reaction occurs in the presence of catalyst. This leads to increases in the rate of both forward and backward to the same extent. Thus, addition of catalyst helps in establishing equilibrium in less time. This means that there is increase in the concentration of both reactants and products in same order by catalyst. Thus, the value of $\\mathrm{K}_c$ and $\\mathrm{K}_p$ will remain unaffected, keeping the equilibrium state of the reaction unaffected by catalyst.</p>\n<p>As there is no change in equilibrium condition, the Gibbs free energy will be zero.</p>\n<p>Hence, $\\Delta \\mathrm{G}=0$</p>\n<p>Thus, $\\Delta \\mathrm{G}$ for complete reaction is,</p>\n<p>$$ \\begin{aligned} \\Delta \\mathrm{G} & =\\mathrm{G}_{\\text {products }}-\\mathrm{G}_{\\text {reactants }} \\\\ \\Delta \\mathrm{G} & =\\left(2 \\mathrm{G}_{\\mathrm{NH}_3}\\right)-\\left(3 \\mathrm{G}_{\\mathrm{H}_2}+\\mathrm{G}_{\\mathrm{N}_2}\\right) \\\\ 2 \\mathrm{G}_{\\mathrm{NH}_3} & =\\mathrm{G}_{\\mathrm{N}_2}+3 \\mathrm{G}_{\\mathrm{H}_2} \\end{aligned} $$</p>\n<p>Here, G is Gibbs free energy per mole of the gaseous species measured at that partial pressure.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 200000,
+      "topic": "le-chateliers-principle-and-factors-affecting-chemical-equilibrium",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "$$ \\mathrm{N}_2+3 \\mathrm{H}_2 \\to 2 \\mathrm{NH}_3 $$\nWhich is the correct statement if $\\mathrm{N}_2$ is added at equilibrium condition?"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "tozqlw4kgtwb1hnyonva",
+      "exam": "jee-advanced",
+      "marks": 7,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "chemical-equilibrium",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "When 3.06 g of solid NH<sub>4</sub>HS is introduced into a two litre evacuated flask at 27<sup>o</sup> C, 30% of the solid decomposes into gaseous ammonia and hydrogen sulphide. (i) K<sub>c</sub> and K<sub>p</sub> for the reaction at 27<sup>o</sup> C<sub></sub> (ii) What would happen to the equilibrium when more solid NH<sub>4</sub>HS is introduced into the flask?",
+          "options": [],
+          "correct_options": [],
+          "answer": "8.1 $$\\times$$ 10<sup>-5</sup> mol<sup>2</sup> l<sup>-2</sup>, 4.78 $$\\times$$ 10<sup>-2</sup> atm<sup>2</sup><sup></sup>",
+          "explanation": "<p>The reaction involved is NH<sub>4</sub>HS(g) $$\\rightleftharpoons$$ NH<sub>3</sub>(g) + H<sub>2</sub>S(g).</p>\n<p>Mass of ammonium hydrogen sulphide decomposed $$ = {{3.06 \\times 30} \\over {100}} = 0.918$$ g</p>\n<p>Moles of NH<sub>4</sub>HS decomposed $$ = {{0.918} \\over {51}} = 0.018$$</p>\n<p>Moles of ammonia formed = 0.018 ; Moles of hydrogen sulphide formed = 0.018</p>\n<p>Thus, $$[N{H_3}] = {{0.018} \\over 2} = 0.009$$ M ; $$[{H_2}S] = {{0.018} \\over 2} = 0.009$$ M</p>\n<p>Applying the law of chemical equilibrium on the reaction involved.</p>\n<p>$${K_c} = {{[N{H_3}(g)][{H_2}s(g)]} \\over {[N{H_4}HS]}} = {{0.009 \\times 0.009} \\over 1}$$ (Molar conc. of solid is equal to one)</p>\n<p>$$ = 8.1 \\times {10^{ - 5}}$$</p>\n<p>$$\\therefore$$ $${K_p} = {K_c} \\times {(RT)^{\\Delta n}}$$</p>\n<p>Here R = 0.081 lit atm K<sup>$$-$$1</sup> mol<sup>$$-$$1</sup> , T = 27$$^\\circ$$C = 300 K ; $$\\Delta$$<sup>n</sup> = 2</p>\n<p>Substituting the values, we get $${K_c} = 8.1 \\times {10^{ - 5}} \\times {(0.081 \\times 300)^2} = 4.78 \\times {10^{ - 2}}$$</p>"
+        }
+      },
+      "permalink": "when-30-g-of-solid-nh4hs-is-introduced-into-a-two-litre-eva-1999-marks-7-1qaejvgvw8z6vak2.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "topic": "chemical-equilibrium-law-of-mass-action-and-equilibrium-constant",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Chemical Equilibrium • Chemistry",
+          "excerpt": "When 3.06 g of solid NH4HS is introduced into a two litre evacuated flask at 27o C, 30% of the solid decomposes into gaseous ammonia and hydrogen sulphide. (i) Kc and Kp for the reaction at 27o C (ii) What would happen to the equilibrium wh..."
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    }
+  ]
+}

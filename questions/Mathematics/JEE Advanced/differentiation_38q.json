@@ -1,0 +1,2277 @@
+{
+  "questions": [
+    {
+      "question_id": "k5jwvd37x0rydi7n5ew0",
+      "chapter": "differentiation",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "plet-mathbbr-denote-the-set-of-all-real-numbers-cons-jee-advanced-mathematics-wtokrmfgtdt0pvkq",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $\\mathbb{R}$ denote the set of all real numbers. Consider the polynomial function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by</p>\n<p>$$ f(x)=\\frac{d^{10}}{d x^{10}}\\left(\\left(x^2-1\\right)^{10}\\right), \\quad \\text { for all } x \\in \\mathbb{R} $$</p>\n<p>Here $\\frac{d^{10}}{d x^{10}}\\left(\\left(x^2-1\\right)^{10}\\right)$ is the $10^{\\text {th }}$ order derivative of the function $\\left(x^2-1\\right)^{10}$.</p>\n<p>Then which of the following statements is (are) TRUE ?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>The coefficient of $x^8$ in the polynomial $f(x)$ is $(-10)\\left( \\frac{18!}{8!} \\right)$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>The value of $f(1) + f(-1)$ is equal to $10! \\cdot 2^{11}$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>The degree of the polynomial $f(x)$ is $10$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>The constant term of the polynomial $f(x)$ is $- \\left( \\frac{10!}{5!} \\right)$</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Let us first expand the given function:</p>\n<p>$$ g(x) = (x^2 - 1)^{10} $$</p>\n<p>Using the binomial theorem, we get:</p>\n<p>$$ g(x) = {^{10}C_0}x^{20} - {^{10}C_1}x^{18} + {^{10}C_2}x^{16} - \\cdots + (-1)^{10}{^{10}C_{10}} $$</p>\n<p>Now, the function is defined as:</p>\n<p>$$ f(x) = \\frac{d^{10}}{dx^{10}} \\left( (x^2 - 1)^{10} \\right) $$</p>\n<p>This means we need to take the 10th derivative of each term of $ g(x) $. When we differentiate $ x^{20}, x^{18}, \\ldots $ ten times, their powers will reduce by 10 at each differentiation step. Hence:</p>\n<p>$$ f(x) = {^{10}C_0} (20 \\cdot 19 \\cdot \\ldots \\cdot 11)x^{10} - {^{10}C_1}(18 \\cdot 17 \\cdot \\ldots \\cdot 9)x^8 + {^{10}C_2}(16 \\cdot 15 \\cdot \\ldots \\cdot 7)x^6 - \\cdots - {^{10}C_5}(10 \\cdot 9 \\cdot 8 \\cdots 1) $$</p>\n<p><b>(A)</b> The coefficient of $ x^8 $ is obtained from the second term:</p>\n<p>$$ \\text{Coefficient of } x^8 = (-1)^{1} {^{10}C_1} \\frac{18!}{8!} = (-10)\\left( \\frac{18!}{8!} \\right) $$</p>\n<p><b>(B)</b> Since $ g(x) = (x^2 - 1)^{10} $ is an even function, its even-order derivatives (like the 10th derivative) are also even. Therefore,</p>\n<p>$$ f(1) = f(-1) $$</p>\n<p>The sum can be written as:</p>\n<p>$$ \\begin{aligned}  f(1) + f(-1) &= 2\\left[ \\frac{20!}{10!} - {^{10}C_1}\\frac{18!}{8!} + {^{10}C_2}\\frac{16!}{6!} - {^{10}C_3}\\frac{14!}{4!} + {^{10}C_4}\\frac{12!}{2!} - {^{10}C_5}(10!) \\right] \\\\ &= 2 \\times 10! \\left[ {^{10}C_0}{^{20}C_{10}} - {^{10}C_1}{^{18}C_{10}} + {^{10}C_2}{^{16}C_{10}} - {^{10}C_3}{^{14}C_{10}} + {^{10}C_4}{^{12}C_{10}} - {^{10}C_5}{^{10}C_{10}} \\right] \\end{aligned} $$</p>\n<p>This expression equals twice the coefficient of $ x^{10} $ in $ ((1 + x)^2 - 1)^{10} $. Hence:</p>\n<p>$$ f(1) + f(-1) = 10! \\times 2^{11} $$</p>\n<p><b>(C)</b> After differentiating $ (x^2 - 1)^{10} $ ten times, the highest power of $ x $ left is $ x^{10} $. Therefore,</p>\n<p>$$ \\text{Degree of } f(x) = 10 $$</p>\n<p><b>(D)</b> The constant term comes from the last term where the power of $ x $ becomes zero after the 10th derivative, which is:</p>\n<p>$$ \\text{Constant term} = \\frac{ - (10!)^2 }{ 5! \\times 5! } $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "successive-differentiation",
+      "type": "mcqm",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $\\mathbb{R}$ denote the set of all real numbers. Consider the polynomial function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by\n$$ f(x)=\\frac{d^{10}}{d x^{10}}\\left(\\left(x^2-1\\right)^{10}\\right), \\quad \\text { for all } x \\in \\math..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "qam4e57cbv1y7eeapgre",
+      "chapter": "differentiation",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "let-s-be-the-set-of-all-twice-differentiable-functions-f-jee-advanced-mathematics-coyxqqj8otw9xwkm",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Let $S$ be the set of all twice differentiable functions $f$ from $\\mathbb{R}$ to $\\mathbb{R}$ such that $\\frac{d^2 f}{d x^2}(x)>0$ for all $x \\in(-1,1)$. For $f \\in S$, let $X_f$ be the number of points $x \\in(-1,1)$ for which $f(x)=x$. Then which of the following statements is(are) true?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "There exists a function $f \\in S$ such that $X_f=0$"
+            },
+            {
+              "identifier": "B",
+              "content": "For every function $f \\in S$, we have $X_f \\leq 2$"
+            },
+            {
+              "identifier": "C",
+              "content": "There exists a function $f \\in S$ such that $X_f=2$"
+            },
+            {
+              "identifier": "D",
+              "content": "There does NOT exist any function $f$ in $S$ such that $X_f=1$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "$S=$ Set of all twice differentiable functions $\\mathrm{f}: \\mathrm{R} \\rightarrow$ R\n<br><br>$$\n\\frac{\\mathrm{d}^2 \\mathrm{f}}{\\mathrm{dx}^2}&gt;0 \\text { in }(-1,1)\n$$\n\n<br><br>Graph ' $\\mathrm{f}$ ' is Concave upward.\n<br><br>Number of solutions of $f(x)=x \\rightarrow x_f$\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lvdssv63/0e634bfe-74bb-45be-b6d5-526e4ad6d42f/257ef9b0-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssv64.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lvdssv63/0e634bfe-74bb-45be-b6d5-526e4ad6d42f/257ef9b0-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssv64.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Mathematics - Differentiation Question 2 English Explanation 1\">\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lvdssqrk/c7252881-6a3e-4432-9280-5f0ac7f6df26/22182800-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssqrl.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lvdssqrk/c7252881-6a3e-4432-9280-5f0ac7f6df26/22182800-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssqrl.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Mathematics - Differentiation Question 2 English Explanation 2\">\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lvdssmdl/8839ddf0-48ab-4f09-9137-1f64a2f6ee94/1eb48aa0-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssmdm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lvdssmdl/8839ddf0-48ab-4f09-9137-1f64a2f6ee94/1eb48aa0-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssmdm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Mathematics - Differentiation Question 2 English Explanation 3\">\n<br>$\\Rightarrow$ Graph of $y=f(x)$ can intersect graph of $y=x$ at atmost two points $\\Rightarrow 0 \\leq x_f \\leq 2$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "माना कि_ $S$ उन दो बार अवकलनीय (twice differentiable) फलनों $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ का समुच्चय है जो इस प्रकार हैं कि सभी $x \\in(-1,1)$ के लिए $\\frac{d^2 f}{d x^2}(x)>0$ है। फलन $f \\in S$ के लिए, माना कि $X_f$ उन बिन्दुओं $x \\in(-1,1)$ कि संख्या है जिनके लिए $f(x)=x$ है। तब निम्न में से कौन सा (से) कथन सत्य है (हैं)?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "एक फलन $f \\in S$ का अस्तित्व है जिसके लिए $X_f=0$"
+            },
+            {
+              "identifier": "B",
+              "content": "सभी फलनों $f \\in S$ के लिए, $X_f \\leq 2$ है"
+            },
+            {
+              "identifier": "C",
+              "content": " एक फलन $f \\in S$ का अस्तित्व है जिसके लिए $X_f=2$"
+            },
+            {
+              "identifier": "D",
+              "content": "$S$ में ऐसे किसी फलन $f$ का अस्तित्व नहीं है जिसके लिए $X_f=1$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "$S=$ सभी दो बार अवकलनीय फलनों का समुच्चय $\\mathrm{f}: \\mathrm{R} \\rightarrow$ R\n<br><br>$$\n\\frac{\\mathrm{d}^2 \\mathrm{f}}{\\mathrm{dx}^2}&gt;0 \\text { में }(-1,1)\n$$\n\n<br><br>ग्राफ '$\\mathrm{f}$' ऊपर की ओर अवतल है।\n<br><br>$f(x)=x \\rightarrow x_f$ के हलों की संख्या\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lvdssv63/0e634bfe-74bb-45be-b6d5-526e4ad6d42f/257ef9b0-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssv64.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lvdssv63/0e634bfe-74bb-45be-b6d5-526e4ad6d42f/257ef9b0-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssv64.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Mathematics - Differentiation Question 2 Hindi Explanation 1\">\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lvdssqrk/c7252881-6a3e-4432-9280-5f0ac7f6df26/22182800-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssqrl.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lvdssqrk/c7252881-6a3e-4432-9280-5f0ac7f6df26/22182800-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssqrl.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Mathematics - Differentiation Question 2 Hindi Explanation 2\">\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lvdssmdl/8839ddf0-48ab-4f09-9137-1f64a2f6ee94/1eb48aa0-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssmdm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lvdssmdl/8839ddf0-48ab-4f09-9137-1f64a2f6ee94/1eb48aa0-0237-11ef-97ac-b3d1b70811e4/file-6y3zli1lvdssmdm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Mathematics - Differentiation Question 2 Hindi Explanation 3\">\n<br>$\\Rightarrow$ $y=f(x)$ का ग्राफ, $y=x$ के ग्राफ को अधिकतम दो बिंदुओं पर प्रतिच्छेद कर सकता है $\\Rightarrow 0 \\leq x_f \\leq 2$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "methods-of-differentiation",
+      "type": "mcqm",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $S$ be the set of all twice differentiable functions $f$ from $\\mathbb{R}$ to $\\mathbb{R}$ such that $\\frac{d^2 f}{d x^2}(x)>0$ for all $x \\in(-1,1)$. For $f \\in S$, let $X_f$ be the number of points $x \\in(-1,1)$ for which $f(x)=x$. Th..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "माना कि_ $S$ उन दो बार अवकलनीय (twice differentiable) फलनों $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ का समुच्चय है जो इस प्रकार हैं कि सभी $x \\in(-1,1)$ के लिए $\\frac{d^2 f}{d x^2}(x)>0$ है। फलन $f \\in S$ के लिए, माना कि $X_f$ उन बिन्दुओं $x ..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8r6oey7arzk7cefuzhnw",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$f:\\mathbb{R} \\to \\mathbb{R},\\,g:\\mathbb{R} \\to \\mathbb{R}$$ and $$h:\\mathbb{R} \\to \\mathbb{R}$$ be differentiable functions such that $$f\\left( x \\right)= {x^3} + 3x + 2,$$ $$g\\left( {f\\left( x \\right)} \\right) = x$$ and $$h\\left( {g\\left( {g\\left( x \\right)} \\right)} \\right) = x$$ for all $$x \\in R$$. Then ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$g'\\left( 2 \\right) = {1 \\over {15}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$h'\\left( 1 \\right) = 666$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$h\\left( 0 \\right) = 16$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$h\\left( {g\\left( 3 \\right)} \\right) = 36$$ "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<b>Option (A)</b>: It is given that $f: \\mathbb{R} \\rightarrow \\mathbb{R}, g: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $h: \\mathbb{R} \\rightarrow \\mathbb{R}$ are differentiable functions.<br/><br/>\nNow, $\\quad f(x)=x^3+3 x+2$<br/><br/>\nDifferentiating w.r.t. to $x$, we get<br/><br/>\n$$\nf^{\\prime}(x)=3 x^2+3\n$$<br/><br/>\nAlso,\n$$\ng(f(x))=x\n$$<br/><br/>\nNow,<br/><br/>\n$$\n\\begin{aligned}\n& g^{\\prime}(f(x)) \\cdot f^{\\prime}(x)=1 \\\\\\\\\n& f(x)=2 \\Rightarrow x^3+3 x+2=2 \\\\\\\\\n& \\Rightarrow x^3+3 x=0 \\Rightarrow x\\left(x^2+3\\right)=0 \\\\\\\\\n& \\Rightarrow x=0\n\\end{aligned}\n$$\nNow,<br/><br/>\n$$\ng^{\\prime}(f(0))=\\frac{1}{f^{\\prime}(0)} \\Rightarrow g^{\\prime}(2)=\\frac{1}{3}\n$$<br/><br/>\nHence, option (A) is incorrect.<br/><br/>\n<b>Option (B)</b>: For all $x \\in \\mathbb{R}$ :<br/><br/>\n$$\n\\begin{aligned}\n& h(g(g(f(x)))=x \\\\\\\\\n& h(g(g(x)))=x \\\\\\\\\n& \\text { Now, } \\quad x \\rightarrow f(x) \\Rightarrow h(g(g(f(x)))=f(x) \\\\\\\\\n& \\Rightarrow \\quad h(g(x))=f(x) \\\\\\\\\n& \\Rightarrow \\quad h^{\\prime}(g(x)) \\cdot g^{\\prime}(x)=f^{\\prime}(x)=3 x^2+3~~...(1)\n\\end{aligned}\n$$<br/><br/>\nFor all $x \\in \\mathbb{R}: g(f(x))=x$<br/><br/>\nNow, $\\quad x=1 \\Rightarrow g(f(1))=1 \\Rightarrow g(6)=1 \\quad[\\because f(1)=6]$<br/><br/>\nSubstituting $x=6$ in Eq. (1), we get<br/><br/>\n$$\nh^{\\prime}(g(6)) \\cdot g^{\\prime}(6)=3\\left(6^2\\right)+3=111\n$$<br/><br/>\nTherefore,<br/><br/>\n$$\nh^{\\prime}(1)=\\frac{111}{g^{\\prime}(6)} \\quad\\left(g^{\\prime}(6)=\\frac{1}{f^{\\prime}(1)}\\right)\n$$<br/><br/>\nThat is, $h^{\\prime}(1)=111 \\cdot f^{\\prime}(x)=111 \\times(3+3)=666$<br/><br/>\nHence, option (B) is correct.<br/><br/>\n<b>Option (C)</b>: $h(g(g(x)))=x$.<br/><br/>\nFor $g(g(x))=0$, we have<br/><br/>\n$$\n\\begin{array}{ll} \n& g(x)=g^{-1}(0)=2 \\\\\\\\\n\\Rightarrow & x=g^{-1}(2)=f(2)=16 \\\\\\\\\n\\Rightarrow & h(0)=16\n\\end{array}\n$$<br/><br/>\nHence, option (C) is correct.<br/><br/>\n<b>Option (D)</b>: Here, $g(g(x))=g(3)$ which implies that<br/><br/>\n$$\ng(x)=3 \\Rightarrow x=g^{-1}(3)=f(3)=38\n$$<br/><br/>\nHence, option (D) is incorrect."
+        },
+        "hi": {
+          "content": "मान लें $$f:\\mathbb{R} \\to \\mathbb{R},\\,g:\\mathbb{R} \\to \\mathbb{R}$$ और $$h:\\mathbb{R} \\to \\mathbb{R}$$ अवकलनीय फलन हैं, इतने कि $$f\\left( x \\right)= {x^3} + 3x + 2,$$ $$g\\left( {f\\left( x \\right)} \\right) = x$$ और $$h\\left( {g\\left( {g\\left( x \\right)} \\right)} \\right) = x$$ सभी $$x \\in R$$ के लिए। तो ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$g'\\left( 2 \\right) = {1 \\over {15}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$h'\\left( 1 \\right) = 666$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$h\\left( 0 \\right) = 16$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$h\\left( {g\\left( 3 \\right)} \\right) = 36$$ "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "let-fr-to-rgr-to-r-and-hr-to-r-be-differentiable-functions-s-jee-advanced-2016-marks-4-c4ygbd9wul9rvnou.htm",
+      "timeAllotted": 200000,
+      "topic": "differentiation-of-composite-function",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$f:\\mathbb{R} \\to \\mathbb{R},\\,g:\\mathbb{R} \\to \\mathbb{R}$$ and $$h:\\mathbb{R} \\to \\mathbb{R}$$ be differentiable functions such that $$f\\left( x \\right)= {x^3} + 3x + 2,$$ $$g\\left( {f\\left( x \\right)} \\right) = x$$ and $$h\\left( {g\\..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "मान लें $$f:\\mathbb{R} \\to \\mathbb{R},\\,g:\\mathbb{R} \\to \\mathbb{R}$$ और $$h:\\mathbb{R} \\to \\mathbb{R}$$ अवकलनीय फलन हैं, इतने कि $$f\\left( x \\right)= {x^3} + 3x + 2,$$ $$g\\left( {f\\left( x \\right)} \\right) = x$$ और $$h\\left( {g\\left( {g\\le..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ec17rhi8ekkm9ku4u6x4",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$F:R \\to R$$ be a thrice differentiable function. Suppose that \n<br>$$F\\left( 1 \\right) = 0,F\\left( 3 \\right) =  - 4$$ and $$F'\\left( x \\right) &lt; 0$$ for all $$x \\in \\left( {{1 \\over 2},3} \\right).$$ Let $$f\\left( x \\right) = xF\\left( x \\right)$$ for all $$x \\in R.$$\n<p>The correct statement(s) is (are)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$f'\\left( 1 \\right) &lt; 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$f\\left( 2 \\right) &lt; 0$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$f'\\left( x \\right) \\ne 0$$ for any $$x \\in \\left( {1,3} \\right)$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$f'\\left( x \\right) = 0$$ for some $$x \\in \\left( {1,3} \\right)$$ "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Given,</p>\n<p>F(1) = 0, F(3) = 4</p>\n<p>F'(x) < 0 for all x $$\\in$$(1, 3)</p>\n<p>and f(x) = xF(x)</p>\n<p>Now, f'(x) = F(x) + xF'(x)</p>\n<p>$$\\Rightarrow$$ f'(1) = F(1) + 1 . F'(1)</p>\n<p>$$\\Rightarrow$$ f'(1) = 0 + F'(1) ....... (1)</p>\n<p>As F'(x) < 0 for all x $$\\in$$ (1, 3)</p>\n<p>$$\\therefore$$ F'(1) < 0</p>\n<p>From (1), we get</p>\n<p>f'(1) = F'(1) < 0</p>\n<p>From Lagrange theorem</p>\n<p>$$F'(2) = {{F(3) - F(1)} \\over {3 - 1}}$$</p>\n<p>$$ = {{ - 4 - 0} \\over 2}$$</p>\n<p>= $$-$$2</p>\n<p>As f(x) = xF(x)</p>\n<p>$$\\therefore$$ f(3) = 3 . F(3) = 3 . ($$-$$4) = $$-$$12</p>\n<p>and f(1) = 1 . F(1) = 0</p>\n<p>$$\\therefore$$ $$f'(2) = {{f(3) - f(1)} \\over {3 - 1}}$$</p>\n<p>$$ = {{ - 12} \\over 2} =  - 6$$</p>\n<p>As, f'(x) = F(x) + x . F'(x)</p>\n<p>$$\\therefore$$ f'(2) = F(2) + 2 . F'(2)</p>\n<p>$$ \\Rightarrow  - 6 = {{f(2)} \\over 2} + 2.\\,( - 2)$$</p>\n<p>$$ \\Rightarrow {{f(2)} \\over 2} =  - 2$$</p>\n<p>$$\\Rightarrow$$ f(2) = $$-$$4</p>\n<p>$$\\therefore$$ f(2) < 0</p>\n<p>$$f'(x) = {{f(3) - f(1)} \\over {3 - 1}}$$ when x $$\\in$$ (1, 3)</p>\n<p>f(3) = $$-$$12</p>\n<p>and f(1) = 0</p>\n<p>$$\\therefore$$ $$f'(x) = {{ - 12} \\over 2} =  - 6$$</p>\n<p>$$\\therefore$$ f'(x) $$\\ne$$ 0 for any x $$\\in$$(1, 3)</p>"
+        }
+      },
+      "permalink": "let-fr-to-r-be-a-thrice-differentiable-function-suppose-that-jee-advanced-2015-marks-4-mrnrnm6urmvqev57.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "topic": "methods-of-differentiation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$F:R \\to R$$ be a thrice differentiable function. Suppose that \n$$F\\left( 1 \\right) = 0,F\\left( 3 \\right) =  - 4$$ and $$F'\\left( x \\right) < 0$$ for all $$x \\in \\left( {{1 \\over 2},3} \\right).$$ Let $$f\\left( x \\right) = xF\\left( x \\r..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "67yziv9ddwq5u975tj9p",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$f:\\left[ {0,2} \\right] \\to R$$ be a function which is continuous on $$\\left[ {0,2} \\right]$$ and is differentiable on $$(0,2)$$ with $$f(0)=1$$. Let \n<br>$$F\\left( x \\right) = \\int\\limits_0^{{x^2}} {f\\left( {\\sqrt t } \\right)dt} $$ for  $$x \\in \\left[ {0,2} \\right]$$. If $$F'\\left( x \\right) = f'\\left( x \\right)$$ for all  $$x \\in \\left[ {0,2} \\right]$$, then $$F(2)$$ equals ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${e^2} - 1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${e^4} - 1$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$e - 1$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${e^4}$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Given, $$\\mathrm{F}^{\\prime}(x)=f^{\\prime}(x)\\quad \\text{.... (i)}$$</p>\n<p>And $$\\quad \\mathrm{F}(x)=\\int_0^{x^2} f(\\sqrt{t}) d t$$</p>\n<p>Differentiate the equation (ii) w.r.t. $$x$$</p>\n<p>$$\\begin{aligned}\n& \\Rightarrow \\quad \\mathrm{F}^{\\prime}(x)=\\frac{d\\left(x^2\\right)}{d x} \\cdot f\\left(\\sqrt{x^2}\\right)-\\frac{d(0)}{d x} \\cdot f(\\sqrt{0}) \\\\\n& \\Rightarrow \\quad f^{\\prime}(x)=2 x \\cdot f(x)-0 \\\\\n& \\Rightarrow \\quad \\frac{d f(x)}{f(x)}=2 x d x \\\\\n& \\Rightarrow \\int \\frac{d f(x)}{f(x)}=\\int 2 x d x \\\\\n& \\Rightarrow \\ln f(x)=2 \\cdot \\frac{x^2}{2}+\\mathrm{C} \\\\\n& \\Rightarrow \\ln f(x)=x^2+\\mathrm{C} \\quad \\text{... (iii)}\n\\end{aligned}$$</p>\n<p>Given, $$f(0)=1$$</p>\n<p>$$\\begin{array}{llrl} \n& \\therefore & \\ln (1) & =0^2+C \\\\\n& \\Rightarrow & 0 & =0+C \\\\\n\\Rightarrow & & C=0\n\\end{array}$$</p>\n<p>Put $$c=0$$ in the equation (iii)</p>\n<p>$$\\begin{array}{ll}\n\\Rightarrow & \\ln f(x)=x^2 \\\\\n\\Rightarrow \\quad f(x) & =e^{x^2} \\\\\n\\Rightarrow \\quad f(\\sqrt{t}) & =e^t\n\\end{array}$$</p>\n<p>Put $$f(\\sqrt{t})=e^t$$ in the equation (ii)</p>\n<p>$$\\begin{array}{ll}\n\\Rightarrow & \\mathrm{F}(x)=\\int_0^{x^2} e^t \\cdot d t \\\\\n\\Rightarrow & \\mathrm{F}(x)=\\left[e^t\\right]_0^{x^2} \\\\\n\\Rightarrow & \\mathrm{F}(x)=e^{x^2}-1\n\\end{array}$$</p>\n<p>Put $$\\quad x=2$$</p>\n<p>$$\\Rightarrow \\mathrm{F}(2)=e^4-1$$</p>\n<p>Hint:</p>\n<p>(i) If $$y=\\int_{\\phi(x)}^{\\psi(x)} f(t) d t$$, then $$\\frac{d y}{d x}=\\frac{d \\psi(x)}{d x} \\cdot f(\\psi(x))-\\frac{d \\phi(x)}{d x} \\cdot f(\\phi(x))$$</p>\n<p>(ii) $$\\int \\frac{f^{\\prime}(x) d x}{f(x)}=\\ln (f(x))+c$$</p>"
+        }
+      },
+      "permalink": "let-fleft-02-right-to-r-be-a-function-which-is-continuous-on-jee-advanced-2014-marks-4-mv5gsyxcfe6lurzn.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "topic": "differentiation-of-composite-function",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$f:\\left[ {0,2} \\right] \\to R$$ be a function which is continuous on $$\\left[ {0,2} \\right]$$ and is differentiable on $$(0,2)$$ with $$f(0)=1$$. Let \n$$F\\left( x \\right) = \\int\\limits_0^{{x^2}} {f\\left( {\\sqrt t } \\right)dt} $$ for  $..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0feqsipzqkmzr5mh09th",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$f\\left( \\theta  \\right) = \\sin \\left( {{{\\tan }^{ - 1}}\\left( {{{\\sin \\theta } \\over {\\sqrt {\\cos 2\\theta } }}} \\right)} \\right),$$ where $$ - {\\pi  \\over 4} &lt; \\theta  &lt; {\\pi  \\over 4}.$$ \n<p>Then the value of $${d \\over {d\\left( {\\tan \\theta } \\right)}}\\left( {f\\left( \\theta  \\right)} \\right)$$ is </p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "<p>$$\\sin \\left( {{{\\tan }^{ - 1}}\\left( {{{\\sin \\theta } \\over {\\sqrt {\\cos 2\\theta } }}} \\right)} \\right)$$, where $$\\theta  \\in \\left( { - {\\pi  \\over 4},{\\pi  \\over 4}} \\right)$$</p>\n<p>$$\\sin \\left( {{{\\tan }^{ - 1}}\\left( {{{\\sin \\theta } \\over {\\sqrt {2{{\\cos }^2}\\theta  - 1} }}} \\right)} \\right) = \\sin ({\\sin ^{ - 1}}(\\tan \\theta )) = \\tan \\theta $$</p>\n<p>$${{d(\\tan \\theta )} \\over {d(\\tan \\theta )}} = 1$$</p>"
+        }
+      },
+      "permalink": "let-fleft-theta-right-sin-left-tan-1left-sin-theta-over-sqrt-jee-advanced-2011-marks-4-lvxi6lpne859g4eu.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "topic": "differentiation-of-a-function-with-respect-to-another-function",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$f\\left( \\theta  \\right) = \\sin \\left( {{{\\tan }^{ - 1}}\\left( {{{\\sin \\theta } \\over {\\sqrt {\\cos 2\\theta } }}} \\right)} \\right),$$ where $$ - {\\pi  \\over 4} < \\theta  < {\\pi  \\over 4}.$$ \nThen the value of $${d \\over {d\\left( {\\tan \\..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ufnixqdw9umytjm7yszn",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>Let $$g(x) = \\log f(x)$$, where $$f(x)$$ is a twice differentiable positive function on (0, $$\\infty$$) such that $$f(x + 1) = xf(x)$$. Then for N = 1, 2, 3, ..., $$g''\\left( {N + {1 \\over 2}} \\right) - g''\\left( {{1 \\over 2}} \\right) = $$</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$ - 4\\left\\{ {1 + {1 \\over 9} + {1 \\over {25}} + ....... + {1 \\over {{{\\left( {2N - 1} \\right)}^2}}}} \\right\\}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$4\\left\\{ {1 + {1 \\over 9} + {1 \\over {25}} + ....... + {1 \\over {{{\\left( {2N - 1} \\right)}^2}}}} \\right\\}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$ - 4\\left\\{ {1 + {1 \\over 9} + {1 \\over {25}} + ....... + {1 \\over {{{\\left( {2N + 1} \\right)}^2}}}} \\right\\}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$4\\left\\{ {1 + {1 \\over 9} + {1 \\over {25}} + ....... + {1 \\over {{{\\left( {2N + 1} \\right)}^2}}}} \\right\\}$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Given that,</p>\n<p>$$g(x) = \\log f(x)$$</p>\n<p>$$ \\Rightarrow g(x + 1) = \\log f(x + 1)$$</p>\n<p>$$ \\Rightarrow g(x + 1) = \\log xf(x)$$</p>\n<p>[$$\\because$$ $$f(x + 1) = xf(x)$$]</p>\n<p>$$g(x + 1) = \\log x + \\log f(n)$$</p>\n<p>$$ \\Rightarrow g(x + 1) - g(x) = \\log (x)$$</p>\n<p>$$g'(x + 1) - g'(x) = {1 \\over x}$$</p>\n<p>$$ \\Rightarrow g''(x + 1) - g''(x) = {{ - 1} \\over {{x^2}}}$$</p>\n<p>Putting, $$x = x - {1 \\over 2}$$, we get</p>\n<p>$$g''\\left( {x + {1 \\over 2}} \\right) - g''\\left( {x - {1 \\over 2}} \\right) =  - {1 \\over {{{\\left( {x - {1 \\over 2}} \\right)}^2}}} = {{ - {{(2)}^2}} \\over {{{(2x - 1)}^2}}}$$</p>\n<p>Putting $$x = 1,2,3$$ .........., N we get</p>\n<p>$$g''\\left( {x + {1 \\over 2}} \\right) - g''\\left( {x - {1 \\over 2}} \\right) -  = {1 \\over {{{\\left( {x - {1 \\over 2}} \\right)}^2}}} = {{ - {{(2)}^2}} \\over {{{(2x - 1)}^2}}}$$</p>\n<p>Putting $$x = 1,2,3$$, .........., N we get</p>\n<p>$$g''\\left( {{3 \\over 2}} \\right) - g''\\left( {{1 \\over 2}} \\right) = {{ - {2^2}} \\over {{1^2}}}$$ .... (i)</p>\n<p>$$g''\\left( {{5 \\over 2}} \\right) - g''\\left( {{3 \\over 2}} \\right) = {{ - {2^2}} \\over {{1^2}}}$$ ..... (ii)</p>\n<p>$$g''\\left( {{7 \\over 2}} \\right) - g''\\left( {{5 \\over 2}} \\right) = {{ - {2^2}} \\over {{5^2}}}$$ ..... (iii)</p>\n<p>$$g''\\left( {N + {1 \\over 2}} \\right) - g''\\left( {N - {1 \\over 2}} \\right) = {{ - {2^2}} \\over {{{(2N - 1)}^2}}}$$ ..... (iv)</p>\n<p>Adding all the above equations, we get</p>\n<p>$$g''\\left( {N + {1 \\over 2}} \\right) - g''\\left( {{1 \\over 2}} \\right) = 4$$</p>\n<p>$$\\left[ {1 + {1 \\over {{3^2}}} + {1 \\over {{5^2}}}\\, + \\,...\\, + \\,{1 \\over {{{(2N - 1)}^2}}}} \\right]$$</p>"
+        }
+      },
+      "permalink": "let-gleft-x-right-log-fleft-x-right-where-fx-is-twice-differ-jee-advanced-2008-marks-4-vfx73g233rkxe7lj.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "topic": "successive-differentiation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$g(x) = \\log f(x)$$, where $$f(x)$$ is a twice differentiable positive function on (0, $$\\infty$$) such that $$f(x + 1) = xf(x)$$. Then for N = 1, 2, 3, ..., $$g''\\left( {N + {1 \\over 2}} \\right) - g''\\left( {{1 \\over 2}} \\right) = $$"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "o3sut4abwm1vwu523nyh",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>Which of the following is true?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${\\left( {2 + a} \\right)^2}f''\\left( 1 \\right) + {\\left( {2 - a} \\right)^2}f''\\left( { - 1} \\right) = 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${\\left( {2 - a} \\right)^2}f''\\left( 1 \\right) - {\\left( {2 + a} \\right)^2}f''\\left( { - 1} \\right) = 0$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$f'\\left( 1 \\right)f'\\left( { - 1} \\right) = {\\left( {2 - a} \\right)^2}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$f'\\left( 1 \\right)f'\\left( { - 1} \\right) = -{\\left( {2 + a} \\right)^2}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>$$f(x) = {{{x^2} - ax + 1} \\over {{x^2} + ax + 1}}$$</p>\n<p>for differentiation, we can write f(x) as</p>\n<p>$$f(x) = 1 - {{2ax} \\over {{x^2} + ax + 1}}$$</p>\n<p>Now, on differentiation</p>\n<p>$$f'(x) = {{2a({x^2} - 1)} \\over {{{({x^2} + ax + 1)}^2}}}$$ ..... (i)</p>\n<p>$$f'(1) = 0 = f'( - 1)$$</p>\n<p>Then again differentiation (1)</p>\n<p>$${({x^2} + ax + 1)^2}\\,.\\,2x - ({x^2} - 1)$$</p>\n<p>$$f''(x) = 2a.\\,{{2({x^2} + ax + 1)(2x + a)} \\over {{{({x^2} + ax + 1)}^4}}}$$</p>\n<p>$$f''( - 1) = {{ - 4a} \\over {{{(2 - a)}^2}}}$$</p>\n<p>$$f''(1) = {{ - 4a} \\over {{{(2 - a)}^2}}}$$</p>\n<p>Combining both</p>\n<p>$$f''(1){(2 + a)^2} + f''( - 1){(2 - a)^2} = 0$$</p>",
+          "comprehension": "Consider the function $$f:\\left( { - \\infty ,\\infty } \\right) \\to \\left( { - \\infty ,\\infty } \\right)$$ defined by \n<br><br/>$$f\\left( x \\right) = {{{x^2} - ax + 1} \\over {{x^2} + ax + 1}},0 &lt; a &lt; 2.$$"
+        }
+      },
+      "permalink": "consider-the-function-fleft-infty-infty-right-to-left-infty-jee-advanced-2008-marks-4-vnjokkpmolxeyy88.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "topic": "successive-differentiation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Which of the following is true?"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "11j5to9kjdpbdfgj25uw",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>If $$f\\left( { - 10\\sqrt 2 } \\right) = 2\\sqrt 2 ,$$ then $$f''\\left( { - 10\\sqrt 2 } \\right) = $$</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{4\\sqrt 2 } \\over {{7^3}{3^2}}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$-{{4\\sqrt 2 } \\over {{7^3}{3^2}}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{4\\sqrt 2 } \\over {{7^3}3}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$-{{4\\sqrt 2 } \\over {{7^3}3}}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>We have</p>\n<p>$${y^3} - 3y + x = 0$$</p>\n<p>Differentiate both sides we get</p>\n<p>$$3{y^2}.y' - 3y' + 1 = 0$$ ..... (i)</p>\n<p>Put $$y = 2\\sqrt 2 ,x =  - 10\\sqrt 2 $$ then</p>\n<p>$$y'( - 10\\sqrt 2 ) = {{ - 1} \\over {21}}$$</p>\n<p>Differentiate eq. (i), we get</p>\n<p>$$3{y^2}y'' + 6y{(y')^2} - 3y'' = 0$$</p>\n<p>Put $$y = 2\\sqrt 2 ,x =  - 10\\sqrt 2 ,y' = {{ - 1} \\over {21}}$$ then</p>\n<p>$$y''( - 10\\sqrt 2 ) = {{ - 4\\sqrt 2 } \\over {{7^3}\\,.\\,{3^2}}}$$</p>",
+          "comprehension": "<p>Consider the functions defined implicitly by the equation $$y^3-3y+x=0$$ on various intervals in the real line. If $$x\\in(-\\infty,-2)\\cup(2,\\infty)$$, the equation implicitly defines a unique real valued differentiable function $$y=f(x)$$. If $$x\\in(-2,2)$$, the equation implicitly defines a unique real valued differentiable function $$y=g(x)$$ satisfying $$g(0)=0$$</p>"
+        }
+      },
+      "permalink": "consider-the-functions-defined-implicitly-by-the-equation-y3-jee-advanced-2008-marks-4-6w6kx8nsr0ykot8w.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "topic": "differentiation-of-implicit-function",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$f\\left( { - 10\\sqrt 2 } \\right) = 2\\sqrt 2 ,$$ then $$f''\\left( { - 10\\sqrt 2 } \\right) = $$"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "trhwmgg8gsou8sp4k3c3",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$f$$ and $$g$$ be real valued functions defined on interval $$(-1, 1)$$ such that $$g''(x)$$ is continuous, $$g\\left( 0 \\right) \\ne 0.$$ $$g'\\left( 0 \\right) = 0$$, $$g''\\left( 0 \\right) \\ne 0$$, and $$f\\left( x \\right) = g\\left( x \\right)\\sin x$$ \n<p><b>STATEMENT - 1:</b> $$\\mathop {\\lim }\\limits_{x \\to 0} \\,\\,\\left[ {g\\left( x \\right)\\cot x - g\\left( 0 \\right)\\cos ec\\,x} \\right] = f''\\left( 0 \\right)$$ and \n<br><br/><b>STATEMENT - 2:</b> $$f'\\left( 0 \\right) = g\\left( 0 \\right)$$</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement - 1 is True, Statement - 2 is True; Statement - 2 is a correct explanation for Statement - 1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement - 1 is True, Statement - 2 is True; Statement - 2 is <b>NOT</b> a correct explanation for Statement - 1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement - 1 is True, Statement -2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement - 1 is False, Statement -2 is True"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\mathop {\\lim }\\limits_{x \\to 0} {{g(x)\\cos x - g(0)} \\over {\\sin x}}$$</p>\n<p>$$ = \\mathop {\\lim }\\limits_{x \\to 0} {{g'(x)\\cos x - g(x)\\sin x} \\over {\\cos x}}$$ (Applying L-Hospital rule)</p>\n<p>$$g'(0) - 0 = 0 = f''(0)$$</p>\n<p>Statement - 1 is True.</p>\n<p>$$f'(x) = g(x)\\cos x + g'(x)\\sin x$$</p>\n<p>$$f'(0) = g(0)$$</p>\n<p>Statement - 2 is True.</p>"
+        }
+      },
+      "permalink": "let-f-and-g-be-real-valued-functions-defined-on-interval-1-1-jee-advanced-2008-marks-3-folscflfvgygyitw.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "topic": "successive-differentiation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$f$$ and $$g$$ be real valued functions defined on interval $$(-1, 1)$$ such that $$g''(x)$$ is continuous, $$g\\left( 0 \\right) \\ne 0.$$ $$g'\\left( 0 \\right) = 0$$, $$g''\\left( 0 \\right) \\ne 0$$, and $$f\\left( x \\right) = g\\left( x \\ri..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8zv5rw2zwugenqedt5du",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2007,
+      "paperTitle": "IIT-JEE 2007",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "$${{{d^2}x} \\over {d{y^2}}}$$  equals ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${\\left( {{{{d^2}y} \\over {d{x^2}}}} \\right)^{ - 1}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$ - {\\left( {{{{d^2}y} \\over {d{x^2}}}} \\right)^{ - 1}}{\\left( {{{dy} \\over {dx}}} \\right)^{ - 3}}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( {{{{d^2}y} \\over {d{x^2}}}} \\right){\\left( {{{dy} \\over {dx}}} \\right)^{ - 2}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$ - \\left( {{{{d^2}y} \\over {d{x^2}}}} \\right){\\left( {{{dy} \\over {dx}}} \\right)^{ - 3}}$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "d2x-over-dy2-equals-jee-advanced-2007-marks-3-ayb3ofsckvv7b6ew.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2007",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-implicit-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "$${{{d^2}x} \\over {d{y^2}}}$$  equals "
+        }
+      },
+      "yearKey": "iit-jee-2007"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qmdzmk687iuw8lyad1uo",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2007,
+      "paperTitle": "IIT-JEE 2007",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$\\,\\,\\,$$$$f\\left( x \\right) = 2 + \\cos x$$ for all real $$X$$. \n<p><b>STATEMENT - 1:</b>  for eachreal $$t$$, there exists a point $$c$$ in $$\\left[ {t,t + \\pi } \\right]$$ such that $$f'\\left( c \\right) = 0$$ because\n<br><b>STATEMENT - 2:</b> $$f\\left( t \\right) = f\\left( {t + 2\\pi } \\right)$$ for each real $$t$$.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement-1 is True, Statement-2 is False "
+            },
+            {
+              "identifier": "D",
+              "content": "Statement-1 is False, Statement-2 is True."
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "let-fleft-x-right-2-cos-x-for-all-real-x-statement-1-for-eac-jee-advanced-2007-marks-3-ykek06o1imtxktzw.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2007",
+      "isOutOfSyllabus": false,
+      "topic": "methods-of-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$\\,\\,\\,$$$$f\\left( x \\right) = 2 + \\cos x$$ for all real $$X$$. \nSTATEMENT - 1:  for eachreal $$t$$, there exists a point $$c$$ in $$\\left[ {t,t + \\pi } \\right]$$ such that $$f'\\left( c \\right) = 0$$ because\nSTATEMENT - 2: $$f\\left( t ..."
+        }
+      },
+      "yearKey": "iit-jee-2007"
+    },
+    {
+      "question_id": "npapcsw1wvc1cmv300nn",
+      "chapter": "differentiation",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pfracd2-xd-y2-equalsp-jee-advanced-mathematics-complex-numbers-xfqpmer2cdlxsyrf",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>$$\\frac{d^{2} x}{d y^{2}}$$ equals :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left(\\frac{d^{2} y}{d x^{2}}\\right)^{-1}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$-\\left(\\frac{d^{2} y}{d x^{2}}\\right)^{-1}\\left(\\frac{d y}{d x}\\right)^{-3}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left(\\frac{d^{2} y}{d x^{2}}\\right)\\left(\\frac{d y}{d x}\\right)^{-2}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$-\\left(\\frac{d^{2} y}{d x^{2}}\\right)\\left(\\frac{d y}{d x}\\right)^{-3}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Let’s start by finding the relationship between derivatives.</p>\n<p>We know that $\\frac{dy}{dx} = \\left( \\frac{dx}{dy} \\right)^{-1}$. This just means that the derivative going from $y$ to $x$ is the reciprocal of going from $x$ to $y$.</p>\n<p>To find the second derivative, we get the derivative of the first derivative. So, $\\frac{d}{dx}\\left( \\frac{dy}{dx} \\right) = \\frac{d}{dx}\\left( \\frac{dx}{dy} \\right)^{-1}$.</p>\n<p>Instead of $x$, let’s write the second derivative in terms of $y$. We use the chain rule for derivatives: $\\frac{d}{dx} = \\frac{d}{dy} \\cdot \\frac{dy}{dx}$.</p>\n<p>So, $\\frac{d^2y}{dx^2} = \\frac{d}{dy}\\left( \\frac{dx}{dy} \\right)^{-1} \\cdot \\frac{dy}{dx}$.</p>\n<p>Taking the derivative of $\\left( \\frac{dx}{dy} \\right)^{-1}$ with respect to $y$ gives us $-\\left( \\frac{dx}{dy} \\right)^{-2} \\cdot \\frac{d^2x}{dy^2}$.</p>\n<p>Including the extra $\\frac{dy}{dx}$ from the chain rule, we get: $\\frac{d^2y}{dx^2} = -\\left( \\frac{dx}{dy} \\right)^{-2} \\frac{d^2x}{dy^2} \\cdot \\frac{dy}{dx}$.</p>\n<p>Now, solve this for $\\frac{d^2x}{dy^2}$:</p>\n<p>$\\frac{d^2x}{dy^2} = \\frac{ - d^2y }{ dx^2 } \\left( \\frac{dy}{dx} \\right)^{-3}$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "successive-differentiation",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "$$\\frac{d^{2} x}{d y^{2}}$$ equals :"
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dtipb7yieta7ixn7n97o",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$f(x)$$ is a twice differentiable function and given that $$f\\left( 1 \\right) = 1;f\\left( 2 \\right) = 4,f\\left( 3 \\right) = 9$$, then ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$f''\\left( x \\right) = 2$$ for $$\\forall x \\in \\left( {1,3} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$f''\\left( x \\right) = f'\\left( x \\right) = 5$$ for some $$x \\in \\left( {2,3} \\right)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$f''\\left( x \\right) = 3$$ for  $$\\forall x \\in \\left( {2,3} \\right)$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$f''\\left( x \\right) = 2$$ for some $$x \\in \\left( {1,3} \\right)$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-fx-is-a-twice-differentiable-function-and-given-that-flef-jee-advanced-2005-screening-marks-2-e1a9su4vpb47eaqv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005-screening",
+      "isOutOfSyllabus": false,
+      "topic": "successive-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Screening",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$f(x)$$ is a twice differentiable function and given that $$f\\left( 1 \\right) = 1;f\\left( 2 \\right) = 4,f\\left( 3 \\right) = 9$$, then "
+        }
+      },
+      "yearKey": "iit-jee-2005-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "fgj8f35zrvdotp60fewq",
+      "exam": "jee-advanced",
+      "marks": 6,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "$$f(x)$$ is a differentiable function and $$g(x)$$ is a double differentiable\n<br> function such that $$\\left| {f\\left( x \\right)} \\right| \\le 1$$ and $$f'(x)=g(x).$$ \n<br>If $${f^2}\\left( 0 \\right) + {g^2}\\left( 0 \\right) = 9.$$ Prove that there exists some $$c \\in \\left( { - 3,3} \\right)$$ \n<br>such that $$g(c).g''(c)&lt;0.$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "fx-is-a-differentiable-function-and-gx-is-a-double-different-jee-advanced-2005-marks-6-uluvfqpxhws6exrt.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005",
+      "isOutOfSyllabus": false,
+      "topic": "successive-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "$$f(x)$$ is a differentiable function and $$g(x)$$ is a double differentiable\n function such that $$\\left| {f\\left( x \\right)} \\right| \\le 1$$ and $$f'(x)=g(x).$$ \nIf $${f^2}\\left( 0 \\right) + {g^2}\\left( 0 \\right) = 9.$$ Prove that there e..."
+        }
+      },
+      "yearKey": "iit-jee-2005"
+    },
+    {
+      "question_id": "i5l15xz7uoszgorh5erk",
+      "chapter": "differentiation",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pif-fx-is-a-differentiable-function-and-gx-is-jee-advanced-mathematics-complex-numbers-kbpfhgat0szoo74a",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>If $$f(x)$$ is a differentiable function and $$g(x)$$ is a double differentiable function such that $$|f(x)| \\leq 1$$ and $$f'(x)=g(x)$$, where,$$f^{2}(0)+g^{2}(0)=9$$ then prove that there exists some $$c \\in(-3,3)$$ such that $$g(c) \\circ g^{n}(c) < 0$$.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "Proved",
+          "explanation": "<p>$$f(x)$$ is differentiable function and $$g(x)$$ is double differentiable function.</p>\n<p>let $$f(x) = {{{x^3}} \\over 3} + 9,g(x) = {x^2}$$</p>\n<p>$$f'(x) = {x^2}$$</p>\n<p>So, the function satisfies the criteria $$f'(x) = g(x)$$</p>\n<p>Also, the two function</p>\n<p>$${f^2}(0) = 0 + 9 = 9$$</p>\n<p>$${g^2}(0) = 0$$</p>\n<p>$$ \\Rightarrow {f^2}(0) + {g^2}(0) = 9$$</p>\n<p>$$|f(x)| \\le 1$$</p>\n<p>$$ \\Rightarrow \\left| {{{{x^3}} \\over 3} + 9} \\right| \\le 1$$</p>\n<p>$$ \\Rightarrow  - 1 \\le {{{x^3}} \\over 3} + 9 \\le 1$$</p>\n<p>$$ \\Rightarrow  - 10 \\le {{{x^3}} \\over 3} \\le  - 8$$</p>\n<p>$$ \\Rightarrow  - 30 \\le {x^3} \\le  - 24$$</p>\n<p>$$ \\Rightarrow {( - 30)^{{1 \\over 3}}} \\le x \\le {( - 24)^{{1 \\over 3}}}$$</p>\n<p>$$ \\Rightarrow ( - 3.10) \\le x \\le  - 2.88$$</p>\n<p>Now, $$g(c) = {c^2}$$</p>\n<p>$$g'(x) = 2x$$</p>\n<p>$$g''(x) = 2$$</p>\n<p>It is given $$g(c).~g''(c) < 0$$</p>\n<p>$$\\Rightarrow 2c^2 < 0$$</p>\n<p>$$\\Rightarrow c < 0$$</p>\n<p>As $$x$$ lies between $$-2.88$$ to $$-3.10$$</p>\n<p>So, $$c$$ lies between $$[-3,3]$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "successive-differentiation",
+      "type": "subjective",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$f(x)$$ is a differentiable function and $$g(x)$$ is a double differentiable function such that $$|f(x)| \\leq 1$$ and $$f'(x)=g(x)$$, where,$$f^{2}(0)+g^{2}(0)=9$$ then prove that there exists some $$c \\in(-3,3)$$ such that $$g(c) \\circ..."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6qepaarlkh6so0bhq302",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$y$$ is a function of $$x$$ and log $$(x+y)-2xy=0$$, then the value of $$y'(0)$$ is equal to ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$-1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$2$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$0$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-y-is-a-function-of-x-and-log-xy-2xy0-then-the-value-of-y0-jee-advanced-2004-screening-marks-2-wg108kcl3jgts36s.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004-screening",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-implicit-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004 Screening",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$y$$ is a function of $$x$$ and log $$(x+y)-2xy=0$$, then the value of $$y'(0)$$ is equal to "
+        }
+      },
+      "yearKey": "iit-jee-2004-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "s67i2gv00t6i70mzqd5j",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2001,
+      "paperTitle": "IIT-JEE 2001 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$f:\\left( {0,\\infty } \\right) \\to R$$ and $$F\\left( x \\right) = \\int\\limits_0^x {f\\left( t \\right)dt.} $$  If $$F\\left( {{x^2}} \\right) = {x^2}\\left( {1 + x} \\right)$$, then $$f(4)$$ equals",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$5/4$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$7$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$4$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$2$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "let-fleft-0infty-right-to-r-and-fleft-x-right-intlimits0x-fl-jee-advanced-2001-screening-marks-2-bdnkxjqnkprmmq4f.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2001-screening",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-composite-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2001 Screening",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$f:\\left( {0,\\infty } \\right) \\to R$$ and $$F\\left( x \\right) = \\int\\limits_0^x {f\\left( t \\right)dt.} $$  If $$F\\left( {{x^2}} \\right) = {x^2}\\left( {1 + x} \\right)$$, then $$f(4)$$ equals"
+        }
+      },
+      "yearKey": "iit-jee-2001-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kxbwnxsw8ldwoe9s09ou",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $${x^2} + {y^2} = 1$$ then ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$yy'' - 2{\\left( {y'} \\right)^2} + 1 = 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$yy'' + {\\left( {y'} \\right)^2} + 1 = 0$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$yy'' + {\\left( {y'} \\right)^2} - 1 = 0$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$yy'' + 2{\\left( {y'} \\right)^2} + 1 = 0$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-x2-y2-1-then-jee-advanced-2000-marks-2-3rss5nxt3upya5q7.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-implicit-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $${x^2} + {y^2} = 1$$ then "
+        }
+      },
+      "yearKey": "iit-jee-2000"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "yfm2fnnmm9n6tf7ah61z",
+      "exam": "jee-advanced",
+      "marks": 8,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If$$\\,\\,\\,$$ $$y = {{a{x^2}} \\over {\\left( {x - a} \\right)\\left( {x - b} \\right)\\left( {x - c} \\right)}} + {{bx} \\over {\\left( {x - b} \\right)\\left( {x - c} \\right)}} + {c \\over {x - c}} + 1$$, \n<br>prove that $${{y'} \\over y} = {1 \\over x}\\left( {{a \\over {a - x}} + {b \\over {b - x}} + {c \\over {c - x}}} \\right)$$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "if-y-ax2-over-left-x-a-rightleft-x-b-rightleft-x-c-right-bx-jee-advanced-1998-marks-8-lf67mmufhqo5bhv7.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998",
+      "isOutOfSyllabus": false,
+      "topic": "methods-of-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If$$\\,\\,\\,$$ $$y = {{a{x^2}} \\over {\\left( {x - a} \\right)\\left( {x - b} \\right)\\left( {x - c} \\right)}} + {{bx} \\over {\\left( {x - b} \\right)\\left( {x - c} \\right)}} + {c \\over {x - c}} + 1$$, \nprove that $${{y'} \\over y} = {1 \\over x}\\lef..."
+        }
+      },
+      "yearKey": "iit-jee-1998"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "53coc3c7ka84e3j9z4m1",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$x{e^{xy}} = y + {\\sin ^2}x,$$ then at $$x = 0,{{dy} \\over {dx}} = ..............$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$1$$",
+          "explanation": null
+        }
+      },
+      "permalink": "if-xexy-y-sin-2x-then-at-x-0dy-over-dx-jee-advanced-1996-marks-1-gwzmhrminrc25ddh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-implicit-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$x{e^{xy}} = y + {\\sin ^2}x,$$ then at $$x = 0,{{dy} \\over {dx}} = ..............$$ "
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qyg5qq96voiyzfmmsl3l",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$y = {\\left( {\\sin x} \\right)^{\\tan x}},$$ then $${{dy} \\over {dx}}$$ is equal to ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${\\left( {\\sin x} \\right)^{\\tan x}}\\left( {1 + {{\\sec }^2}x\\,\\log \\,\\sin \\,x} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\tan x{\\left( {\\sin x} \\right)^{\\tan x - 1}}.\\cos x$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${\\left( {\\sin x} \\right)^{\\tan x}}{\\sec ^2}x\\,\\log \\,\\sin \\,x$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\tan x{\\left( {\\sin x} \\right)^{\\tan x - 1}}$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-y-left-sin-x-righttan-x-then-dy-over-dx-is-equal-to-jee-advanced-1994-marks-2-oldi3m5iu8avjy7z.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-composite-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$y = {\\left( {\\sin x} \\right)^{\\tan x}},$$ then $${{dy} \\over {dx}}$$ is equal to "
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "mvxy33n9p5p5n6jfwkzb",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1991,
+      "paperTitle": "IIT-JEE 1991",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Find $${{{dy} \\over {dx}}}$$ at $$x=-1$$, when \n<br>$${\\left( {\\sin y} \\right)^{\\sin \\left( {{\\pi  \\over 2}x} \\right)}} + {{\\sqrt 3 } \\over 2}{\\sec ^{ - 1}}\\left( {2x} \\right) + {2^x}\\tan \\left( {In\\left( {x + 2} \\right)} \\right) = 0$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$0$$",
+          "explanation": null
+        }
+      },
+      "permalink": "find-dy-over-dx-at-x-1-when-left-sin-y-rightsin-left-pi-over-jee-advanced-1991-marks-4-o3p9jrju0hhzynun.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1991",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-implicit-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1991",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Find $${{{dy} \\over {dx}}}$$ at $$x=-1$$, when \n$${\\left( {\\sin y} \\right)^{\\sin \\left( {{\\pi  \\over 2}x} \\right)}} + {{\\sqrt 3 } \\over 2}{\\sec ^{ - 1}}\\left( {2x} \\right) + {2^x}\\tan \\left( {In\\left( {x + 2} \\right)} \\right) = 0$$"
+        }
+      },
+      "yearKey": "iit-jee-1991"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "wnw1pnsqrp7k9fbta4wj",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1990,
+      "paperTitle": "IIT-JEE 1990",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$f(x)$$ be a quadratic expression which is positive for all the real values of $$x$$. If $$g(x)=f(x)+f''(x)$$, then for any real $$x$$,",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$g(x)&lt;0$$  "
+            },
+            {
+              "identifier": "B",
+              "content": "$$g(x)&gt;0$$  "
+            },
+            {
+              "identifier": "C",
+              "content": "$$g(x)=0$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$g\\left( x \\right) \\ge 0$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "let-fx-be-a-quadratic-expression-which-is-positive-for-all-t-jee-advanced-1990-marks-2-ihygb2b6pzpslq92.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1990",
+      "isOutOfSyllabus": false,
+      "topic": "successive-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1990",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$f(x)$$ be a quadratic expression which is positive for all the real values of $$x$$. If $$g(x)=f(x)+f''(x)$$, then for any real $$x$$,"
+        }
+      },
+      "yearKey": "iit-jee-1990"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "i2tngkoqg8n90ec81zbc",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1990,
+      "paperTitle": "IIT-JEE 1990",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$f\\left( x \\right) = \\left| {x - 2} \\right|$$ and $$g\\left( x \\right) = f\\left[ {f\\left( x \\right)} \\right]$$, then $$g'\\left( x \\right) = ...............$$ for $$x &gt; 20$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$1$$",
+          "explanation": null
+        }
+      },
+      "permalink": "if-fleft-x-right-left-x-2-right-and-gleft-x-right-fleft-flef-jee-advanced-1990-marks-2-qxdopsskyvc76y62.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1990",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-composite-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1990",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$f\\left( x \\right) = \\left| {x - 2} \\right|$$ and $$g\\left( x \\right) = f\\left[ {f\\left( x \\right)} \\right]$$, then $$g'\\left( x \\right) = ...............$$ for $$x > 20$$"
+        }
+      },
+      "yearKey": "iit-jee-1990"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3yw5u2enfw8h3lwk59vb",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$x = \\sec \\theta  - \\cos \\theta $$ and $$y = {\\sec ^n}\\theta  - {\\cos ^n}\\theta $$, then show\n<br> that $$\\left( {{x^2} + 4} \\right){\\left( {{{dy} \\over {dx}}} \\right)^2} = {n^2}\\left( {{y^2} + 4} \\right)$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "if-x-sec-theta-cos-theta-and-y-sec-ntheta-cos-ntheta-then-sh-jee-advanced-1989-marks-2-8vzqcnvvtevg6nnf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-a-function-with-respect-to-another-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$x = \\sec \\theta  - \\cos \\theta $$ and $$y = {\\sec ^n}\\theta  - {\\cos ^n}\\theta $$, then show\n that $$\\left( {{x^2} + 4} \\right){\\left( {{{dy} \\over {dx}}} \\right)^2} = {n^2}\\left( {{y^2} + 4} \\right)$$ "
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "nfkeuq6x39xnvephw3cc",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1988,
+      "paperTitle": "IIT-JEE 1988",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $${y^2} = P\\left( x \\right)$$, a polynomial of degree $$3$$, then $$2{d \\over {dx}}\\left( {{y^3}{{{d^2}y} \\over {d{x^2}}}} \\right)$$ equals ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P''\\left( x \\right) + P\\left( x \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$P'\\left( x \\right)P''\\left( x \\right)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$P\\left( x \\right)P''\\left( x \\right)$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "a constant "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-y2-pleft-x-right-a-polynomial-of-degree-3-then-2d-over-dx-jee-advanced-1988-marks-2-2a5z5rldmbedue8p.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1988",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-implicit-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1988",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $${y^2} = P\\left( x \\right)$$, a polynomial of degree $$3$$, then $$2{d \\over {dx}}\\left( {{y^3}{{{d^2}y} \\over {d{x^2}}}} \\right)$$ equals "
+        }
+      },
+      "yearKey": "iit-jee-1988"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "u2i685bwpqrr9epys19q",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The derivative of $${\\sec ^{ - 1}}\\left( {{1 \\over {2{x^2} - 1}}} \\right)$$ with respect to $$\\sqrt {1 - {x^2}} $$ at $$x = {1 \\over 2}$$ is ...............",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$4$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "the-derivative-of-sec-1left-1-over-2x2-1-right-with-respect-jee-advanced-1986-marks-2-2t6mxmhn5wbslslh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-a-function-with-respect-to-another-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "The derivative of $${\\sec ^{ - 1}}\\left( {{1 \\over {2{x^2} - 1}}} \\right)$$ with respect to $$\\sqrt {1 - {x^2}} $$ at $$x = {1 \\over 2}$$ is ..............."
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "fi4dzip39kcu0qjwpr2x",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$f\\left( x \\right) = {\\log _x}\\left( {In\\,x} \\right),$$ then $$f'\\left( x \\right)$$ at $$x=e$$ is ................",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$1/e$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "if-fleft-x-right-log-xleft-inx-right-then-fleft-x-right-at-x-jee-advanced-1985-marks-2-w8xbtprwvd7excy7.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-logarithmic-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$f\\left( x \\right) = {\\log _x}\\left( {In\\,x} \\right),$$ then $$f'\\left( x \\right)$$ at $$x=e$$ is ................"
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "bpdq8u8rpemeftjut4f8",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $${f_r}\\left( x \\right),{g_r}\\left( x \\right),{h_r}\\left( x \\right),r = 1,2,3$$ are polynomials in $$x$$ such that $${f_r}\\left( a \\right) = {g_r}\\left( a \\right) = {h_r}\\left( a \\right),r = 1,2,3$$\n<br>and  $$F\\left( x \\right) = \\left| {\\matrix{\n   {{f_1}\\left( x \\right)} &amp; {{f_2}\\left( x \\right)} &amp; {{f_3}\\left( x \\right)}  \\cr \n   {{g_1}\\left( x \\right)} &amp; {{g_2}\\left( x \\right)} &amp; {{g_3}\\left( x \\right)}  \\cr \n   {{h_1}\\left( x \\right)} &amp; {{h_2}\\left( x \\right)} &amp; {{h_3}\\left( x \\right)}  \\cr \n\n } } \\right|$$  then $$F'\\left( x \\right)$$ at $$x = a$$  is ...........",
+          "options": [],
+          "correct_options": [],
+          "answer": "Zero",
+          "explanation": null
+        }
+      },
+      "permalink": "if-frleft-x-rightgrleft-x-righthrleft-x-rightr-123-are-polyn-jee-advanced-1985-marks-2-k8kegdglmjmjlctc.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-a-function-with-respect-to-another-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $${f_r}\\left( x \\right),{g_r}\\left( x \\right),{h_r}\\left( x \\right),r = 1,2,3$$ are polynomials in $$x$$ such that $${f_r}\\left( a \\right) = {g_r}\\left( a \\right) = {h_r}\\left( a \\right),r = 1,2,3$$\nand  $$F\\left( x \\right) = \\left| {\\ma..."
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1dax0ryssds3ceav1cup",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$\\alpha $$ be a repeated root of a quadratic equation $$f(x)=0$$ and $$A(x), B(x)$$ and $$C(x)$$ be polynomials of degree $$3$$, $$4$$ and $$5$$ respectively, \n<br>then show that $$\\left| {\\matrix{\n   {A\\left( x \\right)} &amp; {B\\left( x \\right)} &amp; {C\\left( x \\right)}  \\cr \n   {A\\left( \\alpha  \\right)} &amp; {B\\left( \\alpha  \\right)} &amp; {C\\left( \\alpha  \\right)}  \\cr \n   {A'\\left( \\alpha  \\right)} &amp; {B'\\left( \\alpha  \\right)} &amp; {C'\\left( \\alpha  \\right)}  \\cr \n\n } } \\right|$$ is \n<br>divisible by $$f(x)$$, where prime denotes the derivatives.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "if-alpha-be-a-repeated-root-of-a-quadratic-equation-fx0-and-jee-advanced-1984-marks-4-f9lxzmebvymlavhk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "successive-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If $$\\alpha $$ be a repeated root of a quadratic equation $$f(x)=0$$ and $$A(x), B(x)$$ and $$C(x)$$ be polynomials of degree $$3$$, $$4$$ and $$5$$ respectively, \nthen show that $$\\left| {\\matrix{\n   {A\\left( x \\right)} & {B\\left( x \\right..."
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "t68v89l39exkm2vqpsez",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The derivative of an even function is always an odd function. ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The statement \"The derivative of an even function is always an odd function\" is Option A: TRUE.</p>\n\n<p>To understand why this is true, let's first define even and odd functions:</p>\n\n<p>An <strong>even function</strong> is a function $ f(x) $ that satisfies the condition:</p>\n\n<p>$$ f(-x) = f(x) $$</p>\n\n<p>An <strong>odd function</strong> is a function $ g(x) $ that satisfies the condition:</p>\n\n<p>$$ g(-x) = -g(x) $$</p>\n\n<p>Now, let's consider the derivative of an even function. Let $ f(x) $ be an even function, meaning:</p>\n\n<p>$$ f(-x) = f(x) $$</p>\n\n<p>We want to find the derivative $ f'(x) $ and determine if it is odd. Using the definition of the derivative, we have:</p>\n\n<p>$$ f'(x) = \\lim_{{h \\to 0}} \\frac{f(x+h) - f(x)}{h} $$</p>\n\n<p>Since $ f(x) $ is even, we have:</p>\n\n<p>$$ f(x) = f(-x) $$</p>\n\n<p>Taking the derivative of both sides with respect to $ x $, we get:</p>\n\n<p>$$ f'(-x) \\cdot (-1) = f'(x) $$</p>\n\n<p>or</p>\n\n<p>$$ f'(-x) = -f'(x) $$</p>\n\n<p>This shows that the derivative $ f'(x) $ satisfies the condition for being an odd function. Therefore, the derivative of an even function is indeed always an odd function.</p>"
+        }
+      },
+      "permalink": "the-derivative-of-an-even-function-is-always-an-odd-function-jee-advanced-1983-marks-1-y88mlcnzhf2sxzue.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "methods-of-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "The derivative of an even function is always an odd function. "
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ejkohgg4xoeox1dqks6q",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If  $$y = f\\left( {{{2x - 1} \\over {{x^2} + 1}}} \\right)$$  and $$f'\\left( x \\right) = \\sin {x^2}$$, then $${{dy} \\over {dx}} = ..........$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{2 + 2x - 2{x^2}} \\over {{{\\left( {{x^2} + 1} \\right)}^2}}}\\sin {\\left( {{{2x - 1} \\over {{x^2} + 1}}} \\right)^2}$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "if-y-fleft-2x-1-over-x2-1-right-and-fleft-x-right-sin-x2-the-jee-advanced-1982-marks-2-jxyqiclhp3maqzom.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-composite-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "If  $$y = f\\left( {{{2x - 1} \\over {{x^2} + 1}}} \\right)$$  and $$f'\\left( x \\right) = \\sin {x^2}$$, then $${{dy} \\over {dx}} = ..........$$ "
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "37yy5qa4m948wd95v8rk",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$f$$ be a twice differentiable function such that \n<p>$$f''\\left( x \\right) =  - f\\left( x \\right),$$ and $$f'\\left( x \\right) = g\\left( x \\right),h\\left( x \\right) = {\\left[ {f\\left( x \\right)} \\right]^2} + {\\left[ {g\\left( x \\right)} \\right]^2}$$ </p>\n<p>Find $$h\\left( {10} \\right)$$ if $$h(5)=11$$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$11$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "let-f-be-a-twice-differentiable-function-such-that-fleft-x-r-jee-advanced-1982-marks-3-ow7fb3ubqoijvlma.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "successive-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$f$$ be a twice differentiable function such that \n$$f''\\left( x \\right) =  - f\\left( x \\right),$$ and $$f'\\left( x \\right) = g\\left( x \\right),h\\left( x \\right) = {\\left[ {f\\left( x \\right)} \\right]^2} + {\\left[ {g\\left( x \\right)} \\r..."
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kto2j0kf2r1khogko35i",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$y = {e^{x\\,\\sin \\,{x^3}}} + {\\left( {\\tan x} \\right)^x}$$. Find $${{dy} \\over {dx}}$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${e^{x\\,\\sin {x^3}}}\\left[ {\\sin {x^3} + 3{x^3}\\cos {x^3}} \\right] + {\\left( {\\tan x} \\right)^x}\\left[ {{{2x} \\over {\\sin x}} + \\log \\,\\tan x} \\right]$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "let-y-exsin-x3-left-tan-x-rightx-find-dy-over-dx-jee-advanced-1981-marks-2-iuevjgqdwtazvq2w.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-composite-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Let $$y = {e^{x\\,\\sin \\,{x^3}}} + {\\left( {\\tan x} \\right)^x}$$. Find $${{dy} \\over {dx}}$$ "
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7biez1k3uc4psfodfc6t",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Given $$y = {{5x} \\over {3\\sqrt {{{\\left( {1 - x} \\right)}^2}} }} + {\\cos ^2}\\left( {2x + 1} \\right)$$; Find $${{dy} \\over {dx}}$$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{dy} \\over {dx}} = \\left\\{ {\\matrix{\n   {{5 \\over 3}.{1 \\over {{{\\left( {1 - x} \\right)}^2}}} - 2\\,\\sin \\left( {4x + 2} \\right),} &amp; {x &lt; 1}  \\cr \n   { - {5 \\over 3}.{1 \\over {{{\\left( {x - 1} \\right)}^2}}} - 2\\,\\sin \\left( {4x + 2} \\right),} &amp; {x &gt; 1}  \\cr \n\n } } \\right.$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "given-y-5x-over-3sqrt-left-1-x-right2-cos-2left-2x-1-right-f-jee-advanced-1980-marks-4-til57z3vwzuggxji.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "isOutOfSyllabus": false,
+      "topic": "differentiation-of-composite-function",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Given $$y = {{5x} \\over {3\\sqrt {{{\\left( {1 - x} \\right)}^2}} }} + {\\cos ^2}\\left( {2x + 1} \\right)$$; Find $${{dy} \\over {dx}}$$."
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "74ioz420yu3i6nef7z5w",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1979,
+      "paperTitle": "IIT-JEE 1979",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Find the derivative of \n$$$f\\left( x \\right) = \\left\\{ {\\matrix{\n   {{{x - 1} \\over {2{x^2} - 7x + 5}}} &amp; {when\\,\\,x \\ne 1}  \\cr \n   { - {1 \\over 3}} &amp; {when\\,\\,x = 1}  \\cr \n\n } } \\right.$$$\n<br>at $$x=1$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${ - {2 \\over 9}}$$",
+          "explanation": null
+        }
+      },
+      "permalink": "find-the-derivative-of-fleft-x-right-left-matrix-x-1-over-2x-jee-advanced-1979-marks-4-x88i0xdyostkic0d.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1979",
+      "isOutOfSyllabus": false,
+      "topic": "methods-of-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1979",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Find the derivative of \n$$$f\\left( x \\right) = \\left\\{ {\\matrix{\n   {{{x - 1} \\over {2{x^2} - 7x + 5}}} & {when\\,\\,x \\ne 1}  \\cr \n   { - {1 \\over 3}} & {when\\,\\,x = 1}  \\cr \n\n } } \\right.$$$\nat $$x=1$$"
+        }
+      },
+      "yearKey": "iit-jee-1979"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "n81bzl5wlb2553ic2um9",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differentiation",
+      "year": 1978,
+      "paperTitle": "IIT-JEE 1978",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Find the derivative of $$\\sin \\left( {{x^2} + 1} \\right)$$ with respect to $$x$$ first principle.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$2x\\,\\cos \\left( {{x^2} + 1} \\right)$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "find-the-derivative-of-sin-left-x2-1-right-with-respect-to-x-jee-advanced-1978-marks-4-dktx8hx1mgbkltit.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1978",
+      "isOutOfSyllabus": false,
+      "topic": "methods-of-differentiation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1978",
+          "subTitle": "Differentiation • Mathematics",
+          "excerpt": "Find the derivative of $$\\sin \\left( {{x^2} + 1} \\right)$$ with respect to $$x$$ first principle."
+        }
+      },
+      "yearKey": "iit-jee-1978"
+    }
+  ]
+}

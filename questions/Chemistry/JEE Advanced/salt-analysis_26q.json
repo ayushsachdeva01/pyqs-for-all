@@ -1,0 +1,1739 @@
+{
+  "questions": [
+    {
+      "question_id": "sdtx3ctsip5twjo657fv",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "pduring-sodium-nitroprusside-test-of-sulphide-ion-in-an-u-jee-advanced-chemistry-rveistiwkrxxl8y2",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>During sodium nitroprusside test of sulphide ion in an <u>aqueous</u> solution, one of the ligands coordinated to the metal ion is converted to</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>NOS<sup>−</sup></p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>SCN<sup>−</sup></p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>SNO<sup>−</sup></p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>NCS<sup>−</sup></p>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Sodium nitroprusside test is used for detection of sulphur in organic compound.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maxotn00/21307e7c-9e88-421f-92d5-0108e20a3d32/82266b00-361e-11f0-bd21-139d2e3650ba/file-jaoe38c1maxotn01.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maxotn00/21307e7c-9e88-421f-92d5-0108e20a3d32/82266b00-361e-11f0-bd21-139d2e3650ba/file-jaoe38c1maxotn01.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Chemistry - Salt Analysis Question 4 English Explanation\"></p>\n<p>$\\stackrel{+}{\\mathrm{NO}}$ ligand is converted into $\\mathrm{NOS}^{-}$ligand.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>जलीय विलयन में सल्फाइड आयन के नाइट्रोप्रुसाइड (nitroprusside) परीक्षण के दौरान धातु आयन से समन्वित (coordinated) लिगन्डो (ligands) में से एक परिवर्तित होता है</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{NOS}^{-}$में"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{SCN}^{-}$में"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{SNO}^{-}$में"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{NCS}^{-}$में"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>कार्बनिक यौगिक में सल्फर की पहचान के लिए सोडियम नाइट्रोप्रुसाइड परीक्षण का उपयोग किया जाता है।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maxotn00/21307e7c-9e88-421f-92d5-0108e20a3d32/82266b00-361e-11f0-bd21-139d2e3650ba/file-jaoe38c1maxotn01.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maxotn00/21307e7c-9e88-421f-92d5-0108e20a3d32/82266b00-361e-11f0-bd21-139d2e3650ba/file-jaoe38c1maxotn01.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Chemistry - Salt Analysis Question 4 Hindi Explanation\"></p>\n<p>$\\stackrel{+}{\\mathrm{NO}}$ लिगेंड $\\mathrm{NOS}^{-}$ लिगेंड में परिवर्तित हो जाता है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "systematic-analysis-of-anions",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "During sodium nitroprusside test of sulphide ion in an aqueous solution, one of the ligands coordinated to the metal ion is converted to"
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "जलीय विलयन में सल्फाइड आयन के नाइट्रोप्रुसाइड (nitroprusside) परीक्षण के दौरान धातु आयन से समन्वित (coordinated) लिगन्डो (ligands) में से एक परिवर्तित होता है"
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "7ed4vopw1yjo29m76sk5",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pthe-correct-match-of-the-group-reagents-in-blist-ib-jee-advanced-chemistry-yoz6femqi8k88wgb",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The correct match of the group reagents in <b>List-I</b> for precipitating the metal ion given in <b>List-II</b> from solutions, is</p>\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n\n  <tr>\n\n    <th>List–I</th>\n\n    <th>List–II</th>\n\n  </tr>\n\n  <tr>\n\n    <td>(P) Passing $\\mathrm{H_2S}$ in the presence of $\\mathrm{NH_4OH}$</td>\n\n    <td>(1) $\\mathrm{Cu^{2+}}$</td>\n\n  </tr>\n\n  <tr>\n\n    <td>(Q) $\\mathrm{(NH_4)_2CO_3}$ in the presence of $\\mathrm{NH_4OH}$</td>\n\n    <td>(2) $\\mathrm{Al^{3+}}$</td>\n\n  </tr>\n\n  <tr>\n\n    <td>(R) $\\mathrm{NH_4OH}$ in the presence of $\\mathrm{NH_4Cl}$</td>\n\n    <td>(3) $\\mathrm{Mn^{2+}}$</td>\n\n  </tr>\n\n  <tr>\n\n    <td>(S) Passing $\\mathrm{H_2S}$ in the presence of dilute $\\mathrm{HCl}$</td>\n\n    <td> (4) $\\mathrm{Ba^{2+}}$</td>\n\n  </tr>\n\n  <tr>\n\n    <td></td>\n\n    <td>(5) $\\mathrm{Mg^{2+}}$</td>\n\n  </tr>\n\n</table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>P → 3; Q → 4; R → 2; S → 1</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>P → 4; Q → 2; R → 3; S → 1</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>P → 3; Q → 4; R → 1; S → 5</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>P → 5; Q → 3; R → 2; S → 4</p>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "P) Passing $\\mathrm{H}_2 \\mathrm{~S}$ in the presence of $\\mathrm{NH}_4 \\mathrm{OH}$ It is fourth group reagent. The metal ions (cations) included in this group are $\\mathrm{Mn}^{2+}, \\mathrm{Zn}^{2+}, \\mathrm{Ni}^{2+}$ and $\\mathrm{Co}^{2 \\mathrm{t}}$.<div></div>This group reagent is used for precipitating the cations $\\mathrm{Mn}^{2+}, \\mathrm{Zn}^{2+}, \\mathrm{Ni}^{2+}$ and $\\mathrm{C}_0{ }^{2+}$. They are precipitated as sulfides.<div></div>From the given cations, $\\mathrm{Mn}^{2+}$ is precipitated by passing $\\mathrm{H}_2 \\mathrm{~S}$ in the presence of $\\mathrm{NH}_4OH$  Precipitate of $\\mathrm{Mn}^{2+}$ is MnS .<div></div>\n\n$$\nP-3\n$$\n<div></div>\nQ) $\\left(\\mathrm{NH}_4\\right)_2 \\mathrm{CO}_3$ in the presence of $\\mathrm{NH}_4 \\mathrm{OH}$\n\nIt is fifth group reagent. The cations, included in group $\\bar{V}$ are $\\mathrm{Ba}^{2+}, \\mathrm{Ca}^{2+}$ and $\\mathrm{Sr}^{2+}$. These cations are precipitated using the reagent $\\left(\\mathrm{NH}_4\\right)_2 \\mathrm{CO}_3$ in the presence of. $\\mathrm{NH}_4 \\mathrm{OH}$. These cations are precipitated as carbonates.<div></div>\nFrom the given cations, $\\mathrm{Ba}^{2+}$ is precipitated by using $\\left(\\mathrm{NH}_4\\right)_2 \\mathrm{CO}_3$ in the presence of $\\mathrm{NH}_4 \\mathrm{OH}$. Precipitate of $\\mathrm{Ba}^{2+}$ is $\\mathrm{BaCO}_3$.\n\n$$\nQ-4\n$$<div></div>R) $\\mathrm{NH}_4 \\mathrm{OH} \\,\\,{\\text {in }}$ the presence of $\\mathrm{NH}_4 \\mathrm{Cl}$ It is group III reagent. Group III cations are $\\mathrm{Al}^{3+}, \\mathrm{Cr}^{3+}$ and $\\mathrm{Fe}^{3+}$. These cations get precipitated by using $\\mathrm{NH}_4 \\mathrm{OH}$ with $\\mathrm{NH}_4 \\mathrm{Cl}$. The cations are precipitated as hydroxides.<div></div>\nFrom the given cations, $\\mathrm{Al}^{3+}$ is precipitated by using $\\mathrm{NH}_4 \\mathrm{OH}$ in the presence of $\\mathrm{NH}_4 \\mathrm{Cl}$. Precipitate of $\\mathrm{Al}^{3+}$ is $\\mathrm{Al}(\\mathrm{OH})_3$\n\n$$\nR-2\n$$\n<div></div>S) Passing $\\mathrm{H}_2 \\mathrm{~S}$ in the presence of dilute HCl It is group II reagent. Group II cations are $\\mathrm{Cu}^{2+}, \\mathrm{Cd}^{2+}, \\mathrm{Hg}^{2+}, \\mathrm{Bi}^{2+}, \\mathrm{Pb}^{2+}, \\mathrm{Sn}^{2+}, \\mathrm{Sn}^{4+}, \\mathrm{Sb}^{3+}, \\mathrm{As}^{3+}$ and $A s^{5+}$. They are precipitated as sulfides that are insoluble in dilute HCl .\n\nFrom the given cations, $\\mathrm{Cu}^{2+}$ is precipitated by passing $H_2 S$ in the presence of dilute HCl Precipitate of $\\mathrm{Cu}^{2+}$ is Cus.\n\n$$\nS-1\n$$\n<div></div>$$\n\\begin{aligned}\n&\\text { Answer: Option (A) }\\\\\n&P \\rightarrow 3, Q \\rightarrow 4, \\quad R \\rightarrow 2, \\quad S \\rightarrow 1\n\\end{aligned}\n$$\n"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>सूची-। में दिये समूह अभिकर्मकों (group reagents) जो सूची-॥ में दिये धातु आयन का विलयन से अवक्षेपण करें, का सही सुमेल है</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 631px\"><colgroup>\n<col style=\"width: 85px\">\n<col style=\"width: 226px\">\n<col style=\"width: 84px\">\n<col style=\"width: 236px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-c3ow\">सूची-I (List-I)</th>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-c3ow\">सूची-II (List-II)</th>\n  </tr></thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">P</td>\n    <td class=\"tg-0pky\">$\\mathrm{NH}_4 \\mathrm{OH}$ की उपस्थिति में $\\mathrm{H}_2 \\mathrm{~S}$ प्रवाहित</td>\n    <td class=\"tg-c3ow\">1</td>\n    <td class=\"tg-0pky\">$\\mathrm{Cu}^{2+}$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">Q</td>\n    <td class=\"tg-0pky\">$\\mathrm{NH}_4 \\mathrm{OH}$ की उपस्थिति में $\\left(\\mathrm{NH}_4\\right)_2 \\mathrm{CO}_3$</td>\n    <td class=\"tg-c3ow\">2</td>\n    <td class=\"tg-0pky\">$\\mathrm{Al}^{3+}$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">R</td>\n    <td class=\"tg-0pky\">$\\mathrm{NH}_4 \\mathrm{Cl}$ की उपस्थिति में $\\mathrm{NH}_4 \\mathrm{OH}$</td>\n    <td class=\"tg-c3ow\">3</td>\n    <td class=\"tg-0pky\">$\\mathrm{Mn}^{2+}$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">S</td>\n    <td class=\"tg-0pky\">तनु HCl की उपस्थििति में $\\mathrm{H}_2 \\mathrm{~S}$ प्रवाहित</td>\n    <td class=\"tg-c3ow\">4</td>\n    <td class=\"tg-0pky\">$\\mathrm{Ba}^{2+}$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\"></td>\n    <td class=\"tg-baqh\"></td>\n    <td class=\"tg-baqh\">5</td>\n    <td class=\"tg-0lax\">$\\mathrm{Mg}^{2+}$</td>\n  </tr>\n</tbody></table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 4 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{P} \\rightarrow 4 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 3 ; \\mathrm{S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 4 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 5$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{P} \\rightarrow 5 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 4$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "P) $\\mathrm{NH}_4 \\mathrm{OH}$ की उपस्थिति में $\\mathrm{H}_2 \\mathrm{~S}$ प्रवाहित करना यह चतुर्थ समूह अभिकर्मक है। इस समूह में शामिल धातु आयन (धनायन) $\\mathrm{Mn}^{2+}, \\mathrm{Zn}^{2+}, \\mathrm{Ni}^{2+}$ और $\\mathrm{Co}^{2 \\mathrm{t}}$ हैं।<div></div>इस समूह अभिकर्मक का उपयोग धनायनों $\\mathrm{Mn}^{2+}, \\mathrm{Zn}^{2+}, \\mathrm{Ni}^{2+}$ और $\\mathrm{C}_0{ }^{2+}$ को अवक्षेपित करने के लिए किया जाता है। ये सल्फाइड के रूप में अवक्षेपित होते हैं।<div></div>दिए गए धनायनों में से, $\\mathrm{Mn}^{2+}$ को $\\mathrm{NH}_4OH$ की उपस्थिति में $\\mathrm{H}_2 \\mathrm{~S}$ प्रवाहित करके अवक्षेपित किया जाता है। $\\mathrm{Mn}^{2+}$ का अवक्षेप MnS है।<div></div>\n\n$$\nP-3\n$$\n<div></div>\nQ) $\\mathrm{NH}_4 \\mathrm{OH}$ की उपस्थिति में $\\left(\\mathrm{NH}_4\\right)_2 \\mathrm{CO}_3$\n\nयह पंचम समूह अभिकर्मक है। समूह $\\bar{V}$ में शामिल धनायन $\\mathrm{Ba}^{2+}, \\mathrm{Ca}^{2+}$ और $\\mathrm{Sr}^{2+}$ हैं। इन धनायनों को $\\mathrm{NH}_4 \\mathrm{OH}$ की उपस्थिति में अभिकर्मक $\\left(\\mathrm{NH}_4\\right)_2 \\mathrm{CO}_3$ का उपयोग करके अवक्षेपित किया जाता है। ये धनायन कार्बोनेट के रूप में अवक्षेपित होते हैं।<div></div>\nदिए गए धनायनों में से, $\\mathrm{Ba}^{2+}$ को $\\mathrm{NH}_4 \\mathrm{OH}$ की उपस्थिति में $\\left(\\mathrm{NH}_4\\right)_2 \\mathrm{CO}_3$ का उपयोग करके अवक्षेपित किया जाता है। $\\mathrm{Ba}^{2+}$ का अवक्षेप $\\mathrm{BaCO}_3$ है।\n\n$$\nQ-4\n$$<div></div>R) $\\mathrm{NH}_4 \\mathrm{Cl}$ की उपस्थिति में $\\mathrm{NH}_4 \\mathrm{OH} \\,\\,{\\text {में }}$ यह समूह III अभिकर्मक है। समूह III के धनायन $\\mathrm{Al}^{3+}, \\mathrm{Cr}^{3+}$ और $\\mathrm{Fe}^{3+}$ हैं। इन धनायनों को $\\mathrm{NH}_4 \\mathrm{Cl}$ के साथ $\\mathrm{NH}_4 \\mathrm{OH}$ का उपयोग करके अवक्षेपित किया जाता है। ये धनायन हाइड्रॉक्साइड के रूप में अवक्षेपित होते हैं।<div></div>\nदिए गए धनायनों में से, $\\mathrm{Al}^{3+}$ को $\\mathrm{NH}_4 \\mathrm{Cl}$ की उपस्थिति में $\\mathrm{NH}_4 \\mathrm{OH}$ का उपयोग करके अवक्षेपित किया जाता है। $\\mathrm{Al}^{3+}$ का अवक्षेप $\\mathrm{Al}(\\mathrm{OH})_3$ है।\n\n$$\nR-2\n$$\n<div></div>S) तनु HCl की उपस्थिति में $\\mathrm{H}_2 \\mathrm{~S}$ प्रवाहित करना यह समूह II अभिकर्मक है। समूह II के धनायन $\\mathrm{Cu}^{2+}, \\mathrm{Cd}^{2+}, \\mathrm{Hg}^{2+}, \\mathrm{Bi}^{2+}, \\mathrm{Pb}^{2+}, \\mathrm{Sn}^{2+}, \\mathrm{Sn}^{4+}, \\mathrm{Sb}^{3+}, \\mathrm{As}^{3+}$ और $A s^{5+}$ हैं। ये सल्फाइड के रूप में अवक्षेपित होते हैं जो तनु HCl में अविलेय होते हैं।\n\nदिए गए धनायनों में से, $\\mathrm{Cu}^{2+}$ को तनु HCl की उपस्थिति में $H_2 S$ प्रवाहित करके अवक्षेपित किया जाता है। $\\mathrm{Cu}^{2+}$ का अवक्षेप Cus है।\n\n$$\nS-1\n$$\n<div></div>$$\n\\begin{aligned}\n&\\text { उत्तर: विकल्प (A) }\\\\\n&P \\rightarrow 3, Q \\rightarrow 4, \\quad R \\rightarrow 2, \\quad S \\rightarrow 1\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The correct match of the group reagents in List-I for precipitating the metal ion given in List-II from solutions, is\n\n\n\n  \n\n    List–I\n\n    List–II\n\n  \n\n  \n\n    (P) Passing $\\mathrm{H_2S}$ in the presence of $\\mathrm{NH_4OH}$\n\n    (1) $\\ma..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "सूची-। में दिये समूह अभिकर्मकों (group reagents) जो सूची-॥ में दिये धातु आयन का विलयन से अवक्षेपण करें, का सही सुमेल है\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-fa..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "uo791pmdpfxgfikheee1",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "the-number-of-moles-of-potassium-iodide-required-to-produce-jee-advanced-chemistry-osvpooq2qf4gd9ib",
+      "question": {
+        "en": {
+          "comprehension": "When potassium iodide is added to an aqueous solution of potassium ferricyanide, a reversible reaction is observed in which a complex $\\mathbf{P}$ is formed. In a strong acidic medium, the equilibrium shifts completely towards $\\mathbf{P}$. Addition of zinc chloride to $\\mathbf{P}$ in a slightly acidic medium results in a sparingly soluble complex Q.",
+          "direction": null,
+          "content": "The number of moles of potassium iodide required to produce two moles of $\\mathbf{P}$ is _______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>$$ \\mathrm{KI}+\\mathrm{K}_3\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right] \\rightleftharpoons \\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]+\\frac{1}{2} \\mathrm{I}_2 $$</p>\n\n<p>Moles of KI required $=2$</p>"
+        },
+        "hi": {
+          "comprehension": "पोटैशियम फेरीसाइनाइड के जलीय विलयन में पोटैशियम आयोडाइड को मिलाने पर, एक उत्क्रमणीय अभिक्रिया (reversible reaction) होती है जिसमें एक संकुल $\\mathbf{P}$ बनता है। प्रबल अम्लीय माध्यम में साम्यावस्था पूर्ण रूप से $\\mathbf{P}$ की दिशा में विस्थापित हो जाती है। क्षीण अम्लीय माध्यम में संकुल $\\mathrm{P}$ में जिंक क्लोराइड मिलाने पर एक अल्प विलेय संकुल $Q$ प्राप्त होता है।",
+          "direction": null,
+          "content": "$\\mathbf{P}$ के दो मोलों (moles) को बनाने के लिए आवश्यक आयोडाइड आयनों के मोलों की संख्या ________ है।",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>$$ \\mathrm{KI}+\\mathrm{K}_3\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right] \\rightleftharpoons \\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]+\\frac{1}{2} \\mathrm{I}_2 $$</p>\n\n<p>KI के आवश्यक मोल $=2$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "chemical-principles",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The number of moles of potassium iodide required to produce two moles of $\\mathbf{P}$ is _______."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "$\\mathbf{P}$ के दो मोलों (moles) को बनाने के लिए आवश्यक आयोडाइड आयनों के मोलों की संख्या ________ है।"
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "30hmnkgd1x8cpbqy0aw6",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "the-number-of-zinc-ions-present-in-the-molecular-formula-of-jee-advanced-chemistry-gjigegfdepaattea",
+      "question": {
+        "en": {
+          "comprehension": "When potassium iodide is added to an aqueous solution of potassium ferricyanide, a reversible reaction is observed in which a complex $\\mathbf{P}$ is formed. In a strong acidic medium, the equilibrium shifts completely towards $\\mathbf{P}$. Addition of zinc chloride to $\\mathbf{P}$ in a slightly acidic medium results in a sparingly soluble complex Q.",
+          "direction": null,
+          "content": "The number of zinc ions present in the molecular formula of $\\mathbf{Q}$ is _______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "3OR2",
+          "explanation": "<p>$\\begin{gathered}\\mathrm{Zn}^{2+}+\\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right] \\rightarrow \\mathrm{K}_2 \\mathrm{Zn}_3\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]_2 \\\\ \\mathrm{OR} \\\\ \\mathrm{Zn}^{2+}+\\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right] \\rightarrow \\mathrm{Zn}_2\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]\\end{gathered}$</p>"
+        },
+        "hi": {
+          "comprehension": "पोटैशियम फेरीसाइनाइड के जलीय विलयन में पोटैशियम आयोडाइड को मिलाने पर, एक उत्क्रमणीय अभिक्रिया (reversible reaction) होती है जिसमें एक संकुल $\\mathbf{P}$ बनता है। प्रबल अम्लीय माध्यम में साम्यावस्था पूर्ण रूप से $\\mathbf{P}$ की दिशा में विस्थापित हो जाती है। क्षीण अम्लीय माध्यम में संकुल $\\mathrm{P}$ में जिंक क्लोराइड मिलाने पर एक अल्प विलेय संकुल $Q$ प्राप्त होता है।",
+          "direction": null,
+          "content": "$Q$ के अणुसूत्र (molecular formula) में जिंक आयनों की संख्या ______ है।",
+          "options": [],
+          "correct_options": [],
+          "answer": "3OR2",
+          "explanation": "<p>$\\begin{gathered}\\mathrm{Zn}^{2+}+\\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right] \\rightarrow \\mathrm{K}_2 \\mathrm{Zn}_3\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]_2 \\\\ \\mathrm{OR} \\\\ \\mathrm{Zn}^{2+}+\\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right] \\rightarrow \\mathrm{Zn}_2\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]\\end{gathered}$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "chemical-principles",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The number of zinc ions present in the molecular formula of $\\mathbf{Q}$ is _______."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "$Q$ के अणुसूत्र (molecular formula) में जिंक आयनों की संख्या ______ है।"
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "91fixd32xsjgtnh00bh5",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "precipitate-x-is-jee-advanced-chemistry-some-basic-concepts-of-chemistry-rh5k7kcrgf2jiai7",
+      "question": {
+        "en": {
+          "content": "Precipitate X is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Fe<sub>4</sub>[Fe(CN)<sub>6</sub>]<sub>3</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "Fe[Fe(CN)<sub>6</sub>]"
+            },
+            {
+              "identifier": "C",
+              "content": "K<sub>2</sub>Fe[Fe(CN)<sub>6</sub>]"
+            },
+            {
+              "identifier": "D",
+              "content": "KFe[Fe(CN)<sub>6</sub>]"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Precipitate X is K<sub>2</sub>Fe[Fe(CN)<sub>6</sub>]</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l08aif2z/291bd5e9-b850-484c-a940-9f8c1de6b88b/fea90ab0-9974-11ec-bc1e-ff46d5f5fdb6/file-1l08aif30.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l08aif2z/291bd5e9-b850-484c-a940-9f8c1de6b88b/fea90ab0-9974-11ec-bc1e-ff46d5f5fdb6/file-1l08aif30.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Chemistry - Salt Analysis Question 25 English Explanation\">",
+          "comprehension": "The reaction of K<sub>3</sub>[Fe(CN)<sub>6</sub>] with freshly prepared FeSO<sub>4</sub> solution produces a dark blue precipitate called Turnbull's blue. Reaction of K<sub>4</sub>[Fe(CN)<sub>6</sub>] with the FeSO<sub>4</sub> solution in complete absence of air produces a white precipitate X, which turns blue in air. Mixing the FeSO<sub>4</sub> solution with NaNO<sub>3</sub>, followed by a slow addition of concentrated H<sub>2</sub>SO<sub>4</sub> through the side of the test tube produces a brown ring."
+        },
+        "hi": {
+          "direction": "<p>$$\\mathrm{K}_{3}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$$ की ताजे बनाये गए $$\\mathrm{FeSO}_{4}$$ के विलयन के साथ अभिक्रिया करने पर एक घना नीला अवक्षेप उत्पादित होता है, जिसे 'टर्नबुल ब्लू' (Turnbull's blue) कहते है। $$\\mathrm{K}_{4}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$$ की $$\\mathrm{FeSO}_{4}$$ विलयन के साथ हवा की पूरी तरह से अनुपस्थिति में अभिक्रिया होने से एक सफेद अवक्षेप (precipitate) $$\\mathbf{X}$$ उत्पादित होता है, जो हवा में नीले में बदल जाता है | $$\\mathrm{FeSO}_{4}$$ के विलयन में $$\\mathrm{NaNO}_{3}$$ को मिलाने के पश्चात् , परख नली के बाजूओं से सान्द्र $$\\mathrm{H}_{2} \\mathrm{SO}_{4}$$ को धीरे धीरे डालने पर एक भूरा वलय (brown ring) देता है।</p>",
+          "comprehension": null,
+          "content": "<p>अवक्षेप $$\\mathbf{X}$$ है</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{Fe}_{4}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]_{3}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{Fe}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{K}_{2} \\mathrm{Fe}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mathrm{KFe}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>अवक्षेप X, K<sub>2</sub>Fe[Fe(CN)<sub>6</sub>] है</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l08aif2z/291bd5e9-b850-484c-a940-9f8c1de6b88b/fea90ab0-9974-11ec-bc1e-ff46d5f5fdb6/file-1l08aif30.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l08aif2z/291bd5e9-b850-484c-a940-9f8c1de6b88b/fea90ab0-9974-11ec-bc1e-ff46d5f5fdb6/file-1l08aif30.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Chemistry - Salt Analysis Question 25 Hindi Explanation\">"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "Precipitate X is "
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "अवक्षेप $$\\mathbf{X}$$ है"
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "rjat16fh7atvafk2cdis",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "among-the-following-the-brown-ring-is-due-to-the-formation-jee-advanced-chemistry-some-basic-concepts-of-chemistry-udbj8cg8siteciz4",
+      "question": {
+        "en": {
+          "content": "Among the following, the brown ring is due to the formation of ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "[Fe(NO)<sub>2</sub>](SO<sub>4</sub>)<sub>2</sub>]<sup>2$$-$$</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "[Fe(NO)<sub>2</sub>](H<sub>2</sub>O)<sub>4</sub>]<sup>3+</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "[Fe(NO)<sub>4</sub>](SO<sub>4</sub>)<sub>2</sub>]"
+            },
+            {
+              "identifier": "D",
+              "content": "[Fe(NO)(H<sub>2</sub>O)<sub>5</sub>]<sup>2+</sup>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "Brown ring is due to the formation of [Fe(NO)(H<sub>2</sub>O)<sub>5</sub>]<sup>2+</sup>\n<br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l08aex55/70c22de8-2ab2-4a15-a2ea-5971b8e98208/9d5ff390-9974-11ec-bc1e-ff46d5f5fdb6/file-1l08aex56.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l08aex55/70c22de8-2ab2-4a15-a2ea-5971b8e98208/9d5ff390-9974-11ec-bc1e-ff46d5f5fdb6/file-1l08aex56.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Chemistry - Salt Analysis Question 26 English Explanation\">",
+          "comprehension": "The reaction of K<sub>3</sub>[Fe(CN)<sub>6</sub>] with freshly prepared FeSO<sub>4</sub> solution produces a dark blue precipitate called Turnbull's blue. Reaction of K<sub>4</sub>[Fe(CN)<sub>6</sub>] with the FeSO<sub>4</sub> solution in complete absence of air produces a white precipitate X, which turns blue in air. Mixing the FeSO<sub>4</sub> solution with NaNO<sub>3</sub>, followed by a slow addition of concentrated H<sub>2</sub>SO<sub>4</sub> through the side of the test tube produces a brown ring."
+        },
+        "hi": {
+          "direction": "<p>$$\\mathrm{K}_{3}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$$ की ताजे बनाये गए $$\\mathrm{FeSO}_{4}$$ के विलयन के साथ अभिक्रिया करने पर एक घना नीला अवक्षेप उत्पादित होता है, जिसे 'टर्नबुल ब्लू' (Turnbull's blue) कहते है। $$\\mathrm{K}_{4}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]$$ की $$\\mathrm{FeSO}_{4}$$ विलयन के साथ हवा की पूरी तरह से अनुपस्थिति में अभिक्रिया होने से एक सफेद अवक्षेप (precipitate) $$\\mathbf{X}$$ उत्पादित होता है, जो हवा में नीले में बदल जाता है | $$\\mathrm{FeSO}_{4}$$ के विलयन में $$\\mathrm{NaNO}_{3}$$ को मिलाने के पश्चात् , परख नली के बाजूओं से सान्द्र $$\\mathrm{H}_{2} \\mathrm{SO}_{4}$$ को धीरे धीरे डालने पर एक भूरा वलय (brown ring) देता है।</p>",
+          "comprehension": null,
+          "content": "<p>निम्नलिखित में से, जिसके बनने से भूरा वलय (brown ring) मिलता है, वह है</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left[\\mathrm{Fe}(\\mathrm{NO})_{2}\\left(\\mathrm{SO}_{4}\\right)_{2}\\right]^{2-}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left[\\mathrm{Fe}(\\mathrm{NO})_{2}\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{4}\\right]^{3+}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left[\\mathrm{Fe}(\\mathrm{NO})_{4}\\left(\\mathrm{SO}_{4}\\right)_{2}\\right]$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left[\\mathrm{Fe}(\\mathrm{NO})\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{5}\\right]^{2+}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "भूरी वलय [Fe(NO)(H<sub>2</sub>O)<sub>5</sub>]<sup>2+</sup> के निर्माण के कारण होती है\n<br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l08aex55/70c22de8-2ab2-4a15-a2ea-5971b8e98208/9d5ff390-9974-11ec-bc1e-ff46d5f5fdb6/file-1l08aex56.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l08aex55/70c22de8-2ab2-4a15-a2ea-5971b8e98208/9d5ff390-9974-11ec-bc1e-ff46d5f5fdb6/file-1l08aex56.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Chemistry - Salt Analysis Question 26 Hindi Explanation\">"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "Among the following, the brown ring is due to the formation of "
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "निम्नलिखित में से, जिसके बनने से भूरा वलय (brown ring) मिलता है, वह है"
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "4exqk13kahl6pk2otyo0",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "permalink": "m1-q-and-r-respectively-are-jee-advanced-chemistry-some-basic-concepts-of-chemistry-jlw77hqoxcgcr5ic",
+      "question": {
+        "en": {
+          "content": "M1, Q and R, respectively, are",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Zn<sup>2+</sup>, KCN and HCl"
+            },
+            {
+              "identifier": "B",
+              "content": "Ni<sup>2+</sup>, HCl and KCN"
+            },
+            {
+              "identifier": "C",
+              "content": "Cd<sup>2+</sup>, KCN and HCl"
+            },
+            {
+              "identifier": "D",
+              "content": "Co<sup>2+</sup>, HCl and KCN"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The reactions involved are</p>\n<p>$$N{i^{2 + }} + HCl \\to \\mathop {{{\\left[ {NiC{l_4}} \\right]}^2}}\\limits_{Tetrahedral} $$</p>\n<p>$$N{i^{2 + }} + KCN \\to \\mathop {{{\\left[ {Ni{{(CN)}_4}} \\right]}^{2 - }}}\\limits_{Square\\,planar} $$</p>",
+          "comprehension": "<p>An aqueous solution of metal ion M1 reacts separately with reagents Q and R in excess to give tetrahedral and square planar complexes, respectively. An aqueous solution of another metal ion M2 always forms tetrahedral complexes with these reagents. Aqueous solution of M2 on reaction with reagent S gives white precipitate which dissolves in excess of S. The reactions are summarised in the scheme given below:</p>\n<p>SCHEME:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l17zrlkq/5986d310-dff8-4adb-b5a6-446020d34041/30eaa5a0-ad17-11ec-abb2-4983f0354b7b/file-1l17zrlkr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l17zrlkq/5986d310-dff8-4adb-b5a6-446020d34041/30eaa5a0-ad17-11ec-abb2-4983f0354b7b/file-1l17zrlkr.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2014 Paper 2 Offline Chemistry - Salt Analysis Question 23 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "M1, Q and R, respectively, are"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "question_id": "xhxg3mjgbqj3z8loj19u",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "permalink": "preagent-s-isp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-rpdgkqezg4hvzflv",
+      "question": {
+        "en": {
+          "content": "<p>Reagent S is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "K<sub>4</sub>[Fe(CN)<sub>6</sub>]"
+            },
+            {
+              "identifier": "B",
+              "content": "Na<sub>2</sub>HPO<sub>4</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "K<sub>2</sub>CrO<sub>4</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "KOH"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The reaction involved is</p>\n<p>Zn<sup>2+</sup> + OH<sup>$$-$$</sup> $$\\to$$ Zn(OH)<sub>2</sub> $$\\buildrel {O{H^ - }} \\over\n \\longrightarrow $$ [Zn(OH)<sub>4</sub>]<sup>2$$-$$</sup> (soluble)</p>",
+          "comprehension": "<p>An aqueous solution of metal ion M1 reacts separately with reagents Q and R in excess to give tetrahedral and square planar complexes, respectively. An aqueous solution of another metal ion M2 always forms tetrahedral complexes with these reagents. Aqueous solution of M2 on reaction with reagent S gives white precipitate which dissolves in excess of S. The reactions are summarised in the scheme given below:</p>\n<p>SCHEME:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l17zrlkq/5986d310-dff8-4adb-b5a6-446020d34041/30eaa5a0-ad17-11ec-abb2-4983f0354b7b/file-1l17zrlkr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l17zrlkq/5986d310-dff8-4adb-b5a6-446020d34041/30eaa5a0-ad17-11ec-abb2-4983f0354b7b/file-1l17zrlkr.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2014 Paper 2 Offline Chemistry - Salt Analysis Question 24 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "Reagent S is"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "question_id": "djjh3jpr8eyhlurofipc",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "permalink": "pthe-precipitate-p-containsp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-0kca5tzarnwgeare",
+      "question": {
+        "en": {
+          "content": "<p>The precipitate P contains</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Pb<sup>2+</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "Hg$$_2^{2 + }$$"
+            },
+            {
+              "identifier": "C",
+              "content": "Ag<sup>+</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "Hg<sup>2+</sup>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Pb salts form white precipitate of PbCl<sub>2</sub> with dil. HCl, which dissolves in hot water.</p>",
+          "comprehension": "<p>An aqueous solution of a mixture of two inorganic salts, when treated with dilute HCl, gave a precipitate (P) and a filtrate (Q). The precipitate (P) was found to dissolve in hot water. The filtrate (Q) remained unchanged, when treated with H<sub>2</sub>S in a dilute mineral acid medium. However, it gave a precipitate (R) with H<sub>2</sub>S in an ammoniacal medium. The precipitate R gave a coloured solution (S), when treated with H<sub>2</sub>O<sub>2</sub> in an aqueous NaOH medium.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The precipitate P contains"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "question_id": "5cxbjwxnuq9dizn3ae6m",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "permalink": "pthe-coloured-solution-s-containsp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-xvolcuqrxlarruuj",
+      "question": {
+        "en": {
+          "content": "<p>The coloured solution S contains</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$F{e_2}{(S{O_4})_3}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$CuS{O_4}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$ZnS{O_4}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$N{a_2}Cr{O_4}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The reactions involved are as follows:</p>\n<p>$$\\mathop {C{r^{3 + }}}\\limits_{(Q)}  + 3N{H_4}OH\\buildrel {{H_2}S} \\over\n \\longrightarrow \\mathop {Cr{{(OH)}_3}}\\limits_{(R)\\,(Green\\,ppt.)}  + 3NH_4^ + $$</p>\n<p>$$\\mathop {2Cr{{(OH)}_3}}\\limits_{(R)}  + 3{H_2}{O_2} + 4NaOH \\to \\mathop {2N{a_2}Cr{O_4} + 8{H_2}O}\\limits_{(S)\\,(Yellow\\,solution)} $$</p>",
+          "comprehension": "<p>An aqueous solution of a mixture of two inorganic salts, when treated with dilute HCl, gave a precipitate (P) and a filtrate (Q). The precipitate (P) was found to dissolve in hot water. The filtrate (Q) remained unchanged, when treated with H<sub>2</sub>S in a dilute mineral acid medium. However, it gave a precipitate (R) with H<sub>2</sub>S in an ammoniacal medium. The precipitate R gave a coloured solution (S), when treated with H<sub>2</sub>O<sub>2</sub> in an aqueous NaOH medium.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The coloured solution S contains"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "question_id": "h9zz2668xyw7jrww1vig",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "ppassing-hsub2subs-gas-into-a-mixture-of-mnsup2s-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ouaglarrmm1r0spu",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Passing H<sub>2</sub>S gas into a mixture of Mn<sup>2+</sup>, Ni<sup>2+</sup>, Cu<sup>2+</sup> and Hg<sup>2+</sup> ions in an acidified aqueous solution precipitates</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "CuS and HgS"
+            },
+            {
+              "identifier": "B",
+              "content": "MnS and CuS"
+            },
+            {
+              "identifier": "C",
+              "content": "MnS and NiS"
+            },
+            {
+              "identifier": "D",
+              "content": "NiS and HgS"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Cu<sup>2+</sup> and Hg<sup>2+</sup> ions belong to Group II of inorganic salt analysis and their sulphides are very less soluble in aqueous medium.</p>\n<p>Hence, CuS and HgS will be precipitated out even in acidic medium by passing H<sub>2</sub>S gas.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "Passing H2S gas into a mixture of Mn2+, Ni2+, Cu2+ and Hg2+ ions in an acidified aqueous solution precipitates"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "nx2lwqd1jibuostgi1qz",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "the-metal-rod-m-is-jee-advanced-chemistry-some-basic-concepts-of-chemistry-qa85hkzpo8mq7fjq",
+      "question": {
+        "en": {
+          "content": "The metal rod M is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Fe"
+            },
+            {
+              "identifier": "B",
+              "content": "Cu"
+            },
+            {
+              "identifier": "C",
+              "content": "Ni"
+            },
+            {
+              "identifier": "D",
+              "content": "Co"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>M is copper and N is silver nitrate according to the equation</p>\n<p>$$\\mathop {Cu}\\limits_{(M)}  + \\mathop {2AgN{O_3}}\\limits_{(N)}  \\to \\mathop {Cu{{(N{O_3})}_2}}\\limits_{Blue}  + 2Ag$$</p>\n<p>The solution of copper nitrate is blue in colour which is formed by the reaction of copper with silver nitrate.</p>\n<p>$$AgN{O_3} + NaCl \\to AgCl + NaN{O_3}$$</p>\n<p>silver chloride precipitates out (white colour ppt.) when silver nitrate reacts with sodium chloride (double displacement reaction).</p>\n<p>$$AgCl + 2N{H_4}OH \\to [Ag{(N{H_3})_2}]Cl + 2{H_2}O$$</p>\n<p>AgCl is soluble in NH<sub>4</sub>OH.</p>\n<p>$$Cu{(N{O_3})_2} + 4N{H_4}OH \\to [Cu{(N{H_3})_4}]{(N{O_3})_2} + 4{H_2}O$$</p>\n<p>Copper nitrate on reaction with ammonia or ammonium hydroxide gives intense blue solution which is due to $$[Cu{(N{H_3})_4}]$$.</p>",
+          "comprehension": "<p>When a metal rod M is dipped into an aqueous colourless concentrated solution of compound N, the solution turns light blue. Addition of aqueous NaCl to the blue solution gives a white precipitate O. Addition of aqueous NH<sub>3</sub> dissolves O and gives an intense blue solution.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The metal rod M is"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "1ulahcsusutieouhsnnk",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "pthe-compound-n-isp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-10cdtr2p45zmbob0",
+      "question": {
+        "en": {
+          "content": "<p>The compound N is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "AgNO<sub>3</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "Zn(NO<sub>3</sub>)<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "Al(NO<sub>3</sub>)<sub>3</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "Pb(NO<sub>3</sub>)<sub>2</sub>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p><p>M is copper and N is silver nitrate according to the equation</p>\n<p>$$\\mathop {Cu}\\limits_{(M)}  + \\mathop {2AgN{O_3}}\\limits_{(N)}  \\to \\mathop {Cu{{(N{O_3})}_2}}\\limits_{Blue}  + 2Ag$$</p>\n<p>The solution of copper nitrate is blue in colour which is formed by the reaction of copper with silver nitrate.</p>\n<p>$$AgN{O_3} + NaCl \\to AgCl + NaN{O_3}$$</p>\n<p>silver chloride precipitates out (white colour ppt.) when silver nitrate reacts with sodium chloride (double displacement reaction).</p>\n<p>$$AgCl + 2N{H_4}OH \\to [Ag{(N{H_3})_2}]Cl + 2{H_2}O$$</p>\n<p>AgCl is soluble in NH<sub>4</sub>OH.</p>\n<p>$$Cu{(N{O_3})_2} + 4N{H_4}OH \\to [Cu{(N{H_3})_4}]{(N{O_3})_2} + 4{H_2}O$$</p>\n<p>Copper nitrate on reaction with ammonia or ammonium hydroxide gives intense blue solution which is due to $$[Cu{(N{H_3})_4}]$$.</p></p>",
+          "comprehension": "<p>When a metal rod M is dipped into an aqueous colourless concentrated solution of compound N, the solution turns light blue. Addition of aqueous NaCl to the blue solution gives a white precipitate O. Addition of aqueous NH<sub>3</sub> dissolves O and gives an intense blue solution.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The compound N is"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "fs1s4n6vtv0oeumj2wwo",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "pthe-final-solution-containsp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-lpkzap5gw2afg6qc",
+      "question": {
+        "en": {
+          "content": "<p>The final solution contains :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${[Pb{(N{H_3})_4}]^{2 + }}$$ and $${[CoC{l_2}]^{2 - }}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${[Al{(N{H_3})_4}]^{3 + }}$$ and $${[Cu{(N{H_3})_4}]^{2 + }}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${[Ag{(N{H_3})_2}]^ + }$$ and $${[Cu{(N{H_3})_4}]^{2 + }}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${[Ag{(N{H_3})_2}]^ + }$$ and $${[Ni{(N{H_3})_6}]^{2 + }}$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>M is copper and N is silver nitrate according to the equation</p>\n<p>$$\\mathop {Cu}\\limits_{(M)}  + \\mathop {2AgN{O_3}}\\limits_{(N)}  \\to \\mathop {Cu{{(N{O_3})}_2}}\\limits_{Blue}  + 2Ag$$</p>\n<p>The solution of copper nitrate is blue in colour which is formed by the reaction of copper with silver nitrate.</p>\n<p>$$AgN{O_3} + NaCl \\to AgCl + NaN{O_3}$$</p>\n<p>silver chloride precipitates out (white colour ppt.) when silver nitrate reacts with sodium chloride (double displacement reaction).</p>\n<p>$$AgCl + 2N{H_4}OH \\to [Ag{(N{H_3})_2}]Cl + 2{H_2}O$$</p>\n<p>AgCl is soluble in NH<sub>4</sub>OH.</p>\n<p>$$Cu{(N{O_3})_2} + 4N{H_4}OH \\to [Cu{(N{H_3})_4}]{(N{O_3})_2} + 4{H_2}O$$</p>\n<p>Copper nitrate on reaction with ammonia or ammonium hydroxide gives intense blue solution which is due to $$[Cu{(N{H_3})_4}]$$.</p>",
+          "comprehension": "<p>When a metal rod M is dipped into an aqueous colourless concentrated solution of compound N, the solution turns light blue. Addition of aqueous NaCl to the blue solution gives a white precipitate O. Addition of aqueous NH<sub>3</sub> dissolves O and gives an intense blue solution.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The final solution contains :"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "vmyw6ia36wsq4si9qutf",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pthe-compound-x-isp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-qmbfehouvciftjgj",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The compound X is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "NaNO$$_3$$"
+            },
+            {
+              "identifier": "B",
+              "content": "NaCl"
+            },
+            {
+              "identifier": "C",
+              "content": "Na$$_2$$SO$$_4$$"
+            },
+            {
+              "identifier": "D",
+              "content": "Na$$_2$$S"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The compound <b>X</b> is H$$_2$$S:</p>\n<p>$$\\mathrm{\\mathop {N{a_2}S}\\limits_{(X)}  + 2{H^ + } \\to {H_2}S + 2N{a^ + }}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrmykpg/613c0862-dbf6-4cfd-9751-3b21c73340e1/d0860140-cd0f-11ed-8124-cf50c8498624/file-1lfrmykph.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrmykpg/613c0862-dbf6-4cfd-9751-3b21c73340e1/d0860140-cd0f-11ed-8124-cf50c8498624/file-1lfrmykph.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Chemistry - Salt Analysis Question 10 English Explanation 1\"></p>\n<p>Thus, the compound <b>Y</b> is FeCl$$_3$$.</p>\n<p>Compound <b>Y</b> on reaction with potassium hyxacyanoferrate(II) forms intense blue precipitate which dissolves on addition of reagent</p>\n<p>$$\\mathrm{4FeC{l_3} + 3{K_4}\\left[ {Fe(II){{(CN)}_6}} \\right] \\to \\mathop {F{e_4}{{[Fe{{(CN)}_6}]}_3}}\\limits_{Intense\\,blue\\,ppt.}  + 12KCl}$$</p>\n<p>Compound <b>Y</b> on reaction with potassium hexacyanoferrate (III) forms brown colouration due to</p>\n<p>$$\\mathrm{Fe[Fe(CN)_6]}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrn09qx/a2aeb4d3-d055-4010-9fb4-a79e884eb02b/ffad1490-cd0f-11ed-8124-cf50c8498624/file-1lfrn09qy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrn09qx/a2aeb4d3-d055-4010-9fb4-a79e884eb02b/ffad1490-cd0f-11ed-8124-cf50c8498624/file-1lfrn09qy.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Chemistry - Salt Analysis Question 10 English Explanation 2\"></p>",
+          "comprehension": "<p>p-Amino-N, N-dimethylaniline is added to a strongly acidic solution of X. The resulting solution is treated with a few drops of aqueous solution of Y to yield blue colouration due to the formation of methylene blue. Treatment of the aqueous solution of Y with the reagent potassium hexacyanoferrate(II) leads to the formation of an intense blue precipitate. The precipitate dissolves on excess addition of the reagent. Similarly, treatment of the solution of Y with the solution of potassium hexacyanoferrate(III) leads to a brown coloration due to the formation of Z.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-anions",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The compound X is"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "p58ja00ogv3xuym6bdzu",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pthe-compound-y-isp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-47dfv1svp0yyqwly",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The compound Y is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "MgCl$$_2$$"
+            },
+            {
+              "identifier": "B",
+              "content": "FeCl$$_2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "FeCl$$_3$$"
+            },
+            {
+              "identifier": "D",
+              "content": "ZnCl$$_2$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The compound <b>X</b> is H$$_2$$S:</p>\n<p>$$\\mathrm{\\mathop {N{a_2}S}\\limits_{(X)}  + 2{H^ + } \\to {H_2}S + 2N{a^ + }}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrmykpg/613c0862-dbf6-4cfd-9751-3b21c73340e1/d0860140-cd0f-11ed-8124-cf50c8498624/file-1lfrmykph.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrmykpg/613c0862-dbf6-4cfd-9751-3b21c73340e1/d0860140-cd0f-11ed-8124-cf50c8498624/file-1lfrmykph.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Chemistry - Salt Analysis Question 8 English Explanation 1\"></p>\n<p>Thus, the compound <b>Y</b> is FeCl$$_3$$.</p>\n<p>Compound <b>Y</b> on reaction with potassium hyxacyanoferrate(II) forms intense blue precipitate which dissolves on addition of reagent</p>\n<p>$$\\mathrm{4FeC{l_3} + 3{K_4}\\left[ {Fe(II){{(CN)}_6}} \\right] \\to \\mathop {F{e_4}{{[Fe{{(CN)}_6}]}_3}}\\limits_{Intense\\,blue\\,ppt.}  + 12KCl}$$</p>\n<p>Compound <b>Y</b> on reaction with potassium hexacyanoferrate (III) forms brown colouration due to</p>\n<p>$$\\mathrm{Fe[Fe(CN)_6]}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrn09qx/a2aeb4d3-d055-4010-9fb4-a79e884eb02b/ffad1490-cd0f-11ed-8124-cf50c8498624/file-1lfrn09qy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrn09qx/a2aeb4d3-d055-4010-9fb4-a79e884eb02b/ffad1490-cd0f-11ed-8124-cf50c8498624/file-1lfrn09qy.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Chemistry - Salt Analysis Question 8 English Explanation 2\"></p>",
+          "comprehension": "<p>p-Amino-N, N-dimethylaniline is added to a strongly acidic solution of X. The resulting solution is treated with a few drops of aqueous solution of Y to yield blue colouration due to the formation of methylene blue. Treatment of the aqueous solution of Y with the reagent potassium hexacyanoferrate(II) leads to the formation of an intense blue precipitate. The precipitate dissolves on excess addition of the reagent. Similarly, treatment of the solution of Y with the solution of potassium hexacyanoferrate(III) leads to a brown coloration due to the formation of Z.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The compound Y is"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "uehjqdsbi2mk4k2mot36",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pthe-compound-z-isp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-i0g7xbz9jht6ygbj",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The compound Z is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$M{g_2}[Fe{(CN)_6}]$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$Fe[Fe{(CN)_6}]$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$F{e_4}{[Fe{(CN)_6}]_3}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${K_2}Z{n_3}{[Fe{(CN)_6}]_2}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The compound <b>X</b> is H$$_2$$S:</p>\n<p>$$\\mathrm{\\mathop {N{a_2}S}\\limits_{(X)}  + 2{H^ + } \\to {H_2}S + 2N{a^ + }}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrmykpg/613c0862-dbf6-4cfd-9751-3b21c73340e1/d0860140-cd0f-11ed-8124-cf50c8498624/file-1lfrmykph.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrmykpg/613c0862-dbf6-4cfd-9751-3b21c73340e1/d0860140-cd0f-11ed-8124-cf50c8498624/file-1lfrmykph.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Chemistry - Salt Analysis Question 9 English Explanation 1\"></p>\n<p>Thus, the compound <b>Y</b> is FeCl$$_3$$.</p>\n<p>Compound <b>Y</b> on reaction with potassium hyxacyanoferrate(II) forms intense blue precipitate which dissolves on addition of reagent</p>\n<p>$$\\mathrm{4FeC{l_3} + 3{K_4}\\left[ {Fe(II){{(CN)}_6}} \\right] \\to \\mathop {F{e_4}{{[Fe{{(CN)}_6}]}_3}}\\limits_{Intense\\,blue\\,ppt.}  + 12KCl}$$</p>\n<p>Compound <b>Y</b> on reaction with potassium hexacyanoferrate (III) forms brown colouration due to</p>\n<p>$$\\mathrm{Fe[Fe(CN)_6]}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrn09qx/a2aeb4d3-d055-4010-9fb4-a79e884eb02b/ffad1490-cd0f-11ed-8124-cf50c8498624/file-1lfrn09qy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrn09qx/a2aeb4d3-d055-4010-9fb4-a79e884eb02b/ffad1490-cd0f-11ed-8124-cf50c8498624/file-1lfrn09qy.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Chemistry - Salt Analysis Question 9 English Explanation 2\"></p>",
+          "comprehension": "<p>p-Amino-N, N-dimethylaniline is added to a strongly acidic solution of X. The resulting solution is treated with a few drops of aqueous solution of Y to yield blue colouration due to the formation of methylene blue. Treatment of the aqueous solution of Y with the reagent potassium hexacyanoferrate(II) leads to the formation of an intense blue precipitate. The precipitate dissolves on excess addition of the reagent. Similarly, treatment of the solution of Y with the solution of potassium hexacyanoferrate(III) leads to a brown coloration due to the formation of Z.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The compound Z is"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "d19xupd4fxd9pta3pagv",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pa-solution-of-a-metal-ion-when-treated-with-ki-gives-a-re-jee-advanced-chemistry-some-basic-concepts-of-chemistry-uzyo8tuaxynvuqdo",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A solution of a metal ion when treated with KI gives a red precipitate which dissolves in excess KI to give a colourless solution. Moreover, the solution of metal ion \n treatment with a solution of cobalt (II) thiocyanate gives rise to a deep blue crystalline precipitate. The metal ion is:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Pb$$^{2+}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "Hg$$^{2+}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "Cu$$^{2+}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "Co$$^{2+}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>A solution of metal ion (Hg$$^{2+}$$) when treated with KI gives a red precipitate which dissolves in excess KI to give a colourless solution. Moreover, the solution of metal ion on treatment with a solution of cobalt (II) thiocyanate gives rise to a deep blue crystalline precipitate. The metal ion is Hg$$^{2+}$$.</p>\n<p>$$\\mathrm{Hg_2+KI\\to Hg ~I_2}$$ (red ppt)</p>\n<p>$$\\mathrm{HgI_2+KI\\to K_2HgI_4}$$</p>\n<p>$$\\mathrm{Co(SCN)_2+K_2HgI_4=Co[Hg(SCN)_4]}$$ (blue crystalline precipitates)</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "A solution of a metal ion when treated with KI gives a red precipitate which dissolves in excess KI to give a colourless solution. Moreover, the solution of metal ion \n treatment with a solution of cobalt (II) thiocyanate gives rise to a de..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "question_id": "b2tss0lfszujcp3dreqi",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pa-solution-when-diluted-with-mathrmh2-mathrmo-an-jee-advanced-chemistry-some-basic-concepts-of-chemistry-f07bcapd0wii0dpq",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A solution when diluted with $\\mathrm{H}_2 \\mathrm{O}$ and boiled, it gives a white precipitate. On addition of excess $\\mathrm{NH}_4 \\mathrm{Cl} / \\mathrm{NH}_4 \\mathrm{OH}$, the volume of precipitate decreases leaving behind a white gelatinous precipitate. Identify the precipitate which dissolves in $\\mathrm{NH}_4 \\mathrm{OH} / \\mathrm{NH}_4 \\mathrm{Cl}$.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$\\mathrm{Zn}(\\mathrm{OH})_2$</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$\\mathrm{Al}(\\mathrm{OH})_3$</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\mathrm{Mg}(\\mathrm{OH})_2$</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$\\mathrm{Ca}(\\mathrm{OH})_2$</p>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>When water is added to the solution of $\\mathrm{Zn}^{2+}$ ions followed by boiling, the reaction between $\\mathrm{Zn}^{2+}$ ions and water occur with the formation of white precipitate of $\\mathrm{Zn}(\\mathrm{OH})_2$.</p>\n<p>$$ \\mathrm{Zn}^{2+}+2 \\mathrm{H}_2 \\mathrm{O} \\rightarrow \\mathrm{Zn}(\\mathrm{OH})_2+2 \\mathrm{H}^{+} $$</p>\n<p>When excess of $\\mathrm{NH}_4 \\mathrm{Cl} / \\mathrm{NH}_4 \\mathrm{OH}$ is added to this precipitate, the precipitate gets dissolved due to formation of tetrammine zinc (II) complex.</p>\n<p>$$ \\begin{aligned} \\mathrm{Zn}(\\mathrm{OH})_2+ & \\mathrm{NH}_4 \\mathrm{OH}+\\mathrm{NH}_4 \\mathrm{Cl}  \\rightarrow\\left[\\mathrm{Zn}\\left(\\mathrm{NH}_3\\right)_4\\right]^{2+}+4 \\mathrm{H}_2 \\mathrm{O}+2 \\mathrm{OH}^{-} \\end{aligned} $$</p>\n<p>The complex is soluble.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "A solution when diluted with $\\mathrm{H}_2 \\mathrm{O}$ and boiled, it gives a white precipitate. On addition of excess $\\mathrm{NH}_4 \\mathrm{Cl} / \\mathrm{NH}_4 \\mathrm{OH}$, the volume of precipitate decreases leaving behind a white gelat..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "zuy6vo2w9yx2z3vyk3ds",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pmathrmcuso4-decolourises-on-addition-of-kcn--the-p-jee-advanced-chemistry-some-basic-concepts-of-chemistry-xrc4nlyaoik38cvh",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>$\\mathrm{CuSO}_4$ decolourises on addition of KCN , the product is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$\\left[\\mathrm{Cu}(\\mathrm{CN})_4\\right]^{2-}$</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$\\mathrm{Cu}^{2+}$ get reduced to form $\\left[\\mathrm{Cu}(\\mathrm{CN})_4\\right]^{3-}$</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\mathrm{Cu}(\\mathrm{CN})_2$</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>CuCN</p>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The step wise reaction between $\\mathrm{CuSO}_4$ and KCN is as given below :</p>\n<p>In the first step, The $\\mathrm{CuSO}_4$ on addition of KCN loses its colour and produces copper (II) cyanide $\\mathrm{Cu}(\\mathrm{CN})_2$.</p>\n<p>$$ \\mathrm{CuSO}_4+2 \\mathrm{KCN} \\rightarrow \\mathrm{Cu}(\\mathrm{CN})_2+\\mathrm{K}_2 \\mathrm{SO}_4 $$</p>\n<p>The $\\mathrm{Cu}(\\mathrm{CN})_2$ formed is yellow coloured precipitate and unstable in nature.</p>\n<p>In the step 2, the unstable $\\mathrm{Cu}(\\mathrm{CN})_2$ decomposes to white coloured precipitate of copper (I) cyanide as in reaction given below.</p>\n<p>$$ \\underset{\\text { yellow ppt }}{2 \\mathrm{Cu}(\\mathrm{CN})_2} \\longrightarrow \\underset{\\text { white ppt }}{2 \\mathrm{CuCN}}+(\\mathrm{CN})_2 $$</p>\n<p>On addition of excess of potassium cyanide, colourless complex of tetracyanocuprate(I) is obtained.</p>\n<p>$$ \\begin{aligned} &\\mathrm{CuCN}+3 \\mathrm{KCN} \\longrightarrow \\mathrm{~K}_3\\left[\\mathrm{Cu}(\\mathrm{CN})_4\\right]\\\\ &\\text { Potassium tetracyanocuprate (I) colourless } \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 200000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "$\\mathrm{CuSO}_4$ decolourises on addition of KCN , the product is"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "d5zheq9julw2e8ddn8gx",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "iit-jee-1994",
+      "paperTitle": "IIT-JEE 1994",
+      "permalink": "a-is-binary-compound-of-a-univalent-metal-1422-g-of-a-reac-jee-advanced-chemistry-salt-analysis-ndletgnf4mad5cey",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A is binary compound of a univalent metal. 1.422 g of A\nreacts completely with 0.321 g of sulphur in an evacuated\nand sealed tube to give 1.743 g of a white crystalline solid\nB, that forms a hydrated double salt, C with Al<sub>2</sub>\n(SO<sub>4</sub>)<sub>3</sub>\n.\nIdentify A, B and C.",
+          "options": [],
+          "correct_options": [],
+          "answer": "A = KO<sub>2</sub>, B = K<sub>2</sub>SO<sub>4</sub>, C = K<sub>2</sub>SO<sub>4</sub>·Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>·24H<sub>2</sub>O",
+          "explanation": "<p>Univalent metal means alkali metal. A is binary compound so A can be KO or KO<sub>2</sub>.</p>\n<p>But here A react completely with sulphur.</p>\n<p>$$\\therefore$$ A must be KO<sub>2</sub>.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l9lfq63e/791ac6e4-699b-46d9-aa55-0d21f2a6c5c2/86b03ba0-52dd-11ed-8c4f-d77fcc31239e/file-1l9lfq63f.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l9lfq63e/791ac6e4-699b-46d9-aa55-0d21f2a6c5c2/86b03ba0-52dd-11ed-8c4f-d77fcc31239e/file-1l9lfq63f.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 1994 Chemistry - Salt Analysis Question 16 English Explanation\"></p>\n<p>To check A and B are right or not we have to check with their molar ratio.</p>\n<p>Here molar ratio of KO<sub>2</sub> and S = 2 : 1</p>\n<p>Moles of 1.422 g KO<sub>2</sub> = $${{1.422} \\over {71}} = 0.02$$</p>\n<p>Moles of 0.321 g S = $${{0.321} \\over {32}} = 0.01$$</p>\n<p>$$\\therefore$$ Molar ratio = 0.02 : 0.01 = 2 : 1</p>\n<p>$$\\therefore$$ A and B are right choice.</p>\n<p>When K<sup>+</sup> is the monovalent cation and Al<sup>+3</sup> is the trivalent cation then double salt C is $$ = {K_2}S{O_4}.A{l_2}{(S{O_4})_3}.24{H_2}O$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 120000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "subjective",
+      "year": 1994,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "A is binary compound of a univalent metal. 1.422 g of A\nreacts completely with 0.321 g of sulphur in an evacuated\nand sealed tube to give 1.743 g of a white crystalline solid\nB, that forms a hydrated double salt, C with Al2\n(SO4)3\n.\nIdentif..."
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "question_id": "fzbn04tsn4rrquznvgja",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "iit-jee-1984",
+      "paperTitle": "IIT-JEE 1984",
+      "permalink": "pwhen-168-g-of-white-solid-x-were-heated-44-g-of-acid-g-jee-advanced-chemistry-koat9bhmvzeyul1r",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>When 16.8 g of white solid X were heated, 4.4 g of acid\ngas A, that turned lime water milky was driven off together\nwith 1.8 g of a gas B which condensed to a colourless\nliquid.</p> <p>The solid that remained, Y, dissolved in water to\ngive an alkaline solution, which with excess barium\nchloride solution gave a white precipitate Z. The precipitate\nefferversced with acid giving off carbon dioxide. Identify\nA, B and Y and write down the equation for the thermal\ndecomposition of X.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "<p>A is CO<sub>2</sub></p>\n<p>B is H<sub>2</sub>O</p>\n<p>Y is Na<sub>2</sub>CO<sub>3</sub></p>\n<p>X is Na(HCO<sub>3</sub>)</p>",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfks5lyh/893825ea-2d29-4ec9-a57f-ad46cc44a28c/a540be80-c94a-11ed-940a-7359903443f3/file-1lfks5lyi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfks5lyh/893825ea-2d29-4ec9-a57f-ad46cc44a28c/a540be80-c94a-11ed-940a-7359903443f3/file-1lfks5lyi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 1984 Chemistry - Salt Analysis Question 11 English Explanation 1\">\n<br><br>(i) Gas A turned lime water milky, which indicates the presence of carbon dioxide. Therefore, gas A is carbon dioxide (CO<sub>2</sub>).\n<br><br>(ii) Gas B, which condenses to a colourless liquid: This is most likely water (H<sub>2</sub>O).\n<br><br>(iii) $Y$ when dissolved in water yields an alkaline solution and the solution on treatment with $\\mathrm{BaCl}_2$ solution forms a white ppt, of $Z$. The compound $Z$ on treatment with acid gives effervescence of $\\mathrm{CO}_2$ so $Z$ and hence $Y$ must be a carbonate, $\\mathrm{CO}_3^{2-}$. We can thus write $Y$ as $M \\mathrm{CO}_3$ or $M_2 \\mathrm{CO}_3$.\n<br><br>(iv) $X$ on being heated yields a carbonate $Y$, hence $\\mathrm{CO}_{2(g)}$ i.e. $A$ and another gas $B$, hence it must be a bicarbonate, $\\mathrm{HCO}_3^{-}$.\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfksk0v3/0030bd85-f8dd-41e8-9377-1118b978a067/36188ef0-c94c-11ed-940a-7359903443f3/file-1lfksk0v4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfksk0v3/0030bd85-f8dd-41e8-9377-1118b978a067/36188ef0-c94c-11ed-940a-7359903443f3/file-1lfksk0v4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 1984 Chemistry - Salt Analysis Question 11 English Explanation 2\">\n<br>$4.4 \\mathrm{~g}$ of $\\mathrm{CO}_2$ is given by $M\\left(\\mathrm{HCO}_3\\right)=16.8 \\mathrm{~g}$\n<br><br>$44 \\mathrm{~g}$ of $\\mathrm{CO}_2$ is given by $M\\left(\\mathrm{HCO}_3\\right)$\n<br><br>$$\n=\\frac{16.8}{4.4} \\times 44=168 \\mathrm{~g}\n$$\n<br><br>Because 2 molecules of $M\\left(\\mathrm{HCO}_3\\right)$ are involved in the reaction so molecular weight of <br><br>$M\\left(\\mathrm{HCO}_3\\right)=168 / 2=84$\n<br><br>Let the atomic weight be $M$.\n<br><br>Molecular weight of $M\\left(\\mathrm{HCO}_3\\right)=M+1+12+48$$$=M+61$$\n<br><br>$$\n\\therefore M+61=84 \\text { or } M=84-61=23\n$$\n<br><br>Thus the metal must be $\\mathrm{Na}$ and so the given salt $X$ is $\\mathrm{Na}\\left(\\mathrm{HCO}_3\\right)$."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 120000,
+      "topic": "systematic-analysis-of-anions",
+      "type": "subjective",
+      "year": 1984,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "When 16.8 g of white solid X were heated, 4.4 g of acid\ngas A, that turned lime water milky was driven off together\nwith 1.8 g of a gas B which condensed to a colourless\nliquid. The solid that remained, Y, dissolved in water to\ngive an alka..."
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "question_id": "ddkla4ruodaq66q1ad8n",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 1,
+      "negMarks": 0,
+      "paperId": "iit-jee-1980",
+      "paperTitle": "IIT-JEE 1980",
+      "permalink": "pexplain-the-following-in-not-more-than-two-sentensesp-jee-advanced-chemistry-mwmnkq7zeswjak3d",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Explain the following in not more than two sentenses.</p>\n<p>A solution of FeCl<sub>3</sub>\n in water gives a brown precipitate on\nstanding. </p>",
+          "options": [],
+          "correct_options": [],
+          "answer": " ",
+          "explanation": "$\\mathrm{FeCl}_3$ is a salt of strong acid and weak base. In water, it hydrolyses slowly producing brown ppt of $\\mathrm{Fe}(\\mathrm{OH})_3$.\n<br/><br/>$$\n\\mathrm{FeCl}_3+3 \\mathrm{H}_2 \\mathrm{O} \\longrightarrow 3 \\mathrm{HCl}+\\mathrm{Fe}(\\mathrm{OH})_3 \\downarrow\n$$(Brown)"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 120000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "subjective",
+      "year": 1980,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "Explain the following in not more than two sentenses.\nA solution of FeCl3\n in water gives a brown precipitate on\nstanding. "
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "question_id": "1bwsptrecn62efx43n8z",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "iit-jee-1980",
+      "paperTitle": "IIT-JEE 1980",
+      "permalink": "pcompound-a-is-a-light-green-crystalline-solid-it-gives-t-jee-advanced-chemistry-rvbjszq2z72lsl7h",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Compound A is a light green crystalline solid. It gives\nthe following tests :</p>\n<p>(i) It dissolves in dilute sulphuric acid. No gas is\nproduced.</p>\n<p>(ii) A drop of KMnO<sub>4</sub>\n is added to the above solution. The\npink colour disappears.</p>\n<p>(iii) Compound A is heated strongly. Gases B and C, with\npungent smell, come out. A brown residue D is left\nbehind.</p>\n<p>(iv) The gas mixture (B and C) is passed into a dichromate\nsolution. The solution turns green.</p>\n<p>(v) The green solution from step (iv) gives a white\nprecipitate E with a solution of barium nitrate.</p>\n<p>(vi) Residue D from step (iii) is heated on charcoal in a\nreducing flame. It gives a magnetic substance E.</p>\n<p>Name the compounds A, B, C, D and E. </p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "<p>A – Ferrous sulphate (FeSO<sub>4</sub>·7H<sub>2</sub>O)</p>\n<p>B – Sulphur dioxide (SO<sub>2</sub>)</p>\n<p>C – Sulphur trioxide (SO<sub>3</sub>)</p>\n<p>D – Ferric oxide (Fe<sub>2</sub>O<sub>3</sub>)</p>\n<p>E – Iron (Fe)</p>",
+          "explanation": "<p>Let's analyze the given information step-by-step to identify the compounds.</p>\n<p><strong>(i) Dissolution in dilute sulfuric acid without gas evolution:</strong> This suggests that compound A is likely a metal compound that forms a soluble sulfate.  The lack of gas rules out carbonates and many other reactive compounds.</p>\n<p><strong>(ii) Decolorization of KMnO₄:</strong>  Potassium permanganate ($KMnO_4$) is a strong oxidizing agent. Its decolorization indicates that compound A, or a species derived from it in the acidic solution, is readily oxidized. This points towards a compound containing a metal in a lower oxidation state, capable of being oxidized to a higher oxidation state.</p>\n<p><strong>(iii) Strong heating producing pungent gases (B and C) and brown residue (D):</strong> The pungent gases suggest the presence of sulfur and/or nitrogen.  The brown residue is indicative of a metal oxide. The fact that gases are produced implies that compound A might be a metal salt containing an anion which decomposes upon heating.</p>\n<p><strong>(iv) Gases B and C turn a dichromate solution green:</strong>  Dichromate ($Cr_2O_7^{2-}$) solutions are orange.  Their reduction to a green solution indicates that gases B and C are reducing agents.  The green color is characteristic of chromium(III) ions ($Cr^{3+}$).  This strongly suggests that one of the gases (B or C) is $SO_2$, which is capable of reducing dichromate.</p>\n<p><strong>(v) The green solution gives a white precipitate (E) with barium nitrate:</strong> The formation of a white precipitate with barium nitrate is a classic test for sulfate ions ($SO_4^{2-}$).  The reaction is:</p>\n<p>$$Ba^{2+}(aq) \\ + \\ SO_4^{2-}(aq) \\ \\rightarrow \\ BaSO_4(s)$$</p>\n<p>Therefore, gas B or C must be sulfur dioxide ($SO_2$), which is oxidized to sulfate ions ($SO_4^{2-}$) upon reaction with the dichromate solution.</p>\n<p><strong>(vi) Residue D gives a magnetic substance (E) upon reduction:</strong> This strongly suggests that residue D is a metal oxide of a transition metal, and the magnetic substance E is the corresponding metal.  The reduction reaction can be generally represented as:</p>\n<p>$$Metal Oxide \\ + \\ Reducing \\ Agent \\ \\rightarrow \\ Metal$$</p>\n<p>Considering all the observations, a plausible scenario is that compound A is <strong>ferrous sulfate heptahydrate</strong> ($FeSO_4 \\cdot 7H_2O$).  This is a light green crystalline solid.  Let's check if it fits the observations:</p>\n\n<p><p><strong>(i) & (ii):</strong> Ferrous sulfate dissolves in dilute sulfuric acid and gets oxidized by $KMnO_4$.</p></p>\n<p><p><strong>(iii):</strong> Upon strong heating, ferrous sulfate decomposes.  The gases produced include sulfur dioxide ($SO_2$ - gas B) and sulfur trioxide ($SO_3$ - gas C).  Both have pungent smells. The brown residue (D) is ferric oxide ($Fe_2O_3$).</p></p>\n<p><p><strong>(iv):</strong> $SO_2$ reduces dichromate to $Cr^{3+}$.</p></p>\n<p><p><strong>(v):</strong> $SO_2$ is oxidized to $SO_4^{2-}$, which forms a white precipitate of barium sulfate ($BaSO_4$) with barium nitrate.</p></p>\n<p><p><strong>(vi):</strong> Reduction of $Fe_2O_3$ on charcoal produces elemental iron (Fe - E), which is magnetic.</p></p>\n\n<p>Therefore, the compounds are:</p>\n\n<p><p><strong>A:</strong> Ferrous sulfate heptahydrate ($FeSO_4 \\cdot 7H_2O$)</p></p>\n<p><p><strong>B:</strong> Sulfur dioxide ($SO_2$)</p></p>\n<p><p><strong>C:</strong> Sulfur trioxide ($SO_3$)</p></p>\n<p><p><strong>D:</strong> Ferric oxide ($Fe_2O_3$)</p></p>\n<p><p><strong>E:</strong> Iron (Fe) (or Barium Sulfate ($BaSO_4$), depending on which step (v) or (vi) is considered)</p></p>\n"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 120000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "subjective",
+      "year": 1980,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "Compound A is a light green crystalline solid. It gives\nthe following tests :\n(i) It dissolves in dilute sulphuric acid. No gas is\nproduced.\n(ii) A drop of KMnO4\n is added to the above solution. The\npink colour disappears.\n(iii) Compound A ..."
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "question_id": "oau58mkulg52q67emh7j",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "iit-jee-1979",
+      "paperTitle": "IIT-JEE 1979",
+      "permalink": "pa-white-amorphous-powder-a-on-heating-yields-a-colourle-jee-advanced-chemistry-wskkpskdsf8dtmng",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A white amorphous powder (A) on heating yields a\ncolourless, non-combustible gas (B) and a solid (C).\nThe latter compound assumes a yellow colour on heating\nand changes to white on cooling. (C) dissolves in dilute\nacid and the resulting solution gives a white precipitate\non adding K<sub>4</sub>Fe(CN)<sub>6</sub>\n solution.</p>\n<p>(A) dissolves in dilute HCl with the evolution of gas,\nwhich is identical in all respects with (B). The gas (B)\nturns lime water milky, but the milkiness disappears with\nthe continuous passage of gas. The solution of (A), as\nobtained above, gives a white precipitate (D) on the\naddition of excess of NH<sub>4</sub>OH and passing H<sub>2</sub>S. Another\nportion of the solution gives initially a white precipitate\n(E) on the addition of sodium hydroxide solution, which\ndissolves on further addition of the base. Identify the\ncompounds (A), (B), (C), (D) and (E). </p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "(A) - ZnCO<sub>3</sub>\n (Zinc carbonate)\n<br/><br/>(B) - CO<sub>2</sub>\n (Carbon dioxide)\n<br/><br/>(C) - ZnO (Zinc oxide)\n<br/><br/>(D) - ZnS (Zinc sulphide)\n<br/><br/>(E) - Zn(OH)<sub>2</sub>\n (Zinc hydroxide)",
+          "explanation": "(i) The compound $C$ produced by heating $A$ is white in colour and changes to yellow on heating, thus compound $C$ may be $\\mathrm{ZnO}$. $C$ with dil. $\\mathrm{HCl}$ and $\\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right.$ ]gives white ppt. This confirms that the compound $C$ must be $\\mathrm{ZnO}$.\n<br/><br/>$$\n\\begin{aligned}\n& A \\stackrel{\\Delta}{\\longrightarrow} { } \\underset{C}{\\mathrm{ZnO}}+B \\text { (gas) } \\\\\\\\\n& \\underset{C} {\\mathrm{ZnO}}+2 \\mathrm{HCl} \\longrightarrow \\mathrm{ZnCl}_2+\\mathrm{H}_2 \\mathrm{O} \\\\\\\\\n& 2 \\mathrm{ZnCl}_2+\\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right] \\longrightarrow 4 \\mathrm{KCl}+\\mathrm{Zn}_2\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right] \\downarrow (White ppt)\n\\end{aligned}\n$$\n\n<br/><br/>(ii) The gas $B$ turns lime water milky and milkiness disappear with continuous passage of gas. Hence, the gas is $\\mathrm{CO}_2$ and compound $A$ in $\\mathrm{ZnCO}_3$.\n<br/><br/>$$\n\\begin{aligned}\n\\underset{C}{\\mathrm{CO}_2}+\\mathrm{Ca}(\\mathrm{OH})_2 & \\longrightarrow \\mathrm{H}_2 \\mathrm{O}+\\mathrm{CaCO}_3 \\downarrow \\\\\\\\\n\\mathrm{CaCO}_3+\\mathrm{CO}_2+\\mathrm{H}_2 \\mathrm{O} & \\longrightarrow \\mathrm{Ca}\\left(\\mathrm{HCO}_3\\right)_2 \\\\\\\\\n\\underset{A} {\\mathrm{ZnCO}_3} & \\stackrel{\\Delta}{\\longrightarrow} \\underset{C}{\\mathrm{ZnO}}+\\underset{B}{\\mathrm{CO}_2}\n\\end{aligned}\n$$\n<br/><br/>(iii) The solution of $A$ gives white ppt of $\\mathrm{ZnS} D$ with $\\mathrm{NH}_4 \\mathrm{OH}$ and excess of $\\mathrm{H}_2 \\mathrm{~S}$.\n<br/><br/>$$\n\\begin{aligned}\n& \\mathrm{ZnCO}_3+\\mathrm{HCl} \\longrightarrow \\underset{C}{\\mathrm{CO}_2 \\uparrow}+\\mathrm{ZnCl}_2 \\\\\\\\\n& \\mathrm{ZnCl}_2+\\mathrm{H}_2 \\mathrm{~S} \\stackrel{\\mathrm{NH}_4 \\mathrm{OH}}{\\longrightarrow} 2 \\mathrm{HCl}+{\\underset{D}{\\mathrm{ZnS}} \\downarrow \\text { (white) }}\n\\end{aligned}\n$$\n<br/><br/>(iv) The solution of $A$ also gives initially a white ppt $E$ with $\\mathrm{NaOH}$, which dissolve in excess of reagent.\n<br/><br/>$$\n\\begin{aligned}\n& \\mathrm{ZnCl}_2+2 \\mathrm{NaOH} \\longrightarrow \\underset{E \\text { (white) }} {\\mathrm{Zn}(\\mathrm{OH})_2} \\downarrow+2 \\mathrm{NaCl} \\\\\\\\\n& \\mathrm{Zn}(\\mathrm{OH})_2+2 \\mathrm{NaOH} \\longrightarrow \\underset{ \\text { (Soluable) }}{\\mathrm{Na}_2\\left[\\mathrm{Zn}(\\mathrm{OH})_4\\right]}\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 120000,
+      "topic": "systematic-analysis-of-anions",
+      "type": "subjective",
+      "year": 1979,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1979",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "A white amorphous powder (A) on heating yields a\ncolourless, non-combustible gas (B) and a solid (C).\nThe latter compound assumes a yellow colour on heating\nand changes to white on cooling. (C) dissolves in dilute\nacid and the resulting sol..."
+        }
+      },
+      "yearKey": "iit-jee-1979"
+    },
+    {
+      "question_id": "bpgi7tpqbz5ttgz6hedf",
+      "chapter": "salt-analysis",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperId": "iit-jee-1979",
+      "paperTitle": "IIT-JEE 1979",
+      "permalink": "the-precipitation-of-second-group-sulphides-in-qualitative-a-jee-advanced-chemistry-fnszlbexrkcc92nn",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "The precipitation of second group sulphides in qualitative\nanalysis is carried out with hydrogen sulphide in the presence\nof hydrochloric acid but not in nitric acid. Explain.",
+          "options": [],
+          "correct_options": [],
+          "answer": "As nitric acid is an oxidising agent, it oxides H<sub>2</sub>S to S.",
+          "explanation": "As nitric acid is an oxidising agent, it oxides H<sub>2</sub>S to S."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 120000,
+      "topic": "systematic-analysis-of-cations",
+      "type": "subjective",
+      "year": 1979,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1979",
+          "subTitle": "Salt Analysis • Chemistry",
+          "excerpt": "The precipitation of second group sulphides in qualitative\nanalysis is carried out with hydrogen sulphide in the presence\nof hydrochloric acid but not in nitric acid. Explain."
+        }
+      },
+      "yearKey": "iit-jee-1979"
+    }
+  ]
+}

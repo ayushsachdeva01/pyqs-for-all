@@ -1,0 +1,71 @@
+{
+  "questions": [
+    {
+      "question_id": "i2lpr9fqfm3bk8yp8de3",
+      "chapter": "motion-in-a-plane",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "pa-particle-is-thrown-with-a-speed-ivi-from-a-point--jee-advanced-physics-kknajjkns4vovb9o",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A particle is thrown with a speed <i>v</i> from a point <i>O</i> at an angle <i>θ</i> with the horizontal plane such that it passes through the point <i>P</i> at a height of <b>1 m</b> and horizontal distance of <b>5 m</b> from <i>O</i>, as shown in the figure. If acceleration due to gravity is <i>g $\\text{ms}^{-2}$</i>, then the correct statement(s) is/are:</p>\n<img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Motion in a Plane Question 1 English\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9vj7dv/6850d3b6-581e-40f1-a52f-72fb73be0404/2eff8730-51fd-11f1-af7d-734b282814df/file-6y3zli1mp9vj7dw.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9vj7dv/6850d3b6-581e-40f1-a52f-72fb73be0404/2eff8730-51fd-11f1-af7d-734b282814df/file-6y3zli1mp9vj7dw.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>If $\\theta = 45^\\circ$, then $v = \\frac{5\\sqrt{g}}{2}\\ \\text{ms}^{-1}$.</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>If $\\theta = 45^\\circ$, the particle reaches its maximum height before it reaches <i>P</i>.</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>If $\\theta = 30^\\circ$, the particle reaches its maximum height after reaching <i>P</i>.</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>If $\\theta = \\tan^{-1}\\left(\\frac{1}{5}\\right)$, then $v = 125\\sqrt{g}\\ \\text{ms}^{-1}$.</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Let particle be projected from the origin $O(0,0)$ with an initial velocity $v$ at an angle $\\theta$ with the horizontal.</p>\n<p>The horizontal component of velocity is constant is $v_x = v \\cos \\theta$</p>\n<p>The vertical component of velocity changes due to gravity is $v_y = v \\sin \\theta - gt$</p>\n<p>The position coordinates at any time $t$ are given by :</p>\n<p>Horizontal displacement :</p>\n<p>$$x = (v \\cos \\theta)t \\Rightarrow t = \\frac{x}{v \\cos \\theta}$$</p>\n<p>Vertical displacement :</p>\n<p>$$y = (v \\sin \\theta)t - \\frac{1}{2}gt^2$$</p>\n<p>Substituting the expression for $t$ from the horizontal motion into the vertical displacement equation :</p>\n<p>$$y = (v \\sin \\theta)\\left(\\frac{x}{v \\cos \\theta}\\right) - \\frac{1}{2}g\\left(\\frac{x}{v \\cos \\theta}\\right)^2$$</p>\n<p>$$y = x \\tan \\theta - \\frac{gx^2}{2v^2} \\cos^2 \\theta$$</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Motion in a Plane Question 1 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpe0umlx/dcc4b300-7b1f-4428-8f94-2db650bd4fe1/1ce6f250-5445-11f1-a352-119681e8d960/file-6y3zli1mpe0umly.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpe0umlx/dcc4b300-7b1f-4428-8f94-2db650bd4fe1/1ce6f250-5445-11f1-a352-119681e8d960/file-6y3zli1mpe0umly.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>As the particle must pass through point P with coordinates $\\mathrm{x}=5 \\mathrm{~m}$ and $\\mathrm{y}=1 \\mathrm{~m}$.</p>\n<p>Substituting these coordinates into our trajectory equation :</p>\n<p>$$ 1=5 \\tan \\theta-\\frac{g(5)^2}{2 v^2 \\cos ^2 \\theta} $$</p>\n<p>$$\\Rightarrow $$ $$ 1=5 \\tan \\theta-\\frac{25 g}{2 v^2 \\cos ^2 \\theta} $$</p>\n<p>When $\\theta=45^{\\circ}$</p>\n<p>$$ 1=5 \\tan 45^{\\circ}-\\frac{25 \\mathrm{~g}}{2 \\mathrm{v}^2 \\cos ^2 45^{\\circ}} $$</p>\n<p>$$\\Rightarrow $$ $1=5 \\times 1-\\frac{25 \\mathrm{~g}}{2 \\mathrm{v}^2\\left(\\frac{1}{\\sqrt{2}}\\right)^2}$</p>\n<p>$$\\Rightarrow $$ $\\frac{25 \\mathrm{~g}}{\\mathrm{v}^2}=4$</p>\n<p>$$\\Rightarrow $$ $v^2=\\frac{25 g}{4}$</p>\n<p>$$\\Rightarrow $$ $\\mathrm{v}=\\frac{5 \\sqrt{\\mathrm{~g}}}{2} \\mathrm{~ms}^{-1}$</p>\n<p>Thus, option (A) is correct.</p>\n<p>For a projectile, the horizontal distance from the point of projection to the peak of its trajectory is exactly half of its total horizontal range (R).</p>\n<p>The formula for the horizontal range is $\\mathrm{R}=\\frac{\\mathrm{v}^2 \\sin (2 \\theta)}{\\mathrm{g}}$</p>\n<p>Substituting $\\mathrm{v}^2=\\frac{25 \\mathrm{~g}}{4}$ and $\\theta=45^{\\circ}$ :</p>\n<p>$$ \\mathrm{R}=\\frac{\\left(\\frac{25 \\mathrm{~g}}{4}\\right) \\sin \\left(90^{\\circ}\\right)}{\\mathrm{g}}=\\frac{25}{4}=6.25 \\mathrm{~m} $$</p>\n<p>The horizontal coordinate of the maximum height is:</p>\n<p>$$ \\mathrm{x}_{\\mathrm{H}_{\\max }}=\\frac{\\mathrm{R}}{2}=\\frac{6.25}{2}=3.125 \\mathrm{~m} $$</p>\n<p>Since the horizontal coordinate of point P is $\\mathrm{x}_{\\mathrm{P}}=5 \\mathrm{~m}$, and $5 \\mathrm{~m}&gt;3.125 \\mathrm{~m}\\left(\\mathrm{x}_{\\mathrm{P}}&gt;\\mathrm{x}_{\\mathrm{H}_{\\max }}\\right)$, the particle reaches its peak position horizontally at 3.125 m before continuing downward to pass through point P at $\\mathrm{x}=5$ m. Thus, option (B) is correct.</p>\n<p>We need to find the horizontal coordinate of the peak position $\\left(\\mathrm{x}_{\\mathrm{H}_{\\max }}\\right)$ when $\\theta=30^{\\circ}$ to determine whether the peak occurs before or after $P$.</p>\n<p>For $\\theta=30^{\\circ}$ using equation of trajectory,</p>\n<p>$$ \\mathrm{y}=\\mathrm{x} \\tan \\theta-\\frac{\\mathrm{gx}^2}{2 \\mathrm{v}^2 \\cos ^2 \\theta} $$</p>\n<p>$$\\Rightarrow $$ $1=5 \\times \\tan 30^{\\circ}-\\frac{\\mathrm{g} \\times 5^2}{2 \\mathrm{v}^2 \\cos ^2 30^{\\circ}}$</p>\n<p>$$\\Rightarrow $$ $1=5\\left(\\frac{1}{\\sqrt{3}}\\right)-\\frac{25 \\mathrm{~g}}{2 \\mathrm{v}^2\\left(\\frac{\\sqrt{3}}{2}\\right)^2}$</p>\n<p>$$\\Rightarrow $$ $1=\\frac{5}{\\sqrt{3}}-\\frac{50 g}{3 v^2}$</p>\n<p>$$\\Rightarrow $$ $\\frac{50 \\mathrm{~g}}{3 \\mathrm{v}^2}=\\frac{5}{\\sqrt{3}}-1 \\approx 51.732-1 \\approx 2.887-1=1.887$</p>\n<p>$$\\Rightarrow $$ $$ \\mathrm{v}^2=\\frac{50 \\mathrm{~g}}{3 \\times 1.887} \\approx 8.83 \\mathrm{~g} $$</p>\n<p>The total horizontal range R :</p>\n<p>$$ \\mathrm{R}=\\frac{\\mathrm{v}^2 \\sin (2 \\theta)}{\\mathrm{g}}=\\frac{(8.83 \\mathrm{~g}) \\sin \\left(60^{\\circ}\\right)}{\\mathrm{g}}=8.83 \\times \\frac{\\sqrt{3}}{2} \\approx 8.83 \\times 0.866 \\approx 7.65 \\mathrm{~m} $$</p>\n<p>The horizontal coordinate of the peak is:</p>\n<p>$$ \\mathrm{x}_{\\mathrm{H}_{\\max }}=\\frac{\\mathrm{R}}{2} \\approx 7.652=3.825 \\mathrm{~m} $$</p>\n<p>As $\\mathrm{x}_{\\mathrm{P}}=5 \\mathrm{~m}, \\mathrm{x}_{\\mathrm{H}_{\\max }}&lt;5 \\mathrm{~m}$ which means the particle reaches its maximum height at 3.825 m before it reaches point $\\mathrm{P}(\\mathrm{x}=5 \\mathrm{~m})$.</p>\n<p>In option (C) it says its maximum height after reaching P , so option (C) is incorrect.</p>\n<p>When $\\theta=\\tan ^{-1}\\left(\\frac{1}{5}\\right) \\Rightarrow \\tan \\theta=\\frac{1}{5}$ using the trigonometric identity $\\cos ^2 \\theta=\\frac{1}{1+\\tan ^2 \\theta}$ :</p>\n<p>$$ \\cos ^2 \\theta=\\frac{1}{1+\\left(\\frac{1}{5}\\right)^2}=\\frac{1}{1+\\frac{1}{25}}=\\frac{25}{26} $$</p>\n<p>Substituting $\\tan \\theta=\\frac{1}{5}$ and $\\cos ^2 \\theta=\\frac{25}{26}$ into trajectory equation:</p>\n<p>$$ 1=5\\left(\\frac{1}{5}\\right)-\\frac{25 \\mathrm{~g}}{2 \\mathrm{v}^2(25 / 26)} $$</p>\n<p>$$\\Rightarrow $$ $1=1-\\frac{26 g}{2 v^2}$</p>\n<p>$$\\Rightarrow $$ $1=1-\\frac{13 g}{v^2}$</p>\n<p>$$\\Rightarrow $$ $$ 0=-\\frac{13 g}{v^2} \\Rightarrow \\frac{13 g}{v^2}=0 \\Rightarrow v \\rightarrow \\infty $$</p>\n<p>Thus, option (D) is incorrect.</p>\n<p>Therefore, the correct options are (A) and (B).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": null,
+      "type": "mcqm",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Motion In A Plane • Physics",
+          "excerpt": "A particle is thrown with a speed v from a point O at an angle θ with the horizontal plane such that it passes through the point P at a height of 1 m and horizontal distance of 5 m from O, as shown in the figure. If acceleration due to grav..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    }
+  ]
+}

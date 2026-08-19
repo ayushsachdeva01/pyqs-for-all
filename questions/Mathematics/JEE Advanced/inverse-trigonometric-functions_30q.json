@@ -1,0 +1,1973 @@
+{
+  "questions": [
+    {
+      "question_id": "jmyznd3kisry4ewhq4fu",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "pbconsidering-only-the-principal-values-of-the-inverse-t-jee-advanced-mathematics-q5evlmdj6ttcsjqd",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p><b>Considering only the principal values of the inverse trigonometric functions, the value of</b></p> <p>$$\\cot^{-1}(\\cot(-11)) + 10 \\sin\\left(2 \\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) + 10\\sin(2 \\tan^{-1}(2))$$</p><p>is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$3\\pi + 7$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$7$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$4\\pi + 7$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$3\\pi - 5$</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>We need to find the value of</p>\n<p>$$\\cot^{-1}(\\cot(-11)) + 10\\sin\\left(2\\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) + 10\\sin(2\\tan^{-1}(2))$$</p>\n<p><b>Simplify</b> $ \\cot^{-1}(\\cot(-11)) $</p>\n<p>The principal value of $ \\cot^{-1}x $ lies in the interval $ (0, \\pi) $.  \n\nWe need to find an angle in this range that has the same cotangent as $ -11 $.</p>\n<p>Now, $ -11 $ radians is less than $ 0 $. If we add multiples of $ \\pi $ till it falls in $ (0, \\pi) $, we get $ 4\\pi - 11 $, which lies in $ (0, \\pi) $.</p>\n<p>Hence, $ \\cot^{-1}(\\cot(-11)) = 4\\pi - 11 $.</p>\n<p>Simplify $ 10\\sin\\left(2\\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) $</p>\n<p>Let $ \\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right) = \\alpha $. Then, $ \\cos \\alpha = \\frac{1}{\\sqrt{2}} $.  \n\nThis gives $ \\alpha = \\frac{\\pi}{4} $.</p>\n<p>Now, $ 2\\alpha = \\frac{\\pi}{2} $.  \n\n$\\sin\\left(2\\alpha\\right) = \\sin\\left(\\frac{\\pi}{2}\\right) = 1.$</p>\n<p>Therefore, this term becomes $ 10 \\times 1 = 10.$</p>\n<p> Simplify $ 10\\sin(2\\tan^{-1}2) $</p>\n<p>Let $ \\tan^{-1}2 = \\theta $, so $ \\tan\\theta = 2 $. Here, $ \\theta \\in \\left(0, \\frac{\\pi}{2}\\right) $.</p>\n<p>We use the double angle formula:  \n\n$\\sin(2\\theta) = \\frac{2\\tan\\theta}{1+\\tan^2\\theta} = \\frac{2\\times 2}{1 + 2^2} = \\frac{4}{5}.$</p>\n<p>Hence, $ 10\\sin(2\\tan^{-1}2) = 10 \\times \\frac{4}{5} = 8.$</p>\n<p><b> Combine all terms</b></p>\n<p>$$\\cot^{-1}(\\cot(-11)) + 10\\sin\\left(2\\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) + 10\\sin(2\\tan^{-1}(2))$$</p>\n<p>$$= (4\\pi - 11) + 10 + 8$$</p>\n<p>$$= 4\\pi + 7$$</p>\n<p><b>Final Answer:</b> $ 4\\pi + 7 $</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 180000,
+      "topic": "principal-value-of-inverse-trigonometric-functions",
+      "type": "mcq",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Considering only the principal values of the inverse trigonometric functions, the value of $$\\cot^{-1}(\\cot(-11)) + 10 \\sin\\left(2 \\cos^{-1}\\left(\\frac{1}{\\sqrt{2}}\\right)\\right) + 10\\sin(2 \\tan^{-1}(2))$$is"
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    },
+    {
+      "question_id": "21re1l5cmg4iydf8x8al",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "pthe-total-number-of-real-solutions-of-the-equationp-p-jee-advanced-mathematics-qgtaqaaclo5ktpqf",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The total number of real solutions of the equation</p>\n<p>$ \\theta = \\tan^{-1}(2 \\tan \\theta) - \\frac{1}{2} \\sin^{-1}\\left(\\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta}\\right) $</p>\n<p>is</p>\n<p>(Here, the inverse trigonometric functions $\\sin^{-1} x$ and $\\tan^{-1} x$ assume values in $[ -\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ and $( -\\frac{\\pi}{2}, \\frac{\\pi}{2})$, respectively.)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>1</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>2</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>3</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>5</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>To find the total number of real solutions for the given equation, let's break down the problem step by step:</p>\n<p>Define $\\alpha$ as:</p>\n<p>$ \\alpha = \\frac{1}{2} \\sin^{-1} \\left( \\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta} \\right) $</p>\n<p>We need to solve:</p>\n<p>$ \\theta = \\tan^{-1}(2 \\tan \\theta) - \\alpha $</p>\n<p>This can be rearranged as:</p>\n<p>$ \\theta + \\alpha = \\tan^{-1}(2 \\tan \\theta) $</p>\n<p>Taking the tangent of both sides, we have:</p>\n<p>$ \\tan(\\theta + \\alpha) = 2 \\tan \\theta $</p>\n<p>The tangent addition formula gives:</p>\n<p>$ \\frac{\\tan \\theta + \\tan \\alpha}{1 - \\tan \\alpha \\tan \\theta} = 2 \\tan \\theta \\quad \\ldots (1) $</p>\n<p>Next, consider:</p>\n<p>$ \\sin 2\\alpha = \\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta} = \\frac{2 \\tan \\alpha}{1 + \\tan^2 \\alpha} $</p>\n<p>This leads to the equation:</p>\n<p>$ 3 \\tan \\theta + 3 \\tan \\theta \\tan^2 \\alpha = 9 \\tan \\alpha + \\tan \\alpha \\tan^2\\theta $</p>\n<p>Simplifying:</p>\n<p>$ 3(\\tan \\theta - 3 \\tan \\alpha) = \\tan \\alpha \\tan \\theta (\\tan \\theta - 3 \\tan \\alpha) $</p>\n<p>This implies:</p>\n<p>$ \\tan \\theta = \\frac{3}{\\tan \\alpha} \\quad \\text{or} \\quad \\tan \\theta = 3 \\tan \\alpha $</p>\n<p><strong>Case I</strong>: $\\tan \\theta = 3 \\tan \\alpha$</p>\n<p>From equation (1):</p>\n<p>$ \\frac{\\tan \\theta + \\frac{\\tan \\theta}{3}}{1 - \\frac{\\tan^2 \\theta}{3}} = 2 \\tan \\theta $</p>\n<p>This gives:</p>\n<p>$ \\tan \\theta = 0, \\quad \\frac{2}{3} = 1 - \\frac{\\tan^2 \\theta}{3} \\Rightarrow \\tan \\theta = 1, -1 $</p>\n<p>Thus, we have:</p>\n<p>$ \\tan \\theta = 0, -1, 1 \\Rightarrow \\theta = \\frac{\\pi}{4}, -\\frac{\\pi}{4}, 0 $</p>\n<p><strong>Case II</strong>: $\\tan \\theta = \\frac{3}{\\tan \\alpha}$</p>\n<p>From equation (1):</p>\n<p>$ \\frac{\\tan \\theta + \\frac{3}{\\tan \\theta}}{-2} = 2 \\tan \\theta $</p>\n<p>Simplifying this results in:</p>\n<p>$ \\tan \\theta + \\frac{3}{\\tan \\theta} = -4 \\tan \\theta $</p>\n<p>This leads to no viable solutions (as denoted by \"No Solution\").</p>\n<p>So, the real solutions for $\\theta$ are $\\frac{\\pi}{4}$, $-\\frac{\\pi}{4}$, and $0$, resulting in a total of 3 real solutions.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>समीकरण (equation)</p>\n<p>$$\\theta=\\tan ^{-1}(2 \\tan \\theta)-\\frac{1}{2} \\sin ^{-1}\\left(\\frac{6 \\tan \\theta}{9+\\tan ^2 \\theta}\\right)$$</p>\n<p>के कुल वास्तविक हलों की संख्या (total number of real solutions) है</p>\n<p>(यहाँ प्रतिलोम त्रिकोणमितीय फलनों (inverse trigonometric functions) $\\sin ^{-1} x$ तथा $\\tan ^{-1} x$ के मान क्रमशः (respectively), $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ और $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ में हैं।)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1"
+            },
+            {
+              "identifier": "B",
+              "content": "2"
+            },
+            {
+              "identifier": "C",
+              "content": "3"
+            },
+            {
+              "identifier": "D",
+              "content": "5"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>दिए गए समीकरण के लिए वास्तविक हलों की कुल संख्या ज्ञात करने के लिए, आइए समस्या को चरण दर चरण हल करें:</p>\n<p>$\\alpha$ को इस प्रकार परिभाषित करें:</p>\n<p>$ \\alpha = \\frac{1}{2} \\sin^{-1} \\left( \\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta} \\right) $</p>\n<p>हमें हल करना है:</p>\n<p>$ \\theta = \\tan^{-1}(2 \\tan \\theta) - \\alpha $</p>\n<p>इसे इस प्रकार पुनर्व्यवस्थित किया जा सकता है:</p>\n<p>$ \\theta + \\alpha = \\tan^{-1}(2 \\tan \\theta) $</p>\n<p>दोनों पक्षों का टैंजेंट लेने पर, हमें मिलता है:</p>\n<p>$ \\tan(\\theta + \\alpha) = 2 \\tan \\theta $</p>\n<p>टैंजेंट योग सूत्र देता है:</p>\n<p>$ \\frac{\\tan \\theta + \\tan \\alpha}{1 - \\tan \\alpha \\tan \\theta} = 2 \\tan \\theta \\quad \\ldots (1) $</p>\n<p>अब, विचार करें:</p>\n<p>$ \\sin 2\\alpha = \\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta} = \\frac{2 \\tan \\alpha}{1 + \\tan^2 \\alpha} $</p>\n<p>यह समीकरण की ओर ले जाता है:</p>\n<p>$ 3 \\tan \\theta + 3 \\tan \\theta \\tan^2 \\alpha = 9 \\tan \\alpha + \\tan \\alpha \\tan^2\\theta $</p>\n<p>सरलीकरण करने पर:</p>\n<p>$ 3(\\tan \\theta - 3 \\tan \\alpha) = \\tan \\alpha \\tan \\theta (\\tan \\theta - 3 \\tan \\alpha) $</p>\n<p>इसका तात्पर्य है:</p>\n<p>$ \\tan \\theta = \\frac{3}{\\tan \\alpha} \\quad \\text{या} \\quad \\tan \\theta = 3 \\tan \\alpha $</p>\n<p><strong>स्थिति I</strong>: $\\tan \\theta = 3 \\tan \\alpha$</p>\n<p>समीकरण (1) से:</p>\n<p>$ \\frac{\\tan \\theta + \\frac{\\tan \\theta}{3}}{1 - \\frac{\\tan^2 \\theta}{3}} = 2 \\tan \\theta $</p>\n<p>यह देता है:</p>\n<p>$ \\tan \\theta = 0, \\quad \\frac{2}{3} = 1 - \\frac{\\tan^2 \\theta}{3} \\Rightarrow \\tan \\theta = 1, -1 $</p>\n<p>इस प्रकार, हमें मिलता है:</p>\n<p>$ \\tan \\theta = 0, -1, 1 \\Rightarrow \\theta = \\frac{\\pi}{4}, -\\frac{\\pi}{4}, 0 $</p>\n<p><strong>स्थिति II</strong>: $\\tan \\theta = \\frac{3}{\\tan \\alpha}$</p>\n<p>समीकरण (1) से:</p>\n<p>$ \\frac{\\tan \\theta + \\frac{3}{\\tan \\theta}}{-2} = 2 \\tan \\theta $</p>\n<p>इसे सरल करने पर परिणाम मिलता है:</p>\n<p>$ \\tan \\theta + \\frac{3}{\\tan \\theta} = -4 \\tan \\theta $</p>\n<p>यह कोई व्यवहार्य हल नहीं देता है (जैसा कि \"कोई हल नहीं\" द्वारा दर्शाया गया है)।</p>\n<p>अतः, $\\theta$ के लिए वास्तविक हल $\\frac{\\pi}{4}$, $-\\frac{\\pi}{4}$, और $0$ हैं, जिसके परिणामस्वरूप कुल 3 वास्तविक हल प्राप्त होते हैं।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 180000,
+      "topic": "principal-value-of-inverse-trigonometric-functions",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The total number of real solutions of the equation\n$ \\theta = \\tan^{-1}(2 \\tan \\theta) - \\frac{1}{2} \\sin^{-1}\\left(\\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta}\\right) $\nis\n(Here, the inverse trigonometric functions $\\sin^{-1} x$ and $\\tan^{-1} ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "समीकरण (equation)\n$$\\theta=\\tan ^{-1}(2 \\tan \\theta)-\\frac{1}{2} \\sin ^{-1}\\left(\\frac{6 \\tan \\theta}{9+\\tan ^2 \\theta}\\right)$$\nके कुल वास्तविक हलों की संख्या (total number of real solutions) है\n(यहाँ प्रतिलोम त्रिकोणमितीय फलनों (inverse t..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "a9extwhy12pbkgm6h34p",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "pconsidering-only-the-principal-values-of-the-inverse-trig-jee-advanced-mathematics-rvywecat0qu1anvr",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Considering only the principal values of the inverse trigonometric functions, the value of</p>\n\n<p>$$ \\tan \\left(\\sin ^{-1}\\left(\\frac{3}{5}\\right)-2 \\cos ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) $$</p>\n\n<p>is</p>\n\n<p></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{7}{24}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{-7}{24}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{-5}{24}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{5}{24}$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\begin{aligned}\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}\\right)-2 \\tan ^{-1}\\left(\\frac{1}{2}\\right)\\right) \\\\\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}\\right)-\\tan ^{-1}\\left(\\frac{2 \\times \\frac{1}{2}}{1-\\frac{1}{4}}\\right)\\right) \\\\\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}\\right)-\\tan ^{-1}\\left(\\frac{4}{3}\\right)\\right) \\\\\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}-\\frac{4}{3}\\right)\\right) \\\\\n& \\frac{9-16}{24}=\\frac{-7}{24}\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>प्रतिलोम त्रिकोणमितीय फलनों (inverse trigonometric functions) के केवल मुख्य मानों (principal values) को ध्यान में रखते हुए,</p>\n\n<p>$$ \\tan \\left(\\sin ^{-1}\\left(\\frac{3}{5}\\right)-2 \\cos ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) $$</p>\n\n<p>का मान है</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{7}{24}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{-7}{24}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{-5}{24}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{5}{24}$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\begin{aligned}\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}\\right)-2 \\tan ^{-1}\\left(\\frac{1}{2}\\right)\\right) \\\\\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}\\right)-\\tan ^{-1}\\left(\\frac{2 \\times \\frac{1}{2}}{1-\\frac{1}{4}}\\right)\\right) \\\\\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}\\right)-\\tan ^{-1}\\left(\\frac{4}{3}\\right)\\right) \\\\\n& \\tan \\left(\\tan ^{-1}\\left(\\frac{3}{4}-\\frac{4}{3}\\right)\\right) \\\\\n& \\frac{9-16}{24}=\\frac{-7}{24}\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 180000,
+      "topic": "principal-value-of-inverse-trigonometric-functions",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Considering only the principal values of the inverse trigonometric functions, the value of\n\n$$ \\tan \\left(\\sin ^{-1}\\left(\\frac{3}{5}\\right)-2 \\cos ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) $$\n\nis\n\n"
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "प्रतिलोम त्रिकोणमितीय फलनों (inverse trigonometric functions) के केवल मुख्य मानों (principal values) को ध्यान में रखते हुए,\n\n$$ \\tan \\left(\\sin ^{-1}\\left(\\frac{3}{5}\\right)-2 \\cos ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) $$\n\nका मान है"
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "46ywnaqzrz4hti8e88pi",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "for-any-y-in-mathbbr-let-cot--1y-in0-pi-jee-advanced-mathematics-ed5cucvouhqbu81r",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "For any $y \\in \\mathbb{R}$, let $\\cot ^{-1}(y) \\in(0, \\pi)$ and $\\tan ^{-1}(y) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Then the sum of all the solutions of the equation <br/><br/>$\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\cot ^{-1}\\left(\\frac{9-y^2}{6 y}\\right)=\\frac{2 \\pi}{3}$ for $0<|y|<3$, is equal to :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$2 \\sqrt{3}-3$\n"
+            },
+            {
+              "identifier": "B",
+              "content": "$3-2 \\sqrt{3}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$4 \\sqrt{3}-6$"
+            },
+            {
+              "identifier": "D",
+              "content": "$6-4 \\sqrt{3}$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<b>Concept :</b> \n<br/><br/>$$\n\\cot ^{-1} x=\\left\\{\\begin{aligned}\n\\pi+\\tan ^{-1} \\frac{1}{x}; & x<0 \\\\\n\\tan ^{-1} \\frac{1}{x} & ; x>0\n\\end{aligned}\\right.\n$$\n<br/><br/><b>Solution :</b> Given, $0 < |y| < 3$\n<br/><br/>$$ \\Rightarrow $$ $$\ny \\in(-3,3)-\n$$ {0}\n<br/><br/>$$9 - {y^2}$$ is always positive when $$\ny \\in(-3,3)-\n$$ {0}\n<br/><br/>And $6y$ is positive when $$\ny \\in(0,3)\n$$\n<br/><br/>And $6y$ is negative when $$\ny \\in(-3,0)\n$$\n<br/><br/>$$ \\therefore $$ In overall, $$\n\\frac{6 y}{9-y^2} > 0\n$$ when $$\ny \\in(0,3)\n$$\n<br/><br/>And $$\n\\frac{6 y}{9-y^2} < 0\n$$ when $$\ny \\in(-3,0)\n$$\n<br/><br/><b>Case - 1 :</b>\n<br/><br/>When $-3 < y < 0$\n<br/><br/>$$\n\\begin{aligned}\n& \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\pi+\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{2 \\pi}{3} \\\\\\\\\n& \\Rightarrow 2 \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{-\\pi}{3} \\\\\\\\\n& \\Rightarrow \\frac{6 y}{9-y^2}=\\frac{-1}{\\sqrt{3}} \\\\\\\\\n& \\Rightarrow y^2-6 \\sqrt{3} y-9=0 \\\\\\\\\n& \\Rightarrow y^2-6 \\sqrt{3} y-9=0\n\\end{aligned}\n$$\n<br/><br/>$$\n\\begin{aligned}\n& \\Rightarrow y=\\frac{6 \\sqrt{3} \\pm \\sqrt{108+36}}{2}=\\frac{6 \\sqrt{3} \\pm 12}{2}=3 \\sqrt{3} \\pm 6 \\\\\\\\\n& \\text { as } y \\in(-3.0) \\therefore y=3 \\sqrt{3}-6\n\\end{aligned}\n$$\n<br/><br/><b>Case-2 :</b> When $0 < y < 3$\n<br/><br/>$$\n\\begin{aligned}\n& \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{2 \\pi}{3} \\\\\\\\\n& \\Rightarrow 2 \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{2 \\pi}{3} \\\\\\\\\n& \\Rightarrow \\frac{6 y}{9-y^2}=\\sqrt{3}\n\\end{aligned}\n$$\n<br/><br/>$$\n\\begin{aligned}\n& \\Rightarrow 6 y=9 \\sqrt{3}-\\sqrt{3} y^2 \\\\\\\\\n& \\Rightarrow \\sqrt{3} y^2+6 y-9 \\sqrt{3}=0 \\\\\\\\\n& \\Rightarrow \\sqrt{3} y^2+9 y-3 y-9 \\sqrt{3}=0 \\\\\\\\\n& \\Rightarrow \\sqrt{3} y(y+3 \\sqrt{3})-3(y+3 \\sqrt{3})=0 \\\\\\\\\n& \\Rightarrow(y+3 \\sqrt{3})-(\\sqrt{3} y-3)=0\n\\end{aligned}\n$$\n<br/><br/>$$\ny \\neq-3 \\sqrt{3} \\quad \\therefore y=\\sqrt{3} \\text { as } y \\in(0,3)\n$$\n<br/><br/>$$\n\\therefore \\text { Sum of solutions }=\\sqrt{3}+(3 \\sqrt{3}-6)=4 \\sqrt{3}-6\n$$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "किसी $y \\in \\mathbb{R}$ के लिए माना कि $\\cot ^{-1}(y) \\in(0, \\pi)$ एवं $\\tan ^{-1}(y) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ है। तब समीकरण $\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\cot ^{-1}\\left(\\frac{9-y^2}{6 y}\\right)=\\frac{2 \\pi}{3}$, जहाँ $0<|y|<3$ है, के सभी हलों का योगफल है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$2 \\sqrt{3}-3$\n"
+            },
+            {
+              "identifier": "B",
+              "content": "$3-2 \\sqrt{3}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$4 \\sqrt{3}-6$"
+            },
+            {
+              "identifier": "D",
+              "content": "$6-4 \\sqrt{3}$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<b>अवधारणा :</b> \n<br/><br/>$$\n\\cot ^{-1} x=\\left\\{\\begin{aligned}\n\\pi+\\tan ^{-1} \\frac{1}{x}; & x<0 \\\\\n\\tan ^{-1} \\frac{1}{x} & ; x>0\n\\end{aligned}\\right.\n$$\n<br/><br/><b>हल :</b> दिया गया है, $0 < |y| < 3$\n<br/><br/>$$ \\Rightarrow $$ $$\ny \\in(-3,3)-\n$$ {0}\n<br/><br/>$$9 - {y^2}$$ सदैव धनात्मक है जब $$\ny \\in(-3,3)-\n$$ {0}\n<br/><br/>और $6y$ धनात्मक है जब $$\ny \\in(0,3)\n$$\n<br/><br/>और $6y$ ऋणात्मक है जब $$\ny \\in(-3,0)\n$$\n<br/><br/>$$ \\therefore $$ कुल मिलाकर, $$\n\\frac{6 y}{9-y^2} > 0\n$$ जब $$\ny \\in(0,3)\n$$\n<br/><br/>और $$\n\\frac{6 y}{9-y^2} < 0\n$$ जब $$\ny \\in(-3,0)\n$$\n<br/><br/><b>स्थिति - 1 :</b>\n<br/><br/>जब $-3 < y < 0$\n<br/><br/>$$\n\\begin{aligned}\n& \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\pi+\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{2 \\pi}{3} \\\\\\\\\n& \\Rightarrow 2 \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{-\\pi}{3} \\\\\\\\\n& \\Rightarrow \\frac{6 y}{9-y^2}=\\frac{-1}{\\sqrt{3}} \\\\\\\\\n& \\Rightarrow y^2-6 \\sqrt{3} y-9=0 \\\\\\\\\n& \\Rightarrow y^2-6 \\sqrt{3} y-9=0\n\\end{aligned}\n$$\n<br/><br/>$$\n\\begin{aligned}\n& \\Rightarrow y=\\frac{6 \\sqrt{3} \\pm \\sqrt{108+36}}{2}=\\frac{6 \\sqrt{3} \\pm 12}{2}=3 \\sqrt{3} \\pm 6 \\\\\\\\\n& \\text { चूँकि } y \\in(-3.0) \\therefore y=3 \\sqrt{3}-6\n\\end{aligned}\n$$\n<br/><br/><b>स्थिति-2 :</b> जब $0 < y < 3$\n<br/><br/>$$\n\\begin{aligned}\n& \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{2 \\pi}{3} \\\\\\\\\n& \\Rightarrow 2 \\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)=\\frac{2 \\pi}{3} \\\\\\\\\n& \\Rightarrow \\frac{6 y}{9-y^2}=\\sqrt{3}\n\\end{aligned}\n$$\n<br/><br/>$$\n\\begin{aligned}\n& \\Rightarrow 6 y=9 \\sqrt{3}-\\sqrt{3} y^2 \\\\\\\\\n& \\Rightarrow \\sqrt{3} y^2+6 y-9 \\sqrt{3}=0 \\\\\\\\\n& \\Rightarrow \\sqrt{3} y^2+9 y-3 y-9 \\sqrt{3}=0 \\\\\\\\\n& \\Rightarrow \\sqrt{3} y(y+3 \\sqrt{3})-3(y+3 \\sqrt{3})=0 \\\\\\\\\n& \\Rightarrow(y+3 \\sqrt{3})-(\\sqrt{3} y-3)=0\n\\end{aligned}\n$$\n<br/><br/>$$\ny \\neq-3 \\sqrt{3} \\quad \\therefore y=\\sqrt{3} \\text { चूँकि } y \\in(0,3)\n$$\n<br/><br/>$$\n\\therefore \\text { हलों का योग }=\\sqrt{3}+(3 \\sqrt{3}-6)=4 \\sqrt{3}-6\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 180000,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "For any $y \\in \\mathbb{R}$, let $\\cot ^{-1}(y) \\in(0, \\pi)$ and $\\tan ^{-1}(y) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Then the sum of all the solutions of the equation $\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\cot ^{-1}\\left(\\frac..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "किसी $y \\in \\mathbb{R}$ के लिए माना कि $\\cot ^{-1}(y) \\in(0, \\pi)$ एवं $\\tan ^{-1}(y) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ है। तब समीकरण $\\tan ^{-1}\\left(\\frac{6 y}{9-y^2}\\right)+\\cot ^{-1}\\left(\\frac{9-y^2}{6 y}\\right)=\\frac{2 \\p..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "9ywbsp6hym015438tfhy",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "let-tan--1x-inleft-fracpi2-fracpi2ri-jee-advanced-mathematics-agepprsrjl5nhkp6",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Let $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$, for $x \\in \\mathbb{R}$. Then the number of real solutions of the equation $\\sqrt{1+\\cos (2 x)}=\\sqrt{2} \\tan ^{-1}(\\tan x)$ in the set $\\left(-\\frac{3 \\pi}{2},-\\frac{\\pi}{2}\\right) \\cup\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\cup\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$ is equal to :",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "$\\sqrt{1+\\cos 2 x}=\\sqrt{2} \\tan ^{-1}(\\tan x)$\n<br><br>$\\begin{aligned} &amp; \\Rightarrow \\sqrt{2 \\cos ^2 x}=\\sqrt{2} \\tan ^{-1} \\tan x \\\\\\\\ &amp; \\Rightarrow \\sqrt{2}|\\cos x|=\\sqrt{2} \\tan ^{-1} \\tan x \\\\\\\\ &amp; \\Rightarrow |\\cos x|=\\tan ^{-1} \\tan x\\end{aligned}$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1ls7zio9s/9a0db0a9-5a88-413b-a59b-06bc109ef74c/0ff28600-c3a0-11ee-b20f-23a91f58f239/file-6y3zli1ls7zio9t.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ls7zio9s/9a0db0a9-5a88-413b-a59b-06bc109ef74c/0ff28600-c3a0-11ee-b20f-23a91f58f239/file-6y3zli1ls7zio9t.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Mathematics - Inverse Trigonometric Functions Question 4 English Explanation\">\n<br><br>Number of solution $=3$."
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "माना कि $x \\in \\mathbb{R}$ के लिए $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ है। तब समुच्चय $\\left(-\\frac{3 \\pi}{2},-\\frac{\\pi}{2}\\right) \\cup\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\cup\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$ में समीकरण $\\sqrt{1+\\cos (2 x)}=\\sqrt{2} \\tan ^{-1}(\\tan x)$ के वास्तविक हलों की संख्या है",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "$\\sqrt{1+\\cos 2 x}=\\sqrt{2} \\tan ^{-1}(\\tan x)$\n<br><br>$\\begin{aligned} &amp; \\Rightarrow \\sqrt{2 \\cos ^2 x}=\\sqrt{2} \\tan ^{-1} \\tan x \\\\\\\\ &amp; \\Rightarrow \\sqrt{2}|\\cos x|=\\sqrt{2} \\tan ^{-1} \\tan x \\\\\\\\ &amp; \\Rightarrow |\\cos x|=\\tan ^{-1} \\tan x\\end{aligned}$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1ls7zio9s/9a0db0a9-5a88-413b-a59b-06bc109ef74c/0ff28600-c3a0-11ee-b20f-23a91f58f239/file-6y3zli1ls7zio9t.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ls7zio9s/9a0db0a9-5a88-413b-a59b-06bc109ef74c/0ff28600-c3a0-11ee-b20f-23a91f58f239/file-6y3zli1ls7zio9t.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Mathematics - Inverse Trigonometric Functions Question 4 Hindi Explanation\">\n<br><br>हलों की संख्या $=3$."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Let $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$, for $x \\in \\mathbb{R}$. Then the number of real solutions of the equation $\\sqrt{1+\\cos (2 x)}=\\sqrt{2} \\tan ^{-1}(\\tan x)$ in the set $\\left(-\\frac{3 \\pi}{2},-\\frac{\\pi}{2}..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "माना कि $x \\in \\mathbb{R}$ के लिए $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ है। तब समुच्चय $\\left(-\\frac{3 \\pi}{2},-\\frac{\\pi}{2}\\right) \\cup\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\cup\\left(\\frac{\\pi}{2}, \\frac{3 \\pi..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "wh05ow7t1fjc6gqx7kx9",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "considering-only-the-principal-values-of-the-inverse-trigono-jee-advanced-mathematics-complex-numbers-dlfmkmafrxulfihf",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Considering only the principal values of the inverse trigonometric functions, the value of\n<br/><br/>\n$$\n\\frac{3}{2} \\cos ^{-1} \\sqrt{\\frac{2}{2+\\pi^{2}}}+\\frac{1}{4} \\sin ^{-1} \\frac{2 \\sqrt{2} \\pi}{2+\\pi^{2}}+\\tan ^{-1} \\frac{\\sqrt{2}}{\\pi}\n$$\n<br/><br/>\nis",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.35TO2.37",
+          "explanation": "<p>Given, $${3 \\over 2}{\\cos ^{ - 1}}\\sqrt {{2 \\over {2 + {\\pi ^2}}}}  + {1 \\over 4}{\\sin ^{ - 1}}\\left( {{{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>Let, $${\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) = \\alpha $$</p>\n<p>$$ \\Rightarrow {{\\sqrt 2 } \\over \\pi } = \\tan \\alpha $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7upqge7/3a10ef6a-433f-46fa-8d43-76201328d9db/490600f0-305f-11ed-be02-29ec3fdd6583/file-1l7upqge8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7upqge7/3a10ef6a-433f-46fa-8d43-76201328d9db/490600f0-305f-11ed-be02-29ec3fdd6583/file-1l7upqge8.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Mathematics - Inverse Trigonometric Functions Question 8 English Explanation 1\"></p>\n<p>We know, $$\\sin 2\\alpha  = {{2\\tan \\alpha } \\over {1 + {{\\tan }^2}\\alpha }}$$</p>\n<p>$$ = {{2\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)} \\over {1 + {2 \\over {{\\pi ^2}}}}}$$</p>\n<p>$$ = {{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}$$</p>\n<p>$$ \\Rightarrow 2\\alpha  = {\\sin ^{ - 1}}\\left( {{{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}} \\right) = 2{\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>Now, let, $${\\cos ^{ - 1}}\\left( {\\sqrt {{2 \\over {2 + {\\pi ^2}}}} } \\right) = \\beta $$</p>\n<p>$$ \\Rightarrow \\sqrt {{2 \\over {2 + {\\pi ^2}}}}  = \\cos \\beta $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7upun1d/a94adc46-a360-4f6a-aa0e-d9c8d79fdf95/bd648020-305f-11ed-be02-29ec3fdd6583/file-1l7upun1e.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7upun1d/a94adc46-a360-4f6a-aa0e-d9c8d79fdf95/bd648020-305f-11ed-be02-29ec3fdd6583/file-1l7upun1e.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Mathematics - Inverse Trigonometric Functions Question 8 English Explanation 2\"></p>\n<p>$$\\therefore$$ $$\\cot \\beta  = {{\\sqrt 2 } \\over \\pi }$$</p>\n<p>$$ \\Rightarrow \\beta  = {\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$\\therefore$$ $${\\cos ^{ - 1}}\\left( {\\sqrt {{2 \\over {2 + {\\pi ^2}}}} } \\right) = {\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$\\therefore$$ $${3 \\over 2}{\\cos ^{ - 1}}\\left( {\\sqrt {{2 \\over {2 + {\\pi ^2}}}} } \\right) + {1 \\over 4}{\\sin ^{ - 1}}\\left( {{{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$ = {3 \\over 2}{\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {1 \\over 4}\\left( {2 + \\tan \\left( {{{\\sqrt 2 } \\over \\pi }} \\right)} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$ = {3 \\over 2}{\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {1 \\over 2}{\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$ = {3 \\over 2}{\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {3 \\over 2}{\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$ = {3 \\over 2}\\left( {{{\\tan }^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {{\\cot }^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)} \\right)$$</p>\n<p>$$ = {3 \\over 2} \\times {\\pi  \\over 2}$$</p>\n<p>$$ = {{3\\pi } \\over 4}$$</p>\n<p>$$ = 2.36$$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>प्रतिलोम त्रिकोणमितिय फलनों (inverse trigonometric functions) के केवल मुख्य मानों (only principal values) पर विचार करते हुए,</p>\n<p>$$\n\\frac{3}{2} \\cos ^{-1} \\sqrt{\\frac{2}{2+\\pi^{2}}}+\\frac{1}{4} \\sin ^{-1} \\frac{2 \\sqrt{2} \\pi}{2+\\pi^{2}}+\\tan ^{-1} \\frac{\\sqrt{2}}{\\pi}\n$$</p>\n<p>का मान ___________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.35TO2.37",
+          "explanation": "<p>दिया गया है, $${3 \\over 2}{\\cos ^{ - 1}}\\sqrt {{2 \\over {2 + {\\pi ^2}}}}  + {1 \\over 4}{\\sin ^{ - 1}}\\left( {{{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>माना, $${\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) = \\alpha $$</p>\n<p>$$ \\Rightarrow {{\\sqrt 2 } \\over \\pi } = \\tan \\alpha $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7upqge7/3a10ef6a-433f-46fa-8d43-76201328d9db/490600f0-305f-11ed-be02-29ec3fdd6583/file-1l7upqge8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7upqge7/3a10ef6a-433f-46fa-8d43-76201328d9db/490600f0-305f-11ed-be02-29ec3fdd6583/file-1l7upqge8.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Mathematics - Inverse Trigonometric Functions Question 8 Hindi Explanation 1\"></p>\n<p>हम जानते हैं, $$\\sin 2\\alpha  = {{2\\tan \\alpha } \\over {1 + {{\\tan }^2}\\alpha }}$$</p>\n<p>$$ = {{2\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)} \\over {1 + {2 \\over {{\\pi ^2}}}}}$$</p>\n<p>$$ = {{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}$$</p>\n<p>$$ \\Rightarrow 2\\alpha  = {\\sin ^{ - 1}}\\left( {{{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}} \\right) = 2{\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>अब, माना, $${\\cos ^{ - 1}}\\left( {\\sqrt {{2 \\over {2 + {\\pi ^2}}}} } \\right) = \\beta $$</p>\n<p>$$ \\Rightarrow \\sqrt {{2 \\over {2 + {\\pi ^2}}}}  = \\cos \\beta $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7upun1d/a94adc46-a360-4f6a-aa0e-d9c8d79fdf95/bd648020-305f-11ed-be02-29ec3fdd6583/file-1l7upun1e.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7upun1d/a94adc46-a360-4f6a-aa0e-d9c8d79fdf95/bd648020-305f-11ed-be02-29ec3fdd6583/file-1l7upun1e.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Mathematics - Inverse Trigonometric Functions Question 8 Hindi Explanation 2\"></p>\n<p>$$\\therefore$$ $$\\cot \\beta  = {{\\sqrt 2 } \\over \\pi }$$</p>\n<p>$$ \\Rightarrow \\beta  = {\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$\\therefore$$ $${\\cos ^{ - 1}}\\left( {\\sqrt {{2 \\over {2 + {\\pi ^2}}}} } \\right) = {\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$\\therefore$$ $${3 \\over 2}{\\cos ^{ - 1}}\\left( {\\sqrt {{2 \\over {2 + {\\pi ^2}}}} } \\right) + {1 \\over 4}{\\sin ^{ - 1}}\\left( {{{2\\sqrt 2 \\pi } \\over {2 + {\\pi ^2}}}} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$ = {3 \\over 2}{\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {1 \\over 4}\\left( {2 + \\tan \\left( {{{\\sqrt 2 } \\over \\pi }} \\right)} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$ = {3 \\over 2}{\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {1 \\over 2}{\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$ = {3 \\over 2}{\\cot ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {3 \\over 2}{\\tan ^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)$$</p>\n<p>$$ = {3 \\over 2}\\left( {{{\\tan }^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right) + {{\\cot }^{ - 1}}\\left( {{{\\sqrt 2 } \\over \\pi }} \\right)} \\right)$$</p>\n<p>$$ = {3 \\over 2} \\times {\\pi  \\over 2}$$</p>\n<p>$$ = {{3\\pi } \\over 4}$$</p>\n<p>$$ = 2.36$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "principal-value-of-inverse-trigonometric-functions",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Considering only the principal values of the inverse trigonometric functions, the value of\n\n$$\n\\frac{3}{2} \\cos ^{-1} \\sqrt{\\frac{2}{2+\\pi^{2}}}+\\frac{1}{4} \\sin ^{-1} \\frac{2 \\sqrt{2} \\pi}{2+\\pi^{2}}+\\tan ^{-1} \\frac{\\sqrt{2}}{\\pi}\n$$\n\nis"
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "प्रतिलोम त्रिकोणमितिय फलनों (inverse trigonometric functions) के केवल मुख्य मानों (only principal values) पर विचार करते हुए,\n$$\n\\frac{3}{2} \\cos ^{-1} \\sqrt{\\frac{2}{2+\\pi^{2}}}+\\frac{1}{4} \\sin ^{-1} \\frac{2 \\sqrt{2} \\pi}{2+\\pi^{2}}+\\tan ^..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "ydvhp6z5rpcmsh6t30zf",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2019 Paper 2 Offline",
+      "permalink": "the-value-of-brbrsec--1left-matrix-1-jee-advanced-mathematics-trigonometric-functions-and-equations-12ppyk1mtdzxq1ro",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The value of <br><br>$${\\sec ^{ - 1}}\\left( \\matrix{\n  {1 \\over 4}\\sum\\limits_{k = 0}^{10} {\\sec \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \n  \\sec \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right) \\hfill \\cr}  \\right)$$<br><br>in the interval $$\\left[ { - {\\pi  \\over 4},\\,{{3\\pi } \\over 4}} \\right]$$ equals ..........",
+          "options": [],
+          "correct_options": [],
+          "answer": "0",
+          "explanation": "$$\\sum\\limits_{k = 0}^{10} {\\sec \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \\sec \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)$$<br><br>= $$\\sum\\limits_{k = 0}^{10} {{1 \\over {\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)}}} $$<br><br>= $$\\sum\\limits_{k = 0}^{10} {{{\\sin \\left[ {\\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right) - \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \\right]} \\over {\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)}}} $$<br><br>$$ \\because $$ $$\\left[ {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2} - \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right) = {\\pi  \\over 2}\\,and\\,sin{\\pi  \\over 2} = 1} \\right]$$<br/><br/>$$\\sum\\limits_{k = 0}^{10} {{\\matrix{\n  \\sin \\left( {{{7\\pi } \\over {12}} + {{\\left( {k + 1} \\right)\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right) \\hfill \\cr \n   - \\sin \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{\\left( {k + 1} \\right)\\pi } \\over 2}} \\right) \\hfill \\cr}  \\over {\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{\\left( {k + 1} \\right)\\pi } \\over 2}} \\right)}}} $$<br><br>= $$\\sum\\limits_{k = 0}^{10} {\\left[ {\\tan \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \\right]} $$<br><br>= $$\\tan \\left( {{{7\\pi } \\over {12}} + {\\pi  \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}}} \\right) + \\tan \\left( {{{7\\pi } \\over {12}} + {{2\\pi } \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}} + {\\pi  \\over 2}} \\right)$$ ....$$ + \\tan \\left( {{{7\\pi } \\over {12}} + {{11\\pi } \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}} + {{10\\pi } \\over 2}} \\right)$$<br><br>= $$\\tan \\left( {{{7\\pi } \\over {12}} + {{11\\pi } \\over 2}} \\right) - \\tan {{7\\pi } \\over {12}} = \\tan {{7\\pi } \\over {12}} + \\cot {\\pi  \\over {12}}$$<br><br>= $${1 \\over {\\sin {\\pi  \\over {12}}\\cos {\\pi  \\over {12}}}} = {2 \\over {\\sin {\\pi  \\over 6}}} = 4$$<br><br>So, $${\\sec ^{ - 1}}\\left( {{1 \\over 4}\\sum\\limits_{k = 0}^{10} {\\sec \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\sec \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)} } \\right)$$<br><br>= $${\\sec ^{ - 1}}$$ (1) = 0"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>अंतराल (interval) $$\\left[-\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right]$$ में</p>\n\n<p>$$\\sec ^{-1}\\left(\\frac{1}{4} \\sum_\\limits{k=0}^{10} \\sec \\left(\\frac{7 \\pi}{12}+\\frac{k \\pi}{2}\\right) \\sec \\left(\\frac{7 \\pi}{12}+\\frac{(k+1) \\pi}{2}\\right)\\right)$$</p>\n\n<p>का मान बराबर __________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0",
+          "explanation": "$$\\sum\\limits_{k = 0}^{10} {\\sec \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \\sec \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)$$<br><br>= $$\\sum\\limits_{k = 0}^{10} {{1 \\over {\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)}}} $$<br><br>= $$\\sum\\limits_{k = 0}^{10} {{{\\sin \\left[ {\\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right) - \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \\right]} \\over {\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)}}} $$<br><br>$$ \\because $$ $$\\left[ {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2} - \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right) = {\\pi  \\over 2}\\,और\\,sin{\\pi  \\over 2} = 1} \\right]$$<br/><br/>$$\\sum\\limits_{k = 0}^{10} {{\\matrix{\n  \\sin \\left( {{{7\\pi } \\over {12}} + {{\\left( {k + 1} \\right)\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right) \\hfill \\cr \n   - \\sin \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{\\left( {k + 1} \\right)\\pi } \\over 2}} \\right) \\hfill \\cr}  \\over {\\cos \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\cos \\left( {{{7\\pi } \\over {12}} + {{\\left( {k + 1} \\right)\\pi } \\over 2}} \\right)}}} $$<br><br>= $$\\sum\\limits_{k = 0}^{10} {\\left[ {\\tan \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \\right]} $$<br><br>= $$\\tan \\left( {{{7\\pi } \\over {12}} + {\\pi  \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}}} \\right) + \\tan \\left( {{{7\\pi } \\over {12}} + {{2\\pi } \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}} + {\\pi  \\over 2}} \\right)$$ ....$$ + \\tan \\left( {{{7\\pi } \\over {12}} + {{11\\pi } \\over 2}} \\right) - \\tan \\left( {{{7\\pi } \\over {12}} + {{10\\pi } \\over 2}} \\right)$$<br><br>= $$\\tan \\left( {{{7\\pi } \\over {12}} + {{11\\pi } \\over 2}} \\right) - \\tan {{7\\pi } \\over {12}} = \\tan {{7\\pi } \\over {12}} + \\cot {\\pi  \\over {12}}$$<br><br>= $${1 \\over {\\sin {\\pi  \\over {12}}\\cos {\\pi  \\over {12}}}} = {2 \\over {\\sin {\\pi  \\over 6}}} = 4$$<br><br>अतः, $${{\\sec ^{ - 1}}\\left( {{1 \\over 4}\\sum\\limits_{k = 0}^{10} {\\sec \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)\\sec \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right)} } \\right)$$<br><br>= $${{\\sec ^{ - 1}}$$ (1) = 0"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "principal-value-of-inverse-trigonometric-functions",
+      "type": "integer",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The value of $${\\sec ^{ - 1}}\\left( \\matrix{\n  {1 \\over 4}\\sum\\limits_{k = 0}^{10} {\\sec \\left( {{{7\\pi } \\over {12}} + {{k\\pi } \\over 2}} \\right)} \n  \\sec \\left( {{{7\\pi } \\over {12}} + {{(k + 1)\\pi } \\over 2}} \\right) \\hfill \\cr}  \\right)..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "अंतराल (interval) $$\\left[-\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right]$$ में\n\n$$\\sec ^{-1}\\left(\\frac{1}{4} \\sum_\\limits{k=0}^{10} \\sec \\left(\\frac{7 \\pi}{12}+\\frac{k \\pi}{2}\\right) \\sec \\left(\\frac{7 \\pi}{12}+\\frac{(k+1) \\pi}{2}\\right)\\right)$$\n..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-2-offline"
+    },
+    {
+      "question_id": "dv40suf384v9nckcr96b",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "permalink": "for-any-positive-integer-n-define-brbrfn0inf-jee-advanced-mathematics-trigonometric-functions-and-equations-mavrlb2i9zobrygm",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "For any positive integer n, define <br><br>$${f_n}:(0,\\infty ) \\to R$$ as<br><br>$${f_n} = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{1 \\over {1 + (x + j)(x + j - 1)}}} \\right)$$<br><br>for all x$$ \\in $$(0, $$\\infty $$). (Here, the inverse trigonometric function tan<sup>$$-$$1</sup> x assumes values in $$\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right)$$). Then, which of the following statement(s) is (are) TRUE?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sum\\limits_{j = 1}^5 {{{\\tan }^2}({f_j}(0)) = 55} $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sum\\limits_{j = 1}^{10} {(1 + f{'_j}(0)){{\\sec }^2}({f_j}(0)) = 10} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "For any fixed positive integer n, $$\\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({f_n}(x)) = {1 \\over n}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "For any fixed positive integer n, $$\\mathop {\\lim }\\limits_{x \\to \\infty } {\\sec ^2}({f_n}(x)) = 1$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "We have,<br><br>$${f_n}(x) = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{1 \\over {1 + (x + j)(x + j - 1)}}} \\right)$$<br><br>$$ \\Rightarrow {f_n}(x) = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{{(x + j) - (x + j - 1)} \\over {1 + (x + j)(x + j - 1)}}} \\right)$$<br><br>$$ \\Rightarrow {f_n}(x) = \\sum\\limits_{j = 1}^n {[{{\\tan }^{ - 1}}} (x + j) - {\\tan ^{ - 1}}(x + j - 1)]$$<br><br>for all $$x \\in (0,\\infty )$$<br><br>$$ \\Rightarrow {f_n}(x) = ({\\tan ^{ - 1}}(x + 1) - {\\tan ^{ - 1}}x) + (ta{n^{ - 1}}(x + 2) - {\\tan ^{ - 1}}(x + 1)) + ({\\tan ^{ - 1}}(x + 3) - {\\tan ^{ - 1}}(x + 2)) + ... + ({\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}(x + n - 1))$$<br><br>$$ \\Rightarrow {f_n}(x) = {\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}x$$<br><br>This statement is false as $$x \\ne 0$$. i.e., $$x \\in (0,\\infty )$$<br><br>(b) This statement is also false as 0$$ \\notin $$(0, $$\\infty $$)<br><br>(c) $${f_n}(x) = {\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}x$$<br><br>$$\\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({f_n}(x)) = \\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}x)$$<br><br>$$ \\Rightarrow \\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({f_n}(x)) = \\mathop {\\lim }\\limits_{x \\to \\infty } \\tan \\left( {{{\\tan }^{ - 1}}{n \\over {1 + nx + {x^2}}}} \\right) = \\mathop {\\lim }\\limits_{x \\to \\infty } {n \\over {1 + nx + {x^2}}} = 0$$<br><br>$$ \\therefore $$ (c) statement is false.<br><br>(d) $$\\mathop {\\lim }\\limits_{x \\to \\infty } {\\sec ^2}({f_n}(x)) = \\mathop {\\lim }\\limits_{x \\to \\infty } (1 + {\\tan ^2}{f_n}(x)) = 1 + \\mathop {\\lim }\\limits_{x \\to \\infty } {\\tan ^2}({f_n}(x)) = 1 + 0 = 1$$<br><br>$$ \\therefore $$ (d) statement is true."
+        },
+        "hi": {
+          "direction": null,
+          "content": "किसी भी धनात्मक पूर्णांक $$n$$ के लिए, परिभाषित करें <br><br>$${f_n}:(0,\\infty ) \\to R$$ जैसा<br><br>$${f_n} = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{1 \\over {1 + (x + j)(x + j - 1)}}} \\right)$$<br><br>सबके लिए $$x \\in (0, \\infty).$$ (यहाँ, प्रतिलोम त्रिकोणमितीय फलन $$\\tan^{-1} x$$ का मान $$\\left( - {\\pi  \\over 2},{\\pi  \\over 2} \\right)$$ में है)। फिर, निम्नलिखित कौन सा/से कथन सत्य है/हैं?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sum\\limits_{j = 1}^5 {{{\\tan }^2}({f_j}(0)) = 55} $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sum\\limits_{j = 1}^{10} {(1 + f{'_j}(0)){{\\sec }^2}({f_j}(0)) = 10} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "किसी भी निश्चित धनात्मक पूर्णांक $$n$$ के लिए, $$\\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({f_n}(x)) = {1 \\over n}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "किसी भी निश्चित धनात्मक पूर्णांक $$n$$ के लिए, $$\\mathop {\\lim }\\limits_{x \\to \\infty } {\\sec ^2}({f_n}(x)) = 1$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "हमारे पास है,<br><br>$${f_n}(x) = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{1 \\over {1 + (x + j)(x + j - 1)}}} \\right)$$<br><br>$$ \\Rightarrow {f_n}(x) = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{{(x + j) - (x + j - 1)} \\over {1 + (x + j)(x + j - 1)}}} \\right)$$<br><br>$$ \\Rightarrow {f_n}(x) = \\sum\\limits_{j = 1}^n {[{{\\tan }^{ - 1}}} (x + j) - {\\tan ^{ - 1}}(x + j - 1)]$$<br><br>सभी $$x \\in (0,\\infty )$$ के लिए<br><br>$$ \\Rightarrow {f_n}(x) = ({\\tan ^{ - 1}}(x + 1) - {\\tan ^{ - 1}}x) + (ta{n^{ - 1}}(x + 2) - {\\tan ^{ - 1}}(x + 1)) + ({\\tan ^{ - 1}}(x + 3) - {\\tan ^{ - 1}}(x + 2)) + ... + ({\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}(x + n - 1))$$<br><br>$$ \\Rightarrow {f_n}(x) = {\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}x$$<br><br>यह कथन असत्य है क्योंकि $$x \\ne 0$$. अर्थात्, $$x \\in (0,\\infty )$$<br><br>(b) यह कथन भी असत्य है क्योंकि 0$$ \\notin $$(0, $$\\infty $$)<br><br>(c) $${f_n}(x) = {\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}x$$<br><br>$$\\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({f_n}(x)) = \\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({\\tan ^{ - 1}}(x + n) - {\\tan ^{ - 1}}x)$$<br><br>$$ \\Rightarrow \\mathop {\\lim }\\limits_{x \\to \\infty } \\tan ({f_n}(x)) = \\mathop {\\lim }\\limits_{x \\to \\infty } \\tan \\left( {{{\\tan }^{ - 1}}{n \\over {1 + nx + {x^2}}}} \\right) = \\mathop {\\lim }\\limits_{x \\to \\infty } {n \\over {1 + nx + {x^2}}} = 0$$<br><br>$$ \\therefore $$ (c) कथन असत्य है।<br><br>(d) $$\\mathop {\\lim }\\limits_{x \\to \\infty } {\\sec ^2}({f_n}(x)) = \\mathop {\\lim }\\limits_{x \\to \\infty } (1 + {\\tan ^2}{f_n}(x)) = 1 + \\mathop {\\lim }\\limits_{x \\to \\infty } {\\tan ^2}({f_n}(x)) = 1 + 0 = 1$$<br><br>$$ \\therefore $$ (d) कथन सत्य है।",
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "type": "mcqm",
+      "year": 2018,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "For any positive integer n, define $${f_n}:(0,\\infty ) \\to R$$ as$${f_n} = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{1 \\over {1 + (x + j)(x + j - 1)}}} \\right)$$for all x$$ \\in $$(0, $$\\infty $$). (Here, the inverse trigonometric fu..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "किसी भी धनात्मक पूर्णांक $$n$$ के लिए, परिभाषित करें $${f_n}:(0,\\infty ) \\to R$$ जैसा$${f_n} = \\sum\\limits_{j = 1}^n {{{\\tan }^{ - 1}}} \\left( {{1 \\over {1 + (x + j)(x + j - 1)}}} \\right)$$सबके लिए $$x \\in (0, \\infty).$$ (यहाँ, प्रतिलोम त्र..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "question_id": "79fwc0yaxy62way56jom",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "permalink": "the-number-of-real-solutions-of-the-equation-eqalign--jee-advanced-mathematics-trigonometric-functions-and-equations-gjt2eazp7tprzea9",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The number of real solutions of the equation $$\\eqalign{\n  &amp; {\\sin ^{ - 1}}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {x^{i + 1}} - x\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{x \\over 2}} \\right)}^i}} \\right)  \\cr \n  &amp;  = {\\pi  \\over 2} - {\\cos ^1}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{{ - x} \\over 2}} \\right)}^i} - \\sum\\limits_{i = 1}^\\infty  {} {{\\left( { - x} \\right)}^i}} \\right) \\cr} $$ lying in the interval $$\\left( { - {1 \\over 2},{1 \\over 2}} \\right)$$ is ........... .<br><br>(Here, the inverse trigonometric functions sin<sup>$$-$$1</sup> x and cos<sup>$$-$$1</sup> x assume values in $${\\left[ { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right]}$$ and $${\\left[ {0,\\pi } \\right]}$$, respectively.)",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "We have,<br><br>$${\\sin ^{ - 1}}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {x^{i + 1}} - x\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{x \\over 2}} \\right)}^i}} \\right)$$<br><br>$$ = {\\pi  \\over 2} - {\\cos ^1}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{{ - x} \\over 2}} \\right)}^i} - \\sum\\limits_{i = 1}^\\infty  {} {{\\left( { - x} \\right)}^i}} \\right)$$<br><br>$$ \\Rightarrow {\\sin ^{ - 1}}\\left[ {{{{x^2}} \\over {1 - x}} - {{x.{x \\over 2}} \\over {1 - {x \\over 2}}}} \\right]$$<br><br>$$ = {\\pi  \\over 2} - {\\cos ^{ - 1}}\\left[ {{{{{ - x} \\over 2}} \\over {1 + {x \\over 2}}} - {{( - x)} \\over {1 + x}}} \\right]$$<br><br>$$ \\because $$ $$\\left[ {\\sum\\limits_{i = 1}^\\infty  {} {x^{i + 1}} = {x^2} + {x^3} + {x^4} + .... = {{{x^2}} \\over {1 - x}}} \\right]$$ using sum of infinite terms of GP<br><br>$$ \\Rightarrow {\\sin ^{ - 1}}\\left[ {{{{x^2}} \\over {1 - x}} - {{{x^2}} \\over {2 - x}}} \\right] = {\\pi  \\over 2} - {\\cos ^{ - 1}}\\left[ {{x \\over {1 + x}} - {x \\over {2 + x}}} \\right]$$<br><br>$$ \\Rightarrow {\\sin ^{ - 1}}\\left[ {{{{x^2}} \\over {1 - x}} - {{{x^2}} \\over {2 - x}}} \\right] = {\\sin ^{ - 1}}\\left[ {{x \\over {1 + x}} - {x \\over {2 + x}}} \\right]$$<br><br>$$ \\because $$ $$\\left[ {{{\\sin }^{ - 1}}x = {\\pi  \\over 2} - {{\\cos }^{ - 1}}x} \\right]$$<br><br>$$ \\Rightarrow {{{x^2}} \\over {1 - x}} - {{{x^2}} \\over {2 - x}} = {x \\over {1 + x}} - {x \\over {2 + x}}$$<br><br>$$ \\Rightarrow {x^2}\\left( {{{2 - x - 1 + x} \\over {(1 - x)(2 - x)}}} \\right) = x{{(2 + x - 1 - x)} \\over {(1 + x)(2 + x)}}$$<br><br>$$ \\Rightarrow {x \\over {2 - 3x + {x^2}}} = {1 \\over {2 + 3x + {x^2}}}$$ or x = 0<br><br>$$ \\Rightarrow {x^3} + 3{x^2} + 2x = {x^2} - 3x + 2$$<br><br>$$ \\Rightarrow {x^3} + 2{x^2} + 5x - 2 = 0$$ or x = 0<br><br>Let $$f(x) = {x^3} + 2{x^2} + 5x - 2$$<br><br>$$f'(x) = 3{x^2} + 4x + 5$$<br><br>$$f'(x) &gt; 0,\\,\\forall x \\in R$$<br><br>$$ \\therefore $$ $${x^3} + 2{x^2} + 5x - 2$$ has only one real roots<br><br>Therefore, total number of real solution is 2."
+        },
+        "hi": {
+          "direction": null,
+          "content": "समीकरण $$\\eqalign{\n  & {\\sin ^{ - 1}}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {x^{i + 1}} - x\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{x \\over 2}} \\right)}^i}} \\right)  \\cr \n  &  = {\\pi  \\over 2} - {\\cos ^1}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{{ - x} \\over 2}} \\right)}^i} - \\sum\\limits_{i = 1}^\\infty  {} {{\\left( { - x} \\right)}^i}} \\right) \\cr} $$ के वास्तविक समाधानों की संख्या, $$\\left( { - {1 \\over 2},{1 \\over 2}} \\right)$$ के अन्तराल में ........... है। <br><br>(यहां पर, इनवर्स ट्रिगोनोमेट्रिक फंक्शन्स sin<sup>$$-$$1</sup> x और cos<sup>$$-$$1</sup> x का मूल्य $${\\left[ { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right]}$$ और $${\\left[ {0,\\pi } \\right]}$$, क्रमशः में होता है।)",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "हमारे पास है,<br><br>$${\\\\ sin ^{ - 1}}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {x^{i + 1}} - x\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{x \\over 2}} \\right)}^i}} \\right)$$<br><br>$$ = {\\pi  \\over 2} - {\\cos ^{ - 1}}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{{ - x} \\over 2}} \\right)}^i} - \\sum\\limits_{i = 1}^\\infty  {} {{\\left( { - x} \\right)}^i}} \\right)$$<br><br>$$ \\Rightarrow {\\sin ^{ - 1}}\\left[ {{{{x^2}} \\over {1 - x}} - {{x.{x \\over 2}} \\over {1 - {x \\over 2}}}} \\right]$$<br><br>$$ = {\\pi  \\over 2} - {\\cos ^{ - 1}}\\left[ {{{{{ - x} \\over 2}} \\over {1 + {x \\over 2}}} - {{( - x)} \\over {1 + x}}} \\right]$$<br><br>$$ \\because $$ $$\\left[ {\\sum\\limits_{i = 1}^\\infty  {} {x^{i + 1}} = {x^2} + {x^3} + {x^4} + .... = {{{x^2}} \\over {1 - x}}} \\right]$$ गुणोत्तर श्रेणी के अनंत पदों के योग का उपयोग करते हुए<br><br>$$ \\Rightarrow {\\sin ^{ - 1}}\\left[ {{{{x^2}} \\over {1 - x}} - {{{x^2}} \\over {2 - x}}} \\right] = {\\pi  \\over 2} - {\\cos ^{ - 1}}\\left[ {{x \\over {1 + x}} - {x \\over {2 + x}}} \\right]$$<br><br>$$ \\Rightarrow {\\sin ^{ - 1}}\\left[ {{{{x^2}} \\over {1 - x}} - {{{x^2}} \\over {2 - x}}} \\right] = {\\sin ^{ - 1}}\\left[ {{x \\over {1 + x}} - {x \\over {2 + x}}} \\right]$$<br><br>$$ \\because $$ $$\\left[ {{{\\sin }^{ - 1}}x = {\\pi  \\over 2} - {{\\cos }^{ - 1}}x} \\right]$$<br><br>$$ \\Rightarrow {{{x^2}} \\over {1 - x}} - {{{x^2}} \\over {2 - x}} = {x \\over {1 + x}} - {x \\over {2 + x}}$$<br><br>$$ \\Rightarrow {x^2}\\left( {{{2 - x - 1 + x} \\over {(1 - x)(2 - x)}}} \\right) = x{{(2 + x - 1 - x)} \\over {(1 + x)(2 + x)}}$$<br><br>$$ \\Rightarrow {x \\over {2 - 3x + {x^2}}} = {1 \\over {2 + 3x + {x^2}}}$$ या x = 0<br><br>$$ \\Rightarrow {x^3} + 3{x^2} + 2x = {x^2} - 3x + 2$$<br><br>$$ \\Rightarrow {x^3} + 2{x^2} + 5x - 2 = 0$$ या x = 0<br><br>माना $$f(x) = {x^3} + 2{x^2} + 5x - 2$$<br><br>$$f'(x) = 3{x^2} + 4x + 5$$<br><br>$$f'(x) &gt; 0,\\,\\forall x \\in R$$<br><br>$$ \\therefore $$ $${x^3} + 2{x^2} + 5x - 2$$ का केवल एक वास्तविक मूल है<br><br>इसलिए, वास्तविक हलों की कुल संख्या 2 है।",
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "sum-upto-n-terms-and-infinite-terms-of-inverse-series",
+      "type": "integer",
+      "year": 2018,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The number of real solutions of the equation $$\\eqalign{\n  & {\\sin ^{ - 1}}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {x^{i + 1}} - x\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{x \\over 2}} \\right)}^i}} \\right)  \\cr \n  &  = {\\pi  \\over 2} - {\\cos ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "समीकरण $$\\eqalign{\n  & {\\sin ^{ - 1}}\\left( {\\sum\\limits_{i = 1}^\\infty  {} {x^{i + 1}} - x\\sum\\limits_{i = 1}^\\infty  {} {{\\left( {{x \\over 2}} \\right)}^i}} \\right)  \\cr \n  &  = {\\pi  \\over 2} - {\\cos ^1}\\left( {\\sum\\limits_{i = 1}^\\infty ..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6nxe3jb0t5kj42jkx32a",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$\\alpha $$ $$ = 3{\\sin ^{ - 1}}\\left( {{6 \\over {11}}} \\right)$$ and $$\\beta  = 3{\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right),$$ where the inverse trigonimetric functions take only the principal values, then the correct options(s) is (are) ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$cos\\beta  &gt; 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sin \\beta  &lt; 0$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\cos \\left( {\\alpha  + \\beta } \\right) &gt; 0$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\cos \\alpha  &lt; 0$$ "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Here, $$\\alpha  = 3{\\sin ^{ - 1}}\\left( {{6 \\over {11}}} \\right)$$</p>\n<p>and $$\\beta  = 3{\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right)$$ as $${6 \\over {11}} > {1 \\over 2}$$</p>\n<p>$$ \\Rightarrow {\\sin ^{ - 1}}\\left( {{6 \\over {11}}} \\right) > {\\sin ^{ - 1}}\\left( {{1 \\over 2}} \\right) = {\\pi  \\over 6}$$</p>\n<p>$$\\therefore$$ $$\\alpha  = 3{\\sin ^{ - 1}}\\left( {{6 \\over {11}}} \\right) > {\\pi  \\over 2} \\Rightarrow \\cos \\alpha  < 0$$</p>\n<p>Now, $$\\beta  = 3{\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right)$$</p>\n<p>As $${4 \\over 9} < {1 \\over 2} \\Rightarrow {\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right) > {\\cos ^{ - 1}}\\left( {{1 \\over 2}} \\right) = {\\pi  \\over 3}$$</p>\n<p>$$\\therefore$$ $$\\beta  = 3{\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right) > \\pi $$</p>\n<p>$$\\therefore$$ $$\\cos \\beta  < 0$$ and $$\\sin \\beta  < 0$$</p>\n<p>Now, $$\\alpha  + \\beta $$ is slightly greater than $${{3\\pi } \\over 2}$$.</p>\n<p>$$\\therefore$$ $$\\cos (\\alpha  + \\beta ) > 0$$</p>"
+        }
+      },
+      "permalink": "if-alpha-3sin-1left-6-over-11-right-and-beta-3cos-1left-4-ov-jee-advanced-2015-marks-4-p0pps8gq0utqu7an.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "topic": "principal-value-of-inverse-trigonometric-functions",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "If $$\\alpha $$ $$ = 3{\\sin ^{ - 1}}\\left( {{6 \\over {11}}} \\right)$$ and $$\\beta  = 3{\\cos ^{ - 1}}\\left( {{4 \\over 9}} \\right),$$ where the inverse trigonimetric functions take only the principal values, then the correct options(s) is (are..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ph2sw8euu3jcqazlevaw",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Match List $$I$$ with List $$II$$ and select the correct answer using the code given below the lists:\n<p>$$\\,\\,\\,\\,$$ $$\\,\\,\\,\\,$$ $$\\,\\,\\,\\,$$ <b>List-$$I$$</b>\n<br><b>(P.)</b>$$\\,\\,\\,\\,$$ Let $$y\\left( x \\right) = \\cos \\left( {3{{\\cos }^{ - 1}}x} \\right),x \\in \\left[ { - 1,1} \\right],x \\ne  \\pm {{\\sqrt 3 } \\over 2}.$$ Then $${1 \\over {y\\left( x \\right)}}\\left\\{ {\\left( {{x^2} - 1} \\right){{{d^2}y\\left( x \\right)} \\over {d{x^2}}} + x{{dy\\left( x \\right)} \\over {dx}}} \\right\\}$$ equals \n<br> <b>(Q.)</b>$$\\,\\,\\,\\,$$ Let $${A_1},{A_2},....,{A_n}\\left( {n &gt; 2} \\right)$$ be the vertices of a regular polygon of $$n$$ sides with its centre at the origin. Let $${\\overrightarrow {{a_k}} }$$ be the position vector of the point $${A_k},k = 1,2,......,n.$$ \n$$$f\\left| {\\sum\\nolimits_{k = 1}^{n - 1} {\\left( {\\overrightarrow {{a_k}}  \\times \\overrightarrow {{a_{k + 1}}} } \\right)} } \\right| = \\left| {\\sum\\limits_{k = 1}^{n - 1} {\\left( {\\overrightarrow {{a_k}} .\\,\\overrightarrow {{a_{k + 1}}} } \\right)} } \\right|,$$$\nthen the minimum value of $$n$$ is \n<br><b>(R.)</b>$$\\,\\,\\,\\,$$ If the normal from the point $$P(h, 1)$$ on the ellipse $${{{x^2}} \\over 6} + {{{y^2}} \\over 3} = 1$$ is perpendicular to the line $$x+y=8,$$ then the value of $$h$$ is \n<br><b>(S.)</b>$$\\,\\,\\,\\,$$ Number of positive solutions satisfying the equation $${\\tan ^{ - 1}}\\left( {{1 \\over {2x + 1}}} \\right) + {\\tan ^{ - 1}}\\left( {{1 \\over {4x + 1}}} \\right) = {\\tan ^{ - 1}}\\left( {{2 \\over {{x^2}}}} \\right)$$ is\n</p><p>$$\\,\\,\\,\\,$$ $$\\,\\,\\,\\,$$ $$\\,\\,\\,\\,$$<b>List-$$II$$</b>\n<br><b>(1.)</b>$$\\,\\,\\,\\,$$ $$1$$\n<br><b>(2.)</b>$$\\,\\,\\,\\,$$ $$2$$\n<br><b>(3.)</b>$$\\,\\,\\,\\,$$ $$8$$\n<br><b>(4.)</b>$$\\,\\,\\,\\,$$ $$9$$\n</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P = 4,Q = 3,R = 2,S = 1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$P = 2,Q = 4,R = 3,S = 1$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$P = 4,Q = 3,R = 1,S = 2$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$P = 2,Q = 4,R = 1,S = 3$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\begin{aligned}\n&amp; \\text { (P) Given } y(x)=\\cos \\left(3 \\cos ^{-1} x\\right), x \\in[-1,1] \\\\\n&amp; \\Rightarrow \\quad y(x)=4 \\cos ^3\\left(\\cos ^{-1} x\\right)-3 \\cos \\left(\\cos ^{-1} x\\right) \\\\\n&amp; \\Rightarrow \\quad y(x)=4 x^3-3 x \\quad \\text{... (i)}\\\\\n&amp; \\Rightarrow \\quad \\frac{d y(x)}{d x}=12 x^2-3 \\quad \\text{... (ii)}\\\\\n&amp; \\Rightarrow \\quad \\frac{d^2 y(x)}{d x^2}=24 x \\quad \\text{... (iii)}\\\\\n\\end{aligned}$$</p>\n<p>From equation (i), (ii) and (iii)</p>\n<p>$$\\begin{aligned}\n\\Rightarrow &amp; \\frac{1}{y(x)}\\left[\\left(x^2-1\\right) \\frac{d^2 y(x)}{d x^2}+x \\frac{d y(x)}{d x}\\right] \\\\\n&amp; =\\frac{1}{4 x^3-3 x}\\left[\\left(x^2-1\\right) \\cdot 24 x+x \\cdot\\left(12 x^2-3\\right)\\right] \\\\\n&amp; =\\frac{1}{4 x^3-3 x}\\left[24 x^3-24 x+12 x^3-3 x\\right] \\\\\n&amp; =\\frac{1}{4 x^3-3 x}\\left[36 x^3-27 x\\right]\n\\end{aligned}$$</p>\n<p>$$\\begin{aligned}\n&amp; =\\frac{9\\left(4 x^3-3 x\\right)}{4 x^3-3 x} \\\\\n&amp; =9\n\\end{aligned}$$</p>\n<p>Hence P match with 4</p>\n<p>(Q) Given $$\\mathrm{A}_1, \\mathrm{~A}_2, \\mathrm{~A}_3, \\ldots . \\mathrm{A}_n(n&gt;2)$$ be the vertices of a regular polygon of $$n$$ sides with centre at origin and $$\\vec{a}_k$$ be the position vector of the point $$A_k$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzqp0qbz/b72833ef-01a0-4967-9d8b-f182b6d6ff03/69ac86e0-587f-11ef-b0b2-83775b007c6f/file-jaoe38c1lzqp0qc0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzqp0qbz/b72833ef-01a0-4967-9d8b-f182b6d6ff03/69ac86e0-587f-11ef-b0b2-83775b007c6f/file-jaoe38c1lzqp0qc0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2014 Paper 2 Offline Mathematics - Inverse Trigonometric Functions Question 13 English Explanation\"></p>\n<p>$$\\begin{aligned}\n&amp; \\text { Here, } \\begin{aligned}\n&amp;\\left|\\vec{a}_1\\right|=\\left|\\vec{a}_2\\right|=\\left|\\vec{a}_3\\right|=\\ldots=\\left|\\vec{a}_k\\right| \\\\\n&amp;=\\left|\\vec{a}_{k+1}\\right|=\\cdots=\\left|\\vec{a}_n\\right|=\\lambda \\text { (let) } \\\\\n&amp; \\text { And } \\angle \\mathrm{A}_1 \\mathrm{OA}_2=\\angle \\mathrm{A}_2 \\mathrm{OA}_3=\\cdots=\\angle \\mathrm{A}_k \\mathrm{OA}_{k+1} \\\\\n&amp;=\\cdots=\\angle \\mathrm{A}_n \\mathrm{OA}_1=\\frac{2 \\pi}{n} \\\\\n&amp; \\Rightarrow \\vec{a}_k \\times \\vec{a}_{k+1}=\\lambda \\cdot \\lambda \\cdot \\sin \\frac{2 \\pi}{n} \\cdot \\hat{p} \\text { and } \\\\\n&amp; \\vec{a}_k \\cdot \\vec{a}_{k+1}=\\lambda \\cdot \\lambda \\cdot \\cos \\frac{2 \\pi}{n}\n\\end{aligned}\n\\end{aligned}$$</p>\n<p>Apply $$\\left|\\sum_\\limits{k=1}^{n-1} \\vec{a}_k \\times \\vec{a}_{k+1}\\right|=\\left|\\sum_\\limits{k=1}^{n-1} \\vec{a}_k \\cdot \\vec{a}_{k+1}\\right|$$</p>\n<p>$$\\begin{aligned}\n&amp; \\left|\\sum_{k=1}^{n-1} \\lambda^2 \\sin \\frac{2 \\pi}{n} \\hat{p}\\right|=\\left|\\sum_{k=1}^{n-1} \\lambda^2 \\cos \\frac{2 \\pi}{n}\\right| \\\\\n&amp; \\Rightarrow(n-1) \\lambda^2\\left|\\sin \\frac{2 \\pi}{n}\\right|=(n-1) \\lambda^2\\left|\\cos \\frac{2 \\pi}{n}\\right| \\\\\n&amp; \\Rightarrow\\left|\\tan \\frac{2 \\pi}{n}\\right|=1 \\\\\n&amp; \\Rightarrow n_{\\text {min }}=8 \\\\\n\\end{aligned}$$</p>\n<p>Hence $$Q$$ match with 3 .</p>\n<p>(R) We know the equation of normal of ellipse $$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$$ at $$\\left(x_1, y_1\\right)$$ is $$\\frac{a^2 x}{x_1}-\\frac{b^2 y}{y_1}=a^2-b^2$$.</p>\n<p>$$\\therefore$$ Equation of Normal of ellipse $$\\frac{x^2}{6}+\\frac{y^2}{3}=1$$ at $$p(h, 1)$$ is $$\\frac{6 x}{h}-\\frac{3 y}{1}=1$$</p>\n<p>Given, the normal at $$p(h, 1)$$ is perpendicular to the line $$x+y=3$$</p>\n<p>$$\\Rightarrow \\quad \\frac{{\\frac{6}{h}}}{3} \\times(-1)=-1$$</p>\n<p>$$\\Rightarrow \\quad \\frac{2}{h}=1$$</p>\n<p>$$\\Rightarrow \\quad h=2$$</p>\n<p>Hence, R match with 2.</p>\n<p>$$\\begin{aligned}\n&amp; \\text { (S) } \\tan ^{-1}\\left(\\frac{1}{2 x+1}\\right)+\\tan ^{-1}\\left(\\frac{1}{4 x+1}\\right)=\\tan ^{-1} \\frac{2}{x^2} \\\\\n&amp; \\Rightarrow \\quad \\tan ^{-1}\\left(\\frac{\\frac{1}{2 x+1}+\\frac{1}{4 x+1}}{1-\\frac{1}{2 x+1} \\times \\frac{1}{4 x+1}}\\right)=\\tan ^{-1}\\left(\\frac{2}{x^2}\\right) \\\\\n&amp; \\Rightarrow \\quad \\tan ^{-1}\\left(\\frac{6 x+2}{8 x^2+6 x+1-1}\\right)=\\tan ^{-1}\\left(\\frac{2}{x^2}\\right) \\\\\n&amp; \\Rightarrow \\quad \\tan ^{-1}\\left(\\frac{3 x+1}{4 x^2+3 x}\\right)=\\tan ^{-1}\\left(\\frac{2}{x^2}\\right)\n\\end{aligned}$$</p>\n<p>$$\\begin{aligned}\n&amp; \\Rightarrow &amp; 3 x^3+x^2 &amp; =8 x^2+6 x \\\\\n&amp; \\Rightarrow &amp; x\\left[3 x^2-7 x-6\\right] &amp; =0 \\\\\n&amp; \\Rightarrow &amp; x\\left[3 x^2-9 x+2 x-6\\right] &amp; =0 \\\\\n&amp; \\Rightarrow &amp; x(3 x+2)(x-3) &amp; =0 \\\\\n&amp; \\Rightarrow &amp; x &amp; =0, \\frac{-2}{3}, 3\n\\end{aligned}$$</p>\n<p>So, $$x=3$$ is the only positive solution of given equation.</p>\n<p>Hence, S match with 1.</p>\n<p>Hint:</p>\n<p>(i) Recall $$\\cos \\left(\\cos ^{-1} x\\right)=x \\forall x \\in[-1,1]$$ and $$\\cos 3 \\theta=4 \\cos ^3 \\theta-3 \\cos \\theta$$</p>\n<p>(ii) If angle between $$\\vec{a}$$ and $$\\vec{b}$$ is $$\\theta$$, then $$\\vec{a} \\cdot \\vec{b}=|\\vec{a}||\\vec{b}| \\cos \\theta$$ and $$\\vec{a} \\times \\vec{b}=|\\vec{a}||\\vec{b}| \\sin \\theta \\hat{n}$$</p>\n<p>(iii) The equation of normal of ellipse $$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$$ at $$\\left(x_1, y_1\\right)$$ is $$\\frac{a^2 x}{x_1}-\\frac{b^2 y}{y_1}=a^2-b^2$$.</p>\n<p>(iv) Recall $$\\tan ^{-1} \\mathrm{~A}+\\tan ^{-1} \\mathrm{~B}=\\tan ^{-1}\\left(\\frac{\\mathrm{A}+\\mathrm{B}}{1-\\mathrm{AB}}\\right)$$ only when A.B &lt; 1</p>"
+        }
+      },
+      "permalink": "match-list-i-with-list-ii-and-select-the-correct-answer-usin-jee-advanced-2014-marks-4-p0omugsnczp7mmik.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Match List $$I$$ with List $$II$$ and select the correct answer using the code given below the lists:\n$$\\,\\,\\,\\,$$ $$\\,\\,\\,\\,$$ $$\\,\\,\\,\\,$$ List-$$I$$\n(P.)$$\\,\\,\\,\\,$$ Let $$y\\left( x \\right) = \\cos \\left( {3{{\\cos }^{ - 1}}x} \\right),x \\i..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "question_id": "snri0ppomgvewkejbno8",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "let-f--0-4pi-to-0-pi-be-defined-by-fx-jee-advanced-mathematics-trigonometric-functions-and-equations-d5mjbst5yrwej8ah",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let f : [0, 4$$\\pi$$] $$\\to$$ [0, $$\\pi$$] be defined by f(x) = cos<sup>$$-$$1</sup> (cos x). The number of points x $$\\in$$ [0, 4$$\\pi$$] satisfying the equation $$f(x) = {{10 - x} \\over {10}}$$ is",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "Concept :<br><br>The number of solutions of equations involving trigonometric functions and algebraic functions are found using graphs of the curves.<br><br>We know, $${\\cos ^{ - 1}}(\\cos x) = \\left\\{ \\matrix{\n  x,\\,if\\,x \\in [0,\\pi ] \\hfill \\cr \n  2\\pi  - x,\\,if\\,x \\in [\\pi ,2\\pi ] \\hfill \\cr \n   - 2\\pi  + x,\\,if\\,x \\in [2\\pi ,3\\pi ] \\hfill \\cr \n  4\\pi  - x,\\,if\\,x \\in [3\\pi ,4\\pi ] \\hfill \\cr}  \\right.$$<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1azmrpz/8b2b27fd-3c5d-4c90-b357-b423ef42ad56/04910e70-aebd-11ec-9d01-8f770d3c908f/file-1l1azmrq0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1azmrpz/8b2b27fd-3c5d-4c90-b357-b423ef42ad56/04910e70-aebd-11ec-9d01-8f770d3c908f/file-1l1azmrq0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Mathematics - Inverse Trigonometric Functions Question 9 English Explanation\"><br>$$y = {{10 - x} \\over {10}} = 1 - {x \\over {10}}$$<br><br>From above figure, it is clear that $$y = {{10 - x} \\over {10}}$$ and $$y = {\\cos ^{ - 1}}(\\cos x)$$ intersect at three distinct points, so number of solutions is 3."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "principal-value-of-inverse-trigonometric-functions",
+      "type": "integer",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Let f : [0, 4$$\\pi$$] $$\\to$$ [0, $$\\pi$$] be defined by f(x) = cos$$-$$1 (cos x). The number of points x $$\\in$$ [0, 4$$\\pi$$] satisfying the equation $$f(x) = {{10 - x} \\over {10}}$$ is"
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "uuaeuw654nk85fnnzq0w",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Match List $$I$$ with List $$II$$ and select the correct answer using the code given below the lists: \n<p><b>List $$I$$</b>\n<br>$$P.$$$$\\,\\,\\,\\,\\,$$  $${\\left( {{1 \\over {{y^2}}}{{\\left( {{{\\cos \\left( {{{\\tan }^{ - 1}}y} \\right) + y\\sin \\left( {{{\\tan }^{ - 1}}y} \\right)} \\over {\\cot \\left( {{{\\sin }^{ - 1}}y} \\right) + \\tan \\left( {{{\\sin }^{ - 1}}y} \\right)}}} \\right)}^2} + {y^4}} \\right)^{1/2}}$$ takes value\n</p><p>$$Q.$$ $$\\,\\,\\,\\,$$ If $$\\cos x + \\cos y + \\cos z = 0 = \\sin x + \\sin y + \\sin z$$ then \n<br>possible value of $$\\cos {{x - y} \\over 2}$$ is</p>\n<p>$$R.$$ $$\\,\\,\\,\\,\\,$$ If $$\\cos \\left( {{\\pi  \\over 4} - x} \\right)\\cos 2x + \\sin x\\sin 2\\sec x = \\cos x\\sin 2x\\sec x + $$\n<br>$$\\cos \\left( {{\\pi  \\over 4} + x} \\right)\\cos 2x$$ then possible value of $$\\sec x$$ is </p>\n<p>$$S.$$ $$\\,\\,\\,\\,\\,$$ If $$\\cot \\left( {{{\\sin }^{ - 1}}\\sqrt {1 - {x^2}} } \\right) = \\sin \\left( {{{\\tan }^{ - 1}}\\left( {x\\sqrt 6 } \\right)} \\right),\\,\\,x \\ne 0,$$\n<br>Then possible value of $$x$$ is</p>\n<p><b>List $$II$$</b>\n<br>$$1.$$ $$\\,\\,\\,\\,\\,$$ $${1 \\over 2}\\sqrt {{5 \\over 3}} $$\n</p><p>$$2.$$ $$\\,\\,\\,\\,\\,$$ $$\\sqrt 2 $$</p>\n<p>$$3.$$ $$\\,\\,\\,\\,\\,$$ $${1 \\over 2}$$</p>\n<p>$$1.$$ $$\\,\\,\\,\\,$$ $$1$$</p>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P = 4,Q = 3,R = 1,S = 2$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$P = 4,Q = 3,R = 2,S = 1$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$P = 3,Q = 4,R = 2,S = 1$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$P = 3,Q = 4,R = 1,S = 2$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>For P</p>\n<p>$$\\text { Let } t=\\sqrt{\\frac{1}{y^2}\\left(\\frac{\\cos \\left(\\tan ^{-1} y\\right)+y \\cdot \\sin \\left(\\tan ^{-1} y\\right)}{\\cot \\left(\\sin ^{-1} y\\right)+\\tan \\left(\\sin ^{-1} y\\right)}\\right)^2+y^4}$$</p>\n<p>We know that</p>\n<p>$$\\begin{gathered}\n\\tan ^{-1} y=\\cos ^{-1}\\left(\\frac{1}{\\sqrt{1+y^2}}\\right)=\\sin ^{-1}\\left(\\frac{y}{\\sqrt{1+y^2}}\\right) \\\\\n\\text { and } \\sin ^{-1} y=\\cot ^{-1}\\left(\\frac{\\sqrt{1-y^2}}{y}\\right)=\\tan ^{-1}\\left(\\frac{y}{\\sqrt{1-y^2}}\\right)\n\\end{gathered}$$</p>\n<p>$$\\therefore \\quad t = \\sqrt {{1 \\over {{y^2}}}{{\\left[ {{{\\cos \\left( {{{\\cos }^{ - 1}}{1 \\over {\\sqrt {1 + {y^2}} }}} \\right) + y\\,.\\,\\sin \\left( {{{\\sin }^{ - 1}}{y \\over {\\sqrt {1 + {y^2}} }}} \\right)} \\over {\\cot \\left( {{{\\cot }^{ - 1}}{{\\sqrt {1 - {y^2}} } \\over y}} \\right) + \\tan \\left( {{{\\tan }^{ - 1}}{y \\over {\\sqrt {1 - {y^2}} }}} \\right)}}} \\right]}^2} + {y^4}} $$</p>\n<p>$$\\begin{aligned}\n& \\Rightarrow t=\\sqrt{\\frac{1}{y^2} \\times\\left[\\frac{\\frac{1}{\\sqrt{1+y^2}}+\\frac{y^2}{\\sqrt{1+y^2}}}{\\frac{\\sqrt{1-y^2}}{y}+\\frac{y}{\\sqrt{1-y^2}}}\\right]^2+y^4} \\\\\n& \\Rightarrow t=\\sqrt{\\frac{1}{y^2} \\times\\left[\\frac{\\sqrt{1+y^2}}{\\frac{1-y^2+y^2}{y \\sqrt{1-y^2}}}\\right]^2+y^4} \\\\\n& \\Rightarrow t=\\sqrt{\\frac{1}{y^2} \\times y^2\\left(1+y^2\\right)\\left(1-y^2\\right)+y^4} \\\\\n& \\Rightarrow t=\\sqrt{\\left(1-y^4\\right)+y^4}=1 \\\\\n\\end{aligned}$$</p>\n<p>Hence, P match with 4.</p>\n<p>For Q.</p>\n<p>Given $$\\cos x+\\cos y+\\cos z=0$$</p>\n<p>$$\\Rightarrow \\cos x+\\cos y=-\\cos z$$</p>\n<p>On squaring both side</p>\n<p>$$\\Rightarrow \\cos ^2 x+\\cos ^2 y+2 \\cos x \\cdot \\cos y=\\cos ^2 z\\quad \\text{... (i)}$$</p>\n<p>Also given $$\\sin x+\\sin y+\\sin z=0$$</p>\n<p>$$\\Rightarrow \\sin x+\\sin y=-\\sin z$$</p>\n<p>On squaring both side</p>\n<p>$$\\Rightarrow \\sin ^2 x+\\sin ^2 y+2 \\sin x \\cdot \\sin y=\\sin ^2 z \\quad \\text{... (ii)}$$</p>\n<p>Add equation (i) and (ii)</p>\n<p>$$\\begin{gathered}\n\\Rightarrow\\left(\\cos ^2 x+\\sin ^2 x\\right)+\\left(\\cos ^2 y+\\sin ^2 y\\right) \\\\\n+2[\\cos x \\cdot \\cos y+\\sin x \\cdot \\sin y] \\\\\n=\\cos ^2 z+\\sin ^2 z\n\\end{gathered}$$</p>\n<p>$$\\begin{array}{lr}\n\\Rightarrow & 1+1+2 \\cos (x-y)=1 \\\\\n\\Rightarrow & \\cos (x-y)=\\frac{-1}{2} \\\\\n\\Rightarrow & 2 \\cos ^2\\left(\\frac{x-y}{2}\\right)-1=\\frac{-1}{2}\n\\end{array}$$</p>\n<p>$$\\begin{array}{ll}\n\\Rightarrow & \\cos ^2\\left(\\frac{x-y}{2}\\right)=\\frac{1}{4} \\\\\n\\Rightarrow & \\cos \\left(\\frac{x-y}{2}\\right)= \\pm \\frac{1}{2}\n\\end{array}$$</p>\n<p>Hence, Q match with 3.</p>\n<p>For R</p>\n<p>Given,</p>\n<p>$$\\begin{aligned}\n& \\cos \\left(\\frac{\\pi}{4}-x\\right) \\cos 2 x+\\sin x \\cdot \\sin 2 x \\cdot \\sec x \\\\\n& =\\cos x \\cdot \\sin 2 x \\cdot \\sec x+\\cos \\left(\\frac{\\pi}{4}+x\\right) \\cos 2 x\n\\end{aligned}$$</p>\n<p>$$\\begin{aligned}\n\\Rightarrow & {\\left[\\cos \\left(\\frac{\\pi}{4}-x\\right)-\\cos \\left(\\frac{\\pi}{4}+x\\right)\\right] } \\\\\n& \\cos 2 x+(\\sin x-\\cos x) \\sin 2 x \\cdot \\sec x=0\n\\end{aligned}$$</p>\n<p>$$\\begin{aligned}\n\\Rightarrow & 2 \\cdot \\sin \\frac{\\pi}{4} \\cdot \\sin x \\cdot \\cos 2 x+(\\sin x-\\cos x) \\\\\n& \\frac{2 \\sin x \\cdot \\cos x}{\\cos x}=0\n\\end{aligned}$$</p>\n<p>$$\\begin{aligned}\n& \\Rightarrow \\quad \\sqrt{2} \\cos 2 x=2(\\cos x-\\sin x) \\\\\n& \\Rightarrow \\quad\\left(\\cos ^2 x-\\sin ^2 x\\right)=\\sqrt{2} (\\cos x-\\sin x) \\\\\n\\end{aligned}$$</p>\n<p>$$\\begin{array}{rlrl}\n\\Rightarrow & \\cos x+\\sin x =\\sqrt{2} \\\\\n\\Rightarrow & (\\cos x+\\sin x)^2 =(\\sqrt{2})^2 \\\\\n\\Rightarrow & \\cos ^2 x+\\sin ^2 x+2 \\sin x \\cdot \\cos x =2 \\\\\n\\Rightarrow & 1+\\sin 2 x =2 \\\\\n\\Rightarrow & \\sin 2 x =1 \\\\\n\\Rightarrow &  2 x =\\frac{\\pi}{2} \\\\\n\\Rightarrow &  x =\\frac{\\pi}{4} \\\\\n\\Rightarrow &  \\sec x =\\sec \\frac{\\pi}{4}=\\sqrt{2}\n\\end{array}$$</p>\n<p>Hence, R match with 2</p>\n<p>For S</p>\n<p>Given,</p>\n<p>$$\\begin{aligned}\n\\cot \\left(\\sin ^{-1} \\sqrt{1-x^2}\\right) & =\\sin \\left(\\tan ^{-1}(x \\sqrt{6})\\right), x \\neq 0 \\\\\n\\Rightarrow \\cot \\left(\\cot ^{-1} \\frac{x}{\\sqrt{1-x^2}}\\right) & =\\sin \\left(\\sin ^{-1} \\frac{x \\sqrt{6}}{\\sqrt{1+6 x^2}}\\right) \\\\\n\\Rightarrow \\quad \\frac{x}{\\sqrt{1-x^2}} & =\\frac{x \\sqrt{6}}{\\sqrt{1+6 x^2}}\n\\end{aligned}$$</p>\n<p>$$\n\\begin{array}{rlrl}\n\\Rightarrow & \\frac{1}{\\sqrt{1-x^2}} & =\\frac{\\sqrt{6}}{\\sqrt{1+6 x^2}} \\\\\n\\Rightarrow & \\text { on squaring both sides } \\\\\n\\Rightarrow & \\frac{1}{1-x^2} =\\frac{6}{1+6 x^2} \\\\\n\\Rightarrow & 1+6 x^2=6-6 x^2 \\\\\n\\Rightarrow & x^2 =\\frac{5}{12} \\\\\n\\Rightarrow & x= \\pm \\sqrt{\\frac{5}{12}}= \\pm \\frac{1}{2} \\sqrt{\\frac{5}{3}}\n\\end{array}$$</p>\n<p>Hence, S match with 1.</p>\n<p>Hints :</p>\n<p>(i) Recall the method of conversion of one inverse trigonometric function into other inverse trigonometric function as</p>\n<p>$$\\sin ^{-1} x=\\cos ^{-1} \\sqrt{1-x^2}=\\tan ^{-1} \\frac{x}{\\sqrt{1-x^2}}$$</p>\n<p>(ii) Recall $$\\cos \\left(\\cos ^{-1} x\\right)=x, \\sin \\left(\\sin ^{-1} x\\right)=x\\tan \\left(\\tan ^{-1} x\\right)=x \\text { etc }$$</p>\n<p>(iii) Recall the following trigonometric identities</p>\n<p>(A) $$\\sin ^2 x+\\cos ^2 x=1$$</p>\n<p>(B) $$\\sin 2 x=2 \\sin x \\cdot \\cos x$$</p>\n<p>(C) $$\\cos 2 x=\\cos ^2 x-\\sin ^2 x=2 \\cos ^2 x-1= 1-2 \\sin ^2 x$$</p>\n<p>(D) $$\\cos (A-B)-\\cos (A+B)=2 \\sin A \\cdot \\sin B$$</p>"
+        }
+      },
+      "permalink": "match-list-i-with-list-ii-and-select-the-correct-answer-usin-jee-advanced-2013-marks-4-tbyda5ihmewixakx.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Match List $$I$$ with List $$II$$ and select the correct answer using the code given below the lists: \nList $$I$$\n$$P.$$$$\\,\\,\\,\\,\\,$$  $${\\left( {{1 \\over {{y^2}}}{{\\left( {{{\\cos \\left( {{{\\tan }^{ - 1}}y} \\right) + y\\sin \\left( {{{\\tan }..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "5anvysxxt0m9hi6fnigi",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The value of $$\\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}} \\left( {1 + \\sum\\limits_{k = 1}^n {2k} } \\right)} \\right)$$   is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{23} \\over {25}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{25} \\over {23}}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${{23} \\over {24}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{24} \\over {23}}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}\\left( {1 + \\sum\\limits_{k = 1}^n {2k} } \\right)} } \\right)$$</p>\n<p>$$ = \\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}\\left( {1 + 2 \\times {{n(n + 1)} \\over 2}} \\right)} } \\right)$$</p>\n<p>$$ = \\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}(1 + n(n + 1))} } \\right)$$</p>\n<p>$$ = \\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}\\left( {{{n(n + 1) + 1} \\over {(n + 1) - n}}} \\right)} } \\right)$$</p>\n<p>$$ = \\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}n - {{\\cot }^{ - 1}}(n + 1)} } \\right)$$</p>\n<p>$$ = \\cot (({\\cot ^{ - 1}}1 + {\\cot ^{ - 1}}2 + {\\cot ^{ - 1}}3 + .... + {\\cot ^{ - 1}}23) - ({\\cot ^{ - 1}}2 + {\\cot ^{ - 1}}3 + .... + {\\cot ^{ - 1}}23 + {\\cot ^{ - 1}}24))$$</p>\n<p>$$ = \\cot ({\\cot ^{ - 1}}1 - {\\cot ^{ - 1}}24)$$</p>\n<p>$$ = \\cot \\left( {{{\\cot }^{ - 1}}{{24 \\times 1 + 1} \\over {24 - 1}}} \\right) = {{25} \\over {23}}$$</p>"
+        }
+      },
+      "permalink": "the-value-of-cot-left-sumlimitsn-123-cot-1-left-1-sumlimitsk-jee-advanced-2013-marks-2-ccgv2azubeepngwp.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "topic": "sum-upto-n-terms-and-infinite-terms-of-inverse-series",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The value of $$\\cot \\left( {\\sum\\limits_{n = 1}^{23} {{{\\cot }^{ - 1}}} \\left( {1 + \\sum\\limits_{k = 1}^n {2k} } \\right)} \\right)$$   is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dzr4pnxqqjhfo95hri33",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$0 &lt; x &lt; 1$$, then \n<br><br/>$$\\sqrt {1 + {x^2}} {\\left[ {{{\\left\\{ {x\\cos \\left( {{{\\cot }^{ - 1}}x} \\right) + \\sin \\left( {{{\\cot }^{ - 1}}x} \\right)} \\right\\}}^2} - 1} \\right]^{1/2}} = $$",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${x \\over {\\sqrt {1 + {x^2}} }}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$x$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$x\\sqrt {1 + {x^2}} $$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\sqrt {1 + {x^2}} $$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Given that,</p>\n<p>$$0 < x < 1$$,</p>\n<p>$$\\sqrt {1 + {x^2}} {[{\\{ x\\cos ({\\cot ^{ - 1}}x) + \\sin ({\\cot ^{ - 1}}x)\\} ^2} - 1]^{{1 \\over 2}}}$$</p>\n<p>Find : value of this expression</p>\n<p>Here, $$0 < x < 1$$,</p>\n<p>$${\\cot ^{ - 1}}x = {\\sin ^{ - 1}}\\left( {{1 \\over {\\sqrt {1 + {x^2}} }}} \\right) = {\\cos ^{ - 1}}\\left( {{x \\over {\\sqrt {1 + {x^2}} }}} \\right)$$</p>\n<p>Now, $$\\sqrt {1 + {x^2}} {[{\\{ x\\cos ({\\cot ^{ - 1}}x) + \\sin ({\\cot ^{ - 1}}x)\\} ^2} - 1]^{{1 \\over 2}}}$$</p>\n<p>$$\\sqrt {1 + {x^2}} {\\left[ {{{\\left\\{ {x\\cos \\left( {{{\\cos }^{ - 1}}\\left( {{x \\over {1 + {x^2}}}} \\right)} \\right) + \\sin \\left( {{{\\sin }^{ - 1}}{1 \\over {\\sqrt {1 + {x^2}} }}} \\right)} \\right\\}}^2}} \\right]^{{1 \\over 2}}}$$</p>\n<p>$$ = \\sqrt {1 + {x^2}} {\\left[ {{{\\left\\{ {x\\,.\\,{x \\over {\\sqrt {1 + {x^2}} }} + {1 \\over {\\sqrt {1 + {x^2}} }}} \\right\\}}^2} - 1} \\right]^{{1 \\over 2}}}$$</p>\n<p>$$ = \\sqrt {1 + {x^2}} {\\left[ {{{\\left\\{ {{{{x^2} + 1} \\over {\\sqrt {1 + {x^2}} }}} \\right\\}}^2} - 1} \\right]^{{1 \\over 2}}}$$</p>\n<p>$$ = \\sqrt {1 + {x^2}} {[{x^2} + 1 - 1]^{{1 \\over 2}}}$$</p>\n<p>$$ = x\\sqrt {1 + {x^2}} $$</p>\n<p>which is the value of the expression.</p>"
+        }
+      },
+      "permalink": "if-0-x-1-then-sqrt-1-x2-left-left-xcos-left-cot-1x-right-sin-jee-advanced-2008-marks-2-c9ezxenho2gq1f7v.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "If $$0 < x < 1$$, then \n$$\\sqrt {1 + {x^2}} {\\left[ {{{\\left\\{ {x\\cos \\left( {{{\\cot }^{ - 1}}x} \\right) + \\sin \\left( {{{\\cot }^{ - 1}}x} \\right)} \\right\\}}^2} - 1} \\right]^{1/2}} = $$"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "rpihclzuro8dj24z0h57",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 2007,
+      "paperTitle": "IIT-JEE 2007",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$(x, y)$$ be such that $${\\sin ^{ - 1}}\\left( {ax} \\right) + {\\cos ^{ - 1}}\\left( y \\right) + {\\cos ^{ - 1}}\\left( {bxy} \\right) = {\\pi  \\over 2}$$.\n<p><b>Column $$I$$</b>\n<br>(A) If $$a=1$$ and $$b=0,$$ then $$(x, y)$$\n<br>(B) If $$a=1$$ and $$b=1,$$ then $$(x, y)$$\n<br>(C) If $$a=1$$ and $$b=2,$$ then $$(x, y)$$\n<br>(D) If $$a=2$$ and $$b=2,$$ then $$(x, y)$$ </p>\n<p><b>Column $$II$$</b>\n<br>(p) lies on the circle $${x^2} + {y^2} = 1$$\n<br>(q) lies on $$\\left( {{x^2} - 1} \\right)\\left( {{y^2} - 1} \\right) = 0$$\n<br>(r) lies on $$y=x$$\n<br>(s) lies on $$\\left( {4{x^2} - 1} \\right)\\left( {{y^2} - 1} \\right) = 0$$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$\\left( A \\right) - \\left( p \\right),\\left( B \\right) - \\left( q \\right),\\left( C \\right) - \\left( p \\right),\\left( D \\right) - \\left( s \\right)$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "let-x-y-be-such-that-sin-1left-ax-right-cos-1left-y-right-co-jee-advanced-2007-marks-4-kg6swwrz4xumzgqw.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2007",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Let $$(x, y)$$ be such that $${\\sin ^{ - 1}}\\left( {ax} \\right) + {\\cos ^{ - 1}}\\left( y \\right) + {\\cos ^{ - 1}}\\left( {bxy} \\right) = {\\pi  \\over 2}$$.\nColumn $$I$$\n(A) If $$a=1$$ and $$b=0,$$ then $$(x, y)$$\n(B) If $$a=1$$ and $$b=1,$$ t..."
+        }
+      },
+      "yearKey": "iit-jee-2007"
+    },
+    {
+      "question_id": "vqr6ys0vclxjni4zm22q",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "plet-xy-be-such-that-sin--1ax--cos--jee-advanced-mathematics-complex-numbers-9lplqshvlxo9ju1a",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $$(x,y)$$ be such that $${\\sin ^{ - 1}}(ax) + {\\cos ^{ - 1}}(y) + {\\cos ^{ - 1}}(bxy) = {\\pi  \\over 2}$$.</p>\n<p>Match the statements in Column I with the statements in Column II.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 472px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 192px\">\n<col style=\"width: 53px\">\n<col style=\"width: 179px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">(A)</td>\n    <td class=\"tg-0pky\">If $$a=1$$ and $$b=0$$, then $$(x,y)$$</td>\n    <td class=\"tg-c3ow\">(P)</td>\n    <td class=\"tg-0pky\">lies on the circle $$x^2+y^2=1$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(B)</td>\n    <td class=\"tg-0pky\">If $$a=1$$ and $$b=1$$, then $$(x,y)$$</td>\n    <td class=\"tg-c3ow\">(Q)</td>\n    <td class=\"tg-0pky\">lies on $$(x^2-1)(y^2-1)=0$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(C)</td>\n    <td class=\"tg-0pky\">If $$a=1$$ and $$b=2$$, then $$(x,y)$$</td>\n    <td class=\"tg-c3ow\">(R)</td>\n    <td class=\"tg-0pky\">lies on $$y=x$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(D)</td>\n    <td class=\"tg-0pky\">If $$a=2$$ and $$b=2$$, then $$(x,y)$$</td>\n    <td class=\"tg-c3ow\">(S)</td>\n    <td class=\"tg-0pky\">lies on $$(4x^2-1)(y^2-1)=0$$</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{A-(p),B-(q),C-(s),D-(p)}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{A-(q),B-(p),C-(p),D-(s)}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{A-(p),B-(q),C-(p),D-(s)}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mathrm{A-(p),B-(r),C-(p),D-(s)}$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": "$$\\mathrm{A-(p),B-(q),C-(p),D-(s)}$$",
+          "explanation": "<p>(A) If $$a=1$$ and $$b=0$$ then</p>\n<p>$$\\begin{aligned}\n& \\sin ^{-1} x+\\cos ^{-1} y+\\frac{\\pi}{2}=\\frac{\\pi}{2} \\\\\n& \\sin ^{-1} x=-\\cos ^{-1} y \\\\\n& \\sin ^{-1} x=-\\sin ^{-1} \\sqrt{1-y^{2}} \\\\\n&-x=\\sqrt{1-y^{2}} \\\\\n& x^{2}+y^{2}=1 \\\\\n& \\text { (A) } \\rightarrow(p)\n\\end{aligned}$$</p>\n<p>(B) If $$a=1$$ and $$b=1$$ then</p>\n<p>$$\\begin{aligned}\n& \\sin ^{-1} x+\\cos ^{-1} y+\\cos ^{-1} x y=\\frac{\\pi}{2} \\\\\n& \\cos ^{-1} x-\\cos ^{-1} y=\\cos ^{-1} x y \\\\\n& x y+\\sqrt{1-y^{2}} \\sqrt{1-x^{2}}=x y \\\\\n& =\\left(x^{2}-1\\right)\\left(y^{2}-1\\right)=0 \\\\\n& (\\mathrm{~B}) \\rightarrow(q)\n\\end{aligned}$$</p>\n<p>(C) If $$a=1$$ and $$b=2$$ then</p>\n<p>$$\\begin{aligned}\n& \\sin ^{-1} x+\\cos ^{-1} y+\\cos ^{-1}(2 x y) \\\\\n& =-\\cos ^{-1} x-\\cos ^{-1} y=\\cos ^{-1}(2 x y) \\\\\n& \\quad x y+\\sqrt{1-x^{2}} \\sqrt{1-y^{2}}=2 x y\n\\end{aligned}$$</p>\n<p>$$\\begin{gathered}\n\\sqrt{1-x^{2}} \\sqrt{1-y^{2}}=x y \\\\\n1-x^{2}-y^{2}+x^{2} y^{2}=x^{2} y^{2} \\\\\nx^{2}+y^{2}=1 \\\\\n(\\mathrm{C}) \\rightarrow(p)\n\\end{gathered}$$</p>\n<p>(D) If $$a=2$$ and $$b=2$$, we get</p>\n<p>$$\\begin{gathered}\n\\sin ^{-1} 2 x+\\cos ^{-1}(2 x y)+\\cos ^{-1} y=\\frac{\\pi}{2} \\\\\n\\cos ^{-1}(2 x)-\\cos ^{-1} y=\\cos ^{-1}(2 x y) \\\\\n2 x y+\\sqrt{4 x^{2}-1} \\sqrt{1-y^{2}}=2 x y \\\\\n\\left(4 x^{2}-1\\right)\\left(y^{2}-1\\right)=0 \\\\\n\\text { (D) } \\rightarrow(\\mathrm{s})\n\\end{gathered}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Let $$(x,y)$$ be such that $${\\sin ^{ - 1}}(ax) + {\\cos ^{ - 1}}(y) + {\\cos ^{ - 1}}(bxy) = {\\pi  \\over 2}$$.\nMatch the statements in Column I with the statements in Column II.\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{borde..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "question_id": "qkgjmvhw11ukd1xfzar0",
+      "chapter": "inverse-trigonometric-functions",
+      "chapterGroup": "trigonometry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "plet-fx-be-an-indefinite-integral-of-sin2xp-p-jee-advanced-mathematics-complex-numbers-pl6zjahgvg5qdif3",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let F(x) be an indefinite integral of $$\\sin^2x$$.</p>\n<p><b>Statement 1 :</b> The function F(x) satisfies F($$x+\\pi$$) = F($$x$$) for all real x.</p>\n<p><b>Statement 2 :</b> $${\\sin ^2}(x + \\pi ) = {\\sin ^2}x$$ for all real x.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement 1 is True, Statement 2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement 1 is False, Statement 2 is True"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$f(x) = \\int {{{\\sin }^2}xdx = {1 \\over 2}\\int {(1 - \\cos 2x)dx} } $$</p>\n<p>$$ = {1 \\over 4}(2x - \\sin 2x) + c$$</p>\n<p>Now,</p>\n<p>$$f(x + \\pi ) = {1 \\over 4}(2x + 2\\pi  - \\sin (2x + 2\\pi )) + c$$</p>\n<p>$$ = {1 \\over 4}[2x + 2\\pi  - \\sin 2x] + c \\ne f(x)$$</p>\n<p>$$\\therefore$$ Statement 1 is false.</p>\n<p>Also $${\\sin ^2}(x + \\pi ) = {\\sin ^2}x,\\forall x \\in R$$</p>\n<p>$$\\therefore$$ Statement 2 is true.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": null,
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Let F(x) be an indefinite integral of $$\\sin^2x$$.\nStatement 1 : The function F(x) satisfies F($$x+\\pi$$) = F($$x$$) for all real x.\nStatement 2 : $${\\sin ^2}(x + \\pi ) = {\\sin ^2}x$$ for all real x."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "wogej5t5vgtfyadhzn4x",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The value of $$x$$ for which $$sin\\left( {{{\\cot }^{ - 1}}\\left( {1 + x} \\right)} \\right) = \\cos \\left( {{{\\tan }^{ - 1}}\\,x} \\right)$$  is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1/2$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$0$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$-1/2$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-value-of-x-for-which-sinleft-cot-1left-1-x-right-right-c-jee-advanced-2004-screening-marks-2-dyph9xgg6ywembgz.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004-screening",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004 Screening",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The value of $$x$$ for which $$sin\\left( {{{\\cot }^{ - 1}}\\left( {1 + x} \\right)} \\right) = \\cos \\left( {{{\\tan }^{ - 1}}\\,x} \\right)$$  is "
+        }
+      },
+      "yearKey": "iit-jee-2004-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7bjf0e83x5cz851oromu",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 2002,
+      "paperTitle": "IIT-JEE 2002",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Prove that $$\\cos \\,ta{n^{ - 1}}\\sin \\,{\\cot ^{ - 1}}x = \\sqrt {{{{x^2} + 1} \\over {{x^2} + 2}}} $$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it. ",
+          "explanation": null
+        }
+      },
+      "permalink": "prove-that-cos-tan-1sin-cot-1x-sqrt-x2-1-over-x2-2-jee-advanced-2002-marks-5-8eklgr9mycammwna.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2002",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2002",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Prove that $$\\cos \\,ta{n^{ - 1}}\\sin \\,{\\cot ^{ - 1}}x = \\sqrt {{{{x^2} + 1} \\over {{x^2} + 2}}} $$."
+        }
+      },
+      "yearKey": "iit-jee-2002"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "bio1og8rexej6kypwm1c",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 2001,
+      "paperTitle": "IIT-JEE 2001 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $${\\sin ^{ - 1}}\\left( {x - {{{x^2}} \\over 2} + {{{x^3}} \\over 4} - ....} \\right)$$ \n$$$ + {\\cos ^{ - 1}}\\left( {{x^2} - {{{x^4}} \\over 2} + {{{x^6}} \\over 4} - ....} \\right) = {\\pi  \\over 2}$$$\n<br> for $$0 &lt; \\left| x \\right| &lt; \\sqrt 2 ,$$ then $$x$$ equals ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1/2$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$-1/2$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$-1$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-sin-1left-x-x2-over-2-x3-over-4-right-cos-1left-x2-x4-ove-jee-advanced-2001-screening-marks-2-s2o3a7veqy9ddvr8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2001-screening",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2001 Screening",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "If $${\\sin ^{ - 1}}\\left( {x - {{{x^2}} \\over 2} + {{{x^3}} \\over 4} - ....} \\right)$$ \n$$$ + {\\cos ^{ - 1}}\\left( {{x^2} - {{{x^4}} \\over 2} + {{{x^6}} \\over 4} - ....} \\right) = {\\pi  \\over 2}$$$\n for $$0 < \\left| x \\right| < \\sqrt 2 ,$$ ..."
+        }
+      },
+      "yearKey": "iit-jee-2001-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ox5okeb9hs5gh4clt4y2",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The number of real solutions of \n<br>$${\\tan ^{ - 1}}\\,\\,\\sqrt {x\\left( {x + 1} \\right)}  + {\\sin ^{ - 1}}\\,\\,\\sqrt {{x^2} + x + 1}  = \\pi /2$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "zero "
+            },
+            {
+              "identifier": "B",
+              "content": "one "
+            },
+            {
+              "identifier": "C",
+              "content": "two "
+            },
+            {
+              "identifier": "D",
+              "content": "infinite "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-number-of-real-solutions-of-tan-1sqrt-xleft-x-1-right-si-jee-advanced-1999-marks-2-51ll2ctk8wfnko2y.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The number of real solutions of \n$${\\tan ^{ - 1}}\\,\\,\\sqrt {x\\left( {x + 1} \\right)}  + {\\sin ^{ - 1}}\\,\\,\\sqrt {{x^2} + x + 1}  = \\pi /2$$ is "
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3x747aid977xgpwh7jff",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If we consider only the principle values of the inverse trigonometric functions then the value of \n<br>$$\\tan \\left( {{{\\cos }^{ - 1}}{1 \\over {5\\sqrt 2 }} - {{\\sin }^{ - 1}}{4 \\over {\\sqrt {17} }}} \\right)$$ is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{\\sqrt {29} } \\over 3}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{29} \\over 3}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${{\\sqrt 3 } \\over {29}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${3 \\over {29}}$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-we-consider-only-the-principle-values-of-the-inverse-trig-jee-advanced-1994-marks-1-ejjbu7akuh61xcmh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "isOutOfSyllabus": false,
+      "topic": "principal-value-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "If we consider only the principle values of the inverse trigonometric functions then the value of \n$$\\tan \\left( {{{\\cos }^{ - 1}}{1 \\over {5\\sqrt 2 }} - {{\\sin }^{ - 1}}{4 \\over {\\sqrt {17} }}} \\right)$$ is"
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ikbqajryizi54iza42so",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The greater of the two angles $$A = 2{\\tan ^{ - 1}}\\left( {2\\sqrt 2  - 1} \\right)$$ and $$B = 3{\\sin ^{ - 1}}\\left( {1/3} \\right) + {\\sin ^{ - 1}}\\left( {3/5} \\right)$$ is ________ .",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$A$$",
+          "explanation": null
+        }
+      },
+      "permalink": "the-greater-of-the-two-angles-a-2tan-1left-2sqrt-2-1-right-a-jee-advanced-1989-marks-2-mwgi24yt45wu4vz0.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The greater of the two angles $$A = 2{\\tan ^{ - 1}}\\left( {2\\sqrt 2  - 1} \\right)$$ and $$B = 3{\\sin ^{ - 1}}\\left( {1/3} \\right) + {\\sin ^{ - 1}}\\left( {3/5} \\right)$$ is ________ ."
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ox7fiqo15suwi05o7szh",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The principal value of $${\\sin ^{ - 1}}\\left( {\\sin {{2\\pi } \\over 3}} \\right)$$  is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${ - {{2\\pi } \\over 3}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{{2\\pi } \\over 3}}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${{{4\\pi } \\over 3}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "none"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$, we need to understand the properties of the inverse sine function, also known as the arcsine function.</p>\n\n<p>The sine function, $$\\sin(x)$$, is periodic with period $$2\\pi$$, meaning that for any integer $$k$$, we have:\n\n<p>$$\\sin(x) = \\sin(x + 2k\\pi)$$.</p></p>\n\n<p>The inverse sine function, $$\\sin^{-1}(x)$$, has a restricted domain, typically taken as:\n\n<p>$$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$,</p>\n\n<p>where $$y = \\sin^{-1}(x)$$.</p></p>\n\n<p>Given the expression inside the inverse sine function:\n\n<p>$$\\sin\\left(\\frac{2\\pi}{3}\\right)$$,</p>\n\n<p>we know:</p>\n\n<p>$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin\\left(\\pi - \\frac{\\pi}{3}\\right) = \\sin\\left(\\frac{\\pi}{3}\\right) = \\frac{\\sqrt{3}}{2}$$.</p></p>\n\n<p>Now, we want to find the principal value of $$\\sin^{-1}\\left(\\sin\\left(\\frac{2\\pi}{3}\\right)\\right)$$.\n\n<p>Let:</p>\n\n<p>$$x = \\frac{2\\pi}{3}$$,</p>\n\n<p>so:</p>\n\n<p>$$\\sin\\left(\\frac{2\\pi}{3}\\right) = \\sin(x) = \\frac{\\sqrt{3}}{2}$$.</p></p>\n\n<p>To find the principal value, we need to find an angle $$y$$ within the range $$-\\frac{\\pi}{2} \\leq y \\leq \\frac{\\pi}{2}$$ such that $$\\sin(y) = \\frac{\\sqrt{3}}{2}$$.\n\n<p>The principal value that satisfies this condition is:</p>\n\n<p>$$y = \\sin^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right)$$.</p></p>\n\n<p>Given the range of the inverse sine function, the corresponding angle is:\n\n<p>$$y = \\frac{\\pi}{3}$$.</p></p>\n\n<p>Now, we need to match this value with one of the given options. Since there is no option for $$\\frac{\\pi}{3}$$ directly, but recalling the properties of the sine function and the range, and knowing that $$\\frac{2\\pi}{3}$$ is not within the range of the principal values, we need to reconsider equivalent values.</p>\n\n<p>None of the given options match exactly the principal value we calculated, which is $$\\frac{\\pi}{3}$$. Therefore, the correct answer is:</p>\n\n<p>Option D: none</p>"
+        }
+      },
+      "permalink": "-the-principal-value-of-sin-1left-sin-2pi-over-3-right-is-jee-advanced-1986-marks-2-e0qei9n9cadoeamf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "principal-value-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The principal value of $${\\sin ^{ - 1}}\\left( {\\sin {{2\\pi } \\over 3}} \\right)$$  is "
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "jjexvgec2w2y50m9tjui",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The numerical value of $$\\tan \\left\\{ {2{{\\tan }^{ - 1}}\\left( {{1 \\over 5}} \\right) - {\\pi  \\over 4}} \\right\\}$$  is equal to __________",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$ - {7 \\over {17}}$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "the-numerical-value-of-tan-left-2tan-1left-1-over-5-right-pi-jee-advanced-1984-marks-2-yala3xnwaxuyoucl.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The numerical value of $$\\tan \\left\\{ {2{{\\tan }^{ - 1}}\\left( {{1 \\over 5}} \\right) - {\\pi  \\over 4}} \\right\\}$$  is equal to __________"
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "i5dl0z4me2ac7510l7fz",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The value of $$\\tan \\left[ {{{\\cos }^{ - 1}}\\left( {{4 \\over 5}} \\right) + {{\\tan }^{ - 1}}\\left( {{2 \\over 3}} \\right)} \\right]$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{6 \\over 17}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{7 \\over 16}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{16 \\over 7}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "none"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-value-of-tan-left-cos-1left-4-over-5-right-tan-1left-2-o-jee-advanced-1983-marks-1-kaigjqulgyfrdfdh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "The value of $$\\tan \\left[ {{{\\cos }^{ - 1}}\\left( {{4 \\over 5}} \\right) + {{\\tan }^{ - 1}}\\left( {{2 \\over 3}} \\right)} \\right]$$ is "
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "13c80qf7ux5ogl8eksxj",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Find all the solution of $$4$$ $${\\cos ^2}x\\sin x - 2{\\sin ^2}x = 3\\sin x$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$x = n\\pi ,\\,n\\pi  + {\\left( { - 1} \\right)^n}{\\pi  \\over {10}},n\\pi  + {\\left( { - 1} \\right)^n}\\left( {{{ - 3\\pi } \\over {10}}} \\right)$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "find-all-the-solution-of-4-cos-2xsin-x-2sin-2x-3sin-x-jee-advanced-1983-marks-2-hbgqfrl1tap1ucl2.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Find all the solution of $$4$$ $${\\cos ^2}x\\sin x - 2{\\sin ^2}x = 3\\sin x$$"
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "wbkli690exwb8y6t9m04",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$a, b, c$$ be positive real numbers Let \n<br>$$\\theta  = {\\tan ^{ - 1}}\\sqrt {{{a\\left( {a + b + c} \\right)} \\over {bc}}}  + {\\tan ^{ - 1}}\\sqrt {{{b\\left( {a + b + c} \\right)} \\over {ca}}} $$ $$ + {\\,\\,\\tan ^{ - 1}}\\sqrt {{{c\\left( {a + b + c} \\right)} \\over {ab}}} $$\n<p>Then $$\\tan \\theta  = $$ ____________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$0$$",
+          "explanation": null
+        }
+      },
+      "permalink": "let-a-b-c-be-positive-real-numbers-let-theta-tan-1sqrt-aleft-jee-advanced-1981-marks-2-yxgef0zmpeowhkbv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Let $$a, b, c$$ be positive real numbers Let \n$$\\theta  = {\\tan ^{ - 1}}\\sqrt {{{a\\left( {a + b + c} \\right)} \\over {bc}}}  + {\\tan ^{ - 1}}\\sqrt {{{b\\left( {a + b + c} \\right)} \\over {ca}}} $$ $$ + {\\,\\,\\tan ^{ - 1}}\\sqrt {{{c\\left( {a + b..."
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1mdm29roa8lvm9wgaixh",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "trigonometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "inverse-trigonometric-functions",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Find the value of : $$\\cos \\left( {2{{\\cos }^{ - 1}}x + {{\\sin }^{ - 1}}x} \\right)$$ at $$x = {1 \\over 5}$$, where \n<br>$$0 \\le {\\cos ^{ - 1}}x \\le \\pi $$ and $$ - \\pi /2 \\le {\\sin ^{ - 1}}x \\le \\pi /2$$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{ - 2\\sqrt 6 } \\over 5}$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "find-the-value-of-cos-left-2cos-1x-sin-1x-right-at-x-1-over-jee-advanced-1981-marks-2-znju9dmrm2o9a2vz.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "properties-of-inverse-trigonometric-functions",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Inverse Trigonometric Functions • Mathematics",
+          "excerpt": "Find the value of : $$\\cos \\left( {2{{\\cos }^{ - 1}}x + {{\\sin }^{ - 1}}x} \\right)$$ at $$x = {1 \\over 5}$$, where \n$$0 \\le {\\cos ^{ - 1}}x \\le \\pi $$ and $$ - \\pi /2 \\le {\\sin ^{ - 1}}x \\le \\pi /2$$."
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    }
+  ]
+}

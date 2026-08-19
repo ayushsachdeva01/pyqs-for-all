@@ -1,0 +1,386 @@
+{
+  "questions": [
+    {
+      "question_id": "6jx61go395xr0nucqrvd",
+      "chapter": "practical-organic-chemistry",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pconsider-the-following-reaction-sequence-in-which-mathb-jee-advanced-chemistry-sdkrcwmnwfdwy5gf",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider the following reaction sequence in which $\\mathbf{J}, \\mathbf{K}, \\mathbf{L}$ and $\\mathbf{M}$ are the major products.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Practical Organic Chemistry Question 2 English\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9ypim8/6f69a014-a136-454a-b716-496cc7ad0a55/99eac800-5209-11f1-af7d-734b282814df/file-6y3zli1mp9ypim9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9ypim8/6f69a014-a136-454a-b716-496cc7ad0a55/99eac800-5209-11f1-af7d-734b282814df/file-6y3zli1mp9ypim9.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>Given:</p>\n<p>Atomic mass (in amu) : $\\mathrm{H}: 1, \\mathrm{C}: 12, \\mathrm{~N}: 14, \\mathrm{O}: 16, \\mathrm{~S}: 32, \\mathrm{Br}: 80, \\mathrm{Ba}: 137$</p>\n<p>The volume of 1 M aqueous $\\mathrm{H}_2 \\mathrm{SO}_4$ required to completely neutralize the ammonia evolved from 5.72 g of $\\mathbf{L}$ in Kjeldahl's method of nitrogen estimation is $\\_\\_\\_\\_$ mL .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "10",
+          "explanation": "<p><img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Practical Organic Chemistry Question 2 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpbfay7y/fb79f0d1-bfd8-4f44-9919-095529a3b337/48ad9de0-52d7-11f1-ba56-5d473a95b0e5/file-6y3zli1mpbfay7z.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpbfay7y/fb79f0d1-bfd8-4f44-9919-095529a3b337/48ad9de0-52d7-11f1-ba56-5d473a95b0e5/file-6y3zli1mpbfay7z.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p><b>Step 1:</b> Find moles of compound $ \\mathrm{L} $.</p>\n<p>The molar mass of compound $ \\mathrm{L} $ is 286 g/mol.  \n\nMoles of $ \\mathrm{L} $ are calculated as:</p>\n<p>$$\\text{Moles of } \\mathrm{L} = \\frac{5.72}{286} = 0.02 \\, \\text{mol}$$</p>\n<p><b>Step 2:</b> Relationship between $ \\mathrm{L} $ and $ \\mathrm{NH_3} $.</p>\n<p>In Kjeldahl’s method, 1 mole of $ \\mathrm{L} $ releases 1 mole of $ \\mathrm{NH_3} $.  \n\nHence, moles of $ \\mathrm{NH_3} = 0.02 \\, \\text{mol}. $</p>\n<p><b>Step 3:</b> Use the concept of gram-equivalents.</p>\n<p>During neutralization, gram-equivalents of base = gram-equivalents of acid.</p>\n<p>For $ \\mathrm{NH_3} $, n-factor = 1  \n\nFor $ \\mathrm{H_2SO_4} $, n-factor = 2</p>\n<p><b>Step 4:</b> Apply the equivalent relation.</p>\n<p>$$0.02 \\times 1 = (1 \\times 2) \\times V$$</p>\n<p>Solving for $ V $:  \n\n$$V = \\frac{0.02}{2} = 0.01 \\, \\text{L} = 10 \\, \\text{mL}$$</p>\n<p><b>Final Answer:</b> Volume of $ 1 \\, \\text{M} \\, \\mathrm{H_2SO_4} $ required = <b>10 mL</b>.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 120000,
+      "topic": "chemistry-involved-in-titrimetric-experiments",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": "Consider the following reaction sequence in which $\\mathbf{J}, \\mathbf{K}, \\mathbf{L}$ and $\\mathbf{M}$ are the major products.\n\nGiven:\nAtomic mass (in amu) : $\\mathrm{H}: 1, \\mathrm{C}: 12, \\mathrm{~N}: 14, \\mathrm{O}: 16, \\mathrm{~S}: 32,..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "82ao5lct0pr4l060weu3",
+      "chapter": "practical-organic-chemistry",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pconsider-the-following-reaction-sequence-in-which-mathb-jee-advanced-chemistry-aglybmkhu5f8dzae",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider the following reaction sequence in which $\\mathbf{J}, \\mathbf{K}, \\mathbf{L}$ and $\\mathbf{M}$ are the major products.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Practical Organic Chemistry Question 1 English\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9ypim8/6f69a014-a136-454a-b716-496cc7ad0a55/99eac800-5209-11f1-af7d-734b282814df/file-6y3zli1mp9ypim9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9ypim8/6f69a014-a136-454a-b716-496cc7ad0a55/99eac800-5209-11f1-af7d-734b282814df/file-6y3zli1mp9ypim9.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>Given :</p>\n<p>Atomic mass (in amu) : $\\mathrm{H}: 1, \\mathrm{C}: 12, \\mathrm{~N}: 14, \\mathrm{O}: 16, \\mathrm{~S}: 32, \\mathrm{Br}: 80, \\mathrm{Ba}: 137$</p>\n<p>In sulphur estimation by Carius method, the amount of $\\mathrm{BaSO}_4$ formed from 3.79 g of $\\mathbf{M}$ is $\\_\\_\\_\\_$ g.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.33",
+          "explanation": "<p><img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Practical Organic Chemistry Question 1 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpbfay7y/fb79f0d1-bfd8-4f44-9919-095529a3b337/48ad9de0-52d7-11f1-ba56-5d473a95b0e5/file-6y3zli1mpbfay7z.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpbfay7y/fb79f0d1-bfd8-4f44-9919-095529a3b337/48ad9de0-52d7-11f1-ba56-5d473a95b0e5/file-6y3zli1mpbfay7z.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p><b>Calculate moles of L</b></p>\n<p>The molar mass of compound L is $ 286 \\, \\text{g mol}^{-1} $.  \n\nSo, the moles of L are:</p>\n<p>$$ \\text{Moles of } \\mathrm{L} = \\frac{5.72}{286} = 0.02 \\, \\text{mol} $$</p>\n<p>Because each mole of L gives one mole of $ \\mathrm{NH_3} $,  \n\nthe moles of $ \\mathrm{NH_3} $ formed are also $ 0.02 \\, \\text{mol}. $</p>\n<p><b>Relation between $ \\mathrm{NH_3} $ and $ \\mathrm{H_2SO_4} $</b></p>\n<p>The number of gram-equivalents of acid and base will be equal at the point of neutralisation.</p>\n<p>$$ \\text{Eq. of } \\mathrm{NH_3} = \\text{Eq. of } \\mathrm{H_2SO_4} $$</p>\n<p>$$ 0.02 \\times 1 = (1 \\times 2) \\times V $$  \n\n$$ \\Rightarrow V = \\frac{0.02}{2} = 0.01 \\, \\text{L} = 10 \\, \\text{mL} $$</p>\n<p><b>Calculate moles of M</b></p>\n<p>Molar mass of compound M is $ 379 \\, \\text{g mol}^{-1} $.  \n\nSo, the moles of M are:</p>\n<p>$$ \\text{Moles of } \\mathrm{M} = \\frac{3.79}{379} = 0.01 \\, \\text{mol} $$</p>\n<p><b>Relate M to BaSO<sub>4</sub> formation</b></p>\n<p>In the Carius method, one mole of M gives one mole of $ \\mathrm{BaSO_4} $.  \n\nHence, moles of $ \\mathrm{BaSO_4} = 0.01 \\, \\text{mol}. $</p>\n<p><b>Calculate mass of BaSO<sub>4</sub></b></p>\n<p>The molar mass of $ \\mathrm{BaSO_4} = 233 \\, \\text{g mol}^{-1} $.</p>\n<p>$$ \\text{Mass of } \\mathrm{BaSO_4} = 0.01 \\times 233 = 2.33 \\, \\text{g} $$</p>\n<p><b>Final Answer:</b> The mass of $ \\mathrm{BaSO_4} $ formed is <b>2.33 g</b>.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 120000,
+      "topic": "detection-of-extra-elements-and-functional-groups",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": "Consider the following reaction sequence in which $\\mathbf{J}, \\mathbf{K}, \\mathbf{L}$ and $\\mathbf{M}$ are the major products.\n\nGiven :\nAtomic mass (in amu) : $\\mathrm{H}: 1, \\mathrm{C}: 12, \\mathrm{~N}: 14, \\mathrm{O}: 16, \\mathrm{~S}: 32..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "pb3jrk4uurhlcpj0yh89",
+      "chapter": "practical-organic-chemistry",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pmatch-the-compounds-in-blist-ib-with-the-appropriate-jee-advanced-chemistry-fvbewaxyw0sebjro",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Match the compounds in <b>List-I</b> with the appropriate observations in <b>List-II</b> and choose the correct option.</p> <table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <tbody><tr>\n    <th>List–I</th>\n    <th>List–II</th>\n  </tr>\n  <tr>\n    <td>(P) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1obmi9/a6a33f77-e5a8-48d6-b95f-d73722a6bf12/afcd6210-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1obmia.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1obmi9/a6a33f77-e5a8-48d6-b95f-d73722a6bf12/afcd6210-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1obmia.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English 1\"></td>\n    <td>(1) Reaction with phenyl diazonium salt gives\nyellow dye. \n    </td>\n  </tr>\n  <tr>\n    <td>(Q) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1obtat/232f5c63-9b18-4cb2-84d0-b407c9c74ebd/b50cc450-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1obtau.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1obtat/232f5c63-9b18-4cb2-84d0-b407c9c74ebd/b50cc450-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1obtau.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English 2\"></td>\n    <td>(2) Reaction with ninhydrin gives purple color\nand it also reacts with FeCl<sub>3</sub> to give violet\ncolor.\n    </td>\n  </tr>\n  <tr>\n    <td>(R) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1oczyo/bf77cae2-3d34-41b3-894f-c8ac68e2abdd/d6018100-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1oczyp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1oczyo/bf77cae2-3d34-41b3-894f-c8ac68e2abdd/d6018100-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1oczyp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English 3\"></td>\n    <td>(3) Reaction with glucose will give\ncorresponding hydrazone.\n    </td>\n  </tr>\n  <tr>\n    <td>(S) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1od73b/69593f6a-74ec-43b3-9e68-6c11622392d4/db834370-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1od73c.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1od73b/69593f6a-74ec-43b3-9e68-6c11622392d4/db834370-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1od73c.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English 4\"></td>\n    <td>(4) Lassiagne extract of the compound treated with dilute HCl followed by addition of aqueous $\\mathrm{FeCl}_3$ gives blood red color.\n    </td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>(5) After complete hydrolysis, it will give ninhydrin test and it DOES NOT give positive phthalein dye test.\n    </td>\n  </tr>\n</tbody></table>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>P → 1; Q → 5; R → 4; S → 2</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>P → 2; Q → 5; R → 1; S → 3</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>P → 5; Q → 2; R → 1; S → 4</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>P → 2; Q → 1; R → 5; S → 3</p>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbun28il/8756640e-5bd1-45b0-9aff-380416213b5d/7c6a6dc0-483d-11f0-835a-0b5df02d2019/file-jaoe38c1mbun28im.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbun28il/8756640e-5bd1-45b0-9aff-380416213b5d/7c6a6dc0-483d-11f0-835a-0b5df02d2019/file-jaoe38c1mbun28im.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English Explanation 1\"><div></div>Amide ( $-\\mathrm{CO}-\\mathrm{NH}-$ ) bond is present. It is known as peptide bond It is a dipeptide.<div></div>This gives ninhydrin test. The result is a purple color.<div></div>Ninhydrin test is used to detect the presence of amines in a sample.<div></div>The test works by reacting ninhydrin with the free amino group $\\left(-\\mathrm{NH}_2\\right)$. The result of the test is a purple color.<div></div>The above dipeptide react with ninhydrin, the alpha -amino group (present in the above structure) undergoes reaction to give purple color:<div></div>The compound also reacts with $\\mathrm{FeCl}_3$ to give violet color. It is due to the free - OH group. It is a characteristic reaction of phenols<div></div>\nSo, The compound $P$ reaction with ninhydrin gives purple color and it also reacts with $\\mathrm{FeCl}_3$ to give violet color.<div></div>$$\nP-2\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunb5b2/c88a0fb7-6794-42d6-a2ca-4e476a148787/74383be0-483e-11f0-835a-0b5df02d2019/file-jaoe38c1mbunb5b3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunb5b2/c88a0fb7-6794-42d6-a2ca-4e476a148787/74383be0-483e-11f0-835a-0b5df02d2019/file-jaoe38c1mbunb5b3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English Explanation 2\"><div></div>Ninhyduin test is possible with free $-\\mathrm{NH}_2$ group.<div></div>\nThe above dipeptide on hydrolysis gives two amino acid molecules. So, after hydrolysis, ninhydrin test is possible. Because amino acids have free, $\\mathrm{NH}_2$ group.<div></div>But the compound does not give phthalein dye test.<div></div>Phthalein dye test - It is used to identify the presence of phenolic functional groups. The compound has no free -OH group and hence it does not give phthalein dye test. For phthalein dye test, $-O H$ group must be attached directly to the momatic ring. <div></div>So, The compound Q after complete hydrolysis give ninhydrin test and it does not give positive phthalein dye test.<div></div>$$\nQ-5\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunifwb/65b50474-8d98-46b4-9791-4a007698701f/3f107cb0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunifwc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunifwb/65b50474-8d98-46b4-9791-4a007698701f/3f107cb0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunifwc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English Explanation 3\"><div></div>$$\n\\text { Aniline hydrochboide. (Aniline + HCI) }\n$$<div></div>Aniline hydrochloride reacts with phenyl diazonium salt (benzene diazonium salt) and forms a dye ( $p$-aminoarobenzene) with yellow color.<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunkqp4/7ec41105-c2e4-4921-b442-55dc547252b2/7f068a80-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunkqp5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunkqp4/7ec41105-c2e4-4921-b442-55dc547252b2/7f068a80-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunkqp5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English Explanation 4\"><div></div>So, compound $R$ reaction with phenyl diazonium salt gives yellow dye.<div></div>$$\nR-1\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunlv1z/36d12d57-359f-4775-b6d0-8b88ca44de09/9e3be3f0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunlv3j.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunlv1z/36d12d57-359f-4775-b6d0-8b88ca44de09/9e3be3f0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunlv3j.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English Explanation 5\"><div></div>It is a hydrazine. It reacts with glucose and give corresponding hydrazone.<div></div>$$\n\\text { It can be simply written as. }\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunn66a/f9cfe793-acd0-4836-9007-c27ad2d2cbcc/c2996e20-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunn66b.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunn66a/f9cfe793-acd0-4836-9007-c27ad2d2cbcc/c2996e20-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunn66b.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English Explanation 6\"><div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunnu73/0c0e36d7-ab68-4f6c-bf3a-83a28f5132e0/d527f2f0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunnu74.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunnu73/0c0e36d7-ab68-4f6c-bf3a-83a28f5132e0/d527f2f0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunnu74.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 English Explanation 7\">So, S reaction with glucose give corresponding hydrazone.<div></div>$S-3$<div></div>$$\n\\begin{aligned}\n&amp;\\text { Answer: Option (B) }\\\\\n&amp;P \\rightarrow 2, Q \\rightarrow 5, R \\rightarrow 1, S \\rightarrow 3\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>सूची-I में दिये यौगिकों का सूची-II में दिये गये उपयुक्त प्रेक्षणों (observations) से सुमेल करें और उचित विकल्प को चुनें।</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n</p><table class=\"tg\" style=\"undefined;table-layout: fixed; width: 631px\"><colgroup>\n<col style=\"width: 85px\">\n<col style=\"width: 226px\">\n<col style=\"width: 84px\">\n<col style=\"width: 236px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-c3ow\">सूची-I</th>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-c3ow\">सूची-II</th>\n  </tr></thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">P</td>\n    <td class=\"tg-0pky\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1obmi9/a6a33f77-e5a8-48d6-b95f-d73722a6bf12/afcd6210-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1obmia.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1obmi9/a6a33f77-e5a8-48d6-b95f-d73722a6bf12/afcd6210-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1obmia.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi 1\"></td>\n    <td class=\"tg-c3ow\">1</td>\n    <td class=\"tg-0pky\">फिनाइल डाईऐजोनियम (phenyl diazonium) लवण की अभिक्रिया पीला रंजक (dye) देती है।</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">Q</td>\n    <td class=\"tg-0pky\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1obtat/232f5c63-9b18-4cb2-84d0-b407c9c74ebd/b50cc450-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1obtau.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1obtat/232f5c63-9b18-4cb2-84d0-b407c9c74ebd/b50cc450-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1obtau.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi 2\"></td>\n    <td class=\"tg-c3ow\">2</td>\n    <td class=\"tg-0pky\">निनहाइड्रिन (ninhydrin) के साथ अभिक्रिया जामुनी (purple) रंग देती है और यह $\\mathrm{FeCl}_3$ से भी अभिक्रिया करके बेंगनी (violet) रंग देती है।</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">R</td>\n    <td class=\"tg-0pky\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1oczyo/bf77cae2-3d34-41b3-894f-c8ac68e2abdd/d6018100-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1oczyp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1oczyo/bf77cae2-3d34-41b3-894f-c8ac68e2abdd/d6018100-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1oczyp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi 3\"></td>\n    <td class=\"tg-c3ow\">3</td>\n    <td class=\"tg-0pky\">ग्लूकोस से अभिक्रिया संगत (corresponding) हाईड्रेज़ोन (hydrazone) देगी।</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">S</td>\n    <td class=\"tg-0pky\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb1od73b/69593f6a-74ec-43b3-9e68-6c11622392d4/db834370-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1od73c.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb1od73b/69593f6a-74ec-43b3-9e68-6c11622392d4/db834370-384f-11f0-aca4-dfd8c6b21521/file-jaoe38c1mb1od73c.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi 4\"></td>\n    <td class=\"tg-c3ow\">4</td>\n    <td class=\"tg-0pky\">यौगिक का लैंसे निचोड़ (Lassiagne extract) तनु HCl से विवेचित (treated) करने के बाद जलीय $\\mathrm{FeCl}_3$ मिलाने पर खूनी लाल रंग देता है।</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\"></td>\n    <td class=\"tg-baqh\"></td>\n    <td class=\"tg-baqh\">5</td>\n    <td class=\"tg-0lax\"> पूर्णतया जल अपघटन के बाद, यह निनहाइड्रिन (ninhydrin) परीक्षण देगा और यह सकारात्मक थैलीन रंजक (phthalein dye) परीक्षण नहीं देता है।</td>\n  </tr>\n</tbody></table><p></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 5 ; \\mathrm{R} \\rightarrow 4 ; \\mathrm{S} \\rightarrow 2$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 5 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 3$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{P} \\rightarrow 5 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 1 ; \\mathrm{S} \\rightarrow 4$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 1 ; \\mathrm{R} \\rightarrow 5 ; \\mathrm{S} \\rightarrow 3$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbun28il/8756640e-5bd1-45b0-9aff-380416213b5d/7c6a6dc0-483d-11f0-835a-0b5df02d2019/file-jaoe38c1mbun28im.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbun28il/8756640e-5bd1-45b0-9aff-380416213b5d/7c6a6dc0-483d-11f0-835a-0b5df02d2019/file-jaoe38c1mbun28im.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi Explanation 1\"><div></div>एमाइड ($-\\mathrm{CO}-\\mathrm{NH}-$) बंध उपस्थित है। इसे पेप्टाइड बंध के रूप में जाना जाता है। यह एक डाइपेप्टाइड है।<div></div>यह निनहाइड्रिन परीक्षण देता है। परिणाम बैंगनी रंग होता है।<div></div>निनहाइड्रिन परीक्षण का उपयोग नमूने में एमीन की उपस्थिति का पता लगाने के लिए किया जाता है।<div></div>यह परीक्षण मुक्त एमिनो समूह ($\\left(-\\mathrm{NH}_2\\right)$) के साथ निनहाइड्रिन की अभिक्रिया द्वारा कार्य करता है। परीक्षण का परिणाम बैंगनी रंग होता है।<div></div>उपरोक्त डाइपेप्टाइड निनहाइड्रिन के साथ अभिक्रिया करता है, अल्फा-एमिनो समूह (उपरोक्त संरचना में उपस्थित) बैंगनी रंग देने के लिए अभिक्रिया से गुजरता है:<div></div>यह यौगिक $\\mathrm{FeCl}_3$ के साथ भी अभिक्रिया करके बैंगनी रंग देता है। यह मुक्त -OH समूह के कारण है। यह फिनॉल की विशिष्ट अभिक्रिया है।<div></div>अतः, यौगिक $P$ निनहाइड्रिन के साथ अभिक्रिया करके बैंगनी रंग देता है और यह $\\mathrm{FeCl}_3$ के साथ भी अभिक्रिया करके बैंगनी रंग देता है।<div></div>$$\nP-2\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunb5b2/c88a0fb7-6794-42d6-a2ca-4e476a148787/74383be0-483e-11f0-835a-0b5df02d2019/file-jaoe38c1mbunb5b3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunb5b2/c88a0fb7-6794-42d6-a2ca-4e476a148787/74383be0-483e-11f0-835a-0b5df02d2019/file-jaoe38c1mbunb5b3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi Explanation 2\"><div></div>निनहाइड्रिन परीक्षण मुक्त $-\\mathrm{NH}_2$ समूह के साथ संभव है।<div></div>उपरोक्त डाइपेप्टाइड जल-अपघटन पर दो एमिनो अम्ल अणु देता है। इसलिए, जल-अपघटन के बाद, निनहाइड्रिन परीक्षण संभव है। क्योंकि एमिनो अम्ल में मुक्त $\\mathrm{NH}_2$ समूह होता है।<div></div>लेकिन यौगिक थैलीन डाई परीक्षण नहीं देता है।<div></div>थैलीन डाई परीक्षण - इसका उपयोग फेनोलिक क्रियात्मक समूहों की उपस्थिति की पहचान करने के लिए किया जाता है। यौगिक में मुक्त -OH समूह नहीं है और इसलिए यह थैलीन डाई परीक्षण नहीं देता है। थैलीन डाई परीक्षण के लिए, $-OH$ समूह सीधे एरोमैटिक वलय से जुड़ा होना चाहिए।<div></div>अतः, यौगिक Q पूर्ण जल-अपघटन के बाद निनहाइड्रिन परीक्षण देता है और यह धनात्मक थैलीन डाई परीक्षण नहीं देता है।<div></div>$$\nQ-5\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunifwb/65b50474-8d98-46b4-9791-4a007698701f/3f107cb0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunifwc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunifwb/65b50474-8d98-46b4-9791-4a007698701f/3f107cb0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunifwc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi Explanation 3\"><div></div>$$\n\\text { एनिलिन हाइड्रोक्लोराइड (एनिलिन + HCl) }\n$$<div></div>एनिलिन हाइड्रोक्लोराइड फेनिल डाइएज़ोनियम लवण (बेंजीन डाइएज़ोनियम लवण) के साथ अभिक्रिया करता है और पीले रंग के साथ एक रंजक ($p$-एमिनोएज़ोबेंजीन) बनाता है।<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunkqp4/7ec41105-c2e4-4921-b442-55dc547252b2/7f068a80-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunkqp5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunkqp4/7ec41105-c2e4-4921-b442-55dc547252b2/7f068a80-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunkqp5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi Explanation 4\"><div></div>अतः, यौगिक $R$ फेनिल डाइएज़ोनियम लवण के साथ अभिक्रिया करके पीला रंजक देता है।<div></div>$$\nR-1\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunlv1z/36d12d57-359f-4775-b6d0-8b88ca44de09/9e3be3f0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunlv3j.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunlv1z/36d12d57-359f-4775-b6d0-8b88ca44de09/9e3be3f0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunlv3j.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi Explanation 5\"><div></div>यह एक हाइड्रेज़ीन है। यह ग्लूकोज़ के साथ अभिक्रिया करके संगत हाइड्रेज़ोन देता है।<div></div>$$\n\\text { इसे सरलता से इस प्रकार लिखा जा सकता है। }\n$$<div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunn66a/f9cfe793-acd0-4836-9007-c27ad2d2cbcc/c2996e20-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunn66b.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunn66a/f9cfe793-acd0-4836-9007-c27ad2d2cbcc/c2996e20-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunn66b.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi Explanation 6\"><div></div><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbunnu73/0c0e36d7-ab68-4f6c-bf3a-83a28f5132e0/d527f2f0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunnu74.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbunnu73/0c0e36d7-ab68-4f6c-bf3a-83a28f5132e0/d527f2f0-483f-11f0-835a-0b5df02d2019/file-jaoe38c1mbunnu74.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Practical Organic Chemistry Question 3 Hindi Explanation 7\">अतः, S ग्लूकोज़ के साथ अभिक्रिया करके संगत हाइड्रेज़ोन देता है।<div></div>$S-3$<div></div>$$\n\\begin{aligned}\n&amp;\\text { उत्तर: विकल्प (B) }\\\\\n&amp;P \\rightarrow 2, Q \\rightarrow 5, R \\rightarrow 1, S \\rightarrow 3\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "detection-of-extra-elements-and-functional-groups",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": "Match the compounds in List-I with the appropriate observations in List-II and choose the correct option. \n  \n    List–I\n    List–II\n  \n  \n    (P) \n    (1) Reaction with phenyl diazonium salt gives\nyellow dye. \n    \n  \n  \n    (Q) \n    (2) R..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": "सूची-I में दिये यौगिकों का सूची-II में दिये गये उपयुक्त प्रेक्षणों (observations) से सुमेल करें और उचित विकल्प को चुनें।\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-f..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "h0ydilgyt3rzkkgbv9m2",
+      "chapter": "practical-organic-chemistry",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "the-reaction-of-4-methyloct-1-ene-mathbfp-252-mathrm-jee-advanced-chemistry-wwndhzs1po34fda5",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "The reaction of 4-methyloct-1-ene $(\\mathbf{P}, 2.52 \\mathrm{~g})$ with $\\mathrm{HBr}$ in the presence of $\\left(\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{CO}\\right)_2 \\mathrm{O}_2$ gives two isomeric bromides in a $9: 1$ ratio, with a combined yield of $50 \\%$. Of these, the entire amount of the primary alkyl bromide was reacted with an appropriate amount of diethylamine followed by treatment with aq. $\\mathrm{K}_2 \\mathrm{CO}_3$ to give a non-ionic product $\\mathbf{S}$ in $100 \\%$ yield.\n<br/><br/>The mass (in mg) of $\\mathbf{S}$ obtained is ________.\n<br/><br/>[Use molar mass (in $\\mathrm{g} \\mathrm{mol}^{-1}$ ) : $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{Br}=80$ ]",
+          "options": [],
+          "correct_options": [],
+          "answer": "1791",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lipqac1y/c300b3f0-71b3-4bbc-aadf-856e74cd62b6/e7c64260-0767-11ee-8a90-cf3ecefd3daf/file-1lipqac1z.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lipqac1y/c300b3f0-71b3-4bbc-aadf-856e74cd62b6/e7c64260-0767-11ee-8a90-cf3ecefd3daf/file-1lipqac1z.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Practical Organic Chemistry Question 4 English Explanation\">\n<br><br><ol>\n<li><p>First, calculate the moles of 4-methyloct-1-ene. The molar mass of 4-methyloct-1-ene is 126 g/mol. So, the moles of 4-methyloct-1-ene are :</p>\n<br><p>$$n_{4-\\text{methyloct-1-ene}} = \\frac{2.52 \\, g}{126 \\, g/mol} = 0.02 \\, mol$$</p>\n</li>\n<br><li><p>Given that the combined yield is 50%, the amount of isomeric bromides produced will be half of the initial amount, which is 0.01 mol.</p>\n</li>\n<br><li><p>The isomeric bromides are produced in a 9 : 1 ratio, so 90% of the product, or 0.009 mol, is the primary alkyl bromide. This is the compound that reacts further with diethylamine.</p>\n</li>\n<br><li><p>The reaction with diethylamine leads to the non-ionic product S with 100% yield, so we will still have 0.009 mol of product S.</p>\n</li>\n<br><li><p>Based on the chemical structures provided, the molar mass of S is 199 g/mol.</p>\n</li>\n<br><li><p>We can now calculate the mass of product S using the equation :</p>\n<br><p>$$ \\text{Mass of S} = \\text{moles of S} \\times \\text{molar mass of S} = 0.009 \\, mol \\times 199 \\, g/mol = 1.791 \\, g$$</p>\n</li>\n<br><li><p>To convert this into milligrams, we multiply by 1000, yielding a mass of S obtained equal to 1791 mg.</p>\n</li>\n</ol>\n"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "4-मिथाइलओक्ट-1-इन (4-methyloct-1-ene) $(\\mathbf{P}, 2.52 \\mathrm{~g}),\\left(\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{CO}\\right)_2 \\mathrm{O}_2$ की उपस्थिति में $\\mathrm{HBr}$ के साथ अभिक्रिया करने पर दो समावयवी (isomeric) ब्रोमाइड, $9: 1$ अनुपात में $50 \\%$ की कुल मात्रा (combined yield) में देता हैं। इनमें से प्राइमरी अल्काइल ब्रोमाइड की पूर्ण मात्रा को डाईइथाइल ऐमीन (diethylamine) की उचित मात्रा से अभिक्रिया कराने के पश्चात जलीय $\\mathrm{K}_2 \\mathrm{CO}_3$ से विवेचन कराने पर $100 \\%$ मात्रा में एक अनआयनिक (non-ionic) उत्पाद $\\mathbf{S}$ देता है।\n<br/><br/>\nप्राप्त $\\mathbf{S}$ का द्रव्यमान (in $\\mathrm{mg}$ ) है ______<br/><br/>\n[ उपयोग करें, मोलर द्रव्यमान (in $\\mathrm{g} \\mathrm{mol}^{-1}$ ): $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{Br}=80$ ]",
+          "options": [],
+          "correct_options": [],
+          "answer": "1791",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lipqac1y/c300b3f0-71b3-4bbc-aadf-856e74cd62b6/e7c64260-0767-11ee-8a90-cf3ecefd3daf/file-1lipqac1z.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lipqac1y/c300b3f0-71b3-4bbc-aadf-856e74cd62b6/e7c64260-0767-11ee-8a90-cf3ecefd3daf/file-1lipqac1z.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 2 Online Chemistry - Practical Organic Chemistry Question 4 Hindi Explanation\">\n<br><br><ol>\n<li><p>सबसे पहले, 4-मिथाइलऑक्ट-1-ईन के मोल की गणना करें। 4-मिथाइलऑक्ट-1-ईन का मोलर द्रव्यमान 126 g/mol है। अतः, 4-मिथाइलऑक्ट-1-ईन के मोल हैं:</p>\n<br><p>$$n_{4-\\text{methyloct-1-ene}} = \\frac{2.52 \\, g}{126 \\, g/mol} = 0.02 \\, mol$$</p>\n</li>\n<br><li><p>यह दिया गया है कि संयुक्त उत्पाद 50% है, इसलिए उत्पन्न समावयवी ब्रोमाइड की मात्रा प्रारंभिक मात्रा की आधी होगी, जो 0.01 mol है।</p>\n</li>\n<br><li><p>समावयवी ब्रोमाइड 9 : 1 के अनुपात में उत्पन्न होते हैं, इसलिए उत्पाद का 90%, या 0.009 mol, प्राथमिक एल्किल ब्रोमाइड है। यह वह यौगिक है जो डाइएथिलऐमीन के साथ आगे अभिक्रिया करता है।</p>\n</li>\n<br><li><p>डाइएथिलऐमीन के साथ अभिक्रिया से 100% उत्पाद के साथ अनायनिक उत्पाद S प्राप्त होता है, इसलिए हमारे पास अभी भी उत्पाद S के 0.009 mol होंगे।</p>\n</li>\n<br><li><p>प्रदान की गई रासायनिक संरचनाओं के आधार पर, S का मोलर द्रव्यमान 199 g/mol है।</p>\n</li>\n<br><li><p>अब हम समीकरण का उपयोग करके उत्पाद S के द्रव्यमान की गणना कर सकते हैं:</p>\n<br><p>$$ \\text{Mass of S} = \\text{moles of S} \\times \\text{molar mass of S} = 0.009 \\, mol \\times 199 \\, g/mol = 1.791 \\, g$$</p>\n</li>\n<br><li><p>इसे मिलीग्राम में बदलने के लिए, हम 1000 से गुणा करते हैं, जिससे प्राप्त S का द्रव्यमान 1791 mg के बराबर होता है।</p>\n</li>\n</ol>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "chemistry-involved-in-the-preparation-of-organic-and-inorganic-compounds",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": "The reaction of 4-methyloct-1-ene $(\\mathbf{P}, 2.52 \\mathrm{~g})$ with $\\mathrm{HBr}$ in the presence of $\\left(\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{CO}\\right)_2 \\mathrm{O}_2$ gives two isomeric bromides in a $9: 1$ ratio, with a combined yie..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": "4-मिथाइलओक्ट-1-इन (4-methyloct-1-ene) $(\\mathbf{P}, 2.52 \\mathrm{~g}),\\left(\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{CO}\\right)_2 \\mathrm{O}_2$ की उपस्थिति में $\\mathrm{HBr}$ के साथ अभिक्रिया करने पर दो समावयवी (isomeric) ब्रोमाइड, $9: 1$ अनुपात म..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "yjlm7lhpyehcazxmaxj9",
+      "chapter": "practical-organic-chemistry",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "pconsider-the-following-reactionp-pimg-srchttps-jee-advanced-chemistry-some-basic-concepts-of-chemistry-dqffkhamtikeoihk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider the following reaction.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7emd06u/6ee98ee5-10df-4120-929b-cf19cbcda562/8d357d60-2785-11ed-a329-f332b70f4e47/file-1l7emd06v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7emd06u/6ee98ee5-10df-4120-929b-cf19cbcda562/8d357d60-2785-11ed-a329-f332b70f4e47/file-1l7emd06v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Practical Organic Chemistry Question 6 English\"></p>\n<p>On estimation of bromine in $1.00 \\mathrm{~g}$ of $\\mathbf{R}$ using Carius method, the amount of $\\mathrm{AgBr}$ formed (in $\\mathrm{g}$ ) is ___________.\n</p>\n<p>[Given: Atomic mass of $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{O}=16, \\mathrm{P}=31, \\mathrm{Br}=80, \\mathrm{Ag}=108]$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.49TO1.51",
+          "explanation": "<p>$$2P+3Br_2\\to2PBr_3$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldcoyatt/6b02c04f-ccf8-4d28-8c71-6ba174254ef3/6aa6cc10-9d3f-11ed-9b41-c782a2d39bdd/file-1ldcoyatu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldcoyatt/6b02c04f-ccf8-4d28-8c71-6ba174254ef3/6aa6cc10-9d3f-11ed-9b41-c782a2d39bdd/file-1ldcoyatu.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Practical Organic Chemistry Question 6 English Explanation\"></p>\n<p>Number of moles in 1 gm of (R) = $$\\frac{1}{250}$$</p>\n<p>Number of moles of AgBr formed from (R) = $$\\frac{2}{250}$$</p>\n<p>Mass of AgBr formed $$=\\frac{2\\times188}{250}=1.50$$ gm</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>निम्नलिखित अभिक्रिया पर विचार करें।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7emd06u/6ee98ee5-10df-4120-929b-cf19cbcda562/8d357d60-2785-11ed-a329-f332b70f4e47/file-1l7emd06v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7emd06u/6ee98ee5-10df-4120-929b-cf19cbcda562/8d357d60-2785-11ed-a329-f332b70f4e47/file-1l7emd06v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Practical Organic Chemistry Question 6 Hindi\"></p>\n<p>कैरिअस विधि (Carius method) से $$1.00 \\mathrm{~g} \\mathbf{~R}$$ में ब्रोमीन के आकलन से उत्पन्न हुए $$\\mathrm{AgBr}$$ की मात्रा ( $$\\mathrm{g}$$ में) है ____________ |</p>\n<p>[दिया है : परमाणु द्रव्यमान (atomic mass) $$\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{O}=16, \\mathrm{P}=31, \\mathrm{Br}=80, \\mathrm{Ag}=108$$ ]</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.49TO1.51",
+          "explanation": "<p>$$2P+3Br_2\\to2PBr_3$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldcoyatt/6b02c04f-ccf8-4d28-8c71-6ba174254ef3/6aa6cc10-9d3f-11ed-9b41-c782a2d39bdd/file-1ldcoyatu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldcoyatt/6b02c04f-ccf8-4d28-8c71-6ba174254ef3/6aa6cc10-9d3f-11ed-9b41-c782a2d39bdd/file-1ldcoyatu.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Practical Organic Chemistry Question 6 Hindi Explanation\"></p>\n<p>(R) के 1 gm में मोलों की संख्या = $$\\frac{1}{250}$$</p>\n<p>(R) से बनने वाले AgBr के मोलों की संख्या = $$\\frac{2}{250}$$</p>\n<p>बनने वाले AgBr का द्रव्यमान $$=\\frac{2\\times188}{250}=1.50$$ gm</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "detection-of-extra-elements-and-functional-groups",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": "Consider the following reaction.\n\nOn estimation of bromine in $1.00 \\mathrm{~g}$ of $\\mathbf{R}$ using Carius method, the amount of $\\mathrm{AgBr}$ formed (in $\\mathrm{g}$ ) is ___________.\n\n[Given: Atomic mass of $\\mathrm{H}=1, \\mathrm{C}=..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": "निम्नलिखित अभिक्रिया पर विचार करें।\n\nकैरिअस विधि (Carius method) से $$1.00 \\mathrm{~g} \\mathbf{~R}$$ में ब्रोमीन के आकलन से उत्पन्न हुए $$\\mathrm{AgBr}$$ की मात्रा ( $$\\mathrm{g}$$ में) है ____________ |\n[दिया है : परमाणु द्रव्यमान (atomic ..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "6dqujz14kkq6mpbrth5i",
+      "chapter": "practical-organic-chemistry",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "p-the-weight-percentage-of-hydrogen-in-mathbfq-forme-jee-advanced-chemistry-some-basic-concepts-of-chemistry-s0hosgtapmv5bhbe",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p> The weight percentage of hydrogen in $\\mathbf{Q}$, formed in the following reaction sequence, is ________.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7emeucj/8eff274c-abd0-486e-80b1-616057d05c9e/c0508730-2785-11ed-a329-f332b70f4e47/file-1l7emeuck.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7emeucj/8eff274c-abd0-486e-80b1-616057d05c9e/c0508730-2785-11ed-a329-f332b70f4e47/file-1l7emeuck.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Practical Organic Chemistry Question 5 English\"></p>\n<p>[Given: Atomic mass of $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{O}=16, \\mathrm{~S}=32, \\mathrm{Cl}=35$ ]</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.30TO1.32",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldcozrj1/313e43e2-b9d5-4188-8303-77471d2812eb/935cb3e0-9d3f-11ed-9b41-c782a2d39bdd/file-1ldcozrj2.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldcozrj1/313e43e2-b9d5-4188-8303-77471d2812eb/935cb3e0-9d3f-11ed-9b41-c782a2d39bdd/file-1ldcozrj2.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 70vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Practical Organic Chemistry Question 5 English Explanation\"></p>\n<p>Formula of compound = C<sub>6</sub>H<sub>3</sub>N<sub>3</sub>O<sub>7</sub></p>\n<p>Molar Mass of compound = (12 $$\\times$$ 6 + 3 + 14 $$\\times$$ 3 + 16 $$\\times$$ 7) g = 229 g</p>\n<p>Weight % of H = $$\\frac{3}{229}\\times100=1.31$$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>निम्नलिखित अभिक्रिया से उत्पादित $$\\mathbf{Q}$$ में हाइड्रोजन का भार प्रतिशत (weight percentage) है ____________ |</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7emeucj/8eff274c-abd0-486e-80b1-616057d05c9e/c0508730-2785-11ed-a329-f332b70f4e47/file-1l7emeuck.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7emeucj/8eff274c-abd0-486e-80b1-616057d05c9e/c0508730-2785-11ed-a329-f332b70f4e47/file-1l7emeuck.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Practical Organic Chemistry Question 5 Hindi\"></p>\n<p>[दिया है : परमाणु द्रव्यमान (atomic mass) $$\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{O}=16, \\mathrm{~S}=32, \\mathrm{Cl}=35$$ ]</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.30TO1.32",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldcozrj1/313e43e2-b9d5-4188-8303-77471d2812eb/935cb3e0-9d3f-11ed-9b41-c782a2d39bdd/file-1ldcozrj2.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldcozrj1/313e43e2-b9d5-4188-8303-77471d2812eb/935cb3e0-9d3f-11ed-9b41-c782a2d39bdd/file-1ldcozrj2.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 70vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Practical Organic Chemistry Question 5 Hindi Explanation\"></p>\n<p>यौगिक का सूत्र = C<sub>6</sub>H<sub>3</sub>N<sub>3</sub>O<sub>7</sub></p>\n<p>यौगिक का मोलर द्रव्यमान = (12 $$\\times$$ 6 + 3 + 14 $$\\times$$ 3 + 16 $$\\times$$ 7) g = 229 g</p>\n<p>H का भार % = $$\\frac{3}{229}\\times100=1.31$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "chemistry-involved-in-the-preparation-of-organic-and-inorganic-compounds",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": " The weight percentage of hydrogen in $\\mathbf{Q}$, formed in the following reaction sequence, is ________.\n\n[Given: Atomic mass of $\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{O}=16, \\mathrm{~S}=32, \\mathrm{Cl}=35$ ]"
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Practical Organic Chemistry • Chemistry",
+          "excerpt": "निम्नलिखित अभिक्रिया से उत्पादित $$\\mathbf{Q}$$ में हाइड्रोजन का भार प्रतिशत (weight percentage) है ____________ |\n\n[दिया है : परमाणु द्रव्यमान (atomic mass) $$\\mathrm{H}=1, \\mathrm{C}=12, \\mathrm{~N}=14, \\mathrm{O}=16, \\mathrm{~S}=32, \\mat..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    }
+  ]
+}

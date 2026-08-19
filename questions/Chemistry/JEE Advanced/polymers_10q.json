@@ -1,0 +1,733 @@
+{
+  "questions": [
+    {
+      "question_id": "7nspr6k3jkkgzkeeshxa",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pin-the-following-reaction-sequence-major-products-math-jee-advanced-chemistry-hxyid4gnb7hjf8g2",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>In the following reaction sequence, major products $\\mathbf{X}$ and $\\mathbf{Y}$ are acyclic monomers.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Polymers Question 1 English\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9ykwdo/e141fe39-67c1-4ddf-ac57-07671ce6f9b8/1980a2c0-5209-11f1-af7d-734b282814df/file-6y3zli1mp9ykwdp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9ykwdo/e141fe39-67c1-4ddf-ac57-07671ce6f9b8/1980a2c0-5209-11f1-af7d-734b282814df/file-6y3zli1mp9ykwdp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>500 mol of $\\mathbf{X}$ completely reacts with 500 mol of $\\mathbf{Y}$ to give 1 mol of a single biodegradable acyclic copolymer $\\mathbf{Z}$ as the only product. The amount of $\\mathbf{Z}$ formed in grams is $\\_\\_\\_\\_$ .</p>\n<p>Given :</p>\n<p>Atomic mass (in amu): $\\mathrm{H}: 1, \\mathrm{C}: 12, \\mathrm{~N}: 14, \\mathrm{O}: 16, \\mathrm{Br}: 80$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "85018TO85138.02",
+          "explanation": "<p><img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Polymers Question 1 English Explanation 1\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpbes404/bba439c2-bfdc-49e9-a0a3-d400b6c70b5d/3cc57040-52d5-11f1-ba56-5d473a95b0e5/file-6y3zli1mpbes405.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpbes404/bba439c2-bfdc-49e9-a0a3-d400b6c70b5d/3cc57040-52d5-11f1-ba56-5d473a95b0e5/file-6y3zli1mpbes405.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Chemistry - Polymers Question 1 English Explanation 2\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpbes9d9/f360ad9c-11f5-4cd0-8214-622bba9b0408/40ea61d0-52d5-11f1-ba56-5d473a95b0e5/file-6y3zli1mpbes9da.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpbes9d9/f360ad9c-11f5-4cd0-8214-622bba9b0408/40ea61d0-52d5-11f1-ba56-5d473a95b0e5/file-6y3zli1mpbes9da.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p><b>Calculation of water molecules lost</b></p>\n<p>Each monomer of $X$ and $Y$ combines by losing $2$ moles of water per linkage. When $500$ moles of each react, total possible water molecules lost will be:</p>\n<p>$$ 500 \\times 2 - 1 = 999 $$</p>\n<p><b>Mass of water lost</b></p>\n<p>Mass of water lost = (number of moles of water) × (molar mass of water)</p>\n<p>$$ = 999 \\times 18 = 17982 \\text{ g} $$</p>\n<p><b> Mass of polymer formed</b></p>\n<p>Total mass of reactants = (mass of 500 mol of X) + (mass of 500 mol of Y)</p>\n<p>$$ = 75 \\times 500 + 131 \\times 500 = 37500 + 65500 = 103000 \\text{ g} $$</p>\n<p>Therefore, mass of polymer formed, $Z$, after losing water is:</p>\n<p>$$ 103000 - 17982 = 85018 \\text{ g} $$</p>\n<p><b>Hence, the mass of polymer $Z$ formed is 85,018 g.</b></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "classification-preparations-and-properties-of-polymers",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "In the following reaction sequence, major products $\\mathbf{X}$ and $\\mathbf{Y}$ are acyclic monomers.\n\n500 mol of $\\mathbf{X}$ completely reacts with 500 mol of $\\mathbf{Y}$ to give 1 mol of a single biodegradable acyclic copolymer $\\mathb..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "68vtehj7cm69uxc4emy6",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pthe-monomer-x-involved-in-the-synthesis-of-nylon-66-gi-jee-advanced-chemistry-a4fsywb8uufau09g",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The monomer (X) involved in the synthesis of Nylon 6,6 gives positive carbylamine test. If 10 moles of X are analyzed using Dumas method, the amount (in grams) of nitrogen gas evolved is ______.</p><p><b>Use:</b> Atomic mass of N (in amu) = 14</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "280",
+          "explanation": "Monomer $(X) \\rightarrow$ positive carbylamine test<div></div>\nThe monomer used in the synthesis of Nylon -6,6 are hexamethylene diamine and adipic acid.\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbryl0o3/55e7f0bd-1035-4d3e-a5c7-92e2d3b60307/31338640-46c4-11f0-a627-6570b0590e29/file-jaoe38c1mbryl0o4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbryl0o3/55e7f0bd-1035-4d3e-a5c7-92e2d3b60307/31338640-46c4-11f0-a627-6570b0590e29/file-jaoe38c1mbryl0o4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Polymers Question 2 English Explanation\"><div></div>\nPositive carbylamine test is given by primary amine compounds. Hexamethylene diamine is a primary amine compound and can give positive carbylamine test.<div></div>\n\nSo, the monomer $X$ is hoxamethylene diamine.<div></div>\n$$\n\\begin{aligned}\n&amp;\\begin{aligned}\nx \\rightarrow \\mathrm{H_2N}-\\left(\\mathrm{CH}_2\\right)_6-\\mathrm{NH}_2 \\quad &amp; \\text { Molarmars } &amp; \\\\\n= &amp; 6 \\times 12 \\mathrm{~g} / \\mathrm{mol}+2 \\times 14 \\mathrm{~g} / \\mathrm{mol} +16 \\times 1 \\mathrm{~g} / \\mathrm{mol} &amp; \\\\\n= &amp; 116 \\mathrm{~g} / \\mathrm{mol} &amp;\n\\end{aligned}\\\\\n&amp;\\text { Moles of } X \\text { analyzed using Dumas method }=10 \\mathrm{~mol}\n\\end{aligned}\n$$<div></div>According to Dumas method, the nitrogen present in the compound is released as nitrogen gas $\\left(\\mathrm{N}_2\\right)$,<div></div>\n\nThe general chemical equation fol Dumas method can be written as<div></div>$$\n\\mathrm{C}_x \\mathrm{H}_y \\mathrm{~N}_z+\\left(2 x+\\frac{y}{2}\\right) \\mathrm{CuO}(\\mathrm{~s}) \\xrightarrow{}\n$$<div></div>(organic\nCompound)<div></div>$$\nx \\mathrm{CO}_2(g)+\\frac{y}{2} H_2 \\mathrm{O}(gold )+\\frac{z}{2} \\mathrm{~N}_2(g)+\\left(2 x+\\frac{y}{2}\\right) \\mathrm{Cu}(s)\n$$<div></div>The compound used in Dumas method is hexamethylene diamine. Its formula is $\\mathrm{C}_6 \\mathrm{H}_{16} \\mathrm{~N}_2$<div></div>$$\n\\text { So, the equation can be written as, }\n$$<div></div>$$\n\\mathrm{C}_6 \\mathrm{H}_{16} \\mathrm{~N}_2+20 \\mathrm{CuO} \\rightarrow\n$$<div></div>$$\n6 \\mathrm{CO}_2+8 \\mathrm{H}_2 \\mathrm{O}+1 \\mathrm{~N}_2+20 \\mathrm{Cu}\n$$<div></div>$$\n\\text { So, } 1 \\text { mole of } \\mathrm{C}_6 \\mathrm{H}_{16} \\mathrm{~N}_2 \\text { gives. } 1 \\text { mole of } \\mathrm{N}_2 \\text {. }\n$$<div></div>Given 10, moles of  $\\mathrm{C}_{6}\\mathrm{H}_{16} \\mathrm{~N}_2$ (hexamethylene diamine) gives 10 moles of $\\mathrm{N}_2$ gas.<div></div>Moles of $\\mathrm{N}_2$ gas evolved $=10$ <div></div>mol Mass can be calculated as, \\begin{aligned}\n&amp;\\text { Moles }=\\frac{\\text { mass }}{\\text { molarmass }}\\\\\n&amp;\\text { Moloumass of } \\mathrm{N}_2=28 \\mathrm{~g} / \\mathrm{mol}\n\\end{aligned}<div></div>mass $=$ moles $\\times$ molar mass<div></div>$$\n\\begin{aligned}\n&amp;\\begin{aligned}\n&amp; =10 \\text { mol } x 28 \\mathrm{~g} / \\mathrm{mol} \\\\\n&amp; =280 \\mathrm{~g}\n\\end{aligned}\\\\\n&amp;\\text { Answer: } 280 \\%\n\\end{aligned}\n$$\n"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>नायलॉन 6,6 (Nylon 6,6) के संश्लेषण में शामिल एकलक (monomer) (X),सकारात्मक कार्बिलऐमीन (carbylamine) परीक्षण देता है। यदि डुमास (Dumas) विधि से 10 मोल $\\mathbf{X}$ को विश्लेषित किया जाये, तो उत्पन्न हुए नाइट्रोजन गैस की मात्रा (ग्राम में) _________ है।</p>\n<p>उपयोग करें: N का परमाणु द्रव्यमान (atomic mass, amu में) = 14",
+          "options": [],
+          "correct_options": [],
+          "answer": "280",
+          "explanation": "मोनोमर $(X) \\rightarrow$ धनात्मक कार्बिलएमीन परीक्षण<div></div>\nनायलॉन-6,6 के संश्लेषण में उपयोग किए जाने वाले मोनोमर हेक्सामेथिलीन डाईएमीन और एडिपिक अम्ल हैं।\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbryl0o3/55e7f0bd-1035-4d3e-a5c7-92e2d3b60307/31338640-46c4-11f0-a627-6570b0590e29/file-jaoe38c1mbryl0o4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbryl0o3/55e7f0bd-1035-4d3e-a5c7-92e2d3b60307/31338640-46c4-11f0-a627-6570b0590e29/file-jaoe38c1mbryl0o4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Chemistry - Polymers Question 2 Hindi Explanation\"><div></div>\nधनात्मक कार्बिलएमीन परीक्षण प्राथमिक एमीन यौगिकों द्वारा दिया जाता है। हेक्सामेथिलीन डाईएमीन एक प्राथमिक एमीन यौगिक है और धनात्मक कार्बिलएमीन परीक्षण दे सकता है।<div></div>\n\nअतः, मोनोमर $X$ हेक्सामेथिलीन डाईएमीन है।<div></div>\n$$\n\\begin{aligned}\n&amp;\\begin{aligned}\nx \\rightarrow \\mathrm{H_2N}-\\left(\\mathrm{CH}_2\\right)_6-\\mathrm{NH}_2 \\quad &amp; \\text { मोलर द्रव्यमान } &amp; \\\\\n= &amp; 6 \\times 12 \\mathrm{~g} / \\mathrm{mol}+2 \\times 14 \\mathrm{~g} / \\mathrm{mol} +16 \\times 1 \\mathrm{~g} / \\mathrm{mol} &amp; \\\\\n= &amp; 116 \\mathrm{~g} / \\mathrm{mol} &amp;\n\\end{aligned}\\\\\n&amp;\\text { डुमा विधि का उपयोग करके विश्लेषित } X \\text { के मोल }=10 \\mathrm{~mol}\n\\end{aligned}\n$$<div></div>डुमा विधि के अनुसार, यौगिक में उपस्थित नाइट्रोजन नाइट्रोजन गैस $\\left(\\mathrm{N}_2\\right)$ के रूप में मुक्त होती है,<div></div>\n\nडुमा विधि के लिए सामान्य रासायनिक समीकरण इस प्रकार लिखा जा सकता है<div></div>$$\n\\mathrm{C}_x \\mathrm{H}_y \\mathrm{~N}_z+\\left(2 x+\\frac{y}{2}\\right) \\mathrm{CuO}(\\mathrm{~s}) \\xrightarrow{}\n$$<div></div>(कार्बनिक\nयौगिक)<div></div>$$\nx \\mathrm{CO}_2(g)+\\frac{y}{2} H_2 \\mathrm{O}(\\text{द्रव})+\\frac{z}{2} \\mathrm{~N}_2(g)+\\left(2 x+\\frac{y}{2}\\right) \\mathrm{Cu}(s)\n$$<div></div>डुमा विधि में उपयोग किया जाने वाला यौगिक हेक्सामेथिलीन डाईएमीन है। इसका सूत्र $\\mathrm{C}_6 \\mathrm{H}_{16} \\mathrm{~N}_2$ है<div></div>$$\n\\text { अतः, समीकरण इस प्रकार लिखा जा सकता है, }\n$$<div></div>$$\n\\mathrm{C}_6 \\mathrm{H}_{16} \\mathrm{~N}_2+20 \\mathrm{CuO} \\rightarrow\n$$<div></div>$$\n6 \\mathrm{CO}_2+8 \\mathrm{H}_2 \\mathrm{O}+1 \\mathrm{~N}_2+20 \\mathrm{Cu}\n$$<div></div>$$\n\\text { अतः, } 1 \\text { मोल } \\mathrm{C}_6 \\mathrm{H}_{16} \\mathrm{~N}_2 \\text { से } 1 \\text { मोल } \\mathrm{N}_2 \\text { प्राप्त होता है। }\n$$<div></div>दिया गया है कि 10 मोल $\\mathrm{C}_{6}\\mathrm{H}_{16} \\mathrm{~N}_2$ (हेक्सामेथिलीन डाईएमीन) से 10 मोल $\\mathrm{N}_2$ गैस प्राप्त होती है।<div></div>$\\mathrm{N}_2$ गैस के मुक्त मोल $=10$ <div></div>mol द्रव्यमान की गणना इस प्रकार की जा सकती है, \\begin{aligned}\n&amp;\\text { मोल }=\\frac{\\text { द्रव्यमान }}{\\text { मोलर द्रव्यमान }}\\\\\n&amp;\\text { } \\mathrm{N}_2 \\text { का मोलर द्रव्यमान }=28 \\mathrm{~g} / \\mathrm{mol}\n\\end{aligned}<div></div>द्रव्यमान $=$ मोल $\\times$ मोलर द्रव्यमान<div></div>$$\n\\begin{aligned}\n&amp;\\begin{aligned}\n&amp; =10 \\text { mol } x 28 \\mathrm{~g} / \\mathrm{mol} \\\\\n&amp; =280 \\mathrm{~g}\n\\end{aligned}\\\\\n&amp;\\text { उत्तर: } 280 \\%\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "classification-preparations-and-properties-of-polymers",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "The monomer (X) involved in the synthesis of Nylon 6,6 gives positive carbylamine test. If 10 moles of X are analyzed using Dumas method, the amount (in grams) of nitrogen gas evolved is ______.Use: Atomic mass of N (in amu) = 14"
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "नायलॉन 6,6 (Nylon 6,6) के संश्लेषण में शामिल एकलक (monomer) (X),सकारात्मक कार्बिलऐमीन (carbylamine) परीक्षण देता है। यदि डुमास (Dumas) विधि से 10 मोल $\\mathbf{X}$ को विश्लेषित किया जाये, तो उत्पन्न हुए नाइट्रोजन गैस की मात्रा (ग्राम में) __..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "qxz66pxn74p3k356n1a7",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "among-the-following-the-correct-statements-about-polymers-jee-advanced-chemistry-hydrocarbons-jqqcas8wxwi887tv",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Among the following, the correct statement(s) about polymers is(are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The polymerization of chloroprene gives natural rubber."
+            },
+            {
+              "identifier": "B",
+              "content": "Teflon is prepared from tetrafluoroethene by heating it with persulphate catalyst at high pressures."
+            },
+            {
+              "identifier": "C",
+              "content": "PVC are thermoplastic polymers."
+            },
+            {
+              "identifier": "D",
+              "content": " Ethene at 350-570 K temperature and 1000-2000 atm pressure in the presence of a peroxide initiator yields high density polythene. "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>(A) Polymerization of chloroprene gives synthetic rubber.</p>\n<p>(B) Teflon is manufactured by heating tetrafluoroethene with a free radical or persulphate catalyst at hight pressure.</p>\n<p>(C) Polyvinyl chloride (PVC) is a thermoplastic polymer and used in making hand bags, vinyl flooring and water pipes.</p>\n<p>(D) Ethene at 350-570 K temperature and 1000-2000 atm pressure in the presence of a peroxide initiator yields low density polythene.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>निम्नलिखित में से, बहुलकों के बारे में सही कथन है/हैं</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "क्लोरोप्रीन के बहुलकीकरण पर प्राकृतिक रबर प्राप्त होती है।"
+            },
+            {
+              "identifier": "B",
+              "content": "टेफ्लॉन को उच्च दाब पर परसल्फेट उत्प्रेरक के साथ गर्म करके टेट्राफ्लुओरोएथीन से प्राप्त किया जाता है।"
+            },
+            {
+              "identifier": "C",
+              "content": "PVC तापसुघट्य बहुलक हैं।"
+            },
+            {
+              "identifier": "D",
+              "content": "एथीन से 350-570 K ताप तथा 1000-2000 $$\\mathrm{atm}$$ दाब पर परॉक्साइड प्रारम्भक की उपस्थिति में उच्च घनत्व वाली पॉलिथीन प्राप्त होती है।"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>(A) क्लोरोप्रीन के बहुलकीकरण से संश्लेषित रबर प्राप्त होता है।</p>\n<p>(B) टेफ्लॉन का निर्माण टेट्राफ्लुओरोएथीन को मुक्त मूलक या परसल्फेट उत्प्रेरक के साथ उच्च दाब पर गर्म करके किया जाता है।</p>\n<p>(C) पॉलीविनाइल क्लोराइड (PVC) एक तापसुघट्य बहुलक है और इसका उपयोग हैंडबैग, विनाइल फर्श और जल पाइप बनाने में किया जाता है।</p>\n<p>(D) एथीन को 350-570 K ताप और 1000-2000 atm दाब पर पेरॉक्साइड आरंभक की उपस्थिति में निम्न घनत्व पॉलीथीन प्राप्त होता है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "classification-preparations-and-properties-of-polymers",
+      "type": "mcqm",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "Among the following, the correct statement(s) about polymers is(are)"
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "निम्नलिखित में से, बहुलकों के बारे में सही कथन है/हैं"
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "9nl5vyjkt1m85rs1fja6",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 2 Offline",
+      "permalink": "choose-the-correct-options-from-the-following-jee-advanced-chemistry-some-basic-concepts-of-chemistry-bpu8ar6j4rdxxduv",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Choose the correct option(s) from the following.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Teflon is prepared by heating tetrafluoroethene in presence of a persulphate catalyst at high pressure."
+            },
+            {
+              "identifier": "B",
+              "content": "Natural rubber is polyisoprene containing trans alkene units"
+            },
+            {
+              "identifier": "C",
+              "content": "Cellulose has only $$\\alpha $$-D-glucose units that are joined by glycosidic linkages"
+            },
+            {
+              "identifier": "D",
+              "content": "Nylon-6 has amide linkages"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "(a) Teflon is prepared by heating tetrafluoroethene in presence of persulphate catalyst at higher pressure.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwtg4hme/f1aadf69-90f5-4431-abaa-46b31e76c812/8a30b650-55e6-11ec-a3c6-4d00c9fd0779/file-1kwtg4hmf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kwtg4hme/f1aadf69-90f5-4431-abaa-46b31e76c812/8a30b650-55e6-11ec-a3c6-4d00c9fd0779/file-1kwtg4hmf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - Polymers Question 10 English Explanation 1\"> <br>Thus, option (a) is correct.<br><br>(b) Natural rubber is a linear polymer of isoprene (2-methyl-1,3-butadiene) also known as\ncis-1,4-polyisoprene.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwtganlm/693da3c1-d3d6-44ca-93ef-7fee2acdff35/35a9f5a0-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtganln.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kwtganlm/693da3c1-d3d6-44ca-93ef-7fee2acdff35/35a9f5a0-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtganln.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - Polymers Question 10 English Explanation 2\"> <br>Thus, option (b) is incorrect.<br><br>(c) Cellulose has only $$\\beta $$-D-glucose units that are joined together by glycosidic linkages as shown in the following structure :<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwtgeadh/09a63035-3c82-4558-a9b6-4f9a54b626e3/9aaf0350-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtgeadi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kwtgeadh/09a63035-3c82-4558-a9b6-4f9a54b626e3/9aaf0350-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtgeadi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - Polymers Question 10 English Explanation 3\"> <br>Thus, option (c) is incorrect.<br><br>(d) Nylon-6 has amide linkages.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwtghd74/a1eed937-9bf5-45c3-af63-3e74a86739e2/f04ae810-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtghd75.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kwtghd74/a1eed937-9bf5-45c3-af63-3e74a86739e2/f04ae810-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtghd75.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - Polymers Question 10 English Explanation 4\"> <br>Thus, option (d) is correct."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>निम्न में से सही विकल्प (विकल्पों) को चुनिये</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "टेफलॉन (teflon) को, टेट्राफ्लुओरोएथीन (tetrafluoroethene) को गरम करके, परसल्फेट (persulphate) उत्प्रेरक की उपस्थिती में उच्च दाब पर बनाया जाता है"
+            },
+            {
+              "identifier": "B",
+              "content": " प्राकृतिक रबर पॉलिआइसोप्रीन (polyisoprene) है जिसमें विपक्ष (trans) एल्कीन एकांक होते हैं"
+            },
+            {
+              "identifier": "C",
+              "content": "सेलुलोस (cellulose) में केवल $$\\alpha$$-D-ग्लूकोस एकांक हैं जो ग्लाइकोसाइडी बंधनों (glycosidic linkages) द्वारा जुड़े हैं "
+            },
+            {
+              "identifier": "D",
+              "content": "नाइलॉन-6 (nylon-6) में ऐमाइड बंध है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "(a) टेफ्लॉन को उच्च दबाव पर पर्सल्फेट उत्प्रेरक की उपस्थिति में टेट्राफ्लुओरोएथीन को गर्म करके तैयार किया जाता है।<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwtg4hme/f1aadf69-90f5-4431-abaa-46b31e76c812/8a30b650-55e6-11ec-a3c6-4d00c9fd0779/file-1kwtg4hmf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kwtg4hme/f1aadf69-90f5-4431-abaa-46b31e76c812/8a30b650-55e6-11ec-a3c6-4d00c9fd0779/file-1kwtg4hmf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - Polymers Question 10 Hindi Explanation 1\"> <br>इस प्रकार, विकल्प (a) सही है।<br><br>(b) प्राकृतिक रबर आइसोप्रीन (2-मेथिल-1,3-ब्यूटाडाइईन) का एक रैखिक बहुलक है जिसे cis-1,4-पॉलीआइसोप्रीन के रूप में भी जाना जाता है।<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwtganlm/693da3c1-d3d6-44ca-93ef-7fee2acdff35/35a9f5a0-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtganln.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kwtganlm/693da3c1-d3d6-44ca-93ef-7fee2acdff35/35a9f5a0-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtganln.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - Polymers Question 10 Hindi Explanation 2\"> <br>इस प्रकार, विकल्प (b) गलत है।<br><br>(c) सेलुलोज में केवल $$\\beta $$-D-ग्लूकोज इकाइयाँ होती हैं जो निम्नलिखित संरचना में दिखाए अनुसार ग्लाइकोसिडिक बंधों द्वारा जुड़ी होती हैं:<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwtgeadh/09a63035-3c82-4558-a9b6-4f9a54b626e3/9aaf0350-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtgeadi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kwtgeadh/09a63035-3c82-4558-a9b6-4f9a54b626e3/9aaf0350-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtgeadi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - Polymers Question 10 Hindi Explanation 3\"> <br>इस प्रकार, विकल्प (c) गलत है।<br><br>(d) नाइलॉन-6 में एमाइड बंध होते हैं।<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwtghd74/a1eed937-9bf5-45c3-af63-3e74a86739e2/f04ae810-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtghd75.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kwtghd74/a1eed937-9bf5-45c3-af63-3e74a86739e2/f04ae810-55e7-11ec-a3c6-4d00c9fd0779/file-1kwtghd75.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Chemistry - Polymers Question 10 Hindi Explanation 4\"> <br>इस प्रकार, विकल्प (d) सही है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "classification-preparations-and-properties-of-polymers",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "Choose the correct option(s) from the following."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "निम्न में से सही विकल्प (विकल्पों) को चुनिये"
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-2-offline"
+    },
+    {
+      "question_id": "72zyxpqgw915vtgjnhx8",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "permalink": "pon-complete-hydrogenation-natural-rubber-producesp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ctaxqdclopvaona8",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>On complete hydrogenation, natural rubber produces</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "ethylene-propylene copolymer."
+            },
+            {
+              "identifier": "B",
+              "content": "vulcanized rubber."
+            },
+            {
+              "identifier": "C",
+              "content": "polypropylene."
+            },
+            {
+              "identifier": "D",
+              "content": "polybutylene."
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Hydrogenation of natural rubber leads to formation of ethylene-propylene copolymer.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0ihodid/3e18baa4-d805-4ad0-9e88-b1192924b3e1/dab2d950-9f10-11ec-897e-63b8cb8552c1/file-1l0ihodie.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0ihodid/3e18baa4-d805-4ad0-9e88-b1192924b3e1/dab2d950-9f10-11ec-897e-63b8cb8552c1/file-1l0ihodie.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2016 Paper 1 Offline Chemistry - Polymers Question 9 English Explanation\"></p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "<p>पूर्ण हाइड्रोजनेशन पर, प्राकृतिक रबर उत्पादित करता है:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "इथिलीन-प्रोपिलीन सह-पॉलीमर।"
+            },
+            {
+              "identifier": "B",
+              "content": "वल्कनाइज्ड रबर।"
+            },
+            {
+              "identifier": "C",
+              "content": "पॉलिप्रोपिलीन।"
+            },
+            {
+              "identifier": "D",
+              "content": "पॉलिब्युटिलीन।"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "classification-preparations-and-properties-of-polymers",
+      "type": "mcq",
+      "year": 2016,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "On complete hydrogenation, natural rubber produces"
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "पूर्ण हाइड्रोजनेशन पर, प्राकृतिक रबर उत्पादित करता है:"
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "question_id": "bctt2376zygzv4oun22l",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "permalink": "punder-hydrolytic-conditions-the-compounds-used-for-prepa-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ckynpx5af1ontqhl",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Under hydrolytic conditions, the compounds used for preparation of linear polymer and for chain termination, respectively, are</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "CH<sub>3</sub>SiCl<sub>3</sub> and Si(CH<sub>3</sub>)<sub>4</sub>."
+            },
+            {
+              "identifier": "B",
+              "content": "(CH<sub>3</sub>)<sub>2</sub>SiCl<sub>2</sub> and (CH<sub>3</sub>)<sub>3</sub>SiCl."
+            },
+            {
+              "identifier": "C",
+              "content": "(CH<sub>3</sub>)<sub>2</sub>SiCl<sub>2</sub> and CH<sub>3</sub>SiCl<sub>3</sub>."
+            },
+            {
+              "identifier": "D",
+              "content": "SiCl<sub>4</sub> and (CH<sub>3</sub>)<sub>3</sub>SiCl."
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The reaction involved in the preparation of liner polymer is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0w7s8oy/fe31c3b9-f5fd-4f72-adf7-ed3e42a29a7b/2403ae20-a69d-11ec-8b67-4d9118e5b0bb/file-1l0w7s8oz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0w7s8oy/fe31c3b9-f5fd-4f72-adf7-ed3e42a29a7b/2403ae20-a69d-11ec-8b67-4d9118e5b0bb/file-1l0w7s8oz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Chemistry - Polymers Question 8 English Explanation\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "classification-preparations-and-properties-of-polymers",
+      "type": "mcqm",
+      "year": 2015,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "Under hydrolytic conditions, the compounds used for preparation of linear polymer and for chain termination, respectively, are"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "question_id": "pnybssp84to0ys7pghkj",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "pthe-correct-functional-group-x-and-the-reagentreaction-c-jee-advanced-chemistry-some-basic-concepts-of-chemistry-g7dsgvyqs6aqkiog",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The correct functional group X and the reagent/reaction condition Y in the following scheme are</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m3dybip1/a9a421cc-873d-4e56-9610-c3d9e302079b/74e93950-a0ae-11ef-a367-0daced6ae55e/file-jaoe38c1m3dybip2.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m3dybip1/a9a421cc-873d-4e56-9610-c3d9e302079b/74e93950-a0ae-11ef-a367-0daced6ae55e/file-jaoe38c1m3dybip2.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Polymers Question 7 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "X = COOCH<sub>3</sub>, Y = H<sub>2</sub>/Ni/heat"
+            },
+            {
+              "identifier": "B",
+              "content": "X = CONH<sub>2</sub>, Y = H<sub>2</sub>/Ni/heat"
+            },
+            {
+              "identifier": "C",
+              "content": "X = CONH<sub>2</sub>, Y = Br<sub>2</sub>/NaOH"
+            },
+            {
+              "identifier": "D",
+              "content": "X = CN, Y = H<sub>2</sub>/Ni/heat"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>(i) (a) Hexa-1, 6-diamide undergoes Hoffmann bromamide degradation to form tetra-1, 4-diammine.</p>\n<p>If $$ \\mathrm{X}=-\\mathrm{CONH}_2 $$</p>\n<p>$$ \\mathrm{H}_2 \\mathrm{NOC}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{CONH}_2+2 \\mathrm{Br}_2+4 \\mathrm{NaOH}(a q) \\rightarrow $$</p>\n<p>$\\mathrm{H}_2 \\mathrm{~N}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{NH}_2+2 \\mathrm{Na}_2 \\mathrm{CO}_3+4 \\mathrm{NaBr}(a q)+4 \\mathrm{H}_2 \\mathrm{O}$</p>\n<p>(b) Hexa-1, 6-diammine reacts with hexa-1, 6-dioic acid to form an amide with release water.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m3dytlck/fa147239-ba13-4613-baf9-a5f9b7364613/6b868140-a0b0-11ef-a557-51fc753e3547/file-jaoe38c1m3dytlcl.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m3dytlck/fa147239-ba13-4613-baf9-a5f9b7364613/6b868140-a0b0-11ef-a557-51fc753e3547/file-jaoe38c1m3dytlcl.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Polymers Question 7 English Explanation 1\"></p>\n<p>Since, water is lost during the reaction between amine and carboxylic acid, the reaction is condensation reaction.</p>\n<p>Option (C) is correct.</p>\n<p>(ii) (a) Hexa-1, 6-dinitrile undergoes reduction to amine in pressure of same hydrogen and nickel as catalyst to form hexane-1, 6-diammine. If $X$ $=\\mathrm{CN}$</p>\n<p>$$ \\mathrm{NC}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{CN} \\xrightarrow[\\mathrm{Ni}(\\mathrm{~s})]{\\mathrm{H}_2(\\mathrm{~g})} \\quad \\mathrm{H}_2 \\mathrm{~N}-\\left(\\mathrm{CH}_2\\right)_6-\\mathrm{NH}_2\\text { (hexane-1, 6-diammine) } $$</p>\n<p>(b) Hexane-1, 6-diammine reacts with hexane-1, 4-dioic acid to form an amide with the loss of water molecule. This reaction is condensation reaction.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m3dz1r51/50f640d1-f5f5-449f-a468-95c178b1d746/4e78cd50-a0b1-11ef-a557-51fc753e3547/file-jaoe38c1m3dz1r52.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m3dz1r51/50f640d1-f5f5-449f-a468-95c178b1d746/4e78cd50-a0b1-11ef-a557-51fc753e3547/file-jaoe38c1m3dz1r52.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Polymers Question 7 English Explanation 2\"></p>\n<p>Since, water molecule is lost during the reaction between amine and carboxylic acid the reaction is condensation reaction.</p>\n<p>Option (D) is correct.</p>\n<p>(iii) The compound contains carbonyl functional group of ester and cannot be reduced by hydrogen in presence of nickel. Hence, no condensation reaction is possible between ester and an acid.</p>\n<p>If $\\mathrm{X}=\\mathrm{COOCH}_3$</p>\n<p>$$ \\mathrm{H}_3 \\mathrm{COOC}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{COOCH}_3+\\mathrm{H}_{2(\\mathrm{~g})} \\xrightarrow{\\mathrm{Ni}(\\mathrm{~s})} $$No reaction</p>\n<p>$$ \\mathrm{H}_3 \\mathrm{COOC}-\\left(\\mathrm{CH}_2\\right)_4-\\mathrm{COOCH}_3\\text { (hexan-1, 4-dioic acid) }+\\mathrm{HOOC}-\\left(\\mathrm{CH}_2\\right)_4 $$</p>\n<p>Option (A) is not correct.</p>\n<p>(iv) Hexan-1, 4-diamide is not affected by the reducing agent hydrogen in presence of catalyst nickel. Reaction between the hexan-1, 4-diamine with basic functional group $\\left(-\\mathrm{NH}_2\\right)$ and acidic proton of hexane-1, 4-dioic acid gives salt.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m3dzcry3/99c5b214-43b8-4aaf-8ca8-37ffaafbc839/80fef4b0-a0b2-11ef-a557-51fc753e3547/file-jaoe38c1m3dzcry4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m3dzcry3/99c5b214-43b8-4aaf-8ca8-37ffaafbc839/80fef4b0-a0b2-11ef-a557-51fc753e3547/file-jaoe38c1m3dzcry4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Polymers Question 7 English Explanation 3\"></p>\n<p>Option (B) is correct.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "classification-preparations-and-properties-of-polymers",
+      "type": "mcqm",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "The correct functional group X and the reagent/reaction condition Y in the following scheme are\n"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "de5no57pzir3557jqki4",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pamong-cellulose-polyvinyl-chloride-nylon-and-natural-jee-advanced-chemistry-some-basic-concepts-of-chemistry-piqrxtw1ltgi7eh6",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Among cellulose, poly(vinyl chloride), nylon and natural rubber, the polymer in which the intermolecular force of attraction is weakest is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Nylon"
+            },
+            {
+              "identifier": "B",
+              "content": "Poly(vinyl chloride)"
+            },
+            {
+              "identifier": "C",
+              "content": "Cellulose"
+            },
+            {
+              "identifier": "D",
+              "content": "Natural Rubber"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Natural rubber is an elastomer in which the chains are held together by weak van der Waals forces of attraction. Cellulose and nylon are fibres and PVC is a thermoplastic. Both these classes of polymers have stronger forces of attraction in the order</p>\n<p>Fibre > Thermoplastic > Elastomer.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "properties-of-polymers",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "Among cellulose, poly(vinyl chloride), nylon and natural rubber, the polymer in which the intermolecular force of attraction is weakest is"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "g147b99jvo9ybmjzp6u0",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pmatch-the-chemical-substances-in-column-i-with-type-of-po-jee-advanced-chemistry-some-basic-concepts-of-chemistry-3aki3lgxvhn5x73m",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Match the chemical substances in Column I with type of polymers/type of bonds in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 472px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 192px\">\n<col style=\"width: 53px\">\n<col style=\"width: 179px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">(A)</td>\n    <td class=\"tg-0pky\">cellulose</td>\n    <td class=\"tg-c3ow\">(P)</td>\n    <td class=\"tg-0pky\">natural polymer</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(B)</td>\n    <td class=\"tg-0pky\">nylon-6, 6</td>\n    <td class=\"tg-c3ow\">(Q)</td>\n    <td class=\"tg-0pky\">synthetic polymer</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(C)</td>\n    <td class=\"tg-0pky\">protein</td>\n    <td class=\"tg-c3ow\">(R)</td>\n    <td class=\"tg-0pky\">amide linkage</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(D)</td>\n    <td class=\"tg-0pky\">sucrose</td>\n    <td class=\"tg-c3ow\">(S)</td>\n    <td class=\"tg-0pky\">glycoside linkage</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "A - (p, s); B - (q); C - (p, r); D - (s)"
+            },
+            {
+              "identifier": "B",
+              "content": "A - (p, s); B - (q, r); C - (r); D - (s)"
+            },
+            {
+              "identifier": "C",
+              "content": "A - (p, s); B - (q, r); C - (p, r); D - (s)"
+            },
+            {
+              "identifier": "D",
+              "content": "A - (s); B - (q, r); C - (p, r); D - (s)"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": "A - (p, s); B - (q, r); C - (p, r); D - (s)",
+          "explanation": "<p>(A) Cellulose - a natural polymer of $$\\alpha$$-D-glucose, linked by glycoside linkage.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggooc8c/9c964806-7c64-46da-a3fb-14c8e955e47f/e804f2c0-a38d-11f0-9d8c-33e535796787/file-jaoe38c1mggooc8d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggooc8c/9c964806-7c64-46da-a3fb-14c8e955e47f/e804f2c0-a38d-11f0-9d8c-33e535796787/file-jaoe38c1mggooc8d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Chemistry - Polymers Question 4 English Explanation 1\"></p>\n<p>(B) Nylon-6, 6 is a synthetic polymer of adipic acid and 1, 6-diaminohexane. The diacid is linked with diamine through amide linkage.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggoow1j/7019d430-def6-4c1c-b965-3918988916d0/f752a470-a38d-11f0-9d8c-33e535796787/file-jaoe38c1mggoow1k.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggoow1j/7019d430-def6-4c1c-b965-3918988916d0/f752a470-a38d-11f0-9d8c-33e535796787/file-jaoe38c1mggoow1k.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Chemistry - Polymers Question 4 English Explanation 2\"></p>\n<p>(C) Protein- a natural polymer of $$\\alpha$$-amino acids where individual amino acid units are linked by amide linkage.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggopevh/1a9a7eb1-3a8f-41f8-b9d0-5b34851ed6a2/05deb3d0-a38e-11f0-9d8c-33e535796787/file-jaoe38c1mggopevi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggopevh/1a9a7eb1-3a8f-41f8-b9d0-5b34851ed6a2/05deb3d0-a38e-11f0-9d8c-33e535796787/file-jaoe38c1mggopevi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Chemistry - Polymers Question 4 English Explanation 3\"></p>\n<p>(D) Sucrose- has glycoside linkage, a disaccharide</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggopwji/6079a7bc-bbff-44e4-8094-c06b845d05be/138481e0-a38e-11f0-9d8c-33e535796787/file-jaoe38c1mggopwjj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggopwji/6079a7bc-bbff-44e4-8094-c06b845d05be/138481e0-a38e-11f0-9d8c-33e535796787/file-jaoe38c1mggopwjj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Chemistry - Polymers Question 4 English Explanation 4\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "classification-preparations-and-properties-of-polymers",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "Match the chemical substances in Column I with type of polymers/type of bonds in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg  {border-collapse:collapse;border-spac..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "26rh2m6l6xzekgoe5jcs",
+      "chapter": "polymers",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pmonomer-a-of-a-polymer-on-ozonolysis-yields-two-moles-of-jee-advanced-chemistry-some-basic-concepts-of-chemistry-oqvp2wfvoivjwdeb",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Monomer A of a polymer on ozonolysis yields two moles of HCHO and one mole of CH$$_3$$COCHO.</p>\n<p>(A) Deduce the structure of A.</p>\n<p>(B) Write the structure of \"all $$cis$$\" forms of polymer of compound A.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9kec77/1cc5949f-d9e0-406f-bbfe-4968a35d3026/e8384930-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kec78.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9kec77/1cc5949f-d9e0-406f-bbfe-4968a35d3026/e8384930-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kec78.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Polymers Question 3 English Answer\">",
+          "explanation": "<p>(A) The monomer A on ozonolysis yields two \nmolecules of HCHO and a molecule of \nCH$$_3$$COCHO. During ozonolysis, the double \nor triple bonds in the molecule are replaced by \ncarbonyl groups.</p>\n<p>Therefore, if we remove the oxygen atoms \nfrom 2 molecules of HCHO and a molecule of \nCH$$_3$$COCHO and replaced them with double \nbond, we can deduce the structure of monomer \nA.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9kap13/674810f0-e344-48f6-91e6-2419b3b0b340/82e4cd60-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kap14.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9kap13/674810f0-e344-48f6-91e6-2419b3b0b340/82e4cd60-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kap14.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Polymers Question 3 English Explanation 1\"></p>\n<p>The structure of monomer A we got is the \nstructure of isoprene. Therefore, monomer A \nis isoprene.</p>\n<p>(B) The isoprene is a monomer for natural rubber.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9kbx7u/97d10b9f-7023-4c4b-8410-a31a6ac1166c/a50734a0-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kbx7v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9kbx7u/97d10b9f-7023-4c4b-8410-a31a6ac1166c/a50734a0-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kbx7v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Polymers Question 3 English Explanation 2\"></p>\n<p>To write the “all $$cis$$” form of the polymer of \nmonomer A that is isoprene, we need to write \nthe structure of polymer such that the identical \ngroups present across double bonds should lie \nin the same plane.</p>\n<p>The “all $$cis$$” for of the polymer is shown below.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9kcs0f/3c5dc191-d5f1-487a-aa65-0b6e48ea7db4/bcd0d5f0-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kcs0g.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9kcs0f/3c5dc191-d5f1-487a-aa65-0b6e48ea7db4/bcd0d5f0-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kcs0g.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Polymers Question 3 English Explanation 3\"></p>\n<p>Final Answer</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh9kec77/1cc5949f-d9e0-406f-bbfe-4968a35d3026/e8384930-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kec78.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh9kec77/1cc5949f-d9e0-406f-bbfe-4968a35d3026/e8384930-b36f-11f0-b034-2711d08df967/file-jaoe38c1mh9kec78.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Chemistry - Polymers Question 3 English Explanation 4\"></p>\n<p>Hints:</p>\n<p>The ozonolysis eliminates the double or triple \nbond from the molecule and replace it with \ncarbonyl groups. The removal of oxygen \natoms and replacing it with double bonds will \ngive the structure of monomer A.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "classification-preparations-and-properties-of-polymers",
+      "type": "subjective",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Polymers • Chemistry",
+          "excerpt": "Monomer A of a polymer on ozonolysis yields two moles of HCHO and one mole of CH$$_3$$COCHO.\n(A) Deduce the structure of A.\n(B) Write the structure of \"all $$cis$$\" forms of polymer of compound A."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    }
+  ]
+}

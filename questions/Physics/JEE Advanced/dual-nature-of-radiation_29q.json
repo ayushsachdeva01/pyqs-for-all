@@ -1,0 +1,1958 @@
+{
+  "questions": [
+    {
+      "question_id": "svb3thzb72haxixubgkn",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "a-hydrogen-atom-initially-at-rest-in-its-ground-state-abso-jee-advanced-physics-hrui1jg2z1zxcfuj",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A hydrogen atom, initially at rest in its ground state, absorbs a photon of frequency $v_1$ and ejects the electron with a kinetic energy of 10 eV . The electron then combines with a positron at rest to form a positronium atom in its ground state and simultaneously emits a photon of frequency $v_2$. The center of mass of the resulting positronium atom moves with a kinetic energy of 5 eV . It is given that positron has the same mass as that of electron and the positronium atom can be considered as a Bohr atom, in which the electron and the positron orbit around their center of mass. Considering no other energy loss during the whole process, the difference between the two photon energies (in eV) is ____________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "11.7TO11.9",
+          "explanation": "<p>Ionization of H (ground state at –13.6 eV)  </p>\n<p>• Photon of energy $E_1=h\\nu_1$ ionizes H and leaves the electron with 10 eV.  </p>\n<p>• Energy conservation (neglecting proton recoil):  </p>\n<p>$         E_1 = 13.6\\;\\text{eV} \\;+\\;10\\;\\text{eV}         =23.6\\;\\text{eV}.       $</p></p>\n<p><p>Formation of positronium (Ps)  </p>\n<p>• Positron initially at rest, electron arrives with 10 eV.  </p>\n<p>• Ps ground‐state binding energy is 6.8 eV (half of hydrogen’s 13.6 eV).  </p>\n<p>• The newly formed Ps moves with 5 eV of center‐of‐mass (COM) kinetic energy and emits a photon of energy $E_2=h\\nu_2$.  </p>\n<p>• Writing energy conservation (zero energy set at free e⁺ + e⁻ at rest):  </p>\n<p>$         \\underbrace{10\\;\\text{eV}}_{\\text{initial KE}}         =\\;\\underbrace{(-6.8\\;\\text{eV})}_{\\text{binding}}         \\;+\\;\\underbrace{5\\;\\text{eV}}_{\\text{COM KE}}         \\;+\\;E_2       $</p>\n<p>so </p>\n<p>$         E_2 = 10 -5 +6.8 = 11.8\\;\\text{eV}.       $</p></p>\n<p><p>Difference between the two photon energies  </p>\n<p>$       E_1 - E_2 = 23.6\\;\\text{eV} \\;-\\;11.8\\;\\text{eV}       = 11.8\\;\\text{eV}.     $</p></p>\n\n<p>Answer: The difference $h\\nu_1 - h\\nu_2$ is <strong>11.8 eV</strong>.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक हाइड्रोजन परमाणु, जोकि आरम्भ में विरामावस्था में है, अपनी मूल अवस्था (ground state) में $v_1$ आवृत्ति के फोटोन को अवशोषित करता है और इससे 10 eV गतिज उर्जा का इलेक्ट्रॉन निकलता है| इस इलेक्ट्रॉन के विरामावस्था में स्थित एक पोजिट्रॉन (positron) के साथ मिलने से मूल अवस्था में स्थित एक पोजिट्रॉनियम परमाणु (positronium atom) बनता है जो उसी समय $v_2$ आवृत्ति का फोटोन उत्सर्जित करता है। परिणामस्वरुप बनने वाले पोजिट्रॉनियम परमाणु का द्रव्यमान केंद्र (center of mass) 5 eV की गतिज उर्जा के साथ गतिमान होता है। ये दिया गया है कि पोजिट्रॉन और इलेक्ट्रॉन का द्रव्यमान समान है और पोजिट्रॉनियम परमाणु को बोर परमाणु (Bohr atom) जैसा माना जा सकता है जहाँ पोजिट्रॉन और इलेक्ट्रॉन अपने द्रव्यमान केंद्र के परितः कक्षा में परिक्रमा करते हैं| माना कि इस पूरी प्रक्रिया में और कोई उर्जा क्षय (energy loss) नहीं होता है तो दोनों फोटोन की उर्जाओं में अंतर (eV में) है _________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "11.7TO11.9",
+          "explanation": "<p>H का आयनन (तल अवस्था -13.6 eV पर)</p>\n<p>• ऊर्जा $E_1=h\\nu_1$ का फोटॉन H को आयनित करता है और इलेक्ट्रॉन को 10 eV के साथ छोड़ता है।</p>\n<p>• ऊर्जा संरक्षण (प्रोटॉन प्रतिक्षेप की उपेक्षा करते हुए):</p>\n<p>$         E_1 = 13.6\\;\\text{eV} \\;+\\;10\\;\\text{eV}         =23.6\\;\\text{eV}.       $</p></p>\n<p><p>पॉज़िट्रोनियम (Ps) का निर्माण</p>\n<p>• पॉज़िट्रॉन प्रारंभ में विराम पर है, इलेक्ट्रॉन 10 eV के साथ आता है।</p>\n<p>• Ps तल-अवस्था बंधन ऊर्जा 6.8 eV है (हाइड्रोजन की 13.6 eV की आधी)।</p>\n<p>• नवनिर्मित Ps, 5 eV की द्रव्यमान-केंद्र (COM) गतिज ऊर्जा के साथ गति करता है और ऊर्जा $E_2=h\\nu_2$ का एक फोटॉन उत्सर्जित करता है।</p>\n<p>• ऊर्जा संरक्षण लिखते हुए (शून्य ऊर्जा विरामावस्था में मुक्त e⁺ + e⁻ पर निर्धारित):</p>\n<p>$         \\underbrace{10\\;\\text{eV}}_{\\text{प्रारंभिक KE}}         =\\;\\underbrace{(-6.8\\;\\text{eV})}_{\\text{बंधन}}         \\;+\\;\\underbrace{5\\;\\text{eV}}_{\\text{COM KE}}         \\;+\\;E_2       $</p>\n<p>अतः </p>\n<p>$         E_2 = 10 -5 +6.8 = 11.8\\;\\text{eV}.       $</p></p>\n<p><p>दोनों फोटॉन ऊर्जाओं के बीच अंतर</p>\n<p>$       E_1 - E_2 = 23.6\\;\\text{eV} \\;-\\;11.8\\;\\text{eV}       = 11.8\\;\\text{eV}.     $</p></p>\n\n<p>उत्तर: अंतर $h\\nu_1 - h\\nu_2$ है <strong>11.8 eV</strong>।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "particle-nature-of-light-the-photon",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "A hydrogen atom, initially at rest in its ground state, absorbs a photon of frequency $v_1$ and ejects the electron with a kinetic energy of 10 eV . The electron then combines with a positron at rest to form a positronium atom in its ground..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "एक हाइड्रोजन परमाणु, जोकि आरम्भ में विरामावस्था में है, अपनी मूल अवस्था (ground state) में $v_1$ आवृत्ति के फोटोन को अवशोषित करता है और इससे 10 eV गतिज उर्जा का इलेक्ट्रॉन निकलता है| इस इलेक्ट्रॉन के विरामावस्था में स्थित एक पोजिट्रॉन (posi..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "qxhfuif6wnv1hlgbh7qr",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "consider-an-electron-in-the-n3-orbit-of-a-hydrogen-like-a-jee-advanced-physics-ojtitzdbqxrk5pnv",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Consider an electron in the $n=3$ orbit of a hydrogen-like atom with atomic number $Z$. At absolute temperature $T$, a neutron having thermal energy $k_{\\mathrm{B}} T$ has the same de Broglie wavelength as that of this electron. If this temperature is given by $T=\\frac{Z^2 h^2}{\\alpha \\pi^2 a_0^2 m_{\\mathrm{N}} k_{\\mathrm{B}}}$, (where $h$ is the Planck's constant, $k_B$ is the Boltzmann constant, $m_{\\mathrm{N}}$ is the mass of the neutron and $a_0$ is the first Bohr radius of hydrogen atom) then the value of $\\alpha$ is ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "72",
+          "explanation": "<p>Here, we will first find the de Broglie wavelength of the electron in the $n=3$ orbit of a hydrogen-like atom with atomic number $Z$. Then we will find the de Broglie wavelength of the Neutron having thermal energy $k_B T$. Thereafter, we will equate both the wavelengths as they are the same (given)</p>\n<p>de Broglie wavelength of the electron:</p>\n<p>Radius in the $n$-th orbit,</p>\n<p>$$ \\begin{aligned} & r_n=\\frac{n^2 a_0}{Z} \\\\ & n=3 \\text { So } r=\\frac{3^2 a_0}{Z}=\\frac{9 a_0}{Z} \\end{aligned} $$</p>\n<p>Using Bohr quantization :</p>\n<p>$$ \\begin{aligned} & m_e v r=n \\hbar \\\\ \\Rightarrow & m_e v \\cdot \\frac{n^2 a_0}{Z}= \\frac{nh}{2 \\pi} \\\\ \\Rightarrow & p=m_e v=\\frac{\\hbar h}{2 \\pi} \\cdot \\frac{Z}{n^2 a_0}=\\frac{Z h}{2 \\pi n a_0} \\\\ & n=3 \\text { so } p=\\frac{Z h}{6 \\pi a_0} \\end{aligned} $$</p>\n<p>de Broglie wavelength, $\\lambda_e=\\frac{h}{p}=\\frac{h}{\\frac{2 h}{6 \\pi q_0}}$</p>\n<p>$$ \\begin{aligned} &\\Rightarrow \\lambda_e=\\frac{6 \\pi a_0}{Z}\\\\ &\\text { Neutron's de Broglie wavelength : }\\\\ &E=k_B T \\text { (given) } \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} &\\begin{aligned} p & =\\sqrt{2 m_N E}=\\sqrt{2 m_N k_B T} \\\\ \\lambda_n & =\\frac{h}{p}=\\frac{h}{\\sqrt{2 m_N k_B T}} \\end{aligned}\\\\ &\\text { Now, equating the wavelengths, }\\\\ &\\begin{aligned} & \\frac{6 \\pi a_0}{Z}=\\frac{h}{\\sqrt{2 m_N k_B T}} \\\\ \\Rightarrow & \\sqrt{2 m_N k_B T}=\\frac{Z h}{6 \\pi a_0} \\\\ \\Rightarrow & 2 m_N k_B T=\\frac{Z^2 h^2}{36 \\pi^2 a_0^2} \\\\ \\Rightarrow & T=\\frac{Z^2 h^2}{72 m_N k_B \\pi^2 a_0^2} \\\\ & T=\\frac{Z^2 h^2}{\\alpha \\pi^2 a_0^2 m_N k_B} \\text { (given) } \\end{aligned} \\end{aligned} $$</p>\n<p>$$ \\text { So, } \\alpha=72 $$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना कि $Z$ परमाणु क्रमांक (atomic number) वाले हाइड्रोजन जैसे परमाणु की $n=3$ कक्षा में एक इलेक्ट्रॉन है। परम तापमान $T$ पर स्थित और $k_{\\mathrm{B}} T$ उष्मीय उर्जा के एक न्यूट्रॉन की दे-ब्रोग्ली (de Broglie) तरंगदैर्घ्य (wavelength) इस इलेक्ट्रॉन की दे-ब्रोग्ली तरंगदैर्घ्य के समान है। यदि यह तापमान $T=\\frac{z^2 h^2}{\\alpha \\pi^2 a_0^2 m_{\\mathrm{N}} k_{\\mathrm{B}}}$ से व्यक्त किया गया है, (जहाँ $h$ प्लांक स्थिरांक (Planck's constant) है, $k_{\\mathrm{B}}$ बोल्जमान स्थिरांक (Boltzmann constant) है, $m_{\\mathrm{N}}$ न्यूट्रॉन का द्रव्यमान है और $a_0$ हाइड्रोजन परमाणु की प्रथम बोहर त्रिज्या (Bohr radius) है) तो $\\alpha$ का मान है ________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "72",
+          "explanation": "<p>यहाँ, हम पहले परमाणु क्रमांक $Z$ वाले हाइड्रोजन-सदृश परमाणु की $n=3$ कक्षा में इलेक्ट्रॉन की दे ब्रोगली तरंगदैर्ध्य ज्ञात करेंगे। फिर हम ऊष्मीय ऊर्जा $k_B T$ वाले न्यूट्रॉन की दे ब्रोगली तरंगदैर्ध्य ज्ञात करेंगे। उसके बाद, हम दोनों तरंगदैर्ध्य को बराबर रखेंगे क्योंकि वे समान हैं (दिया गया है)</p>\n<p>इलेक्ट्रॉन की दे ब्रोगली तरंगदैर्ध्य:</p>\n<p>$n$-वीं कक्षा में त्रिज्या,</p>\n<p>$$ \\begin{aligned} & r_n=\\frac{n^2 a_0}{Z} \\\\ & n=3 \\text { अतः } r=\\frac{3^2 a_0}{Z}=\\frac{9 a_0}{Z} \\end{aligned} $$</p>\n<p>बोर क्वांटमीकरण का उपयोग करते हुए:</p>\n<p>$$ \\begin{aligned} & m_e v r=n \\hbar \\\\ \\Rightarrow & m_e v \\cdot \\frac{n^2 a_0}{Z}= \\frac{nh}{2 \\pi} \\\\ \\Rightarrow & p=m_e v=\\frac{\\hbar h}{2 \\pi} \\cdot \\frac{Z}{n^2 a_0}=\\frac{Z h}{2 \\pi n a_0} \\\\ & n=3 \\text { अतः } p=\\frac{Z h}{6 \\pi a_0} \\end{aligned} $$</p>\n<p>दे ब्रोगली तरंगदैर्ध्य, $\\lambda_e=\\frac{h}{p}=\\frac{h}{\\frac{Z h}{6 \\pi a_0}}$</p>\n<p>$$ \\begin{aligned} &\\Rightarrow \\lambda_e=\\frac{6 \\pi a_0}{Z}\\\\ &\\text { न्यूट्रॉन की दे ब्रोगली तरंगदैर्ध्य : }\\\\ &E=k_B T \\text { (दिया गया है) } \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} &\\begin{aligned} p & =\\sqrt{2 m_N E}=\\sqrt{2 m_N k_B T} \\\\ \\lambda_n & =\\frac{h}{p}=\\frac{h}{\\sqrt{2 m_N k_B T}} \\end{aligned}\\\\ &\\text { अब, तरंगदैर्ध्य को बराबर रखते हुए, }\\\\ &\\begin{aligned} & \\frac{6 \\pi a_0}{Z}=\\frac{h}{\\sqrt{2 m_N k_B T}} \\\\ \\Rightarrow & \\sqrt{2 m_N k_B T}=\\frac{Z h}{6 \\pi a_0} \\\\ \\Rightarrow & 2 m_N k_B T=\\frac{Z^2 h^2}{36 \\pi^2 a_0^2} \\\\ \\Rightarrow & T=\\frac{Z^2 h^2}{72 m_N k_B \\pi^2 a_0^2} \\\\ & T=\\frac{Z^2 h^2}{\\alpha \\pi^2 a_0^2 m_N k_B} \\text { (दिया गया है) } \\end{aligned} \\end{aligned} $$</p>\n<p>$$ \\text { अतः, } \\alpha=72 $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "matter-waves-davisson-and-germer-experiment",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "Consider an electron in the $n=3$ orbit of a hydrogen-like atom with atomic number $Z$. At absolute temperature $T$, a neutron having thermal energy $k_{\\mathrm{B}} T$ has the same de Broglie wavelength as that of this electron. If this tem..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "माना कि $Z$ परमाणु क्रमांक (atomic number) वाले हाइड्रोजन जैसे परमाणु की $n=3$ कक्षा में एक इलेक्ट्रॉन है। परम तापमान $T$ पर स्थित और $k_{\\mathrm{B}} T$ उष्मीय उर्जा के एक न्यूट्रॉन की दे-ब्रोग्ली (de Broglie) तरंगदैर्घ्य (wavelength) इस इल..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "2nbb6s907m2aadbvkpal",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "a-metal-target-with-atomic-number-z46-is-bombarded-with-a-jee-advanced-physics-conu4ymibh6nencx",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A metal target with atomic number $Z=46$ is bombarded with a high energy electron beam. The emission of X-rays from the target is analyzed. The ratio $r$ of the wavelengths of the $K_\\alpha$-line and the cut-off is found to be $r=2$. If the same electron beam bombards another metal target with $Z=41$, the value of $r$ will be",
+          "options": [
+            {
+              "identifier": "A",
+              "content": " 2.53"
+            },
+            {
+              "identifier": "B",
+              "content": "1.27"
+            },
+            {
+              "identifier": "C",
+              "content": "2.24"
+            },
+            {
+              "identifier": "D",
+              "content": "1.58"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>To solve this problem, we need to understand the relationship between the atomic number $ Z $, the characteristic X-ray wavelengths, and the cut-off wavelength in X-ray spectra.</p>\n\n<p>The cut-off wavelength, also known as the minimum wavelength ($ \\lambda_{\\text{min}} $), corresponds to the maximum energy of the X-rays produced and can be related to the accelerating voltage used in the X-ray tube. The characteristic X-rays, such as the $ K_\\alpha $-line, correspond to specific electron transitions in the atom and are dependent on the atomic number $ Z $ of the target material.</p>\n\n<p>The wavelength of the $ K_\\alpha $-line is given by Moseley's Law, which can be approximated as:</p>\n\n<p>$$ \\lambda_{K_\\alpha} \\propto \\frac{1}{(Z - 1)^2} $$</p>\n\n<p>The cut-off wavelength is given by the relationship between the energy of the incident electrons and the X-ray produced:</p>\n\n<p>$$ \\lambda_{\\text{min}} = \\frac{hc}{eV} $$</p>\n\n<p>Now, given the ratio $ r $ for the first metal target with $ Z = 46 $ :</p>\n\n<p>$$ r = \\frac{\\lambda_{K_\\alpha}}{\\lambda_{\\text{min}}} = 2 $$</p>\n\n<p>For the second metal target with $ Z = 41 $, let's denote the new ratio as $ r_2 $. We assume the same cutoff wavelength since the same electron beam is used.</p>\n\n<p>The ratio for $ Z = 41 $ can be calculated using the relationship between the $ K_\\alpha $-line wavelenghts:</p>\n\n<p>$$ \\frac{\\lambda_{K_\\alpha (1)}}{\\lambda_{K_\\alpha (2)}} = \\left( \\frac{Z_2 - 1}{Z_1 - 1} \\right)^2 $$</p>\n\n<p>Substituting $ Z_1 = 46 $ and $ Z_2 = 41 $:</p>\n\n<p>$$ \\frac{\\lambda_{K_\\alpha (1)}}{\\lambda_{K_\\alpha (2)}} = \\left( \\frac{41 - 1}{46 - 1} \\right)^2 = \\left( \\frac{40}{45} \\right)^2 = \\left( \\frac{8}{9} \\right)^2 = \\frac{64}{81} $$</p>\n\n<p>Let $ \\lambda_{K_\\alpha (1)} = 2 \\lambda_{\\text{min}} $ because $ r = 2 $. Therefore:</p>\n\n<p>$$ \\lambda_{K_\\alpha (2)} = \\lambda_{K_\\alpha (1)} \\cdot \\frac{81}{64} = 2 \\lambda_{\\text{min}} \\cdot \\frac{81}{64} $$</p>\n\n<p>Thus, the new ratio $ r_2 $ is:</p>\n\n<p>$$ r_2 = \\frac{\\lambda_{K_\\alpha (2)}}{\\lambda_{\\text{min}}} = 2 \\cdot \\frac{81}{64} = \\frac{162}{64} = 2.53 $$</p>\n\n<p>So, the value of $ r $ for the second metal target with $ Z = 41 $ is:</p>\n\n<p>Option A: 2.53</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "परमाणु क्रमांक (atomic number) $Z=46$ के धातु के एक लक्ष्य (target) पर उच्च ऊर्जा का एक इलेक्ट्रान पुंज प्रहार करता है। इस लक्ष्य से उत्पन्न X-किरणों का विश्लेषण किया जाता है। इससे $K_\\alpha$-रेखा तथा अंतक (cut-off) तरंगदैर्घ्यों का अनुपात $r=2$ पाया जाता है। वही इलेक्ट्रान पुंज यदि $z=41$ की एक दूसरी धातु के लक्ष्य पर प्रहार करे, तो $r$ का मान होगा",
+          "options": [
+            {
+              "identifier": "A",
+              "content": " 2.53"
+            },
+            {
+              "identifier": "B",
+              "content": "1.27"
+            },
+            {
+              "identifier": "C",
+              "content": "2.24"
+            },
+            {
+              "identifier": "D",
+              "content": "1.58"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>इस समस्या को हल करने के लिए, हमें परमाणु क्रमांक $ Z $, अभिलाक्षणिक X-किरण तरंगदैर्घ्य, और X-किरण स्पेक्ट्रम में कट-ऑफ तरंगदैर्घ्य के बीच संबंध को समझना होगा।</p>\n\n<p>कट-ऑफ तरंगदैर्घ्य, जिसे न्यूनतम तरंगदैर्घ्य ($ \\lambda_{\\text{min}} $) के रूप में भी जाना जाता है, उत्पादित X-किरणों की अधिकतम ऊर्जा से संबंधित है और इसे X-किरण नली में उपयोग किए गए त्वरक वोल्टेज से संबंधित किया जा सकता है। अभिलाक्षणिक X-किरणें, जैसे $ K_\\alpha $-रेखा, परमाणु में विशिष्ट इलेक्ट्रॉन संक्रमणों से संबंधित होती हैं और लक्ष्य पदार्थ के परमाणु क्रमांक $ Z $ पर निर्भर करती हैं।</p>\n\n<p>$ K_\\alpha $-रेखा की तरंगदैर्घ्य मोज़ले के नियम द्वारा दी जाती है, जिसे इस प्रकार अनुमानित किया जा सकता है:</p>\n\n<p>$$ \\lambda_{K_\\alpha} \\propto \\frac{1}{(Z - 1)^2} $$</p>\n\n<p>कट-ऑफ तरंगदैर्घ्य आपतित इलेक्ट्रॉनों की ऊर्जा और उत्पादित X-किरण के बीच संबंध द्वारा दी जाती है:</p>\n\n<p>$$ \\lambda_{\\text{min}} = \\frac{hc}{eV} $$</p>\n\n<p>अब, $ Z = 46 $ वाले प्रथम धातु लक्ष्य के लिए दिया गया अनुपात $ r $ है:</p>\n\n<p>$$ r = \\frac{\\lambda_{K_\\alpha}}{\\lambda_{\\text{min}}} = 2 $$</p>\n\n<p>$ Z = 41 $ वाले द्वितीय धातु लक्ष्य के लिए, आइए नए अनुपात को $ r_2 $ के रूप में निरूपित करें। हम समान कट-ऑफ तरंगदैर्घ्य मानते हैं क्योंकि समान इलेक्ट्रॉन पुंज का उपयोग किया जाता है।</p>\n\n<p>$ Z = 41 $ के लिए अनुपात की गणना $ K_\\alpha $-रेखा तरंगदैर्घ्य के बीच संबंध का उपयोग करके की जा सकती है:</p>\n\n<p>$$ \\frac{\\lambda_{K_\\alpha (1)}}{\\lambda_{K_\\alpha (2)}} = \\left( \\frac{Z_2 - 1}{Z_1 - 1} \\right)^2 $$</p>\n\n<p>$ Z_1 = 46 $ और $ Z_2 = 41 $ प्रतिस्थापित करने पर:</p>\n\n<p>$$ \\frac{\\lambda_{K_\\alpha (1)}}{\\lambda_{K_\\alpha (2)}} = \\left( \\frac{41 - 1}{46 - 1} \\right)^2 = \\left( \\frac{40}{45} \\right)^2 = \\left( \\frac{8}{9} \\right)^2 = \\frac{64}{81} $$</p>\n\n<p>मान लीजिए $ \\lambda_{K_\\alpha (1)} = 2 \\lambda_{\\text{min}} $ क्योंकि $ r = 2 $ है। अतः:</p>\n\n<p>$$ \\lambda_{K_\\alpha (2)} = \\lambda_{K_\\alpha (1)} \\cdot \\frac{81}{64} = 2 \\lambda_{\\text{min}} \\cdot \\frac{81}{64} $$</p>\n\n<p>इस प्रकार, नया अनुपात $ r_2 $ है:</p>\n\n<p>$$ r_2 = \\frac{\\lambda_{K_\\alpha (2)}}{\\lambda_{\\text{min}}} = 2 \\cdot \\frac{81}{64} = \\frac{162}{64} = 2.53 $$</p>\n\n<p>अतः, $ Z = 41 $ वाले द्वितीय धातु लक्ष्य के लिए $ r $ का मान है:</p>\n\n<p>विकल्प A: 2.53</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "particle-nature-of-light-the-photon",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "A metal target with atomic number $Z=46$ is bombarded with a high energy electron beam. The emission of X-rays from the target is analyzed. The ratio $r$ of the wavelengths of the $K_\\alpha$-line and the cut-off is found to be $r=2$. If the..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "परमाणु क्रमांक (atomic number) $Z=46$ के धातु के एक लक्ष्य (target) पर उच्च ऊर्जा का एक इलेक्ट्रान पुंज प्रहार करता है। इस लक्ष्य से उत्पन्न X-किरणों का विश्लेषण किया जाता है। इससे $K_\\alpha$-रेखा तथा अंतक (cut-off) तरंगदैर्घ्यों का अनुपात ..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "jurfnz233pcimepmbo7a",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "a-hydrogen-like-atom-has-atomic-number-z-photons-emitted-jee-advanced-physics-23jfzmhqgytgb3p7",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A Hydrogen-like atom has atomic number $Z$. Photons emitted in the electronic transitions from level $n=4$ to level $n=3$ in these atoms are used to perform photoelectric effect experiment on a target metal. The maximum kinetic energy of the photoelectrons generated is $1.95 \\mathrm{eV}$. If the photoelectric threshold wavelength for the target metal is $310 \\mathrm{~nm}$, the value of $Z$ is _________.<br/><br/>\n[Given: $h c=1240 \\mathrm{eV}-\\mathrm{nm}$ and $R h c=13.6 \\mathrm{eV}$, where $R$ is the Rydberg constant, $h$ is the Planck's constant and $c$ is the speed of light in vacuum]",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "<p>To find the atomic number $$ Z $$ for the hydrogen-like atom emitting photons that cause photoelectrons to eject from the metal surface with a maximum kinetic energy of $$ 1.95 \\mathrm{eV} $$, we need to make use of the concept of energy transitions in atoms, as well as the photoelectric effect equation. We are given the photoelectric threshold wavelength for the metal and the constants $$ h c $$ and $$ R h c $$.</p>\n<p>First, let&#39;s calculate the energy of the photon emitted during the transition from level $$ n=4 $$ to level $$ n=3 $$ in the hydrogen-like atom. The energy of a photon emitted when an electron transitions between two levels in a hydrogen-like atom is given by :</p>\n<p>$$\n\\Delta E = Z^2 R h c \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)\n$$</p>\n<p>where:</p>\n<ul>\n<li>$$ Z $$ is the atomic number.</li>\n<li>$$ R h c $$ is the ionization energy of hydrogen (13.6 eV).</li>\n<li>$$ n_1 $$ and $$ n_2 $$ are the principal quantum numbers of the initial and final energy levels, respectively.</li>\n</ul>\n<p>For the transition from $$ n_1 = 4 $$ to $$ n_2 = 3 $$, the energy of the photon is:</p>\n<p>$$\n\\Delta E = Z^2 \\cdot 13.6 \\cdot \\left( \\frac{1}{3^2} - \\frac{1}{4^2} \\right) \\mathrm{eV}\n$$</p>\n<p>$$\n\\Delta E = Z^2 \\cdot 13.6 \\cdot \\left( \\frac{1}{9} - \\frac{1}{16} \\right) \\mathrm{eV}\n$$</p>\n<p>$$\n\\Delta E = Z^2 \\cdot 13.6 \\cdot \\left( \\frac{16 - 9}{144} \\right) \\mathrm{eV}\n$$</p>\n<p>$$\n\\Delta E = Z^2 \\cdot 13.6 \\cdot \\frac{7}{144} \\mathrm{eV}\n$$</p>\n<p>Next, using the photoelectric effect equation, the maximum kinetic energy (K.E.) of the ejected photoelectrons is equal to the energy of the incident photon minus the work function ($$ \\phi $$). The work function can be calculated using the given threshold wavelength :</p>\n<p>$$\n\\phi = \\frac{h c}{\\lambda}\n$$</p>\n<p>Given:\n$$ \\lambda = 310 \\mathrm{nm} $$\n$$ h c = 1240 \\mathrm{eV} \\cdot \\mathrm{nm} $$</p>\n<p>So the work function is:</p>\n<p>$$\n\\phi = \\frac{1240}{310} \\mathrm{eV}\n$$</p>\n<p>$$\n\\phi = 4 \\mathrm{eV}\n$$</p>\n<p>The maximum kinetic energy is given by :</p>\n<p>$$\nK.E. = \\Delta E - \\phi\n$$</p>\n<p>We are given $$ K.E. = 1.95 \\mathrm{eV} $$, hence :</p>\n<p>$$\n1.95 = Z^2 \\cdot 13.6 \\cdot \\frac{7}{144} - 4\n$$</p>\n<p>$$ \\Rightarrow $$ $$\nZ^2 \\cdot 13.6 \\cdot \\frac{7}{144} = 1.95 + 4\n$$</p>\n<p>$$ \\Rightarrow $$ $$\nZ^2 = \\frac{1.95 + 4}{13.6 \\cdot \\frac{7}{144}}\n$$</p>\n<p>$$ \\Rightarrow $$ $$\nZ^2 = \\frac{5.95 \\times 144}{13.6 \\times 7}\n$$</p>\n<p>$$ \\Rightarrow $$ $$\nZ^2 = \\frac{856.8}{95.2}\n$$</p>\n<p>$$ \\Rightarrow $$ $$\nZ^2 = 9\n$$</p>\n<p>$$ \\Rightarrow $$ $$\nZ = \\sqrt{9}\n$$</p>\n<p>$$ \\Rightarrow $$ $$\nZ = 3\n$$</p>\n"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "एक हाइड्रोजन-सदश परमाणु की परमाण्विक संख्या $Z$ है। इन परमाणुओं के स्तर $n=4$ से स्तर $n=3$ पर होने वाले इलेक्ट्रोनिक संक्रमण से उत्पन्न फोटानों का उपयोग एक टारगेट धातु पर प्रकाश-विद्युत् प्रभाव (photoelectric effect) के प्रयोग के लिए किया जाता है। उत्पन्न फोटोइलेक्ट्रानों की अधिकतम गतिज ऊर्जा $1.95 \\mathrm{eV}$ है| यदि टारगेट धातु की प्रकाश-विद्युत् प्रभाव के लिए देहली तरंग दैर्घ्य (threshold wavelength) $310 \\mathrm{~nm}$ है, तब $Z$ का मान ________ है।<br/><br/>\n[दिया है: $h c=1240 \\mathrm{eV}-\\mathrm{nm}$ तथा $R h c=13.6 \\mathrm{eV}$, जहाँ $R$ रिडबर्ग (Rydberg) नियतांक, $h$ प्लांक (Planck) नियतांक तथा $c$ निर्वात में प्रकाश की चाल है]",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "<p>हाइड्रोजन-सदृश परमाणु के लिए परमाणु संख्या $$ Z $$ ज्ञात करने के लिए जो ऐसे फोटॉन उत्सर्जित करता है जो धातु की सतह से अधिकतम गतिज ऊर्जा $$ 1.95 \\mathrm{eV} $$ के साथ फोटोइलेक्ट्रॉन निष्कासित करते हैं, हमें परमाणुओं में ऊर्जा संक्रमण की अवधारणा के साथ-साथ प्रकाश विद्युत प्रभाव समीकरण का उपयोग करने की आवश्यकता है। हमें धातु के लिए प्रकाश विद्युत दहलीज तरंगदैर्घ्य और नियतांक $$ h c $$ तथा $$ R h c $$ दिए गए हैं।</p><p>सबसे पहले, आइए हाइड्रोजन-सदृश परमाणु में स्तर $$ n=4 $$ से स्तर $$ n=3 $$ में संक्रमण के दौरान उत्सर्जित फोटॉन की ऊर्जा की गणना करें। हाइड्रोजन-सदृश परमाणु में दो स्तरों के बीच इलेक्ट्रॉन के संक्रमण के दौरान उत्सर्जित फोटॉन की ऊर्जा निम्न द्वारा दी जाती है:</p><p>$$\\Delta E = Z^2 R h c \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)$$</p><p>जहाँ:</p><ul><li>$$ Z $$ परमाणु संख्या है।</li><li>$$ R h c $$ हाइड्रोजन की आयनन ऊर्जा है (13.6 eV)।</li><li>$$ n_1 $$ और $$ n_2 $$ क्रमशः प्रारंभिक और अंतिम ऊर्जा स्तरों की मुख्य क्वांटम संख्याएँ हैं।</li></ul><p>$$ n_1 = 4 $$ से $$ n_2 = 3 $$ में संक्रमण के लिए, फोटॉन की ऊर्जा है:</p><p>$$\\Delta E = Z^2 \\cdot 13.6 \\cdot \\left( \\frac{1}{3^2} - \\frac{1}{4^2} \\right) \\mathrm{eV}$$</p><p>$$\\Delta E = Z^2 \\cdot 13.6 \\cdot \\left( \\frac{1}{9} - \\frac{1}{16} \\right) \\mathrm{eV}$$</p><p>$$\\Delta E = Z^2 \\cdot 13.6 \\cdot \\left( \\frac{16 - 9}{144} \\right) \\mathrm{eV}$$</p><p>$$\\Delta E = Z^2 \\cdot 13.6 \\cdot \\frac{7}{144} \\mathrm{eV}$$</p><p>इसके बाद, प्रकाश विद्युत प्रभाव समीकरण का उपयोग करते हुए, निष्कासित फोटोइलेक्ट्रॉनों की अधिकतम गतिज ऊर्जा (K.E.) आपतित फोटॉन की ऊर्जा घटा कार्य फलन ($$ \\phi $$) के बराबर होती है। दिए गए दहलीज तरंगदैर्घ्य का उपयोग करके कार्य फलन की गणना की जा सकती है:</p><p>$$\\phi = \\frac{h c}{\\lambda}$$</p><p>दिया गया है: $$ \\lambda = 310 \\mathrm{nm} $$ $$ h c = 1240 \\mathrm{eV} \\cdot \\mathrm{nm} $$</p><p>अतः कार्य फलन है:</p><p>$$\\phi = \\frac{1240}{310} \\mathrm{eV}$$</p><p>$$\\phi = 4 \\mathrm{eV}$$</p><p>अधिकतम गतिज ऊर्जा निम्न द्वारा दी जाती है:</p><p>$$K.E. = \\Delta E - \\phi$$</p><p>हमें $$ K.E. = 1.95 \\mathrm{eV} $$ दिया गया है, अतः:</p><p>$$1.95 = Z^2 \\cdot 13.6 \\cdot \\frac{7}{144} - 4$$</p><p>$$ \\Rightarrow $$ $$Z^2 \\cdot 13.6 \\cdot \\frac{7}{144} = 1.95 + 4$$</p><p>$$ \\Rightarrow $$ $$Z^2 = \\frac{1.95 + 4}{13.6 \\cdot \\frac{7}{144}}$$</p><p>$$ \\Rightarrow $$ $$Z^2 = \\frac{5.95 \\times 144}{13.6 \\times 7}$$</p><p>$$ \\Rightarrow $$ $$Z^2 = \\frac{856.8}{95.2}$$</p><p>$$ \\Rightarrow $$ $$Z^2 = 9$$</p><p>$$ \\Rightarrow $$ $$Z = \\sqrt{9}$$</p><p>$$ \\Rightarrow $$ $$Z = 3$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "photoelectric-effect",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "A Hydrogen-like atom has atomic number $Z$. Photons emitted in the electronic transitions from level $n=4$ to level $n=3$ in these atoms are used to perform photoelectric effect experiment on a target metal. The maximum kinetic energy of th..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "एक हाइड्रोजन-सदश परमाणु की परमाण्विक संख्या $Z$ है। इन परमाणुओं के स्तर $n=4$ से स्तर $n=3$ पर होने वाले इलेक्ट्रोनिक संक्रमण से उत्पन्न फोटानों का उपयोग एक टारगेट धातु पर प्रकाश-विद्युत् प्रभाव (photoelectric effect) के प्रयोग के लिए किया ..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "sx69vj2szakpbek6zint",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "pwhen-light-of-a-given-wavelength-is-incident-on-a-metalli-jee-advanced-physics-units-and-measurements-iyyyhllxswzqxybt",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>When light of a given wavelength is incident on a metallic surface, the minimum potential needed to stop the emitted photoelectrons is $6.0 \\mathrm{~V}$. This potential drops to $0.6 \\mathrm{~V}$ if another source with wavelength four times that of the first one and intensity half of the first one is used. What are the wavelength of the first source and the work function of the metal, respectively? [Take $\\frac{h c}{e}=1.24 \\times$ $10^{-6} \\mathrm{JmC}^{-1}$.]</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$1.72 \\times 10^{-7} \\mathrm{~m}, 1.20 \\mathrm{eV}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$1.72 \\times 10^{-7} \\mathrm{~m}, 5.60 \\mathrm{eV}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$3.78 \\times 10^{-7} \\mathrm{~m}, 5.60 \\mathrm{eV}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$3.78 \\times 10^{-7} \\mathrm{~m}, 1.20 \\mathrm{eV}$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "By Einstein's photoelectric equation, we have:\n<br/><br/>$\n\n\\mathrm{KE}  =h v-\\phi$\n<br/><br/>$\nh v-\\phi  =6 \\mathrm{eV} $\n<br/><br/>$\n\\frac{h c}{\\lambda}-\\phi  =6 \\mathrm{eV} $ .........(i)\n<br/><br/>$\n\\frac{h c}{4 \\lambda}-\\phi  =0.6 \\mathrm{eV} $\n<br/><br/>$\n\\frac{3 h c}{4 \\lambda}  =5.4 \\mathrm{eV}$\n<br/><br/>$$ \\Rightarrow $$ $\\lambda=\\frac{3 h c}{5.4 \\mathrm{eV} \\times 4} $\n<br/><br/>$$ \\Rightarrow $$ $\n\\lambda =\\frac{3 \\times 1.24 \\times 10^{-6}}{4 \\times 5.4}=1.72 \\times \\times^{-7} \\mathrm{~m}$ ........(ii)\n<br/><br/>From equation (i) and (ii), we conclude \n<br/><br/>$\\frac{h c}{1.72 \\times 10^{-7}} \\times \\frac{1}{1.6 \\times 10^{-19}}-\\phi=6 \\mathrm{eV}$\n<br/><br/>on subsituting all the values we get\n<br/><br/>$$\n\\begin{aligned}\n& \\phi=(7.27-6) \\\\\\\\\n&\\Rightarrow \\phi=1.27 \\mathrm{eV} \\\\\\\\\n&\\Rightarrow \\phi=1.20 \\mathrm{eV}\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>जब दिये गये तरंगदैर्ध्य का प्रकाश एक धात्विक पृष्ठ पर आपतित होता है, तब उत्सर्जित फोटोइलेक्ट्रॉनों को रोकने के लिए आवश्यक न्यूनतम विभव $$6.0 \\mathrm{~V}$$ है। यह विभव पतन $$0.6 \\mathrm{~V}$$ होता है यदि अन्य स्रोत की तरंगदैर्ध्य प्रथम स्रोत की चार गुनी होती है तथा तीव्रता प्रथम स्रोत की आधी होती है। प्रथम स्रोत की तरंगदैर्ध्य तथा धातु का कार्यफलन क्रमशः क्या है? $$\\left[\\frac{h c}{e}=1.24 \\times 10^{-6} \\mathrm{~J} \\mathrm{~m} \\mathrm{C}^{-1}\\right.$$ लीजिए $$]$$</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1.72 \\times 10^{-7} \\mathrm{~m}, 1.20 \\mathrm{~eV}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$1.72 \\times 10^{-7} \\mathrm{~m}, 5.60 \\mathrm{~eV}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$3.78 \\times 10^{-7} \\mathrm{~m}, 5.60 \\mathrm{~eV}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$3.78 \\times 10^{-7} \\mathrm{~m}, 1.20 \\mathrm{~eV}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "आइंस्टीन के प्रकाश विद्युत समीकरण से, हमारे पास है:\n<br/><br/>$\n\n\\mathrm{KE}  =h v-\\phi$\n<br/><br/>$\nh v-\\phi  =6 \\mathrm{eV} $\n<br/><br/>$\n\\frac{h c}{\\lambda}-\\phi  =6 \\mathrm{eV} $ .........(i)\n<br/><br/>$\n\\frac{h c}{4 \\lambda}-\\phi  =0.6 \\mathrm{eV} $\n<br/><br/>$\n\\frac{3 h c}{4 \\lambda}  =5.4 \\mathrm{eV}$\n<br/><br/>$$ \\Rightarrow $$ $\\lambda=\\frac{3 h c}{5.4 \\mathrm{eV} \\times 4} $\n<br/><br/>$$ \\Rightarrow $$ $\n\\lambda =\\frac{3 \\times 1.24 \\times 10^{-6}}{4 \\times 5.4}=1.72 \\times \\times^{-7} \\mathrm{~m}$ ........(ii)\n<br/><br/>समीकरण (i) और (ii) से, हम निष्कर्ष निकालते हैं\n<br/><br/>$\\frac{h c}{1.72 \\times 10^{-7}} \\times \\frac{1}{1.6 \\times 10^{-19}}-\\phi=6 \\mathrm{eV}$\n<br/><br/>सभी मानों को प्रतिस्थापित करने पर हमें प्राप्त होता है\n<br/><br/>$$\n\\begin{aligned}\n& \\phi=(7.27-6) \\\\\\\\\n&\\Rightarrow \\phi=1.27 \\mathrm{eV} \\\\\\\\\n&\\Rightarrow \\phi=1.20 \\mathrm{eV}\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "photoelectric-effect",
+      "type": "mcq",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "When light of a given wavelength is incident on a metallic surface, the minimum potential needed to stop the emitted photoelectrons is $6.0 \\mathrm{~V}$. This potential drops to $0.6 \\mathrm{~V}$ if another source with wavelength four times..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "जब दिये गये तरंगदैर्ध्य का प्रकाश एक धात्विक पृष्ठ पर आपतित होता है, तब उत्सर्जित फोटोइलेक्ट्रॉनों को रोकने के लिए आवश्यक न्यूनतम विभव $$6.0 \\mathrm{~V}$$ है। यह विभव पतन $$0.6 \\mathrm{~V}$$ होता है यदि अन्य स्रोत की तरंगदैर्ध्य प्रथम स्रोत..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "8x14iq0v67ztiyq17u4v",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "in-a-photoemission-experiment-the-maximum-kinetic-energies-jee-advanced-physics-units-and-measurements-ihhpot16hkilzr5n",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In a photoemission experiment, the maximum kinetic energies of photoelectrons from metals P, Q and R are E<sub>P</sub>, E<sub>Q</sub> and E<sub>R</sub>, respectively, and they are related by E<sub>P</sub> = 2E<sub>Q</sub> = 2E<sub>R</sub>. In this experiment, the same source of monochromatic light is used for metals P and Q while a different source of monochromatic light is used for the metal R. The work functions for metals P, Q and R are 4.0 eV, 4.5 eV and 5.5 eV, respectively. The energy of the incident photon used for metal R, in eV, is ___________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>E<sub>P</sub> = 2E<sub>Q</sub> = 2E<sub>R</sub> = E(assume)</p>\n<p>For metal P and Q,</p>\n<p>E<sub>1</sub> - 4 = E<sub>P</sub> = E ……..(1)</p>\n<p> E<sub>1</sub> - 4.5 = E<sub>A</sub> = E/2 ……..(2)</p>\n<p>Subtracting equation (2) from (1), we get</p>\n<p>E/2 = 0.5</p>\n<p>For metal R</p>\n<p>E<sub>2</sub> - 5.5 = E<sub>R</sub> = E/2 = 0.5</p>\n<p>$$ \\Rightarrow $$ E<sub>2</sub> = 6</p>\n"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>प्रकाश विद्युत् प्रभाव (photoelectric effect) के एक प्रयोग में धातु $$\\mathrm{P}, \\mathrm{Q}$$ एवं $$\\mathrm{R}$$ से उत्सर्जित फोटोइलेक्ट्रानों की अधिकतम गतिज ऊर्जाओं (kinetic energies) के बीच का सम्बन्ध $$E_{P}=2 E_{Q}=2 E_{R}$$ है। इस प्रयोग में $$\\mathrm{P}$$ एवं $$\\mathrm{Q}$$ के लिए एकवर्णी (monochromatic) प्रकाश स्रोत तथा $$\\mathrm{R}$$ के लिए एक अन्य एकवर्णी प्रकाश स्रोत का उपयोग किया जाता है। $$\\mathrm{P}, \\mathrm{Q}$$ एवं $$\\mathrm{R}$$ के कार्य फलनों (work functions) के मान क्रमशः $$4.0 ~\\mathrm{eV}, 4.5 ~\\mathrm{eV}$$ तथा $$5.5 ~\\mathrm{eV}$$ हैं। धातु $$\\mathrm{R}$$ पर आपतित (incident) प्रकाश के फोटान की ऊर्जा ($$\\mathrm{eV}$$ में) ___________ होगी।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>E<sub>P</sub> = 2E<sub>Q</sub> = 2E<sub>R</sub> = E(मान लें)</p>\n<p>धातु P और Q के लिए,</p>\n<p>E<sub>1</sub> - 4 = E<sub>P</sub> = E ……..(1)</p>\n<p> E<sub>1</sub> - 4.5 = E<sub>A</sub> = E/2 ……..(2)</p>\n<p>समीकरण (1) से समीकरण (2) को घटाने पर,</p>\n<p>E/2 = 0.5</p>\n<p>धातु R के लिए</p>\n<p>E<sub>2</sub> - 5.5 = E<sub>R</sub> = E/2 = 0.5</p>\n<p>$$ \\Rightarrow $$ E<sub>2</sub> = 6</p>"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "photoelectric-effect",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "In a photoemission experiment, the maximum kinetic energies of photoelectrons from metals P, Q and R are EP, EQ and ER, respectively, and they are related by EP = 2EQ = 2ER. In this experiment, the same source of monochromatic light is used..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "प्रकाश विद्युत् प्रभाव (photoelectric effect) के एक प्रयोग में धातु $$\\mathrm{P}, \\mathrm{Q}$$ एवं $$\\mathrm{R}$$ से उत्सर्जित फोटोइलेक्ट्रानों की अधिकतम गतिज ऊर्जाओं (kinetic energies) के बीच का सम्बन्ध $$E_{P}=2 E_{Q}=2 E_{R}$$ है। इस प्र..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "pkdypunp6g1vx2szghox",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2019 Paper 2 Offline",
+      "permalink": "a-perfectly-reflecting-mirror-of-mass-m-mounted-on-a-spring-jee-advanced-physics-units-and-measurements-ll5hat15axwut08j",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A perfectly reflecting mirror of mass M mounted on a spring constitutes a spring-mass system of angular frequency $$\\Omega $$ such that $${{4\\pi M\\Omega } \\over h} = {10^{24}}{m^{ - 2}}$$ with h as Planck's constant. N photons of wavelength $$\\lambda $$ = 8$$\\pi $$ $$ \\times $$ 10<sup>$$ - $$6</sup> m strike the mirror simultaneously at normal incidence such that the mirror gets displaced by 1 $$\\mu $$m. If the value of N is x $$ \\times $$ 10<sup>12</sup>, then the value of x is ................ [Consider the spring as massless]<br><br> <img src=\"https://imagex.cdn.examgoal.net/1kt128jll/37b8c55b-a393-4e78-8c31-688d7d3e6be2/a2d3a290-0ae5-11ec-ad2d-cff39a9e6a15/file-1kt128jlm.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Dual Nature of Radiation Question 26 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.0",
+          "explanation": "Momentum transferred on mirror = $${{2Nh} \\over \\lambda }$$<br><br>$${{2Nh} \\over \\lambda } = M{V_{(mean\\,position)}}$$<br><br>$${V_{(mean\\,position)}} = \\Omega A$$ (where, A = 1 $$\\mu $$m)<br><br>$${{2Nh} \\over \\lambda }$$$$ = M\\Omega A$$<br><br>(where $$\\lambda $$ = 8$$\\pi $$ $$ \\times $$ 10<sup>$$ - $$6</sup>)<br><br>$$N = {{M\\Omega ({{10}^{ - 6}})\\lambda } \\over {2h}}$$<br><br>$$ = {{M\\Omega 8\\pi  \\times {{10}^{ - 6}} \\times {{10}^{ - 6}}} \\over {2h}}$$<br><br>$$N = {{4\\pi M\\Omega } \\over h} \\times {10^{ - 12}}$$<br><br>$$ = {10^{ - 24}} \\times {10^{ - 12}}$$<br><br>$$N = 1 \\times {10^{ - 12}} \\Rightarrow x = 1$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक $$M$$ द्रव्यमान वाला पूर्ण परावर्तन दर्पण एक स्प्रिंग से जुड़ा हुआ है। इस स्प्रिंग-द्रव्यमान निकाय की कोणीय आवृति $$\\Omega$$ इस प्रकार है कि $$\\frac{4 \\pi M \\Omega}{h}=10^{24} \\mathrm{~m}^{-2}$$ जहाँ $h$ प्लांक नियतांक है । तरंगदैर्ध्य $$\\lambda=8 \\pi \\times 10^{-6} \\mathrm{~m}$$ के $$N$$ फोटोन एक साथ दर्पण पर लम्बवत आपतित होते हैं जिससे दर्पण $$1 ~\\mu \\mathrm{m}$$ से विस्थापित होता है। यदि $$N$$ का मान $$x \\times 10^{12}$$ है तब $$x$$ का मान _________ है। [ स्प्रिंग को द्रव्यमान रहित माने ]</p>\n<p><img src=\"https://imagex.cdn.examgoal.net/1kt128jll/37b8c55b-a393-4e78-8c31-688d7d3e6be2/a2d3a290-0ae5-11ec-ad2d-cff39a9e6a15/file-1kt128jlm.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Dual Nature of Radiation Question 26 Hindi\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.0",
+          "explanation": "दर्पण पर स्थानांतरित संवेग = $${{2Nh} \\over \\lambda }$$<br><br>$${{2Nh} \\over \\lambda } = M{V_{(mean\\,position)}}$$<br><br>$${V_{(mean\\,position)}} = \\Omega A$$ (जहाँ, A = 1 $$\\mu $$m)<br><br>$${{2Nh} \\over \\lambda }$$$$ = M\\Omega A$$<br><br>(जहाँ $$\\lambda $$ = 8$$\\pi $$ $$ \\times $$ 10<sup>$$ - $$6</sup>)<br><br>$$N = {{M\\Omega ({{10}^{ - 6}})\\lambda } \\over {2h}}$$<br><br>$$ = {{M\\Omega 8\\pi  \\times {{10}^{ - 6}} \\times {{10}^{ - 6}}} \\over {2h}}$$<br><br>$$N = {{4\\pi M\\Omega } \\over h} \\times {10^{ - 12}}$$<br><br>$$ = {10^{ - 24}} \\times {10^{ - 12}}$$<br><br>$$N = 1 \\times {10^{ - 12}} \\Rightarrow x = 1$$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "particle-nature-of-light-the-photon",
+      "type": "integer",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "A perfectly reflecting mirror of mass M mounted on a spring constitutes a spring-mass system of angular frequency $$\\Omega $$ such that $${{4\\pi M\\Omega } \\over h} = {10^{24}}{m^{ - 2}}$$ with h as Planck's constant. N photons of wavelength..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "एक $$M$$ द्रव्यमान वाला पूर्ण परावर्तन दर्पण एक स्प्रिंग से जुड़ा हुआ है। इस स्प्रिंग-द्रव्यमान निकाय की कोणीय आवृति $$\\Omega$$ इस प्रकार है कि $$\\frac{4 \\pi M \\Omega}{h}=10^{24} \\mathrm{~m}^{-2}$$ जहाँ $h$ प्लांक नियतांक है । तरंगदैर्ध्य $..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "e66h2fu074pxuwkpk4d2",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "modern-physics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "dual-nature-of-radiation",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In a photoelectric experiment a parallel beam of monochromatic light with power of $$200$$ $$W$$ is incident on a perfectly absorbing cathode of work function $$6.25$$ $$ev.$$ The frequency of light is just above the threshold frequency so that the photoelectrons are emitted with negligible kinetic energy. Assume that the photoelectron  emission efficiency  is $$100\\% $$. A potential difference of $$500$$ $$V$$  is applied between the cathode and the anode. All the emitted electrons are  incident normally on the anode and are absorbed.  The anode experiences a force $$F = n \\times {10^{ - 4}}$$ $$N$$ due to the impact of the electrons. The value of $$n$$  is ______________. Mass of the electron $${M_e} = 9 \\times {10^{ - 31}}\\,kg$$  and $$1.0eV = 1.6 \\times {10^{ - 19}}\\,J.$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "24",
+          "explanation": "<p>The frequency of incident light is just above the threshold frequency. Hence, the energy of each photon is equal to the work function (E<sub>p</sub> = $$\\phi$$ = 6.25 eV) and the kinetic energy of emitted photo-electron is zero (K<sub>e0</sub> = 0). The energy incident per second on the cathode is incident power P = 200 W. Thus, number of photons incident per second is</p>\n<p>N<sub>p</sub> = P/E<sub>p</sub> = P/$$\\phi$$.</p>\n<p>The photo-electron emission efficiency is 100%. Thus, number of photo-electron emitted per second is equal to the number of photons incident per second i.e., N<sub>e</sub> = N<sub>p</sub>. These photo-electrons are accelerated by a potential difference V = 500 V. Thus, gain in potential energy of each photo-electron is $$\\Delta$$U = eV = 500 eV. By conservation of energy, kinetic energy of the photo-electron when it reaches the anode is</p>\n<p>K<sub>e</sub> = K<sub>e0</sub> + $$\\Delta$$U = 500 eV.</p>\n<p>The linear momentum of photo-electron of mass m<sub>e</sub> and kinetic energy K<sub>e</sub> is given by</p>\n<p>$${p_e} = \\sqrt {2{m_e}{K_e}} $$.</p>\n<p>The photo-electron transfer its entire linear momentum to the anode (absorbed by the anode). Thus, gain in linear momentum of the anode by absorbing one photo-electron is</p>\n<p>$$\\Delta$$p<sub>a</sub> = p<sub>e</sub>.</p>\n<p>The force on the anode is equal to the increase in its linear momentum per second. Since N<sub>e</sub> photo-electrons strikes the anode per second, the force acting on the anode is given by</p>\n<p>$${F_a} = {N_e}\\Delta {p_a} = {N_e}{p_e}$$ ($$\\because$$ $$\\Delta {p_a} = {p_e}$$)</p>\n<p>$$ = {N_p}{p_e} = (P/\\phi ){p_e}$$ ($$\\because$$ $${N_e} = {N_p} = P/\\phi $$)</p>\n<p>$$ = (P/\\phi )\\sqrt {2{m_e}{K_e}} $$ ($$\\because$$ $${p_e} = \\sqrt {2{m_e}{K_e}} $$)</p>\n<p>$$ = (P/\\phi )\\sqrt {2{m_e}eV} $$ ($$\\because$$ $${K_e} = eV$$</p>\n<p>$$ = 2.4 \\times {10^{ - 4}}N$$.</p>"
+        },
+        "hi": {
+          "content": "एक प्रकाशविद्युत प्रयोग में, $$200$$ $$W$$ की शक्ति वाली एक समांतर स्रॉन की एकरंगी रौशनी को एक पूरी तरह से अवशोषित करने वाले कैथोड, जिसकी कार्य फलन $$6.25$$ $$ev.$$ है, पर डाला जाता है। प्रकाश की आवृत्ति मंद आवृत्ति से तनिक ऊपर होती है ताकि फोटोइलेक्ट्रॉनों का उत्सर्जन नगण्य गतिज ऊर्जा के साथ हो। मान लें कि फोटोइलेक्ट्रॉनों का उत्सर्जन दक्षता $$100\\% $$ है। एक कैथोड और एनोड के बीच $$500$$ $$V$$ की विभवांतर लागू की जाती है। सभी उत्सर्जित इलेक्ट्रॉन सामान्य रूप में एनोड पर गिरते हैं और अवशोषित हो जाते हैं। एनोड पर इलेक्ट्रॉनों के प्रभाव के कारण $$F = n \\times {10^{ - 4}}$$ $$N$$ का बल लगता है। $$n$$ का मान ______________ है। इलेक्ट्रॉन का द्रव्यमान $${M_e} = 9 \\times {10^{ - 31}}\\,kg$$  और $$1.0eV = 1.6 \\times {10^{ - 19}}\\,J.$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "24",
+          "explanation": "<p>आपतित प्रकाश की आवृत्ति देहली आवृत्ति से ठीक ऊपर है। अतः, प्रत्येक फोटॉन की ऊर्जा कार्य फलन के बराबर है (E<sub>p</sub> = $$\\phi$$ = 6.25 eV) और उत्सर्जित प्रकाश-इलेक्ट्रॉन की गतिज ऊर्जा शून्य है (K<sub>e0</sub> = 0)। कैथोड पर प्रति सेकंड आपतित ऊर्जा आपतित शक्ति P = 200 W है। इस प्रकार, प्रति सेकंड आपतित फोटॉनों की संख्या है</p>\n<p>N<sub>p</sub> = P/E<sub>p</sub> = P/$$\\phi$$.</p>\n<p>प्रकाश-इलेक्ट्रॉन उत्सर्जन दक्षता 100% है। इस प्रकार, प्रति सेकंड उत्सर्जित प्रकाश-इलेक्ट्रॉनों की संख्या प्रति सेकंड आपतित फोटॉनों की संख्या के बराबर है अर्थात्, N<sub>e</sub> = N<sub>p</sub>। इन प्रकाश-इलेक्ट्रॉनों को विभवांतर V = 500 V द्वारा त्वरित किया जाता है। इस प्रकार, प्रत्येक प्रकाश-इलेक्ट्रॉन की स्थितिज ऊर्जा में वृद्धि $$\\Delta$$U = eV = 500 eV है। ऊर्जा संरक्षण के अनुसार, जब प्रकाश-इलेक्ट्रॉन एनोड तक पहुँचता है तो उसकी गतिज ऊर्जा है</p>\n<p>K<sub>e</sub> = K<sub>e0</sub> + $$\\Delta$$U = 500 eV.</p>\n<p>द्रव्यमान m<sub>e</sub> और गतिज ऊर्जा K<sub>e</sub> वाले प्रकाश-इलेक्ट्रॉन का रेखीय संवेग निम्न द्वारा दिया जाता है</p>\n<p>$${p_e} = \\sqrt {2{m_e}{K_e}} $$.</p>\n<p>प्रकाश-इलेक्ट्रॉन अपना संपूर्ण रेखीय संवेग एनोड को स्थानांतरित करता है (एनोड द्वारा अवशोषित)। इस प्रकार, एक प्रकाश-इलेक्ट्रॉन को अवशोषित करने से एनोड के रेखीय संवेग में वृद्धि है</p>\n<p>$$\\Delta$$p<sub>a</sub> = p<sub>e</sub>.</p>\n<p>एनोड पर बल इसके रेखीय संवेग में प्रति सेकंड वृद्धि के बराबर है। चूंकि N<sub>e</sub> प्रकाश-इलेक्ट्रॉन प्रति सेकंड एनोड से टकराते हैं, इसलिए एनोड पर लगने वाला बल निम्न द्वारा दिया जाता है</p>\n<p>$${F_a} = {N_e}\\Delta {p_a} = {N_e}{p_e}$$ ($$\\because$$ $$\\Delta {p_a} = {p_e}$$)</p>\n<p>$$ = {N_p}{p_e} = (P/\\phi ){p_e}$$ ($$\\because$$ $${N_e} = {N_p} = P/\\phi $$)</p>\n<p>$$ = (P/\\phi )\\sqrt {2{m_e}{K_e}} $$ ($$\\because$$ $${p_e} = \\sqrt {2{m_e}{K_e}} $$)</p>\n<p>$$ = (P/\\phi )\\sqrt {2{m_e}eV} $$ ($$\\because$$ $${K_e} = eV$$</p>\n<p>$$ = 2.4 \\times {10^{ - 4}}N$$.</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "in-a-photoelectric-experiment-a-parallel-beam-of-monochromat-2018-marks-3-doffahblazdyugbb.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "topic": "photoelectric-effect",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "In a photoelectric experiment a parallel beam of monochromatic light with power of $$200$$ $$W$$ is incident on a perfectly absorbing cathode of work function $$6.25$$ $$ev.$$ The frequency of light is just above the threshold frequency so ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "एक प्रकाशविद्युत प्रयोग में, $$200$$ $$W$$ की शक्ति वाली एक समांतर स्रॉन की एकरंगी रौशनी को एक पूरी तरह से अवशोषित करने वाले कैथोड, जिसकी कार्य फलन $$6.25$$ $$ev.$$ है, पर डाला जाता है। प्रकाश की आवृत्ति मंद आवृत्ति से तनिक ऊपर होती है ताकि..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1id4xjw1qmvzfm4kfzxv",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "modern-physics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "dual-nature-of-radiation",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A photoelectric material having work-function $${\\phi _0}$$ is illuminated with light of wavelength $$\\lambda \\left( {\\lambda  &lt; {{he} \\over {{\\phi _0}}}} \\right).$$ The fastest photoelectron has a de-Broglic wavelength $${\\lambda _d}.$$ A change in wavelength of the incident light by $$\\Delta \\lambda $$ result in a change $$\\Delta {\\lambda _d}$$ in $${\\lambda _d}.$$ Then the ratio $$\\Delta {\\lambda _d}/\\Delta \\lambda $$ is proportional to ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${\\lambda _d}/\\lambda $$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\lambda _d^2/{\\lambda ^2}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\lambda _d^3/\\lambda $$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\lambda _d^3/{\\lambda ^2}$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Here, $$\\lambda$$ is the wavelength of incident light and $$\\lambda$$<sub>d</sub> is the de Broglie wavelength of the fastest photoelectron. The fastest ejected photoelectron has the maximum kinetic energy which is given by</p>\n<p>$${K_{\\max }} = {{hc} \\over \\lambda } - {\\phi _0}$$ .....(1)</p>\n<p>The de Broglie wavelength of the photoelectron having kinetic energy $${K_{\\max }} = {{{p^2}} \\over {2m}}$$ is given by</p>\n<p>$${\\lambda _d} = {h \\over p} = {h \\over {\\sqrt {2m{K_{\\max }}} }}$$ ..... (2)</p>\n<p>where m is the mass of the electron and p is its linear momentum. Eliminate K<sub>max</sub> from equations (1) and (2) to get</p>\n<p>$${{{h^2}} \\over {2m\\lambda _d^2}} = {{hc} \\over \\lambda } - {\\phi _0}$$ ...... (3)</p>\n<p>Differentiate equation (3) to get</p>\n<p>$$( - 2){{{h^2}} \\over {2m\\lambda _d^3}}\\Delta {\\lambda _d} = ( - 1){{hc} \\over {{\\lambda ^2}}}\\Delta \\lambda $$,</p>\n<p>which gives</p>\n<p>$${{\\Delta {\\lambda _d}} \\over {\\Delta \\lambda }} = {{mc} \\over h}{{\\lambda _d^3} \\over {{\\lambda ^2}}}$$.</p>"
+        },
+        "hi": {
+          "content": "एक फोटोइलेक्ट्रिक सामग्री जिसकी कार्य-फंक्शन $${\\phi _0}$$ है, को $$\\lambda \\left( {\\lambda  < {{he} \\over {{\\phi _0}}}} \\right)$$ तरंगदैर्ध्य की रोशनी से प्रकाशित किया जाता है। सबसे तेज फोटोइलेक्ट्रॉन की एक de-Broglie तरंगदैर्ध्य $${\\lambda _d}$$ है। घटना रोशनी की तरंगदैर्ध्य में परिवर्तन $$\\Delta \\lambda $$ में, $$\\Delta {\\lambda _d}$$ में परिवर्तन $${\\lambda _d}$$ होता है। तब अनुपात $$\\Delta {\\lambda _d}/\\Delta \\lambda $$ किसके अनुपाती है?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${\\lambda _d}/\\lambda $$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\lambda _d^2/{\\lambda ^2}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\lambda _d^3/\\lambda $$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\lambda _d^3/{\\lambda ^2}$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-photoelectric-material-having-work-function-phi-0-2017-marks-3-rsnpxfo9xbdn6l38.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "photoelectric-effect",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "A photoelectric material having work-function $${\\phi _0}$$ is illuminated with light of wavelength $$\\lambda \\left( {\\lambda  < {{he} \\over {{\\phi _0}}}} \\right).$$ The fastest photoelectron has a de-Broglic wavelength $${\\lambda _d}.$$ A ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "एक फोटोइलेक्ट्रिक सामग्री जिसकी कार्य-फंक्शन $${\\phi _0}$$ है, को $$\\lambda \\left( {\\lambda  < {{he} \\over {{\\phi _0}}}} \\right)$$ तरंगदैर्ध्य की रोशनी से प्रकाशित किया जाता है। सबसे तेज फोटोइलेक्ट्रॉन की एक de-Broglie तरंगदैर्ध्य $${\\lambd..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "9crqs52w51ihtmm2uz0a",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "permalink": "light-of-wavelength-lambdasubphsub-falls-on-a-cath-jee-advanced-physics-units-and-measurements-hbdbv2qhhenlumst",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Light of wavelength $$\\lambda$$<sub>ph</sub> falls on a cathode plate inside a vacuum tube as shown in the figure. The work function of the cathode surface is $$\\phi$$ and the anode is a wire mesh of conducting material kept at a distance d from the cathode. A potential difference V is maintained between the electrodes. If the minimum de-Broglie wavelength of the electrons passing through the anode is $$\\lambda$$<sub>e</sub>, which of the following statement(s) is (are) true?<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pzi04o/da33fc1f-d65e-46bb-901f-2a71dadf6257/0a60da80-a330-11ec-9278-e7cbe8cb9053/file-1l0pzi04p.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pzi04o/da33fc1f-d65e-46bb-901f-2a71dadf6257/0a60da80-a330-11ec-9278-e7cbe8cb9053/file-1l0pzi04p.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Dual Nature of Radiation Question 24 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\lambda$$<sub>e</sub> increases at the same rate as $$\\lambda$$<sub>ph</sub> for $$\\lambda$$<sub>ph</sub> &lt; hc/$$\\phi$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\lambda$$<sub>e</sub> is approximately halved, if d is doubled"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\lambda$$<sub>e</sub> decreases with increase in $$\\phi$$ and $$\\lambda$$<sub>ph</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "For large potential difference (V &gt;&gt; $$\\phi$$/e), $$\\lambda$$<sub>e</sub> is approximately halved if V is made four times"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>In photo-electric effect, the maximum kinetic energy of the photo-electron ejected at the cathode, is given by</p>\n<p>$${K_{\\max ,\\,c}} = {{hc} \\over {{\\lambda _{ph}}}} - \\phi $$,</p>\n<p>where $$\\lambda$$<sub>ph</sub> is the wavelength of the incident light and $$\\phi$$ is the work function of the material. The ejected photoelectrons are accelerated from the cathode to the anode by a potential V. Thus, the maximum kinetic energy of the photo-electron at the anode is</p>\n<p>$${K_{\\max ,\\,a}} = {K_{\\max ,\\,c}} + eV = {{hc} \\over {{\\lambda _{ph}}}} - \\phi  + eV$$.</p>\n<p>Now, minimum de-Broglie wavelength of electrons passing through anode,</p>\n<p>$${\\lambda _e} = {h \\over {\\sqrt {2m\\,{K_{\\max ,\\,a}}} }} = {h \\over {\\sqrt {2m\\left( {{{hc} \\over {{\\lambda _{ph}}}} - \\phi  + eV} \\right)} }}$$ ...... (i)</p>\n<p>D : For $$V >  > \\phi e$$</p>\n<p>$${\\lambda _e} \\approx {h \\over {\\sqrt {2meV} }} \\propto {1 \\over {\\sqrt V }}$$</p>\n<p>$$\\therefore$$ If V is made four times, $$\\lambda$$<sub>e</sub> becomes $${1 \\over {\\sqrt 4 }} = {1 \\over 2}$$, i.e. halved.</p>\n<p>C : When $$\\phi$$ and $$\\lambda$$<sub>ph</sub> increases, $$\\lambda$$<sub>e</sub> also increases.</p>\n<p>A : From (i)</p>\n<p>$${{d{\\lambda _e}} \\over {dt}} = {{ - h} \\over 2}{\\left[ {2m\\left( {{{hc} \\over {{\\lambda _{ph}}}} - \\phi  + eV} \\right)} \\right]^{ - 3/2}} \\times 2m\\left( {{{ - hc} \\over {\\lambda _{ph}^2}}} \\right){{d{\\lambda _{ph}}} \\over {dt}}$$</p>\n<p>$$ \\Rightarrow {{d{\\lambda _e}} \\over {dt}} \\ne {{d{\\lambda _{ph}}} \\over {dt}}$$</p>\n<p>I : $$\\lambda$$<sub>e</sub> does not depend on d.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "एक निर्वात ट्यूब के अंदर एक कैथोड प्लेट पर $$\\lambda$$<sub>ph</sub> तरंगदैर्ध्य की लाइट गिरती है जैसा कि चित्र में दिखाया गया है। कैथोड सतह का कार्य फलन $$\\phi$$ है और एनोड एक चालक सामग्री की जाली है जो कैथोड से दूरी d पर रखी गई है। इलेक्ट्रोड्स के बीच एक विभव अंतर V बनाए रखा गया है। यदि एनोड से गुजरने वाले इलेक्ट्रॉनों की न्यूनतम de-Broglie तरंगदैर्ध्य $$\\lambda$$<sub>e</sub> है, तो निम्नलिखित कथन(s) में से कौन सा सही है?<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0pzi04o/da33fc1f-d65e-46bb-901f-2a71dadf6257/0a60da80-a330-11ec-9278-e7cbe8cb9053/file-1l0pzi04p.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0pzi04o/da33fc1f-d65e-46bb-901f-2a71dadf6257/0a60da80-a330-11ec-9278-e7cbe8cb9053/file-1l0pzi04p.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Dual Nature of Radiation Question 24 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\lambda$$<sub>e</sub> वही अनुपात $$\\lambda$$<sub>ph</sub> के साथ बढ़ती है जब $$\\lambda$$<sub>ph</sub> &lt; hc/$$\\phi$$ होता है"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\lambda$$<sub>e</sub> लगभग आधा हो जाती है, यदि d को दुगना कर दिया जाता है"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\lambda$$<sub>e</sub> $$\\phi$$ और $$\\lambda$$<sub>ph</sub> बढ़ाने के साथ घट जाती है"
+            },
+            {
+              "identifier": "D",
+              "content": "बड़े विभव अंतर (V &gt;&gt; $$\\phi$$/e) के लिए, $$\\lambda$$<sub>e</sub> लगभग आधा हो जाती है यदि V को चार गुना कर दिया जाता है"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "photoelectric-effect",
+      "type": "mcqm",
+      "year": 2016,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "Light of wavelength $$\\lambda$$ph falls on a cathode plate inside a vacuum tube as shown in the figure. The work function of the cathode surface is $$\\phi$$ and the anode is a wire mesh of conducting material kept at a distance d from the c..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "एक निर्वात ट्यूब के अंदर एक कैथोड प्लेट पर $$\\lambda$$ph तरंगदैर्ध्य की लाइट गिरती है जैसा कि चित्र में दिखाया गया है। कैथोड सतह का कार्य फलन $$\\phi$$ है और एनोड एक चालक सामग्री की जाली है जो कैथोड से दूरी d पर रखी गई है। इलेक्ट्रोड्स के बी..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "question_id": "uuiua0yohcvdtfll0mgg",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "permalink": "in-a-historical-experiment-to-determine-plancks-constant-jee-advanced-physics-dual-nature-of-radiation-s8six9xf2edloh3l",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In a historical experiment to determine  Planck's constant, a metal surface was  irradiated with light of different  wavelengths. The emitted  photoelectron energies were measured  by applying a stopping potential. The  relevant data for the wavelength ($$\\lambda $$) of  incident light and the corresponding  stopping potential (V<sub>0</sub>) are given  below:\n<br><br><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n</style>\n<table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-baqh\">$$\\lambda \\left( {\\mu m} \\right)$$</th>\n    <th class=\"tg-baqh\">V<sub>0</sub>(Volt)</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-baqh\">0.3</td>\n    <td class=\"tg-baqh\">2.0</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">0.4</td>\n    <td class=\"tg-baqh\">1.0</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">0.5</td>\n    <td class=\"tg-baqh\">0.4</td>\n  </tr>\n</tbody>\n</table>\n<br><br>Given that c = 3 $$ \\times $$ 10<sup>8</sup>  ms<sup>-1</sup> and  e = 1.6 $$ \\times $$ 10<sup>-19</sup> C, Planck's constant (in  units of J-s) found from such an  experiment is) :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "6.0 $$ \\times $$ 10<sup>-34</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "6.6 $$ \\times $$ 10<sup>-34</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "6.4 $$ \\times $$ 10<sup>-34</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "6.8 $$ \\times $$ 10<sup>-34</sup>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "$${{hc} \\over \\lambda } - \\phi  = e{V_0}$$ ($$\\phi$$ = work function)<br><br>$${{hc} \\over {0.3 \\times {{10}^{ - 6}}}} - \\phi  = 2e$$ .... (i)<br><br>$${{hc} \\over {0.4 \\times {{10}^{ - 6}}}} - \\phi  = 1e$$ .... (ii)<br><br>Subtracting Eq. (ii) from Eq. (i)<br><br>$$hc\\left( {{1 \\over {0.3}} - {1 \\over {0.4}}} \\right){10^6} = e$$<br><br>$$hc\\left( {{{0.1} \\over {0.12}} \\times {{10}^6}} \\right) = e$$<br><br>$$h = 0.64 \\times {10^{ - 33}}$$<br><br>$$ = 6.4 \\times {10^{ - 34}}$$ J-s"
+        },
+        "hi": {
+          "direction": null,
+          "content": "एक ऐतिहासिक प्रयोग में प्लांक का स्थिरांक निर्धारित करने के लिए, एक धातु सतह को विभिन्न तरंग दैर्ध्य के प्रकाश से विकिरणित किया गया था। छोड़े गए फोटोइलेक्ट्रॉन ऊर्जा को एक रोकने वाले संभावित को लागू करके मापा गया था। प्रकाश की घटना तरंग दैर्ध्य ($$\\lambda $$) और संबंधित रोकने वाली संभावना (V<sub>0</sub>) के लिए प्रासंगिक डेटा नीचे दिया गया है:\n<br><br><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n</style>\n<table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-baqh\">$$\\lambda \\left( {\\mu m} \\right)$$</th>\n    <th class=\"tg-baqh\">V<sub>0</sub>(Volt)</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-baqh\">0.3</td>\n    <td class=\"tg-baqh\">2.0</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">0.4</td>\n    <td class=\"tg-baqh\">1.0</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">0.5</td>\n    <td class=\"tg-baqh\">0.4</td>\n  </tr>\n</tbody>\n</table>\n<br><br>मान लीजिए कि c = 3 $$ \\times $$ 10<sup>8</sup> ms<sup>-1</sup> और e = 1.6 $$ \\times $$ 10<sup>-19</sup> C, प्लांक का स्थिरांक (J-s इकाइयों में) इस प्रकार के प्रयोग से पाया जाता है:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "6.0 $$ \\times $$ 10<sup>-34</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "6.6 $$ \\times $$ 10<sup>-34</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "6.4 $$ \\times $$ 10<sup>-34</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "6.8 $$ \\times $$ 10<sup>-34</sup>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "photoelectric-effect",
+      "type": "mcq",
+      "year": 2016,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "In a historical experiment to determine  Planck's constant, a metal surface was  irradiated with light of different  wavelengths. The emitted  photoelectron energies were measured  by applying a stopping potential. The  relevant data for th..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "एक ऐतिहासिक प्रयोग में प्लांक का स्थिरांक निर्धारित करने के लिए, एक धातु सतह को विभिन्न तरंग दैर्ध्य के प्रकाश से विकिरणित किया गया था। छोड़े गए फोटोइलेक्ट्रॉन ऊर्जा को एक रोकने वाले संभावित को लागू करके मापा गया था। प्रकाश की घटना तरंग दैर..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "question_id": "hea650fhpjcp26qk8mig",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "permalink": "an-electron-in-an-excited-state-of-lisup2sup-ion-has-a-jee-advanced-physics-units-and-measurements-ystcyju8jexmtzf2",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "An electron in an excited state of Li<sup>2+</sup> ion has angular momentum $${{3h} \\over {2\\pi }}$$. The de Broglie wavelength of the electron in this state is p$$\\pi$$a<sub>0</sub> (where a<sub>0</sub> is the Bohr radius). The value of p is",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>Angular momentum $$mvr = {{nh} \\over {2\\pi }}$$ where $$r = 3{a_0}$$ where $$n = 3$$, that is, electron in $$L{i^{2 + }}$$ is in second excited state</p>\n<p>$$\\lambda  = {h \\over {mv}} = p\\pi {a_0}$$</p>\n<p>$$ \\Rightarrow n = p\\pi (mv{a_0}) = p\\pi \\left( {{{mvr} \\over 3}} \\right) = {{p\\pi } \\over 3}\\left( {{{3h} \\over {2\\pi }}} \\right) = {{ph} \\over 2}$$</p>\n<p>Therefore, $$p = 2$$.</p>"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "matter-waves-davisson-and-germer-experiment",
+      "type": "integer",
+      "year": 2015,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "An electron in an excited state of Li2+ ion has angular momentum $${{3h} \\over {2\\pi }}$$. The de Broglie wavelength of the electron in this state is p$$\\pi$$a0 (where a0 is the Bohr radius). The value of p is"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "question_id": "k5bin96df03q1kjqlk3a",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "permalink": "for-photo-electric-effect-with-incident-photon-wavelength--jee-advanced-physics-units-and-measurements-28s6hmn05cqpv4oe",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "For photo-electric effect with incident photon wavelength $$\\lambda$$, the stopping potential is V<sub>0</sub>. Identify the correct variation(s) of V<sub>0</sub> with $$\\lambda$$ and $${1 \\over \\lambda }$$.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l11u6vbl/d2b291d6-6a35-41fc-ae82-3a701e2d1e26/aee93810-a9b4-11ec-ad87-91de349ac429/file-1l11u6vbm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l11u6vbl/d2b291d6-6a35-41fc-ae82-3a701e2d1e26/aee93810-a9b4-11ec-ad87-91de349ac429/file-1l11u6vbm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Dual Nature of Radiation Question 22 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l11u7cza/0c017057-91eb-4452-b6d9-f99d16163d68/bc8d3160-a9b4-11ec-ad87-91de349ac429/file-1l11u7czb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l11u7cza/0c017057-91eb-4452-b6d9-f99d16163d68/bc8d3160-a9b4-11ec-ad87-91de349ac429/file-1l11u7czb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Dual Nature of Radiation Question 22 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l11u7xqp/dab9b926-4b81-4e29-a529-1d2e2e017031/cc96e010-a9b4-11ec-ad87-91de349ac429/file-1l11u7xqq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l11u7xqp/dab9b926-4b81-4e29-a529-1d2e2e017031/cc96e010-a9b4-11ec-ad87-91de349ac429/file-1l11u7xqq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Dual Nature of Radiation Question 22 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l11u8ko0/8c8a0e42-54c6-4d80-945d-739f216c04fd/de4c6a00-a9b4-11ec-ad87-91de349ac429/file-1l11u8ko1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l11u8ko0/8c8a0e42-54c6-4d80-945d-739f216c04fd/de4c6a00-a9b4-11ec-ad87-91de349ac429/file-1l11u8ko1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Dual Nature of Radiation Question 22 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1cgo4v6/2f124718-dea4-4502-aead-59a14a1f3c59/6e5fd820-af8c-11ec-b0b3-439ca85bb50d/file-1l1cgo4v7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1cgo4v6/2f124718-dea4-4502-aead-59a14a1f3c59/6e5fd820-af8c-11ec-b0b3-439ca85bb50d/file-1l1cgo4v7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Dual Nature of Radiation Question 22 English Explanation 1\"></p>\n<p>Stopping potential (V<sub>0</sub>) is given by</p>\n<p>$$e{V_0} = {{hc} \\over \\lambda } - \\phi $$</p>\n<p>Graph between V<sub>0</sub> and $$\\lambda$$ :</p>\n<p>$$e{V_0} + \\phi  = {{hc} \\over \\lambda }$$</p>\n<p>$$(e{V_0} + \\phi )\\lambda  = hc$$</p>\n<p>$$(e{V_0} + \\phi )\\lambda $$ = constant</p>\n<p>Here, both e and $$\\phi$$ are also constant. It represents a hyperbola.</p>\n<p>For, V<sub>0</sub> = 0, $$\\lambda  = {{constant} \\over \\phi } = $$ constant</p>\n<p>So correct option is (a).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1cgotvr/9a8b5fc3-85cc-407f-90ee-74c82c9c7605/81b2e570-af8c-11ec-b0b3-439ca85bb50d/file-1l1cgotvs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1cgotvr/9a8b5fc3-85cc-407f-90ee-74c82c9c7605/81b2e570-af8c-11ec-b0b3-439ca85bb50d/file-1l1cgotvs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Dual Nature of Radiation Question 22 English Explanation 2\"></p>\n<p>Graph between V<sub>0</sub> and $${1 \\over \\lambda }$$ :</p>\n<p>$${V_0} = \\left( {{{hc} \\over e}} \\right)\\left( {{1 \\over \\lambda }} \\right) - \\left( {{\\phi  \\over e}} \\right)$$</p>\n<p>It represents a straight line with slope $$\\left( {{{hc} \\over e}} \\right)$$ and intercept $$\\left( { - {\\phi  \\over e}} \\right)$$ on V<sub>0</sub> axis.</p>"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "photoelectric-effect",
+      "type": "mcqm",
+      "year": 2015,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "For photo-electric effect with incident photon wavelength $$\\lambda$$, the stopping potential is V0. Identify the correct variation(s) of V0 with $$\\lambda$$ and $${1 \\over \\lambda }$$."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "question_id": "q0k11vbexg9f1pyvpb1c",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "permalink": "pa-metal-surface-is-illuminated-by-light-of-two-different-jee-advanced-physics-units-and-measurements-avf85fnqmikhj3vo",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A metal surface is illuminated by light of two different wavelengths 248 nm and 310 nm. The maximum speeds of the photoelectrons corresponding to these wavelengths are u<sub>1</sub> and u<sub>2</sub>, respectively. If the ratio u<sub>1</sub> : u<sub>2</sub> = 2 : 1 and hc = 1240 eV nm, the work function of the metal is nearly</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "3.7 eV"
+            },
+            {
+              "identifier": "B",
+              "content": "3.2 eV"
+            },
+            {
+              "identifier": "C",
+              "content": "2.8 eV"
+            },
+            {
+              "identifier": "D",
+              "content": "2.5 eV"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>From Einstein's photoelectric equation,</p>\n<p>kinetic energy of photoelectrons,</p>\n<p>$$K = {1 \\over 2}m{v^2} = {{hc} \\over \\lambda } - \\phi $$ ..... (i)</p>\n<p>For $$\\lambda$$ = 248 nm, v = u<sub>1</sub></p>\n<p>$$\\therefore$$ $${K_1} = {1 \\over 2}mu_1^2 = {{hc} \\over {248}} - \\phi $$ ...... (ii)</p>\n<p>For $$\\lambda$$ = 310 nm, v = u<sub>2</sub></p>\n<p>$$\\therefore$$ $${K_2} = {1 \\over 2}mu_2^2 = {{hc} \\over {310}} - \\phi $$ ....... (iii)</p>\n<p>Divide eqn. (ii) by eqn. (iii),</p>\n<p>$${{u_1^2} \\over {u_2^2}} = {{{{hc} \\over {248}} - \\phi } \\over {{{hc} \\over {310}} - \\phi }} = {{{{1240} \\over {248}} - \\phi } \\over {{{1240} \\over {310}} - \\phi }}$$</p>\n<p>$$ \\Rightarrow {\\left( {{2 \\over 1}} \\right)^2} = {{5 - \\phi } \\over {4 - \\phi }}$$</p>\n<p>$$ \\Rightarrow 16 - 4\\phi  = 5 - \\phi  \\Rightarrow 3\\phi  = 11$$</p>\n<p>or, $$\\phi$$ = 3.67 eV $$\\approx$$ 3.7 eV</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "photoelectric-effect",
+      "type": "mcq",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "A metal surface is illuminated by light of two different wavelengths 248 nm and 310 nm. The maximum speeds of the photoelectrons corresponding to these wavelengths are u1 and u2, respectively. If the ratio u1 : u2 = 2 : 1 and hc = 1240 eV n..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "tfnv4ec7dmwmro9vsdd8",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "modern-physics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "dual-nature-of-radiation",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Using the expression $$2d\\sin \\theta  = \\lambda $$, one calculates the values of d by measuring the corresponding angles $$\\theta $$ in\nthe range 0 to 90<sup>o</sup>. The wavelength $$\\lambda $$ is exactly known and the error in $$\\theta $$ is constant for all values of $$\\theta $$. As $$\\theta $$ increases from 0<sup>o</sup>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the absolute error in d remains constant"
+            },
+            {
+              "identifier": "B",
+              "content": "the absolute error in d increases"
+            },
+            {
+              "identifier": "C",
+              "content": "the fractional error in d remains constant"
+            },
+            {
+              "identifier": "D",
+              "content": "the fractional error in d decreases"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine how the error in $$d$$ behaves as $$\\theta$$ increases, let’s examine the given expression:</p>\n\n<p>$$2d\\sin \\theta = \\lambda$$</p>\n\n<p>We can rearrange this to solve for $$d$$:</p>\n\n<p>$$d = \\frac{\\lambda}{2 \\sin \\theta}$$</p>\n\n<p>Given that the wavelength $$\\lambda$$ is exactly known, any error in the measurement of $$\\theta$$ (denoted as $$\\Delta \\theta$$) will propagate through to the error in $$d$$. To analyze this, we need to consider how the error propagates in the expression for $$d$$.</p>\n\n<p>Assuming the error propagation formula, the differential of $$d$$ with respect to $$\\theta$$ is:</p>\n\n<p>$$d = \\frac{\\lambda}{2 \\sin \\theta}$$</p>\n\n<p>Differentiating with respect to $$\\theta$$:</p>\n\n<p>$$\\frac{d(d)}{d(\\theta)} = \\frac{d}{d(\\theta)} \\left( \\frac{\\lambda}{2 \\sin \\theta} \\right)$$</p>\n\n<p>Using the chain rule, we get the partial derivative:</p>\n\n<p>$$\\frac{d(d)}{d(\\theta)} = -\\frac{\\lambda \\cos \\theta}{2 (\\sin \\theta)^2}$$</p>\n\n<p>The absolute error in $$d$$, denoted as $$\\Delta d$$, is given by:</p>\n\n<p>$$\\Delta d = \\left| \\frac{d(d)}{d(\\theta)} \\Delta \\theta \\right| = \\left| -\\frac{\\lambda \\cos \\theta}{2 (\\sin \\theta)^2} \\right| \\Delta \\theta = \\frac{\\lambda \\cos \\theta}{2 (\\sin \\theta)^2} \\Delta \\theta$$</p>\n\n<p>Here, $$\\Delta \\theta$$ is the constant error in the measurement of $$\\theta$$. From the equation above, we observe that $$\\Delta d$$ depends on $$\\cos \\theta / (\\sin \\theta)^2$$ which is a function of $$\\theta$$.</p>\n\n<p>As $$\\theta$$ increases from $$0^\\circ$$ to $$90^\\circ$$, the behavior is as follows:</p>\n\n<ul>\n\n<li>When $$\\theta$$ is close to $$0^\\circ$$, $$\\cos \\theta \\approx 1$$ and $$\\sin \\theta \\approx 0$$, thus $$\\left( \\frac{\\cos \\theta}{(\\sin \\theta)^2} \\right)$$ becomes very large, indicating that $$\\Delta d$$ is very large.</li>\n\n<li>As $$\\theta$$ approaches $$90^\\circ$$, $$\\cos \\theta \\approx 0$$, and $$\\sin \\theta \\approx 1$$, which makes $$\\left( \\frac{\\cos \\theta}{(\\sin \\theta)^2} \\right)$$ approach zero, thus making $$\\Delta d$$ very small.</li>\n\n</ul>\n\n<p>Therefore, as $$\\theta$$ increases from $$0^\\circ$$ to $$90^\\circ$$, the absolute error in $$d$$ decreases.</p>\n\n<p>To analyze the fractional error in $$d$$ (denoted as $$\\frac{\\Delta d}{d}$$), we note:</p>\n\n<p>$$d = \\frac{\\lambda}{2 \\sin \\theta}$$</p>\n\n<p>So the fractional error is:</p>\n\n<p>$$\\frac{\\Delta d}{d} = \\frac{\\Delta d}{\\frac{\\lambda}{2 \\sin \\theta}} = \\frac{\\frac{\\lambda \\cos \\theta}{2 (\\sin \\theta)^2} \\Delta \\theta}{\\frac{\\lambda}{2 \\sin \\theta}} = \\frac{\\cos \\theta \\Delta \\theta}{\\sin \\theta}$$</p>\n\n<p>As $$\\theta$$ increases from $$0^\\circ$$ to $$90^\\circ$$:</p>\n\n<ul>\n\n<li>Initially (at $$\\theta \\approx 0^\\circ$$), $$\\cos \\theta \\approx 1$$ and $$\\sin \\theta \\approx 0$$, making the fractional error large.</li>\n\n<li>As $$\\theta$$ continues to increase, $$\\cos \\theta$$ decreases and $$\\sin \\theta$$ increases, thus the fractional error $$\\frac{\\cos \\theta \\Delta \\theta}{\\sin \\theta}$$ decreases.</li>\n\n</ul>\n\n<p>Hence, the fractional error in $$d$$ also decreases as $$\\theta$$ increases.</p>\n\n<p>So the correct answer is:</p>\n\n<b>Option D</b>: the fractional error in $$d$$ decreases."
+        }
+      },
+      "permalink": "using-the-expression-2dsin-theta-lambda-one-calc-2013-marks-3-fmaesindxv1tcrf8.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "topic": "davisson-and-germer-experiment",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "Using the expression $$2d\\sin \\theta  = \\lambda $$, one calculates the values of d by measuring the corresponding angles $$\\theta $$ in\nthe range 0 to 90o. The wavelength $$\\lambda $$ is exactly known and the error in $$\\theta $$ is constan..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "question_id": "jdox1cfhsb77cahx0cfw",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "permalink": "pthe-work-functions-of-silver-and-sodium-are-46-and-23-e-jee-advanced-physics-units-and-measurements-vslatooywip3ziyu",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The work functions of silver and sodium are 4.6 and 2.3 eV, respectively. The ratio of the slope of the stopping potential versus frequency plot for silver to that of sodium is ___________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "<p>We have,</p>\n<p>$$V = {{hf} \\over e} - {\\phi  \\over e}$$</p>\n<p>Slope is h/e.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1qqx4r9/6ca66528-95e1-42fc-b273-c4e4ca1bdba9/7cf49140-b767-11ec-bc60-b7dd19a7dbd4/file-1l1qqx4ra.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1qqx4r9/6ca66528-95e1-42fc-b273-c4e4ca1bdba9/7cf49140-b767-11ec-bc60-b7dd19a7dbd4/file-1l1qqx4ra.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2013 Paper 1 Offline Physics - Dual Nature of Radiation Question 19 English Explanation\"></p>\n<p>Slope is the same for both silver and sodium.</p>\n<p>Therefore, the ratio of the slope of the stopping potential versus frequency plot for silver to that of sodium is 1 : 1.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "photoelectric-effect",
+      "type": "integer",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "The work functions of silver and sodium are 4.6 and 2.3 eV, respectively. The ratio of the slope of the stopping potential versus frequency plot for silver to that of sodium is ___________."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "question_id": "7y08rpgvponzddu1zd7f",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pa-proton-is-fired-from-very-far-away-towards-a-nucleus-wi-jee-advanced-physics-units-and-measurements-qhmldcyvj8qtxouv",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A proton is fired from very far away towards a nucleus with charge Q = 120e, where e is the electronic charge. It makes a closest approach of 10 fm to the nucleus. The de Broglie wavelength (in units of fm) of the proton at its start is ____________. (Take the proton mass, $${m_p} = (5 \\times 3) \\times {10^{ - 27}}$$ kg; $$h/e = 4.2 \\times {10^{ - 15}}$$ J.s/C; $${1 \\over {4\\pi {\\varepsilon _0}}} = 9 \\times {10^9}$$ m/F; 1 fm = 10<sup>15</sup> m.)</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "7",
+          "explanation": "<p>Let initial and final kinetic energies of the proton be K<sub>i</sub> and K<sub>f</sub> and corresponding potential energies be U<sub>i</sub> and U<sub>f</sub>. When proton is far away from the nucleus (r $$\\to$$ $$\\infty$$), its potential energy is</p>\n<p>$${U_i} = \\mathop {\\lim }\\limits_{r \\to \\infty } {1 \\over {4\\pi {\\varepsilon _0}}}{{120{e^2}} \\over r} = 0$$.</p>\n<p>At closest distance, the proton comes to rest momentarily, giving K<sub>f</sub> = 0. The potential energy at closest distance is</p>\n<p>$${U_f} = {1 \\over {4\\pi {\\varepsilon _0}}}{{120{e^2}} \\over a}$$,</p>\n<p>where a is the distance of closest approach. Since electrostatic force is conservative, total energy is conserved i.e., $${K_i} + {U_i} = {K_f} + {U_f}$$. Substitute the values to get</p>\n<p>$${K_i} = {U_f} = {1 \\over {4\\pi {\\varepsilon _0}}}{{120{e^2}} \\over a}$$</p>\n<p>The de-Broglie wavelength of the proton is given by</p>\n<p>$${\\lambda _i} = {h \\over {{p_i}}} = {h \\over {\\sqrt {2{m_p}{K_i}} }} = {h \\over e}\\sqrt {{{4\\pi {\\varepsilon _0}a} \\over {240{m_p}}}} $$</p>\n<p>$$ = 4.2 \\times {10^{ - 15}}{\\left( {{{10 \\times {{10}^{ - 15}}} \\over {9 \\times {{10}^9} \\times 240 \\times (5/3) \\times {{10}^{ - 27}}}}} \\right)^{1/2}}$$</p>\n<p> = 7 fm.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "matter-waves-davisson-and-germer-experiment",
+      "type": "integer",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "A proton is fired from very far away towards a nucleus with charge Q = 120e, where e is the electronic charge. It makes a closest approach of 10 fm to the nucleus. The de Broglie wavelength (in units of fm) of the proton at its start is ___..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "question_id": "1b1gfxvuqftcpmnn4nkv",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "pa-silver-sphere-of-radius-1-cm-and-work-function-47-ev-i-jee-advanced-physics-units-and-measurements-flqeqrqygitdihfd",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A silver sphere of radius 1 cm and work function 4.7 eV is suspended from an insulating thread in free-space. It is under continuous illumination of 200 nm wavelength light. As photoelectrons are emitted, the sphere gets charged and acquires a potential. The maximum number of photoelectrons emitted from the spheres is A $$\\times$$ 10<sup>Z</sup> (where 1 < A < 10). The value of Z is _____________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "7",
+          "explanation": "<p>The silver sphere gets positively charged due to emission of photoelectrons. This positively charged sphere attracts (binds) the emitted photoelectrons. The emitted photoelectrons cannot escape if their kinetic energies (hc/$$\\lambda$$ $$-$$ $$\\phi$$) are less than or equal to their potential energies $$\\left( {{1 \\over {4\\pi {\\varepsilon _0}}}{{n{e^2}} \\over r}} \\right)$$. Thus, in limiting case,</p>\n<p>$${{hc} \\over \\lambda } - \\phi  = {1 \\over {4\\pi {\\varepsilon _0}}}{{n{e^2}} \\over r}$$ ..... (1)</p>\n<p>Substitute the values of various parameters in equation (1),</p>\n<p>$${{1242} \\over {200}} - 4.7 = {{n(9 \\times {{10}^9})(1.6 \\times {{10}^{ - 19}})} \\over {{{10}^{ - 2}}}}$$,<p>\n<p>to get n = 1.04 $$\\times$$ 10<sup>7</sup>. [We have used hc = 1242 eV-nm.]</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "photoelectric-effect",
+      "type": "integer",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "A silver sphere of radius 1 cm and work function 4.7 eV is suspended from an insulating thread in free-space. It is under continuous illumination of 200 nm wavelength light. As photoelectrons are emitted, the sphere gets charged and acquire..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "prn5ssmxx0wap45damdw",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "pthe-activity-of-a-freshly-prepared-radioactive-sample-is-jee-advanced-physics-units-and-measurements-hxstxa8chjgaypj0",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The activity of a freshly prepared radioactive sample is 10<sup>10</sup> disintegrations per second, whose mean life is 10<sup>9</sup> s. The mass of an atom of this radioisotope is 10<sup>$$-$$25</sup> kg. The mass (in mg) of the radioactive sample is _________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "<p>Activity $$A = \\lambda N$$, where $$\\lambda$$ is decay constant and N is number of particles present. Therefore,</p>\n<p>$$N = {A \\over \\lambda } = A\\tau $$</p>\n<p>where $$\\tau$$ = 1 / $$\\lambda$$ is the mean life of the sample. The mass of the sample is</p>\n<p>$$M = mN = mA\\tau $$</p>\n<p>where m is mass of an atom. Therefore, the mass of the radioactive sample is</p>\n<p>M = 10<sup>$$-$$25</sup> $$\\times$$ 10<sup>10</sup> $$\\times$$ 10<sup>9</sup> = 10<sup>$$-$$6</sup> kg = 1 mg</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "particle-nature-of-light-the-photon",
+      "type": "integer",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "The activity of a freshly prepared radioactive sample is 1010 disintegrations per second, whose mean life is 109 s. The mass of an atom of this radioisotope is 10$$-$$25 kg. The mass (in mg) of the radioactive sample is _________."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "47j0n1props1fxsusf26",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "permalink": "pan-alpha-particle-and-a-proton-are-accelerated-from-jee-advanced-physics-dual-nature-of-radiation-aviuvcelw6vyzgy3",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>An $$\\alpha$$-particle and a proton are accelerated from the rest by a potential difference of 100 V. After this, their de Broglie wavelengths are $$\\lambda$$<sub>$$\\alpha$$</sub> and $$\\lambda$$<sub>p</sub>, respectively. The ratio $${{{\\lambda _p}} \\over {{\\lambda _\\alpha }}}$$, to the nearest integer, is _____________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "<p>The de Broglie wavelength of a particle with momentum p is given by</p>\n<p>$$\\lambda$$ = h/p.</p>\n<p>The momentum and kinetic energy of a particle of mass m are related by</p>\n<p>$$p = \\sqrt {2mK} $$.</p>\n<p>The kinetic energy of a charge q, accelerated through potential V, is given by K = qV. Thus,</p>\n<p>$$\\lambda  = h/\\sqrt {2mK}  = h/\\sqrt {2mqV} $$,</p>\n<p>which gives</p>\n<p>$${{{\\lambda _p}} \\over {{\\lambda _\\alpha }}} = \\sqrt {{{2{m_\\alpha }{q_\\alpha }V} \\over {2{m_p}{q_p}V}}}  = \\sqrt {{{2\\,.\\,4u\\,.\\,2e\\,.\\,100} \\over {2\\,.\\,1u\\,.\\,1e\\,.\\,100}}} $$</p>\n<p>$$ = \\sqrt 8  = 2.8 \\approx 3$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "matter-waves-davisson-and-germer-experiment",
+      "type": "integer",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "An $$\\alpha$$-particle and a proton are accelerated from the rest by a potential difference of 100 V. After this, their de Broglie wavelengths are $$\\lambda$$$$\\alpha$$ and $$\\lambda$$p, respectively. The ratio $${{{\\lambda _p}} \\over {{\\la..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "mbv9evdw3q7qz72n2j3k",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pphotoelectric-effect-experiments-are-performed-using-thre-jee-advanced-physics-motion-u1zsenr3eyrcyzfw",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Photoelectric effect experiments are performed using three different metal plates p, q and r having work functions $$\\phi_p=2.0~\\mathrm{eV}$$, $$\\phi_q=2.5~\\mathrm{eV}$$ and $$\\phi_r=3.0~\\mathrm{eV}$$, respecticely. A light beam containing wavelengths of 550 nm, 450 nm and 350 nm with equal intensities illuminates each of the plates. The correct I-V graph for the experiment is (Take hc = 1240 eV nm)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4263x/91d241f7-0bf4-402e-a57e-ccd099c83f8f/7853eac0-cddf-11ed-9ce1-7bd2ccf24231/file-1lft4263y.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4263x/91d241f7-0bf4-402e-a57e-ccd099c83f8f/7853eac0-cddf-11ed-9ce1-7bd2ccf24231/file-1lft4263y.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Dual Nature of Radiation Question 11 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft42kou/8e7bbf1d-0e86-48e4-8fd5-295fcc5dea2b/839785e0-cddf-11ed-9ce1-7bd2ccf24231/file-1lft42kov.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft42kou/8e7bbf1d-0e86-48e4-8fd5-295fcc5dea2b/839785e0-cddf-11ed-9ce1-7bd2ccf24231/file-1lft42kov.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Dual Nature of Radiation Question 11 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft434z5/f05944ff-2a21-400a-9098-4ac2e32d40dd/93433610-cddf-11ed-9ce1-7bd2ccf24231/file-1lft434z6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft434z5/f05944ff-2a21-400a-9098-4ac2e32d40dd/93433610-cddf-11ed-9ce1-7bd2ccf24231/file-1lft434z6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Dual Nature of Radiation Question 11 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft43jy5/05c99644-a810-4e27-a0aa-e5a86ce09174/9ed406d0-cddf-11ed-9ce1-7bd2ccf24231/file-1lft43jy6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft43jy5/05c99644-a810-4e27-a0aa-e5a86ce09174/9ed406d0-cddf-11ed-9ce1-7bd2ccf24231/file-1lft43jy6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Dual Nature of Radiation Question 11 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>We have</p>\n<p>$$E = \\left( {{{hc} \\over \\lambda }} \\right)$$ J $$ \\Rightarrow E = \\left( {{{1240} \\over {\\lambda \\,nm}}} \\right)$$ eV</p>\n<p>Therefore,</p>\n<p>$$\\lambda_1$$ = 550 nm, $$E_1$$ = 2.25 eV</p>\n<p>$$\\lambda_2$$ = 450 nm, $$E_2$$ = 2.75 eV</p>\n<p>$$\\lambda_3$$ = 350 nm, $$E_3$$ = 3.5 eV</p>\n<p>Also,</p>\n<p>$$\\phi_p=2$$ eV, all $$\\lambda$$'s cause emissions.</p>\n<p>$$\\phi_q=2.5$$ eV, last two $$\\lambda$$'s cause emissions.</p>\n<p>$$\\phi_r=3$$ eV, only the last $$\\lambda$$ causes emissions.</p>\n<p>That is, $$I_p > I_q > I_r$$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "photoelectric-effect",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "Photoelectric effect experiments are performed using three different metal plates p, q and r having work functions $$\\phi_p=2.0~\\mathrm{eV}$$, $$\\phi_q=2.5~\\mathrm{eV}$$ and $$\\phi_r=3.0~\\mathrm{eV}$$, respecticely. A light beam containing ..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "ikhk0e3p93wl9szfvmve",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pthe-allowed-energy-for-the-particle-for-a-particular-valu-jee-advanced-physics-motion-kvtaspb0vrnizjh3",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The allowed energy for the particle for a particular value of $$n$$ is proportional to</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${a^{ - 2}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${a^{ - 3/2}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${a^{ - 1}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${a^2}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>We have,</p>\n<p>$$a = n\\left( {{\\lambda  \\over 2}} \\right) \\Rightarrow \\lambda  = {{2a} \\over n}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrmdbi3/b772a62d-e133-49ee-985d-13aee8facf00/816bfbc0-cd0d-11ed-8124-cf50c8498624/file-1lfrmdbi4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrmdbi3/b772a62d-e133-49ee-985d-13aee8facf00/816bfbc0-cd0d-11ed-8124-cf50c8498624/file-1lfrmdbi4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Dual Nature of Radiation Question 12 English Explanation\"></p>\n<p>From de Broglie relation, we have</p>\n<p>$$\\lambda  = {h \\over {mv}} = {h \\over p}$$</p>\n<p>Therefore, $${{2a} \\over n} = {h \\over p} \\Rightarrow p = {{nh} \\over {2a}}$$</p>\n<p>Now, $$E = {{{p^2}} \\over {2m}} = {{{n^2}{h^2}} \\over {8m{a^2}}} \\Rightarrow E \\propto {a^{ - 2}}$$</p>",
+          "comprehension": "<p>When a particle is restricted to move along x-axis between x = 0 and x = a, where a is of nanometer dimension, its energy can take only certain specific values. The allowed energies of the particle moving in such a restricted region, correspond to the formation of standing waves with nodes at its ends x = 0 and x = a. The wavelength of this standing wave is related to the linear momentum p of the particle according to the de Broglie relation. The energy of the particle of mass m is related to its linear momentum as $$E = {{{p^2}} \\over {2m}}$$. Thus, the energy of the particle can be denoted by a quantum number 'n' taking values 1, 2, 3, ... (n = 1, called the ground state) corresponding to the number of loops in the standing wave.</p>\n<p>Use the model described above to answer the following three questions for a particle moving in the line x = 0 to x = a. Take $$h = 6.6 \\times {10^{ - 34}}$$ J-s and $$e = 1.6 \\times {10^{ - 19}}$$ C.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "matter-waves-davisson-and-germer-experiment",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "The allowed energy for the particle for a particular value of $$n$$ is proportional to"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "mfjhiyp7pns47zpm4dzk",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pif-the-mass-of-the-particle-is-m10times10-30-kg-jee-advanced-physics-motion-eutpxjnu6gaoyinn",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>If the mass of the particle is $$m=1.0\\times10^{-30}$$ kg and $$a=6.6$$ nm, the energy of the particle in its ground state is closest to</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.8 meV"
+            },
+            {
+              "identifier": "B",
+              "content": "8 meV"
+            },
+            {
+              "identifier": "C",
+              "content": "80 meV"
+            },
+            {
+              "identifier": "D",
+              "content": "800 meV"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>For ground state, $$n = 1$$. Therefore,</p>\n<p>$${E_1} = {{{h^2}} \\over {8m{a^2}}} = \\left[ {{{{{(6.6 \\times {{10}^{ - 34}})}^2}} \\over {8 \\times {{10}^{ - 30}} \\times {{(6.6 \\times {{10}^{ - 9}})}^2}}}} \\right]$$ J</p>\n<p>Therefore, $${{{E_1}} \\over e} = \\left( {{{{E_1}} \\over {1.6 \\times {{10}^{ - 19}}}}} \\right)$$ meV = 8 meV</p>",
+          "comprehension": "<p>When a particle is restricted to move along x-axis between x = 0 and x = a, where a is of nanometer dimension, its energy can take only certain specific values. The allowed energies of the particle moving in such a restricted region, correspond to the formation of standing waves with nodes at its ends x = 0 and x = a. The wavelength of this standing wave is related to the linear momentum p of the particle according to the de Broglie relation. The energy of the particle of mass m is related to its linear momentum as $$E = {{{p^2}} \\over {2m}}$$. Thus, the energy of the particle can be denoted by a quantum number 'n' taking values 1, 2, 3, ... (n = 1, called the ground state) corresponding to the number of loops in the standing wave.</p>\n<p>Use the model described above to answer the following three questions for a particle moving in the line x = 0 to x = a. Take $$h = 6.6 \\times {10^{ - 34}}$$ J-s and $$e = 1.6 \\times {10^{ - 19}}$$ C.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "matter-waves-davisson-and-germer-experiment",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "If the mass of the particle is $$m=1.0\\times10^{-30}$$ kg and $$a=6.6$$ nm, the energy of the particle in its ground state is closest to"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "1ntssvej5z5a281bhstf",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pwhich-one-of-the-following-statements-is-wrong-in-the-con-jee-advanced-physics-motion-tbaa6cbjhd58fhju",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Which one of the following statements is WRONG in the context of X-rays generated from a X-ray tube?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Wavelength of characteristic X-rays decreases when the atomic number of the target increases."
+            },
+            {
+              "identifier": "B",
+              "content": "Cut-off wavelength of the continuous X-rays depends on the atomic number of the target."
+            },
+            {
+              "identifier": "C",
+              "content": "Intensity of the characteristic X-rays depends on the electrical power given to the X-ray tube."
+            },
+            {
+              "identifier": "D",
+              "content": "Cut-off wavelength of the continuous X-rays depends on the energy of the electrons in the X-ray tube."
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The cut-off wavelength is given by $${\\lambda _{\\min }} = {{hc} \\over {eV}}$$</p>\n<p>The cut-off wavelength depends on the energy eV of the accelerated electrons and is independent of the atomic number of target. Thus, greater the accelerating voltage for electrons, higher will be kinetic energy it attains before striking the target, higher will be the frequency of X-rays and smaller will be wavelength.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "particle-nature-of-light-the-photon",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "Which one of the following statements is WRONG in the context of X-rays generated from a X-ray tube?"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "ihago4zvf96rop67egvv",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pelectrons-with-de-broglie-wavelength-lambda-fall-on-jee-advanced-physics-motion-kfjkfbic5clqocyj",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Electrons with de-Broglie wavelength $$\\lambda$$ fall on the target in an X-ray tube. The cut-off wavelength of the emitted X-rays is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\lambda_{0}=\\frac{2 m c \\lambda^{2}}{h}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\lambda_{0}=\\frac{2 h}{m c}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\lambda_{0}=\\frac{2 m^{2} c^{2} \\lambda^{3}}{h^{2}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\lambda_{0}=\\lambda$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The cut off wavelength is given by</p>\n<p>$$\\lambda_{0}=\\frac{h c}{e v}$$ ..... (i)</p>\n<p>According to de-Broglie equation</p>\n<p>$$\\lambda=\\frac{h}{p}=\\frac{h}{\\sqrt{2 m e \\mathrm{~V}}}$$</p>\n<p>$$\\Rightarrow \\quad \\lambda^{2}=\\frac{h^{2}}{2 m e \\mathrm{~V}}$$</p>\n<p>$$\\Rightarrow \\quad \\mathrm{V}=\\frac{h^{2}}{2 m e \\lambda^{2}}$$ ..... (ii)</p>\n<p>From (i) and (ii)</p>\n<p>$$\\lambda_{0}=\\frac{h c \\times 2 m e \\lambda^{2}}{e h^{2}}=2 m c \\lambda^{2}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "matter-waves-davisson-and-germer-experiment",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "Electrons with de-Broglie wavelength $$\\lambda$$ fall on the target in an X-ray tube. The cut-off wavelength of the emitted X-rays is"
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "question_id": "cn9lq17nhx9t9iwyk4vg",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "psome-lawsprocesses-are-given-in-column-i-match-these-wi-jee-advanced-physics-motion-g8icwkz3m3h4s4e4",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Some laws/processes are given in Column I. Match these with the physical phenomena given in Column II and indicate your answer by darkening appropriate bubbles in the 4 $$\\times$$ 4 matrix given in the ORS.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 472px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 192px\">\n<col style=\"width: 53px\">\n<col style=\"width: 179px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">(A)</td>\n    <td class=\"tg-0pky\">Transition between two atomic energy levels</td>\n    <td class=\"tg-c3ow\">(P)</td>\n    <td class=\"tg-0pky\">Characteristic X-rays</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(B)</td>\n    <td class=\"tg-0pky\">Electron emission from a material</td>\n    <td class=\"tg-c3ow\">(Q)</td>\n    <td class=\"tg-0pky\">Photoelectric effect</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(C)</td>\n    <td class=\"tg-0pky\">Mosley's law</td>\n    <td class=\"tg-c3ow\">(R)</td>\n    <td class=\"tg-0pky\">Hydrogen spectrum</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(D)</td>\n    <td class=\"tg-0pky\">Change of photon energy into kinetic energy of electrons</td>\n    <td class=\"tg-c3ow\">(S)</td>\n    <td class=\"tg-0pky\">$$\\beta$$-decay</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "A $$\\to$$ (P); B $$\\to$$ (Q); C $$\\to$$ (P); D $$\\to$$ (Q)"
+            },
+            {
+              "identifier": "B",
+              "content": "A $$\\to$$ (R); B $$\\to$$ (Q, S); C $$\\to$$ (P); D $$\\to$$ (Q, P)"
+            },
+            {
+              "identifier": "C",
+              "content": "A $$\\to$$ (P, R); B $$\\to$$ (Q, S); C $$\\to$$ (P); D $$\\to$$ (Q)"
+            },
+            {
+              "identifier": "D",
+              "content": "A $$\\to$$ (P, R); B $$\\to$$ (Q, S); C $$\\to$$ (Q); D $$\\to$$ (P)"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": "A $$\\to$$ (P, R); B $$\\to$$ (Q, S); C $$\\to$$ (P); D $$\\to$$ (Q)",
+          "explanation": "<p>Reason : Characteristics x-ray are produced due to transition of electron from one energy level to another. Similarly, the line in the hydrogen spectrum is obtained due to transition of electron from one energy level to another.</p>\n<p>A $$\\to$$ P, R</p>\n<p>Reason : In photoelectric effect electron from the metal surface are emitted upon the incidence of light of appropriate freaquency.</p>\n<p>Note : In $$\\beta$$-decay, electrons are emitted from the nucleus of atom.</p>\n<p>B $$\\to$$ Q, S</p>\n<p>Moseley gave a law which related frequency of emitted X-ray with the atomic number of the target material.</p>\n<p>$$\\sqrt v=a(z-b)$$</p>\n<p>C $$\\to$$ P</p>\n<p>In photo electric effect, energy of photons of incident ray gets converted into K.E of emitted electron.</p>\n<p>D $$\\to$$ Q</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "photoelectric-effect",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "Some laws/processes are given in Column I. Match these with the physical phenomena given in Column II and indicate your answer by darkening appropriate bubbles in the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg  {border-collapse:collapse;b..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "d00wrqv9cm0wbdsee7t8",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pstatement-1p-pif-the-accelerating-potential-in-an-x-jee-advanced-physics-motion-iwlf6lkzqkl2aylz",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p><b>Statement 1 :</b></p>\n<p>If the accelerating potential in an X-ray tube is increased, the wavelengths of the characteristic X-rays do not change.</p>\n\n<p><b>Statement 2 :</b></p>\n<p>When an electron beam strikes the target in an X-ray tube, part of the kinetic energy is converted into X-ray energy.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement 1 is True, Statement 2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement 1 is False, Statement 2 is True"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Since, Potential increases</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggdcumc/d235f8a3-20a2-4f1b-b007-c95511411adf/a4180c40-a361-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggdcumd.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggdcumc/d235f8a3-20a2-4f1b-b007-c95511411adf/a4180c40-a361-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggdcumd.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Dual Nature of Radiation Question 10 English Explanation 1\"></p>\n<p>If we give the constant energy release we observe constant wavelength. So the statement 1 is true.</p>\n<p>From Einstein equation,</p>\n<p>$${{hc} \\over \\lambda } = W + K.E$$</p>\n<p>W = work function (2.4) eV</p>\n<p>If we given energy above 2.4 eV it will release photon.</p>\n<p>Statement 2 is true.</p>\n<p>Hint : ($$\\lambda_{ray}$$ $$\\mu$$ target material) does not depend on V$$_0$$ (accelerating potential)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggddutj/6185b1ec-ad19-4807-bfe2-4f088c9cc2b3/c00eb570-a361-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggddutk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggddutj/6185b1ec-ad19-4807-bfe2-4f088c9cc2b3/c00eb570-a361-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggddutk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Dual Nature of Radiation Question 10 English Explanation 2\"></p>\n<p>Statement 1 is True</p>\n<p>Statement 2 is True, it follows the energy conservatioin.</p>\n<p>But statement 2 is not correct explanation of statement 1.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "photoelectric-effect",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "Statement 1 :\nIf the accelerating potential in an X-ray tube is increased, the wavelengths of the characteristic X-rays do not change.\n\nStatement 2 :\nWhen an electron beam strikes the target in an X-ray tube, part of the kinetic energy is c..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "yuw0q8bon2qebif95ubm",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pthe-graph-between-frac1lambda-and-stopping-potent-jee-advanced-physics-motion-rhzpylkt8om0bpuj",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The graph between $\\frac{1}{\\lambda}$ and stopping potential (V) of three metals having work functions $\\phi_1, \\phi_2$, and $\\phi_3$ in an experiment of photoelectric effect is plotted as shown in the figure. Which of the following statement(s) is/are correct? (Here, $\\lambda$ is the wavelength of the incident ray).</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgt21m64/8a512c64-8929-4ffc-bebf-ea4191ce2231/97afebc0-aa5b-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt21m65.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgt21m64/8a512c64-8929-4ffc-bebf-ea4191ce2231/97afebc0-aa5b-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt21m65.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Dual Nature of Radiation Question 1 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>Ratio of work functions $\\phi_1: \\phi_2: \\phi_3 =1: 2: 4$.</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>Ratio of work functional $\\phi_1: \\phi_2: \\phi_3 =4: 2: 1$.</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\tan \\theta$ is directly proportional to $\\frac{h c}{e}$, where $h$ is Planck's constant and $c$ is the speed of light.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>The violet colour light can eject photoelectrons from metals 2 and 3 .</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The energy of incident photon $\\frac{h c}{\\lambda}$ is equal to the sum of minimum energy required to emit the photoelectron (work function) and kinetic energy K of the ejected photoelectron.</p>\n<p>The stopping potential V converts the kinetic energy K of ejected photoelectron into potential energy eV , there by stopping its motion.</p>\n<p>Thus, $\\frac{h c}{\\lambda}=\\phi+\\mathrm{K}=\\phi+\\mathrm{eV}$</p>\n<p>$$ \\Rightarrow \\frac{h c}{\\lambda}-\\phi=\\mathrm{eV} . $$</p>\n<p>i.e., $\\mathrm{V}=\\frac{h c}{e} \\cdot \\frac{1}{\\lambda}-\\frac{\\phi}{e} \\quad$ Slope, $m=\\tan \\theta=\\frac{h c}{e}$</p>\n<p>(on comparing with $y=m x-c$ )</p>\n<p>At $\\mathrm{V}=0, \\phi=\\frac{h c}{\\lambda}$ which gives</p>\n<p>$$ \\phi_1=0.001 h c, \\phi_2=0.002 h c, \\phi_3=0.004 h c, $$</p>\n<p>(For metal 1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(metal 2) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(metal 3)</p>\n<p>Thus, $\\phi_1: \\phi_2: \\phi_3:: 1: 2: 4$.</p>\n<p>Also, $\\phi=\\frac{h c}{\\lambda_0}$, where $\\lambda_0$ is threshold wavelength,</p>\n<p>$\\therefore$ The wavelength corresponding to $\\phi_1, \\phi_2, \\lambda_3$ are</p>\n<p>$$ \\begin{aligned} & \\lambda_1=\\frac{1}{0.001}=1000 \\mathrm{~nm} \\\\ & \\lambda_2=\\frac{1}{0.002}=500 \\mathrm{~nm} \\\\ & \\lambda_3=\\frac{1}{0.004}=250 \\mathrm{~nm} \\end{aligned} $$</p>\n<p>The wavelength of violet colour light is close to 400 nm , which is more than the threshold wavelength for metal 3 . Thus violet light can eject photoelectrons from from metal 2 but not from metal 3 .</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "photoelectric-effect",
+      "type": "mcqm",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "The graph between $\\frac{1}{\\lambda}$ and stopping potential (V) of three metals having work functions $\\phi_1, \\phi_2$, and $\\phi_3$ in an experiment of photoelectric effect is plotted as shown in the figure. Which of the following stateme..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "8i9s4ix78g73tbtwuxlu",
+      "chapter": "dual-nature-of-radiation",
+      "chapterGroup": "modern-physics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pthe-potential-energy-of-a-particle-of-mass-m-is-given-by-jee-advanced-physics-motion-ekx1dttqsfekwqug",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The potential energy of a particle of mass m \nis given by</p>\n<p>$$\\mathrm{U}(x)=\\left\\{\\begin{array}{cc}\\mathrm{E}_{0} & 0 \\leq x \\leq 1 \\\\ 0 & x>1\\end{array}\\right.$$</p>\n<p>$$\\lambda_{1}$$ and $$\\lambda_{2}$$ are the de Broglie wavelengths of the particle, when $$0 \\leq x \\leq 1$$ and $$x > 1$$, respectively. If the total energy of particle is $$2 \\mathrm{E}_{0}$$, find $$\\frac{\\lambda_{1}}{\\lambda_{2}}$$.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "2"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sqrt3$$"
+            },
+            {
+              "identifier": "D",
+              "content": "3"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": "$$\\sqrt2$$",
+          "explanation": "<p>$$U(x) = \\left\\{ {\\matrix{\n   {{E_0}} & {0 \\le x \\le 1}  \\cr \n   0 & {x > 1}  \\cr \n\n } } \\right.$$</p>\n<p>$$K.E = \\left\\{ {\\matrix{\n   {2{E_0} - {E_0} = {E_0}} & {0 \\le x \\le 1}  \\cr \n   {2{E_0} - 0 = 2{E_0}} & {x > 1}  \\cr \n\n } } \\right.$$</p>\n<p>From $$\\lambda  = {h \\over {\\sqrt {2mE} }}$$</p>\n<p>$${\\lambda _1} = {h \\over {\\sqrt {2m{E_0}} }}$$ and $${\\lambda _2} = {h \\over {\\sqrt {2m{E_0}} }} = {h \\over {\\sqrt {4m{E_0}} }}$$</p>\n<p>Now $${{{\\lambda _1}} \\over {{\\lambda _2}}} = {{{h \\over {\\sqrt {2m{E_0}} }}} \\over {{h \\over {\\sqrt {4m{E_0}} }}}} = {{\\sqrt {4m{E_0}} } \\over {\\sqrt {2m{E_0}} }} = \\sqrt {{{4m{E_0}} \\over {2m{E_0}}}} \\sqrt 2 $$</p>\n<p>$${{{\\lambda _1}} \\over {{\\lambda _2}}} = \\sqrt 2 $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "matter-waves-davisson-and-germer-experiment",
+      "type": "mcq",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Dual Nature of Radiation • Physics",
+          "excerpt": "The potential energy of a particle of mass m \nis given by\n$$\\mathrm{U}(x)=\\left\\{\\begin{array}{cc}\\mathrm{E}_{0} & 0 \\leq x \\leq 1 \\\\ 0 & x>1\\end{array}\\right.$$\n$$\\lambda_{1}$$ and $$\\lambda_{2}$$ are the de Broglie wavelengths of the part..."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    }
+  ]
+}

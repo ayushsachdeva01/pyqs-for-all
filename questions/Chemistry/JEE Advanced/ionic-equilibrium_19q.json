@@ -1,0 +1,1252 @@
+{
+  "questions": [
+    {
+      "question_id": "sichkv52st27kmvajfcw",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "pthe-solubility-of-barium-iodate-in-an-aqueous-solution-pr-jee-advanced-chemistry-tl2p83jecf7eumj1",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The solubility of barium iodate in an aqueous solution prepared by mixing 200 mL of 0.010 M barium nitrate with 100 mL of 0.10 M sodium iodate is $\\boldsymbol{X} \\times 10^{-6} \\mathrm{~mol} \\mathrm{dm}^{-3}$. The value of $\\boldsymbol{X}$ is ____________.</p>\n<p><b>Use:</b> Solubility product constant $\\left(K_{\\mathrm{sp}}\\right)$ of barium iodate $=1.58 \\times 10^{-9}$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "3.85TO4.15",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maxnmjgm/7e588137-eb25-46b8-b1aa-7b3828dd5d56/d39f9a60-3619-11f0-bd21-139d2e3650ba/file-jaoe38c1maxnmjgn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maxnmjgm/7e588137-eb25-46b8-b1aa-7b3828dd5d56/d39f9a60-3619-11f0-bd21-139d2e3650ba/file-jaoe38c1maxnmjgn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Chemistry - Ionic Equilibrium Question 2 English Explanation\">\n<p>Calculate the concentration of iodate ions $\\left[\\text{IO}_3^-\\right]$ in the equilibrium mixture:</p>\n\n\n<p></p><p>The concentration in the prepared solution is given by:</p>\n<p>$      \\left[\\text{IO}_3^-\\right]_{\\text{eqm}} = \\frac{6}{300} = 0.02 \\, \\text{M}      $</p><p></p>\n\n\n<p></p><p>Write the expression for the solubility product constant ($ K_{\\text{sp}} $) for barium iodate:</p>\n<p>$    K_{\\text{sp}} = [\\text{Ba}^{2+}][\\text{IO}_3^-]^2    $</p><p></p>\n<p></p><p>Rearrange to solve for the concentration of barium ions $[\\text{Ba}^{2+}]$:</p>\n<p>$    [\\text{Ba}^{2+}] = \\frac{1.58 \\times 10^{-9}}{(0.02)^2} = 3.95 \\times 10^{-6} \\, \\text{M}    $</p><p></p>\n<p></p><p>The solubility of $\\text{Ba}(\\text{IO}_3)_2$, which is the same as the concentration of barium ions in this context, is:</p>\n<p>$    X = 3.95    $</p><p></p>\n\n<p>Thus, the solubility constant $ X $ is $ 3.95 $, and the solubility of barium iodate is $ 3.95 \\times 10^{-6} \\, \\text{mol dm}^{-3} $.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>200 mL 0.010 M बेरियम नाइट्रेट (barium nitrate) को 100 mL 0.10 M सोडियम आयोडेट (sodium iodate) में मिश्रित करने पर बने एक जलीय विलयन में बेरियम आयोडेट (barium iodate) की विलेयता (solubility) $X \\times 10^{-6} \\mathrm{~mol} ~\\mathrm{dm}^{-3}$ है। $X$ का मान ________ है।</p>\n<p>उपयोग करें: बेरियम आयोडेट का विलेयता गुणनफल (solubility product) नियतांक $\\left(K_{\\mathrm{sp}}\\right)=1.58 \\times 10^{-9}$",
+          "options": [],
+          "correct_options": [],
+          "answer": "3.85TO4.15",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1maxnmjgm/7e588137-eb25-46b8-b1aa-7b3828dd5d56/d39f9a60-3619-11f0-bd21-139d2e3650ba/file-jaoe38c1maxnmjgn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1maxnmjgm/7e588137-eb25-46b8-b1aa-7b3828dd5d56/d39f9a60-3619-11f0-bd21-139d2e3650ba/file-jaoe38c1maxnmjgn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Chemistry - Ionic Equilibrium Question 2 Hindi Explanation\">\n<p>साम्यावस्था मिश्रण में आयोडेट आयनों $\\left[\\text{IO}_3^-\\right]$ की सांद्रता की गणना कीजिए:</p>\n\n\n<p></p><p>तैयार विलयन में सांद्रता निम्न प्रकार दी गई है:</p>\n<p>$      \\left[\\text{IO}_3^-\\right]_{\\text{eqm}} = \\frac{6}{300} = 0.02 \\, \\text{M}      $</p><p></p>\n\n\n<p></p><p>बेरियम आयोडेट के लिए विलेयता गुणनफल स्थिरांक ($ K_{\\text{sp}} $) के लिए व्यंजक लिखिए:</p>\n<p>$    K_{\\text{sp}} = [\\text{Ba}^{2+}][\\text{IO}_3^-]^2    $</p><p></p>\n<p></p><p>बेरियम आयनों $[\\text{Ba}^{2+}]$ की सांद्रता के लिए हल करने हेतु पुनर्व्यवस्थित कीजिए:</p>\n<p>$    [\\text{Ba}^{2+}] = \\frac{1.58 \\times 10^{-9}}{(0.02)^2} = 3.95 \\times 10^{-6} \\, \\text{M}    $</p><p></p>\n<p></p><p>$\\text{Ba}(\\text{IO}_3)_2$ की विलेयता, जो इस संदर्भ में बेरियम आयनों की सांद्रता के समान है, निम्न है:</p>\n<p>$    X = 3.95    $</p><p></p>\n\n<p>इस प्रकार, विलेयता स्थिरांक $ X $ का मान $ 3.95 $ है, और बेरियम आयोडेट की विलेयता $ 3.95 \\times 10^{-6} \\, \\text{mol dm}^{-3} $ है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "solubility-product-and-common-ion-effect",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "The solubility of barium iodate in an aqueous solution prepared by mixing 200 mL of 0.010 M barium nitrate with 100 mL of 0.10 M sodium iodate is $\\boldsymbol{X} \\times 10^{-6} \\mathrm{~mol} \\mathrm{dm}^{-3}$. The value of $\\boldsymbol{X}$ ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "200 mL 0.010 M बेरियम नाइट्रेट (barium nitrate) को 100 mL 0.10 M सोडियम आयोडेट (sodium iodate) में मिश्रित करने पर बने एक जलीय विलयन में बेरियम आयोडेट (barium iodate) की विलेयता (solubility) $X \\times 10^{-6} \\mathrm{~mol} ~\\mathrm{dm}^{-3}..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "w4l84mu4dpi2g71hrar2",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pat-25-degc-the-concentration-of-hsupsup-ions-in-jee-advanced-chemistry-i61fu8ophfumenma",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>At 25 &deg;C, the concentration of H<sup>+</sup> ions in 1.00 &times; 10<sup>−3</sup> M aqueous solution of a weak monobasic acid having acid dissociation constant (K<sub>a</sub>) of 4.00 &times; 10<sup>−11</sup> is X &times; 10<sup>−7</sup> M. The value of X is ______.</p><p><b>Use:</b> Ionic product of water (K<sub>w</sub>) = 1.00 &times; 10<sup>−14</sup> at 25 &deg;C</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.2TO2.3",
+          "explanation": "$$\n\\text { Temperature }=25^{\\circ} \\mathrm{C}\n$$<div></div>Concentration of aqueous solution of weak monobasic acid $=1.00 \\times 10^{-3} \\mathrm{~m}$<div></div>Arid dissociation constant $\\left(K_a\\right)$ of the weak monobasic acid $=4.00 \\times 10^{-11}$<div></div>$$\n\\text { Ionic product of water }\\left(K_w\\right)=1.00 \\times 10^{-14}\n$$<div></div>Concentration of $\\mathrm{H}^{+}$ions $=X \\times 10^{-7} \\mathrm{M}$ Consider<div></div>$$\nH A \\rightleftharpoons H^{+}+A^{-}HA - \\,\\,\\,\\,\\,\\,\\,monobasic \\,\\,Weak \\,\\,\\,acid\n$$<div></div>$$\nC_1\n$$<div></div>$$\nc_1\\left(1-\\alpha_1\\right) \\quad c_1 \\alpha_1 \\quad c_1 \\alpha_1\n$$<div></div>$$\n\\text { So, } K_a=\\frac{\\left[H^{+}\\right][A^-]}{[H A]}\n$$<div></div>$$\n=\\frac{\\left[H^{+}\\right] c_1 \\alpha_1}{c_1\\left(1-\\alpha_1\\right)} \\quad \\alpha_1 \\ll 1 \\quad \\text { so, } 1-\\alpha_1 \\approx 1\n$$<div></div>$$\n=\\frac{\\left[H^{+}\\right] c_1 \\alpha_1}{c_1}, k a c_1=\\left[H^{+}\\right] c_1 \\alpha_1-(1)\n$$<div></div>$$\n\\begin{aligned}\n&\\text { Consider, }\\\\\n&\\begin{aligned}\n& \\mathrm{H}_2 \\mathrm{O} \\rightleftharpoons \\mathrm{H}^{+}+\\mathrm{OH}^{-} \\\\\n& \\mathrm{C}_2\\left(1-\\alpha_2\\right) \\mathrm{C}_2 \\alpha_2 \\quad \\mathrm{C}_2 \\alpha_2\n\\end{aligned}\n\\end{aligned}\n$$<div></div>So,<div></div>\n\n$$\n\\begin{aligned}\nK_W & =\\left[\\mathrm{H}^{+}\\right]\\left[\\mathrm{OH}^{-}\\right] \\\\\nK_W & =\\left[\\mathrm{H}^{+}\\right] \\mathrm{C}_2 \\alpha_2 \\,\\,\\,\\,\\,\\,\\,...(2)\n\\end{aligned}\n$$<div></div>\n\n\nAdd\n(1) and (2) $\\Rightarrow$<div></div>$$\nK_a C_1+K_w=\\left[H^{+}\\right] C_1 \\alpha_1+\\left[H^{+}\\right] C_2 \\alpha_2=\\left[H^{+}\\right]\\left(C_1 \\alpha_1+C_2 \\alpha_2\\right)\n$$<div></div>\n\n\nConcentration of $\\mathrm{H}^{+}$has contribution from, both HA and $\\mathrm{H}_2 \\mathrm{O}$. So, $\\left[\\mathrm{H}^{+}\\right]=c_1 \\alpha_1+\\mathrm{C}_2 \\alpha_2$\nSubstitute for $\\left[H^A\\right]$ as,<div></div>$$\nK_a c_1+K_w=\\left[H^{+}\\right]\\left(c_1 \\alpha_1+c_2 \\alpha_2\\right)\n$$<div></div>$$\n\\begin{aligned}\nK_a C_1+K_w & =\\left[\\mathrm{H}^{+}\\right]\\left[\\mathrm{H}^{+}\\right] \\\\\n& =\\left[\\mathrm{H}^{+}\\right]^2\n\\end{aligned}\n$$<div></div>$$\n\\begin{aligned}\n&\\text { So, }\\\\\n&\\begin{aligned}\n{\\left[H^{+}\\right] } & =\\sqrt{K_a C_1+K w} \\\\\n& =\\sqrt{4.00 \\times 10^{-11} \\times 1.00 \\times 10^{-3}+1.00 \\times 10^{-14}} \\\\\n& =\\sqrt{4.00 \\times 10^{-14}+1.00 \\times 10^{-14}} \\\\\n& =\\sqrt{5.00 \\times 10^{-14}} \\\\\n& =2.24 \\times 10^{-7} \\mathrm{M}\\left(\\times \\times 10^{-7}\\right)\n\\end{aligned}\n\\end{aligned}\n$$<div></div>So, value of $X$ is 2.24 <div></div>Answer: 2.24"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$25^{\\circ} \\mathrm{C}$ पर एक दुर्बल एकक्षारकी अम्ल, जिसका अम्ल विघटन नियतांक (acid dissociation constant, $K_2$ ) $4.00 \\times 10^{-11}$ है, के एक $1.00 \\times 10^{-3} \\mathrm{M}$ जलीय विलयन में $\\mathrm{H}^{+}$आयन की सांद्रता $\\boldsymbol{X} \\times 10^{-7} \\mathrm{M}$ है। $\\boldsymbol{X}$ का मान _________ है।</p>\n<p>उपयोग करें: $25^{\\circ} \\mathrm{C}$ पर जल का आयनी गुणनफल $\\left(K_{\\mathrm{w}}\\right)=1.00 \\times 10^{-14}$",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.23OR2.24",
+          "explanation": "$$\n\\text { तापमान }=25^{\\circ} \\mathrm{C}\n$$<div></div>दुर्बल एकक्षारकीय अम्ल के जलीय विलयन की सांद्रता $=1.00 \\times 10^{-3} \\mathrm{~m}$<div></div>दुर्बल एकक्षारकीय अम्ल का अम्ल वियोजन स्थिरांक $\\left(K_a\\right)$ $=4.00 \\times 10^{-11}$<div></div>$$\n\\text { जल का आयनिक गुणनफल }\\left(K_w\\right)=1.00 \\times 10^{-14}\n$$<div></div>$\\mathrm{H}^{+}$ आयनों की सांद्रता $=X \\times 10^{-7} \\mathrm{M}$ माना<div></div>$$\nH A \\rightleftharpoons H^{+}+A^{-}HA - \\,\\,\\,\\,\\,\\,\\,एकक्षारकीय \\,\\,दुर्बल \\,\\,\\,अम्ल\n$$<div></div>$$\nC_1\n$$<div></div>$$\nc_1\\left(1-\\alpha_1\\right) \\quad c_1 \\alpha_1 \\quad c_1 \\alpha_1\n$$<div></div>$$\n\\text { अतः, } K_a=\\frac{\\left[H^{+}\\right][A^-]}{[H A]}\n$$<div></div>$$\n=\\frac{\\left[H^{+}\\right] c_1 \\alpha_1}{c_1\\left(1-\\alpha_1\\right)} \\quad \\alpha_1 \\ll 1 \\quad \\text { इसलिए, } 1-\\alpha_1 \\approx 1\n$$<div></div>$$\n=\\frac{\\left[H^{+}\\right] c_1 \\alpha_1}{c_1}, k a c_1=\\left[H^{+}\\right] c_1 \\alpha_1-(1)\n$$<div></div>$$\n\\begin{aligned}\n&\\text { माना, }\\\\\n&\\begin{aligned}\n& \\mathrm{H}_2 \\mathrm{O} \\rightleftharpoons \\mathrm{H}^{+}+\\mathrm{OH}^{-} \\\\\n& \\mathrm{C}_2\\left(1-\\alpha_2\\right) \\mathrm{C}_2 \\alpha_2 \\quad \\mathrm{C}_2 \\alpha_2\n\\end{aligned}\n\\end{aligned}\n$$<div></div>अतः,<div></div>\n\n$$\n\\begin{aligned}\nK_W & =\\left[\\mathrm{H}^{+}\\right]\\left[\\mathrm{OH}^{-}\\right] \\\\\nK_W & =\\left[\\mathrm{H}^{+}\\right] \\mathrm{C}_2 \\alpha_2 \\,\\,\\,\\,\\,\\,\\,...(2)\n\\end{aligned}\n$$<div></div>\n\n\n(1) और (2) को जोड़ें $\\Rightarrow$<div></div>$$\nK_a C_1+K_w=\\left[H^{+}\\right] C_1 \\alpha_1+\\left[H^{+}\\right] C_2 \\alpha_2=\\left[H^{+}\\right]\\left(C_1 \\alpha_1+C_2 \\alpha_2\\right)\n$$<div></div>\n\n\n$\\mathrm{H}^{+}$ की सांद्रता में, HA और $\\mathrm{H}_2 \\mathrm{O}$ दोनों का योगदान है। अतः, $\\left[\\mathrm{H}^{+}\\right]=c_1 \\alpha_1+\\mathrm{C}_2 \\alpha_2$\n$\\left[H^A\\right]$ के लिए प्रतिस्थापित करें,<div></div>$$\nK_a c_1+K_w=\\left[H^{+}\\right]\\left(c_1 \\alpha_1+c_2 \\alpha_2\\right)\n$$<div></div>$$\n\\begin{aligned}\nK_a C_1+K_w & =\\left[\\mathrm{H}^{+}\\right]\\left[\\mathrm{H}^{+}\\right] \\\\\n& =\\left[\\mathrm{H}^{+}\\right]^2\n\\end{aligned}\n$$<div></div>$$\n\\begin{aligned}\n&\\text { अतः, }\\\\\n&\\begin{aligned}\n{\\left[H^{+}\\right] } & =\\sqrt{K_a C_1+K w} \\\\\n& =\\sqrt{4.00 \\times 10^{-11} \\times 1.00 \\times 10^{-3}+1.00 \\times 10^{-14}} \\\\\n& =\\sqrt{4.00 \\times 10^{-14}+1.00 \\times 10^{-14}} \\\\\n& =\\sqrt{5.00 \\times 10^{-14}} \\\\\n& =2.24 \\times 10^{-7} \\mathrm{M}\\left(\\times \\times 10^{-7}\\right)\n\\end{aligned}\n\\end{aligned}\n$$<div></div>अतः, $X$ का मान 2.24 है <div></div>उत्तर: 2.24"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "ph-buffer-and-indicators",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "At 25 °C, the concentration of H+ ions in 1.00 × 10−3 M aqueous solution of a weak monobasic acid having acid dissociation constant (Ka) of 4.00 × 10−11 is X × 10−7 M. The value of X is ______.Use: Ionic product of water (Kw) = 1.00 × 10−14..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "$25^{\\circ} \\mathrm{C}$ पर एक दुर्बल एकक्षारकी अम्ल, जिसका अम्ल विघटन नियतांक (acid dissociation constant, $K_2$ ) $4.00 \\times 10^{-11}$ है, के एक $1.00 \\times 10^{-3} \\mathrm{M}$ जलीय विलयन में $\\mathrm{H}^{+}$आयन की सांद्रता $\\boldsymbol..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "be2ndv17ao1o4kqrgkr8",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "on-decreasing-the-p-mathrmh-from-7-to-2--the-solubilit-jee-advanced-chemistry-ci5cnzklg3a2leab",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "On decreasing the $p \\mathrm{H}$ from 7 to 2 , the solubility of a sparingly soluble salt (MX) of a weak acid (HX) increased from $10^{-4} \\mathrm{~mol} \\mathrm{~L}^{-1}$ to $10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}$. The $p \\mathrm{~K}_{\\mathrm{a}}$ of $\\mathrm{HX}$ is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "3"
+            },
+            {
+              "identifier": "B",
+              "content": "4"
+            },
+            {
+              "identifier": "C",
+              "content": "5"
+            },
+            {
+              "identifier": "D",
+              "content": "2"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "Relationship between solubility, $\\mathrm{H}^{+}$and $\\mathrm{K}_{\\mathrm{a}}$ is given by\n<br/><br/>$$\n \\begin{aligned}\n\\mathrm{S} & =\\sqrt{\\frac{\\left(\\mathrm{K}_{\\mathrm{SP}}\\left[\\mathrm{H}^{+}\\right]+\\mathrm{K}_{\\mathrm{a}}\\right)}{\\mathrm{K}_{\\mathrm{a}}}} \\\\\\\\\n\\text { If } \\mathrm{pH}=7 & \\Rightarrow\\left(\\mathrm{H}^{+}\\right)=10^{-7} \\\\\\\\\n\\mathrm{~S} & =10^{-4} \\mathrm{~mol} / \\mathrm{L}\n\\end{aligned}\n$$\n<br/><br/>$$\n\\begin{aligned}\n\\Rightarrow 10^{-4} & =\\sqrt{\\frac{\\mathrm{K}_{\\mathrm{SP}}\\left(10^{-7}+\\mathrm{K}_{\\mathrm{a}}\\right)}{\\mathrm{K}_{\\mathrm{a}}}} ...........(i) \\\\\\\\\n10^{-3} & =\\sqrt{\\frac{\\mathrm{K}_{\\mathrm{SP}}\\left(10^{-2}+\\mathrm{K}_{\\mathrm{a}}\\right)}{\\mathrm{K}_{\\mathrm{a}}}} ...........(ii)\n\\end{aligned}\n$$\n<br/><br/>Dividing and squaring equation (i) by equation (ii),\n<br/><br/>$$\n\\begin{aligned}\n& \\frac{\\left(10^{-4}\\right)^2}{\\left(10^{-3}\\right)^2}=\\frac{K_{SP}\\left(10^{-7}+K_a\\right)}{K_a} \\times \\frac{K_a}{K_{SP}\\left(10^{-2}+K_a\\right)} \\\\\\\\\n& \\Rightarrow 10^{-2}=\\frac{10^{-7}+\\mathrm{K}_{\\mathrm{a}}}{10^{-2}+\\mathrm{K}_{\\mathrm{a}}} \\\\\\\\\n& \\Rightarrow 10^{-4}+10^{-2} \\cdot \\mathrm{K}_{\\mathrm{a}}=10^{-7}+\\mathrm{K}_{\\mathrm{a}} \\\\\\\\\n& \\therefore \\mathrm{K}_{\\mathrm{a}} \\simeq 10^{-4} \\\\\\\\\n& \\Rightarrow \\mathrm{pK}_{\\mathrm{a}}=4\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$p \\mathrm{H}$ को 7 से 2 तक घटाने पर, दुर्बल अम्ल $(\\mathrm{HX})$ के अल्पविलेय लवण $(\\mathrm{MX})$ की विलेयता $10^{-4} \\mathrm{~mol} \\mathrm{~L}^{-1}$ से बढ़कर $10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}$ हो जाती है। $\\mathrm{HX}$ का $p \\mathrm{~K}_{\\mathrm{a}}$ है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "3"
+            },
+            {
+              "identifier": "B",
+              "content": "4"
+            },
+            {
+              "identifier": "C",
+              "content": "5"
+            },
+            {
+              "identifier": "D",
+              "content": "2"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "विलेयता, $\\mathrm{H}^{+}$ और $\\mathrm{K}_{\\mathrm{a}}$ के बीच संबंध निम्नलिखित है\n<br/><br/>$$\n \\begin{aligned}\n\\mathrm{S} & =\\sqrt{\\frac{\\left(\\mathrm{K}_{\\mathrm{SP}}\\left[\\mathrm{H}^{+}\\right]+\\mathrm{K}_{\\mathrm{a}}\\right)}{\\mathrm{K}_{\\mathrm{a}}}} \\\\\\\\\n\\text { यदि } \\mathrm{pH}=7 & \\Rightarrow\\left(\\mathrm{H}^{+}\\right)=10^{-7} \\\\\\\\\n\\mathrm{~S} & =10^{-4} \\mathrm{~mol} / \\mathrm{L}\n\\end{aligned}\n$$\n<br/><br/>$$\n\\begin{aligned}\n\\Rightarrow 10^{-4} & =\\sqrt{\\frac{\\mathrm{K}_{\\mathrm{SP}}\\left(10^{-7}+\\mathrm{K}_{\\mathrm{a}}\\right)}{\\mathrm{K}_{\\mathrm{a}}}} ...........(i) \\\\\\\\\n10^{-3} & =\\sqrt{\\frac{\\mathrm{K}_{\\mathrm{SP}}\\left(10^{-2}+\\mathrm{K}_{\\mathrm{a}}\\right)}{\\mathrm{K}_{\\mathrm{a}}}} ...........(ii)\n\\end{aligned}\n$$\n<br/><br/>समीकरण (i) को समीकरण (ii) से भाग देने और वर्ग करने पर,\n<br/><br/>$$\n\\begin{aligned}\n& \\frac{\\left(10^{-4}\\right)^2}{\\left(10^{-3}\\right)^2}=\\frac{K_{SP}\\left(10^{-7}+K_a\\right)}{K_a} \\times \\frac{K_a}{K_{SP}\\left(10^{-2}+K_a\\right)} \\\\\\\\\n& \\Rightarrow 10^{-2}=\\frac{10^{-7}+\\mathrm{K}_{\\mathrm{a}}}{10^{-2}+\\mathrm{K}_{\\mathrm{a}}} \\\\\\\\\n& \\Rightarrow 10^{-4}+10^{-2} \\cdot \\mathrm{K}_{\\mathrm{a}}=10^{-7}+\\mathrm{K}_{\\mathrm{a}} \\\\\\\\\n& \\therefore \\mathrm{K}_{\\mathrm{a}} \\simeq 10^{-4} \\\\\\\\\n& \\Rightarrow \\mathrm{pK}_{\\mathrm{a}}=4\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "solubility-product-and-common-ion-effect",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "On decreasing the $p \\mathrm{H}$ from 7 to 2 , the solubility of a sparingly soluble salt (MX) of a weak acid (HX) increased from $10^{-4} \\mathrm{~mol} \\mathrm{~L}^{-1}$ to $10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}$. The $p \\mathrm{~K}_{\\mat..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "$p \\mathrm{H}$ को 7 से 2 तक घटाने पर, दुर्बल अम्ल $(\\mathrm{HX})$ के अल्पविलेय लवण $(\\mathrm{MX})$ की विलेयता $10^{-4} \\mathrm{~mol} \\mathrm{~L}^{-1}$ से बढ़कर $10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}$ हो जाती है। $\\mathrm{HX}$ का $p \\mathrm..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "shch0xf8kzuwrt86981n",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "pconcentration-of-mathrmh2-mathrmso4-and-m-jee-advanced-chemistry-equilibrium-fky12mbzsyjizelb",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Concentration of $\\mathrm{H}_{2} \\mathrm{SO}_{4}$ and $\\mathrm{Na}_{2} \\mathrm{SO}_{4}$ in a solution is $1 \\mathrm{M}$ and $1.8 \\times 10^{-2} \\mathrm{M}$, respectively. Molar solubility of $\\mathrm{PbSO}_{4}$ in the same solution is $\\mathrm{X} \\times 10^{-\\mathrm{Y}} \\mathrm{M}$ (expressed in scientific notation). The value of $Y$ is ________.</p>\n\n<p>[Given: Solubility product of $\\mathrm{PbSO}_{4}\\left(K_{s p}\\right)=1.6 \\times 10^{-8}$. For $\\mathrm{H}_{2} \\mathrm{SO}_{4}, K_{a l}$ is very large and $\\left.K_{a 2}=1.2 \\times 10^{-2}\\right]$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "Given,\n<br><br>Conentration of $\\mathrm{H}_2 \\mathrm{SO}_4=1 \\mathrm{M}$\n<br><br>Conentration of $\\mathrm{Na}_{2} \\mathrm{SO}_{4}$ = $1.8 \\times 10^{-2} \\mathrm{M}$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld6nse2i/a12c91fa-b215-4cf5-97bf-65c51c23ad2a/29464290-99ee-11ed-ad83-ad23a4ca6e9d/file-1ld6nse2j.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld6nse2i/a12c91fa-b215-4cf5-97bf-65c51c23ad2a/29464290-99ee-11ed-ad83-ad23a4ca6e9d/file-1ld6nse2j.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Ionic Equilibrium Question 7 English Explanation 1\">\n<br><br>From the above two equations, we get\n<br><br>$$\n\\left[\\mathrm{H}^{+}\\right]=1 \\mathrm{M} \\text { and }\\left[\\mathrm{SO}_4^{2-}\\right]=1.8 \\times 10^{-2}\n$$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld6nw92y/1bf246b8-de46-4069-aebe-1187bc9b95bc/94a8a5a0-99ee-11ed-ad83-ad23a4ca6e9d/file-1ld6nw92z.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld6nw92y/1bf246b8-de46-4069-aebe-1187bc9b95bc/94a8a5a0-99ee-11ed-ad83-ad23a4ca6e9d/file-1ld6nw92z.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Ionic Equilibrium Question 7 English Explanation 2\">\n<br><br>$$\nK_c=\\frac{1.8 \\times 10^{-2} \\times 1}{1}=1.8 \\times 10^{-2}\n$$\n<br><br>and it is given that $\\mathrm{K}_{a_2}\\left(\\mathrm{Q}_c\\right)=1.2 \\times 10^{-2} \\mathrm{M}$ \n<br><br>Since, $\\mathrm{K}_{a_2}$ (i.e., $\\mathrm{Q}_c$ ) $&lt;\\mathrm{K}_c$\n<br><br>$\\therefore$ Rather than dissociation of $\\mathrm{HSO}_4^{-}$into $\\mathrm{H}^{+}$and $\\mathrm{SO}_4^{2-}$ ions, association between already present $\\mathrm{H}^{+}$and $\\mathrm{SO}_4^{2-}$ will take place.\n<br><br>Assuming ' $x$ ' mol/L of $\\mathrm{SO}_4^{2-}$ and $\\mathrm{H}^{+}$combines to form $\\mathrm{HSO}_4^{-}$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld6oax61/66d38361-8541-4968-a562-781e69ffdbd7/2c97a590-99f0-11ed-ad83-ad23a4ca6e9d/file-1ld6oax62.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld6oax61/66d38361-8541-4968-a562-781e69ffdbd7/2c97a590-99f0-11ed-ad83-ad23a4ca6e9d/file-1ld6oax62.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Ionic Equilibrium Question 7 English Explanation 3\">\n\n<br><br>$\\begin{aligned} &amp; \\mathrm{K}_{a 2}=\\frac{\\left[\\mathrm{H}^{+}\\right]\\left[\\mathrm{SO}_4^{2-}\\right]}{\\left[\\mathrm{HSO}_4^{-}\\right]} \\\\\\\\ &amp; 1.2 \\times 10^{-2}=\\frac{(1-x)\\left(1.8 \\times 10^{-2}-x\\right)}{(1+x)} \\\\\\\\ &amp; \\because x&lt;&lt;1, \\text { so }(1+x) \\approx 1 \\text { and }(1-x) \\approx 1 \\\\\\\\ &amp; 1.2 \\times 10^{-2}=1.8 \\times 10^{-2}-x \\\\\\\\ &amp; x=\\left(1.8 \\times 10^{-2}\\right)-\\left(1.2 \\times 10^{-2}\\right) \\\\\\\\ &amp; x=0.6 \\times 10^{-2} \\mathrm{M} \\\\\\\\ &amp; \\text { So, }\\left[\\mathrm{SO}_4^{2-}\\right]=1.8 \\times 10^{-2}-x \\\\\\\\ &amp; {\\left[\\mathrm{SO}_4^{2-}\\right] }=\\left(1.8 \\times 10^{-2}\\right)-\\left(0.6 \\times 10^{-2}\\right) \\\\\\\\ &amp; {\\left[\\mathrm{SO}_4^{2-}\\right] }=1.2 \\times 10^{-2} \\mathrm{M}\\end{aligned}$\n\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld6ok3dd/255c40f8-0d4d-4021-9bae-bc5714d40c8d/2baab810-99f1-11ed-ad83-ad23a4ca6e9d/file-1ld6ok3de.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld6ok3dd/255c40f8-0d4d-4021-9bae-bc5714d40c8d/2baab810-99f1-11ed-ad83-ad23a4ca6e9d/file-1ld6ok3de.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Ionic Equilibrium Question 7 English Explanation 4\">\n\n<br><br>Given, $\\quad \\mathrm{K}_{s p}=1.6 \\times 10^{-8}$\n<br><br>$$ \\therefore $$ $y\\left(1.2 \\times 10^{-2}+y\\right)=1.6 \\times 10^{-8}$\n<br><br>Since, $y&lt;&lt;1$, So $1.2 \\times 10^{-2}+y \\approx 1.2 \\times 10^{-2}$\n<br><br>So, $y \\times 1.2 \\times 10^{-2}=1.6 \\times 10^{-8}$\n<br><br>\n\n$$ \\Rightarrow $$ $y  =\\frac{1.6 \\times 10^{-8}}{1.2 \\times 10^{-2}}$\n<br><br>\n$$ \\Rightarrow $$ $ y  =1.33 \\times 10^{-6} $\n<br><br>$\nX \\times 10^{-Y} \\mathrm{M} =1.33 \\times 10^{-6} \\mathrm{M}\n\n$\n<br><br>So, $\\mathrm{Y}=6$\n<br><br>Hence, the value of $Y$ is 6 ."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक विलयन में $$\\mathrm{H}_{2} \\mathrm{SO}_{4}$$ और $$\\mathrm{Na}_{2} \\mathrm{SO}_{4}$$ की सांद्रता क्रमश: $$1 \\mathrm{M}$$ तथा $$1.8 \\times 10^{-2} \\mathrm{M}$$ है। इसी विलयन में $$\\mathrm{PbSO}_{4}$$ की मोलर विलेयता $$X \\times 10^{-Y} M$$ (वैज्ञानिक संकेतन में व्यक्त) है। $$Y$$ का मान ____________ है।</p>\n<p>[दिया गया है: $$\\mathrm{PbSO}_{4}$$ का विलेयता गुणनफल $$\\left(K_{s p}\\right)=1.6 \\times 10^{-8} \\cdot \\mathrm{H}_{2} \\mathrm{SO}_{4}$$ के लिए, $$K_{a 1}$$ बहुत अधिक है तथा $$K a_{2}=1.2 \\times 10^{-2}$$ है]</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "दिया गया है,\n<br><br>$\\mathrm{H}_2 \\mathrm{SO}_4$ की सांद्रता $=1 \\mathrm{M}$\n<br><br>$\\mathrm{Na}_{2} \\mathrm{SO}_{4}$ की सांद्रता = $1.8 \\times 10^{-2} \\mathrm{M}$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld6nse2i/a12c91fa-b215-4cf5-97bf-65c51c23ad2a/29464290-99ee-11ed-ad83-ad23a4ca6e9d/file-1ld6nse2j.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld6nse2i/a12c91fa-b215-4cf5-97bf-65c51c23ad2a/29464290-99ee-11ed-ad83-ad23a4ca6e9d/file-1ld6nse2j.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Ionic Equilibrium Question 7 Hindi Explanation 1\">\n<br><br>उपरोक्त दोनों समीकरणों से, हम प्राप्त करते हैं\n<br><br>$$\n\\left[\\mathrm{H}^{+}\\right]=1 \\mathrm{M} \\text { और }\\left[\\mathrm{SO}_4^{2-}\\right]=1.8 \\times 10^{-2}\n$$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld6nw92y/1bf246b8-de46-4069-aebe-1187bc9b95bc/94a8a5a0-99ee-11ed-ad83-ad23a4ca6e9d/file-1ld6nw92z.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld6nw92y/1bf246b8-de46-4069-aebe-1187bc9b95bc/94a8a5a0-99ee-11ed-ad83-ad23a4ca6e9d/file-1ld6nw92z.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Ionic Equilibrium Question 7 Hindi Explanation 2\">\n<br><br>$$\nK_c=\\frac{1.8 \\times 10^{-2} \\times 1}{1}=1.8 \\times 10^{-2}\n$$\n<br><br>और यह दिया गया है कि $\\mathrm{K}_{a_2}\\left(\\mathrm{Q}_c\\right)=1.2 \\times 10^{-2} \\mathrm{M}$ \n<br><br>चूँकि, $\\mathrm{K}_{a_2}$ (अर्थात्, $\\mathrm{Q}_c$ ) $&lt;\\mathrm{K}_c$\n<br><br>$\\therefore$ $\\mathrm{HSO}_4^{-}$ के $\\mathrm{H}^{+}$ और $\\mathrm{SO}_4^{2-}$ आयनों में वियोजन के बजाय, पहले से उपस्थित $\\mathrm{H}^{+}$ और $\\mathrm{SO}_4^{2-}$ के बीच संगुणन होगा।\n<br><br>मान लीजिए कि ' $x$ ' mol/L $\\mathrm{SO}_4^{2-}$ और $\\mathrm{H}^{+}$ मिलकर $\\mathrm{HSO}_4^{-}$ बनाते हैं\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld6oax61/66d38361-8541-4968-a562-781e69ffdbd7/2c97a590-99f0-11ed-ad83-ad23a4ca6e9d/file-1ld6oax62.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld6oax61/66d38361-8541-4968-a562-781e69ffdbd7/2c97a590-99f0-11ed-ad83-ad23a4ca6e9d/file-1ld6oax62.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Ionic Equilibrium Question 7 Hindi Explanation 3\">\n\n<br><br>$\\begin{aligned} &amp; \\mathrm{K}_{a 2}=\\frac{\\left[\\mathrm{H}^{+}\\right]\\left[\\mathrm{SO}_4^{2-}\\right]}{\\left[\\mathrm{HSO}_4^{-}\\right]} \\\\\\\\ &amp; 1.2 \\times 10^{-2}=\\frac{(1-x)\\left(1.8 \\times 10^{-2}-x\\right)}{(1+x)} \\\\\\\\ &amp; \\because x&lt;&lt;1, \\text { इसलिए }(1+x) \\approx 1 \\text { और }(1-x) \\approx 1 \\\\\\\\ &amp; 1.2 \\times 10^{-2}=1.8 \\times 10^{-2}-x \\\\\\\\ &amp; x=\\left(1.8 \\times 10^{-2}\\right)-\\left(1.2 \\times 10^{-2}\\right) \\\\\\\\ &amp; x=0.6 \\times 10^{-2} \\mathrm{M} \\\\\\\\ &amp; \\text { अतः, }\\left[\\mathrm{SO}_4^{2-}\\right]=1.8 \\times 10^{-2}-x \\\\\\\\ &amp; {\\left[\\mathrm{SO}_4^{2-}\\right] }=\\left(1.8 \\times 10^{-2}\\right)-\\left(0.6 \\times 10^{-2}\\right) \\\\\\\\ &amp; {\\left[\\mathrm{SO}_4^{2-}\\right] }=1.2 \\times 10^{-2} \\mathrm{M}\\end{aligned}$\n\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld6ok3dd/255c40f8-0d4d-4021-9bae-bc5714d40c8d/2baab810-99f1-11ed-ad83-ad23a4ca6e9d/file-1ld6ok3de.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld6ok3dd/255c40f8-0d4d-4021-9bae-bc5714d40c8d/2baab810-99f1-11ed-ad83-ad23a4ca6e9d/file-1ld6ok3de.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Ionic Equilibrium Question 7 Hindi Explanation 4\">\n\n<br><br>दिया गया है, $\\quad \\mathrm{K}_{s p}=1.6 \\times 10^{-8}$\n<br><br>$$ \\therefore $$ $y\\left(1.2 \\times 10^{-2}+y\\right)=1.6 \\times 10^{-8}$\n<br><br>चूँकि, $y&lt;&lt;1$, इसलिए $1.2 \\times 10^{-2}+y \\approx 1.2 \\times 10^{-2}$\n<br><br>अतः, $y \\times 1.2 \\times 10^{-2}=1.6 \\times 10^{-8}$\n<br><br>\n\n$$ \\Rightarrow $$ $y  =\\frac{1.6 \\times 10^{-8}}{1.2 \\times 10^{-2}}$\n<br><br>\n$$ \\Rightarrow $$ $ y  =1.33 \\times 10^{-6} $\n<br><br>$\nX \\times 10^{-Y} \\mathrm{M} =1.33 \\times 10^{-6} \\mathrm{M}\n\n$\n<br><br>अतः, $\\mathrm{Y}=6$\n<br><br>इसलिए, $Y$ का मान 6 है।"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "solubility-product-and-common-ion-effect",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "Concentration of $\\mathrm{H}_{2} \\mathrm{SO}_{4}$ and $\\mathrm{Na}_{2} \\mathrm{SO}_{4}$ in a solution is $1 \\mathrm{M}$ and $1.8 \\times 10^{-2} \\mathrm{M}$, respectively. Molar solubility of $\\mathrm{PbSO}_{4}$ in the same solution is $\\mat..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "एक विलयन में $$\\mathrm{H}_{2} \\mathrm{SO}_{4}$$ और $$\\mathrm{Na}_{2} \\mathrm{SO}_{4}$$ की सांद्रता क्रमश: $$1 \\mathrm{M}$$ तथा $$1.8 \\times 10^{-2} \\mathrm{M}$$ है। इसी विलयन में $$\\mathrm{PbSO}_{4}$$ की मोलर विलेयता $$X \\times 10^{-Y} M$$ ..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "6zl9py3064btolywmx62",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "pa-solution-is-prepared-by-mixing-001-mathrmmol-eac-jee-advanced-chemistry-some-basic-concepts-of-chemistry-9bdduxi5udjfjufo",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A solution is prepared by mixing $0.01 \\mathrm{~mol}$ each of $\\mathrm{H}_{2} \\mathrm{CO}_{3}, \\mathrm{NaHCO}_{3}, \\mathrm{Na}_{2} \\mathrm{CO}_{3}$, and $\\mathrm{NaOH}$ in $100 \\mathrm{~mL}$ of water. $p \\mathrm{H}$ of the resulting solution is _________.\n</p>\n<p>[Given: $p \\mathrm{~K}_{\\mathrm{a} 1}$ and $p \\mathrm{~K}_{\\mathrm{a} 2}$ of $\\mathrm{H}_{2} \\mathrm{CO}_{3}$ are $6.37$ and 10.32, respectively; $\\log 2=0.30$ ]</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "10.00TO10.04",
+          "explanation": "<p>First acid base reaction between H<sub>2</sub>CO<sub>3</sub> and NaOH takes place.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldcp9134/a36b725c-b1cd-4524-8a2d-398e28dd12ff/9506ec00-9d40-11ed-9b41-c782a2d39bdd/file-1ldcp9135.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldcp9134/a36b725c-b1cd-4524-8a2d-398e28dd12ff/9506ec00-9d40-11ed-9b41-c782a2d39bdd/file-1ldcp9135.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Ionic Equilibrium Question 8 English Explanation\"></p>\n<p>In the final solution, we have 0.01 mole Na<sub>2</sub>CO<sub>3</sub> and 0.02 moles of NaHCO<sub>3</sub>.</p>\n<p>Here, we have a buffer of NaHCO<sub>3</sub> and Na<sub>2</sub>CO<sub>3</sub>.</p>\n<p>$$\\therefore$$ $$pH = p{K_{{a_2}}} + \\log {{[Salt]} \\over {[Acid]}}$$</p>\n<p>$$ = 10.32 + \\log {{\\left( {{{0.01} \\over {0.1}}} \\right)} \\over {\\left( {{{0.02} \\over {0.1}}} \\right)}}$$</p>\n<p>$$ = 10.32 + \\log {1 \\over 2}$$</p>\n<p>$$ = 10.32 - \\log 2$$</p>\n<p>$$ = 10.32 - 0.3$$</p>\n<p>$$ = 10.02$$</p>\n<p>$$\\therefore$$ $$pH = 10.02$$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक विलयन प्रत्येक $$\\mathrm{H}_{2} \\mathrm{CO}_{3}, \\mathrm{NaHCO}_{3}, \\mathrm{Na}_{2} \\mathrm{CO}_{3}$$, और $$\\mathrm{NaOH}$$ के $$0.01$$ मोल को $$100 \\mathrm{~mL}$$ जल में मिला कर के बनाया गया है। परिणामी विलयन का $$p \\mathrm{H}$$ है _________ |</p>\n<p>[दिया है : $$\\mathrm{H}_{2} \\mathrm{CO}_{3}$$ के $$p \\mathrm{~K}_{\\mathrm{a} 1}$$ और $$p \\mathrm{~K}_{\\mathrm{a} 2}$$ क्रमश: $$6.37$$ और $$10.32$$, हैं ; $$\\log 2=0.30$$ ]</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "10.00TO10.04",
+          "explanation": "<p>पहले H<sub>2</sub>CO<sub>3</sub> और NaOH के बीच अम्ल क्षार अभिक्रिया होती है।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldcp9134/a36b725c-b1cd-4524-8a2d-398e28dd12ff/9506ec00-9d40-11ed-9b41-c782a2d39bdd/file-1ldcp9135.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldcp9134/a36b725c-b1cd-4524-8a2d-398e28dd12ff/9506ec00-9d40-11ed-9b41-c782a2d39bdd/file-1ldcp9135.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Chemistry - Ionic Equilibrium Question 8 Hindi Explanation\"></p>\n<p>अंतिम विलयन में, हमारे पास 0.01 मोल Na<sub>2</sub>CO<sub>3</sub> और 0.02 मोल NaHCO<sub>3</sub> है।</p>\n<p>यहाँ, हमारे पास NaHCO<sub>3</sub> और Na<sub>2</sub>CO<sub>3</sub> का एक बफर है।</p>\n<p>$$\\therefore$$ $$pH = p{K_{{a_2}}} + \\log {{[Salt]} \\over {[Acid]}}$$</p>\n<p>$$ = 10.32 + \\log {{\\left( {{{0.01} \\over {0.1}}} \\right)} \\over {\\left( {{{0.02} \\over {0.1}}} \\right)}}$$</p>\n<p>$$ = 10.32 + \\log {1 \\over 2}$$</p>\n<p>$$ = 10.32 - \\log 2$$</p>\n<p>$$ = 10.32 - 0.3$$</p>\n<p>$$ = 10.02$$</p>\n<p>$$\\therefore$$ $$pH = 10.02$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "ph-buffer-and-indicators",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "A solution is prepared by mixing $0.01 \\mathrm{~mol}$ each of $\\mathrm{H}_{2} \\mathrm{CO}_{3}, \\mathrm{NaHCO}_{3}, \\mathrm{Na}_{2} \\mathrm{CO}_{3}$, and $\\mathrm{NaOH}$ in $100 \\mathrm{~mL}$ of water. $p \\mathrm{H}$ of the resulting solutio..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "एक विलयन प्रत्येक $$\\mathrm{H}_{2} \\mathrm{CO}_{3}, \\mathrm{NaHCO}_{3}, \\mathrm{Na}_{2} \\mathrm{CO}_{3}$$, और $$\\mathrm{NaOH}$$ के $$0.01$$ मोल को $$100 \\mathrm{~mL}$$ जल में मिला कर के बनाया गया है। परिणामी विलयन का $$p \\mathrm{H}$$ है ___..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "i8eiblp65rkeduppn206",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "an-acidified-solution-of-005-m-znsup2sup-is-saturated-jee-advanced-chemistry-some-basic-concepts-of-chemistry-u9u8l4zb1yj95l7b",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "An acidified solution of 0.05 M Zn<sup>2+</sup> is saturated with 0.1 M H<sub>2</sub>S. What is the minimum molar concentration (M) of H<sup>+</sup> required to prevent the precipitation of ZnS?<br><br>Use K<sub>sp</sub>(ZnS) = 1.25 $$ \\times $$ 10<sup>$$-$$22</sup> and overall dissociation constant of <br><br>H<sub>2</sub>S, K<sub>net</sub> = K<sub>1</sub>K<sub>2</sub> = 1 $$ \\times $$ 10<sup>-21</sup>.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.2",
+          "explanation": "$$ZnS(s)\\buildrel {} \\over\n \\longrightarrow \\mathop {Z{n^{2 + }}(aq)}\\limits_{(0.05\\,M)}  + {S^{2 - }}(aq)$$<br><br>$${K_{sp}}(ZnS) = [Z{n^{2 + }}][{S^{2 - }}] = 1.25 \\times {10^{ - 22}}$$<br><br>$$0.05 \\times [{S^{2 - }}] = 1.25 \\times {10^{ - 22}}$$<br><br>$$ \\Rightarrow [{S^{2 - }}] = {{1.25 \\times {{10}^{ - 22}}} \\over {0.05}} \\Rightarrow 25 \\times {10^{ - 22}}M$$<br><br>For H<sub>2</sub>S, $$\\mathop {{H_2}S}\\limits_{(0.1M)} \\buildrel {} \\over\n \\longrightarrow 2{H^ + } + \\mathop {{S^{ - 2}}}\\limits_{(25 \\times {{10}^{ - 22}}M)} $$<br><br>$${K_{net}} = 1 \\times {10^{ - 21}} = {{{{[{H^ + }]}^2}[{S^{2 - }}]} \\over {[{H_2}S]}}$$<br><br>$$1 \\times {10^{ - 21}} = {{{{[{H^ + }]}^2} \\times 25 \\times {{10}^{ - 22}}} \\over {[0.1]}}$$<br><br>$${[{H^ + }]^2} = {1 \\over {25}}$$<br><br>$$[{H^ + }] = {1 \\over 5} = 0.2M$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$0.05 ~\\mathrm{M} ~\\mathrm{Zn}^{2+}$$ के एक अम्लीकृत विलयन को $$0.1 ~\\mathrm{M} ~\\mathrm{H}_{2} \\mathrm{~S}$$ से संतृप्त (saturate) किया जाता है | $$\\mathrm{ZnS}$$ के अवक्षेपण को रोकने के लिए $$\\mathrm{H}^{+}$$ की कितने न्यूनतम मोलर सांद्रता (M) की आवश्यकता होगी ?</p>\n<p>(उपयोग करें: $$K_{\\mathrm{sp}}(\\mathrm{ZnS})=1.25 \\times 10^{-22}$$ तथा $$\\mathrm{H}_{2} \\mathrm{S}$$ का समग्र वियोजन स्थिरांक (overall dissociation constant), $$K_{\\mathrm{NET}}=K_{1} K_{2}=1 \\times 10^{-21}$$ )</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.2",
+          "explanation": "$$ZnS(s)\\buildrel {} \\over\n \\longrightarrow \\mathop {Z{n^{2 + }}(aq)}\\limits_{(0.05\\,M)}  + {S^{2 - }}(aq)$$<br><br>$${K_{sp}}(ZnS) = [Z{n^{2 + }}][{S^{2 - }}] = 1.25 \\times {10^{ - 22}}$$<br><br>$$0.05 \\times [{S^{2 - }}] = 1.25 \\times {10^{ - 22}}$$<br><br>$$ \\Rightarrow [{S^{2 - }}] = {{1.25 \\times {{10}^{ - 22}}} \\over {0.05}} \\Rightarrow 25 \\times {10^{ - 22}}M$$<br><br>H<sub>2</sub>S के लिए, $$\\mathop {{H_2}S}\\limits_{(0.1M)} \\buildrel {} \\over\n \\longrightarrow 2{H^ + } + \\mathop {{S^{ - 2}}}\\limits_{(25 \\times {{10}^{ - 22}}M)} $$<br><br>$${K_{net}} = 1 \\times {10^{ - 21}} = {{{{[{H^ + }]}^2}[{S^{2 - }}]} \\over {[{H_2}S]}}$$<br><br>$$1 \\times {10^{ - 21}} = {{{{[{H^ + }]}^2} \\times 25 \\times {{10}^{ - 22}}} \\over {[0.1]}}$$<br><br>$${[{H^ + }]^2} = {1 \\over {25}}$$<br><br>$$[{H^ + }] = {1 \\over 5} = 0.2M$$"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "solubility-product-and-common-ion-effect",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "An acidified solution of 0.05 M Zn2+ is saturated with 0.1 M H2S. What is the minimum molar concentration (M) of H+ required to prevent the precipitation of ZnS?Use Ksp(ZnS) = 1.25 $$ \\times $$ 10$$-$$22 and overall dissociation constant of..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "$$0.05 ~\\mathrm{M} ~\\mathrm{Zn}^{2+}$$ के एक अम्लीकृत विलयन को $$0.1 ~\\mathrm{M} ~\\mathrm{H}_{2} \\mathrm{~S}$$ से संतृप्त (saturate) किया जाता है | $$\\mathrm{ZnS}$$ के अवक्षेपण को रोकने के लिए $$\\mathrm{H}^{+}$$ की कितने न्यूनतम मोलर सांद्र..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "stz20i09mdkw011voryf",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "a-solution-of-01-m-weak-base-b-is-titrated-with-01-m-of-jee-advanced-chemistry-some-basic-concepts-of-chemistry-kjqvfr20kbvezpyw",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A solution of 0.1 M weak base (B) is titrated with 0.1 M of a strong acid (HA). The variation of pH of the solution with the volume of HA added is shown in the figure below. What is the pK<sub>b</sub> of the base? The neutralisation reaction is given by<br><br>$$B + HA\\buildrel {} \\over\n \\longrightarrow B{H^ + } + {A^ - }$$<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9urh2u/bc03803e-53f1-4d12-a8de-1566c67e7b5b/5394b470-5eec-11ec-b1f6-5f1771b464e3/file-1kx9urh2v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9urh2u/bc03803e-53f1-4d12-a8de-1566c67e7b5b/5394b470-5eec-11ec-b1f6-5f1771b464e3/file-1kx9urh2v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - Ionic Equilibrium Question 9 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "From the given diagram, 63 mL volume of HA used till equivalence point. At half of equivalence point, solution will be basic buffer with B and BH<sup>+</sup>.<br><br>$$pOH = p{K_b} + \\log {{[B{H^ + }]} \\over {[B]}}$$<br><br>At half equivalence point :<br><br>[BH<sup>+</sup>] = [B]  ($$ \\because $$ pH = 11)<br><br>Therefore, pOH = pK<sub>b</sub> = 14 $$-$$ 11 = 3<br><br>$$ \\because $$ pK<sub>b</sub> = 3.00"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$0.1 ~\\mathrm{M}$$ दुर्बल क्षार $$\\mathrm{(B)}$$ के एक विलयन का अनुमापन $$0.1 ~\\mathrm{M}$$ प्रबल अम्ल $$\\mathrm{(HA)}$$ के द्वारा किया गया | $$\\mathrm{HA}$$ के मिलाए गए आयतन के साथ विलयन के $$\\mathrm{pH}$$ का परिवर्तन नीचे चित्र में दर्शाया गया है (Volume of $$\\mathrm{HA}$$ : $$\\mathrm{HA}$$ का आयतन) | क्षार का $$\\mathrm{p} K_{b}$$ क्या है ? उदासीनीकरण अभिक्रिया इस प्रकार है,</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9urh2u/bc03803e-53f1-4d12-a8de-1566c67e7b5b/5394b470-5eec-11ec-b1f6-5f1771b464e3/file-1kx9urh2v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9urh2u/bc03803e-53f1-4d12-a8de-1566c67e7b5b/5394b470-5eec-11ec-b1f6-5f1771b464e3/file-1kx9urh2v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - Ionic Equilibrium Question 9 Hindi\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "दिए गए चित्र से, तुल्यता बिंदु तक 63 mL आयतन HA का उपयोग किया गया। तुल्यता बिंदु के आधे पर, विलयन B और BH<sup>+</sup> के साथ क्षारीय बफर होगा।<br><br>$$pOH = p{K_b} + \\log {{[B{H^ + }]} \\over {[B]}}$$<br><br>अर्ध तुल्यता बिंदु पर :<br><br>[BH<sup>+</sup>] = [B]  ($$ \\because $$ pH = 11)<br><br>इसलिए, pOH = pK<sub>b</sub> = 14 $$-$$ 11 = 3<br><br>$$ \\because $$ pK<sub>b</sub> = 3.00"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "ph-buffer-and-indicators",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "A solution of 0.1 M weak base (B) is titrated with 0.1 M of a strong acid (HA). The variation of pH of the solution with the volume of HA added is shown in the figure below. What is the pKb of the base? The neutralisation reaction is given ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "$$0.1 ~\\mathrm{M}$$ दुर्बल क्षार $$\\mathrm{(B)}$$ के एक विलयन का अनुमापन $$0.1 ~\\mathrm{M}$$ प्रबल अम्ल $$\\mathrm{(HA)}$$ के द्वारा किया गया | $$\\mathrm{HA}$$ के मिलाए गए आयतन के साथ विलयन के $$\\mathrm{pH}$$ का परिवर्तन नीचे चित्र में दर्शा..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "rn8ow2g8pof9f7otdy6h",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ionic-equilibrium",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Dilution processes of different aqueous solutions, with water, are given in<b> LIST - I.</b> The effects of dilution of the solutions on $$\\left[ {{H^ + }} \\right]$$ are given in <b>LIST - II</b>  \n<br><br>(Note: Degree of dissociation (a) of weak acid and weak base is $$&lt;&lt;1;$$ degree of hydrolysis of salt $$&lt;&lt;1;$$ $$\\left[ {{H^ + }} \\right]$$  represents the concentration of $${H^ + }$$  ions)\n<br><br><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;border:none;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-adtk{font-weight:bold;font-size:20px;text-align:left}\n.tg .tg-13k7{font-size:20px;text-align:left}\n</style>\n<table class=\"tg\">\n  <tbody><tr>\n    <th class=\"tg-13k7\"></th>\n    <th class=\"tg-adtk\">LIST-I</th>\n    <th class=\"tg-adtk\"></th>\n    <th class=\"tg-adtk\">LIST-II</th>\n  </tr>\n  <tr>\n    <td class=\"tg-adtk\">P.</td>\n    <td class=\"tg-13k7\">(10 mL of 0.1 M NaOH + 20 mL of <br>0.1 M acetic acid) diluted to 60 mL</td>\n    <td class=\"tg-adtk\">1.</td>\n    <td class=\"tg-13k7\">the value of [H<sup>+</sup>] does not change<br>on dilution</td>\n  </tr>\n  <tr>\n    <td class=\"tg-adtk\">Q.</td>\n    <td class=\"tg-13k7\">(20 mL of 0.1 M NaOH + 20 mL of<br>0.1 M acetic acid) diluted to 80 mL</td>\n    <td class=\"tg-adtk\">2.</td>\n    <td class=\"tg-13k7\">the value of [H<sup>+</sup>] changes to half <br>of its initial value on dilution</td>\n  </tr>\n  <tr>\n    <td class=\"tg-adtk\">R.</td>\n    <td class=\"tg-13k7\">(20 mL of 0.1 M HCL + 20 mL of<br>0.1 M ammonia solution) diluted to<br>80 mL </td>\n    <td class=\"tg-adtk\">3.</td>\n    <td class=\"tg-13k7\">the value of [H<sup>+</sup>] changes to two <br>times of its initial value on dilution</td>\n  </tr>\n  <tr>\n    <td class=\"tg-adtk\">S.</td>\n    <td class=\"tg-13k7\">10 mL saturated solution of Ni(OH)<sub>2</sub><br>in equilibrium with excess solid <br>Ni(OH)<sub>2</sub> is diluted to 20 mL (solid <br>Ni(OH)<sub>2</sub> is still present after dilution).</td>\n    <td class=\"tg-adtk\">4.</td>\n    <td class=\"tg-13k7\">the value of [H<sup>+</sup>] changes to $${1 \\over {\\sqrt 2 }}$$<br>times of its initial value on dilution</td>\n  </tr>\n  <tr>\n    <td class=\"tg-13k7\"></td>\n    <td class=\"tg-13k7\"></td>\n    <td class=\"tg-adtk\">5.</td>\n    <td class=\"tg-13k7\">the value of [H<sup>+</sup>] changes to $$\\sqrt 2 $$ <br>times of its initial value on dilution</td>\n  </tr>\n</tbody></table>         \n<br><br>Match each process given in <b> LIST-I</b> with one or more effect(s) in <b>LIST-II.</b> The correct option is :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P - 4;Q - 2;R - 3;S - 1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$P - 4;Q - 3;R - 2;S - 3$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$P - 1;Q - 4;R - 5;S - 3$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$P - 1;Q - 5;R - 4;S - 1$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<b>P.</b> Sodium hydroxide reacts with acetic acid to form sodium acetate.\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyawev6/07d2eded-2003-4ffd-a29b-aae4dfc762b0/9225a220-f852-11ed-98f7-d3e6ed2863fe/file-1lhyawev7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyawev6/07d2eded-2003-4ffd-a29b-aae4dfc762b0/9225a220-f852-11ed-98f7-d3e6ed2863fe/file-1lhyawev7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Ionic Equilibrium Question 11 English Explanation 1\">\n<br><br>The final solution will be a buffer of $\\mathrm{CH}_3 \\mathrm{COOH}$ and $\\mathrm{CH}_3 \\mathrm{COONa}$ as $\\mathrm{CH}_3 \\mathrm{COOH}$ is not completely neutralised by $\\mathrm{NaOH}$.\n<br><br>The final moles of $\\mathrm{CH}_3 \\mathrm{COOH}=$ moles of $\\mathrm{CH}_3 \\mathrm{COONa}$ = 0.001 mol\n<br><br>$$\n\\mathrm{Ph}=p \\mathrm{~K}_a+\\log \\frac{\\left[\\mathrm{CH}_3 \\mathrm{COO}^{-}\\right]}{\\left[\\mathrm{CH}_3 \\mathrm{COOH}\\right]}\n$$\n<br><br>$\\Rightarrow\\left[\\mathrm{H}^{+}\\right]$will not change on dilution as concentration of salt and acid does not change on dilution.\n<br><br>$\\therefore$ Correct match $\\mathrm{P}-1$\n<br><br>Q. <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhybei48/25acf5fd-15ad-4713-ac8b-150813ad9629/8939c7c0-f854-11ed-bf4b-dbc7e4622e45/file-1lhybei4d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhybei48/25acf5fd-15ad-4713-ac8b-150813ad9629/8939c7c0-f854-11ed-bf4b-dbc7e4622e45/file-1lhybei4d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Ionic Equilibrium Question 11 English Explanation 2\">\n<br><br>$$\n\\begin{aligned}\n&amp; \\left[\\mathrm{CH}_3 \\mathrm{COO}^{-}\\right]_{\\mathrm{old}}=\\frac{20 \\times 0.1}{40}=\\frac{2}{40} \\\\\\\\\n&amp; {\\left[\\mathrm{CH}_3 \\mathrm{COO}^{-}\\right]_{\\text {new }}=\\frac{2}{80}}\n\\end{aligned}\n$$\n<br><br>$$\n\\begin{aligned}\n{\\left[\\mathrm{OH}^{-}\\right] } &amp; =\\sqrt{\\mathrm{K}_{\\mathrm{H}} \\mathrm{C}} \\\\\\\\\n&amp; =\\sqrt{\\left(\\frac{\\mathrm{K}_w}{\\mathrm{~K}_a} \\mathrm{C}\\right)} \\\\\\\\\n{\\left[\\mathrm{H}^{+}\\right]_1 } &amp; =\\sqrt{\\frac{\\mathrm{K}_w \\mathrm{~K}_a}{\\mathrm{C}}} \\\\\\\\\n\\frac{\\left[\\mathrm{H}^{+}\\right]_2}{\\left[\\mathrm{H}^{+}\\right]_1}=\\sqrt{\\frac{\\mathrm{C}_1}{\\mathrm{C}_2}} &amp; =\\sqrt{\\frac{0.05}{0.025}}=\\sqrt{2}\n\\end{aligned}\n$$\n<br><br>Correct match Q-5\n<br><br>R. <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyc2nrb/04228d7c-ae32-4409-a12e-3a4add49886f/29001d70-f857-11ed-9e10-970d333b1a81/file-1lhyc2nrc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyc2nrb/04228d7c-ae32-4409-a12e-3a4add49886f/29001d70-f857-11ed-9e10-970d333b1a81/file-1lhyc2nrc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Ionic Equilibrium Question 11 English Explanation 3\">\n<br><br>As per the condition given in $R$ the resultant solution before dilution contains 2 millimoles of $\\mathrm{NH}_4 \\mathrm{Cl}$ in $40 \\mathrm{~mL}$ of solution. Hence, a salt of strong acid and weak base is formed. For this,\n<br><br>$$\n\\left[\\mathrm{H}^{+}\\right]_{\\text {initial }}=\\sqrt{\\frac{K_w \\times C}{K_b}}\n$$\n<br><br>Now on dilution upto $80 \\mathrm{~mL}$ new conc. becomes $C / 2$.\n<br><br>So\n$$\n\\left[\\mathrm{H}^{+}\\right]_{\\text {new }}=\\sqrt{\\frac{K_w \\times \\frac{C}{2}}{K_b}}\n$$\n<br><br>or\n$$\n\\left[\\mathrm{H}^{+}\\right]_{\\text {new }}=\\left[\\mathrm{H}^{+}\\right]_{\\text {initial }} \\times \\frac{1}{\\sqrt{2}}\n$$\n<br><br>(S) For a saturated solution,\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyccomj/e6863bc9-caa3-4319-b566-bd175c14f413/3fc307b0-f858-11ed-b917-91df11cad56c/file-1lhyccomk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyccomj/e6863bc9-caa3-4319-b566-bd175c14f413/3fc307b0-f858-11ed-b917-91df11cad56c/file-1lhyccomk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Ionic Equilibrium Question 11 English Explanation 4\">\n<br>$$\n\\begin{aligned}\nK_{s p}=s \\times(2 s)^2=4 s^3 \\\\\\\\\n\\Rightarrow s=\\left[\\mathrm{OH}^{-}\\right]=\\sqrt[3]{\\frac{K_{s p}}{4}}\n\\end{aligned}\n$$\n<br><br>Irrespective of volume of solution, $\\left[\\mathrm{H}^{+}\\right]$remains constant. \n<br><br>(S) $\\rightarrow$ (1)"
+        },
+        "hi": {
+          "content": "विभिन्न जलीय घोलों के पानी से पतला करने की प्रक्रियाएँ <b>सूची - I</b> में दी गई हैं। पतला करने पर घोलों के $$\\left[ {{H^ + }} \\right]$$ पर प्रभाव <b>सूची - II</b> में दिए गए हैं।\n<br><br>(नोट: कमजोर अम्ल और कमजोर आधार का विच्छेदन डिग्री (a) $$<<1$$ है; नमक का जल अपघटन डिग्री $$<<1$$ है; $$\\left[ {{H^ + }} \\right]$$ $${H^ + }$$ आयनों की सांद्रता को दर्शाता है)\n<br><br><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;border:none;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-adtk{font-weight:bold;font-size:20px;text-align:left}\n.tg .tg-13k7{font-size:20px;text-align:left}\n</style>\n<table class=\"tg\">\n  <tbody><tr>\n    <th class=\"tg-13k7\"></th>\n    <th class=\"tg-adtk\">सूची-I</th>\n    <th class=\"tg-adtk\"></th>\n    <th class=\"tg-adtk\">सूची-II</th>\n  </tr>\n  <tr>\n    <td class=\"tg-adtk\">P.</td>\n    <td class=\"tg-13k7\">(10 mL of 0.1 M NaOH + 20 mL of <br>0.1 M acetic acid) diluted to 60 mL</td>\n    <td class=\"tg-adtk\">1.</td>\n    <td class=\"tg-13k7\">[H<sup>+</sup>] का मान पतला करने पर नहीं बदलता</td>\n  </tr>\n  <tr>\n    <td class=\"tg-adtk\">Q.</td>\n    <td class=\"tg-13k7\">(20 mL of 0.1 M NaOH + 20 mL of<br>0.1 M acetic acid) diluted to 80 mL</td>\n    <td class=\"tg-adtk\">2.</td>\n    <td class=\"tg-13k7\">[H<sup>+</sup>] का मान पतला करने पर इसके प्रारंभिक मान का आधा हो जाता है</td>\n  </tr>\n  <tr>\n    <td class=\"tg-adtk\">R.</td>\n    <td class=\"tg-13k7\">(20 mL of 0.1 M HCL + 20 mL of<br>0.1 M ammonia solution) diluted to<br>80 mL </td>\n    <td class=\"tg-adtk\">3.</td>\n    <td class=\"tg-13k7\">[H<sup>+</sup>] का मान पतला करने पर इसके प्रारंभिक मान का दो गुना हो जाता है</td>\n  </tr>\n  <tr>\n    <td class=\"tg-adtk\">S.</td>\n    <td class=\"tg-13k7\">10 mL saturated solution of Ni(OH)<sub>2</sub><br>in equilibrium with excess solid <br>Ni(OH)<sub>2</sub> is diluted to 20 mL (solid <br>Ni(OH)<sub>2</sub> is still present after dilution).</td>\n    <td class=\"tg-adtk\">4.</td>\n    <td class=\"tg-13k7\">[H<sup>+</sup>] का मान पतला करने पर इसके प्रारंभिक मान का $${1 \\over {\\sqrt 2 }}$$ हो जाता है</td>\n  </tr>\n  <tr>\n    <td class=\"tg-13k7\"></td>\n    <td class=\"tg-13k7\"></td>\n    <td class=\"tg-adtk\">5.</td>\n    <td class=\"tg-13k7\">[H<sup>+</sup>] का मान पतला करने पर $$\\sqrt 2 $$ का हो जाता है</td>\n  </tr>\n</tbody></table>         \n<br><br> <b> सूची-I</b> में दी गई प्रत्येक प्रक्रिया को <b>सूची-II</b> में एक या अधिक प्रभावों से मिलाएं। सही विकल्प है:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P - 4;Q - 2;R - 3;S - 1$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$P - 4;Q - 3;R - 2;S - 3$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$P - 1;Q - 4;R - 5;S - 3$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$P - 1;Q - 5;R - 4;S - 1$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<b>P.</b> सोडियम हाइड्रॉक्साइड एसिटिक अम्ल के साथ अभिक्रिया करके सोडियम एसीटेट बनाता है।\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyawev6/07d2eded-2003-4ffd-a29b-aae4dfc762b0/9225a220-f852-11ed-98f7-d3e6ed2863fe/file-1lhyawev7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyawev6/07d2eded-2003-4ffd-a29b-aae4dfc762b0/9225a220-f852-11ed-98f7-d3e6ed2863fe/file-1lhyawev7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Ionic Equilibrium Question 11 Hindi Explanation 1\">\n<br><br>अंतिम विलयन $\\mathrm{CH}_3 \\mathrm{COOH}$ और $\\mathrm{CH}_3 \\mathrm{COONa}$ का एक बफर होगा क्योंकि $\\mathrm{CH}_3 \\mathrm{COOH}$ $\\mathrm{NaOH}$ द्वारा पूर्णतः उदासीनीकृत नहीं होता है।\n<br><br>$\\mathrm{CH}_3 \\mathrm{COOH}$ के अंतिम मोल = $\\mathrm{CH}_3 \\mathrm{COONa}$ के मोल = 0.001 mol\n<br><br>$$\n\\mathrm{Ph}=p \\mathrm{~K}_a+\\log \\frac{\\left[\\mathrm{CH}_3 \\mathrm{COO}^{-}\\right]}{\\left[\\mathrm{CH}_3 \\mathrm{COOH}\\right]}\n$$\n<br><br>$\\Rightarrow\\left[\\mathrm{H}^{+}\\right]$ तनुकरण पर परिवर्तित नहीं होगा क्योंकि लवण और अम्ल की सांद्रता तनुकरण पर परिवर्तित नहीं होती है।\n<br><br>$\\therefore$ सही मिलान $\\mathrm{P}-1$\n<br><br>Q. <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhybei48/25acf5fd-15ad-4713-ac8b-150813ad9629/8939c7c0-f854-11ed-bf4b-dbc7e4622e45/file-1lhybei4d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhybei48/25acf5fd-15ad-4713-ac8b-150813ad9629/8939c7c0-f854-11ed-bf4b-dbc7e4622e45/file-1lhybei4d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Ionic Equilibrium Question 11 Hindi Explanation 2\">\n<br><br>$$\n\\begin{aligned}\n&amp; \\left[\\mathrm{CH}_3 \\mathrm{COO}^{-}\\right]_{\\mathrm{old}}=\\frac{20 \\times 0.1}{40}=\\frac{2}{40} \\\\\\\\\n&amp; {\\left[\\mathrm{CH}_3 \\mathrm{COO}^{-}\\right]_{\\text {new }}=\\frac{2}{80}}\n\\end{aligned}\n$$\n<br><br>$$\n\\begin{aligned}\n{\\left[\\mathrm{OH}^{-}\\right] } &amp; =\\sqrt{\\mathrm{K}_{\\mathrm{H}} \\mathrm{C}} \\\\\\\\\n&amp; =\\sqrt{\\left(\\frac{\\mathrm{K}_w}{\\mathrm{~K}_a} \\mathrm{C}\\right)} \\\\\\\\\n{\\left[\\mathrm{H}^{+}\\right]_1 } &amp; =\\sqrt{\\frac{\\mathrm{K}_w \\mathrm{~K}_a}{\\mathrm{C}}} \\\\\\\\\n\\frac{\\left[\\mathrm{H}^{+}\\right]_2}{\\left[\\mathrm{H}^{+}\\right]_1}=\\sqrt{\\frac{\\mathrm{C}_1}{\\mathrm{C}_2}} &amp; =\\sqrt{\\frac{0.05}{0.025}}=\\sqrt{2}\n\\end{aligned}\n$$\n<br><br>सही मिलान Q-5\n<br><br>R. <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyc2nrb/04228d7c-ae32-4409-a12e-3a4add49886f/29001d70-f857-11ed-9e10-970d333b1a81/file-1lhyc2nrc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyc2nrb/04228d7c-ae32-4409-a12e-3a4add49886f/29001d70-f857-11ed-9e10-970d333b1a81/file-1lhyc2nrc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Ionic Equilibrium Question 11 Hindi Explanation 3\">\n<br><br>R में दी गई शर्त के अनुसार तनुकरण से पहले परिणामी विलयन में $40 \\mathrm{~mL}$ विलयन में $\\mathrm{NH}_4 \\mathrm{Cl}$ के 2 मिलीमोल होते हैं। अतः, प्रबल अम्ल और दुर्बल क्षार का लवण बनता है। इसके लिए,\n<br><br>$$\n\\left[\\mathrm{H}^{+}\\right]_{\\text {initial }}=\\sqrt{\\frac{K_w \\times C}{K_b}}\n$$\n<br><br>अब $80 \\mathrm{~mL}$ तक तनुकरण पर नई सांद्रता $C / 2$ हो जाती है।\n<br><br>अतः\n$$\n\\left[\\mathrm{H}^{+}\\right]_{\\text {new }}=\\sqrt{\\frac{K_w \\times \\frac{C}{2}}{K_b}}\n$$\n<br><br>या\n$$\n\\left[\\mathrm{H}^{+}\\right]_{\\text {new }}=\\left[\\mathrm{H}^{+}\\right]_{\\text {initial }} \\times \\frac{1}{\\sqrt{2}}\n$$\n<br><br>(S) संतृप्त विलयन के लिए,\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhyccomj/e6863bc9-caa3-4319-b566-bd175c14f413/3fc307b0-f858-11ed-b917-91df11cad56c/file-1lhyccomk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhyccomj/e6863bc9-caa3-4319-b566-bd175c14f413/3fc307b0-f858-11ed-b917-91df11cad56c/file-1lhyccomk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Chemistry - Ionic Equilibrium Question 11 Hindi Explanation 4\">\n<br>$$\n\\begin{aligned}\nK_{s p}=s \\times(2 s)^2=4 s^3 \\\\\\\\\n\\Rightarrow s=\\left[\\mathrm{OH}^{-}\\right]=\\sqrt[3]{\\frac{K_{s p}}{4}}\n\\end{aligned}\n$$\n<br><br>विलयन के आयतन की परवाह किए बिना, $\\left[\\mathrm{H}^{+}\\right]$ स्थिर रहता है। \n<br><br>(S) $\\rightarrow$ (1)",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "dilution-processes-of-different-aqueous-solutions-with-wate-2018-marks-3-ddfskuviumgsxmn6.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "topic": "salt-hydrolysis",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "Dilution processes of different aqueous solutions, with water, are given in LIST - I. The effects of dilution of the solutions on $$\\left[ {{H^ + }} \\right]$$ are given in LIST - II  \n(Note: Degree of dissociation (a) of weak acid and weak ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "विभिन्न जलीय घोलों के पानी से पतला करने की प्रक्रियाएँ सूची - I में दी गई हैं। पतला करने पर घोलों के $$\\left[ {{H^ + }} \\right]$$ पर प्रभाव सूची - II में दिए गए हैं।\n(नोट: कमजोर अम्ल और कमजोर आधार का विच्छेदन डिग्री (a) $$<<1$$ है; नमक का ज..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "nqcvunl7hopc297qmkzi",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ionic-equilibrium",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The solubility of a salt of weak acid $$(AB)$$ at $$pH\\,$$ $$3$$ is $$Y \\times {10^{ - 3}}$$ $$mol\\,{L^{ - 1}}.$$  The value of $$Y$$ is ________________.\n<br><br>(Given that the value of solubility product of $$AB$$ $$\\left( {{K_{sp}}} \\right) = 2 \\times {10^{ - 10}}$$ and the value of ionization constant of $$HB$$ $$\\left( {{K_a}} \\right) = 1 \\times {10^{ - 8}}$$)",
+          "options": [],
+          "correct_options": [],
+          "answer": "4.47",
+          "explanation": "<p>Let solubility of AB in the buffer of pH 3 = x</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kz5rcxir/96a9fa9c-79a8-4167-a04f-870f29dd4052/4feac030-8444-11ec-895a-013b39bd8d57/file-1kz5rcxis.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kz5rcxir/96a9fa9c-79a8-4167-a04f-870f29dd4052/4feac030-8444-11ec-895a-013b39bd8d57/file-1kz5rcxis.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - Ionic Equilibrium Question 12 English Explanation\"></p>\n<p>K<sub>3</sub> = $${{{K_{sp}}} \\over {{K_a}}}$$</p>\n<p>$${K_3} = {{[HB][{A^ + }]} \\over {[{H^ + }]}} = {{{K_{sp}}} \\over {{K_a}}}$$</p>\n<p>$$\\therefore$$ $${{{x^2}} \\over {({{10}^{ - 3}})}} = {{2 \\times {{10}^{ - 10}}} \\over {1 \\times {{10}^{ - 8}}}}$$</p>\n<p>$$\\therefore$$ x = 4.47 $$\\times$$ 10<sup>$$-$$3</sup> M  = y $$\\times$$ 10<sup>$$-$$3</sup> M</p>\n<p>$$\\therefore$$ y = 4.47</p>"
+        },
+        "hi": {
+          "content": "एक कमजोर अम्ल के नमक $$(AB)$$ की विलेयता $$pH$$ $$3$$ पर $$Y \\times {10^{ - 3}}$$ $$mol\\,{L^{ - 1}}$$ है। $$Y$$ का मान _________________.\n<br><br>(दिया गया कि $$AB$$ का विलेयता गुणांक $$\\left( {{K_{sp}}} \\right) = 2 \\times {10^{ - 10}}$$ है और $$HB$$ का आयनीकरण स्थिरांक $$\\left( {{K_a}} \\right) = 1 \\times {10^{ - 8}}$$ है)",
+          "options": [],
+          "correct_options": [],
+          "answer": "4.47",
+          "explanation": "<p>माना pH 3 के बफर में AB की विलेयता = x</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kz5rcxir/96a9fa9c-79a8-4167-a04f-870f29dd4052/4feac030-8444-11ec-895a-013b39bd8d57/file-1kz5rcxis.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kz5rcxir/96a9fa9c-79a8-4167-a04f-870f29dd4052/4feac030-8444-11ec-895a-013b39bd8d57/file-1kz5rcxis.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - Ionic Equilibrium Question 12 Hindi Explanation\"></p>\n<p>K<sub>3</sub> = $${{{K_{sp}}} \\over {{K_a}}}$$</p>\n<p>$${K_3} = {{[HB][{A^ + }]} \\over {[{H^ + }]}} = {{{K_{sp}}} \\over {{K_a}}}$$</p>\n<p>$$\\therefore$$ $${{{x^2}} \\over {({{10}^{ - 3}})}} = {{2 \\times {{10}^{ - 10}}} \\over {1 \\times {{10}^{ - 8}}}}$$</p>\n<p>$$\\therefore$$ x = 4.47 $$\\times$$ 10<sup>$$-$$3</sup> M  = y $$\\times$$ 10<sup>$$-$$3</sup> M</p>\n<p>$$\\therefore$$ y = 4.47</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-solubility-of-a-salt-of-weak-acid-ab-at-ph-2018-marks-3-ims3qekhhb8ldctu.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "solubility-product-and-common-ion-effect",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "The solubility of a salt of weak acid $$(AB)$$ at $$pH\\,$$ $$3$$ is $$Y \\times {10^{ - 3}}$$ $$mol\\,{L^{ - 1}}.$$  The value of $$Y$$ is ________________.\n(Given that the value of solubility product of $$AB$$ $$\\left( {{K_{sp}}} \\right) = 2..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "एक कमजोर अम्ल के नमक $$(AB)$$ की विलेयता $$pH$$ $$3$$ पर $$Y \\times {10^{ - 3}}$$ $$mol\\,{L^{ - 1}}$$ है। $$Y$$ का मान _________________.\n(दिया गया कि $$AB$$ का विलेयता गुणांक $$\\left( {{K_{sp}}} \\right) = 2 \\times {10^{ - 10}}$$ है और $$HB..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dnhbvabodxufos0o1nlj",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ionic-equilibrium",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<b>Paragraph</b><br>\nWhen 100 mL of 1.0 M HCl was mixed with 100 mL of 1.0 M NaOH in an insulated beaker at constant pressure, a temperature increase of 5.7<sup>o</sup> C was measured for the beaker and its contents (Expt. 1). Because the enthalpy of neutralization of a strong acid with a strong base is constant (-57.0 kJ/mol), this experiment could be used to measure the calorimeter constant. In a second experiment (Expt. 2) 100 mL of 2.0 M acetic acid (K<sub>a</sub> = 2.0 $$\\times$$ 10<sup>-5</sup>) was mixed with 100 mL of 1.0 M NaOH (under identical conditions to Expt. 1) where a temperature rise of 5.6<sup>o</sup> C was measured. (Consider heat capacity of all solutions as 4.2 J/gK and density of all solutions as 1.0 g m/L)<br>\n<b>Question</b><br>\nEnthalpy of dissociation (in kJ/mol) of acetic acid obtained from the Expt. 2 is  ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1.0"
+            },
+            {
+              "identifier": "B",
+              "content": "10.0"
+            },
+            {
+              "identifier": "C",
+              "content": "24.5"
+            },
+            {
+              "identifier": "D",
+              "content": "51.4"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Energy evolved on neutralization of HCl and NaOH is</p>\n<p>0.1 $$\\times$$ 57 = 5.7 kJ = 5700 J</p>\n<p>Energy utilized to rise the temperature of the solution is</p>\n<p>ms . $$\\Delta$$T = 200 $$\\times$$ 1 $$\\times$$ 4.2 $$\\times$$ 5.7 = 4788 J</p>\n<p>Energy used to increase temperature of calorimeter is</p>\n<p>= 5700 $$-$$ 4788 = 912 J</p>\n<p>ms . $$\\Delta$$T = 912</p>\n<p>m $$\\times$$ s $$\\times$$ 5.7 = 912 $$\\rightarrow$$ ms = 160 J$$^\\circ$$C<sup>$$-$$1</sup> [Calorimeter constant]</p>\n<p>Energy evolved by neutralization of CH<sub>3</sub>COOH and NaOH is</p>\n<p>= 200 $$\\times$$ 4.2 $$\\times$$ 5.6 + 160 $$\\times$$ 5.6 = 5600 J</p>\n<p>So, the energy used in dissociation of 0.1 mol CH<sub>3</sub>COOH is</p>\n<p>= 5700 $$-$$ 5600 = 100 J</p>\n<p>Thus, enthalpy of dissociation is 1 kJ mol<sup>$$-$$1</sup>.</p>"
+        }
+      },
+      "permalink": "paragraph-when-100-ml-of-10-m-kcl-was-mixed-with-100-ml-of-2015-marks-4-zr0ak8hupibghhhc.htm",
+      "timeAllotted": 180000,
+      "topic": "ostwalds-dilution-law-and-concept-of-acid-and-base",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "Paragraph\nWhen 100 mL of 1.0 M HCl was mixed with 100 mL of 1.0 M NaOH in an insulated beaker at constant pressure, a temperature increase of 5.7o C was measured for the beaker and its contents (Expt. 1). Because the enthalpy of neutralizat..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "18ncjpgvz2htnkd7v0kl",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ionic-equilibrium",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<b>Paragraph</b><br>\nWhen 100 mL of 1.0 M KCl was mixed with 100 mL of 1.0 M NaOH in an insulated beaker at constant pressure, a temperature increase of 5.7<sup>o</sup> C was measured for the beaker and its contents (Expt. 1). Because the enthalpy of neutralization of a strong acid with a strong base is constant (-57.0 kJ/mol), this experiment could be used to measure the calorimeter constant. In a second experiment (Expt. 2) 100 mL of 2.0 M acetic acid (K<sub>a</sub> = 2.0 $$\\times$$ 10<sup>-5</sup>) was mixed with 100 mL of 1.0 M NaOH (under identical conditions to Expt. 1) where a temperature rise of 5.6<sup>o</sup> C was measured. (Consider heat capacity of all solutions as 4.2 J/gK and density of all solutions as 1.0 g m/L)<br>\n<b>Question</b><br>\nThe pH of the solution after Expt. 2 is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "2.8"
+            },
+            {
+              "identifier": "B",
+              "content": "4.7"
+            },
+            {
+              "identifier": "C",
+              "content": "5.0"
+            },
+            {
+              "identifier": "D",
+              "content": "7.0"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>In Expt. 2, the final solution is a buffer as it contains equimolar amounts of acid and salt.</p>\n<p>$$pH = p{K_a} + \\log {{(salt)} \\over {(acid)}}$$ ..... (1)</p>\n<p>$$p{K_a} =  - \\log (2 \\times {10^{ - 5}})$$</p>\n<p>$$ =  - 0.3010 + 5$$</p>\n<p>$$ = 4.699 \\approx 4.7$$</p>\n<p>$$[Salt] = [C{H_3}COONa] = {{100} \\over {200}} \\times 2 = 1\\,M$$</p>\n<p>$$[Acid) = [C{H_3}COOH] = {{200 - 100} \\over {200}} \\times 2 = {{100} \\over {200}} \\times 2 = 1\\,M$$</p>\n<p>Substituting the values in Eq. (1), we get</p>\n<p>$$pH = 4.7 + \\log {1 \\over 1} = 4.7$$</p>"
+        }
+      },
+      "permalink": "paragraph-when-100-ml-of-10-m-kcl-was-mixed-with-100-ml-of-2015-marks-4-nihbs2ruwffne1vq.htm",
+      "timeAllotted": 180000,
+      "topic": "ph-buffer-and-indicators",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "Paragraph\nWhen 100 mL of 1.0 M KCl was mixed with 100 mL of 1.0 M NaOH in an insulated beaker at constant pressure, a temperature increase of 5.7o C was measured for the beaker and its contents (Expt. 1). Because the enthalpy of neutralizat..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1fx48im6ehqqs8hp5q3s",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ionic-equilibrium",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The K<sub>sp</sub> of Ag<sub>2</sub>CrO<sub>4</sub> is 1.1 $$\\times$$ 10<sup>-12</sup> at 298 K. The solubility (in mol/L) of Ag<sub>2</sub>CrO<sub>4</sub> in a 0.1 M AgNO<sub>3</sub> solution is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1.1 $$\\times$$ 10<sup>-11</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "1.1 $$\\times$$ 10<sup>-10</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "1.1 $$\\times$$ 10<sup>-12</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "1.1 $$\\times$$ 10<sup>-9</sup>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine the solubility of Ag<sub>2</sub>CrO<sub>4</sub> in a 0.1 M AgNO<sub>3</sub> solution, let’s consider the solubility equilibrium and how it is affected by the common ion effect.</p>\n\n<p>First, let’s establish the dissociation equation for Ag<sub>2</sub>CrO<sub>4</sub> :</p>\n\n<p>$$Ag_2CrO_4(s) \\rightleftharpoons 2Ag^+ (aq) + CrO_4^{2-} (aq)$$</p>\n\n<p>The solubility product constant, K<sub>sp</sub>, is given by :</p>\n\n<p>$$K_{sp} = [Ag^+]^2 [CrO_4^{2-}]$$</p>\n\n<p>Given that K<sub>sp</sub> = 1.1 $$\\times$$ 10<sup>-12</sup>.</p>\n\n<p>In a 0.1 M AgNO<sub>3</sub> solution, the concentration of Ag<sup>+</sup> ions from AgNO<sub>3</sub> alone is already 0.1 M. Let’s denote the additional solubility of Ag<sub>2</sub>CrO<sub>4</sub> in this solution as $s$.</p>\n\n<p>Therefore, the total concentration of Ag<sup>+</sup> ions will be (0.1 + 2s) M, and the concentration of CrO<sub>4</sub><sup>2-</sup> ions will be $s$ M.</p>\n\n<p>Substituting these into the K<sub>sp</sub> expression :</p>\n\n<p>$$K_{sp} = (0.1 + 2s)^2 s$$</p>\n\n<p>Given that K<sub>sp</sub> is a very small number, we can assume that $2s$ is much smaller than 0.1, therefore $0.1 + 2s \\approx 0.1$. This simplifies our equation to :</p>\n\n<p>$$K_{sp} \\approx (0.1)^2 s$$</p>\n\n<p>Substitute $K_{sp} = 1.1 \\times 10^{-12}$ into the equation :</p>\n\n<p>$$1.1 \\times 10^{-12} \\approx (0.1)^2 s$$</p>\n\n<p>$$1.1 \\times 10^{-12} \\approx 0.01 s$$</p>\n\n<p>Solving for $s$ :</p>\n\n<p>$$s = \\frac{1.1 \\times 10^{-12}}{0.01} = 1.1 \\times 10^{-10}$$</p>\n\n<p>Hence, the solubility of Ag<sub>2</sub>CrO<sub>4</sub> in a 0.1 M AgNO<sub>3</sub> solution is 1.1 $$\\times$$ 10<sup>-10</sup> mol/L.</p>\n\n<p>The correct option is B: 1.1 $$\\times$$ 10<sup>-10</sup>.</p>"
+        }
+      },
+      "permalink": "the-ksp-of-ag2cro4-is-11-times-10-12-at-298-k-the-sol-2013-marks-3-zpboytb2pbpfjxdp.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "topic": "solubility-product-and-common-ion-effect",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "The Ksp of Ag2CrO4 is 1.1 $$\\times$$ 10-12 at 298 K. The solubility (in mol/L) of Ag2CrO4 in a 0.1 M AgNO3 solution is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "nj8bgj4rrs6glftu6od2",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ionic-equilibrium",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The initial rate of hydrolysis of methyl acetate (1M) by a weak acid (HA, 1M) is 1/100<sup>th</sup> of that of a strong acid (HX, 1M), at 25<sup>o</sup>C. The K<sub>a</sub> of HA is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1 $$\\times$$ 10<sup>-4</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "1 $$\\times$$ 10<sup>-5</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "1 $$\\times$$ 10<sup>-6</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "1 $$\\times$$ 10<sup>-3</sup>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Let's break down this problem step-by-step:</p>\n\n<p><strong>Understanding the Reaction:</strong></p>\n\n<p>The hydrolysis of methyl acetate (MeCOOCH<sub>3</sub>) is catalyzed by both strong acids (like HX) and weak acids (like HA). The reaction proceeds as follows:</p>\n\n<p>$$ MeCOOCH_3 + H_2O \\xrightarrow[or \\, HA]{H^+ \\, or \\, HX} MeCOOH + CH_3OH $$</p>\n\n<p><strong>Rate of Reaction and Acid Strength:</strong></p>\n\n<p>The rate of acid-catalyzed hydrolysis depends on the concentration of H<sup>+</sup> ions.  </p>\n\n<ul>\n<li>  <strong>Strong acids</strong> ionize completely. So, a 1M solution of HX provides 1M H<sup>+</sup> ions.</li><br>\n<li>  <strong>Weak acids</strong> ionize partially. So, a 1M solution of HA will provide significantly less than 1M H<sup>+</sup> ions.</li>\n</ul>\n<p><strong>Information from the Problem:</strong></p>\n\n<p>We are told that the initial rate of hydrolysis with HA is 1/100<sup>th</sup> of that with HX. Since the rate is directly proportional to [H<sup>+</sup>], this means the [H<sup>+</sup>] from HA is 1/100<sup>th</sup> of that from HX.</p>\n\n<p><strong>Calculating K<sub>a</sub>:</strong></p>\n\n<ol>\n<li> <strong>[H<sup>+</sup>] from HX:</strong>  Since HX is a strong acid and fully ionizes, [H<sup>+</sup>] = 1M.</li><br>\n<li> <strong>[H<sup>+</sup>] from HA:</strong> This is 1/100<sup>th</sup> the [H<sup>+</sup>] from HX, so [H<sup>+</sup>] = (1/100) \\* 1M = 10<sup>-2</sup> M.</li><br>\n<li> <strong>Setting up the K<sub>a</sub> expression:</strong></li>\n</ol>\n<p>$$ K_a = \\frac{[H^+][A^-]}{[HA]} $$</p>\n\n<p>Since the initial concentration of HA is 1M and it ionizes to a small extent, we can approximate:</p>\n\n<ul>\n<li>  [HA] ≈ 1 M</li><br>\n<li>  [H<sup>+</sup>] = [A<sup>-</sup>] = 10<sup>-2</sup> M</li>\n</ul>\n<ol>\n<li> <strong>Calculating K<sub>a</sub>:</strong></li>\n</ol>\n<p>$$ K_a = \\frac{(10^{-2})(10^{-2})}{1} = 1 \\times 10^{-4} $$</p>\n\n<p><strong>Answer:</strong></p>\n\n<p>Therefore, the K<sub>a</sub> of the weak acid HA is <strong>1 × 10<sup>-4</sup> (Option A).</strong></p>\n\n<p></p>"
+        }
+      },
+      "permalink": "the-initial-rate-of-hydrolysis-of-methyl-acetate-1m-by-a-w-2013-marks-3-z7besb8cmdx7ypdt.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "topic": "ostwalds-dilution-law-and-concept-of-acid-and-base",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "The initial rate of hydrolysis of methyl acetate (1M) by a weak acid (HA, 1M) is 1/100th of that of a strong acid (HX, 1M), at 25oC. The Ka of HA is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7wihwa4833422ososkip",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ionic-equilibrium",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In 1 L saturated solution of AgCl [K<sub>sp</sub>(AgCl) = 1.6 $$\\times$$ 10<sup>-10</sup>], 0.1 mol of CuCl [K<sub>sp</sub>(CuCl) = 1.0 $$\\times$$ 10<sup>-6</sup>] is added. The resultant concentration of Ag<sup>+</sup> in the solution is 1.6 $$\\times$$ 10<sup>-x</sup>. The value of \"x\" is",
+          "options": [],
+          "correct_options": [],
+          "answer": "7",
+          "explanation": "<p>(i) The solubility of $\\mathrm{AgCl}(\\mathrm{s})$ in saturated solution is expressed as :</p>\n<p>$$ \\mathrm{H}_2 \\mathrm{O}+\\mathrm{AgCl}_{(s)} \\rightarrow \\underset{x}{\\mathrm{Ag}^{+}}(a q)+\\underset{x} {\\mathrm{Cl}^{-}}(a q) $$</p>\n<p>Though $\\mathrm{AgCl}(\\mathrm{s})$ has low solubility with $\\mathrm{K}_{s p}=1.6$ $\\times 10^{-10}$ still some silver $\\left(\\mathrm{Ag}^{+}\\right)$and chloride $\\left(\\mathrm{Cl}^{-}\\right)$ are dissolved in solution. Let the concentration of these ions be $x \\mathrm{~mol}^{-1}$ (in solution).</p>\n<p>$$ \\begin{aligned} {[\\mathrm{Ag}]^{+} } &amp; =\\left[\\mathrm{Cl}^{-}\\right]=x \\\\ &amp; =1.6 \\times 10^{-10} \\\\ \\mathrm{CuCl}(s)+\\mathrm{H}_2 \\mathrm{O}(l) &amp; \\rightleftharpoons \\mathrm{Cu}^{+}(a q)+\\mathrm{Cl}^{-}(a q) \\end{aligned} $$</p>\n<p>(ii) Similarly though CuCl has low solubility in aqueous solution $\\left[K_{s p}=1.0 \\times 10^{-6}\\right]$, still some copper $\\left(\\mathrm{Cu}^{+}\\right)$and chloride $\\left(\\mathrm{Cl}^{-}\\right)$are dissolved in the solution. Let the concentration of these ions be $y \\mathrm{~mol} \\mathrm{~L}^{-1}$ (in solution).</p>\n<p>$$ \\left[\\mathrm{Cu}^{+}\\right]=\\left[\\mathrm{Cl}^{-}\\right]=y $$</p>\n<p>(iii) The salts $\\mathrm{AgCl}(\\mathrm{s})$ and $\\mathrm{CuCl}(\\mathrm{s})$ are present in equilibrium with their ions as follows :</p>\n<p>$\\text{AgCl}(s) + \\text{H}_2\\text{O} \\rightleftharpoons \\underset{x}{\\text{Ag}^+ (aq)} + \\underset{x+y}{\\text{Cl}^- (aq)}$</p>\n<p>$K_{sp}(\\text{AgCl}) = 1.6 \\times 10^{-10} = x(x + y) \\quad \\ldots \\text{(i)}$</p>\n<p>$\\text{CuCl}_{(s)} + \\text{H}_2\\text{O} \\rightleftharpoons \\underset{x}{\\text{Cu}^+ (aq)} + \\underset{y+x}{\\text{Cl}^- (aq)}$</p>\n<p>$K_{sp}(\\text{CuCl}) = 1.0 \\times 10^{-6} = y \\times (x + y) \\quad \\ldots \\text{(ii)}$</p>\n<p>Dividing equation (ii) by (i) :</p>\n<p>$ \\frac{1.0 \\times 10^{-6}}{1.6 \\times 10^{-10}} = \\frac{y}{x} $</p>\n<p>$ \\frac{y}{x} = \\frac{1.0}{1.6} \\times 10^4 $ …(iii)</p>\n<p>No. of moles of CuCl = $0.1 \\text{ mol}$</p>\n<p>Volume of solution = $1 \\text{ L}$</p>\n<p>$\\begin{aligned} &amp; \\text { Concentration of } \\mathrm{CuCl}=\\frac{\\text { No. of moles of } \\mathrm{CuCl}}{\\text { Volume of solution }} \\\\\\\\ &amp; \\text { Concentration of } \\mathrm{CuCl}=\\frac{0.1 \\mathrm{~mol}}{1 \\mathrm{~L}}=0.1\\end{aligned}$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m0dwxm5p/e60028b6-95e7-41ca-b452-fd38fbd8a8df/62fe01d0-6544-11ef-8014-31639b72d819/file-jaoe38c1m0dwxm5q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m0dwxm5p/e60028b6-95e7-41ca-b452-fd38fbd8a8df/62fe01d0-6544-11ef-8014-31639b72d819/file-jaoe38c1m0dwxm5q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 2 Offline Chemistry - Ionic Equilibrium Question 13 English Explanation\"></p>\n<p>$\\begin{aligned} \\mathrm{K}_{s p} &amp; =1.0 \\times 10^{-6}=y \\times y \\\\\\\\ y &amp; =\\sqrt{10^{-6}}=10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}\\end{aligned}$</p>\n<p>Substituting value of $y$ in equation (iii),</p>\n<p>$$ \\begin{aligned} \\frac{\\left[\\mathrm{Cu}^{+}\\right]}{\\left[\\mathrm{Ag}^{+}\\right]}=\\frac{y}{x} &amp; =\\frac{10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}}{x}=10^4 \\frac{1.0}{1.6} \\\\ x &amp; =1.6 \\times 10^{-7} \\end{aligned} $$</p>\n<p>The concentration of silver ion, $\\left[\\mathrm{Ag}^{+}\\right]=x$ $=1.6 \\times 10^{-7} \\mathrm{~mol}$ L. \n<br><br>Hence, the value of $x$ in 1.6 $\\times 10^{-x}$ is 7 .</p>"
+        }
+      },
+      "permalink": "in-1-l-saturated-solution-of-agcl-kspagcl-16-times-2011-marks-2-226uvnubrjz4jvsg.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "topic": "solubility-product-and-common-ion-effect",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "In 1 L saturated solution of AgCl [Ksp(AgCl) = 1.6 $$\\times$$ 10-10], 0.1 mol of CuCl [Ksp(CuCl) = 1.0 $$\\times$$ 10-6] is added. The resultant concentration of Ag+ in the solution is 1.6 $$\\times$$ 10-x. The value of \"x\" is"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6k6oskthbl6c29c43o1h",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ionic-equilibrium",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Aqueous solution of HNO<sub>3</sub>, KOH and CH<sub>3</sub>COOH and CH<sub>3</sub>COONa of identical concentrations are provided. The pairs of solutions which form a buffer upon mixing is(are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "HNO<sub>3</sub> and CH<sub>3</sub>COOH"
+            },
+            {
+              "identifier": "B",
+              "content": "KOH and CH<sub>3</sub>COONa"
+            },
+            {
+              "identifier": "C",
+              "content": "HNO<sub>3</sub> and CH<sub>3</sub>COONa"
+            },
+            {
+              "identifier": "D",
+              "content": "CH<sub>3</sub>COOH and CH<sub>3</sub>COONa"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-gaseous-solution-of-hno3-koh-and-ch3cooh-and-ch3coona-of-2010-marks-3-d2dhuoluoyyo7aq5.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "ph-buffer-and-indicators",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "Aqueous solution of HNO3, KOH and CH3COOH and CH3COONa of identical concentrations are provided. The pairs of solutions which form a buffer upon mixing is(are)"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "daqrfg1tf4te9rffe03y",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "ionic-equilibrium",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Amongst the following the total number of compounds whose aqueous solution turns red litmus paper blue is<br>\nKCN, K<sub>2</sub>SO<sub>4</sub>, (NH<sub>4</sub>)<sub>2</sub>C<sub>2</sub>O<sub>4</sub>, NaCl, Zn(NO<sub>3</sub>)<sub>2</sub>, FeCl<sub>3</sub>, K<sub>2</sub>CO<sub>3</sub>, NH<sub>4</sub>NO<sub>3</sub> and LiCN ",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": null
+        }
+      },
+      "permalink": "amongst-the-following-the-total-number-of-compounds-whose-aq-2010-marks-2-jxcbxhyokxnoaopq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "salt-hydrolysis",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "Amongst the following the total number of compounds whose aqueous solution turns red litmus paper blue is\nKCN, K2SO4, (NH4)2C2O4, NaCl, Zn(NO3)2, FeCl3, K2CO3, NH4NO3 and LiCN "
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "6pcmqwagq3b483gsgghe",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pthe-dissociation-constant-of-a-substituted-benzoic-acid-a-jee-advanced-chemistry-some-basic-concepts-of-chemistry-q3vfqmlvfxqlx8dw",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The dissociation constant of a substituted benzoic acid at 25$$^\\circ$$C is 1.0 $$\\times$$ 10$$^{-4}$$. The pH of a 0.01 M solution of its sodium salt is __________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "<p>Given that</p>\n<p>$${K_a}({C_6}{H_5}COOH) = 1 \\times {10^{ - 4}}$$.</p>\n<p>pH of 0.01 M $${C_6}{H_5}COONa$$.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft5ce02/9ba3f3a1-0a66-4e85-b4b1-d29a09125747/7da55c20-cde4-11ed-9ce1-7bd2ccf24231/file-1lft5ce03.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft5ce02/9ba3f3a1-0a66-4e85-b4b1-d29a09125747/7da55c20-cde4-11ed-9ce1-7bd2ccf24231/file-1lft5ce03.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Chemistry - Ionic Equilibrium Question 6 English Explanation\"></p>\n<p>$${K_h} = {{{K_w}} \\over {{K_a}}} = {{0.01\\,{h^2}} \\over {1 - h}}$$</p>\n<p>$$ \\Rightarrow {{{{10}^{ - 14}}} \\over {{{10}^{ - 4}}}} = {{{{10}^{ - 2}}{h^2}} \\over {1 - h}}$$</p>\n<p>$$1 - h$$ is approximately equal to 1.</p>\n<p>[OH$$^-$$] = $$0.01h$$ = 0.01 $$\\times$$ 10$$^{-4}$$ = 10$$^{-6}$$</p>\n<p>[H$$^+$$] = 10$$^{-8}$$</p>\n<p>pH = 8</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "salt-hydrolysis",
+      "type": "integer",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "The dissociation constant of a substituted benzoic acid at 25$$^\\circ$$C is 1.0 $$\\times$$ 10$$^{-4}$$. The pH of a 0.01 M solution of its sodium salt is __________."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "q8dvy3f4zvkvjvcdpla7",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "psolubility-product-constants-ksp-of-salts-of-typ-jee-advanced-chemistry-some-basic-concepts-of-chemistry-h60sfissthbaqdnq",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Solubility product constants (K$$_{sp}$$) of salts of types MX, MX$$_2$$ and M$$_3$$X at temperature T are 4.0 $$\\times$$ 10$$^{-8}$$, 3.2 $$\\times$$ 10$$^{-14}$$ and 2.7 $$\\times$$ 10$$^{-15}$$, respectively. Solubilities (mol dm$$^{-3}$$) of the salts at temperature 'T' are in the order:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "MX > MX$$_2$$ > M$$_3$$X"
+            },
+            {
+              "identifier": "B",
+              "content": "M$$_3$$X > MX$$_2$$ > MX"
+            },
+            {
+              "identifier": "C",
+              "content": "MX$$_2$$ > M$$_3$$X > MX"
+            },
+            {
+              "identifier": "D",
+              "content": "MX > M$$_3$$X > MX$$_2$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>MX > M$$_3$$X > MX$$_2$$</p>\n<p>$$\\Rightarrow~~\\mathrm{MX} \\to$$ $$\\mathrm{\\mathop {{M^ + }}\\limits_S  + \\mathop {{M^ - }}\\limits_S}$$</p>\n<p>Solubiliity, (S$$_1$$) of</p>\n<p>$$MX = \\sqrt {{K_{sp}}}  = \\sqrt {4 \\times {{10}^{ - 8}}} $$</p>\n<p>$$ = 2 \\times {10^{ - 4}}\\,M$$</p>\n<p>$$ \\Rightarrow M{X_2} \\to \\mathop {{M^ + }}\\limits_S  + \\mathop {2{X^ - }}\\limits_S $$</p>\n<p>$${K_{sp}} = {(s)^1}{(2s)^2} = 4{s^3}$$</p>\n<p>$$S = {\\left( {{{3.2 \\times {{10}^{ - 14}}} \\over 4}} \\right)^{{1 \\over 3}}}$$</p>\n<p>$${K_{sp}} = 2 \\times {10^{ - 5}}\\,M$$</p>\n<p>$$ \\Rightarrow {M_3}X \\to \\mathop {3{M^ + }}\\limits_{3S}  + \\mathop {{X^{3 - }}}\\limits_S $$</p>\n<p>$${K_{sp}} = {(3s)^3}{s^1} = 27{s^4}$$</p>\n<p>$$S = {\\left( {{{2.7 \\times {{10}^{ - 15}}} \\over {27}}} \\right)^{{1 \\over 9}}}$$</p>\n<p>$$ = {({10^{ - 16}})^{{1 \\over 2}}}$$</p>\n<p>$$S = {10^{ - 4}}\\,M = 1 \\times {10^{ - 14}}\\,M$$</p>\n<p>Hence, option (D) is correct.</p>\n<p>MX > M$$_3$$X > MX$$_2$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "solubility-product-and-common-ion-effect",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "Solubility product constants (K$$_{sp}$$) of salts of types MX, MX$$_2$$ and M$$_3$$X at temperature T are 4.0 $$\\times$$ 10$$^{-8}$$, 3.2 $$\\times$$ 10$$^{-14}$$ and 2.7 $$\\times$$ 10$$^{-15}$$, respectively. Solubilities (mol dm$$^{-3}$$)..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "6hkowaiemp32d2lbdx3h",
+      "chapter": "ionic-equilibrium",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "p25-ml-of-frac25m-weak-monoacidic-base-kb-jee-advanced-chemistry-some-basic-concepts-of-chemistry-t6vqsrn6ojd87ffi",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>2.5 mL of $$\\frac{2}{5}$$M weak monoacidic base (K$$_b$$ = 1 $$\\times$$ 10$$^{-12}$$ at 25$$^\\circ$$C) is titrated with $$\\frac{2}{15}$$M HCl in water at 25$$^\\circ$$C. The concentration of H$$^+$$ at equivalence point is (K$$_w$$ = 1 $$\\times$$ 10$$^{-14}$$ at 25$$^\\circ$$C).</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "3.7 $$\\times$$ 10$$^{-13}$$ M"
+            },
+            {
+              "identifier": "B",
+              "content": "3.2 $$\\times$$ 10$$^{-7}$$ M"
+            },
+            {
+              "identifier": "C",
+              "content": "3.2 $$\\times$$ 10$$^{-2}$$ M"
+            },
+            {
+              "identifier": "D",
+              "content": "2.7 $$\\times$$ 10$$^{-2}$$ M"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Weak monoacidic base, e.g., BOH is neutralised as follows:</p>\n<p>BOH + HCl $$\\to$$ BCl + H$$_2$$O</p>\n<p>At the equivalence point, all BOH get converted into the salt. The concentration of H$$^+$$ (or pH of solution) is due to hydrolysis of the resultant salt (BCl, cationic hydrolysis here.)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg94ilt5/dfd32efd-30aa-4bff-84b7-0e2195de3f36/cbcb2d90-d6ad-11ed-bed1-af88ff705dba/file-1lg94ilt6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg94ilt5/dfd32efd-30aa-4bff-84b7-0e2195de3f36/cbcb2d90-d6ad-11ed-bed1-af88ff705dba/file-1lg94ilt6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Chemistry - Ionic Equilibrium Question 4 English Explanation\"></p>\n<p>Volume of HCl used up,</p>\n<p>$${V_a} = {{{N_b}{V_b}} \\over {{N_a}}}$$</p>\n<p>$${V_a} = {{2.5 \\times 2 \\times 15} \\over {2 \\times 5}}$$</p>\n<p>$${V_a} = 7.5$$</p>\n<p>Concentration of salt,</p>\n<p>$$[BCl] = {{conc.\\,of\\,base} \\over {total\\,volume}}$$</p>\n<p>$$ = {{2 \\times 2.5} \\over {5(7.5 + 2.5)}} = {1 \\over {10}} = 0.1$$</p>\n<p>$${K_h} = {{C{h^2}} \\over {1 - h}} = {{{K_w}} \\over {{K_b}}} = {{{{10}^{ - 14}}} \\over {{{10}^{ - 12}}}}$$</p>\n<p>$$ = {10^{ - 2}} = {{0.1 \\times {h^2}} \\over {1 - h}}$$ ..... (i)</p>\n<p>(h should be estimated whether that can be neglected or not.)</p>\n<p>On calculating, $$h = 0.27$$ (significant, not negligible)</p>\n<p>$$[{H^ + }] = Ch = 0.1 \\times 0.27 = 2.7 \\times {10^{ - 2}}$$ M</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "salt-hydrolysis",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Ionic Equilibrium • Chemistry",
+          "excerpt": "2.5 mL of $$\\frac{2}{5}$$M weak monoacidic base (K$$_b$$ = 1 $$\\times$$ 10$$^{-12}$$ at 25$$^\\circ$$C) is titrated with $$\\frac{2}{15}$$M HCl in water at 25$$^\\circ$$C. The concentration of H$$^+$$ at equivalence point is (K$$_w$$ = 1 $$\\ti..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    }
+  ]
+}

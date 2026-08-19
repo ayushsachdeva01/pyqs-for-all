@@ -1,0 +1,1550 @@
+{
+  "questions": [
+    {
+      "question_id": "uexoinah5bvgsxkmx70l",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pas-shown-in-the-figure-a-ray-babb-of-unpolarized-li-jee-advanced-physics-vciupbyhtfxalyc7",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>As shown in the figure, a ray <b>AB</b> of unpolarized light enters from water of refractive index $n_w = \\frac{4}{3}$ into a medium of refractive index $n_p = \\frac{4}{\\sqrt{3}}$ after passing through a glass plate of refractive index $n_g = 1.5$ and a layer of water. At a particular incident angle $i$ the reflected ray <b>CD</b> is polarized in the direction as shown in the figure. The value of $i$ (in degrees) is :</p><img alt=\"JEE Advanced 2026 Paper 2 Online Physics - Wave Optics Question 1 English\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpp789hs/3eb9b6de-0def-43a5-89c8-82c9415d5e8a/ae048100-5a6a-11f1-a82b-8fccf67591bd/file-6y3zli1mpp789ht.webp?format=webp\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpp789hs/3eb9b6de-0def-43a5-89c8-82c9415d5e8a/ae048100-5a6a-11f1-a82b-8fccf67591bd/file-6y3zli1mpp789ht.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "60",
+          "explanation": "<p>When unpolarized light is incident on a boundary separating two optical media with different refractive indices, a part is reflected and the remaining is refracted.</p>\n<p>The electric field vectors in unpolarized light oscillate randomly across all planes perpendicular to its direction of travel, parallel $(\\downarrow)$ to the plane of incidence and perpendicular to the plane of incidence $(\\odot)$ (parallel to the reflecting surface).</p>\n<p>The reflected ray is composed entirely of oscillations perpendicular to the plane of incidence, making it completely linearly polarized.</p>\n<p>When the angle between the reflected and refracted rays is $90^{\\circ}$ :</p>\n<p>$$ \\mathrm{i}_{\\mathrm{p}}+90^{\\circ}+\\mathrm{r}_{\\mathrm{p}}=180^{\\circ} \\Rightarrow \\mathrm{i}_{\\mathrm{p}}+\\mathrm{r}_{\\mathrm{p}}=90^{\\circ} \\Rightarrow \\mathrm{r}_{\\mathrm{p}}=90^{\\circ}-\\mathrm{i}_{\\mathrm{p}} $$</p>\n<p>Applying Snell's law when light is moving from a medium of index $\\mathrm{n}_1$ to a medium of index $\\mathrm{n}_2$ ):</p>\n<p>$$ \\mathrm{n}_1 \\sin \\mathrm{i}_{\\mathrm{p}}=\\mathrm{n}_2 \\sin \\mathrm{r}_{\\mathrm{p}} $$</p>\n<p>Substituting $\\mathrm{r}_{\\mathrm{p}}=90^{\\circ}-\\mathrm{i}_{\\mathrm{p}}$ into the equation:</p>\n<p>$$ \\mathrm{n}_1 \\sin \\mathrm{i}_{\\mathrm{p}}=\\mathrm{n}_2 \\sin \\left(90^{\\circ}-\\mathrm{i}_{\\mathrm{p}}\\right)=\\mathrm{n}_2 \\cos \\mathrm{i}_{\\mathrm{p}} $$</p>\n<p>$$ \\frac{\\sin \\mathrm{i}_{\\mathrm{p}}}{\\cos \\mathrm{i}_{\\mathrm{p}}}=\\frac{\\mathrm{n}_2}{\\mathrm{n}_1} \\Rightarrow \\tan \\mathrm{i}_{\\mathrm{p}}=\\frac{\\mathrm{n}_2}{\\mathrm{n}_1} $$</p>\n<p>This relationship is known as Brewster's Law.</p>\n<p>Reflection occurs at the final boundary where light tries to pass from the water layer underneath the prism medium into the lower medium $\\left(\\mathrm{n}_{\\mathrm{p}}\\right)$.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Physics - Wave Optics Question 1 English Explanation 1\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpp7k827/fd963f09-7973-423d-9f38-51279574e387/fa9ed5f0-5a6b-11f1-a82b-8fccf67591bd/file-6y3zli1mpp7k828.webp?format=webp\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpp7k827/fd963f09-7973-423d-9f38-51279574e387/fa9ed5f0-5a6b-11f1-a82b-8fccf67591bd/file-6y3zli1mpp7k828.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>Initial medium is water layer above the glass is $\\mathrm{n}_1=\\mathrm{n}_{\\mathrm{w}}=\\frac{4}{3}$</p>\n<p>The final medium is of refractive index $\\mathrm{n}_2=\\mathrm{n}_{\\mathrm{p}}=\\frac{4}{\\sqrt{3}}$</p>\n<p>Let $\\theta$ be the angle of incidence at this bottom water-prism boundary.</p>\n<p>Applying Brewster's Law:</p>\n<p>$$ \\tan \\theta=\\frac{\\mathrm{n}_{\\mathrm{p}}}{\\mathrm{n}_{\\mathrm{w}}}=\\frac{4 / \\sqrt{3}}{4 / 3}=\\frac{3}{\\sqrt{3}}=\\sqrt{3} $$</p>\n<p>Since $\\tan \\left(60^{\\circ}\\right)=\\sqrt{3}$, the internal angle of incidence at this interface must be:</p>\n<p>$$ \\theta=60^{\\circ} $$</p>\n<p>Applying Snell's law sequentially at each boundary interface:</p>\n\n<img alt=\"JEE Advanced 2026 Paper 2 Online Physics - Wave Optics Question 1 English Explanation 2\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpp7mdzv/096e799e-fb98-4d86-8e95-202dd21b6c9f/36d2d2b0-5a6c-11f1-a82b-8fccf67591bd/file-6y3zli1mpp7mdzw.webp?format=webp\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpp7mdzv/096e799e-fb98-4d86-8e95-202dd21b6c9f/36d2d2b0-5a6c-11f1-a82b-8fccf67591bd/file-6y3zli1mpp7mdzw.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n\n<p>Boundary 1: $n_w \\, \\sin i = n_g \\, \\sin r_g$</p>\n<p>Boundary 2: $n_g \\, \\sin r_g = n_w \\, \\sin r_w$</p>\n<p>Boundary 3: $n_w \\, \\sin r_w = n_p \\, \\sin r_p$</p>\n<p>So, $n_w \\, \\sin i = n_w \\, \\sin \\theta$</p>\n<p>Where $r_w = \\theta = 60^\\circ$.</p>\n<p>$\\sin i = \\sin \\theta$</p>\n<p>$\\sin i = \\sin(60^\\circ) \\Rightarrow i = 60^\\circ$</p>\n<p>Therefore, the correct answer is 60.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "polarisation",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "As shown in the figure, a ray AB of unpolarized light enters from water of refractive index $n_w = \\frac{4}{3}$ into a medium of refractive index $n_p = \\frac{4}{\\sqrt{3}}$ after passing through a glass plate of refractive index $n_g = 1.5$..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "7ziop1016nfaaj9jr6nt",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "pin-the-list-i-four-optical-effects-are-mentioned-the-ph-jee-advanced-physics-bpkof6dzhhvuzixx",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>In the List-I, four optical effects are mentioned. The physical phenomena of light which are essential to describe these optical effects are given in List-II. Choose the option which describes the correct match between the entries in List-I to those in List-II.</p>\n<table style=\"width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ccc;\">\n\n  <thead>\n    <tr style=\"background-color:#007BFF; color:white;\">\n      <th style=\"padding:12px; border:1px solid #ccc; text-align:left;\">List-I</th>\n      <th style=\"padding:12px; border:1px solid #ccc; text-align:left;\">List-II</th>\n    </tr>\n  </thead>\n\n  <tbody>\n\n    <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(P)</strong> Colorful sky in north polar region (Aurora Borealis)\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        (1) Dispersion and reflection\n      </td>\n    </tr>\n\n    <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(Q)</strong> Partially polarized sun light\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        (2) Total internal reflection\n      </td>\n    </tr>\n\n    <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(R)</strong> Rainbow\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        (3) Diffraction\n      </td>\n    </tr>\n\n    <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        <strong>(S)</strong> Dark and bright fringes\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n        (4) Scattering of light by molecules in the atmosphere\n        \n      </td>\n    </tr>\n\n <tr>\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n     \n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n      \n        (5) Emission of radiation from oxygen and nitrogen atoms excited by charged particles\n      </td>\n    </tr>\n\n  </tbody>\n\n</table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>P→5, Q→4, R→1, S→3</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>P→4, Q→2, R→1, S→3</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>P→4, Q→1, R→2, S→3</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>P→5, Q→4, R→1, S→2</p>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p><b>(P) Colorful sky in north polar region (Aurora Borealis)</b></p>\n<p>The Aurora Borealis occurs when high-speed charged particles (electrons and protons) from the solar wind collide with atoms and molecules in Earth's upper atmosphere. These collisions transfer energy to the atmospheric gases, exciting the electrons within oxygen and nitrogen atoms to higher energy levels. When these excited electrons return to their ground states, they emit photons of specific characteristic wavelengths (such as green and red from oxygen, or blue and violet from nitrogen).</p>\n<p>So, this phenomenon is emission of radiation from oxygen and nitrogen atoms excited by charged particles.</p>\n<p>$$ \\text { P → } 5 $$</p>\n<p><b>(Q) Partially polarized sun light</b></p>\n<p>Direct sunlight entering the Earth's atmosphere is initially unpolarized. However, when this light strikes air molecules and small particles suspended in the atmosphere, it undergoes Rayleigh scattering. The scattered light viewed at an angle perpendicular ( $90^{\\circ}$ ) to the incident beam becomes completely plane-polarized, while light scattered at other intermediate angles is partially polarized.</p>\n<p>So, it is due to scattering of light by molecules in the atmosphere.</p>\n<p>$$ Q \\rightarrow 4 $$</p>\n<p><b>(C) Rainbow</b></p>\n<p>A rainbow is formed when sunlight enters a spherical raindrop suspended in the air. The process involves:</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Physics - Wave Optics Question 2 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpffsquo/8f2acd63-a92a-4da8-b039-ab18193e0369/5a25ef00-550c-11f1-8269-b952738c53c1/file-6y3zli1mpffsqup.webp?format=webp\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpffsquo/8f2acd63-a92a-4da8-b039-ab18193e0369/5a25ef00-550c-11f1-8269-b952738c53c1/file-6y3zli1mpffsqup.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>Refraction and Dispersion: Sunlight bends and splits into its constituent colors as it enters the drop due to different wavelengths having slightly different refractive indices.</p>\n<p>Reflection: The separated colors travel through the droplet and reflect off the back inside surface of the water drop.</p>\n<p>Refraction: The light exits the droplet, bending once more before reaching the observer's eye.</p>\n<p>So, during the process of rainbow formation the light undergoes dispersion and reflection.</p>\n<p>$$ \\mathrm{R} \\rightarrow 1 $$</p>\n<p><b>(D) Dark and bright fringes</b></p>\n<p>The regular alternation of dark and bright bands (fringes) is the pattern produced by the phenomena of wave interference and diffraction. When light encounters a small aperture, obstacle, or slit system, it bends around edges (diffraction) and superimposes, generating constructive (bright) and destructive (dark) regions.</p>\n<p>Therefore, the dark and bright fringes are formed by diffraction.</p>\n<p>$$ S \\rightarrow 3 $$</p>\n<p>$\\mathrm{P} \\rightarrow 5, \\mathrm{Q} \\rightarrow 4, \\mathrm{R} \\rightarrow 1, \\mathrm{~S} \\rightarrow 3$. \n<br><br>Thus, the correct option is (A).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "polarisation",
+      "type": "mcq",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "In the List-I, four optical effects are mentioned. The physical phenomena of light which are essential to describe these optical effects are given in List-II. Choose the option which describes the correct match between the entries in List-I..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    },
+    {
+      "question_id": "0u28c1x0vjy8sk8xycz3",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "in-a-youngs-double-slit-experiment-a-combination-of-two-gl-jee-advanced-physics-6rlmflv5mw9y4jqv",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "In a Young's double slit experiment, a combination of two glass wedges $A$ and $B$, having refractive indices 1.7 and 1.5, respectively, are placed in front of the slits, as shown in the figure. The separation between the slits is $d=2 \\mathrm{~mm}$ and the shortest distance between the slits and the screen is $D=2 \\mathrm{~m}$. Thickness of the combination of the wedges is $t=12 \\mu \\mathrm{~m}$. The value of $l$ as shown in the figure is 1 mm . Neglect any refraction effect at the slanted interface of the wedges. Due to the combination of the wedges, the central maximum shifts (in mm ) with respect to O by ____________.\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mawpmcn4/55586aa7-59e6-41a1-8f11-ca6a5b37d290/d7f6e800-3594-11f0-8f24-69422e3a2e95/file-jaoe38c1mawpmcn5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mawpmcn4/55586aa7-59e6-41a1-8f11-ca6a5b37d290/d7f6e800-3594-11f0-8f24-69422e3a2e95/file-jaoe38c1mawpmcn5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Wave Optics Question 5 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.2",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mayyeacr/5a1b17f9-60f0-449d-940e-293c67fcdb1a/bb2f6bb0-36d0-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayyeacs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mayyeacr/5a1b17f9-60f0-449d-940e-293c67fcdb1a/bb2f6bb0-36d0-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayyeacs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Wave Optics Question 5 English Explanation\"></p>\n<p>$\\begin{aligned} &amp; x+y=12 \\mu m \\\\ &amp; \\frac{4}{12}=\\frac{1}{x} \\\\ &amp; x=3 \\mu m \\\\ &amp; y=6 \\mu m\\end{aligned}$</p>\n<p>$\\begin{aligned} &amp; \\therefore \\Delta=\\frac{y d}{D}-\\left(\\mu_B-1\\right) x-\\left(\\mu_A-1\\right) y+\\left(\\mu_B-1\\right) y+\\left(\\mu_A-1\\right) x \\\\ &amp; \\frac{-y d}{D}=-0.5 \\times 3-0.7 \\times 9+0.5 \\times 9+0.7 \\times 3 \\\\ &amp; \\frac{-y d}{D}=-0.5 \\times 6-0.7 \\times 6 \\\\ &amp; \\Rightarrow \\frac{-y d}{D}=-1.2 \\mu \\mathrm{~m} \\\\ &amp; \\Rightarrow y=\\frac{1.2 \\times D}{d}=\\frac{1.2 \\times 2}{2 \\times 10^{-3}} \\times 10^{-6} \\\\ &amp; =1.2 \\mathrm{~mm}\\end{aligned}$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>यंग के एक द्विझिरी (double slit) प्रयोग में, कांच के दो वेज (wedges) $A$ और $B$, जिनके अपवर्तनांक (refractive index) के मान क्रमशः 1.7 और 1.5 हैं, का एक संयोजन झिरीयों के सामने चित्रानुसार रखा गया है। झिरीयों के बीच की दूरी $d=2 \\mathrm{~mm}$ है। झिरीयों और परदे के बीच की निम्नतम दूरी $D=2 \\mathrm{~m}$ है और वेज के संयोजन की मोटाई $t=12 \\mu \\mathrm{~m}$ है। चित्रानुसार $l$ का मान 1 mm है। दोनों वेज के तिरछे अन्तरापृष्ठ (slanted interface) पर अपवर्तन की उपेक्षा करें। कांच के वेज के संयोजन के कारण केंद्रीय उच्चिष्ठ (central maximum) का 0 के सापेक्ष विस्थापन (mm में) है _________</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mawpmcn4/55586aa7-59e6-41a1-8f11-ca6a5b37d290/d7f6e800-3594-11f0-8f24-69422e3a2e95/file-jaoe38c1mawpmcn5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mawpmcn4/55586aa7-59e6-41a1-8f11-ca6a5b37d290/d7f6e800-3594-11f0-8f24-69422e3a2e95/file-jaoe38c1mawpmcn5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Wave Optics Question 5 Hindi\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.2",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mayyeacr/5a1b17f9-60f0-449d-940e-293c67fcdb1a/bb2f6bb0-36d0-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayyeacs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mayyeacr/5a1b17f9-60f0-449d-940e-293c67fcdb1a/bb2f6bb0-36d0-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayyeacs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Wave Optics Question 5 Hindi Explanation\"></p>\n<p>$\\begin{aligned} &amp; x+y=12 \\mu m \\\\ &amp; \\frac{4}{12}=\\frac{1}{x} \\\\ &amp; x=3 \\mu m \\\\ &amp; y=6 \\mu m\\end{aligned}$</p>\n<p>$\\begin{aligned} &amp; \\therefore \\Delta=\\frac{y d}{D}-\\left(\\mu_B-1\\right) x-\\left(\\mu_A-1\\right) y+\\left(\\mu_B-1\\right) y+\\left(\\mu_A-1\\right) x \\\\ &amp; \\frac{-y d}{D}=-0.5 \\times 3-0.7 \\times 9+0.5 \\times 9+0.7 \\times 3 \\\\ &amp; \\frac{-y d}{D}=-0.5 \\times 6-0.7 \\times 6 \\\\ &amp; \\Rightarrow \\frac{-y d}{D}=-1.2 \\mu \\mathrm{~m} \\\\ &amp; \\Rightarrow y=\\frac{1.2 \\times D}{d}=\\frac{1.2 \\times 2}{2 \\times 10^{-3}} \\times 10^{-6} \\\\ &amp; =1.2 \\mathrm{~mm}\\end{aligned}$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "In a Young's double slit experiment, a combination of two glass wedges $A$ and $B$, having refractive indices 1.7 and 1.5, respectively, are placed in front of the slits, as shown in the figure. The separation between the slits is $d=2 \\mat..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "यंग के एक द्विझिरी (double slit) प्रयोग में, कांच के दो वेज (wedges) $A$ और $B$, जिनके अपवर्तनांक (refractive index) के मान क्रमशः 1.7 और 1.5 हैं, का एक संयोजन झिरीयों के सामने चित्रानुसार रखा गया है। झिरीयों के बीच की दूरी $d=2 \\mathrm{~mm..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "2sa30jr38alliox0uq0b",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pconsider-a-system-of-three-connected-strings-s1-s2-jee-advanced-physics-9z57rccwiv0c6iai",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider a system of three connected strings, $S_1, S_2$ and $S_3$ with uniform linear mass densities $\\mu$ $\\mathrm{kg} / \\mathrm{m}, 4 \\mu \\mathrm{~kg} / \\mathrm{m}$ and $16 \\mu \\mathrm{~kg} / \\mathrm{m}$, respectively, as shown in the figure. $S_1$ and $S_2$ are connected at the point $P$, whereas $S_2$ and $S_3$ are connected at the point $Q$, and the other end of $S_3$ is connected to a wall. A wave generator 0 is connected to the free end of $S_1$. The wave from the generator is represented by $y=y_0 \\cos (\\omega t-k x) \\mathrm{cm}$, where $y_0, \\omega$ and $k$ are constants of appropriate dimensions. Which of the following statements is/are correct:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0dix2p/043066fe-5e6c-4b26-b347-fe46b3c4ef2a/ad8f4610-3798-11f0-831e-111c9abd7f64/file-jaoe38c1mb0dix2q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0dix2p/043066fe-5e6c-4b26-b347-fe46b3c4ef2a/ad8f4610-3798-11f0-831e-111c9abd7f64/file-jaoe38c1mb0dix2q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Wave Optics Question 4 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "When the wave reflects from $P$ for the first time, the reflected wave is represented by $y=\\alpha_1 \\mathrm{y}_0 \\cos (\\omega t+k x+\\pi) \\mathrm{cm}$, where $\\alpha_1$ is a positive constant.\n"
+            },
+            {
+              "identifier": "B",
+              "content": "When the wave transmits through $P$ for the first time, the transmitted wave is represented by $y=\\alpha_2 y_0 \\cos (\\omega t-k x) \\mathrm{cm}$, where $\\alpha_2$ is a positive constant.\n"
+            },
+            {
+              "identifier": "C",
+              "content": "When the wave reflects from $Q$ for the first time, the reflected wave is represented by $y=\\alpha_3 \\mathrm{y}_0 \\cos (\\omega t-k x+\\pi) \\mathrm{cm}$, where $\\alpha_3$ is a positive constant.\n"
+            },
+            {
+              "identifier": "D",
+              "content": "When the wave transmits through $Q$ for the first time, the transmitted wave is represented by $y=\\alpha_4 y_0 \\cos (\\omega t-4 k x) \\mathrm{cm}$, where $\\alpha_4$ is a positive constant."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxher6h/66208116-a62a-4176-aabc-948bdfbbee19/f3187090-5d99-11f0-bda7-076bd952ff48/file-jaoe38c1mcxher6i.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxher6h/66208116-a62a-4176-aabc-948bdfbbee19/f3187090-5d99-11f0-bda7-076bd952ff48/file-jaoe38c1mcxher6i.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Wave Optics Question 4 English Explanation\">\n<p>Given, wave eqn, $y=y_0 \\cos (\\omega t-k x) \\mathrm{cm}$ \n<br>$y_0, w, k$ are constants</p>\n<p>we know, wave speed, $v=\\sqrt{\\frac{T}{\\mu}}$, where $T=$ tension in string</p>\n<p>$$ \\begin{aligned} &amp;\\text { So speeds : } v_1=\\sqrt{\\frac{T}{\\mu}}, v_2=\\sqrt{\\frac{T}{4 \\mu}}=\\frac{1}{2} \\sqrt{\\frac{T}{\\mu}}\\\\ &amp;\\begin{aligned}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, &amp; \\Rightarrow v_2=\\frac{v_1}{2}, v_3=\\sqrt{\\frac{\\tau}{16 \\mu}}=\\frac{1}{4} \\sqrt{\\frac{\\tau}{\\mu}} \\\\ &amp; \\Rightarrow v_3=\\frac{v_1}{4} \\end{aligned} \\end{aligned} $$</p>\n<p>wave numbers: $k=\\frac{\\omega}{v}$</p>\n<p>so $k_1=k, k_2=\\frac{\\omega}{v_2}=2 k$</p>\n<p>and $k_3=\\frac{\\omega}{v_3}=4 k$</p>\n<p>Reflection of wave in string from fixed end, reflected wave phase change by $\\pi_0$. \n<br>And reflected wave from free (rarer) end no phase change.</p>\n<p>$\\therefore$ For medium $P Q\\left(s_2\\right)$</p>\n<p>$$ k_{S_2}=k_{P Q}=2k $$</p>\n<p>For medium, $S_3, k_{s_3}=4 k$</p>\n<p>Option ( $A$ ) reflection from $P$, phase change by ' $\\pi$, No Change in ' $K$ '. Hence, ( $A$ ) is the correct option.</p>\n<p>In option (B), $k_{s_2}=2 k$ but in option given $k_s=k$. Hence, wrong option.</p>\n<p>In option (C), the direction of the reflected wave is in the negative direction. Hence wrong,</p>\n<p>option (D), no phase change in transmitted wave and given $k_{s_3}=4 k$</p>\n<p>Here, correct option.</p>\n<p>So (A), (D) are correct.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना कि एक निकाय तीन एकसमान रेखीय द्रव्यमान घनत्व (uniform linear mass density) वाले धागों $S_1, S_2$, और $S_3$ को चित्रानुसार जोड़कर बनाया गया है। $S_1, S_2$, और $S_3$ के रेखीय द्रव्यमान घनत्व क्रमशः $\\mu \\mathrm{kg} / \\mathrm{m}, 4 \\mu$ $\\mathrm{kg} / \\mathrm{m}$, और $16 \\mu \\mathrm{~kg} / \\mathrm{m}$ हैं। $S_1$ एवं $S_2$ को बिंदु $P$ पर जबकि $S_2$ एवं $S_3$ को बिंदु $Q$ पर जोड़ा गया है और $S_3$ के दूसरे सिरे को एक दीवार पर जोड़ा गया है। एक तरंग जनित्र (wave generator) 0 को $S_1$ के मुक्त सिरे से जोड़ा गया है। यदि जनित्र से उत्पन्न तरंग को $y=y_0 \\cos (\\omega t-k x) \\mathrm{cm}$ से निरुपित किया जाये, जहाँ $y_0, \\omega$ और $k$ उपयुक्त विमाओं के नियतांक हैं, तो निम्नलिखित कथनों में से कौन सा/से सही है/हैं:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0dix2p/043066fe-5e6c-4b26-b347-fe46b3c4ef2a/ad8f4610-3798-11f0-831e-111c9abd7f64/file-jaoe38c1mb0dix2q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0dix2p/043066fe-5e6c-4b26-b347-fe46b3c4ef2a/ad8f4610-3798-11f0-831e-111c9abd7f64/file-jaoe38c1mb0dix2q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Wave Optics Question 4 Hindi\" <=\"\" p=\"\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "जब तरंग पहली बार $P$ से परावर्तित (reflected) होती है तो परावर्तित तरंग को $y=\\alpha_1 \\mathrm{y}_0 \\cos (\\omega t+k x+\\pi) \\mathrm{cm}$ से निरुपित करते हैं, जहाँ $\\alpha_1$ एक धनात्मक नियतांक है"
+            },
+            {
+              "identifier": "B",
+              "content": "जब तरंग पहली बार $P$ से पारगत (transmitted) होती है तो पारगत तरंग को $y=\\alpha_2 \\mathrm{y}_0 \\cos (\\omega t-k x) \\mathrm{cm}$ से निरुपित करते हैं, जहाँ $\\alpha_2$ एक धनात्मक नियतांक है।"
+            },
+            {
+              "identifier": "C",
+              "content": "जब तरंग पहली बार $Q$ से परावर्तित (reflected) होती है तो परावर्तित तरंग को $y=\\alpha_3 y_0 \\cos (\\omega t-k x+\\pi) \\mathrm{cm}$ से निरुपित करते हैं, जहाँ $\\alpha_3$ एक धनात्मक नियतांक है।"
+            },
+            {
+              "identifier": "D",
+              "content": "जब तरंग पहली बार $Q$ से पारगत (transmitted) होती है तो पारगत तरंग को $y=\\alpha_4 \\mathrm{y}_0 \\cos (\\omega t-4 k x) \\mathrm{cm}$ से निरुपित करते हैं, जहाँ $\\alpha_4$ एक धनात्मक नियतांक है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxher6h/66208116-a62a-4176-aabc-948bdfbbee19/f3187090-5d99-11f0-bda7-076bd952ff48/file-jaoe38c1mcxher6i.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxher6h/66208116-a62a-4176-aabc-948bdfbbee19/f3187090-5d99-11f0-bda7-076bd952ff48/file-jaoe38c1mcxher6i.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Wave Optics Question 4 Hindi Explanation\">\n<p>दिया गया है, तरंग समीकरण, $y=y_0 \\cos (\\omega t-k x) \\mathrm{cm}$ \n<br>$y_0, w, k$ स्थिरांक हैं</p>\n<p>हम जानते हैं, तरंग चाल, $v=\\sqrt{\\frac{T}{\\mu}}$, जहाँ $T=$ डोरी में तनाव</p>\n<p>$$ \\begin{aligned} &amp;\\text { अतः चालें : } v_1=\\sqrt{\\frac{T}{\\mu}}, v_2=\\sqrt{\\frac{T}{4 \\mu}}=\\frac{1}{2} \\sqrt{\\frac{T}{\\mu}}\\\\ &amp;\\begin{aligned}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, &amp;\\Rightarrow v_2=\\frac{v_1}{2}, v_3=\\sqrt{\\frac{\\tau}{16 \\mu}}=\\frac{1}{4} \\sqrt{\\frac{\\tau}{\\mu}} \\\\ &amp;\\Rightarrow v_3=\\frac{v_1}{4} \\end{aligned} \\end{aligned} $$</p>\n<p>तरंग संख्याएँ: $k=\\frac{\\omega}{v}$</p>\n<p>अतः $k_1=k, k_2=\\frac{\\omega}{v_2}=2 k$</p>\n<p>और $k_3=\\frac{\\omega}{v_3}=4 k$</p>\n<p>स्थिर सिरे से डोरी में तरंग का परावर्तन, परावर्तित तरंग में $\\pi_0$ का कला परिवर्तन होता है। \n<br>और मुक्त (विरल) सिरे से परावर्तित तरंग में कोई कला परिवर्तन नहीं होता।</p>\n<p>$\\therefore$ माध्यम $P Q\\left(s_2\\right)$ के लिए</p>\n<p>$$ k_{S_2}=k_{PQ}=2k $$</p>\n<p>माध्यम के लिए, $S_3, k_{s_3}=4 k$</p>\n<p>विकल्प ( $A$ ) $P$ से परावर्तन, '$\\pi$ से कला परिवर्तन, '$K$' में कोई परिवर्तन नहीं। अतः, ( $A$ ) सही विकल्प है।</p>\n<p>विकल्प (B) में, $k_{s_2}=2 k$ लेकिन विकल्प में दिया गया $k_s=k$ है। अतः, गलत विकल्प।</p>\n<p>विकल्प (C) में, परावर्तित तरंग की दिशा ऋणात्मक दिशा में है। अतः गलत,</p>\n<p>विकल्प (D), संचरित तरंग में कोई कला परिवर्तन नहीं और दिया गया $k_{s_3}=4 k$</p>\n<p>यहाँ, सही विकल्प।</p>\n<p>अतः (A), (D) सही हैं।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcqm",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "Consider a system of three connected strings, $S_1, S_2$ and $S_3$ with uniform linear mass densities $\\mu$ $\\mathrm{kg} / \\mathrm{m}, 4 \\mu \\mathrm{~kg} / \\mathrm{m}$ and $16 \\mu \\mathrm{~kg} / \\mathrm{m}$, respectively, as shown in the fi..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "माना कि एक निकाय तीन एकसमान रेखीय द्रव्यमान घनत्व (uniform linear mass density) वाले धागों $S_1, S_2$, और $S_3$ को चित्रानुसार जोड़कर बनाया गया है। $S_1, S_2$, और $S_3$ के रेखीय द्रव्यमान घनत्व क्रमशः $\\mu \\mathrm{kg} / \\mathrm{m}, 4 \\mu$ $..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "sggjgpewgb39xz30yr07",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "a-single-slit-diffraction-experiment-is-performed-to-determi-jee-advanced-physics-txqw62z3mwh94ue8",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A single slit diffraction experiment is performed to determine the slit width using the equation, $\\frac{b d}{D}=$ $m \\lambda$, where $b$ is the slit width, $D$ the shortest distance between the slit and the screen, $d$ the distance between the $m^{\\text {th }}$ diffraction maximum and the central maximum, and $\\lambda$ is the wavelength. $D$ and $d$ are measured with scales of least count of 1 cm and 1 mm , respectively. The values of $\\lambda$ and $m$ are known precisely to be 600 nm and 3, respectively. The absolute error (in $\\mu \\mathrm{m}$ ) in the value of $b$ estimated using the diffraction maximum that occurs for $m=3$ with $d=5 \\mathrm{~mm}$ and $D=1 \\mathrm{~m}$ is ________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "75TO79",
+          "explanation": "<p>Given. $\\frac{b d}{d}=m \\lambda$</p>\n<p>so $\\quad b=\\frac{m \\lambda D}{d}$</p>\n<p>Error propagation:</p>\n<p>$$ \\frac{\\Delta b}{b}=\\frac{\\Delta m}{m}+\\frac{\\Delta \\lambda}{\\lambda}+\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d} $$</p>\n<p>as $\\lambda $ and $ m$ are known precisely so $\\Delta \\lambda$ and $\\Delta$m are zero.</p>\n<p>So ${\\Delta }{b}=\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d}$</p>\n<p>$$ \\begin{aligned} & \\Rightarrow {\\Delta }{b}=\\left(\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d}\\right)\\left(\\frac{m \\lambda D}{d}\\right) \\\\ & \\Rightarrow  {\\Delta }{b} =\\left(\\frac{1}{100}+\\frac{0.1}{0.5}\\right)\\left(\\frac{3 \\times 600 \\times 10^{} \\times 100}{0.5}\\right) \\\\ &=\\left(\\frac{1+20}{100}\\right)\\left(\\frac{18}{5} \\times \\frac{1}{100}\\right) \\\\ &=\\frac{21}{100} \\times \\frac{18}{5} \\times \\frac{1}{100} \\mathrm{~cm} \\\\ & \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} &\\begin{gathered} \\Delta b=\\frac{1890}{25000} \\times 10 \\mu\\mathrm{m}=\\frac{1890}{25} \\mu\\mathrm{m} \\\\ \\Rightarrow \\Delta b=75.60 \\mu\\mathrm{m} \\end{gathered}\\\\ &\\text {  } \\end{aligned} $$</p>\n\n"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "एक एकल झिरी विवर्तन (single slit diffraction) प्रयोग में झिरी की चौड़ाई को समीकरण $\\frac{b d}{D}=m \\lambda$ से निर्धारित किया जाता है, जहाँ $b$ झिरी की चौड़ाई है, $D$ स्क्रीन और झिरी के बीच की निम्नतम दूरी है, $d$ केन्द्रीय उच्चिष्ठ (central maximum) और $m^{\\text {th }}$ विवर्तन उच्चिष्ठ के बीच की दूरी है और $\\lambda$ तरंगदैर्घ्य है| $D$ को एक 1 cm और $d$ को एक 1 mm के अल्पतमांक (least count) वाले पैमानों से मापा जाता है। $\\lambda$ और $m$ के मान परिशुद्ध रूप (precisely) से क्रमशः 600 nm और 3 ज्ञात हैं। यदि $d=5 \\mathrm{~mm}$, और $D=1 \\mathrm{~m}$ है, तो $m=3$ वाली विवर्तन उच्चिष्ठ के लिये $b$ के आकलित मान में निरपेक्ष त्रुटी (absolute error) का मान ( $\\mu \\mathrm{m}$ में) है ________",
+          "options": [],
+          "correct_options": [],
+          "answer": "75.60OR94.50",
+          "explanation": "<p>दिया गया है। $\\frac{b d}{d}=m \\lambda$</p>\n<p>अतः $\\quad b=\\frac{m \\lambda D}{d}$</p>\n<p>त्रुटि संचरण:</p>\n<p>$$ \\frac{\\Delta b}{b}=\\frac{\\Delta m}{m}+\\frac{\\Delta \\lambda}{\\lambda}+\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d} $$</p>\n<p>चूँकि $\\lambda $ और $ m$ सटीक रूप से ज्ञात हैं इसलिए $\\Delta \\lambda$ और $\\Delta$m शून्य हैं।</p>\n<p>अतः ${\\Delta }{b}=\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d}$</p>\n<p>$$ \\begin{aligned} & \\Rightarrow {\\Delta }{b}=\\left(\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d}\\right)\\left(\\frac{m \\lambda D}{d}\\right) \\\\ & \\Rightarrow  {\\Delta }{b} =\\left(\\frac{1}{100}+\\frac{0.1}{0.5}\\right)\\left(\\frac{3 \\times 600 \\times 10^{} \\times 100}{0.5}\\right) \\\\ &=\\left(\\frac{1+20}{100}\\right)\\left(\\frac{18}{5} \\times \\frac{1}{100}\\right) \\\\ &=\\frac{21}{100} \\times \\frac{18}{5} \\times \\frac{1}{100} \\mathrm{~cm} \\\\ & \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} &\\begin{gathered} \\Delta b=\\frac{1890}{25000} \\times 10 \\mu\\mathrm{m}=\\frac{1890}{25} \\mu\\mathrm{m} \\\\ \\Rightarrow \\Delta b=75.60 \\mu\\mathrm{m} \\end{gathered}\\\\ &\\text {  } \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "diffraction-and-doppler-effect-of-light",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "A single slit diffraction experiment is performed to determine the slit width using the equation, $\\frac{b d}{D}=$ $m \\lambda$, where $b$ is the slit width, $D$ the shortest distance between the slit and the screen, $d$ the distance between..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "एक एकल झिरी विवर्तन (single slit diffraction) प्रयोग में झिरी की चौड़ाई को समीकरण $\\frac{b d}{D}=m \\lambda$ से निर्धारित किया जाता है, जहाँ $b$ झिरी की चौड़ाई है, $D$ स्क्रीन और झिरी के बीच की निम्नतम दूरी है, $d$ केन्द्रीय उच्चिष्ठ (centra..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "bt1mm5u8qiddpdyz0ot6",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "the-8text-th--bright-fringe-above-the-point-mathrm-jee-advanced-physics-iztcowz6nr2d16gn",
+      "question": {
+        "en": {
+          "comprehension": "In a Young's double slit experiment, each of the two slits A and B, as shown in the figure, are oscillating about their fixed center and with a mean separation of $0.8 \\mathrm{~mm}$. The distance between the slits at time $t$ is given by $d=(0.8+0.04 \\sin \\omega t) \\mathrm{mm}$, where $\\omega=0.08 \\mathrm{rad} \\mathrm{s}^{-1}$. The distance of the screen from the slits is $1 \\mathrm{~m}$ and the wavelength of the light used to illuminate the slits is $6000$ Å\n. The interference pattern on the screen changes with time, while the central bright fringe (zeroth fringe) remains fixed at point $O$.<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxavml/8654284c-3589-402d-a17d-6d0777ba0c03/5e1a64d0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxavmm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxavml/8654284c-3589-402d-a17d-6d0777ba0c03/5e1a64d0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxavmm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Wave Optics Question 7 English Comprehension\">",
+          "direction": null,
+          "content": "The $8^{\\text {th }}$ bright fringe above the point $\\mathrm{O}$ oscillates with time between two extreme positions. The separation between these two extreme positions, in micrometer $(\\mu \\mathrm{m})$, is _________ .",
+          "options": [],
+          "correct_options": [],
+          "answer": "601.50",
+          "explanation": "<p>$$\\begin{aligned}\n& \\mathrm{y}=\\mathrm{n} .\\left(\\frac{\\lambda \\mathrm{D}}{\\mathrm{d}}\\right) \\\\\n& \\text { for } 8^{\\text {th }} \\text { fringe } \\\\\n& \\mathrm{y}=8 \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}} \\\\\n& \\mathrm{y}_{\\max }=8 \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}_{\\text {min }}} \\\\\n& \\mathrm{y}_{\\text {min }}=8 \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}_{\\text {max }}} \\\\\n& \\mathrm{y}_{\\text {max }}-\\mathrm{y}_{\\text {min }}=8 \\lambda \\mathrm{D}\\left[\\frac{1}{\\mathrm{~d}_{\\text {min }}}-\\frac{1}{\\mathrm{~d}_{\\text {max }}}\\right] \\\\\n& \\lambda=6000 \\mathop A\\limits^o\\\\\n& \\begin{aligned}\n& \\mathrm{D}=1 \\mathrm{~m} \\\\\n& \\mathrm{~d}_{\\max }=0.34 \\mathrm{~mm} \\\\\n& \\mathrm{~d}_{\\min }=0.76 \\mathrm{~mm} \\\\\n& \\mathrm{y}_{\\text {max }}-\\mathrm{y}_{\\min }=8 \\times 6000 \\times 10^{-10} \\times 1\\left[\\frac{1}{0.76 \\times 10^{-3}}-\\frac{1}{0.84 \\times 10^{-3}}\\right] \\\\\n& \\quad=8 \\times 6 \\times 10^{-4} \\times\\left[\\frac{0.08}{0.76 \\times 0.84}\\right]=601.5 \\mu \\mathrm{m}\n\\end{aligned}\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": "<p>चित्रानुसार, यंग के द्विझिर्री प्रयोग में, $A$ एवं $B$ झिर्रियां अपने स्थिर मध्यबिंदु के सापेक्ष दोलन कर रही हैं जबकि उनके बीच की दूरी का औसत मान $0.8 \\mathrm{~mm}$ है। समय $t$ पर, दोनों झिर्रियों के बीच की दूरी $d=(0.8+0.04 \\sin \\omega t)~ \\mathrm{mm}$ है, जहाँ $\\omega=0.08 ~\\mathrm{rad} \\mathrm{s}^{-1}$ है| परदे की झिर्रियों से दूरी $1 \\mathrm{~m}$ है तथा झिर्रियों को प्रदीप्त करने वाले प्रकाश की तरंगदैर्घ्य $6000 $ Å है। परदे पर व्यतिकरण (interference) पैटर्न समय के साथ बदलता है, परन्तु बिंदु ० पर स्थित केंद्रीय दीप्त फ्रिंज (zeroth fringe) स्थिर रहती है।</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxavml/8654284c-3589-402d-a17d-6d0777ba0c03/5e1a64d0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxavmm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxavml/8654284c-3589-402d-a17d-6d0777ba0c03/5e1a64d0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxavmm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Wave Optics Question 7 Hindi Comprehension\">",
+          "direction": null,
+          "content": "बिंदु $O$ से ऊपर आठवीं 8<sup>th</sup> दीप्त फ्रिंज, दो चरम स्थितियों के बीच, समय के साथ दोलन करती है। इन दोनों चरम स्थितियों के बीच की दूरी माइक्रो मीटर $(\\mu \\mathrm{m})$ में _______ होगी|",
+          "options": [],
+          "correct_options": [],
+          "answer": "601.50",
+          "explanation": "<p>$$\\begin{aligned}\n& \\mathrm{y}=\\mathrm{n} .\\left(\\frac{\\lambda \\mathrm{D}}{\\mathrm{d}}\\right) \\\\\n& \\text { 8वीं फ्रिंज के लिए } \\\\\n& \\mathrm{y}=8 \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}} \\\\\n& \\mathrm{y}_{\\max }=8 \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}_{\\text {min }}} \\\\\n& \\mathrm{y}_{\\text {min }}=8 \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}_{\\text {max }}} \\\\\n& \\mathrm{y}_{\\text {max }}-\\mathrm{y}_{\\text {min }}=8 \\lambda \\mathrm{D}\\left[\\frac{1}{\\mathrm{~d}_{\\text {min }}}-\\frac{1}{\\mathrm{~d}_{\\text {max }}}\\right] \\\\\n& \\lambda=6000 \\mathop A\\limits^o\\\\\n& \\begin{aligned}\n& \\mathrm{D}=1 \\mathrm{~m} \\\\\n& \\mathrm{~d}_{\\max }=0.34 \\mathrm{~mm} \\\\\n& \\mathrm{~d}_{\\min }=0.76 \\mathrm{~mm} \\\\\n& \\mathrm{y}_{\\text {max }}-\\mathrm{y}_{\\text {min }}=8 \\times 6000 \\times 10^{-10} \\times 1\\left[\\frac{1}{0.76 \\times 10^{-3}}-\\frac{1}{0.84 \\times 10^{-3}}\\right] \\\\\n& \\quad=8 \\times 6 \\times 10^{-4} \\times\\left[\\frac{0.08}{0.76 \\times 0.84}\\right]=601.5 \\mu \\mathrm{m}\n\\end{aligned}\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "The $8^{\\text {th }}$ bright fringe above the point $\\mathrm{O}$ oscillates with time between two extreme positions. The separation between these two extreme positions, in micrometer $(\\mu \\mathrm{m})$, is _________ ."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "बिंदु $O$ से ऊपर आठवीं 8th दीप्त फ्रिंज, दो चरम स्थितियों के बीच, समय के साथ दोलन करती है। इन दोनों चरम स्थितियों के बीच की दूरी माइक्रो मीटर $(\\mu \\mathrm{m})$ में _______ होगी|"
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "nefcw26mbichru5y7m8o",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "the-maximum-speed-in-mu-mathrmm--mathrms-at-which-jee-advanced-physics-l7rahezcqkooaxkc",
+      "question": {
+        "en": {
+          "comprehension": "In a Young's double slit experiment, each of the two slits A and B, as shown in the figure, are oscillating about their fixed center and with a mean separation of $0.8 \\mathrm{~mm}$. The distance between the slits at time $t$ is given by $d=(0.8+0.04 \\sin \\omega t) \\mathrm{mm}$, where $\\omega=0.08 \\mathrm{rad} \\mathrm{s}^{-1}$. The distance of the screen from the slits is $1 \\mathrm{~m}$ and the wavelength of the light used to illuminate the slits is $6000$ Å\n. The interference pattern on the screen changes with time, while the central bright fringe (zeroth fringe) remains fixed at point $O$.<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxavml/8654284c-3589-402d-a17d-6d0777ba0c03/5e1a64d0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxavmm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxavml/8654284c-3589-402d-a17d-6d0777ba0c03/5e1a64d0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxavmm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Wave Optics Question 6 English Comprehension\">",
+          "direction": null,
+          "content": "The maximum speed in $\\mu \\mathrm{m} / \\mathrm{s}$ at which the $8^{\\text {th }}$ bright fringe will move is ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "24",
+          "explanation": "<p>$$\\begin{aligned}\n& \\mathrm{y}=\\mathrm{n} \\cdot \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}} \\\\\n& \\mathrm{v}=\\frac{\\mathrm{dy}}{\\mathrm{dt}}=-\\mathrm{n} \\cdot \\frac{\\lambda \\cdot \\mathrm{d}}{\\mathrm{d}^2} \\cdot \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\\\\n& \\mathrm{d}=0.8+0.04 \\sin \\omega \\mathrm{t} \\\\\n& \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}}=0.04 \\omega \\cos \\omega \\mathrm{t} \\\\\n& \\text { for } \\mathrm{v} \\rightarrow \\max \\Rightarrow \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max \\\\\n& \\text { For } \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max \\\\\n& \\cos \\omega \\mathrm{t}=1 \\Rightarrow \\sin \\omega \\mathrm{t}=0 \\\\\n& \\Rightarrow\\left(\\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}}\\right)_{\\max }=0.04 \\\\\n& \\Rightarrow \\mathrm{d}=0.8 \\mathrm{~mm} \\\\\n& \\mathrm{v}_{\\max }=\\frac{8 \\times 6000 \\times 10^{-10} \\times 1 \\times 0.04 \\times 0.08}{0.8 \\times 0.8 \\times 10^{-6} \\times 10^{-3}}=24 \\mu \\mathrm{m} / \\mathrm{s}\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": "<p>चित्रानुसार, यंग के द्विझिर्री प्रयोग में, $A$ एवं $B$ झिर्रियां अपने स्थिर मध्यबिंदु के सापेक्ष दोलन कर रही हैं जबकि उनके बीच की दूरी का औसत मान $0.8 \\mathrm{~mm}$ है। समय $t$ पर, दोनों झिर्रियों के बीच की दूरी $d=(0.8+0.04 \\sin \\omega t)~ \\mathrm{mm}$ है, जहाँ $\\omega=0.08 ~\\mathrm{rad} \\mathrm{s}^{-1}$ है| परदे की झिर्रियों से दूरी $1 \\mathrm{~m}$ है तथा झिर्रियों को प्रदीप्त करने वाले प्रकाश की तरंगदैर्घ्य $6000 $ Å है। परदे पर व्यतिकरण (interference) पैटर्न समय के साथ बदलता है, परन्तु बिंदु ० पर स्थित केंद्रीय दीप्त फ्रिंज (zeroth fringe) स्थिर रहती है।</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxavml/8654284c-3589-402d-a17d-6d0777ba0c03/5e1a64d0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxavmm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxavml/8654284c-3589-402d-a17d-6d0777ba0c03/5e1a64d0-1cae-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpxavmm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Wave Optics Question 6 Hindi Comprehension\">",
+          "direction": null,
+          "content": "आठवीं ( $\\left.8^{\\mathrm{th}}\\right)$ दीप्त फ्रिंज के चलने की अधिकतम चाल ________ $\\mu \\mathrm{m} / \\mathrm{s}$ होगी",
+          "options": [],
+          "correct_options": [],
+          "answer": "24",
+          "explanation": "<p>$$\\begin{aligned}\n& \\mathrm{y}=\\mathrm{n} \\cdot \\frac{\\lambda \\mathrm{D}}{\\mathrm{d}} \\\\\n& \\mathrm{v}=\\frac{\\mathrm{dy}}{\\mathrm{dt}}=-\\mathrm{n} \\cdot \\frac{\\lambda \\cdot \\mathrm{d}}{\\mathrm{d}^2} \\cdot \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\\\\n& \\mathrm{d}=0.8+0.04 \\sin \\omega \\mathrm{t} \\\\\n& \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}}=0.04 \\omega \\cos \\omega \\mathrm{t} \\\\\n& \\text { } \\mathrm{v} \\rightarrow \\max \\text{ के लिए} \\Rightarrow \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max \\\\\n& \\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}} \\rightarrow \\max \\text{ के लिए} \\\\\n& \\cos \\omega \\mathrm{t}=1 \\Rightarrow \\sin \\omega \\mathrm{t}=0 \\\\\n& \\Rightarrow\\left(\\frac{\\mathrm{d}(\\mathrm{d})}{\\mathrm{dt}}\\right)_{\\max }=0.04 \\\\\n& \\Rightarrow \\mathrm{d}=0.8 \\mathrm{~mm} \\\\\n& \\mathrm{v}_{\\max }=\\frac{8 \\times 6000 \\times 10^{-10} \\times 1 \\times 0.04 \\times 0.08}{0.8 \\times 0.8 \\times 10^{-6} \\times 10^{-3}}=24 \\mu \\mathrm{m} / \\mathrm{s}\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "The maximum speed in $\\mu \\mathrm{m} / \\mathrm{s}$ at which the $8^{\\text {th }}$ bright fringe will move is ______."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "आठवीं ( $\\left.8^{\\mathrm{th}}\\right)$ दीप्त फ्रिंज के चलने की अधिकतम चाल ________ $\\mu \\mathrm{m} / \\mathrm{s}$ होगी"
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "8njfsze7wp37d865p75d",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-1-online",
+      "paperTitle": "JEE Advanced 2024 Paper 1 Online",
+      "permalink": "a-point-source-mathrms-emits-unpolarized-light-uniforml-jee-advanced-physics-4jmpdwaxuikmmzv8",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A point source $\\mathrm{S}$ emits unpolarized light uniformly in all directions. At two points $\\mathrm{A}$ and $\\mathrm{B}$, the ratio $r=I_A / I_B$ of the intensities of light is 2 . If a set of two polaroids having $45^{\\circ}$ angle between their pass-axes is placed just before point $\\mathrm{B}$, then the new value of $r$ will be __________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "<p>To solve this problem, we start by understanding the information given and how the polarization of light affects light intensity.</p>\n\n<p>Initially, we have the ratio of the intensities at points A and B given as:</p>\n\n<p>\n\n<p>$$ r = \\frac{I_A}{I_B} = 2 $$</p>\n\n</p>\n\n<p>This means:</p>\n\n<p>\n\n<p>$$ I_A = 2I_B $$</p>\n\n</p>\n\n<p>Now, we place two polaroids with their pass-axes at an angle of $45^\\circ$ between them before point B. When unpolarized light passes through the first polaroid, it gets polarized, and its intensity is reduced to half of its original value:</p>\n\n<p>\n\n<p>$$ I_{B1} = \\frac{1}{2} I_B $$</p>\n\n</p>\n\n<p>Here, $I_{B1}$ is the intensity of light after passing through the first polaroid.</p>\n\n<p>Next, this polarized light passes through the second polaroid, which is at an angle of $45^\\circ$ to the first one. According to Malus's law, the intensity of light after passing through the second polaroid is given by:</p>\n\n<p>\n\n<p>$$ I_{B2} = I_{B1} \\cos^2(45^\\circ) $$</p>\n\n</p>\n\n<p>We know that:</p>\n\n<p>\n\n<p>$$ \\cos(45^\\circ) = \\frac{1}{\\sqrt{2}} $$</p>\n\n</p>\n\n<p>Thus,</p>\n\n<p>\n\n<p>$$ I_{B2} = \\frac{1}{2} I_B \\left(\\frac{1}{\\sqrt{2}}\\right)^2 = \\frac{1}{2} I_B \\cdot \\frac{1}{2} = \\frac{1}{4} I_B $$</p>\n\n</p>\n\n<p>Now, the new intensity at point B is $I_{B2}$. We need to calculate the new ratio $r'$ of the intensities at points A and B:</p>\n\n<p>\n\n<p>$$ r' = \\frac{I_A}{I_{B2}} $$</p>\n\n</p>\n\n<p>Substituting the values $I_A = 2I_B$ and $I_{B2} = \\frac{1}{4} I_B$, we get:</p>\n\n<p>\n\n<p>$$ r' = \\frac{2 I_B}{\\frac{1}{4} I_B} = 2 \\times 4 = 8 $$</p>\n\n</p>\n\n<p>Therefore, the new value of $r$ will be:</p>\n\n<p>\n\n<p>$$ r' = 8 $$</p>\n\n</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "एक बिंदु स्रोत S, एकसमान रूप से, सभी दिशाओं में अध्रुवित प्रकाश (unpolarized light) उत्सर्जित करता है। दो बिंदुओं $\\mathrm{A}$ और $\\mathrm{B}$ पर, प्रकाश की तीव्रताओं के अनुपात, $r=I_A / I_B$ का मान 2 है। यदि $\\mathrm{B}$ के ठीक पहले दो पोलेराइडों का एक समूह, जिनके पारित-अक्षों (pass-axes) के बीच का कोण $45^{\\circ}$ है, रखा जाता है, तो $r$ का नया मान _______ होगा|",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "<p>इस समस्या को हल करने के लिए, हम दी गई जानकारी को समझकर शुरू करते हैं और यह समझते हैं कि प्रकाश का ध्रुवण प्रकाश की तीव्रता को कैसे प्रभावित करता है।</p>\n\n<p>प्रारंभ में, हमारे पास बिंदु A और B पर तीव्रताओं का अनुपात दिया गया है:</p>\n\n<p>\n\n<p>$$ r = \\frac{I_A}{I_B} = 2 $$</p>\n\n</p>\n\n<p>इसका अर्थ है:</p>\n\n<p>\n\n<p>$$ I_A = 2I_B $$</p>\n\n</p>\n\n<p>अब, हम बिंदु B से पहले दो पोलेरॉइड रखते हैं जिनके पास-अक्ष के बीच $45^\\circ$ का कोण है। जब अध्रुवित प्रकाश पहले पोलेरॉइड से गुजरता है, तो यह ध्रुवित हो जाता है, और इसकी तीव्रता अपने मूल मान से आधी हो जाती है:</p>\n\n<p>\n\n<p>$$ I_{B1} = \\frac{1}{2} I_B $$</p>\n\n</p>\n\n<p>यहाँ, $I_{B1}$ पहले पोलेरॉइड से गुजरने के बाद प्रकाश की तीव्रता है।</p>\n\n<p>इसके बाद, यह ध्रुवित प्रकाश दूसरे पोलेरॉइड से गुजरता है, जो पहले से $45^\\circ$ के कोण पर है। मैलस के नियम के अनुसार, दूसरे पोलेरॉइड से गुजरने के बाद प्रकाश की तीव्रता इस प्रकार दी जाती है:</p>\n\n<p>\n\n<p>$$ I_{B2} = I_{B1} \\cos^2(45^\\circ) $$</p>\n\n</p>\n\n<p>हम जानते हैं कि:</p>\n\n<p>\n\n<p>$$ \\cos(45^\\circ) = \\frac{1}{\\sqrt{2}} $$</p>\n\n</p>\n\n<p>इस प्रकार,</p>\n\n<p>\n\n<p>$$ I_{B2} = \\frac{1}{2} I_B \\left(\\frac{1}{\\sqrt{2}}\\right)^2 = \\frac{1}{2} I_B \\cdot \\frac{1}{2} = \\frac{1}{4} I_B $$</p>\n\n</p>\n\n<p>अब, बिंदु B पर नई तीव्रता $I_{B2}$ है। हमें बिंदु A और B पर तीव्रताओं का नया अनुपात $r'$ ज्ञात करना है:</p>\n\n<p>\n\n<p>$$ r' = \\frac{I_A}{I_{B2}} $$</p>\n\n</p>\n\n<p>मान $I_A = 2I_B$ और $I_{B2} = \\frac{1}{4} I_B$ को प्रतिस्थापित करने पर, हमें मिलता है:</p>\n\n<p>\n\n<p>$$ r' = \\frac{2 I_B}{\\frac{1}{4} I_B} = 2 \\times 4 = 8 $$</p>\n\n</p>\n\n<p>इसलिए, $r$ का नया मान होगा:</p>\n\n<p>\n\n<p>$$ r' = 8 $$</p>\n\n</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "polarisation",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "A point source $\\mathrm{S}$ emits unpolarized light uniformly in all directions. At two points $\\mathrm{A}$ and $\\mathrm{B}$, the ratio $r=I_A / I_B$ of the intensities of light is 2 . If a set of two polaroids having $45^{\\circ}$ angle bet..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "एक बिंदु स्रोत S, एकसमान रूप से, सभी दिशाओं में अध्रुवित प्रकाश (unpolarized light) उत्सर्जित करता है। दो बिंदुओं $\\mathrm{A}$ और $\\mathrm{B}$ पर, प्रकाश की तीव्रताओं के अनुपात, $r=I_A / I_B$ का मान 2 है। यदि $\\mathrm{B}$ के ठीक पहले दो पोल..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-1-online"
+    },
+    {
+      "question_id": "uqwd83rp9dpml6rga0pd",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "pa-double-slit-setup-is-shown-in-the-figure-one-of-the-sl-jee-advanced-physics-units-and-measurements-ux2lmdfeuq8xxe9b",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A double slit setup is shown in the figure. One of the slits is in medium 2 of refractive index $n_{2}$. The other slit is at the interface of this medium with another medium 1 of refractive index $n_{1}\\left(\\neq n_{2}\\right)$. The line joining the slits is perpendicular to the interface and the distance between the slits is $d$. The slit widths are much smaller than $d$. A monochromatic parallel beam of light is incident on the slits from medium 1. A detector is placed in medium 2 at a large distance from the slits, and at an angle $\\theta$ from the line joining them, so that $\\theta$ equals the angle of refraction of the beam. Consider two approximately parallel rays from the slits received by the detector.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7ga51jp/58c339be-316e-4521-99e2-93bae6e4d7fe/53888450-286f-11ed-960a-ef6c69c8b437/file-1l7ga51jq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7ga51jp/58c339be-316e-4521-99e2-93bae6e4d7fe/53888450-286f-11ed-960a-ef6c69c8b437/file-1l7ga51jq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Physics - Wave Optics Question 12 English\"></p>\n<p>Which of the following statement(s) is(are) correct?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The phase difference between the two rays is independent of $d$."
+            },
+            {
+              "identifier": "B",
+              "content": "The two rays interfere constructively at the detector."
+            },
+            {
+              "identifier": "C",
+              "content": " The phase difference between the two rays depends on $n_{1}$ but is independent of $n_{2}$."
+            },
+            {
+              "identifier": "D",
+              "content": "The phase difference between the two rays vanishes only for certain values of $d$ and the angle of incidence of the beam, with $\\theta$ being the corresponding angle of refraction."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldgo2q1e/9fb80e5f-4c7b-47fc-97fb-131766f5aefa/1f1b4320-9f6f-11ed-8b60-2b979f8cc12c/file-1ldgo2q1f.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldgo2q1e/9fb80e5f-4c7b-47fc-97fb-131766f5aefa/1f1b4320-9f6f-11ed-8b60-2b979f8cc12c/file-1ldgo2q1f.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Physics - Wave Optics Question 12 English Explanation\">\n<br><br>$\n\\tan \\theta  =\\frac{\\mathrm{AB}}{d}$\n<br><br>And, $\n\\mathrm{AB}  =d \\tan \\theta $ ........ (i)\n<br><br>$\n\\mathrm{BC}  =\\mathrm{AB} \\sin \\alpha $\n<br><br>$\n =d \\tan \\theta \\sin \\alpha $\n<br><br>$\n\\mathrm{AD}  =\\mathrm{AB} \\sin \\theta\n$\n<br><br>Path difference in vacuum\n<br><br>$$\n\\begin{aligned}\n\\Delta x &amp; =n_1 \\mathrm{BC}-n_2 \\mathrm{AD} \\\\\\\\\n\\Delta x &amp; =n_1(\\mathrm{AB}) \\sin \\alpha-n_2(\\mathrm{AB} \\sin \\theta)\n\\end{aligned}\n$$\n<br><br>Hence, $\\mathrm{AB}\\left(n_1 \\sin \\alpha-n_2 \\sin \\theta\\right)=0$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>चित्र में एक द्विस्लिट समंजन दर्शाया गया है। कोई एक स्लिट अपवर्तनांक $$n_{2}$$ के माध्यम 2 में है। अन्य स्लिट अपवर्तनांक $$n_{1}\\left(\\neq n_{2}\\right)$$ के अन्य माध्यम 1 के साथ इस माध्यम के अंतराफलक पर है। स्लिटों को जोड़ने वाली रेखा अंतराफलक के लम्बवत् है तथा स्लिटों के मध्य दूरी $$d$$ है। स्लिटों की चौड़ाई $$d$$ से बहुत कम है। एकलवर्णीय समांतर प्रकाश पुंज माध्यम 1 से स्लिटों पर आपतित होता है। एक संसूचक को स्लिटों से अत्यधिक दूरी पर तथा इन्हें जोड़ने वाली रेखा से $$\\theta$$ कोण पर माध्यम 2 में इस प्रकार रखा जाता है कि $$\\theta$$ पुंज के अपवर्तन कोण के बराबर होता है। माना स्लिटों से दो लगभग समांतर किरणें संसूचक द्वारा प्राप्त की जाती है।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7ga51jp/58c339be-316e-4521-99e2-93bae6e4d7fe/53888450-286f-11ed-960a-ef6c69c8b437/file-1l7ga51jq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7ga51jp/58c339be-316e-4521-99e2-93bae6e4d7fe/53888450-286f-11ed-960a-ef6c69c8b437/file-1l7ga51jq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Physics - Wave Optics Question 12 Hindi\"></p>\n<p>निम्नलिखित में से कौनसा/कौनसे कथन सही है / हैं?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "दोनों किरणों के मध्य कलांतर $$d$$ पर निर्भर नहीं करता है"
+            },
+            {
+              "identifier": "B",
+              "content": "दोनों किरणें संसूचक पर संपोषी व्यतिकरण करती है"
+            },
+            {
+              "identifier": "C",
+              "content": "दोनों किरणों के मध्य कलांतर $$n_{1}$$ पर निर्भर करता है लेकिन $$n_{2}$$ पर निर्भर नहीं करता है"
+            },
+            {
+              "identifier": "D",
+              "content": "दोनों किरणों के मध्य कलांतर केवल $$d$$ तथा पुंज के आपतन कोण के निश्चित मान के लिए निरस्त होता है तथा $$\\theta$$ संगत अपवर्तन कोण है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ldgo2q1e/9fb80e5f-4c7b-47fc-97fb-131766f5aaea/1f1b4320-9f6f-11ed-8b60-2b979f8cc12c/file-1ldgo2q1f.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ldgo2q1e/9fb80e5f-4c7b-47fc-97fb-131766f5aaea/1f1b4320-9f6f-11ed-8b60-2b979f8cc12c/file-1ldgo2q1f.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Physics - Wave Optics Question 12 Hindi Explanation\">\n<br><br>$\n\\tan \\theta  =\\frac{\\mathrm{AB}}{d}$\n<br><br>और, $\n\\mathrm{AB}  =d \\tan \\theta $ ........ (i)\n<br><br>$\n\\mathrm{BC}  =\\mathrm{AB} \\sin \\alpha $\n<br><br>$\n =d \\tan \\theta \\sin \\alpha $\n<br><br>$\n\\mathrm{AD}  =\\mathrm{AB} \\sin \\theta\n$\n<br><br>निर्वात में पथांतर\n<br><br>$$\n\\begin{aligned}\n\\Delta x &amp; =n_1 \\mathrm{BC}-n_2 \\mathrm{AD} \\\\\\\\\n\\Delta x &amp; =n_1(\\mathrm{AB}) \\sin \\alpha-n_2(\\mathrm{AB} \\sin \\theta)\n\\end{aligned}\n$$\n<br><br>अतः, $\\mathrm{AB}\\left(n_1 \\sin \\alpha-n_2 \\sin \\theta\\right)=0$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcqm",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "A double slit setup is shown in the figure. One of the slits is in medium 2 of refractive index $n_{2}$. The other slit is at the interface of this medium with another medium 1 of refractive index $n_{1}\\left(\\neq n_{2}\\right)$. The line jo..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "चित्र में एक द्विस्लिट समंजन दर्शाया गया है। कोई एक स्लिट अपवर्तनांक $$n_{2}$$ के माध्यम 2 में है। अन्य स्लिट अपवर्तनांक $$n_{1}\\left(\\neq n_{2}\\right)$$ के अन्य माध्यम 1 के साथ इस माध्यम के अंतराफलक पर है। स्लिटों को जोड़ने वाली रेखा अंतरा..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "exam": "jee-advanced",
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "optics",
+      "chapter": "wave-optics",
+      "year": 2020,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "timeAllotted": 200000,
+      "marks": 3,
+      "negMarks": 1,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": "2020-09-27 09:00",
+      "question": {
+        "en": {
+          "content": "A parallel beam of light strikes a piece of transparent glass having cross section as shown in the figure\nbelow. Correct shape of the emergent wavefront will be (figures are schematic and not drawn to\nscale)\n<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflyzur5/ad071296-66c3-4fd3-9067-eabedc2b7745/641b3e10-013a-11eb-8293-3b6cc591631c/file-jgy2xukflyzur6-316w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflz0qrp/02d088e6-b01b-4be4-9fe6-4ea520223227/7cd66b50-013a-11eb-8293-3b6cc591631c/file-jgy2xukflz0qrq-58w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflz37oq/9c94642a-954d-4190-96fa-0b0678d8f9bf/c18630a0-013a-11eb-8293-3b6cc591631c/file-jgy2xukflz37or-63w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflz3qew/b96ca04c-1e5e-4fa2-a9e5-7c33026fad31/cffd7f80-013a-11eb-8293-3b6cc591631c/file-jgy2xukflz3qex-57w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflz49s5/f4af1d32-9ce7-417b-b33c-d49008c70dd5/def39b50-013a-11eb-8293-3b6cc591631c/file-jgy2xukflz49s6-59w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "Clearly middle part of glass is diverging and upper and lower part are conversing so correct shape of the emergent wavefront is as shown in the figure.\n<br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-860w.jpeg\"><source media=\"(max-width: 1040px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-1040w.jpeg\"><source media=\"(max-width: 1220px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-1220w.jpeg\"><source media=\"(max-width: 1400px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-1400w.jpeg\"><source media=\"(max-width: 1580px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-1580w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 English Explanation\"></picture>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>प्रकाश का एक समांतर किरण पुंज काँच के एक पारदर्शी टुकड़े, जिसकी अनुप्रस्थ काट नीचे दिए चित्रानुसार है, पर आपतित होता है | तब निर्गत तरंगाग्र (emergent wavefront) की सही आकृति इस प्रकार होगी [चित्र प्रतीकात्मक (schematic) हैं तथा माप के अनुसार नहीं है; Air: हवा; Light: प्रकाश; Glass: काँच]</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lf1vfsd6/a66fea37-1aa9-4e77-b70f-f310015fa0ec/9757fba0-bee4-11ed-aaf9-87a65f62f4f8/file-1lf1vfsd7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lf1vfsd6/a66fea37-1aa9-4e77-b70f-f310015fa0ec/9757fba0-bee4-11ed-aaf9-87a65f62f4f8/file-1lf1vfsd7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflz0qrp/02d088e6-b01b-4be4-9fe6-4ea520223227/7cd66b50-013a-11eb-8293-3b6cc591631c/file-jgy2xukflz0qrq-58w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 Hindi Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflz37oq/9c94642a-954d-4190-96fa-0b0678d8f9bf/c18630a0-013a-11eb-8293-3b6cc591631c/file-jgy2xukflz37or-63w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 Hindi Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflz3qew/b96ca04c-1e5e-4fa2-a9e5-7c33026fad31/cffd7f80-013a-11eb-8293-3b6cc591631c/file-jgy2xukflz3qex-57w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 Hindi Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflz49s5/f4af1d32-9ce7-417b-b33c-d49008c70dd5/def39b50-013a-11eb-8293-3b6cc591631c/file-jgy2xukflz49s6-59w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 Hindi Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "स्पष्टतः काँच का मध्य भाग अपसारी है और ऊपरी तथा निचला भाग अभिसारी हैं, इसलिए निर्गत तरंगाग्र का सही आकार चित्र में दर्शाए अनुसार है।\n<br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-860w.jpeg\"><source media=\"(max-width: 1040px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-1040w.jpeg\"><source media=\"(max-width: 1220px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-1220w.jpeg\"><source media=\"(max-width: 1400px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-1400w.jpeg\"><source media=\"(max-width: 1580px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg-1580w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ks6efttf/777caddd-1cb8-4658-93b1-7a0aecd775cf/0ecd3030-fa09-11eb-a5b6-29d04b7b2e6e/file-1ks6efttg.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Wave Optics Question 20 Hindi Explanation\"></picture>"
+        }
+      },
+      "question_id": "lw5tb4kebksye99x34ge",
+      "updated_time": 1601265240,
+      "permalink": "a-parallel-beam-of-light-strikes-a-piece-of-transparent-glas-jee-advanced-physics-wave-optics-qpkq9vzlv3xzijwe",
+      "topic": "huygens-principle-and-interference-of-light",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "A parallel beam of light strikes a piece of transparent glass having cross section as shown in the figure\nbelow. Correct shape of the emergent wavefront will be (figures are schematic and not drawn to\nscale)\n"
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "प्रकाश का एक समांतर किरण पुंज काँच के एक पारदर्शी टुकड़े, जिसकी अनुप्रस्थ काट नीचे दिए चित्रानुसार है, पर आपतित होता है | तब निर्गत तरंगाग्र (emergent wavefront) की सही आकृति इस प्रकार होगी [चित्र प्रतीकात्मक (schematic) हैं तथा माप के अनुस..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "question_id": "psfwieytkvdz3yr52phe",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 2 Offline",
+      "permalink": "in-a-youngs-double-slit-experiment-the-slit-separation-d-i-jee-advanced-physics-units-and-measurements-bt6w30ylu1sfaiq5",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In a Young's double slit experiment, the slit separation d is 0.3 mm and the screen distance D is 1 m. A parallel beam of light of wavelength 600 nm is incident on the slits at angle $$\\alpha $$ as shown in figure.<br><br> <img src=\"https://imagex.cdn.examgoal.net/1kt0redgi/7e757bb0-2bbc-4751-9dc5-12ff96cf0439/40845820-0abb-11ec-b596-83c05d28a6c9/file-1kt0redgj.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Wave Optics Question 19 English\"> <br><br>On the screen, the point O is equidistant from the slits and distance PO is 11.0 mm. Which of the following statement(s) is/are correct?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "For $$\\alpha $$ = 0, there will be constructive interference at point P."
+            },
+            {
+              "identifier": "B",
+              "content": "For $$\\alpha  = {{0.36} \\over \\pi }$$ degree, there will be destructive interference at point P."
+            },
+            {
+              "identifier": "C",
+              "content": "For $$\\alpha $$ = $$\\alpha  = {{0.36} \\over \\pi }$$ degree, there will be destructive interference at point O."
+            },
+            {
+              "identifier": "D",
+              "content": "Fringe spacing depends on $$\\alpha $$."
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Wave Optics Question 19 English Explanation\"></picture> <br><br>$$\\Delta $$x = d sin$$\\alpha $$ + d sin$$\\theta $$<br><br>$$\\theta $$ and $$\\alpha $$ are small angles<br><br>$$ \\therefore $$ $$\\Delta $$x = d$$\\alpha $$ + $${{dy} \\over D}$$<br><br>(a) $$\\alpha $$ = 0<br><br>$$ \\therefore $$ $$\\Delta $$$$x = {{dy} \\over D} = {{0.3 \\times 11} \\over {1000}} = 33 \\times {10^{ - 4}}$$ mm<br><br>$$\\Delta $$x in terms of $$\\lambda $$ = $${{33 \\times {{10}^{ - 4}}} \\over {600 \\times {{10}^{ - 6}}}}\\lambda  = {{11\\lambda } \\over 2}$$<br><br>as $$\\Delta x = (2n - 1){\\lambda  \\over 2}$$<br><br>There will be destructive interference.<br><br>(b) $$\\Delta x = 0.3\\,mm \\times {{0.36} \\over \\pi } \\times {\\pi  \\over {180}} + {{0.3\\,mm \\times 11\\,mm} \\over {1000}}$$<br><br>$$ = 39 \\times {10^{ - 4}}$$ mm<br><br>$$39 \\times {10^{ - 4}}$$ = $$(2x - 1) \\times {{600 \\times {{10}^{ - 9}} \\times {{10}^{ - 3}}} \\over 2}$$<br><br>n = 7<br><br>So, there will be destruction interference.<br><br>(c) $$\\Delta x = 3\\,mm \\times {{0.36} \\over \\pi } \\times {\\pi  \\over {180}} + 0$$ = 600 nm<br><br>600 nm = n$$\\lambda $$ $$ \\Rightarrow $$ n = 1<br><br>So, there will be construction interference.<br><br>(d) Fringe width does not depend on $$\\alpha $$."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक यंग के द्विझिर्री प्रयोग में झिर्रियों के बीच की दूरी $$d=0.3 \\mathrm{~mm}$$ तथा पर्दे की दूरी $$D=1 \\mathrm{~m}$$ है। एक समांतर प्रकाश पुंज जिसका तरंगदैर्ध्य $$600 \\mathrm{~nm}$$ है झिर्रिय्यों पर $$\\alpha$$ कोण से आपतित होता है जैसा कि चित्र में दर्शाया गया है । पर्दे पर बिन्दु $$O$$ झिर्रिर्यों से समान दूरी पर है तथा $$P O=11.0 \\mathrm{~mm}$$ है। निम्नलिखित कथनों में से कौन सा(से) सही है(हैं) ?</p>\n<p><img src=\"https://imagex.cdn.examgoal.net/1kt0redgi/7e757bb0-2bbc-4751-9dc5-12ff96cf0439/40845820-0abb-11ec-b596-83c05d28a6c9/file-1kt0redgj.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Wave Optics Question 19 Hindi\"></p>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\alpha=0$$ के लिए बिन्दु $$P$$ पर संपोषी (constructive) व्यतिकरण होगा।"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\alpha=\\frac{0.36}{\\pi}$$ डिग्री के लिए बिन्दु $$P$$ पर विनाशी व्यतिकरण होगा।"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\alpha=\\frac{0.36}{\\pi}$$ डिग्री के लिए बिन्दु $$O$$ पर विनाशी (destructive) व्यतिकरण (interference) होगा।"
+            },
+            {
+              "identifier": "D",
+              "content": "फ़्रिजों के बीच की दूरी $$\\alpha$$ पर निर्भर करती है।"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kt0rhlf0/eb6ab1e4-5dc6-408c-92e1-532f18de11fb/9a178ec0-0abb-11ec-b596-83c05d28a6c9/file-1kt0rhlf1.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Wave Optics Question 19 Hindi Explanation\"></picture> <br><br>$$\\Delta $$x = d sin$$\\alpha $$ + d sin$$\\theta $$<br><br>$$\\theta $$ और $$\\alpha $$ छोटे कोण हैं<br><br>$$ \\therefore $$ $$\\Delta $$x = d$$\\alpha $$ + $${{dy} \\over D}$$<br><br>(a) $$\\alpha $$ = 0<br><br>$$ \\therefore $$ $$\\Delta $$$$x = {{dy} \\over D} = {{0.3 \\times 11} \\over {1000}} = 33 \\times {10^{ - 4}}$$ mm<br><br>$$\\lambda $$ के पदों में $$\\Delta $$x = $${{33 \\times {{10}^{ - 4}}} \\over {600 \\times {{10}^{ - 6}}}}\\lambda  = {{11\\lambda } \\over 2}$$<br><br>चूंकि $$\\Delta x = (2n - 1){\\lambda  \\over 2}$$<br><br>विनाशी व्यतिकरण होगा।<br><br>(b) $$\\Delta x = 0.3\\,mm \\times {{0.36} \\over \\pi } \\times {\\pi  \\over {180}} + {{0.3\\,mm \\times 11\\,mm} \\over {1000}}$$<br><br>$$ = 39 \\times {10^{ - 4}}$$ mm<br><br>$$39 \\times {10^{ - 4}}$$ = $$(2x - 1) \\times {{600 \\times {{10}^{ - 9}} \\times {{10}^{ - 3}}} \\over 2}$$<br><br>n = 7<br><br>अतः, विनाशी व्यतिकरण होगा।<br><br>(c) $$\\Delta x = 3\\,mm \\times {{0.36} \\over \\pi } \\times {\\pi  \\over {180}} + 0$$ = 600 nm<br><br>600 nm = n$$\\lambda $$ $$ \\Rightarrow $$ n = 1<br><br>अतः, संपोषी व्यतिकरण होगा।<br><br>(d) फ्रिंज चौड़ाई $$\\alpha $$ पर निर्भर नहीं करती है।"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "In a Young's double slit experiment, the slit separation d is 0.3 mm and the screen distance D is 1 m. A parallel beam of light of wavelength 600 nm is incident on the slits at angle $$\\alpha $$ as shown in figure.  On the screen, the point..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "एक यंग के द्विझिर्री प्रयोग में झिर्रियों के बीच की दूरी $$d=0.3 \\mathrm{~mm}$$ तथा पर्दे की दूरी $$D=1 \\mathrm{~m}$$ है। एक समांतर प्रकाश पुंज जिसका तरंगदैर्ध्य $$600 \\mathrm{~nm}$$ है झिर्रिय्यों पर $$\\alpha$$ कोण से आपतित होता है जैसा कि..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "xsreg6r8t1wvjbcg2voi",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "optics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "wave-optics",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Two coherent monochromatic point sources $${S_1}$$ and $${S_2}$$ of wavelength $$\\lambda  = 600\\,nm$$ are placed symmetrically on either side of the center of the circle as shown. The sources are separated by a distance $$d=1.8$$ $$mm.$$ This arrangement produces interference fringes visible as alternate bright and dark spots on the circumference of the circle. The angular separation between two consecutive bright spots is $$\\Delta \\theta .$$ Which of the following options is/are correct?\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l6t9bhrn/44be4d14-eaba-4888-a55f-9ce2bd23eab9/16da4030-1bc6-11ed-9049-19bec3ea9187/file-1l6t9bhro.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l6t9bhrn/44be4d14-eaba-4888-a55f-9ce2bd23eab9/16da4030-1bc6-11ed-9049-19bec3ea9187/file-1l6t9bhro.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Wave Optics Question 21 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The angular separation between two consecutive\nbright spots decreases as we move from P<sub>1</sub> to P<sub>2</sub> along\nthe first quadrant."
+            },
+            {
+              "identifier": "B",
+              "content": "At P<sub>2</sub> the order of the fringe will be maximum."
+            },
+            {
+              "identifier": "C",
+              "content": "A dark spot will be formed at the point P<sub>2</sub>."
+            },
+            {
+              "identifier": "D",
+              "content": "The total number of fringes produced between P<sub>1</sub> and\nP<sub>2</sub> in the first quadrant is close to 3000."
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0k0d0oz/d8e7a375-76ee-473d-a3dd-f8d7f6957129/b5006840-9fe6-11ec-9d0c-9911be12062b/file-1l0k0d0p0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0k0d0oz/d8e7a375-76ee-473d-a3dd-f8d7f6957129/b5006840-9fe6-11ec-9d0c-9911be12062b/file-1l0k0d0p0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Wave Optics Question 21 English Explanation\"></p>\n<p>At any point P on circumference, the path difference, $$\\Delta$$x = d sin$$\\theta$$</p>\n<p>At P<sub>1</sub>, $$\\theta$$ = 0$$^\\circ$$ $$\\Rightarrow$$ $$\\Delta$$x = 0</p>\n<p>At P<sub>2</sub>, $$\\theta$$ = 90$$^\\circ$$ $$\\Rightarrow$$ $$\\Delta$$x = d</p>\n<p>For constructive interference, $$\\Delta$$x = n$$\\lambda$$</p>\n<p>$$\\therefore$$ $$n = {d \\over \\lambda } = {{1.8\\,mm} \\over {600\\,nm}} = {{1.8 \\times {{10}^{ - 3}}m} \\over {600 \\times {{10}^{ - 9}}m}} = 3000$$</p>\n<p>Since, n is integer, hence P<sub>2</sub> corresponds to bright spot and also it corresponds to maximum order of fringe.</p>\n<p>Now, $$\\Delta$$x = d sin$$\\theta$$</p>\n<p>d$$\\Delta$$x = d cos$$\\theta$$ d$$\\theta$$ or R$$\\lambda$$ = d cos$$\\theta$$ d$$\\theta$$</p>\n<p>$$\\therefore$$ $$d\\theta  \\propto {1 \\over {\\cos \\theta }}$$</p>\n<p>Hence, as $$\\theta$$ increases, cos $$\\theta$$ decreases and consequently d$$\\theta$$ increases.</p>"
+        },
+        "hi": {
+          "content": "दो संगत एकरंगी बिंदु स्रोत $${S_1}$$ और $${S_2}$$ जिनकी तरंगदैर्ध्य $$\\lambda = 600\\,nm$$ हैं, वृत्त के केंद्र के किसी भी तरफ समान रूप से रखे जाते हैं, जैसे कि दिखाया गया है। स्रोत एक दूसरे से $$d=1.8$$ $$mm$$ की दूरी पर स्थित हैं। यह व्यवस्था वृत्त की परिधि पर वैकल्पिक उज्ज्वल और अंधेरे धब्बों के रूप में हस्तक्षेप धारियां उत्पन्न करती है। दो लगातार उज्ज्वल धब्बों के बीच कोणीय अंतर $$\\Delta \\theta$$ है। निम्नलिखित विकल्पों में से कौन सा/से सही है/हैं?\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l6t9bhrn/44be4d14-eaba-4888-a55f-9ce2bd23eab9/16da4030-1bc6-11ed-9049-19bec3ea9187/file-1l6t9bhro.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l6t9bhrn/44be4d14-eaba-4888-a55f-9ce2bd23eab9/16da4030-1bc6-11ed-9049-19bec3ea9187/file-1l6t9bhro.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Wave Optics Question 21 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "पहले चतुर्थांश में $$P_1$$ से $$P_2$$ की ओर बढ़ने पर दो लगातार उज्ज्वल धब्बों के बीच कोणीय अंतर कम हो जाता है।"
+            },
+            {
+              "identifier": "B",
+              "content": "$$P_2$$ पर फ्रिंज का क्रम अधिकतम होगा।"
+            },
+            {
+              "identifier": "C",
+              "content": "$$P_2$$ पर एक अंधकारमय धब्बा बनेगा।"
+            },
+            {
+              "identifier": "D",
+              "content": "पहले चतुर्थांश में $$P_1$$ और $$P_2$$ के बीच उत्पन्न कुल धारियों की संख्या लगभग 3000 है।"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "two-coherent-monochromatic-point-sources-s1-and-s-2017-marks-4-wcgrpqbntzrtyusu.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "huygens-principle-and-interference-of-light",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "Two coherent monochromatic point sources $${S_1}$$ and $${S_2}$$ of wavelength $$\\lambda  = 600\\,nm$$ are placed symmetrically on either side of the center of the circle as shown. The sources are separated by a distance $$d=1.8$$ $$mm.$$ Th..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "दो संगत एकरंगी बिंदु स्रोत $${S_1}$$ और $${S_2}$$ जिनकी तरंगदैर्ध्य $$\\lambda = 600\\,nm$$ हैं, वृत्त के केंद्र के किसी भी तरफ समान रूप से रखे जाते हैं, जैसे कि दिखाया गया है। स्रोत एक दूसरे से $$d=1.8$$ $$mm$$ की दूरी पर स्थित हैं। यह व्यवस..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "snaqyk898imtsgmq0suh",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "permalink": "while-conducting-the-youngs-double-slit-experiment-a-stude-jee-advanced-physics-units-and-measurements-9i6bopiubi67tixn",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "While conducting the Young's double slit experiment, a student replaced the two slits with a large opaque plate in the XY-plane containing two small holes that act as two coherent point sources (S<sub>1</sub>, S<sub>2</sub>) emitting light of wavelength 600 mm. The student mistakenly placed the screen parallel to the XZ-plane (for z &gt; 0) at a distance D = 3 m from the mid-point of S<sub>1</sub>S<sub>2</sub>, as shown schematically in the figure. The distance between the source d = 0.6003 mm. The origin O is at the intersection of the screen and the line joining S<sub>1</sub>S<sub>2</sub>.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0no0py2/c766b740-a7e4-4506-a9a7-0eb7ca19cc3e/94096ba0-a1e9-11ec-8b25-4fc5294790d5/file-1l0no0py3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0no0py2/c766b740-a7e4-4506-a9a7-0eb7ca19cc3e/94096ba0-a1e9-11ec-8b25-4fc5294790d5/file-1l0no0py3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Wave Optics Question 18 English\"><br>Which of the following is(are) true of the intensity pattern on the screen?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Semi circular bright and dark bands centered at point O"
+            },
+            {
+              "identifier": "B",
+              "content": "The region very close to the point O will be dark"
+            },
+            {
+              "identifier": "C",
+              "content": "Straight bright and dark bands parallel to the X-axis."
+            },
+            {
+              "identifier": "D",
+              "content": "Hyperbolic bright and dark bands with foci symmetrically placed about O in the x-direction"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>At point O, the path difference is</p>\n<p>$${{2\\pi } \\over \\lambda }({S_1}O - {S_2}O) = {{2\\pi } \\over \\lambda }\\left[ {\\left( {D + {d \\over 2}} \\right) - \\left( {D - {d \\over 2}} \\right)} \\right]$$</p>\n<p>$$ = {{2\\pi d} \\over \\lambda } = {{2\\pi (0.6003 \\times {{10}^{ - 3}})} \\over {600 \\times {{10}^{ - 9}}}} = 2001\\pi  = (2n + 1)\\pi $$</p>\n<p>Therefore, the dark fringe forms at O.</p>\n<p>Hence, option (A) is correct.</p>\n<p>The shape of wavefronts from both sources for D &gt;&gt; d is semi-circular, which are concentric with each other with the difference just in their phase resulting in concentric semicircular interference fringes. That is, the region nearby point O is dark.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0rab3wv/20df9477-e2b8-4bb2-8aa3-8eac71cf9364/17b4f1f0-a3e7-11ec-9889-8ff85cf85963/file-1l0rab3ww.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0rab3wv/20df9477-e2b8-4bb2-8aa3-8eac71cf9364/17b4f1f0-a3e7-11ec-9889-8ff85cf85963/file-1l0rab3ww.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Wave Optics Question 18 English Explanation\"></p>\n<p>Hence, option (B) is correct.</p>\n"
+        },
+        "hi": {
+          "direction": null,
+          "content": "यंग का डबल स्लिट प्रयोग करते समय, एक छात्र ने दो स्लिट्स को एक बड़ी अपारदर्शी प्लेट से बदल दिया जो XY-समतल में है और दो छोटे छिद्र हैं जो दो समकालिक विद्युत बिंदु स्रोतों (S<sub>1</sub>, S<sub>2</sub>) के रूप में कार्य करते हैं जो 600 मिमी तरंगदैर्ध्य की प्रकाश छोड़ते हैं। छात्र ने गलती से स्क्रीन को XZ-समतल के समानांतर रखा (z &gt; 0 के लिए) और S<sub>1</sub>S<sub>2</sub> के मध्य-बिंदु से दूरी D = 3 मीटर पर, जैसा कि स्कीमता में दिखाया गया है। स्रोतों के बीच की दूरी d = 0.6003 मिमी। मूल O वह बिंदु है जहां स्क्रीन और लाइन संधि करती है जो S<sub>1</sub>S<sub>2</sub> को जोड़ती है।<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0no0py2/c766b740-a7e4-4506-a9a7-0eb7ca19cc3e/94096ba0-a1e9-11ec-8b25-4fc5294790d5/file-1l0no0py3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0no0py2/c766b740-a7e4-4506-a9a7-0eb7ca19cc3e/94096ba0-a1e9-11ec-8b25-4fc5294790d5/file-1l0no0py3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Physics - Wave Optics Question 18 Hindi\"><br>स्क्रीन पर तीव्रता पैटर्न के लिए निम्नलिखित में से कौन सा कथन सही है?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "वृत्तीय उज्ज्वल और अंधकार छल्ले जो O बिंदु के केंद्रित होते हैं"
+            },
+            {
+              "identifier": "B",
+              "content": "O बिंदु के बहुत पास का क्षेत्र अंधकारमय होगा"
+            },
+            {
+              "identifier": "C",
+              "content": "X-अक्ष के समानांतर सीधी उज्ज्वल और अंधकार बैंड"
+            },
+            {
+              "identifier": "D",
+              "content": "हाइपरबोलिक उज्ज्वल और अंधकार बैंड जो O के x-दिशा में सममित रूप से रखे गए हैं"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcqm",
+      "year": 2016,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "While conducting the Young's double slit experiment, a student replaced the two slits with a large opaque plate in the XY-plane containing two small holes that act as two coherent point sources (S1, S2) emitting light of wavelength 600 mm. ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "यंग का डबल स्लिट प्रयोग करते समय, एक छात्र ने दो स्लिट्स को एक बड़ी अपारदर्शी प्लेट से बदल दिया जो XY-समतल में है और दो छोटे छिद्र हैं जो दो समकालिक विद्युत बिंदु स्रोतों (S1, S2) के रूप में कार्य करते हैं जो 600 मिमी तरंगदैर्ध्य की प्रकाश ..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "question_id": "xjy8dirdndmuo3nhldct",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "permalink": "a-youngs-double-slit-interference-arrangement-with-slits-s-jee-advanced-physics-units-and-measurements-plwpkol6imvqv26q",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A Young's double slit interference arrangement with slits S<sub>1</sub> and S<sub>2</sub> is immersed in water (refractive index = 4/3) as shown in the figure. The positions of maxima on the surface of water are given by x<sup>2</sup> = p<sup>2</sup>m<sup>2</sup>$$\\lambda$$<sup>2</sup> $$-$$ d<sup>2</sup>, where $$\\lambda$$ is the wavelength of light in air (refractive index = 1). 2d is the separation between the slits and m is an integer. The value of p is<br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l11twg89/f045922b-1609-4d8d-9430-546159b415e3/8d293190-a9b3-11ec-ad87-91de349ac429/file-1l11twg8a.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l11twg89/f045922b-1609-4d8d-9430-546159b415e3/8d293190-a9b3-11ec-ad87-91de349ac429/file-1l11twg8a.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Wave Optics Question 17 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l153a9i2/359ec698-d9f0-4dbb-9949-1d5def595a77/99670fa0-ab7e-11ec-ba78-b5dfc62886b6/file-1l153a9i3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l153a9i2/359ec698-d9f0-4dbb-9949-1d5def595a77/99670fa0-ab7e-11ec-ba78-b5dfc62886b6/file-1l153a9i3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Wave Optics Question 17 English Explanation\"></p>\n<p>$$\\mu ({S_2}P) - {S_1}P = m\\lambda $$</p>\n<p>$$ \\Rightarrow \\mu \\sqrt {{d^2} + {x^2}}  - \\sqrt {{d^2} + {x^2}}  = m\\lambda $$</p>\n<p>$$ \\Rightarrow (\\mu  - 1)\\sqrt {{d^2} + {x^2}}  = m\\lambda $$</p>\n<p>$$ \\Rightarrow \\left( {{4 \\over 3} - 1} \\right)\\sqrt {{d^2} + {x^2}}  = m\\lambda $$</p>\n<p>or, $$\\sqrt {{d^2} + {x^2}}  = 3m\\lambda $$</p>\n<p>Squaring this equation we get,</p>\n<p>$${x^2} = 9{m^2}{\\lambda ^2} - {d^2}$$</p>\n<p>$$ \\Rightarrow {p^2} = 9$$ or $$p = 3$$</p>"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "integer",
+      "year": 2015,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "A Young's double slit interference arrangement with slits S1 and S2 is immersed in water (refractive index = 4/3) as shown in the figure. The positions of maxima on the surface of water are given by x2 = p2m2$$\\lambda$$2 $$-$$ d2, where $$\\..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "question_id": "oy397gu17v4mz1jm1o92",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "a-light-source-width-emits-two-wavelengths-lambdasub-jee-advanced-physics-units-and-measurements-pdd6t6upv9eeskcn",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A light source, width emits two wavelengths $$\\lambda$$<sub>1</sub> = 400 nm and $$\\lambda$$<sub>2</sub> = 600 nm, is used in a Young's double-slit experiment. If recorded fringe widths for $$\\lambda$$<sub>1</sub> and $$\\lambda$$<sub>2</sub> are $$\\beta$$<sub>1</sub> and $$\\beta$$<sub>2</sub> and the number of fringes for them within a distance y on one side of the central maximum are m<sub>1</sub> and m<sub>2</sub>, respectively, then",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\beta$$<sub>2</sub> > $$\\beta$$<sub>1</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "m<sub>1</sub> > m<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "from the central maximum, 3rd maximum of $$\\lambda$$<sub>2</sub> overlaps with 5th minimum of $$\\lambda$$<sub>1</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "the angular separation of fringes of $$\\lambda$$<sub>1</sub> is greater than $$\\lambda$$<sub>2</sub>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "Fringe width $$\\beta  = {{\\lambda D} \\over d}$$; $$\\lambda$$<sub>1</sub> = 400 nm; $$\\lambda$$<sub>2</sub> = 400 nm<br/><br/>Since $$\\lambda$$<sub>2</sub> > $$\\lambda$$<sub>1</sub>, $$\\beta$$<sub>2</sub> > $$\\beta$$<sub>1</sub><br/><br/>Number of fringes within a distance y is given by <br/><br/>$${m_1} = {y \\over {{\\beta _1}}}$$<br/><br/>$${m_2} = {y \\over {{\\beta _2}}}$$<br/><br/>Since, $$\\beta$$<sub>2</sub> > $$\\beta$$<sub>1</sub>, we get m<sub>2</sub> < m<sub>1</sub>.<br/><br/>Position of 3<sup>rd</sup> maxima of $$\\lambda$$<sub>2</sub> : <br/><br/>$$y' = {D \\over d}(3{\\lambda _2}) = 1800{D \\over d}$$<br/><br/>Position of 5<sup>th</sup> minima of $$\\lambda$$<sub>1</sub> :<br/><br/>$$y'' = {D \\over d}\\left( {{{9{\\lambda _1}} \\over 2}} \\right) = 1800{D \\over d}$$<br/><br/>Hence, y' = y''.<br/><br/>Angular fringe width is $$\\theta  = {\\beta  \\over D} = {\\lambda  \\over d}$$<br/><br/>Since, $$\\beta$$<sub>2</sub> > $$\\beta$$<sub>1</sub> $$\\Rightarrow$$ $$\\theta$$<sub>2</sub> > $$\\theta$$<sub>1</sub>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcqm",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "A light source, width emits two wavelengths $$\\lambda$$1 = 400 nm and $$\\lambda$$2 = 600 nm, is used in a Young's double-slit experiment. If recorded fringe widths for $$\\lambda$$1 and $$\\lambda$$2 are $$\\beta$$1 and $$\\beta$$2 and the numb..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "swmx334upgztlatnfnuk",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "permalink": "pin-the-youngs-double-slit-experiment-using-a-monochromat-jee-advanced-physics-units-and-measurements-0svs8yrxvru4mqyt",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>In the Young's double-slit experiment using a monochromatic light of wavelength $$\\lambda$$, the path difference (in terms of an integer n) corresponding to any point having half the peak intensity is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$(2n + 1){\\lambda  \\over 2}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$(2n + 1){\\lambda  \\over 4}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$(2n + 1){\\lambda  \\over 8}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$(2n + 1){\\lambda  \\over {16}}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Wavelength of light is $$\\lambda$$.</p>\n<p>Now, using the relation for intensity, we have</p>\n<p>$$I = {I_{\\max }}{\\cos ^2}\\left( {{\\phi  \\over 2}} \\right)$$</p>\n<p>$${1 \\over 2} = {\\cos ^2}\\left( {{\\phi  \\over 2}} \\right) \\Rightarrow \\cos {\\phi  \\over 2} = {1 \\over {\\sqrt 2 }}$$</p>\n<p>$$ \\Rightarrow {\\phi  \\over 2} = {\\pi  \\over 4} \\Rightarrow \\phi  = {\\pi  \\over 2}$$</p>\n<p>$$ \\Rightarrow \\phi  = {\\pi  \\over 2},{{3\\pi } \\over 2},{{5\\pi } \\over 2},{{7\\pi } \\over 2}$$</p>\n<p>$$\\phi  = {{2\\pi } \\over \\lambda }\\Delta x \\Rightarrow {\\pi  \\over 2} = {{2\\pi } \\over 2}\\Delta x \\Rightarrow \\Delta x = {\\lambda  \\over 4},{{3\\lambda } \\over 4},{{5\\lambda } \\over 4}$$</p>\n<p>$$ \\Rightarrow \\Delta x = (2n + 1){\\lambda  \\over 4}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcq",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "In the Young's double-slit experiment using a monochromatic light of wavelength $$\\lambda$$, the path difference (in terms of an integer n) corresponding to any point having half the peak intensity is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "question_id": "vkgwy4tkclk2skf3c5d6",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pyoungs-double-slit-experiment-is-carried-out-by-using-gr-jee-advanced-physics-units-and-measurements-im4wbqbdrw9lbnnc",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Young's double slit experiment is carried out by using green, red and blue light, one colour at a time. The fringe widths recorded are $$\\beta$$<sub>G</sub>, $$\\beta$$<sub>R</sub> and $$\\beta$$<sub>B</sub>, respectively. Then,</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\beta$$<sub>G</sub> > $$\\beta$$<sub>B</sub> > $$\\beta$$<sub>R</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\beta$$<sub>B</sub> > $$\\beta$$<sub>G</sub> > $$\\beta$$<sub>R</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\beta$$<sub>R</sub> > $$\\beta$$<sub>B</sub> > $$\\beta$$<sub>G</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\beta$$<sub>R</sub> > $$\\beta$$<sub>G</sub> > $$\\beta$$<sub>B</sub>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Fringe width, $$\\beta  = {{\\lambda D} \\over d}$$</p>\n<p>$$\\therefore$$ $$\\beta  \\propto \\lambda $$</p>\n<p>As, $${\\lambda _R} > {\\lambda _G} > {\\lambda _B}$$ $$\\therefore$$ $${\\beta _R} > {\\beta _G} > {\\beta _B}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcq",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "Young's double slit experiment is carried out by using green, red and blue light, one colour at a time. The fringe widths recorded are $$\\beta$$G, $$\\beta$$R and $$\\beta$$B, respectively. Then,"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "question_id": "df2eutgauwncxvg6jehm",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "pa-light-ray-travelling-in-glass-medium-is-incident-on-gla-jee-advanced-physics-units-and-measurements-zhxxzn8kjvjmory0",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A light ray travelling in glass medium is incident on glass-air interface at an angle of incidence $$\\theta$$. The reflected (R) and transmitted (T) intensities, both as function of $$\\theta$$, are plotted. The correct sketch is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2mkk70q/915c3031-d677-490c-ae72-861c7c9eb8b5/b3310ea0-c8e7-11ec-8c2d-13f33da2fbe1/file-1l2mkk70r.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2mkk70q/915c3031-d677-490c-ae72-861c7c9eb8b5/b3310ea0-c8e7-11ec-8c2d-13f33da2fbe1/file-1l2mkk70r.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Wave Optics Question 13 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2mkl5ny/a5067b4d-9659-40b7-9b86-916f9eae5eed/cdf467f0-c8e7-11ec-8c2d-13f33da2fbe1/file-1l2mkl5nz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2mkl5ny/a5067b4d-9659-40b7-9b86-916f9eae5eed/cdf467f0-c8e7-11ec-8c2d-13f33da2fbe1/file-1l2mkl5nz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Wave Optics Question 13 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2mklrek/813e977d-9d72-4114-a2ac-43242555ea54/debf43c0-c8e7-11ec-8c2d-13f33da2fbe1/file-1l2mklrel.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2mklrek/813e977d-9d72-4114-a2ac-43242555ea54/debf43c0-c8e7-11ec-8c2d-13f33da2fbe1/file-1l2mklrel.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Wave Optics Question 13 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2mkmqwg/66dfab29-6a0b-4880-9b1c-f7ccaa146afe/fa2b1210-c8e7-11ec-8c2d-13f33da2fbe1/file-1l2mkmqwh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2mkmqwg/66dfab29-6a0b-4880-9b1c-f7ccaa146afe/fa2b1210-c8e7-11ec-8c2d-13f33da2fbe1/file-1l2mkmqwh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Wave Optics Question 13 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>If I is the intensity of the incident light then R + T = I. Since the incident ray is travelling in a denser medium (glass), it will be totally reflected at a certain critical angle $$\\theta$$<sub>c</sub>. For $$\\theta$$ < $$\\theta$$<sub>c</sub> a part of the incident intensity is reflected and the remaining part is transmitted. But for $$\\theta$$ > $$\\theta$$<sub>c</sub>, there is no refracted ray. Hence for $$\\theta$$ > $$\\theta$$<sub>c</sub>, the value of R is 100%. Hence the only correct option is (c).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "polarisation",
+      "type": "mcq",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "A light ray travelling in glass medium is incident on glass-air interface at an angle of incidence $$\\theta$$. The reflected (R) and transmitted (T) intensities, both as function of $$\\theta$$, are plotted. The correct sketch is"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "hycik3ewusjxsol0usvq",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pcolumn-i-shows-four-situations-of-standard-youngs-double-jee-advanced-physics-motion-zeyo1zoda1msy5ko",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Column I shows four situations of standard Young's double slit arrangement with the screen placed far away from the slits S$$_1$$ and S$$_2$$. In each of these cases, S$$_1$$P$$_0$$ = S$$_2$$P$$_0$$, S$$_1$$P$$_1$$ $$-$$ S$$_2$$P$$_1$$ = $$\\lambda/4$$ and S$$_1$$P$$_2$$ $$-$$ S$$_2$$P$$_2$$ = $$\\lambda/3$$, where $$\\lambda$$ is the wavelength of the light used. In the cases B, C and D, a transparent sheet of refractive index $$\\mu$$ and thickness t is pasted on slit S$$_2$$. The thickness of the sheets are different in different cases. The phase difference between the light waves reaching a point P on the screen from the two slits is denoted by $$\\delta$$(P) and the intensity by I(P). Match each situation given in Column I with the statement(s) in Column II valid for that situation:</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n</style>\n</p><table class=\"tg\" style=\"undefined;table-layout: fixed; width: 642px\">\n<colgroup>\n<col style=\"width: 50px\">\n<col style=\"width: 298px\">\n<col style=\"width: 51px\">\n<col style=\"width: 243px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-7btt\">(A)</td>\n    <td class=\"tg-0pky\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4fcpm/4485f7bf-0456-4b7e-8230-e663f83ac3a9/e6f297a0-cde0-11ed-9ce1-7bd2ccf24231/file-1lft4fcpn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4fcpm/4485f7bf-0456-4b7e-8230-e663f83ac3a9/e6f297a0-cde0-11ed-9ce1-7bd2ccf24231/file-1lft4fcpn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Wave Optics Question 11 English 1\"></td>\n    <td class=\"tg-7btt\">(P)</td>\n    <td class=\"tg-0pky\">$$\\delta ({P_0}) = 0$$<br></td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(B)</td>\n    <td class=\"tg-0pky\">$$(\\mu-1)t=\\lambda/4$$<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4g006/2d777c8c-2e7f-4f9c-8182-9a93ffec28ab/f8f0ea60-cde0-11ed-9ce1-7bd2ccf24231/file-1lft4g007.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4g006/2d777c8c-2e7f-4f9c-8182-9a93ffec28ab/f8f0ea60-cde0-11ed-9ce1-7bd2ccf24231/file-1lft4g007.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Wave Optics Question 11 English 2\"></td>\n    <td class=\"tg-7btt\">(Q)</td>\n    <td class=\"tg-0pky\">$$\\delta ({P_1}) = 0$$<br></td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(C)</td>\n    <td class=\"tg-0pky\">$$(\\mu-1)t=\\lambda/2$$<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4gn8p/e038506e-d3c6-46f4-bc51-63ee9ae1090b/0ae41990-cde1-11ed-9ce1-7bd2ccf24231/file-1lft4gn8q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4gn8p/e038506e-d3c6-46f4-bc51-63ee9ae1090b/0ae41990-cde1-11ed-9ce1-7bd2ccf24231/file-1lft4gn8q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Wave Optics Question 11 English 3\"></td>\n    <td class=\"tg-7btt\">(R)</td>\n    <td class=\"tg-0pky\">$$I({P_1}) = 0$$<br></td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(D)</td>\n    <td class=\"tg-0pky\">$$(\\mu-1)t=3\\lambda/4$$<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4hmtp/348fd2fb-6a54-4870-8dd4-5975e75f06a8/266ac2e0-cde1-11ed-9ce1-7bd2ccf24231/file-1lft4hmvi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4hmtp/348fd2fb-6a54-4870-8dd4-5975e75f06a8/266ac2e0-cde1-11ed-9ce1-7bd2ccf24231/file-1lft4hmvi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Wave Optics Question 11 English 4\"></td>\n    <td class=\"tg-7btt\">(S)</td>\n    <td class=\"tg-0pky\">$$I({P_0}) &gt; I({P_1})$$<br></td>\n  </tr>\n  <tr>\n    <td class=\"tg-fymr\"></td>\n    <td class=\"tg-0pky\"></td>\n    <td class=\"tg-7btt\">(T)</td>\n    <td class=\"tg-0pky\">$$I({P_2}) &gt; I({P_1})$$<br></td>\n  </tr>\n</tbody>\n</table><p></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(A)$$\\to$$(P), (S); (B)$$\\to$$(Q); (C)$$\\to$$(T); (D)$$\\to$$(R), (S), (T)"
+            },
+            {
+              "identifier": "B",
+              "content": "(A)$$\\to$$(P), (S); (B)$$\\to$$(R); (C)$$\\to$$(T); (D)$$\\to$$(R), (S), (T)"
+            },
+            {
+              "identifier": "C",
+              "content": "(A)$$\\to$$(P), (S); (B)$$\\to$$(Q); (C)$$\\to$$(S); (D)$$\\to$$(R), (S), (T)"
+            },
+            {
+              "identifier": "D",
+              "content": "(A)$$\\to$$(P), (R); (B)$$\\to$$(Q); (C)$$\\to$$(T); (D)$$\\to$$(R), (S), (T)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": "",
+          "explanation": "<p>(A)$$\\to$$(P), (S)</p>\n<p>Since the path difference is</p>\n<p>$$S_1P_0=S_2P_0=0$$</p>\n<p>the phase difference becomes</p>\n<p>$$\\delta(P_0)=0$$</p>\n<p>The intensity at any point is</p>\n<p>$$I = {I_{\\max }}{\\cos ^2}\\left( {{8 \\over 2}} \\right)$$</p>\n<p>Now, $$I({P_0}) = {I_{\\max }}$$ [$$\\because$$ $$\\delta ({P_0}) = 0$$]</p>\n<p>$$I({P_1}) = {I_{\\max }}{\\cos ^2}\\left( {{\\pi  \\over 4}} \\right) = {{{I_{\\max }}} \\over 2}$$</p>\n<p>Therefore, $$I({P_0}) > I({P_1})$$</p>\n<p>(B)$$\\to$$(Q)</p>\n<p>In this case, the path difference at P$$_1$$ is</p>\n<p>$${P_1} = {\\lambda  \\over 4} - (\\mu  - 1)t = {\\lambda  \\over 4} - {\\lambda  \\over 4} = 0$$</p>\n<p>Therefore, $$\\delta ({P_1}) = 0$$.</p>\n<p>(C)$$\\to$$(T)</p>\n<p>In this case, the path difference at P$$_1$$ is</p>\n<p>$${P_1} = {\\lambda  \\over 4} - (\\mu  - 1)t = {\\lambda  \\over 4} - {\\lambda  \\over 2} = {{ - \\lambda } \\over 4}$$</p>\n<p>Therefore, the phase difference at P$$_1$$ is</p>\n<p>$${P_1} = {{2\\pi } \\over \\lambda } \\times \\left( {{{ - \\lambda } \\over 4}} \\right) =  - {\\pi  \\over 2}$$</p>\n<p>Therefore, $$I({P_1}) = {I_{\\max }}{\\cos ^2}\\left( {{\\pi  \\over 4}} \\right) = {{{I_{\\max }}} \\over 2}$$</p>\n<p>The path difference at P$$_2$$ is</p>\n<p>$${P_2} = {\\lambda  \\over 3} - (\\mu  - 1)t = {\\lambda  \\over 3} - {\\lambda  \\over 2} = {{ - \\lambda } \\over 6}$$</p>\n<p>Therefore, the phase difference at P$$_1$$ is</p>\n<p>$${P_2} = {{2\\pi } \\over \\lambda } \\times \\left( {{{ - \\lambda } \\over 6}} \\right) =  - {\\pi  \\over 3}$$</p>\n<p>Therefore, $$I({P_2}) = {I_{\\max }}{\\cos ^2}\\left( {{\\pi  \\over 6}} \\right) = {3 \\over 4}{I_{\\max }}$$</p>\n<p>Therefore, $$I({P_2}) > I({P_1})$$.</p>\n<p>(D)$$\\to$$(R), (S), (T)</p>\n<p>In this case, the path difference at P$$_1$$ is</p>\n<p>$${P_1} = {\\lambda  \\over 4} - (\\mu  - 1)t = {\\lambda  \\over 4} - {{3\\lambda } \\over 4} = {{ - \\lambda } \\over 2}$$</p>\n<p>Therefore, the phase difference at P$$_1$$ is</p>\n<p>$${P_1} = {{2\\pi } \\over \\lambda } \\times \\left( { - {\\lambda  \\over 2}} \\right) =  - \\pi $$</p>\n<p>Therefore, $$I({P_1}) = {I_{\\max }}{\\cos ^2}\\left( {{\\pi  \\over 2}} \\right) = 0$$</p>\n<p>The path difference at P$$_0$$ is</p>\n<p>$${P_0} = 0 - (\\mu  - 1)t = {{ - 3\\lambda } \\over 4}$$</p>\n<p>Therefore, the phase difference at P$$_0$$ is</p>\n<p>$${P_0} = {{2\\pi } \\over \\lambda } \\times \\left( {{{ - 3\\lambda } \\over 4}} \\right) = {{ - 3\\lambda } \\over 2}$$</p>\n<p>Therefore, $$I({P_0}) = {I_{\\max }}{\\cos ^2}{{3\\pi } \\over 4} = {{{I_{\\max }}} \\over 2}$$</p>\n<p>Now, the path difference at P$$_1$$ is</p>\n<p>$${P_1} = {\\lambda  \\over 4} - (\\mu  - 1)t = {\\lambda  \\over 4} - {{3\\lambda } \\over 4} =  - {\\lambda  \\over 2}$$</p>\n<p>The phase difference at P$$_1$$ is</p>\n<p>$${P_1} = {{2\\pi } \\over \\lambda } \\times \\left( {{{ - \\lambda } \\over 2}} \\right) =  - \\pi $$</p>\n<p>Therefore, $$I({P_1}) = {I_{\\max }}\\cos \\left( {{\\pi  \\over 2}} \\right) = 0$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "Column I shows four situations of standard Young's double slit arrangement with the screen placed far away from the slits S$$_1$$ and S$$_2$$. In each of these cases, S$$_1$$P$$_0$$ = S$$_2$$P$$_0$$, S$$_1$$P$$_1$$ $$-$$ S$$_2$$P$$_1$$ = $$..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "h3zt2azcui6nzo1qpj9t",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pin-a-youngs-double-slit-experiment-the-separation-betwe-jee-advanced-physics-motion-bwswbbyskcrwkbal",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>In a Young's double slit experiment, the separation between the two slits is d and the wavelength of the light is $$\\lambda$$. The intensity of light falling on slit 1 is four times the intensity of light falling on slit 2. Choose the correct choice(s).</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "If $$d=\\lambda$$, the screen will contain only one maximum"
+            },
+            {
+              "identifier": "B",
+              "content": "If $$\\lambda < d < 2\\lambda$$, at least one more maximum (besides the central maximum) will be observed on the screen"
+            },
+            {
+              "identifier": "C",
+              "content": "If the intensity of light falling on slit 1 is reduced so that it becomes equal to that of slit 2, the intensities of the observed dark and bright fringes will increase"
+            },
+            {
+              "identifier": "D",
+              "content": "If the intensity of light falling on slit 2 is increased so that it becomes equal to that of slit 1, the intensities of the observed dark and bright fringes will increase"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>If $$d=\\lambda$$, the maximum path difference (path difference is given by $$d \\sin\\theta$$) will be less than $$\\lambda$$. So there will be only central maximum on the screen, because in the equation $$d\\sin\\theta=n\\lambda,n$$ can take only one value.</p>\n<p>If $$\\lambda < d < 2\\lambda$$, then the maximum path difference will be less than 2$$\\lambda$$. So there will be two more maximum on the screen in addition to the central maximum.</p>\n<p>Intensity of dark fringes becomes zero when intensities at the two slits are equal. Initial intensity at both the slits is unequal so there will some brightness at dark fringes. Hence, when intensity of both slits is made equal, the intensity at dark fringes on screen will reduces to zero.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcqm",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "In a Young's double slit experiment, the separation between the two slits is d and the wavelength of the light is $$\\lambda$$. The intensity of light falling on slit 1 is four times the intensity of light falling on slit 2. Choose the corre..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "ynczwa3r2vxhbqf6f9m2",
+      "chapter": "wave-optics",
+      "chapterGroup": "optics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pspeed-of-the-light-isp-jee-advanced-physics-motion-zfbbiu3tapntpmsp",
+      "question": {
+        "en": {
+          "comprehension": "<p>The figure shows surface XY separating two transparent media, medium -1 and medium -2 . The lines ab and cd represent wavefronts of a light wave traveling in medium -1 and incident on X Y. The lines ef and gh represent wavefronts of the light wave in medium -2 after refraction.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lguf6rwq/9c3cc83b-09f2-4511-8ca5-101d09aab35a/fcdaa2a0-e263-11ed-8ec0-d5a0bb2b1e44/file-1lguf6rwr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lguf6rwq/9c3cc83b-09f2-4511-8ca5-101d09aab35a/fcdaa2a0-e263-11ed-8ec0-d5a0bb2b1e44/file-1lguf6rwr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2007 Paper 2 Offline Physics - Wave Optics Question 9 English Comprehension\"></p>",
+          "direction": null,
+          "content": "<p>Speed of the light is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the same in medium-1 and medium-2"
+            },
+            {
+              "identifier": "B",
+              "content": "larger in medium-1 than in medium-2"
+            },
+            {
+              "identifier": "C",
+              "content": "larger in medium-2 than in medium-1"
+            },
+            {
+              "identifier": "D",
+              "content": "different at b and d"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The gap between consecutive wave fronts in medium 2 is less than that in medium 1. Therefore, wavelength of light in medium 2 in less than that in medium 1. Therefore, speed of light is more in medium 1 and less in medium 2.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "huygens-principle-and-interference-of-light",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Wave Optics • Physics",
+          "excerpt": "Speed of the light is"
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    }
+  ]
+}

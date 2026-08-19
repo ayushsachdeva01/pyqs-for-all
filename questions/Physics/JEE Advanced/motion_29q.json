@@ -1,0 +1,1838 @@
+{
+  "questions": [
+    {
+      "question_id": "g5pu0t9etjkf376cf6op",
+      "chapter": "motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "a-ball-is-thrown-from-the-location-leftx0-y0right0-jee-advanced-physics-dkaoocahl2erpxru",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A ball is thrown from the location $\\left(x_0, y_0\\right)=(0,0)$ of a horizontal playground with an initial speed $v_0$ at an angle $\\theta_0$ from the $+x$-direction. The ball is to be hit by a stone, which is thrown at the same time from the location $\\left(x_1, y_1\\right)=(L, 0)$. The stone is thrown at an angle $\\left(180-\\theta_1\\right)$ from the $+x$-direction with a suitable initial speed. For a fixed $v_0$, when $\\left(\\theta_0, \\theta_1\\right)=\\left(45^{\\circ}, 45^{\\circ}\\right)$, the stone hits the ball after time $T_1$, and when $\\left(\\theta_0, \\theta_1\\right)=\\left(60^{\\circ}, 30^{\\circ}\\right)$, it hits the ball after time $T_2$. In such a case, $\\left(T_1 / T_2\\right)^2$ is ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>For Case I :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgibi9v/f50eea7a-a4fb-49e8-bbb0-282d73d50069/5ef3a930-52e5-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgibi9w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgibi9v/f50eea7a-a4fb-49e8-bbb0-282d73d50069/5ef3a930-52e5-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgibi9w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Motion Question 1 English Explanation 1\"></p>\n<p>$$\\mathrm{a}_{\\mathrm{rel}}=0$$</p>\n<p>For collision $$\\frac{\\mathrm{v}_0}{\\sqrt{2}}=\\frac{\\mathrm{v}}{\\sqrt{2}}$$</p>\n<p>$$\\begin{aligned}\n&amp; \\therefore \\mathrm{v}=\\mathrm{v}_0 \\\\\n&amp; \\text { So } \\mathrm{T}_1=\\frac{\\mathrm{L}}{\\frac{\\mathrm{v}_0}{\\sqrt{2}}+\\frac{\\mathrm{v}}{\\sqrt{2}}} \\\\\n&amp; \\therefore \\tau_1=\\frac{\\mathrm{L}}{\\sqrt{2} \\mathrm{v}_0} \\quad \\text{... (1)}\n\\end{aligned}$$</p>\n<p>For case II,</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgid6s0/130c6274-525b-45e0-bec8-2b6981ef9b87/8db08900-52e5-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgid6s1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgid6s0/130c6274-525b-45e0-bec8-2b6981ef9b87/8db08900-52e5-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgid6s1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Motion Question 1 English Explanation 2\"></p>\n<p>$$\\mathrm{a}_{\\mathrm{rel}}=0$$</p>\n<p>For collision, $$\\frac{v_0 \\sqrt{3}}{2}=\\frac{v}{2}$$</p>\n<p>$$\\begin{aligned}\n&amp; \\therefore \\mathrm{v}=\\sqrt{3} \\mathrm{v}_0 \\\\\n&amp; \\text { So, } \\mathrm{T}_2=\\frac{\\mathrm{L}}{\\frac{\\mathrm{v}_0}{2}+\\mathrm{v} \\frac{\\sqrt{3}}{2}} \\\\\n&amp; \\mathrm{~T}_2=\\frac{\\mathrm{L}}{\\frac{\\mathrm{v}_0}{2}+\\frac{3 \\mathrm{v}_0}{2}} \\\\\n&amp; \\therefore \\mathrm{T}_2=\\frac{\\mathrm{L}}{2 \\mathrm{v}_0} \\quad \\ldots . .(2) \\\\\n&amp; \\text { so, }\\left(\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}\\right)^2=(\\sqrt{2})^2=2 \\Rightarrow\\left(\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}\\right)^2=2\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "क्षैतिज खेल के मैदान के एक बिंदु $\\left(x_0, y_0\\right)=(0,0)$ से एक गेंद $+x$-दिशा से $\\theta_0$ कोण पर प्रारंभिक चाल $v_0$ से फेंकी जाती है| गेंद को एक पत्थर से टकराना है जो उसी क्षण बिंदु $\\left(x_1, y_1\\right)=(L, 0)$ से फेंका जाता है। पत्थर को उचित प्रारंभिक चाल से एवं $+x$-दिशा से $\\left(180-\\theta_1\\right)$ के कोंण पर फेंका जाता है। एक नियत $v_0$ के लिए, जब $\\left(\\theta_0, \\theta_1\\right)=\\left(45^{\\circ}, 45^{\\circ}\\right)$, तो पत्थर $T_1$ समय पश्चात, तथा जब $\\left(\\theta_0, \\theta_1\\right)=\\left(60^{\\circ}, 30^{\\circ}\\right)$, तो पत्थर $T_2$ समय पश्चात्, गेंद से टकराता है। इस दशा में $\\left(T_1 / T_2\\right)^2$ ______ है।",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>केस I के लिए:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgibi9v/f50eea7a-a4fb-49e8-bbb0-282d73d50069/5ef3a930-52e5-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgibi9w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgibi9v/f50eea7a-a4fb-49e8-bbb0-282d73d50069/5ef3a930-52e5-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgibi9w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Motion Question 1 Hindi Explanation 1\"></p>\n<p>$$\\mathrm{a}_{\\mathrm{rel}}=0$$</p>\n<p>टक्कर के लिए $$\\frac{\\mathrm{v}_0}{\\sqrt{2}}=\\frac{\\mathrm{v}}{\\sqrt{2}}$$</p>\n<p>$$\\begin{aligned}\n&amp; \\therefore \\mathrm{v}=\\mathrm{v}_0 \\\\\n&amp; \\text { अतः } \\mathrm{T}_1=\\frac{\\mathrm{L}}{\\frac{\\mathrm{v}_0}{\\sqrt{2}}+\\frac{\\mathrm{v}}{\\sqrt{2}}} \\\\\n&amp; \\therefore \\tau_1=\\frac{\\mathrm{L}}{\\sqrt{2} \\mathrm{v}_0} \\quad \\text{... (1)}\n\\end{aligned}$$</p>\n<p>केस II के लिए,</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgid6s0/130c6274-525b-45e0-bec8-2b6981ef9b87/8db08900-52e5-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgid6s1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgid6s0/130c6274-525b-45e0-bec8-2b6981ef9b87/8db08900-52e5-11ef-8b51-4b9049082fdf/file-jaoe38c1lzgid6s1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 2 Online Physics - Motion Question 1 Hindi Explanation 2\"></p>\n<p>$$\\mathrm{a}_{\\mathrm{rel}}=0$$</p>\n<p>टक्कर के लिए, $$\\frac{v_0 \\sqrt{3}}{2}=\\frac{v}{2}$$</p>\n<p>$$\\begin{aligned}\n&amp; \\therefore \\mathrm{v}=\\sqrt{3} \\mathrm{v}_0 \\\\\n&amp; \\text { अतः, } \\mathrm{T}_2=\\frac{\\mathrm{L}}{\\frac{\\mathrm{v}_0}{2}+\\mathrm{v} \\frac{\\sqrt{3}}{2}} \\\\\n&amp; \\mathrm{~T}_2=\\frac{\\mathrm{L}}{\\frac{\\mathrm{v}_0}{2}+\\frac{3 \\mathrm{v}_0}{2}} \\\\\n&amp; \\therefore \\mathrm{T}_2=\\frac{\\mathrm{L}}{2 \\mathrm{v}_0} \\quad \\ldots . .(2) \\\\\n&amp; \\text { अतः, }\\left(\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}\\right)^2=(\\sqrt{2})^2=2 \\Rightarrow\\left(\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}\\right)^2=2\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "projectile-motion",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A ball is thrown from the location $\\left(x_0, y_0\\right)=(0,0)$ of a horizontal playground with an initial speed $v_0$ at an angle $\\theta_0$ from the $+x$-direction. The ball is to be hit by a stone, which is thrown at the same time from ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Motion • Physics",
+          "excerpt": "क्षैतिज खेल के मैदान के एक बिंदु $\\left(x_0, y_0\\right)=(0,0)$ से एक गेंद $+x$-दिशा से $\\theta_0$ कोण पर प्रारंभिक चाल $v_0$ से फेंकी जाती है| गेंद को एक पत्थर से टकराना है जो उसी क्षण बिंदु $\\left(x_1, y_1\\right)=(L, 0)$ से फेंका जाता है। ..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "d71nqgs1fda4annc71ib",
+      "chapter": "motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "a-person-of-height-16-mathrmm-is-walking-away-from-a-jee-advanced-physics-v9tjguwfdgzirt5s",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A person of height $1.6 \\mathrm{~m}$ is walking away from a lamp post of height $4 \\mathrm{~m}$ along a straight path on the flat ground. The lamp post and the person are always perpendicular to the ground. If the speed of the person is $60 \\mathrm{~cm} \\mathrm{~s}^{-1}$, the speed of the tip of the person's shadow on the ground with respect to the person is ____________ $\\mathrm{cm}~ \\mathrm{s}^{-1}$.",
+          "options": [],
+          "correct_options": [],
+          "answer": "40",
+          "explanation": "Given that $\\frac{d x_1}{d t}=$ speed of person $=60 \\mathrm{~cm} / \\mathrm{s}$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liki0odp/06207c61-e5ef-4431-8296-b085251b8efe/a6ec8ac0-0487-11ee-b238-a7ee1f05f690/file-1liki0odq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liki0odp/06207c61-e5ef-4431-8296-b085251b8efe/a6ec8ac0-0487-11ee-b238-a7ee1f05f690/file-1liki0odq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Motion Question 2 English Explanation\">\n<br><br>Also $\\frac{d x_2}{d t}=$ speed of tip of person's shadow\n<br><br>Applying similar triangle rule in $\\triangle A B E $ and $ \\triangle D C E$\n<br><br>$$\n\\begin{aligned}\n&amp; \\frac{4}{x_2}=\\frac{1.6}{x_2-x_1} \\\\\\\\\n&amp; 4 x_2-4 x_1=1.6 x_2 \\\\\\\\\n&amp; 2.4 x_2=4 x_1\n\\end{aligned}\n$$\n<br><br>Differentiate both sides w.r.t. $t$\n<br><br>$$\n\\begin{aligned}\n&amp; 2.4 \\frac{d x_2}{d t}=4 \\frac{d x_1}{d t} \\\\\\\\\n&amp; \\frac{d x_2}{d t}=\\frac{4}{2.4}(60) \\\\\\\\\n&amp;=100 \\mathrm{~cm} / \\mathrm{s}\n\\end{aligned}\n$$\n<br><br>This is the speed of the tip of the person's shadow with respect to the lamp post. But, we need to find the speed of the shadow's tip with respect to the person, which is the relative speed :\n<br><br>$$\n\\begin{aligned}\n\\vec{v}_{S P} &amp; =\\vec{v}_{S G}-\\vec{v}_{P G} \\\\\\\\\nv_{S P} &amp; =100 \\mathrm{~cm} \\mathrm{~s}^{-1}-60 \\mathrm{~cm} \\mathrm{~s}^{-1} \\\\\\\\\n&amp; =40 \\mathrm{~cm} \\mathrm{~s}^{-1}\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$1.6 \\mathrm{~m}$ ऊँचाई का एक व्यक्ति समतल भूमि पर एक सीधे पथ पर चलते हुए $4 \\mathrm{~m}$ ऊंची एक लैंप पोस्ट से दूर जा रहा है। लैंप पोस्ट और व्यक्ति भूमि से सदा लम्बवत रहते हैं। यदि व्यक्ति की चाल $60 \\mathrm{~cm} \\mathrm{~s}^{-1}$ है तब जमीन पर बनी व्यक्ति की छाया के शीर्ष (tip) की चाल का व्यक्ति के सापेक्ष मान _________ $\\mathrm{cm} \\mathrm{s}^{-1}$ है।",
+          "options": [],
+          "correct_options": [],
+          "answer": "40",
+          "explanation": "दिया गया है कि $\\frac{d x_1}{d t}=$ व्यक्ति की चाल $=60 \\mathrm{~cm} / \\mathrm{s}$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liki0odp/06207c61-e5ef-4431-8296-b085251b8efe/a6ec8ac0-0487-11ee-b238-a7ee1f05f690/file-1liki0odq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liki0odp/06207c61-e5ef-4431-8296-b085251b8efe/a6ec8ac0-0487-11ee-b238-a7ee1f05f690/file-1liki0odq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Motion Question 2 Hindi Explanation\">\n<br><br>इसके अलावा $\\frac{d x_2}{d t}=$ व्यक्ति की छाया के सिरे की चाल\n<br><br>$\\triangle A B E $ और $ \\triangle D C E$ में समरूप त्रिभुज नियम लगाने पर\n<br><br>$$\n\\begin{aligned}\n&amp; \\frac{4}{x_2}=\\frac{1.6}{x_2-x_1} \\\\\\\\\n&amp; 4 x_2-4 x_1=1.6 x_2 \\\\\\\\\n&amp; 2.4 x_2=4 x_1\n\\end{aligned}\n$$\n<br><br>दोनों पक्षों का $t$ के सापेक्ष अवकलन करने पर\n<br><br>$$\n\\begin{aligned}\n&amp; 2.4 \\frac{d x_2}{d t}=4 \\frac{d x_1}{d t} \\\\\\\\\n&amp; \\frac{d x_2}{d t}=\\frac{4}{2.4}(60) \\\\\\\\\n&amp;=100 \\mathrm{~cm} / \\mathrm{s}\n\\end{aligned}\n$$\n<br><br>यह लैम्प पोस्ट के सापेक्ष व्यक्ति की छाया के सिरे की चाल है। लेकिन, हमें व्यक्ति के सापेक्ष छाया के सिरे की चाल ज्ञात करनी है, जो कि आपेक्षिक चाल है:\n<br><br>$$\n\\begin{aligned}\n\\vec{v}_{S P} &amp; =\\vec{v}_{S G}-\\vec{v}_{P G} \\\\\\\\\nv_{S P} &amp; =100 \\mathrm{~cm} \\mathrm{~s}^{-1}-60 \\mathrm{~cm} \\mathrm{~s}^{-1} \\\\\\\\\n&amp; =40 \\mathrm{~cm} \\mathrm{~s}^{-1}\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "relative-motion-in-one-dimension",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A person of height $1.6 \\mathrm{~m}$ is walking away from a lamp post of height $4 \\mathrm{~m}$ along a straight path on the flat ground. The lamp post and the person are always perpendicular to the ground. If the speed of the person is $60..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Motion • Physics",
+          "excerpt": "$1.6 \\mathrm{~m}$ ऊँचाई का एक व्यक्ति समतल भूमि पर एक सीधे पथ पर चलते हुए $4 \\mathrm{~m}$ ऊंची एक लैंप पोस्ट से दूर जा रहा है। लैंप पोस्ट और व्यक्ति भूमि से सदा लम्बवत रहते हैं। यदि व्यक्ति की चाल $60 \\mathrm{~cm} \\mathrm{~s}^{-1}$ है तब जम..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "x7rchpgzw81zge83pu6y",
+      "chapter": "motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "a-projectile-is-fired-from-horizontal-ground-with-speed-v-jee-advanced-physics-units-and-measurements-qvy9mn995p86x21y",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A projectile is fired from horizontal ground with speed $v$ and projection angle $\\theta$. When the acceleration due to gravity is $g$, the range of the projectile is $d$. If at the highest point in its trajectory, the projectile enters a different region where the effective acceleration due to gravity is $g^{\\prime}=\\frac{g}{0.81}$, then the new range is $d^{\\prime}=n d$. The value of $n$ is ___________ .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.93TO0.97",
+          "explanation": "$d=\\frac{u^{2} \\sin 2 \\theta}{g}$\n<br/><br/>\n$$\nH=\\frac{u^{2} \\sin ^{2} \\theta}{2 g}\n$$\n<br/><br/>\nSo, after entering in the new region, time taken by projectile to reach ground\n<br/><br/>\n$$\n\\begin{aligned}\nt &=\\sqrt{\\frac{2 H}{g^{\\prime}}} \\\\\\\\\n&=\\sqrt{\\frac{2 u^{2} \\sin ^{2} \\theta \\times 0.81}{2 g \\times g}} \\\\\\\\\n&=\\frac{0.94 \\sin \\theta}{g}\n\\end{aligned}\n$$\n<br/><br/>\nSo, horizontal displacement done by the projectile in new region is\n<br/><br/>\n$$\n\\begin{aligned}\n& x=\\frac{0.9 u \\sin \\theta}{g} \\times u \\cos \\theta\n\\end{aligned}\n$$\n<br/><br/>\n$$\n\\begin{aligned}\nx &=\\frac{0.9 u \\sin \\theta}{g} \\times u \\\\\\\\\n&=0.9 \\frac{u^{2} \\sin 2 \\theta}{2 g}\n\\end{aligned}\n$$\n<br/><br/>\nSo, $d^{\\prime}=\\frac{d}{2}+x$\n<br/><br/>\n$$\n=0.95 d\n$$\n<br/><br/>\nSo, $n=0.95 d$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>एक प्रक्षेप्य को क्षैतिज धरातल से $v$ चाल तथा प्रक्षेपण कोण $\\theta$ से दागा जाता है। जब गुरूत्वीय त्वरण $g$ है, तब प्रक्षेप्य की परास $d$ है। यदि इसके प्रक्षेप पथ में उच्चतम बिन्दु पर, प्रक्षेप्य भिन्न-भिन्न क्षेत्रों में प्रवेश करता है, जहाँ प्रभावी गुरूत्वीय त्वरण $g^{\\prime}=\\frac{g}{0.81}$ है, तब नवीन परास $d^{\\prime}=n d$ है। $n$ का मान ________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.93TO0.97",
+          "explanation": "$d=\\frac{u^{2} \\sin 2 \\theta}{g}$\n<br/><br/>\n$$\nH=\\frac{u^{2} \\sin ^{2} \\theta}{2 g}\n$$\n<br/><br/>\nअतः, नए क्षेत्र में प्रवेश करने के बाद, प्रक्षेप्य द्वारा जमीन तक पहुँचने में लगा समय\n<br/><br/>\n$$\n\\begin{aligned}\nt &=\\sqrt{\\frac{2 H}{g^{\\prime}}} \\\\\\\\\n&=\\sqrt{\\frac{2 u^{2} \\sin ^{2} \\theta \\times 0.81}{2 g \\times g}} \\\\\\\\\n&=\\frac{0.94 \\sin \\theta}{g}\n\\end{aligned}\n$$\n<br/><br/>\nअतः, नए क्षेत्र में प्रक्षेप्य द्वारा तय किया गया क्षैतिज विस्थापन है\n<br/><br/>\n$$\n\\begin{aligned}\n& x=\\frac{0.9 u \\sin \\theta}{g} \\times u \\cos \\theta\n\\end{aligned}\n$$\n<br/><br/>\n$$\n\\begin{aligned}\nx &=\\frac{0.9 u \\sin \\theta}{g} \\times u \\\\\\\\\n&=0.9 \\frac{u^{2} \\sin 2 \\theta}{2 g}\n\\end{aligned}\n$$\n<br/><br/>\nअतः, $d^{\\prime}=\\frac{d}{2}+x$\n<br/><br/>\n$$\n=0.95 d\n$$\n<br/><br/>\nअतः, $n=0.95 d$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "projectile-motion",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A projectile is fired from horizontal ground with speed $v$ and projection angle $\\theta$. When the acceleration due to gravity is $g$, the range of the projectile is $d$. If at the highest point in its trajectory, the projectile enters a d..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Motion • Physics",
+          "excerpt": "एक प्रक्षेप्य को क्षैतिज धरातल से $v$ चाल तथा प्रक्षेपण कोण $\\theta$ से दागा जाता है। जब गुरूत्वीय त्वरण $g$ है, तब प्रक्षेप्य की परास $d$ है। यदि इसके प्रक्षेप पथ में उच्चतम बिन्दु पर, प्रक्षेप्य भिन्न-भिन्न क्षेत्रों में प्रवेश करता है, ज..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "jckgx73in2b70wkcvc3c",
+      "chapter": "motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "starting-at-time-t--0-from-the-origin-with-speed-1-mssup-jee-advanced-physics-units-and-measurements-ec15dy1mnt003qoy",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Starting at time t = 0 from the origin with speed 1 ms<sup>-1</sup>, a particle follows a two-dimensional trajectory in the x-y plane so that its coordinates are related by the equation $$y = {{{x^2}} \\over 2}$$. The x and y components of its acceleration are denoted by a<sub>x</sub> and a<sub>y</sub>, respectively. Then",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "a<sub>x</sub> = 1 ms<sup>-2</sup> implies that when the particle is at the origin, a<sub>y</sub> = 1 ms<sup>-2</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "a<sub>x</sub> = 0 implies a<sub>y</sub> = 1 ms<sup>-2</sup> at all times"
+            },
+            {
+              "identifier": "C",
+              "content": "at t = 0, the particle's velocity points in the x-direction"
+            },
+            {
+              "identifier": "D",
+              "content": "a<sub>x</sub> = 0 implies that at t = 1s, the angle between the particle's velocity and the x axis is 45$$^\\circ$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><strong>Given:</strong></p>\n\n<p><p>At time $ t = 0 $, the particle starts from the origin $ (0, 0) $ with a speed of $ v = 1\\, \\text{m/s} $.</p></p>\n<p><p>The particle moves along the path defined by $ y = \\frac{x^2}{2} $.</p></p>\n\n<hr />\n<h3><strong>Understanding the Particle's Motion</strong></h3>\n<p>Since the particle follows the path $ y = \\frac{x^2}{2} $, we can find relationships between its velocity and acceleration components.</p>\n<h4><strong>1. Velocity Components</strong></h4>\n<p>Let $ x(t) $ and $ y(t) $ be the particle's position as functions of time. Then:</p>\n\n<p><p>$ y = \\frac{x^2}{2} $</p></p>\n<p><p>Differentiate both sides with respect to time $ t $:</p></p>\n\n<p>$ \\frac{dy}{dt} = x \\frac{dx}{dt} $</p>\n\n<p>The velocity components are:</p>\n\n<p>$ v_x = \\frac{dx}{dt} $</p>\n<p>$ v_y = \\frac{dy}{dt} = x v_x $</p>\n<h4><strong>2. Acceleration Components</strong></h4>\n\n<p>The acceleration components are:</p>\n\n<p>$ a_x = \\frac{dv_x}{dt} $</p>\n<p>$ a_y = \\frac{dv_y}{dt} = \\frac{d}{dt}(x v_x) = v_x^2 + x a_x $</p>\n<hr />\n<h3><strong>Analyzing Each Option</strong></h3>\n<h4><strong>Option A</strong></h4>\n<p><strong>Statement:</strong> $ a_x = 1\\, \\text{m/s}^2 $ implies that when the particle is at the origin, $ a_y = 1\\, \\text{m/s}^2 $.</p>\n<p><strong>Verification:</strong></p>\n\n<p><p>At the origin $ x = 0 $, and from initial conditions, $ v_x = 1\\, \\text{m/s} $.</p></p>\n<p><p>Using the expression for $ a_y $:</p></p>\n\n<p>$ a_y = v_x^2 + x a_x = (1\\, \\text{m/s})^2 + 0 \\times a_x = 1\\, \\text{m/s}^2 $</p>\n<p><strong>Conclusion:</strong> <strong>Option A is true.</strong></p>\n<hr />\n<h4><strong>Option B</strong></h4>\n<p><strong>Statement:</strong> $ a_x = 0 $ implies $ a_y = 1\\, \\text{m/s}^2 $ at all times.</p>\n<p><strong>Verification:</strong></p>\n\n<p><p>If $ a_x = 0 $, then $ v_x = \\text{constant} = 1\\, \\text{m/s} $.</p></p>\n<p><p>Position along $ x $: $ x = v_x t = t $.</p></p>\n<p><p>Then $ v_y = x v_x = t \\times 1\\, \\text{m/s} = t\\, \\text{m/s} $.</p></p>\n<p><p>Therefore, $ a_y = \\frac{dv_y}{dt} = 1\\, \\text{m/s}^2 $.</p></p>\n\n<p><strong>Conclusion:</strong> <strong>Option B is true.</strong></p>\n<hr />\n<h4><strong>Option C</strong></h4>\n<p><strong>Statement:</strong> At $ t = 0 $, the particle's velocity points in the $ x $-direction.</p>\n<p><strong>Verification:</strong></p>\n\n<p><p>The slope of the path is $ \\frac{dy}{dx} = x $.</p></p>\n<p><p>At $ x = 0 $, $ \\frac{dy}{dx} = 0 $, meaning the path is horizontal.</p></p>\n<p><p>Thus, $ v_y = 0 $ at $ t = 0 $, and $ v_x = 1\\, \\text{m/s} $.</p></p>\n\n<p><strong>Conclusion:</strong> <strong>Option C is true.</strong></p>\n<hr />\n<h4><strong>Option D</strong></h4>\n<p><strong>Statement:</strong> $ a_x = 0 $ implies that at $ t = 1\\, \\text{s} $, the angle between the particle's velocity and the $ x $-axis is $ 45^\\circ $.</p>\n<p><strong>Verification:</strong></p>\n\n<p><p>With $ a_x = 0 $, $ v_x = 1\\, \\text{m/s} $.</p></p>\n<p><p>At $ t = 1\\, \\text{s} $, $ x = 1\\, \\text{m} $.</p></p>\n<p><p>Then $ v_y = x v_x = 1\\, \\text{m} \\times 1\\, \\text{m/s} = 1\\, \\text{m/s} $.</p></p>\n<p><p>The angle $ \\theta $ between $ \\vec{v} $ and the $ x $-axis is:</p></p>\n\n<p>$ \\tan \\theta = \\frac{v_y}{v_x} = \\frac{1\\, \\text{m/s}}{1\\, \\text{m/s}} = 1 \\implies \\theta = 45^\\circ $</p>\n<p><strong>Conclusion:</strong> <strong>Option D is true.</strong></p>\n<hr />\n<h3><strong>Final Answer</strong></h3>\n<p><strong>All options A, B, C, and D are true.</strong></p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>मूल बिंदु से $$t=0$$ समय पर $$1 \\mathrm{~ms}^{-1}$$ की गति से आरम्भ करते हुए एक कण $$x-y$$ तल में दो विमीय प्रक्षेप-पथ का अनुसरण करता है । कण की गतिमान अवस्था में इसके निर्देशांक समीकरण $$y=\\frac{x^{2}}{2}$$ से सम्बद्ध हैं। इसके त्वरण के $$x$$ एवं $$y$$ घटकों को क्रमशः $$a_{x}$$ तथा $$a_{y}$$ से दर्शाया जाता है । तब</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$a_{x}=1 \\mathrm{~ms}^{-2}$$ इंगित करता है कि जब कण मूल-बिंदु पर है तब $$a_{y}=1 \\mathrm{~ms}^{-2}$$ ।"
+            },
+            {
+              "identifier": "B",
+              "content": "$$a_{x}=0$$ इंगित करता है कि सभी समयों पर $$a_{y}=1 \\mathrm{~ms}^{-2}$$ ।"
+            },
+            {
+              "identifier": "C",
+              "content": "$$t=0$$ पर कण का वेग $$x$$ - दिशा की ओर निर्दिष्ट (pointing) होगा ।"
+            },
+            {
+              "identifier": "D",
+              "content": "$$a_{x}=0$$ इंगित करता है कि $$t=1 s$$ पर $$x$$-अक्ष एवं कण के वेग के बीच का कोण $$45^{\\circ}$$ है ।"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><strong>दिया गया है:</strong></p>\n\n<p><p>समय $ t = 0 $ पर, कण मूल बिंदु $ (0, 0) $ से $ v = 1\\, \\text{m/s} $ की चाल के साथ प्रारंभ होता है।</p></p>\n<p><p>कण पथ $ y = \\frac{x^2}{2} $ द्वारा परिभाषित मार्ग के अनुदिश गति करता है।</p></p>\n\n<hr />\n<h3><strong>कण की गति को समझना</strong></h3>\n<p>चूंकि कण पथ $ y = \\frac{x^2}{2} $ का अनुसरण करता है, हम इसके वेग और त्वरण घटकों के बीच संबंध ज्ञात कर सकते हैं।</p>\n<h4><strong>1. वेग घटक</strong></h4>\n<p>माना $ x(t) $ और $ y(t) $ समय के फलन के रूप में कण की स्थिति हैं। तब:</p>\n\n<p><p>$ y = \\frac{x^2}{2} $</p></p>\n<p><p>समय $ t $ के सापेक्ष दोनों पक्षों का अवकलन करने पर:</p></p>\n\n<p>$ \\frac{dy}{dt} = x \\frac{dx}{dt} $</p>\n\n<p>वेग घटक हैं:</p>\n\n<p>$ v_x = \\frac{dx}{dt} $</p>\n<p>$ v_y = \\frac{dy}{dt} = x v_x $</p>\n<h4><strong>2. त्वरण घटक</strong></h4>\n\n<p>त्वरण घटक हैं:</p>\n\n<p>$ a_x = \\frac{dv_x}{dt} $</p>\n<p>$ a_y = \\frac{dv_y}{dt} = \\frac{d}{dt}(x v_x) = v_x^2 + x a_x $</p>\n<hr />\n<h3><strong>प्रत्येक विकल्प का विश्लेषण</strong></h3>\n<h4><strong>विकल्प A</strong></h4>\n<p><strong>कथन:</strong> $ a_x = 1\\, \\text{m/s}^2 $ का तात्पर्य है कि जब कण मूल बिंदु पर है, तो $ a_y = 1\\, \\text{m/s}^2 $ होता है।</p>\n<p><strong>सत्यापन:</strong></p>\n\n<p><p>मूल बिंदु पर $ x = 0 $, और प्रारंभिक शर्तों से, $ v_x = 1\\, \\text{m/s} $।</p></p>\n<p><p>$ a_y $ के लिए व्यंजक का उपयोग करने पर:</p></p>\n\n<p>$ a_y = v_x^2 + x a_x = (1\\, \\text{m/s})^2 + 0 \\times a_x = 1\\, \\text{m/s}^2 $</p>\n<p><strong>निष्कर्ष:</strong> <strong>विकल्प A सत्य है।</strong></p>\n<hr />\n<h4><strong>विकल्प B</strong></h4>\n<p><strong>कथन:</strong> $ a_x = 0 $ का तात्पर्य है कि सभी समयों पर $ a_y = 1\\, \\text{m/s}^2 $ होता है।</p>\n<p><strong>सत्यापन:</strong></p>\n\n<p><p>यदि $ a_x = 0 $, तो $ v_x = \\text{नियतांक} = 1\\, \\text{m/s} $।</p></p>\n<p><p>$ x $ के अनुदिश स्थिति: $ x = v_x t = t $।</p></p>\n<p><p>तब $ v_y = x v_x = t \\times 1\\, \\text{m/s} = t\\, \\text{m/s} $।</p></p>\n<p><p>इसलिए, $ a_y = \\frac{dv_y}{dt} = 1\\, \\text{m/s}^2 $।</p></p>\n\n<p><strong>निष्कर्ष:</strong> <strong>विकल्प B सत्य है।</strong></p>\n<hr />\n<h4><strong>विकल्प C</strong></h4>\n<p><strong>कथन:</strong> $ t = 0 $ पर, कण का वेग $ x $-दिशा में संकेत करता है।</p>\n<p><strong>सत्यापन:</strong></p>\n\n<p><p>पथ की प्रवणता $ \\frac{dy}{dx} = x $ है।</p></p>\n<p><p>$ x = 0 $ पर, $ \\frac{dy}{dx} = 0 $, अर्थात पथ क्षैतिज है।</p></p>\n<p><p>इस प्रकार, $ t = 0 $ पर $ v_y = 0 $, और $ v_x = 1\\, \\text{m/s} $।</p></p>\n\n<p><strong>निष्कर्ष:</strong> <strong>विकल्प C सत्य है।</strong></p>\n<hr />\n<h4><strong>विकल्प D</strong></h4>\n<p><strong>कथन:</strong> $ a_x = 0 $ का तात्पर्य है कि $ t = 1\\, \\text{s} $ पर, कण के वेग और $ x $-अक्ष के बीच का कोण $ 45^\\circ $ है।</p>\n<p><strong>सत्यापन:</strong></p>\n\n<p><p>$ a_x = 0 $ के साथ, $ v_x = 1\\, \\text{m/s} $।</p></p>\n<p><p>$ t = 1\\, \\text{s} $ पर, $ x = 1\\, \\text{m} $।</p></p>\n<p><p>तब $ v_y = x v_x = 1\\, \\text{m} \\times 1\\, \\text{m/s} = 1\\, \\text{m/s} $।</p></p>\n<p><p>$ \\vec{v} $ और $ x $-अक्ष के बीच कोण $ \\theta $ है:</p></p>\n\n<p>$ \\tan \\theta = \\frac{v_y}{v_x} = \\frac{1\\, \\text{m/s}}{1\\, \\text{m/s}} = 1 \\implies \\theta = 45^\\circ $</p>\n<p><strong>निष्कर्ष:</strong> <strong>विकल्प D सत्य है।</strong></p>\n<hr />\n<h3><strong>अंतिम उत्तर</strong></h3>\n<p><strong>सभी विकल्प A, B, C, और D सत्य हैं।</strong></p>"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "variable-acceleration",
+      "type": "mcqm",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "Starting at time t = 0 from the origin with speed 1 ms-1, a particle follows a two-dimensional trajectory in the x-y plane so that its coordinates are related by the equation $$y = {{{x^2}} \\over 2}$$. The x and y components of its accelera..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "मूल बिंदु से $$t=0$$ समय पर $$1 \\mathrm{~ms}^{-1}$$ की गति से आरम्भ करते हुए एक कण $$x-y$$ तल में दो विमीय प्रक्षेप-पथ का अनुसरण करता है । कण की गतिमान अवस्था में इसके निर्देशांक समीकरण $$y=\\frac{x^{2}}{2}$$ से सम्बद्ध हैं। इसके त्वरण के $$..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "mlvec1d6kxnwr5s0hyhl",
+      "chapter": "motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2019 Paper 2 Offline",
+      "permalink": "a-ball-is-thrown-from-ground-at-an-angle-theta--with-ho-jee-advanced-physics-units-and-measurements-tgm33bjqriju5mde",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A ball is thrown from ground at an angle $$\\theta $$ with horizontal and with an initial speed u<sub>0</sub>. For the resulting projectile motion, the magnitude of average velocity of the ball up to the point when it hits the ground for the first time is V<sub>1</sub>. After hitting the ground, the ball rebounds at the same angle $$\\theta $$ but with a reduced speed of $${{{u_0}} \\over \\alpha }$$. Its motion continues for a long time as shown in figure. If the magnitude of average velocity of the ball for entire duration of motion is 0.8 V<sub>1</sub>, the value of $$\\alpha $$ is ..................<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgyjcuxq/0e36d572-744e-42cc-bb7d-e9a1bb7f6786/6d297be0-e4a7-11ed-bc86-2728269408cd/file-1lgyjcuxr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgyjcuxq/0e36d572-744e-42cc-bb7d-e9a1bb7f6786/6d297be0-e4a7-11ed-bc86-2728269408cd/file-1lgyjcuxr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Motion Question 6 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "4.0",
+          "explanation": "For first projectile,<br><br>$$ &lt; V &gt;  = {R \\over T} = {U_x} = {v_1}$$<br><br>For journey,<br><br>$$ &lt; V{ &gt; _{1\\,to\\,n}} = {{{R_1} + {R_2} + ... + {R_n}} \\over {{T_1} + {T_2} + ... + {T_n}}}$$<br><br>$$ = {{{{2{u_{{x_1}}} + 2{u_{{y_1}}}} \\over g} + {{2{u_{x2}} + 2{u_{{y_2}}}} \\over g} + ... + {{2{u_{{x_n}}} + 2{u_{{y_n}}}} \\over g}} \\over {{{2{u_{{y_1}}}} \\over g} + {{2{u_{y2}}} \\over g} + ...{{2{u_{{y_n}}}} \\over g}}}$$<br><br>$${u_x}\\left[ {{{1 + {1 \\over {{\\alpha ^2}}} + {1 \\over {{\\alpha ^4}}} + ...{1 \\over {{\\alpha ^{2n}}}}} \\over {1 + {1 \\over \\alpha } + {1 \\over {{\\alpha ^2}}} + ...{1 \\over {{\\alpha ^n}}}}}} \\right] = 0.8{v_1}$$<br><br>$${{{v_0}\\left[ {{1 \\over {1 - {1 \\over {{\\alpha ^2}}}}}} \\right]} \\over {\\left[ {{1 \\over {1 - {1 \\over \\alpha }}}} \\right]}} = 0.8{v_1}$$<br><br>$$ \\Rightarrow {\\alpha  \\over {1 + \\alpha }} = 0.8$$<br><br>$$ \\Rightarrow \\alpha  = 4$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक गेंद को क्षैतिज से $$\\theta$$ कोण पर प्रारम्भिक वेग $$u_{0}$$ से फेंका जाता है | यह गेंद, प्रक्षेप्य गति के कारण जब भूतल से पहली बार टकराती है तब उस समय तक के उसके औसत वेग का परिमाण $$V_{1}$$ होता है | भूतल से टकराने के उपरांत गेंद उसी $$\\theta$$ कोण से किन्तु $$u_{0} / \\alpha$$ की क्षीण गति से उछलती है | चित्रानुसार उसकी गति लंबे समयान्तराल तक रहती है । इस लम्बे अंतराल के दौरान गेंद के औसत वेग का परिमाण $$0.8 V_{1}$$ पाया जाता है, तब $$\\alpha$$ का मान ___________ है।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgyjcuxq/0e36d572-744e-42cc-bb7d-e9a1bb7f6786/6d297be0-e4a7-11ed-bc86-2728269408cd/file-1lgyjcuxr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgyjcuxq/0e36d572-744e-42cc-bb7d-e9a1bb7f6786/6d297be0-e4a7-11ed-bc86-2728269408cd/file-1lgyjcuxr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Motion Question 6 Hindi\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4.0",
+          "explanation": "पहले प्रक्षेप्य के लिए,<br><br>$$ < V >  = {R \\over T} = {U_x} = {v_1}$$<br><br>यात्रा के लिए,<br><br>$$ < V{ > _{1\\,to\\,n}} = {{{R_1} + {R_2} + ... + {R_n}} \\over {{T_1} + {T_2} + ... + {T_n}}}$$<br><br>$$ = {{{{2{u_{{x_1}}} + 2{u_{{y_1}}}} \\over g} + {{2{u_{x2}} + 2{u_{{y_2}}}} \\over g} + ... + {{2{u_{{x_n}}} + 2{u_{{y_n}}}} \\over g}} \\over {{{2{u_{{y_1}}}} \\over g} + {{2{u_{y2}}} \\over g} + ...{{2{u_{{y_n}}}} \\over g}}}$$<br><br>$${u_x}\\left[ {{{1 + {1 \\over {{\\alpha ^2}}} + {1 \\over {{\\alpha ^4}}} + ...{1 \\over {{\\alpha ^{2n}}}}} \\over {1 + {1 \\over \\alpha } + {1 \\over {{\\alpha ^2}}} + ...{1 \\over {{\\alpha ^n}}}}}} \\right] = 0.8{v_1}$$<br><br>$${{{v_0}\\left[ {{1 \\over {1 - {1 \\over {{\\alpha ^2}}}}}} \\right]} \\over {\\left[ {{1 \\over {1 - {1 \\over \\alpha }}}} \\right]}} = 0.8{v_1}$$<br><br>$$ \\Rightarrow {\\alpha  \\over {1 + \\alpha }} = 0.8$$<br><br>$$ \\Rightarrow \\alpha  = 4$$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "projectile-motion",
+      "type": "integer",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A ball is thrown from ground at an angle $$\\theta $$ with horizontal and with an initial speed u0. For the resulting projectile motion, the magnitude of average velocity of the ball up to the point when it hits the ground for the first time..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "एक गेंद को क्षैतिज से $$\\theta$$ कोण पर प्रारम्भिक वेग $$u_{0}$$ से फेंका जाता है | यह गेंद, प्रक्षेप्य गति के कारण जब भूतल से पहली बार टकराती है तब उस समय तक के उसके औसत वेग का परिमाण $$V_{1}$$ होता है | भूतल से टकराने के उपरांत गेंद उसी $..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vzmb4mtb3k3niigzv13o",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A ball is projected from the ground at an angle of $${45^o}$$ with the horizontal surface. It reaches a maximum height of $$120$$ $$m$$ and returns to the ground. Upon hitting the ground for the first time, it loses half of its kinetic energy. Immediately after the bounce, the velocity of the ball makes an angle of $${30^o}$$  with the horizontal surface. The maximium height it reaches after the bounce, in <i>metres,</i> is ______________. ",
+          "options": [],
+          "correct_options": [],
+          "answer": "30",
+          "explanation": "<p>$$H = {{{u^2}{{\\sin }^2}(45^\\circ )} \\over {2g}} = 120$$ m</p>\n<p>$$ \\Rightarrow {{{u^2}} \\over {4g}} = 120$$ m</p>\n<p>If speed is v after the first collision, then speed should remain $${1 \\over {\\sqrt 2 }}$$ times, because kinetic energy has reduced to half.</p>\n<p>$$ \\Rightarrow v = {u \\over {\\sqrt 2 }}$$</p>\n<p>$$ \\Rightarrow {h_{\\max }} = {{{v^2}{{\\sin }^2}(30^\\circ )} \\over {2g}}$$</p>\n<p>$$ \\Rightarrow {h_{\\max }} = {{{{\\left( {{u \\over {\\sqrt 2 }}} \\right)}^2}{{\\sin }^2}(30^\\circ )} \\over {2g}}$$</p>\n<p>$$ \\Rightarrow {h_{\\max }} = \\left( {{{{u^2}/4g} \\over 4}} \\right) = {{120} \\over 4}$$</p>\n<p>$$ \\Rightarrow {h_{\\max }} = 30$$ m</p>"
+        },
+        "hi": {
+          "content": "एक गेंद को क्षैतिज सतह के साथ $${45^o}$$ के कोण पर भूमि से प्रक्षिप्त किया जाता है। यह $$120$$ $$m$$ की अधिकतम ऊंचाई तक पहुंचती है और धरती पर लौटती है। धरती से पहली बार टकराने पर, यह अपनी गतिज ऊर्जा का आधा खो देती है। उछलने के तुरंत बाद, गेंद की वेग क्षैतिज सतह के साथ $${30^o}$$ का कोण बनाती है। उछलने के बाद इसे जो अधिकतम ऊँचाई प्राप्त होती है, <i>मीटर में,</i> __________________।",
+          "options": [],
+          "correct_options": [],
+          "answer": "30",
+          "explanation": "<p>$$H = {{{u^2}{{\\ sin }^2}(45^\\circ )} \\over {2g}} = 120$$ m</p>\n<p>$$ \\Rightarrow {{{u^2}} \\over {4g}} = 120$$ m</p>\n<p>यदि पहली टक्कर के बाद चाल v है, तो चाल $${1 \\over {\\sqrt 2 }}$$ गुना रह जानी चाहिए, क्योंकि गतिज ऊर्जा आधी हो गई है।</p>\n<p>$$ \\Rightarrow v = {u \\over {\\sqrt 2 }}$$</p>\n<p>$$ \\Rightarrow {h_{\\max }} = {{{v^2}{{\\ sin }^2}(30^\\circ )} \\over {2g}}$$</p>\n<p>$$ \\Rightarrow {h_{\\max }} = {{{{{\\left( {{u \\over {\\sqrt 2 }}} \\right)}^2}{{\\ sin }^2}(30^\\circ )} \\over {2g}}$$</p>\n<p>$$ \\Rightarrow {h_{\\max }} = \\left( {{{{u^2}/4g} \\over 4}} \\right) = {{120} \\over 4}$$</p>\n<p>$$ \\Rightarrow {h_{\\max }} = 30$$ m</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-ball-is-projected-from-the-ground-at-an-angle-of-45o-2018-marks-3-enc8c1bx21gop9ux.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "topic": "projectile-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A ball is projected from the ground at an angle of $${45^o}$$ with the horizontal surface. It reaches a maximum height of $$120$$ $$m$$ and returns to the ground. Upon hitting the ground for the first time, it loses half of its kinetic ener..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "एक गेंद को क्षैतिज सतह के साथ $${45^o}$$ के कोण पर भूमि से प्रक्षिप्त किया जाता है। यह $$120$$ $$m$$ की अधिकतम ऊंचाई तक पहुंचती है और धरती पर लौटती है। धरती से पहली बार टकराने पर, यह अपनी गतिज ऊर्जा का आधा खो देती है। उछलने के तुरंत बाद, गे..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "41prgpnjd49z7igg6dlu",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Consider an expanding sphere of instantaneous radius R whose total mass remains constant. The expansion is such that the instantaneous density $$\\rho $$ remains uniform throughout the volume. The rate of fractional change in density $$\\left( {{1 \\over \\rho }  {{d\\rho } \\over {dt}}} \\right)$$ is constant. The velocity $$v$$ of any point on the surface of the expanding sphere is proportional to ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$R$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${R^3}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${1 \\over R}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${R^{2/3}}$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Density $$\\rho  = {{mass\\,(m)} \\over {volume\\,(V)}}$$</p>\n<p>Volume of sphere $$ = {4 \\over 3}\\pi {R^3} \\Rightarrow \\rho  = {m \\over {{4 \\over 3}\\pi {R^3}}} = {{3m} \\over {4\\pi {R^3}}}$$</p>\n<p>Rearranging it we get</p>\n<p>$$\\rho {R^2} = {3 \\over {4\\pi }}m$$</p>\n<p>It is given that mas m remains constant. Let the constant be k. Therefore,</p>\n<p>$$\\rho {R^3} = k$$</p>\n<p>Differentiating it w.r.t. time, we get</p>\n<p>$${d \\over {dt}}(\\rho {R^3}) = 0$$ (Since, differentiation of constant is zero)</p>\n<p>$${R^3}{{d\\rho } \\over {dt}} + 3{R^2}\\rho {{dR} \\over {dt}} = 0$$</p>\n<p>Now $${{dR} \\over {dt}}$$, that is, rate of change of radius is equal to velocity. Therefore,</p>\n<p>$${R^3}{{d\\rho } \\over {dt}} + 3{R^2}\\rho v = 0 \\Rightarrow 3{R^2}\\rho v =  - {R^3}{{d\\rho } \\over {dt}}$$</p>\n<p>$$ \\Rightarrow v = {{ - 1} \\over 3}{{{R^3}} \\over {{R^2}}}{1 \\over \\rho }{{d\\rho } \\over {dt}} = {{ - 1R} \\over 3}{1 \\over \\rho }{{d\\rho } \\over {dt}}$$</p>\n<p>It is given that rate of fractional change in density $$\\left( {{1 \\over \\rho }{{d\\rho } \\over {dt}}} \\right)$$ is constant. Thus,</p>\n<p>v $$\\propto$$ R</p>\n<p>Thus velocity of any point on surface of expanding sphere is proportional to R.</p>"
+        },
+        "hi": {
+          "content": "एक तात्कालिक त्रिज्या R का एक विस्तारशील गोला मानें जिसकी कुल द्रव्यमान स्थिर रहता है। विस्तार इस प्रकार का है कि तात्कालिक घनत्व $$\\rho $$ सम्पूर्ण मात्रा में समान रहता है। घनत्व $$\\left( {{1 \\over \\rho }  {{d\\rho } \\over {dt}}} \\right)$$ में आंशिक परिवर्तन की दर स्थिर है। विस्तारशील गोले के सतह पर किसी भी बिंदु का वेग $$v$$ किसके अनुपात में है ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$R$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${R^3}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${1 \\over R}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${R^{2/3}}$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "consider-an-expanding-sphere-of-instantaneous-radius-r-whose-2017-marks-3-88dk1uzpxdlqbmxh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "variable-acceleration",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "Consider an expanding sphere of instantaneous radius R whose total mass remains constant. The expansion is such that the instantaneous density $$\\rho $$ remains uniform throughout the volume. The rate of fractional change in density $$\\left..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "एक तात्कालिक त्रिज्या R का एक विस्तारशील गोला मानें जिसकी कुल द्रव्यमान स्थिर रहता है। विस्तार इस प्रकार का है कि तात्कालिक घनत्व $$\\rho $$ सम्पूर्ण मात्रा में समान रहता है। घनत्व $$\\left( {{1 \\over \\rho }  {{d\\rho } \\over {dt}}} \\right)$$ ..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qyyu0szph4hqdtc3g5p8",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "chapter": "motion",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Three vectors $$\\overrightarrow P ,\\overrightarrow Q $$ and $$\\overrightarrow R $$  are shown in the figure. Let $$S$$ be any point on the vector $$\\overrightarrow R .$$ The distance between the points $$P$$ and $$S$$ is $$b\\left| {\\overrightarrow R } \\right|.$$ The general relation among vectors $$\\overrightarrow P ,\\overrightarrow Q $$ and $$\\overrightarrow S $$ is :\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m4sm7wvn/2ebb916c-5ccc-4836-8c64-c40c9be34e27/1c336120-bc8b-11ef-8167-e914fc6a90d8/file-jaoe38c1m4sm7wvo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m4sm7wvn/2ebb916c-5ccc-4836-8c64-c40c9be34e27/1c336120-bc8b-11ef-8167-e914fc6a90d8/file-jaoe38c1m4sm7wvo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Motion Question 7 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\overrightarrow S  = \\left( {1 - b} \\right)\\overrightarrow P  + b\\overrightarrow Q $$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\overrightarrow S  = \\left( {b - 1} \\right)\\overrightarrow P  + b\\overrightarrow Q $$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\overrightarrow S  = \\left( {1 - {b^2}} \\right)\\overrightarrow P  + b\\overrightarrow Q $$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\overrightarrow S  = \\left( {1 - b} \\right)\\overrightarrow P  + {b^2}\\overrightarrow Q $$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>From figure we can write</p>\n<p>$$\\overrightarrow P  = b\\overrightarrow R  = \\overrightarrow S $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0b0saaw/3773fef4-73e4-4f9b-b602-faab5b48fe1e/4fb74a80-9af5-11ec-b7c4-9d40ef99bd3a/file-1l0b0saax.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0b0saaw/3773fef4-73e4-4f9b-b602-faab5b48fe1e/4fb74a80-9af5-11ec-b7c4-9d40ef99bd3a/file-1l0b0saax.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Motion Question 7 English Explanation\"></p>\n<p>It is given that $$\\overrightarrow R  = \\overrightarrow Q  - \\overrightarrow P $$. Put in above equation we get</p>\n<p>$$\\overrightarrow P  + b(\\overrightarrow Q  - \\overrightarrow P ) = \\overrightarrow S  \\Rightarrow \\overrightarrow P  + b\\overrightarrow Q  - b\\overrightarrow P  = \\overrightarrow S $$</p>\n<p>$$ \\Rightarrow \\overrightarrow S  = \\overrightarrow P (1 - \\overrightarrow b ) + b\\overrightarrow Q $$</p>"
+        },
+        "hi": {
+          "content": "तीन सदिश $$\\overrightarrow P ,\\overrightarrow Q $$ और $$\\overrightarrow R $$ चित्र में दिखाए गए हैं। मान लें कि $$S$$ सदिश $$\\overrightarrow R$$ पर कोई बिंदु है। बिंदुओं $$P$$ और $$S$$ के बीच की दूरी $$b\\left| {\\overrightarrow R } \\right|$$ है। सदिश $$\\overrightarrow P ,\\overrightarrow Q $$ और $$\\overrightarrow S$$ के बीच सामान्य संबंध है :\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m4sm7wvn/2ebb916c-5ccc-4836-8c64-c40c9be34e27/1c336120-bc8b-11ef-8167-e914fc6a90d8/file-jaoe38c1m4sm7wvo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m4sm7wvn/2ebb916c-5ccc-4836-8c64-c40c9be34e27/1c336120-bc8b-11ef-8167-e914fc6a90d8/file-jaoe38c1m4sm7wvo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Motion Question 7 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\overrightarrow S  = \\left( {1 - b} \\right)\\overrightarrow P  + b\\overrightarrow Q $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\overrightarrow S  = \\left( {b - 1} \\right)\\overrightarrow P  + b\\overrightarrow Q $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\overrightarrow S  = \\left( {1 - {b^2}} \\right)\\overrightarrow P  + b\\overrightarrow Q $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\overrightarrow S  = \\left( {1 - b} \\right)\\overrightarrow P  + {b^2}\\overrightarrow Q $$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "three-vectors-overrightarrow-p-overrightarrow-q-and-2017-marks-3-jzrnhzutifo3pvex.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "graph-based-problem",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "Three vectors $$\\overrightarrow P ,\\overrightarrow Q $$ and $$\\overrightarrow R $$  are shown in the figure. Let $$S$$ be any point on the vector $$\\overrightarrow R .$$ The distance between the points $$P$$ and $$S$$ is $$b\\left| {\\overrig..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "तीन सदिश $$\\overrightarrow P ,\\overrightarrow Q $$ और $$\\overrightarrow R $$ चित्र में दिखाए गए हैं। मान लें कि $$S$$ सदिश $$\\overrightarrow R$$ पर कोई बिंदु है। बिंदुओं $$P$$ और $$S$$ के बीच की दूरी $$b\\left| {\\overrightarrow R } \\right|$$..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "af3apekbsbdhtovueesw",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Airplanes A and B are flying with constant velocity in the same vertical plane at angles $$30^\\circ $$ and $$60^\\circ $$ with\nrespect to the horizontal respectively as shown in the figure. The speed of A is $$100\\sqrt 3 $$ m/s. At time t = 0 s, an observer in A finds B at a distance of 500 m. This observer sees B moving with a constant velocity\nperpendicular to the line of motion of A. If at t = t<sub>0</sub>, A just escapes being hit by B, t<sub>0</sub> in seconds is\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ky3j9wqd/3118d649-4334-494c-8c94-278f74bf7448/ea2b6250-6f3e-11ec-991e-ef5d44607cbc/file-1ky3j9wqe.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ky3j9wqd/3118d649-4334-494c-8c94-278f74bf7448/ea2b6250-6f3e-11ec-991e-ef5d44607cbc/file-1ky3j9wqe.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Motion Question 11 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1chne5p/5a3c81e9-8d86-4715-81b8-73c2e6bda2ea/42df61d0-af90-11ec-b0b3-439ca85bb50d/file-1l1chne5q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1chne5p/5a3c81e9-8d86-4715-81b8-73c2e6bda2ea/42df61d0-af90-11ec-b0b3-439ca85bb50d/file-1l1chne5q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Motion Question 11 English Explanation\"></p>\n<p>Since A observes B as moving normal to it</p>\n<p>$${v_B}\\cos 30^\\circ  = {v_A}$$</p>\n<p>$${v_B}{{\\sqrt 3 } \\over 2} = 100\\sqrt 3 $$</p>\n<p>$${v_B} = 200$$ m/s</p>\n<p>Therefore, $${t_0} = {{500} \\over {200\\sin 30^\\circ }} = 5$$ s</p>"
+        }
+      },
+      "permalink": "airplanes-a-and-b-are-flying-with-constant-velocity-in-the-s-2014-marks-4-b2yrbugesijpu3bx.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "topic": "relative-motion-in-two-dimension",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "Airplanes A and B are flying with constant velocity in the same vertical plane at angles $$30^\\circ $$ and $$60^\\circ $$ with\nrespect to the horizontal respectively as shown in the figure. The speed of A is $$100\\sqrt 3 $$ m/s. At time t = ..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "khstbcse9clo41xpvnvd",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A rocket is moving in a gravity free space with a constant\nacceleration of 2 ms<sup>–2</sup> along + x direction (see figure). The\nlength of a chamber inside the rocket is 4 m. A ball is\nthrown from the left end of the chamber in + x direction\nwith a speed of 0.3 ms<sup>–1</sup> relative to the rocket. At the same\ntime, another ball is thrown in - x direction with a speed of\n0.2 ms<sup>–1</sup> from its right end relative to the rocket. The time in\nseconds when the two balls hit each other is\n<img class=\"question-image\" src=\"https://gateclass.static.cdn.examgoal.net/siECopFebTxpgsHuO/a5APMfD99NEpdraCi91pEoRlfkoDn/ZE4nb0BgPTQh9H12TKUN6k/uploadfile.jpg\" loading=\"lazy\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Motion Question 10 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "2OR8",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1chq1c6/b4ca0b0f-e63c-4ebe-90bc-90930a9fb4f2/8c658e60-af90-11ec-b0b3-439ca85bb50d/file-1l1chq1c7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1chq1c6/b4ca0b0f-e63c-4ebe-90bc-90930a9fb4f2/8c658e60-af90-11ec-b0b3-439ca85bb50d/file-1l1chq1c7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Motion Question 10 English Explanation\"></p>\n<p>Consider the motion of two balls with respect to rocket.</p>\n<p>Distance travelled by ball A from left end of the chamber is</p>\n<p>$$ = {{{u^2}} \\over {2a}} = {{{{(0.3)}^2}} \\over {2 \\times 2}} = {{0.09} \\over 4} \\approx 0.02$$ m</p>\n<p>So, collision of two balls will take place very near to left end of the chamber.</p>\n<p>For ball B</p>\n<p>$$S = ut{1 \\over 2}a{t^2}$$</p>\n<p>$$ - 4 =  - 0.2 \\times t - {1 \\over 2} \\times 2 \\times {t^2}$$</p>\n<p>$${t^2} + 0.2t - 4 = 0$$</p>\n<p>$$t = {{ - 0.2 \\pm \\sqrt {{{(0.2)}^2} - 4(1)( - 4)} } \\over 2} = {{ - 0.2 \\pm \\sqrt {0.04 + 16} } \\over 2}$$</p>\n<p>t = 1.9 s, $$-$$2.1 s</p>\n<p>Since t can't be negative</p>\n<p>$$\\therefore$$ t = 1.9 s</p>\n<p>Nearest integer is 2 s.</p>\n<p>Also, from</p>\n<p>$$S = ut + {1 \\over 2}a{t^2}$$</p>\n<p>$${S_A} = 0.3t + {1 \\over 2}( - 2){t^2} = 0.3t - {t^2}$$</p>\n<p>$${S_B} = 0.2t + {1 \\over 2}(2){t^2} = 0.2t + {t^2}$$</p>\n<p>$$\\because$$ $${S_A} + {S_B} = 4$$</p>\n<p>$$\\Rightarrow$$ 0.5 t = 4 or t = 8 s</p>"
+        }
+      },
+      "permalink": "a-rocket-is-moving-in-a-gravity-free-space-with-a-constant-a-2014-marks-4-fi2m4394fabojkh3.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "topic": "relative-motion-in-one-dimension",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A rocket is moving in a gravity free space with a constant\nacceleration of 2 ms–2 along + x direction (see figure). The\nlength of a chamber inside the rocket is 4 m. A ball is\nthrown from the left end of the chamber in + x direction\nwith a ..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "99qc2qjahhsv55iug45l",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A train is moving along a straight line with a constant acceleration 'a'. A boy standing in the train throws a\nball forward with a speed of 10 m/s, at an angle of $$60^\\circ $$ to the horizontal. The boy has to move forward by\n1.15 m inside the train to catch the ball back at the initial height. The acceleration of the train, in m/s<sup>2</sup>, is",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "<p>u = 10 ms<sup>$$-$$1</sup>, $$\\theta$$ = 60$$^\\circ$$</p>\n<p>Time of flight is</p>\n<p>$$t = {{2u\\sin \\theta } \\over g} = {{2 \\times 10 \\times \\sin 60^\\circ } \\over {10}} = \\sqrt 3 \\,s$$</p>\n<p>Let v be the velocity of the train. The horizontal velocity of ball at the instant it is thrown $$ = (v + {u_x}) = (v + u\\cos \\theta )$$. Therefore, the horizontal range of the ball with respect to the ground is</p>\n<p>$$R = (v + u\\cos \\theta )t$$, where $$t = \\sqrt 3 \\,s$$</p>\n<p>It is clear that</p>\n<p>Distance travelled by ball in time $$t + 1.15 = R$$</p>\n<p>i.e. $$vt + {1 \\over 2}a{t^2} + 1.15 = (v + u\\cos \\theta )t$$</p>\n<p>$$ \\Rightarrow {1 \\over 2}a{t^2} + 1.15 = (u\\cos \\theta )t$$</p>\n<p>$$ \\Rightarrow {1 \\over 2}a \\times {(\\sqrt 3 )^2} + 1.15 = (10\\cos 60^\\circ ) \\times \\sqrt 3 $$</p>\n<p>$$ \\Rightarrow a = 5$$ ms<sup>$$-$$2</sup></p>"
+        }
+      },
+      "permalink": "a-train-is-moving-along-a-straight-line-with-a-constant-acce-2011-marks-4-a9fgedqz0jofmsbs.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "topic": "relative-motion-in-two-dimension",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A train is moving along a straight line with a constant acceleration 'a'. A boy standing in the train throws a\nball forward with a speed of 10 m/s, at an angle of $$60^\\circ $$ to the horizontal. The boy has to move forward by\n1.15 m inside..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dsc0b4biz4hy5suc641n",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<b>STATEMENT-1:</b> For an observer looking out through the window of a fast moving train, the nearby objects appear to move in the\nopposite direction to the train, while the distant objects appear to be stationary.\n<p><b>STATEMENT-2:</b> If the observer and the object are moving at velocities $${\\overrightarrow v _1}$$\nand $${\\overrightarrow v _2}$$\nrespectively with reference to a laboratory frame, the\nvelocity of the object with respect to the observer is $${\\overrightarrow v _2}$$ - $${\\overrightarrow v _1}$$.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "STATEMENT - 1 is True, STATEMENT - 2 is True; STATEMENT - 2 is a correct explanation for STATEMENT ,- 1"
+            },
+            {
+              "identifier": "B",
+              "content": "STATEMENT - 1 is True, STATEMENT - 2 is True; STATEMENT - 2 is NOT a correct explanation for\nSTATEMENT - 1"
+            },
+            {
+              "identifier": "C",
+              "content": "STATEMENT - 1 is True, STATEMENT - 2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "STATEMENT - 1 is False, STATEMENT - 2 is True"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Statement 1 is True.</p>\n<p>For a moving observer, the nearly objects appear to move in the opposite direction at a large speed. This is because the angular speed of the nearby object w.r.t to observer is large. As the object moves away, the angular velocity decreases and therefore its speed seems to be less. The distant object almost remains stationary.</p>\n<p>Statement 2 is True but related to relative velocity</p>\n<p>$${\\overline V _{21}} = {\\overline V _{2G}} - {\\overline V _{1G}}$$</p>\n<p>Where, G = Laboratory frame</p>\n<p>Thus, both the statement are true but statement 2 is not the correct explanation of statement 1.</p>"
+        }
+      },
+      "permalink": "statement-1-for-an-observer-looking-out-through-the-window-2008-marks-4-o4plf3bu5fia4wxe.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "topic": "relative-motion-in-one-dimension",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "STATEMENT-1: For an observer looking out through the window of a fast moving train, the nearby objects appear to move in the\nopposite direction to the train, while the distant objects appear to be stationary.\nSTATEMENT-2: If the observer an..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "c1cjmm4mzu6q3gzj7ley",
+      "chapter": "motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pwhile-the-piston-is-at-a-distance-2l-from-the-top-the-ho-jee-advanced-physics-motion-fg2gee4mxs2eapdk",
+      "question": {
+        "en": {
+          "comprehension": "<p>A fixed thermally conducting cylinder has a radius $R$ and height $L_0$. The cylinder is open at its bottom and has a small hole at its top. A piston of mass $M$ is held at a distance $L$ from the top surface, as shown in the figure. The atmospheric pressure is $P_0$.</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggdq085/28c86cf3-daaa-454c-bf92-8f9ece4e3917/11f16d50-a363-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggdq086.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggdq085/28c86cf3-daaa-454c-bf92-8f9ece4e3917/11f16d50-a363-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggdq086.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Motion Question 3 English Comprehension\">",
+          "direction": null,
+          "content": "<p>While the piston is at a distance 2L from the top, the hole at the top is sealed. The piston is then released, to a position where it can stay in equilibrium. In this condition, the distance of the piston from the top is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( {{{2{P_0}\\pi {R^2}} \\over {\\pi {R^2}{P_0} + Mg}}} \\right)(2L)$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( {{{{P_0}\\pi {R^2} - Mg} \\over {\\pi {R^2}{P_0}}}} \\right)(2L)$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( {{{{P_0}\\pi {R^2} + Mg} \\over {\\pi {R^2}{P_0}}}} \\right)(2L)$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left( {{{{P_0}\\pi {R^2}} \\over {\\pi {R^2}{P_0} - Mg}}} \\right)(2L)$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Also condition for equilibrium of the piston is</p>\n<p>Mg = (P$$_0$$ $$-$$ P)$$\\pi$$R$$^2$$</p>\n<p>$$ \\Rightarrow P = {{ - Mg} \\over {\\pi {R^2}}} + {P_0}$$</p>\n<p>Cylinder is thermally conducting, the temperature remains the same.</p>\n<p>$$ \\Rightarrow {P_0} \\times (2L \\times \\pi {R^2}) = Py \\times \\pi {R^2}$$</p>\n<p>$$ \\Rightarrow y = {{{P_0}} \\over P} \\times 2L$$</p>\n<p>$$ = {{{P_0}} \\over {\\left[ {{P_0} - {{Mg} \\over {\\pi {R^2}}}} \\right]}} \\times 2L$$</p>\n<p>$$ = \\left[ {{{{P_0} \\times \\pi {R^2}} \\over {{P_0}\\pi {R^2} - Mg}}} \\right] \\times 2L$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": null,
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Motion • Physics",
+          "excerpt": "While the piston is at a distance 2L from the top, the hole at the top is sealed. The piston is then released, to a position where it can stay in equilibrium. In this condition, the distance of the piston from the top is :"
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ikt9jd74t3g6j9nrhzln",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A body starts from rest at time t = 0, the acceleration time graph is\nshown in the figure. The maximum velocity attained by the body\nwill be\n<img class=\"question-image\" src=\"https://gateclass.static.cdn.examgoal.net/xKbCPz29rfKptJRoZ/EKriXFH5JR4OvvH7fy7lccluDCHQI/Wij6ArpbIHJiXc31EM7UbP/uploadfile.jpg\" loading=\"lazy\" alt=\"IIT-JEE 2004 Screening Physics - Motion Question 21 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "110 m/s"
+            },
+            {
+              "identifier": "B",
+              "content": "55 m/s"
+            },
+            {
+              "identifier": "C",
+              "content": "650 m/s"
+            },
+            {
+              "identifier": "D",
+              "content": "550 m/s"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-body-starts-from-rest-at-time-t-0-the-acceleration-time-2004-screening-marks-2-0wowy5nlhv1ea2ls.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004-screening",
+      "isOutOfSyllabus": false,
+      "topic": "variable-acceleration",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004 Screening",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A body starts from rest at time t = 0, the acceleration time graph is\nshown in the figure. The maximum velocity attained by the body\nwill be\n"
+        }
+      },
+      "yearKey": "iit-jee-2004-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1y5dei8y84v0g315lowl",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle starts sliding down a frictionless inclined plane. If S<sub>n</sub> is the distance traveled by it from time t = n - 1 sec to t = n sec, the ratio S<sub>n</sub> / S<sub>n+1</sub> is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{2n - 1} \\over {2n + 1}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{2n + 1} \\over {2n}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{2n} \\over {2n + 1}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{2n + 1} \\over {2n - 1}}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-particle-starts-sliding-down-a-frictionless-inclined-plane-2004-screening-marks-2-7ii6exadubbjxvj8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004-screening",
+      "isOutOfSyllabus": false,
+      "topic": "motion-under-gravity",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004 Screening",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A particle starts sliding down a frictionless inclined plane. If Sn is the distance traveled by it from time t = n - 1 sec to t = n sec, the ratio Sn / Sn+1 is "
+        }
+      },
+      "yearKey": "iit-jee-2004-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "hx23ohn2hhm93mjujbif",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The coordinates of a particle moving in a plane are given by x(t) = a cos(pt) and y(t) = b sin(pt) where a, b (&lt; a) and p are positive constants of approprite dimensions. Then",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the path of the particle is an ellipse"
+            },
+            {
+              "identifier": "B",
+              "content": "the velocity and acceleration of the particle are normal to each other at t = $${\\pi  \\over {2p}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "the acceleration of the particle is always directed towards a focus"
+            },
+            {
+              "identifier": "D",
+              "content": "the distance traveled by the particle in time interval t = 0 to t = $${\\pi  \\over {2p}}$$ is a"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-coordinates-of-a-particle-moving-in-a-plane-are-given-by-1999-screening-marks-3-8hoi4fz4bd3phhu3.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999-screening",
+      "isOutOfSyllabus": false,
+      "topic": "variable-acceleration",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999 Screening",
+          "subTitle": "Motion • Physics",
+          "excerpt": "The coordinates of a particle moving in a plane are given by x(t) = a cos(pt) and y(t) = b sin(pt) where a, b (< a) and p are positive constants of approprite dimensions. Then"
+        }
+      },
+      "yearKey": "iit-jee-1999-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "euu58de7psao2motgvdf",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Two guns, situated on the top of a hill of height 10 m, fire one shot each with the same speed $$5\\sqrt 3 $$ m s<sup>-1</sup> at some interval of time. One gun fires horizontally and other fires upwards at an angle of $$60^\\circ $$ with the horizontal. The shots collide in air at a point P. Find \n<p>(i) the time interval between the firings, and</p>\n<p>(ii) the coordinates of the point P.</p>\nTake origin of the coordinate system at the foot of the hill right below the muzzle and trajectories in x-y plane.",
+          "options": [],
+          "correct_options": [],
+          "answer": "(i) 1 sec\n<br>(ii) $$\\left( {5\\sqrt 3 ,5} \\right)$$ in meters.",
+          "explanation": null
+        }
+      },
+      "permalink": "two-guns-situated-on-the-top-of-a-hill-of-height-10-m-fire-1996-marks-5-vmu2s4ljrchizmsi.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "isOutOfSyllabus": false,
+      "topic": "relative-motion-in-two-dimension",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "Motion • Physics",
+          "excerpt": "Two guns, situated on the top of a hill of height 10 m, fire one shot each with the same speed $$5\\sqrt 3 $$ m s-1 at some interval of time. One gun fires horizontally and other fires upwards at an angle of $$60^\\circ $$ with the horizontal..."
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vn9i3kl4vtblxc9ps1q0",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1993,
+      "paperTitle": "IIT-JEE 1993",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle of mass m moves on the x-axis as follows: it starts from rest at t = 0 from the point x = 0, and come to rest at t = 1 at the point x = 1. NO other information is available about its motion at intermediate times ( 0 &lt; t &lt; 1 ). If $$\\alpha $$ denotes the instantaneous acceleration of the particle, then:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\alpha $$ cannot remain positive for all t in the interval $$0 \\le t \\le 1$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left| \\alpha  \\right|$$ cannot exceed 2 at any point in its path."
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left| \\alpha  \\right|$$ must be $$ \\ge $$ 4 at some point or points in its path."
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\alpha $$ must be change sign during the motion, but no other assertion can be made with the information given."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-particle-of-mass-m-moves-on-the-x-axis-as-follows-it-star-1993-marks-2-ujiu31iwuyt9pm8i.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1993",
+      "isOutOfSyllabus": false,
+      "topic": "variable-acceleration",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1993",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A particle of mass m moves on the x-axis as follows: it starts from rest at t = 0 from the point x = 0, and come to rest at t = 1 at the point x = 1. NO other information is available about its motion at intermediate times ( 0 < t < 1 ). If..."
+        }
+      },
+      "yearKey": "iit-jee-1993"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "hy4ov4cmwtb2zjgdykut",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1988,
+      "paperTitle": "IIT-JEE 1988",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A boat which has a speed of 5 km/hr in still water crosses a river of width 1 km along the shortest possible path in 15 minutes. The velocity of the river water in km/hr is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1"
+            },
+            {
+              "identifier": "B",
+              "content": "3"
+            },
+            {
+              "identifier": "C",
+              "content": "4"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\sqrt {41} $$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-boat-which-has-a-speed-of-5-kmhr-in-still-water-crosses-a-1988-marks-1-5sdsb3d9odize9mv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1988",
+      "isOutOfSyllabus": false,
+      "topic": "relative-motion-in-two-dimension",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1988",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A boat which has a speed of 5 km/hr in still water crosses a river of width 1 km along the shortest possible path in 15 minutes. The velocity of the river water in km/hr is"
+        }
+      },
+      "yearKey": "iit-jee-1988"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "wyf9owuzy19mla63wyd7",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Two identical trains are moving on rails along the equator on the earth in opposite directions with the same speed. They will exert the same pressure on the rails.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "two-identical-trains-are-moving-on-rails-along-the-equator-o-1985-marks-3-lzpmzlgctf3ij7xq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "motion-under-gravity",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Motion • Physics",
+          "excerpt": "Two identical trains are moving on rails along the equator on the earth in opposite directions with the same speed. They will exert the same pressure on the rails."
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v6ne29rsu6k68hn0sq1q",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Four person K, L, M, N are initially at the four corners of a square of side d. Each person now moves with a uniform speed v in such a way that K always moves directly towards L, L directly towards M, M directly towards N, and N directly towards K. The four person will meet at a time _____________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${d \\over v}$$",
+          "explanation": null
+        }
+      },
+      "permalink": "four-person-k-l-m-n-are-initially-at-the-four-corners-of-1984-marks-2-bbrbnbgh4twjiuvv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "relative-motion-in-two-dimension",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Motion • Physics",
+          "excerpt": "Four person K, L, M, N are initially at the four corners of a square of side d. Each person now moves with a uniform speed v in such a way that K always moves directly towards L, L directly towards M, M directly towards N, and N directly to..."
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v8tm01ea7jjx2flqs6p7",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A projectile fired from the ground follows a parabolic path. The speed of the projectile is minimum at the top of its path.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "When a projectile is fired from the ground, it follows a parabolic path because the force of gravity acts on it, causing it to accelerate downward. At the top of the projectile's path, its vertical velocity becomes zero, while the horizontal velocity remains constant. At this point, the speed of the projectile is minimum because it is only moving horizontally and has no vertical component of velocity.\n<br/><br/>\nAs the projectile continues to fall, its speed increases because of the acceleration due to gravity. When the projectile reaches the ground, its speed will be at a maximum, assuming there is no air resistance.\n<br/><br/>\nTherefore, the statement that the speed of the projectile is minimum at the top of its path is true."
+        }
+      },
+      "permalink": "a-projectile-fired-from-the-ground-follows-a-parabolic-path-1984-marks-2-kyv30uk9iup8kj6i.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "topic": "projectile-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A projectile fired from the ground follows a parabolic path. The speed of the projectile is minimum at the top of its path."
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "otznphfqtx5h3zy9hk4t",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A river is flowing from west to east at a speed of 5 meters per minute. A man on the south bank of the river, capable of swimming at 10 meters per minute in still water, wants to swim across the river in the shortest time. He should swim in a direction",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "due north"
+            },
+            {
+              "identifier": "B",
+              "content": "$$30^\\circ $$ east of north"
+            },
+            {
+              "identifier": "C",
+              "content": "$$30^\\circ $$ west of north"
+            },
+            {
+              "identifier": "D",
+              "content": "$$60^\\circ $$ east of north"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-river-is-flowing-from-west-to-east-at-a-speed-of-5-meters-1983-marks-1-f9fowk5ihewizrdf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "relative-motion-in-two-dimension",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A river is flowing from west to east at a speed of 5 meters per minute. A man on the south bank of the river, capable of swimming at 10 meters per minute in still water, wants to swim across the river in the shortest time. He should swim in..."
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "g21g9f2o9vjpn0g7aq3r",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle moves in a circle of radius R. In half the period of revolution its displacement is ________ and distance covered is _________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "2R, $$\\pi R$$",
+          "explanation": null
+        }
+      },
+      "permalink": "a-particle-moves-in-a-circle-of-radius-r-in-half-the-period-1983-marks-2-ahs9kycarzyj7unq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "uniform-circular-motion",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A particle moves in a circle of radius R. In half the period of revolution its displacement is ________ and distance covered is _________."
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "w6ue1k724hd3v9w72i2f",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Two balls of different masses are thrown vertically upwards with the same speed. They pass through the point of projection in their downward motion with the same speed. (Neglect air resistance)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "Acceleration due to gravity is independent of the mass of the body."
+        }
+      },
+      "permalink": "two-balls-of-different-masses-are-thrown-vertically-upwards-1983-marks-2-xkue5lt8dijkjtnl.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "topic": "projectile-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Motion • Physics",
+          "excerpt": "Two balls of different masses are thrown vertically upwards with the same speed. They pass through the point of projection in their downward motion with the same speed. (Neglect air resistance)"
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "r5eerp7om7irz1wg1ba2",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle is moving eastwards with a velocity of 5 m/s. In 10s the velocity changes to 5 m/s northwards. The average acceleration in this time is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "zero"
+            },
+            {
+              "identifier": "B",
+              "content": "$${1 \\over {\\sqrt 2 }}m/{s^2}$$ towards north-west"
+            },
+            {
+              "identifier": "C",
+              "content": "$${1 \\over {\\sqrt 2 }}m/{s^2}$$ towards north-east"
+            },
+            {
+              "identifier": "D",
+              "content": "$${1 \\over 2}m/{s^2}$$ towards north"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-particle-is-moving-eastwards-with-a-velocity-of-5-ms-in-1982-marks-3-don3aoiigo1jhqxw.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "variable-acceleration",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A particle is moving eastwards with a velocity of 5 m/s. In 10s the velocity changes to 5 m/s northwards. The average acceleration in this time is"
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "lvcol35szzwvbbp8l4xt",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1979,
+      "paperTitle": "IIT-JEE 1979",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Answer the following giving reason in brief:\n<p>Is the time variation of position, shown in the figure observed in nature?</p>\n<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/6hjbeVyLBSmsMzltZ/Nk5cKqCNp7Z6QTcufXinG7oWOa8q4/5HaSnwjZaS2cRXPSCERyKP/image.svg\" loading=\"lazy\" alt=\"IIT-JEE 1979 Physics - Motion Question 15 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "No, not possible",
+          "explanation": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/Ouf2a1olEkiqBvttz/qfFHdKubAN17hE6NoHokgypZhUpAs/MbHrHpNyDjdTybhCC2EzB6/image.svg\" loading=\"lazy\" alt=\"IIT-JEE 1979 Physics - Motion Question 15 English Explanation\">\n<p>From the diagram, you can see a body is present at two different position A and B at the same time which is not possible.</p>"
+        }
+      },
+      "permalink": "answer-the-following-giving-reason-in-brief-is-the-time-var-1979-marks-4-b8hxnkx4spoe1sez.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1979",
+      "isOutOfSyllabus": false,
+      "topic": "graph-based-problem",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1979",
+          "subTitle": "Motion • Physics",
+          "excerpt": "Answer the following giving reason in brief:\nIs the time variation of position, shown in the figure observed in nature?\n"
+        }
+      },
+      "yearKey": "iit-jee-1979"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8psodd7la1unrguxj35b",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1979,
+      "paperTitle": "IIT-JEE 1979",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The dispalcement x of particle moving in one direction, under the action of a constant force is related to the time t by the equation $$t = \\sqrt x  + 3$$\n<br>where x is in meters and t in seconds. Find\n<p>(i) The displacement of the particle when its velocity is zero, and</p>\n<p>(ii) The work done by the force in the first 6 seconds.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "(i) 0\n<br>(ii) 0",
+          "explanation": null
+        }
+      },
+      "permalink": "the-dispalcement-x-of-particle-moving-in-one-direction-unde-1979-marks-4-bkofl64mlvhhkz3y.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1979",
+      "isOutOfSyllabus": false,
+      "topic": "variable-acceleration",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1979",
+          "subTitle": "Motion • Physics",
+          "excerpt": "The dispalcement x of particle moving in one direction, under the action of a constant force is related to the time t by the equation $$t = \\sqrt x  + 3$$\nwhere x is in meters and t in seconds. Find\n(i) The displacement of the particle when..."
+        }
+      },
+      "yearKey": "iit-jee-1979"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9clbir03flsv4hyhw2g9",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "motion",
+      "year": 1978,
+      "paperTitle": "IIT-JEE 1978",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A car accelerates from rest at a constant rate $$\\alpha $$ for some time after which it decelerates at a constant rate $$\\beta $$ to come to rest. If the total time lapse is t seconds, evaluate.\n<p>(i) maximum velocity reached, and</p>\n<p>(ii) the total distance travelled.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "<p>$$(i)\\,{{\\alpha \\beta } \\over {\\alpha  + \\beta }}t$$</p>\n<p>$$(ii)\\,{1 \\over 2}{{\\alpha \\beta } \\over {\\alpha  + \\beta }}{t^2}$$</p>",
+          "explanation": null
+        }
+      },
+      "permalink": "a-car-accelerates-from-rest-at-a-constant-rate-alpha-f-1978-marks-4-kx1krz7myqhrmmpa.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1978",
+      "isOutOfSyllabus": false,
+      "topic": "variable-acceleration",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1978",
+          "subTitle": "Motion • Physics",
+          "excerpt": "A car accelerates from rest at a constant rate $$\\alpha $$ for some time after which it decelerates at a constant rate $$\\beta $$ to come to rest. If the total time lapse is t seconds, evaluate.\n(i) maximum velocity reached, and\n(ii) the to..."
+        }
+      },
+      "yearKey": "iit-jee-1978"
+    }
+  ]
+}

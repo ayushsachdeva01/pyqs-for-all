@@ -1,0 +1,251 @@
+{
+  "questions": [
+    {
+      "question_id": "fec83m4c3o4p8bpc2ziw",
+      "chapter": "statistics",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "consider-a-data-consisting-of-10-observations-x1-x2-ld-jee-advanced-mathematics-ccs0a6vfkuy0j5x2",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Consider a data consisting of 10 observations $x_1, x_2, \\ldots, x_{10}$, whose mean is 5 and variance is 7 . If the mean and the variance of the first 8 observations $x_1, x_2, \\ldots, x_8$ are 4 and 3.5 , respectively, and $x_9 < x_{10}$, then the value of $3 x_9+2 x_{10}$ is $\\_\\_\\_\\_$ .",
+          "options": [],
+          "correct_options": [],
+          "answer": "44",
+          "explanation": "<p>We know the mean of 10 observations is 5. So, the total sum of the 10 observations is:</p>\n<p>$$\\frac{x_1+x_2+x_3+\\ldots+x_8+x_9+x_{10}}{10}=5$$</p>\n<p>Multiplying both sides by 10 gives:</p>\n<p>$$x_1+x_2+x_3+\\ldots+x_8+x_9+x_{10}=50$$</p>\n<p>The mean of the first 8 observations is 4, so their total sum is:</p>\n<p>$$\\frac{x_1+x_2+\\ldots+x_8}{8}=4$$</p>\n<p>Therefore,</p>\n<p>$$x_1+x_2+\\ldots+x_8=32$$</p>\n<p>Subtracting, we get:</p>\n<p>$$x_9+x_{10}=50-32=18$$</p>\n<p>Next, we use the formula for variance of the 10 observations:</p>\n<p>$$\\text{Variance} = \\frac{\\sum\\limits_{i=1}^{10} x_i^2}{10} - (\\text{mean})^2$$</p>\n<p>Substitute the given values to find the total of squares:</p>\n<p>$$\\frac{\\sum\\limits_{i=1}^{10} x_i^2}{10} - 25 = 7$$</p>\n<p>$$\\sum\\limits_{i=1}^{10} x_i^2 = 320$$</p>\n<p>Similarly, for the first 8 observations:</p>\n<p>$$\\frac{\\sum\\limits_{i=1}^{8} x_i^2}{8} - 16 = 3.5$$</p>\n<p>$$\\sum\\limits_{i=1}^{8} x_i^2 = 156$$</p>\n<p>Now, subtract the two results:</p>\n<p>$$x_9^2 + x_{10}^2 = 320 - 156 = 164$$</p>\n<p>We already know:</p>\n<p>$$x_9 + x_{10} = 18$$</p>\n<p>Expanding $ (x_9 + x_{10})^2 $, we get:</p>\n<p>$$x_9^2 + x_{10}^2 + 2x_9x_{10} = 324$$</p>\n<p>Substitute $x_9^2 + x_{10}^2 = 164$:</p>\n<p>$$164 + 2x_9x_{10} = 324$$</p>\n<p>$$x_9x_{10} = 80$$</p>\n<p>Now, we have two equations:</p>\n<p>$$x_9 + x_{10} = 18$$</p>\n<p>$$x_9x_{10} = 80$$</p>\n<p>Solving the quadratic $t^2 - 18t + 80 = 0$, we get $t = 8$ and $10$.  \n\nGiven $x_9 < x_{10}$, so $x_9 = 8$ and $x_{10} = 10$.</p>\n<p>Finally,</p>\n<p>$$3x_9 + 2x_{10} = 3(8) + 2(10) = 44$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "calculation-of-standard-deviation-variance-and-mean-deviation-of-grouped-and-ungrouped-data",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Statistics • Mathematics",
+          "excerpt": "Consider a data consisting of 10 observations $x_1, x_2, \\ldots, x_{10}$, whose mean is 5 and variance is 7 . If the mean and the variance of the first 8 observations $x_1, x_2, \\ldots, x_8$ are 4 and 3.5 , respectively, and $x_9 < x_{10}$,..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "i9e9ov7ehp543yf6i427",
+      "chapter": "statistics",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pconsider-the-following-frequency-distributionpstyle-jee-advanced-mathematics-ivuxenrwsyhu9ezk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider the following frequency distribution:</p><style>table {width: 100%;border-collapse: collapse;margin: 20px 0;} th {background-color: blue;color: white;border: 1px solid lightgrey;padding: 10px;} td {border: 1px solid lightgrey;padding: 10px;text-align: left;}</style> <table><tr><th>Value</th><td>4</td><td>5</td><td>8</td><td>9</td><td>6</td><td>12</td><td>11</td></tr><tr><th>Frequency</th><td>5</td><td>$f_1$</td><td>$f_2$</td><td>2</td><td>1</td><td>1</td><td>3</td></tr></table><p>Suppose that the sum of the frequencies is 19 and the median of this frequency distribution is 6.</p><p>For the given frequency distribution, let $\\alpha$ denote the mean deviation about the mean, $\\beta$ denote the mean deviation about the median, and $\\sigma^2$ denote the variance.</p><p>Match each entry in List-I to the correct entry in List-II and choose the correct option.</p><table border=\"1\">\n  <tr>\n    <th>List – I</th>\n    <th>List – II</th>\n  </tr>\n  <tr>\n    <td>(P) 7 f<sub>1</sub> + 9 f<sub>2</sub> is equal to</td>\n    <td>(1) 146</td>\n  </tr>\n  <tr>\n    <td>(Q) 19 α is equal to</td>\n    <td>(2) 47</td>\n  </tr>\n  <tr>\n    <td>(R) 19 β is equal to</td>\n    <td>(3) 48</td>\n  </tr>\n  <tr>\n    <td>(S) 19 σ<sub>2</sub> is equal to</td>\n    <td>(4) 145</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>(5) 55</td>\n  </tr>\n</table>\n\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>(P) → (5) &nbsp;&nbsp; (Q) → (3) &nbsp;&nbsp; (R) → (2) &nbsp;&nbsp; (S) → (4)</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>(P) → (5) &nbsp;&nbsp; (Q) → (2) &nbsp;&nbsp; (R) → (3) &nbsp;&nbsp; (S) → (1)</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>(P) → (5) &nbsp;&nbsp; (Q) → (3) &nbsp;&nbsp; (R) → (2) &nbsp;&nbsp; (S) → (1)</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>(P) → (3) &nbsp;&nbsp; (Q) → (2) &nbsp;&nbsp; (R) → (5) &nbsp;&nbsp; (S) → (4)</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbdkszsx/17ad6406-ca2b-42e7-9c5a-4179f865d302/561aeb10-3edb-11f0-a83c-090ddc267f1c/file-jaoe38c1mbdkszsy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbdkszsx/17ad6406-ca2b-42e7-9c5a-4179f865d302/561aeb10-3edb-11f0-a83c-090ddc267f1c/file-jaoe38c1mbdkszsy.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Mathematics - Statistics Question 2 English Explanation\"></p>\n<p>Given $12+f_1+f_2=19$</p>\n<p>Median = 6</p>\n<p>$\\Rightarrow \\quad f_1+f_2=7$</p>\n<p>Median $=\\left(\\frac{N+1}{2}\\right)^{\\text {th }}$ term $=\\left(\\frac{19+1}{2}\\right)^{\\text {th }}$ term $=10^{\\text {th }}$ term</p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow \\quad 6+f_1=10 \\Rightarrow f_1=4 \\text { and } f_2=3 \\\\ &amp; \\therefore \\quad 7 f_1+9 f_2=7 \\times 4+9 \\times 3 \\\\ &amp; =55 \\Rightarrow P \\rightarrow 5 \\end{aligned} $$</p>\n<p>Mean $(\\bar{X})=\\frac{\\Sigma f_i x_i}{\\Sigma f_i}=\\frac{133}{19}=7$</p>\n<p>$$ \\begin{aligned} &amp; \\text { Mean deviation about mean }(\\alpha)=\\frac{\\Sigma f_i\\left|x_i-\\bar{x}\\right|}{\\Sigma f_i} \\\\ &amp; =\\frac{5(3)+4(2)+1(1)+3(1)+2(2)+3(4)+1(5)}{19}=\\frac{48}{19} \\\\ &amp; \\Rightarrow 19 \\alpha=48 \\quad Q \\rightarrow 3 \\end{aligned} $$</p>\n<p>Mean deviation about median $(\\beta)$</p>\n<p>$$ \\begin{aligned} &amp; =\\frac{\\Sigma f_i\\left|x_i-M\\right|}{\\Sigma f_i} \\\\ &amp; =\\frac{5(2)+4(1)+1(0)+3(2)+2(3)+3(5)+1(6)}{19} \\\\ &amp; =\\frac{47}{19} \\\\ &amp; 19 \\beta=47 \\quad R \\rightarrow 2 \\end{aligned} $$</p>\n\n$\\begin{aligned} &amp; \\text { Variance }\\left(\\sigma^2\\right)=\\frac{\\Sigma f_i f_i^2}{\\Sigma f_i}-(\\bar{X})^2 \\\\ &amp; =\\frac{5 \\times 16+4 \\times 25+1 \\times 36+3 \\times 64+2 \\times 81+3 \\times 121+1 \\times 144}{19}-(7)^2 \\\\ &amp; =\\frac{1077}{19}-49=\\frac{146}{19} \\\\ &amp; \\Rightarrow 19 \\sigma^2=146 \\\\ &amp; S \\rightarrow 1 \\\\ &amp; P \\rightarrow 5, Q \\rightarrow 3, R \\rightarrow 2, S \\rightarrow 1\\end{aligned}$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>निम्नलिखित बारंबारता बंटन (frequency distribution) पर विचार कीजिये:</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 671px\"><colgroup>\n<col style=\"width: 182px\">\n<col style=\"width: 72px\">\n<col style=\"width: 72px\">\n<col style=\"width: 69px\">\n<col style=\"width: 68px\">\n<col style=\"width: 67px\">\n<col style=\"width: 70px\">\n<col style=\"width: 71px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-baqh\">मान (Value)</th>\n    <th class=\"tg-baqh\">4</th>\n    <th class=\"tg-baqh\">5</th>\n    <th class=\"tg-baqh\">8</th>\n    <th class=\"tg-baqh\">9</th>\n    <th class=\"tg-baqh\">6</th>\n    <th class=\"tg-baqh\">12</th>\n    <th class=\"tg-baqh\">11</th>\n  </tr></thead>\n<tbody>\n  <tr>\n    <td class=\"tg-baqh\">बारंबारता (Frequency)</td>\n    <td class=\"tg-baqh\">5</td>\n    <td class=\"tg-baqh\">$f_1$</td>\n    <td class=\"tg-baqh\">$f_2$</td>\n    <td class=\"tg-baqh\">2</td>\n    <td class=\"tg-baqh\">1</td>\n    <td class=\"tg-baqh\">1</td>\n    <td class=\"tg-baqh\">3</td>\n  </tr>\n</tbody>\n</table></p>\n<p>मान लीजिए कि बारंबारताओं का योग 19 है और बारंबारता बंटन की माध्यिका (median) 6 है।</p>\n<p>दिये गए बारंबारता बंटन के लिए, मान लीजिए कि $\\alpha$ माध्य के सापेक्ष माध्य विचलन (mean deviation about the mean) को दर्शाता है, $\\beta$ माध्यिका के सापेक्ष माध्य विचलन (mean deviation about the median) को दर्शाता है, और $\\sigma^2$ प्रसरण (variance) को दर्शाता है।</p>\n<p>सूची-। (List-I) की प्रत्येक प्रविष्टि (entry) का सूची-II (List-II) की सही प्रविष्टि से मिलान कीजिये और सही विकल्प का चयन करें।</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 632px\"><colgroup>\n<col style=\"width: 85px\">\n<col style=\"width: 225px\">\n<col style=\"width: 84px\">\n<col style=\"width: 238px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-c3ow\">सूची-I</th>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-c3ow\">सूची-II</th>\n  </tr></thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">P</td>\n    <td class=\"tg-0pky\">$7 f_1+9 f_2$ बराबर</td>\n    <td class=\"tg-c3ow\">1</td>\n    <td class=\"tg-0pky\">146</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">Q</td>\n    <td class=\"tg-0pky\">$19\\alpha$ बराबर</td>\n    <td class=\"tg-c3ow\">2</td>\n    <td class=\"tg-0pky\">47</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">R</td>\n    <td class=\"tg-0pky\">$19\\beta$ बराबर</td>\n    <td class=\"tg-c3ow\">3</td>\n    <td class=\"tg-0pky\">48</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">S</td>\n    <td class=\"tg-0pky\">$19\\sigma^2$ बराबर</td>\n    <td class=\"tg-c3ow\">4</td>\n    <td class=\"tg-0pky\">145</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\"></td>\n    <td class=\"tg-baqh\"></td>\n    <td class=\"tg-baqh\">5</td>\n    <td class=\"tg-0lax\">55</td>\n  </tr>\n</tbody>\n</table></p>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$(\\mathrm{P}) \\rightarrow(5) \\quad(\\mathrm{Q}) \\rightarrow(3) \\quad(\\mathrm{R}) \\rightarrow(2) \\quad(\\mathrm{S}) \\rightarrow(4)$"
+            },
+            {
+              "identifier": "B",
+              "content": "$(\\mathrm{P}) \\rightarrow(5) \\quad(\\mathrm{Q}) \\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(3) \\quad(\\mathrm{S}) \\rightarrow(1)$"
+            },
+            {
+              "identifier": "C",
+              "content": "$(\\mathrm{P}) \\rightarrow(5) \\quad(\\mathrm{Q}) \\rightarrow(3) \\quad(\\mathrm{R}) \\rightarrow(2) \\quad(\\mathrm{S}) \\rightarrow(1)$"
+            },
+            {
+              "identifier": "D",
+              "content": "$(\\mathrm{P}) \\rightarrow(3) \\quad(\\mathrm{Q}) \\rightarrow(2) \\quad(\\mathrm{R}) \\rightarrow(5) \\quad(\\mathrm{S}) \\rightarrow(4)$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mbdkszsx/17ad6406-ca2b-42e7-9c5a-4179f865d302/561aeb10-3edb-11f0-a83c-090ddc267f1c/file-jaoe38c1mbdkszsy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mbdkszsx/17ad6406-ca2b-42e7-9c5a-4179f865d302/561aeb10-3edb-11f0-a83c-090ddc267f1c/file-jaoe38c1mbdkszsy.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Mathematics - Statistics Question 2 Hindi Explanation\"></p>\n<p>दिया है $12+f_1+f_2=19$</p>\n<p>माध्यिका = 6</p>\n<p>$\\Rightarrow \\quad f_1+f_2=7$</p>\n<p>माध्यिका $=\\left(\\frac{N+1}{2}\\right)^{\\text {वाँ }}$ पद $=\\left(\\frac{19+1}{2}\\right)^{\\text {वाँ }}$ पद $=10^{\\text {वाँ }}$ पद</p>\n<p>$$ \\begin{aligned} &amp;\\Rightarrow \\quad 6+f_1=10 \\Rightarrow f_1=4 \\text { और } f_2=3 \\\\ &amp;\\therefore \\quad 7 f_1+9 f_2=7 \\times 4+9 \\times 3 \\\\ &amp;=55 \\Rightarrow P \\rightarrow 5 \\end{aligned} $$</p>\n<p>माध्य $(\\bar{X})=\\frac{\\Sigma f_i x_i}{\\Sigma f_i}=\\frac{133}{19}=7$</p>\n<p>$$ \\begin{aligned} &amp;\\text { माध्य के सापेक्ष माध्य विचलन }(\\alpha)=\\frac{\\Sigma f_i\\left|x_i-\\bar{x}\\right|}{\\Sigma f_i} \\\\ &amp;=\\frac{5(3)+4(2)+1(1)+3(1)+2(2)+3(4)+1(5)}{19}=\\frac{48}{19} \\\\ &amp;\\Rightarrow 19 \\alpha=48 \\quad Q \\rightarrow 3 \\end{aligned} $$</p>\n<p>माध्यिका के सापेक्ष माध्य विचलन $(\\beta)$</p>\n<p>$$ \\begin{aligned} &amp;=\\frac{\\Sigma f_i\\left|x_i-M\\right|}{\\Sigma f_i} \\\\ &amp;=\\frac{5(2)+4(1)+1(0)+3(2)+2(3)+3(5)+1(6)}{19} \\\\ &amp;=\\frac{47}{19} \\\\ &amp;19 \\beta=47 \\quad R \\rightarrow 2 \\end{aligned} $$</p>\n\n$\\begin{aligned} &amp;\\text { प्रसरण }\\left(\\sigma^2\\right)=\\frac{\\Sigma f_i f_i^2}{\\Sigma f_i}-(\\bar{X})^2 \\\\ &amp;=\\frac{5 \\times 16+4 \\times 25+1 \\times 36+3 \\times 64+2 \\times 81+3 \\times 121+1 \\times 144}{19}-(7)^2 \\\\ &amp;=\\frac{1077}{19}-49=\\frac{146}{19} \\\\ &amp;\\Rightarrow 19 \\sigma^2=146 \\\\ &amp;S \\rightarrow 1 \\\\ &amp;P \\rightarrow 5, Q \\rightarrow 3, R \\rightarrow 2, S \\rightarrow 1\\end{aligned}$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "calculation-of-standard-deviation-variance-and-mean-deviation-of-grouped-and-ungrouped-data",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Statistics • Mathematics",
+          "excerpt": "Consider the following frequency distribution:table {width: 100%;border-collapse: collapse;margin: 20px 0;} th {background-color: blue;color: white;border: 1px solid lightgrey;padding: 10px;} td {border: 1px solid lightgrey;padding: 10px;te..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Statistics • Mathematics",
+          "excerpt": "निम्नलिखित बारंबारता बंटन (frequency distribution) पर विचार कीजिये:\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hi..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "232zeg77k3h7vzy9mwnl",
+      "chapter": "statistics",
+      "chapterGroup": "algebra",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "consider-the-given-data-with-frequency-distributionbrbr-jee-advanced-mathematics-hxr7naernk8lmifx",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Consider the given data with frequency distribution<br/><br/>\n$$\n\\begin{array}{ccccccc}\nx_i & 3 & 8 & 11 & 10 & 5 & 4 \\\\\nf_i & 5 & 2 & 3 & 2 & 4 & 4\n\\end{array}\n$$<br/><br/>\nMatch each entry in <b>List-I</b> to the correct entries in <b>List-II</b>.<br/><br/>\n<style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-1wig\">List - I</th>\n    <th class=\"tg-1wig\">List - II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-0lax\">(P) The mean of the above data is</td>\n    <td class=\"tg-0lax\">(1) 2.5</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\">(Q) The median of the above data is</td>\n    <td class=\"tg-0lax\">(2) 5</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\">(R) The mean deviation about the mean of the above data is</td>\n    <td class=\"tg-0lax\">(3) 6</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\">(S) The mean deviation about the median of the above data is</td>\n    <td class=\"tg-0lax\">(4) 2.7</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\"></td>\n    <td class=\"tg-0lax\">(5) 2.4</td>\n  </tr>\n</tbody>\n</table><br/>\nThe correct option is: ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(2) ~~ (R) \\rightarrow(4) ~~ (S) \\rightarrow(5)$"
+            },
+            {
+              "identifier": "B",
+              "content": "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(2) ~~ (R) \\rightarrow(1) ~~ (S) \\rightarrow(5)$"
+            },
+            {
+              "identifier": "C",
+              "content": "$(P) \\rightarrow(2) ~~ (Q) \\rightarrow(3) ~~ (R) \\rightarrow(4) ~~ (S) \\rightarrow(1) $"
+            },
+            {
+              "identifier": "D",
+              "content": "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(3) ~~ (R) \\rightarrow(5) ~~ (S) \\rightarrow(5)$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline x_1 & f_i & f_i x_i & f_i\\left|x_i-\\bar{x}\\right| & f_i\\left|x_i-N\\right| \\\\\n\\hline 3 & 5 & 15 & 15 & 10 \\\\\n\\hline 4 & 4 & 16 & 8 & 4 \\\\\n\\hline 5 & 4 & 20 & 4 & 0 \\\\\n\\hline 8 & 2 & 16 & 4 & 6 \\\\\n\\hline 10 & 2 & 20 & 8 & 10 \\\\\n\\hline 11 & 3 & 33 & 15 & 18 \\\\\n\\hline & \\Sigma f_i=20 & \\Sigma f_i x_i=120 & \\text { sum }=54 & \\text { sum }=48 \\\\\n\\hline\n\\end{array}\n$$\n<br/><br/>(P) $\\quad$ Mean $=\\frac{\\Sigma f_i x_i}{\\Sigma f_i}=\\frac{120}{20}=6$\n<br/><br/>(Q)\n<br/><br/>$$\n\\begin{aligned}\n\\text { Median } & =\\frac{\\left(10^{\\text {th }}+11^{\\text {th }}\\right) \\text { observation }}{2} \\\\\\\\\n& =\\frac{5+5}{2}=5\n\\end{aligned}\n$$ \n<br/><br/>(both observation are same)\n<br/><br/>(R) Mean deviation\n<br/><br/>$$\n\\begin{aligned}\n& =\\frac{\\Sigma f_i\\left|x_i-\\bar{x}\\right|}{\\Sigma f_i}=\\frac{54}{20} \\\\\\\\\n& =2.7\n\\end{aligned}\n$$\n<br/><br/>(S) Mean deviation about median\n<br/><br/>$$\n\\begin{aligned}\n& =\\frac{\\Sigma f_i\\left|x_i-\\mathrm{M}\\right|}{\\Sigma f_i}=\\frac{48}{20} \\\\\\\\\n& =2.4\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "दिए गए निम्न आँकड़ों पर बारंबारता बंटन के साथ (data with frequency distribution) विचार करें।<br/><br/>\n$$\n\\begin{array}{ccccccc}\nx_i & 3 & 8 & 11 & 10 & 5 & 4 \\\\\nf_i & 5 & 2 & 3 & 2 & 4 & 4\n\\end{array}\n$$\n<br/><br/>\nList-I की प्रत्येक प्रविष्टि (entry) का List-II की सही प्रविष्टियों (entries) से मिलान कीजिये।<br/><br/>\n<style>\ntable {\n  font-family: Arial, sans-serif;\n  border-collapse: collapse;\n  width: 100%;\n}\ntd, th {\n  border: 1px solid #dddddd;\n  text-align: left;\n  padding: 8px;\n}\nth {\n  background-color: blue;\ncolor: white;\n}\n</style>\n<table>\n  <tr>\n    <th>List-I</th>\n    <th>List-II</th>\n  </tr>\n  <tr>\n    <td>(P) उपरोक्त आँकड़ों का माध्य (mean) है</td>\n    <td>(1) 2.5</td>\n  </tr>\n  <tr>\n    <td>(Q) उपरोक्त आँकड़ों की माध्यिका (median) है</td>\n    <td>(2) 5</td>\n  </tr>\n  <tr>\n    <td>(R) उपरोक्त आँकड़ों का माध्य के सापेक्ष माध्य विचलन (mean deviation about the mean) है</td>\n    <td>(3) 6</td>\n  </tr>\n  <tr>\n    <td>(S) उपरोक्त आँकड़ों का माध्यिका के सापेक्ष माध्य विचलन (mean deviation about the median) है</td>\n    <td>(4) 2.7</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>(5) 2.4</td>\n  </tr>\n</table>\n<br/>\nसही विकल्प है:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(2) ~~ (R) \\rightarrow(4) ~~ (S) \\rightarrow(5)$"
+            },
+            {
+              "identifier": "B",
+              "content": "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(2) ~~ (R) \\rightarrow(1) ~~ (S) \\rightarrow(5)$"
+            },
+            {
+              "identifier": "C",
+              "content": "$(P) \\rightarrow(2) ~~ (Q) \\rightarrow(3) ~~ (R) \\rightarrow(4) ~~ (S) \\rightarrow(1) $"
+            },
+            {
+              "identifier": "D",
+              "content": "$(P) \\rightarrow(3) ~~ (Q) \\rightarrow(3) ~~ (R) \\rightarrow(5) ~~ (S) \\rightarrow(5)$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline x_1 & f_i & f_i x_i & f_i\\left|x_i-\\bar{x}\\right| & f_i\\left|x_i-N\\right| \\\\\n\\hline 3 & 5 & 15 & 15 & 10 \\\\\n\\hline 4 & 4 & 16 & 8 & 4 \\\\\n\\hline 5 & 4 & 20 & 4 & 0 \\\\\n\\hline 8 & 2 & 16 & 4 & 6 \\\\\n\\hline 10 & 2 & 20 & 8 & 10 \\\\\n\\hline 11 & 3 & 33 & 15 & 18 \\\\\n\\hline & \\Sigma f_i=20 & \\Sigma f_i x_i=120 & \\text { योग }=54 & \\text { योग }=48 \\\\\n\\hline\n\\end{array}\n$$\n<br/><br/>(P) $\\quad$ माध्य $=\\frac{\\Sigma f_i x_i}{\\Sigma f_i}=\\frac{120}{20}=6$\n<br/><br/>(Q)\n<br/><br/>$$\n\\begin{aligned}\n\\text { माध्यिका } & =\\frac{\\left(10^{\\text {वाँ }}+11^{\\text {वाँ }}\\right) \\text { प्रेक्षण }}{2} \\\\\\\\\n& =\\frac{5+5}{2}=5\n\\end{aligned}\n$$ \n<br/><br/>(दोनों प्रेक्षण समान हैं)\n<br/><br/>(R) माध्य विचलन\n<br/><br/>$$\n\\begin{aligned}\n& =\\frac{\\Sigma f_i\\left|x_i-\\bar{x}\\right|}{\\Sigma f_i}=\\frac{54}{20} \\\\\\\\\n& =2.7\n\\end{aligned}\n$$\n<br/><br/>(S) माध्यिका के सापेक्ष माध्य विचलन\n<br/><br/>$$\n\\begin{aligned}\n& =\\frac{\\Sigma f_i\\left|x_i-\\mathrm{M}\\right|}{\\Sigma f_i}=\\frac{48}{20} \\\\\\\\\n& =2.4\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 180000,
+      "topic": "calculation-of-standard-deviation-variance-and-mean-deviation-of-grouped-and-ungrouped-data",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Statistics • Mathematics",
+          "excerpt": "Consider the given data with frequency distribution\n$$\n\\begin{array}{ccccccc}\nx_i & 3 & 8 & 11 & 10 & 5 & 4 \\\\\nf_i & 5 & 2 & 3 & 2 & 4 & 4\n\\end{array}\n$$\nMatch each entry in List-I to the correct entries in List-II.\n\n.tg  {border-collapse:c..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Statistics • Mathematics",
+          "excerpt": "दिए गए निम्न आँकड़ों पर बारंबारता बंटन के साथ (data with frequency distribution) विचार करें।\n$$\n\\begin{array}{ccccccc}\nx_i & 3 & 8 & 11 & 10 & 5 & 4 \\\\\nf_i & 5 & 2 & 3 & 2 & 4 & 4\n\\end{array}\n$$\n\nList-I की प्रत्येक प्रविष्टि (entry) का List..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    }
+  ]
+}

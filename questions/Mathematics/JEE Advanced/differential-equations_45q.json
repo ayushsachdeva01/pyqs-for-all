@@ -1,0 +1,3055 @@
+{
+  "questions": [
+    {
+      "question_id": "jbzv1rj3tl34ouxhiepu",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "plet-by---infty-infty-to-0-inftyb-be-the-jee-advanced-mathematics-o8ibsthgkwiszaxg",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let <b>$y : (-\\infty, \\infty) \\to (0, \\infty)$</b> be the solution of the differential equation</p>\n<p>$$\\frac{dy}{dx} = \\frac{e^{5x} y^3 + y^3}{e^x + e^x y^4},$$</p>\n<p>satisfying $y(0) = \\frac{1}{\\sqrt{2}}$. Then the value of $y(\\log_e 2)$ is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$\\sqrt{\\frac{5 + \\sqrt{35}}{2}}$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$\\sqrt{\\frac{7 + \\sqrt{53}}{2}}$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\frac{7 + \\sqrt{53}}{2}$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$\\frac{5 + \\sqrt{35}}{2}$</p>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>$$I=\\int\\limits_{0}^{2} \\frac{1}{3+3^x}\\,dx \\quad \\ldots\\ (1)$$</p>\n<p>$$I=\\int\\limits_{0}^{2} \\frac{1}{3+3^{2-x}}\\,dx \\quad \\ldots\\ (2)$$</p>\n<p>Adding (1) and (2)</p>\n<p>$$2I=\\int\\limits_{0}^{2} \\left(\\frac{1}{3+3^x}+\\frac{3^x}{3(3+3^x)}\\right)dx$$</p>\n<p>$$2I=\\int\\limits_{0}^{2} \\left(\\frac{3+3^x}{3(3+3^x)}\\right)dx$$</p>\n<p>$$2I=\\int\\limits_{0}^{2} \\frac{1}{3}\\,dx$$</p>\n<p>$$2I=\\frac{1}{3}[x]_{0}^{2}$$</p>\n<p>$$2I=\\frac{2}{3}$$</p>\n<p>$$\\Rightarrow I=\\frac{1}{3}$$</p>\n<p>$$\\Rightarrow \\text{Option (B) is correct.}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 180000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "type": "mcq",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $y : (-\\infty, \\infty) \\to (0, \\infty)$ be the solution of the differential equation\n$$\\frac{dy}{dx} = \\frac{e^{5x} y^3 + y^3}{e^x + e^x y^4},$$\nsatisfying $y(0) = \\frac{1}{\\sqrt{2}}$. Then the value of $y(\\log_e 2)$ is"
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "tw43y25mzomd3au4o7vl",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "plet-y--fx-be-the-real-valued-function-defined-on-the-jee-advanced-mathematics-uos5lhqxlmiqfqpg",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $y = f(x)$ be the real valued function defined on the interval $(0, \\infty)$, satisfying $y(1) = 0$ and the differential equation</p><p>$$ x \\frac{dy}{dx} = y - x^3. $$</p><p>Then which of the following statements is (are) TRUE?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>The function $f$ has a local minimum at $x = \\frac{1}{\\sqrt{3}}$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>The function $f$ has a local maximum at $x = \\frac{1}{\\sqrt{3}}$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>The function $f$ is increasing in the interval $(1, 2)$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>If $g(x) = 4x^3 - 5x^2 + \\frac{3}{2}x$ for $x > 0$, then the number of elements in the set $$ \\{x \\in (0, \\infty) : f(x) = g(x) \\} $$<br>is $2$</p>"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>We start with the differential equation:</p>\n<p>$$ x \\, dy - y \\, dx = -x^3 \\, dx $$</p>\n<p>Divide both sides by $ x^2 $ to simplify:</p>\n<p>$$ \\frac{x \\, dy - y \\, dx}{x^2} = -x \\, dx $$</p>\n<p>The left side can be written as the derivative of a quotient:</p>\n<p>$$ d\\left( \\frac{y}{x} \\right) = -x \\, dx $$</p>\n<p>Now, integrate both sides:</p>\n<p>$$ \\frac{y}{x} = -\\frac{x^2}{2} + c $$</p>\n<p>Multiply by $ x $ to find $ y $:</p>\n<p>$$ y = -\\frac{x^3}{2} + c x $$</p>\n<p>We are given $ y(1) = 0 $. Substitute $ x = 1 $ and $ y = 0 $:</p>\n<p>$$ 0 = -\\frac{1}{2} + c \\Rightarrow c = \\frac{1}{2} $$</p>\n<p>Hence, the function becomes:</p>\n<p>$$ y = -\\frac{x^3}{2} + \\frac{x}{2} $$</p>\n<p>Differentiate $ y $ with respect to $ x $:</p>\n<p>$$ \\frac{dy}{dx} = -\\frac{3x^2}{2} + \\frac{1}{2} $$</p>\n<p>We can factorize this as:</p>\n<p>$$ \\frac{dy}{dx} = -\\frac{3}{2}\\left( x - \\frac{1}{\\sqrt{3}} \\right)\\left( x + \\frac{1}{\\sqrt{3}} \\right) $$</p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Mathematics - Differential Equations Question 1 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpck3saa/97d32557-d133-4862-a6f2-326c1bd4334c/d7b97d20-5376-11f1-aed4-773fcb3828ea/file-6y3zli1mpck3sab.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpck3saa/97d32557-d133-4862-a6f2-326c1bd4334c/d7b97d20-5376-11f1-aed4-773fcb3828ea/file-6y3zli1mpck3sab.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>At $ x = \\frac{1}{\\sqrt{3}} $, the derivative changes from positive to negative, so there is a local maximum.</p>\n<p>At $ x = -\\frac{1}{\\sqrt{3}} $, the derivative changes from negative to positive, so there is a local minimum.</p>\n<p>For $ g(x) = f(x) $:</p>\n<p>$$ 4x^3 - 5x^2 + \\frac{3}{2}x = -\\frac{x^3}{2} + \\frac{x}{2} $$</p>\n<p>Multiply through to remove fractions and simplify:</p>\n<p>$$ 9x^3 - 10x^2 + 2x = 0 $$</p>\n<p>Take $ x $ common:</p>\n<p>$$ x(9x^2 - 10x + 2) = 0 $$</p>\n<p>So, $ x = 0 $ or $ 9x^2 - 10x + 2 = 0 $.</p>\n<p>Using the quadratic formula:</p>\n<p>$$ x = \\frac{5 \\pm \\sqrt{7}}{9} $$</p>\n<p>Both these solutions are positive.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "linear-differential-equations",
+      "type": "mcqm",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $y = f(x)$ be the real valued function defined on the interval $(0, \\infty)$, satisfying $y(1) = 0$ and the differential equation$$ x \\frac{dy}{dx} = y - x^3. $$Then which of the following statements is (are) TRUE?"
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "1uxthjfgr6a22818jgma",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "plet-yx-be-the-solution-of-the-differential-equation-jee-advanced-mathematics-kyudphba4cwhjhki",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $y(x)$ be the solution of the differential equation</p>\n<p>$$ x^2 \\frac{d y}{d x}+x y=x^2+y^2, \\quad x>\\frac{1}{e} $$</p>\n<p>satisfying $y(1)=0$. Then the value of $2 \\frac{(y(e))^2}{y\\left(e^2\\right)}$ is ____________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.7TO0.8",
+          "explanation": "<p>$\\frac{d y}{d x}+\\frac{y}{x}=\\frac{x^2}{x^2}+\\frac{y^2}{x^2}$</p>\n<p>$\\begin{aligned} & \\frac{d y}{d x}+\\frac{y}{x}=1+\\left(\\frac{y}{x}\\right)^2 \\\\ & \\text { Let } \\frac{y}{x}=t \\\\ & y=x t \\\\ & \\frac{d y}{d x}=x \\frac{d t}{d x}+t \\\\ & \\therefore x \\frac{d t}{d x}+t+t=1+t^2 \\\\ & \\Rightarrow x \\frac{d t}{d x}+2 t=1+t^2 \\\\ & \\Rightarrow x \\frac{d t}{d x}+t^2+1-2 t \\\\ & \\Rightarrow x \\frac{d t}{d x}=(t-1)^2 \\\\ & \\Rightarrow \\frac{d t}{(t-1)^2}=\\frac{d x}{x}\\end{aligned}$</p>\n<p>Integrating both sides</p>\n<p>$$ \\begin{aligned} & \\Rightarrow \\int \\frac{d t}{(t-1)^2}=\\int \\frac{d x}{x} \\\\ & \\Rightarrow \\frac{-1}{(t-1)}=\\ln x+C \\\\ & \\Rightarrow \\frac{-1}{\\frac{y}{x}-1}=\\ln x+C \\\\ & \\Rightarrow \\frac{-x}{y-x}=\\ln x+C \\end{aligned} $$</p>\n<p>Given $y(1)=0$</p>\n<p>$$ \\begin{aligned} & 1=C \\\\ & \\Rightarrow \\frac{-x}{y-x}=\\ln x+1 ..........(i)\\end{aligned} $$</p>\n<p>$\\therefore $ Put $x=e$</p>\n<p>$\\begin{aligned} & \\frac{-e}{y-e}=1+1 \\\\ & \\Rightarrow-e=2(y-e) \\\\ & \\Rightarrow e=2(e-y) \\\\ & \\Rightarrow \\frac{e}{2}=e-y \\\\ & \\Rightarrow y=e-\\frac{e}{2} \\Rightarrow \\frac{e}{2} \\Rightarrow y=\\frac{e}{2} \\\\ & \\text { Put } x=e^2 \\text { in (i) } \\\\ & \\Rightarrow \\frac{-e^2}{y-e^2}=2+1\\end{aligned}$</p>\n<p>$\\begin{aligned} & \\Rightarrow-e^2=3\\left(y-e^2\\right) \\\\ & \\Rightarrow-e^2=3 y-3 e^2 \\\\ & \\Rightarrow 2 e^2=3 y \\\\ & \\Rightarrow y=\\frac{2}{3} e^2 \\\\ & \\therefore \\frac{2(y(e))^2}{y\\left(e^2\\right)}=2 \\frac{\\left(\\frac{e}{2}\\right)^2}{\\frac{2}{3} e^2} \\\\ & \\Rightarrow \\frac{\\frac{1}{2}}{\\frac{2}{3}}=\\frac{3}{4}=00.75\\end{aligned}$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>मान लीजिए कि $y(x)$, अवकल समीकरण (differential equation)</p>\n<p>$$x^2 \\frac{d y}{d x}+x y=x^2+y^2, \\quad x>\\frac{1}{e}$$</p>\n<p>का वह हल (solution) है जो $y(1)=0$ को संतुष्ट करता है। तब $2 \\frac{(y(e))^2}{y\\left(e^2\\right)}$ का मान __________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.7TO0.8",
+          "explanation": "<p>$\\frac{d y}{d x}+\\frac{y}{x}=\\frac{x^2}{x^2}+\\frac{y^2}{x^2}$</p>\n<p>$\\begin{aligned} & \\frac{d y}{d x}+\\frac{y}{x}=1+\\left(\\frac{y}{x}\\right)^2 \\\\ & \\text { माना } \\frac{y}{x}=t \\\\ & y=x t \\\\ & \\frac{d y}{d x}=x \\frac{d t}{d x}+t \\\\ & \\therefore x \\frac{d t}{d x}+t+t=1+t^2 \\\\ & \\Rightarrow x \\frac{d t}{d x}+2 t=1+t^2 \\\\ & \\Rightarrow x \\frac{d t}{d x}+t^2+1-2 t \\\\ & \\Rightarrow x \\frac{d t}{d x}=(t-1)^2 \\\\ & \\Rightarrow \\frac{d t}{(t-1)^2}=\\frac{d x}{x}\\end{aligned}$</p>\n<p>दोनों पक्षों का समाकलन करने पर</p>\n<p>$$ \\begin{aligned} & \\Rightarrow \\int \\frac{d t}{(t-1)^2}=\\int \\frac{d x}{x} \\\\ & \\Rightarrow \\frac{-1}{(t-1)}=\\ln x+C \\\\ & \\Rightarrow \\frac{-1}{\\frac{y}{x}-1}=\\ln x+C \\\\ & \\Rightarrow \\frac{-x}{y-x}=\\ln x+C \\end{aligned} $$</p>\n<p>दिया गया है $y(1)=0$</p>\n<p>$$ \\begin{aligned} & 1=C \\\\ & \\Rightarrow \\frac{-x}{y-x}=\\ln x+1 ..........(i)\\end{aligned} $$</p>\n<p>$\\therefore $ रखने पर $x=e$</p>\n<p>$\\begin{aligned} & \\frac{-e}{y-e}=1+1 \\\\ & \\Rightarrow-e=2(y-e) \\\\ & \\Rightarrow e=2(e-y) \\\\ & \\Rightarrow \\frac{e}{2}=e-y \\\\ & \\Rightarrow y=e-\\frac{e}{2} \\Rightarrow \\frac{e}{2} \\Rightarrow y=\\frac{e}{2} \\\\ & \\text { (i) में } x=e^2 \\text { रखने पर } \\\\ & \\Rightarrow \\frac{-e^2}{y-e^2}=2+1\\end{aligned}$</p>\n<p>$\\begin{aligned} & \\Rightarrow-e^2=3\\left(y-e^2\\right) \\\\ & \\Rightarrow-e^2=3 y-3 e^2 \\\\ & \\Rightarrow 2 e^2=3 y \\\\ & \\Rightarrow y=\\frac{2}{3} e^2 \\\\ & \\therefore \\frac{2(y(e))^2}{y\\left(e^2\\right)}=2 \\frac{\\left(\\frac{e}{2}\\right)^2}{\\frac{2}{3} e^2} \\\\ & \\Rightarrow \\frac{\\frac{1}{2}}{\\frac{2}{3}}=\\frac{3}{4}=00.75\\end{aligned}$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $y(x)$ be the solution of the differential equation\n$$ x^2 \\frac{d y}{d x}+x y=x^2+y^2, \\quad x>\\frac{1}{e} $$\nsatisfying $y(1)=0$. Then the value of $2 \\frac{(y(e))^2}{y\\left(e^2\\right)}$ is ____________."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "मान लीजिए कि $y(x)$, अवकल समीकरण (differential equation)\n$$x^2 \\frac{d y}{d x}+x y=x^2+y^2, \\quad x>\\frac{1}{e}$$\nका वह हल (solution) है जो $y(1)=0$ को संतुष्ट करता है। तब $2 \\frac{(y(e))^2}{y\\left(e^2\\right)}$ का मान __________ है।"
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "0o87cl5t498u1oj9psmc",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pfor-all-bx-gt-0b-let-byxb-byxb-jee-advanced-mathematics-5dvyi1ghgeobydto",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>For all <b>x &gt; 0</b>, let <b>y₁(x)</b>, <b>y₂(x)</b>, and <b>y₃(x)</b> be the functions satisfying</p>\n<p>$ \\frac{dy_1}{dx} - (\\sin x)^2 y_1 = 0, \\quad y_1(1) = 5, $ <br><br/>$ \\frac{dy_2}{dx} - (\\cos x)^2 y_2 = 0, \\quad y_2(1) = \\frac{1}{3}, $ <br><br/>$ \\frac{dy_3}{dx} - \\frac{(2-x^3)}{x^3} y_3 = 0, \\quad y_3(1) = \\frac{3}{5e}, $</p>\n<p>respectively. Then</p>\n<p>$ \\lim\\limits_{x \\to 0^+} \\frac{y_1(x)y_2(x)y_3(x) + 2x}{e^{3x} \\sin x} $</p>\n<p>is equal to __________________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": null
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>सभी $x>0$ के लिए, मान लीजिए कि $y_1(x), y_2(x)$, और $y_3(x)$ इस प्रकार के फलन (functions) हैं जो क्रमशः</p>\n<p>$$\\begin{aligned}\n& \\frac{d y_1}{d x}-(\\sin x)^2 y_1=0, \\quad y_1(1)=5 \\\\\n& \\frac{d y_2}{d x}-(\\cos x)^2 y_2=0, \\quad y_2(1)=\\frac{1}{3} \\\\\n& \\frac{d y_3}{d x}-\\left(\\frac{2-x^3}{x^3}\\right) y_3=0, \\quad y_3(1)=\\frac{3}{5 e}\n\\end{aligned}$$</p>\n<p>को संतुष्ट करते हैं। तब</p>\n<p>$$\\lim _{x \\rightarrow 0^{+}} \\frac{y_1(x) y_2(x) y_3(x)+2 x}{e^{3 x} \\sin (x)}$$</p>\n<p>बराबर _______ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "For all x > 0, let y₁(x), y₂(x), and y₃(x) be the functions satisfying\n$ \\frac{dy_1}{dx} - (\\sin x)^2 y_1 = 0, \\quad y_1(1) = 5, $ $ \\frac{dy_2}{dx} - (\\cos x)^2 y_2 = 0, \\quad y_2(1) = \\frac{1}{3}, $ $ \\frac{dy_3}{dx} - \\frac{(2-x^3)}{x^3}..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "सभी $x>0$ के लिए, मान लीजिए कि $y_1(x), y_2(x)$, और $y_3(x)$ इस प्रकार के फलन (functions) हैं जो क्रमशः\n$$\\begin{aligned}\n& \\frac{d y_1}{d x}-(\\sin x)^2 y_1=0, \\quad y_1(1)=5 \\\\\n& \\frac{d y_2}{d x}-(\\cos x)^2 y_2=0, \\quad y_2(1)=\\frac{1}{3}..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "jiyfnxixjf0454strjgq",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-1-online",
+      "paperTitle": "JEE Advanced 2024 Paper 1 Online",
+      "permalink": "plet-fx-be-a-continuously-differentiable-function-on-t-jee-advanced-mathematics-ozf8b8rnxtxogb0r",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Let $f(x)$ be a continuously differentiable function on the interval $(0, \\infty)$ such that $f(1)=2$ and</p>\n\n<p>$$ \\lim\\limits_{t \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1 $$</p>\n\n<p>for each $x>0$. Then, for all $x>0, f(x)$ is equal to :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{31}{11 x}-\\frac{9}{11} x^{10}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{9}{11 x}+\\frac{13}{11} x^{10}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{-9}{11 x}+\\frac{31}{11} x^{10}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{13}{11 x}+\\frac{9}{11} x^{10}$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>$$ \\begin{aligned} & \\lim _{1 \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1 \\\\\\\\ & \\Rightarrow \\lim _{1 \\rightarrow x} \\frac{10 t^9 f(x)-x^{10} f^{\\prime}(t)}{9 t^8}=1 \\\\\\\\ & \\Rightarrow 10 x f(x)-x^2 f^{\\prime}(x)=9 \\\\\\\\ & \\Rightarrow x^2 f^{\\prime}(x)=10 x f(x)-9 \\\\\\\\ & \\Rightarrow f^{\\prime}(x)=\\frac{10 f(x)}{x}-\\frac{9}{x^2} \\\\\\\\ & \\Rightarrow \\frac{d y}{d x}-\\frac{10}{x} y=-\\frac{9}{x^2} \\\\\\\\ & \\Rightarrow y \\cdot \\frac{1}{x^{10}}=\\int-\\frac{9}{x^2} \\cdot \\frac{1}{x^{10}} d x \\\\\\\\ & \\Rightarrow \\frac{y}{x^{10}}=\\frac{9}{11 x^{11}}+c \\\\\\\\ & \\because f(1)=2 \\Rightarrow \\frac{2}{1}=\\frac{9}{11}+c \\Rightarrow c=\\frac{13}{11} \\\\\\\\ & \\therefore f(x)=\\frac{9}{11 x}+\\frac{13}{11} x^{10} \\end{aligned} $$</p>\n\n<p>$\\Rightarrow$ Option (B) is correct.</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>माना कि $f(x)$, अंतराल (interval) $(0, \\infty)$ में सांतत्य रूप से अवकलनीय (continuously differentiable) एक इस प्रकार का फलन (function) है कि $f(1)=2$, तथा प्रत्येक $x>0$ के लिए</p>\n\n<p>$$ \\lim \\limits_{t \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1 $$</p>\n\n<p>है। तब सभी $x>0$ के लिए, $f(x)$ बराबर है</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{31}{11 x}-\\frac{9}{11} x^{10}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{9}{11 x}+\\frac{13}{11} x^{10}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{-9}{11 x}+\\frac{31}{11} x^{10}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{13}{11 x}+\\frac{9}{11} x^{10}$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>$$ \\begin{aligned} & \\lim _{1 \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1 \\\\\\\\ & \\Rightarrow \\lim _{1 \\rightarrow x} \\frac{10 t^9 f(x)-x^{10} f^{\\prime}(t)}{9 t^8}=1 \\\\\\\\ & \\Rightarrow 10 x f(x)-x^2 f^{\\prime}(x)=9 \\\\\\\\ & \\Rightarrow x^2 f^{\\prime}(x)=10 x f(x)-9 \\\\\\\\ & \\Rightarrow f^{\\prime}(x)=\\frac{10 f(x)}{x}-\\frac{9}{x^2} \\\\\\\\ & \\Rightarrow \\frac{d y}{d x}-\\frac{10}{x} y=-\\frac{9}{x^2} \\\\\\\\ & \\Rightarrow y \\cdot \\frac{1}{x^{10}}=\\int-\\frac{9}{x^2} \\cdot \\frac{1}{x^{10}} d x \\\\\\\\ & \\Rightarrow \\frac{y}{x^{10}}=\\frac{9}{11 x^{11}}+c \\\\\\\\ & \\because f(1)=2 \\Rightarrow \\frac{2}{1}=\\frac{9}{11}+c \\Rightarrow c=\\frac{13}{11} \\\\\\\\ & \\therefore f(x)=\\frac{9}{11 x}+\\frac{13}{11} x^{10} \\end{aligned} $$</p>\n\n<p>$\\Rightarrow$ विकल्प (B) सही है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 180000,
+      "topic": "linear-differential-equations",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $f(x)$ be a continuously differentiable function on the interval $(0, \\infty)$ such that $f(1)=2$ and\n\n$$ \\lim\\limits_{t \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(t)}{t^9-x^9}=1 $$\n\nfor each $x>0$. Then, for all $x>0, f(x)$ is equal to ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "माना कि $f(x)$, अंतराल (interval) $(0, \\infty)$ में सांतत्य रूप से अवकलनीय (continuously differentiable) एक इस प्रकार का फलन (function) है कि $f(1)=2$, तथा प्रत्येक $x>0$ के लिए\n\n$$ \\lim \\limits_{t \\rightarrow x} \\frac{t^{10} f(x)-x^{10} f(..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-1-online"
+    },
+    {
+      "question_id": "8seez3a97rbvkonkhdif",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "let-f1-infty-rightarrow-mathbbr-be-a-differentiab-jee-advanced-mathematics-fjr93h0sgkgxws5w",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Let $f:[1, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f(1)=\\frac{1}{3}$ and $3 \\int\\limits_1^x f(t) d t=x f(x)-\\frac{x^3}{3}, x \\in[1, \\infty)$. Let $e$ denote the base of the natural logarithm. Then the value of $f(e)$ is :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{e^2+4}{3}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{\\log _e 4+e}{3}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{4 e^2}{3}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{e^2-4}{3}$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "1. We are given a relationship between the integral of the function $f(t)$ and the function $f(x)$ :\n <br/><br/>  $$3 \\int\\limits_1^x f(t) d t=x f(x)-\\frac{x^3}{3}, x \\in[1, \\infty)$$\n\n<br/><br/>2. Differentiate both sides of the above equation with respect to $x$ :\n<br/><br/>$$\n3(f(x) \\cdot 1-0)=1 . f(x)+x f^{\\prime}(x)-\\frac{3 x^2}{3}\n$$\n\n  <br/><br/>$$ \\Rightarrow $$ $$3f(x) = f(x) + xf'(x) - x^2$$\n  <br/><br/>$$ \\Rightarrow $$ $$2f(x) = xf'(x) - x^2$$\n\n<br/><br/>3. We can rewrite this as a first order linear differential equation:\n\n  <br/><br/> $$xf'(x) - 2f(x) = x^2$$\n\n<br/><br/>4. The general form of a first order linear differential equation is:\n\n   <br/><br/>$$y'(x) + p(x)y = q(x)$$\n   \n <br/><br/>  Here $y = f(x)$, $p(x) = -\\frac{2}{x}$, and $q(x) = x$.\n\n<br/><br/>5. The integrating factor is obtained by exponentiating the integral of $p(x)$ with respect to $x$:\n\n  <br/><br/> $$e^{\\int p(x) dx} = e^{\\int -\\frac{2}{x} dx} = e^{-2\\ln|x|} = \\frac{1}{x^2}$$\n<br/><br/>6. $$ \\therefore $$ Solution of D.E :\n<br/><br/>$$\n\\begin{gathered}\ny \\cdot\\left(\\frac{1}{x^2}\\right)=\\int(x) \\frac{1}{x^2} d x \\\\\\\\\n\\frac{y}{x^2}=\\ln x+c \\\\\\\\\ny=x^2  ln x+c x^2\n\\end{gathered}\n$$\n<br/><br/>$$ \\therefore $$ The general solution is :\n\n<br/><br/>$$y(x) = x^2(\\ln x + c)$$\n\n<br/><br/>Here, $y(x)$ is the same as $f(x)$, i.e. the function we're trying to find. \n\n<br/><br/>7. Given that $f(1) = \\frac{1}{3}$, let's use this condition to find the constant $c$ :\n\n<br/><br/>$$\\frac{1}{3} = 1^2(\\ln 1 + c) \\Rightarrow c = \\frac{1}{3}$$\n\n<br/><br/>Therefore, the function $f(x)$ we are looking for is:\n\n<br/><br/>$$f(x) = x^2(\\ln x + \\frac{1}{3})$$\n\n<br/><br/>We want to find $f(e)$, so substituting $x=e$ into the function, we get :\n\n<br/><br/>$$f(e) = e^2(\\ln e + \\frac{1}{3}) = e^2(1 + \\frac{1}{3}) = \\frac{4e^2}{3}$$\n\n<br/><br/>So, the correct answer is \n\n<br/><br/>Option C : $\\frac{4e^2}{3}$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "माना कि $f:[1, \\infty) \\rightarrow \\mathbb{R}$ एक अवकलनीय (differentiable) फलन इस प्रकार है कि $f(1)=\\frac{1}{3}$ है एवं $x \\in[1, \\infty)$ के लिए $3 \\int_1^x f(t) d t=x f(x)-\\frac{x^3}{3}$ है। माना कि $e$ प्राकृतिक लघुगणक के आधार (base of the natural logarithm) को निरूपित करता है। तब $f(e)$ का मान है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{e^2+4}{3}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{\\log _e 4+e}{3}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{4 e^2}{3}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{e^2-4}{3}$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "1. हमें फलन $f(t)$ के समाकलन और फलन $f(x)$ के बीच एक संबंध दिया गया है:\n <br/><br/>  $$3 \\int\\limits_1^x f(t) d t=x f(x)-\\frac{x^3}{3}, x \\in[1, \\infty)$$\n\n<br/><br/>2. उपरोक्त समीकरण के दोनों पक्षों का $x$ के सापेक्ष अवकलन कीजिए:\n<br/><br/>$$\n3(f(x) \\cdot 1-0)=1 . f(x)+x f^{\\prime}(x)-\\frac{3 x^2}{3}\n$$\n\n  <br/><br/>$$ \\Rightarrow $$ $$3f(x) = f(x) + xf'(x) - x^2$$\n  <br/><br/>$$ \\Rightarrow $$ $$2f(x) = xf'(x) - x^2$$\n\n<br/><br/>3. हम इसे प्रथम कोटि के रैखिक अवकल समीकरण के रूप में पुनः लिख सकते हैं:\n\n  <br/><br/> $$xf'(x) - 2f(x) = x^2$$\n\n<br/><br/>4. प्रथम कोटि के रैखिक अवकल समीकरण का व्यापक रूप है:\n\n   <br/><br/>$$y'(x) + p(x)y = q(x)$$\n   \n <br/><br/>  यहाँ $y = f(x)$, $p(x) = -\\frac{2}{x}$, और $q(x) = x$.\n\n<br/><br/>5. समाकलन गुणक $p(x)$ के $x$ के सापेक्ष समाकलन के घातांकीकरण द्वारा प्राप्त होता है:\n\n  <br/><br/> $$e^{\\int p(x) dx} = e^{\\int -\\frac{2}{x} dx} = e^{-2\\ln|x|} = \\frac{1}{x^2}$$\n<br/><br/>6. $$ \\therefore $$ अवकल समीकरण का हल:\n<br/><br/>$$\n\\begin{gathered}\ny \\cdot\\left(\\frac{1}{x^2}\\right)=\\int(x) \\frac{1}{x^2} d x \\\\\\\\\n\\frac{y}{x^2}=\\ln x+c \\\\\\\\\ny=x^2  ln x+c x^2\n\\end{gathered}\n$$\n<br/><br/>$$ \\therefore $$ व्यापक हल है:\n\n<br/><br/>$$y(x) = x^2(\\ln x + c)$$\n\n<br/><br/>यहाँ, $y(x)$ वही है जो $f(x)$ है, अर्थात् वह फलन जिसे हम ज्ञात करने का प्रयास कर रहे हैं।\n\n<br/><br/>7. दिया गया है कि $f(1) = \\frac{1}{3}$, आइए इस प्रतिबंध का उपयोग अचर $c$ ज्ञात करने के लिए करें:\n\n<br/><br/>$$\\frac{1}{3} = 1^2(\\ln 1 + c) \\Rightarrow c = \\frac{1}{3}$$\n\n<br/><br/>अतः, फलन $f(x)$ जिसे हम खोज रहे हैं वह है:\n\n<br/><br/>$$f(x) = x^2(\\ln x + \\frac{1}{3})$$\n\n<br/><br/>हम $f(e)$ ज्ञात करना चाहते हैं, इसलिए फलन में $x=e$ प्रतिस्थापित करने पर, हमें मिलता है:\n\n<br/><br/>$$f(e) = e^2(\\ln e + \\frac{1}{3}) = e^2(1 + \\frac{1}{3}) = \\frac{4e^2}{3}$$\n\n<br/><br/>अतः, सही उत्तर है\n\n<br/><br/>विकल्प C : $\\frac{4e^2}{3}$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 180000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $f:[1, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f(1)=\\frac{1}{3}$ and $3 \\int\\limits_1^x f(t) d t=x f(x)-\\frac{x^3}{3}, x \\in[1, \\infty)$. Let $e$ denote the base of the natural logarithm. Then the value o..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "माना कि $f:[1, \\infty) \\rightarrow \\mathbb{R}$ एक अवकलनीय (differentiable) फलन इस प्रकार है कि $f(1)=\\frac{1}{3}$ है एवं $x \\in[1, \\infty)$ के लिए $3 \\int_1^x f(t) d t=x f(x)-\\frac{x^3}{3}$ है। माना कि $e$ प्राकृतिक लघुगणक के आधार (base of ..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "pynyn7xafdhca8xdtj85",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "for-x-in-mathbbr-let-yx-be-a-solution-of-the-diff-jee-advanced-mathematics-7y3bandk0l5fcp2g",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "For $x \\in \\mathbb{R}$, let $y(x)$ be a solution of the differential equation \n<br/><br/>$\\left(x^2-5\\right) \\frac{d y}{d x}-2 x y=-2 x\\left(x^2-5\\right)^2$ such that $y(2)=7$. \n<br/><br/>Then the maximum value of the function $y(x)$ is :",
+          "options": [],
+          "correct_options": [],
+          "answer": "16",
+          "explanation": "$\\begin{aligned} &amp;\\left(x^2-5\\right) \\frac{d y}{d x}-2 x y  =-2 x\\left(x^2-5\\right)^2 \\\\ \\\\&amp; \\Rightarrow  \\frac{d y}{d x}-\\frac{2 x}{\\left(x^2-5\\right)} y=-2 x\\left(x^2-5\\right)\\end{aligned}$\n<br><br>I.F. $=e^{-\\int \\frac{2 x}{x^2-5} d x}=\\frac{1}{\\left(x^2-5\\right)}$\n<br><br>Now\n<br><br>$$\n\\begin{aligned}\ny \\cdot \\frac{1}{\\left(x^2-5\\right)} &amp; =-\\int 2 x d x \\\\\\\\\n&amp; =-x^2+c\n\\end{aligned}\n$$\n<br><br>$\\begin{array}{rlrl} &amp;\\Rightarrow  y  =c\\left(x^2-5\\right)-x^2\\left(x^2-5\\right) \\\\\\\\  &amp; y(2)  =7 \\\\\\\\ &amp;\\Rightarrow 7  =-c+4 \\\\\\\\ &amp;\\Rightarrow  c=-3\\end{array}$\n<br><br>So,\n<br><br>$$\n\\begin{aligned}\ny &amp; =\\left(x^2-5\\right)\\left(-x^2-3\\right) ............(1) \\\\\\\\\n\\frac{d y}{d x} &amp; =\\left(x^2-5\\right)(-2 x)+\\left(-x^2-3\\right)(2 x) \\\\\\\\\n&amp; =2 x\\left(-x+5-x^2-3\\right) \\\\\\\\\n&amp; =2 x\\left(-2 x^2+2\\right)\n\\end{aligned}\n$$\n<br><br>For maxima and minima, put $\\frac{d y}{d x}=0$\n<br><br>$\\Rightarrow x=0, \\pm 1$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1ltxu56bu/b657f3eb-b538-4192-8808-31979fc03380/a32f7390-e5a3-11ee-8041-251a62321629/file-6y3zli1ltxu56bv.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ltxu56bu/b657f3eb-b538-4192-8808-31979fc03380/a32f7390-e5a3-11ee-8041-251a62321629/file-6y3zli1ltxu56bv.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Mathematics - Differential Equations Question 6 English Explanation\">\n<br>From (1),\n<br><br>$$\ny_{\\text {max }}=16\n$$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "माना कि $y(x), x \\in \\mathbb{R}$, निम्नलिखित अवकल समीकरण (differential equation) $\\left(x^2-5\\right) \\frac{d y}{d x}-2 x y=-2 x\\left(x^2-5\\right)^2$ का एक ऐसा हल है जिसके लिए $y(2)=7$ है। तब फलन $y(x)$ का महत्तम मान (maximum value) है",
+          "options": [],
+          "correct_options": [],
+          "answer": "16",
+          "explanation": "$\\begin{aligned} &amp;\\left(x^2-5\\right) \\frac{d y}{d x}-2 x y  =-2 x\\left(x^2-5\\right)^2 \\\\ \\\\&amp;\\Rightarrow  \\frac{d y}{d x}-\\frac{2 x}{\\left(x^2-5\\right)} y=-2 x\\left(x^2-5\\right)\\end{aligned}$\n<br><br>I.F. $=e^{-\\int \\frac{2 x}{x^2-5} d x}=\\frac{1}{\\left(x^2-5\\right)}$\n<br><br>अब\n<br><br>$$\n\\begin{aligned}\ny \\cdot \\frac{1}{\\left(x^2-5\\right)} &amp;=-\\int 2 x d x \\\\\\\\\n&amp;=-x^2+c\n\\end{aligned}\n$$\n<br><br>$\\begin{array}{rlrl} &amp;\\Rightarrow  y  =c\\left(x^2-5\\right)-x^2\\left(x^2-5\\right) \\\\\\\\  &amp; y(2)  =7 \\\\\\\\ &amp;\\Rightarrow 7  =-c+4 \\\\\\\\ &amp;\\Rightarrow  c=-3\\end{array}$\n<br><br>अतः,\n<br><br>$$\n\\begin{aligned}\ny &amp; =\\left(x^2-5\\right)\\left(-x^2-3\\right) ............(1) \\\\\\\\\n\\frac{d y}{d x} &amp; =\\left(x^2-5\\right)(-2 x)+\\left(-x^2-3\\right)(2 x) \\\\\\\\\n&amp; =2 x\\left(-x+5-x^2-3\\right) \\\\\\\\\n&amp; =2 x\\left(-2 x^2+2\\right)\n\\end{aligned}\n$$\n<br><br>उच्चिष्ठ और निम्निष्ठ के लिए, $\\frac{d y}{d x}=0$ रखें\n<br><br>$\\Rightarrow x=0, \\pm 1$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1ltxu56bu/b657f3eb-b538-4192-8808-31979fc03380/a32f7390-e5a3-11ee-8041-251a62321629/file-6y3zli1ltxu56bv.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1ltxu56bu/b657f3eb-b538-4192-8808-31979fc03380/a32f7390-e5a3-11ee-8041-251a62321629/file-6y3zli1ltxu56bv.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 2 Online Mathematics - Differential Equations Question 6 Hindi Explanation\">\n<br>(1) से,\n<br><br>$$\ny_{\\text {max }}=16\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "linear-differential-equations",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "For $x \\in \\mathbb{R}$, let $y(x)$ be a solution of the differential equation \n$\\left(x^2-5\\right) \\frac{d y}{d x}-2 x y=-2 x\\left(x^2-5\\right)^2$ such that $y(2)=7$. \nThen the maximum value of the function $y(x)$ is :"
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "माना कि $y(x), x \\in \\mathbb{R}$, निम्नलिखित अवकल समीकरण (differential equation) $\\left(x^2-5\\right) \\frac{d y}{d x}-2 x y=-2 x\\left(x^2-5\\right)^2$ का एक ऐसा हल है जिसके लिए $y(2)=7$ है। तब फलन $y(x)$ का महत्तम मान (maximum value) है"
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "5rul4f6lox521dfctnmx",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "for-x-in-mathbbr-let-the-function-yx-be-the-solut-jee-advanced-mathematics-differential-equations-yth1qxpbxa316qoo",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "For $x \\in \\mathbb{R}$, let the function $y(x)$ be the solution of the differential equation\n\n<br/><br/>$$\n\\frac{d y}{d x}+12 y=\\cos \\left(\\frac{\\pi}{12} x\\right), \\quad y(0)=0\n$$\n\n<br/><br/>Then, which of the following statements is/are TRUE ?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$y(x)$ is an increasing function"
+            },
+            {
+              "identifier": "B",
+              "content": "$y(x)$ is a decreasing function"
+            },
+            {
+              "identifier": "C",
+              "content": "There exists a real number $\\beta$ such that the line $y=\\beta \\quad$ intersects the curve $y=y(x)$ at infinitely many points"
+            },
+            {
+              "identifier": "D",
+              "content": "$y(x)$ is a periodic function"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "Given, $$\n\\frac{d y}{d x}+12 y=\\cos \\left(\\frac{\\pi}{12} x\\right)\n$$\n<br/><br/>This is a linear differential equation.\n<br/><br/>Where P = 12 and Q = $\\cos \\left(\\frac{\\pi}{12} x\\right)$\n<br/><br/>$$\n\\text { I.F. }=e^{\\int P d x}=e^{\\int 12 d x}=e^{12 x}\n$$\n<br/><br/>Solution of differencial equation is\n<br/><br/>$$y \\times I.F = \\int {Q \\times \\left( {I.F} \\right)} dx$$\n<br/><br/>$$y \\times \\text { I.F. }=\\int e^{12 x} \\cdot \\cos \\left(\\frac{\\pi}{12} x\\right) d x $$\n<br/><br/>$$\n\\Rightarrow y e^{12 x}=\\frac{e^{12 x}}{12^2+\\left(\\frac{\\pi}{12}\\right)^2}\\left(12 \\cos \\frac{\\pi}{12} x+\\frac{\\pi}{12} \\sin \\frac{\\pi}{12} x\\right)+C $$\n<br/><br/>[As $$\\int {{e^{ax}}.\\cos \\left( {bx} \\right)dx}  = {{{e^{ax}}} \\over {{a^2} + {b^2}}}\\left\\{ {a\\cos \\left( {bx} \\right) + b\\sin \\left( {bx} \\right)} \\right\\} + C$$]\n<br/><br/>$$\n \\Rightarrow y=\\frac{12}{(12)^4+\\pi^2}\\left\\{(12)^2 \\cos \\left(\\frac{\\pi x}{12}\\right)+\\pi \\sin \\left(\\frac{\\pi x}{12}\\right)\\right\\}\n+\\frac{C}{e^{12 x}}\n\n$$\n<br/><br/>$$\n\\begin{aligned}\n& \\text { Given }, y(0)=0 \\\\\\\\\n& \\Rightarrow 0=\\frac{12 \\cdot\\left(12^2\\right)}{12^4+\\pi^2}+C \\\\\\\\\n& \\Rightarrow C=\\frac{-12^3}{12^4+\\pi^2} \\\\\\\\\n& \\therefore y=\\frac{12}{12^4+\\pi^2}\\left[12^2 \\cos \\left(\\frac{\\pi x}{12}\\right)+\\pi \\sin \\left(\\frac{\\pi x}{12}\\right)-12^2 \\cdot e^{-12 x}\\right]\n\\end{aligned}\n$$\n<br/><br/>$y(x)$ is not a periodic function as $e^{-12 x}$ is a non-periodic function.\n<br/><br/>$$ \\therefore $$ Option (D) is a wrong statement.\n<br/><br/>$$\n\\begin{aligned}\n& \\text { Now } \\frac{d y}{d x}=\\frac{12}{12^4+\\pi^2}[{-12 \\pi \\sin \\left(\\frac{\\pi x}{12}\\right)+\\frac{\\pi^2}{12} \\cos \\left(\\frac{\\pi x}{12}\\right)}+12^3 \\mathrm{e}^{-12 x}]\n\\end{aligned}\n$$\n<br/><br/>Values of ${-12 \\pi \\sin \\left(\\frac{\\pi x}{12}\\right)+\\frac{\\pi^2}{12} \\cos \\left(\\frac{\\pi x}{12}\\right)}$ varies between  $\\left(-\\sqrt{144 \\pi^2+\\frac{\\pi^4}{144}},-12 \\pi \\sqrt{1+\\frac{\\pi^2}{12^4}}\\right)$\n<br/><br/>So, $\\mathrm{f}(\\mathrm{x})$ is neither increasing nor decreasing.\n<br/><br/>$$ \\therefore $$ Option (A) and (B) are wrong statements.\n<br/><br/>For some $\\beta \\in R, y=\\beta$ intersects $y=f(x)$ at infinitely many points.\n<br/><br/>So option $\\mathrm{C}$ is correct."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$x \\in \\mathbb{R}$$ के लिए, माना फलन $$y(x)$$ अवकल समीकरण</p>\n<p>$$\n\\frac{d y}{d x}+12 y=\\cos \\left(\\frac{\\pi}{12} x\\right), y(0)=0 .\n$$</p>\n<p>के हल हैं। तब, निम्नलिखित कथनों में से कौनसा/कौनसे कथन सत्य है/हैं?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$y(x)$$$ एक वर्धमान फलन है"
+            },
+            {
+              "identifier": "B",
+              "content": "$$y(x)$$ एक ह्रासमान फलन है"
+            },
+            {
+              "identifier": "C",
+              "content": "एक वास्तविक संख्या $$\\beta$$ विद्यमान है जबकि रेखा $$y=\\beta$$, वक्रि $$y=y(x)$$ को अपरिमित रूप से अनेक बिन्दुओं पर प्रतिच्छेद करती है"
+            },
+            {
+              "identifier": "D",
+              "content": "$$y(x)$$ एक आवर्ती फलन है"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "दिया गया है, $$\n\\frac{d y}{d x}+12 y=\\cos \\left(\\frac{\\pi}{12} x\\right)\n$$\n<br/><br/>यह एक रैखिक अवकल समीकरण है।\n<br/><br/>जहाँ P = 12 और Q = $\\cos \\left(\\frac{\\pi}{12} x\\right)$\n<br/><br/>$$\n\\text { I.F. }=e^{\\int P d x}=e^{\\int 12 d x}=e^{12 x}\n$$\n<br/><br/>अवकल समीकरण का हल है\n<br/><br/>$$y \\times I.F = \\int {Q \\times \\left( {I.F} \\right)} dx$$\n<br/><br/>$$y \\times \\text { I.F. }=\\int e^{12 x} \\cdot \\cos \\left(\\frac{\\pi}{12} x\\right) d x $$\n<br/><br/>$$\n\\Rightarrow y e^{12 x}=\\frac{e^{12 x}}{12^2+\\left(\\frac{\\pi}{12}\\right)^2}\\left(12 \\cos \\frac{\\pi}{12} x+\\frac{\\pi}{12} \\sin \\frac{\\pi}{12} x\\right)+C $$\n<br/><br/>[चूँकि $$\\int {{e^{ax}}.\\cos \\left( {bx} \\right)dx}  = {{{e^{ax}}} \\over {{a^2} + {b^2}}}\\left\\{ {a\\cos \\left( {bx} \\right) + b\\sin \\left( {bx} \\right)} \\right\\} + C$$]\n<br/><br/>$$\n \\Rightarrow y=\\frac{12}{(12)^4+\\pi^2}\\left\\{(12)^2 \\cos \\left(\\frac{\\pi x}{12}\\right)+\\pi \\sin \\left(\\frac{\\pi x}{12}\\right)\\right\\}\n+\\frac{C}{e^{12 x}}\n\n$$\n<br/><br/>$$\n\\begin{aligned}\n& \\text { दिया गया है }, y(0)=0 \\\\\\\\\n& \\Rightarrow 0=\\frac{12 \\cdot\\left(12^2\\right)}{12^4+\\pi^2}+C \\\\\\\\\n& \\Rightarrow C=\\frac{-12^3}{12^4+\\pi^2} \\\\\\\\\n& \\therefore y=\\frac{12}{12^4+\\pi^2}\\left[12^2 \\cos \\left(\\frac{\\pi x}{12}\\right)+\\pi \\sin \\left(\\frac{\\pi x}{12}\\right)-12^2 \\cdot e^{-12 x}\\right]\n\\end{aligned}\n$$\n<br/><br/>$y(x)$ एक आवर्ती फलन नहीं है क्योंकि $e^{-12 x}$ एक अनावर्ती फलन है।\n<br/><br/>$$ \\therefore $$ विकल्प (D) एक गलत कथन है।\n<br/><br/>$$\n\\begin{aligned}\n& \\text { अब } \\frac{d y}{d x}=\\frac{12}{12^4+\\pi^2}[{-12 \\pi \\sin \\left(\\frac{\\pi x}{12}\\right)+\\frac{\\pi^2}{12} \\cos \\left(\\frac{\\pi x}{12}\\right)}+12^3 \\mathrm{e}^{-12 x}]\n\\end{aligned}\n$$\n<br/><br/>${-12 \\pi \\sin \\left(\\frac{\\pi x}{12}\\right)+\\frac{\\pi^2}{12} \\cos \\left(\\frac{\\pi x}{12}\\right)}$ के मान $\\left(-\\sqrt{144 \\pi^2+\\frac{\\pi^4}{144}},-12 \\pi \\sqrt{1+\\frac{\\pi^2}{12^4}}\\right)$ के बीच परिवर्तित होते हैं\n<br/><br/>अतः, $\\mathrm{f}(\\mathrm{x})$ न तो वर्धमान है और न ही ह्रासमान है।\n<br/><br/>$$ \\therefore $$ विकल्प (A) और (B) गलत कथन हैं।\n<br/><br/>किसी $\\beta \\in R$ के लिए, $y=\\beta$, $y=f(x)$ को अनंत बिंदुओं पर प्रतिच्छेद करती है।\n<br/><br/>अतः विकल्प $\\mathrm{C}$ सही है।"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "linear-differential-equations",
+      "type": "mcqm",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "For $x \\in \\mathbb{R}$, let the function $y(x)$ be the solution of the differential equation\n\n$$\n\\frac{d y}{d x}+12 y=\\cos \\left(\\frac{\\pi}{12} x\\right), \\quad y(0)=0\n$$\n\nThen, which of the following statements is/are TRUE ?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "$$x \\in \\mathbb{R}$$ के लिए, माना फलन $$y(x)$$ अवकल समीकरण\n$$\n\\frac{d y}{d x}+12 y=\\cos \\left(\\frac{\\pi}{12} x\\right), y(0)=0 .\n$$\nके हल हैं। तब, निम्नलिखित कथनों में से कौनसा/कौनसे कथन सत्य है/हैं?"
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "updciadaq4xxlwpudfev",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "if-yx-is-the-solution-of-the-differential-equation-br-jee-advanced-mathematics-differential-equations-sjtsvhwnkifwucfl",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "If $y(x)$ is the solution of the differential equation\n\n<br/><br/>$$\nx d y-\\left(y^{2}-4 y\\right) d x=0 \\text { for } x > 0,  y(1)=2,\n$$\n\n<br/><br/>and the slope of the curve $y=y(x)$ is never zero, then the value of $10 y(\\sqrt{2})$ is",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "<p>$$xdy = ({y^2} - 4y)dx = 0$$</p>\n<p>$$ \\Rightarrow xdy = ({y^2} - 4y)dx$$</p>\n<p>$$ \\Rightarrow {{dy} \\over {({y^2} - 4x)}} = {{dx} \\over x}$$</p>\n<p>$$ \\Rightarrow {{dy} \\over {y(y - 4)}} = {{dx} \\over x}$$</p>\n<p>$$ \\Rightarrow {1 \\over 4} \\times {{y - (y - 4)} \\over {y(y - 4)}}dy = {{dx} \\over x}$$</p>\n<p>$$ \\Rightarrow {1 \\over 4}\\left( {{1 \\over {y - 4}} - {1 \\over y}} \\right)dy = {{dx} \\over x}$$</p>\n<p>Integrating both side, we get</p>\n<p>$$ \\Rightarrow {1 \\over 4}\\int {\\left( {{1 \\over {y - 4}} - {1 \\over y}} \\right)dy = \\int {{{dx} \\over x}} } $$</p>\n<p>$$ \\Rightarrow {1 \\over 4}\\left( {\\ln \\left| {{{y - 4} \\over y}} \\right|} \\right) = \\ln |x| + {1 \\over 4}\\ln C$$ (Cont.)</p>\n<p>$$ \\Rightarrow {1 \\over 4}\\ln \\left| {{{y - 4} \\over y}} \\right| = \\ln x + {1 \\over 4}\\ln C$$ [As $$x > 0$$, so $$|x| = x$$]</p>\n<p>$$ \\Rightarrow \\ln \\left| {{{y - 4} \\over y}} \\right| = 4\\ln x + \\ln C$$</p>\n<p>$$ \\Rightarrow \\ln \\left| {{{y - 4} \\over y}} \\right| = \\ln ({x^4}C)$$</p>\n<p>$$ \\Rightarrow {{y - 4} \\over y} = \\, \\pm \\,C{x^4}$$</p>\n<p>$$ \\Rightarrow {{y - 4} \\over y} = \\lambda {x^4}$$ [Assume $$ \\pm \\,C = \\lambda $$]</p>\n<p>Given, $$y(1) = 2$$</p>\n<p>$$\\therefore$$ $${{2 - 4} \\over 2} = \\lambda {(1)^4}$$</p>\n<p>$$ \\Rightarrow \\lambda  = -1$$</p>\n<p>$$\\therefore$$ $${{y - 4} \\over y} =  - {x^4}$$</p>\n<p>Now, $$y(\\sqrt 2 ) =  - {(\\sqrt 2 )^4} = {{y - 4} \\over y}$$</p>\n<p>$$ \\Rightarrow {{y - 4} \\over y} =  - 4$$</p>\n<p>$$ \\Rightarrow y - 4 =  - 4y$$</p>\n<p>$$ \\Rightarrow 5y = 4$$</p>\n<p>$$ \\Rightarrow y = {4 \\over 5}$$</p>\n<p>$$\\therefore$$ $$10y(\\sqrt 2 ) = 10 \\times {4 \\over 5} = 8$$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>यदि $$x > 0, y(1)=2$$ के लिए अवकल समीकरण $$x d y-\\left(y^{2}-4 y\\right) d x=0$$ का हल $$y(x)$$ है तथा वक्र $$y=y(x)$$ की प्रवणता कभी शून्य नहीं होती है, तब $$10 y(\\sqrt{2})$$ का मान ज्ञात कीजिए।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "<p>$$xdy = ({y^2} - 4y)dx = 0$$</p>\n<p>$$ \\Rightarrow xdy = ({y^2} - 4y)dx$$</p>\n<p>$$ \\Rightarrow {{dy} \\over {({y^2} - 4x)}} = {{dx} \\over x}$$</p>\n<p>$$ \\Rightarrow {{dy} \\over {y(y - 4)}} = {{dx} \\over x}$$</p>\n<p>$$ \\Rightarrow {1 \\over 4} \\times {{y - (y - 4)} \\over {y(y - 4)}}dy = {{dx} \\over x}$$</p>\n<p>$$ \\Rightarrow {1 \\over 4}\\left( {{1 \\over {y - 4}} - {1 \\over y}} \\right)dy = {{dx} \\over x}$$</p>\n<p>दोनों पक्षों का समाकलन करने पर, हमें प्राप्त होता है</p>\n<p>$$ \\Rightarrow {1 \\over 4}\\int {\\left( {{1 \\over {y - 4}} - {1 \\over y}} \\right)dy = \\int {{{dx} \\over x}} } $$</p>\n<p>$$ \\Rightarrow {1 \\over 4}\\left( {\\ln \\left| {{{y - 4} \\over y}} \\right|} \\right) = \\ln |x| + {1 \\over 4}\\ln C$$ (जारी)</p>\n<p>$$ \\Rightarrow {1 \\over 4}\\ln \\left| {{{y - 4} \\over y}} \\right| = \\ln x + {1 \\over 4}\\ln C$$ [चूँकि $$x > 0$$, इसलिए $$|x| = x$$]</p>\n<p>$$ \\Rightarrow \\ln \\left| {{{y - 4} \\over y}} \\right| = 4\\ln x + \\ln C$$</p>\n<p>$$ \\Rightarrow \\ln \\left| {{{y - 4} \\over y}} \\right| = \\ln ({x^4}C)$$</p>\n<p>$$ \\Rightarrow {{y - 4} \\over y} = \\, \\pm \\,C{x^4}$$</p>\n<p>$$ \\Rightarrow {{y - 4} \\over y} = \\lambda {x^4}$$ [मान लीजिए $$ \\pm \\,C = \\lambda $$]</p>\n<p>दिया गया है, $$y(1) = 2$$</p>\n<p>$$\\therefore$$ $${{2 - 4} \\over 2} = \\lambda {(1)^4}$$</p>\n<p>$$ \\Rightarrow \\lambda  = -1$$</p>\n<p>$$\\therefore$$ $${{y - 4} \\over y} =  - {x^4}$$</p>\n<p>अब, $$y(\\sqrt 2 ) =  - {(\\sqrt 2 )^4} = {{y - 4} \\over y}$$</p>\n<p>$$ \\Rightarrow {{y - 4} \\over y} =  - 4$$</p>\n<p>$$ \\Rightarrow y - 4 =  - 4y$$</p>\n<p>$$ \\Rightarrow 5y = 4$$</p>\n<p>$$ \\Rightarrow y = {4 \\over 5}$$</p>\n<p>$$\\therefore$$ $$10y(\\sqrt 2 ) = 10 \\times {4 \\over 5} = 8$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If $y(x)$ is the solution of the differential equation\n\n$$\nx d y-\\left(y^{2}-4 y\\right) d x=0 \\text { for } x > 0,  y(1)=2,\n$$\n\nand the slope of the curve $y=y(x)$ is never zero, then the value of $10 y(\\sqrt{2})$ is"
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "यदि $$x > 0, y(1)=2$$ के लिए अवकल समीकरण $$x d y-\\left(y^{2}-4 y\\right) d x=0$$ का हल $$y(x)$$ है तथा वक्र $$y=y(x)$$ की प्रवणता कभी शून्य नहीं होती है, तब $$10 y(\\sqrt{2})$$ का मान ज्ञात कीजिए।"
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "2thdzpxfd3rm4rg7yn7i",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "let-i-denote-a-curve-y--yx-which-is-in-the-first-quadran-jee-advanced-mathematics-trigonometric-functions-and-equations-fiauqqgnhnohnjtl",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let $$\\Gamma $$ denote a curve y = y(x) which is in the first quadrant and let the point (1, 0) lie on it. Let the tangent to I` at a point P intersect the y-axis at Y<sub>P</sub>. If PY<sub>P</sub> has length 1 for each point P on I`, then which of the following options is/are correct?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$xy' + \\sqrt {1 - {x^2}}  = 0$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$xy' - \\sqrt {1 - {x^2}}  = 0$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$y = {\\log _e}\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) - \\sqrt {1 - {x^2}} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$y =  - {\\log _e}\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) + \\sqrt {1 - {x^2}} $$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "Let a point P(h, k) on the curve y = y(x), so equation of tangent to the curve at point P is<br><br>$$y - k = {\\left( {{{dy} \\over {dx}}} \\right)_{h,k}}(x - h)$$ ....(i)<br><br>Now, the tangent (i) intersect the Y-axis at Y<sub>p</sub>, so coordinates Y<sub>p</sub> is $$\\left( {0,k - h{{dy} \\over {dx}}} \\right)$$,<br><br>where $${{{dy} \\over {dx}}}$$ = $${\\left( {{{dy} \\over {dx}}} \\right)}$$<sub>(h,k)</sub><br><br>So, PY<sub>p</sub> = 1 (given)<br><br>$$ \\Rightarrow \\sqrt {{h^2} + {h^2}{{\\left( {{{dy} \\over {dx}}} \\right)}^2}}  = 1$$<br><br>$$ \\Rightarrow {{dy} \\over {dx}} =  \\pm {{\\sqrt {1 - {x^2}} } \\over x}$$<br><br>[on replacing h by x]<br><br>$$ \\Rightarrow dy =  \\pm {{\\sqrt {1 - {x^2}} } \\over x}dx$$<br><br>On puting x = sin$$\\theta $$, dx = cos$$\\theta $$d$$\\theta $$, we get<br><br>$$dy =  \\pm {{\\sqrt {1 - {{\\sin }^2}\\theta } } \\over {\\sin \\theta }}\\cos \\theta d\\theta $$<br><br>$$ =  \\pm {{{{\\cos }^2}\\theta } \\over {\\sin \\theta }}d\\theta $$<br><br>$$ =  \\pm (\\cos ec\\theta  - \\sin \\theta )d\\theta $$<br><br>$$ \\Rightarrow y =  \\pm [1n(\\cos ec\\theta  - \\cot \\theta ) + \\cos \\theta ] + C$$<br><br>$$ \\Rightarrow y =  \\pm \\left[ {1n\\left( {{{1 - \\cos \\theta } \\over {\\sin \\theta }}} \\right) + \\cos \\theta } \\right] + C$$<br><br>$$ \\Rightarrow y =  \\pm \\left[ {1n\\left( {{{1 - \\sqrt {1 - {{\\sin }^2}\\theta } } \\over {\\sin \\theta }}} \\right) + \\sqrt {1 - {{\\sin }^2}\\theta } } \\right] + C$$<br><br>$$ \\Rightarrow y =  \\pm \\left[ {1n\\left( {{{1 - \\sqrt {1 - {x^2}} } \\over x}} \\right) + \\sqrt {1 - {x^2}} } \\right] + C$$<br><br>[$$ \\because $$ x = sin$$\\theta $$]<br><br>$$ =  \\pm \\left[ { - 1n{{1 + \\sqrt {1 - {x^2}} } \\over x} + \\sqrt {1 - {x^2}} } \\right] + C$$<br><br>[on rationalization]<br><br>$$ \\because $$ The curve is in the first quadrant so y must be positive, so<br><br>$$y = 1n\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) - \\sqrt {1 - {x^2}}  + C$$<br><br>As curve passes through (1, 0), so<br><br>$$0 = 0 - 0 + c \\Rightarrow c = 0$$, so required curve is<br><br>$$y = 1n\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) - \\sqrt {1 - {x^2}} $$<br><br>and required differential eaquation is<br><br>$${{dy} \\over {dx}} =  - {{\\sqrt {1 - {x^2}} } \\over x}$$<br><br>$$ \\Rightarrow xy' + \\sqrt {1 - {x^2}}  = 0$$<br><br>Hence, options (a) and (c) are correct."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना कि $$\\Gamma$$ एक वक्र $$y=y(x)$$ है जो प्रथम चतुर्थांश (first quadrant) में है और माना कि बिंदु $$(1,0)$$ उस पर स्थित है | माना कि $$\\Gamma$$ के बिंदु $$P$$ पर खिंची गयी स्पर्श रेखा (tangent) $$y$$-अक्ष को $$Y_{P}$$ पर प्रतिच्छेद (intersect) करती है | यदि $$\\Gamma$$ के प्रत्येक बिंदु $$P$$ के लिए $$P Y_{P}$$ की लम्बाई 1 है, तब निम्न में से कौन सा (से) कथन सही है ( हैं ) ?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$xy' + \\sqrt {1 - {x^2}}  = 0$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$xy' - \\sqrt {1 - {x^2}}  = 0$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$y = {\\log _e}\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) - \\sqrt {1 - {x^2}} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$y =  - {\\log _e}\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) + \\sqrt {1 - {x^2}} $$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "मान लीजिए वक्र y = y(x) पर एक बिंदु P(h, k) है, तो बिंदु P पर वक्र की स्पर्श रेखा का समीकरण है<br><br>$$y - k = {\\left( {{{dy} \\over {dx}}} \\right)_{h,k}}(x - h)$$ ....(i)<br><br>अब, स्पर्श रेखा (i), Y-अक्ष को Y<sub>p</sub> पर प्रतिच्छेद करती है, तो Y<sub>p</sub> के निर्देशांक $$\\left( {0,k - h{{dy} \\over {dx}}} \\right)$$ हैं,<br><br>जहाँ $${{{dy} \\over {dx}}}$$ = $${\\left( {{{dy} \\over {dx}}} \\right)}$$<sub>(h,k)</sub><br><br>अतः, PY<sub>p</sub> = 1 (दिया गया है)<br><br>$$ \\Rightarrow \\sqrt {{h^2} + {h^2}{{\\left( {{{dy} \\over {dx}}} \\right)}^2}}  = 1$$<br><br>$$ \\Rightarrow {{dy} \\over {dx}} =  \\pm {{\\sqrt {1 - {x^2}} } \\over x}$$<br><br>[h को x से प्रतिस्थापित करने पर]<br><br>$$ \\Rightarrow dy =  \\pm {{\\sqrt {1 - {x^2}} } \\over x}dx$$<br><br>x = sin$$\\theta $$, dx = cos$$\\theta $$d$$\\theta $$ रखने पर, हम प्राप्त करते हैं<br><br>$$dy =  \\pm {{\\sqrt {1 - {{\\sin }^2}\\theta } } \\over {\\sin \\theta }}\\cos \\theta d\\theta $$<br><br>$$ =  \\pm {{{{\\cos }^2}\\theta } \\over {\\sin \\theta }}d\\theta $$<br><br>$$ =  \\pm (\\cos ec\\theta  - \\sin \\theta )d\\theta $$<br><br>$$ \\Rightarrow y =  \\pm [\\ln(\\cos ec\\theta  - \\cot \\theta ) + \\cos \\theta ] + C$$<br><br>$$ \\Rightarrow y =  \\pm \\left[ {\\ln\\left( {{{1 - \\cos \\theta } \\over {\\sin \\theta }}} \\right) + \\cos \\theta } \\right] + C$$<br><br>$$ \\Rightarrow y =  \\pm \\left[ {\\ln\\left( {{{1 - \\sqrt {1 - {{\\sin }^2}\\theta } } \\over {\\sin \\theta }}} \\right) + \\sqrt {1 - {{\\sin }^2}\\theta } } \\right] + C$$<br><br>$$ \\Rightarrow y =  \\pm \\left[ {\\ln\\left( {{{1 - \\sqrt {1 - {x^2}} } \\over x}} \\right) + \\sqrt {1 - {x^2}} } \\right] + C$$<br><br>[$$ \\because $$ x = sin$$\\theta $$]<br><br>$$ =  \\pm \\left[ { - \\ln{{1 + \\sqrt {1 - {x^2}} } \\over x} + \\sqrt {1 - {x^2}} } \\right] + C$$<br><br>[परिमेयकरण पर]<br><br>$$ \\because $$ वक्र प्रथम चतुर्थांश में है इसलिए y धनात्मक होना चाहिए, अतः<br><br>$$y = \\ln\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) - \\sqrt {1 - {x^2}}  + C$$<br><br>चूँकि वक्र (1, 0) से होकर गुजरता है, इसलिए<br><br>$$0 = 0 - 0 + c \\Rightarrow c = 0$$, अतः अभीष्ट वक्र है<br><br>$$y = \\ln\\left( {{{1 + \\sqrt {1 - {x^2}} } \\over x}} \\right) - \\sqrt {1 - {x^2}} $$<br><br>और अभीष्ट अवकल समीकरण है<br><br>$${{dy} \\over {dx}} =  - {{\\sqrt {1 - {x^2}} } \\over x}$$<br><br>$$ \\Rightarrow xy' + \\sqrt {1 - {x^2}}  = 0$$<br><br>अतः, विकल्प (a) और (c) सही हैं।"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "formation-of-differential-equations",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $$\\Gamma $$ denote a curve y = y(x) which is in the first quadrant and let the point (1, 0) lie on it. Let the tangent to I` at a point P intersect the y-axis at YP. If PYP has length 1 for each point P on I`, then which of the followin..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "माना कि $$\\Gamma$$ एक वक्र $$y=y(x)$$ है जो प्रथम चतुर्थांश (first quadrant) में है और माना कि बिंदु $$(1,0)$$ उस पर स्थित है | माना कि $$\\Gamma$$ के बिंदु $$P$$ पर खिंची गयी स्पर्श रेखा (tangent) $$y$$-अक्ष को $$Y_{P}$$ पर प्रतिच्छेद (inte..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "question_id": "eu00fxwknoo724qu4lkx",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "permalink": "let-f--r--to--r-be-a-differentiable-function-with-f0-jee-advanced-mathematics-trigonometric-functions-and-equations-znzpf8fj6umqhiuy",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let f : R $$ \\to $$ R be a differentiable function with f(0) = 0. If y = f(x) satisfies the differential equation $${{dy} \\over {dx}} = (2 + 5y)(5y - 2)$$, then the value of $$\\mathop {\\lim }\\limits_{n \\to  - \\infty } f(x)$$ is ...........",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.4",
+          "explanation": "We have,<br><br>$${{dy} \\over {dx}} = (2 + 5y)(5y - 2)$$<br><br>$$ \\Rightarrow {{dy} \\over {25{y^2} - 4}} = dx$$<br><br>$$ \\Rightarrow {1 \\over {25}}\\left( {{{dy} \\over {{y^2} - {4 \\over {25}}}}} \\right) = dx$$<br><br>On integrating both sides, we get<br><br>$${1 \\over {25}}\\int {{{dy} \\over {{y^2} - {{\\left( {{2 \\over 5}} \\right)}^2}}} = \\int {dx} } $$<br><br>$$ \\Rightarrow {1 \\over {25}} \\times {1 \\over {2 \\times 2/5}}\\log \\left| {{{y - 2/5} \\over {y + 2/5}}} \\right| = x + C$$<br><br>$$ \\Rightarrow \\log \\left| {{{5y - 2} \\over {5y + 2}}} \\right| = 20(x + C)$$<br><br>$$ \\Rightarrow \\left| {{{5y - 2} \\over {5y + 2}}} \\right| = A{e^{20x}}$$ [$$ \\because $$ e<sup>20C</sup> = A]<br><br>when x = 0 $$ \\Rightarrow $$ y = 0, then A = 1<br><br>$$ \\therefore $$ $$\\left| {{{5y - 2} \\over {5y + 2}}} \\right| = {e^{20x}}$$<br><br>$$\\mathop {\\lim }\\limits_{x \\to  - \\infty } \\left| {{{5f(x) - 2} \\over {5f(x) + 2}}} \\right| = \\mathop {\\lim }\\limits_{x \\to  - \\infty } {e^{20x}}$$<br><br>$$ \\Rightarrow \\mathop {\\lim }\\limits_{n \\to  - \\infty } \\left| {{{5f(x) - 2} \\over {5f(x) + 2}}} \\right| = 0$$<br><br>$$ \\Rightarrow \\mathop {\\lim }\\limits_{n \\to  - \\infty } 5f(x) - 2 = 0$$<br><br>$$ \\Rightarrow \\mathop {\\lim }\\limits_{n \\to  - \\infty } f(x) = {2 \\over 5} = 0.4$$"
+        },
+        "hi": {
+          "direction": null,
+          "content": "मान लें कि $$f : R \\to R$$ एक अवकलजनीय फलन है जिसमें $$f(0) = 0$$ है। यदि $$ y = f(x) $$ निम्नलिखित अवकल समीकरण को संतुष्ट करता है, $${{dy} \\over {dx}} = (2 + 5y)(5y - 2)$$, तब $$\\mathop {\\lim }\\limits_{n \\to  - \\infty } f(x)$$ का मान .......... है।",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.4",
+          "explanation": "हमारे पास है,<br><br>$${{dy} \\over {dx}} = (2 + 5y)(5y - 2)$$<br><br>$$ \\Rightarrow {{dy} \\over {25{y^2} - 4}} = dx$$<br><br>$$ \\Rightarrow {1 \\over {25}}\\left( {{{dy} \\over {{y^2} - {4 \\over {25}}}}} \\right) = dx$$<br><br>दोनों पक्षों का समाकलन करने पर, हमें प्राप्त होता है<br><br>$${1 \\over {25}}\\int {{{dy} \\over {{y^2} - {{\\left( {{2 \\over 5}} \\right)}^2}}} = \\int {dx} } $$<br><br>$$ \\Rightarrow {1 \\over {25}} \\times {1 \\over {2 \\times 2/5}}\\log \\left| {{{y - 2/5} \\over {y + 2/5}}} \\right| = x + C$$<br><br>$$ \\Rightarrow \\log \\left| {{{5y - 2} \\over {5y + 2}}} \\right| = 20(x + C)$$<br><br>$$ \\Rightarrow \\left| {{{5y - 2} \\over {5y + 2}}} \\right| = A{e^{20x}}$$ [$$ \\because $$ e<sup>20C</sup> = A]<br><br>जब x = 0 $$ \\Rightarrow $$ y = 0, तब A = 1<br><br>$$ \\therefore $$ $$\\left| {{{5y - 2} \\over {5y + 2}}} \\right| = {e^{20x}}$$<br><br>$$\\mathop {\\lim }\\limits_{x \\to  - \\infty } \\left| {{{5f(x) - 2} \\over {5f(x) + 2}}} \\right| = \\mathop {\\lim }\\limits_{x \\to  - \\infty } {e^{20x}}$$<br><br>$$ \\Rightarrow \\mathop {\\lim }\\limits_{x \\to  - \\infty } \\left| {{{5f(x) - 2} \\over {5f(x) + 2}}} \\right| = 0$$<br><br>$$ \\Rightarrow \\mathop {\\lim }\\limits_{x \\to  - \\infty } 5f(x) - 2 = 0$$<br><br>$$ \\Rightarrow \\mathop {\\lim }\\limits_{x \\to  - \\infty } f(x) = {2 \\over 5} = 0.4$$",
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "type": "integer",
+      "year": 2018,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let f : R $$ \\to $$ R be a differentiable function with f(0) = 0. If y = f(x) satisfies the differential equation $${{dy} \\over {dx}} = (2 + 5y)(5y - 2)$$, then the value of $$\\mathop {\\lim }\\limits_{n \\to  - \\infty } f(x)$$ is ..........."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "मान लें कि $$f : R \\to R$$ एक अवकलजनीय फलन है जिसमें $$f(0) = 0$$ है। यदि $$ y = f(x) $$ निम्नलिखित अवकल समीकरण को संतुष्ट करता है, $${{dy} \\over {dx}} = (2 + 5y)(5y - 2)$$, तब $$\\mathop {\\lim }\\limits_{n \\to  - \\infty } f(x)$$ का मान ........"
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "question_id": "yxzlbx95xetoen72bep8",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "permalink": "if-y--yx-satisfies-the-differential-equationbrbr-jee-advanced-mathematics-trigonometric-functions-and-equations-jmukz8f0jseylcfy",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "If y = y(x) satisfies the differential equation<br><br>$${8\\sqrt x \\left( {\\sqrt {9 + \\sqrt x } } \\right)dy = {{\\left( {\\sqrt {4 + \\sqrt {9 + \\sqrt x } } } \\right)}^{ - 1}}}$$<br><br>dx, x &gt; 0 and y(0) = $$\\sqrt 7 $$, then y(256) = ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "16"
+            },
+            {
+              "identifier": "B",
+              "content": "3"
+            },
+            {
+              "identifier": "C",
+              "content": "9"
+            },
+            {
+              "identifier": "D",
+              "content": "80"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "$${{dy} \\over {dx}} = {1 \\over {8\\sqrt x  + \\sqrt {9 + \\sqrt x } \\sqrt {4 + \\sqrt {9 + \\sqrt x } } }}$$<br><br>$$ \\Rightarrow y = \\sqrt {4 + \\sqrt { + \\sqrt x } }  + c$$<br><br>Now, $$y(0) = \\sqrt 7  + c$$<br><br>$$ \\Rightarrow c = 0$$<br><br>$$y(256) = \\sqrt {4 + \\sqrt {9 + \\sqrt {16} } }  = \\sqrt {4 + 5}  = 3$$"
+        },
+        "hi": {
+          "direction": null,
+          "content": "यदि y = y(x) निम्नलिखित अवकल समीकरण को संतुष्ट करता है<br><br>$${8\\sqrt x \\left( {\\sqrt {9 + \\sqrt x } } \\right)dy = {{\\left( {\\sqrt {4 + \\sqrt {9 + \\sqrt x } } } \\right)}^{ - 1}}}$$<br><br>dx, x &gt; 0 और y(0) = $$\\sqrt 7 $$, तो y(256) = ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "16"
+            },
+            {
+              "identifier": "B",
+              "content": "3"
+            },
+            {
+              "identifier": "C",
+              "content": "9"
+            },
+            {
+              "identifier": "D",
+              "content": "80"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "type": "mcq",
+      "year": 2017,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If y = y(x) satisfies the differential equation$${8\\sqrt x \\left( {\\sqrt {9 + \\sqrt x } } \\right)dy = {{\\left( {\\sqrt {4 + \\sqrt {9 + \\sqrt x } } } \\right)}^{ - 1}}}$$dx, x > 0 and y(0) = $$\\sqrt 7 $$, then y(256) = "
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "यदि y = y(x) निम्नलिखित अवकल समीकरण को संतुष्ट करता है$${8\\sqrt x \\left( {\\sqrt {9 + \\sqrt x } } \\right)dy = {{\\left( {\\sqrt {4 + \\sqrt {9 + \\sqrt x } } } \\right)}^{ - 1}}}$$dx, x > 0 और y(0) = $$\\sqrt 7 $$, तो y(256) = "
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "3uqog3im3l1mktrbowlh",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "permalink": "if-gx--intsin-xsin-2x-sin--1-t-jee-advanced-mathematics-trigonometric-functions-and-equations-avrldzb4inqgioxg",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "If $$g(x) = \\int_{\\sin x}^{\\sin (2x)} {{{\\sin }^{ - 1}}} (t)\\,dt$$, then",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$g'\\left( { - {\\pi  \\over 2}} \\right) = 0$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$g'\\left( { - {\\pi  \\over 2}} \\right) =  - 2\\pi $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$g'\\left( {{\\pi  \\over 2}} \\right) = 2\\pi $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$g'\\left( {{\\pi  \\over 2}} \\right) = 0$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "$$g(x) = \\int_{\\sin x}^{\\sin (2x)} {{{\\sin }^{ - 1}}} (t)\\,dt$$<br><br>g'(x) = 2cos 2x sin<sup>$$-$$1</sup>(sin2 x) $$-$$ cos x sin<sup>$$-$$1</sup>(sin x)<br><br>$$g'\\left( {{\\pi  \\over 2}} \\right) =  - 2{\\sin ^{ - 1}}(0) = 0$$<br><br>$$g'\\left( { - {\\pi  \\over 2}} \\right) =  - 2{\\sin ^{ - 1}}(0) = 0$$<br><br>No option is matching."
+        },
+        "hi": {
+          "direction": null,
+          "content": "यदि $$ग(x) = \\int_{\\sin x}^{\\sin (2x)} {{{\\sin }^{ - 1}}} (t)\\,dt$$, तो",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$g'\\left( { - {\\pi  \\over 2}} \\right) = 0$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$g'\\left( { - {\\pi  \\over 2}} \\right) =  - 2\\pi $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$g'\\left( {{\\pi  \\over 2}} \\right) = 2\\pi $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$g'\\left( {{\\pi  \\over 2}} \\right) = 0$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "type": "mcqm",
+      "year": 2017,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If $$g(x) = \\int_{\\sin x}^{\\sin (2x)} {{{\\sin }^{ - 1}}} (t)\\,dt$$, then"
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "यदि $$ग(x) = \\int_{\\sin x}^{\\sin (2x)} {{{\\sin }^{ - 1}}} (t)\\,dt$$, तो"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "5qgip456tgdu0jpapd8n",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "permalink": "plet-f0infty--to-r-be-a-differentiable-function-jee-advanced-chemistry-some-basic-concepts-of-chemistry-j8iwtkbes7elf46x",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Let $$f:(0,\\infty ) \\to R$$ be a differentiable function such that $$f'(x) = 2 - {{f(x)} \\over x}$$ for all $$x \\in (0,\\infty )$$ and $$f(1) \\ne 1$$. Then</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} f'\\left( {{1 \\over x}} \\right) = 1$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} xf\\left( {{1 \\over x}} \\right) = 2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} {x^2}f'(x) = 0$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left| {f(x)} \\right| \\le 2$$ for all $$x \\in (0,2)$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>$$f'(x) = 2 - {{f(x)} \\over x}$$</p>\n<p>$$ \\Rightarrow f'(x) = {1 \\over x}f(x) = 2$$ is linear differential equation.</p>\n<p>Hence, $$I.F. = {e^{\\int {{1 \\over x}dx} }} = {e^{\\ln x}} = x$$</p>\n<p>Thus the solution is given by</p>\n<p>$$x\\,.\\,f(x) = \\int {2x\\,dx + \\lambda } $$</p>\n<p>i.e., $$xf(x) = {x^2} + \\lambda $$</p>\n<p>As f(1) $$\\ne$$ 1, we have $$\\lambda$$ $$\\ne$$ 0</p>\n<p>$$\\therefore$$ $$f(x) = x + {\\lambda  \\over x}$$, $$\\lambda$$ $$\\ne$$ 0</p>\n<p>Thus, $$f'(x) = 1 - {\\lambda  \\over {{x^2}}}$$, $$\\lambda$$ $$\\ne$$ 0</p>\n<p>Now, $$\\mathop {\\lim }\\limits_{x \\to {0^ + }} f'\\left( {{1 \\over x}} \\right) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} (1 - \\lambda {x^2}) = 1$$</p>\n<p>$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} xf\\left( {{1 \\over x}} \\right) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} x\\left( {{1 \\over x} + \\lambda x} \\right) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} (1 + \\lambda {x^2}) = 1$$</p>\n<p>$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} {x^2}f'(x) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} {x^2}\\left( {1 - {\\lambda  \\over {{x^2}}}} \\right) = \\mathop {\\lim }\\limits_{x \\to {0^ + }} ({x^2} - \\lambda ) =  - \\lambda $$</p>\n<p>Again, $$\\mathop {\\lim }\\limits_{x \\to {0^ + }} f(x) \\to \\infty $$</p>\n<p>Hence the function is not bounded.</p>\n<p>Note that $$\\lambda$$ can be $$-$$ve or +ve.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "<p>मान लें $$f:(0,\\infty ) \\to R$$ एक अवकलनीय फलन है ऐसा कि $$f'(x) = 2 - {{f(x)} \\over x}$$ सभी $$x \\in (0,\\infty )$$ के लिए और $$f(1) \\ne 1$$। तब</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} f'\\left( {{1 \\over x}} \\right) = 1$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} xf\\left( {{1 \\over x}} \\right) = 2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathop {\\lim }\\limits_{x \\to {0^ + }} {x^2}f'(x) = 0$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left| {f(x)} \\right| \\le 2$$ सभी $$x \\in (0,2)$$ के लिए"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "linear-differential-equations",
+      "type": "mcqm",
+      "year": 2016,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $$f:(0,\\infty ) \\to R$$ be a differentiable function such that $$f'(x) = 2 - {{f(x)} \\over x}$$ for all $$x \\in (0,\\infty )$$ and $$f(1) \\ne 1$$. Then"
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "मान लें $$f:(0,\\infty ) \\to R$$ एक अवकलनीय फलन है ऐसा कि $$f'(x) = 2 - {{f(x)} \\over x}$$ सभी $$x \\in (0,\\infty )$$ के लिए और $$f(1) \\ne 1$$। तब"
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "70qo7m1zq0tabiptax4z",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A solution curve of the differential equation \n<br><br>$$\\left( {{x^2} + xy + 4x + 2y + 4} \\right){{dy} \\over {dx}} - {y^2} = 0,$$ $$x&gt;0,$$ passes through the \n<br><br>point $$(1,3)$$. Then the solution curve ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "intersects $$y=x+2$$ exactly at one point "
+            },
+            {
+              "identifier": "B",
+              "content": "intersects $$y=x+2$$ exactly at two points "
+            },
+            {
+              "identifier": "C",
+              "content": "intersects $$y = {\\left( {x + 2} \\right)^2}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "does NOT intersect $$\\,y = {\\left( {x + 3} \\right)^2}$$ "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<b>Options (A) and (B)</b>: The given differential equation is<br><br>\n$$\n\\left[x^2+4 x+4+y(x+2)\\right] \\frac{d y}{d x}-y^2=0 \\quad(x&gt;0)\n$$<br><br>\nwhich is further simplified as follows:<br><br>\n$$\n\\left[(x+2)^2+y(x+2)\\right] \\frac{d y}{d x}-y^2=0\n$$<br><br>\nSubstituting $x+2=t$, we get<br><br>\n$$\n\\frac{d x}{d y}=\\frac{d t}{d y}\n$$<br><br>\nNow,<br><br>\n$$\n(x+2)^2+y(x+2)-y^2 \\frac{d x}{d y}=0\n$$<br><br>\nThat is,<br><br>\n$$\n\\begin{aligned}\n&amp;t^2+y t-y^2 \\frac{d t}{d y}  =0 \\\\\\\\\n&amp;y^2 \\frac{d t}{d y}-y t-t^2 =0 \\\\\\\\\n&amp;\\frac{1}{t^2} \\frac{d t}{d y}-\\frac{1}{y t} =\\frac{1}{y^2}\n\\end{aligned}\n$$<br><br>\nLet $\\frac{1}{t}=z$; therefore,<br><br>\n$$\n\\frac{d t}{d y}\\left(-\\frac{1}{t^2}\\right)=\\frac{d z}{d y}\n$$<br><br>\nNow, <br><br>$\\begin{aligned} \\frac{-d z}{d y}-\\frac{z}{y} &amp; =\\frac{1}{y^2} \\Rightarrow \\frac{d z}{d y}+\\frac{z}{y}=\\frac{-1}{y^2} \\\\\\\\ \\Rightarrow d(z y) &amp; =\\int-\\frac{1}{y} d y \\\\\\\\ \\Rightarrow z y &amp; =-\\ln |y|+\\ln c \\\\\\\\ \\Rightarrow \\frac{y}{t} &amp; =-\\ln |y|+\\ln c\\end{aligned}$\n<br><br>\n$$\n\\Rightarrow \\frac{y}{(x+2)}=-\\ln |y|+\\ln c ~~~~~...(1)\n$$<br><br>\nwhich passes through the point $(1,3)$. Therefore, from Eq. (1), we get<br><br>\n$$\n\\begin{aligned}\n &amp;\\frac{z}{3} =-\\ln 3+c \\Rightarrow c=\\ln 3 e \\\\\\\\\n &amp;\\frac{y}{x+2} =-\\ln |y|+\\ln 3 e=\\ln \\left(\\frac{3 e}{|y|}\\right) \\\\\\\\\n &amp;\\frac{3 e}{|y|} =e^{y /(x+2)} \\\\\\\\\n &amp;3 e =|y| e^{y /(x+2)}\n\\end{aligned}\n$$<br><br>\nSubstituting $y=(x+2)$, we get $3 e=|x+2| e^1$<br><br>\n$$\n|x+2|=3 \\Rightarrow x+2=-3,3 \\Rightarrow x=-5,1\n$$<br><br>\nTherefore, $x=1$ (since $x \\neq-5)$.<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1li7g4cgv/fb8c8272-38a3-48ac-afd4-50099912575f/0a423af0-fd5a-11ed-9057-a7f9a0e389da/file-1li7g4cgw.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1li7g4cgv/fb8c8272-38a3-48ac-afd4-50099912575f/0a423af0-fd5a-11ed-9057-a7f9a0e389da/file-1li7g4cgw.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 1 Offline Mathematics - Differential Equations Question 30 English Explanation\"><br>\nThat is, the solution curve intersects $y=(x+2)$ exactly at one point and not at two points. Therefore, option (A) is correct and option (B) is incorrect.<br><br>\n<b>Option (C)</b>: We have<br><br>\n$$\n\\frac{3 e}{\\left|(x+2)^2\\right|}=e^{(x+2)}\n$$<br><br>\nwhich meets at two points for $x&lt;0$ and for $x&gt;0$, there is no intersection point.<br><br>\nHence, option $(\\mathrm{C})$ is incorrect.<br><br>\n<b>Option (D)</b>: We have<br><br>\n$$\n\\frac{3 e}{(x+3)^2}=e^{\\frac{(x+3)^2}{(x+2)}}=e^{\\frac{(x+2)^2+1+2(x+2)}{(x+2)}}=e^{2+\\frac{1}{(x+2)}+(x+2)}\n$$<br><br>\nTherefore, there is no intersection point for $x&gt;0$. Hence option (D) is correct."
+        },
+        "hi": {
+          "content": "प्र differential समीकरण का एक समाधान वक्र <br><br> $$\\left( {{x^2} + xy + 4x + 2y + 4} \\right){{dy} \\over {dx}} - {y^2} = 0,$$ $$x>0,$$ इस बिंदु से होकर गुजरता है <br><br> $$(1,3)$$। तब समाधान वक्र ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$y=x+2$$ को ठीक एक बिंदु पर काटता है "
+            },
+            {
+              "identifier": "B",
+              "content": "$$y=x+2$$ को ठीक दो बिंदुओं पर काटता है "
+            },
+            {
+              "identifier": "C",
+              "content": "$$y = {\\left( {x + 2} \\right)^2}$$ को काटता है"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\,y = {\\left( {x + 3} \\right)^2}$$ को नहीं काटता है "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-solution-curve-of-the-differential-equation-left-x2-xy-4x-jee-advanced-2016-marks-4-brhrhkq418ysibii.htm",
+      "timeAllotted": 200000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "A solution curve of the differential equation \n$$\\left( {{x^2} + xy + 4x + 2y + 4} \\right){{dy} \\over {dx}} - {y^2} = 0,$$ $$x>0,$$ passes through the \npoint $$(1,3)$$. Then the solution curve "
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "प्र differential समीकरण का एक समाधान वक्र  $$\\left( {{x^2} + xy + 4x + 2y + 4} \\right){{dy} \\over {dx}} - {y^2} = 0,$$ $$x>0,$$ इस बिंदु से होकर गुजरता है  $$(1,3)$$। तब समाधान वक्र "
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "c76n8xezgb4stgicybli",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$y(x)$$ be a solution of the differential equation <br>$$\\left( {1 + {e^x}} \\right)y' + y{e^x} = 1.$$ \n<br>If $$y(0)=2$$, then which of the following statement is (are) true?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$y(-4)=0$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$y(-2)=0$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$y(x)$$ has a critical point in the interval $$(-1, 0)$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$y(x)$$ has no critical point in the interval $$(-1,0)$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Given: $$\\left(1+e^x\\right) y^{\\prime}+y e^x=1$$</p>\n<p>$$\\left(1+e^x\\right) \\frac{d y}{d x}+y e^x=1$$</p>\n<p>$$\\frac{d y}{d x}+\\frac{e^x}{1+e^x} y=\\frac{1}{1+e^x}$$, which is liner differential equation in $$y$$.</p>\n<p>Comparing above equation with $$\\frac{d y}{d x}+\\mathrm{P} y=Q$$, we get $$Q$$, we get</p>\n<p>$$\\begin{aligned}\n\\quad \\mathrm{P} & =\\frac{e^x}{1+e^x} \\text { and } \\mathrm{Q}=\\frac{1}{1+e^x} \\\\\n\\text { So, I.F. } & =e^{\\int \\mathrm{P} \\cdot d x} \\\\\n\\text { I.F. } & =e^{\\int \\frac{e^x}{1+e^x} d x} \\\\\n\\text { I.F. } & =e^{\\ln \\left(1+e^x\\right)}\n\\end{aligned}$$</p>\n<p>$$\\left\\{\\because \\int \\frac{f^{\\prime}(x)}{f(x)} d x=\\ln f(x)\\right\\}$$</p>\n<p>$$\\text { I.F }=1+e^x$$</p>\n<p>So, solution of given differential equation is given by</p>\n<p>$$y \\text { (I.F.) }=\\int \\text { Q.(I.F.) } d x$$</p>\n<p>$$\\begin{aligned}\ny \\cdot\\left(1+e^x\\right) & =\\int \\frac{1}{1+e^x} \\cdot\\left(1+e^x\\right) d x \\\\\ny\\left(1+e^x\\right) & =\\int 1 d x \\\\\ny\\left(1+e^x\\right) & =x+\\mathrm{C} \\\\\n\\because \\quad y(0) & =2 \\\\\n\\Rightarrow \\quad 2\\left(1+e^0\\right) & =0+\\mathrm{C} \\\\\nc & =4\n\\end{aligned}$$</p>\n<p>So, $$y(x)=\\frac{x+4}{1+e^x}\\quad \\text{... (i)}$$</p>\n<p>Put $$x=-4$$ in the equation, we get</p>\n<p>$$y(-4)=0$$</p>\n<p>Put $$x=-2$$ in the above equation (i), we get</p>\n<p>$$y(-2)=\\frac{2}{1+e^{-2}} \\neq 0$$</p>\n<p>For critical points, $$y^{\\prime}=0$$</p>\n<p>From e.q, (i), $$y\\left(1+e^x\\right)=x+4$$</p>\n<p>Differentiating the above equation w.r.t. $$x$$, we get</p>\n<p>$$\\begin{aligned}\ny^{\\prime}\\left(1+e^x\\right)+y\\left(e^x\\right) & =1 \\\\\n0\\left(1+e^x\\right)+y e^x & =1 \\quad \\left\\{\\because y^{\\prime}=0\\right\\} \\\\\ny e^x-1 & =0\n\\end{aligned}$$</p>\n<p>$$\\quad \\begin{aligned}\n\\text { Now, } \\text { let } g(x) & =y e^x-1 \\\\\ng(x) & =\\frac{(x+4) e^x}{1+e^x}-1 \\\\\ng(x) & =\\frac{(x+3) e^x-1}{1+e^x}\n\\end{aligned}$$</p>\n<p>$$\\text { Now, } \\quad g(-1)=\\frac{2 e^{-1}-1}{1+e^{-1}}=\\frac{2-e}{1+e}<0 \\quad \\{\\because e=2 \\cdot 7 \\cdot 8\\}$$</p>\n<p>$$\\text { And, } \\quad g(0)=\\frac{3 e^0-1}{1+e^0}=1>0$$</p>\n<p>So, there exists one value of $$x$$ in $$(-1,0)$$ for which</p>\n<p>$$\\begin{aligned}\ng(x) & =0 \\\\\n\\Rightarrow \\quad y^{\\prime} & =0\n\\end{aligned}$$</p>\n<p>There exist a critical point of $$y(x)$$ in $$(-1,0)$$</p>\n<p>Hint :</p>\n<p>(i) Use solution of liner differential equation</p>\n<p>$$\\begin{aligned}\n\\frac{d y}{d x}+\\mathrm{P} y & =\\mathrm{Q} \\text { is given by } \\\\\ny \\text { (I.F.) } & =\\int \\mathrm{Q} \\cdot \\text { (I.F) } d x, \\text { where I.F }=e^{\\int p \\cdot d x}\n\\end{aligned}$$</p>\n<p>(ii) For critical points, $$y^{\\prime}=0$$</p>"
+        }
+      },
+      "permalink": "let-yx-be-a-solution-of-the-differential-equation-left-1-ex-jee-advanced-2015-marks-4-7cqpk4gw4l4w5g3q.htm",
+      "timeAllotted": 180000,
+      "topic": "linear-differential-equations",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $$y(x)$$ be a solution of the differential equation $$\\left( {1 + {e^x}} \\right)y' + y{e^x} = 1.$$ \nIf $$y(0)=2$$, then which of the following statement is (are) true?"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9ga7dyxgr82r3hqq6i60",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Consider the family of all circles whose centres lie on the straight line $$y=x,$$ If this family of circle is represented by the differential equation $$Py'' + Qy' + 1 = 0,$$ where $$P, Q$$ are functions of $$x,y$$ and $$y'$$ $$\\left( {here\\,\\,\\,y' = {{dy} \\over {dx}},y'' = {{{d^2}y} \\over {d{x^2}}}} \\right)$$ then which of the following statements is (are) true?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P = y + x$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\,P = y - x$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\,P + Q = 1 - x + y + y' + {\\left( {y'} \\right)^2}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\,P - Q = 1 - x + y - y' - {\\left( {y'} \\right)^2}$$"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "Let equation of circle whose centre lie on straight line $y=x$ be <br/><br/>$(x-k)^2+(y-k)^2=r^2~~~~...(i)$<br/><br/>\nDifferentiating the above equation w.r.t. $x$, we get<br/><br/>\n$$\n\\begin{aligned}\n& 2(x-k)+2(y-k) y^{\\prime}=0 \\\\\\\\\n\\Rightarrow & x+y y^{\\prime}=k\\left(1+y^{\\prime}\\right)~~~~~...(ii) \\\\\\\\\n\\Rightarrow & k=\\frac{x+y y^{\\prime}}{1+y^{\\prime}}\n\\end{aligned}\n$$<br/><br/>\nDifferentiating the eq. (ii) w.r.t. $x$, we get<br/><br/>\n$$\n\\begin{aligned}\n& \\Rightarrow 1+y y^{\\prime \\prime}+\\left(y^{\\prime}\\right)^2=k y^{\\prime \\prime} \\quad\\left\\{\\because(u v)^{\\prime}=u v^{\\prime}+v u^{\\prime}\\right\\} \\\\\\\\\n& \\Rightarrow 1+y y^{\\prime \\prime}+\\left(y^{\\prime}\\right)^2=\\left(\\frac{x+y y^{\\prime}}{1+y^{\\prime}}\\right) y^{\\prime \\prime} \\\\\\\\\n& \\Rightarrow 1+y y^{\\prime \\prime}+\\left(y^{\\prime}\\right)^2+y^{\\prime}+y y^{\\prime} y^{\\prime \\prime}+\\left(y^{\\prime}\\right)^3 \\\\\\\\\n& =x y^{\\prime \\prime}+y y^{\\prime} y^{\\prime \\prime} \\\\\\\\\n& \\Rightarrow y^{\\prime \\prime}(y-x)+\\left(y^{\\prime}\\right)^2\\left(1+y^{\\prime}\\right)+1+y^{\\prime}=0 \\\\\\\\\n& \\Rightarrow y^{\\prime \\prime}(y-x)+y^{\\prime}\\left(y^{\\prime}+\\left(y^{\\prime}\\right)^2+1\\right)+1=0\n\\end{aligned}\n$$<br/><br/>\nComparing the above equation with $p y^{\\prime \\prime}+\\mathrm{Q} y^{\\prime}$ $+1=0$, we get<br/><br/>\n$$\n\\begin{aligned}\n& P=y-x \\text { and } \\mathrm{Q}=y^{\\prime}+\\left(y^{\\prime}\\right)^2+1 \\\\\\\\\n\\therefore & P+Q=1-x+y+y^{\\prime}+\\left(y^{\\prime}\\right)^2\n\\end{aligned}\n$$"
+        }
+      },
+      "permalink": "consider-the-family-of-all-circles-whose-centres-lie-on-the-jee-advanced-2015-marks-4-btiqqt4qmc90k1x0.htm",
+      "timeAllotted": 180000,
+      "topic": "formation-of-differential-equations",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Consider the family of all circles whose centres lie on the straight line $$y=x,$$ If this family of circle is represented by the differential equation $$Py'' + Qy' + 1 = 0,$$ where $$P, Q$$ are functions of $$x,y$$ and $$y'$$ $$\\left( {her..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0lijogxncfbp2manfav1",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The function $$y=f(x)$$ is the solution of the differential equation\n<br>$${{dy} \\over {dx}} + {{xy} \\over {{x^2} - 1}} = {{{x^4} + 2x} \\over {\\sqrt {1 - {x^2}} }}\\,$$ in $$(-1,1)$$ satisfying $$f(0)=0$$. <br>Then $$\\int\\limits_{ - {{\\sqrt 3 } \\over 2}}^{{{\\sqrt 3 } \\over 2}} {f\\left( x \\right)} \\,d\\left( x \\right)$$ is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${\\pi  \\over 3} - {{\\sqrt 3 } \\over 2}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${\\pi  \\over 3} - {{\\sqrt 3 } \\over 4}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${\\pi  \\over 6} - {{\\sqrt 3 } \\over 4}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${\\pi  \\over 6} - {{\\sqrt 3 } \\over 2}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Given, $$\\frac{d y}{d x}+\\left(\\frac{x}{x^2-1}\\right) y=\\frac{x^4+2 x}{\\sqrt{1-x^2}}$$</p>\n<p>The above differential equation is a linear differential equation.</p>\n<p>Integrating factor I.F. $$=e^{\\int \\frac{x}{x^2-1} d x}$$</p>\n<p>$$\\begin{aligned}\n& \\Rightarrow \\text { I.F. }=e^{\\frac{1}{2} \\int \\frac{-2 x d x}{1-x^2}} \\\\\n& \\Rightarrow \\text { I.F. }=e^{\\frac{1}{2} \\ln \\left(1-x^2\\right)} \\quad\\left(\\int \\frac{f^{\\prime}(x) d x}{f(x)}=\\ln f(x)+c\\right) \\\\\n& \\Rightarrow \\text { I.F. }=e^{\\ln \\sqrt{1-x^2}} \\\\\n& \\Rightarrow \\text { I.F. }=\\sqrt{1-x^2}\n\\end{aligned}$$</p>\n<p>Now, the solution of the given differential equation is</p>\n<p>$$\\begin{aligned}\n& \\Rightarrow y \\cdot \\text { (I.F. })=\\int\\left(\\frac{x^4+2 x}{\\sqrt{1-x^2}}\\right)(\\text { L.F. }) d x+\\text { C } \\\\\n& \\Rightarrow y \\sqrt{1-x^2}=\\int\\left(\\frac{x^4+2 x}{\\sqrt{1-x^2}}\\right) \\sqrt{1-x^2} d x+\\text { C } \\\\\n& \\Rightarrow y \\sqrt{1-x^2}=\\frac{x^5}{5}+2 \\times \\frac{x^2}{2}+\\text { C } \\\\\n& \\Rightarrow y=f(x)=\\frac{\\frac{x^5}{5}+x^2+\\mathrm{C}}{\\sqrt{1-x^2}}\n\\end{aligned}$$</p>\n<p>Given, $$f(0)=0$$</p>\n<p>$$\\begin{array}{ll}\n\\Rightarrow & 0=\\frac{0+0+C}{\\sqrt{1-0}} \\\\\n\\Rightarrow & C=0 \\\\\n\\therefore & f(x)=\\frac{\\frac{x^5}{5}+x^2}{\\sqrt{1-x^2}}=\\frac{x^5}{5 \\sqrt{1-x^2}}+\\frac{x^2}{\\sqrt{1-x^2}}\n\\end{array}$$</p>\n<p>Let $$\\mathrm{I}=\\int_{\\frac{-\\sqrt{3}}{2}}^{\\frac{\\sqrt{3}}{2}} f(x) d x$$</p>\n<p>$$\\Rightarrow \\mathrm{I}=\\int_{\\frac{-\\sqrt{3}}{2}}^{\\frac{\\sqrt{3}}{2}}\\left(\\frac{x^5}{5 \\sqrt{1-x^2}}+\\frac{x^2}{\\sqrt{1-x^2}}\\right) d x$$</p>\n<p>Here, $$\\frac{x^5}{5 \\sqrt{1-x^2}}$$ is an odd function and $$\\frac{x^2}{\\sqrt{1-x^2}}$$ is an even function.</p>\n<p>$$\\begin{aligned}\n& \\therefore \\mathrm{I}=0+2 \\int_0^{\\frac{\\sqrt{3}}{2}} \\frac{x^2}{\\sqrt{1-x^2}} d x \\\\\n& \\Rightarrow \\mathrm{I}=2 \\int_0^{\\frac{\\sqrt{3}}{2}}\\left(\\frac{x^2-1+1}{\\sqrt{1-x^2}}\\right) d x \\\\\n& \\Rightarrow \\mathrm{I}=2 \\int_0^{\\frac{\\sqrt{3}}{2}}\\left(-\\sqrt{1-x^2}+\\frac{1}{\\sqrt{1-x^2}}\\right) d x \\\\\n& \\Rightarrow \\mathrm{I}=2\\left[-\\left(\\frac{x}{2} \\sqrt{1-x^2}+\\frac{1}{2} \\sin ^{-1} x\\right)+\\sin ^{-1} x\\right]_0^{\\frac{\\sqrt{3}}{2}} \\\\\n& \\Rightarrow \\mathrm{I}=2\\left[-\\frac{x}{2} \\sqrt{1-x^2}+\\frac{1}{2} \\sin ^{-1} x\\right]_0^{\\frac{\\sqrt{3}}{2}} \\\\\n& \\Rightarrow \\mathrm{I}=2\\left[-\\frac{\\sqrt{3}}{4} \\times \\frac{1}{2}+\\frac{1}{2} \\times \\frac{\\pi}{3}\\right] \\\\\n& \\Rightarrow \\mathrm{I}=\\frac{\\pi}{3}-\\frac{\\sqrt{3}}{4}\n\\end{aligned}$$</p>\n<p>Hint:</p>\n<p>(i) The solution of linear differential equation $$\\frac{d y}{d x}+\\mathrm{P}(x) \\cdot y=\\mathrm{Q}(x)$$ is</p>\n<p>$$y \\text { (I.F.) } =\\int \\mathrm{Q}(x) \\cdot(\\text { I.F. }) d x+\\text { C }$$</p>\n<p>Where, $$\\quad \\text { L.F. } =e^{\\int p(x) d x}$$</p>\n<p>(ii) Recall the property</p>\n<p>$$\\int_{-a}^a f(x) d x=\\left\\{\\begin{array}{l}\n2 \\int_0^a f(x) d x, \\text { When } f(x) \\text { is an even } \\\\\n\\text { function. } \\\\\n0, \\text { When } f(x) \\text { is an odd function. }\n\\end{array}\\right.$$</p>"
+        }
+      },
+      "permalink": "the-function-yfx-is-the-solution-of-the-differential-equatio-jee-advanced-2014-marks-4-u5zg9gpjydvqwjyw.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "topic": "linear-differential-equations",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "The function $$y=f(x)$$ is the solution of the differential equation\n$${{dy} \\over {dx}} + {{xy} \\over {{x^2} - 1}} = {{{x^4} + 2x} \\over {\\sqrt {1 - {x^2}} }}\\,$$ in $$(-1,1)$$ satisfying $$f(0)=0$$. Then $$\\int\\limits_{ - {{\\sqrt 3 } \\ove..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "o6kbwqr3iji8thqqsqzz",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A curve passes through the point $$\\left( {1,{\\pi  \\over 6}} \\right)$$. Let the slope of \n<br>the curve at each point $$(x,y)$$ be $${y \\over x} + \\sec \\left( {{y \\over x}} \\right),x &gt; 0.$$\n<br>Then the equation of the curve is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$sin\\left( {{y \\over x}} \\right) = \\log x + {1 \\over 2}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$cos\\,ec\\left( {{y \\over x}} \\right) = \\log x + 2$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\,s\\,ec\\left( {{{2y} \\over x}} \\right) = \\log x + 2\\,$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\,cos\\left( {{{2y} \\over x}} \\right) = \\log x + {1 \\over 2}$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Given, the slope of curve at $$(x,y)$$ is</p>\n<p>$$\\begin{aligned}\n& \\frac{y}{x}+\\sec \\left(\\frac{y}{x}\\right), x>0 . \\\\\n\\therefore \\quad & \\frac{d y}{d x}=\\frac{y}{x}+\\sec \\left(\\frac{y}{x}\\right) \\quad \\text{... (i)}\n\\end{aligned}$$</p>\n<p>Put $$y=v x \\Rightarrow \\frac{d y}{d x}=v+x \\frac{d v}{d x}$$ in the equation (i)</p>\n<p>$$\\begin{aligned}\n& \\Rightarrow \\quad v+x \\frac{d v}{d x}=\\frac{v x}{x}+\\sec \\left(\\frac{v x}{x}\\right) \\\\\n& \\Rightarrow \\quad v+x \\frac{d v}{d x}=v+\\sec (v) \\\\\n& \\Rightarrow \\quad x \\frac{d v}{d x}=\\sec v \\\\\n& \\Rightarrow \\quad \\cos v d v=\\frac{d x}{x} \\\\\n& \\Rightarrow \\quad \\int \\cos v d v=\\int \\frac{d x}{x} \\\\\n& \\Rightarrow \\quad \\sin v=\\ln x+c \\\\\n& \\Rightarrow \\quad \\sin \\left(\\frac{y}{x}\\right)=\\ln x+c \\quad \\text{... (i)}\n\\end{aligned}$$</p>\n<p>Put $$x=1$$ and $$y=\\frac{\\pi}{6}$$ in the equation (ii)</p>\n<p>$$\\begin{aligned}\n\\Rightarrow & & \\sin \\frac{\\pi}{6} & =\\log 1+c \\\\\n\\Rightarrow & & \\frac{1}{2} & =0+c \\\\\n\\Rightarrow & & c & =\\frac{1}{2}\n\\end{aligned}$$</p>\n<p>Put $$c=\\frac{1}{2}$$ in the equation (ii)</p>\n<p>$$\\Rightarrow \\quad \\sin \\frac{y}{x}=\\log x+\\frac{1}{2}$$</p>\n<p>Hints:</p>\n<p>(i) the slope of a curve at $$(x, y)$$ is equal to $$\\frac{d y}{d x}$$</p>\n<p>(ii) For the solution of homogeneous differential equation $$\\frac{d y}{d x}=f\\left(\\frac{y}{x}\\right)$$ put $$y=v x$$ i.e. $$\\frac{d y}{d x}=v+x \\frac{d v}{d x}$$.</p>"
+        }
+      },
+      "permalink": "a-curve-passes-through-the-point-left-1pi-over-6-right-let-t-jee-advanced-2013-marks-4-radycwc4ryedfr49.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "A curve passes through the point $$\\left( {1,{\\pi  \\over 6}} \\right)$$. Let the slope of \nthe curve at each point $$(x,y)$$ be $${y \\over x} + \\sec \\left( {{y \\over x}} \\right),x > 0.$$\nThen the equation of the curve is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "43uu35j8un4hpc5m8rmm",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2012,
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$y(x)$$ satisfies the differential equation $$y' - y\\,tan\\,x = 2x\\,secx$$ and $$y(0)=0,$$ then ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$y\\left( {{\\pi  \\over 4}} \\right) = {{{\\pi ^2}} \\over {8\\sqrt 2 }}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$y'\\left( {{\\pi  \\over 4}} \\right) = {{{\\pi ^2}} \\over {18}}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$y\\left( {{\\pi  \\over 3}} \\right) = {{{\\pi ^2}} \\over 9}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$y'\\left( {{\\pi  \\over 3}} \\right) = {{4\\pi } \\over 3} + {{2{\\pi ^2}} \\over {3\\sqrt 3 }}$$ "
+            }
+          ],
+          "correct_options": [
+            "D",
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Given, $$\\frac{d y}{d x}-y \\tan x=2 x \\sec x$$</p>\n<p>Comparing with the liner differential form</p>\n<p>$$\\begin{gathered}\n\\frac{d y}{d x}+\\mathrm{P} y=\\mathrm{Q} \\\\\n\\Rightarrow \\mathrm{P}=-\\tan x \\text { and } \\mathrm{Q}=2 x \\sec x\n\\end{gathered}$$</p>\n<p>Now, Integrating factor (I.F) $$=e^{\\int P d x}$$</p>\n<p>$$\\begin{aligned}\n& =e^{\\int-\\tan x d x} \\\\\n& =e^{-\\log \\sec x} \\\\\n& =\\cos x\n\\end{aligned}$$</p>\n<p>$$\\begin{aligned}\n& \\text { The solution will be } y \\text { (I.F) }=\\int Q \\text { (I.F) } d x \\\\\n& \\Rightarrow \\quad y \\cos x=\\int 2 x \\sec x \\cdot \\cos x d x \\\\\n& \\Rightarrow \\quad y \\cos x=2 \\frac{x^2}{2}+c \\\\\n& \\Rightarrow \\quad y=x^2 \\sec x+c \\sec x \\\\\n\\end{aligned}$$</p>\n<p>Now, $$y(0)=0$$</p>\n<p>$$\\begin{aligned}\n& \\Rightarrow \\quad 0=0^2 \\sec 0+\\mathrm{c} \\mathrm{sec} 0 \\\\\n& \\Rightarrow \\quad c=0 \\\\\n& \\therefore \\quad y=x^2 \\sec x \\\\\n& y^{\\prime}=x^2 \\sec x \\cdot \\tan x+2 x \\sec x \\quad \\text{[using Product Rule in Differentiation]}\\\\\n\\end{aligned}$$</p>\n<p>Now,</p>\n<p>$$\\begin{aligned}\ny\\left(\\frac{\\pi}{4}\\right) & =\\left(\\frac{\\pi}{4}\\right)^2 \\sec \\frac{\\pi}{4}=\\frac{\\pi^2}{16} \\sqrt{2}=\\frac{\\pi^2}{8 \\sqrt{2}} \\\\\ny^{\\prime}\\left(\\frac{\\pi}{4}\\right) & =\\left(\\frac{\\pi}{4}\\right)^2 \\sec \\frac{\\pi}{4} \\tan \\frac{\\pi}{4}+2 \\cdot \\frac{\\pi}{4} \\sec \\frac{\\pi}{4} \\\\\n& =\\frac{\\pi^2}{16} \\cdot \\sqrt{2} \\cdot 1+\\frac{\\pi}{2} \\cdot \\sqrt{2} \\\\\n& =\\frac{\\pi^2}{8 \\sqrt{2}}+\\frac{\\pi}{\\sqrt{2}}\n\\end{aligned}$$</p>\n<p>$$\\begin{aligned}\ny\\left(\\frac{\\pi}{3}\\right) & =\\left(\\frac{\\pi}{3}\\right)^2 \\sec \\frac{\\pi}{3} \\\\\n& =\\frac{\\pi^2}{9} \\cdot 2=\\frac{2 \\pi^2}{9} \\\\\ny^{\\prime}\\left(\\frac{\\pi}{3}\\right) & =\\left(\\frac{\\pi}{3}\\right)^2 \\sec \\frac{\\pi}{3} \\cdot \\tan \\frac{\\pi}{3}+2 \\cdot \\frac{\\pi}{3} \\cdot \\sec \\frac{\\pi}{3} \\\\\n& =\\frac{\\pi^2}{9} \\cdot 2 \\cdot \\sqrt{3}+\\frac{2 \\pi}{3} \\cdot 2 \\\\\n& =\\frac{2 \\pi^2}{3 \\sqrt{3}}+\\frac{4 \\pi}{3}\n\\end{aligned}$$</p>"
+        }
+      },
+      "permalink": "if-yx-satisfies-the-differential-equation-y-ytanx-2xsecx-and-jee-advanced-2012-marks-4-s1zmowjqpcgnr81j.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "topic": "linear-differential-equations",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If $$y(x)$$ satisfies the differential equation $$y' - y\\,tan\\,x = 2x\\,secx$$ and $$y(0)=0,$$ then "
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "bzndrt51q1enz8kiajk0",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$y'\\left( x \\right) + y\\left( x \\right)g'\\left( x \\right) = g\\left( x \\right),g'\\left( x \\right),y\\left( 0 \\right) = 0,x \\in R,$$ where $$f'(x)$$ denotes $${{df\\left( x \\right)} \\over {dx}}$$ and $$g(x)$$ is a given non-constant differentiable function on $$R$$ with $$g(0)=g(2)=0.$$ Then the value  of $$y(2)$$ is",
+          "options": [],
+          "correct_options": [],
+          "answer": "0",
+          "explanation": "<p>It is given that</p>\n<p>$$y'(x) + y(x)g'(x) = g(x)g'(x)$$</p>\n<p>$$ \\Rightarrow {e^{g(x)}}y'(x) + {e^{g(x)}}g'(x)y(x) = {e^{g(x)}}g(x)g'(x)$$</p>\n<p>$$ \\Rightarrow {d \\over {dx}}(y(x){e^{g(x)}} )= {e^{g(x)}}g(x)g'(x)$$</p>\n<p>Therefore, $$y(x) = {e^{g(x)}} = \\int {{e^{g(x)}}g(x)g'(x)dx} $$</p>\n<p>$$ = \\int {{e^t}t\\,dt} $$ [where g(x) = t]</p>\n<p>$$ = (t - 1){e^t} + c$$</p>\n<p>Therefore, $$y(x){e^{g(x)}} = (g(x) - 1){e^{g(x)}} + c$$</p>\n<p>Substituting $$x = 0 \\Rightarrow 0 = (0 - 1) \\times 1 + c \\Rightarrow c = 1$$</p>\n<p>Substituting $$x = 2 \\Rightarrow y(2) \\times 1 = (0 - 1) \\times (1) + 1$$</p>\n<p>Hence, $$y(2) = 0$$.</p>"
+        }
+      },
+      "permalink": "let-yleft-x-right-yleft-x-rightgleft-x-right-gleft-x-rightgl-jee-advanced-2011-marks-4-zlcb99ihwrwtswjx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "topic": "linear-differential-equations",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $$y'\\left( x \\right) + y\\left( x \\right)g'\\left( x \\right) = g\\left( x \\right),g'\\left( x \\right),y\\left( 0 \\right) = 0,x \\in R,$$ where $$f'(x)$$ denotes $${{df\\left( x \\right)} \\over {dx}}$$ and $$g(x)$$ is a given non-constant differ..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "rozp132wg9m1swwibaq2",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "plet-f1infty--to-2infty--be-a-differentiable-jee-advanced-mathematics-complex-numbers-kigbqms3ivtatcca",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Let $$f:[1,\\infty ) \\to [2,\\infty )$$ be a differentiable function such that $$f(1) = 2$$. If $$6\\int\\limits_1^x {f(t)dt = 3xf(x) - {x^3} - 5} $$ for all $$x \\ge 1$$, then the value of f(2) is ___________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>It is given that</p>\n<p>$$6\\int\\limits_1^x {f(t)dt = 3xf(x) - {x^3}} - 5$$</p>\n<p>$$ \\Rightarrow 6f(x) = 3f(x) + 3xf'(x) - 3{x^2}$$</p>\n<p>$$ \\Rightarrow 3f(x) = 3xf'(x) - 3{x^2} \\Rightarrow xf'(x) - f(x) = {x^2}$$</p>\n<p>$$ \\Rightarrow x{{dy} \\over {dx}} - y = {x^2} \\Rightarrow {{dy} \\over {dx}} - {1 \\over x}y = x$$ .... (1)</p>\n<p>Now, $$I.F. = {e^{\\int { - {1 \\over x}dx} }} = {e^{ - {{\\log }_e}x}}$$</p>\n<p>Multiplying Eq. (1) both sides by $${1 \\over x}$$, we get</p>\n<p>$${1 \\over x}{{dy} \\over {dx}} - {1 \\over {{x^2}}}y = 1 \\Rightarrow {d \\over {dx}}\\left( {y.{1 \\over x}} \\right) = 1$$</p>\n<p>Integrating, we get</p>\n<p>$${y \\over x} = x + c$$</p>\n<p>Substituting x = 1 and y = 2, we get</p>\n<p>$$ \\Rightarrow 2 = 1 + c \\Rightarrow c = 1 \\Rightarrow y = {x^2} + x$$</p>\n<p>$$ \\Rightarrow f(x) = {x^2} + x \\Rightarrow f(2) = 6$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "type": "integer",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $$f:[1,\\infty ) \\to [2,\\infty )$$ be a differentiable function such that $$f(1) = 2$$. If $$6\\int\\limits_1^x {f(t)dt = 3xf(x) - {x^3} - 5} $$ for all $$x \\ge 1$$, then the value of f(2) is ___________."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kl5mqrqz1ck703ld5ppd",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>Match the statements/expressions in Column I with the values given in Column II:</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 642px\">\n<colgroup>\n<col style=\"width: 50px\">\n<col style=\"width: 298px\">\n<col style=\"width: 51px\">\n<col style=\"width: 243px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-7btt\">(A)</td>\n    <td class=\"tg-0pky\">The number of solutions of the equation $$x{e^{\\sin x}} - \\cos x = 0$$ in the interval $$\\left( {0,{\\pi  \\over 2}} \\right)$$</td>\n    <td class=\"tg-7btt\">(P)</td>\n    <td class=\"tg-0pky\">1</td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(B)</td>\n    <td class=\"tg-0pky\">Value(s) of $$k$$ for which the planes $$kx + 4y + z = 0,4x + ky + 2z = 0$$ and $$2x + 2y + z = 0$$ intersect in a straight line</td>\n    <td class=\"tg-7btt\">(Q)</td>\n    <td class=\"tg-0pky\">2</td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(C)</td>\n    <td class=\"tg-0pky\">Value(s) of $$k$$ for which $$|x - 1| + |x - 2| + |x + 1| + |x + 2| = 4k$$ has integer solution(s)</td>\n    <td class=\"tg-7btt\">(R)</td>\n    <td class=\"tg-0pky\">3</td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(D)</td>\n    <td class=\"tg-0pky\">If $$y' = y + 1$$ and $$y(0) = 1$$ then value(s) of $$y(\\ln 2)$$</td>\n    <td class=\"tg-7btt\">(S)</td>\n    <td class=\"tg-0pky\">4</td>\n  </tr>\n  <tr>\n    <td class=\"tg-fymr\"></td>\n    <td class=\"tg-0pky\"></td>\n    <td class=\"tg-7btt\">(T)</td>\n    <td class=\"tg-0pky\">5</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(A)$$\\to$$(P); (B)$$\\to$$(Q), (S); (C)$$\\to$$(Q), (R), (S), (T); (D)$$\\to$$(R)"
+            },
+            {
+              "identifier": "B",
+              "content": "(A)$$\\to$$(T); (B)$$\\to$$(Q), (S); (C)$$\\to$$(Q), (S), (T); (D)$$\\to$$(Q)"
+            },
+            {
+              "identifier": "C",
+              "content": "(A)$$\\to$$(S); (B)$$\\to$$(Q), (S); (C)$$\\to$$(P), (R), (S), (T); (D)$$\\to$$(R)"
+            },
+            {
+              "identifier": "D",
+              "content": "(A)$$\\to$$(P); (B)$$\\to$$(Q), (S); (C)$$\\to$$(Q), (R), (T); (D)$$\\to$$(S)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": "$$\\left( A \\right) \\to p;\\,\\,\\left( B \\right) \\to q,s;\\,\\,\\left( C \\right) \\to q,r,s,t;\\,\\,\\left( D \\right) \\to r$$ ",
+          "explanation": "<p>(A) We have $$f'(x) &gt; 0,\\forall x \\in (0,\\pi /2)$$. Therefore,</p>\n<p>$$f(0) &lt; 0$$ and $$f(\\pi /2) &gt; 0$$</p>\n<p>Hence, there is no one solution.</p>\n<p>(B) Let us consider that $$(a,b,c)$$ is direction ratio of the intersected line. Therefore,</p>\n<p>$$ak + 4b + c = 0$$</p>\n<p>$$4a + kb + 2c = 0$$</p>\n<p>$${a \\over {8 - k}} = {b \\over {4 - 2k}} = {c \\over {{k^2} - 16}}$$</p>\n<p>We need to have</p>\n<p>$$2(8 - k) + 2(4 - 2k) + ({k^2} - 16) = 0$$</p>\n<p>$$ \\Rightarrow k = 2,4$$.</p>\n<p>(C) Let us consider</p>\n<p>$$f(x) = |x + 2| + |x + 1| + |x - 1| + |x - 2|$$</p>\n<p>Therefore, $$k$$ can take values: 2, 3, 4, 5.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft5kfnd/e8c40f99-4b6a-483a-9b84-ee33bf011ac9/5d644290-cde5-11ed-9ce1-7bd2ccf24231/file-1lft5kfne.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft5kfnd/e8c40f99-4b6a-483a-9b84-ee33bf011ac9/5d644290-cde5-11ed-9ce1-7bd2ccf24231/file-1lft5kfne.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Mathematics - Differential Equations Question 17 English Explanation\"></p>\n<p>(D) $$\\int {{{dy} \\over {y + 1}} = \\int {dx} } $$</p>\n<p>$$ \\Rightarrow f(x) = 2{e^x} - 1$$</p>\n<p>$$ \\Rightarrow f(\\ln 2) = 3$$</p>"
+        }
+      },
+      "permalink": "match-the-statementsexpressions-given-in-column-i-with-the-v-jee-advanced-2009-marks-4-kehnjrwfcodqxowa.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "topic": "linear-differential-equations",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Match the statements/expressions in Column I with the values given in Column II:\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "po0vb4e9yxl7sm9mpob1",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>Match the statements/expressions in Column I with the open intervals in Column II :</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 642px\">\n<colgroup>\n<col style=\"width: 50px\">\n<col style=\"width: 298px\">\n<col style=\"width: 51px\">\n<col style=\"width: 243px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-c3ow\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-7btt\">(A)</td>\n    <td class=\"tg-0pky\">Interval contained in the domain of definition of non-zero solutions of the differential equation $${(x - 3)^2}y' + y = 0$$</td>\n    <td class=\"tg-7btt\">(P)</td>\n    <td class=\"tg-0pky\">$$\\left( { - {\\pi  \\over 2},{\\pi  \\over 2}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(B)</td>\n    <td class=\"tg-0pky\">Interval containing the value of the integral $$\\int\\limits_1^5 {(x - 1)(x - 2)(x - 3)(x - 4)(x - 5)dx} $$</td>\n    <td class=\"tg-7btt\">(Q)</td>\n    <td class=\"tg-0pky\">$$\\left( {0,{\\pi  \\over 2}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(C)</td>\n    <td class=\"tg-0pky\">Interval in which at least one of the points of local maximum of $${\\cos ^2}x + \\sin x$$ lies</td>\n    <td class=\"tg-7btt\">(R)</td>\n    <td class=\"tg-0pky\">$$\\left( {{\\pi  \\over 8},{{5\\pi } \\over 4}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-7btt\">(D)</td>\n    <td class=\"tg-0pky\">Interval in which $${\\tan ^{ - 1}}(\\sin x + \\cos x)$$ is increasing</td>\n    <td class=\"tg-7btt\">(S)</td>\n    <td class=\"tg-0pky\">$$\\left( {0,{\\pi  \\over 8}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-fymr\"></td>\n    <td class=\"tg-0pky\"></td>\n    <td class=\"tg-7btt\">(T)</td>\n    <td class=\"tg-0pky\">$$( - \\pi ,\\pi )$$</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(A)$$\\to$$(P), (Q), (S); (B)$$\\to$$(P), (T), (S); (C)$$\\to$$(P), (Q), (R), (T); (D)$$\\to$$(S)"
+            },
+            {
+              "identifier": "B",
+              "content": "(A)$$\\to$$(P), (Q), (S); (B)$$\\to$$(P), (T), (R); (C)$$\\to$$(P), (Q), (R), (T); (D)$$\\to$$(R)"
+            },
+            {
+              "identifier": "C",
+              "content": "(A)$$\\to$$(P), (Q), (S); (B)$$\\to$$(P), (T), (S); (C)$$\\to$$(S), (Q), (R), (T); (D)$$\\to$$(S)"
+            },
+            {
+              "identifier": "D",
+              "content": "(A)$$\\to$$(P), (T), (S); (B)$$\\to$$(P), (T), (S); (C)$$\\to$$(P), (Q), (R), (T); (D)$$\\to$$(S)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": "$$\\left( A \\right) \\to p,q,r,s,t;$$\n<br>$$\\left( B \\right) \\to p,t;$$\n<br>$$\\left( C \\right) \\to p,q,r,t$$\n<br>$$\\left( D \\right) \\to s$$",
+          "explanation": "<p>(A) We have $${(x - 3)^2}{{dy} \\over {dx}} + y = 0$$</p>\n<p>$$\\int {{{dx} \\over {{{(x - 3)}^2}}} =  - \\int {{{dy} \\over y}} } $$</p>\n<p>$$ \\Rightarrow {1 \\over {x - 3}} = \\ln |y| + c$$</p>\n<p>So the domain is $$R \\to \\{ 3\\} $$.</p>\n<p>(B) On substituting $$x = t + 3$$, we get</p>\n<p>$$\\int\\limits_{ - 2}^2 {(t + 2)(t + 1)t(t - 1)(t - 2)dt = \\int\\limits_{ - 2}^2 {t({t^2} - 1)({t^2} - 4)dt = 0} } $$ (being odd function)</p>\n<p>(C) $$f(x) = {5 \\over 4} - {\\left( {\\sin x - {1 \\over 2}} \\right)^2}$$</p>\n<p>The maximum value occurs when $$\\sin x = 1/2$$.</p>\n<p>(D) $$f'(x) > 0$$ if $$\\cos x > \\sin x$$.</p>"
+        }
+      },
+      "permalink": "match-the-statementsexpressions-in-column-i-with-the-open-in-jee-advanced-2009-marks-4-uv1ib8l3djo5df1y.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Match the statements/expressions in Column I with the open intervals in Column II :\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14p..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vt0jpyszbui6eexq9rm2",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let a solution $$y=y(x)$$ of the differential equation,\n<br/><br/> $$x\\sqrt {{x^2} - 1} \\,\\,dy - y\\sqrt {{y^2} - 1} \\,dx = 0$$ satify $$y\\left( 2 \\right) = {2 \\over {\\sqrt 3 }}.$$ \n<p><b>STATEMENT-1 :</b> $$y\\left( x \\right) = \\sec \\left( {{{\\sec }^{ - 1}}x - {\\pi  \\over 6}} \\right)$$ and \n<br><br/><b>STATEMENT-2 :</b> $$y\\left( x \\right)$$ given by $${1 \\over y} = {{2\\sqrt 3 } \\over x} - \\sqrt {1 - {1 \\over {{x^2}}}} $$ </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "STATEMENT-1 is True, STATEMENT-2 is True;STATEMENT-2 is a correct explanation for STATEMENT-1"
+            },
+            {
+              "identifier": "B",
+              "content": "STATEMENT-1 is True, STATEMENT-2 is True;STATEMENT-2 is <b>NOT</b> a correct explanation for STATEMENT-1"
+            },
+            {
+              "identifier": "C",
+              "content": "STATEMENT-1 is True, STATEMENT-2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "STATEMENT-1 is False , STATEMENT-2 is True"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The given differential equation is</p>\n<p>$$x\\sqrt {{x^2} - 1} dy - y\\sqrt {{y^2} - 1} dx = 0$$</p>\n<p>$$ = \\int {{{dy} \\over {y\\sqrt {{y^2} - 1} }} = \\int {{{dx} \\over {x\\sqrt {{x^2} - 1} }}} } $$</p>\n<p>$$ \\Rightarrow {\\sec ^{ - 1}}y = {\\sec ^{ - 1}}x + c$$</p>\n<p>$$y = \\sec [{\\sec ^{ - 1}}x + C]$$ [$$\\because$$ $$y(2) = {2 \\over {\\sqrt 3 }}$$]</p>\n<p>$${2 \\over {\\sqrt 3 }} = \\sec ({\\sec ^{ - 1}}2 + C)$$</p>\n<p>$$ = {\\sec ^{ - 1}}{2 \\over {\\sqrt 3 }} - {\\sec ^{ - 1}}2 = C$$</p>\n<p>$$C = {\\pi  \\over 6} - {\\pi  \\over 3} = {{ - \\pi } \\over 6}$$ [$$\\therefore$$ $$y = \\sec \\left[ {{{\\sec }^{ - 1}}x - {\\pi  \\over 6}} \\right]$$]</p>\n<p>Statement 1 is true</p>\n<p>Also, $${1 \\over y} = \\cos \\left[ {\\cos  - {\\pi  \\over x} - {\\pi  \\over 6}} \\right]$$</p>\n<p>$$\\cos \\left( {{{\\cos }^{ - 1}}{1 \\over x}} \\right)\\cos {\\pi  \\over 6} + \\sin ({\\cos ^{ - 1}}{1 \\over x})\\sin {\\pi  \\over 6}$$</p>\n<p>$$ = {1 \\over y} = {{\\sqrt 3 } \\over {2x}} + {1 \\over 2}\\sqrt {1 - {1 \\over {{x^2}}}} $$</p>\n<p>$$\\therefore$$ Statement 2 is false.</p>"
+        }
+      },
+      "permalink": "let-a-solution-yyx-of-the-differential-equation-xsqrt-x2-1-d-jee-advanced-2008-marks-4-mszo1kf7ryzvmbyn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let a solution $$y=y(x)$$ of the differential equation,\n $$x\\sqrt {{x^2} - 1} \\,\\,dy - y\\sqrt {{y^2} - 1} \\,dx = 0$$ satify $$y\\left( 2 \\right) = {2 \\over {\\sqrt 3 }}.$$ \nSTATEMENT-1 : $$y\\left( x \\right) = \\sec \\left( {{{\\sec }^{ - 1}}x - ..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "eavh7cf18lkhf49z939f",
+      "chapter": "differential-equations",
+      "chapterGroup": "calculus",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pthe-differential-equation-fracd-yd-xfracsqrt1-jee-advanced-mathematics-complex-numbers-vxobbvn18bpqjehc",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The differential equation $$\\frac{d y}{d x}=\\frac{\\sqrt{1-y^{2}}}{y}$$ determines a family of circles with :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": " variable radii and a fixed centre at $$(0,1)$$"
+            },
+            {
+              "identifier": "B",
+              "content": "variable radii and a fixed centre at $$(0,-1)$$"
+            },
+            {
+              "identifier": "C",
+              "content": "fixed radius 1 and variable centres along the $$x$$-axis"
+            },
+            {
+              "identifier": "D",
+              "content": "fixed radius 1 and variable centres along the $$y$$-axis"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Given, $$ \\frac{d y}{d x}=\\frac{\\sqrt{1-y^{2}}}{y}$$</p>\n<p>$$\\Rightarrow \\int \\frac{y}{\\sqrt{1-y^{2}}} d y=\\int d x$$</p>\n<p>$$\\Rightarrow -\\sqrt{1-y^{2}}=x+c \\Rightarrow(x+c)^{2}+y^{2}=1$$</p>\n<p>Here, centre $$(-c, 0)$$ and radius $$=1$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "formation-of-differential-equations",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "The differential equation $$\\frac{d y}{d x}=\\frac{\\sqrt{1-y^{2}}}{y}$$ determines a family of circles with :"
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0peqvuok0q2z7gpybc3q",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005 Screening",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$y=y(x)$$ and it follows the relation $$x\\cos \\,y + y\\,cos\\,x = \\pi $$ then $$y''(0)=$$",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$-1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${\\pi}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$ - \\pi $$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>To find $$y''(0)$$, we need to differentiate the given equation twice with respect to $$x$$ and then substitute $$x=0$$. </p>\n\n<p>Differentiating the equation $$x\\cos \\,y + y\\,cos\\,x = \\pi $$ with respect to $$x$$, we get:</p>\n\n<p>$$ \\cos\\,y - x\\sin\\,y \\cdot y' + y'\\cos\\,x - y\\sin\\,x = 0$$</p>\n\n<p>Now, let's differentiate this equation again with respect to $$x$$:</p>\n\n<p>$$- \\sin\\,y \\cdot y' - \\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - y'\\sin\\,x - y'\\sin\\,x - y\\cos\\,x = 0$$</p>\n\n<p>Simplifying the equation, we get:</p>\n\n<p>$$-2\\sin\\,y \\cdot y' - x\\cos\\,y \\cdot (y')^2 - x\\sin\\,y \\cdot y'' + y''\\cos\\,x - 2y'\\sin\\,x - y\\cos\\,x = 0$$</p>\n\n<p>Now, let's substitute $$x = 0$$ in the original equation and the first derivative equation. This will help us find the values of $$y(0)$$ and $$y'(0)$$ respectively:</p>\n\n<p>From the original equation, $$x\\cos \\,y + y\\,cos\\,x = \\pi$$, substituting $$x = 0$$, we get:</p>\n\n<p>$$y(0) \\cdot 1 = \\pi$$</p>\n\n<p>Therefore, $$y(0) = \\pi$$.</p>\n\n<p>Now, substituting $$x = 0$$ in the first derivative equation, we get:</p>\n\n<p>$$ \\cos\\,y(0) + y'(0) \\cdot 1 = 0$$</p>\n\n<p>Substituting $$y(0) = \\pi$$, we get:</p>\n\n<p>$$ \\cos \\pi + y'(0) = 0$$</p>\n\n<p>Therefore, $$y'(0) = 1$$.</p>\n\n<p>Finally, let's substitute $$x = 0$$, $$y(0) = \\pi$$, and $$y'(0) = 1$$ in the second derivative equation:</p>\n\n<p>$$-2\\sin\\pi \\cdot 1 - 0 \\cdot \\cos \\pi \\cdot (1)^2 - 0 \\cdot \\sin \\pi \\cdot y''(0) + y''(0)\\cos 0 - 2 \\cdot 1 \\cdot \\sin 0 - \\pi \\cdot \\cos 0 = 0$$</p>\n\n<p>Simplifying the equation, we get:</p>\n\n<p>$$y''(0) - \\pi = 0$$</p>\n\n<p>Therefore, $$y''(0) = \\pi$$.</p>"
+        }
+      },
+      "permalink": "if-yyx-and-it-follows-the-relation-xcos-y-ycosx-pi-then-y0-jee-advanced-2005-screening-marks-2-cuu6hftlzyfu3imv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005-screening",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Screening",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If $$y=y(x)$$ and it follows the relation $$x\\cos \\,y + y\\,cos\\,x = \\pi $$ then $$y''(0)=$$"
+        }
+      },
+      "yearKey": "iit-jee-2005-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vhgwnvxg895kptjoi9wa",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "For the primitive integral equation $$ydx + {y^2}dy = x\\,dy;$$ \n<br>$$x \\in R,\\,\\,y &gt; 0,y = y\\left( x \\right),\\,y\\left( 1 \\right) = 1,$$ then $$y(-3)$$ is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$3$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$1$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$5$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "for-the-primitive-integral-equation-ydx-y2dy-xdy-x-in-ry-0y-jee-advanced-2005-screening-marks-2-mk4tvwidfmmtw8pa.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005-screening",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Screening",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "For the primitive integral equation $$ydx + {y^2}dy = x\\,dy;$$ \n$$x \\in R,\\,\\,y > 0,y = y\\left( x \\right),\\,y\\left( 1 \\right) = 1,$$ then $$y(-3)$$ is "
+        }
+      },
+      "yearKey": "iit-jee-2005-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "42c98lfqdvg67je9xrel",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The differential equation $${{dy} \\over {dx}} = {{\\sqrt {1 - {y^2}} } \\over y}$$ determines a family of circles with ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "variable radii and a fixed centre at $$(0,1)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "variable radii and a fixed centre at $$(0,-1)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "fixed radius $$1$$ and variable centres along the $$x$$-axis. "
+            },
+            {
+              "identifier": "D",
+              "content": "fixed radius $$1$$ and variable centrs along the $$y$$-axis."
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-differential-equation-dy-over-dx-sqrt-1-y2-over-y-determ-jee-advanced-2005-screening-marks-2-rrhchjql3mabed07.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005-screening",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Screening",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "The differential equation $${{dy} \\over {dx}} = {{\\sqrt {1 - {y^2}} } \\over y}$$ determines a family of circles with "
+        }
+      },
+      "yearKey": "iit-jee-2005-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v9qbsijog5whyw8ey40p",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The solution of primitive integral equation $$\\left( {{x^2} + {y^2}} \\right)dy = xy$$\n<br>$$dx$$ is $$y=y(x),$$ If $$y(1)=1$$ and $$\\left( {{x_0}} \\right) = e$$, then $${{x_0}}$$ is equal to ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sqrt {2\\left( {{e^2} - 1} \\right)} $$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt {2\\left( {{e^2} + 1} \\right)} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sqrt 3 \\,e$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\sqrt {{{2\\left( {{e^2} + 1} \\right)} \\over 2}} $$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-solution-of-primitive-integral-equation-left-x2-y2-right-jee-advanced-2005-screening-marks-2-z3a5y1x3wmvk7nwl.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005-screening",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Screening",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "The solution of primitive integral equation $$\\left( {{x^2} + {y^2}} \\right)dy = xy$$\n$$dx$$ is $$y=y(x),$$ If $$y(1)=1$$ and $$\\left( {{x_0}} \\right) = e$$, then $${{x_0}}$$ is equal to "
+        }
+      },
+      "yearKey": "iit-jee-2005-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zz111n9vrplbuuelfeg4",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If length of tangent at any point on the curve $$y=f(x)$$ intecepted between the point and the $$x$$-axis is length $$1.$$ Find the equation of the curve.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$\\log \\left| {{{1 - \\sqrt {1 - {y^2}} } \\over y}} \\right| + \\sqrt {1 - {y^2}}  =  \\pm x + c$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "if-length-of-tangent-at-any-point-on-the-curve-yfx-intecepte-jee-advanced-2005-marks-4-grkndgus4zmrdwg0.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If length of tangent at any point on the curve $$y=f(x)$$ intecepted between the point and the $$x$$-axis is length $$1.$$ Find the equation of the curve."
+        }
+      },
+      "yearKey": "iit-jee-2005"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "lllafnd4h3soun7pzj82",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$y=y(x)$$ and $${{2 + \\sin x} \\over {y + 1}}\\left( {{{dy} \\over {dx}}} \\right) =  - \\cos x,y\\left( 0 \\right) = 1,$$ \n<br> then $$y\\left( {{\\pi  \\over 2}} \\right)$$ equals",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1/3$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$2/3$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$-1/3$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$1$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-yyx-and-2-sin-x-over-y-1left-dy-over-dx-right-cos-xyleft-jee-advanced-2004-screening-marks-2-9t5vld05bj8afhfq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004-screening",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004 Screening",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If $$y=y(x)$$ and $${{2 + \\sin x} \\over {y + 1}}\\left( {{{dy} \\over {dx}}} \\right) =  - \\cos x,y\\left( 0 \\right) = 1,$$ \n then $$y\\left( {{\\pi  \\over 2}} \\right)$$ equals"
+        }
+      },
+      "yearKey": "iit-jee-2004-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v0vzjdhvlqtpxyp1ag8m",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A curve $$'C''$$ passes through $$(2,0)$$ and the slope at $$(x,y|)$$ as $$\\,{{{{\\left( {x + 1} \\right)}^2} + \\left( {y - 3} \\right)} \\over {x + 3}}$$. Find the equation of the curve. Find the area bounded by curve and $$x$$-axis in fourth quadrant.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${4 \\over 3}$$ sq. units",
+          "explanation": null
+        }
+      },
+      "permalink": "a-curve-c-passes-through-20-and-the-slope-at-xy-as-left-x-1-jee-advanced-2004-marks-4-qzzeycty6zdzrhjg.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "A curve $$'C''$$ passes through $$(2,0)$$ and the slope at $$(x,y|)$$ as $$\\,{{{{\\left( {x + 1} \\right)}^2} + \\left( {y - 3} \\right)} \\over {x + 3}}$$. Find the equation of the curve. Find the area bounded by curve and $$x$$-axis in fourth ..."
+        }
+      },
+      "yearKey": "iit-jee-2004"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "23wntntktangg5rle7ap",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2003,
+      "paperTitle": "IIT-JEE 2003",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A right circular cone with radius $$R$$ and height $$H$$ contains a liquid which eveporates at a rate proportional to its surface area in contact with air (proportionality constant $$ = k &gt; 0$$. Find the time after which the come is empty.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${\\raise0.5ex\\hbox{$\\scriptstyle H$}\n\\kern-0.1em/\\kern-0.15em\n\\lower0.25ex\\hbox{$\\scriptstyle K$}}$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "a-right-circular-cone-with-radius-r-and-height-h-contains-a-jee-advanced-2003-marks-4-4xkem1fncbkiwhhb.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2003",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2003",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "A right circular cone with radius $$R$$ and height $$H$$ contains a liquid which eveporates at a rate proportional to its surface area in contact with air (proportionality constant $$ = k > 0$$. Find the time after which the come is empty."
+        }
+      },
+      "yearKey": "iit-jee-2003"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "fj10ggzo5tcriyj5u3uz",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2003,
+      "paperTitle": "IIT-JEE 2003 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$y(t)$$ is a solution of $$\\left( {1 + t} \\right){{dy} \\over {dt}} - ty = 1$$ and $$y\\left( 0 \\right) =  - 1,$$ then $$y(1)$$ is equal to",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$ - 1/2$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$e+1/2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$e-1/2$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$  1/2$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-yt-is-a-solution-of-left-1-t-rightdy-over-dt-ty-1-and-yle-jee-advanced-2003-screening-marks-2-onadupgpan6x6rkl.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2003-screening",
+      "isOutOfSyllabus": false,
+      "topic": "linear-differential-equations",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2003 Screening",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If $$y(t)$$ is a solution of $$\\left( {1 + t} \\right){{dy} \\over {dt}} - ty = 1$$ and $$y\\left( 0 \\right) =  - 1,$$ then $$y(1)$$ is equal to"
+        }
+      },
+      "yearKey": "iit-jee-2003-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "udqh4qfhtsmo68axuli9",
+      "exam": "jee-advanced",
+      "marks": 10,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2001,
+      "paperTitle": "IIT-JEE 2001",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A hemispherical tank of radius $$2$$ metres is initially full of water and has an outlet of $$12$$ cm<sup>2</sup> cross-sectional area at the bottom. The outlet is opened at some instant. The flow through the outlet is according to the law $$v(t)=0.6$$ $$\\sqrt {2gh\\left( t \\right),} $$ where $$v(t)$$ and $$h(t)$$ are respectively the velocity of the flow through the outlet and the height of water level above the outlet at time $$t,$$ and $$g$$ is the acceleration due to gravity. Find the time it takes to empty the tank. (Hint: From a differential equation by relasing the decreases of water level to the outflow).",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{14\\pi } \\over {27\\sqrt g }}{\\left( {10} \\right)^5}$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "a-hemispherical-tank-of-radius-2-metres-is-initially-full-of-jee-advanced-2001-marks-10-iguf0h2hqpph7xeq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2001",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2001",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "A hemispherical tank of radius $$2$$ metres is initially full of water and has an outlet of $$12$$ cm2 cross-sectional area at the bottom. The outlet is opened at some instant. The flow through the outlet is according to the law $$v(t)=0.6$..."
+        }
+      },
+      "yearKey": "iit-jee-2001"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "gwrave3kd35h9zwpihfp",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $${x^2} + {y^2} = 1,$$ then ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$yy'' - 2{\\left( {y'} \\right)^2} + 1 = 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$yy'' + {\\left( {y'} \\right)^2} + 1 = 0$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$yy'' + {\\left( {y'} \\right)^2} - 1 = 0$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$yy'' + 2{\\left( {y'} \\right)^2} + 1 = 0$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-x2-y2-1-then-jee-advanced-2000-screening-marks-2-d3dkxwh0ijozmkcx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000-screening",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000 Screening",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If $${x^2} + {y^2} = 1,$$ then "
+        }
+      },
+      "yearKey": "iit-jee-2000-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "lcxed8he2pm7qbuok1a8",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A solution of the differential equation \n<br>$${\\left( {{{dy} \\over {dx}}} \\right)^2} - x{{dy} \\over {dx}} + y = 0$$ is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$y=2$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$y=2x$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$y=2x-4$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$y = 2{x^2} - 4$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-solution-of-the-differential-equation-left-dy-over-dx-righ-jee-advanced-1999-marks-2-etjybadwsgton1th.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "A solution of the differential equation \n$${\\left( {{{dy} \\over {dx}}} \\right)^2} - x{{dy} \\over {dx}} + y = 0$$ is"
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zpe4x0cin4qgptazgejq",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The differential equation representing the family of curves \n<br>$${y^2} = 2c\\left( {x + \\sqrt c } \\right),$$ where $$c$$ is a positive parameter, is of ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "order $$1$$"
+            },
+            {
+              "identifier": "B",
+              "content": "order $$2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "degree $$3$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "degree $$4$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-differential-equation-representing-the-family-of-curves-jee-advanced-1999-marks-3-xa6m8aoutlwbpzae.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "formation-of-differential-equations",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "The differential equation representing the family of curves \n$${y^2} = 2c\\left( {x + \\sqrt c } \\right),$$ where $$c$$ is a positive parameter, is of "
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "w8oui48tn1wklsp9j97c",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The order of the differential equation whose general solution is given by\n<br>$$y = \\left( {{C_1} + {C_2}} \\right)\\cos \\left( {x + {C_3}} \\right) - {C_4}{e^{x + {C_5}}},$$ where\n<br> $${C_1},{C_2},{C_3},{C_4},{C_5},$$ are arbitrary constants, is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$5$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$4$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$3$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$2$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-order-of-the-differential-equation-whose-general-solutio-jee-advanced-1998-marks-2-zvg4qqn0rpe7zydx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998",
+      "isOutOfSyllabus": false,
+      "topic": "order-and-degree",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "The order of the differential equation whose general solution is given by\n$$y = \\left( {{C_1} + {C_2}} \\right)\\cos \\left( {x + {C_3}} \\right) - {C_4}{e^{x + {C_5}}},$$ where\n $${C_1},{C_2},{C_3},{C_4},{C_5},$$ are arbitrary constants, is"
+        }
+      },
+      "yearKey": "iit-jee-1998"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "knnil7pkvboslse3k1pd",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 1997,
+      "paperTitle": "IIT-JEE 1997",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$u(x)$$ and $$v(x)$$ satisfy the differential equation $${{du} \\over {dx}} + p\\left( x \\right)u = f\\left( x \\right)$$ and $${{dv} \\over {dx}} + p\\left( x \\right)v = g\\left( x \\right),$$ where $$p(x) f(x)$$ and $$g(x)$$ are continuous functions. If $$u\\left( {{x_1}} \\right) &gt; v\\left( {{x_1}} \\right)$$ for some $${{x_1}}$$ and $$f(x)&gt;g(x)$$ for all $$x &gt; {x_1},$$ prove that any point $$(x,y)$$ where $$x &gt; {x_1},$$ does not satisfy the equations $$y=u(x)$$ and $$y=v(x)$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it",
+          "explanation": null
+        }
+      },
+      "permalink": "let-ux-and-vx-satisfy-the-differential-equation-du-over-dx-p-jee-advanced-1997-marks-5-ymshheijqia9ydyr.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1997",
+      "isOutOfSyllabus": false,
+      "topic": "linear-differential-equations",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1997",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $$u(x)$$ and $$v(x)$$ satisfy the differential equation $${{du} \\over {dx}} + p\\left( x \\right)u = f\\left( x \\right)$$ and $${{dv} \\over {dx}} + p\\left( x \\right)v = g\\left( x \\right),$$ where $$p(x) f(x)$$ and $$g(x)$$ are continuous f..."
+        }
+      },
+      "yearKey": "iit-jee-1997"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "h1ubzp588h9d7er10tqh",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Determine the equation of the curve passing through the origin, in the form $$y=f(x),$$ which satisfies the differential equation $${{dy} \\over {dx}} = \\sin \\left( {10x + 6y} \\right).\\,$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$y = {1 \\over 3}\\left[ {{{\\tan }^{ - 1}}\\left( {{{5\\tan 4x} \\over {4 - 3\\tan 4x}}} \\right) - 5x} \\right]$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "determine-the-equation-of-the-curve-passing-through-the-orig-jee-advanced-1996-marks-5-dos0iuj6bpkxfapn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Determine the equation of the curve passing through the origin, in the form $$y=f(x),$$ which satisfies the differential equation $${{dy} \\over {dx}} = \\sin \\left( {10x + 6y} \\right).\\,$$ "
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "fn3mk4d5rrtitplcmx7b",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 1995,
+      "paperTitle": "IIT-JEE 1995",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$y=f(x)$$ be a curve passing through $$(1,1)$$ such that the triangle formed by the coordinate axes and the tangent at any point of the curve lies in the first quadrant and has area $$2.$$ From the differential equation and determine all such possible curves.",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$x+y=2$$ \n<br>and $$xy=1,x,y&gt;0$$",
+          "explanation": null
+        }
+      },
+      "permalink": "let-yfx-be-a-curve-passing-through-11-such-that-the-triangle-jee-advanced-1995-marks-5-jodbyzvqhhpvblny.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1995",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1995",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "Let $$y=f(x)$$ be a curve passing through $$(1,1)$$ such that the triangle formed by the coordinate axes and the tangent at any point of the curve lies in the first quadrant and has area $$2.$$ From the differential equation and determine a..."
+        }
+      },
+      "yearKey": "iit-jee-1995"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "cj1zgl35ltk4hnsdhywg",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A normal is drawn at a point $$P(x,y)$$ of a curve. It meets the $$x$$-axis at $$Q.$$ If $$PQ$$ is of constant length $$k,$$ then show that the differential equation describing such curves is $$y = {{dy} \\over {dx}} =  \\pm \\sqrt {{k^2} - {y^2}} $$ \n<p>Find the equation of such a curve passing through $$(0,k).$$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "a-normal-is-drawn-at-a-point-pxy-of-a-curve-it-meets-the-x-a-jee-advanced-1994-marks-5-crfsdcbnwwr2rb5p.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "isOutOfSyllabus": false,
+      "topic": "formation-of-differential-equations",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "A normal is drawn at a point $$P(x,y)$$ of a curve. It meets the $$x$$-axis at $$Q.$$ If $$PQ$$ is of constant length $$k,$$ then show that the differential equation describing such curves is $$y = {{dy} \\over {dx}} =  \\pm \\sqrt {{k^2} - {y..."
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "mpsagn8j6y2e7hnkr5ci",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "calculus",
+      "languages": [
+        "en"
+      ],
+      "chapter": "differential-equations",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$\\left( {a + bx} \\right){e^{y/x}} = x,$$ then prove that $${x^3}{{{d^2}y} \\over {d{x^2}}} = {\\left( {x{{dy} \\over {dx}} - y} \\right)^2}$$",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "if-left-a-bx-righteyx-x-then-prove-that-x3d2y-over-dx2-left-jee-advanced-1983-marks-3-lkbxbiveb9cqs6ko.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "isOutOfSyllabus": false,
+      "topic": "solution-of-differential-equations-by-method-of-separation-variables-and-homogeneous",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Differential Equations • Mathematics",
+          "excerpt": "If $$\\left( {a + bx} \\right){e^{y/x}} = x,$$ then prove that $${x^3}{{{d^2}y} \\over {d{x^2}}} = {\\left( {x{{dy} \\over {dx}} - y} \\right)^2}$$"
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    }
+  ]
+}

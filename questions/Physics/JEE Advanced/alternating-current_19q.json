@@ -1,0 +1,1410 @@
+{
+  "questions": [
+    {
+      "question_id": "8f3xghfs51x7sirz444c",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pa-circuit-with-an-electrical-load-having-impedance-z-is-jee-advanced-physics-i6lzfatgvoi7lcio",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A circuit with an electrical load having impedance $Z$ is connected with an AC source as shown in the diagram. The source voltage varies in time as $V(t)=300 \\sin (400 t) \\mathrm{V}$, where $t$ is time in s . List-I shows various options for the load. The possible currents $i(t)$ in the circuit as a function of time are given in List-II.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0ediw9/0c323472-02c2-4149-a7fd-250d67dd0ee2/00b0ad90-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ediwa.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0ediw9/0c323472-02c2-4149-a7fd-250d67dd0ee2/00b0ad90-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ediwa.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 1\"></p>\n<p>Choose the option that describes the correct match between the entries in List-I to those in ListII.</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n\n  <tbody><tr>\n\n    <th>List–I</th>\n\n    <th>List–II</th>\n\n  </tr>\n\n  <tr>\n\n    <td>(P) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0ejs4q/c96f6f92-b105-440e-bd0f-2703f6242dc1/aeadd8a0-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ejs4r.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0ejs4q/c96f6f92-b105-440e-bd0f-2703f6242dc1/aeadd8a0-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ejs4r.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 2\"></td>\n\n    <td>(1) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0erp6e/2181257b-83c8-4df2-a1ea-4b62e5a33ecb/8adedd60-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0erp6f.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0erp6e/2181257b-83c8-4df2-a1ea-4b62e5a33ecb/8adedd60-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0erp6f.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 3\"></td>\n\n  </tr>\n\n  <tr>\n\n    <td>(Q) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0ejws2/cfaad24d-25f5-4608-96e0-2cbdafeb3412/b2450920-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ejws3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0ejws2/cfaad24d-25f5-4608-96e0-2cbdafeb3412/b2450920-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ejws3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 4\"></td>\n\n    <td>(2) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eptae/e2937720-0858-434a-9825-fa0a071eaef4/566d9260-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eptaf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eptae/e2937720-0858-434a-9825-fa0a071eaef4/566d9260-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eptaf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 5\"></td>\n\n  </tr>\n\n  <tr>\n\n    <td>(R) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eh3dr/71c8765f-6641-47ee-ae99-2472a5f61651/63f14ef0-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eh3ds.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eh3dr/71c8765f-6641-47ee-ae99-2472a5f61651/63f14ef0-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eh3ds.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 6\"></td>\n\n    <td>(3) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eq1az/bb14667e-314f-43e5-ac55-bcb058cde0e2/5c9eceb0-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eq1b0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eq1az/bb14667e-314f-43e5-ac55-bcb058cde0e2/5c9eceb0-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eq1b0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 7\"></td>\n\n  </tr>\n\n  <tr>\n\n    <td>(S) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eh860/d3054a1a-6c4c-41a2-8656-f3c8c3ba3bbe/67a38180-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eh861.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eh860/d3054a1a-6c4c-41a2-8656-f3c8c3ba3bbe/67a38180-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eh861.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 8\"></td>\n\n    <td>(4) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eo0gt/b95cdac8-0fd7-48de-bde0-953c4375f105/245ad0d0-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eo0gu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eo0gt/b95cdac8-0fd7-48de-bde0-953c4375f105/245ad0d0-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eo0gu.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 9\"></td>\n\n  </tr>\n\n  <tr>\n\n    <td></td>\n\n    <td>(5) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eo7s6/e309b9d0-4e68-4c68-9a5a-eae9bf1aa3dd/2a018060-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eo7s7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eo7s6/e309b9d0-4e68-4c68-9a5a-eae9bf1aa3dd/2a018060-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eo7s7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English 10\"></td>\n\n  </tr>\n\n</tbody></table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$ \\mathrm{P} \\rightarrow 3, \\mathrm{Q} \\rightarrow 5, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{P} \\rightarrow 1, \\mathrm{Q} \\rightarrow 5, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 3$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{P} \\rightarrow 3, \\mathrm{Q} \\rightarrow 4, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{P} \\rightarrow 1, \\mathrm{Q} \\rightarrow 4, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 5$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxki8m6/a46128e3-c9e9-44c2-be2b-59106e423b62/0f6113e0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxki8m7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxki8m6/a46128e3-c9e9-44c2-be2b-59106e423b62/0f6113e0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxki8m7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English Explanation 1\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxkiq7p/3173610c-c08b-4182-8f64-9808739a2237/1cf92650-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkiq7q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxkiq7p/3173610c-c08b-4182-8f64-9808739a2237/1cf92650-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkiq7q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English Explanation 2\"></p>\n<p>$$ \\begin{aligned} &amp; \\Rightarrow i_0=\\frac{v_0}{R}=\\frac{300}{30}=10 \\mathrm{~A} \\\\ &amp; \\text { and } \\phi=0 \\\\ &amp; \\begin{array}{l}  So (P) \\rightarrow 3 \\end{array} \\end{aligned} $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxkjyqm/803eddfa-cde4-49ec-afd7-2af7c7f6c003/3f5e3be0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkjyqn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxkjyqm/803eddfa-cde4-49ec-afd7-2af7c7f6c003/3f5e3be0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkjyqn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English Explanation 3\"></p>\n<p>$$ \\begin{aligned} z &amp; =\\sqrt{R^2+(\\omega L)^2} \\quad\\left(\\text { as } x_L=\\omega L\\right) \\\\ &amp; =\\sqrt{(30)^2+\\left(400  \\times 100 \\times 10^{-3}\\right)^2} \\\\ &amp; =\\sqrt{900+1600}=\\sqrt{2500} \\\\ z=50 \\Omega &amp; \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} \\text { So } &amp; i_0=\\frac{V_0}{2}=\\frac{300}{50}=6 \\mathrm{~A} \\\\ \\phi &amp; =\\tan ^{-1}\\left(\\frac{x_L}{R}\\right)=\\tan ^{-1}\\left(\\frac{\\omega L}{R}\\right) \\\\ &amp; =\\tan ^{-1}\\left(\\frac{400 \\times 106 \\times 10^{-3}}{36}\\right)=\\tan ^{-1}\\left(\\frac{4}{3}\\right) \\\\ \\Rightarrow \\quad \\phi &amp; =53^{\\circ}(l \\mathrm{ag}) \\\\ &amp; \\therefore Q \\rightarrow 5 \\end{aligned} $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxklkdd/9d883aaa-af27-40af-8601-b4fad631153f/6be32d10-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxklkde.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxklkdd/9d883aaa-af27-40af-8601-b4fad631153f/6be32d10-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxklkde.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English Explanation 4\"></p>\n<p>$$ \\begin{aligned} z &amp; =\\sqrt{R^2+\\left(x_C-x_L\\right)^2} \\\\ &amp; =\\sqrt{R^2+\\left(\\frac{1}{\\omega c}-\\omega L\\right)^2} \\\\ &amp; =\\sqrt{(30)^2+\\left(\\frac{1}{400 \\times 50 \\times 10^{-6}}-400 \\times 25 \\times 10^{-3}\\right)^2} \\\\ z &amp; =\\sqrt{900+\\left(\\frac{1}{20 \\times 10^{-3}}-10\\right)^2} \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} &amp;\\begin{array}{r} z=\\sqrt{900+(50-10)^2}=\\sqrt{900+1600} \\\\ z=\\sqrt{2500}=50 \\Omega \\\\ i_0=\\frac{v_0}{2}=\\frac{300 }{50}=6 \\mathrm{~A} \\\\ \\phi=\\tan ^{-1}\\left[\\frac{x_L-x_C}{R}\\right]=\\tan ^{-1}\\left[\\frac{10-50}{30}\\right] \\\\ =\\tan ^{-1}\\left|\\frac{40 }{30}\\right|=53^{\\circ} \\text { (Lead) } \\end{array}\\\\ &amp;(R) \\rightarrow 2 \\end{aligned} $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxkmqcq/4bcf98de-1b5e-4820-afb7-8a92c829cfd0/8c5154a0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkmqcr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxkmqcq/4bcf98de-1b5e-4820-afb7-8a92c829cfd0/8c5154a0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkmqcr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 English Explanation 5\"></p>\n<p>$$ \\begin{aligned} z &amp; =\\sqrt{(60)^2+\\left(\\frac{1}{400 \\times 50 \\times 10^{-6}}-400 \\times 125 \\times 10^{-3}\\right)^2} \\\\ &amp; =\\sqrt{(60)^2+(50-50)^2} \\\\ z &amp; =60 \\Omega \\\\ &amp; i_0=\\frac{300}{60}=5 \\mathrm{~A} \\\\ \\phi &amp; =\\tan ^{-1}\\left|\\frac{x_L-x_C}{R}\\right|=\\tan ^{-1}\\left|\\frac{0}{60}\\right|=0^{\\circ} \\end{aligned} $$</p>\n<p>So $(s) \\rightarrow 1$</p>\n<p>Hence, option (A) is correct.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>चित्रानुसार, एक परिपथ (circuit) में $Z$ प्रतिबाधा वाले एक वैद्युत लोड को एक AC स्रोत से जोड़ा गया है। समय के साथ स्रोत का विभव $V(t)=300 \\sin (400 t) \\mathrm{V}$ के अनुसार विचरित (vary) होता है, जहाँ $t(\\mathrm{~s}$ में $)$ समय है| सूची-I (List-I) वैद्युत लोड के लिए विभिन्न विकल्प दिखाती है| परिपथ में संभावित धाराएं $i(t)$ समय के फलन के रूप में सूची-II (List-II) में दी गयी हैं।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0ediw9/0c323472-02c2-4149-a7fd-250d67dd0ee2/00b0ad90-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ediwa.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0ediw9/0c323472-02c2-4149-a7fd-250d67dd0ee2/00b0ad90-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ediwa.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 1\"></p>\n<p>सूची-I की प्रविष्टियों का सूची-II की प्रविष्टियों से सही मिलान करने वाले विकल्प को चुनिये|</p>\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n\n  <tbody><tr>\n\n    <th>सूची-I (List-I)</th>\n\n    <th>सूची-II (List-II)</th>\n\n  </tr>\n\n  <tr>\n\n    <td>(P) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0ejs4q/c96f6f92-b105-440e-bd0f-2703f6242dc1/aeadd8a0-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ejs4r.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0ejs4q/c96f6f92-b105-440e-bd0f-2703f6242dc1/aeadd8a0-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ejs4r.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 2\"></td>\n\n    <td>(1) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0erp6e/2181257b-83c8-4df2-a1ea-4b62e5a33ecb/8adedd60-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0erp6f.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0erp6e/2181257b-83c8-4df2-a1ea-4b62e5a33ecb/8adedd60-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0erp6f.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 3\"></td>\n\n  </tr>\n\n  <tr>\n\n    <td>(Q) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0ejws2/cfaad24d-25f5-4608-96e0-2cbdafeb3412/b2450920-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ejws3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0ejws2/cfaad24d-25f5-4608-96e0-2cbdafeb3412/b2450920-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0ejws3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 4\"></td>\n\n    <td>(2) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eptae/e2937720-0858-434a-9825-fa0a071eaef4/566d9260-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eptaf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eptae/e2937720-0858-434a-9825-fa0a071eaef4/566d9260-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eptaf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 5\"></td>\n\n  </tr>\n\n  <tr>\n\n    <td>(R) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eh3dr/71c8765f-6641-47ee-ae99-2472a5f61651/63f14ef0-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eh3ds.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eh3dr/71c8765f-6641-47ee-ae99-2472a5f61651/63f14ef0-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eh3ds.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 6\"></td>\n\n    <td>(3) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eq1az/bb14667e-314f-43e5-ac55-bcb058cde0e2/5c9eceb0-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eq1b0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eq1az/bb14667e-314f-43e5-ac55-bcb058cde0e2/5c9eceb0-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eq1b0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 7\"></td>\n\n  </tr>\n\n  <tr>\n\n    <td>(S) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eh860/d3054a1a-6c4c-41a2-8656-f3c8c3ba3bbe/67a38180-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eh861.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eh860/d3054a1a-6c4c-41a2-8656-f3c8c3ba3bbe/67a38180-379c-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eh861.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 8\"></td>\n\n    <td>(4) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eo0gt/b95cdac8-0fd7-48de-bde0-953c4375f105/245ad0d0-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eo0gu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eo0gt/b95cdac8-0fd7-48de-bde0-953c4375f105/245ad0d0-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eo0gu.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 9\"></td>\n\n  </tr>\n\n  <tr>\n\n    <td></td>\n\n    <td>(5) <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0eo7s6/e309b9d0-4e68-4c68-9a5a-eae9bf1aa3dd/2a018060-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eo7s7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0eo7s6/e309b9d0-4e68-4c68-9a5a-eae9bf1aa3dd/2a018060-379d-11f0-831e-111c9abd7f64/file-jaoe38c1mb0eo7s7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi 10\"></td>\n\n  </tr>\n\n</tbody></table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{P} \\rightarrow 3, \\mathrm{Q} \\rightarrow 5, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{P} \\rightarrow 1, \\mathrm{Q} \\rightarrow 5, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 3$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{P} \\rightarrow 3, \\mathrm{Q} \\rightarrow 4, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{P} \\rightarrow 1, \\mathrm{Q} \\rightarrow 4, \\mathrm{R} \\rightarrow 2, \\mathrm{~S} \\rightarrow 5$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxki8m6/a46128e3-c9e9-44c2-be2b-59106e423b62/0f6113e0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxki8m7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxki8m6/a46128e3-c9e9-44c2-be2b-59106e423b62/0f6113e0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxki8m7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi Explanation 1\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxkiq7p/3173610c-c08b-4182-8f64-9808739a2237/1cf92650-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkiq7q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxkiq7p/3173610c-c08b-4182-8f64-9808739a2237/1cf92650-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkiq7q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi Explanation 2\"></p>\n<p>$$ \\begin{aligned} &amp;\\Rightarrow i_0=\\frac{v_0}{R}=\\frac{300}{30}=10 \\mathrm{~A} \\\\ &amp;\\text { और } \\phi=0 \\\\ &amp;\\begin{array}{l}  \\text{अतः } (P) \\rightarrow 3 \\end{array} \\end{aligned} $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxkjyqm/803eddfa-cde4-49ec-afd7-2af7c7f6c003/3f5e3be0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkjyqn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxkjyqm/803eddfa-cde4-49ec-afd7-2af7c7f6c003/3f5e3be0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkjyqn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi Explanation 3\"></p>\n<p>$$ \\begin{aligned} z &amp;=\\sqrt{R^2+(\\omega L)^2} \\quad\\left(\\text { क्योंकि } x_L=\\omega L\\right) \\\\ &amp;=\\sqrt{(30)^2+\\left(400  \\times 100 \\times 10^{-3}\\right)^2} \\\\ &amp;=\\sqrt{900+1600}=\\sqrt{2500} \\\\ z=50 \\Omega &amp; \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} \\text { अतः } &amp;i_0=\\frac{V_0}{2}=\\frac{300}{50}=6 \\mathrm{~A} \\\\ \\phi &amp;=\\tan ^{-1}\\left(\\frac{x_L}{R}\\right)=\\tan ^{-1}\\left(\\frac{\\omega L}{R}\\right) \\\\ &amp;=\\tan ^{-1}\\left(\\frac{400 \\times 106 \\times 10^{-3}}{36}\\right)=\\tan ^{-1}\\left(\\frac{4}{3}\\right) \\\\ \\Rightarrow \\quad \\phi &amp;=53^{\\circ}(\\text{पश्चगामी}) \\\\ &amp;\\therefore Q \\rightarrow 5 \\end{aligned} $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxklkdd/9d883aaa-af27-40af-8601-b4fad631153f/6be32d10-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxklkde.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxklkdd/9d883aaa-af27-40af-8601-b4fad631153f/6be32d10-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxklkde.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi Explanation 4\"></p>\n<p>$$ \\begin{aligned} z &amp;=\\sqrt{R^2+\\left(x_C-x_L\\right)^2} \\\\ &amp;=\\sqrt{R^2+\\left(\\frac{1}{\\omega c}-\\omega L\\right)^2} \\\\ &amp;=\\sqrt{(30)^2+\\left(\\frac{1}{400 \\times 50 \\times 10^{-6}}-400 \\times 25 \\times 10^{-3}\\right)^2} \\\\ z &amp;=\\sqrt{900+\\left(\\frac{1}{20 \\times 10^{-3}}-10\\right)^2} \\end{aligned} $$</p>\n<p>$$ \\begin{aligned} &amp;\\begin{array}{r} z=\\sqrt{900+(50-10)^2}=\\sqrt{900+1600} \\\\ z=\\sqrt{2500}=50 \\Omega \\\\ i_0=\\frac{v_0}{2}=\\frac{300 }{50}=6 \\mathrm{~A} \\\\ \\phi=\\tan ^{-1}\\left[\\frac{x_L-x_C}{R}\\right]=\\tan ^{-1}\\left[\\frac{10-50}{30}\\right] \\\\ =\\tan ^{-1}\\left|\\frac{40 }{30}\\right|=53^{\\circ} \\text { (अग्रगामी) } \\end{array}\\\\ &amp;(R) \\rightarrow 2 \\end{aligned} $$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcxkmqcq/4bcf98de-1b5e-4820-afb7-8a92c829cfd0/8c5154a0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkmqcr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcxkmqcq/4bcf98de-1b5e-4820-afb7-8a92c829cfd0/8c5154a0-5da6-11f0-845b-49ec36abc6e0/file-jaoe38c1mcxkmqcr.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Alternating Current Question 4 Hindi Explanation 5\"></p>\n<p>$$ \\begin{aligned} z &amp;=\\sqrt{(60)^2+\\left(\\frac{1}{400 \\times 50 \\times 10^{-6}}-400 \\times 125 \\times 10^{-3}\\right)^2} \\\\ &amp;=\\sqrt{(60)^2+(50-50)^2} \\\\ z &amp;=60 \\Omega \\\\ &amp;i_0=\\frac{300}{60}=5 \\mathrm{~A} \\\\ \\phi &amp;=\\tan ^{-1}\\left|\\frac{x_L-x_C}{R}\\right|=\\tan ^{-1}\\left|\\frac{0}{60}\\right|=0^{\\circ} \\end{aligned} $$</p>\n<p>अतः $(s) \\rightarrow 1$</p>\n<p>इसलिए, विकल्प (A) सही है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "A circuit with an electrical load having impedance $Z$ is connected with an AC source as shown in the diagram. The source voltage varies in time as $V(t)=300 \\sin (400 t) \\mathrm{V}$, where $t$ is time in s . List-I shows various options fo..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "चित्रानुसार, एक परिपथ (circuit) में $Z$ प्रतिबाधा वाले एक वैद्युत लोड को एक AC स्रोत से जोड़ा गया है। समय के साथ स्रोत का विभव $V(t)=300 \\sin (400 t) \\mathrm{V}$ के अनुसार विचरित (vary) होता है, जहाँ $t(\\mathrm{~s}$ में $)$ समय है| सूची-I (..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "zlkmueu96ia71j308827",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-1-online",
+      "paperTitle": "JEE Advanced 2024 Paper 1 Online",
+      "permalink": "pthe-circuit-shown-in-the-figure-contains-an-inductor-l-jee-advanced-physics-bxhyk1zeydb2nvph",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The circuit shown in the figure contains an inductor $L$, a capacitor $C_0$, a resistor $R_0$ and an ideal battery. The circuit also contains two keys $\\mathrm{K}_1$ and $\\mathrm{K}_2$. Initially, both the keys are open and there is no charge on the capacitor. At an instant, key $\\mathrm{K}_1$ is closed and immediately after this the current in $R_0$ is found to be $I_1$. After a long time, the current attains a steady state value $I_2$. Thereafter, $\\mathrm{K}_2$ is closed and simultaneously $\\mathrm{K}_1$ is opened and the voltage across $C_0$ oscillates with amplitude $V_0$ and angular frequency $\\omega_0$.</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxxsjt/ac44cfb6-d802-4f79-ab69-7ed73d022c11/db561b90-1cb0-11ef-853e-dba8720394f1/file-6y3zli1lwpxxsju.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxxsjt/ac44cfb6-d802-4f79-ab69-7ed73d022c11/db561b90-1cb0-11ef-853e-dba8720394f1/file-6y3zli1lwpxxsju.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 English\">\n\n<p>Match the quantities mentioned in <b>List-I</b> with their values in <b>List-II</b> and choose the correct option.</p>\n\n<table>\n\n<style>\n        table {\n            width: 100%;\n            border-collapse: collapse;\n        }\n        th {\n            background-color: #1E90FF;\n            color: white;\n        }\n        th, td {\n            border: 1px solid lightgrey;\n            padding: 8px;\n            text-align: left;\n        }\n        body[data-theme='dark'] th, body[data-theme='dark'] td {\n            border: 1px solid white;\n        }\n    </style>\n    <thead>\n        <tr>\n            <th>List-I</th>\n            <th>List-II</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>(P) The value of $I_1$ in Ampere is</td>\n            <td>(1) $0$</td>\n        </tr>\n        <tr>\n            <td>(Q) The value of $I_2$ in Ampere is</td>\n            <td>(2) $2$</td>\n        </tr>\n        <tr>\n            <td>(R) The value of $\\omega_0$ in kilo-radians/s is</td>\n            <td>(3) $4$</td>\n        </tr>\n        <tr>\n            <td>(S) The value of $V_0$ in Volt is</td>\n            <td>(4) $20$</td>\n        </tr>\n        <tr>\n            <td></td>\n            <td>(5) $200$</td>\n        </tr>\n    </tbody>\n</table>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 5$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 3 ; \\mathrm{S} \\rightarrow 5$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 4$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 5 ; \\mathrm{R} \\rightarrow 3 ; \\mathrm{S} \\rightarrow 4$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgeme66/ef82b6cc-fc19-4c95-a721-109ea2fa9cb7/e92aa5e0-52d6-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgeme67.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgeme66/ef82b6cc-fc19-4c95-a721-109ea2fa9cb7/e92aa5e0-52d6-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgeme67.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 English Explanation 1\"></p>\n<p>(P) When $$K_1$$ is closed current in $$R_0$$ is $$I_1$$</p>\n<p>At $$\\mathrm{t}=0$$; circuit will be</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgenicw/5a67f53e-5bce-49bb-ab3f-c1d4c1b7f50e/0835bb00-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgenicx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgenicw/5a67f53e-5bce-49bb-ab3f-c1d4c1b7f50e/0835bb00-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgenicx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 English Explanation 2\"></p>\n<p>$$\\begin{aligned}\n&amp; \\mathrm{I}_1=0 \\\\\n&amp; \\mathrm{P} \\rightarrow(1)\n\\end{aligned}$$</p>\n<p>(Q) After long time inductor behave as a wire so $$I_2$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgeoip3/2742fd62-1a85-47b5-bf8b-79e0b8da3991/2447db70-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgeoip4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgeoip3/2742fd62-1a85-47b5-bf8b-79e0b8da3991/2447db70-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgeoip4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 English Explanation 3\"></p>\n<p>$$\\begin{aligned}\n&amp; \\mathrm{I}_2=\\frac{20}{5}=4 \\mathrm{~A} \\\\\n&amp; \\mathrm{Q} \\rightarrow(3)\n\\end{aligned}$$</p>\n<p>$$\\text { (R) When } K_2 \\text { is closed and } K_1 \\text { open }$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgevl67/6ff8919f-484c-4bd2-b3fc-ddddb016a34a/e8db57f0-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgevl68.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgevl67/6ff8919f-484c-4bd2-b3fc-ddddb016a34a/e8db57f0-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgevl68.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 English Explanation 4\"></p>\n<p>$$\\begin{aligned}\n&amp; \\omega_0=\\frac{1}{\\sqrt{\\mathrm{LC}}} \\\\\n&amp; \\omega_0=\\frac{1}{\\sqrt{25 \\times 10^{-3} \\times 10 \\times 10^{-6}}}=\\frac{1}{5 \\times 10^{-4}} \\\\\n&amp; \\omega_0=2 \\times 10^3 \\mathrm{rad} / \\mathrm{s} \\\\\n&amp; \\omega_0=2 \\mathrm{kilo}-\\mathrm{radian} / \\mathrm{s} \\\\\n&amp; \\mathrm{R} \\rightarrow(2)\n\\end{aligned}$$</p>\n<p>(S) Now $$K_2$$ is closed and $$K_1$$ open</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgews7u/4b1a95e8-e841-4a29-8edd-67ff70246bc1/0a1bc3a0-52d8-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgews7v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgews7u/4b1a95e8-e841-4a29-8edd-67ff70246bc1/0a1bc3a0-52d8-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgews7v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 English Explanation 5\"></p>\n<p>$$\\begin{aligned}\n&amp; \\frac{1}{2} \\mathrm{LI}_2^2=\\frac{1}{2} \\mathrm{CV}_0^2 \\\\\n&amp; 25 \\times 10^{-3} \\times(4)^2=10 \\times 10^{-6} \\times \\mathrm{V}_0^2 \\\\\n&amp; \\mathrm{~V}_0^2=2500 \\times 16 \\\\\n&amp; \\mathrm{~V}_0=50 \\times 4=200 \\mathrm{~V} \\\\\n&amp; \\mathrm{~S} \\rightarrow(5)\n\\end{aligned}$$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>चित्र में दिखाए गए परिपथ में एक प्रेरक $L$, एक संधारित्र $C_0$ एवं एक प्रतिरोधक $R_0$, एक आदर्श बैटरी के साथ जुड़े हैं| परिपथ में दो कुंजियाँ $K_1$ एवं $K_2$ भी लगी हैं| प्रारंभ में परिपथ में दोनों कुंजियाँ खुली अवस्था में है एवं संधारित्र अनावेशित है| किसी क्षण, कुंजी $\\mathrm{K}_1$ को बंद किया जाता है और उसके तुरंत बाद $R_0$ में धारा $I_1$ मापी जाती है जिसका, बहुत देर बाद, स्थायी अवस्था में, मान $I_2$ हो जाता है। तत्पश्षात् कुंजी $K_2$ को बंद करते हैं एवं उसी समय कुंजी $\\mathrm{K}_1$ को खोलने पर $C_0$ की वोल्टता (voltage), आयाम $V_0$ एवं कोणीय आवृत्ति $\\omega_0$ से, दोलन करती है|</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpxxsjt/ac44cfb6-d802-4f79-ab69-7ed73d022c11/db561b90-1cb0-11ef-853e-dba8720394f1/file-6y3zli1lwpxxsju.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpxxsjt/ac44cfb6-d802-4f79-ab69-7ed73d022c11/db561b90-1cb0-11ef-853e-dba8720394f1/file-6y3zli1lwpxxsju.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 Hindi\">\n\n<p>नीचे दिए गए List-। की प्रत्येक प्रविष्टि का List-॥ की उचित प्रविष्टि से मेल कर सही विकल्प चुनें|</p>\n\n<table>\n\n<style>\n        table {\n            width: 100%;\n            border-collapse: collapse;\n        }\n        th {\n            background-color: #1E90FF;\n            color: white;\n        }\n        th, td {\n            border: 1px solid lightgrey;\n            padding: 8px;\n            text-align: left;\n        }\n        body[data-theme='dark'] th, body[data-theme='dark'] td {\n            border: 1px solid white;\n        }\n    </style>\n    <thead>\n        <tr>\n            <th>List-I</th>\n            <th>List-II</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>(P) $I_1$ का मान ऐम्पेयर में है </td>\n            <td>(1) $0$</td>\n        </tr>\n        <tr>\n            <td>(Q) $I_2$ का मान ऐम्पियर में है</td>\n            <td>(2) $2$</td>\n        </tr>\n        <tr>\n            <td>(R) $\\omega_0$ का मान kilo-radians $/ \\mathrm{s}$ में है</td>\n            <td>(3) $4$</td>\n        </tr>\n        <tr>\n            <td>(S) $V_0$ का मान वोल्ट (Volt) में है</td>\n            <td>(4) $20$</td>\n        </tr>\n        <tr>\n            <td></td>\n            <td>(5) $200$</td>\n        </tr>\n    </tbody>\n</table>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 5$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 3 ; \\mathrm{S} \\rightarrow 5$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{P} \\rightarrow 1 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 4$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 5 ; \\mathrm{R} \\rightarrow 3 ; \\mathrm{S} \\rightarrow 4$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgeme66/ef82b6cc-fc19-4c95-a721-109ea2fa9cb7/e92aa5e0-52d6-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgeme67.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgeme66/ef82b6cc-fc19-4c95-a721-109ea2fa9cb7/e92aa5e0-52d6-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgeme67.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 Hindi Explanation 1\"></p>\n<p>(P) जब $$K_1$$ बंद है तो $$R_0$$ में धारा $$I_1$$ है</p>\n<p>$$\\mathrm{t}=0$$ पर; परिपथ होगा</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgenicw/5a67f53e-5bce-49bb-ab3f-c1d4c1b7f50e/0835bb00-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgenicx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgenicw/5a67f53e-5bce-49bb-ab3f-c1d4c1b7f50e/0835bb00-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgenicx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 Hindi Explanation 2\"></p>\n<p>$$\\begin{aligned}\n&amp; \\mathrm{I}_1=0 \\\\\n&amp; \\mathrm{P} \\rightarrow(1)\n\\end{aligned}$$</p>\n<p>(Q) लंबे समय के बाद प्रेरक तार की तरह व्यवहार करता है इसलिए $$I_2$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgeoip3/2742fd62-1a85-47b5-bf8b-79e0b8da3991/2447db70-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgeoip4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgeoip3/2742fd62-1a85-47b5-bf8b-79e0b8da3991/2447db70-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgeoip4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 Hindi Explanation 3\"></p>\n<p>$$\\begin{aligned}\n&amp; \\mathrm{I}_2=\\frac{20}{5}=4 \\mathrm{~A} \\\\\n&amp; \\mathrm{Q} \\rightarrow(3)\n\\end{aligned}$$</p>\n<p>$$\\text { (R) जब } K_2 \\text { बंद है और } K_1 \\text { खुला है }$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgevl67/6ff8919f-484c-4bd2-b3fc-ddddb016a34a/e8db57f0-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgevl68.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgevl67/6ff8919f-484c-4bd2-b3fc-ddddb016a34a/e8db57f0-52d7-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgevl68.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 Hindi Explanation 4\"></p>\n<p>$$\\begin{aligned}\n&amp; \\omega_0=\\frac{1}{\\sqrt{\\mathrm{LC}}} \\\\\n&amp; \\omega_0=\\frac{1}{\\sqrt{25 \\times 10^{-3} \\times 10 \\times 10^{-6}}}=\\frac{1}{5 \\times 10^{-4}} \\\\\n&amp; \\omega_0=2 \\times 10^3 \\mathrm{rad} / \\mathrm{s} \\\\\n&amp; \\omega_0=2 \\mathrm{kilo}-\\mathrm{radian} / \\mathrm{s} \\\\\n&amp; \\mathrm{R} \\rightarrow(2)\n\\end{aligned}$$</p>\n<p>(S) अब $$K_2$$ बंद है और $$K_1$$ खुला है</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzgews7u/4b1a95e8-e841-4a29-8edd-67ff70246bc1/0a1bc3a0-52d8-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgews7v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzgews7u/4b1a95e8-e841-4a29-8edd-67ff70246bc1/0a1bc3a0-52d8-11ef-b36d-bd2dcc0bdc5d/file-jaoe38c1lzgews7v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Alternating Current Question 6 Hindi Explanation 5\"></p>\n<p>$$\\begin{aligned}\n&amp; \\frac{1}{2} \\mathrm{LI}_2^2=\\frac{1}{2} \\mathrm{CV}_0^2 \\\\\n&amp; 25 \\times 10^{-3} \\times(4)^2=10 \\times 10^{-6} \\times \\mathrm{V}_0^2 \\\\\n&amp; \\mathrm{~V}_0^2=2500 \\times 16 \\\\\n&amp; \\mathrm{~V}_0=50 \\times 4=200 \\mathrm{~V} \\\\\n&amp; \\mathrm{~S} \\rightarrow(5)\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "The circuit shown in the figure contains an inductor $L$, a capacitor $C_0$, a resistor $R_0$ and an ideal battery. The circuit also contains two keys $\\mathrm{K}_1$ and $\\mathrm{K}_2$. Initially, both the keys are open and there is no char..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "चित्र में दिखाए गए परिपथ में एक प्रेरक $L$, एक संधारित्र $C_0$ एवं एक प्रतिरोधक $R_0$, एक आदर्श बैटरी के साथ जुड़े हैं| परिपथ में दो कुंजियाँ $K_1$ एवं $K_2$ भी लगी हैं| प्रारंभ में परिपथ में दोनों कुंजियाँ खुली अवस्था में है एवं संधारित्र ..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-1-online"
+    },
+    {
+      "question_id": "7yw0gpzwovboq35pftew",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "a-series-lcr-circuit-is-connected-to-a-45-sin-omega-t-jee-advanced-physics-ij8butcejss5yoi4",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A series LCR circuit is connected to a $45 \\sin (\\omega t)$ Volt source. The resonant angular frequency of the circuit is $10^5 ~\\mathrm{rad}~ \\mathrm{s}^{-1}$ and current amplitude at resonance is $I_0$. When the angular frequency of the source is $\\omega=8 \\times 10^4 ~\\mathrm{rad} ~\\mathrm{s}^{-1}$, the current amplitude in the circuit is $0.05 I_0$. If $L=50 ~\\mathrm{mH}$, match each entry in List-I with an appropriate value from List-II and choose the correct option.<br/><br/>\n<style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;width:100%}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-1wig\">List - I</th>\n    <th class=\"tg-1wig\">List - II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-0lax\">(P) $I_0$ in $\\mathrm{mA}$</td>\n    <td class=\"tg-0lax\">(1) 44.4</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\">(Q) The quality factor of the circuit</td>\n    <td class=\"tg-0lax\">(2) 18</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\">(R) The bandwidth of the circuit in $\\mathrm{rad}~ \\mathrm{s}^{-1}$</td>\n    <td class=\"tg-0lax\">(3) 400</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\">(S) The peak power dissipated at resonance in Watt</td>\n    <td class=\"tg-0lax\">(4) 2250</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\"></td>\n    <td class=\"tg-0lax\">(5) 500</td>\n  </tr>\n</tbody>\n</table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$P \\rightarrow 2, Q \\rightarrow 3, R \\rightarrow 5, S \\rightarrow 1$"
+            },
+            {
+              "identifier": "B",
+              "content": "$P \\rightarrow 3, Q \\rightarrow 1, R \\rightarrow 4, S \\rightarrow 2$"
+            },
+            {
+              "identifier": "C",
+              "content": "$P \\rightarrow 4, Q \\rightarrow 5, R \\rightarrow 3, S \\rightarrow 1$"
+            },
+            {
+              "identifier": "D",
+              "content": "$P \\rightarrow 4, Q \\rightarrow 2, R \\rightarrow 1, S \\rightarrow 5$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "$\\begin{aligned} & \\omega_0=10^5 \\mathrm{rad} \\mathrm{s}^{-1}, L=50 \\times 10^{-3} \\mathrm{H} \\\\\\\\ & \\Rightarrow X_L=5000 \\Omega=X_C \\text { (at resonance) } \\\\\\\\ & \\frac{1}{\\sqrt{L C}}=\\omega_0 \\\\\\\\ & \\Rightarrow L_C=\\frac{1}{\\omega_0^2} \\\\\\\\ & \\Rightarrow C=2 \\times 10^{-9} \\mathrm{~F} \\\\\\\\ & I_0=\\frac{\\varepsilon_0}{\\sqrt{R^2+\\left(X_L-X_C\\right)^2}} \\\\\\\\ & I_0=\\frac{\\varepsilon_0}{R} ..........(i) \\end{aligned}$\n<br/><br/>\n$$\n\\begin{aligned}\n 0.05 I_0 & =\\frac{\\varepsilon_0}{\\sqrt{R^2+\\left(X_L-X_C\\right)^2}}  ..........(ii) \\\\\\\\\n\\text { At } \\omega & =8 \\times 10^4 \\mathrm{rad} \\mathrm{s}^{-1} \\\\\\\\\nX_L & =8 \\times 10^4 \\times 50 \\times 10^{-3}=4000 \\Omega \\\\\\\\\nX_C & =\\frac{1}{\\omega_C}=6250 \\Omega\n\\end{aligned}\n$$\n<br/><br/>From (i) and (ii), we get\n<br/><br/>$$\n\\begin{aligned}\n& \\sqrt{R^2+\\left(X_L-X_C\\right)^2}  =\\frac{R}{0.05} \\\\\\\\\n& R^2+(6250-4000)^2  =400 R^2 \\\\\\\\\n& \\Rightarrow R^2 \\simeq \\frac{(2250)^2}{400}  \\\\\\\\\n& R  =\\frac{2250}{20}=112.5 \\Omega \\\\\\\\\n&I_0  =\\frac{\\varepsilon_0}{R}=\\frac{45}{112.5} \\\\\\\\\n& =400 \\mathrm{~m} \\mathrm{~A}\n\\end{aligned}\n$$\n<br/><br/>$(\\mathrm{P} \\rightarrow 3)$\n<br/><br/>$\\begin{aligned} \\rightarrow Q & =\\frac{1}{R} \\sqrt{\\frac{L}{C}} \\\\\\\\ \\Rightarrow Q & =\\frac{2}{2250} \\times \\sqrt{\\frac{50 \\times 10^{-3}}{2 \\times 10^{-7}}}=\\frac{10^4}{225} \\\\\\\\ & =44.4\\\\\\\\ (\\mathrm{Q} \\rightarrow 1) \\\\\\\\ Q & =\\frac{\\omega_0}{B W}\\end{aligned}$\n<br/><br/>$\\Rightarrow B W=\\frac{\\omega_0}{Q}=\\frac{10^5}{\\frac{10^4}{225}}=2250$\n<br/><br/>$(\\mathrm{R} \\rightarrow 4)$\n<br/><br/>$\\begin{array}{rrr}P  =\\frac{\\varepsilon_0^2}{R}  \\text { (peak power) } \\\\\\\\\n=\\frac{45^2}{112.5}=18 \\mathrm{~W}  \\end{array}$\n<br/><br/>$(S \\rightarrow 2)$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "एक श्रेणीबद्ध LCR परिपथ में $45 \\sin (\\omega t)$ Volt का एक स्रोत लगा है। इस परिपथ की अनुनादी कोणीय आवृत्ति $10^5 ~\\mathrm{rad} \\mathrm{s}^{-1}$ है तथा अनुनाद पर धारा आयाम $I_0$ है। जब स्रोत की कोणीय आवृत्ति $\\omega=8 \\times 10^4~ \\mathrm{rad} \\mathrm{s}^{-1}$ है तब धारा आयाम $0.05 I_0$ है। यदि $L=50 \\mathrm{mH}$ तब List-I में दी गयी प्रत्येक प्रविष्टि का List-II में दिए गए उचित मान के साथ मेल कर सही विकल्प चुनें|<br/><br/>\n<style>\n  table {\n    font-family: Arial, sans-serif;\n    border-collapse: collapse;\n    width: 100%;\n  }\n  td, th {\n    border: 1px solid #dddddd;\n    text-align: left;\n    padding: 8px;\n  }\n  th {\n    background-color: #2563EB; /* Tailwind blue-600 */\n    color: white;\n  }\n</style>\n\n<table>\n  <tr>\n    <th>List-I</th>\n    <th>List-II</th>\n  </tr>\n  <tr>\n    <td>(P) $ I_0 $ का मान mA में</td>\n    <td>(1) 44.4</td>\n  </tr>\n  <tr>\n    <td>(Q) परिपथ का गुणता कारक (quality factor)</td>\n    <td>(2) 18</td>\n  </tr>\n  <tr>\n    <td>(R) परिपथ का बैंड-विस्तार (bandwidth) rad s<sup>-1</sup> में</td>\n    <td>(3) 400</td>\n  </tr>\n  <tr>\n    <td>(S) अनुगामी पर शक्ति बाधा Watt में</td>\n    <td>(4) 2250</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td>(5) 500</td>\n  </tr>\n</table>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$P \\rightarrow 2, Q \\rightarrow 3, R \\rightarrow 5, S \\rightarrow 1$"
+            },
+            {
+              "identifier": "B",
+              "content": "$P \\rightarrow 3, Q \\rightarrow 1, R \\rightarrow 4, S \\rightarrow 2$"
+            },
+            {
+              "identifier": "C",
+              "content": "$P \\rightarrow 4, Q \\rightarrow 5, R \\rightarrow 3, S \\rightarrow 1$"
+            },
+            {
+              "identifier": "D",
+              "content": "$P \\rightarrow 4, Q \\rightarrow 2, R \\rightarrow 1, S \\rightarrow 5$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "$\\begin{aligned} & \\omega_0=10^5 \\mathrm{rad} \\mathrm{s}^{-1}, L=50 \\times 10^{-3} \\mathrm{H} \\\\\\\\ & \\Rightarrow X_L=5000 \\Omega=X_C \\text { (अनुनाद पर) } \\\\\\\\ & \\frac{1}{\\sqrt{L C}}=\\omega_0 \\\\\\\\ & \\Rightarrow L_C=\\frac{1}{\\omega_0^2} \\\\\\\\ & \\Rightarrow C=2 \\times 10^{-9} \\mathrm{~F} \\\\\\\\ & I_0=\\frac{\\varepsilon_0}{\\sqrt{R^2+\\left(X_L-X_C\\right)^2}} \\\\\\\\ & I_0=\\frac{\\varepsilon_0}{R} ..........(i) \\end{aligned}$\n<br/><br/>\n$$\n\\begin{aligned}\n 0.05 I_0 & =\\frac{\\varepsilon_0}{\\sqrt{R^2+\\left(X_L-X_C\\right)^2}}  ..........(ii) \\\\\\\\\n\\text { } \\omega & =8 \\times 10^4 \\mathrm{rad} \\mathrm{s}^{-1} \\text{ पर} \\\\\\\\\nX_L & =8 \\times 10^4 \\times 50 \\times 10^{-3}=4000 \\Omega \\\\\\\\\nX_C & =\\frac{1}{\\omega_C}=6250 \\Omega\n\\end{aligned}\n$$\n<br/><br/>(i) और (ii) से, हमें प्राप्त होता है\n<br/><br/>$$\n\\begin{aligned}\n& \\sqrt{R^2+\\left(X_L-X_C\\right)^2}  =\\frac{R}{0.05} \\\\\\\\\n& R^2+(6250-4000)^2  =400 R^2 \\\\\\\\\n& \\Rightarrow R^2 \\simeq \\frac{(2250)^2}{400}  \\\\\\\\\n& R  =\\frac{2250}{20}=112.5 \\Omega \\\\\\\\\n&I_0  =\\frac{\\varepsilon_0}{R}=\\frac{45}{112.5} \\\\\\\\\n& =400 \\mathrm{~m} \\mathrm{~A}\n\\end{aligned}\n$$\n<br/><br/>$(\\mathrm{P} \\rightarrow 3)$\n<br/><br/>$\\begin{aligned} \\rightarrow Q & =\\frac{1}{R} \\sqrt{\\frac{L}{C}} \\\\\\\\ \\Rightarrow Q & =\\frac{2}{2250} \\times \\sqrt{\\frac{50 \\times 10^{-3}}{2 \\times 10^{-7}}}=\\frac{10^4}{225} \\\\\\\\ & =44.4\\\\\\\\ (\\mathrm{Q} \\rightarrow 1) \\\\\\\\ Q & =\\frac{\\omega_0}{B W}\\end{aligned}$\n<br/><br/>$\\Rightarrow B W=\\frac{\\omega_0}{Q}=\\frac{10^5}{\\frac{10^4}{225}}=2250$\n<br/><br/>$(\\mathrm{R} \\rightarrow 4)$\n<br/><br/>$\\begin{array}{rrr}P  =\\frac{\\varepsilon_0^2}{R}  \\text { (शिखर शक्ति) } \\\\\\\\\n=\\frac{45^2}{112.5}=18 \\mathrm{~W}  \\end{array}$\n<br/><br/>$(S \\rightarrow 2)$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "A series LCR circuit is connected to a $45 \\sin (\\omega t)$ Volt source. The resonant angular frequency of the circuit is $10^5 ~\\mathrm{rad}~ \\mathrm{s}^{-1}$ and current amplitude at resonance is $I_0$. When the angular frequency of the s..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "एक श्रेणीबद्ध LCR परिपथ में $45 \\sin (\\omega t)$ Volt का एक स्रोत लगा है। इस परिपथ की अनुनादी कोणीय आवृत्ति $10^5 ~\\mathrm{rad} \\mathrm{s}^{-1}$ है तथा अनुनाद पर धारा आयाम $I_0$ है। जब स्रोत की कोणीय आवृत्ति $\\omega=8 \\times 10^4~ \\mathrm{r..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "7w4llpn2ul30sztfcfy7",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "in-a-circuit-a-metal-filament-lamp-is-connected-in-series-w-jee-advanced-physics-units-and-measurements-4yreb6xn9junv8tj",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In a circuit, a metal filament lamp is connected in series with a capacitor of capacitance C $$\\mu$$F across a 200 V, 50 Hz supply. The power consumed by the lamp is 500 W while the voltage drop across it is 100 V. Assume that there is no inductive load in the circuit. Take rms values of the voltages. The magnitude of the phase-angle (in degrees) between the current and the supply voltage is $$\\varphi $$. Assume, $$\\pi$$$$\\sqrt 3 $$ $$ \\approx $$ 5.<br><br>The value of C is ____________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "100",
+          "explanation": "For lamp,<br/><br/>$$p = {{{V^2}} \\over R}$$<br/><br/>$$R = {{100 \\times 100} \\over {500}} = 20\\Omega $$<br/><br/>$$i = {V \\over R} = {{100} \\over {20}} = 5A \\Rightarrow i = {V \\over {\\sqrt {{R^2} + X_C^2} }}$$<br/><br/>$$ \\Rightarrow 5 = {{200} \\over {\\sqrt {{{(20)}^2} + {{\\left( {{1 \\over {2\\pi  \\times 50 \\times C}}} \\right)}^2}} }}$$<br/><br/>$$ \\Rightarrow 400 + {\\left( {{1 \\over {100\\pi C}}} \\right)^2} = 1600$$<br/><br/>$$ \\Rightarrow {\\left( {{1 \\over {100\\pi C}}} \\right)^2} = 1200 \\Rightarrow {1 \\over {{\\pi ^2}{C^2}}} = 1200 \\times {10^4}$$<br/><br/>$$ \\Rightarrow {(\\pi C)^2} = {1 \\over {12}} \\times {10^{ - 6}}$$<br/><br/>$$ \\Rightarrow {C^2} = {1 \\over {12{\\pi ^2}}} \\times {10^{ - 6}} $$\n<br/><br/>$$ \\Rightarrow $$ $$ C = {1 \\over {\\sqrt {12} \\pi}} \\times {10^{ - 3}} = 100 \\times {10^{ - 6}}F = 100\\mu F$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक परिपथ (circuit) में $$C ~\\mu \\mathrm{F}$$ धारिता (capacitance) के एक संधारित्र (capacitor) और धातु से बने एक तंतु लैंप (filament lamp) को श्रेणीक्रम में (in series) एक $$200 \\mathrm{~V}, 50 \\mathrm{~Hz}$$ के एक आपूर्ति स्रोत से जोड़ा गया है। तंतु लैंप में $$500 \\mathrm{~W}$$ बिजली की खपत होती है, जब लैंप में विभवपात (voltage drop) $$100 \\mathrm{~V}$$ है । मान लें कि इस परिपथ में कोई प्रेरकीय भार (inductive load) नहीं है। दिए गए विभवों के मान वर्ग माध्य मूल (rms) में लें। धारा और आपूर्ति वोल्टता (supply voltage) के बीच कला-कोण (phase-angle) का परिमाण $$\\varphi$$ अंश (degree) है। मान लीजिए $$\\pi \\sqrt{3} \\approx 5$$ |</p>\n<p>$$C$$ का मान ________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "100",
+          "explanation": "लैम्प के लिए,<br/><br/>$$p = {{{V^2}} \\over R}$$<br/><br/>$$R = {{100 \\times 100} \\over {500}} = 20\\Omega $$<br/><br/>$$i = {V \\over R} = {{100} \\over {20}} = 5A \\Rightarrow i = {V \\over {\\sqrt {{R^2} + X_C^2} }}$$<br/><br/>$$ \\Rightarrow 5 = {{200} \\over {\\sqrt {{{(20)}^2} + {{\\left( {{1 \\over {2\\pi \\times 50 \\times C}}} \\right)}^2}} }}$$<br/><br/>$$ \\Rightarrow 400 + {\\left( {{1 \\over {100\\pi C}}} \\right)^2} = 1600$$<br/><br/>$$ \\Rightarrow {\\left( {{1 \\over {100\\pi C}}} \\right)^2} = 1200 \\Rightarrow {1 \\over {{\\pi ^2}{C^2}}} = 1200 \\times {10^4}$$<br/><br/>$$ \\Rightarrow {(\\pi C)^2} = {1 \\over {12}} \\times {10^{ - 6}}$$<br/><br/>$$ \\Rightarrow {C^2} = {1 \\over {12{\\pi ^2}}} \\times {10^{ - 6}} $$<br/><br/>$$ \\Rightarrow $$ $$ C = {1 \\over {\\sqrt {12} \\pi}} \\times {10^{ - 3}} = 100 \\times {10^{ - 6}}F = 100\\mu F$$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "In a circuit, a metal filament lamp is connected in series with a capacitor of capacitance C $$\\mu$$F across a 200 V, 50 Hz supply. The power consumed by the lamp is 500 W while the voltage drop across it is 100 V. Assume that there is no i..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "एक परिपथ (circuit) में $$C ~\\mu \\mathrm{F}$$ धारिता (capacitance) के एक संधारित्र (capacitor) और धातु से बने एक तंतु लैंप (filament lamp) को श्रेणीक्रम में (in series) एक $$200 \\mathrm{~V}, 50 \\mathrm{~Hz}$$ के एक आपूर्ति स्रोत से जोड़ा गया..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "q160degdthxvu307d7zw",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "in-a-circuit-a-metal-filament-lamp-is-connected-in-series-w-jee-advanced-physics-units-and-measurements-k2376gua35h4my6t",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In a circuit, a metal filament lamp is connected in series with a capacitor of capacitance C $$\\mu$$F across a 200 V, 50 Hz supply. The power consumed by the lamp is 500 W while the voltage drop across it is 100 V. Assume that there is no inductive load in the circuit. Take rms values of the voltages. The magnitude of the phase-angle (in degrees) between the current and the supply voltage is $$\\varphi $$. Assume, $$\\pi$$$$\\sqrt 3 $$ $$ \\approx $$ 5.<br><br>The value of $$\\varphi$$ is ____________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "60",
+          "explanation": "For lamp,<br/><br/>$$p = {{{V^2}} \\over R}$$<br/><br/>$$R = {{100 \\times 100} \\over {500}} = 20\\Omega $$<br/><br/>$$i = {V \\over R} = {{100} \\over {20}} = 5A \\Rightarrow i = {V \\over {\\sqrt {{R^2} + X_C^2} }}$$<br/><br/>$$ \\Rightarrow 5 = {{200} \\over {\\sqrt {{{(20)}^2} + {{\\left( {{1 \\over {2\\pi  \\times 50 \\times C}}} \\right)}^2}} }}$$<br/><br/>$$ \\Rightarrow 400 + {\\left( {{1 \\over {100\\pi C}}} \\right)^2} = 1600$$<br/><br/>$$ \\Rightarrow {\\left( {{1 \\over {100\\pi C}}} \\right)^2} = 1200 \\Rightarrow {1 \\over {{\\pi ^2}{C^2}}} = 1200 \\times {10^4}$$<br/><br/>$$ \\Rightarrow {(\\pi C)^2} = {1 \\over {12}} \\times {10^{ - 6}}$$<br/><br/>$$ \\Rightarrow {C^2} = {1 \\over {12{\\pi ^2}}} \\times {10^{ - 6}} $$\n<br/><br/>$$ \\Rightarrow $$ $$ C = {1 \\over {\\sqrt {12} \\pi}} \\times {10^{ - 3}} = 100 \\times {10^{ - 6}}F = 100\\mu F$$<br/><br/>$$V = \\sqrt {V_C^2 + V_R^2} $$<br/><br/>$$200 = \\sqrt {V_C^2 + {{100}^2}} $$<br/><br/>$$ \\Rightarrow {V_C} = 100\\sqrt 3 $$<br/><br/>$$\\tan \\phi  = {{{X_C}} \\over R} = {{{V_C}} \\over {{V_R}}} = {{100\\sqrt 3 } \\over {100}} = \\sqrt 3 $$<br/><br/>$$\\phi  = 60^\\circ $$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक परिपथ (circuit) में $$C ~\\mu \\mathrm{F}$$ धारिता (capacitance) के एक संधारित्र (capacitor) और धातु से बने एक तंतु लैंप (filament lamp) को श्रेणीक्रम में (in series) एक $$200 \\mathrm{~V}, 50 \\mathrm{~Hz}$$ के एक आपूर्ति स्रोत से जोड़ा गया है। तंतु लैंप में $$500 \\mathrm{~W}$$ बिजली की खपत होती है, जब लैंप में विभवपात (voltage drop) $$100 \\mathrm{~V}$$ है । मान लें कि इस परिपथ में कोई प्रेरकीय भार (inductive load) नहीं है। दिए गए विभवों के मान वर्ग माध्य मूल (rms) में लें। धारा और आपूर्ति वोल्टता (supply voltage) के बीच कला-कोण (phase-angle) का परिमाण $$\\varphi$$ अंश (degree) है। मान लीजिए $$\\pi \\sqrt{3} \\approx 5$$ |</p>\n<p>$$\\varphi$$ का मान ________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "60",
+          "explanation": "लैंप के लिए,<br/><br/>$$p = {{{V^2}} \\over R}$$<br/><br/>$$R = {{100 \\times 100} \\over {500}} = 20\\Omega $$<br/><br/>$$i = {V \\over R} = {{100} \\over {20}} = 5A \\Rightarrow i = {V \\over {\\sqrt {{R^2} + X_C^2} }}$$<br/><br/>$$ \\Rightarrow 5 = {{200} \\over {\\sqrt {{{(20)}^2} + {{\\left( {{1 \\over {2\\pi  \\times 50 \\times C}}} \\right)}^2}} }}$$<br/><br/>$$ \\Rightarrow 400 + {\\left( {{1 \\over {100\\pi C}}} \\right)^2} = 1600$$<br/><br/>$$ \\Rightarrow {\\left( {{1 \\over {100\\pi C}}} \\right)^2} = 1200 \\Rightarrow {1 \\over {{\\pi ^2}{C^2}}} = 1200 \\times {10^4}$$<br/><br/>$$ \\Rightarrow {(\\pi C)^2} = {1 \\over {12}} \\times {10^{ - 6}}$$<br/><br/>$$ \\Rightarrow {C^2} = {1 \\over {12{\\pi ^2}}} \\times {10^{ - 6}} $$<br/><br/>$$ \\Rightarrow $$ $$ C = {1 \\over {\\sqrt {12} \\pi}} \\times {10^{ - 3}} = 100 \\times {10^{ - 6}}F = 100\\mu F$$<br/><br/>$$V = \\sqrt {V_C^2 + V_R^2} $$<br/><br/>$$200 = \\sqrt {V_C^2 + {{100}^2}} $$<br/><br/>$$ \\Rightarrow {V_C} = 100\\sqrt 3 $$<br/><br/>$$\\tan \\phi  = {{{X_C}} \\over R} = {{{V_C}} \\over {{V_R}}} = {{100\\sqrt 3 } \\over {100}} = \\sqrt 3 $$<br/><br/>$$\\phi  = 60^\\circ $$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "In a circuit, a metal filament lamp is connected in series with a capacitor of capacitance C $$\\mu$$F across a 200 V, 50 Hz supply. The power consumed by the lamp is 500 W while the voltage drop across it is 100 V. Assume that there is no i..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "एक परिपथ (circuit) में $$C ~\\mu \\mathrm{F}$$ धारिता (capacitance) के एक संधारित्र (capacitor) और धातु से बने एक तंतु लैंप (filament lamp) को श्रेणीक्रम में (in series) एक $$200 \\mathrm{~V}, 50 \\mathrm{~Hz}$$ के एक आपूर्ति स्रोत से जोड़ा गया..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "fg3pbyis28hj2ybob6be",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "alternating-current",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The instantaneous voltages at three terminals marked $$X,Y$$ and $$Z$$  are given by \n<br><br>$${V_x} = {V_0}\\,\\sin \\,\\omega t,$$ \n<br><br>$${V_Y} = {V_0}\\,\\sin $$ $$\\left( {\\omega t + {{2\\pi } \\over 3}} \\right)$$  \n<br><br>and $$Vz = {V_0}\\sin \\left( {\\omega t + {{4\\pi } \\over 3}} \\right)$$ \n<br><br>An ideal voltmeter is configured to read $$rms$$ value of the potential difference between its terminals. It is connected between points $$X$$ and $$Y$$ and then between $$Y$$ and $$Z.$$ The reading(s) of the voltmeter will be \n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$V_{xy}^{rms} = {V_0}\\sqrt {{3 \\over 2}} $$  "
+            },
+            {
+              "identifier": "B",
+              "content": "$$V_{YZ}^{rms} = {V_0}\\sqrt {{1 \\over 2}} $$  "
+            },
+            {
+              "identifier": "C",
+              "content": "$$V_{XY}^{rms} = {V_0}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "Independent of the choice of the two terminals "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The potential difference between point X and Y is given by</p>\n<p>V<sub>XY</sub> = V<sub>X</sub> $$-$$ V<sub>Y</sub></p>\n<p>= V<sub>0</sub> sin($$\\omega$$t) $$-$$ V<sub>0</sub> sin($$\\omega$$t + $${{2\\pi } \\over 3}$$)</p>\n<p>= 2V<sub>0</sub> cos($$\\omega$$t + $${{\\pi } \\over 3}$$) sin ($$-$$$${{\\pi } \\over 3}$$)</p>\n<p>= $$-$$$$\\sqrt 3 $$V<sub>0</sub> cos($$\\omega$$t + $${\\pi  \\over 3}$$) = $$\\sqrt 3 $$V<sub>0</sub> sin ($$\\omega$$t $$-$$ $${\\pi  \\over 6}$$).</p>\n<p>Similarly, the potential difference between point Y and Z is</p>\n<p>V<sub>YZ</sub> = V<sub>Y</sub> $$-$$ V<sub>Z</sub></p>\n<p>= V<sub>0</sub> sin($$\\omega$$t + $${2\\pi  \\over 3}$$) $$-$$ V<sub>0</sub> sin($$\\omega$$t + $${4\\pi  \\over 3}$$)</p>\n<p>= 2V<sub>0</sub> cos($$\\omega$$t + $$\\pi$$) sin ($$-$$$${\\pi  \\over 3}$$)</p>\n<p> = $$\\sqrt3$$V<sub>0</sub> cos($$\\omega$$t) = $$\\sqrt3$$V<sub>0</sub> sin($$\\omega$$t + $${\\pi  \\over 2}$$),</p>\n<p>and the potential difference between point Z and X is </p>\n<p>V<sub>ZX</sub> = V<sub>Z</sub> $$-$$ V<sub>X</sub></p>\n<p>= V<sub>0</sub> sin($$\\omega$$t + $${4\\pi  \\over 3}$$) $$-$$ V<sub>0</sub> sin($$\\omega$$t)</p>\n<p>= $$\\sqrt3$$V<sub>0</sub> cos($$\\omega$$ + $${2\\pi  \\over 3}$$) = $$\\sqrt3$$V<sub>0</sub> sin($$\\omega$$t + $${7\\pi  \\over 6}$$).</p>\n<p>The rms value of the potential V = V<sub>0</sub> sin($$\\omega$$t + $$\\phi$$) is given by V<sup>rms</sup> = V<sub>0</sub> / $$\\sqrt2$$. Thus, rms values of the potentials are $$V_{XY}^{rms} = V_{YZ}^{rms} = V_{ZX}^{rms} = {V_0}\\sqrt {3/2} $$. Hence, the reading of the voltmeter is independent of the two terminal i.e., reading is same whether it is connected across X-Y or Y-Z or Z-X.</p>"
+        },
+        "hi": {
+          "content": "तीन टर्मिनल $$X,Y$$ और $$Z$$ पर तात्कालिक वोल्टेज इस प्रकार हैं \n<br><br>$${V_x} = {V_0}\\,\\sin \\,\\omega t,$$ \n<br><br>$${V_Y} = {V_0}\\,\\sin $$ $$\\left( {\\omega t + {{2\\pi } \\over 3}} \\right)$$ \n<br><br>और $$Vz = {V_0}\\sin \\left( {\\omega t + {{4\\pi } \\over 3}} \\right)$$ \n<br><br>एक आदर्श वोल्टमीटर $$rms$$ मान के अंतर को मापने के लिए कॉन्फ़िगर किया गया है। यह बिंदुओं $$X$$ और $$Y$$ के बीच और फिर $$Y$$ और $$Z$$ के बीच जोड़ा जाता है। वोल्टमीटर की रीडिंग्स इस प्रकार होंगी \n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$V_{xy}^{rms} = {V_0}\\sqrt {{3 \\over 2}} $$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$V_{YZ}^{rms} = {V_0}\\sqrt {{1 \\over 2}} $$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$V_{XY}^{rms} = {V_0}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "दो टर्मिनलों के चुनाव से स्वतंत्र "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-instantaneous-voltages-at-three-terminals-marked-xy-2017-marks-4-l4wuryeuydafdqw2.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "The instantaneous voltages at three terminals marked $$X,Y$$ and $$Z$$  are given by \n$${V_x} = {V_0}\\,\\sin \\,\\omega t,$$ \n$${V_Y} = {V_0}\\,\\sin $$ $$\\left( {\\omega t + {{2\\pi } \\over 3}} \\right)$$  \nand $$Vz = {V_0}\\sin \\left( {\\omega t + ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "तीन टर्मिनल $$X,Y$$ और $$Z$$ पर तात्कालिक वोल्टेज इस प्रकार हैं \n$${V_x} = {V_0}\\,\\sin \\,\\omega t,$$ \n$${V_Y} = {V_0}\\,\\sin $$ $$\\left( {\\omega t + {{2\\pi } \\over 3}} \\right)$$ \nऔर $$Vz = {V_0}\\sin \\left( {\\omega t + {{4\\pi } \\over 3}} \\rig..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "c0vib52o2whneai7k31k",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "alternating-current",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In the circuit shown, $$L = 1\\,\\mu H,C = 1\\,\\mu F\\,$$ and $$R = 1\\,k\\Omega .$$ They are connected in series with an a.c. source  \n $$V = {V_0}\\sin \\omega t$$ as shown. \n<br><br>Which of the following options is/are correct? \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/vDv06S2D9hXz6vdnS/JS55fYNq1jAqJQRLQrlRvgA0tVDsy/gstWemA0H9qM1wmAqA6vL2/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 1 Offline Physics - Alternating Current Question 19 English\"> ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The current will be in phase with the voltage if $$\\omega  = {10^4}$$ $$rad.{s^{ - 1}}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "The frequency at which the current will be in phase with the voltage is independent of $$R$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "At $$\\omega  \\sim 0$$ the current flowing  through the circuit becomes nearly zero"
+            },
+            {
+              "identifier": "D",
+              "content": "At $$\\omega  &gt;  &gt; {10^6}rad.{s^{ - 1}},$$ the circuit behaves like a capacitor "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Given V = V<sub>0</sub> sin $$\\omega$$t</p>\n<p>At resonant frequency, current and voltage will be in same phase i.e., $$\\omega L = {1 \\over {\\omega C}}$$</p>\n<p>$$\\therefore$$ Resonant frequency $$\\omega  = {1 \\over {\\sqrt {LC} }}$$ ...... (i)</p>\n<p>Here, L = 1 $$\\mu$$H = 10<sup>$$-$$6</sup> H, C = 10<sup>$$-$$6</sup> F</p>\n<p>$$\\therefore$$ $$\\omega  = {1 \\over {\\sqrt {{{10}^{ - 12}}} }} = {10^6}$$ rad s<sup>$$-$$1</sup></p>\n<p>So, option (a) is incorrect.</p>\n<p>Since, $${X_C} = {1 \\over {\\omega C}},\\,{X_L} = \\omega L$$ ....... (ii)</p>\n<p>For large $$\\omega$$, X<sub>C</sub> $$\\sim$$ 0, so circuit will behave like a inductive circuit.</p>\n<p>So, option (d) is incorrect.</p>\n<p>From Eqn. (i)</p>\n<p>$$\\omega  = {1 \\over {\\sqrt {LC} }}$$</p>\n<p>At resonant frequency or the frequency at which the current will be in phase with the voltage is independent of R.</p>\n<p>$$\\therefore$$ option (b) is correct.</p>\n<p>From Eqn. (ii), at $$\\omega$$ $$\\sim$$ 0, X<sub>C</sub> $$\\sim$$ $$\\infty$$ and X<sub>L</sub> = 0</p>\n<p>$$\\therefore$$ The current flowing through the circuit becomes nearly zero.</p>\n<p>So, option (c) is correct.</p>"
+        },
+        "hi": {
+          "content": "दिखाए गए परिपथ में, $$L = 1\\,\\mu H,C = 1\\,\\mu F\\,$$ और $$R = 1\\,k\\Omega .$$ ये एक ए.सी. स्रोत के साथ श्रृंखलाबद्ध जुड़े हैं \n $$V = {V_0}\\sin \\omega t$$ जैसा कि दिखाया गया है। \n<br><br>निम्नलिखित विकल्पों में से कौन सा/से सही है/हैं? \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/vDv06S2D9hXz6vdnS/JS55fYNq1jAqJQRLQrlRvgA0tVDsy/gstWemA0H9qM1wmAqA6vL2/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 1 Offline Physics - Alternating Current Question 19 Hindi\"> ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "वर्तमान $$\\omega  = {10^4}$$ $$rad.{s^{ - 1}}$$ होने पर वोल्टेज के साथ चरण में होगा"
+            },
+            {
+              "identifier": "B",
+              "content": "जिस आवृत्ति पर वर्तमान वोल्टेज के साथ चरण में होगा, वह $$R$$ पर निर्भर नहीं है"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\omega  \\sim 0$$ पर, परिपथ में बहने वाला वर्तमान लगभग शून्य हो जाता है"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\omega  >  > {10^6}rad.{s^{ - 1}}$$ परिपथ एक संधारित्र के रूप में व्यवहार करता है"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "in-the-circuit-shown-l-1mu-hc-1mu-f-and-2017-marks-4-ykoy42fj4aclbj01.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-1-offline",
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "In the circuit shown, $$L = 1\\,\\mu H,C = 1\\,\\mu F\\,$$ and $$R = 1\\,k\\Omega .$$ They are connected in series with an a.c. source  \n $$V = {V_0}\\sin \\omega t$$ as shown. \nWhich of the following options is/are correct? \n "
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "दिखाए गए परिपथ में, $$L = 1\\,\\mu H,C = 1\\,\\mu F\\,$$ और $$R = 1\\,k\\Omega .$$ ये एक ए.सी. स्रोत के साथ श्रृंखलाबद्ध जुड़े हैं \n $$V = {V_0}\\sin \\omega t$$ जैसा कि दिखाया गया है। \nनिम्नलिखित विकल्पों में से कौन सा/से सही है/हैं? \n "
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-1-offline"
+    },
+    {
+      "question_id": "jl57tk2djsk65k515bvv",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "at-time-t--0-terminal-a-in-the-circuit-shown-in-the-figure-jee-advanced-physics-units-and-measurements-ukrqewxufftz2jtf",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "At time t = 0, terminal A in the circuit shown in the figure is connected to B by a key and an alternating current I(t) = I<sub>0</sub> cos ($$\\omega$$t), with I<sub>0</sub> = 1 A and $$\\omega$$ = 500 rad s<sup>-1</sup> starts flowing in it with the initial direction shown in the figure. At $$t = {{7\\pi } \\over {6\\omega }}$$, the key is switched from B to D. Now onwards only A and D are connected. A total charge Q flows from the battery to charge the capacitor fully. If C = 20 $$\\mu$$F, R = 10 $$\\Omega$$ and the battery is ideal with emf of 50 V, identify the correct statement(s).<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1luqouvcj/f2d52555-02ea-4f84-9573-5a223ce17269/b1cc8120-f581-11ee-b5c8-8ba81f5b2fa1/file-6y3zli1luqouvck.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1luqouvcj/f2d52555-02ea-4f84-9573-5a223ce17269/b1cc8120-f581-11ee-b5c8-8ba81f5b2fa1/file-6y3zli1luqouvck.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Alternating Current Question 15 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Magnitude of the maximum charge on the capacitor before $$t = {{7\\pi } \\over {6\\omega }}$$ is 1 $$\\times$$ 10<sup>$$-$$3</sup> C"
+            },
+            {
+              "identifier": "B",
+              "content": "The current in the left part of the circuit just before $$t = {{7\\pi } \\over {6\\omega }}$$ is clockwise"
+            },
+            {
+              "identifier": "C",
+              "content": "Immediately after A is connected to D, the current in R is 10 A"
+            },
+            {
+              "identifier": "D",
+              "content": "Q = 2 $$\\times$$ 10<sup>$$-$$3</sup> C"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "The current flowing through the capacitor and its charge are given by<br/><br/>$$i = {i_0}\\cos \\omega t$$, .... (1)<br/><br/>$$Q = \\int {idt = \\int {{i_0}\\cos \\omega t\\,dt = {{{i_0}} \\over \\omega }\\sin \\omega t + k} } $$ $$ = {{{i_0}} \\over \\omega }\\sin \\omega t$$, ...... (2)<br/><br/>where we have used the initial condition, Q = 0 at t = 0, to get the integration constant k = 0. The charge attains the maximum value Q<sub>max</sub> at t = $$\\pi$$ / (2$$\\omega$$),<br/><br/>Q<sub>max</sub> = i<sub>0</sub>/$$\\omega$$ = 1/500 = 2 $$\\times$$ 10<sup>$$-$$3</sup> C.<br/><br/>The key is switched from B to D at the time t = 7$$\\pi$$/6$$\\omega$$. Substitute t = 7$$\\pi$$/6$$\\omega$$ in equations (1) and (2) to get current and charge<br/><br/>i = i<sub>0</sub> cos(7$$\\pi$$/6) = cos($$\\pi$$ + $$\\pi$$/6) = $$-$$ cos($$\\pi$$/6)<br/><br/>$$ =  - \\sqrt 3 /2$$ A,<br/><br/>Q<sub>i</sub> = (i<sub>0</sub>/$$\\omega$$) sin(7$$\\pi$$/6) = 2 $$\\times$$ 10<sup>$$-$$3</sup> sin($$\\pi$$ + $$\\pi$$/6)<br/><br/>= $$-$$ 1 $$\\times$$ 10<sup>$$-$$3</sup> C.<br/><br/>Note that negative sign in i indicates the counterclockwise direction of current and negative sign in Q<sub>i</sub> indicates the negative charge on the upper plate.<br/><br/>The potential across the capacitor is $${V_C} = {{{Q_i}} \\over C} =  - {{1 \\times {{10}^{ - 3}}} \\over {20 \\times {{10}^{ - 6}}}}$$ = $$-$$ 50 V (upper plate at lower potential). Immediately after A is connected to D, the potential across the resistor is V<sub>R</sub> = 100 V and hence the current through it is i = V<sub>R</sub>/R = 100/10 = 10 A (counterclockwise). The potential across the capacitor when it is fully charged is equal to the battery emf. Thus, the charge on the capacitor in fully charged condition is<br/><br/>Q<sub>f</sub> = V/C = 50/(20 $$\\times$$ 10<sup>$$-$$6</sup>) = 1 $$\\times$$ 10<sup>$$-$$3</sup> C.<br/><br/>The sign of Q<sub>f</sub> indicates the positive charge on the upper plate. Hence, charge that flows through the battery is<br/><br/>Q = Q<sub>f</sub> $$-$$ Q<sub>i</sub> = 1 $$\\times$$ 10<sup>$$-$$3</sup> $$-$$ ($$-$$ 1 $$\\times$$ 10<sup>$$-$$3</sup>) = 2 $$\\times$$ 10<sup>$$-$$3</sup> C."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcqm",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "At time t = 0, terminal A in the circuit shown in the figure is connected to B by a key and an alternating current I(t) = I0 cos ($$\\omega$$t), with I0 = 1 A and $$\\omega$$ = 500 rad s-1 starts flowing in it with the initial direction shown..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "inbfy0shhf5cxsol3asy",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "permalink": "pin-the-method-using-the-transformers-assume-that-the-rat-jee-advanced-physics-units-and-measurements-vmajo7oryjs1owo6",
+      "question": {
+        "en": {
+          "content": "<p>In the method using the transformers, assume that the ratio of the number of turns in the primary to that in the secondary in the step-up transformer is 1 : 10. If the power of the consumers has to be supplied at 200 V, the ratio of the number of turns in the primary to that in the secondary in the step-down transformer is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "200 : 1"
+            },
+            {
+              "identifier": "B",
+              "content": "150 : 1"
+            },
+            {
+              "identifier": "C",
+              "content": "100 : 1"
+            },
+            {
+              "identifier": "D",
+              "content": "50 : 1"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>To solve this problem, we need to understand the working principle of step-up and step-down transformers and the relationships between the voltages and the number of turns of the windings. The key formula we use is the transformer equation:</p>\n\n<p>\n$$\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$$\n</p>\n\n<p>where:</p>\n<ul>\n  <li>$$V_p$$ is the primary voltage</li>\n  <li>$$V_s$$ is the secondary voltage</li>\n  <li>$$N_p$$ is the number of turns in the primary winding</li>\n  <li>$$N_s$$ is the number of turns in the secondary winding</li>\n</ul>\n\n<p>Let's break down the problem:</p>\n\n<p>1. The power plant produces an electric power of 600 kW at 4000 V.\n2. A step-up transformer is used at the plant side with a turns ratio of 1 : 10, i.e., $$N_p : N_s = 1 : 10$$.</p>\n\n<p>This tells us that:</p>\n\n<p>\n$$\\frac{V_p}{V_s} = \\frac{1}{10}$$\n</p>\n\n<p>\nSince the primary voltage $$V_p$$ is 4000 V, we can find the secondary voltage $$V_s$$ as follows:\n</p>\n\n<p>\n$$V_s = 10 \\times V_p$$\n</p>\n\n<p>\n$$V_s = 10 \\times 4000$$\n</p>\n\n<p>\n$$V_s = 40000$$ V\n</p>\n\n<p>So, at the output of the step-up transformer, the voltage is 40000 V. This high voltage is then transported over the cables to the consumers' location 20 km away. At the consumers' end, a step-down transformer is used to reduce the voltage to 200 V to supply power to the consumers.</p>\n\n<p>Now, we are given that the power supplied at the consumers' end must be 200 V. We need to find the ratio of the number of turns in the primary to the number of turns in the secondary for the step-down transformer so that it outputs 200 V from an input of 40000 V.</p>\n\n<p>Using the transformer equation again, we can write:</p>\n\n<p>\n$$\\frac{V_p}{V_s} = \\frac{N_p}{N_s}$$\n</p>\n\n<p>where $$V_p = 40000$$ V and $$V_s = 200$$ V. Plugging these values in, we get:</p>\n\n<p>\n$$\\frac{40000}{200} = \\frac{N_p}{N_s}$$\n</p>\n\n<p>This simplifies to:</p>\n\n<p>\n$$\\frac{40000}{200} = 200$$\n</p>\n\n<p>So, the turns ratio $$\\frac{N_p}{N_s} = 200 : 1$$.</p>\n\n<p>Thus, the correct answer is:</p>\n\n<p>Option A: 200 : 1</p>",
+          "comprehension": "<p>A thermal power plant produces electric power of 600 kW at 4000 V, which is to be transported to a place 20 km away from the power plant for consumers' usage. It can be transported either directly with a cable of large current carrying capacity or by using a combination of step-up and step-down transformers at the two ends. The drawback of the direct transmission is the large energy dissipation. In the method using transformers, the dissipation is much smaller. In this method, a step-up transformer is used at the plant side so that the current is reduced to a smaller value. At the consumers' end, a step-down transformer is used to supply power to the consumers at the specified lower voltage. It is reasonable to assume that the power cable is purely resistive and the transformers are ideal with power factor unity. All the currents and voltages mentioned are rms values.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "ac-generator-and-transformer",
+      "type": "mcq",
+      "year": 2013,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "In the method using the transformers, assume that the ratio of the number of turns in the primary to that in the secondary in the step-up transformer is 1 : 10. If the power of the consumers has to be supplied at 200 V, the ratio of the num..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "question_id": "43afkcdgl2p3y66w7qs1",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2012-paper-2-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 2 Offline",
+      "permalink": "pin-the-given-circuit-the-ac-source-has-omega--100-jee-advanced-physics-units-and-measurements-rvyk4pzznicmvihr",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>In the given circuit, the AC source has $$\\omega$$ = 100 rad/s. Considering the inductor and capacitor to be ideal, the correct choice(s) is(are)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l254bx6n/36cacf73-ab08-441f-ae0e-57ad3deb7d08/e8037de0-bf4e-11ec-9257-7f4c5bad6343/file-1l254bx6o.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l254bx6n/36cacf73-ab08-441f-ae0e-57ad3deb7d08/e8037de0-bf4e-11ec-9257-7f4c5bad6343/file-1l254bx6o.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 2 Offline Physics - Alternating Current Question 13 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The current through the circuit, I is 0.3 A."
+            },
+            {
+              "identifier": "B",
+              "content": "The current through the circuit, I is 0.3$$\\sqrt2$$ A."
+            },
+            {
+              "identifier": "C",
+              "content": "The voltage across 100 $$\\Omega$$ resistor = 10$$\\sqrt2$$ V."
+            },
+            {
+              "identifier": "D",
+              "content": "The voltage across 50 $$\\Omega$$ resistor = 10 V."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Here, $$\\Omega$$ = 100 rad/s, L = 0.5 H, C = 100 $$\\mu$$F, V = 20 V</p>\n<p>$$\\therefore$$ $${X_L} = \\omega L = 100 \\times 0.5 = 50\\,\\Omega $$</p>\n<p>$${X_C} = {1 \\over {\\omega C}} = {1 \\over {100 \\times 100 \\times {{10}^{ - 6}}}} = 100\\,\\Omega $$</p>\n<p>Impedance across capacitor,</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l26hd1xf/35bba064-d7f5-4830-bcf4-bddf6a8ab51e/a6d11c40-c00e-11ec-a044-ebcae61a6b20/file-1l26hd1xg.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l26hd1xf/35bba064-d7f5-4830-bcf4-bddf6a8ab51e/a6d11c40-c00e-11ec-a044-ebcae61a6b20/file-1l26hd1xg.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 2 Offline Physics - Alternating Current Question 13 English Explanation\"></p>\n<p>$${Z_1} = \\sqrt {{R^2} + X_C^2} $$</p>\n<p>$$ = \\sqrt {{{(100)}^2} + {{(100)}^2}} $$</p>\n<p>$${Z_1} = 100\\sqrt 2 \\,\\Omega $$</p>\n<p>$$\\therefore$$ $${I_1} = {{20} \\over {100\\sqrt 2 }} = {1 \\over {5\\sqrt 2 }}\\,A$$</p>\n<p>Voltage across 100 $$\\Omega$$</p>\n<p>$$V = {I_1} \\times 100 = {1 \\over {5\\sqrt 2 }} \\times 100 = 10\\sqrt 2 \\,V$$</p>\n<p>Impedance across inductance,</p>\n<p>$${Z_2} = \\sqrt {{R^2} + {{({X_L})}^2}}  = \\sqrt {{{(50)}^2} + {{(50)}^2}} $$</p>\n<p>$${Z_2} = 50\\sqrt 2 \\,\\Omega $$</p>\n<p>$$\\therefore$$ $${I_2} = {{20} \\over {50\\sqrt 2 }} = {2 \\over {5\\sqrt 2 }} = {{\\sqrt 2 } \\over 5}$$</p>\n<p>Now, voltage across $$50\\,\\Omega  = {{\\sqrt 2 } \\over 5} \\times 50 = 10\\sqrt 2 $$</p>\n<p>$${I_1} = {1 \\over {5\\sqrt 2 }}A$$ at 45$$^\\circ$$ leading</p>\n<p>$${I_2} = {{\\sqrt 2 } \\over 5}A$$ at 45$$^\\circ$$ lagging</p>\n<p>$$\\therefore$$ Current through circuit</p>\n<p>$${I_{net}} = \\sqrt {I_1^2 + I_2^2}  = \\sqrt {{{\\left( {{1 \\over {5\\sqrt 2 }}} \\right)}^2} + \\left( {{{\\sqrt 2 } \\over 5}} \\right)}  = 0.3\\,A$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcqm",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 2 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "In the given circuit, the AC source has $$\\omega$$ = 100 rad/s. Considering the inductor and capacitor to be ideal, the correct choice(s) is(are)\n"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-2-offline"
+    },
+    {
+      "question_id": "band7x1liwu88jnq6mkh",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "pa-series-rc-current-is-connected-to-ac-voltage-source-co-jee-advanced-physics-units-and-measurements-qrl9htzpdtwbe5qk",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A series RC-current is connected to AC voltage source. Consider two cases : (A) When C is without a dielectric medium and (B) when C is filled with dielectric of constant 4. The current I<sub>R</sub> through the resistor and voltage V<sub>C</sub> across the capacitor are compared in the two cases. Which of the following is/are true?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$I_R^A > I_R^B$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$I_R^A < I_R^B$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$V_C^A > V_C^B$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$V_C^A < V_C^B$$"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>In case A,</p>\n<p>The capacitive reactance is</p>\n<p>$$X_C^A = {1 \\over {\\omega C}}$$</p>\n<p>Impedance of the circuit is</p>\n<p>$${Z_A} = \\sqrt {{{(R)}^2} + {{\\left( {{1 \\over {\\omega C}}} \\right)}^2}} $$</p>\n<p>$$I_R^A = {V \\over {\\sqrt {{{(R)}^2} + {{\\left( {{1 \\over {\\omega C}}} \\right)}^2}} }}$$ ...... (i)</p>\n<p>$$V_C^A = {{I_R^A} \\over {\\omega C}} = {V \\over {\\sqrt {{{(R\\omega C)}^2} + 1} }}$$ ...... (ii)</p>\n<p>In case B,</p>\n<p>The capacitive reactance is</p>\n<p>$$X_C^B = {1 \\over {\\omega (4C)}} = {1 \\over {4\\omega C}}$$</p>\n<p>Impedance of the circuit is</p>\n<p>$${Z_B} = \\sqrt {{R^2} + {{\\left( {{1 \\over {4\\omega C}}} \\right)}^2}} $$</p>\n<p>$$I_R^B = {V \\over {\\sqrt {{R^2} + {{\\left( {{1 \\over {4\\omega C}}} \\right)}^2}} }}$$ ..... (iii)</p>\n<p>$$V_C^B = {V \\over {\\sqrt {{{(4R\\omega C)}^2} + 1} }}$$ ..... (iv)</p>\n<p>From (i) and (iii), we conclude that</p>\n<p>$$I_R^A < I_R^B$$</p>\n<p>From (ii) and (iv), we conclude that</p>\n<p>$$V_C^A > V_C^B$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcqm",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "A series RC-current is connected to AC voltage source. Consider two cases : (A) When C is without a dielectric medium and (B) when C is filled with dielectric of constant 4. The current IR through the resistor and voltage VC across the capa..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "bw0wz1to5ijeut6le6ku",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "pa-series-rc-combination-is-connected-to-an-ac-voltage-of-jee-advanced-physics-units-and-measurements-ta5howwmquudnbj4",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A series RC combination is connected to an AC voltage of angular frequency $$\\omega$$ = 500 rad/s. If the impedance of the RC circuit is R$$\\sqrt{1.25}$$, the time constant (in millisecond) of the circuit is __________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "<p>We have impedance in the circuit</p>\n<p>$$Z = \\sqrt {{R^2} + {{\\left( {{1 \\over {\\omega C}}} \\right)}^2}} $$</p>\n<p>However, $$Z = R\\sqrt {1.25} $$ and $$R\\sqrt {1.25}  = \\sqrt {{R^2} + {{\\left( {{1 \\over {\\omega C}}} \\right)}^2}}  $$<br/><br/>$$\\Rightarrow 0.25{R^2} = {1 \\over {{{(\\omega C)}^2}}}$$</p>\n<p>The time constant is</p>\n<p>$$RC = \\sqrt {{1 \\over {0.25 \\times {{500}^2}}}}  = 4$$ ms</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "integer",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "A series RC combination is connected to an AC voltage of angular frequency $$\\omega$$ = 500 rad/s. If the impedance of the RC circuit is R$$\\sqrt{1.25}$$, the time constant (in millisecond) of the circuit is __________."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "6mfq2tzfftpiyojf0gyt",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "permalink": "pyou-are-given-many-resistances-capacitors-and-inductors-jee-advanced-physics-pbphsv9habpv8tc4",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>You are given many resistances, capacitors and inductors. These are connected to a variable DC voltage source (the first two circuits) or an AC voltage source of 50 Hz frequency (the next three circuits) in different ways as shown in Column II. When a current I (steady state for DC or rms for AC) flows through the circuit, the corresponding voltage $V_1$ and $V_2$ (indicated in circuits) are related as shown in Column I. Match the two :</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m4mc4eqp/f66d0fa5-b86c-46fc-ac1d-2cbfd1dcb5f2/eb934110-b916-11ef-bcaa-6bb34cbe24da/file-jaoe38c1m4mc4eqq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m4mc4eqp/f66d0fa5-b86c-46fc-ac1d-2cbfd1dcb5f2/eb934110-b916-11ef-bcaa-6bb34cbe24da/file-jaoe38c1m4mc4eqq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2010 Paper 2 Offline Physics - Alternating Current Question 5 English 1\">\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m4mc5l3e/14e8bfb9-363b-49f2-9fee-c6e8703f3b84/0c4aa6a0-b917-11ef-bcaa-6bb34cbe24da/file-jaoe38c1m4mc5l3f.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m4mc5l3e/14e8bfb9-363b-49f2-9fee-c6e8703f3b84/0c4aa6a0-b917-11ef-bcaa-6bb34cbe24da/file-jaoe38c1m4mc5l3f.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2010 Paper 2 Offline Physics - Alternating Current Question 5 English 2\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(A)→(R), (S), (T); (B)→(Q), (R), (S), (T); (C)→(P), (Q); (D)→(Q), (R), (S), (T)"
+            },
+            {
+              "identifier": "B",
+              "content": "(A)→(R), (S); (B)→(Q), (R), (S), (T); (C)→(P), (Q); (D)→(Q), (R), (T)"
+            },
+            {
+              "identifier": "C",
+              "content": "(A)→(R), (S), (T); (B)→(Q), (R), (S); (C)→(P), (Q); (D)→(Q), (R), (S)"
+            },
+            {
+              "identifier": "D",
+              "content": "(A)→(S), (T); (B)→(Q), (R), (S), (T); (C)→(P); (D)→(Q), (R), (S), (T)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>In circuit $(P)$, under steady state, capacitor will act like an infinite impedance and inductor will act like a zero impedance. Thus, $I=0, V_1=0$, and $V_2=V$.</p>\n<p>In circuit $(Q)$, inductor will act as zero resistance in steady state giving us $I=V / R=V / 2, V_1=0$, and $V_2=V$.</p>\n<p>In circuit $(R)$, the inductive reactance $X_L$ and impedance $Z$ are</p>\n<p>$$ \\begin{aligned} X_L & =\\omega L=2 \\pi \\nu L=1.88 \\Omega, \\quad \\text { and } \\\\\\\\ Z & =\\sqrt{X_L^2+R^2}=2.75 \\Omega \\end{aligned} $$</p>\n<p>Thus, $I=V / Z \\neq 0, V_1=X_L I=1.88 I, V_2=R I=2 I$, and $V_2>V_1$.</p>\n<p>In circuit (S), inductive reactance $X_L$, capacitive reactance $X_C$, and impedance $Z$ are</p>\n<p>$$ \\begin{aligned} X_L & =1.88 \\Omega \\\\\\\\ X_C & =1 /(\\omega C)=1061 \\Omega, \\quad \\text { and } \\\\\\\\ Z & =X_C-X_L=1059 \\Omega \\end{aligned} $$</p>\n<p>Thus the current in the circuit $I=V / Z \\neq 0, V_1=$ $X_L I=1.88 I, V_2=X_C I=1061 I$, and $V_2>V_1$.</p>\n<p>In circuit $(T), X_C, R$, and $Z$ are</p>\n<p>$$ \\begin{aligned} X_C & =1 /(\\omega C)=1061 \\Omega \\\\\\\\ R & =1000 \\Omega, \\quad \\text { and } \\\\\\\\ Z & =\\sqrt{R^2+X_C^2}=1458 \\Omega \\end{aligned} $$</p>\n<p>Thus, $I=V / Z \\neq 0, V_1=R I=1000 I, V_2=X_C I=$ $1061 I$, and $V_2 > V_1$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcq",
+      "year": 2010,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "You are given many resistances, capacitors and inductors. These are connected to a variable DC voltage source (the first two circuits) or an AC voltage source of 50 Hz frequency (the next three circuits) in different ways as shown in Column..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "question_id": "emx81csfmkxkpvqoj4jr",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "permalink": "pan-ac-voltage-source-of-variable-angular-frequency-ome-jee-advanced-physics-alternating-current-6bxgvehskxe4ot8m",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>An AC voltage source of variable angular frequency $$\\omega$$ and fixed amplitude V<sub>0</sub> is connected in series with a capacitance C and an electric bulb of resistance R (inductance zero). When $$\\omega$$ is increased</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the bulb glows dimmer."
+            },
+            {
+              "identifier": "B",
+              "content": "the bulb glows brighter."
+            },
+            {
+              "identifier": "C",
+              "content": "total impedance of the circuit is unchanged."
+            },
+            {
+              "identifier": "D",
+              "content": "total impedance of the circuit increases."
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l31jtksa/3f63de99-dc1b-4a61-ac7a-b0f9ec689f94/90b82da0-d124-11ec-b5bf-9d106fd05fc4/file-1l31jtksb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l31jtksa/3f63de99-dc1b-4a61-ac7a-b0f9ec689f94/90b82da0-d124-11ec-b5bf-9d106fd05fc4/file-1l31jtksb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Alternating Current Question 10 English Explanation\"></p>\n<p>Impedance of the circuit,</p>\n<p>$$Z = \\sqrt {{{({X_C})}^2} + {{(R)}^2}}  = \\sqrt {{{\\left( {{1 \\over {\\omega C}}} \\right)}^2} + {R^2}} $$</p>\n<p>As $$\\omega$$ increases, Z decreases.</p>\n<p>Current in the circuit, $$I = {{{V_0}} \\over Z}$$</p>\n<p>When $$\\omega$$ is increased, the impedance of the circuit decreases and the current through the bulb increases. Therefore the bulb glows brighter.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcq",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "An AC voltage source of variable angular frequency $$\\omega$$ and fixed amplitude V0 is connected in series with a capacitance C and an electric bulb of resistance R (inductance zero). When $$\\omega$$ is increased"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "8sdmi19jp0fxselcy3gt",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pstatement-1p-pa-vertical-iron-rod-has-a-coil-of-wire-jee-advanced-physics-motion-8ozzcie1k5abca2i",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>STATEMENT 1</p>\n<p>A vertical iron rod has a coil of wire wound over it at the bottom end. An alternating current flows in the coil. The rod goes through a conducting ring as shown in the figure. The ring can float at a certain height above the coil.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lguf416o/118a7b5f-ef17-4f37-80ed-c3cf385ecd8c/b097a000-e263-11ed-8ec0-d5a0bb2b1e44/file-1lguf416p.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lguf416o/118a7b5f-ef17-4f37-80ed-c3cf385ecd8c/b097a000-e263-11ed-8ec0-d5a0bb2b1e44/file-1lguf416p.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2007 Paper 2 Offline Physics - Alternating Current Question 8 English\"></p>\n<p>Because</p>\n<p>STATEMENT 2</p>\n<p>In the above situation, a current is induced in the ring which interacts with the horizontal component of the magnetic field to produce an average force in the upward direction.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1."
+            },
+            {
+              "identifier": "B",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1."
+            },
+            {
+              "identifier": "C",
+              "content": "Statement-1 is True, Statement-2 is False."
+            },
+            {
+              "identifier": "D",
+              "content": "Statement-1 is False, Statement-2 is True."
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>As shown in the figure, the horizontal component of the magnetic field interacts with the current in the conducting ring, which produces an average force in the upwards direction (by using Fleming's left hand rule).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lguf4zy6/71b405da-e87f-40dd-a136-f10b74c94305/cb7251e0-e263-11ed-8ec0-d5a0bb2b1e44/file-1lguf4zy7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lguf4zy6/71b405da-e87f-40dd-a136-f10b74c94305/cb7251e0-e263-11ed-8ec0-d5a0bb2b1e44/file-1lguf4zy7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2007 Paper 2 Offline Physics - Alternating Current Question 8 English Explanation\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "STATEMENT 1\nA vertical iron rod has a coil of wire wound over it at the bottom end. An alternating current flows in the coil. The rod goes through a conducting ring as shown in the figure. The ring can float at a certain height above the co..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "question_id": "mmdq5gv8f9w2fobcgdip",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pmatch-the-following-columnsp-pstyle-typetextcss-jee-advanced-physics-motion-mvan6pvkyhveuqtn",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Match the following columns.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 472px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 192px\">\n<col style=\"width: 53px\">\n<col style=\"width: 179px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">(A)</td>\n    <td class=\"tg-0pky\">Dielectric ring uniformly charged.</td>\n    <td class=\"tg-c3ow\">(P)</td>\n    <td class=\"tg-0pky\">Time independent electrostatic field out of system.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(B)</td>\n    <td class=\"tg-0pky\">Dielectric ring uniformly charged rotating with angular velocity $$\\omega$$.</td>\n    <td class=\"tg-c3ow\">(Q)</td>\n    <td class=\"tg-0pky\">Magnetic field.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(C)</td>\n    <td class=\"tg-0pky\">Constant current in ring $$io$$</td>\n    <td class=\"tg-c3ow\">(R)</td>\n    <td class=\"tg-0pky\">Induced electric field.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(D)</td>\n    <td class=\"tg-0pky\">$$i=i_0\\cos\\omega t$$</td>\n    <td class=\"tg-c3ow\">(S)</td>\n    <td class=\"tg-0pky\">Magnetic moment.</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "A $$\\to$$ (P); B $$\\to$$ (Q, S); C $$\\to$$ (Q, S); D $$\\to$$ (Q, R, S)"
+            },
+            {
+              "identifier": "B",
+              "content": "A $$\\to$$ (P); B $$\\to$$ (S); C $$\\to$$ (Q, S); D $$\\to$$ (R, S)"
+            },
+            {
+              "identifier": "C",
+              "content": "A $$\\to$$ (P); B $$\\to$$ (Q); C $$\\to$$ (Q, S); D $$\\to$$ (S)"
+            },
+            {
+              "identifier": "D",
+              "content": "A $$\\to$$ (P); B $$\\to$$ (S); C $$\\to$$ (Q); D $$\\to$$ (Q, R, S)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": "A $$\\to$$ (P); B $$\\to$$ (Q, S); C $$\\to$$ (Q, S); D $$\\to$$ (Q, R, S)",
+          "explanation": "<p>(A) Any static charge produces electric field $$\\forall$$ invariant with time. Uniformly charged \ndielectric does the same.</p>\n<p>(B) Rotating charged behaves like a current. \nhence, magnetic field is produced around the \nring and also if there is current in rotating ring, \nring has magnetic moment.</p>\n<p>(C) Since, net charge is zero there will be no \ntime independent electric field. The current \nproduces magnetic field and magnetic moment.</p>\n<p>(D) A changing magnetic field will be produced. \nThis will create a induced electric field.</p>\n<p>Also a changing magnetic moment will be \nproduced.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "Match the following columns.\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "bqect9y71ypzv59kk01k",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pinitially-the-capacitor-was-uncharged-now-switch-s1-jee-advanced-physics-motion-oodtnduxre44lo0t",
+      "question": {
+        "en": {
+          "comprehension": "<p>The capacitor of capacitance $C$ can be charged (with the help of a resistance R ) by a voltage source V , by closing switch $\\mathrm{S}_1$ while keeping switch $\\mathrm{S}_2$ open. The capacitor can be connected in series with an inductor L by closing switch $\\mathrm{S}_2$ and opening $\\mathrm{S}_1$.</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgta1d6v/0dae9a71-3103-4cb2-b1f9-dd668a9e1b23/d9c8c170-aa7a-11f0-b414-e788a1935aa3/file-jaoe38c1mgta1d6w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgta1d6v/0dae9a71-3103-4cb2-b1f9-dd668a9e1b23/d9c8c170-aa7a-11f0-b414-e788a1935aa3/file-jaoe38c1mgta1d6w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Alternating Current Question 3 English Comprehension\">",
+          "direction": null,
+          "content": "<p>Initially, the capacitor was uncharged. Now, switch $S_1$ is closed and $S_2$ is kept open. If time constant of this circuit is $\\tau$, then</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>after time interval $\\tau$, charge on the capacitor is $\\frac{\\mathrm{CV}}{2}$.</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>after time interval $2 \\tau$, charge on the capacitor is $\\mathrm{CV}\\left(1-e^{-2}\\right)$.</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>the work done by the voltage source will be half of the heat dissipated when the capacitor is fully charged.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>after time interval $2 \\tau$, charge on the capacitor is $\\mathrm{CV}\\left(1-e^{-1}\\right)$.</p>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Charge on capacitor at time $t$ is</p>\n<p>$$ q=q_0\\left(1-e^{-1 / \\mathrm{T}}\\right) $$</p>\n<p>Here, $q_0=\\mathrm{CV}$ and $d t=2 \\mathrm{~T}$</p>\n<p>$$ \\therefore q=\\mathrm{CV}\\left(1-e^{2 T / T}\\right)=\\mathrm{CV}\\left(1-e^2\\right) $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "growth-and-decay-of-current",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "Initially, the capacitor was uncharged. Now, switch $S_1$ is closed and $S_2$ is kept open. If time constant of this circuit is $\\tau$, then"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "2by272qfh85cvxovsr9q",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pif-the-total-charge-stored-in-the-lc-circuitis-mathrm-jee-advanced-physics-motion-tfdroonph0jsoaos",
+      "question": {
+        "en": {
+          "comprehension": "<p>The capacitor of capacitance $C$ can be charged (with the help of a resistance R ) by a voltage source V , by closing switch $\\mathrm{S}_1$ while keeping switch $\\mathrm{S}_2$ open. The capacitor can be connected in series with an inductor L by closing switch $\\mathrm{S}_2$ and opening $\\mathrm{S}_1$.</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgta1d6v/0dae9a71-3103-4cb2-b1f9-dd668a9e1b23/d9c8c170-aa7a-11f0-b414-e788a1935aa3/file-jaoe38c1mgta1d6w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgta1d6v/0dae9a71-3103-4cb2-b1f9-dd668a9e1b23/d9c8c170-aa7a-11f0-b414-e788a1935aa3/file-jaoe38c1mgta1d6w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Alternating Current Question 2 English Comprehension\">",
+          "direction": null,
+          "content": "<p>If the total charge stored in the LC circuit.is $\\mathrm{Q}_0$, then for $t \\geq 0$,</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>the charge on the capacitor is</p>\n<p>$$ \\mathrm{Q}=\\mathrm{Q}_0 \\cos \\left(\\frac{\\pi}{2}+\\frac{t}{\\sqrt{\\mathrm{LC}}}\\right) $$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>the charge on the capacitor is</p>\n<p>$$ \\mathrm{Q}=\\mathrm{Q}_0 \\cos \\left(\\frac{\\pi}{2}-\\frac{1}{\\sqrt{\\mathrm{LC}}}\\right) . $$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>the charge on the capacitor is</p>\n<p>$$ \\mathrm{Q}=-\\mathrm{LC} \\frac{d^2 \\mathrm{Q}}{d t^2} . $$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>the charge on the capacitor is</p>\n<p>$$ \\mathrm{Q}=-\\frac{1}{\\sqrt{\\mathrm{LC}}} \\frac{d^2 \\mathrm{Q}}{d t^2} . $$</p>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Comparing the LC oscillations with normal SHM,</p>\n<p>$$ \\text { We get } \\quad \\frac{d^2 \\mathrm{Q}}{d t^2}=-\\omega^2 \\mathrm{Q} $$</p>\n<p>$$ \\begin{array}{ll} \\Rightarrow & \\mathrm{Q}=-\\frac{1}{w^2} \\frac{d^2 \\mathrm{Q}}{d t^2} \\\\ \\text { Here, } & w^2=\\frac{1}{\\mathrm{LC}} \\Rightarrow \\frac{1}{w^2}=\\mathrm{LC} \\\\ \\therefore & \\mathrm{Q}=-\\mathrm{LC} \\frac{d^2 \\mathrm{Q}}{d t^2} \\end{array} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "growth-and-decay-of-current",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "If the total charge stored in the LC circuit.is $\\mathrm{Q}_0$, then for $t \\geq 0$,"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "6d7u6aouy06ymetgh830",
+      "chapter": "alternating-current",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pafter-the-capacitor-gets-fully-charged-mathrms1-is-jee-advanced-physics-motion-unwqym62mehhfw1p",
+      "question": {
+        "en": {
+          "comprehension": "<p>The capacitor of capacitance $C$ can be charged (with the help of a resistance R ) by a voltage source V , by closing switch $\\mathrm{S}_1$ while keeping switch $\\mathrm{S}_2$ open. The capacitor can be connected in series with an inductor L by closing switch $\\mathrm{S}_2$ and opening $\\mathrm{S}_1$.</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgta1d6v/0dae9a71-3103-4cb2-b1f9-dd668a9e1b23/d9c8c170-aa7a-11f0-b414-e788a1935aa3/file-jaoe38c1mgta1d6w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgta1d6v/0dae9a71-3103-4cb2-b1f9-dd668a9e1b23/d9c8c170-aa7a-11f0-b414-e788a1935aa3/file-jaoe38c1mgta1d6w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Alternating Current Question 1 English Comprehension\">",
+          "direction": null,
+          "content": "<p>After the capacitor gets fully charged, $\\mathrm{S}_1$ is opened and $S_2$ is closed so that the inductor is connected in series with the capacitor. Then,</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>at $t=0$, the energy stored in the circuit is purely in the form of magnetic energy.</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>at any time $t>0$, the current in the circuit is in the same direction.</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>at $t>0$, there is no exchange of energy between the inductor and the capacitor.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>at any time $t>0$, the instantaneous current in the circuit may $\\mathrm{V} \\sqrt{\\frac{\\mathrm{C}}{\\mathrm{L}}}$.</p>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>$$ \\begin{aligned} &\\begin{aligned} q & =\\mathrm{Q}_0 \\cos \\omega t \\\\ i & =\\frac{d q}{d t}=\\mathrm{Q}_0 \\omega \\sin \\omega t \\end{aligned}\\\\ &\\text { From conservation of energy. }\\\\ &\\begin{aligned} \\frac{1}{2} \\mathrm{LI}_{\\max }^2 & =\\frac{1}{2} \\mathrm{CV}^2 \\\\ \\mathrm{I}_{\\max } & =\\sqrt{\\frac{\\mathrm{CV}^2 \\times \\frac{1}{2}}{\\frac{1}{2} \\mathrm{~L}}}=\\mathrm{V} \\sqrt{\\frac{\\mathrm{C}}{\\mathrm{~L}}} \\end{aligned} \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "ac-circuits-and-power-in-ac-circuits",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Alternating Current • Physics",
+          "excerpt": "After the capacitor gets fully charged, $\\mathrm{S}_1$ is opened and $S_2$ is closed so that the inductor is connected in series with the capacitor. Then,"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    }
+  ]
+}

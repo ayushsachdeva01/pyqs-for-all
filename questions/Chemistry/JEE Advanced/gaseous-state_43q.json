@@ -1,0 +1,2555 @@
+{
+  "questions": [
+    {
+      "question_id": "jx0bv8wb80838b6bnv8x",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "ptwo-cylinders-both-fitted-with-frictionless-pistons-are-jee-advanced-chemistry-bbmyefq9dqvs5700",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Two cylinders, both fitted with frictionless pistons, are filled with mixtures of He and Ar gases. In the first cylinder, the masses of He and Ar are $m_1$ and $m_2$, respectively. In the second cylinder, the masses of He and Ar are $m_2$ and $m_1$, respectively. The molar mass of Ar is 10 times the molar mass of He. The external pressure applied by the piston on the first cylinder needs to be 5 times that on the second cylinder so that the volume of the gas mixtures in both the cylinders are equal at the same temperature. Assuming He and Ar behave like ideal gases, the value of $(m_1/m_2)$ is <em>_______</em>.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "9.80",
+          "explanation": "<p>Let the molar mass of He be $M$.</p>\n<p>Then, according to the question, the molar mass of Ar is</p>\n<p>$$ 10M $$</p>\n<p>Since both gases behave ideally, for a mixture we can use</p>\n<p>$$ PV = nRT $$</p>\n<p>where $n$ is the total number of moles in the cylinder.</p>\n<p>At the same temperature, if the volumes of the two cylinders are equal, then from</p>\n<p>$$ PV = nRT $$</p>\n<p>we get</p>\n<p>$$ P \\propto n $$</p>\n<p>because $V$ and $T$ are same.</p>\n<p>Now, it is given that the pressure on the first cylinder is 5 times that on the second:</p>\n<p>$$ P_1 = 5P_2 $$</p>\n<p>Hence,</p>\n<p>$$ n_1 = 5n_2 $$</p>\n<p>Now calculate total moles in each cylinder.</p>\n<p>For the first cylinder:</p>\n<ul>\n<li><p>mass of He $= m_1$, so moles of He $= \\dfrac{m_1}{M}$</p></li>\n<li><p>mass of Ar $= m_2$, so moles of Ar $= \\dfrac{m_2}{10M}$</p></li>\n</ul>\n<p>Thus,</p>\n<p>$$ n_1 = \\frac{m_1}{M} + \\frac{m_2}{10M} $$</p>\n<p>For the second cylinder:</p>\n<ul>\n<li><p>mass of He $= m_2$, so moles of He $= \\dfrac{m_2}{M}$</p></li>\n<li><p>mass of Ar $= m_1$, so moles of Ar $= \\dfrac{m_1}{10M}$</p></li>\n</ul>\n<p>Thus,</p>\n<p>$$ n_2 = \\frac{m_2}{M} + \\frac{m_1}{10M} $$</p>\n<p>Using $n_1 = 5n_2$:</p>\n<p>$$ \\frac{m_1}{M} + \\frac{m_2}{10M} = 5\\left(\\frac{m_2}{M} + \\frac{m_1}{10M}\\right) $$</p>\n<p>Multiply throughout by $10M$:</p>\n<p>$$ 10m_1 + m_2 = 50m_2 + 5m_1 $$</p>\n<p>$$ 10m_1 - 5m_1 = 50m_2 - m_2 $$</p>\n<p>$$ 5m_1 = 49m_2 $$</p>\n<p>Therefore,</p>\n<p>$$ \\frac{m_1}{m_2} = \\frac{49}{5} $$</p>\n<p>So, the required value is</p>\n<p>$$ \\boxed{\\frac{49}{5}} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "ideal-gas-equation",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Two cylinders, both fitted with frictionless pistons, are filled with mixtures of He and Ar gases. In the first cylinder, the masses of He and Ar are $m_1$ and $m_2$, respectively. In the second cylinder, the masses of He and Ar are $m_2$ a..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    },
+    {
+      "question_id": "qgu0zbhje965y9t1hd9i",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pmolar-volume-vsubmsub-of-a-van-der-waals-gas-can-b-jee-advanced-chemistry-tusomnsem0unqqhe",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Molar volume (V<sub>m</sub>) of a van der Waals gas can be calculated by expressing the van der Waals equation as a cubic equation with V<sub>m</sub> as the variable. The ratio (in mol dm<sup>−3</sup>) of the coefficient of V<sub>m</sub><sup>2</sup> to the coefficient of V<sub>m</sub> for a gas having van der Waals constants a = 6.0 dm<sup>6</sup> atm mol<sup>−2</sup> and b = 0.060 dm<sup>3</sup> mol<sup>−1</sup> at 300 K and 300 atm is ______.</p><p><b>Use:</b> Universal gas constant (R) = 0.082 dm<sup>3</sup> atm mol<sup>−1</sup> K<sup>−1</sup></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "-7.2TO-7",
+          "explanation": "Molar volume $\\rightarrow V_m$ (volume occupied by I mole of the gas at the given temperature and pressure). <div></div>$a=6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}^{-2}$\n<div></div>\n$$\nb=0.060 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}\n$$<div></div>\n\n\nTemperature, $T=300 \\mathrm{~K}$<div></div>\nPressure, $P=300 \\mathrm{~atm}$<div></div>\n\n$$\nR=0.082 \\mathrm{~d} \\mathrm{~m}^3 \\mathrm{~atm} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1}\n$$<div></div>\n$$\n\\frac{V_m^2(\\text { coefficient })}{V_m(\\text { coefficient })}=?\\left(\\mathrm{~mol} \\mathrm{dm}^{-3}\\right)\n$$<div></div>\n\n\nVan der Walls equation is<div></div>\n\n$$\n\\begin{aligned}\n& \\left(P+\\frac{a n^2}{V^2}\\right)(V-n b)=n k T \\\\\n& n=1 \\mathrm{~mol} \\quad, V=V_m\n\\end{aligned}\n$$\n<div></div>\n\nSo, $\\left(P+\\frac{a}{V_m^2}\\right)\\left(V_m-b\\right)=R T$<div></div>The equation can be expanded as<div></div>\n\n$$\n\\begin{aligned}\n& P V_m-P b+\\frac{a}{V_m^2} \\times V_m-\\frac{a}{V_m^2}=R T \\\\\n& P V_{1 m}-P b+\\frac{a}{V_m}+\\frac{a b}{V_m^2}=R T\n\\end{aligned}\n$$\n\n<div></div>\nMultiply by $\\mathrm{Vm}^2$<div></div>$$\n\\begin{aligned}\n& P V_m \\times V_m^2-P b \\times V_m^2+\\frac{a}{V_m} \\times V_m^2-\\frac{a b}{V_m^2} \\times V_m^2=R T \\times V_m^2 \\\\\n& P V_m^3-P b V_m^2+a V_m-a b=R T V_m^2 \\\\\n& P V_m^3-P b V_m^2+a V_m-a b-R T V_m^2=0 \\\\\n& P V_m^3-(P b+R T) V_m^2+a V_m-a b=0\n\\end{aligned}\n$$<div></div>Coefficient of $V_m^2 \\rightarrow-(P b+R T)$ <div></div>coefficient of $v_m \\longrightarrow a$\n\n<div></div>The ratio,<div></div>\n\n$$\n\\begin{aligned}\n& \\frac{\\text { Coefficient of } V_m^2}{\\text { coefficient of } V_m} \\\\\n& =\\frac{-(P b+R T)}{a}\n\\end{aligned}\n$$\n<div></div>$$\n\\text { Substitute the values as }\n$$<div></div>$$\n\\frac{\\text { Coefficient of } \\mathrm{Vm}^2}{\\text { Coefficient of } \\mathrm{Vm}_{\\mathrm{m}}}\\begin{aligned}\n& -\\left(300 \\mathrm{~atm} \\times 0.060 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}+\\right. \\\\\n= & \\frac{0.082 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol} \\mathrm{k}^{-1} \\times 300K )\\mathrm{}}{6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}{ }^{-2}}\n\\end{aligned}\n$$<div></div>$$\n\\frac{\\text { Coesficient of } V_m^2}{\\text { coefficient of } V_m}=\\frac{-18 \\mathrm{~atm} \\mathrm{dm}^3 \\mathrm{~mol}^{-1}+24.6 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol}^{-1}}{6.0 \\mathrm{dm} \\mathrm{dmol}^6 \\mathrm{~atm} \\mathrm{~mol}^2}\n$$<div></div>$$\n\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=-\\frac{42.6 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol}}{-6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}^{-2}}\n$$<div></div>$$\n\\begin{aligned}\n\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,& =-7.1 \\mathrm{dm}^3 \\mathrm{~mol}^{-1} \\mathrm{dm}^{-6} \\mathrm{~mol}^2 \\\\\n& =-7.1 \\mathrm{dm}^{3-6} \\mathrm{~mol}^{-1+2} \\\\\n& =-7.1 \\mathrm{dm}^{-3} \\mathrm{~mol}^1 \\\\\n& =-7.1 \\mathrm{~mol} \\mathrm{dm}^{-3}\n\\end{aligned}\n$$<div></div>The ratio is -7.1<div></div>\n\nAnswer: $\\quad-7.1$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक वॉन डर वाल्स (van der Waals) गैस के मोलर आयतन (molar volume, $V_{\\mathrm{m}}$ ) का परिकलन वॉन डर वाल्स समीकरण को एक त्रिघात समीकरण (cubic equation) जिसमे $V_{\\mathrm{m}}$ चर (variable) है, में व्यक्त कर के कर सकते हैं। एक गैस जिसके वॉन डर वाल्स स्थिरांक $a=6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}^{-2}$ तथा $b=0.060 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}$ हैं, के 300 K तथा 300 atm पर $V_{\\mathrm{m}}^2$ के गुणांक तथा $V_{\\mathrm{m}}$ के गुणांक का अनुपात ( $\\mathrm{mol} \\mathrm{dm}^{-3}$ में) _________ है।</p>\n<p>उपयोग करें: सार्वत्रिक गैस नियतांक (Universal gas constant, R ) $=0.082 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1}$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "-7.10",
+          "explanation": "मोलर आयतन $\\rightarrow V_m$ (दिए गए तापमान और दाब पर गैस के I मोल द्वारा घेरा गया आयतन)। <div></div>$a=6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}^{-2}$\n<div></div>\n$$\nb=0.060 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}\n$$<div></div>\n\n\nतापमान, $T=300 \\mathrm{~K}$<div></div>\nदाब, $P=300 \\mathrm{~atm}$<div></div>\n\n$$\nR=0.082 \\mathrm{~d} \\mathrm{~m}^3 \\mathrm{~atm} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1}\n$$<div></div>\n$$\n\\frac{V_m^2(\\text { गुणांक })}{V_m(\\text { गुणांक })}=?\\left(\\mathrm{~mol} \\mathrm{dm}^{-3}\\right)\n$$<div></div>\n\n\nवान डर वाल्स समीकरण है<div></div>\n\n$$\n\\begin{aligned}\n& \\left(P+\\frac{a n^2}{V^2}\\right)(V-n b)=n k T \\\\\n& n=1 \\mathrm{~mol} \\quad, V=V_m\n\\end{aligned}\n$$\n<div></div>\n\nअतः, $\\left(P+\\frac{a}{V_m^2}\\right)\\left(V_m-b\\right)=R T$<div></div>समीकरण को प्रसारित किया जा सकता है<div></div>\n\n$$\n\\begin{aligned}\n& P V_m-P b+\\frac{a}{V_m^2} \\times V_m-\\frac{a}{V_m^2}=R T \\\\\n& P V_{1 m}-P b+\\frac{a}{V_m}+\\frac{a b}{V_m^2}=R T\n\\end{aligned}\n$$\n\n<div></div>\n$\\mathrm{Vm}^2$ से गुणा करने पर<div></div>$$\n\\begin{aligned}\n& P V_m \\times V_m^2-P b \\times V_m^2+\\frac{a}{V_m} \\times V_m^2-\\frac{a b}{V_m^2} \\times V_m^2=R T \\times V_m^2 \\\\\n& P V_m^3-P b V_m^2+a V_m-a b=R T V_m^2 \\\\\n& P V_m^3-P b V_m^2+a V_m-a b-R T V_m^2=0 \\\\\n& P V_m^3-(P b+R T) V_m^2+a V_m-a b=0\n\\end{aligned}\n$$<div></div>$V_m^2$ का गुणांक $\\rightarrow-(P b+R T)$ <div></div>$v_m$ का गुणांक $\\longrightarrow a$\n\n<div></div>अनुपात,<div></div>\n\n$$\n\\begin{aligned}\n& \\frac{\\text { $V_m^2$ का गुणांक}}{\\text { $V_m$ का गुणांक}} \\\\\n& =\\frac{-(P b+R T)}{a}\n\\end{aligned}\n$$\n<div></div>$$\n\\text { मानों को प्रतिस्थापित करने पर }\n$$<div></div>$$\n\\frac{\\text { $\\mathrm{Vm}^2$ का गुणांक}}{\\text { $\\mathrm{Vm}_\\mathrm{m}$ का गुणांक}}\\begin{aligned}\n& -\\left(300 \\mathrm{~atm} \\times 0.060 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}+\\right. \\\\\n= & \\frac{0.082 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol} \\mathrm{k}^{-1} \\times 300K )\\mathrm{}}{6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}{ }^{-2}}\n\\end{aligned}\n$$<div></div>$$\n\\frac{\\text { $V_m^2$ का गुणांक}}{\\text { $V_m$ का गुणांक}}=\\frac{-18 \\mathrm{~atm} \\mathrm{dm}^3 \\mathrm{~mol}^{-1}+24.6 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol}^{-1}}{6.0 \\mathrm{dm} \\mathrm{dmol}^6 \\mathrm{~atm} \\mathrm{~mol}^2}\n$$<div></div>$$\n\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=-\\frac{42.6 \\mathrm{dm}^3 \\mathrm{~atm} \\mathrm{~mol}}{-6.0 \\mathrm{dm}^6 \\mathrm{~atm} \\mathrm{~mol}^{-2}}\n$$<div></div>$$\n\\begin{aligned}\n\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,& =-7.1 \\mathrm{dm}^3 \\mathrm{~mol}^{-1} \\mathrm{dm}^{-6} \\mathrm{~mol}^2 \\\\\n& =-7.1 \\mathrm{dm}^{3-6} \\mathrm{~mol}^{-1+2} \\\\\n& =-7.1 \\mathrm{dm}^{-3} \\mathrm{~mol}^1 \\\\\n& =-7.1 \\mathrm{~mol} \\mathrm{dm}^{-3}\n\\end{aligned}\n$$<div></div>अनुपात है -7.1<div></div>\n\nउत्तर: $\\quad-7.1$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "real-gas-and-van-der-walls-equation",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Molar volume (Vm) of a van der Waals gas can be calculated by expressing the van der Waals equation as a cubic equation with Vm as the variable. The ratio (in mol dm−3) of the coefficient of Vm2 to the coefficient of Vm for a gas having van..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "एक वॉन डर वाल्स (van der Waals) गैस के मोलर आयतन (molar volume, $V_{\\mathrm{m}}$ ) का परिकलन वॉन डर वाल्स समीकरण को एक त्रिघात समीकरण (cubic equation) जिसमे $V_{\\mathrm{m}}$ चर (variable) है, में व्यक्त कर के कर सकते हैं। एक गैस जिसके वॉन ड..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "5675mu2vt69br3jv87m7",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-1-online",
+      "paperTitle": "JEE Advanced 2024 Paper 1 Online",
+      "permalink": "pa-closed-vessel-contains-10-mathrmg-of-an-ideal-gas-jee-advanced-chemistry-esirboypvws8sziv",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A closed vessel contains $10 \\mathrm{~g}$ of an ideal gas $\\mathbf{X}$ at $300 \\mathrm{~K}$, which exerts $2 \\mathrm{~atm}$ pressure. At the same temperature, $80 \\mathrm{~g}$ of another ideal gas $\\mathbf{Y}$ is added to it and the pressure becomes $6 \\mathrm{~atm}$. The ratio of root mean square velocities of $\\mathbf{X}$ and $\\mathbf{Y}$ at $300 \\mathrm{~K}$ is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$2 \\sqrt{2}: \\sqrt{3}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$2 \\sqrt{2}: 1$"
+            },
+            {
+              "identifier": "C",
+              "content": "$1: 2$"
+            },
+            {
+              "identifier": "D",
+              "content": "$2: 1$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>To solve this problem, we'll start by using the ideal gas law and the formula for the root mean square (rms) velocity of a gas.</p>\n\n<p>The ideal gas law is given by:</p>\n\n<p>\n\n<p>$$ PV = nRT $$</p>\n\n</p>\n\n<p>where $ P $ is the pressure, $ V $ is the volume, $ n $ is the number of moles, $ R $ is the universal gas constant, and $ T $ is the temperature. The rms velocity ($ v_{rms} $) of a gas is given by:</p>\n\n<p>\n\n<p>$$ v_{rms} = \\sqrt{\\frac{3RT}{M}} $$</p>\n\n</p>\n\n<p>where $ M $ is the molar mass of the gas. We need the rms velocities of gases $ X $ and $ Y $.</p>\n\n<p>First, let's find the number of moles of each gas. For gas $ X $, let’s denote the molar mass as $ M_X $. The number of moles is:</p>\n\n<p>\n\n<p>$$ n_X = \\frac{10 \\, \\text{g}}{M_X} $$</p>\n\n</p>\n\n<p>For the initial gas $ X $ at $ 300 \\, \\text{K} $ and $ 2 \\, \\text{atm} $, we can write:</p>\n\n<p>\n\n<p>$$ P_X V = n_X RT $$</p>\n\n</p>\n\n<p>When gas $ Y $ is added, the total pressure becomes $ 6 \\, \\text{atm} $. Let the molar mass of $ Y $ be $ M_Y $. The number of moles of gas $ Y $ added is:</p>\n\n<p>\n\n<p>$$ n_Y = \\frac{80 \\, \\text{g}}{M_Y} $$</p>\n\n</p>\n\n<p>Now, the total number of moles in the vessel is $ n_X + n_Y $, and this total exerts a pressure of $ 6 \\, \\text{atm} $ at the same volume and temperature:</p>\n\n<p>\n\n<p>$$ P_{total} V = (n_X + n_Y) RT $$</p>\n\n</p>\n\n<p>Given the total pressure is $ 6 \\, \\text{atm} $, solving for the volume$ V $ and equating, we get two equations:</p>\n\n<p>\n\n<p>$$ 2V = \\frac{10}{M_X} RT \\quad ......\\text{(i)} $$</p>\n\n<p>$$ 6V = \\left( \\frac{10}{M_X} + \\frac{80}{M_Y} \\right) RT \\quad ......\\text{(ii)} $$</p>\n\n</p>\n\n<p>Dividing (ii) by (i) and solving for $ \\frac{80}{M_Y} $, we get:</p>\n\n<p>\n\n<p>$$ \\frac{80}{M_Y} = 2 \\frac{10}{M_X} $$</p>\n\n<p>$$ \\frac{80}{M_Y} = \\frac{20}{M_X} $$</p>\n\n<p>$$ M_Y = 4 M_X $$</p>\n\n</p>\n\n<p>Now, applying the formula for the rms velocity, the ratio of rms velocities of $ X $ and $ Y $ is:</p>\n\n<p>\n\n<p>$$ \\frac{v_{rms, X}}{v_{rms, Y}} = \\sqrt{\\frac{M_Y}{M_X}} = \\sqrt{\\frac{4 M_X}{M_X}} = 2 $$</p>\n\n</p>\n\n<p>So, the ratio of root mean square velocities of $ X $ and $ Y $ is $ 2:1 $.</p>\n\n<p>Thus, the correct answer is Option D: $ 2:1 $.</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$300 \\mathrm{~K}$ ताप पर एक बंद पात्र में $10 \\mathrm{~g}$ आदर्श गैस $\\mathbf{X}$ भरी है, जिसका दाब $2 \\mathrm{~atm}$ है। जब समान ताप पर इसमें $80 \\mathrm{~g}$ एक दूसरी आदर्श गैस $\\mathbf{Y}$ मिलाई जाती है, तो दाब $6 \\mathrm{~atm}$ हो जाता है। $300 \\mathrm{~K}$ ताप पर $\\mathbf{X}$ तथा $\\mathbf{Y}$ के वर्ग माध्य मूल वेगों (root mean square velocities) का अनुपात है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$2 \\sqrt{2}: \\sqrt{3}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$2 \\sqrt{2}: 1$"
+            },
+            {
+              "identifier": "C",
+              "content": "$1: 2$"
+            },
+            {
+              "identifier": "D",
+              "content": "$2: 1$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>इस समस्या को हल करने के लिए, हम आदर्श गैस नियम और गैस के वर्ग माध्य मूल (rms) वेग के सूत्र का उपयोग करेंगे।</p>\n\n<p>आदर्श गैस नियम इस प्रकार दिया गया है:</p>\n\n<p>\n\n<p>$$ PV = nRT $$</p>\n\n</p>\n\n<p>जहाँ $ P $ दाब है, $ V $ आयतन है, $ n $ मोलों की संख्या है, $ R $ सार्वत्रिक गैस स्थिरांक है, और $ T $ ताप है। गैस का rms वेग ($ v_{rms} $) इस प्रकार दिया गया है:</p>\n\n<p>\n\n<p>$$ v_{rms} = \\sqrt{\\frac{3RT}{M}} $$</p>\n\n</p>\n\n<p>जहाँ $ M $ गैस का मोलर द्रव्यमान है। हमें गैसों $ X $ और $ Y $ के rms वेगों की आवश्यकता है।</p>\n\n<p>सबसे पहले, आइए प्रत्येक गैस के मोलों की संख्या ज्ञात करें। गैस $ X $ के लिए, मोलर द्रव्यमान को $ M_X $ मान लें। मोलों की संख्या है:</p>\n\n<p>\n\n<p>$$ n_X = \\frac{10 \\, \\text{g}}{M_X} $$</p>\n\n</p>\n\n<p>$ 300 \\, \\text{K} $ और $ 2 \\, \\text{atm} $ पर प्रारंभिक गैस $ X $ के लिए, हम लिख सकते हैं:</p>\n\n<p>\n\n<p>$$ P_X V = n_X RT $$</p>\n\n</p>\n\n<p>जब गैस $ Y $ मिलाई जाती है, तो कुल दाब $ 6 \\, \\text{atm} $ हो जाता है। मान लें $ Y $ का मोलर द्रव्यमान $ M_Y $ है। मिलाई गई गैस $ Y $ के मोलों की संख्या है:</p>\n\n<p>\n\n<p>$$ n_Y = \\frac{80 \\, \\text{g}}{M_Y} $$</p>\n\n</p>\n\n<p>अब, पात्र में मोलों की कुल संख्या $ n_X + n_Y $ है, और यह कुल उसी आयतन और ताप पर $ 6 \\, \\text{atm} $ का दाब डालती है:</p>\n\n<p>\n\n<p>$$ P_{total} V = (n_X + n_Y) RT $$</p>\n\n</p>\n\n<p>दिया गया है कि कुल दाब $ 6 \\, \\text{atm} $ है, आयतन $ V $ के लिए हल करके और बराबर करके, हमें दो समीकरण मिलते हैं:</p>\n\n<p>\n\n<p>$$ 2V = \\frac{10}{M_X} RT \\quad ......\\text{(i)} $$</p>\n\n<p>$$ 6V = \\left( \\frac{10}{M_X} + \\frac{80}{M_Y} \\right) RT \\quad ......\\text{(ii)} $$</p>\n\n</p>\n\n<p>(ii) को (i) से भाग देने और $ \\frac{80}{M_Y} $ के लिए हल करने पर, हमें मिलता है:</p>\n\n<p>\n\n<p>$$ \\frac{80}{M_Y} = 2 \\frac{10}{M_X} $$</p>\n\n<p>$$ \\frac{80}{M_Y} = \\frac{20}{M_X} $$</p>\n\n<p>$$ M_Y = 4 M_X $$</p>\n\n</p>\n\n<p>अब, rms वेग के सूत्र को लागू करते हुए, $ X $ और $ Y $ के rms वेगों का अनुपात है:</p>\n\n<p>\n\n<p>$$ \\frac{v_{rms, X}}{v_{rms, Y}} = \\sqrt{\\frac{M_Y}{M_X}} = \\sqrt{\\frac{4 M_X}{M_X}} = 2 $$</p>\n\n</p>\n\n<p>अतः, $ X $ और $ Y $ के वर्ग माध्य मूल वेगों का अनुपात $ 2:1 $ है।</p>\n\n<p>इस प्रकार, सही उत्तर विकल्प D है: $ 2:1 $।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "ideal-gas-equation",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "A closed vessel contains $10 \\mathrm{~g}$ of an ideal gas $\\mathbf{X}$ at $300 \\mathrm{~K}$, which exerts $2 \\mathrm{~atm}$ pressure. At the same temperature, $80 \\mathrm{~g}$ of another ideal gas $\\mathbf{Y}$ is added to it and the pressur..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "$300 \\mathrm{~K}$ ताप पर एक बंद पात्र में $10 \\mathrm{~g}$ आदर्श गैस $\\mathbf{X}$ भरी है, जिसका दाब $2 \\mathrm{~atm}$ है। जब समान ताप पर इसमें $80 \\mathrm{~g}$ एक दूसरी आदर्श गैस $\\mathbf{Y}$ मिलाई जाती है, तो दाब $6 \\mathrm{~atm}$ हो जाता ..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-1-online"
+    },
+    {
+      "question_id": "mgllrkaliebg47soz8et",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "a-gas-has-a-compressibility-factor-of-05-and-a-molar-volume-jee-advanced-chemistry-qjmtjgnrd8hbbt3d",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A gas has a compressibility factor of 0.5 and a molar volume of $0.4 ~\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$ at a temperature of $800 \\mathrm{~K}$ and pressure $\\mathbf{x}$ atm. If it shows ideal gas behaviour at the same temperature and pressure, the molar volume will be $\\mathbf{y} ~\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$. The value of $\\mathbf{x} / \\mathbf{y}$ is __________.<br/><br/>\n[Use: Gas constant, $\\mathrm{R}=8 \\times 10^{-2} \\mathrm{~L}$ atm $\\mathrm{K}^{-1} \\mathrm{~mol}^{-1}$ ]",
+          "options": [],
+          "correct_options": [],
+          "answer": "100",
+          "explanation": "For gas : $\\mathrm{Z}=0.5, \\mathrm{~V}_{\\mathrm{m}}=0.4 \\mathrm{~L} / \\mathrm{mol}$\n<br/><br/>$$\n\\begin{aligned}\n& \\mathrm{T}=800 \\mathrm{~K}, \\mathrm{P}=\\mathrm{X} \\text { atm. } \\\\\\\\\n\\Rightarrow & \\mathrm{Z}=\\frac{\\mathrm{PV}_{\\mathrm{m}}}{\\mathrm{RT}} \\\\\\\\\n\\Rightarrow & \\frac{\\mathrm{X}(0.4)}{0.08 \\times 800}=0.5 \\\\\\\\\n\\Rightarrow & \\mathrm{X}=80\n\\end{aligned}\n$$\n<br/><br/>For ideal gas, $\\mathrm{PV}_{\\mathrm{m}}=\\mathrm{RT}$\n<br/><br/>$$\n\\Rightarrow \\mathrm{V}_{\\mathrm{m}}=\\frac{\\mathrm{RT}}{\\mathrm{P}}=\\frac{0.08 \\times 800}{80}=0.8 \\mathrm{~L} \\mathrm{~mol}^{-1}=\\mathrm{y}\n$$\n\n<br/><br/>Then, $\\frac{x}{y}=\\frac{80}{0.8}=100$."
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$800 \\mathrm{~K}$ ताप और $\\mathbf{x ~ a t m}$ दाब पर, एक गैस का संपीडयता-गुणांक (compressibility factor) 0.5 और मोलर आयतन $0.4 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}$ है। समान ताप और दाब पर यदि वह आदर्श गैस का व्यवहार दर्शाये तो उसका मोलर आयतन $\\mathrm{y} \\mathrm{dm}^3 \\mathrm{~mol}^{-1}$ होगा $\\mid \\mathrm{x} / \\mathrm{y}$ का मान है _______<br/><br/>\n[उपयोग करें : गैस नियतांक $=8 \\times 10^{-2} \\mathrm{~L} \\mathrm{~atm} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$ ]",
+          "options": [],
+          "correct_options": [],
+          "answer": "100",
+          "explanation": "गैस के लिए : $\\mathrm{Z}=0.5, \\mathrm{~V}_{\\mathrm{m}}=0.4 \\mathrm{~L} / \\mathrm{mol}$\n<br/><br/>$$\n\\begin{aligned}\n& \\mathrm{T}=800 \\mathrm{~K}, \\mathrm{P}=\\mathrm{X} \\text { atm. } \\\\\\\\\n\\Rightarrow & \\mathrm{Z}=\\frac{\\mathrm{PV}_{\\mathrm{m}}}{\\mathrm{RT}} \\\\\\\\\n\\Rightarrow & \\frac{\\mathrm{X}(0.4)}{0.08 \\times 800}=0.5 \\\\\\\\\n\\Rightarrow & \\mathrm{X}=80\n\\end{aligned}\n$$\n<br/><br/>आदर्श गैस के लिए, $\\mathrm{PV}_{\\mathrm{m}}=\\mathrm{RT}$\n<br/><br/>$$\n\\Rightarrow \\mathrm{V}_{\\mathrm{m}}=\\frac{\\mathrm{RT}}{\\mathrm{P}}=\\frac{0.08 \\times 800}{80}=0.8 \\mathrm{~L} \\mathrm{~mol}^{-1}=\\mathrm{y}\n$$\n\n<br/><br/>तब, $\\frac{x}{y}=\\frac{80}{0.8}=100$."
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "ideal-gas-equation",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "A gas has a compressibility factor of 0.5 and a molar volume of $0.4 ~\\mathrm{dm}^3 \\mathrm{~mol}^{-1}$ at a temperature of $800 \\mathrm{~K}$ and pressure $\\mathbf{x}$ atm. If it shows ideal gas behaviour at the same temperature and pressur..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "$800 \\mathrm{~K}$ ताप और $\\mathbf{x ~ a t m}$ दाब पर, एक गैस का संपीडयता-गुणांक (compressibility factor) 0.5 और मोलर आयतन $0.4 \\mathrm{dm}^3 \\mathrm{~mol}^{-1}$ है। समान ताप और दाब पर यदि वह आदर्श गैस का व्यवहार दर्शाये तो उसका मोलर आयतन $\\..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "7hhm430ate6qms21nzmt",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "permalink": "if-the-distribution-of-molecular-speeds-of-a-gas-is-as-per-t-jee-advanced-chemistry-some-basic-concepts-of-chemistry-uakxbcw4zr05wbg5",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "If the distribution of molecular speeds of a gas is as per the figure shown below, then the ratio of the most probable, the average, and the root mean square speeds, respectively, is<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9ukawq/d1953ec3-150a-4288-bd8b-9d8b40e8bf0e/8c2679a0-5eeb-11ec-b929-8518f088d7e0/file-1kx9ukawr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9ukawq/d1953ec3-150a-4288-bd8b-9d8b40e8bf0e/8c2679a0-5eeb-11ec-b929-8518f088d7e0/file-1kx9ukawr.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2020 Paper 1 Offline Chemistry - Gaseous State Question 13 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1 : 1 : 1"
+            },
+            {
+              "identifier": "B",
+              "content": "1 : 1 : 1.224"
+            },
+            {
+              "identifier": "C",
+              "content": "1 : 1.128 : 1.224"
+            },
+            {
+              "identifier": "D",
+              "content": "1 : 1.128 : 1"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "Fraction of molecules vs velocity graph is Maxwell distribution curve.<br><br>This curve is slightly unsymmetrical as shown below.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9ul05d/0d736689-3338-47c3-9c11-45628af48c40/9fa5c710-5eeb-11ec-b1f6-5f1771b464e3/file-1kx9ul05e.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9ul05d/0d736689-3338-47c3-9c11-45628af48c40/9fa5c710-5eeb-11ec-b1f6-5f1771b464e3/file-1kx9ul05e.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2020 Paper 1 Offline Chemistry - Gaseous State Question 13 English Explanation\"><p>The ratio of most probable, the average and the root mean square speeds for this graph is 1 : 1.128 : 1.224</p><p>But the graph in question is completely symmetrical. Therefore, the most probable and the average speed will be same here but root mean square speed will be greater than average speed. So, the correct ratio is 1 : 1 : 1.224.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>यदि किसी गैस के अणुओं की गतियों का वितरण नीचे दिये चित्र के अनुसार हो, तो अणुओं के अति-संभाव्य (प्रायिकतम, most probable,), औसत (average), तथा वर्ग माध्य मूल (root mean square) गतियों का अनुपात, क्रमशः है (चित्र में Fraction of molecules: अणुओं का अंश, तथा speed: गति),</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9ukawq/d1953ec3-150a-4288-bd8b-9d8b40e8bf0e/8c2679a0-5eeb-11ec-b929-8518f088d7e0/file-1kx9ukawr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9ukawq/d1953ec3-150a-4288-bd8b-9d8b40e8bf0e/8c2679a0-5eeb-11ec-b929-8518f088d7e0/file-1kx9ukawr.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2020 Paper 1 Offline Chemistry - Gaseous State Question 13 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1: 1: 1$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$1: 1: 1.224$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$1: 1.128: 1.224$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$1: 1.128: 1$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "अणुओं का भिन्न बनाम वेग ग्राफ मैक्सवेल वितरण वक्र है।<br><br>यह वक्र थोड़ा असममित है जैसा कि नीचे दिखाया गया है।<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9ul05d/0d736689-3338-47c3-9c11-45628af48c40/9fa5c710-5eeb-11ec-b1f6-5f1771b464e3/file-1kx9ul05e.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9ul05d/0d736689-3338-47c3-9c11-45628af48c40/9fa5c710-5eeb-11ec-b1f6-5f1771b464e3/file-1kx9ul05e.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 50vh\" alt=\"JEE Advanced 2020 Paper 1 Offline Chemistry - Gaseous State Question 13 Hindi Explanation\"><p>इस ग्राफ के लिए सर्वाधिक संभावित, औसत और वर्ग माध्य मूल चालों का अनुपात 1 : 1.128 : 1.224 है</p><p>लेकिन प्रश्न में दिया गया ग्राफ पूर्णतः सममित है। इसलिए, यहाँ सर्वाधिक संभावित और औसत चाल समान होंगी लेकिन वर्ग माध्य मूल चाल औसत चाल से अधिक होगी। अतः, सही अनुपात 1 : 1 : 1.224 है।</p>"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "maxwells-distribution-of-speed",
+      "type": "mcq",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "If the distribution of molecular speeds of a gas is as per the figure shown below, then the ratio of the most probable, the average, and the root mean square speeds, respectively, is"
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "यदि किसी गैस के अणुओं की गतियों का वितरण नीचे दिये चित्र के अनुसार हो, तो अणुओं के अति-संभाव्य (प्रायिकतम, most probable,), औसत (average), तथा वर्ग माध्य मूल (root mean square) गतियों का अनुपात, क्रमशः है (चित्र में Fraction of molecules: अ..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "question_id": "22yhnsq2tj8e4zyp8q2i",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "permalink": "aluminium-reacts-with-sulphuric-acid-to-form-aluminium-sulph-jee-advanced-chemistry-some-basic-concepts-of-chemistry-t0zl6uv1nvdrtbhs",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Aluminium reacts with sulphuric acid to form aluminium sulphate and hydrogen. What is the volume of hydrogen gas in litre (L) produced at 300 K and 1.0 atm pressure, when 5.4 g of aluminium and 50.0 mL of 5.0 M sulphuric acid are combined for the reaction?<br><br>(Use molar mass of aluminium as 27.0 g mol<sup>$$-$$1</sup>, R = 0.082 atm L mol<sup>$$-$$1</sup> K<sup>$$-$$1</sup>)",
+          "options": [],
+          "correct_options": [],
+          "answer": "6.15",
+          "explanation": "Aluminium reacts with sulphuric acid to form aluminium sulphate and hydrogen.<br><br>$$\\mathop {2Al}\\limits_{\\left( {{{5.4} \\over {27}} = 0.2\\,mol} \\right)}  + \\mathop {3{H_2}S{O_4}}\\limits_{\\left( {{{50 \\times 5} \\over {1000}} = 0.25\\,mol} \\right)} \\buildrel {} \\over\n \\longrightarrow A{l_2}{(S{O_4})_3} + 3{H_2}$$<br><br>H<sub>2</sub>SO<sub>4</sub> is limiting reagent and moles of H<sub>2</sub>(g) produced = 0.25 mol<br><br>Using ideal gas equation,<br><br>pV = nRT<br><br>$$ \\Rightarrow $$ $$V = {{0.25 \\times 0.082 \\times 300} \\over {1\\,atm}} = 6.15\\,L$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>ऐलुमिनियम, सल्फ्यूरिक अम्ल के साथ अभिक्रिया करके ऐलुमिनियम सल्फेट तथा हाइड्रोजन बनाता है। ताप $$300 \\mathrm{~K}$$ तथा दाब $$1.0 \\mathrm{~atm}$$ पर $$5.4 \\mathrm{~g}$$ ऐलुमिनियम को $$50.0 \\mathrm{~mL} ~5.0 \\mathrm{M}$$ सल्फ्यूरिक अम्ल के साथ अभिक्रिया करवाने पर उत्पन्न हुई हाइड्रोजन गैस का आयतन लीटर $$(\\mathrm{L})$$ में क्या होगा ?</p>\n<p>(उपयोग करें: ऐलुमिनियम का मोलर द्रव्यमान $$=27.0 \\mathrm{~g} \\mathrm{~mol}^{-1}, R=0.082 \\mathrm{~atm} \\mathrm{~L} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1}$$ )</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "6.15",
+          "explanation": "एल्युमिनियम सल्फ्यूरिक अम्ल के साथ अभिक्रिया करके एल्युमिनियम सल्फेट और हाइड्रोजन बनाता है।<br><br>$$\\mathop {2Al}\\limits_{\\left( {{{5.4} \\over {27}} = 0.2\\,mol} \\right)}  + \\mathop {3{H_2}S{O_4}}\\limits_{\\left( {{{50 \\times 5} \\over {1000}} = 0.25\\,mol} \\right)} \\buildrel {} \\over\n \\longrightarrow A{l_2}{(S{O_4})_3} + 3{H_2}$$<br><br>H<sub>2</sub>SO<sub>4</sub> सीमित अभिकारक है और H<sub>2</sub>(g) के उत्पादित मोल = 0.25 mol<br><br>आदर्श गैस समीकरण का उपयोग करने पर,<br><br>pV = nRT<br><br>$$ \\Rightarrow $$ $$V = {{0.25 \\times 0.082 \\times 300} \\over {1\\,atm}} = 6.15\\,L$$"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "ideal-gas-equation",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Aluminium reacts with sulphuric acid to form aluminium sulphate and hydrogen. What is the volume of hydrogen gas in litre (L) produced at 300 K and 1.0 atm pressure, when 5.4 g of aluminium and 50.0 mL of 5.0 M sulphuric acid are combined f..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "ऐलुमिनियम, सल्फ्यूरिक अम्ल के साथ अभिक्रिया करके ऐलुमिनियम सल्फेट तथा हाइड्रोजन बनाता है। ताप $$300 \\mathrm{~K}$$ तथा दाब $$1.0 \\mathrm{~atm}$$ पर $$5.4 \\mathrm{~g}$$ ऐलुमिनियम को $$50.0 \\mathrm{~mL} ~5.0 \\mathrm{M}$$ सल्फ्यूरिक अम्ल के साथ..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "rwsdh0gxcq7dm46chgbn",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The diffusion coefficient of an ideal gas is proportional to its mean free path and mean speed. The absolute\ntemperature of an ideal gas is increased 4 times and its pressure is increased 2 times. As a result, the\ndiffusion coefficient of this gas increases x times. The value of x is ___________:",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "The diffusion coefficient (D) is proportional to the mean free path (λ) and the mean speed (U<sub>mean</sub>), so we can write \n\n<br/><br/>$$D ∝ λU_{\\text{mean}}$$\n\n<br/><br/>The mean free path (λ) is given by \n\n<br/><br/>$$λ = \\frac{RT}{\\sqrt{2} N_0 σP}$$ \n\n<br/><br/>hence \n\n<br/><br/>$$λ ∝ \\frac{T}{P}$$\n\n<br/><br/>The mean speed (U<sub>mean</sub>) is given by \n\n<br/><br/>$$U_{\\text{mean}} = \\sqrt{\\frac{8RT}{πM}}$$ \n\n<br/><br/>hence \n\n<br/><br/>$$U_{\\text{mean}} ∝ \\sqrt{T}$$\n\n<br/><br/>Therefore, \n\n<br/><br/>$$D ∝ \\frac{T^{3/2}}{P}$$\n\n<br/><br/>The change in the diffusion coefficient would then be given by :\n\n<br/><br/>$$\\frac{(DC)_2}{(DC)_1} = \\frac{P_1}{P_2} \\cdot \\left(\\frac{T_2}{T_1}\\right)^{3/2}$$\n\n<br/><br/>Substituting $P_2 = 2P_1$ and $T_2 = 4T_1$ into the equation, we get :\n\n<br/><br/>$$\\frac{(D)_2}{(D)_1} = \\frac{1}{2} \\cdot (4)^{3/2} = 4$$\n\n<br/><br/>So, the diffusion coefficient of the gas increases 4 times. Hence, x = 4."
+        },
+        "hi": {
+          "content": "एक आदर्श गैस का विसरण गुणांक इसके मध्यम मुक्त पथ और मध्यम गति के अनुपाती होता है। एक आदर्श गैस का परम तापमान 4 गुना बढ़ाया गया और उसका दबाव 2 गुना बढ़ाया गया। परिणामस्वरूप, इस गैस का विसरण गुणांक x गुना बढ़ जाता है। x का मान ___________ है:",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-diffusion-coefficient-of-an-ideal-gas-is-proportional-to-2016-marks-4-qywa8cqfop3t9ftn.htm",
+      "timeAllotted": 200000,
+      "topic": "grahams-law-of-diffusion",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "The diffusion coefficient of an ideal gas is proportional to its mean free path and mean speed. The absolute\ntemperature of an ideal gas is increased 4 times and its pressure is increased 2 times. As a result, the\ndiffusion coefficient of t..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "एक आदर्श गैस का विसरण गुणांक इसके मध्यम मुक्त पथ और मध्यम गति के अनुपाती होता है। एक आदर्श गैस का परम तापमान 4 गुना बढ़ाया गया और उसका दबाव 2 गुना बढ़ाया गया। परिणामस्वरूप, इस गैस का विसरण गुणांक x गुना बढ़ जाता है। x का मान ___________ है:"
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "question_id": "hfgtt3rldetrozth1pia",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "permalink": "pone-mole-of-a-monoatomic-real-gas-satisfies-the-equation-jee-advanced-chemistry-some-basic-concepts-of-chemistry-4xjckaoasy1cigjb",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>One mole of a monoatomic real gas satisfies the equation p(V $$-$$ b) = RT where b is a constant. The relationship of interatomic potential V(r) and interatomic distance r for the gas is given by</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0w7yfxb/b3b1e476-f43b-4fec-8081-d91fe3ebf7ee/d074baf0-a69d-11ec-8b67-4d9118e5b0bb/file-1l0w7yfxc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0w7yfxb/b3b1e476-f43b-4fec-8081-d91fe3ebf7ee/d074baf0-a69d-11ec-8b67-4d9118e5b0bb/file-1l0w7yfxc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Chemistry - Gaseous State Question 11 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lhy7cuvj/f87d8c08-6579-4f01-b569-2dc7347cc662/b6f27140-f844-11ed-a53e-211024694026/file-1lhy7cuvo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lhy7cuvj/f87d8c08-6579-4f01-b569-2dc7347cc662/b6f27140-f844-11ed-a53e-211024694026/file-1lhy7cuvo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Chemistry - Gaseous State Question 11 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0w7zf89/dc7b1d28-dea6-4ddc-9696-250033d3bde0/ebba3c90-a69d-11ec-8b67-4d9118e5b0bb/file-1l0w7zf8a.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0w7zf89/dc7b1d28-dea6-4ddc-9696-250033d3bde0/ebba3c90-a69d-11ec-8b67-4d9118e5b0bb/file-1l0w7zf8a.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Chemistry - Gaseous State Question 11 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0w7zyh9/17c06c37-11b7-4015-8178-79540a5c7b05/fa98ffd0-a69d-11ec-8b67-4d9118e5b0bb/file-1l0w7zyha.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0w7zyh9/17c06c37-11b7-4015-8178-79540a5c7b05/fa98ffd0-a69d-11ec-8b67-4d9118e5b0bb/file-1l0w7zyha.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Chemistry - Gaseous State Question 11 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "The given equation is $\\mathrm{P}(\\mathrm{V}-b)=\\mathrm{RT}$, \n<br/><br/>On comparing with van Der Waal's equation\n<br/><br/>$$\n\\left[\\mathrm{P}+\\frac{a}{\\mathrm{~V}^2}\\right][\\mathrm{V}-b]=\\mathrm{RT} \\text { we get } a=0\n$$\n<br/><br/>Hence, only repulsive forces are present which are contributive only at very close distance.\n<br/><br/>Thus, the potential energy will increase abruptly, so graph (c) is correct. The dominance of repulsive force can be shown by using the compressibility factor.\n<br/><br/>$$\n\\begin{aligned}\n\\mathrm{P}(\\mathrm{V}-b) & =\\mathrm{RT} \\\\\\\\\n\\mathrm{PV} & =\\mathrm{Pb}+\\mathrm{RT} \\\\\\\\\n\\frac{\\mathrm{PV}}{\\mathrm{RT}} & =\\frac{\\mathrm{Pb}}{\\mathrm{RT}}+1\n\\end{aligned}\n$$\n<br/><br/>$$\nZ=\\frac{P b}{\\mathrm{RT}}+1 \\text {, i.e., } \\mathrm{Z}>1 \\text { (Repulsive forces) }\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "real-gas-and-van-der-walls-equation",
+      "type": "mcqm",
+      "year": 2015,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "One mole of a monoatomic real gas satisfies the equation p(V $$-$$ b) = RT where b is a constant. The relationship of interatomic potential V(r) and interatomic distance r for the gas is given by"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "question_id": "1l8frtb2ofr9tn8vd503",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "imagebrbran-ideal-gas-in-thermally-insulated-vessel-at-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ohcakjlkkaux0ph4",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1awkhhr/4b17f2a6-d603-4285-837b-b69cdac06d85/09a8e1f0-aeb1-11ec-b33f-bb21af84cf55/file-1l1awkhhs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1awkhhr/4b17f2a6-d603-4285-837b-b69cdac06d85/09a8e1f0-aeb1-11ec-b33f-bb21af84cf55/file-1l1awkhhs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Chemistry - Gaseous State Question 12 English\"><br>An ideal gas in thermally insulated vessel at internal pressure = p<sub>1</sub>, volume = V<sub>1</sub> and absolute temperature = T<sub>1</sub> expands irreversibly against zero external pressure, as shown in the diagram.<br><br>The final internal pressure, volume and absolute temperature of the gas are p<sub>2</sub>, V<sub>2</sub> and T<sub>2</sub>, respectively. For this expansion",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "q = 0"
+            },
+            {
+              "identifier": "B",
+              "content": "T<sub>2</sub> = T<sub>1</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "p<sub>2</sub>V<sub>2</sub> = p<sub>1</sub>V<sub>1</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "p<sub>2</sub>V$$_2^\\gamma $$ = p<sub>1</sub>$$_1^\\gamma $$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "As the vessel is thermally insulated (so, q = 0). Therefore,<br/><br/>$$\\Delta$$U = 0, $$\\Delta$$T = 0 $$\\Rightarrow$$ T<sub>1</sub> = T<sub>2</sub><br/><br/>According to combined gas law equation,<br/><br/>$${{{P_2}{V_2}} \\over {{T_2}}} = {{{P_1}{V_1}} \\over {{T_1}}} \\Rightarrow {P_2}{V_2} = {P_1}{V_1}$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "ideal-gas-equation",
+      "type": "mcqm",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "An ideal gas in thermally insulated vessel at internal pressure = p1, volume = V1 and absolute temperature = T1 expands irreversibly against zero external pressure, as shown in the diagram.The final internal pressure, volume and absolute te..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "269qchn5wu06zcvhxv45",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pfor-one-mole-of-a-van-der-waals-gas-when-b--0-and-t--30-jee-advanced-chemistry-some-basic-concepts-of-chemistry-qcq6zrgwkotyej6x",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>For one mole of a van der Waals gas when b = 0 and T = 300 K, the PV vs. 1/V plot is shown below. The value of the van der Waals constant a (atm L<sup>2</sup> mol<sup>$$-$$2</sup>) is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l24lf9pp/1b49bd1c-0106-4eef-940f-99088eea51e3/f7aac0e0-bf04-11ec-8fbf-67f2639a0a45/file-1l24lf9pq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l24lf9pp/1b49bd1c-0106-4eef-940f-99088eea51e3/f7aac0e0-bf04-11ec-8fbf-67f2639a0a45/file-1l24lf9pq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 1 Offline Chemistry - Gaseous State Question 10 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1.0"
+            },
+            {
+              "identifier": "B",
+              "content": "4.5"
+            },
+            {
+              "identifier": "C",
+              "content": "1.5"
+            },
+            {
+              "identifier": "D",
+              "content": "3.0"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The van der Waals equation is</p>\n<p>$$\\left( {p + {a \\over {{V^2}}}} \\right)(V - b) = RT$$</p>\n<p>but it is given that b = 0. So, the equation reduces to</p>\n<p>$$\\left( {p + {a \\over {{V^2}}}} \\right)V = RT \\Rightarrow pV =  - {a \\over V} + RT$$</p>\n<p>Comparing it with a straight line equation we get slope as $$-$$a. Calculating the slope, we get</p>\n<p>$${{24.6 - 20.1} \\over {3.0 - 0}} = 1.5 \\Rightarrow a = 1.5$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "real-gas-and-van-der-walls-equation",
+      "type": "mcq",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "For one mole of a van der Waals gas when b = 0 and T = 300 K, the PV vs. 1/V plot is shown below. The value of the van der Waals constant a (atm L2 mol$$-$$2) is\n"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "boti4c58m5a9n3ejli4y",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "According to kinetic theory of gases",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "collisions are always elastic"
+            },
+            {
+              "identifier": "B",
+              "content": "heavier molecules transfer more momentum to the wall of the container"
+            },
+            {
+              "identifier": "C",
+              "content": "only a small number molecules have very high velocity"
+            },
+            {
+              "identifier": "D",
+              "content": "between collisions, the molecules move in straight line with constant velocity"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>(A) When gas molecules collide with each other, high energy molecule transfers some of its energy to less energetic molecule, but the total energy remains conserved. This type of collision between gas molecules is called elastic collision. According to kinetic theory of gas, no loss of energy is observed on collisions and kinetic energy is proportional to absolute temperature of gas.</p>\n<p>Option (A) is correct.</p>\n<p>(B) Momentum of any particle for example, gas molecules depends upon the mass as well as the velocity of the gas. But when there is huge increase in the mass of the gas, its velocity decreases considerably. Hence, heavier gas molecules collides the walls of container with less impact. The transfer of momentum to the walls is very less.</p>\n<p>Option (B) is incorrect.</p>\n<p>(C) Maximum number (no.) of gas molecules have speed distributed around the most probable speed ( $v_{\\mathrm{mps}}$ ). This speed corresponds to the maximum peak of Maxwell-Boltzmann distribution curve.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m03wblkt/99cb1cbd-d1a1-4cc3-afc8-2dbe27a1e4a9/283faad0-5fc2-11ef-9c8f-2bd8696d9aab/file-jaoe38c1m03wblku.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m03wblkt/99cb1cbd-d1a1-4cc3-afc8-2dbe27a1e4a9/283faad0-5fc2-11ef-9c8f-2bd8696d9aab/file-jaoe38c1m03wblku.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2011 Paper 1 Offline Chemistry - Gaseous State Question 27 English Explanation\"></p>\n<p>There are few molecules which have very high speed (the shaded area under the curve). \n<br><br>Option $(\\mathrm{C})$ is correct.</p>\n\n(D) Molecules are assumed to be moving in straight line with constant velocities. \n<br><br>Option (D) is correct."
+        }
+      },
+      "permalink": "according-to-kinetic-theory-of-gases-2011-marks-2-ht0sedf1y7t5qflo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "topic": "kinetic-theory-of-gases",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "According to kinetic theory of gases"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6ut84h9j9plpxka7vsqu",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "To an evacuated vessel with movable piston under external pressure of 1 atm, 0.1 mol of He and 1.0 mol of an unknown compound (vapour pressure 0.68 atm, at 0<sup>o</sup>C) are introduced. Considering the ideal gas behaviour, the total volume (in litre) of the gases at 0<sup>o</sup>C is close to",
+          "options": [],
+          "correct_options": [],
+          "answer": "7",
+          "explanation": "<p>Given: External pressure $\\left(\\mathrm{P}_{\\mathrm{ext}}\\right)=1 \\mathrm{~atm}$</p>\n\n<p>Number of mole of helium $\\left(n_{\\mathrm{He}}\\right)=0.1 \\mathrm{~mol}$</p>\n\n<p>No. of mole of unknown compound</p>\n\n<p>$\\left(n_{\\text {unknown compound }}\\right)=1.0 \\mathrm{~mol}$</p>\n\n<p>Vapour pressure of unknown compound</p>\n\n<p>$\\left(p_{\\text {unknown }}^0\\right)=0.68 \\mathrm{~atm}$</p>\n\n<p>Temperature of the mixture $0^{\\circ} \\mathrm{C}=273 \\mathrm{~K}$</p>\n\n<p>To Find: The volume of gas (in litre) $=v_{\\text {gas }}$</p>\n\n<p>Formula: (i) Vapour pressure of helium $\\left(\\mathrm{P}_{\\mathrm{He}}\\right)=$</p>\n\n<p>$P_{\\text {ext }}-P_{\\text {unknown compound }}$</p>\n\n<p>(ii) $\\mathrm{V}_{\\mathrm{He}}=\\frac{n_{\\mathrm{He}} \\times \\mathrm{R} \\times \\mathrm{T}}{\\mathrm{P}_{\\mathrm{He}}}$</p>\n\n<p>Since, the evacuated vessel (with fitted) piston in equilibrium with its surroundings. Hence, external pressure (or pressure outside the vessel) is equal to pressure inside the vessel.</p>\n$$\n\\begin{aligned}\n& \\mathrm{P}_{\\text {ext }}=\\mathrm{P}_{\\text {internal }}=\\mathrm{P}_{\\mathrm{T}} \\\\\\\\\n& \\mathrm{P}_{\\text {ext }}=\\mathrm{P}_{\\mathrm{He}}+\\mathrm{P}_{\\text {unknwon compound }} \\\\\\\\\n& 1 \\mathrm{~atm}=\\mathrm{P}_{\\mathrm{He}}+0.68 \\mathrm{~atm} \\\\\\\\\n& \\mathrm{P}_{\\mathrm{He}}=0.32 \\mathrm{~atm} \\\\\\\\\n\n\\end{aligned}\n$$\n<br/><br/>$\\left[\\mathrm{P}_{\\mathrm{He}} \\mathrm{P}_{\\text {unknown compound }}\\right.$ are partial pressures of helium and unknown gas respectively]\n<br/><br/>According to ideal gas equation:\n<br/><br/>$$\n\\begin{aligned}\n\\mathrm{P}_{\\mathrm{He}} \\times \\mathrm{V}_{\\mathrm{He}} & =n_{\\mathrm{He}} \\times \\mathrm{R} \\times \\mathrm{T} \\\\\\\\\n\\mathrm{V}_{\\mathrm{He}} & =\\frac{0.1 \\times 0.0821 \\times 273}{0.32} \\\\\\\\\n\\mathrm{~V}_{\\mathrm{He}} & =7.004 \\mathrm{~L}\n\\end{aligned}\n$$"
+        }
+      },
+      "permalink": "to-an-evacuated-vessel-with-movable-piston-under-external-pr-2011-marks-4-aso52iwdsiwhc3tr.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "topic": "ideal-gas-equation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "To an evacuated vessel with movable piston under external pressure of 1 atm, 0.1 mol of He and 1.0 mol of an unknown compound (vapour pressure 0.68 atm, at 0oC) are introduced. Considering the ideal gas behaviour, the total volume (in litre..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "9r865y6i4uxeaszoeid5",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pat-400-k-the-root-mean-square-rms-speed-of-a-gas-x-mo-jee-advanced-chemistry-some-basic-concepts-of-chemistry-jn387srcm6ee1t4e",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>At 400 K, the root mean square (rms) speed of a gas X (molecular weight = 40) is equal to the most probable speed of gas Y at 60 K. The molecular weight of the gas Y is ___________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "<p>Let's start by writing down the equations for the root mean square (rms) speed and the most probable speed. The root mean square speed $$ v_{rms} $$ of a gas with molecular weight $$ M $$ at a temperature $$ T $$ in Kelvin is given by the formula:</p>\n\n<p>$$ v_{rms} = \\sqrt{\\frac{3kT}{M}} $$</p>\n\n<p>where $$ k $$ is the Boltzmann constant.</p>\n\n<p>The most probable speed $$ v_{mp} $$ of a gas is given by:</p>\n\n<p>$$ v_{mp} = \\sqrt{\\frac{2kT}{M}} $$</p>\n\n<p>According to the problem statement, at 400 K, the $$ v_{rms} $$ speed of gas X (with molecular weight $$ M_X = 40 $$ g/mol) is equal to the $$ v_{mp} $$ of gas Y at 60 K. We set the equations equal to each other:</p>\n\n<p>$$ \\sqrt{\\frac{3k \\times 400}{40}} = \\sqrt{\\frac{2k \\times 60}{M_Y}} $$</p>\n\n<p>We simplify this equation. First, we can cancel $$ k $$ from both sides:</p>\n\n<p>$$ \\sqrt{\\frac{3 \\times 400}{40}} = \\sqrt{\\frac{2 \\times 60}{M_Y}} $$</p>\n\n<p>Simplify further:</p>\n\n<p>$$ \\sqrt{\\frac{1200}{40}} = \\sqrt{\\frac{120}{M_Y}} $$</p>\n\n<p>$$ \\sqrt{30} = \\sqrt{\\frac{120}{M_Y}} $$</p>\n\n<p>Squaring both sides gives:</p>\n\n<p>$$ 30 = \\frac{120}{M_Y} $$</p>\n\n<p>Rearrange to solve for $$ M_Y $$:</p>\n\n<p>$$ M_Y = \\frac{120}{30} = 4 $$</p>\n\n<p>So, the molecular weight of gas Y is 4 g/mol.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "maxwells-distribution-of-speed",
+      "type": "integer",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "At 400 K, the root mean square (rms) speed of a gas X (molecular weight = 40) is equal to the most probable speed of gas Y at 60 K. The molecular weight of the gas Y is ___________."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "pszyiz7z9ifhztmr2002",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pthe-term-that-corrects-for-the-attractive-forces-present-jee-advanced-chemistry-some-basic-concepts-of-chemistry-clmlu7ehjlcfjkjy",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The term that corrects for the attractive forces present in a real gas in the van der Waals equation is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$nb$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{a{n^2}} \\over {{V^2}}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$ - {{a{n^2}} \\over {{V^2}}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$ - nb$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The van der Waals equation is a modified version of the ideal gas law which accounts for the non-ideal behavior of real gases. This adjustment is done through two correction terms, each addressing a specific factor where real gases deviate from ideal behavior:</p>\n\n<ul>\n\n<li>Intermolecular attraction</li>\n\n<li>Volume occupied by the gas particles themselves</li>\n\n</ul>\n\n<p>The van der Waals equation is given by:</p>\n\n<p>$$\\left(P + \\frac{{a n^2}}{{V^2}}\\right) \\left(V - nb\\right) = nRT$$</p>\n\n<p>Let's break down the components:</p>\n\n<ol>\n\n<li>$$\\left(P + \\frac{{a n^2}}{{V^2}}\\right)$$: This term adds a correction to the pressure (P) of the gas. The parameter $$a$$ provides a correction for the intermolecular forces. As these forces are attractive, they effectively reduce the pressure exerted by the gas. Thus, $$\\frac{{a n^2}}{{V^2}}$$ is added to the actual pressure to account for this decrease due to attraction.</li>\n\n<li>$$\\left(V - nb\\right)$$: The corrected volume term where $$b$$ accounts for the volume occupied by the gas particles themselves, which is otherwise not considered in the ideal gas law. The subtraction by $$nb$$ (where $$n$$ is the number of moles of the gas and $$b$$ is a constant related to the volume occupied by one mole of gas particles) corrects for the volume unavailable to the gas particles for movement.</li>\n\n</ol>\n\n<p>From the options provided:</p>\n\n<ul>\n\n<li>Option A ($$nb$$) and Option D ($$-nb$$) relate to the volume correction for the space that the gas molecules occupy.</li>\n\n<li>Option B ($$\\frac{{a n^2}}{{V^2}}$$) and Option C ($$- \\frac{{a n^2}}{{V^2}}$$) relate to the intermolecular forces.</li>\n\n</ul>\n\n<p>The enhancement factor $$\\frac{{a n^2}}{{V^2}}$$ is added to the pressure to counteract the lowering effect of the attractions on the measured pressure, thus the term correcting for the attractive forces and increasing the effective pressure would be positively stated, not negatively. Therefore:</p>\n\n<p>Option B ($$\\frac{{a n^2}}{{V^2}}$$) is the correct answer, as it accounts for the attractive forces in the modification of the ideal gas law in the van der Waals equation.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "real-gas-and-van-der-walls-equation",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "The term that corrects for the attractive forces present in a real gas in the van der Waals equation is"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "8urav1baxatpsn6r1un8",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pa-gas-described-by-van-der-waals-equationp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-ag2lpvgwdnskf8fu",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A gas described by van Der Waals equation</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "behaves similar to an ideal gas in the limit of large molar volumes."
+            },
+            {
+              "identifier": "B",
+              "content": "behaves similar to an ideal gas in the limit of large pressures."
+            },
+            {
+              "identifier": "C",
+              "content": "is characterized by van der Waals coefficients that are dependent on the identity of the gas but are independent of the temperature."
+            },
+            {
+              "identifier": "D",
+              "content": "has the pressure that is lower than the pressure exerted by the same gas behaving ideally."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Van der Waals equation is $$\\left( {P + {{a{n^2}} \\over {{V^2}}}} \\right)(V - nb) = nRT$$, where a is a constant whose value depends on the attraction between the gas molecules and b is the volume that is occupied by one mole of gas.</p>\n<p>In option (A), it behaves similar to an ideal gas in the limit of large molar volumes. When the volume is very large then the attraction between the gas molecules can be neglected, so a $$\\approx$$ 0 and the volume occupied by one mole of gas compared to large volume of container will also be neglected. So, b $$\\approx$$ 0. Now, we can neglect a and b and the gas behaves ideally. Thus, option A is correct.</p>\n<p>In option (B), it behaves similar to an ideal gas in limit of low pressure and high temperatures. Now, the pressure is very low. So, the attraction between the particles is negligible.</p>\n<p>Van der Waals coefficients that are dependent on the identity of the gas but are independent of the temperature. Van der Waals coefficient depends on the attraction between the gas molecules (each of which is characteristic of a gas) and b is the volume that is occupied by one mole of the molecules. So, this option is correct. Since, molecules of Van der Waals gas exert force of attraction on each other; hence, the force which they exert on the walls of the container is less than the force exerted by it if the gas would have been ideal.</p>\n<p>Thus, option (D) is correct.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "real-gas-and-van-der-walls-equation",
+      "type": "mcqm",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "A gas described by van Der Waals equation"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "f6hdzfma6mlbeq4gt1ar",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pmatch-gases-under-specified-conditions-listed-in-column-i-jee-advanced-chemistry-some-basic-concepts-of-chemistry-cprkuhxrftorqeks",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Match gases under specified conditions listed in Column I with their properties/laws in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 472px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 192px\">\n<col style=\"width: 53px\">\n<col style=\"width: 179px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">(A)</td>\n    <td class=\"tg-0pky\">hydrogen gas (P = 200 atm, T = 273 K)</td>\n    <td class=\"tg-c3ow\">(P)</td>\n    <td class=\"tg-0pky\">Compressibility factor $$\\ne$$ 1</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(B)</td>\n    <td class=\"tg-0pky\">hydrogen gas (P $$\\sim$$ 0, T = 273 K)</td>\n    <td class=\"tg-c3ow\">(Q)</td>\n    <td class=\"tg-0pky\">attractive forces are dominant</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(C)</td>\n    <td class=\"tg-0pky\">CO$$_2$$ (P = 1 atm, T = 273 K)</td>\n    <td class=\"tg-c3ow\">(R)</td>\n    <td class=\"tg-0pky\">PV = nRT</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(D)</td>\n    <td class=\"tg-0pky\">real gas with very large molar volume</td>\n    <td class=\"tg-c3ow\">(S)</td>\n    <td class=\"tg-0pky\">$$P(V-nb)=nRT$$</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "A - (s); B - (r); C - (q); D - (p, s)"
+            },
+            {
+              "identifier": "B",
+              "content": "A - (p, s); B - (r, q); C - (p, q); D - (s)"
+            },
+            {
+              "identifier": "C",
+              "content": "A - (p); B - (r); C - (p, q); D - (s)"
+            },
+            {
+              "identifier": "D",
+              "content": "A - (p, s); B - (r); C - (p, q); D - (p, s)"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": "A - (p, s); B - (r); C - (p, q); D - (p, s)",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggotwgb/ded50c2f-ec69-42ac-a3bc-4df586a5d0aa/82af85b0-a38e-11f0-9d8c-33e535796787/file-jaoe38c1mggotwgc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggotwgb/ded50c2f-ec69-42ac-a3bc-4df586a5d0aa/82af85b0-a38e-11f0-9d8c-33e535796787/file-jaoe38c1mggotwgc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Chemistry - Gaseous State Question 6 English Explanation\"></p>\n<p>(A) $$Z = P{V_m}/RT$$ at high pressure and low temperature. The value of Z tends towards infinity at very high pressure such as 200 bar.</p>\n<p>Equation $$(P + a{n^2}/{V^2})(V - nb) = nRT$$ reduces to $$P(V - nb) = nRT$$.</p>\n<p>(B) For hydrogen gas value of Z = 1 at P = 0 and it increase continuously on increasing pressure. At such low pressure the gas behaves ideally, the van der Waals equation is reduced to :</p>\n<p>$$PV = nRT$$</p>\n<p>(C) As can be seen from the plot of compressibility factor (Z) versus pressure (in bar), the compressibility factor for carbon dioxide gas is less than 0 at 1 atm (or 1.013 bar). This is because CO$$_2$$ molecules have larger attractive forces, under normal conditions.</p>\n<p>(D) $$Z = P{V_m}/RT$$, at very large molar volume Z $$\\ne$$ 1.</p>\n<p>The van Der Waals equation for real gas:</p>\n<p>$$\\left( {P + {{a{n^2}} \\over {{V^2}}}} \\right)(v - nb) = nRT$$</p>\n<p>All very large molar volume, $${{a{n^2}} \\over {{V^2}}}$$ almost neglibible, hence, equation is reduced to </p>\n<p>$$P(v - nb) = nRT$$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "real-gas-and-van-der-walls-equation",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Match gases under specified conditions listed in Column I with their properties/laws in Column II. Indicate your answer by darkening the appropriate bubbles of the 4 $$\\times$$ 4 matrix given in the ORS.\n\n.tg  {border-collapse:collapse;bord..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "mbzuur8qa0t33d8ghhn6",
+      "chapter": "gaseous-state",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pthe-given-graph-represents-the-variation-of-z-compressib-jee-advanced-chemistry-some-basic-concepts-of-chemistry-xw7fkjjje9z7w847",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The given graph represents the variation of Z (compressibility factor $=\\mathrm{PV} / n \\mathrm{RT}$ ) versus P , for three real gases $\\mathrm{A}, \\mathrm{B}$ and C . Identify the only incorrect statement.</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgtnj54s/30d7d7c0-c968-4c49-8d5e-3edb9fa735d1/9ecd9fc0-aaaf-11f0-bdb5-1ba559013ecc/file-jaoe38c1mgtnj54t.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgtnj54s/30d7d7c0-c968-4c49-8d5e-3edb9fa735d1/9ecd9fc0-aaaf-11f0-bdb5-1ba559013ecc/file-jaoe38c1mgtnj54t.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Chemistry - Gaseous State Question 2 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>For the gas A, $a=0$ and its dependence on P is linear at all pressure.</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>For the gas $\\mathrm{B}, b=0$ and its dependence on P is linear at all pressure.</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>For the gas C , which is typical real gas for which neither $a=0$ nor $b=0$. By knowing the minima and the point of intersection, with $Z=1, a$ and $b$ can be calculated.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p> At high pressure, the slope is positive for all real gases.</p>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>From the given graph, it is clear that, the value of $Z$ decreases as pressure increases.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgtnkm2v/d8977ddc-0c9c-4d5a-8a1e-60d3c184f65d/c7b40d70-aaaf-11f0-bdb5-1ba559013ecc/file-jaoe38c1mgtnkm2w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgtnkm2v/d8977ddc-0c9c-4d5a-8a1e-60d3c184f65d/c7b40d70-aaaf-11f0-bdb5-1ba559013ecc/file-jaoe38c1mgtnkm2w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Chemistry - Gaseous State Question 2 English Explanation\">The expression for Z is given below in equation (i),</p>\n<p>$$ \\mathrm{Z}=\\frac{\\mathrm{PV}}{n \\mathrm{RT}} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)$$</p>\n<p>The given equation is for van der waals equation, the modification of an ideal gas equation.</p>\n<p>$$ \\left(\\mathrm{P}+\\frac{a n^2}{\\mathrm{~V}^2}\\right)(\\mathrm{V}-b)=n \\mathrm{RT}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(ii) $$</p>\n<p>Here, P is the pressure, V denotes volume, R is the universal gas constant, $n$ is moles of gas and T is absolute temperature. The constants a and $b$ represents magnitude of intermolecular attraction and excluded volume respectively.</p>\n<p>At higher pressure, the value of P will be large and that of V will be smaller. But, the value of $b$ cannot be ignored as compared to that of V . As V is very small, the term $\\left(\\frac{a n^2}{\\mathrm{~V}^2}\\right)$ will have negligible value and it can be ignored with respect to value of $P$ in van der waals equation. Hence, van der waals equation that is equation (ii) can be written as:</p>\n<p>$$ \\mathrm{P}(\\mathrm{~V}-b)=n \\mathrm{RT} $$</p>\n<p>Assume $n=1$ for reference. The above expression can be written as:</p>\n<p>$$ \\mathrm{P}(\\mathrm{~V}-b)=\\mathrm{RT} $$</p>\n<p>On solving above expression,</p>\n<p>$$ \\mathrm{PV}-\\mathrm{P} b=\\mathrm{RT} $$</p>\n<p>On rearranging the above equation,</p>\n<p>$$ \\mathrm{PV}=\\mathrm{RT}+\\mathrm{Pb} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iii)$$</p>\n<p>$$ \\begin{aligned} &amp;\\text { Divide equation (iii) by RT, }\\\\ &amp;\\frac{\\mathrm{PV}}{\\mathrm{RT}}=1+\\frac{\\mathrm{Pb}}{\\mathrm{RT}} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iv)\\end{aligned} $$</p>\n<p>Assume $n=1$ for reference and $Z$ can be given as:</p>\n<p>$$ Z=1+\\frac{P b}{R T} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(v)$$</p>\n<p>The equation (v) depicts that, the value of $Z$ will increases with pressure linearly if $Z&gt;1$.</p>\n<p>According to graph, gas A is showing positive deviation and gas $B$ shows negative deviation.</p>\n<p>Therefore, statement A is correct. In case of gas B, the negative deviation shows that the value of $Z$ decreases with increase in $P$. Hence, statement B is incorrect.</p>\n<p>For statement C , the graph shows that the gas $C$ behaves like a real gas and the value of $a$ or $b$ will not be equal to zero. Hence, statement $C$ is correct.</p>\n<p>For statement D, consider equation (v). The slope can be calculated using equation,</p>\n<p>$$ y=m x+c \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(vi)$$</p>\n<p>On comparing equation (v) and (vi), $y=\\mathrm{Z}$, $x=\\mathrm{P}$ and $c=1$.</p>\n<p>Therefore, $\\quad m=\\frac{b}{\\mathrm{RT}}$</p>\n<p>As $b, \\mathrm{R}$ and T are positive, $\\frac{b}{\\mathrm{RT}}&gt;0$.</p>\n<p>Hence, slope will be positive and greater than 0 . Therefore, option D is correct.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 200000,
+      "topic": "real-gas-and-van-der-walls-equation",
+      "type": "mcqm",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "The given graph represents the variation of Z (compressibility factor $=\\mathrm{PV} / n \\mathrm{RT}$ ) versus P , for three real gases $\\mathrm{A}, \\mathrm{B}$ and C . Identify the only incorrect statement."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v91aylbhu35e6vq7d4zb",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "One mole of nitrogen gas at 0.8 atm takes 38 s to diffuse through a pinhole. whereas one mole of an unknown compound of xenon with flourine at 1.6 atm takes 57 s to diffuse through the same hole. Calculate the molecular formula of the compound.",
+          "options": [],
+          "correct_options": [],
+          "answer": "XeF<sub>6</sub>",
+          "explanation": "<p>The rate of diffusion depends on the following factors.</p>\n<p>r $$\\propto$$ P and r $$\\propto$$ $$\\sqrt {1/M} $$</p>\n<p>Taking these together, we get</p>\n<p>$${{{r_2}} \\over {{r_1}}} = {{{P_2}} \\over {{P_1}}}{\\left( {{{{M_1}} \\over {{M_2}}}} \\right)^{1/2}}$$</p>\n<p>or $${{{n_1}} \\over {{t_1}}} \\times {{{t_2}} \\over {{n_2}}} = {{{P_1}} \\over {{P_2}}} \\times \\sqrt {{{{M_2}} \\over {{M_1}}}} $$</p>\n<p>or $${1 \\over {38}} \\times {{57} \\over 1} = {{0.8} \\over {1.6}} \\times \\sqrt {{{{M_2}} \\over {28}}} $$</p>\n<p>or $${M_2} = {{57 \\times 57} \\over {38 \\times 38}} \\times {{1.6 \\times 1.6} \\over {0.8 \\times 0.8}} \\times 28 = 252$$</p>\n<p>Let the molecular formula of the unknown compound be XeF<sub>n</sub>. We will have</p>\n<p>$${M_{xe}} + n{M_f} = 252$$ g mol<sup>$$-$$1</sup> i.e. $$[131 + n(19)]$$ g mol<sup>$$-$$1</sup> = 252 g mol<sup>$$-$$1</sup></p>\n<p>$$n = {{252 - 131} \\over {19}} = 6.36 \\simeq 6$$</p>\n<p>Hence, the molecular formula of the gas is $$Xe{F_6}$$.</p>"
+        }
+      },
+      "permalink": "one-mole-of-nitrogen-gas-at-08-atm-takes-38-s-to-diffuse-th-1999-marks-5-lhdzhriscfk64v50.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "topic": "grahams-law-of-diffusion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "One mole of nitrogen gas at 0.8 atm takes 38 s to diffuse through a pinhole. whereas one mole of an unknown compound of xenon with flourine at 1.6 atm takes 57 s to diffuse through the same hole. Calculate the molecular formula of the compo..."
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "35k52n6acpz52760p8t8",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A mixture of ideal gas is cooled upto liquid helium temperature (4.22K) to form an ideal solution",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The assertion that a mixture of ideal gases forms an \"ideal solution\" when cooled down to liquid helium temperature (4.22K) requires clarification on several aspects. First, we need to understand the behavior of gases at extremely low temperatures, particularly as they approach liquefaction, and how this correlates to the concept of an \"ideal solution.\"</p>\n\n<p>An ideal gas, by definition, is a hypothetical gas composed of many randomly moving point particles that interact only through elastic collisions and do not exert any other forces on each other. At significantly low temperatures, particularly around 4.22 K (the boiling point of helium), many gases would condense into liquids or solids, depending on their respective boiling and freezing points.</p>\n\n<p>The concept of an \"ideal solution\" generally applies to the solution phase and is defined as a solution that obeys Raoult's Law at all concentrations for both the solvent and the solute. Raoult's Law states that the partial vapor pressure of each component in a solution is proportional to its mole fraction in the solution. This law is strictly applicable under the assumption of no volume change on mixing and similar intermolecular forces among the components, which is often not precisely true when different substances are involved.</p>\n\n<p>When ideal gases are cooled to low temperatures, such as 4.22 K, and liquefy, the behavior of the resultant liquid may not necessarily align with the principles of an ideal solution. The intermolecular forces in a liquid, particularly at such low temperatures, are significantly stronger and different in nature compared to those in a gaseous state. Moreover, the assumption of similar intermolecular forces and no volume change upon mixing is quite often violated when different gases are involved.</p>\n\n<p>Therefore, it is generally <strong>FALSE</strong> to claim that cooling a mixture of ideal gases to a temperature as low as 4.22 K to form a liquid would result in an ideal solution. While the gases might mix uniformly, the resulting liquid mixture can exhibit deviations from ideal solution behavior due to changes in intermolecular forces and interactions that are not accounted for by ideal gas or ideal solution theories.</p>"
+        }
+      },
+      "permalink": "a-mixture-of-ideal-gas-is-cooled-upto-liquid-helium-temperat-1996-marks-1-kpzi67yc7ogutxnp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "isOutOfSyllabus": false,
+      "topic": "ideal-gas-equation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "A mixture of ideal gas is cooled upto liquid helium temperature (4.22K) to form an ideal solution"
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "k9j407a0b98e6qexk1xg",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "An LPG (liquefied petroleum gas) cylinder weighs 14.8 kg when empty. When full, it weighs 29.0 kg and shows a pressure of 2.5 atm. In the course of use at 27<sup>o</sup> C, the weight of the full cylinder reduces to 23.2 kg. Find out the volume of the gas in cubic meters used up at the normal usage conditions find the final pressure inside the cylinder. Assume LPG to be n-butane with normal boiling point of 0<sup>o</sup> C.",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.463 m<sup>3</sup>, 1.478 atm",
+          "explanation": "<p>Weight of butane gas in filled cylinder = 29 $$-$$ 14.8 kg = 14.2 kg</p>\n<p>$$\\Rightarrow$$ During the course of use, weight of cylinder reduces to 23.2 kg</p>\n<p>$$\\Rightarrow$$ Weight of butane gas remaining now = 23.2 $$-$$ 14.8 = 8.4 kg</p>\n<p>Also, during use, V (cylinder) and T remains same.</p>\n<p>Therefore, $${{{p_1}} \\over {{p_2}}} = {{{n_1}} \\over {{n_2}}}$$</p>\n<p>$$ \\Rightarrow {p_2} = \\left( {{{{n_2}} \\over {{n_1}}}} \\right){p_1} = \\left( {{{8.4} \\over {14.2}}} \\right) \\times 2.5$$ [Here, $${{{n_2}} \\over {{n_1}}} = {{{w_2}} \\over {{w_1}}}$$]</p>\n<p>= 1.48 atm</p>\n<p>Also, pressure of gas outside the cylinder is 1.0 atm.</p>\n<p>$$ \\Rightarrow pV = nRT$$</p>\n<p>$$ \\Rightarrow V = {{nRT} \\over p} = {{(14.2 - 8.4) \\times {{10}^3}} \\over {58}} \\times {{0.082 \\times 30} \\over 1}L$$</p>\n<p>= 2460 L = 2.46 m<sup>3</sup></p>"
+        }
+      },
+      "permalink": "an-lpg-liquefied-petroleum-gas-cylinder-weighs-148-kg-whe-1994-marks-3-5jssb5f8k6yoaref.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "topic": "gas-laws",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "An LPG (liquefied petroleum gas) cylinder weighs 14.8 kg when empty. When full, it weighs 29.0 kg and shows a pressure of 2.5 atm. In the course of use at 27o C, the weight of the full cylinder reduces to 23.2 kg. Find out the volume of the..."
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ty8zhwdftkqat3raimis",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A 4 : 1 molar mixture of He and CH<sub>4</sub> is contained in a vessel at 20 bar pressure. Due to a hole in the vessel the gas mixture leaks out. What is the composition of the mixture effusing out initially?",
+          "options": [],
+          "correct_options": [],
+          "answer": "8 : 1",
+          "explanation": "<p>Partial pressure of a gas in a mixture = Mole fraction of gas $$\\times$$ Total pressure</p>\n<p>$$\\therefore$$ $${P_{He}} = {X_{He}} \\times P = {4 \\over 5} \\times 20 = 16$$ bar</p>\n<p>$${P_{C{H_4}}} = {X_{C{H_4}}} \\times P = {1 \\over 5} \\times 20 = 4$$ bar</p>\n<p>$${r_{He}} = {{k\\,.\\,{P_{He}}} \\over {\\sqrt {{M_{He}}} }} = {{k\\,.\\,16} \\over {\\sqrt 4 }} = 8k$$</p>\n<p>$${r_{C{H_4}}} = {{k\\,.\\,{P_{C{H_4}}}} \\over {\\sqrt {{M_{C{H_4}}}} }} = {{k \\times 4} \\over {\\sqrt {16} }} = k$$</p>\n<p>$$\\therefore$$ Composition of the mixture (He : CH<sub>4</sub>) effusion out = 8k : k = 8 : 1.</p>"
+        }
+      },
+      "permalink": "a-4-1-molar-mixture-of-he-and-ch4-is-contained-in-a-vessel-1994-marks-2-ov9djjkjunju77m1.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "topic": "grahams-law-of-diffusion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "A 4 : 1 molar mixture of He and CH4 is contained in a vessel at 20 bar pressure. Due to a hole in the vessel the gas mixture leaks out. What is the composition of the mixture effusing out initially?"
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "66nf4uhzs8e96jvc7hq3",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1993,
+      "paperTitle": "IIT-JEE 1993",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In the van der Waal's equation (P + $${{{n^2}a} \\over {{V^2}}}$$)(V - nb) = nRT the constant 'a' reflects the actual volume of the gas molecules.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The statement in the question is FALSE, which corresponds to Option B. In the van der Waal's equation, $$ (P + \\frac{n^2 a}{V^2})(V - nb) = nRT $$, the constants 'a' and 'b' have specific roles, but they do not represent the actual volume of the gas molecules directly.</p>\n\n<p>The constant 'a' in the van der Waals equation accounts for the intermolecular forces of attraction between the gas molecules. A higher value of 'a' indicates stronger attraction between the molecules, which affects how closely they can be packed together. The term $$ \\frac{n^2 a}{V^2} $$ adds to the pressure 'P' to compensate for the lowering of pressure due to these attractive forces.</p>\n\n<p>On the other hand, the constant 'b' represents the volume occupied by the gas molecules themselves, known as the excluded volume. It corrects the volume term 'V' in the ideal gas equation $$ PV = nRT $$, modifying it to $$ (V - nb) $$ to account for the volume that cannot be occupied by other molecules because it is already taken up by the gas molecules themselves.</p>\n\n<p>Therefore, it is 'b', not 'a', that reflects the actual volume of the gas molecules in the van der Waal's equation.</p>"
+        }
+      },
+      "permalink": "in-the-van-der-waals-equation-p-n2a-over-v2-1993-marks-1-vwzbgmjy6hg8ccxa.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1993",
+      "isOutOfSyllabus": false,
+      "topic": "real-gas-and-van-der-walls-equation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1993",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "In the van der Waal's equation (P + $${{{n^2}a} \\over {{V^2}}}$$)(V - nb) = nRT the constant 'a' reflects the actual volume of the gas molecules."
+        }
+      },
+      "yearKey": "iit-jee-1993"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vr74lx81n0hb458w6jrl",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1993,
+      "paperTitle": "IIT-JEE 1993",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A gas bulb of 1 litre capacity contains 2.0 $$\\times$$ 10<sup>21</sup> molecules of nitrogen exerting  a pressure of 7.57 $$\\times$$ 10<sup>3</sup> Nm<sup>-2</sup>. Calculate the root mean square (r.m.s) speed and the temparature of the gas molecules. If the ratio of the most probable speed to the root mean square speed is 0.82, calculate the most probable speed for these molecules at this temparature.",
+          "options": [],
+          "correct_options": [],
+          "answer": "494.16 m/s, 274.13K, 405.2 m/sec",
+          "explanation": "<p>According to gas equation,</p>\n<p>$$PV = nRT$$ ; $$n = {{2 \\times {{10}^{21}}} \\over {6.02 \\times {{10}^{23}}}}$$</p>\n<p>$$T = {{PV} \\over {nR}}$$</p>\n<p>$$ = {{7.57 \\times {{10}^3}\\,N{m^{ - 2}} \\times 1 \\times {{10}^{ - 3}}\\,{m^3}} \\over {{{2 \\times {{10}^{21}}} \\over {6.02 \\times {{10}^{23}}}}\\,mol \\times 8.314\\,J\\,(Nm)\\,mo{l^{ - 1}}\\,{K^{ - 1}}}}$$</p>\n<p>$$ = 274.2$$ K</p>\n<p>RMS velocity,</p>\n<p>$$u = \\sqrt {{{3RT} \\over M}}  = \\sqrt {{{3 \\times 8.314 \\times 274.2} \\over {28 \\times {{10}^{ - 3}}}}} $$</p>\n<p>$$ = 494.2$$ ms<sup>$$-$$1</sup></p>\n<p>Most probable velocity = 0.82 $$\\times$$ u</p>\n<p>= 494.2 $$\\times$$ 0.82 ms<sup>$$-$$1</sup> = 405.2 ms<sup>$$-$$1</sup></p>"
+        }
+      },
+      "permalink": "a-gas-bulb-of-1-litre-capacity-contains-20-times-1021-1993-marks-4-sppkwy0su1tfnwyp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1993",
+      "topic": "kinetic-theory-of-gases",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1993",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "A gas bulb of 1 litre capacity contains 2.0 $$\\times$$ 1021 molecules of nitrogen exerting  a pressure of 7.57 $$\\times$$ 103 Nm-2. Calculate the root mean square (r.m.s) speed and the temparature of the gas molecules. If the ratio of the m..."
+        }
+      },
+      "yearKey": "iit-jee-1993"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9sl8onlcp6p12sg8f3za",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1992,
+      "paperTitle": "IIT-JEE 1992",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "At 27<sup>o</sup>C, hydrogen is leaked through a tiny hole into a vessel for 20 minutes. Another unknown gas at the same temperature and pressure as that of H<sub>2</sub> is leaked through the same hole for 20 minutes After the effusion of the gases the mixture exerts a pressure of 6 atmosphere. The hydrogen content of the mixture is 0.7 mole. If the volume of ther container is 3 litres, what is the molecular weight of the unknown gas?",
+          "options": [],
+          "correct_options": [],
+          "answer": "1033",
+          "explanation": "<p>$${p_{{H_2}}} + {p_g} = 6.0$$ atm</p>\n<p>where p<sub>g</sub> is the pressure exerted by the unknown gas.</p>\n<p>$${p_{{H_2}}} = {{nRT} \\over V} = {{0.7 \\times 0.0821 \\times 300} \\over 3} = 5.747$$ atm.</p>\n<p>$$\\therefore$$ $${p_g} = 6.0 - 5.747 = 0.253$$ atm.</p>\n<p>Number of moles of unknown gas</p>\n<p>$$ = {{{p_g}\\,.\\,V} \\over {RT}} = {{0.253 \\times 3} \\over {0.0821 \\times 300}} = 0.0308$$</p>\n<p>Rate of effusion of</p>\n<p>$${H_2} = {{0.7} \\over {20}} = 0.035$$ mol min<sup>$$-$$1</sup></p>\n<p>Rate of effusion of unknown gas</p>\n<p>$$ = {{0.0308} \\over {20}} = 0.00154$$ mol min<sup>$$-$$1</sup></p>\n<p>According to Graham's Law of effusion</p>\n<p>$${{{M_g}} \\over {{M_{{H_2}}}}} = {{{{({r_{{H_2}}})}^2}} \\over {{{({r_g})}^2}}} = {{{{(0.035)}^2}} \\over {{{(0.00154)}^2}}} = 516.5$$</p>\n<p>$$\\therefore$$ $${M_g} = 516.5 \\times 2 = 1033$$ g mol<sup>$$-$$1</sup></p>"
+        }
+      },
+      "permalink": "at-27oc-hydrogen-is-leaked-through-a-tiny-hole-into-a-vesse-1992-marks-3-ilntuah40rssmbaw.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1992",
+      "topic": "grahams-law-of-diffusion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1992",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "At 27oC, hydrogen is leaked through a tiny hole into a vessel for 20 minutes. Another unknown gas at the same temperature and pressure as that of H2 is leaked through the same hole for 20 minutes After the effusion of the gases the mixture ..."
+        }
+      },
+      "yearKey": "iit-jee-1992"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "pk26ek4e44dt1necxjmf",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1992,
+      "paperTitle": "IIT-JEE 1992",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "At room temperature the following reacton is procedd nearly to completion:<br><br>\n  2NO + O<sub>2</sub> $$\\to$$ 2NO<sub>2</sub> $$\\to$$ N<sub>2</sub>O<sub>4</sub> <br><br>\nThe dimer, N<sub>2</sub>O<sub>4</sub>, solidifies at 262 K. A 250 ml flask and a 100 ml flask are separated by a stop-cock. At 300 K, the nitric oxide in the larger flask exerts a pressure of 1.053 atm. and the smaller one contains oxygen at 0.789 atm. The gases are mixed by the opening stopcock and after the end of raction the flasks are cooled at 220K. Neglecting the vapour pressure of the dimer, find out the pressure and composition of the gas remaining at 220 K. (Assume the gases to behave ideally)",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.0043, 0.221 atm",
+          "explanation": "<p>2NO + O<sub>2</sub> $$\\to$$ 2NO<sub>2</sub> $$\\to$$ N<sub>2</sub>O<sub>4</sub></p>\n<p>Number of moles of NO = $${{PV} \\over {RT}}$$</p>\n<p>$$ = {{1.053 \\times 250} \\over {0.0821 \\times 300 \\times 1000}} = 0.0107$$</p>\n<p>Number of moles of</p>\n<p>$${O_2} = {{0.789 \\times 100} \\over {0.0821 \\times 300 \\times 1000}} = 0.0032$$</p>\n<p>Now 2 moles of NO need 1 mole of O<sub>2</sub> for conversation into NO<sub>2</sub>.</p>\n<p>$$\\therefore$$ 0.0032 moles of O<sub>2</sub> react with NO</p>\n<p>= 0.0064 moles</p>\n<p>NO left unreacted</p>\n<p>= 0.0107 $$-$$ 0.0064 = 0.0043 mol</p>\n<p>Total volume of the vessels</p>\n<p>= 250 + 100 = 350 ml</p>\n<p>Oxygen will be completely converted into NO<sub>2</sub> and NO<sub>2</sub> will then be completely converted into N<sub>2</sub>O<sub>4</sub> (dimer) which becomes solid at 262 K; hence at 220 K, N<sub>2</sub>O<sub>4</sub> is in solid state and only NO is present in gaseous state. Thus the whole volume (250 + 100 = 350 ml) of 350 ml is occupied by NO that has been left unreacted.</p>\n<p>Therefore the pressure, P of NO gas = $${{nRT} \\over V}$$</p>\n<p>$$ = {{0.0043 \\times 0.082 \\times 220} \\over {0.350}} = 0.221$$ atm</p>"
+        }
+      },
+      "permalink": "at-room-temperature-the-following-reacton-is-procedd-nearly-1992-marks-4-ytoj0lop9vyn9zpl.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1992",
+      "topic": "ideal-gas-equation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1992",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "At room temperature the following reacton is procedd nearly to completion:\n  2NO + O2 $$\\to$$ 2NO2 $$\\to$$ N2O4 \nThe dimer, N2O4, solidifies at 262 K. A 250 ml flask and a 100 ml flask are separated by a stop-cock. At 300 K, the nitric oxid..."
+        }
+      },
+      "yearKey": "iit-jee-1992"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "55va8sveisjdx8knar8j",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1991,
+      "paperTitle": "IIT-JEE 1991",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Calculate the volume occupied by 5.0 g of acetylene gas at 50<sup>o</sup>C and 740 mm pressure.",
+          "options": [],
+          "correct_options": [],
+          "answer": "5.23 L",
+          "explanation": "<p>Mol. mass of acetylene (C<sub>2</sub>H<sub>2</sub>) = 26 ; T = 50 + 273 = 323 K</p>\n<p>$$\\therefore$$ 5 g acetylene $$ = {5 \\over {26}}$$ moles. Let V be the volume occupied by 5 g of C<sub>2</sub>H<sub>2</sub></p>\n<p>Applying PV = nRT, we get</p>\n<p>$${{740} \\over {760}} \\times V = {5 \\over {26}} \\times 0.082 \\times 323$$</p>\n<p>or $$V = {{5 \\times 0.082 \\times 323 \\times 760} \\over {26 \\times 740}}L = 5.23\\,L$$.</p>"
+        }
+      },
+      "permalink": "calculate-the-volume-occupied-by-50-g-of-acetylene-gas-at-5-1991-marks-2-7knjs6lfjsprztiz.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1991",
+      "topic": "ideal-gas-equation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1991",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Calculate the volume occupied by 5.0 g of acetylene gas at 50oC and 740 mm pressure."
+        }
+      },
+      "yearKey": "iit-jee-1991"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "u0wruote73svtdv7ihrr",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Eight gram each of oxygen and hydrogen at 27<sup>o</sup>C will have the total kinetic energy in the ratio of _______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "1:16",
+          "explanation": "<p>To find the total kinetic energy ratio for oxygen and hydrogen at a given temperature, we first note that kinetic energy (average) of a molecule can be represented using the formula for translational kinetic energy of an ideal gas, which is given by:</p>\n\n<p>$ KE_{avg} = \\frac{3}{2} k_B T $</p>\n\n<p>where $ k_B $ is the Boltzmann constant and $ T $ is the temperature in Kelvin.</p>\n\n<p>For a given number of molecules $ N $, the total kinetic energy $ KE_{total} $ can be expressed as:</p>\n\n<p>$ KE_{total} = N KE_{avg} $</p>\n\n<p>However, in order to find $ N $, which is the number of molecules, we need the number of moles, since $ N = nN_A $ where $ n $ is the number of moles and $ N_A $ is Avogadro’s number. We calculate $ n $ by dividing the mass of the gas $ m $ by its molar mass $ M $. This gives:</p>\n\n<p>$ n = \\frac{m}{M} $</p>\n\n<p>For hydrogen (H<sub>2</sub>), the molar mass $ M_{H_2} = 2 $ g/mol and for oxygen (O<sub>2</sub>), the molar mass $ M_{O_2} = 32 $ g/mol. Given that both gases have a mass of 8 grams each, we can calculate the moles for each:</p>\n\n<p>$ n_{H_2} = \\frac{8 \\text{ g}}{2 \\text{ g/mol}} = 4 \\text{ moles} $</p>\n\n<p>$ n_{O_2} = \\frac{8 \\text{ g}}{32 \\text{ g/mol}} = 0.25 \\text{ moles} $</p>\n\n<p>The number of molecules $ N $ for each gas becomes:</p>\n\n<p>$ N_{H_2} = n_{H_2} N_A = 4 N_A $</p>\n\n<p>$ N_{O_2} = n_{O_2} N_A = 0.25 N_A $</p>\n\n<p>Even though the mass of each gas is the same, the number of moles (and therefore the number of molecules) is different. However, the total kinetic energy for any ideal gas sample is still dependant on the temperature and the total number of molecules. Therefore, for each gas, substituting from the kinetic energy formula, we get:</p>\n\n<p>$ KE_{total, H_2} = N_{H_2} KE_{avg} = 4 N_A \\times \\frac{3}{2}k_B T $</p>\n\n<p>$ KE_{total, O_2} = N_{O_2} KE_{avg} = 0.25 N_A \\times \\frac{3}{2}k_B T $</p>\n\n<p>The ratio of total kinetic energies $(H_2/O_2)$ thus becomes:</p>\n\n<p>$ \\frac{KE_{total, H_2}}{KE_{total, O_2}} = \\frac{4 N_A \\times \\frac{3}{2}k_B T}{0.25 N_A \\times \\frac{3}{2}k_B T} = \\frac{4 N_A}{0.25 N_A} = 16 $</p>\n\n<p>Even though both samples are at the same temperature and have the same mass, hydrogen has more molecules contributing to its kinetic energy due to its significantly lower molecular weight compared to oxygen. Hence, under these conditions, the ratio of the total kinetic energy of hydrogen to oxygen is $ 16:1 $.</p>"
+        }
+      },
+      "permalink": "eight-gram-each-of-oxygen-and-hydrogen-at-27oc-will-have-the-1989-marks-1-z1de1cvtv8y1iwdr.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "isOutOfSyllabus": false,
+      "topic": "kinetic-theory-of-gases",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Eight gram each of oxygen and hydrogen at 27oC will have the total kinetic energy in the ratio of _______."
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "i6uwjz85y39ucb0j45gm",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The value of PV for 5.6 litres of an ideal gas is ________ RT, at NTP.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.25",
+          "explanation": "<p>The problem posed involves determining the value of PV (pressure-volume product) for a given amount of an ideal gas, specifically 5.6 liters at Normal Temperature and Pressure (NTP). To solve this, we will make use of the ideal gas law, the definition of NTP conditions, and the concept of moles in chemistry.</p>\n\n<p>The ideal gas law is given by:</p>\n\n<p>$$ PV = nRT $$</p>\n\n<p>where:\n\n<ul>\n\n<li><b>P</b> is the pressure of the gas,</li>\n\n<li><b>V</b> is the volume of the gas,</li>\n\n<li><b>n</b> is the number of moles of the gas,</li>\n\n<li><b>R</b> is the ideal gas constant,</li>\n\n<li><b>T</b> is the temperature of the gas.</li>\n\n</ul></p>\n\n<p>Normal Temperature and Pressure (NTP) are defined as a temperature of 0°C (273.15 K) and a pressure of 1 atm. According to the conditions set for NTP, the volume of 1 mole of an ideal gas is 22.4 liters.</p>\n\n<p>To find out how many moles are present in 5.6 liters of gas at NTP, we use the relation between the volume of one mole of gas and the provided volume:</p>\n\n<p>$$ n = \\frac{V}{22.4 \\text{ liters/mole}} $$</p>\n\n<p>$$ n = \\frac{5.6 \\text{ liters}}{22.4 \\text{ liters/mole}} = 0.25 \\text{ moles} $$</p>\n\n<p>Substituting this back into the ideal gas equation:</p>\n\n<p>$$ PV = (0.25 \\text{ moles}) \\cdot R \\cdot T $$</p>\n\n<p>At NTP, since the temperature (T) is taken as 273.15 K, and the pressure is 1 atm, the specific value of R can usually be ignored in this context because we are asked for the expression of PV in terms of RT. Therefore:</p>\n\n<p>$$ PV = 0.25 RT $$</p>\n\n<p>Thus, the value of PV for 5.6 liters of an ideal gas at NTP is <b>0.25 RT</b>.</p>"
+        }
+      },
+      "permalink": "the-value-of-pv-for-56-litres-of-an-ideal-gas-is-r-1987-marks-1-nk8i2tfgiem6yzv8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "isOutOfSyllabus": false,
+      "topic": "ideal-gas-equation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "The value of PV for 5.6 litres of an ideal gas is ________ RT, at NTP."
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "gwch6t7kyh2roqd9zga4",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A spherical balloon of 21 cm diameter is to be filled up with hydrogen at N.T.P from a cylinder containing the gas at 20 atmospheres at 27<sup>o</sup>C. If the cylinder can hold 2.82 litres of water, calculate the number of balloons that can be filled up.",
+          "options": [],
+          "correct_options": [],
+          "answer": "10",
+          "explanation": "<p>Let V<sub>1</sub> be the volume of H<sub>2</sub> in the cylinder at NTP. According to gas equation,</p>\n<p>$${{{P_1}{V_1}} \\over {{T_1}}} = {{{P_2}{V_2}} \\over {{T_2}}}$$</p>\n<p>$$\\therefore$$ $${{1 \\times {V_1}} \\over {273}} = {{20 \\times 2.82} \\over {300}}$$</p>\n<p>or $${V_1} = {{20 \\times 2.82 \\times 273} \\over {300}}$$</p>\n<p>= 51.324 L = 51324 mL</p>\n<p>Volume of H<sub>2</sub> left in the cylinder = Volume of cylinder = 2820 mL</p>\n<p>Actual volume transferred to balloons</p>\n<p>= 51324 $$-$$ 2820 = 48504 mL</p>\n<p>Radius of balloon (r) = 21/2 = 10.5 cm</p>\n<p>Volume of each balloon = $${4 \\over 3}\\pi {r^3}$$</p>\n<p>$$ = {4 \\over 3} \\times 3.142 \\times {(10.5)^3}$$</p>\n<p>$$ = 4849.67 = 4850$$ mL</p>\n<p>Number of balloons which can be filled up</p>\n<p>$$ = {{48504} \\over {4850}} = 10$$</p>"
+        }
+      },
+      "permalink": "a-spherical-ballon-of-21-cm-diameter-is-to-be-filled-up-with-1987-marks-5-xzkgh4sgybc9mmbf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "topic": "gas-laws",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "A spherical balloon of 21 cm diameter is to be filled up with hydrogen at N.T.P from a cylinder containing the gas at 20 atmospheres at 27oC. If the cylinder can hold 2.82 litres of water, calculate the number of balloons that can be filled..."
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vr87q05hy3i4mq1ijnzl",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The average velocity of an ideal gas molecule at 27<sup>o</sup>C is 0.3m/sec. The average velocity at 927<sup>o</sup>C will be",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.6 m/sec"
+            },
+            {
+              "identifier": "B",
+              "content": "0.3 m/sec"
+            },
+            {
+              "identifier": "C",
+              "content": "0.9 m/sec"
+            },
+            {
+              "identifier": "D",
+              "content": "3.0 m/sec"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The average velocity of a molecule in an ideal gas is related to the temperature, which can be determined using the formula for the root mean square speed (<em>v<sub>rms</sub></em>), derived from the Maxwell-Boltzmann distribution. The formula for <em>v<sub>rms</sub></em> is:</p>\n\n<p>$$ v_{\\text{rms}} = \\sqrt{\\frac{3kT}{m}} $$</p>\n\n<p>where:\n\n<ul>\n\n<li><em>k</em> is the Boltzmann constant,</li>\n\n<li><em>T</em> is the absolute temperature in Kelvin,</li>\n\n<li><em>m</em> is the mass of a molecule of the gas.</li>\n\n</ul></p>\n\n<p>To find the average velocity at two different temperatures, it is important to note that while the average velocity and the root mean square speed are not exactly the same, they are proportional to the square root of the temperature. Therefore, for the purpose of comparing speeds at two temperatures, we can use the formula:</p>\n\n<p>$$ \\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}} $$</p>\n\n<p>Where:\n\n<ul>\n\n<li><em>v<sub>1</sub></em> and <em>v<sub>2</sub></em> are the speeds at temperatures <em>T<sub>1</sub></em> and <em>T<sub>2</sub></em> respectively.</li>\n\n</ul></p>\n\n<p>Here, temperatures must be converted to Kelvin:\n\n<ul>\n\n<li>T<sub>1</sub> = 27<sup>o</sup> C = 27 + 273.15 = 300.15 K</li>\n\n<li>T<sub>2</sub> = 927<sup>o</sup> C = 927 + 273.15 = 1200.15 K</li>\n\n</ul></p>\n\n<p>Plugging these values into the proportion formula gives:</p>\n\n<p>$$ \\frac{v_2}{0.3} = \\sqrt{\\frac{1200.15}{300.15}} $$</p>\n\n<p>Calculating the square root:</p>\n\n<p>$$ \\sqrt{\\frac{1200.15}{300.15}} \\approx \\sqrt{4} = 2 $$</p>\n\n<p>Therefore:</p>\n\n<p>$$ v_2 = 0.3 \\times 2 = 0.6 \\, \\text{m/sec} $$</p>\n\n<p>Thus, the average velocity of the gas molecules at 927ºC is 0.6 m/sec.</p>\n\n<p>Therefore, the correct answer is: Option A (0.6 m/sec). </p>"
+        }
+      },
+      "permalink": "the-average-velocity-of-an-ideal-gas-molecule-at-27oc-is-03-1986-marks-1-d8glqxhzyhplonyp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "kinetic-theory-of-gases",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "The average velocity of an ideal gas molecule at 27oC is 0.3m/sec. The average velocity at 927oC will be"
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "lvtgh2gp5jy79hvsqn2a",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The rate of diffusion of gas is _______ proportional to both ________ and square root of molecular mass.",
+          "options": [],
+          "correct_options": [],
+          "answer": "inversely, pressure",
+          "explanation": "<p>The rate of diffusion of a gas is inversely proportional to both the pressure of the gas and the square root of its molecular mass. This relationship is quantitatively expressed in Graham’s Law of Effusion. According to this law, the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molecular mass, mathematically expressed as:</p>\n\n$$ R \\propto \\frac{1}{\\sqrt{M}} $$\n\n<p>Where <b>R</b> is the rate of diffusion or effusion and <b>M</b> is the molecular mass of the gas.</p>\n\n<p>The rate of diffusion is also influenced by the pressure of the gas. At higher pressures, the rate of diffusion decreases. However, the relationship between gas pressure and the rate of diffusion is not as straightforward as the relationship with molecular mass, and it isn't as commonly discussed in simple terms as is Graham’s Law. Typically, the effect of pressure on the rate of diffusion is more significant in specific contexts, such as under varying atmospheric conditions.</p>\n\n<p>In fundamental terms, a higher pressure implies more gas molecules are present, leading to increased collision frequency among them, which can slow down the overall rate at which individual molecules spread out or move through a medium.</p>"
+        }
+      },
+      "permalink": "the-rate-of-diffusion-of-gas-is-proportional-to-both-1986-marks-1-c4synxeqxtbwthae.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "grahams-law-of-diffusion",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "The rate of diffusion of gas is _______ proportional to both ________ and square root of molecular mass."
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "nssap7wia0tu1sqzpvg3",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Rate of diffusion of a gas is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "directly proportional to its density"
+            },
+            {
+              "identifier": "B",
+              "content": "directly proportional to the square root of its molecular weight"
+            },
+            {
+              "identifier": "C",
+              "content": "inversely proportional to the square root of its molecular weight."
+            },
+            {
+              "identifier": "D",
+              "content": "directly proportional to its molecular weight"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Diffusion of a gas is described by Graham's Law, which states that the rate of diffusion (or effusion) of a gas is inversely proportional to the square root of its molecular mass. This law is mathematically represented as:</p>\n\n<p>$$ \\text{Rate of diffusion} \\propto \\frac{1}{\\sqrt{\\text{Molecular Mass}}} $$</p>\n\n<p>Given this information, let's analyze the options:</p>\n\n<ul>\n\n<li><strong>Option A: Directly proportional to its density</strong> - This is incorrect because density and molecular mass are related, but the rate of diffusion is inversely related to the square root of molecular mass, not directly proportional to density.</li>\n\n<li><strong>Option B: Directly proportional to the square root of its molecular weight</strong> - This is incorrect. The relationship is inverse; the rate decreases as the molecular weight increases.</li>\n\n<li><strong>Option C: Inversely proportional to the square root of its molecular weight</strong> - This is the correct option. As molecular mass increases, the rate of diffusion decreases in proportion to the inverse of the square root of the molecular mass.</li>\n\n<li><strong>Option D: Directly proportional to its molecular weight</strong> - This is incorrect as it contradicts the principle of Graham's Law.</li>\n\n</ul>\n\n<p>Thus, the correct answer is <strong>Option C</strong>: inversely proportional to the square root of its molecular weight.</p>"
+        }
+      },
+      "permalink": "rate-of-diffusion-of-a-gas-is-1985-marks-1-8dwhzsqjcagasdkv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "grahams-law-of-diffusion",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Rate of diffusion of a gas is"
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "wzkmbl1fn2j51sumlnhn",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Kinetic Energy of a Molecule is zero at 0<sup>o</sup>C.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The statement that the kinetic energy of a molecule is zero at 0°C is <strong>FALSE</strong> (Option B).</p>\n\n<p>Kinetic energy is directly related to the temperature of an object, but it does not reach zero unless the temperature is at absolute zero, which is -273.15°C or 0 Kelvin. At 0°C (273.15 Kelvin), molecules in any substance still possess kinetic energy. This kinetic energy is due to the motion of the molecules, which continue to vibrate, rotate, or translate depending on their state (solid, liquid, or gas).</p>\n\n<p>The kinetic energy (KE) of an individual molecule can be quantified using the equation:</p>\n\n<p>$$ KE = \\frac{1}{2} m v^2 $$</p>\n\n<p>Where:</p>\n\n<ul>\n\n<li><strong>m</strong> = mass of the molecule</li>\n\n<li><strong>v</strong> = velocity of the molecule</li>\n\n</ul>\n\n<p>At any temperature above absolute zero, the velocity <strong>v</strong> is not zero, so the kinetic energy is also not zero. As long as there is thermal energy (any temperature above absolute zero), molecules will have kinetic energy due to their motion.</p>\n\n<p>Therefore, at 0°C, molecules still have kinetic energy derived from their thermal energy, proving the statement to be false.</p>"
+        }
+      },
+      "permalink": "kinetic-energy-of-a-molecule-is-zero-at-0oc-1985-marks-1-qjnbmv5tvxryw1vh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "kinetic-theory-of-gases",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Kinetic Energy of a Molecule is zero at 0oC."
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3txi4ssi1mgp8qczmih8",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A gas in a closed container will exert much higher pressure due to gravity at the bottom than at the top.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>In typical scenarios, especially when discussing gases in everyday sized containers, the effect of gravity on the distribution of pressure within the gas is negligible. This is because gases have low density and high molecular motion which causes the gas molecules to distribute themselves relatively evenly in the available volume. Thus, any influence of gravity is generally not apparent, making the pressure essentially uniform throughout the gas in the container. The main factor influencing the pressure exerted by a gas is described by the ideal gas law, $$PV = nRT$$, where P is the pressure, V is the volume, n is the number of moles of gas, R is the universal gas constant, and T is the temperature in Kelvin.</p>\n\n<p>This law implies that the pressure is dependent on the temperature, volume, and number of gas molecules but does not include gravity as a factor. Only in very tall containers, or in cases dealing with significantly dense gases under strong gravitational fields (such as on massive planets), does the effect of gravity on the distribution of a gas in a container become significant enough to create a gradient in pressure from top to bottom. For most practical purposes and common situations, gravity's effect on gas pressure in a container can be ignored.</p>\n\n<p>Therefore, the statement is <b>FALSE</b> under typical conditions involving everyday applications and container sizes.</p>"
+        }
+      },
+      "permalink": "a-gas-in-a-closed-container-will-exert-much-higher-pressure-1985-marks-1-buosozfgcn6aqnhx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "kinetic-theory-of-gases",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "A gas in a closed container will exert much higher pressure due to gravity at the bottom than at the top."
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9ugxvkar0euz2wkttcez",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Calculate the root mean square velocity of ozone kept in a closes vessel at 20<sup>o</sup>C and 82 cm mercury pressure.",
+          "options": [],
+          "correct_options": [],
+          "answer": "3.9 $$\\times$$ 10<sup>4</sup> cm/sec",
+          "explanation": "<p>$${U_{rms}} = \\sqrt {{{3RT} \\over M}}  = \\sqrt {{{3 \\times 8.314 \\times {{10}^7} \\times 293} \\over {48}}} $$</p>\n<p>$$ = 3.9 \\times {10^4}$$ cm sec<sup>$$-$$1</sup></p>"
+        }
+      },
+      "permalink": "calculate-the-root-mean-square-velocity-of-ozone-kept-in-a-c-1985-marks-2-3fda4yknxxdhnfr8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "topic": "kinetic-theory-of-gases",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Calculate the root mean square velocity of ozone kept in a closes vessel at 20oC and 82 cm mercury pressure."
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "16xe08yrpkvbzkwn3afy",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Equal weights of methane and hydrogen are mixed in an empty container at 25<sup>o</sup>C. The fraction of the total pressure exerted by hydrogen is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1/2"
+            },
+            {
+              "identifier": "B",
+              "content": "8/9"
+            },
+            {
+              "identifier": "C",
+              "content": "1/9"
+            },
+            {
+              "identifier": "D",
+              "content": "16/17"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>To find the fraction of the total pressure exerted by hydrogen, we need to use Dalton's Law of Partial Pressures, which states that the total pressure of a gas mixture is the sum of the partial pressures of each component gas in the mixture. The partial pressure exerted by each gas is directly proportional to its mole fraction in the mixture.</p>\n\n<p>First, let's determine the number of moles of methane (CH<sub>4</sub>) and hydrogen (H<sub>2</sub>) given that equal weights of each are mixed.</p>\n\n<p>The molar mass of CH<sub>4</sub> is approximately 16 g/mol, and the molar mass of H<sub>2</sub> is approximately 2 g/mol. Let the common weight of each gas be $ w $ grams. Then, the number of moles of methane is given by:</p>\n\n<p>$$ n_{CH_4} = \\frac{w}{16} \\text{ moles} $$</p>\n\n<p>The number of moles of hydrogen is:</p>\n\n<p>$$ n_{H_2} = \\frac{w}{2} \\text{ moles} $$</p>\n\n<p>Next, we calculate the total number of moles $ n_{total} $ in the mixture:</p>\n\n<p>$$ n_{total} = n_{CH_4} + n_{H_2} = \\frac{w}{16} + \\frac{w}{2} $$</p>\n\n<p>$$ n_{total} = \\frac{w}{16} + \\frac{8w}{16} = \\frac{9w}{16} \\text{ moles} $$</p>\n\n<p>To find the fraction of the total pressure exerted by hydrogen, we calculate the mole fraction of hydrogen, which is the ratio of the number of moles of hydrogen to the total number of moles:</p>\n\n<p>$$ \\text{Mole fraction of } H_2 = \\frac{n_{H_2}}{n_{total}} = \\frac{\\frac{w}{2}}{\\frac{9w}{16}} = \\frac{16}{18} = \\frac{8}{9} $$</p>\n\n<p>Dalton's Law implies that the fraction of total pressure exerted by hydrogen is equal to the mole fraction of hydrogen. Therefore, the pressure fraction exerted by hydrogen is:</p>\n\n<p>$$ \\frac{8}{9} $$</p>\n\n<p>Thus, the correct answer is Option B: 8/9.</p>"
+        }
+      },
+      "permalink": "equal-weights-of-methane-and-hydrogen-are-mixed-in-an-empty-1984-marks-1-l2zcgofhbafhztvn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "daltons-law-of-partial-pressure",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Equal weights of methane and hydrogen are mixed in an empty container at 25oC. The fraction of the total pressure exerted by hydrogen is"
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "fo9mm3uoe1rjk7r47uyw",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The total energy of one mole of an ideal monatomic gas at 27<sup>o</sup> is _______ calories.",
+          "options": [],
+          "correct_options": [],
+          "answer": "900",
+          "explanation": "<p>To find the total energy of one mole of an ideal monatomic gas, we need to use the formula related to the internal energy of the gas. For an ideal monatomic gas, the internal energy ($U$) is given by the expression:</p>\n\n<p>$$ U = \\frac{3}{2} nRT $$</p>\n\n<p>where:</p>\n\n<ul>\n\n<li>$n$ is the number of moles of the gas,</li>\n\n<li>$R$ is the ideal gas constant, and</li>\n\n<li>$T$ is the temperature in Kelvin.</li>\n\n</ul>\n\n<p>Given that $n = 1$ mole and the temperature is $27^\\circ C$, we first need to convert this temperature to Kelvin. The conversion from Celsius to Kelvin is done by adding 273:</p>\n\n<p>$$ T = 27 + 273 = 300 \\, \\text{K} $$</p>\n\n<p>The ideal gas constant $R$ can be used in various units, but since we want the energy in calories, we will use the value of $R = 2 \\, \\text{cal/mol}\\cdot\\text{K}$. Plugging these values into the formula, we get:</p>\n\n<p>$$ U = \\frac{3}{2} \\times 1 \\times 2 \\times 300 \\, \\text{cal} $$</p>\n\n<p>$$ U = \\frac{3}{2} \\times 600 \\, \\text{cal} $$</p>\n\n<p>$$ U = 900 \\, \\text{cal} $$</p>\n\n<p>Thus, rounding to an appropriate number of significant figures, the total energy of one mole of an ideal monatomic gas at 27°C is approximately <strong>900 calories</strong>.</p>"
+        }
+      },
+      "permalink": "the-total-energy-of-one-mole-of-an-ideal-monatomic-gas-at-27-1984-marks-1-uu7jaoye34rs7nhk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "kinetic-theory-of-gases",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "The total energy of one mole of an ideal monatomic gas at 27o is _______ calories."
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9nr3df0f08yweqq15d4q",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "C<sub>p</sub> - C<sub>v</sub> for an ideal gas is _______",
+          "options": [],
+          "correct_options": [],
+          "answer": "R",
+          "explanation": "<p>The difference between the molar heat capacities at constant pressure ($C_p$) and constant volume ($C_v$) for an ideal gas is a constant value given by the gas constant $R$. This relationship is expressed mathematically as:</p>\n\n$$ C_p - C_v = R $$\n\n<p>Here, $R$ is the universal gas constant, with a value of approximately 8.314 J/(mol·K).</p>\n\n<p>The reason behind this relationship lies in the energy needed to perform work against the external pressure when the gas is heated at constant pressure, which does not happen in the case of heating at constant volume. When an ideal gas is heated at constant pressure, not only does the internal energy of the gas increase (which is also the case at constant volume) but some of the energy is also used to do work on the surroundings by expanding, which contributes to the larger value of $C_p$ compared to $C_v$. This difference is equal to the amount of work done per unit increase in temperature, which is quantitatively equivalent to the gas constant $R$.</p>\n\n<p>Therefore, the expression indicates that the difference in heat capacity (which essentially is the difference in the ability to store thermal energy under different conditions) is fundamentally linked to the work done by the gas during expansion at constant pressure. The equation $C_p - C_v = R$ holds true for an ideal gas because it assumes no interactions between the molecules and that all processes are reversible.</p>"
+        }
+      },
+      "permalink": "cp-cv-for-an-ideal-gas-is-1984-marks-1-grzjxybtqxn1o1ja.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "gas-laws",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Cp - Cv for an ideal gas is _______"
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7tuxfii3b7bmmrbm5fr2",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Helium atom is two times heavier than a hydrogen molecule. At 298 K, the average kinetic energy of a helium atom is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "two times that of a hydrogen molecule"
+            },
+            {
+              "identifier": "B",
+              "content": "four times that of a hydrogen molecule"
+            },
+            {
+              "identifier": "C",
+              "content": "same as that of a hydrogen molecule"
+            },
+            {
+              "identifier": "D",
+              "content": "half that of a hydrogen molecule"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The average kinetic energy of a gas molecule or atom at a given temperature is described by the kinetic theory of gases. The formula used to calculate the average kinetic energy (KE) of each particle in a gas is given by the equation:</p>\n\n<p>$$ KE = \\frac{3}{2} kT $$</p>\n\n<p>where:</p>\n\n<ul>\n\n<li>$ k $ is the Boltzmann constant, and</li>\n\n<li>$ T $ is the absolute temperature in Kelvin.</li>\n\n</ul>\n\n<p>This equation reveals that the average kinetic energy of any ideal gas particle depends only on the temperature, and not on the mass of the particles. Hence, at any given temperature, all ideal gas particles have the same average kinetic energy.</p>\n\n<p>Given that both helium (He) and hydrogen molecule (H₂) are treated as ideal gases, at the same temperature of 298 K, the average kinetic energy of a helium atom would therefore be:</p>\n\n<p>$$ KE_{\\text{He}} = \\frac{3}{2} k (298) $$</p>\n\n<p>Similarly, for the hydrogen molecule:</p>\n\n<p>$$ KE_{\\text{H}_2} = \\frac{3}{2} k (298) $$</p>\n\n<p>It is evident that both expressions are identical, indicating that at 298 K, the average kinetic energy of a helium atom is the same as that of a hydrogen molecule. Despite the difference in mass between helium and hydrogen, conditions of temperature govern the kinetic energy within the framework of kinetic theory for ideal gases.</p>\n\n<p>The correct answer is:</p>\n\n<p>Option C: same as that of a hydrogen molecule</p>"
+        }
+      },
+      "permalink": "helium-atom-is-two-times-heavier-than-a-hydrogen-molecule-a-1982-marks-1-8owiznjle0layfsp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "kinetic-theory-of-gases",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Helium atom is two times heavier than a hydrogen molecule. At 298 K, the average kinetic energy of a helium atom is"
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0xtgvmi1as56wsezuli6",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "At room temparature, ammonia gas at 1 atm pressure and hydrogen chloride gas at P atm pressure are allowed to effuse through identical pin holes from opposite ends of a glass tube of one metre length and of uniform cross-section. Ammonium chloride is first formed at a distance of 60 cm from the end through which HCL gas is sent in. What is the value of P?",
+          "options": [],
+          "correct_options": [],
+          "answer": "4.83 atm",
+          "explanation": "<p>If t is the time taken for the formation of ammonium chloride by the combination of NH<sub>3</sub> and HCl, then</p>\n<p>$${r_{HCl}} = {{60} \\over t}$$ ; $${r_{N{H_3}}} = {{40} \\over t}$$</p>\n<p>The rate of diffusion, r is proportional to the root mean square velocity (u) which is equal to $$\\sqrt {{{3P} \\over d}} $$. </p>\n<p>$$r \\propto u \\propto {{{3P} \\over d}} $$</p>\n<p>$$\\therefore$$ $${{{r_{HCl}}} \\over {{r_{N{H_3}}}}} = {{60/t} \\over {40/t}} = {{\\sqrt {{{3{P_{HCl}}} \\over {{d_{HCl}}}}} } \\over {\\sqrt {{{3{P_{N{H_3}}}} \\over {{d_{N{H_3}}}}}} }}$$</p>\n<p>or $${{60} \\over {40}} = {{\\sqrt {{{3{P_{HCl}}} \\over {18.25}}} } \\over {\\sqrt {{{3 \\times 1\\,atm} \\over {8.5}}} }}$$</p>\n<p>or $${\\left( {{{60} \\over {40}}} \\right)^2} = {{3{P_{HCl}}} \\over {18.25}} \\times {{8.5} \\over {3\\,atm}}$$</p>\n<p>or $${P_{HCl}} = {{60 \\times 60} \\over {40 \\times 40}} \\times {{18.25} \\over {8.5}}$$ atm = 4.83 atm</p>"
+        }
+      },
+      "permalink": "at-room-temparature-ammonia-gas-at-1-atm-pressure-and-hydro-1982-marks-4-jq1bxcfaatzqyzhn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "topic": "grahams-law-of-diffusion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "At room temparature, ammonia gas at 1 atm pressure and hydrogen chloride gas at P atm pressure are allowed to effuse through identical pin holes from opposite ends of a glass tube of one metre length and of uniform cross-section. Ammonium c..."
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "eofa266vwiv2naxb139a",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The ratio of root mean square velocity to average velocity of a gas molecule at a particular temperature is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1.086:1"
+            },
+            {
+              "identifier": "B",
+              "content": "1:1.086"
+            },
+            {
+              "identifier": "C",
+              "content": "2:1.086"
+            },
+            {
+              "identifier": "D",
+              "content": "1.086:2"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The question deals with the calculation of the ratio of the root mean square velocity to the average velocity of gas molecules. To solve it, we need equations for both these velocities.</p>\n\n<p>The root mean square velocity, $$v_{rms}$$, is given by the formula:\n\n<p>$$ v_{rms} = \\sqrt{\\frac{3RT}{M}} $$</p>\n\n<p>where:</p>\n\n<ul>\n<li>$$R$$ is the universal gas constant,</li><br>\n<li>$$T$$ is the temperature,</li><br>\n<li>$$M$$ is the molar mass of the gas.</p></li>\n</ul>\n<p>The average velocity, $$v_{avg}$$, can be calculated using the formula:\n\n<p>$$ v_{avg} = \\sqrt{\\frac{8RT}{\\pi M}} $$</p></p>\n\n<p>To find the ratio of the root mean square velocity to the average velocity, we take the ratio of these two expressions:\n\n<p>$$ \\frac{v_{rms}}{v_{avg}} = \\frac{\\sqrt{\\frac{3RT}{M}}}{\\sqrt{\\frac{8RT}{\\pi M}}} $$</p></p>\n\n<p>Simplifying this, we can cancel out $$RT/M$$ from the numerator and denominator since they are present in both terms:\n\n<p>$$ \\frac{v_{rms}}{v_{avg}} = \\frac{\\sqrt{3}}{\\sqrt{\\frac{8}{\\pi}}} = \\sqrt{\\frac{3\\pi}{8}} $$</p></p>\n\n<p>To solve $$ \\sqrt{\\frac{3\\pi}{8}} $$ numerically, we know that $$\\pi \\approx 3.14159$$. Plugging in the values, we get:\n\n<p>$$ \\sqrt{\\frac{3 \\times 3.14159}{8}} \\approx \\sqrt{1.178} \\approx 1.085 $$</p></p>\n\n<p>So, the ratio of $$v_{rms}$$ to $$v_{avg}$$ is approximately 1.085, which is nearest to Option A, 1.086:1.</p>\n\n<p>Therefore, the correct answer is Option A, 1.086:1.</p>"
+        }
+      },
+      "permalink": "the-ratio-of-root-mean-square-velocity-to-average-velocity-o-1981-marks-1-9amducwrxm0r6mhv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "kinetic-theory-of-gases",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "The ratio of root mean square velocity to average velocity of a gas molecule at a particular temperature is"
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qycj8gda6r5fq7alm4me",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The temperature at which a real gas obeys the ideal gas aws over a wide range of pressure is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Critical temperature"
+            },
+            {
+              "identifier": "B",
+              "content": "Boyle temperature"
+            },
+            {
+              "identifier": "C",
+              "content": "Inversion temperature"
+            },
+            {
+              "identifier": "D",
+              "content": "Reduced temperature"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The behavior of real gases is often analyzed to see how closely they follow the ideal gas laws, particularly as these laws are approached under varying conditions of temperature and pressure. The correct answer in context to the temperature at which a real gas behaves most like an ideal gas over a wide range of pressures is not the critical temperature, inversion temperature, or reduced temperature. Instead, it is the <strong>Boyle temperature</strong>.</p>\n\n<p>To elaborate, let's look at each option:</p>\n\n<ul>\n\n<li><strong>Critical temperature</strong> is the temperature above which a gas cannot be liquefied by pressure alone. At this temperature, the properties of the gas change significantly, which does not necessarily imply ideal gas behavior.</li>\n\n<li><strong>Boyle temperature</strong> is the specific temperature at which a real gas adheres to Boyle's Law (PV = constant) over a wide range of pressures. At this temperature, the attractive and repulsive forces between molecules balance out in such a way that the gas's P-V behavior (pressure-volume) mimics that of an ideal gas.</li>\n\n<li><strong>Inversion temperature</strong> is related to the Joule-Thomson effect, which describes how the temperature of a real gas changes when it expands or compresses without the exchange of heat with its surroundings. This is different from behaving like an ideal gas over a range of pressures.</li>\n\n<li><strong>Reduced temperature</strong> is a term used in corresponding states theory to correlate the properties of substance under various conditions. It is dimensionless and given by $$ T_r = \\frac{T}{T_c} $$ where $ T $ is the absolute temperature and $ T_c $ is the critical temperature.</li>\n\n</ul>\n\n<p>Since the question specifically asks about the temperature at which the behavior of a real gas is similar to that of an ideal gas across a broad range of pressures, the answer is <strong>Option B: Boyle temperature</strong>. This is the temperature where deviations from ideal gas law due to intermolecular forces are minimized in the behavior of real gases, thus aligning more closely to the predictions by the ideal gas law (PV=nRT).</p>"
+        }
+      },
+      "permalink": "the-temperature-at-which-a-real-gas-obeys-the-ideal-gas-aws-1981-marks-1-hlz0kqzukukj3qit.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "real-gas-and-van-der-walls-equation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "The temperature at which a real gas obeys the ideal gas aws over a wide range of pressure is"
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qh9mbm1kvijn0um2r4ey",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gaseous-state",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Equal weights of methane and oxygen are mixed in an empty container at 25<sup>o</sup>C. The fraction of the total pressure exerted by oxygen is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1/3"
+            },
+            {
+              "identifier": "B",
+              "content": "1/2"
+            },
+            {
+              "identifier": "C",
+              "content": "2/3"
+            },
+            {
+              "identifier": "D",
+              "content": "$${1 \\over 3} \\times {{273} \\over {298}}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>To find the fraction of the total pressure exerted by oxygen, we need to consider the mole fractions of methane (CH<sub>4</sub>) and oxygen (O<sub>2</sub>) in the mixture. Here are the steps to solve this problem:</p>\n\n<p>1. Let us assume equal weights, say 'W' grams, of methane and oxygen are mixed.</p>\n\n<p>2. The molecular weights of methane and oxygen are 16 g/mol and 32 g/mol, respectively. The moles of methane (n<sub>CH4</sub>) and moles of oxygen (n<sub>O2</sub>) in the mixture are then calculated as follows:</p>\n\n<ul>\n\n<li>$$ n_{CH_4} = \\frac{\\text{Mass of CH}_4}{\\text{Molar mass of CH}_4} = \\frac{W}{16} \\text{ moles} $$</li>\n\n<li>$$ n_{O_2} = \\frac{\\text{Mass of O}_2}{\\text{Molar mass of O}_2} = \\frac{W}{32} \\text{ moles} $$</li>\n\n</ul>\n\n<p>3. For W grams of each gas, ratio of moles becomes:</p>\n\n<ul>\n\n<li>$$ \\text{The mole ratio of CH}_4 \\text{ to O}_2 = \\frac{W/16}{W/32} = \\frac{32}{16} = 2 \\text{ to } 1 $$</li>\n\n</ul>\n\n<p>4. With 2 moles of CH<sub>4</sub> for every 1 mole of O<sub>2</sub>, the total moles in the mixture are 3 moles (2 moles CH<sub>4</sub> + 1 mole O<sub>2</sub>).</p>\n\n<p>5. According to Dalton's law of partial pressures, the total pressure P in the container is the sum of the partial pressures of the components. Each component's partial pressure is proportional to its mole fraction:</p>\n\n<ul>\n\n<li>Mole fraction of O<sub>2</sub>, $$ X_{O_2} = \\frac{n_{O_2}}{n_{total}} = \\frac{1}{3} $$</li>\n\n</ul>\n\n<p>6. Hence, the fraction of the total pressure exerted by oxygen would be:\n\n<p>$$ \\text{Fraction exerted by O}_2 = X_{O_2} = \\frac{1}{3} $$</p></p>\n\n<p>Therefore, the correct answer is: <strong>Option A - 1/3</strong>.</p>"
+        }
+      },
+      "permalink": "equal-weights-of-methane-and-oxygen-are-mixed-in-an-empty-co-1981-marks-1-ke5zsqefafnbc6tf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "daltons-law-of-partial-pressure",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Gaseous State • Chemistry",
+          "excerpt": "Equal weights of methane and oxygen are mixed in an empty container at 25oC. The fraction of the total pressure exerted by oxygen is"
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    }
+  ]
+}

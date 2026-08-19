@@ -1,0 +1,1243 @@
+{
+  "questions": [
+    {
+      "question_id": "vwoe4ehi30eldsynvf41",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-1-online",
+      "paperTitle": "JEE Advanced 2025 Paper 1 Online",
+      "permalink": "pin-a-scattering-experiment-a-particle-of-mass-b2mb-jee-advanced-physics-o1g5mvuw7trxs2lw",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>In a scattering experiment, a particle of mass <b>2m</b> collides with another particle of mass <b>m</b>, which is initially at rest. Assuming the collision to be perfectly elastic, the maximum angular deviation <b>θ</b> of the heavier particle, as shown in the figure, in radians is:</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d0p1x/0204133b-95f9-4322-bb75-acf58e062c51/b2cc7050-3796-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d0p1y.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d0p1x/0204133b-95f9-4322-bb75-acf58e062c51/b2cc7050-3796-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d0p1y.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Impulse &amp; Momentum Question 1 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$\\pi$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$\\tan^{-1}\\left(\\frac{1}{2}\\right)$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\frac{\\pi}{3}$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$\\frac{\\pi}{6}$</p>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcvt7d0z/7a114be1-63c5-41c9-bc03-840cfa59be37/81bff030-5cae-11f0-923f-5f7895b2cf68/file-jaoe38c1mcvt7d10.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcvt7d0z/7a114be1-63c5-41c9-bc03-840cfa59be37/81bff030-5cae-11f0-923f-5f7895b2cf68/file-jaoe38c1mcvt7d10.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Impulse &amp; Momentum Question 1 English Explanation\"></p>\n$$\\eqalign{\n  &amp; By\\,\\,applying\\,\\,momentum\\,\\,conservation\\,  \\cr \n  &amp; along\\,\\,x\\,\\,axis\\,\\,{P_i}\\,\\,\\, = P_f  \\cr \n  &amp; 2m{v_1}\\,\\, = \\,2m{v_{if}}\\cos \\theta \\, + \\,m{v_{2f}}\\cos \\phi   \\cr \n  &amp; 2{v_1}\\,\\,\\,\\,\\, = \\,2{v_{if}}\\cos \\theta \\, + {v_{2f}}\\cos \\phi \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)  \\cr \n  &amp; Along\\,y - axis,\\,\\,\\,{P_i}\\,\\,\\, = P_f  \\cr \n  &amp; \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,0 = 2m{v_{if\\,}}\\sin \\theta  - m{v_{2f}}\\sin \\phi   \\cr \n  &amp; \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, \\Rightarrow 2{v_{1f}}\\sin \\theta \\,\\, = {v_{2f}}\\sin \\phi \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(ii) \\cr} $$\n<div></div>$$By\\,\\,conservation\\,\\,of\\,\\,kinetic\\,\\,energy,\\,\\,K{E_i} = K{E_f}$$<div></div>\n$${1 \\over 2}(2m)v_1^2 = {1 \\over 2}(2m)v_{1f}^2 + {1 \\over 2}mv_{2f}^2$$<div></div>\n$$\\eqalign{\n  &amp; v_1^2 = v_{1f}^2 + {1 \\over 2}v_{2f}^2  \\cr \n  &amp;  \\Rightarrow 2v_1^2 = 2v_{1f}^2 + v_{2f}^2\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iii)  \\cr \n  &amp; from(i),\\,\\,{(2{v_1} - 2{v_{1f}}\\cos \\theta )^2} = {({v_{2f}}\\cos \\phi )^2}  \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2{\\cos ^2}\\theta  - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2{\\cos ^2}\\phi   \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2{\\cos ^2}\\theta  - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2(1 - si{n^2}\\phi )  \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2{\\cos ^2}\\theta  - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2 - v_{2f}^2{\\sin ^2}\\phi   \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2{\\cos ^2}\\theta  - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2 - 4v_{1f}^2{\\sin ^2}\\theta (from\\,2) \\cr} $$<div></div>$$\\eqalign{\n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2 - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2  \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2 - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2 - 2v_{1f}^2  \\cr \n  &amp;  \\Rightarrow 6v_{_1f}^2 - 8{v_1}\\cos \\theta .v_{1f}^{} + 2v_1^2 = 0  \\cr \n  &amp;  \\Rightarrow 3v_{_1f}^2 - 4{v_1}\\cos \\theta .v_{1f}^{} + v_1^2 = 0  \\cr \n  &amp; (This\\,\\,is\\,\\,a\\,\\,quadratic\\,\\,eqn\\,\\,in\\,\\,{v_{if}})  \\cr \n  &amp; So\\,for\\,\\,real\\,\\,roots,\\,\\,{b^2} - 4ac \\ge 0  \\cr \n  &amp;  \\Rightarrow {( - 4{v_1}\\cos \\theta \\,)^2} - 4(3)({v_1}^2) \\ge 0 \\cr} $$<div></div>$$\\eqalign{\n  &amp; {\\cos ^2}\\theta  \\ge {3 \\over 4}  \\cr \n  &amp;  \\Rightarrow \\cos \\theta  \\ge {{\\sqrt 3 } \\over 2}\\,\\,\\,So\\,\\,\\theta  \\le \\,{\\pi  \\over 6}  \\cr \n  &amp; hence,\\,\\,\\theta  = {\\pi  \\over 6} \\cr} $$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक प्रकीर्णन (scattering) प्रयोग में एक $2 m$ द्रव्यमान का कण विरामावस्था में स्थित $m$ द्रव्यमान के दूसरे कण से टकराता है। इस टक्कर (collision) को पूर्ण प्रत्यास्थ (perfectly elastic) मानते हुए, चित्रानुसार भारी कण का अधिकतम विचलन कोण (deviation angle) $\\theta$ रेडियन में है:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mb0d0p1x/0204133b-95f9-4322-bb75-acf58e062c51/b2cc7050-3796-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d0p1y.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mb0d0p1x/0204133b-95f9-4322-bb75-acf58e062c51/b2cc7050-3796-11f0-831e-111c9abd7f64/file-jaoe38c1mb0d0p1y.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Impulse &amp; Momentum Question 1 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\pi$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\tan ^{-1}\\left(\\frac{1}{2}\\right)$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{\\pi}{3}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{\\pi}{6}$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mcvt7d0z/7a114be1-63c5-41c9-bc03-840cfa59be37/81bff030-5cae-11f0-923f-5f7895b2cf68/file-jaoe38c1mcvt7d10.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mcvt7d0z/7a114be1-63c5-41c9-bc03-840cfa59be37/81bff030-5cae-11f0-923f-5f7895b2cf68/file-jaoe38c1mcvt7d10.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 1 Online Physics - Impulse &amp; Momentum Question 1 Hindi Explanation\"></p>\n$$\\eqalign{\n  &amp; संवेग\\,\\,संरक्षण\\,\\,लागू\\,\\,करने\\,\\,पर\\,  \\cr \n  &amp; x\\,\\,अक्ष\\,\\,के\\,\\,अनुदिश\\,\\,{P_i}\\,\\,\\, = P_f  \\cr \n  &amp; 2m{v_1}\\,\\, = \\,2m{v_{if}}\\cos \\theta \\, + \\,m{v_{2f}}\\cos \\phi   \\cr \n  &amp; 2{v_1}\\,\\,\\,\\,\\, = \\,2{v_{if}}\\cos \\theta \\, + {v_{2f}}\\cos \\phi \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)  \\cr \n  &amp; y - अक्ष\\,के\\,अनुदिश,\\,\\,\\,{P_i}\\,\\,\\, = P_f  \\cr \n  &amp; \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,0 = 2m{v_{if\\,}}\\sin \\theta  - m{v_{2f}}\\sin \\phi   \\cr \n  &amp; \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, \\Rightarrow 2{v_{1f}}\\sin \\theta \\,\\, = {v_{2f}}\\sin \\phi \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(ii) \\cr} $$\n<div></div>$$गतिज\\,\\,ऊर्जा\\,\\,के\\,\\,संरक्षण\\,\\,से,\\,\\,K{E_i} = K{E_f}$$<div></div>\n$${1 \\over 2}(2m)v_1^2 = {1 \\over 2}(2m)v_{1f}^2 + {1 \\over 2}mv_{2f}^2$$<div></div>\n$$\\eqalign{\n  &amp; v_1^2 = v_{1f}^2 + {1 \\over 2}v_{2f}^2  \\cr \n  &amp;  \\Rightarrow 2v_1^2 = 2v_{1f}^2 + v_{2f}^2\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iii)  \\cr \n  &amp; (i)\\,से,\\,\\,{(2{v_1} - 2{v_{1f}}\\cos \\theta )^2} = {({v_{2f}}\\cos \\phi )^2}  \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2{\\cos ^2}\\theta  - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2{\\cos ^2}\\phi   \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2{\\cos ^2}\\theta  - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2(1 - si{n^2}\\phi )  \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2{\\cos ^2}\\theta  - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2 - v_{2f}^2{\\sin ^2}\\phi   \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2{\\cos ^2}\\theta  - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2 - 4v_{1f}^2{\\sin ^2}\\theta (2\\,से) \\cr} $$<div></div>$$\\eqalign{\n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2 - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2  \\cr \n  &amp;  \\Rightarrow 4v_{_1}^2 + 4v_{1f}^2 - 8{v_1}{v_{1f}}\\cos \\theta  = v_{2f}^2 - 2v_{1f}^2  \\cr \n  &amp;  \\Rightarrow 6v_{_1f}^2 - 8{v_1}\\cos \\theta .v_{1f}^{} + 2v_1^2 = 0  \\cr \n  &amp;  \\Rightarrow 3v_{_1f}^2 - 4{v_1}\\cos \\theta .v_{1f}^{} + v_1^2 = 0  \\cr \n  &amp; (यह\\,\\,{v_{if}}\\,\\,में\\,\\,एक\\,\\,द्विघात\\,\\,समीकरण\\,\\,है)  \\cr \n  &amp; अतः\\,वास्तविक\\,मूलों\\,के\\,लिए,\\,\\,{b^2} - 4ac \\ge 0  \\cr \n  &amp;  \\Rightarrow {( - 4{v_1}\\cos \\theta \\,)^2} - 4(3)({v_1}^2) \\ge 0 \\cr} $$<div></div>$$\\eqalign{\n  &amp; {\\cos ^2}\\theta  \\ge {3 \\over 4}  \\cr \n  &amp;  \\Rightarrow \\cos \\theta  \\ge {{\\sqrt 3 } \\over 2}\\,\\,\\,अतः\\,\\,\\theta  \\le \\,{\\pi  \\over 6}  \\cr \n  &amp; इसलिए,\\,\\,\\theta  = {\\pi  \\over 6} \\cr} $$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "collision",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "In a scattering experiment, a particle of mass 2m collides with another particle of mass m, which is initially at rest. Assuming the collision to be perfectly elastic, the maximum angular deviation θ of the heavier particle, as shown in the..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 1 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "एक प्रकीर्णन (scattering) प्रयोग में एक $2 m$ द्रव्यमान का कण विरामावस्था में स्थित $m$ द्रव्यमान के दूसरे कण से टकराता है। इस टक्कर (collision) को पूर्ण प्रत्यास्थ (perfectly elastic) मानते हुए, चित्रानुसार भारी कण का अधिकतम विचलन कोण (dev..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-1-online"
+    },
+    {
+      "question_id": "jnhb3jl8to1z1ev1wnqq",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-1-online",
+      "paperTitle": "JEE Advanced 2024 Paper 1 Online",
+      "permalink": "pa-block-of-mass-5-mathrmkg-moves-along-the-x-dire-jee-advanced-physics-5bayiwbu8ydbv6vj",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A block of mass $5 \\mathrm{~kg}$ moves along the $x$-direction subject to the force $F=(-20 x+10) \\mathrm{N}$, with the value of $x$ in metre. At time $t=0 \\mathrm{~s}$, it is at rest at position $x=1 \\mathrm{~m}$. The position and momentum of the block at $t={\\pi  \\over 4} \\mathrm{s}$ are</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$-0.5 \\mathrm{~m}, 5 \\mathrm{~kg} \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$0.5 \\mathrm{~m}, 0 \\mathrm{~kg} \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$0.5 \\mathrm{~m},-5 \\mathrm{~kg} \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$-1 \\mathrm{~m}, 5 \\mathrm{~kg} \\mathrm{~m} / \\mathrm{s}$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Let's solve the problem step by step. We are given a block of mass $5 \\mathrm{~kg}$ subjected to a force $F = (-20x + 10) \\mathrm{N}$. To find the position and momentum of the block at $t = \\frac{\\pi}{4}$ seconds, we'll use the equations of motion and integrate the force to find the acceleration, velocity, and position.</p>\n\n<p>First, we start with Newton's second law:</p>\n\n<p>\n$$F = m \\cdot a$$\n</p>\n\n<p>Given:</p>\n\n<p>\n$$m = 5 \\mathrm{~kg}$$\n$$F = -20x + 10$$\n</p>\n\n<p>So, the acceleration $a$ can be expressed as:</p>\n\n<p>\n$$a = \\frac{F}{m} = \\frac{-20x + 10}{5} = -4x + 2$$\n</p>\n\n<p>Acceleration is the second derivative of position with respect to time:</p>\n\n<p>\n$$a = \\frac{d^2 x}{dt^2} = -4x + 2$$\n</p>\n\n<p>To solve this differential equation, let's solve it step by step. Assume a solution of the form $x(t) = A \\cos(\\omega t) + B \\sin(\\omega t) + C$. Consider using the method of undetermined coefficients:</p>\n\n<p>We first need to find the homogeneous solution (no forcing term):</p>\n\n<p>\n$$\\frac{d^2 x_h}{dt^2} + 4x_h = 0$$\n</p>\n\n<p>This is a second-order homogeneous differential equation with constant coefficients. Its characteristic equation is:</p>\n\n<p>\n$$r^2 + 4 = 0$$\n</p>\n\n<p>Solving for $r$:</p>\n\n<p>\n$$r = \\pm 2i$$\n</p>\n\n<p>Thus, the general solution to the homogeneous equation is:</p>\n\n<p>\n$$x_h(t) = A \\cos(2t) + B \\sin(2t)$$\n</p>\n\n<p>Next, we need a particular solution to the non-homogeneous equation:</p>\n\n<p>\n$$x_p = C$$\n</p>\n\n<p>Substituting $x_p$ into the differential equation:</p>\n\n<p>\n$$a = -4C + 2 = 0 \\implies C = \\frac{1}{2}$$\n</p>\n\n<p>Therefore, the general solution of the differential equation is:</p>\n\n<p>\n$$x(t) = A \\cos(2t) + B \\sin(2t) + \\frac{1}{2}$$\n</p>\n\n<p>Using the initial conditions to determine $A$ and $B$:</p>\n\n<p>At $t = 0$, $x(0) = 1$:</p>\n\n<p>\n$$1 = A \\cdot \\cos(0) + B \\cdot \\sin(0) + \\frac{1}{2} \\implies 1 = A + \\frac{1}{2} \\implies A = \\frac{1}{2}$$\n</p>\n\n<p>Since the block is initially at rest, $\\frac{dx}{dt}|_{t=0} = 0$:</p>\n\n<p>\n$$\\frac{dx}{dt} = -2A \\sin(2t) + 2B \\cos(2t)$$\n</p>\n\n<p>At $t = 0$:</p>\n\n<p>\n$$0 = -2A \\cdot \\sin(0) + 2B \\cdot \\cos(0) = 2B \\implies B = 0$$\n</p>\n\n<p>Therefore, the position equation simplifies to:</p>\n\n<p>\n$$x(t) = \\frac{1}{2} \\cos(2t) + \\frac{1}{2}$$\n</p>\n\n<p>Now, we find the position at $t = \\frac{\\pi}{4}$ seconds:</p>\n\n<p>\n$$x\\left(\\frac{\\pi}{4}\\right) = \\frac{1}{2} \\cos\\left(2 \\cdot \\frac{\\pi}{4}\\right) + \\frac{1}{2} = \\frac{1}{2} \\cos\\left(\\frac{\\pi}{2}\\right) + \\frac{1}{2} = \\frac{1}{2} \\cdot 0 + \\frac{1}{2} = \\frac{1}{2} \\mathrm{~m}$$\n</p>\n\n<p>To find the momentum, we first find the velocity by differentiating the position function:</p>\n\n<p>\n$$v(t) = \\frac{dx}{dt} = -\\sin(2t)$$\n</p>\n\n<p>Thus, the velocity at $t = \\frac{\\pi}{4}$ is:</p>\n\n<p>\n$$v\\left(\\frac{\\pi}{4}\\right) = -\\sin\\left(2 \\cdot \\frac{\\pi}{4}\\right) = -\\sin\\left(\\frac{\\pi}{2}\\right) = -1$$\n</p>\n\n<p>Finally, the momentum $p$ is given by:</p>\n\n<p>\n$$p = m \\cdot v = 5 \\mathrm{~kg} \\cdot -1 \\mathrm{~m/s} = -5 \\mathrm{~kg \\cdot m/s}$$\n</p>\n\n<p>Therefore, the position and momentum of the block at $t = \\frac{\\pi}{4} \\mathrm{s}$ are:</p>\n\n<p>Position: $0.5 \\mathrm{~m}$</p>\n<p>Momentum: $-5 \\mathrm{~kg \\cdot m/s}$</p>\n\n<p>The correct option is:</p>\n<p>Option C: $0.5 \\mathrm{~m}, -5 \\mathrm{~kg} \\cdot \\mathrm{m} / \\mathrm{s}$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$5 \\mathrm{~kg}$ द्रव्यमान का एक गुटका, बल $F=(-20 x+10) \\mathrm{N}$ के प्रभाव में $x$-दिशा में गतिमान है, जहाँ $x$ मीटर में है| समय $t=0 \\mathrm{~s}$ पर यह $x=1 \\mathrm{~m}$ पर स्थिर अवस्था में है| इस गुटके की स्थिति (position) तथा संवेग (momentum) समय $t=(\\pi / 4) \\mathrm{s}$ पर होंगे",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$-0.5 \\mathrm{~m}, 5 \\mathrm{~kg} \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$0.5 \\mathrm{~m}, 0 \\mathrm{~kg} \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$0.5 \\mathrm{~m},-5 \\mathrm{~kg} \\mathrm{~m} / \\mathrm{s}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$-1 \\mathrm{~m}, 5 \\mathrm{~kg} \\mathrm{~m} / \\mathrm{s}$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>आइए समस्या को चरण दर चरण हल करें। हमें $5 \\ \\mathrm{~kg}$ द्रव्यमान का एक ब्लॉक दिया गया है जिस पर $F = (-20x + 10) \\mathrm{N}$ बल लगाया गया है। $t = \\frac{\\pi}{4}$ सेकंड पर ब्लॉक की स्थिति और संवेग ज्ञात करने के लिए, हम गति के समीकरणों का उपयोग करेंगे और त्वरण, वेग और स्थिति ज्ञात करने के लिए बल का समाकलन करेंगे।</p>\n\n<p>सबसे पहले, हम न्यूटन के दूसरे नियम से शुरू करते हैं:</p>\n\n<p>\n$$F = m \\cdot a$$\n</p>\n\n<p>दिया गया है:</p>\n\n<p>\n$$m = 5 \\mathrm{~kg}$$\n$$F = -20x + 10$$\n</p>\n\n<p>तो, त्वरण $a$ को इस प्रकार व्यक्त किया जा सकता है:</p>\n\n<p>\n$$a = \\frac{F}{m} = \\frac{-20x + 10}{5} = -4x + 2$$\n</p>\n\n<p>त्वरण समय के सापेक्ष स्थिति का द्वितीय अवकलज है:</p>\n\n<p>\n$$a = \\frac{d^2 x}{dt^2} = -4x + 2$$\n</p>\n\n<p>इस अवकल समीकरण को हल करने के लिए, आइए इसे चरण दर चरण हल करें। $x(t) = A \\cos(\\omega t) + B \\sin(\\omega t) + C$ रूप के हल को मान लें। अनिर्धारित गुणांक की विधि का उपयोग करने पर विचार करें:</p>\n\n<p>हमें पहले समांगी हल (बिना बाध्यकारी पद के) ज्ञात करना होगा:</p>\n\n<p>\n$$\\frac{d^2 x_h}{dt^2} + 4x_h = 0$$\n</p>\n\n<p>यह स्थिर गुणांकों के साथ द्वितीय कोटि का समांगी अवकल समीकरण है। इसका अभिलाक्षणिक समीकरण है:</p>\n\n<p>\n$$r^2 + 4 = 0$$\n</p>\n\n<p>$r$ के लिए हल करने पर:</p>\n\n<p>\n$$r = \\pm 2i$$\n</p>\n\n<p>इस प्रकार, समांगी समीकरण का व्यापक हल है:</p>\n\n<p>\n$$x_h(t) = A \\cos(2t) + B \\sin(2t)$$\n</p>\n\n<p>अब, हमें असमांगी समीकरण का एक विशिष्ट हल चाहिए:</p>\n\n<p>\n$$x_p = C$$\n</p>\n\n<p>$x_p$ को अवकल समीकरण में प्रतिस्थापित करने पर:</p>\n\n<p>\n$$a = -4C + 2 = 0 \\implies C = \\frac{1}{2}$$\n</p>\n\n<p>इसलिए, अवकल समीकरण का व्यापक हल है:</p>\n\n<p>\n$$x(t) = A \\cos(2t) + B \\sin(2t) + \\frac{1}{2}$$\n</p>\n\n<p>$A$ और $B$ निर्धारित करने के लिए प्रारंभिक शर्तों का उपयोग करते हुए:</p>\n\n<p>$t = 0$ पर, $x(0) = 1$:</p>\n\n<p>\n$$1 = A \\cdot \\cos(0) + B \\cdot \\sin(0) + \\frac{1}{2} \\implies 1 = A + \\frac{1}{2} \\implies A = \\frac{1}{2}$$\n</p>\n\n<p>चूंकि ब्लॉक प्रारंभ में विरामावस्था में है, $\\frac{dx}{dt}|_{t=0} = 0$:</p>\n\n<p>\n$$\\frac{dx}{dt} = -2A \\sin(2t) + 2B \\cos(2t)$$\n</p>\n\n<p>$t = 0$ पर:</p>\n\n<p>\n$$0 = -2A \\cdot \\sin(0) + 2B \\cdot \\cos(0) = 2B \\implies B = 0$$\n</p>\n\n<p>इसलिए, स्थिति समीकरण सरल हो जाता है:</p>\n\n<p>\n$$x(t) = \\frac{1}{2} \\cos(2t) + \\frac{1}{2}$$\n</p>\n\n<p>अब, हम $t = \\frac{\\pi}{4}$ सेकंड पर स्थिति ज्ञात करते हैं:</p>\n\n<p>\n$$x\\left(\\frac{\\pi}{4}\\right) = \\frac{1}{2} \\cos\\left(2 \\cdot \\frac{\\pi}{4}\\right) + \\frac{1}{2} = \\frac{1}{2} \\cos\\left(\\frac{\\pi}{2}\\right) + \\frac{1}{2} = \\frac{1}{2} \\cdot 0 + \\frac{1}{2} = \\frac{1}{2} \\mathrm{~m}$$\n</p>\n\n<p>संवेग ज्ञात करने के लिए, हम पहले स्थिति फलन का अवकलन करके वेग ज्ञात करते हैं:</p>\n\n<p>\n$$v(t) = \\frac{dx}{dt} = -\\sin(2t)$$\n</p>\n\n<p>इस प्रकार, $t = \\frac{\\pi}{4}$ पर वेग है:</p>\n\n<p>\n$$v\\left(\\frac{\\pi}{4}\\right) = -\\sin\\left(2 \\cdot \\frac{\\pi}{4}\\right) = -\\sin\\left(\\frac{\\pi}{2}\\right) = -1$$\n</p>\n\n<p>अंत में, संवेग $p$ इस प्रकार दिया जाता है:</p>\n\n<p>\n$$p = m \\cdot v = 5 \\mathrm{~kg} \\cdot -1 \\mathrm{~m/s} = -5 \\mathrm{~kg \\cdot m/s}$$\n</p>\n\n<p>इसलिए, $t = \\frac{\\pi}{4} \\mathrm{s}$ पर ब्लॉक की स्थिति और संवेग हैं:</p>\n\n<p>स्थिति: $0.5 \\mathrm{~m}$</p>\n<p>संवेग: $-5 \\mathrm{~kg \\cdot m/s}$</p>\n\n<p>सही विकल्प है:</p>\n<p>विकल्प C: $0.5 \\mathrm{~m}, -5 \\mathrm{~kg} \\cdot \\mathrm{m} / \\mathrm{s}$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "impulse-momentum-theorem",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "A block of mass $5 \\mathrm{~kg}$ moves along the $x$-direction subject to the force $F=(-20 x+10) \\mathrm{N}$, with the value of $x$ in metre. At time $t=0 \\mathrm{~s}$, it is at rest at position $x=1 \\mathrm{~m}$. The position and momentum..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "$5 \\mathrm{~kg}$ द्रव्यमान का एक गुटका, बल $F=(-20 x+10) \\mathrm{N}$ के प्रभाव में $x$-दिशा में गतिमान है, जहाँ $x$ मीटर में है| समय $t=0 \\mathrm{~s}$ पर यह $x=1 \\mathrm{~m}$ पर स्थिर अवस्था में है| इस गुटके की स्थिति (position) तथा संवेग (..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-1-online"
+    },
+    {
+      "question_id": "s9rv22dlrh6qeqik0jvf",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "a-slide-with-a-frictionless-curved-surface-which-becomes-ho-jee-advanced-physics-tgexnrj2jkm8skgk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A slide with a frictionless curved surface, which becomes horizontal at its lower end, is fixed on the terrace of a building of height $3 h$ from the ground, as shown in the figure. A spherical ball of mass $m$ is released on the slide from rest at a height $h$ from the top of the terrace. The ball leaves the slide with a velocity $\\vec{u}_0=u_0 \\hat{x}$ and falls on the ground at a distance $d$ from the building making an angle $\\theta$ with the horizontal. It bounces off with a velocity $\\vec{v}$ and reaches a maximum height $h_1$. The acceleration due to gravity is $g$ and the coefficient of restitution of the ground is $1 / \\sqrt{3}$. Which of the following statement(s) is(are) correct?<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liip5c28/52af7e88-1b06-4b2b-a4bf-bc382693f2e1/f70f6c10-0389-11ee-add3-0f52d4fe427d/file-1liip5c29.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liip5c28/52af7e88-1b06-4b2b-a4bf-bc382693f2e1/f70f6c10-0389-11ee-add3-0f52d4fe427d/file-1liip5c29.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Impulse &amp; Momentum Question 3 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\overrightarrow{\\mathrm{u}}_0=\\sqrt{2 g h} \\hat{x}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\vec{v}=\\sqrt{2 g h}(\\hat{x}-\\hat{z})$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\theta=60^{\\circ}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$d / h_1=2 \\sqrt{3}$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Reflect on the scenario of a ball sliding down a frictionless slope. Initially at rest, the ball descends through a height <b>h</b>. Applying the principle of conservation of mechanical energy, we deduce that the initial speed $ u_0 $ is given by $ u_0 = \\sqrt{2gh} $. Consequently, the velocity of the ball as it reaches the end of the slide can be expressed as :\n<br><br>$\n\\vec{u}_0 = \\sqrt{2gh} \\, \\hat{\\imath} .\n$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrjrem5c/7432b552-c127-42c6-a874-d5f9720b4097/86738a00-b64d-11ee-85e5-715d20747ec3/file-6y3zli1lrjrem5d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrjrem5c/7432b552-c127-42c6-a874-d5f9720b4097/86738a00-b64d-11ee-85e5-715d20747ec3/file-6y3zli1lrjrem5d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Impulse &amp; Momentum Question 3 English Explanation\"></p>\n<p>In this scenario where a ball is launched horizontally with an initial speed $ u_0 $ from the top of a building that is $ 3h $ tall, we calculate the time $ t $ it takes for the ball to descend the vertical distance of $ 3h $. This time duration can be determined using the equation of motion under gravity, leading to :\n<br><br>$\nt = \\sqrt{\\frac{2(3h)}{g}} = \\sqrt{\\frac{6h}{g}}.\n$</p>\n<p>Considering the horizontal distance covered over the time period t, we can express it as :\n<br><br>$ \nd = u_0 t = \\sqrt{2gh} \\cdot \\sqrt{\\frac{6h}{g}} = 2\\sqrt{3}h\n$ ..............(1)</p>\n<p>When the ball impacts the ground, its velocity $\\vec{u}$ comprises two components : a horizontal component $u_x$ along $\\hat{\\imath}$ and a vertical component $u_y$ along $\\hat{\\jmath}$. The horizontal velocity component remains unchanged throughout the motion and is given by $u_x = \\sqrt{2gh}$. On the other hand, the vertical velocity component just before the ball hits the ground can be described as :\n<br><br>$\nu_y = -\\sqrt{2g(3h)} = -\\sqrt{6gh}\n$</p>\n<p>Now, let's focus on the ball's impact with the ground. Since the ground can only exert an impulse in the vertical direction, the horizontal momentum of the ball remains unchanged. This means the horizontal component of the ball's velocity after collision (represented as $ v \\cos \\phi )$ is equal to its horizontal velocity component before the collision. Therefore, we can write this relationship as :\n<br><br>$ \nv \\cos \\phi = u_x = \\sqrt{2gh}\n$ ..........(2)</p>\n<p>In the vertical axis, the approach velocity, denoted as $ v_a $, equals the absolute value of $ u_y $, which is $ \\sqrt{6gh} $. The separation velocity, denoted as $ v_s $, is expressed as $ v \\sin \\phi $. Using the coefficient of restitution $ e $, which is defined as $ \\frac{1}{\\sqrt{3}} $, we can establish the relationship :\n<br><br>$ \ne = \\frac{1}{\\sqrt{3}} = \\frac{v_s}{v_a} = \\frac{v \\sin \\phi}{\\sqrt{6gh}}.\n$\n<br><br>This equation leads to the conclusion that :\n<br><br>$ \nv \\sin \\phi = \\sqrt{2gh}\n$ ...............(3)</p>\n\n<p>From these two equations (2) and (3), it's clear that $ v \\cos \\phi $ and $ v \\sin \\phi $ are equal. This equality suggests that $ \\phi = 45^\\circ $, as the sine and cosine of 45 degrees are equal.</p>\n<p>To find $ v $, we can use either of the two equations. Let's use the first one :</p>\n<p>$ v \\cos 45^\\circ = \\sqrt{2gh} $</p>\n<p>Since $ \\cos 45^\\circ = \\frac{1}{\\sqrt{2}} $, we can rearrange and solve for $ v $:</p>\n<p>$ v = \\sqrt{2gh} \\times \\sqrt{2} = \\sqrt{4gh} $</p>\n<p>Thus, $ \\phi = 45^\\circ $ and $ v = \\sqrt{4gh} $.</p>\n\n<p>The ball bounces off with velocity $ \\vec{v} $ composed of both horizontal and vertical components, as we have established that both $ v \\cos \\phi $ and $ v \\sin \\phi $) are equal to $ \\sqrt{2gh} $, and the angle $ \\phi $ is $ 45^\\circ $. </p>\n<p>In vector form, the velocity of the ball after bouncing can be represented as the sum of its horizontal and vertical components. Given that both components are equal to $ \\sqrt{2gh} $ and considering the direction of these components along the unit vectors $ \\hat{\\imath} $ (horizontal) and $ \\hat{\\jmath} $ (vertical), the velocity vector $ \\vec{v} $ can be expressed as :\n<br><br>$ \n\\vec{v} = \\sqrt{2gh}\\hat{\\imath} + \\sqrt{2gh}\\hat{\\jmath}.\n$</p>\n<p>\n$$ \\Rightarrow $$ $ \n\\vec{v} = \\sqrt{2gh}(\\hat{\\imath} + \\hat{\\jmath}).\n$</p>\n<p>This equation indicates that after the collision, the ball bounces off with equal horizontal and vertical velocity components, each of magnitude $ \\sqrt{2gh} $.</p>\n\n<p>The peak height, $ h_1 $, achieved during the projectile's trajectory from point C to D, can be calculated using the formula :\n<br><br>$ \nh_1 = \\frac{v^2 \\sin^2 \\phi}{2g}.\n$\n<br><br>In this scenario, where $ v = \\sqrt{4gh} $ and $ \\phi = 45^\\circ $, the expression becomes :\n<br><br>$ \nh_1 = \\frac{(\\sqrt{4gh})^2 \\sin^2 45^\\circ}{2g}.\n$\n<br><br>Using the fact that $ \\sin 45^\\circ $ is $ \\frac{1}{\\sqrt{2}} $ and simplifying, we find that :\n<br><br>$ \nh_1 = h = \\frac{d}{2\\sqrt{3}},\n$\n<br><br>where the equation (1) has been applied to establish the relationship.</p>\n\n"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "घर्षणहीन वक्र सतह वाली एक स्लाइड (slide), जो कि अपने निचले सिरे पर क्षैतिज हो जाती है, जमीन से $3 h$ ऊँचे एक भवन की छत पर स्थित है (चित्र देखें) $\\mid m$ द्रव्यमान की एक गोलाकार गेंद को स्लाइड पर तथा छत की सतह से $h$ ऊँचाई पर स्थित एक बिन्दु से विरामावस्था से छोड़ा जाता है। स्लाइड को गेंद $\\vec{u}_0=u_0 \\hat{x}$ वेग से छोड़ती है और जमीन पर भवन से $d$ दूरी पर क्षेतिज से $\\theta$ कोण बनाते हुए टकराती है। वह जमीन से $\\overrightarrow{\\mathrm{v}}$ वेग से उछलकर अधिकतम ऊँचाई $h_1$ तक जाती है। गुरुत्वीय त्वरण $g$ है तथा जमीन का प्रत्यवस्थान गुणांक (coefficient of restitution) $1 / \\sqrt{3}$ है| निम्न में से कौन सा(से) कथन सही है(हैं)?<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liip5c28/52af7e88-1b06-4b2b-a4bf-bc382693f2e1/f70f6c10-0389-11ee-add3-0f52d4fe427d/file-1liip5c29.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liip5c28/52af7e88-1b06-4b2b-a4bf-bc382693f2e1/f70f6c10-0389-11ee-add3-0f52d4fe427d/file-1liip5c29.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Impulse &amp; Momentum Question 3 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\overrightarrow{\\mathrm{u}}_0=\\sqrt{2 g h} \\hat{x}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\vec{v}=\\sqrt{2 g h}(\\hat{x}-\\hat{z})$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\theta=60^{\\circ}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$d / h_1=2 \\sqrt{3}$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>एक घर्षणरहित ढलान पर नीचे की ओर फिसलती हुई गेंद के परिदृश्य पर विचार करें। प्रारंभ में विराम अवस्था में, गेंद ऊंचाई <b>h</b> से नीचे उतरती है। यांत्रिक ऊर्जा के संरक्षण के सिद्धांत को लागू करते हुए, हम यह निष्कर्ष निकालते हैं कि प्रारंभिक चाल $ u_0 $ निम्नलिखित द्वारा दी जाती है $ u_0 = \\sqrt{2gh} $। परिणामस्वरूप, गेंद का वेग जब वह स्लाइड के अंत तक पहुंचती है, निम्नानुसार व्यक्त किया जा सकता है:\n<br><br>$\n\\vec{u}_0 = \\sqrt{2gh} \\, \\hat{\\imath} .\n$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrjrem5c/7432b552-c127-42c6-a874-d5f9720b4097/86738a00-b64d-11ee-85e5-715d20747ec3/file-6y3zli1lrjrem5d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrjrem5c/7432b552-c127-42c6-a874-d5f9720b4097/86738a00-b64d-11ee-85e5-715d20747ec3/file-6y3zli1lrjrem5d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Impulse &amp; Momentum Question 3 Hindi Explanation\"></p>\n<p>इस परिदृश्य में जहां एक गेंद को $ 3h $ ऊंची इमारत के शीर्ष से प्रारंभिक चाल $ u_0 $ के साथ क्षैतिज रूप से प्रक्षेपित किया जाता है, हम समय $ t $ की गणना करते हैं जो गेंद को $ 3h $ की ऊर्ध्वाधर दूरी तय करने में लगता है। यह समय अवधि गुरुत्वाकर्षण के अधीन गति के समीकरण का उपयोग करके निर्धारित की जा सकती है, जो निम्नलिखित की ओर ले जाती है:\n<br><br>$\nt = \\sqrt{\\frac{2(3h)}{g}} = \\sqrt{\\frac{6h}{g}}.\n$</p>\n<p>समय अवधि t में तय की गई क्षैतिज दूरी पर विचार करते हुए, हम इसे निम्नानुसार व्यक्त कर सकते हैं:\n<br><br>$ \nd = u_0 t = \\sqrt{2gh} \\cdot \\sqrt{\\frac{6h}{g}} = 2\\sqrt{3}h\n$ ..............(1)</p>\n<p>जब गेंद जमीन से टकराती है, तो इसके वेग $\\vec{u}$ में दो घटक होते हैं: $\\hat{\\imath}$ के अनुदिश एक क्षैतिज घटक $u_x$ और $\\hat{\\jmath}$ के अनुदिश एक ऊर्ध्वाधर घटक $u_y$। क्षैतिज वेग घटक पूरी गति के दौरान अपरिवर्तित रहता है और $u_x = \\sqrt{2gh}$ द्वारा दिया जाता है। दूसरी ओर, गेंद के जमीन से टकराने से ठीक पहले ऊर्ध्वाधर वेग घटक को निम्नानुसार वर्णित किया जा सकता है:\n<br><br>$\nu_y = -\\sqrt{2g(3h)} = -\\sqrt{6gh}\n$</p>\n<p>अब, आइए गेंद के जमीन से टकराव पर ध्यान केंद्रित करें। चूंकि जमीन केवल ऊर्ध्वाधर दिशा में आवेग लगा सकती है, इसलिए गेंद का क्षैतिज संवेग अपरिवर्तित रहता है। इसका अर्थ है कि टकराव के बाद गेंद के वेग का क्षैतिज घटक ($ v \\cos \\phi $ के रूप में प्रदर्शित) टकराव से पहले इसके क्षैतिज वेग घटक के बराबर है। इसलिए, हम इस संबंध को निम्नानुसार लिख सकते हैं:\n<br><br>$ \nv \\cos \\phi = u_x = \\sqrt{2gh}\n$ ..........(2)</p>\n<p>ऊर्ध्वाधर अक्ष में, अभिगमन वेग, जिसे $ v_a $ द्वारा निरूपित किया जाता है, $ u_y $ के निरपेक्ष मान के बराबर है, जो $ \\sqrt{6gh} $ है। पृथक्करण वेग, जिसे $ v_s $ द्वारा निरूपित किया जाता है, $ v \\sin \\phi $ के रूप में व्यक्त किया जाता है। प्रत्यावस्थान गुणांक $ e $ का उपयोग करते हुए, जिसे $ \\frac{1}{\\sqrt{3}} $ के रूप में परिभाषित किया गया है, हम संबंध स्थापित कर सकते हैं:\n<br><br>$ \ne = \\frac{1}{\\sqrt{3}} = \\frac{v_s}{v_a} = \\frac{v \\sin \\phi}{\\sqrt{6gh}}.\n$\n<br><br>यह समीकरण इस निष्कर्ष की ओर ले जाता है:\n<br><br>$ \nv \\sin \\phi = \\sqrt{2gh}\n$ ...............(3)</p>\n\n<p>इन दोनों समीकरणों (2) और (3) से, यह स्पष्ट है कि $ v \\cos \\phi $ और $ v \\sin \\phi $ बराबर हैं। यह समानता बताती है कि $ \\phi = 45^\\circ $, क्योंकि 45 डिग्री का साइन और कोसाइन बराबर होते हैं।</p>\n<p>$ v $ ज्ञात करने के लिए, हम दोनों समीकरणों में से किसी का भी उपयोग कर सकते हैं। आइए पहले का उपयोग करें:</p>\n<p>$ v \\cos 45^\\circ = \\sqrt{2gh} $</p>\n<p>चूंकि $ \\cos 45^\\circ = \\frac{1}{\\sqrt{2}} $, हम पुनर्व्यवस्थित करके $ v $ के लिए हल कर सकते हैं:</p>\n<p>$ v = \\sqrt{2gh} \\times \\sqrt{2} = \\sqrt{4gh} $</p>\n<p>इस प्रकार, $ \\phi = 45^\\circ $ और $ v = \\sqrt{4gh} $।</p>\n\n<p>गेंद वेग $ \\vec{v} $ के साथ उछलती है जो क्षैतिज और ऊर्ध्वाधर दोनों घटकों से बना होता है, जैसा कि हमने स्थापित किया है कि $ v \\cos \\phi $ और $ v \\sin \\phi $ दोनों $ \\sqrt{2gh} $ के बराबर हैं, और कोण $ \\phi $ $ 45^\\circ $ है।</p>\n<p>सदिश रूप में, उछलने के बाद गेंद के वेग को इसके क्षैतिज और ऊर्ध्वाधर घटकों के योग के रूप में प्रदर्शित किया जा सकता है। यह देखते हुए कि दोनों घटक $ \\sqrt{2gh} $ के बराबर हैं और इकाई सदिशों $ \\hat{\\imath} $ (क्षैतिज) और $ \\hat{\\jmath} $ (ऊर्ध्वाधर) के अनुदिश इन घटकों की दिशा को ध्यान में रखते हुए, वेग सदिश $ \\vec{v} $ को निम्नानुसार व्यक्त किया जा सकता है:\n<br><br>$ \n\\vec{v} = \\sqrt{2gh}\\hat{\\imath} + \\sqrt{2gh}\\hat{\\jmath}.\n$</p>\n<p>\n$$ \\Rightarrow $$ $ \n\\vec{v} = \\sqrt{2gh}(\\hat{\\imath} + \\hat{\\jmath}).\n$</p>\n<p>यह समीकरण इंगित करता है कि टकराव के बाद, गेंद समान क्षैतिज और ऊर्ध्वाधर वेग घटकों के साथ उछलती है, जिनमें से प्रत्येक का परिमाण $ \\sqrt{2gh} $ है।</p>\n\n<p>बिंदु C से D तक प्रक्षेप्य की प्रक्षेपवक्र के दौरान प्राप्त शिखर ऊंचाई, $ h_1 $, की गणना सूत्र का उपयोग करके की जा सकती है:\n<br><br>$ \nh_1 = \\frac{v^2 \\sin^2 \\phi}{2g}.\n$\n<br><br>इस परिदृश्य में, जहां $ v = \\sqrt{4gh} $ और $ \\phi = 45^\\circ $, व्यंजक बन जाता है:\n<br><br>$ \nh_1 = \\frac{(\\sqrt{4gh})^2 \\sin^2 45^\\circ}{2g}.\n$\n<br><br>इस तथ्य का उपयोग करते हुए कि $ \\sin 45^\\circ $ $ \\frac{1}{\\sqrt{2}} $ है और सरलीकरण करने पर, हम पाते हैं कि:\n<br><br>$ \nh_1 = h = \\frac{d}{2\\sqrt{3}},\n$\n<br><br>जहां संबंध स्थापित करने के लिए समीकरण (1) लागू किया गया है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "collision",
+      "type": "mcqm",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "A slide with a frictionless curved surface, which becomes horizontal at its lower end, is fixed on the terrace of a building of height $3 h$ from the ground, as shown in the figure. A spherical ball of mass $m$ is released on the slide from..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "घर्षणहीन वक्र सतह वाली एक स्लाइड (slide), जो कि अपने निचले सिरे पर क्षैतिज हो जाती है, जमीन से $3 h$ ऊँचे एक भवन की छत पर स्थित है (चित्र देखें) $\\mid m$ द्रव्यमान की एक गोलाकार गेंद को स्लाइड पर तथा छत की सतह से $h$ ऊँचाई पर स्थित एक बिन्द..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "9gd53k3ppwja5t60thpv",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "one-end-of-a-horizontal-uniform-beam-of-weight-w-and-length-jee-advanced-physics-units-and-measurements-pkrjo9vrrxm1jmmi",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "One end of a horizontal uniform beam of weight W and length L is hinged on a vertical wall at point O and its other end is supported by a light inextensible rope. The other end of the rope is fixed at point Q, at a height L above the hinge at point O. A block of weight $$\\alpha$$W is attached at the point P of the beam, as shown in the figure (not to scale). The rope can sustain a maximum tension of (2$$\\sqrt 2 $$)W. Which of the following statement(s) is(are) correct?<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwjbiswa/2d7fbf54-c365-45e2-aacb-a0fdf0073590/b416a2a0-5054-11ec-8daf-b39f40cb0a62/file-1kwjbiswb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Physics - Impulse &amp; Momentum Question 10 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The vertical component of reaction force at O does not depend on $$\\alpha$$"
+            },
+            {
+              "identifier": "B",
+              "content": "The horizontal component of reaction force at O is equal to W for $$\\alpha$$ = 0.5"
+            },
+            {
+              "identifier": "C",
+              "content": "The tension in the rope is 2W for $$\\alpha$$ = 0.5"
+            },
+            {
+              "identifier": "D",
+              "content": "The rope breaks if $$\\alpha$$ &gt; 1.5"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "Free body diagram of rod<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9rckg4/2eb8d2ca-97d8-4f97-a8e3-d363291014d4/f9a84d30-5ede-11ec-9712-45aafe915683/file-1kx9rckg5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9rckg4/2eb8d2ca-97d8-4f97-a8e3-d363291014d4/f9a84d30-5ede-11ec-9712-45aafe915683/file-1kx9rckg5.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 2 Online Physics - Impulse &amp; Momentum Question 10 English Explanation\"><br>$$\\sum {{F _x} = 0} $$<br><br>$${R_1} = T\\cos 45^\\circ $$<br><br>$${R_1} = {T \\over {\\sqrt 2 }}$$ ..... (i)<br><br>$$\\sum {{F_y} = 0} $$<br><br>$${R_2} + T\\sin 45^\\circ  = W + \\alpha W$$<br><br>$${R_2} + {T \\over {\\sqrt 2 }} = W(1 + \\alpha )$$ ..... (ii)<br><br>$$\\sum {{\\tau _0} = 0} $$<br><br>$$W{L \\over 2} + \\alpha WL = {T \\over {\\sqrt 2 }}L$$<br><br>$$T = \\sqrt 2 W\\left[ {\\alpha  + {1 \\over 2}} \\right]$$ ..... (iii)<br><br>From Eqs. (ii) and (iii), we get<br><br>$${R_2} + W\\left[ {\\alpha  + {1 \\over 2}} \\right] = W(1 + \\alpha )$$<br><br>$${R_2} = {W \\over 2}$$<br><br>Hence, option (a) is correct.<br><br>From Eqs. (i) and (iii), we get<br><br>$${R_1} = W\\left[ {\\alpha  + {1 \\over 2}} \\right]$$<br><br>$$\\alpha$$ = 0.5, R<sub>1</sub> = W<br><br>Hence, option (b) is correct.<br><br>From Eq. (iii), if $$\\alpha$$ = 0.5<br><br>$$T = \\sqrt 2 W$$<br><br>$${T_{\\max }} = 2\\sqrt 2 W$$<br><br>For rope to break,<br><br>$$T &gt; 2\\sqrt 2 W$$<br><br>$$\\sqrt 2 W\\left[ {\\alpha  + {1 \\over 2}} \\right] &gt; 2\\sqrt 2 W \\Rightarrow \\alpha  &gt; {3 \\over 2}$$<br><br>Hence, option (d) is correct."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>भार $$W$$ तथा लम्बाई $$L$$ की एक क्षैतिज (horizontal) एकसमान बीम (uniform beam) के एक सिरे को उर्ध्वाधर दीवार के एक बिन्दु $$O$$ पर कीलकित (hinged) किया गया है। बीम का दूसरा सिरा $$P$$ एक भारहीन अतान्य (inextensible) डोरी से बंधा है। डोरी का दूसरा सिरा $$Q$$, बिन्दु $$O$$ से $$L$$ ऊंचाई पर बंधा है। बीम के सिरे $$P$$ से $$\\alpha W$$ भार का एक गुटका जुड़ा है, जैसा चित्र में दर्शाया गया है। चित्र पैमाने (scale) के अनुसार नहीं है| डोरी अधिकतम तनाव $$(2 \\sqrt{2}) \\mathrm{W}$$ वहन कर सकती है। निम्न में से कौन सा (से) कथन सही है (हैं) ?</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kwjbiswa/2d7fbf54-c365-45e2-aacb-a0fdf0073590/b416a2a0-5054-11ec-8daf-b39f40cb0a62/file-1kwjbiswb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Physics - Impulse &amp; Momentum Question 10 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "बिन्दु $$O$$ पर लगे प्रतिक्रिया बल का ऊर्ध्वाधर घटक, $$\\alpha$$ पर निर्भर नहीं करता है"
+            },
+            {
+              "identifier": "B",
+              "content": "बिन्दु $$O$$ पर लगे प्रतिक्रिया बल का क्षैतिज घटक, $$\\alpha=0.5$$ के लिए, $$W$$ के बराबर है"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\alpha=0.5$$ के लिए डोरी में तनाव $$2 W$$ है"
+            },
+            {
+              "identifier": "D",
+              "content": "यदि $$\\alpha > 1.5$$ हो, तो डोरी टूट जाएगी"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "छड़ का मुक्त पिंड आरेख<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx9rckg4/2eb8d2ca-97d8-4f97-a8e3-d363291014d4/f9a84d30-5ede-11ec-9712-45aafe915683/file-1kx9rckg5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx9rckg4/2eb8d2ca-97d8-4f97-a8e3-d363291014d4/f9a84d30-5ede-11ec-9712-45aafe915683/file-1kx9rckg5.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 2 Online Physics - Impulse &amp; Momentum Question 10 Hindi Explanation\"><br>$$\\sum {{F _x} = 0} $$<br><br>$${R_1} = T\\cos 45^\\circ $$<br><br>$${R_1} = {T \\over {\\sqrt 2 }}$$ ..... (i)<br><br>$$\\sum {{F_y} = 0} $$<br><br>$${R_2} + T\\sin 45^\\circ  = W + \\alpha W$$<br><br>$${R_2} + {T \\over {\\sqrt 2 }} = W(1 + \\alpha )$$ ..... (ii)<br><br>$$\\sum {{\\tau _0} = 0} $$<br><br>$$W{L \\over 2} + \\alpha WL = {T \\over {\\sqrt 2 }}L$$<br><br>$$T = \\sqrt 2 W\\left[ {\\alpha  + {1 \\over 2}} \\right]$$ ..... (iii)<br><br>समीकरण (ii) और (iii) से, हमें प्राप्त होता है<br><br>$${R_2} + W\\left[ {\\alpha  + {1 \\over 2}} \\right] = W(1 + \\alpha )$$<br><br>$${R_2} = {W \\over 2}$$<br><br>अतः, विकल्प (a) सही है।<br><br>समीकरण (i) और (iii) से, हमें प्राप्त होता है<br><br>$${R_1} = W\\left[ {\\alpha  + {1 \\over 2}} \\right]$$<br><br>$$\\alpha$$ = 0.5, R<sub>1</sub> = W<br><br>अतः, विकल्प (b) सही है।<br><br>समीकरण (iii) से, यदि $$\\alpha$$ = 0.5<br><br>$$T = \\sqrt 2 W$$<br><br>$${T_{\\max }} = 2\\sqrt 2 W$$<br><br>रस्सी के टूटने के लिए,<br><br>$$T &gt; 2\\sqrt 2 W$$<br><br>$$\\sqrt 2 W\\left[ {\\alpha  + {1 \\over 2}} \\right] &gt; 2\\sqrt 2 W \\Rightarrow \\alpha  &gt; {3 \\over 2}$$<br><br>अतः, विकल्प (d) सही है।"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189456,
+      "topic": "impulse-momentum-theorem",
+      "type": "mcqm",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "One end of a horizontal uniform beam of weight W and length L is hinged on a vertical wall at point O and its other end is supported by a light inextensible rope. The other end of the rope is fixed at point Q, at a height L above the hinge ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "भार $$W$$ तथा लम्बाई $$L$$ की एक क्षैतिज (horizontal) एकसमान बीम (uniform beam) के एक सिरे को उर्ध्वाधर दीवार के एक बिन्दु $$O$$ पर कीलकित (hinged) किया गया है। बीम का दूसरा सिरा $$P$$ एक भारहीन अतान्य (inextensible) डोरी से बंधा है। डोरी क..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "geg08cy9psxudsegkwh9",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "a-pendulum-consists-of-a-bob-of-mass-m--01-kg-and-a-massle-jee-advanced-physics-units-and-measurements-bxvmuftbdbkr3ekx",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A pendulum consists of a bob of mass m = 0.1 kg and a massless inextensible string of length L = 1.0 m. It is suspended from a fixed point at height H = 0.9 m above a frictionless horizontal floor. Initially, the bob of the pendulum is lying on the floor at rest vertically below the point of suspension. A horizontal impulse P = 0.2 kg-m/s is imparted to the bob at some instant. After the bob slides for some distance, the string becomes taut and the bob lifts off the floor. The magnitude of the angular momentum of the pendulum about the point of suspension just before the bob lifts off is J kg-m<sup>2</sup>/s. The kinetic energy of the pendulum just after the lift-off is K Joules.<br><br>The value of J is ___________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.18",
+          "explanation": "Angular momentum, L = P $$\\times$$ 0.9 = 0.18 kgm<sup>2</sup>/s"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक लोलक (pendulum), द्रव्यमान $$m=0.1 \\mathrm{~kg}$$ के एक गोलक (bob) और लम्बाई $$L=1.0 \\mathrm{~m}$$ के एक द्रव्यमानरहित (massless) तथा न खींचने वाले (inextensible) धागे से बना है । यह एक घर्षणहीन क्षैतिज फर्श (floor) से $$H=0.9 \\mathrm{~m}$$ की ऊँचाई पर एक स्थिर बिंदु से लटका हुआ है। आरंभ में गोलक, फर्श पर निलंबन बिन्दु (point of suspension) के ठीक उर्ध्वाधर नीचे स्थिरावस्था मैं है। किसी क्षण, गोलक को $$P=0.2 \\mathrm{~kg}$$-$$\\mathrm{m} / \\mathrm{s}$$ का एक क्षैतिज आवेग (impulse) प्रदान किया जाता है। इस कारण कुछ दूरी तक फिसलने के बाद, गोलक सतह से ऊपर उठ जाता है और धागा तन जाता है (becomes taut)। गोलक के सतह से उठने के तुरंत पहले, निलंबन बिन्दु के सापेक्ष, लोलक का कोणीय संवेग (angular momentum) $$J \\mathrm{~kg}$$-$$\\mathrm{m}^{2} / \\mathrm{s}$$ है। सतह से उठने के तुरंत बाद लोलक की गतिज ऊर्जा $$K$$ Joules है।</p>\n<p>$$J$$ का मान _________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.18",
+          "explanation": "कोणीय संवेग, L = P $$\\times$$ 0.9 = 0.18 kgm<sup>2</sup>/s"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "impulse-momentum-theorem",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "A pendulum consists of a bob of mass m = 0.1 kg and a massless inextensible string of length L = 1.0 m. It is suspended from a fixed point at height H = 0.9 m above a frictionless horizontal floor. Initially, the bob of the pendulum is lyin..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "एक लोलक (pendulum), द्रव्यमान $$m=0.1 \\mathrm{~kg}$$ के एक गोलक (bob) और लम्बाई $$L=1.0 \\mathrm{~m}$$ के एक द्रव्यमानरहित (massless) तथा न खींचने वाले (inextensible) धागे से बना है । यह एक घर्षणहीन क्षैतिज फर्श (floor) से $$H=0.9 \\mathrm{~m..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "liimaaqmrnqfl4ov6pql",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "a-pendulum-consists-of-a-bob-of-mass-m--01-kg-and-a-massle-jee-advanced-physics-units-and-measurements-zzse0zerutjfpxeq",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A pendulum consists of a bob of mass m = 0.1 kg and a massless inextensible string of length L = 1.0 m. It is suspended from a fixed point at height H = 0.9 m above a frictionless horizontal floor. Initially, the bob of the pendulum is lying on the floor at rest vertically below the point of suspension. A horizontal impulse P = 0.2 kg-m/s is imparted to the bob at some instant. After the bob slides for some distance, the string becomes taut and the bob lifts off the floor. The magnitude of the angular momentum of the pendulum about the point of suspension just before the bob lifts off is J kg-m<sup>2</sup>/s. The kinetic energy of the pendulum just after the lift-off is K Joules.<br><br>The value of K is ___________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.16",
+          "explanation": "Angular momentum, L = P $$\\times$$ 0.9 = 0.18 kgm<sup>2</sup>/s<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l05rarn0/e3b16a95-3c1e-409f-a000-3a3d88987776/4b224ac0-9810-11ec-a772-21fa9300fb6f/file-1l05rarn1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l05rarn0/e3b16a95-3c1e-409f-a000-3a3d88987776/4b224ac0-9810-11ec-a772-21fa9300fb6f/file-1l05rarn1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Physics - Impulse &amp; Momentum Question 11 English Explanation\"><br>Just after string becomes taut; there will be no velocity along the string.<br><br>$$\\therefore$$ $${V_ \\bot } = {{P\\cos \\theta } \\over m} = {{0.2 \\times 0.9} \\over {1 \\times 0.1}} = 1.8$$ m/s<br><br>$$\\therefore$$ $$K = {1 \\over 2}mv_ \\bot ^2 = {1 \\over 2} \\times 0.1 \\times {1.8^2} = 0.162$$ J"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक लोलक (pendulum), द्रव्यमान $$m=0.1 \\mathrm{~kg}$$ के एक गोलक (bob) और लम्बाई $$L=1.0 \\mathrm{~m}$$ के एक द्रव्यमानरहित (massless) तथा न खींचने वाले (inextensible) धागे से बना है । यह एक घर्षणहीन क्षैतिज फर्श (floor) से $$H=0.9 \\mathrm{~m}$$ की ऊँचाई पर एक स्थिर बिंदु से लटका हुआ है। आरंभ में गोलक, फर्श पर निलंबन बिन्दु (point of suspension) के ठीक उर्ध्वाधर नीचे स्थिरावस्था मैं है। किसी क्षण, गोलक को $$P=0.2 \\mathrm{~kg}$$-$$\\mathrm{m} / \\mathrm{s}$$ का एक क्षैतिज आवेग (impulse) प्रदान किया जाता है। इस कारण कुछ दूरी तक फिसलने के बाद, गोलक सतह से ऊपर उठ जाता है और धागा तन जाता है (becomes taut)। गोलक के सतह से उठने के तुरंत पहले, निलंबन बिन्दु के सापेक्ष, लोलक का कोणीय संवेग (angular momentum) $$J \\mathrm{~kg}$$-$$\\mathrm{m}^{2} / \\mathrm{s}$$ है। सतह से उठने के तुरंत बाद लोलक की गतिज ऊर्जा $$K$$ Joules है।</p>\n<p>$$K$$ का मान _________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.16",
+          "explanation": "कोणीय संवेग, L = P $$\\times$$ 0.9 = 0.18 kgm<sup>2</sup>/s<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l05rarn0/e3b16a95-3c1e-409f-a000-3a3d88987776/4b224ac0-9810-11ec-a772-21fa9300fb6f/file-1l05rarn1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l05rarn0/e3b16a95-3c1e-409f-a000-3a3d88987776/4b224ac0-9810-11ec-a772-21fa9300fb6f/file-1l05rarn1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 2 Online Physics - Impulse &amp; Momentum Question 11 Hindi Explanation\"><br>डोरी तन जाने के ठीक बाद; डोरी की दिशा में कोई वेग नहीं होगा।<br><br>$$\\therefore$$ $${V_ \\bot } = {{P\\cos \\theta } \\over m} = {{0.2 \\times 0.9} \\over {1 \\times 0.1}} = 1.8$$ m/s<br><br>$$\\therefore$$ $$K = {1 \\over 2}mv_ \\bot ^2 = {1 \\over 2} \\times 0.1 \\times {1.8^2} = 0.162$$ J"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "impulse-momentum-theorem",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "A pendulum consists of a bob of mass m = 0.1 kg and a massless inextensible string of length L = 1.0 m. It is suspended from a fixed point at height H = 0.9 m above a frictionless horizontal floor. Initially, the bob of the pendulum is lyin..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "एक लोलक (pendulum), द्रव्यमान $$m=0.1 \\mathrm{~kg}$$ के एक गोलक (bob) और लम्बाई $$L=1.0 \\mathrm{~m}$$ के एक द्रव्यमानरहित (massless) तथा न खींचने वाले (inextensible) धागे से बना है । यह एक घर्षणहीन क्षैतिज फर्श (floor) से $$H=0.9 \\mathrm{~m..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "wc5x1693q47b6pbjdx2u",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "a-particle-of-mass-m--02-kg-is-initially-at-rest-in-the-xy-jee-advanced-physics-units-and-measurements-tgw5vdmpxtchwaun",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A particle of mass M = 0.2 kg is initially at rest in the xy-plane at a point (x = $$-$$l, y = $$-$$h), where l = 10 m and h = 1 m. The particle is accelerated at time t = 0 with a constant acceleration a = 10 m/s<sup>2</sup> along the positive x-direction. Its angular momentum and torque with respect to the origin, in SI units, are represented by $$\\overrightarrow L $$ and $$\\overrightarrow \\tau  $$ respectively. $$\\widehat i$$, $$\\widehat j$$ and $$\\widehat k$$ are unit vectors along the positive x, y and z-directions, respectively. If $$\\widehat k$$ = $$\\widehat i$$ $$\\times$$ $$\\widehat j$$ then which of the following statement(s) is(are) correct?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The particle arrives at the point (x = l, y = $$-$$h) at time t = 2 s"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\overrightarrow \\tau   = 2\\widehat k$$ when the particle passes through the point (x = l, y = $$-$$h)"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\overrightarrow L   = 4\\widehat k$$ when the particle passes through the point (x = l, y = $$-$$h)"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\overrightarrow \\tau   = \\widehat k$$ when the particle passes through the point (x = 0, y = $$-$$h)"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgylvwgr/2aee1fe5-c074-4eee-ac71-6186a9645a1a/50f9b5c0-e4b1-11ed-8fef-4faedf179f41/file-1lgylvwgs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgylvwgr/2aee1fe5-c074-4eee-ac71-6186a9645a1a/50f9b5c0-e4b1-11ed-8fef-4faedf179f41/file-1lgylvwgs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Impulse &amp; Momentum Question 12 English Explanation\"><br>\nForce acting along $\\mathrm{X}$-axis $=m a=0.2 \\times 10$<br><br>\n$$\n=2 \\mathrm{~N}\n$$<br><br>\nDistance covered in $2 \\mathrm{~s}$ along $\\mathrm{X}$-axis<br><br>\n$$\n=\\frac{1}{2} a t^2=\\frac{1}{2} \\times 10 \\times 4=20 \\mathrm{~m}=2 l\n$$<br><br>\nParticle reaches at the point $(l,-h)$ at $t=2 \\mathrm{~s}$ (Option (A) is correct)<br><br>\n$\\tau$ at $(l,-h)=F h=2 \\times 1=2 \\mathrm{Nm}$<br><br>\n$\\vec{\\tau}=2(\\hat{k}) \\quad$ (Option (B) is correct)<br><br>\n$v(t=2 \\mathrm{~s})=10 \\times 2=20 \\mathrm{~m} / \\mathrm{s}$<br><br>\n$|\\overrightarrow{\\mathrm{L}}|$ at $(l,-h)=\\mathrm{m} v h=0.2 \\times 20 \\times 1=4 \\mathrm{~kg} \\mathrm{~m}^2 / \\mathrm{s}$<br><br>\n$\\overrightarrow{\\mathrm{L}}=4(\\hat{k}) \\quad$ (Option $(\\mathrm{C})$ is correct)<br><br>\n$\\tau$ at $(0,-h)=F h=2 \\times 1=2 \\mathrm{Nm}$<br><br>\n$\\vec{\\tau}=2(\\hat{k}) \\quad$ (Option (D) is incorrect)"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>द्रव्यमान $$M=0.2 \\mathrm{~kg}$$ का एक कण आरंभ में $$x y$$-समतल के एक बिन्दु $$(x=-l, y=-h)$$ पर विरामावस्था में है, जहाँ $$l=10 \\mathrm{~m}$$ तथा $$h=1 \\mathrm{~m}$$ हैं। समय $$t=0$$ पर कण को $$a=10 \\mathrm{~m} / \\mathrm{s}^{2}$$ के नियत त्वरण (constant acceleration) से धनात्मक $$x$$-अक्ष की दिशा में त्वरित किया जाता है। मूलबिन्दु के सापेक्ष कण के कोणीय संवेग (angular momentum) तथा बल आघूर्ण (torque) $$SI$$ इकाई में क्रमशः $$\\vec{L}$$ और $$\\vec{\\tau}$$ से परिभाषित हैं। यदि $$\\hat{\\imath}, \\hat{\\jmath}$$ और $$\\hat{k}$$ क्रमशः धनात्मक $$x, y$$ और $$z$$ अक्षों की दिशाओं में इकाई सदिशें (unit vectors) हैं, जहाँ $$\\widehat k = \\widehat i \\times \\widehat j$$ | निम्न में से कौन सा (से) कथन सत्य है ( हैं) ?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "समय $$t=2 \\mathrm{~s}$$ पर कण बिन्दु $$(x=l, y=-h)$$ पर पहुंचता है"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\vec{\\tau}=2 \\hat{k}$$, जब कण बिन्दु $$(x=l, y=-h)$$ से गुजरता है"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\vec{L}=4 \\hat{k}$$, जब कण बिन्दु $$(x=l, y=-h)$$ से गुजरता है"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\vec{\\tau}=\\hat{k}$$, जब कण बिन्दु $$(x=0, y=-h)$$ से गुजरता है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgylvwgr/2aee1fe5-c074-4eee-ac71-6186a9645a1a/50f9b5c0-e4b1-11ed-8fef-4faedf179f41/file-1lgylvwgs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgylvwgr/2aee1fe5-c074-4eee-ac71-6186a9645a1a/50f9b5c0-e4b1-11ed-8fef-4faedf179f41/file-1lgylvwgs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Impulse &amp; Momentum Question 12 Hindi Explanation\"><br>\nX-अक्ष के अनुदिश कार्यरत बल $=m a=0.2 \\times 10$<br><br>\n$$\n=2 \\mathrm{~N}\n$$<br><br>\nX-अक्ष के अनुदिश $2 \\mathrm{~s}$ में तय की गई दूरी<br><br>\n$$\n=\\frac{1}{2} a t^2=\\frac{1}{2} \\times 10 \\times 4=20 \\mathrm{~m}=2 l\n$$<br><br>\nकण $t=2 \\mathrm{~s}$ पर बिंदु $(l,-h)$ पर पहुँचता है (विकल्प (A) सही है)<br><br>\n$(l,-h)$ पर $\\tau=F h=2 \\times 1=2 \\mathrm{Nm}$<br><br>\n$\\vec{\\tau}=2(\\hat{k}) \\quad$ (विकल्प (B) सही है)<br><br>\n$v(t=2 \\mathrm{~s})=10 \\times 2=20 \\mathrm{~m} / \\mathrm{s}$<br><br>\n$(l,-h)$ पर $|\\overrightarrow{\\mathrm{L}}|=\\mathrm{m} v h=0.2 \\times 20 \\times 1=4 \\mathrm{~kg} \\mathrm{~m}^2 / \\mathrm{s}$<br><br>\n$\\overrightarrow{\\mathrm{L}}=4(\\hat{k}) \\quad$ (विकल्प $(\\mathrm{C})$ सही है)<br><br>\n$(0,-h)$ पर $\\tau=F h=2 \\times 1=2 \\mathrm{Nm}$<br><br>\n$\\vec{\\tau}=2(\\hat{k}) \\quad$ (विकल्प (D) गलत है)"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "motion-of-center-of-mass",
+      "type": "mcqm",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "A particle of mass M = 0.2 kg is initially at rest in the xy-plane at a point (x = $$-$$l, y = $$-$$h), where l = 10 m and h = 1 m. The particle is accelerated at time t = 0 with a constant acceleration a = 10 m/s2 along the positive x-dire..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "द्रव्यमान $$M=0.2 \\mathrm{~kg}$$ का एक कण आरंभ में $$x y$$-समतल के एक बिन्दु $$(x=-l, y=-h)$$ पर विरामावस्था में है, जहाँ $$l=10 \\mathrm{~m}$$ तथा $$h=1 \\mathrm{~m}$$ हैं। समय $$t=0$$ पर कण को $$a=10 \\mathrm{~m} / \\mathrm{s}^{2}$$ के नियत त..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ajne54cg3kkvw0o6jz1e",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "impulse-and-momentum",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle of mass m is attached to one end of a mass-less spring of force constant k, lying on a frictionless horizontal plane. The other end of the spring is fixed. The particle starts moving horizontally from its equilibrium position at time t = 0 with an initial velocity u<sub>0</sub>. When the speed of the particle is 0.5 u<sub>0</sub>. It collides elastically with a rigid wall. After this collision,",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the speed of the particle when it returns to its equilibrium position is u<sub>0</sub>."
+            },
+            {
+              "identifier": "B",
+              "content": "the time at which the particle passes through the equilibrium position for the first time is $$t = \\pi \\sqrt {{m \\over k}} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "the time at which the maximum compression of the spring occurs is $$t = {{4\\pi } \\over 3}\\sqrt {{m \\over k}} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "the time at which the particle passes through the equilibrium position for the second time is $$t = {{5\\pi } \\over 3}\\sqrt {{m \\over k}} $$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzterkym/6623efd8-598f-4fb0-9b5f-9a0ca7147669/a9e638d0-59fd-11ef-a471-47315abdd89b/file-jaoe38c1lzterkyn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzterkym/6623efd8-598f-4fb0-9b5f-9a0ca7147669/a9e638d0-59fd-11ef-a471-47315abdd89b/file-jaoe38c1lzterkyn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2013 Paper 2 Offline Physics - Impulse &amp; Momentum Question 13 English Explanation\"></p>\n<p>Here we will apply the concept of energy conservation and concept of SHM.</p>\n<p>We know that for elastic collision, coefficient of restitution, e = 1</p>\n<p>Hence, $$e = {v \\over {0.5{u_0}}} = 1 \\Rightarrow v = 0.5{u_0}$$</p>\n<p>Therefore, particle rebounds with the same speed after collision.</p>\n<p>Now, by energy conservation of the spring-mass system, we can say that the speed of the particle when it returns to its equilibrium position is $$u_0$$.</p>\n<p>By SHM,</p>\n<p>$$v = {v_{\\max }}\\cos wt$$</p>\n<p>$$ \\Rightarrow 0.5{u_0} = {u_0}\\cos \\left( {\\sqrt {{K \\over m}} t} \\right)$$</p>\n<p>$$ \\Rightarrow {1 \\over 2} = \\cos \\left( {\\sqrt {{K \\over m}} t} \\right)$$</p>\n<p>$$ \\Rightarrow {\\pi  \\over 3} = \\sqrt {{K \\over m}} t$$</p>\n<p>$$ \\Rightarrow t = {\\pi  \\over 3}\\sqrt {{m \\over K}} $$</p>\n<p>Hence, time taken by the particle to reach the wall is $${\\pi  \\over 3}\\sqrt {{m \\over K}} $$</p>\n<p>So the time at which the particle passes through the equilibrium position for the first time is</p>\n<p>$$2t = {{2\\pi } \\over 3}\\sqrt {{m \\over K}} $$</p>\n<p>The time at which the maximum compression of the spring occurs is</p>\n<p>$$t' = 2t + {T \\over 4} = {{2\\pi } \\over 3}\\sqrt {{m \\over K}}  + {{2\\pi } \\over 4}\\sqrt {{m \\over K}} $$</p>\n<p>$$ = \\left( {{2 \\over 3} + {1 \\over 2}} \\right)\\pi \\sqrt {{m \\over K}} $$</p>\n<p>$$t' = {{7\\pi } \\over 6}\\sqrt {{m \\over K}} $$</p>\n<p>The time at which the particle passes through the equilibrium position for the second time is</p>\n<p>$$ = t' + T$$</p>\n<p>$$ = {{7\\pi } \\over 6}\\sqrt {{m \\over K}}  + {\\pi  \\over 2}\\sqrt {{m \\over K}} $$</p>\n<p>$$ = \\left( {{{7\\pi } \\over 6} + {\\pi  \\over 2}} \\right)\\sqrt {{m \\over K}}  = {{10\\pi } \\over 6}\\sqrt {{m \\over K}} $$</p>\n<p>$$ = {{5\\pi } \\over 3}\\sqrt {{m \\over K}} $$</p>\n<p>Hence, options (A) and (D) are correct.</p>"
+        }
+      },
+      "permalink": "a-particle-of-mass-m-is-attached-to-one-end-of-a-mass-less-s-2013-marks-3-zquindf6rydndjpk.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "topic": "motion-of-center-of-mass",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "A particle of mass m is attached to one end of a mass-less spring of force constant k, lying on a frictionless horizontal plane. The other end of the spring is fixed. The particle starts moving horizontally from its equilibrium position at ..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8e840eawcbtpcafyvf29",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "impulse-and-momentum",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle of mass m is projected from the ground with an initial speed u<sub>0</sub> at an angle $$\\alpha $$ with the horizontal. At the highest point of its trajectory, it makes a completely inelastic collision with another identical particle, which was thrown vertically upward from the ground with the same initial speed u<sub>0</sub>. The angle that the composite system makes with the horizontal immediately after the collision is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${\\pi  \\over 4}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${\\pi  \\over 4} + \\alpha $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${\\pi  \\over 2} - \\alpha $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${\\pi  \\over 2}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The situation is depicted in the figure below.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m03fcx5z/b552e8b1-2d47-4d08-b64b-2770ee8a66c8/d1d02860-5f7f-11ef-846c-2991852789a8/file-jaoe38c1m03fcx60.png?format=png\" alt=\"JEE Advanced 2013 Paper 1 Offline Physics - Impulse &amp; Momentum Question 15 English Explanation 1\"></p>\n<p>At the highest point of the first particle’s trajectory, its speed is given by :</p>\n<p>$ \\text{Speed of the first particle} = u_0 \\cos \\alpha $</p>\n<p>For the second particle, which was thrown vertically upward, the speed at its highest point is calculated as :</p>\n<p>$ \\text{Speed of the second particle} = \\sqrt{u_0^2 - 2gH} $</p>\n<p>Where $ H $ is the maximum height reached by the second particle :</p>\n<p>$ H = \\frac{u_0^2 \\sin^2 \\alpha}{2g} $</p>\n<p>Therefore, the speed of the second particle at the highest point becomes :</p>\n<p>$ = \\sqrt{u_0^2 - \\frac{2g \\left( u_0^2 \\sin^2 \\alpha \\right)}{2g}} = \\sqrt{u_0^2 - u_0^2 \\sin^2 \\alpha} = u_0 \\cos \\alpha $</p>\n<p>Thus, at the highest point :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m03fhm4v/cc535f0b-f7f6-400d-b29e-b5359e55bc8a/54569df0-5f80-11ef-846c-2991852789a8/file-jaoe38c1m03fhm4w.png?format=png\" alt=\"JEE Advanced 2013 Paper 1 Offline Physics - Impulse &amp; Momentum Question 15 English Explanation 2\"></p>\n<p>According to the law of conservation of linear momentum in the horizontal direction :</p>\n<p>$ mu_0 \\cos \\alpha = 2mv_1 $</p>\n<p>$ \\implies v_1 = \\frac{u_0 \\cos \\alpha}{2} \\quad \\text{... (i)} $</p>\n<p>In the vertical direction :</p>\n<p>$ mu_0 \\cos \\alpha = 2mv_2 $</p>\n<p>$ \\implies v_2 = \\frac{u_0 \\cos \\alpha}{2} \\quad \\text{... (ii)} $</p>\n<p>Let $ \\theta $ be the angle that the composite system makes with the horizontal immediately after the collision. Then :</p>\n<p>$ \\tan \\theta = \\frac{v_2}{v_1} = 1 \\quad \\text{(Using (i) and (ii))} $</p>\n<p>$ \\therefore \\theta = \\tan^{-1} 1 = 45^\\circ = \\frac{\\pi}{4} $</p>"
+        }
+      },
+      "permalink": "a-particle-of-mass-m-is-projected-from-the-ground-with-an-in-2013-marks-2-jnvxffklhai9cner.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "topic": "collision",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "A particle of mass m is projected from the ground with an initial speed u0 at an angle $$\\alpha $$ with the horizontal. At the highest point of its trajectory, it makes a completely inelastic collision with another identical particle, which..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "gv3r4i58hhqm1ux4uyrf",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "impulse-and-momentum",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>A ball of mass 0.2 kg rests on a vertical post of height 5 m. A bullet\nof mass 0.01 kg, traveling with a velocity V m/s in a horizontal\ndirection, hits the center of the ball. After the collision, the ball and\nbullet travel independently. The ball hits the ground at a distance of\n20 m and the bullet at a distance of 100 m from the foot of the post.\nThe velocity V of the bullet is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2jmg9rn/055e3b55-cec9-4572-a077-76dff48a89a5/be633c30-c748-11ec-8aaf-d9798c3d819c/file-1l2jmg9ro.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2jmg9rn/055e3b55-cec9-4572-a077-76dff48a89a5/be633c30-c748-11ec-8aaf-d9798c3d819c/file-1l2jmg9ro.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Impulse &amp; Momentum Question 16 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "250 m/s"
+            },
+            {
+              "identifier": "B",
+              "content": "$$250\\sqrt 2 $$ m/s"
+            },
+            {
+              "identifier": "C",
+              "content": "400 m/s"
+            },
+            {
+              "identifier": "D",
+              "content": "500 m/s"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The time of flight for the bullet is same as that of the ball and is given by</p>\n<p>$$t = \\sqrt {{{2h} \\over g}}  = \\sqrt {{{2 \\times 5} \\over {10}}}  = 1\\,s$$</p>\n<p>Just after the collision, the velocity of bullet (v<sub>1</sub>) is related to its range (R<sub>1</sub>) by v<sub>1</sub>t = R<sub>1</sub> which gives v<sub>1</sub> = 100 m/s. Similarly, the velocity of the ball is v<sub>2</sub> = 20 m/s. Consider the bullet and the ball together as a system. Along the direction of collision, there is no external force on the system. Hence, linear momentum of the system in the direction of collision is conserved. The linear momentum of the system before and after the collision are</p>\n<p>$${p_i} = {m_1}V$$,</p>\n<p>$${p_f} = {m_1}{v_1} + {m_2}{v_2}$$.</p>\n<p>The conservation of linear momentum, $${p_i} = {p_f}$$, gives</p>\n<p>$$V = {{{m_1}{v_1} + {m_2}{v_2}} \\over {{m_1}}}$$</p>\n<p>$$ = {{(0.01)(100) + (0.2)(20)} \\over {0.01}} = 500$$ m/s.</p>"
+        }
+      },
+      "permalink": "a-ball-of-mass-02-kg-rests-on-a-vertical-post-of-height-5-m-2011-marks-3-rwfkgstefxrvrgbs.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "topic": "impulse-momentum-theorem",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "A ball of mass 0.2 kg rests on a vertical post of height 5 m. A bullet\nof mass 0.01 kg, traveling with a velocity V m/s in a horizontal\ndirection, hits the center of the ball. After the collision, the ball and\nbullet travel independently. T..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9ra1pd90uw2l5g54re7m",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "impulse-and-momentum",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A point mass of 1 kg collides elastically with a stationary point mass of 5 kg. After their collision, the 1 kg\nmass reverses its direction and moves with a speed of 2 ms<sup>−1</sup>. Which of the following statement(s) is (are) correct for the system of these two masses?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Total momentum of the system is 3 kg ms<sup>−1</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "Momentum of 5 kg mass after collision is 4 kg ms<sup>−1</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "Kinetic energy of the centre of mass is 0.75 J"
+            },
+            {
+              "identifier": "D",
+              "content": "Total kinetic energy of the system is 4 J"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l307tx1z/c8712c6a-fe41-492a-8f13-7f85b6d645da/e3ff7a70-d068-11ec-94f4-f735b683eca5/file-1l307tx20.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l307tx1z/c8712c6a-fe41-492a-8f13-7f85b6d645da/e3ff7a70-d068-11ec-94f4-f735b683eca5/file-1l307tx20.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Impulse &amp; Momentum Question 14 English Explanation\"></p>\n<p>Here, m<sub>1</sub> = 1 kg, m<sub>2</sub> = 5 kg</p>\n<p>u<sub>1</sub> = u, u<sub>2</sub> = 0</p>\n<p>v<sub>1</sub> = $$-$$2 m s<sup>$$-$$1</sup>, v<sub>2</sub> = v</p>\n<p>By the law of conservation of linear momentum, we get</p>\n<p>$${m_1}{u_1} + {m_2}{u_2} = {m_1}{u_1} + {m_2}{u_2}$$</p>\n<p>$$1 \\times u + 5 \\times 0 = 1 \\times ( - 2) + 5 \\times v$$</p>\n<p>$$u = 5v - 2$$ ...... (i)</p>\n<p>By the definition of coefficient of restitution,</p>\n<p>$$e = {{{v_2} - {v_1}} \\over {{u_1} - {u_2}}}$$</p>\n<p>For a perfectly elastic collision, e = 1</p>\n<p>$$\\therefore$$ $$1 = {{v + 2} \\over u}$$ or $$u = v + 2$$ ..... (ii)</p>\n<p>Solving equations (i) and (ii), we get</p>\n<p>u = 3 m s<sup>$$-$$1</sup>, v = 1 m s<sup>$$-$$1</sup></p>\n<p>Before collision,</p>\n<p>Total momentum of the system = 1 $$\\times$$ 3 + 5 $$\\times$$ 0 = 3 kg m s<sup>$$-$$1</sup></p>\n<p>After collision,</p>\n<p>Total momentum of the system = 1 $$\\times$$ ($$-$$2) + 5 $$\\times$$ (1) = 3 kg m s<sup>$$-$$1</sup></p>\n<p>Hence, option (a) is correct.</p>\n<p>Momentum of 5 kg mass after collision = 5 $$\\times$$ 1 = 5 kg m s<sup>$$-$$1</sup>.</p>\n<p>Hence, option (b) is incorrect.</p>\n<p>Velocity of centre mass is $${v_{cm}} = {{1 \\times 3 + 5 \\times 0} \\over {1 + 5}} = {1 \\over 2}$$ m s <sup>$$-$$1</sup></p>\n<p>Kinetic energy of the centre of mass</p>\n<p>$$ = {1 \\over 2}{m_{system}}v_{CM}^2 = {1 \\over 2} \\times 6 \\times {\\left( {{1 \\over 2}} \\right)^2} = 0.75$$ J</p>\n<p>Hence, option (c) is correct.</p>\n<p>Before collision,</p>\n<p>Total kinetic energy of the system</p>\n<p>$$ = {1 \\over 2} \\times 1 \\times {3^2} + {1 \\over 2} \\times 5 \\times {0^2} = 4.5$$ J</p>\n<p>After collision,</p>\n<p>Total kinetic energy of the system</p>\n<p>$$ = {1 \\over 2} \\times 1 \\times {( - 2)^2} + {1 \\over 2} \\times 5 \\times {(1)^2} = 4.5$$ J</p>\n<p>Hence, option (d) is incorrect.</p>"
+        }
+      },
+      "permalink": "a-point-mass-of-1-kg-collides-elastically-with-a-stationary-2010-marks-3-11g5olevnxjrqbmq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "collision",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "A point mass of 1 kg collides elastically with a stationary point mass of 5 kg. After their collision, the 1 kg\nmass reverses its direction and moves with a speed of 2 ms−1. Which of the following statement(s) is (are) correct for the syste..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "xknngsdtvcdntk5loncm",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "plook-at-the-drawing-given-in-the-figure-below-which-has-b-jee-advanced-physics-motion-yhnw6zeqjy6nslnq",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Look at the drawing given in the figure below which has been drawn with ink of uniform line-thickness. The mass of ink used to draw each of the two inner circles, and each of the two line segments is $$m$$. the mass of the ink used to draw the outer circle is $$6m$$. The coordinates of the centres of the different parts are: outer circle (0, 0), left inner circle ($$-a,a$$), right inner circle ($$a,a$$), vertical line (0, 0) and horizontal line ($$0,-a$$). The y-coordinate of the centre of mass of the ink in this drawing is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrlj825/0a2046ea-91c6-4a5a-8e55-63638848662b/3c7cc3d0-cd0a-11ed-8631-ff69b196c8e3/file-1lfrlj826.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrlj825/0a2046ea-91c6-4a5a-8e55-63638848662b/3c7cc3d0-cd0a-11ed-8631-ff69b196c8e3/file-1lfrlj826.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Impulse &amp; Momentum Question 7 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\frac{a}{10}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\frac{a}{8}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\frac{a}{12}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\frac{a}{3}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The coordinates of centre of mass is defined as</p>\n<p>$${R_{CM}} = {{\\sum\\nolimits_i {{m_i}{r_i}} } \\over {\\sum\\nolimits_i {{m_i}} }}$$</p>\n<p>Thus,</p>\n<p>$${Y_{CM}} = {{(6m \\times 0) + (m \\times a) + (m \\times a) + (m \\times 0) + (m \\times  - a)} \\over {6m + m + m + m + m}} = {a \\over {10}}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "center-of-mass-of-continuous-mass-distribution",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "Look at the drawing given in the figure below which has been drawn with ink of uniform line-thickness. The mass of ink used to draw each of the two inner circles, and each of the two line segments is $$m$$. the mass of the ink used to draw ..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "8aym1x3t2e67wsm2miq1",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "ptwo-small-particles-of-equal-masses-start-moving-in-oppos-jee-advanced-physics-motion-dnhvejq9i0z3kila",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Two small particles of equal masses start moving in opposite directions from a point A in a horizontal circular orbit. Their tangential velocities are $$v$$ and 2$$v$$, respectively, as shown in the figure. Between collisions, the particles move with constant speeds. After making how many elastic collisions, other than that at A, these two particles will again reach the point A?</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrllifl/ed4f5fa5-b18e-4d80-a5a4-1cb7200e875a/7c1e7010-cd0a-11ed-8124-cf50c8498624/file-1lfrllifm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrllifl/ed4f5fa5-b18e-4d80-a5a4-1cb7200e875a/7c1e7010-cd0a-11ed-8124-cf50c8498624/file-1lfrllifm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Impulse &amp; Momentum Question 8 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "4"
+            },
+            {
+              "identifier": "B",
+              "content": "3"
+            },
+            {
+              "identifier": "C",
+              "content": "2"
+            },
+            {
+              "identifier": "D",
+              "content": "1"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The faster particle covers twice the distance covered by the slower one and they meet each other whenever the slower one covers an angular displacement of $$2\\pi/3$$. since the masses are same at each collision, they interchange the velocity. The number of meeting points is $$\\frac{2\\pi}{2\\pi/3}=3$$ points; hence, they meet at two points other than A.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrlmtcg/666380ba-a42a-455a-a2a4-d43a7c97e544/a05ba100-cd0a-11ed-8124-cf50c8498624/file-1lfrlmtch.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrlmtcg/666380ba-a42a-455a-a2a4-d43a7c97e544/a05ba100-cd0a-11ed-8124-cf50c8498624/file-1lfrlmtch.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Impulse &amp; Momentum Question 8 English Explanation\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "collision",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "Two small particles of equal masses start moving in opposite directions from a point A in a horizontal circular orbit. Their tangential velocities are $$v$$ and 2$$v$$, respectively, as shown in the figure. Between collisions, the particles..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "94gutz85mw3bb227cq8e",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pif-collision-between-the-block-and-the-incline-is-complet-jee-advanced-physics-motion-ahjtoxkmqydehbbo",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>If collision between the block and the incline is completely elastic, then the vertical (upward) component of the velocity of the block at point B, immediately after it strikes the second incline is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sqrt{30}$$ m/s"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt{15}$$ m/s"
+            },
+            {
+              "identifier": "C",
+              "content": "0"
+            },
+            {
+              "identifier": "D",
+              "content": "$$-\\sqrt{15}$$ m/s"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>$${v_V} = v\\sin 30^\\circ \\cos 30^\\circ  - v\\cos 30^\\circ \\cos 60^\\circ  = 0$$</p>",
+          "comprehension": "<p>A small block of mass M moves on a frictionless surface of an inclined plane, as shown in figure. The angle of the incline suddenly changes from 60$$^\\circ$$ to 30$$^\\circ$$ at point B. The block is initially at rest at A. Assume that collisions between the block and the incline are totally inelastic (g = 10 m/s$$^2$$).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgl79uia/b09be5ba-460c-45ed-8b40-66e4456457b3/fb693920-dd51-11ed-a791-9b5e9df9524e/file-1lgl79uib.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgl79uia/b09be5ba-460c-45ed-8b40-66e4456457b3/fb693920-dd51-11ed-a791-9b5e9df9524e/file-1lgl79uib.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Physics - Impulse &amp; Momentum Question 5 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "collision",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "If collision between the block and the incline is completely elastic, then the vertical (upward) component of the velocity of the block at point B, immediately after it strikes the second incline is"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "icd9eazysf0oetin6pmv",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "ptwo-balls-having-linear-momenta-overrightarrow-p-1-jee-advanced-physics-motion-pabv2zleafjb615c",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Two balls, having linear momenta $${\\overrightarrow p _1} = p\\widehat i$$ and $${\\overrightarrow p _2} =  - p\\widehat i$$, undergo a collision in free space. There is no external force acting on the balls. Let $${\\overrightarrow {p'} _1}$$ and $${\\overrightarrow {p'} _2}$$ be their final momenta. The following option(s) is (are) <b>NOT ALLOWED</b> for any non-zero value of $$p,{a_1},{a_2},{b_1},{b_2},{c_1}$$ and $${c_2}$$ :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${\\overrightarrow {p'} _1} = {a_1}\\widehat i + {b_1}\\widehat j + {c_1}\\widehat k;{\\overrightarrow {p'} _2} = {a_2}\\widehat i + {b_2}\\widehat j$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${\\overrightarrow {p'} _1} = {c_1}\\widehat k;{\\overrightarrow {p'} _2} = {c_2}\\widehat k$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${\\overrightarrow {p'} _1} = {a_1}\\widehat i + {b_1}\\widehat j + {c_1}\\widehat k;{\\overrightarrow {p'} _2} = {a_2}\\widehat i + {b_2}\\widehat j - {c_1}\\widehat k$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${\\overrightarrow {p'} _1} = {a_1}\\widehat i + {b_1}\\widehat j;{\\overrightarrow {p'} _2} = {a_2}\\widehat i + {b_1}\\widehat j$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "In free space, there is no external force. Hence linear momentum of the system is conserved. Initial and final linear momentum of the system are\n<br/><br/>$$\n\\begin{aligned}\n& \\vec{p}_i=\\vec{p}_1+\\vec{p}_2=\\hat{p}-\\hat{\\imath} \\hat{\\imath}=\\overrightarrow{0}, \\\\\\\\\n& \\vec{p}_f=\\vec{p}_1^{\\prime}+\\vec{p}_2^{\\prime} .\n\\end{aligned}\n$$\n<br/><br/>The conservation of linear momentum, $\\vec{p}_i=\\vec{p}_f$ gives\n<br/><br/>$$\n\\vec{p}_1^{\\prime}+\\vec{p}_2^{\\prime}=\\overrightarrow{0} .\n$$\n<br/><br/>In case $(A)$,\n<br/><br/>$$\n\\begin{aligned}\n\\vec{p}_1^{\\prime}+\\vec{p}_2^{\\prime} & =\\left(a_1+a_2\\right) \\hat{\\imath}+\\left(b_1+b_2\\right) \\hat{\\jmath}+c_1 \\hat{k} \\\\\\\\\n& \\neq \\overrightarrow{0}, \\quad\\left(\\because c_1 \\neq 0\\right) .\n\\end{aligned}\n$$\n<br/><br/>In case $(B)$,\n<br/><br/>$$\n\\begin{aligned}\n\\vec{p}_1^{\\prime}+\\vec{p}_2^{\\prime} & =\\left(c_1+c_2\\right) \\hat{k} \\\\\\\\\n& =\\overrightarrow{0}, \\quad\\left(\\text { if } c_2=-c_1\\right) .\n\\end{aligned}\n$$\n<br/><br/>In case $(\\mathrm{C})$,\n<br/><br/>$$\n\\begin{aligned}\n\\vec{p}_1^{\\prime}+\\vec{p}_2^{\\prime} & =\\left(a_1+a_2\\right) \\hat{\\imath}+\\left(b_1+b_2\\right) \\hat{\\jmath} \\\\\\\\\n& =\\overrightarrow{0}, \\quad\\left(\\text { if } a_2=-a_1 \\text { and } b_2=-b_1\\right) .\n\\end{aligned}\n$$\n<br/><br/>In case (D),\n<br/><br/>$$\n\\begin{aligned}\n\\vec{p}_1^{\\prime}+\\vec{p}_2^{\\prime} & =\\left(a_1+a_2\\right) \\hat{\\imath}+2 b_1 \\hat{\\jmath} \\\\\\\\\n& \\neq \\overrightarrow{0}, \\quad\\left(\\because b_1 \\neq 0\\right) .\n\\end{aligned}\n$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "impulse-momentum-theorem",
+      "type": "mcqm",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "Two balls, having linear momenta $${\\overrightarrow p _1} = p\\widehat i$$ and $${\\overrightarrow p _2} =  - p\\widehat i$$, undergo a collision in free space. There is no external force acting on the balls. Let $${\\overrightarrow {p'} _1}$$ ..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "hhb3kr1872ljpxb3odth",
+      "chapter": "impulse-and-momentum",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pstatement-1p-pin-an-elastic-collision-between-two-bo-jee-advanced-physics-motion-fucixunvvspk53ty",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p><b>Statement 1 :</b></p>\n<p>In an elastic collision between two bodies, the relative speed of the bodies after collision is equal to the relative speed before the collision.</p>\n<p><b>Statement 2 :</b></p>\n<p>In an elastic collision, the linear momentum of the system is conserved.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement 1 is True, Statement 2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement 1 is False, Statement 2 is True"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Statement 1 : For an elastic collision, the coefficient of restitution = 1</p>\n<p>$$e = \\left| {{{{v_2} - {v_1}} \\over {{u_1} - {u_2}}}} \\right|$$</p>\n<p>$$ \\Rightarrow |{v_2} - {v_1}| = |{u_1} - {u_2}|$$</p>\n<p>Relative velocity after collision is equal to relative velocity before collision. But in the statement relative speed is given.</p>\n<p>Statement 2 : Linear momentum remains conserved in an elastic collision. This statement is true.</p>\n<p>Hint :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggd4unr/673abb09-393f-44ba-91a4-be7d7311ec37/c5a6b470-a360-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggd4uns.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggd4unr/673abb09-393f-44ba-91a4-be7d7311ec37/c5a6b470-a360-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggd4uns.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Impulse &amp; Momentum Question 4 English Explanation 1\">\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggd5cgo/47dce429-b3cc-421b-9612-c625cd96eb38/d3675d80-a360-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggd5cgp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggd5cgo/47dce429-b3cc-421b-9612-c625cd96eb38/d3675d80-a360-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggd5cgp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Impulse &amp; Momentum Question 4 English Explanation 2\">\n</p>\n<p>Relative velocity before collision $$ = |{u_1} - {u_2}|$$</p>\n<p>Relative velocity after collision $$ = |{v_1} - {v_2}|$$</p>\n<p>Elastic collision $$ = e = 1$$</p>\n<p>$$e = \\left| {{{{v_1} - {v_2}} \\over {{u_1} - {u_2}}}} \\right| = 1$$</p>\n<p>$$ \\Rightarrow |{v_1} - {v_2}| = |{u_1} - {u_2}|$$</p>\n<p>So statement 1 false</p>\n<p>$$\\sum {{F_{ext}} = 0} $$, So momentum should be conserved.</p>\n<p>Statement 2 is true.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "collision",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Impulse and Momentum • Physics",
+          "excerpt": "Statement 1 :\nIn an elastic collision between two bodies, the relative speed of the bodies after collision is equal to the relative speed before the collision.\nStatement 2 :\nIn an elastic collision, the linear momentum of the system is cons..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    }
+  ]
+}

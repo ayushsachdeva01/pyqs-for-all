@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "question_id": "qgl3rfrdb7z1m358tjjn",
+      "chapter": "chemistry-in-everyday-life",
+      "chapterGroup": "organic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-1-online",
+      "paperTitle": "JEE Advanced 2024 Paper 1 Online",
+      "permalink": "aspartame-an-artificial-sweetener-is-a-dipeptide-aspartyl-jee-advanced-chemistry-s4z9htojqrnjfhfg",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Aspartame, an artificial sweetener, is a dipeptide aspartyl phenylalanine methyl ester. The structure of aspartame is\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwrajwhl/63bbb465-1897-48a4-8f9d-e3d7b5922a2f/f8610290-1d6e-11ef-9432-0dd564193bb4/file-6y3zli1lwrajwhm.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwrajwhl/63bbb465-1897-48a4-8f9d-e3d7b5922a2f/f8610290-1d6e-11ef-9432-0dd564193bb4/file-6y3zli1lwrajwhm.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwran0f5/41a7a9cb-be0b-430b-9c66-16601e7ba8c4/4ed80510-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwran0f6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwran0f5/41a7a9cb-be0b-430b-9c66-16601e7ba8c4/4ed80510-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwran0f6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwramwzm/2f59a341-9356-4bb7-9157-bce19ea84939/4c317620-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwramwzn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwramwzm/2f59a341-9356-4bb7-9157-bce19ea84939/4c317620-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwramwzn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwramtgp/e3720379-c6e3-4f6e-8d73-f2f1381c4076/49784990-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwramtgq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwramtgp/e3720379-c6e3-4f6e-8d73-f2f1381c4076/49784990-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwramtgq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwrampmz/44ddfb66-7865-4618-b882-b94d11327c7a/4683e8c0-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwrampn0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwrampmz/44ddfb66-7865-4618-b882-b94d11327c7a/4683e8c0-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwrampn0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Aspartame structure is a dipeptide consisting aspartic acid and methyl ester of phenylalanine</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lxj2pexr/1fd53ece-664c-49bd-8389-2426c12712c4/3ad396f0-2cb6-11ef-89b4-1522032c1a82/file-jaoe38c1lxj2pexs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lxj2pexr/1fd53ece-664c-49bd-8389-2426c12712c4/3ad396f0-2cb6-11ef-89b4-1522032c1a82/file-jaoe38c1lxj2pexs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 English Explanation\">"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "एस्पार्टेम (aspartame) एक कृत्रिम मधुरक है। यह एक डाईपेप्टाइड एस्पार्टिल फेनिलऐलानिन मेथिल एस्टर (aspartyl phenylalanine methyl ester) है। एस्पार्टेम की सरंचना है<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lxio04vv/02347e9c-b77b-464a-9c5e-7a9280984b43/bc07a840-2c7c-11ef-9d06-e3271b3ec439/file-jaoe38c1lxio04w5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lxio04vv/02347e9c-b77b-464a-9c5e-7a9280984b43/bc07a840-2c7c-11ef-9d06-e3271b3ec439/file-jaoe38c1lxio04w5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwran0f5/41a7a9cb-be0b-430b-9c66-16601e7ba8c4/4ed80510-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwran0f6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwran0f5/41a7a9cb-be0b-430b-9c66-16601e7ba8c4/4ed80510-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwran0f6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 Hindi Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwramwzm/2f59a341-9356-4bb7-9157-bce19ea84939/4c317620-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwramwzn.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwramwzm/2f59a341-9356-4bb7-9157-bce19ea84939/4c317620-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwramwzn.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 Hindi Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwramtgp/e3720379-c6e3-4f6e-8d73-f2f1381c4076/49784990-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwramtgq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwramtgp/e3720379-c6e3-4f6e-8d73-f2f1381c4076/49784990-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwramtgq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 Hindi Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwrampmz/44ddfb66-7865-4618-b882-b94d11327c7a/4683e8c0-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwrampn0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwrampmz/44ddfb66-7865-4618-b882-b94d11327c7a/4683e8c0-1d6f-11ef-9432-0dd564193bb4/file-6y3zli1lwrampn0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 Hindi Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>एस्पार्टेम की संरचना एक डाइपेप्टाइड है जिसमें एस्पार्टिक अम्ल और फेनिलएलानिन का मेथिल एस्टर शामिल है</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lxj2pexr/1fd53ece-664c-49bd-8389-2426c12712c4/3ad396f0-2cb6-11ef-89b4-1522032c1a82/file-jaoe38c1lxj2pexs.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lxj2pexr/1fd53ece-664c-49bd-8389-2426c12712c4/3ad396f0-2cb6-11ef-89b4-1522032c1a82/file-jaoe38c1lxj2pexs.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Chemistry - Chemistry in Everyday Life Question 1 Hindi Explanation\">"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "chemicals-in-foods",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Chemistry In Everyday Life • Chemistry",
+          "excerpt": "Aspartame, an artificial sweetener, is a dipeptide aspartyl phenylalanine methyl ester. The structure of aspartame is\n"
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Chemistry In Everyday Life • Chemistry",
+          "excerpt": "एस्पार्टेम (aspartame) एक कृत्रिम मधुरक है। यह एक डाईपेप्टाइड एस्पार्टिल फेनिलऐलानिन मेथिल एस्टर (aspartyl phenylalanine methyl ester) है। एस्पार्टेम की सरंचना है\n"
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-1-online"
+    }
+  ]
+}

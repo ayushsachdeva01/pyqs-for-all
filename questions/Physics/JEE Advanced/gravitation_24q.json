@@ -1,0 +1,1712 @@
+{
+  "questions": [
+    {
+      "question_id": "qnudf5zrl6o7loeiwmmb",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pa-particle-of-mass-imi-and-angular-momentum-i84-jee-advanced-physics-lop5rjh0dy4wpuuy",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A particle of mass <i>m</i>, and angular momentum <i>&#8467;</i> is moving in a circular orbit of radius <i>r</i><sub>0</sub> under the influence of an attractive force $\\vec{F}(r)=-\\frac{k}{r^2} \\hat{r}$. Keeping its angular momentum unchanged, the particle is displaced radially by a small distance $\\delta r \\ll r_0$, due to which its radial distance varies periodically. The corresponding time period is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$\\frac{2 \\pi \\ell^3}{mk^2}$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$2\\pi \\sqrt{\\frac{m}{k}}$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\frac{2 \\pi \\ell^3}{3mk^2}$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$\\frac{2 \\pi \\ell^3}{5mk^2}$</p>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The particle of mass $m$ moving in a plane under a central force field $\\vec{F}(r)=F(r) \\hat{r}$.</p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Physics - Gravitation Question 1 English Explanation\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpp4y4h7/5df6c5ea-bdbf-4042-81df-8f708b8f8cd0/c1cb26c0-5a61-11f1-a82b-8fccf67591bd/file-6y3zli1mpp4y4h8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpp4y4h7/5df6c5ea-bdbf-4042-81df-8f708b8f8cd0/c1cb26c0-5a61-11f1-a82b-8fccf67591bd/file-6y3zli1mpp4y4h8.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>In polar coordinates $(r, \t\\theta)$, the position vector is $r = r\\hat{r}$.</p>\n<p>Differentiating the position vector with respect to time gives the velocity vector:</p>\n<p>$$\\vec{v} = \\left(\\frac{dr}{dt}\\right) \\hat{r} + r\\frac{d\\theta}{dt} \\hat{\\theta}$$</p>\n<p>Differentiating once more gives the acceleration vector:</p>\n<p>$$\\vec{a} = \\left(\\frac{d^2 r}{dt^2} - r\\left(\\frac{d\\theta}{dt}\\right)^2\\right) \\hat{r} + \\left(r\\frac{d^2\\theta}{dt^2} + 2\\left(\\frac{dr}{dt}\\right)\\right) \\hat{\\theta}$$</p>\n<p>By Newton's second law, $\\vec{F} = m\\vec{a}$. Since the force is purely radial, the transverse component of acceleration must be zero, which means the angular momentum $l$ is a conserved quantity.</p>\n<p>$$l = m r^2 \\omega \\Rightarrow \\frac{d\\theta}{dt} = \\frac{l}{m\\,r^2}$$</p>\n<p>Using Newton's second law for the radial component:</p>\n<p>$$m\\left(\\frac{d^2 r}{dt^2} - r\\left(\\frac{d\\theta}{dt}\\right)^2\\right) = F(r)$$</p>\n<p>$$m\\left(\\frac{d^2 r}{dt^2} - r\\left(\\frac{l}{m\\,r^2}\\right)^2\\right) = F(r)$$</p>\n<p>$$m\\frac{d^2 r}{dt^2} - \\frac{l^2}{m\\,r^3} = F(r)$$</p>\n<p>$$m\\frac{d^2 r}{dt^2} = \\frac{l^2}{m\\,r^3} + F(r)$$</p>\n<p>The given attractive force is $F(r)=-kr^2$, the equation becomes:</p>\n<p>$$m\\frac{d^2r}{dt^2}=\\frac{l^2}{mr^3}-kr^2$$</p>\n<p>For a perfect circular orbit of constant radius $r_0$, the radial distance does not change over time,</p>\n<p>$$\\frac{dr}{dt}=0 \\text{ and } \\frac{d^2r}{dt^2}=0.$$</p>\n<p>From the radial equation of motion:</p>\n<p>$$\\frac{l^2}{mr_0^3}-\\frac{k}{r_0^2}=0$$</p>\n<p>$$\\frac{l^2}{mr_0^3}=\\frac{k}{r_0^2} \\Rightarrow r_0=\\frac{l^2}{mk}$$</p>\n<p>When the particle is given a small radial displacement $\\delta\\, r$ from its equilibrium position $r_0$. Let its instantaneous radius be:</p>\n<p>$$r=r_0+\\delta\\, r$$</p>\n<p>Taking the second time derivative, since $r_0$ is a constant:</p>\n<p>$$\\frac{d^2r}{dt^2}=\\frac{d^2}{dt^2}(r_0+\\delta\\, r)=\\frac{d^2\\delta r}{dt^2}$$</p>\n<p>$$m\\frac{d^2\\delta r}{dt^2}=\\frac{l^2}{m(r_0+\\delta r)^3}-\\frac{k}{(r_0+\\delta r)^2}$$</p>\n<p>$$m\\frac{d^2\\delta r}{dt^2}=\\frac{l^2}{m r_0^3\\left(1+\\frac{\\delta r}{r_0}\\right)^3}-\\frac{k}{r_0^2\\left(1+\\frac{\\delta r}{r_0}\\right)^2}$$</p>\n<p>$$m\\frac{d^2\\delta r}{dt^2}=\\frac{l^2}{m r_0^3}\\left(1+\\frac{\\delta r}{r_0}\\right)^{-3}-\\frac{k}{r_0^2}\\left(1+\\frac{\\delta r}{r_0}\\right)^{-2}$$</p>\n<p>$$m\\frac{d^2\\delta r}{dt^2}=\\frac{l^2}{m r_0^3}\\left(1+\\frac{\\delta r}{r_0}\\right)^{-3}-\\frac{k}{r_0^2}\\left(1+\\frac{\\delta r}{r_0}\\right)^{-2}$$</p>\n<p>Since $\\delta\\, r \\ll r_0$, we can use the binomial expansion $(1+x)^n \\approx 1+nx$ for $|x| \\ll 1$:</p>\n<p>$$m\\frac{d^2\\delta r}{dt^2}\\approx \\frac{l^2}{m r_0^3}\\left(1-3\\frac{\\delta r}{r_0}\\right)-\\frac{k}{r_0^2}\\left(1-2\\frac{\\delta r}{r_0}\\right)$$</p>\n<p>$$m\\frac{d^2\\delta r}{dt^2}\\approx \\left(\\frac{l^2}{m r_0^3}-\\frac{k}{r_0^2}\\right)-\\left(\\frac{3l^2}{m r_0^3}-\\frac{2k}{r_0^2}\\right)\\delta r$$</p>\n<p>From the equilibrium condition $\\frac{l^2}{m r_0^3}-\\frac{k}{r_0^2}=0.$</p>\n<p>$$ \\mathrm{m} \\frac{\\mathrm{~d}^2 \\delta \\mathrm{r}}{\\mathrm{dt}^2} \\approx=-\\left(\\frac{3 \\mathrm{l}^2}{\\mathrm{mr}_0^4}-\\frac{2 \\mathrm{k}}{\\mathrm{r}_0^3}\\right) \\delta \\mathrm{r} $$</p>\n<p>Substituting $\\mathrm{l}^2=\\mathrm{mkr}_0$ from the equilibrium condition</p>\n<p>$$ \\frac{3\\left(\\mathrm{mkr}_0\\right)}{\\mathrm{m} \\mathrm{r}_0^4}-\\frac{2 \\mathrm{k}}{\\mathrm{r}_0^3}=\\frac{3 \\mathrm{k}}{\\mathrm{r}_0^3}-\\frac{2 \\mathrm{k}}{\\mathrm{r}_0^3}=\\frac{\\mathrm{k}}{\\mathrm{r}_0^3} $$</p>\n<p>The standard simple harmonic motion (SHM) form $\\frac{\\mathrm{d}^2 \\delta \\mathrm{r}}{\\mathrm{dt}^2}=-\\omega^2 \\delta \\mathrm{r}$ :</p>\n<p>$$ \\mathrm{m} \\frac{\\mathrm{~d}^2 \\delta \\mathrm{r}}{\\mathrm{dt}^2}=-\\frac{\\mathrm{k}}{\\mathrm{r}_0^3} \\delta \\mathrm{r} \\Rightarrow \\frac{\\mathrm{~d}^2 \\delta \\mathrm{r}}{\\mathrm{dt}^2}=-\\left(\\frac{\\mathrm{k}}{\\mathrm{mr}_0^3}\\right) \\delta \\mathrm{r} $$</p>\n<p>Thus, the angular frequency of the radial oscillations is:</p>\n<p>$$ \\omega=\\sqrt{\\frac{\\mathrm{k}}{\\mathrm{mr}_0^3}} $$</p>\n<p>The relationship for the time period T of an oscillation is:</p>\n<p>$$ \\mathrm{T}=\\frac{2 \\pi}{\\omega}=2 \\pi \\sqrt{\\frac{\\mathrm{mr}_0^3}{\\mathrm{k}}} $$</p>\n<p>Using $\\mathrm{r}_0=\\frac{\\mathrm{l}^2}{\\mathrm{mk}}$ :</p>\n<p>$$ \\mathrm{T}=2 \\pi \\sqrt{\\frac{\\mathrm{~m}}{\\mathrm{k}}\\left(\\frac{\\mathrm{l}^2}{\\mathrm{mk}}\\right)^3}=2 \\pi \\sqrt{\\frac{\\mathrm{~m}}{\\mathrm{k}} \\frac{\\mathrm{l}^6}{\\mathrm{~m}^3 \\mathrm{k}^3}}=2 \\pi \\sqrt{\\frac{\\mathrm{l}^6}{\\mathrm{~m}^2 \\mathrm{k}^4}}=\\frac{2 \\pi \\mathrm{l}^3}{\\mathrm{mk}^2} $$</p>\n<p>Therefore, the correct option is (A).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "type": "mcq",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A particle of mass m, and angular momentum ℓ is moving in a circular orbit of radius r0 under the influence of an attractive force $\\vec{F}(r)=-\\frac{k}{r^2} \\hat{r}$. Keeping its angular momentum unchanged, the particle is displaced radial..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "po6gxve1csqkn4jbpx3k",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": true,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "pconsider-a-star-of-mass-imsub2subi-kg-revolving-jee-advanced-physics-lymbxqgi9sb5mszz",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider a star of mass <i>m<sub>2</sub></i> kg revolving in a circular orbit around another star of mass <i>m<sub>1</sub></i> kg with <i>m<sub>1</sub> \\gg m<sub>2</sub></i>. The heavier star slowly acquires mass from the lighter star at a constant rate of $\\gamma$ kg/s. In this transfer process, there is no other loss of mass. If the separation between the centers of the stars is <i>r</i>, then its relative rate of change $\\frac{1}{r}\\frac{dr}{dt}$ (in s<sup>−1</sup>) is given by:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$-\\frac{3\\gamma}{2m_{2}}$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$-\\frac{2\\gamma}{m_{2}}$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$-\\frac{2\\gamma}{m_{1}}$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$-\\frac{3\\gamma}{2m_{1}}$</p>"
+            }
+          ],
+          "correct_options": [],
+          "answer": null,
+          "explanation": "<p>To determine the relative rate of change of the separation between the two stars, let's first understand the relationship governing their motion. </p>\n\n<p><p><strong>Equilibrium of Forces</strong>:</p>\n<p>$    m_2 \\omega^2 r = \\frac{G m_1 m_2}{r^2}    $</p>\n<p>Here, $ \\omega $ is the angular velocity. From the balance of gravitational force and the centripetal force, we can solve for $ \\omega $:</p>\n<p>$    \\omega = \\sqrt{\\frac{G m_1}{r^3}}    $</p></p>\n<p><p><strong>Angular Momentum (L)</strong>:</p>\n<p>$    L = m_2 \\omega r^2 = m_2 \\sqrt{\\frac{G m_1}{r^3}} r^2    $</p>\n<p>Simplifying, we find:</p>\n<p>$    L = m_2 \\sqrt{G m_1 r} = \\text{constant}    $</p></p>\n<p><p><strong>Differential Relation</strong>:</p>\n<p>Taking the natural logarithm of the angular momentum expression:</p>\n<p>$    \\ln L = \\ln m_2 + \\ln G + \\frac{1}{2} \\ln m_1 + \\frac{1}{2} \\ln r    $</p>\n<p>Since $ L $ is constant, differentiate both sides:</p>\n<p>$    0 = \\frac{dm_2}{m_2} + \\frac{1}{2} \\frac{dm_1}{m_1} + \\frac{1}{2} \\frac{dr}{r}    $</p></p>\n<p><p><strong>Rate of Change of Separation (r)</strong>:</p>\n<p>Solving for $\\frac{dr}{r}$, we arrive at:</p>\n<p>$    \\frac{1}{r} \\frac{dr}{dt} = -\\frac{2}{m_2} \\frac{dm_2}{dt} - \\frac{1}{m_1} \\frac{dm_1}{dt}    $</p>\n<p>Since mass is transferred at a constant rate $ \\gamma $, we have $ \\frac{dm_1}{dt} = \\gamma $ and $ \\frac{dm_2}{dt} = - \\gamma $.</p></p>\n<p><p><strong>Substitute the Variable Rates</strong>:</p>\n<p>Substituting these values:</p>\n<p>$    \\frac{1}{r} \\frac{dr}{dt} = -\\frac{2(-\\gamma)}{m_2} - \\frac{\\gamma}{m_1} \\approx -\\frac{2\\gamma}{m_2}    $</p></p>\n\n<p>Thus, the relative rate of change of the separation between the stars is approximately $-\\frac{2\\gamma}{m_2}$ s$^{-1}$.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना कि $m_2 \\mathrm{~kg}$ द्रव्यमान का एक तारा (star) $m_1 \\mathrm{~kg}$ द्रव्यमान के दूसरे तारे के परितः वृत्ताकार कक्षा (circulas orbit) में परिक्रमा कर रहा है और $m_1 \\gg m_2$ है। भारी तारा हल्के तारे से $\\gamma \\mathrm{kg} / \\mathrm{s}$ की धीमी नियत दर (slow constant rate) से द्रव्यमान ग्रहण करता है। इस स्थानांतरण प्रक्रिया में द्रव्यमान की और कोई हानि नहीं होती है। यदि तारों के केंद्र बिन्दुओं के बीच की दूरी $r$ है तब इसकी सापेक्षिक परिवर्तन दर (relative rate of change) $\\frac{1}{r} \\frac{d r}{d t}\\left(\\mathrm{~s}^{-1}\\right.$ में $)$ है:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$-\\frac{3 \\gamma}{2 m_2}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$-\\frac{2 \\gamma}{m_2}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$-\\frac{2 \\gamma}{m_1}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$-\\frac{3 \\gamma}{2 m_1}$"
+            }
+          ],
+          "correct_options": [],
+          "answer": null,
+          "explanation": "<p>दो तारों के बीच पृथक्करण की सापेक्ष परिवर्तन दर निर्धारित करने के लिए, आइए पहले उनकी गति को नियंत्रित करने वाले संबंध को समझें।</p>\n\n<p><p><strong>बलों का संतुलन</strong>:</p>\n<p>$    m_2 \\omega^2 r = \\frac{G m_1 m_2}{r^2}    $</p>\n<p>यहाँ, $ \\omega $ कोणीय वेग है। गुरुत्वाकर्षण बल और अभिकेन्द्र बल के संतुलन से, हम $ \\omega $ के लिए हल कर सकते हैं:</p>\n<p>$    \\omega = \\sqrt{\\frac{G m_1}{r^3}}    $</p></p>\n<p><p><strong>कोणीय संवेग (L)</strong>:</p>\n<p>$    L = m_2 \\omega r^2 = m_2 \\sqrt{\\frac{G m_1}{r^3}} r^2    $</p>\n<p>सरलीकृत करने पर, हम पाते हैं:</p>\n<p>$    L = m_2 \\sqrt{G m_1 r} = \\text{नियतांक}    $</p></p>\n<p><p><strong>अवकलज संबंध</strong>:</p>\n<p>कोणीय संवेग व्यंजक का प्राकृतिक लघुगणक लेने पर:</p>\n<p>$    \\ln L = \\ln m_2 + \\ln G + \\frac{1}{2} \\ln m_1 + \\frac{1}{2} \\ln r    $</p>\n<p>चूँकि $ L $ नियतांक है, दोनों पक्षों का अवकलन करने पर:</p>\n<p>$    0 = \\frac{dm_2}{m_2} + \\frac{1}{2} \\frac{dm_1}{m_1} + \\frac{1}{2} \\frac{dr}{r}    $</p></p>\n<p><p><strong>पृथक्करण की परिवर्तन दर (r)</strong>:</p>\n<p>$\\frac{dr}{r}$ के लिए हल करने पर, हम प्राप्त करते हैं:</p>\n<p>$    \\frac{1}{r} \\frac{dr}{dt} = -\\frac{2}{m_2} \\frac{dm_2}{dt} - \\frac{1}{m_1} \\frac{dm_1}{dt}    $</p>\n<p>चूँकि द्रव्यमान नियत दर $ \\gamma $ पर स्थानांतरित होता है, हमारे पास $ \\frac{dm_1}{dt} = \\gamma $ और $ \\frac{dm_2}{dt} = - \\gamma $ है।</p></p>\n<p><p><strong>चर दरों को प्रतिस्थापित करें</strong>:</p>\n<p>इन मानों को प्रतिस्थापित करने पर:</p>\n<p>$    \\frac{1}{r} \\frac{dr}{dt} = -\\frac{2(-\\gamma)}{m_2} - \\frac{\\gamma}{m_1} \\approx -\\frac{2\\gamma}{m_2}    $</p></p>\n\n<p>इस प्रकार, तारों के बीच पृथक्करण की सापेक्ष परिवर्तन दर लगभग $-\\frac{2\\gamma}{m_2}$ s$^{-1}$ है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "type": "mcq",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "Consider a star of mass m2 kg revolving in a circular orbit around another star of mass m1 kg with m1 \\gg m2. The heavier star slowly acquires mass from the lighter star at a constant rate of $\\gamma$ kg/s. In this transfer process, there i..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "माना कि $m_2 \\mathrm{~kg}$ द्रव्यमान का एक तारा (star) $m_1 \\mathrm{~kg}$ द्रव्यमान के दूसरे तारे के परितः वृत्ताकार कक्षा (circulas orbit) में परिक्रमा कर रहा है और $m_1 \\gg m_2$ है। भारी तारा हल्के तारे से $\\gamma \\mathrm{kg} / \\mathrm{s}..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "lb0t407ggx089srj0f7s",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "a-geostationary-satellite-above-the-equator-is-orbiting-arou-jee-advanced-physics-as6cqtlvdj0mlfpz",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A geostationary satellite above the equator is orbiting around the earth at a fixed distance $r_1$ from the center of the earth. A second satellite is orbiting in the equatorial plane in the opposite direction to the earth's rotation, at a distance $r_2$ from the center of the earth, such that $r_1=1.21 r_2$. The time period of the second satellite as measured from the geostationary satellite is $\\frac{24}{p}$ hours. The value of $p$ is _________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.3TO2.4",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mayxwyi9/fc9b3319-8dc8-49e2-a485-c7184fd77e03/d9473210-36ce-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayxwyia.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mayxwyi9/fc9b3319-8dc8-49e2-a485-c7184fd77e03/d9473210-36ce-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayxwyia.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Gravitation Question 3 English Explanation\">\n<p>For satellites, the time period $ T $ is proportional to the distance to the power of $ \\frac{3}{2} $:</p>\n<p>$ T \\propto r^{\\frac{3}{2}} $</p>\n<p>This gives us the ratio of the time periods for the second and first satellites:</p>\n<p>$ \\frac{T_2}{T_1} = \\left(\\frac{r_2}{r_1}\\right)^{\\frac{3}{2}} $</p>\n<p>Converting this to angular velocity, $ \\omega $, which is inversely proportional to the time period, we have:</p>\n<p>$ \\frac{\\omega_2}{\\omega_1} = \\left(\\frac{r_1}{r_2}\\right)^{\\frac{3}{2}} = (1.21)^{\\frac{3}{2}} $</p>\n<p>Calculating $ (1.21)^{\\frac{3}{2}} $, we find:</p>\n<p>$ \\omega_2 = \\omega_1 \\times 1.331 $</p>\n<p>The combined angular displacement of both satellites is $ 2\\pi $ radians in the same time period $ t_0 $:</p>\n<p>$ (\\omega_2 + \\omega_1) t_0 = 2\\pi $</p>\n<p>Solving for $ t_0 $:</p>\n<p>$ t_0 = \\frac{2\\pi}{\\omega_2 + \\omega_1} = \\frac{2\\pi}{\\left(\\frac{4}{3} + 1\\right) \\omega_1} = \\frac{6\\pi}{7\\omega_1} $</p>\n<p>Since $ T_{GSS} $, the period of the geostationary satellite, is 24 hours, we substitute:</p>\n<p>$ t_0 = \\frac{6\\pi}{2\\pi} \\frac{T_{GSS}}{7} = \\frac{3 \\times 24 \\text{ hours}}{7} = \\frac{24}{p} \\text{ hours} $</p>\n<p>Therefore, solving for $ p $:</p>\n<p>$ p = \\frac{7}{3} = 2.33 $</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक भू-स्थिर (geostationary) उपग्रह विषुवत वृत्त (equator) के ऊपर पृथ्वी के परितः पृथ्वी के केंद्र से $r_1$ की नियत दूरी (fixed distance) पर एक कक्षा में परिक्रमण (orbiting) कर रहा है। एक दूसरा उपग्रह विषुवत वृत्त के तल (equatorial plane) में पृथ्वी के केंद्र से $r_2$ दूरी पर पृथ्वी के घूर्णन (rotation) की दिशा के विपरीत दिशा में परिक्रमण कर रहा है, जहाँ $r_1=1.21 r_2$ है। दूसरे उपग्रह का भू-स्थिर उपग्रह के सापेक्ष मापा गया आवर्तकाल (time period) $\\frac{24}{p}$ घंटे (hours) है। $p$ का मान है _______</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.3TO2.4",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mayxwyi9/fc9b3319-8dc8-49e2-a485-c7184fd77e03/d9473210-36ce-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayxwyia.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mayxwyi9/fc9b3319-8dc8-49e2-a485-c7184fd77e03/d9473210-36ce-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayxwyia.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Gravitation Question 3 Hindi Explanation\">\n<p>उपग्रहों के लिए, आवर्तकाल $ T $ दूरी की $ \\frac{3}{2} $ घात के समानुपाती होता है:</p>\n<p>$ T \\propto r^{\\frac{3}{2}} $</p>\n<p>यह हमें दूसरे और पहले उपग्रहों के आवर्तकाल का अनुपात देता है:</p>\n<p>$ \\frac{T_2}{T_1} = \\left(\\frac{r_2}{r_1}\\right)^{\\frac{3}{2}} $</p>\n<p>इसे कोणीय वेग, $ \\omega $ में परिवर्तित करने पर, जो आवर्तकाल के व्युत्क्रमानुपाती है, हमें मिलता है:</p>\n<p>$ \\frac{\\omega_2}{\\omega_1} = \\left(\\frac{r_1}{r_2}\\right)^{\\frac{3}{2}} = (1.21)^{\\frac{3}{2}} $</p>\n<p>$ (1.21)^{\\frac{3}{2}} $ की गणना करने पर, हमें मिलता है:</p>\n<p>$ \\omega_2 = \\omega_1 \\times 1.331 $</p>\n<p>दोनों उपग्रहों का संयुक्त कोणीय विस्थापन समान समय अवधि $ t_0 $ में $ 2\\pi $ रेडियन है:</p>\n<p>$ (\\omega_2 + \\omega_1) t_0 = 2\\pi $</p>\n<p>$ t_0 $ के लिए हल करने पर:</p>\n<p>$ t_0 = \\frac{2\\pi}{\\omega_2 + \\omega_1} = \\frac{2\\pi}{\\left(\\frac{4}{3} + 1\\right) \\omega_1} = \\frac{6\\pi}{7\\omega_1} $</p>\n<p>चूँकि $ T_{GSS} $, भूस्थिर उपग्रह का आवर्तकाल, 24 घंटे है, हम प्रतिस्थापित करते हैं:</p>\n<p>$ t_0 = \\frac{6\\pi}{2\\pi} \\frac{T_{GSS}}{7} = \\frac{3 \\times 24 \\text{ घंटे}}{7} = \\frac{24}{p} \\text{ घंटे} $</p>\n<p>इसलिए, $ p $ के लिए हल करने पर:</p>\n<p>$ p = \\frac{7}{3} = 2.33 $</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "escape-speed-and-motion-of-satellites",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A geostationary satellite above the equator is orbiting around the earth at a fixed distance $r_1$ from the center of the earth. A second satellite is orbiting in the equatorial plane in the opposite direction to the earth's rotation, at a ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "एक भू-स्थिर (geostationary) उपग्रह विषुवत वृत्त (equator) के ऊपर पृथ्वी के परितः पृथ्वी के केंद्र से $r_1$ की नियत दूरी (fixed distance) पर एक कक्षा में परिक्रमण (orbiting) कर रहा है। एक दूसरा उपग्रह विषुवत वृत्त के तल (equatorial plane) मे..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "3g4d6okp0un7fi5uk16f",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "pa-particle-of-mass-m-is-under-the-influence-of-the-grav-jee-advanced-physics-isxue92rq60v2wzw",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A particle of mass $m$ is under the influence of the gravitational field of a body of mass $M(\\gg m)$. The particle is moving in a circular orbit of radius $r_0$ with time period $T_0$ around the mass $M$. Then, the particle is subjected to an additional central force, corresponding to the potential energy $V_{\\mathrm{c}}(r)=m \\alpha / r^3$, where $\\alpha$ is a positive constant of suitable dimensions and $r$ is the distance from the center of the orbit. If the particle moves in the same circular orbit of radius $r_0$ in the combined gravitational potential due to $M$ and $V_{\\mathrm{c}}(r)$, but with a new time period $T_1$, then $\\left(T_1^2-T_0^2\\right) / T_1^2$ is given by</p>\n\n<p>[G is the gravitational constant.]</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{3 \\alpha}{G M r_0^2}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{\\alpha}{2 G M r_0^2}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{\\alpha}{G M r_0^2}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{2 \\alpha}{G M r_0^2}$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>To find the effect of an additional central force on the time period of a particle in a circular orbit, consider the following:</p>\n\n<p><p><strong>Initial Gravitational Force ($F_1$):</strong></p>\n<p>The force due to gravity for a particle in a circular orbit of radius $r_0$ is given by:</p>\n<p>$    F_1 = \\frac{GMm}{r_0^2}    $</p>\n<p>where $ G $ is the gravitational constant, $ M $ is the mass of the central body, and $ m $ is the mass of the particle.</p></p>\n<p><p><strong>Modified Force with Additional Potential ($F_2$):</strong></p>\n<p>When an additional force derived from the potential energy $ V_{\\mathrm{c}}(r) = \\frac{m\\alpha}{r^3} $ acts on the particle, the effective central force becomes:</p>\n<p>$    F_2 = \\frac{GMm}{r_0^2} - \\frac{3m\\alpha}{r_0^4}    $</p></p>\n<p><p><strong>Relation of Angular Velocities:</strong></p>\n<p>The ratio of squares of the angular velocities ($\\omega_0$ and $\\omega_1$) before and after the additional force is:</p>\n<p>$    \\frac{\\omega_1^2}{\\omega_0^2} = \\frac{F_2}{F_1} = \\frac{\\frac{GM}{r_0^2} - \\frac{3\\alpha}{r_0^4}}{\\frac{GM}{r_0^2}}    $</p></p>\n<p><p><strong>Relating Time Periods:</strong></p>\n<p>Since the angular velocity is inversely proportional to the time period, $\\frac{\\omega_1^2}{\\omega_0^2} = \\frac{T_0^2}{T_1^2}$. Thus, we have:</p>\n<p>$    \\frac{T_0^2}{T_1^2} = 1 - \\frac{3\\alpha}{GMr_0^2}    $</p></p>\n<p><p><strong>Find the Change in Time Period:</strong></p>\n<p>The expression for the change in the square of the time periods is:</p>\n<p>$    \\frac{T_1^2 - T_0^2}{T_1^2} = \\frac{3\\alpha}{GMr_0^2}    $</p></p>\n\n<p>This shows how the additional central force, represented by the potential $ V_{\\mathrm{c}}(r) = \\frac{m\\alpha}{r^3} $, affects the particle’s orbital period when combined with the gravitational field of the mass $ M $.</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>द्रव्यमान $m$ का एक कण द्रव्यमान $M(\\gg m)$ के एक पिंड के गुरुत्वाकर्षण क्षेत्र के प्रभाव में है। यह कण $r_0$ त्रिज्या की एक वृत्ताकार कक्षा में $M$ के परितः आवर्तकाल $T_0$ से परिक्रमण कर रहा है। अब कण पर एक अतिरिक्त केन्द्रीय बल, जिसके संगत स्थितिज ऊर्जा $V_c(r)=m \\alpha / r^3$ है, लगाया जाता है, जहाँ $\\alpha$ एक धनात्मक नियतांक है तथा $r$ उसी कक्षा के केंद्र से दूरी है। यदि कण अब उसी त्रिज्या $r_0$ की कक्षा में $M$ तथा $V_{\\mathrm{c}}(r)$ के संयुक्त विभव के अंतर्गत एक नए आवर्तकाल $T_1$ से परिक्रमण करता है तो, $\\left(T_1^2-T_0^2\\right) / T_1^2$ का मान है,</p>\n\n<p>[ $G$ गुरुत्वीय नियतांक है।]</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{3 \\alpha}{G M r_0^2}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{\\alpha}{2 G M r_0^2}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{\\alpha}{G M r_0^2}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{2 \\alpha}{G M r_0^2}$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>वृत्ताकार कक्षा में एक कण के आवर्तकाल पर एक अतिरिक्त केन्द्रीय बल के प्रभाव को ज्ञात करने के लिए, निम्नलिखित पर विचार करें:</p>\n\n<p><p><strong>प्रारंभिक गुरुत्वाकर्षण बल ($F_1$):</strong></p>\n<p>त्रिज्या $r_0$ की वृत्ताकार कक्षा में एक कण के लिए गुरुत्वाकर्षण के कारण बल निम्न द्वारा दिया जाता है:</p>\n<p>$    F_1 = \\frac{GMm}{r_0^2}    $</p>\n<p>जहाँ $ G $ गुरुत्वाकर्षण स्थिरांक है, $ M $ केन्द्रीय पिंड का द्रव्यमान है, और $ m $ कण का द्रव्यमान है।</p></p>\n<p><p><strong>अतिरिक्त विभव के साथ संशोधित बल ($F_2$):</strong></p>\n<p>जब स्थितिज ऊर्जा $ V_{\\mathrm{c}}(r) = \\frac{m\\alpha}{r^3} $ से व्युत्पन्न एक अतिरिक्त बल कण पर कार्य करता है, तो प्रभावी केन्द्रीय बल बन जाता है:</p>\n<p>$    F_2 = \\frac{GMm}{r_0^2} - \\frac{3m\\alpha}{r_0^4}    $</p></p>\n<p><p><strong>कोणीय वेगों का संबंध:</strong></p>\n<p>अतिरिक्त बल से पहले और बाद में कोणीय वेगों ($\\omega_0$ और $\\omega_1$) के वर्गों का अनुपात है:</p>\n<p>$    \\frac{\\omega_1^2}{\\omega_0^2} = \\frac{F_2}{F_1} = \\frac{\\frac{GM}{r_0^2} - \\frac{3\\alpha}{r_0^4}}{\\frac{GM}{r_0^2}}    $</p></p>\n<p><p><strong>आवर्तकालों को संबंधित करना:</strong></p>\n<p>चूँकि कोणीय वेग आवर्तकाल के व्युत्क्रमानुपाती है, $\\frac{\\omega_1^2}{\\omega_0^2} = \\frac{T_0^2}{T_1^2}$। इस प्रकार, हमारे पास है:</p>\n<p>$    \\frac{T_0^2}{T_1^2} = 1 - \\frac{3\\alpha}{GMr_0^2}    $</p></p>\n<p><p><strong>आवर्तकाल में परिवर्तन ज्ञात करना:</strong></p>\n<p>आवर्तकालों के वर्गों में परिवर्तन के लिए व्यंजक है:</p>\n<p>$    \\frac{T_1^2 - T_0^2}{T_1^2} = \\frac{3\\alpha}{GMr_0^2}    $</p></p>\n\n<p>यह दर्शाता है कि विभव $ V_{\\mathrm{c}}(r) = \\frac{m\\alpha}{r^3} $ द्वारा निरूपित अतिरिक्त केन्द्रीय बल, द्रव्यमान $ M $ के गुरुत्वाकर्षण क्षेत्र के साथ संयुक्त होने पर कण के कक्षीय आवर्तकाल को कैसे प्रभावित करता है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "escape-speed-and-motion-of-satellites",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A particle of mass $m$ is under the influence of the gravitational field of a body of mass $M(\\gg m)$. The particle is moving in a circular orbit of radius $r_0$ with time period $T_0$ around the mass $M$. Then, the particle is subjected to..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "द्रव्यमान $m$ का एक कण द्रव्यमान $M(\\gg m)$ के एक पिंड के गुरुत्वाकर्षण क्षेत्र के प्रभाव में है। यह कण $r_0$ त्रिज्या की एक वृत्ताकार कक्षा में $M$ के परितः आवर्तकाल $T_0$ से परिक्रमण कर रहा है। अब कण पर एक अतिरिक्त केन्द्रीय बल, जिसके संग..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "xl8vo1vj6brfxuu36u62",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "two-satellites-mathrmp-and-mathrmq-are-moving-in-d-jee-advanced-physics-mk5lbw1zksy31ops",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Two satellites $\\mathrm{P}$ and $\\mathrm{Q}$ are moving in different circular orbits around the Earth (radius $R$ ). The heights of $\\mathrm{P}$ and $\\mathrm{Q}$ from the Earth surface are $h_{\\mathrm{P}}$ and $h_{\\mathrm{Q}}$, respectively, where $h_{\\mathrm{P}}=R / 3$. The accelerations of $\\mathrm{P}$ and $\\mathrm{Q}$ due to Earth's gravity are $g_{\\mathrm{P}}$ and $g_{\\mathrm{Q}}$, respectively. If $g_{\\mathrm{P}} / g_{\\mathrm{Q}}=36 / 25$, what is the value of $h_{\\mathrm{Q}}$ ?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{3 R}{5}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{R}{6}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{6 R}{5}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{5 R}{5}$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The formula to calculate the acceleration due to gravity at a height ( h ) from the surface of the Earth is expressed as :\n<br/><br/>$ g = \\frac{G M_e}{(R_e + h)^2} $</p>\n<p>To find the ratio of gravitational acceleration at two different heights ( h_P ) and ( h_Q ) above the Earth&#39;s surface, use the formula for each and form a ratio :\n<br/><br/>$ \\frac{g_P}{g_Q} = \\frac{\\frac{G M_e}{(R_e + h_P)^2}}{\\frac{G M_e}{(R_e + h_Q)^2}} = \\frac{(R_e + h_Q)^2}{(R_e + h_P)^2} $</p>\n<p>Given $ h_P = \\frac{R_e}{3} $, the ratio simplifies to:\n<br/><br/>$ \\frac{g_P}{g_Q} = \\frac{(R_e + h_Q)^2}{(R_e + \\frac{R_e}{3})^2} = \\frac{36}{25} $</p>\n<p>Solving for $ h_Q $ in terms of $ R_e $ yields $ h_Q = \\frac{3R_e}{5} $.</p>\n"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "दो उपग्रह $\\mathrm{P}$ एवं $\\mathrm{Q}$ पृथ्वी (त्रिज्या $R$ ) की अलग-अलग वृत्ताकार कक्षाओं में घूम रहे हैं। $\\mathrm{P}$ एवं $\\mathrm{Q}$ पृथ्वी की सतह से क्रमशः $h_{\\mathrm{P}}$ तथा $h_{\\mathrm{Q}}$ ऊँचाई पर हैं, जहाँ $h_{\\mathrm{P}}=R / 3$ है। पृथ्वी के गुरुत्व के कारण $\\mathrm{P}$ तथा $\\mathrm{Q}$ के त्वरण क्रमशः $g_{\\mathrm{P}}$ तथा $g_{\\mathrm{Q}}$ हैं। यदि $g_{\\mathrm{P}} / g_{\\mathrm{Q}}=36 / 25$ है, तो $h_{\\mathrm{Q}}$ का मान क्या है?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\frac{3 R}{5}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\frac{R}{6}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\frac{6 R}{5}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\frac{5 R}{5}$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>पृथ्वी की सतह से ऊँचाई ( h ) पर गुरुत्वीय त्वरण की गणना करने का सूत्र इस प्रकार व्यक्त किया जाता है:\n<br/><br/>$ g = \\frac{G M_e}{(R_e + h)^2} $</p>\n<p>पृथ्वी की सतह से दो भिन्न ऊँचाइयों ( h_P ) और ( h_Q ) पर गुरुत्वीय त्वरण के अनुपात को ज्ञात करने के लिए, प्रत्येक के लिए सूत्र का उपयोग करें और अनुपात बनाएं:\n<br/><br/>$ \\frac{g_P}{g_Q} = \\frac{\\frac{G M_e}{(R_e + h_P)^2}}{\\frac{G M_e}{(R_e + h_Q)^2}} = \\frac{(R_e + h_Q)^2}{(R_e + h_P)^2} $</p>\n<p>दिया गया है $ h_P = \\frac{R_e}{3} $, अनुपात सरलीकृत होकर बनता है:\n<br/><br/>$ \\frac{g_P}{g_Q} = \\frac{(R_e + h_Q)^2}{(R_e + \\frac{R_e}{3})^2} = \\frac{36}{25} $</p>\n<p>$ R_e $ के पदों में $ h_Q $ को हल करने पर $ h_Q = \\frac{3R_e}{5} $ प्राप्त होता है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "acceleration-due-to-gravity-and-its-variation",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "Two satellites $\\mathrm{P}$ and $\\mathrm{Q}$ are moving in different circular orbits around the Earth (radius $R$ ). The heights of $\\mathrm{P}$ and $\\mathrm{Q}$ from the Earth surface are $h_{\\mathrm{P}}$ and $h_{\\mathrm{Q}}$, respectively..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "दो उपग्रह $\\mathrm{P}$ एवं $\\mathrm{Q}$ पृथ्वी (त्रिज्या $R$ ) की अलग-अलग वृत्ताकार कक्षाओं में घूम रहे हैं। $\\mathrm{P}$ एवं $\\mathrm{Q}$ पृथ्वी की सतह से क्रमशः $h_{\\mathrm{P}}$ तथा $h_{\\mathrm{Q}}$ ऊँचाई पर हैं, जहाँ $h_{\\mathrm{P}}=R / ..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "e12xe2b43nd02ci40yc6",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "ptwo-spherical-stars-a-and-b-have-densities-rhoa-jee-advanced-physics-units-and-measurements-xjhpansd8rxpdofh",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Two spherical stars $A$ and $B$ have densities $\\rho_{A}$ and $\\rho_{B}$, respectively. $A$ and $B$ have the same radius, and their masses $M_{A}$ and $M_{B}$ are related by $M_{B}=2 M_{A}$. Due to an interaction process, star $A$ loses some of its mass, so that its radius is halved, while its spherical shape is retained, and its density remains $\\rho_{A}$. The entire mass lost by $A$ is deposited as a thick spherical shell on $B$ with the density of the shell being $\\rho_{A}$. If $v_{A}$ and $v_{B}$ are the escape velocities from $A$ and $B$ after the interaction process, the ratio $\\frac{v_{B}}{v_{A}}=\\sqrt{\\frac{10 n}{15^{1 / 3}}}$. The value of $n$ is __________ .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.2TO2.4",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l9lftf3p/a3837b30-db1f-49ae-aa48-4ec5c35244fd/e1131e50-52dd-11ed-8c4f-d77fcc31239e/file-1l9lftf3q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l9lftf3p/a3837b30-db1f-49ae-aa48-4ec5c35244fd/e1131e50-52dd-11ed-8c4f-d77fcc31239e/file-1l9lftf3q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Gravitation Question 11 English Explanation 1\"></p>\n<p>Due to an interaction process, star A losses some of it's mass and radius becomes $${R \\over 2}$$. Let new mass of star A is M'<sub>A</sub>. Here in both cases density of star A remains same $${\\rho _A}$$.</p>\n<p>$$\\therefore$$ Initially $$({\\rho _A}) = {{{M_A}} \\over {{4 \\over 3}\\pi {R^3}}}$$</p>\n<p>Finally $$({\\rho _A}) = {{M{'_A}} \\over {{4 \\over 3}\\pi {{\\left( {{R \\over 2}} \\right)}^3}}}$$</p>\n<p>Density remains same,</p>\n<p>$$\\therefore$$ $${{{M_A}} \\over {{4 \\over 3}\\pi {R^3}}} = {{M{'_A}} \\over {{4 \\over 3}\\pi {{\\left( {{R \\over 2}} \\right)}^3}}}$$</p>\n<p>$$ \\Rightarrow 8M{'_A} = {M_A}$$</p>\n<p>$$ \\Rightarrow M{'_A} = {{{M_A}} \\over 8}$$</p>\n<p>$$\\therefore$$ Lost mass by $$A = {M_A} - M{'_A} = {M_A} - {{{M_A}} \\over 8} = {{7{M_A}} \\over 8}$$</p>\n<p>This lost mass $${{7{M_A}} \\over 8}$$ is attached on the star B and density of the attached mass stay $${\\rho _A}$$. So new radius of star B is $${R_2}$$.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l9lfwshp/fb12ab94-3805-48ed-b586-676c145df988/3ed865e0-52de-11ed-8c4f-d77fcc31239e/file-1l9lfwshq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l9lfwshp/fb12ab94-3805-48ed-b586-676c145df988/3ed865e0-52de-11ed-8c4f-d77fcc31239e/file-1l9lfwshq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Gravitation Question 11 English Explanation 2\"></p>\n<p>Density of the removed part from star A is,</p>\n<p>$${\\rho _A} = {{{{7{M_A}} \\over 8}} \\over {{4 \\over 3}\\pi \\left( {{R^3} - {{\\left( {{R \\over 2}} \\right)}^3}} \\right)}}$$</p>\n<p>Density of the added part in star B stay's same as $${\\rho _A}$$,</p>\n<p>$$\\therefore$$ $${\\rho _A} = {{{{7{M_A}} \\over 8}} \\over {{4 \\over 3}\\pi \\left( {R_2^3 - {R^3}} \\right)}}$$</p>\n<p>$$\\therefore$$ $${{{{7{M_A}} \\over 8}} \\over {{4 \\over 3}\\pi \\left( {{R^3} - {{\\left( {{R \\over 2}} \\right)}^3}} \\right)}} = {{{{7{M_A}} \\over 8}} \\over {{4 \\over 3}\\pi \\left( {R_2^3 - {R^3}} \\right)}}$$</p>\n<p>$$ \\Rightarrow {R^3} - {{{R^3}} \\over 8} = R_2^3 - {R^3}$$</p>\n<p>$$ \\Rightarrow R_2^3 = 2{R^3} - {{{R^3}} \\over 8}$$</p>\n<p>$$ \\Rightarrow R_2^3 = {{15{R^3}} \\over 8}$$</p>\n<p>$$ \\Rightarrow {R_2} = {(15)^{{1 \\over 3}}} \\times {R \\over 2}$$</p>\n<p>Escape velocity from star A after interaction process,</p>\n<p>$${V_A} = \\sqrt {{{2G\\left( {{{{M_A}} \\over 8}} \\right)} \\over {{R \\over 2}}}} $$</p>\n<p>And escape velocity from star B after interaction process,</p>\n<p>$${V_B} = \\sqrt {{{2G\\left( {{{23{M_A}} \\over 8}} \\right)} \\over {{{(15)}^{{1 \\over 3}}} \\times {R \\over 2}}}} $$</p>\n<p>$$\\therefore$$ $${{{V_B}} \\over {{V_A}}} = \\sqrt {{{{{23{M_A}} \\over 8}} \\over {{{(15)}^{{1 \\over 3}}} \\times {R \\over 2}}} \\times {{{R \\over 2}} \\over {{{{M_A}} \\over 8}}}} $$</p>\n<p>$$ = \\sqrt {{{23} \\over {{{(15)}^{{1 \\over 3}}}}}} $$ ..... (1)</p>\n<p>Given,</p>\n<p>$${{{V_B}} \\over {{V_A}}} = \\sqrt {{{10n} \\over {{{(15)}^{{1 \\over 3}}}}}} $$ ..... (2)</p>\n<p>Comparing equation (1) and (2), we get,</p>\n<p>$$10n = 23$$</p>\n<p>$$ \\Rightarrow n = 2.3$$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>दो गोलीय तारों $A$ तथा $B$ के घनत्व क्रमश: $\\rho_A$ तथा $\\rho_B$ है। $A$ तथा $B$ की त्रिज्या समान है तथा इनके द्रव्यमान $M_A$ तथा $M_B$, $M_B=2 M_A$ से सम्बन्धित है। अन्योन्य क्रिया प्रक्रिया के कारण, तारें $A$ के कुछ द्रव्यमान की हानि होती है, ताकि इसकी त्रिज्या आधी हो जाती है, जबकि इसकी गोलाकार आकृति बनी रहती है तथा इसका घनत्व $\\rho_A$ रहता है। $A$ द्वारा सम्पूर्ण द्रव्यमान हानि $B$ पर एक मोटे गोलाकार कोश के रूप में जमा हो जाती है जबकि कोश का घनत्व $\\rho_A$ है। यदि $v_A$ तथा $v_B$ अन्योन्य क्रिया प्रक्रिया के बाद $A$ तथा $B$ से पलायन वेग है, तब अनुपात $\\frac{v_B}{v_A}=\\sqrt{\\frac{10 n}{15^{1 / 3}}}$ है। $n$ का मान _________ है |</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.2TO2.4",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l9lftf3p/a3837b30-db1f-49ae-aa48-4ec5c35244fd/e1131e50-52dd-11ed-8c4f-d77fcc31239e/file-1l9lftf3q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l9lftf3p/a3837b30-db1f-49ae-aa48-4ec5c35244fd/e1131e50-52dd-11ed-8c4f-d77fcc31239e/file-1l9lftf3q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Gravitation Question 11 Hindi Explanation 1\"></p>\n<p>एक परस्पर क्रिया प्रक्रिया के कारण, तारा A अपने द्रव्यमान का कुछ भाग खो देता है और त्रिज्या $${R \\over 2}$$ हो जाती है। माना तारा A का नया द्रव्यमान M'<sub>A</sub> है। यहाँ दोनों स्थितियों में तारा A का घनत्व समान $${{\\rho _A}}$$ रहता है।</p>\n<p>$$\\therefore$$ प्रारंभ में $$({{\\rho _A}}) = {{{M_A}} \\over {{4 \\over 3}\\pi {R^3}}}$$</p>\n<p>अंत में $$({{\\rho _A}}) = {{M{'_A}} \\over {{4 \\over 3}\\pi {{\\left( {{R \\over 2}} \\right)}^3}}}$$</p>\n<p>घनत्व समान रहता है,</p>\n<p>$$\\therefore$$ $${{{M_A}} \\over {{4 \\over 3}\\pi {R^3}}} = {{M{'_A}} \\over {{4 \\over 3}\\pi {{\\left( {{R \\over 2}} \\right)}^3}}}$$</p>\n<p>$$ \\Rightarrow 8M{'_A} = {M_A}$$</p>\n<p>$$ \\Rightarrow M{'_A} = {{{M_A}} \\over 8}$$</p>\n<p>$$\\therefore$$ A द्वारा खोया गया द्रव्यमान $$= {M_A} - M{'_A} = {M_A} - {{{M_A}} \\over 8} = {{7{M_A}} \\over 8}$$</p>\n<p>यह खोया हुआ द्रव्यमान $${{7{M_A}} \\over 8}$$ तारा B से जुड़ जाता है और जुड़े हुए द्रव्यमान का घनत्व $${{\\rho _A}}$$ रहता है। अतः तारा B की नई त्रिज्या $${R_2}$$ है।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l9lfwshp/fb12ab94-3805-48ed-b586-676c145df988/3ed865e0-52de-11ed-8c4f-d77fcc31239e/file-1l9lfwshq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l9lfwshp/fb12ab94-3805-48ed-b586-676c145df988/3ed865e0-52de-11ed-8c4f-d77fcc31239e/file-1l9lfwshq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Gravitation Question 11 Hindi Explanation 2\"></p>\n<p>तारा A से निकाले गए भाग का घनत्व है,</p>\n<p>$${{\\rho _A}} = {{{{7{M_A}} \\over 8}} \\over {{4 \\over 3}\\pi \\left( {{R^3} - {{\\left( {{R \\over 2}} \\right)}^3}} \\right)}}$$</p>\n<p>तारा B में जोड़े गए भाग का घनत्व $${{\\rho _A}}$$ के समान रहता है,</p>\n<p>$$\\therefore$$ $${{\\rho _A}} = {{{{7{M_A}} \\over 8}} \\over {{4 \\over 3}\\pi \\left( {R_2^3 - {R^3}} \\right)}}$$</p>\n<p>$$\\therefore$$ $${{{{7{M_A}} \\over 8}} \\over {{4 \\over 3}\\pi \\left( {{R^3} - {{\\left( {{R \\over 2}} \\right)}^3}} \\right)}} = {{{{7{M_A}} \\over 8}} \\over {{4 \\over 3}\\pi \\left( {R_2^3 - {R^3}} \\right)}}$$</p>\n<p>$$ \\Rightarrow {R^3} - {{{R^3}} \\over 8} = R_2^3 - {R^3}$$</p>\n<p>$$ \\Rightarrow R_2^3 = 2{R^3} - {{{R^3}} \\over 8}$$</p>\n<p>$$ \\Rightarrow R_2^3 = {{15{R^3}} \\over 8}$$</p>\n<p>$$ \\Rightarrow {R_2} = {(15)^{{1 \\over 3}}} \\times {R \\over 2}$$</p>\n<p>परस्पर क्रिया प्रक्रिया के बाद तारा A से पलायन वेग,</p>\n<p>$${V_A} = \\sqrt {{{2G\\left( {{{M_A} \\over 8}} \\right)} \\over {{R \\over 2}}}} $$</p>\n<p>और परस्पर क्रिया प्रक्रिया के बाद तारा B से पलायन वेग,</p>\n<p>$${V_B} = \\sqrt {{{2G\\left( {{{23{M_A}} \\over 8}} \\right)} \\over {{{(15)}^{{1 \\over 3}}} \\times {R \\over 2}}}} $$</p>\n<p>$$\\therefore$$ $${{{V_B}} \\over {{V_A}}} = \\sqrt {{{{{23{M_A}} \\over 8}} \\over {{{(15)}^{{1 \\over 3}}} \\times {R \\over 2}}} \\times {{{R \\over 2}} \\over {{{M_A} \\over 8}}}} $$</p>\n<p>$$ = \\sqrt {{{23} \\over {{{(15)}^{{1 \\over 3}}}}}} $$ ..... (1)</p>\n<p>दिया गया है,</p>\n<p>$${{{V_B}} \\over {{V_A}}} = \\sqrt {{{10n} \\over {{{(15)}^{{1 \\over 3}}}}}} $$ ..... (2)</p>\n<p>समीकरण (1) और (2) की तुलना करने पर,</p>\n<p>$$10n = 23$$</p>\n<p>$$ \\Rightarrow n = 2.3$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "escape-speed-and-motion-of-satellites",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "Two spherical stars $A$ and $B$ have densities $\\rho_{A}$ and $\\rho_{B}$, respectively. $A$ and $B$ have the same radius, and their masses $M_{A}$ and $M_{B}$ are related by $M_{B}=2 M_{A}$. Due to an interaction process, star $A$ loses som..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "दो गोलीय तारों $A$ तथा $B$ के घनत्व क्रमश: $\\rho_A$ तथा $\\rho_B$ है। $A$ तथा $B$ की त्रिज्या समान है तथा इनके द्रव्यमान $M_A$ तथा $M_B$, $M_B=2 M_A$ से सम्बन्धित है। अन्योन्य क्रिया प्रक्रिया के कारण, तारें $A$ के कुछ द्रव्यमान की हानि होती..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "771jg4qu9cx6wzsh9d6x",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 2 Online",
+      "permalink": "the-distance-between-two-stars-of-masses-3msubssub-and-jee-advanced-physics-units-and-measurements-1crjporhlqqyfu4r",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The distance between two stars of masses 3M<sub>S</sub> and 6M<sub>S</sub> is 9R. Here R is the mean distance between the centers of the Earth and the Sun, and M<sub>S</sub> is the mass of the Sun. The two stars orbit around their common center of mass in circular orbits with period nT, where T is the period of Earth's revolution around the Sun. The value of n is __________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "9",
+          "explanation": "For earth-sun system,<br/><br/>$$T_0^2 = {{4{\\pi ^2}} \\over {G{M_S}}} \\times {R^3}$$ ..... (i)<br/><br/>For binary system<br/><br/>$${T^2} = {{4{\\pi ^2}} \\over {G[3{M_S} + 6{M_S}]}} \\times {(9R)^3}$$ .... (ii)<br/><br/>Using Eqs. (i) and (ii), we get<br/><br/>T = 9T<sub>0</sub><br/><br/>So, n = 9"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>द्रव्यमान $$3 M_{S}$$ तथा $$6 M_{S}$$ के दो तारों (stars) के मध्य की दूरी $$9 R$$ है। यहाँ $$R$$ पृथ्वी व सूर्य के केन्द्रों के मध्य की दूरी है एवं $$M_{S}$$ सूर्य का द्रव्यमान है| दोनों तारे अपने कॉमन द्रव्यमान केन्द्र (common center of mass) के परितः $$n T$$ आवर्तकाल (time period) की वृत्ताकार कक्षाओं में घूमते हैं, जहाँ $$T$$ पृथ्वी द्वारा सूर्य के परिक्रमा में लगने वाला समय है। $$n$$ का मान __________ होगा।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "9",
+          "explanation": "पृथ्वी-सूर्य निकाय के लिए,<br/><br/>$$T_0^2 = {{4{\\pi ^2}} \\over {G{M_S}}} \\times {R^3}$$ ..... (i)<br/><br/>द्वि-तारा निकाय के लिए<br/><br/>$${T^2} = {{4{\\pi ^2}} \\over {G[3{M_S} + 6{M_S}]}} \\times {(9R)^3}$$ .... (ii)<br/><br/>समीकरण (i) और (ii) का उपयोग करने पर, हमें प्राप्त होता है<br/><br/>T = 9T<sub>0</sub><br/><br/>अतः, n = 9"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-2-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "The distance between two stars of masses 3MS and 6MS is 9R. Here R is the mean distance between the centers of the Earth and the Sun, and MS is the mass of the Sun. The two stars orbit around their common center of mass in circular orbits w..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 2 Online",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "द्रव्यमान $$3 M_{S}$$ तथा $$6 M_{S}$$ के दो तारों (stars) के मध्य की दूरी $$9 R$$ है। यहाँ $$R$$ पृथ्वी व सूर्य के केन्द्रों के मध्य की दूरी है एवं $$M_{S}$$ सूर्य का द्रव्यमान है| दोनों तारे अपने कॉमन द्रव्यमान केन्द्र (common center of ma..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-2-online"
+    },
+    {
+      "question_id": "xl0ahea9ztr143mgla1t",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "consider-a-spherical-gaseous-cloud-of-mass-density-rho--jee-advanced-physics-units-and-measurements-l05qsnwyremwufxp",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Consider a spherical gaseous cloud of mass density $$\\rho $$(r) in free space where r is the radial distance from its center. The gaseous cloud is made of particles of equal mass m moving in circular orbits about the common center with the same kinetic energy K. The force acting on the particles is their mutual gravitational force. If $$\\rho $$(r) is constant in time, the particle number density n(r) = $$\\rho $$(r)/m is [G is universal gravitational constant]",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${K \\over {6\\pi {r^2}{m^2}G}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${K \\over {\\pi {r^2}{m^2}G}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${3K \\over {\\pi {r^2}{m^2}G}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${K \\over {2\\pi {r^2}{m^2}G}}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kslthg24/8a6ecfc1-5460-4de6-82a9-6d17cfa1486e/a6785cc0-0283-11ec-9e77-d9ff3a720861/file-1kslthg25-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kslthg24/8a6ecfc1-5460-4de6-82a9-6d17cfa1486e/a6785cc0-0283-11ec-9e77-d9ff3a720861/file-1kslthg25-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kslthg24/8a6ecfc1-5460-4de6-82a9-6d17cfa1486e/a6785cc0-0283-11ec-9e77-d9ff3a720861/file-1kslthg25-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kslthg24/8a6ecfc1-5460-4de6-82a9-6d17cfa1486e/a6785cc0-0283-11ec-9e77-d9ff3a720861/file-1kslthg25.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Physics - Gravitation Question 15 English Explanation\"></picture> <br><br>Gravitational force = Centripetal force of the earth<br><br>$${{GMm} \\over {{r^2}}} = {{m{v^2}} \\over r}$$<br><br>($$ \\because $$ M = total mass from 0 to r)<br><br>= $${2 \\over r}\\left( {{1 \\over 2}m{v^2}} \\right)$$<br><br>$$ \\Rightarrow {{GMm} \\over {{r^2}}} = {{2K} \\over r} \\Rightarrow M = {{2Kr} \\over {Gm}}$$<br><br>$$ \\because $$ $$\\left( {{1 \\over 2}m{v^2} = K} \\right)$$<br><br>Differentiate on both sides, we get<br><br>$$ \\Rightarrow dM = {{2K} \\over {Gm}}dr$$<br><br>$$ \\Rightarrow 4\\pi {r^2}dr\\rho  = {{2K} \\over {Gm}}dr$$<br><br>($$ \\because $$ volume = mass $$ \\times $$ density)<br><br>$$ \\therefore $$ $$\\rho  = {K \\over {2\\pi Gm{r^2}}}$$<br><br>$$ \\therefore $$ $${\\rho  \\over m} = {K \\over {2\\pi {r^2}{m^2}G}}$$ $$ \\because $$ $$\\left( {{\\rho  \\over m} = volume} \\right)$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>मान लीजिये मुक्त आकाश (free space) में एक गोलाकार गैस के बादल का द्रव्यमान घनत्व $$\\rho(r)$$ है तथा इसकी केन्द्र से त्रिज्य (radial) दूरी $$r$$ है | यह गैसीय बादल $$m$$ द्रव्यमान के समान कणों से बना है जो कि एक समकेंद्रीय वृत्ताकार कक्षाओं में समान गतिज ऊर्जा $$K$$ से घूम रहे हैं। इन कणों पर पारस्परिक गुरुत्वाकर्षण बल लग रहा है। यदि $$\\rho(r)$$ समय के साथ एक स्थिर राशि है, तब कणों का संख्या घनत्व $$n(r)=\\rho(r) / m$$ का मान होगा,</p>\n<p>[ $$G$$ सार्वत्रिक गुरुत्वीय नियतांक है]</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${K \\over {6\\pi {r^2}{m^2}G}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${K \\over {\\pi {r^2}{m^2}G}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${3K \\over {\\pi {r^2}{m^2}G}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${K \\over {2\\pi {r^2}{m^2}G}}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kslthg24/8a6ecfc1-5460-4de6-82a9-6d17cfa1486e/a6785cc0-0283-11ec-9e77-d9ff3a720861/file-1kslthg25-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kslthg24/8a6ecfc1-5460-4de6-82a9-6d17cfa1486e/a6785cc0-0283-11ec-9e77-d9ff3a720861/file-1kslthg25-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kslthg24/8a6ecfc1-5460-4de6-82a9-6d17cfa1486e/a6785cc0-0283-11ec-9e77-d9ff3a720861/file-1kslthg25-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kslthg24/8a6ecfc1-5460-4de6-82a9-6d17cfa1486e/a6785cc0-0283-11ec-9e77-d9ff3a720861/file-1kslthg25.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Physics - Gravitation Question 15 Hindi Explanation\"></picture> <br><br>गुरुत्वाकर्षण बल = पृथ्वी का अभिकेन्द्र बल<br><br>$${{GMm} \\over {{r^2}}} = {{m{v^2}} \\over r}$$<br><br>($$ \\because $$ M = 0 से r तक का कुल द्रव्यमान)<br><br>= $${2 \\over r}\\left( {{1 \\over 2}m{v^2}} \\right)$$<br><br>$$ \\Rightarrow {{GMm} \\over {{r^2}}} = {{2K} \\over r} \\Rightarrow M = {{2Kr} \\over {Gm}}$$<br><br>$$ \\because $$ $$\\left( {{1 \\over 2}m{v^2} = K} \\right)$$<br><br>दोनों पक्षों का अवकलन करने पर, हमें प्राप्त होता है<br><br>$$ \\Rightarrow dM = {{2K} \\over {Gm}}dr$$<br><br>$$ \\Rightarrow 4\\pi {r^2}dr\\rho  = {{2K} \\over {Gm}}dr$$<br><br>($$ \\because $$ आयतन = द्रव्यमान $$ \\times $$ घनत्व)<br><br>$$ \\therefore $$ $$\\rho  = {K \\over {2\\pi Gm{r^2}}}$$<br><br>$$ \\therefore $$ $${\\rho  \\over m} = {K \\over {2\\pi {r^2}{m^2}G}}$$ $$ \\because $$ $$\\left( {{\\rho  \\over m} = आयतन} \\right)$$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "type": "mcq",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "Consider a spherical gaseous cloud of mass density $$\\rho $$(r) in free space where r is the radial distance from its center. The gaseous cloud is made of particles of equal mass m moving in circular orbits about the common center with the ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "मान लीजिये मुक्त आकाश (free space) में एक गोलाकार गैस के बादल का द्रव्यमान घनत्व $$\\rho(r)$$ है तथा इसकी केन्द्र से त्रिज्य (radial) दूरी $$r$$ है | यह गैसीय बादल $$m$$ द्रव्यमान के समान कणों से बना है जो कि एक समकेंद्रीय वृत्ताकार कक्षाओं ..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "w00vpcw2y6xvv8hnsfs0",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gravitation",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A planet of mass $$M,$$ has two natural satellites with masses $${m_1}$$  and $${m_2}.$$  The radii of their circular orbits are   $${R_1}$$ and $${R_2}$$ respectively, Ignore the gravitational force between the satellites. Define $${v_1},{L_1},{K_1}$$ and $${T_1}$$ to be , respectively, the orbital speed, angular momentum, kinetic energy and time period of revolution of satellite $$1$$; and $${v_2},{L_2},{K_2},$$ and $${T_2}$$ to be the corresponding quantities of satellite $$2.$$  Given $${m_1}/{m_2} = 2$$ and $${R_1}/{R_2} = 1/4,$$  match the ratios in <b>List-</b>$${\\rm I}$$  to the numbers in <b>List</b>-$${\\rm II}.$$\n<br><br><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-wv9z{font-size:22px;text-align:center}\n.tg .tg-de48{font-weight:bold;font-size:22px;text-align:center}\n</style>\n<table class=\"tg\">\n  <tbody><tr>\n    <th class=\"tg-de48\" colspan=\"2\">LIST - I </th>\n    <th class=\"tg-de48\" colspan=\"2\">LIST - II</th>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">P.</td>\n    <td class=\"tg-wv9z\">v<sub>1</sub>/v<sub>2</sub></td>\n    <td class=\"tg-de48\">1.</td>\n    <td class=\"tg-wv9z\">1/8</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">Q.</td>\n    <td class=\"tg-wv9z\">L<sub>1</sub>/L<sub>2</sub></td>\n    <td class=\"tg-de48\">2.</td>\n    <td class=\"tg-wv9z\">1</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">R.</td>\n    <td class=\"tg-wv9z\">K<sub>1</sub>/K<sub>2</sub></td>\n    <td class=\"tg-de48\">3.</td>\n    <td class=\"tg-wv9z\">2</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">S.</td>\n    <td class=\"tg-wv9z\">T<sub>1</sub>/T<sub>2</sub></td>\n    <td class=\"tg-de48\">4.</td>\n    <td class=\"tg-wv9z\">8</td>\n  </tr>\n</tbody></table>         ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P \\to 4;Q \\to 2;R \\to 1;S \\to 3$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$P \\to 3;Q \\to 2;R \\to 4;S \\to 1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$P \\to 2;Q \\to 3;R \\to 1;S \\to 4$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$P \\to 2;Q \\to 3;R \\to 4;S \\to 1$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Given : $${{{m_1}} \\over {{m_2}}} = 2$$ and $${{{R_1}} \\over {{R_2}}} = {1 \\over 4}$$</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kzwm74pi/2e50d185-c0bf-461f-b6ef-b824770d3ec3/4a80b360-9309-11ec-b99e-fbe4f8eda4e7/file-1kzwm74pj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kzwm74pi/2e50d185-c0bf-461f-b6ef-b824770d3ec3/4a80b360-9309-11ec-b99e-fbe4f8eda4e7/file-1kzwm74pj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Physics - Gravitation Question 17 English Explanation\"></p>\n<p>Now, </p>\n<p>$${{GMm} \\over {{R^2}}} = {{m{v^2}} \\over R}$$</p>\n<p>$$ \\Rightarrow {{GM} \\over R} = {v^2} \\Rightarrow v = \\sqrt {{{GM} \\over R}} $$</p>\n<p>$$ \\Rightarrow {{{v_1}} \\over {{v_2}}} = {{\\sqrt {{{GM} \\over {{R_1}}}} } \\over {\\sqrt {{{GM} \\over {{R_2}}}} }} \\Rightarrow {{{v_1}} \\over {{v_2}}} = \\sqrt {{{{R_2}} \\over {{R_1}}}} $$</p>\n<p>$$ \\Rightarrow {{{v_1}} \\over {{v_2}}} = \\sqrt {{4 \\over 1}}  \\Rightarrow {{{v_1}} \\over {{v_2}}} = 2$$</p>\n<p>Thus, the correct mapping is P $$\\to$$ 3.</p>\n<p>Now, L = mvR</p>\n<p>$$ \\Rightarrow {{{L_1}} \\over {{L_2}}} = {{{m_1}{v_1}{R_1}} \\over {{m_2}{v_2}{R_2}}} = {{{m_1}} \\over {{m_2}}} \\times {{{v_1}} \\over {{v_2}}} \\times {{{R_1}} \\over {{R_2}}}$$</p>\n<p>$$ \\Rightarrow {{{L_1}} \\over {{L_2}}} = 2 \\times 2 \\times {1 \\over 4} = 1$$</p>\n<p>Thus, the correct mapping is Q $$\\to$$ 2.</p>\n<p>Now,</p>\n<p>$$K = {1 \\over 2}m{v^2}$$</p>\n<p>$$ \\Rightarrow {{{K_1}} \\over {{K_2}}} = {{{1 \\over 2}{m_1}v_1^2} \\over {{1 \\over 2}{m_2}v_2^2}} = {{{m_1}} \\over {{m_2}}} \\times {\\left( {{{{v_1}} \\over {{v_2}}}} \\right)^2}$$</p>\n<p>$$ \\Rightarrow {{{K_1}} \\over {{K_2}}} = 2 \\times {(2)^2} = 8$$</p>\n<p>Thus, the correct mapping is R $$\\to$$ R.</p>\n<p>Now, </p>\n<p>$$T = {{2\\pi R} \\over v}$$</p>\n<p>$$ \\Rightarrow {{{T_1}} \\over {{T_2}}} = {{{{2\\pi {R_1}} \\over {{v_1}}}} \\over {{{2\\pi {R_2}} \\over {{v_2}}}}} \\Rightarrow {{{T_1}} \\over {{T_2}}} = {{{R_1}} \\over {{R_2}}} \\times {{{v_2}} \\over {{v_1}}}$$</p>\n<p>$$ \\Rightarrow {{{T_1}} \\over {{T_2}}} = {1 \\over 4} \\times {1 \\over 2} \\Rightarrow {{{T_1}} \\over {{T_2}}} = {1 \\over 8}$$</p>\n<p>Thus, the correct mapping is S $$\\to$$ 1.</p>\n<p>Therefore, option (B) is correct.</p>"
+        },
+        "hi": {
+          "content": "द्रव्यमान $$M$$ का एक ग्रह है, इसके दो प्राकृतिक उपग्रह हैं जिनके द्रव्यमान $${m_1}$$ और $${m_2}$$ हैं। उनके वृतीय कक्ष की त्रिज्या $${R_1}$$ और $${R_2}$$ क्रमशः है, उपग्रहों के बीच गुरुत्वाकर्षण बल की उपेक्षा करें।  $$v_1, L_1, K_1$$ और $${T_1}$$ उपग्रह $$1$$ की क्रमशः कक्षीय गति, कोणीय संवेग, गतिज ऊर्जा और आवर्तकाल अवधारणा करने के लिए परिभाषित करें, और $$v_2, L_2, K_2,$$ और $${T_2}$$ उपग्रह $$2$$ की संबंधित मात्राएँ हैं। दिया गया $${m_1}/{m_2} = 2$$ और $${R_1}/{R_2} = 1/4,$$ तो <b>सूची</b>$${\\rm I}$$ में अनुपात से <b>सूची</b>$${\\rm II}$$ में मौजूद संख्याओं को मिलाएँ।\n<br><br><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-wv9z{font-size:22px;text-align:center}\n.tg .tg-de48{font-weight:bold;font-size:22px;text-align:center}\n</style>\n<table class=\"tg\">\n  <tbody><tr>\n    <th class=\"tg-de48\" colspan=\"2\">सूची - I </th>\n    <th class=\"tg-de48\" colspan=\"2\">सूची - II</th>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">P.</td>\n    <td class=\"tg-wv9z\">v<sub>1</sub>/v<sub>2</sub></td>\n    <td class=\"tg-de48\">1.</td>\n    <td class=\"tg-wv9z\">1/8</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">Q.</td>\n    <td class=\"tg-wv9z\">L<sub>1</sub>/L<sub>2</sub></td>\n    <td class=\"tg-de48\">2.</td>\n    <td class=\"tg-wv9z\">1</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">R.</td>\n    <td class=\"tg-wv9z\">K<sub>1</sub>/K<sub>2</sub></td>\n    <td class=\"tg-de48\">3.</td>\n    <td class=\"tg-wv9z\">2</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">S.</td>\n    <td class=\"tg-wv9z\">T<sub>1</sub>/T<sub>2</sub></td>\n    <td class=\"tg-de48\">4.</td>\n    <td class=\"tg-wv9z\">8</td>\n  </tr>\n</tbody></table>         ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P \\to 4;Q \\to 2;R \\to 1;S \\to 3$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$P \\to 3;Q \\to 2;R \\to 4;S \\to 1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$P \\to 2;Q \\to 3;R \\to 1;S \\to 4$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$P \\to 2;Q \\to 3;R \\to 4;S \\to 1$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>दिया गया है: $${{{m_1}} \\over {{m_2}}} = 2$$ और $${{{R_1}} \\over {{R_2}}} = {1 \\over 4}$$</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kzwm74pi/2e50d185-c0bf-461f-b6ef-b824770d3ec3/4a80b360-9309-11ec-b99e-fbe4f8eda4e7/file-1kzwm74pj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kzwm74pi/2e50d185-c0bf-461f-b6ef-b824770d3ec3/4a80b360-9309-11ec-b99e-fbe4f8eda4e7/file-1kzwm74pj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Physics - Gravitation Question 17 Hindi Explanation\"></p>\n<p>अब, </p>\n<p>$${{GMm} \\over {{R^2}}} = {{m{v^2}} \\over R}$$</p>\n<p>$$ \\Rightarrow {{GM} \\over R} = {v^2} \\Rightarrow v = \\sqrt {{{GM} \\over R}} $$</p>\n<p>$$ \\Rightarrow {{{v_1}} \\over {{v_2}}} = {{\\sqrt {{{GM} \\over {{R_1}}}} } \\over {\\sqrt {{{GM} \\over {{R_2}}}} }} \\Rightarrow {{{v_1}} \\over {{v_2}}} = \\sqrt {{{{R_2}} \\over {{R_1}}}} $$</p>\n<p>$$ \\Rightarrow {{{v_1}} \\over {{v_2}}} = \\sqrt {{4 \\over 1}}  \\Rightarrow {{{v_1}} \\over {{v_2}}} = 2$$</p>\n<p>इस प्रकार, सही मिलान है P $$\\to$$ 3।</p>\n<p>अब, L = mvR</p>\n<p>$$ \\Rightarrow {{{L_1}} \\over {{L_2}}} = {{{m_1}{v_1}{R_1}} \\over {{m_2}{v_2}{R_2}}} = {{{m_1}} \\over {{m_2}}} \\times {{{v_1}} \\over {{v_2}}} \\times {{{R_1}} \\over {{R_2}}}$$</p>\n<p>$$ \\Rightarrow {{{L_1}} \\over {{L_2}}} = 2 \\times 2 \\times {1 \\over 4} = 1$$</p>\n<p>इस प्रकार, सही मिलान है Q $$\\to$$ 2।</p>\n<p>अब,</p>\n<p>$$K = {1 \\over 2}m{v^2}$$</p>\n<p>$$ \\Rightarrow {{{K_1}} \\over {{K_2}}} = {{{1 \\over 2}{m_1}v_1^2} \\over {{1 \\over 2}{m_2}v_2^2}} = {{{m_1}} \\over {{m_2}}} \\times {\\left( {{{{v_1}} \\over {{v_2}}}} \\right)^2}$$</p>\n<p>$$ \\Rightarrow {{{K_1}} \\over {{K_2}}} = 2 \\times {(2)^2} = 8$$</p>\n<p>इस प्रकार, सही मिलान है R $$\\to$$ R।</p>\n<p>अब, </p>\n<p>$$T = {{2\\pi R} \\over v}$$</p>\n<p>$$ \\Rightarrow {{{T_1}} \\over {{T_2}}} = {{{{2\\pi {R_1}} \\over {{v_1}}}} \\over {{{2\\pi {R_2}} \\over {{v_2}}}}} \\Rightarrow {{{T_1}} \\over {{T_2}}} = {{{R_1}} \\over {{R_2}}} \\times {{{v_2}} \\over {{v_1}}}$$</p>\n<p>$$ \\Rightarrow {{{T_1}} \\over {{T_2}}} = {1 \\over 4} \\times {1 \\over 2} \\Rightarrow {{{T_1}} \\over {{T_2}}} = {1 \\over 8}$$</p>\n<p>इस प्रकार, सही मिलान है S $$\\to$$ 1।</p>\n<p>इसलिए, विकल्प (B) सही है।</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-planet-of-mass-m-has-two-natural-satellites-with-mass-2018-marks-3-mkp2enm75ee61rtm.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A planet of mass $$M,$$ has two natural satellites with masses $${m_1}$$  and $${m_2}.$$  The radii of their circular orbits are   $${R_1}$$ and $${R_2}$$ respectively, Ignore the gravitational force between the satellites. Define $${v_1},{..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "द्रव्यमान $$M$$ का एक ग्रह है, इसके दो प्राकृतिक उपग्रह हैं जिनके द्रव्यमान $${m_1}$$ और $${m_2}$$ हैं। उनके वृतीय कक्ष की त्रिज्या $${R_1}$$ और $${R_2}$$ क्रमशः है, उपग्रहों के बीच गुरुत्वाकर्षण बल की उपेक्षा करें।  $$v_1, L_1, K_1$$ और $$..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7ztvmluvqohzcu4t80um",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "chapter": "gravitation",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A rocket is launched normal to the surface of the Earth, away from the sun, along the line joining the Sun and the Earth. The Sun is $$3 \\times 10{}^5$$ times heavier than the earth and is at a distance  $$2.5 \\times {10^4}$$ times larger than the radius of the Earth. The escape velocity from Earth's gravitational field is $${V_c} = 11.2km\\,{s^{ - 1}}.$$. The minimum initial velocity $$\\left( {{v_s}} \\right)$$  required for the rocket to be able to leave the sun-earth system is closest to (Ignore the the rotation and revoluation of the earth and the presence of any other planet)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${v_s} = 22\\,km\\,{s^{ - 1}}$$  "
+            },
+            {
+              "identifier": "B",
+              "content": "$${v_s} = 42\\,km\\,{s^{ - 1}}$$  "
+            },
+            {
+              "identifier": "C",
+              "content": "$${v_s} = 62km\\,{s^{ - 1}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${v_s} = 72km{s^{ - 1}}$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0k07svo/1ced5324-484d-4d3d-89b5-1d22cc364210/23eb4b40-9fe6-11ec-9d0c-9911be12062b/file-1l0k07svp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0k07svo/1ced5324-484d-4d3d-89b5-1d22cc364210/23eb4b40-9fe6-11ec-9d0c-9911be12062b/file-1l0k07svp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Gravitation Question 16 English Explanation\"></p>\n<p>Given : Mass of the sun, M<sub>s</sub> = 3 $$\\times$$ 10<sup>5</sup> $$\\times$$ mass of the earth = 3 $$\\times$$ 10<sup>5</sup> M<sub>e</sub></p>\n<p>Distance between the sun and the earth,</p>\n<p>d = 2.5 $$\\times$$ 10<sup>4</sup> $$\\times$$ radius of the earth = 2.5 $$\\times$$ 10<sup>4</sup> R<sub>e</sub>,</p>\n<p>Escape speed, v<sub>e</sub> = 11.2 km s<sup>$$-$$1</sup></p>\n<p>$$\\therefore$$ $${v_e} = \\sqrt {{{2G{M_e}} \\over {{R_e}}}}  = 11.2$$ km s<sup>$$-$$1</sup></p>\n<p>Minimum velocity required for the rocket to escape the given earth $$-$$ sun system = v<sub>s</sub></p>\n<p>Using energy conservation for the given situation,</p>\n<p>$${1 \\over 2}mv_s^2 = {{G{M_e}m} \\over {{R_e}}} + {{G{M_s}m} \\over {d + {R_e}}} = {{G{M_e}m} \\over {{R_e}}} + {{G \\times 3 \\times {{10}^5}{M_e}m} \\over {(2.5 \\times {{10}^4}{R_e} + {R_e})}}$$</p>\n<p>$$\\therefore$$ $$v_s^2 = {{2G{M_e}} \\over {{R_e}}} + {{24G{M_e}} \\over {{R_e}}}$$ ($$\\because$$ 2.5 $$\\times$$ 10<sup>4</sup> &gt;&gt; 1)</p>\n<p>$$ \\Rightarrow v_s^2 = v_e^2 + 12v_e^2 = 13v_e^2$$</p>\n<p>or $${v_s} = \\sqrt {13} $$ v<sub>e</sub> = 40.38 km s<sup>$$-$$1</sup> $$\\approx$$ 42 km s<sup>$$-$$1</sup></p>"
+        },
+        "hi": {
+          "content": "एक रॉकेट को पृथ्वी की सतह से सूर्य की ओर सामान्य दिशा में, पृथ्वी और सूर्य को जोड़ने वाली रेखा के साथ प्रक्षेपित किया गया है। सूर्य पृथ्वी से $$3 \\times 10{}^5$$ गुना भारी है और पृथ्वी की त्रिज्या से $$2.5 \\times {10^4}$$ गुना अधिक दूरी पर स्थित है। पृथ्वी के गुरुत्वाकर्षण क्षेत्र से बचने की वेग $${V_c} = 11.2 km{s^{-1}}$$ है। सूर्य-पृथ्वी प्रणाली से बाहर जाने के लिए रॉकेट के लिए न्यूनतम प्रारंभिक वेग $$\\left( {{v_s}} \\right)$$ सबसे करीब है (पृथ्वी के घूर्णन और क्रांति और किसी अन्य ग्रह की उपस्थिति को नजरअंदाज करें)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${v_s} = 22\\,km\\,{s^{ - 1}}$$  "
+            },
+            {
+              "identifier": "B",
+              "content": "$${v_s} = 42\\,km\\,{s^{ - 1}}$$  "
+            },
+            {
+              "identifier": "C",
+              "content": "$${v_s} = 62km\\,{s^{ - 1}}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${v_s} = 72km{s^{ - 1}}$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-rocket-is-launched-normal-to-the-surface-of-the-earth-awa-2017-marks-3-uwl8oxjsmv4jbe6z.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "escape-speed-and-motion-of-satellites",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A rocket is launched normal to the surface of the Earth, away from the sun, along the line joining the Sun and the Earth. The Sun is $$3 \\times 10{}^5$$ times heavier than the earth and is at a distance  $$2.5 \\times {10^4}$$ times larger t..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "एक रॉकेट को पृथ्वी की सतह से सूर्य की ओर सामान्य दिशा में, पृथ्वी और सूर्य को जोड़ने वाली रेखा के साथ प्रक्षेपित किया गया है। सूर्य पृथ्वी से $$3 \\times 10{}^5$$ गुना भारी है और पृथ्वी की त्रिज्या से $$2.5 \\times {10^4}$$ गुना अधिक दूरी पर ..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "z9wv1php3v0l5luq5bv1",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "permalink": "a-large-spherical-mass-m-is-fixed-at-one-position-and-two-id-jee-advanced-physics-units-and-measurements-ztx6f3rfm9utcy5e",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A large spherical mass M is fixed at one position and two identical masses m are kept on a line passing through the centre of M (see figure). The point masses are connected by a rigid massless rod of length l and this assembly is free to move along the line connecting them.<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0wmo5ov/38216d35-5fd7-442c-a57b-1342f1baaf76/5b6555f0-a6d7-11ec-bd73-d1f19edd5c44/file-1l0wmo5ow.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0wmo5ov/38216d35-5fd7-442c-a57b-1342f1baaf76/5b6555f0-a6d7-11ec-bd73-d1f19edd5c44/file-1l0wmo5ow.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Physics - Gravitation Question 14 English\"><br>All three masses interact only through their mutual gravitational interaction. When the point mass nearer to M is at a distance r = 3l from M the tension in the rod is zero for m = $$k\\left( {{M \\over {288}}} \\right)$$. The value of k is",
+          "options": [],
+          "correct_options": [],
+          "answer": "7",
+          "explanation": "The acceleration $\\vec{a}$ of the point masses are equal because they are connected by a massless rigid rod.\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1li49rdo4/c1e3fac6-d0a4-442a-a5c3-657ca4370aa3/d0f20250-fb9a-11ed-bf4c-01cff485b138/file-1li49rdo5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1li49rdo4/c1e3fac6-d0a4-442a-a5c3-657ca4370aa3/d0f20250-fb9a-11ed-bf4c-01cff485b138/file-1li49rdo5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Physics - Gravitation Question 14 English Explanation\">\n<br>Consider the situation when tension in the rod is zero. The gravitational forces on the two point masses are shown in the figure. The forces $f_1=\\frac{G M m}{r^2}$ and $f_3=\\frac{G M m}{(r+l)^2}$ are due to the attraction by the larger mass $M$. The force $f_2=\\frac{G m m}{l^2}$ is due to mutual attraction between the two point masses. Apply Newton's second law on the two point masses to get\n<br><br>$$\n\\frac{G M m}{r^2}-\\frac{G m m}{l^2}=m a\n$$ ....... (1)\n<br><br>$$\n\\frac{G M m}{(r+l)^2}+\\frac{G m m}{l^2}=m a\n$$ ......... (2)\n<br><br>From eqn. (1) and (2), we get\n<br><br>$$\n\\begin{aligned}\n&amp; \\frac{G M}{9 l^2}-\\frac{G m}{l^2}=\\frac{G M}{16 l^2}+\\frac{G m}{l^2} \\\\\\\\\n&amp; \\frac{M}{9}-\\frac{M}{16}=m+m \\Rightarrow \\frac{7 M}{144}=2 m\n\\end{aligned}\n$$\n<br><br>$$\nm=\\frac{7 M}{288}=k\\left(\\frac{M}{288}\\right)\n$$\n<br><br>$$ \\therefore $$ k = 7"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "type": "integer",
+      "year": 2015,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A large spherical mass M is fixed at one position and two identical masses m are kept on a line passing through the centre of M (see figure). The point masses are connected by a rigid massless rod of length l and this assembly is free to mo..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "n7x5803z50maxn5vsbfq",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gravitation",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A bullet is fired vertically upwards with velocity v from the surface of a spherical planet. When it reaches\nits maximum height, its acceleration due to the planet’s gravity is $${\\left( {{1 \\over 4}} \\right)^{th}}$$ of its value at the surface of the\nplanet. If the escape velocity from the planet is $${v_{esc}} = v\\sqrt N $$, then the value of N is (ignore energy loss due\nto atmosphere)",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l15324gj/2a5394f8-bb47-44a0-a73d-0c38e6515447/b708c630-ab7d-11ec-ba78-b5dfc62886b6/file-1l15324gk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l15324gj/2a5394f8-bb47-44a0-a73d-0c38e6515447/b708c630-ab7d-11ec-ba78-b5dfc62886b6/file-1l15324gk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Gravitation Question 18 English Explanation\"></p>\n<p>Given situation is shown in the figure. Let acceleration due to gravity at the surface of the planet be g. At height h above planet's surface v = 0.</p>\n<p>According to question, acceleration due to gravity of the planet at height h above its surface becomes g/4.</p>\n<p>$${g_h} = {g \\over 4} = {g \\over {{{\\left( {1 + {h \\over R}} \\right)}^2}}}$$</p>\n<p>$$4 = {\\left( {1 + {h \\over R}} \\right)^2} \\Rightarrow 1 + {h \\over R} = 2$$</p>\n<p>$${h \\over R} = 1 \\Rightarrow h = R$$.</p>\n<p>So, velocity of the bullet becomes zero at h = R.</p>\n<p>Also, $${v_{esc}} = v\\sqrt N  \\Rightarrow \\sqrt {{{2GM} \\over R}}  = v\\sqrt N $$ ...... (i)</p>\n<p>Applying energy conservation principle,</p>\n<p>Energy of bullet at surface of earth = Energy of bullet at highest point</p>\n<p>$${{ - GMm} \\over R} + {1 \\over 2}m{v^2} = {{ - GMm} \\over {2R}}$$</p>\n<p>$${1 \\over 2}m{v^2} = {{GMm} \\over {2R}}$$ $$\\therefore$$ $$v = \\sqrt {{{GM} \\over R}} $$</p>\n<p>Putting this value in eqn. (i), we get</p>\n<p>$$\\sqrt {{{2GM} \\over R}}  = \\sqrt {{{NGM} \\over R}} $$ <br><br>$$\\therefore$$ N = 2</p>"
+        }
+      },
+      "permalink": "a-bullet-is-fired-vertically-upwards-with-velocity-v-from-th-2015-marks-4-vaijkgy6yxe8pqdw.htm",
+      "timeAllotted": 180000,
+      "topic": "escape-speed-and-motion-of-satellites",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A bullet is fired vertically upwards with velocity v from the surface of a spherical planet. When it reaches\nits maximum height, its acceleration due to the planet’s gravity is $${\\left( {{1 \\over 4}} \\right)^{th}}$$ of its value at the sur..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "brod65ri5itzhethoym3",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gravitation",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A planet of radius R = $${1 \\over {10}} \\times $$ (radius of Earth) has the same mass density as Earth. Scientists dig a well of\ndepth $${R \\over 5}$$\non it and lower a wire of the same length and of linear mass density 10<sup>-3</sup> kg m<sup>-1</sup> into it. If the wire is not touching anywhere, the force applied at the top of the wire by a person holding it in place is (take the radius of Earth = 6 $$ \\times $$ 10<sup>6</sup> m and the acceleration due to gravity of Earth is 10 ms<sup> -2</sup>)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "96 N"
+            },
+            {
+              "identifier": "B",
+              "content": "108 N"
+            },
+            {
+              "identifier": "C",
+              "content": "120 N"
+            },
+            {
+              "identifier": "D",
+              "content": "150 N"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Given R<sub>e</sub> = 10R = 6 $$\\times$$ 10<sup>6</sup> m and g<sub>e</sub> = 10 m/s<sup>2</sup>. Consider a wire element of length dr placed at a distance r from the centre O.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1cgfe2s/69700d3d-169a-4faa-afa0-8bb13966594b/7b352c40-af8b-11ec-b0b3-439ca85bb50d/file-1l1cgfe2t.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1cgfe2s/69700d3d-169a-4faa-afa0-8bb13966594b/7b352c40-af8b-11ec-b0b3-439ca85bb50d/file-1l1cgfe2t.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 2 Offline Physics - Gravitation Question 22 English Explanation\"></p>\n<p>Let $$\\rho$$ be the common mass density of the planet and the earth and m be the mass of the planet inside the sphere of radius r i.e., $$m = {4 \\over 3}\\pi {r^3}\\rho $$. The gravitational force on the wire element by the planet is equal to the force by a point mass of magnitude m placed at the centre O. Thus, force on the wire element is</p>\n<p>$$dF = {{Gm\\lambda dr} \\over {{r^2}}} = {4 \\over 3}G\\pi \\rho \\lambda rdr$$.</p>\n<p>Integrate dF from $$r = {4 \\over 5}R$$ to r = R to get</p>\n<p>$$F = {4 \\over 3}G\\pi \\rho \\lambda \\int_{{4 \\over 5}R}^R {r\\,dr = {4 \\over 3}G\\pi \\rho \\lambda \\left( {{{9{R^2}} \\over {50}}} \\right)} $$</p>\n<p>$$ = {{{4 \\over 3}\\pi \\rho R_e^3G} \\over {R_e^2}}\\left( {{{9\\lambda {R_e}} \\over {5000}}} \\right)$$</p>\n<p>$$ = {g_e}{{9\\lambda {R_e}} \\over {5000}} = {{(10)(9)({{10}^{ - 3}})(6 \\times {{10}^6})} \\over {5000}} = 108$$ N.</p>"
+        }
+      },
+      "permalink": "a-planet-of-radius-r-1-over-10-times-radius-of-2014-marks-3-do2sowavwntms6vv.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "topic": "acceleration-due-to-gravity-and-its-variation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A planet of radius R = $${1 \\over {10}} \\times $$ (radius of Earth) has the same mass density as Earth. Scientists dig a well of\ndepth $${R \\over 5}$$\non it and lower a wire of the same length and of linear mass density 10-3 kg m-1 into it...."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "5xtgrsgnoq1onnfutwn9",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gravitation",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Two bodies, each of mass M, are kept fixed with a separation $$2L$$. A particle of mass m is projected from\nthe midpoint of the line joining their centres, perpendicular to the line. The gravitational constant is G. The\ncorrect statement(s) is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The minimum initial velocity of the mass m to escape the gravitational field of the two bodies is $$4\\sqrt {{{GM} \\over L}} $$"
+            },
+            {
+              "identifier": "B",
+              "content": "The minimum initial velocity of the mass m to escape the gravitational field of the two bodies is $$2\\sqrt {{{GM} \\over L}} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "The minimum initial velocity of the mass m to escape the gravitational field of the two bodies is $$\\sqrt {{{2GM} \\over L}} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "The energy of the mass m remains constant."
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lztdmjh5/3a9b9f87-265e-426c-aa37-390385d0a9c2/3493e090-59f9-11ef-8064-0fdc89002c8d/file-jaoe38c1lztdmjh6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lztdmjh5/3a9b9f87-265e-426c-aa37-390385d0a9c2/3493e090-59f9-11ef-8064-0fdc89002c8d/file-jaoe38c1lztdmjh6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2013 Paper 2 Offline Physics - Gravitation Question 20 English Explanation\"></p>\n<p>Here we will use the law of conservation of energy as there are no non-conservative force involved so the total energy of mass m remains constant.</p>\n<p>For minimum initial velocity to escape the gravitational field, the velocity at infinity will be zero.</p>\n<p>And we know PE at infinity is zero.</p>\n<p>By energy conservation,</p>\n<p>$$P{E_i} + K{E_i} = P{E_f} + K{E_f}$$</p><p>\n</p><p>$$ \\Rightarrow {{ - GMm} \\over L} - {{GMm} \\over L} + {1 \\over 2}m{v^2} = 0 + {1 \\over 2}m{(0)^2}$$</p>\n<p>$$ \\Rightarrow  - {{2Gm} \\over L}M + {1 \\over 2}m{v^2} = 0$$</p>\n<p>$$ \\Rightarrow {1 \\over 2}{V^2} = {{2Gm} \\over L}$$</p>\n<p>$$ \\Rightarrow V = 2\\sqrt {{{GM} \\over L}} $$</p>\n<p>Hence, options (B) and (D) are correct.</p>"
+        }
+      },
+      "permalink": "two-bodies-each-of-mass-m-are-kept-fixed-with-a-separation-2013-marks-3-gvmbwzfa07thiazi.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "topic": "escape-speed-and-motion-of-satellites",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "Two bodies, each of mass M, are kept fixed with a separation $$2L$$. A particle of mass m is projected from\nthe midpoint of the line joining their centres, perpendicular to the line. The gravitational constant is G. The\ncorrect statement(s)..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8c04kb3ufe5vc1w6jmzy",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gravitation",
+      "year": 2012,
+      "paperTitle": "IIT-JEE 2012 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Two spherical planets P and Q have the same uniform density r, masses M<sub>P</sub> and M<sub>Q</sub> and surface\nareas A and 4A respectively. A spherical planet R also has uniform density r and its mass is (M<sub>P</sub>\n+ M<sub>Q</sub>). The escape velocities from the planets P, Q and R are V<sub>P</sub>, V<sub>Q</sub> and V<sub>R</sub>, respectively. Then",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "V<sub>Q</sub> &gt; V<sub>R</sub> &gt; V<sub>P</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "V<sub>R</sub> &gt; V<sub>Q</sub> &gt; V<sub>P</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{{V_R}} \\over {{V_P}}} = 3$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{{V_P}} \\over {{V_Q}}} = {1 \\over 2}$$"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Escape velocity, expressed as\n\n<p>$$v_e = \\sqrt{\\frac{2 \\mathrm{GM}}{\\mathrm{R}}} = \\sqrt{\\frac{2 \\mathrm{G} \\cdot \\frac{4}{3} \\pi \\mathrm{R}^3 \\rho}{\\mathrm{R}}}$$ </p></p>\n\n<p>can be simplified to\n\n<p>$$\\sqrt{\\frac{8 \\pi \\mathrm{G} \\rho}{3}} \\mathrm{R}.$$</p></p>\n\n<p>The surface area, $A_s$, is given by\n\n<p>$$A_s = 4 \\pi R^2.$$</p></p>\n\n<p>Considering planet Q's surface area is 4 times that of planet P:\n\n<p>$$\\mathrm{A}_{\\mathrm{Q}} = 4 \\mathrm{A} = 4 \\pi \\mathrm{R}_{\\mathrm{Q}}^2$$</p>\n\n<p>$$\\mathrm{~A}_{\\mathrm{P}} = \\mathrm{A} = 4 \\pi \\mathrm{R}_{\\mathrm{P}}^2$$</p>\n\n<p>therefore,</p>\n\n<p>$$4 \\mathrm{R}_{\\mathrm{P}}^2 = \\mathrm{R}_{\\mathrm{Q}}^2.$$</p></p>\n\n<p>Solving for $R_Q$ :\n\n<p>$$\\Rightarrow \\quad R_{\\mathrm{Q}} = 2 \\mathrm{R}_{\\mathrm{P}} \\quad \\text{........(i)}.$$</p></p>\n\n<p>For planet R, with mass $\\mathrm{M}_{\\mathrm{R}} = \\mathrm{M}_{\\mathrm{P}} + \\mathrm{M}_{\\mathrm{Q}}$:\n\n<p>$$\\rho \\cdot \\frac{4}{3} \\pi \\mathrm{R}_{\\mathrm{R}}^3 = \\rho \\cdot \\frac{4}{3} \\pi (\\mathrm{R}_{\\mathrm{P}}^3 + \\mathrm{R}_{\\mathrm{Q}}^3)$$</p></p>\n\n<p>Since\n\n<p>$$\\mathrm{R}_{\\mathrm{Q}} = 2\\mathrm{R}_{\\mathrm{P}},$$</p>\n\n<p>we have :</p>\n\n<p>$$\\mathrm{R}_{\\mathrm{R}}^3 = \\mathrm{R}_{\\mathrm{P}}^3 + 8 \\mathrm{R}_{\\mathrm{P}}^3 = 9 \\mathrm{R}_{\\mathrm{P}}^3.$$</p>\n\n<p>Thus,</p>\n\n<p>$$\\mathrm{R}_{\\mathrm{R}} = (9)^{1/3} \\mathrm{R}_{\\mathrm{P}} \\quad \\text{........(ii)}.$$</p></p>\n\n<p>From (i) and (ii), it follows that :\n\n<p>$$ R_R > R_Q > R_P.$$</p></p>\n\n<p>Since\n\n<p>$$V_e \\propto \\mathrm{R},$$</p>\n\n<p>it implies that :</p>\n\n<p>$$\\mathrm{V}_{\\mathrm{R}} > \\mathrm{V}_{\\mathrm{Q}} > \\mathrm{V}_{\\mathrm{P}}.$$</p>\n\n<p>Also,</p>\n\n<p>$$\\frac{\\mathrm{V}_{\\mathrm{R}}}{\\mathrm{V}_{\\mathrm{P}}} = \\frac{\\mathrm{R}_{\\mathrm{R}}}{\\mathrm{R}_{\\mathrm{P}}} = 9^{1/3},$$</p>\n\n<p>and</p>\n\n<p>$$\\frac{\\mathrm{V}_{\\mathrm{P}}}{\\mathrm{V}_{\\mathrm{Q}}} = \\frac{\\mathrm{R}_{\\mathrm{P}}}{\\mathrm{R}_{\\mathrm{Q}}} = \\frac{1}{2}.$$</p></p>"
+        }
+      },
+      "permalink": "two-spherical-planets-p-and-q-have-the-same-uniform-density-2012-marks-4-sdljjqmzorndgsev.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2012-paper-2-offline",
+      "topic": "escape-speed-and-motion-of-satellites",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 2 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "Two spherical planets P and Q have the same uniform density r, masses MP and MQ and surface\nareas A and 4A respectively. A spherical planet R also has uniform density r and its mass is (MP\n+ MQ). The escape velocities from the planets P, Q ..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zrhjcqyvamnehqv6m7gr",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gravitation",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A satellite is moving with a constant speed ‘V’ in a circular orbit about the earth. An object of mass ‘m’ is\nejected from the satellite such that it just escapes from the gravitational pull of the earth. At the time of its\nejection, the kinetic energy of the object is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${1 \\over 2}m{V^2}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$m{V^2}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${3 \\over 2}m{V^2}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$2m{V^2}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>A particle escapes from the gravitational pull if its total energy (T) i.e., sum of kinetic energy (K) and potential energy (U), is greater than or equal to zero. The condition for just escape T = K + U = 0 i.e.,</p>\n<p>K = $$-$$ U. .............. (1)</p>\n<p>In a circular orbit of radius r, gravitational attraction provides the centripetal acceleration, mV<sup>2</sup>/r = GMm/r<sup>2</sup>, which gives</p>\n<p>$$r = {{GM} \\over {{V^2}}}$$ ........ (2)</p>\n<p>From equations (1) and (2), the kinetic energy of the particle at the time of injection is given by</p>\n<p>$$K =  - U =  - \\left( { - {{GMm} \\over r}} \\right) = {{GMm} \\over {GM/{V^2}}} = m{V^2}$$.</p>"
+        }
+      },
+      "permalink": "a-satellite-is-moving-with-a-constant-speed-v-in-a-cir-2011-marks-3-gvu9pulm3kg2igl7.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "topic": "escape-speed-and-motion-of-satellites",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A satellite is moving with a constant speed ‘V’ in a circular orbit about the earth. An object of mass ‘m’ is\nejected from the satellite such that it just escapes from the gravitational pull of the earth. At the time of its\nejection, the ki..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "n3wywko1ji1evaztp6vf",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "permalink": "pa-thin-uniform-annular-disc-see-figure-of-mass-m-has-ou-jee-advanced-physics-gravitation-yrnuj5dwpqstm8vu",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A thin uniform annular disc (see figure) of mass M has outer radius 4R and inner radius 3R. The work required to take a unit mass from point P on its axis to infinity is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l31jmeye/27fdfb46-7b32-44e8-902f-879d5befb0ba/c98d3d60-d123-11ec-9aee-03aecae32ba6/file-1l31jmeyf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l31jmeye/27fdfb46-7b32-44e8-902f-879d5befb0ba/c98d3d60-d123-11ec-9aee-03aecae32ba6/file-1l31jmeyf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Gravitation Question 12 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{2GM} \\over {7R}}(4\\sqrt 2  - 5)$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$ - {{2GM} \\over {7R}}(4\\sqrt 2  - 5)$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{GM} \\over {4R}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{2GM} \\over {5R}}(\\sqrt 2  - 1)$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>We need to find gravitational potential energy of a unit mass placed at the point P.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l31joqgd/480f9305-5b33-42d9-85e1-292436ec3e7b/0a0db0e0-d124-11ec-b5bf-9d106fd05fc4/file-1l31joqge.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l31joqgd/480f9305-5b33-42d9-85e1-292436ec3e7b/0a0db0e0-d124-11ec-b5bf-9d106fd05fc4/file-1l31joqge.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Gravitation Question 12 English Explanation\"></p>\n<p>The surface mass density of the annular disc is</p>\n<p>$$\\sigma  = M/(16\\pi {R^2} - 9\\pi {R^2}) = M/(7\\pi {R^2})$$.</p>\n<p>Consider a small ring of radius r and thickness dr. The mass of the ring is dm = 2$$\\pi$$r$$\\sigma $$dr. As distance of any point of the ring from P is same, the potential at P due to the ring is</p>\n<p>$${V_P} =  - {{G(2\\pi r\\sigma dr)} \\over {\\sqrt {16{R^2} + {r^2}} }}$$</p>\n<p>Integrate from r = 3R to r = 4R to get the potential energy of the unit mass placed at P</p>\n<p>$${V_P} = \\int\\limits_{3R}^{4R} { - {{GdM} \\over {\\sqrt {{{(4R)}^2} + {{(r)}^2}} }} =  - {{GM2\\pi } \\over {7\\pi {R^2}}}\\int\\limits_{3R}^{4R} {{{rdr} \\over {\\sqrt {16{R^2} + {r^2}} }}} } $$</p>\n<p>Solving, we get</p>\n<p>$${V_P} =  - {{GM2\\pi } \\over {7\\pi {R^2}}}\\left[ {\\sqrt {16{R^2} + {r^2}} } \\right]_{3R}^{4R} =  - {{2GM} \\over {7R}}\\left( {4\\sqrt 2  - 5} \\right)$$</p>\n<p>Work done in moving a unit mass from P to $$\\infty$$ = V<sub>$$\\infty$$</sub> $$-$$V<sub>P</sub></p>\n<p>$$ = 0 - \\left( {{{ - 2GM} \\over {7R}}\\left( {4\\sqrt 2  - 5} \\right)} \\right) = {{2GM} \\over {7R}}\\left( {4\\sqrt 2  - 5} \\right)$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "gravitational-potential-and-gravitational-potential-energy",
+      "type": "mcq",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A thin uniform annular disc (see figure) of mass M has outer radius 4R and inner radius 3R. The work required to take a unit mass from point P on its axis to infinity is\n"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "l6wklivejz9svb8u5zri",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gravitation",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Gravitational acceleration on the surface of a planet is $${{\\sqrt 6 } \\over {11}}g$$, where $$g$$ is the gravitational acceleration on\nthe surface of the earth. The average mass density of the planet is $${2 \\over 3}$$\ntimes that of the earth. If the escape\nspeed on the surface of the earth is taken to be 11 kms<sup>-1</sup>, the escape speed on the surface of the planet in\nkms<sup>-1</sup> will be",
+          "options": [],
+          "correct_options": [],
+          "answer": "3",
+          "explanation": "<p>On the planet,</p>\n<p>$${g_p} = {{G{M_p}} \\over {R_p^2}} = {G \\over {R_p^2}}\\left( {{4 \\over 3}\\pi R_p^3{\\rho _p}} \\right) = {4 \\over 3}G\\pi R_p^{}{\\rho _p}$$</p>\n<p>On the earth,</p>\n<p>$${g_e} = {{G{M_e}} \\over {R_e^2}} = {G \\over {R_e^2}}\\left( {{4 \\over 3}\\pi R_e^3{\\rho _e}} \\right) = {4 \\over 3}G\\pi R_e^{}{\\rho _e}$$</p>\n<p>$$\\therefore$$ $${{{g_p}} \\over {{g_e}}} = {{R_p^{}{\\rho _p}} \\over {R_e^{}{\\rho _e}}}$$ or $${{{R_p}} \\over {{R_e}}} = {{g_p^{}{\\rho _p}} \\over {g_e^{}{\\rho _e}}}$$ ..... (i)</p>\n<p>On the planet, $${v_p} = \\sqrt {2{g_p}{R_p}} $$</p>\n<p>On the earth, $${v_e} = \\sqrt {2{g_e}{R_e}} $$</p>\n<p>$$\\therefore$$ $${{{v_p}} \\over {{v_e}}} = \\sqrt {{{{g_p}{R_p}} \\over {{g_e}{R_e}}}}  = {{{g_p}} \\over {{g_e}}}\\sqrt {{{{\\rho _e}} \\over {{\\rho _p}}}} $$ (Using (i))</p>\n<p>Here, $${\\rho _p} = {2 \\over 3}{\\rho _e}$$, $${g_p} = {{\\sqrt 6 } \\over {11}}{g_e}$$</p>\n<p>$$\\therefore$$ $${{{v_p}} \\over {{v_e}}} = {{\\sqrt 6 } \\over {11}}\\sqrt {{3 \\over 2}} $$</p>\n<p>or, $${v_p} = 11 \\times {{\\sqrt 6 } \\over {11}} \\times \\sqrt {{3 \\over 2}} $$ ($$\\because$$ v<sub>e</sub> = 11 km s<sup>$$-$$1</sup> (Given))</p>\n<p>= 3 km s<sup>$$-$$1</sup></p>"
+        }
+      },
+      "permalink": "gravitational-acceleration-on-the-surface-of-a-planet-is-2010-marks-3-trf6ad0fyscavrji.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "acceleration-due-to-gravity-and-its-variation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "Gravitational acceleration on the surface of a planet is $${{\\sqrt 6 } \\over {11}}g$$, where $$g$$ is the gravitational acceleration on\nthe surface of the earth. The average mass density of the planet is $${2 \\over 3}$$\ntimes that of the ea..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "oja9w8hvmi9vi0q8j5mj",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "gravitation",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A binary star consists of two stars A (mass 2.2M<sub>s</sub>) and B (mass 11M<sub>s</sub>), where M<sub>s</sub> is the mass of the sun. They are separated by distance d and are rotating about their centre of mass, which is stationary. The ratio\nof the total angular momentum of the binary star to the angular momentum of star B about the centre of\nmass is",
+          "options": [],
+          "correct_options": [],
+          "answer": "6",
+          "explanation": "<p>Let stars A and B are rotating about their centre of mass with angular velocity $$\\omega$$.</p>\n<p>Let distance of stars A and B from the centre of mass be r<sub>A</sub> and r<sub>B</sub> respectively as shown in the figure.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l3080ixp/700faf10-5acb-4873-bce1-3c303d38447e/9bc168d0-d069-11ec-bfa4-213dbe55022f/file-1l3080ixq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l3080ixp/700faf10-5acb-4873-bce1-3c303d38447e/9bc168d0-d069-11ec-bfa4-213dbe55022f/file-1l3080ixq.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Gravitation Question 24 English Explanation\"></p>\n<p>Total angular momentum of the binary stars about the centre of mass is</p>\n<p>$$L = {M_A}r_A^2\\omega  + {M_B}r_B^2\\omega $$</p>\n<p>Angular momentum of the star B about centre of mass is</p>\n<p>$${L_B} = {M_B}r_B^2\\omega $$</p>\n<p>$$\\therefore$$ $${L \\over {{L_B}}} = {{({M_A}r_A^2 + {M_B}r_B^2)\\omega } \\over {{M_B}r_B^2\\omega }} = \\left( {{{{M_A}} \\over {{M_B}}}} \\right){\\left( {{{{r_A}} \\over {{r_B}}}} \\right)^2} + 1$$</p>\n<p>Since $${M_A}{r_A} = {M_B}{r_B}$$</p>\n<p>or, $${{{r_A}} \\over {{r_B}}} = {{{M_B}} \\over {{M_A}}}$$</p>\n<p>$$\\therefore$$ $${L \\over {{L_B}}} = {{{M_B}} \\over {{M_A}}} + 1 = {{11{M_S}} \\over {2.2{M_S}}} + 1 = {{11 + 2.2} \\over {2.2}} = 6$$</p>"
+        }
+      },
+      "permalink": "a-binary-star-consists-of-two-stars-a-mass-22ms-and-b-ma-2007-marks-3-ucudj0rqlunkvjkl.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A binary star consists of two stars A (mass 2.2Ms) and B (mass 11Ms), where Ms is the mass of the sun. They are separated by distance d and are rotating about their centre of mass, which is stationary. The ratio\nof the total angular momentu..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "question_id": "ub9a7oa98vwvq49uac8r",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pcolumn-ii-shows-five-systems-in-which-two-objects-are-lab-jee-advanced-physics-motion-yclzdlcvywl0tv8t",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Column II shows five systems in which two objects are labelled as X and Y. Also in each case a point P is shown. Column I gives some statements about X and/or Y. Match these statements to the appropriate system(s) from Column II:</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-baqh{text-align:center;vertical-align:top}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n</p><table class=\"tg\" style=\"undefined;table-layout: fixed; width: 635px\">\n<colgroup>\n<col style=\"width: 50px\">\n<col style=\"width: 240px\">\n<col style=\"width: 51px\">\n<col style=\"width: 294px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-amwm\"></th>\n    <th class=\"tg-amwm\">Column I</th>\n    <th class=\"tg-amwm\"></th>\n    <th class=\"tg-amwm\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-baqh\">(A)</td>\n    <td class=\"tg-0lax\">The force exerted by X on Y has a magnitude $$Mg$$.</td>\n    <td class=\"tg-baqh\">(P)</td>\n    <td class=\"tg-0lax\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrm3h1v/e6f57050-4c12-497c-a87e-277df0b5ab0f/6f9dd630-cd0c-11ed-8124-cf50c8498624/file-1lfrm3h1w.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrm3h1v/e6f57050-4c12-497c-a87e-277df0b5ab0f/6f9dd630-cd0c-11ed-8124-cf50c8498624/file-1lfrm3h1w.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Gravitation Question 10 English 1\"><br>Block Y of mass M left on a fixed inclined plane X, slides on it with a constant velocity.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(B)</td>\n    <td class=\"tg-0lax\">The gravitational potential energy of X is continuously increasing.</td>\n    <td class=\"tg-baqh\">(Q)</td>\n    <td class=\"tg-0lax\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrm3xly/21a94ee9-0a76-4812-a2ec-7354345dc3f8/7c683860-cd0c-11ed-8124-cf50c8498624/file-1lfrm3xlz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrm3xly/21a94ee9-0a76-4812-a2ec-7354345dc3f8/7c683860-cd0c-11ed-8124-cf50c8498624/file-1lfrm3xlz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Gravitation Question 10 English 2\"><br>Two rings magnets Y and Z, each of mass M, are kept in frictionless vertical plastic stand so that they repel each other. Y rests on the base X and Z hangs in air in equilibrium. P is the topmost point of the stand on the common axis of the two rings. The whole system is in a lift that is going up with a constant velocity.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(C)</td>\n    <td class=\"tg-0lax\">Mechanical energy of the system X + Y is continuously decreasing.</td>\n    <td class=\"tg-baqh\">(R)</td>\n    <td class=\"tg-0lax\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrm4e7k/34779392-8610-4158-9ce7-67caee250e55/893aff00-cd0c-11ed-8124-cf50c8498624/file-1lfrm4e7l.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrm4e7k/34779392-8610-4158-9ce7-67caee250e55/893aff00-cd0c-11ed-8124-cf50c8498624/file-1lfrm4e7l.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Gravitation Question 10 English 3\"><br>A pulley Y of mass $$m_0$$ is fixed to a table through a clamp X. A block of mass M hangs from a string that goes over the pulley and is fixed at point P of the table. The whole system is kept in a lift that is going down with a constant velocity.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-baqh\">(D)</td>\n    <td class=\"tg-0lax\">The torque of the weight of Y about point is zero.</td>\n    <td class=\"tg-baqh\">(S)</td>\n    <td class=\"tg-0lax\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrm4xya/7028b443-3ec7-41de-b742-d1d3641b098b/987b4330-cd0c-11ed-8124-cf50c8498624/file-1lfrm4xyb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrm4xya/7028b443-3ec7-41de-b742-d1d3641b098b/987b4330-cd0c-11ed-8124-cf50c8498624/file-1lfrm4xyb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Gravitation Question 10 English 4\"><br>A sphere Y of mass M is put in a non-viscous liquid X kept in a container at rest. The sphere is released and it moves down in the liquid.</td>\n  </tr>\n  <tr>\n    <td class=\"tg-0lax\"></td>\n    <td class=\"tg-0lax\"></td>\n    <td class=\"tg-baqh\">(T)</td>\n    <td class=\"tg-0lax\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrm4xya/7028b443-3ec7-41de-b742-d1d3641b098b/987b4330-cd0c-11ed-8124-cf50c8498624/file-1lfrm4xyb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrm4xya/7028b443-3ec7-41de-b742-d1d3641b098b/987b4330-cd0c-11ed-8124-cf50c8498624/file-1lfrm4xyb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Gravitation Question 10 English 5\"><br>A sphere Y of mass M is falling with its terminal velocity in a viscous liquid X kept in a container.</td>\n  </tr>\n</tbody>\n</table><p></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{(A)\\to (T),(S);(B)\\to (Q),(T);(C)\\to(P),(R),(T);(D)\\to(Q)}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{(A)\\to (T),(P);(B)\\to (Q),(S),(T);(C)\\to(P),(R),(T);(D)\\to(Q)}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{(A)\\to (T),(Q);(B)\\to (Q),(S),(T);(C)\\to(P),(R),(T);(D)\\to(S)}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mathrm{(A)\\to (P);(B)\\to (S),(T);(C)\\to(P),(R),(T);(D)\\to(T)}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": "",
+          "explanation": "<p><b>Case (P)</b> : Since $$v$$ = Constant, we have</p>\n<p>$$Mg\\sin \\theta  = \\mu Mg\\cos \\theta  = f \\Rightarrow \\mu  = \\tan \\theta $$</p>\n<p>Now, $$N = Mg\\cos \\theta $$. Therefore,</p>\n<p>$$R = \\sqrt {{N^2} + {f^2}}  = Mg\\sqrt {{{\\cos }^2}\\theta  + {{\\sin }^2}\\theta } $$</p>\n<p><b>Case (T)</b> : We have $$Mg = {F_v} + {F_b}$$, where $${F_v}$$ is the viscous force and $${F_b}$$ is the buoyant force.</p>\n<p><b>Case (S)</b> : We have $$Mg - {F_b} = Ma$$.</p>\n<p><b>Case (R)</b> : We have $$Mg = T$$. Therefore,</p>\n<p>$$T + {M_0}g = {F_y}$$ (by the clamp)</p>\n<p>$$T = {F_X}$$ (by the clamp)</p>\n<p>Therefore, the force exerted by the clamp X on pulley Y is</p>\n<p>$$F = \\sqrt {F_X^2 + F_Y^2}  = g\\sqrt {{M^2} + {{(M + {m_0})}^2}} $$</p>\n<p><b>Case (Q)</b> : We have</p>\n<p>$$Mg = {F_m}$$ (for Z)</p>\n<p>where $${F_m}$$ is the magnetic repulsion. Also,</p>\n<p>$$Mg + {F_m} = N$$ (for Y)</p>\n<p>Therefore, $$N = 2Mg$$.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrm977l/e5125130-4634-4e1d-b27b-43cd072f58ff/0ede9310-cd0d-11ed-8124-cf50c8498624/file-1lfrm977m.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrm977l/e5125130-4634-4e1d-b27b-43cd072f58ff/0ede9310-cd0d-11ed-8124-cf50c8498624/file-1lfrm977m.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Gravitation Question 10 English Explanation\"></p>\n<p><b>Note :</b></p>\n<p><b>Option (A)</b> : For option (T), if $${F_b}$$ is ignored, then $$Mg = {F_v}$$; otherwise, no case matches for option (A).</p>\n<p>Hence, (A) $$\\to$$ (T), (P).</p>\n<p><b>Option (B)</b> : In option (Q), it is mentioned that the lift is moving up continuously; therefore, the gravitational potential energy of X goes on increasing. In option (B), as Y comes down, X goes up (displaced). The same is applicable for option (T).</p>\n<p>Hence, (B) $$\\to$$ (Q), (S), (T).</p>\n<p><b>Option (C)</b> : For option (P), since Y moves down with a constant $$v$$, the gravitational potential energy of the system X + Y goes on decreasing, similar is the case in Options (R) and (T).</p>\n<p>Hence, (C) $$\\to$$ (P), (R), (T).</p>\n<p><b>Option (D)</b> : For option (S), the mass moves down with acceleration. Therefore, the kinetic energy goes on increasing. Since the line of action of Mg of Y phases through point P, as mentioned in option (Q), its torque about P is zero.</p>\n<p>Hence, (D) $$\\to$$ (Q).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "gravitational-potential-and-gravitational-potential-energy",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "Column II shows five systems in which two objects are labelled as X and Y. Also in each case a point P is shown. Column I gives some statements about X and/or Y. Match these statements to the appropriate system(s) from Column II:\n\n.tg  {bor..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "2vbhd41v3kcgvlc6zwqz",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pa-spherically-symmetric-gravitational-system-of-particles-jee-advanced-physics-motion-6lgrzm4oywq5h999",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A spherically symmetric gravitational system of particles has a mass density</p>\n<p>$$\\rho  = \\left\\{ {\\matrix{\n   {{\\rho _0}} & {for} & {r \\le R}  \\cr \n   0 & {for} & {r > R}  \\cr \n\n } } \\right.$$</p>\n<p>Where $$\\rho_0$$ is a constant. A test mass can undergo circular motion under the influence of the gravitational field of particles. Its speed V as a function of distance $$r(0 < r < \\infty)$$ from the centre of the system is represented by</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgklpy4g/36e5c537-dbd6-405c-a7c7-57098bba23d2/b24f2000-dcfd-11ed-b5ad-97b01a9acc6f/file-1lgklpy4h.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgklpy4g/36e5c537-dbd6-405c-a7c7-57098bba23d2/b24f2000-dcfd-11ed-b5ad-97b01a9acc6f/file-1lgklpy4h.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Physics - Gravitation Question 7 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgklql4g/af03d53c-fe59-4e24-b120-ea3c2b45a47c/c4137700-dcfd-11ed-8c7b-9d434a19d7bf/file-1lgklql4h.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgklql4g/af03d53c-fe59-4e24-b120-ea3c2b45a47c/c4137700-dcfd-11ed-8c7b-9d434a19d7bf/file-1lgklql4h.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Physics - Gravitation Question 7 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgklr2bh/737a72d3-7f92-435a-ad25-b8649a6c8b8a/d15be2d0-dcfd-11ed-8c7b-9d434a19d7bf/file-1lgklr2bi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgklr2bh/737a72d3-7f92-435a-ad25-b8649a6c8b8a/d15be2d0-dcfd-11ed-8c7b-9d434a19d7bf/file-1lgklr2bi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Physics - Gravitation Question 7 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgklrilh/cf921c98-db21-4df1-9c3d-fb0fac2b7d17/ddeee150-dcfd-11ed-8c7b-9d434a19d7bf/file-1lgklrili.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgklrilh/cf921c98-db21-4df1-9c3d-fb0fac2b7d17/ddeee150-dcfd-11ed-8c7b-9d434a19d7bf/file-1lgklrili.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Physics - Gravitation Question 7 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>For $$r\\ge R$$,</p>\n<p>Force on test mass m is $$F=m\\times |E_g|$$</p>\n<p>where, $$E_g$$ = Gravitational field intensity at the point of observation</p>\n<p>$$\\therefore$$ $${{m{v^2}} \\over r} = m \\times \\left[ {{{GM} \\over {{r^2}}}} \\right]$$,</p>\n<p>Where, M = Total mass of spherical system</p>\n<p>$$\\therefore$$ $$v \\propto {1 \\over {\\sqrt r }}$$</p>\n<p>For $$r < R$$,</p>\n<p>$$F' = m|E{'_g}|$$</p>\n<p>$$\\therefore$$ $${{m{V^2}} \\over r} = m\\left[ {{{GM} \\over {{R^3}}} \\times r} \\right]$$</p>\n<p>Hence, $$V \\propto r$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A spherically symmetric gravitational system of particles has a mass density\n$$\\rho  = \\left\\{ {\\matrix{\n   {{\\rho _0}} & {for} & {r \\le R}  \\cr \n   0 & {for} & {r > R}  \\cr \n\n } } \\right.$$\nWhere $$\\rho_0$$ is a constant. A test mass can u..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "u406mjmnwcm3s3htrx9u",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pstatement-1p-pan-astronaut-in-an-orbiting-space-st-jee-advanced-physics-motion-nvztvdgja7xexygv",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>STATEMENT - 1</p>\n<p>An astronaut in an orbiting space station above the Earth experiences weightlessness.</p>\n<p>and</p>\n<p>STATEMENT - 2</p>\n<p>An object moving around the Earth under the influence of Earth's gravitational force is in a state of 'free-fall'.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement - 1 is True, Statement - 2 is True; Statement - 2 is a correct explanation for Statement - 1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement - 1 is True, Statement - 2 is True; Statement - 2 is NOT a correct explanation for Statement - 1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement - 1 is True, Statement - 2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement - 1 is False, Statement - 2 is True"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>1<sup>st</sup> Method : The normal force exerted by the astronaut on the orbiting space station is zero. Therefore, the apparent weight of astronaut in the orbiting space station is zero. Astronaut is called in a state of weightlessness. Why because astronaut as well as space ship are free falling bodies. Statement - I is true, Statement - 2 is true and Statement - 2 is the correct explanation of Statement - 1.</p>\n<p>2<sup>nd</sup> method : For the body to follow circular path, there must be a centripetal force. Here the astronaut is inside the satellites which is revolving around the earth under the influence of the earth's gravitation. Thus, the earth's gravitation acts as a centripetal force and the net force on the astronaut is zero.</p>\n<p>Statement - 2 is right explanation of 1.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "acceleration-due-to-gravity-and-its-variation",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "STATEMENT - 1\nAn astronaut in an orbiting space station above the Earth experiences weightlessness.\nand\nSTATEMENT - 2\nAn object moving around the Earth under the influence of Earth's gravitational force is in a state of 'free-fall'."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "4v4ocd0ohjh0la96yvhh",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "psome-physical-quantities-are-given-in-column-i-and-some-p-jee-advanced-physics-motion-04g9rw8nxs18r7tm",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Some physical quantities are given in Column I and some possible SI units in which these quantities may be expressed are given in Column II. Match the physical quantities in Column I with the units in Column II and indicate your answer by darkening appropriate bubbles in the 4 $$\\times$$ 4 matrix given in the ORS.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 472px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 192px\">\n<col style=\"width: 53px\">\n<col style=\"width: 179px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">(A)</td>\n    <td class=\"tg-0pky\">GM$$_e$$M$$_s$$<br>G - universal gravitational constant,<br>M$$_e$$ - mass of the earth,<br>M$$_s$$ - mass of the Sun</td>\n    <td class=\"tg-c3ow\">(P)</td>\n    <td class=\"tg-0pky\">(volt)<br>(coulomb)<br>(metre)</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(B)</td>\n    <td class=\"tg-0pky\">$${{3RT} \\over M}$$<br>R - universal gas constant,<br>T - absolute temperature,<br>M - molar mass</td>\n    <td class=\"tg-c3ow\">(Q)</td>\n    <td class=\"tg-0pky\">(kilogram)<br>(metre)$$^3$$<br>(second)$$^{-2}$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(C)</td>\n    <td class=\"tg-0pky\">$${{{F^2}} \\over {{q^2}{B^2}}}$$<br>F - force,<br>q - charge,<br>B - magnetic field</td>\n    <td class=\"tg-c3ow\">(R)</td>\n    <td class=\"tg-0pky\">(metre)$$^2$$<br>(second)$$^{-2}$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(D)</td>\n    <td class=\"tg-0pky\">$${{G{M_e}} \\over {{R_e}}}$$<br>G - universal gravitational constant,<br>M$$_e$$ - mass of the earth<br>R$$_e$$ - radius of the earth</td>\n    <td class=\"tg-c3ow\">(S)</td>\n    <td class=\"tg-0pky\">(farad)<br>(volt)$$^2$$<br>(kg)$$^{-1}$$</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(A)→(P), (Q); (B)→(R), (S);\n(C)→(R), (S); (D)→(R), (S)"
+            },
+            {
+              "identifier": "B",
+              "content": "(A)→(P); (B)→(R), (S);\n(C)→(R), (S); (D)→(R)"
+            },
+            {
+              "identifier": "C",
+              "content": "(A)→(P), (Q); (B)→(S);\n(C)→(R), (S); (D)→(S)"
+            },
+            {
+              "identifier": "D",
+              "content": "(A)→(Q); (B)→(R), (S);\n(C)→(S); (D)→(R), (S)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": "A $$\\to$$ (P, Q); B $$\\to$$ (R, S); C $$\\to$$ (R, S); D $$\\to$$ (R, S)",
+          "explanation": "<p>Reason : Unit of $$G{M_e}{M_s} = F{r^2} = N{m^2}$$</p>\n<p>$$ = kg{m \\over {{s^2}}} \\times {m^2}$$</p>\n<p>$$ = Kg{m^3}{s^{ - 2}}$$</p>\n<p>Also (volt)(coulomb)(metre) = (Joule)(metre)</p>\n<p>= (N $$-$$ m)(m) = Nm$$^2$$ = Kgm$$^3$$s$$^{-2}$$</p>\n<p>A $$\\to$$ P, Q</p>\n<p>Reason : $${v_{rms}} = \\sqrt {{{3RT} \\over M}} $$</p>\n<p>$$ \\Rightarrow v_{rms}^2 = {{3RT} \\over M}$$</p>\n<p>Unit of $${{3RT} \\over M}$$ is m$$^2$$s$$^{-2}$$</p>\n<p>Also (farad)(volt)$$^2$$(kg)$$^{-1}$$ = (joule)(kg$$^-1$$)</p>\n<p>= N-mkg$$^{-1}$$ = kgms$$^{-2}$$mkg$$^{-1}$$ = m$$^2$$s$$^{-2}$$</p>\n<p>B $$\\to$$ R, S</p>\n<p>Reason : $$F = qvB \\Rightarrow {v^2} = {{{F^2}} \\over {{q^2}{B^2}}}$$</p>\n<p>Unit of v$$^2$$ is m$$^2$$s$$^{-2}$$ which to further equal to FV$$^2$$kg$$^{-1}$$</p>\n<p>C $$\\to$$ R, S</p>\n<p>Reason : Escape velocity $${v_e} = \\sqrt {{{2GM} \\over R}} $$</p>\n<p>$$v_e^2 = {{2GM} \\over R}$$</p>\n<p>The unit of $${{GM} \\over R}$$ is $${m^2}{s^{ - 2}}$$</p>\n<p>D $$\\to$$ R, S</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "Some physical quantities are given in Column I and some possible SI units in which these quantities may be expressed are given in Column II. Match the physical quantities in Column I with the units in Column II and indicate your answer by d..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "tzj418uasxv25zrss7l2",
+      "chapter": "gravitation",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pa-system-of-binary-stars-of-masses-mmathrma-and--jee-advanced-physics-motion-cghyqts3ggtezx25",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A system of binary stars of masses $m_{\\mathrm{A}}$ and $m_{\\mathrm{B}}$ are moving in circular orbits of radii $r_{\\mathrm{A}}$ and $r_R$, respectively. If $\\mathrm{T}_A$ and $\\mathrm{T}_B$ are the time periods of masses $m_A$ and $m_B$ respectively, then</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$\\frac{\\mathrm{T}_{\\mathrm{A}}}{\\mathrm{T}_{\\mathrm{B}}}=\\left(\\frac{r_{\\mathrm{A}}}{r_{\\mathrm{B}}}\\right)^{\\frac{3}{2}}$</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$\\mathrm{T}_{\\mathrm{A}}>\\mathrm{T}_{\\mathrm{B}}$ if $\\left(r_{\\mathrm{A}}>r_{\\mathrm{B}}\\right)$</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$\\mathrm{T}_{\\mathrm{A}}>\\mathrm{T}_{\\mathrm{B}}$ if $\\left(m_{\\mathrm{A}}>m_{\\mathrm{B}}\\right)$</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$\\mathrm{T}_{\\mathrm{A}}=\\mathrm{T}_{\\mathrm{B}}$</p>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>From the centre of mass, we get</p>\n<p>$$ m_{\\mathrm{A}} R_{\\mathrm{A}}=m_{\\mathrm{B}} R_{\\mathrm{B}} $$</p>\n<p>Force acting on both stars i.e., gravitational force and centripetal force are balanced.</p>\n<p>$$ \\frac{\\mathrm{G} m_{\\mathrm{A}} m_{\\mathrm{B}}}{\\mathrm{R}^2}=\\frac{m_{\\mathrm{A}} v_{\\mathrm{A}}^2}{\\mathrm{R}_{\\mathrm{A}}}=\\frac{m_{\\mathrm{B}} v_{\\mathrm{B}}^2}{\\mathrm{R}_{\\mathrm{B}}} $$</p>\n<p>As we know, $v_{\\mathrm{A}}=\\frac{2 \\pi \\mathrm{R}_{\\mathrm{A}}}{\\mathrm{T}_{\\mathrm{A}}}, v_2=\\frac{2 \\pi \\mathrm{R}_{\\mathrm{B}}}{\\mathrm{T}_{\\mathrm{B}}}$</p>\n<p>Substituting equation (iii) in equation (ii) we get</p>\n<p>$$ \\begin{aligned} \\frac{m_{\\mathrm{A}} 4 \\pi^2 \\mathrm{R}_{\\mathrm{A}}^2}{\\mathrm{R}_{\\mathrm{A}}\\left(\\mathrm{~T}_{\\mathrm{A}}\\right)^2} & =\\frac{m_{\\mathrm{B}} 4 \\pi^2 \\mathrm{R}_{\\mathrm{B}}^2}{\\mathrm{R}_{\\mathrm{B}}\\left(\\mathrm{~T}_{\\mathrm{B}}\\right)^2} \\\\ \\frac{m_{\\mathrm{A}} \\mathrm{R}_{\\mathrm{A}}}{\\mathrm{~T}_{\\mathrm{A}}^2} & =\\frac{m_{\\mathrm{B}} \\mathrm{R}_{\\mathrm{B}}}{\\mathrm{~T}_{\\mathrm{B}}^2} \\end{aligned} $$</p>\n<p>From equation (i), we conclude in equation (iv)</p>\n<p>$$ \\begin{aligned} \\left(\\mathrm{T}_{\\mathrm{A}}\\right)^2 & =\\left(\\mathrm{T}_{\\mathrm{B}}\\right)^2 \\\\ \\mathrm{~T}_{\\mathrm{A}} & =\\mathrm{T}_{\\mathrm{B}} . \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "keplers-law-and-universal-law-of-gravitation",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Gravitation • Physics",
+          "excerpt": "A system of binary stars of masses $m_{\\mathrm{A}}$ and $m_{\\mathrm{B}}$ are moving in circular orbits of radii $r_{\\mathrm{A}}$ and $r_R$, respectively. If $\\mathrm{T}_A$ and $\\mathrm{T}_B$ are the time periods of masses $m_A$ and $m_B$ re..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    }
+  ]
+}

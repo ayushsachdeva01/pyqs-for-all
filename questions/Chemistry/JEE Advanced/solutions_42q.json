@@ -1,0 +1,2555 @@
+{
+  "questions": [
+    {
+      "question_id": "zk9m79tdixt2d4wlmhb3",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pin-a-solvent-mathbfs-a-compound-mathbfb-is-par-jee-advanced-chemistry-e43sf0sltaa4r5qc",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>In a solvent $\\mathbf{S}$, a compound $\\mathbf{B}$ is partially dissociated into $\\mathbf{C}$ and $\\mathbf{D}$ as given below :</p>\n<p>$$ \\mathbf{B} \\rightleftharpoons 2 \\mathbf{C}+2 \\mathbf{D} $$</p>\n<p>$\\mathbf{B}, \\mathbf{C}$ and $\\mathbf{D}$ are non-volatile in nature. The molar mass of $\\mathbf{B}$ is 10 times the molar mass of $\\mathbf{S}$. The standard boiling point and the standard enthalpy of vaporization of $\\mathbf{S}$ are 400 K and $10 R \\mathrm{~J} \\mathrm{~mol}^{-1}$, respectively ( $R$ is the gas constant in $\\mathrm{J} \\mathrm{K}^{-1} \\mathrm{~mol}^{-1}$ ). A solution of $\\mathbf{B}$ in $\\mathbf{S}$ with an initial concentration of $\\mathbf{B}$ as $0.25 \\%$ (mass/mass) has a boiling point of 408 K at 1 bar pressure. In this solution, the mole percent of $\\mathbf{B}$ that has been dissociated is $\\_\\_\\_\\_$ .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "33.00OR33.33",
+          "explanation": "<p>The dissociation of the compound is given as:</p>\n<p>$$\\mathrm{B} \\rightleftharpoons 2\\mathrm{C} + 2\\mathrm{D}$$</p>\n<p>Here, one molecule of B produces a total of 4 particles (2 of C and 2 of D). Hence,</p>\n<p>$$n = 4$$</p>\n<p>The van’t Hoff factor for partial dissociation is given by:</p>\n<p>$$i = 1 + (n - 1)\\alpha$$</p>\n<p>Substituting $ n = 4 $:</p>\n<p>$$i = 1 + 3\\alpha$$</p>\n<p>Given that the solution contains 0.25% (mass/mass) of B, it means that in 100 g of solution, there are 0.25 g of B and 99.75 g of solvent S.</p>\n<p>Molality $m$ is given by:</p>\n<p>$$m = \\frac{\\text{moles of solute}}{\\text{mass of solvent (kg)}} = \\frac{\\frac{0.25}{M_{\\mathrm{B}}}}{0.09975} = \\frac{1000}{399\\,M_{\\mathrm{B}}}$$</p>\n<p>The elevation in boiling point is:</p>\n<p>$$\\Delta T_b = 408 - 400 = 8\\,K$$</p>\n<p>The formula for the boiling point elevation constant $K_b$ is:</p>\n<p>$$K_b = \\frac{R(T_b^{\\circ})^2 M_{\\mathrm{S}}}{1000\\,\\Delta H_{\\mathrm{vap}}}$$</p>\n<p>Substitute given values: $ T_b^{\\circ} = 400\\,K $, $ \\Delta H_{\\mathrm{vap}} = 10R $</p>\n<p>$$K_b = \\frac{R \\times (400)^2 \\times M_{\\mathrm{S}}}{1000 \\times 10R}$$</p>\n<p>$$K_b = 16\\,M_{\\mathrm{S}}$$</p>\n<p>Now, the relation between the elevation in boiling point and molality is:</p>\n<p>$$\\Delta T_b = i \\times K_b \\times m$$</p>\n<p>Substitute the known values:</p>\n<p>$$8 = (1 + 3\\alpha) \\times 16\\,M_{\\mathrm{S}} \\times \\frac{1000}{399\\,M_{\\mathrm{B}}}$$</p>\n<p>Given that $ M_{\\mathrm{B}} = 10\\,M_{\\mathrm{S}} $:</p>\n<p>$$8 = (1 + 3\\alpha) \\times 16\\,M_{\\mathrm{S}} \\times \\frac{1000}{399 \\times 10\\,M_{\\mathrm{S}}}$$</p>\n<p>On simplifying:</p>\n<p>$$1.995 = 1 + 3\\alpha$$</p>\n<p>$$\\alpha = 0.3316$$</p>\n<p>Therefore, the percentage dissociation is:</p>\n<p>$$\\%\\,\\alpha = 33.16\\%$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "abnormal-colligative-property-and-vant-hoff-factor",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "In a solvent $\\mathbf{S}$, a compound $\\mathbf{B}$ is partially dissociated into $\\mathbf{C}$ and $\\mathbf{D}$ as given below :\n$$ \\mathbf{B} \\rightleftharpoons 2 \\mathbf{C}+2 \\mathbf{D} $$\n$\\mathbf{B}, \\mathbf{C}$ and $\\mathbf{D}$ are non-..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "f4osrnmg2ldt103pgojb",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "ptwo-volatile-liquids-mathbfa-and-mathbfb-form-a-jee-advanced-chemistry-bwossdvceko9gdqd",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Two volatile liquids $\\mathbf{A}$ and $\\mathbf{B}$ form an ideal solution. Consider a 5 molal solution of $\\mathbf{B}$ in $\\mathbf{A}$ inside a closed container having a total vapour pressure of 100 mm Hg at 300 K . The vapour pressure of pure $\\mathbf{A}$ at 300 K is 105 mm Hg . Assume that $\\mathbf{A}$ and $\\mathbf{B}$ behave as ideal gases in the vapour phase.</p>\n<p>Given :</p>\n<p>The gas constant $R=0.08 \\mathrm{~L} \\mathrm{~atm} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$</p>\n<p>Molar mass of $\\mathbf{A}$ is $50 \\mathrm{~g} \\mathrm{~mol}^{-1}$</p>\n<p>Molar mass of $\\mathbf{B}$ is $57 \\mathrm{~g} \\mathrm{~mol}^{-1}$</p>\n<p>Density of liquid $\\mathbf{B}$ at 300 K is $0.5 \\mathrm{~g} / \\mathrm{mL}$</p>\n<p>$1 \\mathrm{~atm}=760 \\mathrm{~mm} \\mathrm{Hg}$</p>\n<p>At 300 K , the ratio of the molar volume of pure $\\mathbf{B}$ in vapour phase to its molar volume in liquid phase is $\\_\\_\\_\\_$ .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1991TO2053",
+          "explanation": "<p>For an ideal solution, Raoult’s Law gives the total vapour pressure as:</p>\n<p>$$ P_T = X_A P_A^o + X_B P_B^o $$</p>\n<p>We are told that the total vapour pressure is 100 mm Hg, and the vapour pressure of pure A is 105 mm Hg.</p>\n<p>Since the solution is 5 molal (that is, 5 moles of B dissolved in 1 kg of A), the number of moles of A is:</p>\n<p>$$ n_A = \\frac{1000}{50} = 20 \\text{ mol} $$</p>\n<p>Now, the mole fractions can be written as:</p>\n<p>$$ X_A = \\frac{20}{20 + 5}, \\quad X_B = \\frac{5}{20 + 5} $$</p>\n<p>Putting these values into Raoult’s Law:</p>\n<p>$$ 100 = \\frac{20}{25}(105) + \\frac{5}{25}(P_B^o) $$</p>\n<p>Solving for $ P_B^o $:</p>\n<p>$$ 100 = 84 + 0.2 P_B^o $$</p>\n<p>$$ P_B^o = 80 \\text{ mm Hg} $$</p>\n<p><b>Molar volume of B in vapour phase</b></p>\n<p>Using the ideal gas law, the molar volume is:</p>\n<p>$$ V_m = \\frac{RT}{P} $$</p>\n<p>Substituting the given values:</p>\n<p>$$ V_m = \\frac{0.08 \\times 300}{80/760} $$</p>\n<p>$$ V_m = 228 \\text{ L mol}^{-1} $$</p>\n<p><b>Molar volume of B in liquid phase</b></p>\n<p>Molar volume = $ \\frac{\\text{Molar mass}}{\\text{Density}} $</p>\n<p>$$ V_m' = \\frac{57}{0.5} = 114 \\text{ mL mol}^{-1} $$</p>\n<p><b>Ratio of molar volumes</b></p>\n<p>$$ \\text{Ratio} = \\frac{\\text{Molar volume in vapour phase}}{\\text{Molar volume in liquid phase}} $$</p>\n<p>$$ \\text{Ratio} = \\frac{228 \\times 1000}{114} = 2000 $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 120000,
+      "topic": "raoults-law",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "Two volatile liquids $\\mathbf{A}$ and $\\mathbf{B}$ form an ideal solution. Consider a 5 molal solution of $\\mathbf{B}$ in $\\mathbf{A}$ inside a closed container having a total vapour pressure of 100 mm Hg at 300 K . The vapour pressure of p..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "8u6f32asr4qwrv0a640p",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "ptwo-volatile-liquids-mathbfa-and-mathbfb-form-a-jee-advanced-chemistry-zf204l8evdjbjigf",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Two volatile liquids $\\mathbf{A}$ and $\\mathbf{B}$ form an ideal solution. Consider a 5 molal solution of $\\mathbf{B}$ in $\\mathbf{A}$ inside a closed container having a total vapour pressure of 100 mm Hg at 300 K . The vapour pressure of pure $\\mathbf{A}$ at 300 K is 105 mm Hg . Assume that $\\mathbf{A}$ and $\\mathbf{B}$ behave as ideal gases in the vapour phase.</p>\n<p>Given :</p>\n<p>The gas constant $R=0.08 \\mathrm{~L} \\mathrm{~atm} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$</p>\n<p>Molar mass of $\\mathbf{A}$ is $50 \\mathrm{~g} \\mathrm{~mol}^{-1}$</p>\n<p>Molar mass of $\\mathbf{B}$ is $57 \\mathrm{~g} \\mathrm{~mol}^{-1}$</p>\n<p>Density of liquid $\\mathbf{B}$ at 300 K is $0.5 \\mathrm{~g} / \\mathrm{mL}$</p>\n<p>$1 \\mathrm{~atm}=760 \\mathrm{~mm} \\mathrm{Hg}$</p>\n<p>The mole fraction of $\\mathbf{B}$ in vapour phase which is in equilibrium with this solution is $\\_\\_\\_\\_$ .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.16",
+          "explanation": "<p>For an ideal solution, the total vapour pressure is given by Raoult’s law:</p>\n<p>$$ P_T = X_A P_A^o + X_B P_B^o $$</p>\n<p>Given total vapour pressure, $P_T = 100\\ \\mathrm{mm\\ Hg}$, and vapour pressure of pure A, $P_A^o = 105\\ \\mathrm{mm\\ Hg}$.</p>\n<p>We have a 5 molal solution, meaning 5 moles of solute B are mixed with 1 kg (1000 g) of solvent A. Moles of A are: </p>\n<p>$$ n_A = \\frac{1000}{50} = 20 $$</p>\n<p>Total moles in solution = $ n_A + n_B = 20 + 5 = 25 $.</p>\n<p>Now applying Raoult’s law:</p>\n<p>$$ 100 = \\frac{20}{25}(105) + \\frac{5}{25}(P_B^o) $$</p>\n<p>Solving for $ P_B^o $:</p>\n<p>$$ P_B^o = 80\\ \\mathrm{mm\\ Hg} $$</p>\n<p><b>Molar volume of vapour B:</b></p>\n<p>For an ideal gas, $ V_m = \\frac{RT}{P} $.</p>\n<p>$$ V_m = \\frac{0.08 \\times 300}{80 / 760} $$</p>\n<p>$$ V_m = 228\\ \\text{L/mol} $$</p>\n<p><b>Partial pressure of B in the mixture:</b></p>\n<p>According to Raoult’s law,</p>\n<p>$$ P_B = x_B P_B^o $$</p>\n<p>Since $ x_B = \\frac{5}{25} = 0.2 $,</p>\n<p>$$ P_B = 0.2 \\times 80 = 16\\ \\mathrm{mm\\ Hg} $$</p>\n<p>The vapour-phase mole fraction of B is:</p>\n<p>$$ y_B = \\frac{P_B}{P_T} = \\frac{16}{100} = 0.16 $$</p>\n<p><b>Molar volume of liquid B:</b></p>\n<p>$$ V_m' = \\frac{57}{0.5} = 114\\ \\mathrm{mL/mol} $$</p>\n<p><b>Ratio of molar volumes:</b></p>\n<p>$$ \\text{Ratio} = \\frac{\\text{molar volume in vapour}}{\\text{molar volume in liquid}} = \\frac{228 \\times 1000}{114} = 2000 $$</p>\n<p>Hence, the mole fraction of B in the vapour phase is:</p>\n<p>$$ y_B = 0.16 $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 120000,
+      "topic": "raoults-law",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "Two volatile liquids $\\mathbf{A}$ and $\\mathbf{B}$ form an ideal solution. Consider a 5 molal solution of $\\mathbf{B}$ in $\\mathbf{A}$ inside a closed container having a total vapour pressure of 100 mm Hg at 300 K . The vapour pressure of p..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "lgrtltxjfug11nomawbs",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "pat-300-k--an-ideal-dilute-solution-of-a-macromolecule-ex-jee-advanced-chemistry-sjoohciy1jajhqww",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>At 300 K , an ideal dilute solution of a macromolecule exerts osmotic pressure that is expressed in terms of the height $(h)$ of the solution (density $=1.00 \\mathrm{~g} \\mathrm{~cm}^{-3}$ ) where $h$ is equal to 2.00 cm . If the concentration of the dilute solution of the macromolecule is $2.00 \\mathrm{~g} \\mathrm{dm}^{-3}$, the molar mass of the macromolecule is calculated to be $\\boldsymbol{X} \\times 10^4 \\mathrm{~g} \\mathrm{~mol}^{-1}$. The value of $\\boldsymbol{X}$ is __________.</p>\n<p>Use: Universal gas constant $(R)=8.3 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$ and acceleration due to gravity $(g)=10 \\mathrm{~m} \\mathrm{~s}^{-2}$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.4TO2.55",
+          "explanation": "<p><strong>Density of the solution:</strong>  </p>\n<p>$    \\text{Density} = 1.00 \\, \\text{g cm}^{-3} = 1000 \\, \\text{kg m}^{-3}    $</p></p>\n<p><p><strong>Height of the solution column ($h$):</strong>  </p>\n<p>$    h = 2 \\, \\text{cm} = 2 \\times 10^{-2} \\, \\text{m}    $</p></p>\n<p><p><strong>Acceleration due to gravity ($g$):</strong>  </p>\n<p>$    g = 10 \\, \\text{m s}^{-2}    $</p></p>\n<p><p><strong>Calculating osmotic pressure ($\\pi$):</strong>  </p>\n<p>Osmotic pressure is given by the equation:  </p>\n<p>$    \\pi = h \\cdot \\rho \\cdot g    $  </p>\n<p>Substituting the known values:  </p>\n<p>$    \\pi = 2 \\times 10^{-2} \\times 1000 \\times 10 = 200 \\, \\text{N m}^{-2}    $</p></p>\n<p><p><strong>Relating osmotic pressure to concentration and molar mass:</strong>  </p>\n<p>The equation for osmotic pressure in terms of concentration and molar mass is:  </p>\n<p>$    \\pi = cRT    $  </p>\n<p>where $c = \\frac{2000}{M}$ as the concentration in g/dm$^3$ needs to be converted to mol/dm$^3$ by dividing by the molar mass $M$. Incorporating the given temperature and universal gas constant, we have:  </p>\n<p>$    200 = \\left(\\frac{2000}{M}\\right) \\cdot 8.3 \\cdot 300    $</p></p>\n<p><p><strong>Solving for the molar mass $M$:</strong>  </p>\n<p>Rearrange and solve the equation to find $M$:  </p>\n<p>$    M = 24900 \\, \\text{g mol}^{-1} = 2.49 \\times 10^4 \\, \\text{g mol}^{-1}    $</p></p>\n\n<p>Thus, the value of $X$ is $2.49$.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>300 K पर, एक बृहदणु (macromolecule) का आदर्श तनु विलयन परासरण दाब (osmotic pressure) डालता (exert) है जो विलयन (घनत्व $=1.00 \\mathrm{~g} \\mathrm{~cm}^{-3}$ ) की ऊँचाई ( $h$ ) के पद में व्यक्त किया गया जहाँ $h$ का मान 2.00 cm है। यदि बृहदणु के तनु विलयन की सांद्रता $2.00 \\mathrm{~g} \\mathrm{dm}^{-3}$ हो, तो बृहदणु के मोलर द्रव्यमान (molar mass) का परिकलन करने पर $\\boldsymbol{X} \\times 10^4 \\mathrm{~g} \\mathrm{~mol}^{-1}$ आता है। $\\boldsymbol{X}$ का मान _________ है।</p>\n<p>उपयोग करें: सार्वत्रिक गैस नियतांक (Universal gas constant, R ) $=8.3 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$ तथा गुरुत्वीय त्वरण $(g)=10 \\mathrm{~m} \\mathrm{~s}^{-2}$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.4TO2.55",
+          "explanation": "<p><strong>विलयन का घनत्व:</strong>  </p>\n<p>$    \\text{Density} = 1.00 \\, \\text{g cm}^{-3} = 1000 \\, \\text{kg m}^{-3}    $</p></p>\n<p><p><strong>विलयन स्तंभ की ऊँचाई ($h$):</strong>  </p>\n<p>$    h = 2 \\, \\text{cm} = 2 \\times 10^{-2} \\, \\text{m}    $</p></p>\n<p><p><strong>गुरुत्वीय त्वरण ($g$):</strong>  </p>\n<p>$    g = 10 \\, \\text{m s}^{-2}    $</p></p>\n<p><p><strong>परासरण दाब ($\\pi$) की गणना:</strong>  </p>\n<p>परासरण दाब निम्नलिखित समीकरण द्वारा दिया जाता है:  </p>\n<p>$    \\pi = h \\cdot \\rho \\cdot g    $  </p>\n<p>ज्ञात मानों को प्रतिस्थापित करने पर:  </p>\n<p>$    \\pi = 2 \\times 10^{-2} \\times 1000 \\times 10 = 200 \\, \\text{N m}^{-2}    $</p></p>\n<p><p><strong>परासरण दाब को सांद्रता और मोलर द्रव्यमान से संबंधित करना:</strong>  </p>\n<p>सांद्रता और मोलर द्रव्यमान के पदों में परासरण दाब के लिए समीकरण है:  </p>\n<p>$    \\pi = cRT    $  </p>\n<p>जहाँ $c = \\frac{2000}{M}$ है क्योंकि g/dm$^3$ में सांद्रता को मोलर द्रव्यमान $M$ से विभाजित करके mol/dm$^3$ में परिवर्तित करने की आवश्यकता है। दिए गए तापमान और सार्वत्रिक गैस स्थिरांक को शामिल करते हुए, हमारे पास है:  </p>\n<p>$    200 = \\left(\\frac{2000}{M}\\right) \\cdot 8.3 \\cdot 300    $</p></p>\n<p><p><strong>मोलर द्रव्यमान $M$ के लिए हल करना:</strong>  </p>\n<p>$M$ ज्ञात करने के लिए समीकरण को पुनर्व्यवस्थित और हल करें:  </p>\n<p>$    M = 24900 \\, \\text{g mol}^{-1} = 2.49 \\times 10^4 \\, \\text{g mol}^{-1}    $</p></p>\n\n<p>इस प्रकार, $X$ का मान $2.49$ है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "osmotic-pressure",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "At 300 K , an ideal dilute solution of a macromolecule exerts osmotic pressure that is expressed in terms of the height $(h)$ of the solution (density $=1.00 \\mathrm{~g} \\mathrm{~cm}^{-3}$ ) where $h$ is equal to 2.00 cm . If the concentrat..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "300 K पर, एक बृहदणु (macromolecule) का आदर्श तनु विलयन परासरण दाब (osmotic pressure) डालता (exert) है जो विलयन (घनत्व $=1.00 \\mathrm{~g} \\mathrm{~cm}^{-3}$ ) की ऊँचाई ( $h$ ) के पद में व्यक्त किया गया जहाँ $h$ का मान 2.00 cm है। यदि बृहदणु ..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "kbjnwpopsx7q54538rxb",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "vessel-1-contains-mathbfw2-mathrmg-of-a-non-volati-jee-advanced-chemistry-znfzmot0mtmt9swn",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Vessel-1 contains $\\mathbf{w}_2 \\mathrm{~g}$ of a non-volatile solute $\\mathbf{X}$ dissolved in $\\mathbf{w}_1 \\mathrm{~g}$ of water. Vessel- 2 contains $\\mathbf{w}_2 \\mathrm{~g}$ of another non-volatile solute $\\mathbf{Y}$ dissolved in $\\mathbf{w}_1 \\mathrm{~g}$ of water. Both the vessels are at the same temperature and pressure. The molar mass of $\\mathbf{X}$ is $80 \\%$ of that of $\\mathbf{Y}$. The van't Hoff factor for $\\mathbf{X}$ is 1.2 times of that of $\\mathbf{Y}$ for their respective concentrations.\n<br/><br/>\nThe elevation of boiling point for solution in Vessel-1 is ________ $\\%$ of the solution in Vessel-2.",
+          "options": [],
+          "correct_options": [],
+          "answer": "150",
+          "explanation": "<p>To determine the elevation of the boiling point for the solutions in both vessels, we need to use the concept of boiling point elevation. The boiling point elevation is given by the formula:</p>\n\n<p>\n\n<p>$$ \\Delta T_b = i \\cdot K_b \\cdot m $$</p>\n\n</p>\n\n<p>Where:</p>\n\n<ul>\n\n<li>$$\\Delta T_b$$ is the boiling point elevation</li>\n\n<li>$$i$$ is the van't Hoff factor</li>\n\n<li>$$K_b$$ is the ebullioscopic constant (which is the same for both solutions since they are dissolved in water)</li>\n\n<li>$$m$$ is the molality of the solution</li>\n\n</ul>\n\n<p>We need to compare the boiling point elevations for both solutions in Vessel-1 and Vessel-2.</p>\n\n<p>For Vessel-1, let the boiling point elevation be $$\\Delta T_{b1}$$, and for Vessel-2, let it be $$\\Delta T_{b2}$$.</p>\n\n<p>Let's denote the molar mass of solute $$Y$$ as $$M_Y$$ g/mol. According to the problem, the molar mass of solute $$X$$ is 80% of that of $$Y$$, i.e.,</p>\n\n<p>\n\n<p>$$ M_X = 0.8 \\cdot M_Y $$</p>\n\n</p>\n\n<p>The van't Hoff factor for $$X$$ is 1.2 times that of $$Y$$, i.e.,</p>\n\n<p>\n\n<p>$$ i_X = 1.2 \\cdot i_Y $$</p>\n\n</p>\n\n<p>The molality $$m$$ of each solution can be calculated using the formula:</p>\n\n<p>\n\n<p>$$ m = \\dfrac{w_2}{M \\cdot w_1} $$</p>\n\n</p>\n\n<p>Thus, the molality of $$X$$ and $$Y$$ solutions are:</p>\n\n<p>For solute $$X$$:</p>\n\n<p>\n\n<p>$$ m_X = \\dfrac{w_2}{M_X \\cdot w_1} = \\dfrac{w_2}{0.8 \\cdot M_Y \\cdot w_1} $$</p>\n\n</p>\n\n<p>For solute $$Y$$:</p>\n\n<p>\n\n<p>$$ m_Y = \\dfrac{w_2}{M_Y \\cdot w_1} $$</p>\n\n</p>\n\n<p>Now, substituting the values into the boiling point elevation formula, we get for Vessel-1:</p>\n\n<p>\n\n<p>$$ \\Delta T_{b1} = i_X \\cdot K_b \\cdot m_X = (1.2 \\cdot i_Y) \\cdot K_b \\cdot \\left( \\dfrac{w_2}{0.8 \\cdot M_Y \\cdot w_1} \\right) $$</p>\n\n</p>\n\n<p>For Vessel-2:</p>\n\n<p>\n\n<p>$$ \\Delta T_{b2} = i_Y \\cdot K_b \\cdot m_Y = i_Y \\cdot K_b \\cdot \\left( \\dfrac{w_2}{M_Y \\cdot w_1} \\right) $$</p>\n\n</p>\n\n<p>To find the ratio of $$\\Delta T_{b1}$$ to $$\\Delta T_{b2}$$:</p>\n\n<p>\n\n<p>$$ \\dfrac{\\Delta T_{b1}}{\\Delta T_{b2}} = \\dfrac{(1.2 \\cdot i_Y) \\cdot K_b \\cdot \\left( \\dfrac{w_2}{0.8 \\cdot M_Y \\cdot w_1} \\right)}{i_Y \\cdot K_b \\cdot \\left( \\dfrac{w_2}{M_Y \\cdot w_1} \\right)} $$</p>\n\n</p>\n\n<p>Simplifying the ratio:</p>\n\n<p>\n\n<p>$$ \\dfrac{\\Delta T_{b1}}{\\Delta T_{b2}} = \\dfrac{1.2}{0.8} = 1.5 $$</p>\n\n</p>\n\n<p>This means the elevation of the boiling point for the solution in Vessel-1 is 150% of that in Vessel-2. Thus, the elevation of boiling point for solution in Vessel-1 is <strong>150%</strong> of the elevation of the boiling point for the solution in Vessel-2.</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>पात्र -1 में एक अवाष्पशील विलेय $\\mathbf{x}$ के $\\mathbf{w}_2$ ग्राम को $\\mathbf{w}_1$ ग्राम जल में घोला जाता है। पात्र -2 में एक अन्य अवाष्पशील विलेय $\\mathbf{Y}$ के $\\mathbf{w}_2$ ग्राम को $w_1$ ग्राम जल में घोला जाता है । दोनो पात्रों के तापमान और दाब समान हैं। $\\mathbf{X}$ का मोलर मास $\\mathbf{Y}$ के मोलर मास का $80 \\%$ है। इनके अपने अपने सांद्रण में $\\mathbf{X}$ का वान्ट हॉफ गुणक (van't Hoff factor) $\\mathbf{Y}$ के वान्ट हॉफ गुणक का 1.2 गुना है।</p>\n\n<p>पात्र -1 के विलयन का क्वथनांक का उन्नयन (elevation of boiling point) पात्र -2 के विलयन का क्वथनांक का उन्नयन का __________ $\\%$ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "150",
+          "explanation": "<p>दोनों पात्रों में विलयनों के क्वथनांक में उन्नयन को निर्धारित करने के लिए, हमें क्वथनांक उन्नयन की अवधारणा का उपयोग करना होगा। क्वथनांक उन्नयन निम्न सूत्र द्वारा दिया जाता है:</p>\n\n<p>\n\n<p>$$ \\Delta T_b = i \\cdot K_b \\cdot m $$</p>\n\n</p>\n\n<p>जहाँ:</p>\n\n<ul>\n\n<li>$$\\Delta T_b$$ क्वथनांक उन्नयन है</li>\n\n<li>$$i$$ वांट हॉफ गुणक है</li>\n\n<li>$$K_b$$ इबुलियोस्कोपिक स्थिरांक है (जो दोनों विलयनों के लिए समान है क्योंकि वे जल में घुले हुए हैं)</li>\n\n<li>$$m$$ विलयन की मोललता है</li>\n\n</ul>\n\n<p>हमें पात्र-1 और पात्र-2 में दोनों विलयनों के क्वथनांक उन्नयन की तुलना करनी होगी।</p>\n\n<p>पात्र-1 के लिए, मान लीजिए क्वथनांक उन्नयन $$\\Delta T_{b1}$$ है, और पात्र-2 के लिए, यह $$\\Delta T_{b2}$$ है।</p>\n\n<p>आइए विलेय $$Y$$ के मोलर द्रव्यमान को $$M_Y$$ g/mol से निरूपित करें। समस्या के अनुसार, विलेय $$X$$ का मोलर द्रव्यमान $$Y$$ के 80% है, अर्थात,</p>\n\n<p>\n\n<p>$$ M_X = 0.8 \\cdot M_Y $$</p>\n\n</p>\n\n<p>$$X$$ के लिए वांट हॉफ गुणक $$Y$$ के 1.2 गुना है, अर्थात,</p>\n\n<p>\n\n<p>$$ i_X = 1.2 \\cdot i_Y $$</p>\n\n</p>\n\n<p>प्रत्येक विलयन की मोललता $$m$$ की गणना निम्न सूत्र का उपयोग करके की जा सकती है:</p>\n\n<p>\n\n<p>$$ m = \\dfrac{w_2}{M \\cdot w_1} $$</p>\n\n</p>\n\n<p>इस प्रकार, $$X$$ और $$Y$$ विलयनों की मोललता हैं:</p>\n\n<p>विलेय $$X$$ के लिए:</p>\n\n<p>\n\n<p>$$ m_X = \\dfrac{w_2}{M_X \\cdot w_1} = \\dfrac{w_2}{0.8 \\cdot M_Y \\cdot w_1} $$</p>\n\n</p>\n\n<p>विलेय $$Y$$ के लिए:</p>\n\n<p>\n\n<p>$$ m_Y = \\dfrac{w_2}{M_Y \\cdot w_1} $$</p>\n\n</p>\n\n<p>अब, क्वथनांक उन्नयन सूत्र में मानों को प्रतिस्थापित करने पर, हमें पात्र-1 के लिए मिलता है:</p>\n\n<p>\n\n<p>$$ \\Delta T_{b1} = i_X \\cdot K_b \\cdot m_X = (1.2 \\cdot i_Y) \\cdot K_b \\cdot \\left( \\dfrac{w_2}{0.8 \\cdot M_Y \\cdot w_1} \\right) $$</p>\n\n</p>\n\n<p>पात्र-2 के लिए:</p>\n\n<p>\n\n<p>$$ \\Delta T_{b2} = i_Y \\cdot K_b \\cdot m_Y = i_Y \\cdot K_b \\cdot \\left( \\dfrac{w_2}{M_Y \\cdot w_1} \\right) $$</p>\n\n</p>\n\n<p>$$\\Delta T_{b1}$$ और $$\\Delta T_{b2}$$ का अनुपात ज्ञात करने के लिए:</p>\n\n<p>\n\n<p>$$ \\dfrac{\\Delta T_{b1}}{\\Delta T_{b2}} = \\dfrac{(1.2 \\cdot i_Y) \\cdot K_b \\cdot \\left( \\dfrac{w_2}{0.8 \\cdot M_Y \\cdot w_1} \\right)}{i_Y \\cdot K_b \\cdot \\left( \\dfrac{w_2}{M_Y \\cdot w_1} \\right)} $$</p>\n\n</p>\n\n<p>अनुपात को सरल करने पर:</p>\n\n<p>\n\n<p>$$ \\dfrac{\\Delta T_{b1}}{\\Delta T_{b2}} = \\dfrac{1.2}{0.8} = 1.5 $$</p>\n\n</p>\n\n<p>इसका अर्थ है कि पात्र-1 में विलयन के लिए क्वथनांक का उन्नयन पात्र-2 में उन्नयन का 150% है। इस प्रकार, पात्र-1 में विलयन के क्वथनांक का उन्नयन पात्र-2 में विलयन के क्वथनांक के उन्नयन का <strong>150%</strong> है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "elevation-in-boiling-point",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "Vessel-1 contains $\\mathbf{w}_2 \\mathrm{~g}$ of a non-volatile solute $\\mathbf{X}$ dissolved in $\\mathbf{w}_1 \\mathrm{~g}$ of water. Vessel- 2 contains $\\mathbf{w}_2 \\mathrm{~g}$ of another non-volatile solute $\\mathbf{Y}$ dissolved in $\\ma..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "पात्र -1 में एक अवाष्पशील विलेय $\\mathbf{x}$ के $\\mathbf{w}_2$ ग्राम को $\\mathbf{w}_1$ ग्राम जल में घोला जाता है। पात्र -2 में एक अन्य अवाष्पशील विलेय $\\mathbf{Y}$ के $\\mathbf{w}_2$ ग्राम को $w_1$ ग्राम जल में घोला जाता है । दोनो पात्रों के..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "lq2lqe55gytsir6kccv1",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "50-mathrmml-of-02-molal-urea-solution-density-101-jee-advanced-chemistry-b4brzaasuyr5al1o",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$50 \\mathrm{~mL}$ of 0.2 molal urea solution (density $=1.012 \\mathrm{~g} \\mathrm{~mL}^{-1}$ at $300 \\mathrm{~K}$ ) is mixed with $250 \\mathrm{~mL}$ of a solution containing $0.06 \\mathrm{~g}$ of urea. Both the solutions were prepared in the same solvent. The osmotic pressure (in Torr) of the resulting solution at $300 \\mathrm{~K}$ is _______.\n<br/><br/>[Use: Molar mass of urea $=60 \\mathrm{~g} \\mathrm{~mol}^{-1}$; gas constant, $\\mathrm{R}=62$ L Torr $\\mathrm{K}^{-1} \\mathrm{~mol}^{-1}$;\n<br/><br/>Assume, $\\Delta_{\\text {mix }} \\mathrm{H}=0, \\Delta_{\\text {mix }} \\mathrm{V}=0$ ]",
+          "options": [],
+          "correct_options": [],
+          "answer": "682",
+          "explanation": "<ol>\n<li><p><strong>Find the weight of urea in the 0.2 molal solution :</strong>\n<br/><br/>Given a 0.2 molal solution, there are 0.2 moles of urea in 1000 g of solvent. The weight of urea is thus $0.2 \\, \\text{mol} \\times 60 \\, \\text{g/mol} = 12 \\, \\text{g}$.</p>\n</li>\n<br/><li><p><strong>Find the weight of the solution :</strong>\n<br/><br/>The total weight of the solution is the weight of the solvent plus the weight of the solute, or $1000 \\, \\text{g} + 12 \\, \\text{g} = 1012 \\, \\text{g}$.</p>\n</li>\n<br/><li><p><strong>Find the volume of the solution :</strong>\n<br/><br/>Given the density of the solution, we can find its volume by dividing the total weight of the solution by the density: $\\frac{1012 \\, \\text{g}}{1.012 \\, \\text{g/mL}} = 1000 \\, \\text{mL}$.</p>\n</li>\n<br/><li><p><strong>Find the amount of urea in 50 mL of the 0.2 molal solution :</strong>\n<br/><br/>If 1000 mL of the solution contains 0.2 moles of urea, then 50 mL of the solution contains $\\frac{0.2 \\, \\text{mol} \\times 50 \\, \\text{mL}}{1000 \\, \\text{mL}} = 0.01 \\, \\text{mol}$ of urea.</p>\n</li>\n<br/><li><p><strong>Find the amount of urea in the 250 mL solution :</strong>\n<br/><br/>The 250 mL solution contains $0.06 \\, \\text{g}$ of urea, or $\\frac{0.06 \\, \\text{g}}{60 \\, \\text{g/mol}} = 0.001 \\, \\text{mol}$.</p>\n</li>\n<br/><li><p><strong>Find the total concentration of the solution :</strong>\n<br/><br/>After mixing, the total volume of the solution is $50 \\, \\text{mL} + 250 \\, \\text{mL} = 300 \\, \\text{mL}$, and the total amount of urea is $0.01 \\, \\text{mol} + 0.001 \\, \\text{mol} = 0.011 \\, \\text{mol}$. \n<br/><br/>So, the concentration of the solution is $\\frac{0.011 \\, \\text{mol}}{300 \\, \\text{mL}} \\times 1000 \\, \\text{mL/L} = 0.0366 \\, \\text{M}$.</p>\n</li>\n<br/><li><p><strong>Find the osmotic pressure of the solution :</strong>\n<br/><br/>Finally, the osmotic pressure $\\pi$ of the solution can be found using the formula $\\pi = CRT$, where $C$ is the concentration, $R$ is the gas constant, and $T$ is the temperature. Substituting the given and calculated values, <br/><br/>we have $\\pi = 0.0366 \\, \\text{M} \\times 62 \\, \\text{L Torr K}^{-1} \\text{mol}^{-1} \\times 300 \\, \\text{K} = 682 \\, \\text{Torr}$.</p>\n</li>\n</ol>\n"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "0.2 मोलल यूरिया विलयन $\\left(300 \\mathrm{~K}\\right.$ पर घनत्व $\\left.=1.012 \\mathrm{~g} \\mathrm{~mL}^{-1}\\right)$ के $50 \\mathrm{~mL}$ को $250 \\mathrm{~mL}$ विलयन, जिसमे $0.06 \\mathrm{~g}$ यूरिया है, से मिश्रित किया गया। दोनों विलयनों को बनाने मे एक ही विलायक का प्रयोग किया गया है | $300 \\mathrm{~K}$ ताप पर परिणामी विलयन का परासरण दाब (in Torr) है ________<br/><br/>\n[उपयोग करें: यूरिया का मोलर द्रव्यमान $=60 \\mathrm{~g} \\mathrm{~mol}^{-1}$; गैस नियतांक, $\\mathrm{R}=62 \\mathrm{~L} \\mathrm{Torr} \\mathrm{K}^{-1} \\mathrm{~mol}^{-1}$; मान लीजिये, $\\Delta_{\\text {mix }} \\mathrm{H}=0, \\Delta_{\\text {mix }} \\mathrm{V}=0$ ]",
+          "options": [],
+          "correct_options": [],
+          "answer": "682",
+          "explanation": "<ol>\n<li><p><strong>0.2 मोललीय विलयन में यूरिया का भार ज्ञात कीजिए:</strong>\n<br/><br/>दिए गए 0.2 मोललीय विलयन में, 1000 g विलायक में यूरिया के 0.2 मोल हैं। इस प्रकार यूरिया का भार $0.2 \\, \\text{mol} \\times 60 \\, \\text{g/mol} = 12 \\, \\text{g}$ है।</p>\n</li>\n<br/><li><p><strong>विलयन का भार ज्ञात कीजिए:</strong>\n<br/><br/>विलयन का कुल भार विलायक के भार और विलेय के भार का योग है, अर्थात् $1000 \\, \\text{g} + 12 \\, \\text{g} = 1012 \\, \\text{g}$।</p>\n</li>\n<br/><li><p><strong>विलयन का आयतन ज्ञात कीजिए:</strong>\n<br/><br/>विलयन के घनत्व को देखते हुए, हम विलयन के कुल भार को घनत्व से विभाजित करके इसका आयतन ज्ञात कर सकते हैं: $\\frac{1012 \\, \\text{g}}{1.012 \\, \\text{g/mL}} = 1000 \\, \\text{mL}$।</p>\n</li>\n<br/><li><p><strong>0.2 मोललीय विलयन के 50 mL में यूरिया की मात्रा ज्ञात कीजिए:</strong>\n<br/><br/>यदि विलयन के 1000 mL में यूरिया के 0.2 मोल हैं, तो विलयन के 50 mL में $\\frac{0.2 \\, \\text{mol} \\times 50 \\, \\text{mL}}{1000 \\, \\text{mL}} = 0.01 \\, \\text{mol}$ यूरिया है।</p>\n</li>\n<br/><li><p><strong>250 mL विलयन में यूरिया की मात्रा ज्ञात कीजिए:</strong>\n<br/><br/>250 mL विलयन में $0.06 \\, \\text{g}$ यूरिया है, अर्थात् $\\frac{0.06 \\, \\text{g}}{60 \\, \\text{g/mol}} = 0.001 \\, \\text{mol}$।</p>\n</li>\n<br/><li><p><strong>विलयन की कुल सांद्रता ज्ञात कीजिए:</strong>\n<br/><br/>मिश्रण के बाद, विलयन का कुल आयतन $50 \\, \\text{mL} + 250 \\, \\text{mL} = 300 \\, \\text{mL}$ है, और यूरिया की कुल मात्रा $0.01 \\, \\text{mol} + 0.001 \\, \\text{mol} = 0.011 \\, \\text{mol}$ है। \n<br/><br/>अतः, विलयन की सांद्रता $\\frac{0.011 \\, \\text{mol}}{300 \\, \\text{mL}} \\times 1000 \\, \\text{mL/L} = 0.0366 \\, \\text{M}$ है।</p>\n</li>\n<br/><li><p><strong>विलयन का परासरण दाब ज्ञात कीजिए:</strong>\n<br/><br/>अंत में, विलयन का परासरण दाब $\\pi$ सूत्र $\\pi = CRT$ का उपयोग करके ज्ञात किया जा सकता है, जहाँ $C$ सांद्रता है, $R$ गैस नियतांक है, और $T$ तापमान है। दिए गए और परिकलित मानों को प्रतिस्थापित करने पर, <br/><br/>हमें प्राप्त होता है $\\pi = 0.0366 \\, \\text{M} \\times 62 \\, \\text{L Torr K}^{-1} \\text{mol}^{-1} \\times 300 \\, \\text{K} = 682 \\, \\text{Torr}$।</p>\n</li>\n</ol>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "osmotic-pressure",
+      "type": "integer",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "$50 \\mathrm{~mL}$ of 0.2 molal urea solution (density $=1.012 \\mathrm{~g} \\mathrm{~mL}^{-1}$ at $300 \\mathrm{~K}$ ) is mixed with $250 \\mathrm{~mL}$ of a solution containing $0.06 \\mathrm{~g}$ of urea. Both the solutions were prepared in th..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "0.2 मोलल यूरिया विलयन $\\left(300 \\mathrm{~K}\\right.$ पर घनत्व $\\left.=1.012 \\mathrm{~g} \\mathrm{~mL}^{-1}\\right)$ के $50 \\mathrm{~mL}$ को $250 \\mathrm{~mL}$ विलयन, जिसमे $0.06 \\mathrm{~g}$ यूरिया है, से मिश्रित किया गया। दोनों विलयनों को बन..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "rj6ki5smfkvbcmqd74uq",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "an-aqueous-solution-is-prepared-by-dissolving-01-mathrm-jee-advanced-chemistry-solutions-bjdelw5etdz3sbqr",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "An aqueous solution is prepared by dissolving $0.1 \\mathrm{~mol}$ of an ionic salt in $1.8 \\mathrm{~kg}$ of water at $35^{\\circ} \\mathrm{C}$. The salt remains $90 \\%$ dissociated in the solution. The vapour pressure of the solution is $59.724 \\mathrm{~mm}$ of Hg. Vapor pressure of water at $35{ }^{\\circ} \\mathrm{C}$ is $60.000 \\mathrm{~mm}$ of $\\mathrm{Hg}$. The number of ions present per formula unit of the ionic salt is _________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "Vapour pressure of solution $\\left(\\mathrm{P}_{\\mathrm{A}}\\right)$\n$$\n=59.724 \\mathrm{~mm} \\text { of } \\mathrm{Hg}\n$$\n<br><br>Vapour pressure of pure water $\\left(\\mathrm{P}_{\\mathrm{A}}^{\\circ}\\right)$\n$$\n=60.000 \\mathrm{~mm} \\text { of } \\mathrm{Hg}\n$$\n<br><br>Also, $0.1 \\mathrm{~mol}$ of an ionic solid is dissolved in $1.8 \\mathrm{~kg}$ of water and salt remains $90 \\%$ dissocated in the solution.\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld6q07d8/428fb6a2-eb98-4aed-b6d7-24ea023187db/d4d448c0-99f6-11ed-b79e-d94fdc98ff1f/file-1ld6q07d9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld6q07d8/428fb6a2-eb98-4aed-b6d7-24ea023187db/d4d448c0-99f6-11ed-b79e-d94fdc98ff1f/file-1ld6q07d9.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Chemistry - Solutions Question 12 English Explanation\">\n\n<br><br>So, total number of moles $=0.01+0.09 a$ of non-volatile particles.\n<br><br>Now, mass of water $=1.8 \\mathrm{~kg}=1.8 \\times 1.8 \\times 1000 \\mathrm{~g}$\n<br><br>Molar mass of water $=18 \\mathrm{~g}$\n<br><br>Moles of water $=\\frac{1.8 \\times 1000}{18}=100$ moles\n<br><br>Using the colligative property, relative lowering in vapour pressure,\n<br><br>$$\n\\frac{\\mathrm{P}_{\\mathrm{A}}^{\\circ}-\\mathrm{P}_{\\mathrm{A}}}{\\mathrm{P}_{\\mathrm{A}}^{\\circ}}=x_{\\mathrm{A}}\n$$\n\n<br><br>$$ \\Rightarrow $$ $\\frac{60-59.724}{60} =\\frac{0.01+0.09 a}{100} $\n<br><br>$$ \\Rightarrow $$ $\n\\frac{0.276}{60} =\\frac{0.01+0.09 a}{100} $\n<br><br>$$ \\Rightarrow $$ $\n\\frac{27.6}{60} =0.01+0.09 a $\n<br><br>$$ \\Rightarrow $$ $\n0.46 =0.01+0.09 a $\n<br><br>$$ \\Rightarrow $$ $\n0.09 a =0.45 $\n<br><br>$$ \\Rightarrow $$ $\na =\\frac{0.45}{0.89} $\n<br><br>$$ \\Rightarrow $$ $\na =5\n$\n<br><br>So, the number of ions present per formula unit of the ionic salt is 5 ."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$35^{\\circ} \\mathrm{C}$$ पर $$1.8 \\mathrm{~kg}$$ जल में $$0.1$$ मोल आयनिक लवण को घोलकर एक जलीय विलयन बनाया जाता है। विलयन में लवण $$90 \\%$$ वियोजित रहता है। विलयन का वाष्प दाब $$59.724 \\mathrm{~mm} \\mathrm{~Hg}$$ है। $$35^{\\circ} \\mathrm{C}$$ पर जल का वाष्प दाब $$60.000 \\mathrm{~mm} \\mathrm{~Hg}$$ है। आयनिक लवण के प्रति सूत्र इकाई में उपस्थित आयनों की संख्या __________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "abnormal-colligative-property-and-vant-hoff-factor",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "An aqueous solution is prepared by dissolving $0.1 \\mathrm{~mol}$ of an ionic salt in $1.8 \\mathrm{~kg}$ of water at $35^{\\circ} \\mathrm{C}$. The salt remains $90 \\%$ dissociated in the solution. The vapour pressure of the solution is $59.7..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "$$35^{\\circ} \\mathrm{C}$$ पर $$1.8 \\mathrm{~kg}$$ जल में $$0.1$$ मोल आयनिक लवण को घोलकर एक जलीय विलयन बनाया जाता है। विलयन में लवण $$90 \\%$$ वियोजित रहता है। विलयन का वाष्प दाब $$59.724 \\mathrm{~mm} \\mathrm{~Hg}$$ है। $$35^{\\circ} \\mathrm{C..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "sd9g2zpyh2mzw6ddbg4g",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "the-boiling-point-of-water-in-a-01-molal-silver-nitrate-sol-jee-advanced-chemistry-some-basic-concepts-of-chemistry-gz7doawmscnz4qbr",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The value of x is ________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "100.1",
+          "explanation": "$$\n\\begin{aligned}\n& \\mathrm{AgNO}_3(\\mathrm{aq}) \\longrightarrow \\underset{0.1 ~ m}{\\mathrm{Ag}^{+}(\\mathrm{aq})}+\\underset{0.1 ~m}{\\mathrm{NO}_3^{-}(\\mathrm{aq})}\\\\\\\\\n& \\Delta \\mathrm{T}_{\\mathrm{b}}=0.2 \\times 0.5 \\\\\\\\\n& =0.1^{\\circ} \\mathrm{C}=0.1 \\mathrm{~K} \n\\end{aligned}\n$$<br/><br/>\nBoiling point of solution $=100.1^{\\circ} \\mathrm{C} \n=\\mathrm{X}\n$",
+          "comprehension": "The boiling point of water in a 0.1 molal silver nitrate solution (solution A) is x$$^\\circ$$C. To this solution A, an equal volume of 0.1 molal aqueous barium chloride solution is added to make a new solution B. The difference in the boiling points of water in the two solutions A and B is y $$\\times$$ 10<sup>$$-$$2</sup>$$^\\circ$$C.<br><br>(Assume : Densities of the solutions A and B are the same as that of water and the soluble salts dissociate completely.<br><br>Use : Molal elevation constant (Ebullioscopic Constant), K<sub>b</sub> = 0.5 K kg mol<sup>$$-$$1</sup>; Boiling point of pure water as 100$$^\\circ$$C.)"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक 0.1 मोलल सिल्वर नाइट्रेट विलयन (विलयन $$\\mathbf{A}$$ ) में जल का क्रथनांक (boiling point) $$\\mathbf{x}{ }^{\\circ} \\mathbf{C}$$ है | इस विलयन $$\\mathbf{A}$$ में, एक समान आयतन के 0.1 मोलल बेरियम क्लोराइड के जलीय विलयन को, एक नया विलयन $$\\mathbf{B}$$ बनाने के लिए डाला गया। इन दो विलायनों $$\\mathbf{A}$$ और $$\\mathbf{B}$$ में जल के क्रथनांक का अंतर $$\\mathbf{y} \\times 10^{-2}{ }^{\\circ} \\mathrm{C}$$ है।</p>\n<p>(मानिए कि विलयन A और B का घनत्व जल के घनत्व के समान है और विलयशील लवणों का पूर्णतः वियोजन होता है।</p>\n<p>उपयोग करें: मोलल उन्नयन स्थिरांक [Molal elevation constant (Ebullioscopic Constant)], $$K_{b}=0.5 \\mathrm{~K} \\mathrm{~kg} \\mathrm{~mol}^{-1}$$; शुद्ध जल का क्रथनांक $$100^{\\circ} \\mathrm{C}$$ )</p>\n<p>$$\\mathbf{x}$$ का मान ___ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "100.1",
+          "explanation": "$$\n\\begin{aligned}\n& \\mathrm{AgNO}_3(\\mathrm{aq}) \\longrightarrow \\underset{0.1 ~ m}{\\mathrm{Ag}^{+}(\\mathrm{aq})}+\\underset{0.1 ~m}{\\mathrm{NO}_3^{-}(\\mathrm{aq})}\\\\\\\\& \\Delta \\mathrm{T}_{\\mathrm{b}}=0.2 \\times 0.5 \\\\\\\\& =0.1^{\\circ} \\mathrm{C}=0.1 \\mathrm{~K} \n\\end{aligned}\n$$<br/><br/>\nविलयन का क्वथनांक $=100.1^{\\circ} \\mathrm{C} \n=\\mathrm{X}\n$"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "elevation-in-boiling-point",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The value of x is ________."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "एक 0.1 मोलल सिल्वर नाइट्रेट विलयन (विलयन $$\\mathbf{A}$$ ) में जल का क्रथनांक (boiling point) $$\\mathbf{x}{ }^{\\circ} \\mathbf{C}$$ है | इस विलयन $$\\mathbf{A}$$ में, एक समान आयतन के 0.1 मोलल बेरियम क्लोराइड के जलीय विलयन को, एक नया विलयन $$\\m..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "question_id": "bfefdrbqtabdfef77ilz",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "the-boiling-point-of-water-in-a-01-molal-silver-nitrate-sol-jee-advanced-chemistry-some-basic-concepts-of-chemistry-nldxcamgquj9b9di",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The value of | y | is ________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.5",
+          "explanation": "$$\n\\begin{aligned}\n& \\mathrm{AgNO}_3(\\mathrm{aq}) \\longrightarrow \\mathrm{Ag}^{+}(\\mathrm{aq})+\\mathrm{NO}_3^{-}(\\mathrm{aq}) \\\\\\\\\n& 0.05 \\mathrm{~m} \\quad\\quad\\quad\\quad\\quad 0.05 \\mathrm{~m} \\quad\\quad 0.05 \\mathrm{~m} \\\\\\\\\n& \\mathrm{BaCl}_2(\\mathrm{aq}) \\longrightarrow \\mathrm{Ba}^{2+}(\\mathrm{aq})+2 \\mathrm{Cl}^{-}(\\mathrm{aq}) \\\\\\\\\n& 0.05 \\mathrm{~m} \\quad \\quad\\quad\\quad\\quad0.05 \\mathrm{~m} \\quad\\quad 0.1 \\mathrm{~m} \n\\end{aligned}\n$$<br/><br/>\n$\\mathrm{Ag}^{+}$and $\\mathrm{Cl}^{-}$combine to form $\\mathrm{AgCl}$ precipitate<br/><br/>\n$$\n\\begin{array}{cccc} \n& \\mathrm{Ag}^{+}(\\mathrm{aq})+ & \\mathrm{Cl}^{-}(\\mathrm{aq}) \\longrightarrow & \\mathrm{AgCl}(\\mathrm{s}) \\\\\\\\\n\\mathrm{t}=0 & 0.05 \\mathrm{~m} & 0.1 \\mathrm{~m} \\\\\\\\\n\\mathrm{t}=\\infty & 0 & 0.05 \\mathrm{~m}\n\\end{array}\n$$<br/><br/>\nIn final solution total concentration of all ions :<br/><br/>\n$$\n\\begin{aligned}\n& {\\left[\\mathrm{Cl}^{-}\\right]+\\left[\\mathrm{NO}_3^{-}\\right]+\\left[\\mathrm{Ba}^{2+}\\right]=0.05+0.05+0.05} \\\\\\\\\n& \\begin{aligned}\n\\Delta \\mathrm{T}_{\\mathrm{b}} & =0.5 \\times 0.15 \\\\\\\\\n& =0.15 \\mathrm{~m} \\\\\\\\\n& =0.075^{\\circ} \\mathrm{C}\n\\end{aligned}\n\\end{aligned}\n$$<br/><br/>\nB.P. of solution ' $\\mathrm{B}$ ' $=100.075^{\\circ} \\mathrm{C}$<br/><br/>\nB.P. of solution ' $\\mathrm{A}^{\\prime}=100.1^{\\circ} \\mathrm{C}$<br/><br/>\n$|y|=100.1-100.075$<br/><br/>\n$$\n=0.025=2.5 \\times 10^{-2}\n$$",
+          "comprehension": "The boiling point of water in a 0.1 molal silver nitrate solution (solution A) is x$$^\\circ$$C. To this solution A, an equal volume of 0.1 molal aqueous barium chloride solution is added to make a new solution B. The difference in the boiling points of water in the two solutions A and B is y $$\\times$$ 10<sup>$$-$$2</sup>$$^\\circ$$C.<br><br>(Assume : Densities of the solutions A and B are the same as that of water and the soluble salts dissociate completely.<br><br>Use : Molal elevation constant (Ebullioscopic Constant), K<sub>b</sub> = 0.5 K kg mol<sup>$$-$$1</sup>; Boiling point of pure water as 100$$^\\circ$$C.)"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक 0.1 मोलल सिल्वर नाइट्रेट विलयन (विलयन $$\\mathbf{A}$$ ) में जल का क्रथनांक (boiling point) $$\\mathbf{x}{ }^{\\circ} \\mathbf{C}$$ है | इस विलयन $$\\mathbf{A}$$ में, एक समान आयतन के 0.1 मोलल बेरियम क्लोराइड के जलीय विलयन को, एक नया विलयन $$\\mathbf{B}$$ बनाने के लिए डाला गया। इन दो विलायनों $$\\mathbf{A}$$ और $$\\mathbf{B}$$ में जल के क्रथनांक का अंतर $$\\mathbf{y} \\times 10^{-2}{ }^{\\circ} \\mathrm{C}$$ है।</p>\n<p>(मानिए कि विलयन A और B का घनत्व जल के घनत्व के समान है और विलयशील लवणों का पूर्णतः वियोजन होता है।</p>\n<p>उपयोग करें: मोलल उन्नयन स्थिरांक [Molal elevation constant (Ebullioscopic Constant)], $$K_{b}=0.5 \\mathrm{~K} \\mathrm{~kg} \\mathrm{~mol}^{-1}$$; शुद्ध जल का क्रथनांक $$100^{\\circ} \\mathrm{C}$$ )</p>\n<p>$$|y|$$ का मान _______ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.5",
+          "explanation": "$$\n\\begin{aligned}\n& \\mathrm{AgNO}_3(\\mathrm{aq}) \\longrightarrow \\mathrm{Ag}^{+}(\\mathrm{aq})+\\mathrm{NO}_3^{-}(\\mathrm{aq}) \\\\\\\\\n& 0.05 \\mathrm{~m} \\quad\\quad\\quad\\quad\\quad 0.05 \\mathrm{~m} \\quad\\quad 0.05 \\mathrm{~m} \\\\\\\\\n& \\mathrm{BaCl}_2(\\mathrm{aq}) \\longrightarrow \\mathrm{Ba}^{2+}(\\mathrm{aq})+2 \\mathrm{Cl}^{-}(\\mathrm{aq}) \\\\\\\\\n& 0.05 \\mathrm{~m} \\quad \\quad\\quad\\quad\\quad0.05 \\mathrm{~m} \\quad\\quad 0.1 \\mathrm{~m} \n\\end{aligned}\n$$<br/><br/>\n$\\mathrm{Ag}^{+}$ और $\\mathrm{Cl}^{-}$ संयुक्त होकर $\\mathrm{AgCl}$ अवक्षेप बनाते हैं<br/><br/>\n$$\n\\begin{array}{cccc} \n& \\mathrm{Ag}^{+}(\\mathrm{aq})+ & \\mathrm{Cl}^{-}(\\mathrm{aq}) \\longrightarrow & \\mathrm{AgCl}(\\mathrm{s}) \\\\\\\\\n\\mathrm{t}=0 & 0.05 \\mathrm{~m} & 0.1 \\mathrm{~m} \\\\\\\\\n\\mathrm{t}=\\infty & 0 & 0.05 \\mathrm{~m}\n\\end{array}\n$$<br/><br/>\nअंतिम विलयन में सभी आयनों की कुल सांद्रता:<br/><br/>\n$$\n\\begin{aligned}\n& {[\\mathrm{Cl}^{-}]+[\\mathrm{NO}_3^{-}]+[\\mathrm{Ba}^{2+}]=0.05+0.05+0.05} \\\\\\\\\n& \\begin{aligned}\n\\Delta \\mathrm{T}_{\\mathrm{b}} & =0.5 \\times 0.15 \\\\\\\\\n& =0.15 \\mathrm{~m} \\\\\\\\\n& =0.075^{\\circ} \\mathrm{C}\n\\end{aligned}\n\\end{aligned}\n$$<br/><br/>\nविलयन '$\\mathrm{B}$' का क्वथनांक $=100.075^{\\circ} \\mathrm{C}$<br/><br/>\nविलयन '$\\mathrm{A}$' का क्वथनांक $=100.1^{\\circ} \\mathrm{C}$<br/><br/>\n$|y|=100.1-100.075$<br/><br/>\n$$\n=0.025=2.5 \\times 10^{-2}\n$$"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "elevation-in-boiling-point",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The value of | y | is ________."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "एक 0.1 मोलल सिल्वर नाइट्रेट विलयन (विलयन $$\\mathbf{A}$$ ) में जल का क्रथनांक (boiling point) $$\\mathbf{x}{ }^{\\circ} \\mathbf{C}$$ है | इस विलयन $$\\mathbf{A}$$ में, एक समान आयतन के 0.1 मोलल बेरियम क्लोराइड के जलीय विलयन को, एक नया विलयन $$\\m..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "question_id": "1khr0yp9t0fz6304p8wh",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "liquids-a-and-b-form-ideal-solution-for-all-compositions-of-jee-advanced-chemistry-some-basic-concepts-of-chemistry-bqksurc7qyxoduxb",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Liquids A and B form ideal solution for all compositions of A and B at 25$$^\\circ $$C. Two such solutions with 0.25 and 0.50 mole fractions of A have the total vapour pressure of 0.3 and 0.4 bar, respectively. What is the vapour pressure of pure liquid B  in bar?",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.2",
+          "explanation": "Using Raoult's law equation for a mixture of volatile liquids.<br><br>$${P_T} = p_A^o{\\chi _A} + p_B^o{\\chi _B}$$<br><br>$$0.3 = 0.25\\chi p_A^o + 0.75\\chi p_B^o$$ ....(i)<br><br>$$0.4 = 0.5\\chi p_A^o + 0.5\\chi p_B^o$$ ....(ii)<br><br>By solving equation (i) and (ii)<br><br>$$p_A^o$$ = 0.6 bar and $$p_B^o$$ = 0.2 bar<br><br>Thus, the vapour pressure of pure liquid B in bar is 0.2."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>ताप $$25^{\\circ} \\mathrm{C}$$ पर, द्रव $$\\mathbf{A}$$ तथा $$\\mathbf{B}$$ सभी संघटनों पर आदर्श विलयन बनाते हैं। ऐसे दो विलयन, जिनमें $$\\mathbf{A}$$ का मोलअंश $$0.25$$ तथा $$0.50$$ है, का कुल वाष्प दाब (vapor pressure) क्रमशः $$0.3$$ तथा $$0.4 ~\\mathrm{bar}$$ है । शुद्ध द्रव $$\\mathbf{B}$$ का वाष्प दाब (bar में) क्या है ?</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.2",
+          "explanation": "वाष्पशील द्रवों के मिश्रण के लिए राउल्ट के नियम के समीकरण का उपयोग करते हुए।<br><br>$${P_T} = p_A^o{\\chi _A} + p_B^o{\\chi _B}$$<br><br>$$0.3 = 0.25\\chi p_A^o + 0.75\\chi p_B^o$$ ....(i)<br><br>$$0.4 = 0.5\\chi p_A^o + 0.5\\chi p_B^o$$ ....(ii)<br><br>समीकरण (i) और (ii) को हल करने पर<br><br>$$p_A^o$$ = 0.6 bar और $$p_B^o$$ = 0.2 bar<br><br>इस प्रकार, शुद्ध द्रव B का वाष्प दाब bar में 0.2 है।"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "Liquids A and B form ideal solution for all compositions of A and B at 25$$^\\circ $$C. Two such solutions with 0.25 and 0.50 mole fractions of A have the total vapour pressure of 0.3 and 0.4 bar, respectively. What is the vapour pressure of..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "ताप $$25^{\\circ} \\mathrm{C}$$ पर, द्रव $$\\mathbf{A}$$ तथा $$\\mathbf{B}$$ सभी संघटनों पर आदर्श विलयन बनाते हैं। ऐसे दो विलयन, जिनमें $$\\mathbf{A}$$ का मोलअंश $$0.25$$ तथा $$0.50$$ है, का कुल वाष्प दाब (vapor pressure) क्रमशः $$0.3$$ तथा $$0...."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "l93noym1udmnht128xyr",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "on-dissolving-05-g-of-a-non-volatile-non-ionic-solute-to-39-jee-advanced-chemistry-some-basic-concepts-of-chemistry-tttaer8gmw73aelu",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "On dissolving 0.5 g of a non-volatile non-ionic solute to 39 g of benzene, its vapor pressure decreases from 650 mmHg to 640 mmHg. The depression of freezing point of benzene (in K) upon addition of the solute is .............<br><br>(Given data: Molar mass and the molal freezing point depression constant of benzene are 78 g mol<sup>-1</sup> and 5.12 K kg mol<sup>-1</sup>, respectively).",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.02",
+          "explanation": "When 0.5 g of non-volatile solute dissolve into 39 gm of benzene then relative lowering of vapour pressure occurs. Hence, vapour pressure decreases from 650 mmHg to 640 mmHg.<br><br>Given, vapour pressure of solvent (p$$^\\circ $$) = 650 mmHg<br><br>Vapour pressure of solution (p<sub>s</sub>) = 640 mmHg<br><br>Weight of non-volatile solute = 0.5 g<br><br>Weight of solvent (benzene) = 39 g<br><br>From relative lowering of vapour pressure,<br><br>$${{p^\\circ  - {p_s}} \\over {p^\\circ }} = {x_{Solute}} = {{{n_{solute}}} \\over {{n_{solute}} + {n_{solvent}}}}$$<br><br>$${{650 - 640} \\over {650}} = {{{{0.5} \\over {molar\\,mass}}} \\over {{{0.5} \\over {molar\\,mass}} + {{39} \\over {78}}}}$$<br><br>$${{10} \\over {650}} = {{{{0.5} \\over {molar\\,mass}}} \\over {{{0.5} \\over {molar\\,mass}} + 0.5}}$$<br><br>$$0.5 + 0.5 \\times molar\\,mass = 65 \\times 0.5$$<br><br>$$ \\therefore $$ Molar mass of solute = 64 g<br><br>From molal depression of freezing point,<br><br>$$\\Delta {T_f} = {K_f} \\times molality$$<br><br>$$ = {{{K_f} \\times {w_{solute}}} \\over {{{(MW)}_{solute}} \\times {w_{solvent}}}}$$<br><br>$$ \\Rightarrow $$ $$ \\Delta {T_f} = 5.12 \\times {{0.5 \\times 1000} \\over {64 \\times 39}} $$\n<br><br>$$\\Rightarrow \\Delta {T_f} = 1.02K$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$0.5 \\mathrm{~g}$$ अवाष्पशील अनायनिक विलेय (non-volatile non-ionic solute) को $$39 \\mathrm{~g}$$ बेन्जीन (benzene) में घोलने पर, उसका वाष्प दाब $$650 \\mathrm{~mm} ~\\mathrm{Hg}$$ से $$640 \\mathrm{~mm} ~\\mathrm{Hg}$$ हो गया। इस विलेय को बेन्जीन में मिलाने के उपरांत, बेन्जीन के हिमांक का अवनमन (depression of freezing point) ( $$\\mathrm{K}$$ में) है ________</p>\n<p>( दिया गया : बेन्जीन का मोलर द्रब्यमान $$78 \\mathrm{~g} \\mathrm{~mol}^{-1}$$ और बेन्जीन का मोलल अवनमन स्थिरांक (molal freezing point depression constant) $$5.12 \\mathrm{~K} \\mathrm{~kg} \\mathrm{~mol}^{-1}$$ है। )</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.02",
+          "explanation": "जब 0.5 g अवाष्पशील विलेय 39 gm बेंजीन में घुलता है तो वाष्प दाब का आपेक्षिक अवनमन होता है। अतः, वाष्प दाब 650 mmHg से घटकर 640 mmHg हो जाता है।<br><br>दिया गया है, विलायक का वाष्प दाब (p$$^\\circ $$) = 650 mmHg<br><br>विलयन का वाष्प दाब (p<sub>s</sub>) = 640 mmHg<br><br>अवाष्पशील विलेय का भार = 0.5 g<br><br>विलायक (बेंजीन) का भार = 39 g<br><br>वाष्प दाब के आपेक्षिक अवनमन से,<br><br>$${{p^\\circ  - {p_s}} \\over {p^\\circ }} = {x_{Solute}} = {{{n_{solute}}} \\over {{n_{solute}} + {n_{solvent}}}}$$<br><br>$${{650 - 640} \\over {650}} = {{{{0.5} \\over {molar\\,mass}}} \\over {{{0.5} \\over {molar\\,mass}} + {{39} \\over {78}}}}$$<br><br>$${{10} \\over {650}} = {{{{0.5} \\over {molar\\,mass}}} \\over {{{0.5} \\over {molar\\,mass}} + 0.5}}$$<br><br>$$0.5 + 0.5 \\times molar\\,mass = 65 \\times 0.5$$<br><br>$$ \\therefore $$ विलेय का मोलर द्रव्यमान = 64 g<br><br>हिमांक के मोलल अवनमन से,<br><br>$$\\Delta {T_f} = {K_f} \\times molality$$<br><br>$$ = {{{K_f} \\times {w_{solute}}} \\over {{{(MW)}_{solute}} \\times {w_{solvent}}}}$$<br><br>$$ \\Rightarrow $$ $$ \\Delta {T_f} = 5.12 \\times {{0.5 \\times 1000} \\over {64 \\times 39}} $$\n<br><br>$$\\Rightarrow \\Delta {T_f} = 1.02K$$"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "depression-in-freezing-point",
+      "type": "integer",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "On dissolving 0.5 g of a non-volatile non-ionic solute to 39 g of benzene, its vapor pressure decreases from 650 mmHg to 640 mmHg. The depression of freezing point of benzene (in K) upon addition of the solute is .............(Given data: M..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "$$0.5 \\mathrm{~g}$$ अवाष्पशील अनायनिक विलेय (non-volatile non-ionic solute) को $$39 \\mathrm{~g}$$ बेन्जीन (benzene) में घोलने पर, उसका वाष्प दाब $$650 \\mathrm{~mm} ~\\mathrm{Hg}$$ से $$640 \\mathrm{~mm} ~\\mathrm{Hg}$$ हो गया। इस विलेय को बेन्..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "yy9llr8kko1natf58ibr",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The plot given below shows $$P-T$$ curves (where $$P$$ is the pressure and $$T$$ is the temperature) for two solvents $$X$$ and $$Y$$ and isomolal solutions of $$NaCl$$ in these solvents. $$NaCl$$ completely dissociates in both the solvents. \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/a4zxwiNxsEMxqMSTk/fORlQGNRHs5kAW7yfhoQ2YgUuAv83/7qEGfqlVPhGA00jaCDVVLK/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - Solutions Question 20 English\"> \n<br><br>On addition of equal number of moles of a non-volatile solute $$S$$ in equal amount (in $$kg$$) of these solvents, the elevation of boiling point of solvent $$X$$ is three times that of solvent $$Y$$. Solute $$S$$ is known to undergo dimerization in these solvents.  If the degree of dimerization is $$0.7$$ in solvent $$Y$$, the degree of dimerization in solvent $$X$$ is ___________. ",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.05",
+          "explanation": "<p>For solvent X, $$\\Delta$$T<sub>bX</sub> = K<sub>bX</sub> m $$\\Rightarrow$$ 2 = 2K<sub>bX</sub> m ..... (1)</p>\n<p>For solvent Y, $$\\Delta$$T<sub>bY</sub> = K<sub>bY</sub> m $$\\Rightarrow$$ 1 = 2K<sub>bY</sub> m ..... (2)</p>\n<p>Dividing Eq. (1) by Eq. (2), we get</p>\n<p>$${{{K_{bX}}} \\over {{K_{bY}}}} = 2$$</p>\n<p>After adding solute S, molality is the same for both solutions.</p>\n<p>Dimerisation is a association property. And for dimerisation van't Hoff factor</p>\n<p>i = 1 + $$\\left( {{1 \\over n} - 1} \\right)\\alpha $$</p>\n<p>And for dimerisation n = 2</p>\n<p>$$ \\therefore $$ For solvent X, van't Hoff factor $$i = 1 - {\\alpha  \\over 2}$$</p>\n<p>$$\\Delta {T_{bX}} = i{K_{bX}}m = \\left( {1 - {\\alpha  \\over 2}} \\right){K_{bX}}m$$ ....... (3)</p>\n<p>For solvent Y, van't Hoff factor $$i = 1 - {{0.7} \\over 2} = {{1.3} \\over 2}$$</p>\n<p>$$\\Delta {T_{bY}} = i{K_{bY}}m \\Rightarrow \\left( {{{1.3} \\over 2}} \\right){K_{bY}}m$$ ....... (4)</p>\n<p>Given that $$\\Delta {T_{bX}} = 3\\Delta {T_{bY}}$$. Dividing Eq. (3)/(4), we have</p>\n<p>$${{\\Delta {T_{bX}}} \\over {\\Delta {T_{bY}}}} = {{\\left( {1 - {\\alpha  \\over 2}} \\right){K_{bX}}m} \\over {\\left( {{{1.3} \\over 2}} \\right){K_{bY}}m}} \\Rightarrow {1 \\over 3} = {{2(2 - \\alpha )} \\over {1.3}} \\Rightarrow \\alpha  = 0.05$$</p>"
+        },
+        "hi": {
+          "content": "नीचे दिया गया प्लॉट $$P-T$$ वक्र दिखाता है (जहां $$P$$ दबाव है और $$T$$ तापमान है) दो विलायकों $$X$$ और $$Y$$ के लिए और इन विलायकों में $$NaCl$$ के सममोलल घोलों के लिए। $$NaCl$$ दोनों विलायकों में पूरी तरह से विभाजित हो जाता है। \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/a4zxwiNxsEMxqMSTk/fORlQGNRHs5kAW7yfhoQ2YgUuAv83/7qEGfqlVPhGA00jaCDVVLK/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Chemistry - Solutions Question 20 Hindi\"> \n<br><br>इन विलायकों में बराबर संख्या में एक गैर-वाष्पशील विलयन $$S$$ जोड़े जाने पर, विलायक $$X$$ के क्वथनांक की वृद्धि विलायक $$Y$$ की तुलना में तीन गुना होती है। यह ज्ञात है कि विलयन $$S$$ इन दोनों विलायकों में डायमरीकरण undergo करता है। यदि विलायक $$Y$$ में डायमरीकरण की डिग्री $$0.7$$ है, तो विलायक $$X$$ में डायमरीकरण की डिग्री ___________ है। ",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.05",
+          "explanation": "<p>विलायक X के लिए, $$\\Delta$$T<sub>bX</sub> = K<sub>bX</sub> m $$\\Rightarrow$$ 2 = 2K<sub>bX</sub> m ..... (1)</p>\n<p>विलायक Y के लिए, $$\\Delta$$T<sub>bY</sub> = K<sub>bY</sub> m $$\\Rightarrow$$ 1 = 2K<sub>bY</sub> m ..... (2)</p>\n<p>समीकरण (1) को समीकरण (2) से भाग देने पर, हम प्राप्त करते हैं</p>\n<p>$${{{K_{bX}}} \\over {{K_{bY}}}} = 2$$</p>\n<p>विलेय S मिलाने के बाद, दोनों विलयनों के लिए मोललता समान है।</p>\n<p>द्विलकीकरण एक संगुणन गुण है। और द्विलकीकरण के लिए वांट हॉफ गुणक</p>\n<p>i = 1 + $$\\left( {{1 \\over n} - 1} \\right)\\alpha $$</p>\n<p>और द्विलकीकरण के लिए n = 2</p>\n<p>$$ \\therefore $$ विलायक X के लिए, वांट हॉफ गुणक $$i = 1 - {\\alpha  \\over 2}$$</p>\n<p>$$\\Delta {T_{bX}} = i{K_{bX}}m = \\left( {1 - {\\alpha  \\over 2}} \\right){K_{bX}}m$$ ....... (3)</p>\n<p>विलायक Y के लिए, वांट हॉफ गुणक $$i = 1 - {{0.7} \\over 2} = {{1.3} \\over 2}$$</p>\n<p>$$\\Delta {T_{bY}} = i{K_{bY}}m \\Rightarrow \\left( {{{1.3} \\over 2}} \\right){K_{bY}}m$$ ....... (4)</p>\n<p>दिया गया है कि $$\\Delta {T_{bX}} = 3\\Delta {T_{bY}}$$। समीकरण (3)/(4) से भाग देने पर, हमें प्राप्त होता है</p>\n<p>${{\\Delta {T_{bX}}} \\over {\\Delta {T_{bY}}}} = {{\\left( {1 - {\\alpha  \\over 2}} \\right){K_{bX}}m} \\over {\\left( {{{1.3} \\over 2}} \\right){K_{bY}}m}} \\Rightarrow {1 \\over 3} = {{2(2 - \\alpha )} \\over {1.3}} \\Rightarrow \\alpha  = 0.05$$</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-plot-given-below-shows-p-t-curves-where-p-is-th-2018-marks-3-rj08plbgyccbcn2x.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "abnormal-colligative-property-and-vant-hoff-factor",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The plot given below shows $$P-T$$ curves (where $$P$$ is the pressure and $$T$$ is the temperature) for two solvents $$X$$ and $$Y$$ and isomolal solutions of $$NaCl$$ in these solvents. $$NaCl$$ completely dissociates in both the solvents..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "नीचे दिया गया प्लॉट $$P-T$$ वक्र दिखाता है (जहां $$P$$ दबाव है और $$T$$ तापमान है) दो विलायकों $$X$$ और $$Y$$ के लिए और इन विलायकों में $$NaCl$$ के सममोलल घोलों के लिए। $$NaCl$$ दोनों विलायकों में पूरी तरह से विभाजित हो जाता है। \n \nइन विलाय..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "2bxnw0b0htw7syd7yh60",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Liquids <b>A</b> and <b>B</b>  form ideal solution over the entire range of composition. At temperature $$T,$$ equimolar binary solution of liquids $$A$$ and $$B$$ has vapor pressure $$45$$ $$Torr.$$  At the same temperature, a new solution of $$A$$ and $$B$$ having mole fractions $${X_A}$$ and $${X_B}$$, respectively, has vapour pressure of $$22.5$$ $$Torr.$$ The value of $${x_A}/{x_B}$$ in the new solution is ___________. \n<br><br>(given that the vapor pressure of pure liquid $$A$$ is $$20$$ $$Torr$$ at temperature $$T$$)",
+          "options": [],
+          "correct_options": [],
+          "answer": "19",
+          "explanation": "<p>We know,</p>\n<p>$${p_{Total}} = p_A^o \\times {\\chi _A} + p_B^o \\times {\\chi _B}$$</p>\n<p>and for equimolar solutions $${\\chi _A} = {\\chi _B} = 1/2$$</p>\n<p>Given, $${p_{total}} = 45$$ torr for equimolar solution and $$p_A^o = 20$$ torr</p>\n<p>So, $$45 = p_A^o \\times {1 \\over 2} + p_B^o \\times {1 \\over 2} = {1 \\over 2}(p_A^o + p_B^o)$$</p>\n<p>or $$p_A^o + p_B^o = 90$$ torr ....... (i)</p>\n<p>But we know $$p_A^o = 20$$ torr</p>\n<p>So, $$p_B^o = 90 - 20 = 70$$ torr (From Eq. (i))</p>\n<p>Now, for the new solution from the same formula</p>\n<p>$${p_{total}} = 22.5$$ torr</p>\n<p>$$22.5 = 20{\\chi _A} + 70(1 - {\\chi _A})$$ (As $${\\chi _A} + {\\chi _B} = 1$$)</p>\n<p>or $$22.5 = 70 - 50{\\chi _A}$$</p>\n<p>So, $${\\chi _A} = {{70 - 22.5} \\over {50}} = 0.95$$</p>\n<p>Thus, $${\\chi _B} = 1 - 0.95 = 0.05$$ (as $$\\chi$$<sub>A</sub> + $$\\chi$$<sub>B</sub> = 1)</p>\n<p>Hence, the ratio</p>\n<p>$${{{\\chi _A}} \\over {{\\chi _B}}} = {{0.95} \\over {0.05}} = 19$$</p>"
+        },
+        "hi": {
+          "content": "द्रव <b>A</b> और <b>B</b> पूरे संरचना सीमा पर आदर्श विलयन बनाते हैं। तापमान $$T$$ पर, द्रव $$A$$ और $$B$$ का समान मोल द्विसंयोजक विलयन का दाब $$45$$ $$Torr$$ है। एक नए विलयन में, $$A$$ और $$B$$ के मोल अंश क्रमशः $${X_A}$$ और $${X_B}$$ हैं और इसका वाष्प दाब $$22.5$$ $$Torr$$ है। नए विलयन में $${x_A}/{x_B}$$ का मान ___________ है।<br><br>(इस तथ्य को ध्यान में रखते हुए कि शुद्ध द्रव $$A$$ का वाष्प दाब तापमान $$T$$ पर $$20$$ $$Torr$$ है)",
+          "options": [],
+          "correct_options": [],
+          "answer": "19",
+          "explanation": "<p>हम जानते हैं,</p>\n<p>$${p_{Total}} = p_A^o \\times {\\chi _A} + p_B^o \\times {\\chi _B}$$</p>\n<p>और समान मोलर विलयनों के लिए $${\\chi _A} = {\\chi _B} = 1/2$$</p>\n<p>दिया गया है, $${p_{total}} = 45$$ torr समान मोलर विलयन के लिए और $$p_A^o = 20$$ torr</p>\n<p>अतः, $$45 = p_A^o \\times {1 \\over 2} + p_B^o \\times {1 \\over 2} = {1 \\over 2}(p_A^o + p_B^o)$$</p>\n<p>या $$p_A^o + p_B^o = 90$$ torr ....... (i)</p>\n<p>लेकिन हम जानते हैं $$p_A^o = 20$$ torr</p>\n<p>अतः, $$p_B^o = 90 - 20 = 70$$ torr (समीकरण (i) से)</p>\n<p>अब, नए विलयन के लिए उसी सूत्र से</p>\n<p>$${p_{total}} = 22.5$$ torr</p>\n<p>$$22.5 = 20{\\chi _A} + 70(1 - {\\chi _A})$$ (क्योंकि $${\\chi _A} + {\\chi _B} = 1$$)</p>\n<p>या $$22.5 = 70 - 50{\\chi _A}$$</p>\n<p>अतः, $${\\chi _A} = {{70 - 22.5} \\over {50}} = 0.95$$</p>\n<p>इस प्रकार, $${\\chi _B} = 1 - 0.95 = 0.05$$ (क्योंकि $$\\chi$$<sub>A</sub> + $$\\chi$$<sub>B</sub> = 1)</p>\n<p>अतः, अनुपात</p>\n<p>$${{{{\\chi _A}} \\over {{\\chi _B}}} = {{0.95} \\over {0.05}} = 19$$</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "liquids-a-and-b-form-ideal-solution-over-the-entire-range-o-2018-marks-3-gobyyjdtccbfyaa9.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "Liquids A and B  form ideal solution over the entire range of composition. At temperature $$T,$$ equimolar binary solution of liquids $$A$$ and $$B$$ has vapor pressure $$45$$ $$Torr.$$  At the same temperature, a new solution of $$A$$ and ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "द्रव A और B पूरे संरचना सीमा पर आदर्श विलयन बनाते हैं। तापमान $$T$$ पर, द्रव $$A$$ और $$B$$ का समान मोल द्विसंयोजक विलयन का दाब $$45$$ $$Torr$$ है। एक नए विलयन में, $$A$$ और $$B$$ के मोल अंश क्रमशः $${X_A}$$ और $${X_B}$$ हैं और इसका वाष्प द..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "gcjbrdl5a00v491ipgcv",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Pure water freezes at $$273$$ $$K$$ and $$1$$ bar. The addition of $$34.5$$ $$g$$ of ethanol to $$500$$ $$g$$ of water changes the freezing point of the solution. Use the freezing point depression constant of water as $$2$$ kg $$mo{l^{ - 1}}.$$ The figures shown below represent plots of vapor pressure $$(V.P.)$$ versus temperature $$(T).$$ [molecular weight of ethanol is $$46$$ $$g$$ $$mo{l^{ - 1}}.$$ ] Among the following, the option representing change in the freezing point is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/86yBXlKziV22avj4v/HQvuHYhuPlzuAyOoMtpHVIJaXVNL8/Nf4CWVFWbJf9eSapnauzgu/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 2 Offline Chemistry - Solutions Question 18 English Option 1\"> "
+            },
+            {
+              "identifier": "B",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/xQJOOmKCJQIZ1HBBe/34Cs6cSPwvKNmcgbXQF3DJZnO7GRR/ghHMPiT9sj4QjpY6RjL41L/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 2 Offline Chemistry - Solutions Question 18 English Option 2\"> "
+            },
+            {
+              "identifier": "C",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/BSO2SDgTM9FNA9xDk/6I2M6iAd13nZUDlDes6WW3SJXHIpG/VzSvK7VztN7vLkRR4S1Vc0/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 2 Offline Chemistry - Solutions Question 18 English Option 3\"> "
+            },
+            {
+              "identifier": "D",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/81Td8OpMqq3yDgTNJ/OBp4pLVHOQ1zsCVHGskkpCuCXMTKk/fRrXwz5p6VylY2eQGnogbw/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 2 Offline Chemistry - Solutions Question 18 English Option 4\"> "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Depression in freezing point is given by $$\\Delta$$T<sub>f</sub> = K<sub>f</sub>m</p>\n<p>where $$m = {{1000 \\times {w_{solute}}} \\over {{M_{solute}} \\times {w_{solvent}}}}$$</p>\n<p>Substituting the values, we get</p>\n<p>$$\\Delta {T_f} = 2 \\times {{1000 \\times 34.5} \\over {46 \\times 500}} = 3K$$</p>\n<p>Therefore, T<sub>f</sub> = 270 K and $$T_f^o$$ = 273 K. Hence, option (c) indicates correct representation of the graph.</p>"
+        },
+        "hi": {
+          "content": "शुद्ध जल $$273$$ $$K$$ और $$1$$ बार पर जमता है। $$34.5$$ $$g$$ एथेनॉल को $$500$$ $$g$$ पानी में मिलाने पर विलयन के जमने का बिंदु बदल जाता है। जल का जमने बिंदु अवसादन स्थिरांक $$2$$ kg $$mo{l^{ - 1}}$$ के रूप में उपयोग करें। नीचे दर्शाए गए आंकड़े वाष्प दाब $$(V.P.)$$ बनाम तापमान $$(T)$$ के ग्राफ का प्रतिनिधित्व करते हैं। [एथेनॉल का आणविक भार $$46$$ $$g$$ $$mo{l^{ - 1}}$$ है।] निम्नलिखित में से, जमने बिंदु के परिवर्तन का प्रतिनिधित्व करने वाला विकल्प है ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/86yBXlKziV22avj4v/HQvuHYhuPlzuAyOoMtpHVIJaXVNL8/Nf4CWVFWbJf9eSapnauzgu/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 2 Offline Chemistry - Solutions Question 18 Hindi Option 1\"> "
+            },
+            {
+              "identifier": "B",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/xQJOOmKCJQIZ1HBBe/34Cs6cSPwvKNmcgbXQF3DJZnO7GRR/ghHMPiT9sj4QjpY6RjL41L/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 2 Offline Chemistry - Solutions Question 18 Hindi Option 2\"> "
+            },
+            {
+              "identifier": "C",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/BSO2SDgTM9FNA9xDk/6I2M6iAd13nZUDlDes6WW3SJXHIpG/VzSvK7VztN7vLkRR4S1Vc0/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 2 Offline Chemistry - Solutions Question 18 Hindi Option 3\"> "
+            },
+            {
+              "identifier": "D",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/81Td8OpMqq3yDgTNJ/OBp4pLVHOQ1zsCVHGskkpCuCXMTKk/fRrXwz5p6VylY2eQGnogbw/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 2 Offline Chemistry - Solutions Question 18 Hindi Option 4\"> "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "pure-water-freezes-at-273-k-and-1-bar-the-addit-2018-marks-3-4x7aqhi1rclao5o6.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "depression-in-freezing-point",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "Pure water freezes at $$273$$ $$K$$ and $$1$$ bar. The addition of $$34.5$$ $$g$$ of ethanol to $$500$$ $$g$$ of water changes the freezing point of the solution. Use the freezing point depression constant of water as $$2$$ kg $$mo{l^{ - 1}..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "शुद्ध जल $$273$$ $$K$$ और $$1$$ बार पर जमता है। $$34.5$$ $$g$$ एथेनॉल को $$500$$ $$g$$ पानी में मिलाने पर विलयन के जमने का बिंदु बदल जाता है। जल का जमने बिंदु अवसादन स्थिरांक $$2$$ kg $$mo{l^{ - 1}}$$ के रूप में उपयोग करें। नीचे दर्शाए गए आ..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "407kiqhtwnl3snby4rbu",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "For a solution formed by mixing liquids $$L$$ and $$M,$$ the vapor pressure of $$L$$ plotted against the mole fraction of $$M$$ in solution is shown in the following figure. Here $${X_L}$$ and $${X_M}$$ represent mole fractions of $$L$$ and $$M,$$ respectively, in the solution. The  correct statement(s) applicable to this system is (are) \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/galXw7zeYfIkr0MVm/xHnp8EIUNmRNxcHeP0tuxE0adfAiu/YjzPxR9z4yKuJHHJg5IUDX/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 1 Offline Chemistry - Solutions Question 19 English\"> ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The point $$Z$$ represents vapor pressure of pure liquid $$M$$ and Raoult's law is obeyed from $${X_L} = 0$$ to $${X_L} = 1$$"
+            },
+            {
+              "identifier": "B",
+              "content": "The point $$Z$$ represents vapor pressure of pure liquid $$L$$ and Raoult's law is obeyed when $${X_L} \\to 1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "The point $$Z$$ represents vapor pressure of pure liquid $$M$$ and Raoult's law is obeyed when $${X_L} \\to 0$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "Attractive intermolecular interactions between $$L$$-$$L$$ in  pure liquid $$L$$ and $$M$$-$$M$$ in pure liquid $$M$$ are stronger than those between $$L-M$$ when mixed in solution. "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "The vapour pressure plot for liquid $\\mathrm{L}\\left(\\mathrm{P}_{\\mathrm{L}}\\right)$ versus mole fraction of $\\mathrm{M}\\left(x_m\\right)$ is represented as :\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1li1i60u5/a035a0f2-a9fe-40c1-8c86-88ceea32d074/574106d0-fa15-11ed-a67c-fd44bcb96a53/file-1li1i60u6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1li1i60u5/a035a0f2-a9fe-40c1-8c86-88ceea32d074/574106d0-fa15-11ed-a67c-fd44bcb96a53/file-1li1i60u6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 1 Offline Chemistry - Solutions Question 19 English Explanation\">\n<br><br>(i) Point A on plot represents vapour pressure due to pure L (its mole fraction being 1) and point $B$ represents vapour pressure due to pure $M$. Point $Z$ represents vapour pressure due to pure liquid $\\mathrm{M}$ as mole fraction of liquid $\\mathrm{M}$ becomes maximum.\n<br><br>(ii) The dotted line represents increase in the vapour of the pure liquid $M$ with increase in its concentration. Here, pure liquid $M$ follows Raoult's law.\n<br><br>(iii) The red coloured curve on above the dotted line shows positive deviation shown by liquid M from the Raoult's law.\n<br><br>(a) Since mole fraction of pure liquid $M$ is max $\\left(x_m=1\\right)$ at point $Z$; hence, this point represents vapour pressure due to pure liquid $M$. There is no curve corresponding to pure liquid component L; hence, whether liquid L obey' Raoult's law or not cannot be predicted. \n<br><br>Option (A) is incorrect.\n<br><br>(b) Since mole fraction of liquid L is maximum at point B, which also corresponds to the maximum vapour pressure at point $Z$; hence, point $Z$ represents the vapour pressure of pure liquid $L$.\n<br><br>Option (B) is correct.\n<br><br>(c) At point Z, the molefraction of liquid component $\\mathrm{L}$ and $\\mathrm{M}$ lies above the vapour pressure curve for pure L (The dotted line). Therefore, the mixture obeys positive deviation from the Raoult's law. This means intermolecular force of attraction are lower between $M$ and L; then that between M-M and L-L.\n<br><br>Option (D) is correct."
+        },
+        "hi": {
+          "content": "एक विलयन जो द्रव $$L$$ और $$M$$ को मिलाकर तैयार किया गया है, उसमें $$L$$ का वाष्प दाब मोल अंश $$M$$ के संदर्भ में प्रदर्शित किया गया है। यहाँ $${X_L}$$ और $${X_M}$$ विलयन में क्रमशः $$L$$ और $$M$$ के मोल अंश का प्रतिनिधित्व करते हैं। इस प्रणाली के लिए सही कथन निम्नलिखित है/हैं:\n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/galXw7zeYfIkr0MVm/xHnp8EIUNmRNxcHeP0tuxE0adfAiu/YjzPxR9z4yKuJHHJg5IUDX/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2017 Paper 1 Offline Chemistry - Solutions Question 19 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "बिंदु $$Z$$ शुद्ध द्रव $$M$$ का वाष्प दाब प्रदर्शित करता है और $${X_L} = 0$$ से $${X_L} = 1$$ तक राउल्ट्स के नियम का पालन करता है"
+            },
+            {
+              "identifier": "B",
+              "content": "बिंदु $$Z$$ शुद्ध द्रव $$L$$ का वाष्प दाब प्रदर्शित करता है और $${X_L} \\to 1$$ होने पर राउल्ट्स के नियम का पालन करता है"
+            },
+            {
+              "identifier": "C",
+              "content": "बिंदु $$Z$$ शुद्ध द्रव $$M$$ का वाष्प दाब प्रदर्शित करता है और $${X_L} \\to 0$$ होने पर राउल्ट्स के नियम का पालन करता है"
+            },
+            {
+              "identifier": "D",
+              "content": "जब द्रव $$L$$ और $$M$$ को मिलाया जाता है तो शुद्ध द्रव $$L$$ में $$L$$-$$L$$ के बीच और शुद्ध द्रव $$M$$ में $$M$$-$$M$$ के बीच आकर्षण आणविक अंतःक्रिया $$L-M$$ के बीच आकर्षण से अधिक होती है।"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "for-a-solution-formed-by-mixing-liquids-l-and-m-the-2018-marks-4-fvdl55yrdo8mptkp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-1-offline",
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "For a solution formed by mixing liquids $$L$$ and $$M,$$ the vapor pressure of $$L$$ plotted against the mole fraction of $$M$$ in solution is shown in the following figure. Here $${X_L}$$ and $${X_M}$$ represent mole fractions of $$L$$ and..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "एक विलयन जो द्रव $$L$$ और $$M$$ को मिलाकर तैयार किया गया है, उसमें $$L$$ का वाष्प दाब मोल अंश $$M$$ के संदर्भ में प्रदर्शित किया गया है। यहाँ $${X_L}$$ और $${X_M}$$ विलयन में क्रमशः $$L$$ और $$M$$ के मोल अंश का प्रतिनिधित्व करते हैं। इस प्र..."
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-1-offline"
+    },
+    {
+      "question_id": "fbbdo40cf2c4hoaxx5oq",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "permalink": "pthe-qualitative-sketches-i-ii-and-iii-given-below-show-t-jee-advanced-chemistry-some-basic-concepts-of-chemistry-mfrpleljhkbzmgxr",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The qualitative sketches I, II and III given below show the variation of surface tension with molar concentration of three different aqueous solutions of KCl, CH<sub>3</sub>OH and CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup> at room temperature. The correct assignment of the sketches is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0ilsov6/508ec007-f91c-4046-9867-6cf2fcafd43f/f7394c20-9f20-11ec-b824-11481766c67e/file-1l0ilsov7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0ilsov6/508ec007-f91c-4046-9867-6cf2fcafd43f/f7394c20-9f20-11ec-b824-11481766c67e/file-1l0ilsov7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Chemistry - Solutions Question 13 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>I : KCl</p>\n<p>II : CH<sub>3</sub>OH</p>\n<p>III : CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup></p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>I. CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup></p>\n<p>II. CH<sub>3</sub>OH</p>\n<p>III. KCl</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>I. KCl</p>\n<p>II. CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup></p>\n<p>III. CH<sub>3</sub>OH</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>I. CH<sub>3</sub>OH</p>\n<p>II. KCl</p>\n<p>III. CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>I. (CH<sub>3</sub>OH) : Surface tension decreases as concentration increases.</p>\n<p>II. (KCl) : Surface tension increases with concentration  for ionic salt.</p>\n<p>III. [CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup>] : It is an anionic detergent.</p>\n<p>There is decrease in surface tension before micelle formation, and after CMC (Critical Micelle Concentration) is attained, no change in surface tension.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0ilxx88/88df4e43-7a33-485b-84d3-8123b89e1157/88babf80-9f21-11ec-b824-11481766c67e/file-1l0ilxx89.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0ilxx88/88df4e43-7a33-485b-84d3-8123b89e1157/88babf80-9f21-11ec-b824-11481766c67e/file-1l0ilxx89.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Chemistry - Solutions Question 13 English Explanation\"></p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "<p>गुणात्मक रेखाचित्र I, II और III नीचे दिए गए हैं, जो कमरे के तापमान पर KCl, CH<sub>3</sub>OH और CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup> के तीन अलग-अलग जलीय घोलों के साथ मोलर एकाग्रता के साथ सतह तनाव में भिन्नता दिखाते हैं। रेखाचित्रों का सही असाइनमेंट है</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0ilsov6/508ec007-f91c-4046-9867-6cf2fcafd43f/f7394c20-9f20-11ec-b824-11481766c67e/file-1l0ilsov7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0ilsov6/508ec007-f91c-4046-9867-6cf2fcafd43f/f7394c20-9f20-11ec-b824-11481766c67e/file-1l0ilsov7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2016 Paper 2 Offline Chemistry - Solutions Question 13 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>I : KCl</p>\n<p>II : CH<sub>3</sub>OH</p>\n<p>III : CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup></p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>I. CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup></p>\n<p>II. CH<sub>3</sub>OH</p>\n<p>III. KCl</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>I. KCl</p>\n<p>II. CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup></p>\n<p>III. CH<sub>3</sub>OH</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>I. CH<sub>3</sub>OH</p>\n<p>II. KCl</p>\n<p>III. CH<sub>3</sub>(CH<sub>2</sub>)<sub>11</sub> OSO$$_3^ - $$ Na<sup>+</sup>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "type": "mcq",
+      "year": 2016,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The qualitative sketches I, II and III given below show the variation of surface tension with molar concentration of three different aqueous solutions of KCl, CH3OH and CH3(CH2)11 OSO$$_3^ - $$ Na+ at room temperature. The correct assignmen..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "गुणात्मक रेखाचित्र I, II और III नीचे दिए गए हैं, जो कमरे के तापमान पर KCl, CH3OH और CH3(CH2)11 OSO$$_3^ - $$ Na+ के तीन अलग-अलग जलीय घोलों के साथ मोलर एकाग्रता के साथ सतह तनाव में भिन्नता दिखाते हैं। रेखाचित्रों का सही असाइनमेंट है\n"
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "tlgiurs4ny6w7p4r8y9k",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Mixture (s) showing positive deviation from Raoult’s law at 35<sup>o</sup>C is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "carbon tetrachloride + methanol "
+            },
+            {
+              "identifier": "B",
+              "content": "carbon disulphide + acetone"
+            },
+            {
+              "identifier": "C",
+              "content": "benzene + toluene "
+            },
+            {
+              "identifier": "D",
+              "content": "phenol + aniline"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>When intermolecular attraction\nbetween two components A and B in the\nmixture is same as between A and A or B\nand B, hence it is a case of ideal solution.\nWhen intermolecular attraction between A\nand B in a mixture is smaller than that\nbetween A and A or B and B, then mixture\nis more vaporised, bp is lowered. It is a case\nof positive deviation from Raoult’s law.\nWhen intermolecular attraction between A\nand B is higher than that between A and A\nor B and B, then mixture is less vaporised,\nbp is increased. It is a case of negative\ndeviation.</p>\n<p>(a) Methanol molecules (CH)<sub>3</sub>OH are\nhydrogen bonded. In a mixture of\nCCl<sub>4</sub>\nand CH<sub>3</sub>OH, extent of\nH-bonding is decreased. Mixture is\nmore vaporised thus, positive\ndeviation from Raoult’s law.</p>\n<p>(b) Acetone molecules have higher\nintermolecular attraction due to\ndipole-dipole interaction. With CS<sub>2</sub>\n,\nthis interaction is decreased thus,\npositive deviation.</p>\n<p>(c) Mixture of benzene and toluene\nforms ideal solution.</p>\n<p>(d) Phenol and aniline have higher\ninteraction due to intermolecular\nH-bonding. Hence, negative\ndeviation.</p>"
+        },
+        "hi": {
+          "content": "35<sup>o</sup>C पर Raoult के नियम से सकारात्मक विचलन दर्शाने वाले मिश्रण हैं",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "कार्बन टेट्राक्लोराइड + मेथनोल"
+            },
+            {
+              "identifier": "B",
+              "content": "कार्बन डाइसल्फाइड + एसीटोन"
+            },
+            {
+              "identifier": "C",
+              "content": "बेंजीन + टोलुइन"
+            },
+            {
+              "identifier": "D",
+              "content": "फिनॉल + एनिलीन"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "mixture-s-showing-positive-deviation-from-raoults-law-a-2016-marks-3-yxop496e3sjh3ziw.htm",
+      "timeAllotted": 200000,
+      "topic": "raoults-law",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "Mixture (s) showing positive deviation from Raoult’s law at 35oC is (are)"
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "35oC पर Raoult के नियम से सकारात्मक विचलन दर्शाने वाले मिश्रण हैं"
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "g1p76f63rpoocad3sjxw",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2016,
+      "paperTitle": "JEE Advanced 2016 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The mole fraction of a solute in a solution is 0.1. At 298 K, molarity of this solution is the same as its\nmolality. Density of this solution at 298 K is 2.0 g cm<sup>–3</sup> . The ratio of the molecular weights of the solute and solvent, $$\\left( {{{M{W_{solute}}} \\over {M{W_{solvent}}}}} \\right)$$, is",
+          "options": [],
+          "correct_options": [],
+          "answer": "9",
+          "explanation": "It is given that the mole fraction of the solute $\\left(x_{\\text {solute }}\\right)$ is 0.1 , therefore mole fraction of the solvent $\\left(x_{\\text {solvent }}\\right)$ is 0.9 . So we have\n<br/><br/>$$\nx_{\\text {solute }}=\\frac{n_{\\text {solute }}}{\\left(n_{\\text {solute }}+n_{\\text {solvent }}\\right)}=0.1\n$$ ......(1)\n<br/><br/>$$\nx_{\\text {solvent }}=\\frac{n_{\\text {solvent }}}{\\left(n_{\\text {solute }}+n_{\\text {solvent }}\\right)}=0.9\n$$ ......(2)\n<br/><br/>where $n_{\\text {solute }}$ and $n_{\\text {solvent }}$ are the number of moles of solute and solvent, respectively. Dividing Eq. (1) by Eq. (2) gives\n<br/><br/>$$\n\\frac{x_{\\text {solute }}}{x_{\\text {solvent }}}=\\frac{n_{\\text {solute }}}{n_{\\text {solvent }}}=\\frac{0.1}{0.9}\n$$ .......(3)\n<br/><br/>Given that the density of solution is $2 \\mathrm{~g} \\mathrm{~cm}^{-3}$, we have\n<br/><br/>$$\n\\begin{aligned}\n& W_{\\text {solution }} =\\text { density } \\times V_{\\text {solution }}=2 \\times V_{\\text {solution }} \\\\\\\\\n&  \\therefore W_{\\text {solute }}+W_{\\text {solvent }}  =2 \\times V_{\\text {solution }} .......(4)\n\\end{aligned}\n$$\n<br/><br/>We know that molality is given by\n<br/><br/>$$\nm=\\frac{n_{\\text {solute }} \\times 1000}{n_{\\text {solvent }} \\times W_{\\text {solvent }}}\n$$\n<br/><br/>Substituting from Eq. (3), we have\n<br/><br/>$$\nm=\\left(\\frac{0.1}{0.9}\\right) \\times \\frac{1000}{W_{\\text {solvent }}}\n$$ ......(5)\n<br/><br/>Molarity is given by\n<br/><br/>$$\nM=\\frac{n_{\\text {solute }} \\times 1000}{n_{\\text {solvent }} \\times V_{\\text {solution }}}\n$$\n<br/><br/>Substituting from Eq. (3), we have\n<br/><br/>$$\nM=\\left(\\frac{0.1}{0.9}\\right) \\times \\frac{1000}{V_{\\text {solution }}}\n$$ ..........(6)\n<br/><br/>Given that, Molarity $(M)=$ Molality $(m)$; \n<br/><br/>Therefore, from Eqs. (5) and (6), we get\n<br/><br/>$$\n\\begin{aligned}\n& \\frac{0.1 \\times 1000}{0.9 \\times W_{\\text {solvent }}}  =\\frac{0.1 \\times 1000}{0.9 \\times V_{\\text {solution }}} \\\\\\\\\n& W_{\\text {solvent }}  =V_{\\text {solution }}\n\\end{aligned}\n$$\n<br/><br/>From Eq. (4), we have\n<br/><br/>$$\n\\begin{aligned}\nW_{\\text {solvent }} & =\\frac{W_{\\text {solute }}+W_{\\text {solvent }}}{2} \\\\\\\\\n2 W_{\\text {solvent }} & =W_{\\text {solute }}+W_{\\text {solvent }} \\\\\\\\\nW_{\\text {solvent }} & =W_{\\text {solute }} .........(7)\n\\end{aligned}\n$$\n\n<br/><br/>\nThe molecular weight (MW) of the solute can be calculated by dividing the weight of the solute by the number of moles of solute. This can be written as :\n<br/><br/>$$\nMW_{\\text{solute}} = \\frac{W_{\\text{solute}}}{n_{\\text{solute}}}\n$$\n\n<br/><br/>2. Similarly, the molecular weight (MW) of the solvent can be calculated by dividing the weight of the solvent by the number of moles of solvent. This can be written as :\n<br/><br/>$$\nMW_{\\text{solvent}} = \\frac{W_{\\text{solvent}}}{n_{\\text{solvent}}}\n$$\n<br/><br/>In these formulas, $MW_{\\text{solute}}$ and $MW_{\\text{solvent}}$ represent the molecular weights of the solute and solvent respectively, $W_{\\text{solute}}$ and $W_{\\text{solvent}}$ represent their weights, and $n_{\\text{solute}}$ and $n_{\\text{solvent}}$ represent the number of moles of solute and solvent respectively.\n<br/><br/>From Eq. (3), we have\n<br/><br/>$$\n\\frac{n_{\\text {solute }}}{n_{\\text {solvent }}}=\\frac{W_{\\text {solute }} / M W_{\\text {solute }}}{W_{\\text {solvent }} / M W_{\\text {solvent }}}=\\frac{0.1}{0.9}\n$$\n<br/><br/>Using Eq. (7), we get\n<br/><br/>$$\n\\frac{M W_{\\text {solute }}}{M W_{\\text {solvent }}}=9\n$$"
+        },
+        "hi": {
+          "content": "एक विलयन में विलेय का मोल अंश 0.1 है। 298 K पर, इस विलयन की मोलरता उसकी मोललता के समान है। इस विलयन का घनत्व 298 K पर 2.0 ग्राम सेमी<sup>–3</sup> है। विलेय और विलायक के अणु भारों का अनुपात, $$\\left( {{{M{W_{solute}}} \\over {M{W_{solvent}}}}} \\right)$$, क्या है",
+          "options": [],
+          "correct_options": [],
+          "answer": "9",
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-mole-fraction-of-a-solute-in-a-solution-is-01-at-298-k-2016-marks-3-zpwknstrexhakcv8.htm",
+      "timeAllotted": 200000,
+      "topic": "raoults-law",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2016-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The mole fraction of a solute in a solution is 0.1. At 298 K, molarity of this solution is the same as its\nmolality. Density of this solution at 298 K is 2.0 g cm–3 . The ratio of the molecular weights of the solute and solvent, $$\\left( {{..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2016 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "एक विलयन में विलेय का मोल अंश 0.1 है। 298 K पर, इस विलयन की मोलरता उसकी मोललता के समान है। इस विलयन का घनत्व 298 K पर 2.0 ग्राम सेमी–3 है। विलेय और विलायक के अणु भारों का अनुपात, $$\\left( {{{M{W_{solute}}} \\over {M{W_{solvent}}}}} \\right)$$..."
+        }
+      },
+      "yearKey": "jee-advanced-2016-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "j3ixmkjs7x6zx8i596vb",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If the freezing point of a 0.01 molal aqueous solution of a cobalt (III) chloride-ammonia complex(which\nbehaves as a strong electrolyte) is – 0.0558<sup>o</sup>C, the number of chloride(s) in the coordination sphere of the\ncomplex is [K<sub>f</sub> of water = 1.86 K kg mol<sup>–1</sup> ]",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "<p>The depression in freezing point is given by</p>\n<p>$$\\Delta$$T<sub>f</sub> = K<sub>f</sub> $$\\times$$ m $$\\times$$ i</p>\n<p>0.0558 = 1.86 $$\\times$$ 0.01 $$\\times$$ i</p>\n<p>i = 3</p>\n<p>Therefore, one mole of complex gives three moles of ions in solution.</p>\n<p>Hence, the complex is [Co(NH<sub>3</sub>)<sub>5</sub>Cl]Cl<sub>2</sub> and the number of Cl<sup>$$-$$</sup> ions inside the coordination sphere is 1.</p>"
+        }
+      },
+      "permalink": "if-the-freezing-point-of-a-001-molal-aqueous-solution-of-a-2015-marks-3-fd7jwswdjlzbrwlw.htm",
+      "timeAllotted": 180000,
+      "topic": "depression-in-freezing-point",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "If the freezing point of a 0.01 molal aqueous solution of a cobalt (III) chloride-ammonia complex(which\nbehaves as a strong electrolyte) is – 0.0558oC, the number of chloride(s) in the coordination sphere of the\ncomplex is [Kf of water = 1...."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "nlspwhp8vvkhjedkv5lh",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "MX<sub>2</sub> dissociates in M<sup>2+</sup> and X<sup>-</sup> ions in an aqueous solution, with a degree of dissociation ($$\\alpha$$) of 0.5. The\nratio of the observed depression of freezing point of the aqueous solution to the value of the depression of\nfreezing point in the absence of ionic dissociation is ",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>The depression of freezing point is an important colligative property, which is influenced by the number of solute particles in a solution. When a solute dissociates or ionizes in a solution, it increases the number of particles in the solution, thereby affecting colligative properties such as the depression of freezing point. The degree of dissociation ($$\\alpha$$) gives us a measure of the extent to which a compound dissociates into its ions. For our case, MX<sub>2</sub> dissociates into one M<sup>2+</sup> ion and two X<sup>-</sup> ions.</p>\n\n<p>Let's initially consider 1 mole of MX<sub>2</sub> is present. Since the degree of dissociation ($$\\alpha$$) is 0.5, this means half of the MX<sub>2</sub> dissociates into its ions, and half remains undissociated.</p>\n\n<p>For the dissociation reaction:</p>\n\n<p>$$\\text{MX}_{2} \\rightarrow \\text{M}^{2+} + 2\\text{X}^{-}$$</p>\n\n<p>If the initial amount of MX<sub>2</sub> is 1 mole, then:</p>\n\n<ul>\n\n<li>The amount of MX<sub>2</sub> that dissociates = $$\\alpha = 0.5$$ moles</li>\n\n<li>The amount of M<sup>2+</sup> formed = $$\\alpha = 0.5$$ moles (since for every mole of MX<sub>2</sub> that dissociates, 1 mole of M<sup>2+</sup> is formed)</li>\n\n<li>The amount of X<sup>-</sup> formed = $$2\\alpha = 2 \\times 0.5 = 1$$ mole (since for every mole of MX<sub>2</sub> that dissociates, 2 moles of X<sup>-</sup> are formed)</li>\n\n</ul>\n\n<p>The Van't Hoff factor (i) quantifies the effect of solute particles on the colligative properties of a solution. It is defined as the ratio of the actual number of particles in solution after dissociation to the number of formula units initially dissolved in the solvent.</p>\n\n<p>$$i = \\frac{\\text{Total number of particles after dissociation}}{\\text{Number of moles of solute originally dissolved}}$$</p>\n\n<p>Considering the dissociation and the amounts calculated:</p>\n\n<ul>\n\n<li>Total number of particles after dissociation = (undissociated MX<sub>2</sub>) + (M<sup>2+</sup>) + (X<sup>-</sup>) = $$(1 - \\alpha) + \\alpha + 2\\alpha$$\n\n<li>Putting the value of $$\\alpha = 0.5$$, we get:\n\n<p>$$i = \\frac{(1 - 0.5) + 0.5 + 2(0.5)}{1} = \\frac{1 + 1}{1} = 2$$</li></p>\n\n</ul>\n\n<p>Now, the depression in freezing point ($$\\Delta T_f$$) is directly proportional to the molal concentration of the solute particles and Van't Hoff factor (i):</p>\n\n<p>$$\\Delta T_f = i \\cdot K_f \\cdot m$$</p>\n\n<p>Where $$K_f$$ is the cryoscopic constant and $$m$$ is the molality of the solution.</p>\n\n<p>Without ionic dissociation, the value of $$i$$ would have been 1 (since the solute would not have dissociated into multiple particles). However, due to the dissociation, the value of $$i$$ has increased to 2. The ratio of the observed depression of freezing point of the aqueous solution to the value of the depression of freezing point in the absence of ionic dissociation, therefore, would be directly equal to the ratio of the Van't Hoff factors:</p>\n\n<p>$$\\frac{\\text{Observed } \\Delta T_f}{\\text{In the absence of ionic dissociation}} = \\frac{2 \\cdot K_f \\cdot m}{1 \\cdot K_f \\cdot m} = \\frac{2}{1} = 2$$</p>\n\n<p>This ratio shows that due to the ionic dissociation of MX<sub>2</sub> into M<sup>2+</sup> and X<sup>-</sup> ions with a degree of dissociation ($$\\alpha$$) of 0.5, the observed depression in freezing point is twice the value it would have been in the absence of ionic dissociation.</p>"
+        }
+      },
+      "permalink": "mx-2-dissociates-in-m2-and-x-ions-in-an-aqueous-solution-2014-marks-3-hp2wragk1xov4xxk.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "topic": "abnormal-colligative-property-and-vant-hoff-factor",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "MX2 dissociates in M2+ and X- ions in an aqueous solution, with a degree of dissociation ($$\\alpha$$) of 0.5. The\nratio of the observed depression of freezing point of the aqueous solution to the value of the depression of\nfreezing point in..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "wnhoponbrj6bif3uoulc",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2012,
+      "paperTitle": "IIT-JEE 2012 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "For a dilute solution containing 2.5 g of a non-volatile non-electrolyte solute in 100 g of water. the elevation in boiling point at 1 atm pressure is 2<sup>o</sup>C. Assuming concentration of solute is much lower than the concentration of solvent, the vapour pressure (mm of Hg) of the solution is (take K<sub>b</sub> = 0.76 K Kg mol<sup>-1</sup>)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "724"
+            },
+            {
+              "identifier": "B",
+              "content": "780"
+            },
+            {
+              "identifier": "C",
+              "content": "736"
+            },
+            {
+              "identifier": "D",
+              "content": "718"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Using the boiling point elevation formula:</p>\n<p>$$ \\Delta T_b = K_b \\cdot m $$,</p>\n<p>where:</p>\n\n<p><p>$ \\Delta T_b $ is the elevation in boiling point,</p></p>\n<p><p>$ K_b $ is the ebullioscopic constant,</p></p>\n<p><p>$ m $ is the molality.</p></p>\n\n<p>Given:</p>\n\n<p><p>$ K_b = 0.76 \\, \\text{K} \\, \\text{kg} \\, \\text{mol}^{-1} $,</p></p>\n<p><p>$ \\Delta T_b = 2^\\circ\\text{C} $,</p></p>\n<p><p>mass of solute $ = 2.5 \\, \\text{g} $,</p></p>\n<p><p>mass of solvent (water) $ = 100 \\, \\text{g} = 0.1 \\, \\text{kg} $.</p></p>\n\n<p>First, find the molality $ m $:</p>\n<p>$$ m = \\frac{\\Delta T_b}{K_b} = \\frac{2}{0.76} = \\frac{200}{76} \\approx 2.63 \\, \\text{mol} \\, \\text{kg}^{-1} $$.</p>\n<p>Now calculate the moles of solute:</p>\n<p>Given the molality $ m $,</p>\n<p>$$ m = \\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}} $$.</p>\n<p>Thus,</p>\n<p>$$ \\text{moles of solute} = m \\times \\text{mass of solvent in kg} = 2.63 \\times 0.1 = 0.263 \\, \\text{mol} $$.</p>\n<p>Next, determine the molecular weight $ M $ of the solute:</p>\n<p>$$ M = \\frac{\\text{mass of solute}}{\\text{moles of solute}} = \\frac{2.5 \\, \\text{g}}{0.263 \\, \\text{mol}} \\approx 9.51 \\, \\text{g/mol} $$.</p>\n<p>Using Raoult's Law for the vapour pressure of the solution:</p>\n<p>$$ P_{\\text{solution}} = P_0 \\cdot (1 - \\chi_{\\text{solute}}) $$,</p>\n<p>where:</p>\n\n<p><p>$ P_0 $ is the vapour pressure of pure solvent,</p></p>\n<p><p>$ \\chi_{\\text{solute}} $ is the mole fraction of the solute.</p></p>\n\n<p>Approximate the mole fraction of the solute:</p>\n<p>$$ \\chi_{\\text{solute}} = \\frac{\\text{moles of solute}}{\\nu_{\\text{solvent}} + \\nu_{\\text{solute}}} \\approx \\frac{0.263}{5.55 + 0.263} \\approx \\frac{0.263}{5.813} \\approx 0.0452 $$,</p>\n<p>where $\\nu_{\\text{solvent}}$ are the moles of water (approximately 5.55 mol for 100 g of water).</p>\n<p>Therefore, the vapour pressure of the solution:</p>\n<p>$$ P_{\\text{solution}} = 760 \\times (1 - 0.0452) \\approx 760 \\times 0.9548 \\approx 724 \\, \\text{mm Hg} $$.</p>\n<p>Thus, the vapour pressure of the solution is 724 mm of Hg, corresponding to Option A.</p>"
+        }
+      },
+      "permalink": "for-a-dilute-solution-containing-25-g-of-a-non-volatile-non-2012-marks-3-sip2cw77zeg2opbw.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2012-paper-2-offline",
+      "topic": "elevation-in-boiling-point",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "For a dilute solution containing 2.5 g of a non-volatile non-electrolyte solute in 100 g of water. the elevation in boiling point at 1 atm pressure is 2oC. Assuming concentration of solute is much lower than the concentration of solvent, th..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "mqi372ez7d8ovz76r8u0",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The freezing point (in <sup>o</sup>C) of a solution containing 0.1 g of K<sub>3</sub>[Fe(CN)<sub>6</sub>] (Mol. wt. 329) in 100 g of water (K<sub>f</sub> = 1.86 K kg mol<sup>-1</sup>) is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "-2.3 $$\\times$$ 10<sup>-2</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "-5.7 $$\\times$$ 10<sup>-2</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "-5.7 $$\\times$$ 10<sup>-3</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "-1.2 $$\\times$$ 10<sup>-2</sup>"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>To find the freezing point of the solution, we will use the formula for freezing point depression, which is given by:</p>\n\n<p>$$ \\Delta T_f = i \\cdot K_f \\cdot m $$</p>\n\n<p>where:</p>\n\n<ul>\n<li>$$ \\Delta T_f $$ is the freezing point depression.</li><br>\n<li>$$ i $$ is the van't Hoff factor (number of particles the solute splits into or forms in solution).</li><br>\n<li>$$ K_f $$ is the cryoscopic constant (freezing point depression constant), for water it's 1.86 K kg mol<sup>-1</sup>.</li><br>\n<li>$$ m $$ is the molality of the solution.</li>\n</ul>\n<p>Given:</p>\n\n<ul>\n<li>Solute is $$ K_3[Fe(CN)_6] $$, and molecular weight (M) = 329 g/mol.</li><br>\n<li>Mass of solute = 0.1 g.</li><br>\n<li>Mass of solvent (water) = 100 g.</li>\n</ul>\n<p>First, we calculate the molality $$ m $$ of the solution:</p>\n\n<p>$$ m = \\frac{{\\text{Moles of solute}}}{{\\text{Kilograms of solvent}}} $$</p>\n\n<p>Moles of solute:</p>\n\n<p>$$ \\text{Moles of solute} = \\frac{{\\text{Mass of solute}}}{{\\text{Molecular weight}}} = \\frac{0.1}{329} \\text{mol} $$</p>\n\n<p>$$ \\text{Moles of solute} = 3.04 \\times 10^{-4} \\text{ mol} $$</p>\n\n<p>Kilograms of solvent:</p>\n\n<p>$$ \\text{Kilograms of solvent} = 100 \\text{ g} = 0.1 \\text{ kg} $$</p>\n\n<p>Now molality:</p>\n\n<p>$$ m = \\frac{3.04 \\times 10^{-4} \\text{ mol}}{0.1 \\text{ kg}} = 0.00304 \\text{ mol/kg} $$</p>\n\n<p>Next, calculate the van't Hoff factor $$ i $$:</p>\n\n<ul>\n<li>The solute $$ K_3[Fe(CN)_6] $$ disassociates into 4 ions: 3 $$ K^+ $$ and 1 $$ [Fe(CN)_6]^{3-} $$. Therefore, $$ i = 4 $$.</li>\n</ul>\n<p>Substituting these into the freezing point depression formula:</p>\n\n<p>$$ \\Delta T_f = i \\cdot K_f \\cdot m = 4 \\cdot 1.86 \\cdot 0.00304 $$</p>\n\n<p>$$ \\Delta T_f = 0.02259 \\text{ K} $$</p>\n\n<p>Convert to degrees Celsius and remember that this will lower the freezing point, so it should be negative (since the freezing point depression means the solution freezes at a lower temperature than pure solvent):</p>\n\n<p>$$ \\Delta T_f = -0.02259 \\text{ °C} $$</p>\n\n<p>So, $$ \\Delta T_f = -2.259 \\times 10^{-2} \\text{ °C} $$</p>\n\n<p>From the given options, the closest to this calculated value of $$ \\Delta T_f $$ is:</p>\n\n<p>Option A: -2.3 $$\\times$$ 10<sup>-2</sup><sup>o</sup>C. Hence, Option A is the correct answer.</p>"
+        }
+      },
+      "permalink": "the-freezing-point-in-oc-of-a-solution-containing-01-g-of-2011-marks-3-r3fm5smictcg6ziu.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "topic": "abnormal-colligative-property-and-vant-hoff-factor",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The freezing point (in oC) of a solution containing 0.1 g of K3[Fe(CN)6] (Mol. wt. 329) in 100 g of water (Kf = 1.86 K kg mol-1) is"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "mia5p168bwrctayu4nvh",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pthe-henrys-law-constant-for-the-solubility-of-n2-ga-jee-advanced-chemistry-some-basic-concepts-of-chemistry-nuawrtrd7zc0zb2v",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The Henry's law constant for the solubility of N$$_2$$ gas in water at 298 K is 1.0 $$\\times$$ 10$$^5$$ atm. The mole fraction of N$$_2$$ in air is 0.8. The number of moles of N$$_2$$ from air dissolved in 10 moles of water at 298 K and 5 atm pressure is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "4.0 $$\\times$$ 10$$^{-4}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "4.0 $$\\times$$ 10$$^{-5}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "5.0 $$\\times$$ 10$$^{-4}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "4.0 $$\\times$$ 10$$^{-6}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>According to Henry's law, we have</p>\n<p>$${p_{{N_2}}} = {K_H}{x_{{N_2}}}$$</p>\n<p>$$0.8 \\times 5 = 1 \\times {10^5} \\times {x_{{N_2}}}$$</p>\n<p>$${x_{{N_2}}} = 4 \\times {10^{ - 5}}$$</p>\n<p>Thus one mole of solution contains $$4 \\times {10^{ - 5}}$$ moles of N$$_2$$ and $$1 - 4 \\times {10^{ - 5}} \\approx 1$$ mole of water. Therefore, N$$_2$$ from air dissolved in 10 moles of water is $$10 \\times 4 \\times {10^{ - 5}}$$ moles $$ = 4 \\times {10^{ - 4}}$$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "raoults-law",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The Henry's law constant for the solubility of N$$_2$$ gas in water at 298 K is 1.0 $$\\times$$ 10$$^5$$ atm. The mole fraction of N$$_2$$ in air is 0.8. The number of moles of N$$_2$$ from air dissolved in 10 moles of water at 298 K and 5 a..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "mc5qo2fnne47pvuaojd4",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pthe-freezing-point-of-the-solution-m-isp-jee-advanced-chemistry-some-basic-concepts-of-chemistry-dv8r1s2axv3szsgz",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The freezing point of the solution M is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "268.7 K"
+            },
+            {
+              "identifier": "B",
+              "content": "268.5 K"
+            },
+            {
+              "identifier": "C",
+              "content": "234.2 K"
+            },
+            {
+              "identifier": "D",
+              "content": "150.9 K"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>For solution M, water is solute and ethanol is solvent.</p>\n<p>$$\\because$$ $$\\Delta {T_f} = {({K_f})_{ethanol}} \\times m$$</p>\n<p>$$2 \\times {{0.1} \\over {0.9 \\times {{46} \\over {1000}}}} = {{2000} \\over {9 \\times 46}} = 4.8$$</p>\n<p>$$\\therefore$$ $${T_f} = T_f^0 - \\Delta {T_f} = 155.7 - 4.8 = 150.9\\,K$$</p>",
+          "comprehension": "<p>Properties such as boiling point, freezing point and vapour pressure of a pure solvent change when solute molecules are added to get homogeneous solution. These are called colligative properties. Applications of colligative properties are very useful in day-to-day life. One of its examples is the use of ethylene glycol and water mixture as anti-freezing liquid in the radiator of automobiles.</p>\n<p>A solution M is prepared by mixing ethanol and water. The mole fraction of ethanol in the mixture is 0.9.</p>\n<p>Given:</p>\n<p>Freezing point depression constant of water $$\\left( {K_f^{water}} \\right) = 1.86$$ K kg mol$$^{-1}$$</p>\n<p>Freezing point depression constant of ethanol $$\\left( {K_f^{ethanol}} \\right) = 2.0$$ K kg mol$$^{-1}$$</p>\n<p>Boiling point elevation constant of water $$\\left( {K_b^{water}} \\right) = 0.52$$ K kg mol$$^{-1}$$</p>\n<p>Boiling point elevation constant of ethanol $$\\left( {K_b^{ethanol}} \\right) = 1.2$$ K kg mol$$^{-1}$$</p>\n<p>Standard freezing point of water = 273 K</p>\n<p>Standard freezing point of ethanol = 155.7 K</p>\n<p>Standard boiling point of water = 373 K</p>\n<p>Standard boiling point of ethanol = 351.5 K</p>\n<p>Vapour pressure of pure water = 32.8 mm Hg</p>\n<p>Vapour pressure of pure water = 40 mm Hg</p>\n<p>Molecular weight of water = 18 g mol$$^{-1}$$</p>\n<p>Molecular weight of ethanol = 46 g mol$$^{-1}$$</p>\n<p>In answering the following questions, consider the solutions to be ideal dilute solutions and solutes to be non-volatile and non-dissociative.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "depression-in-freezing-point",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The freezing point of the solution M is :"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "2fmbi2btc0dnpelvt6yd",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pthe-vapour-pressure-of-the-solution-m-is-p-jee-advanced-chemistry-some-basic-concepts-of-chemistry-jcvotgvtfnt26dmo",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The vapour pressure of the solution M is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "39.3 mm Hg"
+            },
+            {
+              "identifier": "B",
+              "content": "36.0 mm Hg"
+            },
+            {
+              "identifier": "C",
+              "content": "29.5 mm Hg"
+            },
+            {
+              "identifier": "D",
+              "content": "28.8 mm Hg"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Total vapour pressure $$P = P_A^0{x_A}$$</p>\n<p>[$$\\because$$ Solute is to be taken as non-volatile] $$ = 40 \\times 0.9 = 36$$ mm Hg</p>",
+          "comprehension": "<p>Properties such as boiling point, freezing point and vapour pressure of a pure solvent change when solute molecules are added to get homogeneous solution. These are called colligative properties. Applications of colligative properties are very useful in day-to-day life. One of its examples is the use of ethylene glycol and water mixture as anti-freezing liquid in the radiator of automobiles.</p>\n<p>A solution M is prepared by mixing ethanol and water. The mole fraction of ethanol in the mixture is 0.9.</p>\n<p>Given:</p>\n<p>Freezing point depression constant of water $$\\left( {K_f^{water}} \\right) = 1.86$$ K kg mol$$^{-1}$$</p>\n<p>Freezing point depression constant of ethanol $$\\left( {K_f^{ethanol}} \\right) = 2.0$$ K kg mol$$^{-1}$$</p>\n<p>Boiling point elevation constant of water $$\\left( {K_b^{water}} \\right) = 0.52$$ K kg mol$$^{-1}$$</p>\n<p>Boiling point elevation constant of ethanol $$\\left( {K_b^{ethanol}} \\right) = 1.2$$ K kg mol$$^{-1}$$</p>\n<p>Standard freezing point of water = 273 K</p>\n<p>Standard freezing point of ethanol = 155.7 K</p>\n<p>Standard boiling point of water = 373 K</p>\n<p>Standard boiling point of ethanol = 351.5 K</p>\n<p>Vapour pressure of pure water = 32.8 mm Hg</p>\n<p>Vapour pressure of pure ethanol = 40 mm Hg</p>\n<p>Molecular weight of water = 18 g mol$$^{-1}$$</p>\n<p>Molecular weight of ethanol = 46 g mol$$^{-1}$$</p>\n<p>In answering the following questions, consider the solutions to be ideal dilute solutions and solutes to be non-volatile and non-dissociative.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The vapour pressure of the solution M is :"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "ku3ithraobgyucsloyko",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pwater-is-added-to-the-solution-m-such-that-the-fraction-o-jee-advanced-chemistry-some-basic-concepts-of-chemistry-oiuakvp6kfl5twsv",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Water is added to the solution M such that the fraction of water in the solution becomes 0.9 mole. The boiling point of this solution is:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "380.4 K"
+            },
+            {
+              "identifier": "B",
+              "content": "376.2 K"
+            },
+            {
+              "identifier": "C",
+              "content": "375.5 K"
+            },
+            {
+              "identifier": "D",
+              "content": "354.7 K"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\matrix{\n   {\\mathop {{x_{ethanol}} = 0.1}\\limits_{(\\mathrm{Solute \\equiv B})} } & : & {\\mathop {{x_{water}} = 0.9}\\limits_{(\\mathrm{Solvent \\equiv A})} }  \\cr \n\n } $$</p>\n<p>$$\\Delta {T_b} = {K_b}\\,.\\,m = {K_b}\\,.\\,{{{x_B}} \\over {1 - {x_B}}} \\times {{1000} \\over {{M_{{w_A}}}}}$$</p>\n<p>$$ = 0.52 \\times {{0.1} \\over {0.9}} \\times {{1000} \\over {18}} = 3.2\\,K$$</p>\n<p>$${T_b} = T_b^0 + \\Delta {T_b} = 373 + 3.2 = 376.2\\,K$$</p>",
+          "comprehension": "<p>Properties such as boiling point, freezing point and vapour pressure of a pure solvent change when solute molecules are added to get homogeneous solution. These are called colligative properties. Applications of colligative properties are very useful in day-to-day life. One of its examples is the use of ethylene glycol and water mixture as anti-freezing liquid in the radiator of automobiles.</p>\n<p>A solution M is prepared by mixing ethanol and water. The mole fraction of ethanol in the mixture is 0.9.</p>\n<p>Given:</p>\n<p>Freezing point depression constant of water $$\\left( {K_f^{water}} \\right) = 1.86$$ K kg mol$$^{-1}$$</p>\n<p>Freezing point depression constant of ethanol $$\\left( {K_f^{ethanol}} \\right) = 2.0$$ K kg mol$$^{-1}$$</p>\n<p>Boiling point elevation constant of water $$\\left( {K_b^{water}} \\right) = 0.52$$ K kg mol$$^{-1}$$</p>\n<p>Boiling point elevation constant of ethanol $$\\left( {K_b^{ethanol}} \\right) = 1.2$$ K kg mol$$^{-1}$$</p>\n<p>Standard freezing point of water = 273 K</p>\n<p>Standard freezing point of ethanol = 155.7 K</p>\n<p>Standard boiling point of water = 373 K</p>\n<p>Standard boiling point of ethanol = 351.5 K</p>\n<p>Vapour pressure of pure water = 32.8 mm Hg</p>\n<p>Vapour pressure of pure water = 40 mm Hg</p>\n<p>Molecular weight of water = 18 g mol$$^{-1}$$</p>\n<p>Molecular weight of ethanol = 46 g mol$$^{-1}$$</p>\n<p>In answering the following questions, consider the solutions to be ideal dilute solutions and solutes to be non-volatile and non-dissociative.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "elevation-in-boiling-point",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "Water is added to the solution M such that the fraction of water in the solution becomes 0.9 mole. The boiling point of this solution is:"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "nmr0x1s2pwxu59xxyjv3",
+      "chapter": "solutions",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pwhen-20-g-of-naphthoic-acid-c11h8o2-jee-advanced-chemistry-some-basic-concepts-of-chemistry-t8s7m74qduvvjoov",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>When 20 g of naphthoic acid (C$$_{11}$$H$$_{8}$$O$$_{2}$$) is dissolved in 50 g of benzene in 50 g of benzene (K$$_f$$ = 1.72 K kg mol$$^{-1}$$), a freezing point depression of 2 K is observed. The van't Hoff factor (i) is :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.5"
+            },
+            {
+              "identifier": "B",
+              "content": "1"
+            },
+            {
+              "identifier": "C",
+              "content": "2"
+            },
+            {
+              "identifier": "D",
+              "content": "3"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p><b>Step 1: Formula for Van't Hoff Factor</b></p>\n<p>The Van't Hoff factor ($$i$$) tells us how particles behave in a solution. We can find it using this formula: $$i = \\frac{\\text{Actual molecular weight}}{\\text{Calculated molecular weight}}$$.</p>\n<p><b>Step 2: Find Actual Molecular Weight</b></p>\n<p>The real molecular weight of naphthoic acid (C$$_{11}$$H$$_{8}$$O$$_{2}$$) is 172 g/mol.</p>\n<p><b>Step 3: Find Calculated Molecular Weight</b></p>\n<p>We use the formula:<br>\n\n$$\\text{Calculated molecular weight} = \\frac{1000 \\times w \\times K_f}{W \\times \\Delta T_f}$$</p>\n<p>Here,</p>\n<p>$$\\Delta T_f$$ = Drop in freezing point = 2 K</p>\n<p>$$K_f$$ = Freezing point constant = 1.72 K kg mol$$^{-1}$$</p>\n<p>$$w$$ = Mass of naphthoic acid used = 20 g</p>\n<p>$$W$$ = Mass of benzene (solvent) = 50 g</p>\n<p>Put the values in:</p>\n<p>\n\n$$=\\frac{1000 \\times 1.72 \\times 20}{50 \\times 2} = 344$$ g/mol\n\n</p>\n<p>The calculated molecular weight is 344 g/mol.</p>\n<p><b>Step 4: Calculate Van't Hoff Factor</b></p>\n<p>Now, use the formula from Step 1:</p>\n<p>\n\n$$i = \\frac{\\text{Actual molecular weight}}{\\text{Calculated molecular weight}}$$\n\n</p>\n<p>\n\n$$i = \\frac{172}{344} = 0.5$$\n\n</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "abnormal-colligative-property-and-vant-hoff-factor",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "When 20 g of naphthoic acid (C$$_{11}$$H$$_{8}$$O$$_{2}$$) is dissolved in 50 g of benzene in 50 g of benzene (K$$_f$$ = 1.72 K kg mol$$^{-1}$$), a freezing point depression of 2 K is observed. The van't Hoff factor (i) is :"
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "e3fb9vun7euj9fipcl17",
+      "exam": "jee-advanced",
+      "marks": 6,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2006,
+      "paperTitle": "IIT-JEE 2006",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "75.2 g of C<sub>6</sub>H<sub>5</sub>OH (phenol) is dissolved in a solvent of K<sub>f</sub> = 14. If the depression in freezing point is 7 K then find the % of phenol that dimerises.",
+          "options": [],
+          "correct_options": [],
+          "answer": "75",
+          "explanation": "<p><b>Step 1: Calculate moles of phenol.</b> <br/> The number of moles of phenol is $${{75.2} \\over {94}} = 0.8$$ mol. <br/> <i>(Here, the molar mass of phenol is 94 g/mol, and 75.2 g is dissolved.)</i></p>\n<p><b>Step 2: Find the molality of the solution.</b> <br/> Molality (m) = $${{0.8} \\over {1}} = 0.8$$ mol/kg. <br/> <i>(Because 0.8 mol phenol is dissolved in 1 kg of solvent.)</i></p>\n<p><b>Step 3: Use the formula for depression in freezing point.</b> <br/> We know $$\\Delta T_f = k_f \\times m$$ <br/> <i>Given: $$k_f = 14$$, so substitute the values.</i></p>\n<p>$$\\Delta T_f = 14 \\times 0.8 = 11.2~\\mathrm{K}$$ <br/> <i>This is the calculated value if no dimerization happened.</i></p>\n<p><b>Step 4: Compare with the experimental value.</b> <br/> The actual (experimental) depression in freezing point is 7 K, which is less than 11.2 K.</p>\n<p><b>Step 5: Find the van't Hoff factor (i).</b> <br/> $$i = {7 \\over 11.2} = 0.625$$ <br/> <i>(This value is less than 1. It shows association, not dissociation.)</i></p>\n<p><b>Step 6: Find degree of association (α).</b> <br/> The formula is: $$\\alpha = {{i - 1} \\over {{1 \\over n} - 1}}$$ <br/> where n = number of molecules coming together. For dimerization, n = 2.</p>\n<p>Substitute values: $$\\alpha = {{0.625 - 1} \\over {{1 \\over 2} - 1}} = {{-0.375} \\over {-0.5}} = 0.75$$</p>\n<p><b>Step 7: Calculate the percent dimerization.</b> <br/> The percentage is $$0.75 \\times 100 = 75\\%$$.</p>\n<p><b>Answer:</b> 75% of the phenol molecules dimerize in the solution.</p>"
+        }
+      },
+      "permalink": "752-g-of-c6h5oh-phenol-is-dissolved-in-a-solvent-of-kf-2006-marks-6-zlq3qbjfsr0a4zpc.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2006",
+      "topic": "depression-in-freezing-point",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "75.2 g of C6H5OH (phenol) is dissolved in a solvent of Kf = 14. If the depression in freezing point is 7 K then find the % of phenol that dimerises."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "bfa0gkpeux8cb7cxuj3s",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The elevation in boiling point of a solution of 13.44 g of CuCl<sub>2</sub> in 1kg of water using the following information will be (Molecular weight of CuCl<sub>2</sub> = 134.4 and K<sub>b</sub> = 0.52 K molal<sup>-1</sup>) ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.16"
+            },
+            {
+              "identifier": "B",
+              "content": "0.05"
+            },
+            {
+              "identifier": "C",
+              "content": "0.1"
+            },
+            {
+              "identifier": "D",
+              "content": "0.2"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>We know, for ionic compounds, elevation in boiling point $$\\Delta$$T<sub>b</sub> = k<sub>b</sub> $$\\times$$ molality (m) $$\\times$$ i</p>\n<p>Given, k<sub>b</sub> = 0.52 K molal<sup>$$-$$1</sup></p>\n<p>Now, molality (m) = $${{mass\\,of\\,solute \\div molar\\,mass} \\over {mass\\,of\\,solvent}} \\times 1000$$</p>\n<p>or, $$m = {{13.44/134.4} \\over {1000}} \\times 1000 = 0.1$$ mol kg<sup>$$-$$1</sup></p>\n<p>We know, $$\\alpha  = {{i - 1} \\over {n - 1}}$$</p>\n<p>Now, 1 molecule of CuCl<sub>2</sub> on dissociation in solution produces 3 ions</p>\n<p>CuCl<sub>2</sub>(aq) $$\\to$$ Cu<sup>2+</sup>(aq) + 2Cl<sup>$$-$$</sup>(aq)</p>\n<p>Hence, n = 3</p>\n<p>If it is assumed that CuCl<sub>2</sub> undergoes complete dissociation in solution, then $$\\alpha$$ = 1</p>\n<p>$$\\therefore$$ $$1 = {{i - 1} \\over {3 - 1}}$$ or, i = 3</p>\n<p>For a solution of an electrolyte, $$\\Delta$$T<sub>b</sub> = i $$\\times$$ k<sub>b</sub> $$\\times$$ m</p>\n<p>$$\\therefore$$ $$\\Delta$$T<sub>b</sub> = 3 $$\\times$$ 0.52 $$\\times$$ 0.1 = 0.156 K</p>\n<p>$$\\therefore$$ Elevation of boiling point of the solution = 0.156 K</p>"
+        }
+      },
+      "permalink": "the-elevation-in-boiling-point-of-a-solution-of-1344-g-of-c-2005-screening-marks-1-yqxnj22jucm12qsn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005-screening",
+      "topic": "elevation-in-boiling-point",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Screening",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The elevation in boiling point of a solution of 13.44 g of CuCl2 in 1kg of water using the following information will be (Molecular weight of CuCl2 = 134.4 and Kb = 0.52 K molal-1) "
+        }
+      },
+      "yearKey": "iit-jee-2005-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "rfytwrk6a8gn42w6g479",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "1.22 g of benzoic acid is dissolved in 100 g of acetone and 100 g of benzene separately. Boiling point of the solution in acetone increases by  0.17 <sup>o</sup>C, while that in the benzene increases by 0.13<sup>o</sup>C; K<sub>b</sub> for acetone and benzene is 1.7 K kg mol<sup>-1</sup> and 2.6 K kg mol<sup>-1</sup>. Find molecular weight of the benzoic acid in two cases and justify your answer.",
+          "options": [],
+          "correct_options": [],
+          "answer": "122, 224",
+          "explanation": "<p>(1) If molar mass of C<sub>6</sub>H<sub>5</sub>COOH is Mg mol<sup>$$-$$1</sup>, then no. of moles of dissolved C<sub>6</sub>H<sub>5</sub>COOH = $${{1.22} \\over M}$$ mol</p>\n<p>$$\\therefore$$ Molality (m) of the solution = $${{1.22} \\over M} \\times {{1000} \\over {100}} = {{12.2} \\over M}$$ mol kg<sup>$$-$$1</sup></p>\n<p>We know, $$\\Delta$$T<sub>b</sub> = k<sub>b</sub> $$\\times$$ m</p>\n<p>Given : $$\\Delta$$T<sub>b</sub> = 0.17 K and k<sub>b</sub> = 1.7 K kg mol<sup>$$-$$1</sup></p>\n<p>$$\\therefore$$ $$0.17 = 1.7 \\times {{12.2} \\over M}$$ or, M = 122</p>\n<p>$$\\therefore$$ Molecular mass of C<sub>6</sub>H<sub>5</sub>COOH is = 122</p>\n<p>(2) If molar mass of C<sub>6</sub>H<sub>5</sub>COOH is M', then no. of moles of dissolved C<sub>6</sub>H<sub>5</sub>COOH = $${{1.22} \\over {M'}}$$ mol</p>\n<p>Molality (m) of the solution = $${{1.22} \\over {M'}} \\times {{1000} \\over {100}} = {{12.2} \\over {M'}}$$ mol kg<sup>$$-$$1</sup></p>\n<p>We know, $$\\Delta$$T<sub>b</sub> = 0.13 K and k<sub>b</sub> = 2.6 K kg mol<sup>$$-$$1</sup></p>\n<p>$$\\therefore$$ $$0.13 = 2.6 \\times {{12.2} \\over {M'}}$$ or, M' = 244</p>\n<p>$$\\therefore$$ Molecular weight of C<sub>6</sub>H<sub>5</sub>COOH = 122</p>\n<p>Now, van't Hoff factor (i) = $${{Calculated\\,molecular\\,weight} \\over {Experimental\\,molecular\\,weight}} = {{122} \\over {244}} = {1 \\over 2}$$</p>\n<p>$$i = {1 \\over 2}$$ indicates that C<sub>6</sub>H<sub>5</sub>COOH undergoes complete dimerisation in benzene.</p>"
+        }
+      },
+      "permalink": "122-g-of-benzoic-acid-is-dissolved-in-100-g-of-acetone-and-2004-marks-2-trwl2qzft75iuywf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004",
+      "topic": "abnormal-colligative-property-and-vant-hoff-factor",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "1.22 g of benzoic acid is dissolved in 100 g of acetone and 100 g of benzene separately. Boiling point of the solution in acetone increases by  0.17 oC, while that in the benzene increases by 0.13oC; Kb for acetone and benzene is 1.7 K kg m..."
+        }
+      },
+      "yearKey": "iit-jee-2004"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "a1c2dpukprnsczohkop5",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "To 500 cm<sup>3</sup> of water, 3.0 $$\\times$$ 10<sup>-3</sup> kg of acetic acid is added. If 23% of acetic acid is dissociated, what will be the depression in freezing point? Kf and density of water are 1.86 K kg<sup>-1</sup> mol<sup>-1</sup> and 0.997 g cm<sup>-3</sup>, respectively",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.228 K",
+          "explanation": "<p>Mass of water = 500 $$\\times$$ 0.997 = 498.5 g and that of acetic acid = 3 $$\\times$$ 10<sup>$$-$$3</sup> kg = 3 g.</p>\n<p>No. of moles of acetic acid in solution = $${3 \\over {60}} = 0.05$$ mol [$$\\because$$ Molar mass of acetic acid = 60 g mol<sup>$$-$$1</sup>]</p>\n<p>Molality (m) of the solution = $${{0.05} \\over {498.5}} \\times 1000 = 0.1$$ mol kg<sup>$$-$$1</sup></p>\n<p>Given : $$\\alpha$$ = 0.23. Now, 1 molecule of CH<sub>3</sub>COOH on dissociation in aqueous solution produces 2 ions,</p>\n<p>CH<sub>3</sub>COOH(aq) $$\\to$$ CH<sub>3</sub>COO<sup>$$-$$</sup>(aq) + H<sup>+</sup>(aq)</p>\n<p>So, n = 2</p>\n<p>$$\\therefore$$ $$0.23 = {{i - 1} \\over {2 - 1}}$$ or, i = 1.23</p>\n<p>For a solution of an electrolyte, the freezing point depression of the solution is given by, $$\\Delta$$T<sub>f</sub> = i $$\\times$$ k<sub>f</sub> $$\\times$$ m</p>\n<p>$$\\therefore$$ $$\\Delta$$T<sub>f</sub> = 1.23 $$\\times$$ 1.86 $$\\times$$ 0.1 = 0.228 K</p>\n<p>Hence, freezing point depression of solution = 0.228 K</p>"
+        }
+      },
+      "permalink": "to-500-cm3-of-water-30-times-10-3-kg-of-acetic-acid-i-2000-marks-3-gs2h0anbirrenfc7.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000",
+      "topic": "abnormal-colligative-property-and-vant-hoff-factor",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "To 500 cm3 of water, 3.0 $$\\times$$ 10-3 kg of acetic acid is added. If 23% of acetic acid is dissociated, what will be the depression in freezing point? Kf and density of water are 1.86 K kg-1 mol-1 and 0.997 g cm-3, respectively"
+        }
+      },
+      "yearKey": "iit-jee-2000"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6ddn2cxb5vjdcw5bd4z7",
+      "exam": "jee-advanced",
+      "marks": 10,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Nitrobenzene is formed as the major product along with a minor product in the reaction of benzene with a hot mixture of nitric acid and sulphuric acid. The minor product consists of carbon : 42.86 %, hydrogen : 2.40%, nitrogen : 16.67% and oxygen : 38.07% (i) Calculate the empirical formula of the minor product. (ii) When 5.5 g of the minor product is dissolved in 45 g of benzene, the boiling point of the solution is 1.84 <sup>o</sup>C  higher than that of pure benzene. Calculate the molar mass of the minor product and determine its molecular and structural formula. (Molal boiling point elevation constant of benzene is 2.53 K kg mol<sup>-1</sup>)",
+          "options": [],
+          "correct_options": [],
+          "answer": "168 g, C<sub>6</sub>H<sub>4</sub>(NO<sub>2</sub>)<sub>2</sub>, m-dinitrobenzene",
+          "explanation": "<p>As given in the question,</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kzqobpet/f177709d-cb60-46b9-a342-254f1dfc094c/e817f950-8fc4-11ec-a8e5-7562cdcf8e10/file-1kzqobpeu.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kzqobpet/f177709d-cb60-46b9-a342-254f1dfc094c/e817f950-8fc4-11ec-a8e5-7562cdcf8e10/file-1kzqobpeu.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"IIT-JEE 1999 Chemistry - Solutions Question 28 English Explanation 1\"> </p>\n<p>Determination of empirical formula of A :</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n</p><table class=\"tg\" style=\"undefined;table-layout: fixed; width: 558px\">\n<colgroup>\n<col style=\"width: 119px\">\n<col style=\"width: 144px\">\n<col style=\"width: 120px\">\n<col style=\"width: 175px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\">Element with atomic number</th>\n    <th class=\"tg-7btt\">Percentage</th>\n    <th class=\"tg-7btt\">Relative Number</th>\n    <th class=\"tg-7btt\">Simplest ratio</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">C (12)</td>\n    <td class=\"tg-c3ow\">42.86</td>\n    <td class=\"tg-0pky\">$${{42.86} \\over {12}} = 3.57$$</td>\n    <td class=\"tg-0pky\">$${{3.57} \\over {1.19}} = 3.00$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">H (1)</td>\n    <td class=\"tg-c3ow\">2.40</td>\n    <td class=\"tg-0pky\">$${{2.40} \\over 1} = 2.40$$</td>\n    <td class=\"tg-0pky\">$${{2.40} \\over {1.19}} = 2.00$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">N (14)</td>\n    <td class=\"tg-c3ow\">16.67</td>\n    <td class=\"tg-0pky\">$${{16.67} \\over {14}} = 1.19$$</td>\n    <td class=\"tg-0pky\">$${{1.19} \\over {1.19}} = 1.00$$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">O (16)</td>\n    <td class=\"tg-c3ow\">38.07</td>\n    <td class=\"tg-0pky\">$${{38.07} \\over {16}} = 2.37$$</td>\n    <td class=\"tg-0pky\">$${{2.37} \\over {1.19}} = 2.00$$</td>\n  </tr>\n</tbody>\n</table><p></p>\n<p>$$\\therefore$$ Empirical formula of minor product (A) = C<sub>3</sub>H<sub>2</sub>NO<sub>2</sub></p>\n<p>Empirical formula mass = (12 $$\\times$$ 3) + (1 $$\\times$$ 2) + 14 $$\\times$$ (16 $$\\times$$ 2) = 84</p>\n<p>Now, $$\\Delta$$T<sub>B</sub> = k<sub>b</sub> $$\\times$$ molality</p>\n<p>or, $$1.84 = 2.53 \\times {{5.5} \\over M} \\times {1 \\over {45}} \\times 1000$$</p>\n<p>or, molar mass (M) = $${{2.53 \\times 5.5 \\times 1000} \\over {1.84 \\times 45}}$$</p>\n<p>$$\\therefore$$ M = 168</p>\n<p>$$\\therefore$$ $${{molar\\,mass} \\over {formula\\,mass}} = {{168} \\over {84}} = 2$$</p>\n<p>$$\\therefore$$ Molecular formula of (A) = (C<sub>3</sub>H<sub>2</sub>NO<sub>2</sub>)<sub>2</sub> = C<sub>6</sub>H<sub>4</sub>N<sub>2</sub>O<sub>4</sub></p>\n<p>Structural formula :</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kzqodiqe/7156e499-1b25-4aab-9e47-00b35588e38a/1a8d9b60-8fc5-11ec-a8e5-7562cdcf8e10/file-1kzqodiqf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kzqodiqe/7156e499-1b25-4aab-9e47-00b35588e38a/1a8d9b60-8fc5-11ec-a8e5-7562cdcf8e10/file-1kzqodiqf.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"IIT-JEE 1999 Chemistry - Solutions Question 28 English Explanation 2\"></p>"
+        }
+      },
+      "permalink": "nitrobenzene-is-formed-as-the-major-product-along-with-a-min-1999-marks-10-rie0kix62hrgccfa.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "topic": "elevation-in-boiling-point",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "Nitrobenzene is formed as the major product along with a minor product in the reaction of benzene with a hot mixture of nitric acid and sulphuric acid. The minor product consists of carbon : 42.86 %, hydrogen : 2.40%, nitrogen : 16.67% and ..."
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "z6wms8jac6kkklk9490g",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A solution of a nonvolatile solute in water freezes at -0.30<sup>o</sup>C. The vapour pressure of pure water at 298 K s 23.51 mm Hg and K<sub>f</sub> for water is 1.86 K kg mol<sup>-1</sup>. Calculate the vapour pressure of this solution at 298 K.",
+          "options": [],
+          "correct_options": [],
+          "answer": "23.44 mm Hg",
+          "explanation": "<p>We know, $$\\Delta$$T<sub>f</sub> = k<sub>f</sub> $$\\times$$ molality of solution (m)</p>\n<p>Given, k<sub>f</sub> for water = 1.86 K kg mol<sup>$$-$$1</sup></p>\n<p>$$\\therefore$$ 0.30 = 1.86 $$\\times$$ molality of solution (m)</p>\n<p>$$\\therefore$$ m = $${{0.30} \\over {1.86}}$$ or, m = 0.161 mol kg<sup>$$-$$1</sup></p>\n<p>According to Raoult's law, $${{{p^0} - p} \\over {{p^0}}} = {x_2} \\approx {{{n_2}} \\over {{n_1}}}$$</p>\n<p>Amount of water in solution n<sub>1</sub> $$\\times$$ 18 g</p>\n<p>Molality of the solution $${{{n_2}} \\over {{n_1} \\times 18}} \\times 1000 = {{55.55 \\times {n_2}} \\over {{n_1}}}$$ mol kg<sup>$$-$$1</sup></p>\n<p>But, molality calculated from f. p. depression = 0.161 mol kg<sup>$$-$$1</sup></p>\n<p>$$\\therefore$$ $${{55.55 \\times {n_2}} \\over {{n_1}}} = 0.0161$$ or, $${{{n_2}} \\over {{n_1}}} = 1.09 \\times {10^{ - 3}}$$</p>\n<p>Given : p<sup>0</sup> = 23.51 mm Hg</p>\n<p>$$\\therefore$$ $${{23.51 - p} \\over {23.51}} = {{{n_2}} \\over {{n_1}}} = 1.09 \\times {10^{ - 3}}$$</p>\n<p>$$\\therefore$$ p = 23.48 mm Hg</p>"
+        }
+      },
+      "permalink": "a-solution-of-a-nonvolatile-solute-in-water-freezes-at-030-1998-marks-4-vzwbt20aio8cpna2.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998",
+      "topic": "depression-in-freezing-point",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "A solution of a nonvolatile solute in water freezes at -0.30oC. The vapour pressure of pure water at 298 K s 23.51 mm Hg and Kf for water is 1.86 K kg mol-1. Calculate the vapour pressure of this solution at 298 K."
+        }
+      },
+      "yearKey": "iit-jee-1998"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "j0rx592fxgr3vpc8gzz8",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The molar volume of liquid benzene (density = 0.877 g mL<sup>-1</sup>) increases by a factor of 2750 as it vaporises at 20<sup>o</sup>C and that of liquid toluene (density = 0.867 g mL<sup>-1</sup>) increases by a factor of 7720 at 20<sup>o</sup>C. A solution of benzene and toluene at 20<sup>o</sup>C has vapour pressure of 46.0 Torr. Find the mole fraction of benzene in the vapour above the solution.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.73",
+          "explanation": "<p>Volume of 1 mol of benzene $$ = {{78} \\over {0.877}} = 88.94$$ mL and that for 1 mol of toluene $$ = {{92} \\over {0.867}} = 106.11$$ mL</p>\n<p>At 20$$^\\circ$$C, volume of 1 mol of benzene vapour $$ = 88.94 \\times 2750 = 244585$$ mL = 244.58 L & that for 1 mol of toluene vapour $$ = 106.11 \\times 7720 = 819.16$$ L</p>\n<p>The vapour pressure for pure benzene, $$p_B^0 = {{nRT} \\over V} = {{1 \\times 0.0821 \\times 293} \\over {244.58}}$$ atm = 0.098 atm and that for toluene, $$p_T^0 = {{nRT} \\over V} = {{1 \\times 0.0821 \\times 293} \\over {819.16}}$$ atm = 0.029 atm</p>\n<p>Again, total vapour pressure = VP of benzene $$\\times$$ mole fraction of benzene + VP of toluene $$\\times$$ mole fraction of toluene</p>\n<p>or, $$P = p_B^0 \\times {x_B} + p_T^0 \\times {x_T}$$ ...... [1]</p>\n<p>Since, $${x_B} + {x_T} = 1$$ $$\\therefore$$ $${x_T} = 1 - {x_B}$$ [x<sub>B</sub>, x<sub>T</sub> are mole fractions of benzene & toluene, respectively]</p>\n<p>Given, total vapour pressure = 46 torr $$ = {{46} \\over {760}}$$ atm = 0.060 atm</p>\n<p>From equation [1], we get, $$0.060 = 0.098 \\times {x_B} + 0.029(1 - {x_B})$$</p>\n<p>or, $$0.060 = 0.098{x_B} - 0.029{x_B} + 0.029$$</p>\n<p>or, $${x_B} = 0.45$$ (in liquid phase)</p>\n<p>$$\\therefore$$ $${x_T} = 1 - 0.45 = 0.55$$ (in liquid phase)</p>\n<p>$$\\therefore$$ Mole fraction of benzene in vapour phase $$ = {{p_B^0 \\times {x_B}} \\over P} = {{0.098 \\times 0.45} \\over {0.060}} = 0.735$$</p>"
+        }
+      },
+      "permalink": "the-molar-volume-of-liquid-benzene-density-0877-g-ml-1-1996-marks-3-ofm4xd43eipn8jna.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The molar volume of liquid benzene (density = 0.877 g mL-1) increases by a factor of 2750 as it vaporises at 20oC and that of liquid toluene (density = 0.867 g mL-1) increases by a factor of 7720 at 20oC. A solution of benzene and toluene a..."
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ipin1oewbzdn0wj29z6n",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1993,
+      "paperTitle": "IIT-JEE 1993",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "What weight of the non-volatile solute, urea(NH<sub>2</sub> - CO - NH<sub>2</sub>) needs to be dissolved in 100g of water, in order to decrease the vapour pressure of water by 25%? What will be the molality of the solution?",
+          "options": [],
+          "correct_options": [],
+          "answer": "111 g, 18.52 m",
+          "explanation": "<p>Given, mass of water (W<sub>1</sub>) = 100 g.</p>\n<p>Let, the vapour pressure of water = p<sup>0</sup></p>\n<p>As given, vapour pressure of urea solution (p) $$ = ({p^0} - 0.25{p^0}) = 0.75{p^0}$$</p>\n<p>According to Raoults' law, $${{{p^0} - p} \\over {{p^0}}} = {{{W_2}/{M_2}} \\over {{W_1}/{M_1} + {W_2}/{M_2}}}$$</p>\n<p>or, $${{{p^0} - 0.75{p^0}} \\over {{p^0}}} = {{{W_2}/60} \\over {100/18 + {W_2}/60}}$$ [molar mass of urea = 60 g mol<sup>$$-$$1</sup> & that of water = 18 g mol<sup>$$-$$1</sup>]</p>\n<p>or, $${1 \\over 4} = {{{W_2}/60} \\over {{{1000 + 3{W_2}} \\over {180}}}}$$ or, $${W_2} = 111.1$$</p>\n<p>$$\\therefore$$ 111.1 g of urea needs to be dissolved in the solution.</p>\n<p>No. of moles of dissolved urea $$ = {{111.1} \\over {60}} = 1.85$$ mol</p>\n<p>Molality (m) of the solution $$ = {{1.85} \\over {100}} \\times 1000 = 18.5$$ mol kg<sup>$$-$$1</sup></p>"
+        }
+      },
+      "permalink": "what-weight-of-the-non-volatile-solute-ureanh2-co-nh2-1993-marks-3-1gqyity1pjeqtw2s.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1993",
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1993",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "What weight of the non-volatile solute, urea(NH2 - CO - NH2) needs to be dissolved in 100g of water, in order to decrease the vapour pressure of water by 25%? What will be the molality of the solution?"
+        }
+      },
+      "yearKey": "iit-jee-1993"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zd6r9i1l2edzq4dmp7gg",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1991,
+      "paperTitle": "IIT-JEE 1991",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The degree of dissociation of calcium nitrate in a dilute aqueous solution, containing 7.0 g. of the salt per 100 gm of water at 100<sup>o</sup>C is 70%. If the vapour pressure of water at 100<sup>o</sup>C is 760 mm, calculate the vapour pressure of the solution.",
+          "options": [],
+          "correct_options": [],
+          "answer": "746.3 mm Hg",
+          "explanation": "<p>We know, $$\\alpha  = {{i - 1} \\over {n - 1}}$$</p>\n<p>where $$\\alpha$$ = degree of dissociation of an electrolyte in solution, n = no. of ions produced by 1 molecule of the electrolyte on dissociation, i = van't Hoff factor.</p>\n<p>In aqueous solution, $$Ca{(N{O_3})_2}$$ dissociates as:</p>\n<p>$$Ca{(N{O_3})_2}(aq) \\to C{a^{2 + }}(aq) + 2NO_3^ - (aq)$$</p>\n<p>Therefore, n = 3 and given : $$\\alpha$$ = 0.7</p>\n<p>$$\\therefore$$ $$0.7 = {{i - 1} \\over {3 - 1}}$$ $$\\therefore$$ $$i = 2.4$$</p>\n<p>For an electrolyte solution, the relative lowering vapour pressure is given by,</p>\n<p>$${{{p^0} - p} \\over {{p^0}}} = i \\times {x_2} \\approx i \\times {{{n_2}} \\over {{n_1}}} = 2.4 \\times {{{n_2}} \\over {{n_1}}}$$</p>\n<p>In solution, no. of moles of $$Ca{(N{O_3})_2}({n_2}) = {7 \\over {1.64}} = 0.042$$ mol [$$\\therefore$$ Molar mass of $$Ca{(N{O_3})_2}$$ = 164 g mol<sup>$$-$$1</sup>] and that of water $$({n_1}) = {{100} \\over {18}} = 5.55$$ mol</p>\n<p>Given : p<sup>0</sup> = 760 mm Hg</p>\n<p>$$\\therefore$$ $${{760 - p} \\over {760}} = {{2.4 \\times 0.042} \\over {5.55}}$$ $$\\therefore$$ p = 746.2 mm Hg</p>\n<p>$$\\therefore$$ Vapour pressure of the solution = 746.2 mm Hg</p>"
+        }
+      },
+      "permalink": "the-degree-of-dissociation-of-calcium-nitrate-in-a-dilute-aq-1991-marks-4-drasqfdxr6b6u5kz.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1991",
+      "topic": "abnormal-colligative-property-and-vant-hoff-factor",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1991",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The degree of dissociation of calcium nitrate in a dilute aqueous solution, containing 7.0 g. of the salt per 100 gm of water at 100oC is 70%. If the vapour pressure of water at 100oC is 760 mm, calculate the vapour pressure of the solution..."
+        }
+      },
+      "yearKey": "iit-jee-1991"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "sqn5fuvqf91rvsd2u4d8",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1990,
+      "paperTitle": "IIT-JEE 1990",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The freezing point of equimolal aqueous solutions will be highest for",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub>Cl (aniline hydrochloride)"
+            },
+            {
+              "identifier": "B",
+              "content": "Ca(NO<sub>3</sub>)<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "La(NO<sub>3</sub>)<sub>3</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (glucose)"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine which solution has the highest freezing point among the given options, we need to understand the concept of colligative properties, particularly the depression of freezing point. The freezing point depression depends on the number of solute particles in a solution, not on their chemical nature.</p>\n\n<p>The depression of freezing point can be expressed by the equation:\n\n<p>$$\\Delta T_f = K_f \\cdot m \\cdot i$$</p>\n\n<p>where:</p></p>\n\n<ul>\n\n<li>$$\\Delta T_f$$ is the freezing point depression,</li>\n\n<li>$$K_f$$ is the cryoscopic constant (freezing point depression constant),</li>\n\n<li>$$m$$ is the molality of the solution, and</li>\n\n<li>$$i$$ is the van't Hoff factor, the number of particles the solute splits into in solution.</li>\n\n</ul>\n\n<p>Since all solutions are equimolal, the important factor here is the van't Hoff factor (i). A lower van't Hoff factor will result in a smaller decrease in freezing point, meaning the freezing point will be relatively higher.</p>\n\n<p>Let's analyze each option:\n\n<ul>\n\n<li><strong>Option A: C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub>Cl (aniline hydrochloride)</strong> dissociates into two ions: $$C_6H_5NH_3^+$$ and $$Cl^-$$.\n\n<p>$$i = 2$$</p>\n\n</li>\n\n<li><strong>Option B: Ca(NO<sub>3</sub>)<sub>2</sub></strong> dissociates into three ions: $$Ca^{2+}$$ and two $$NO_3^-$$ ions.\n\n<p>$$i = 3$$</p>\n\n</li>\n\n<li><strong>Option C: La(NO<sub>3</sub>)<sub>3</sub></strong> dissociates into four ions: $$La^{3+}$$ and three $$NO_3^-$$ ions.\n\n<p>$$i = 4$$</p>\n\n</li>\n\n<li><strong>Option D: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (glucose)</strong> does not dissociate into ions in an aqueous solution.\n\n<p>$$i = 1$$</p>\n\n</li>\n\n</ul>\n\n</p>\n\n<p>Among the given options, glucose (Option D) has the lowest van't Hoff factor, $$i = 1$$. Therefore, the least number of particles results in the least depression of the freezing point. Hence, an aqueous solution of glucose will have the highest freezing point among the options provided.</p>"
+        }
+      },
+      "permalink": "the-freezing-point-of-equimolal-aqueous-solutions-will-be-hi-1990-marks-1-8rypmbwdy4rof46t.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1990",
+      "topic": "depression-in-freezing-point",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1990",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The freezing point of equimolal aqueous solutions will be highest for"
+        }
+      },
+      "yearKey": "iit-jee-1990"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "blz8b7nec0pv8ewpuvak",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1990,
+      "paperTitle": "IIT-JEE 1990",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The vapour pressure of pure benzene at a certain temperature is 640 mm Hg. A non-volatile non-electrolyte solid weighing 2.175 g is added to 39.0 g of benzene. The vapour pressure of the solution is 600 mm Hg. What is the molecular weight of the solid substance?",
+          "options": [],
+          "correct_options": [],
+          "answer": "65.25",
+          "explanation": "<p>Given, vapour pressure of pure benzene, p<sup>0</sup> = 640 mm Hg, vapour pressure of the solution, p = 600 mm Hg, mass of benzene, W<sub>1</sub> = 39.0 g, mass of the solid, W<sub>2</sub> = 2.175 g</p>\n<p>We know, M<sub>1</sub> = molar mass of benzene = 78.</p>\n<p>According to Raoults' law, $${{{p^0} - p} \\over {{p^0}}} = {{{W_2} \\times {M_1}} \\over {{M_2} \\times {W_1}}}$$</p>\n<p>$$\\therefore$$ $${{640 - 600} \\over {640}} = {{2.175 \\times 78} \\over {{M_2} \\times 39}}$$ or, $${M_2} = {{2.175 \\times 78 \\times 640} \\over {39 \\times 40}}$$</p>\n<p>or, $${M_2} = 69.6$$, i.e., molecular mass of the solid = 69.6.</p>"
+        }
+      },
+      "permalink": "the-vapour-pressure-of-pure-benzene-at-a-certain-temperature-1990-marks-3-4djscqeowersznlg.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1990",
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1990",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The vapour pressure of pure benzene at a certain temperature is 640 mm Hg. A non-volatile non-electrolyte solid weighing 2.175 g is added to 39.0 g of benzene. The vapour pressure of the solution is 600 mm Hg. What is the molecular weight o..."
+        }
+      },
+      "yearKey": "iit-jee-1990"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "rpf5ebko88ydj6j0vcao",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The vapour pressure of a dilute aqueous solution of glucose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) is 750 mm of mercury at 373 K. Calculate (i) molality, and (ii) mole fraction of the solution.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.7503 mol/kg, 0.9868",
+          "explanation": "<p>Given, at 373 K vapour pressure of the aqueous solution of glucose, p = 750 mm Hg.</p>\n<p>We know, boiling point of water = 373 K. At this temperature, vapour pressure of water, p0<br/> = 760 mm Hg</p>\n<p>According to Raoults' law, $${{{p^0} - p} \\over {{p^0}}} = {x_2} \\approx {{{n_2}} \\over {{n_1}}}$$</p>\n<p>$$\\therefore$$ $${{760 - 750} \\over {760}} = {{{n_2}} \\over {{n_1}}}$$ or, $${n_2} = {n_1} \\times 0.013$$</p>\n<p>(1) Amount of water in solution n<sub>1</sub> mol = 18 $$\\times$$ n<sub>1</sub>g</p>\n<p>$$\\therefore$$ Molality of the solution $$ = {{{n_2} \\times 1000} \\over {18 \\times {n_1}}} = {{{n_1} \\times 0.013 \\times 1000} \\over {18 \\times {n_1}}}$$ = 0.72 mol kg<sup>$$-$$1</sup></p>\n<p>(2) Mole fraction of solute in solution $$ = {{{n_2}} \\over {{n_1} + {n_2}}} = {{{n_1} \\times 0.013} \\over {{n_1} + {n_1} \\times 0.013}} = 0.0128$$</p>"
+        }
+      },
+      "permalink": "the-vapour-pressure-of-a-dilute-aqueous-solution-of-glucose-1989-marks-3-2ibepbihzcgdtvkf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The vapour pressure of a dilute aqueous solution of glucose (C6H12O6) is 750 mm of mercury at 373 K. Calculate (i) molality, and (ii) mole fraction of the solution."
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "e110nkerkuieow4uxu1u",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The vapour pressure of ethanol and methanol are 44.5 and 88.7 mm Hg respectively. An ideal solution is formed at the same temperature by mixing 60 g of ethanol with 40 g of methanol. Calculate the total vapour pressure of the solution and the mole fraction of methanol in the vapour.",
+          "options": [],
+          "correct_options": [],
+          "answer": "66.17 mm, 0.65",
+          "explanation": "<p>Total vapour pressure (P) of an ideal solution made up of ethanol and methanol is given by, $$P = {x_1}p_1^0 + {x_2}p_2^0$$ where $$p_1^0$$ & $$p_2^0$$ are the vapour pressures of pure ethanol and pure methanol respectively and x<sub>1</sub> and x<sub>2</sub> are the mole fractions of ethanol and methanol respectively in solution.</p>\n<p>Now, number of moles of ethanol $$ = {{60} \\over {46}} = 1.3$$ (Molar mass of ethanol = 46 g mol<sup>$$-$$1</sup></p>\n<p>and that of methanol $$ = {{40} \\over {32}} = 1.25$$ (Molar mass of methanol = 32 g mol<sup>$$-$$1</sup></p>\n<p>Total moles of ethanol & methanol = (1.3 + 1.25) = 2.55 mol</p>\n<p>$$\\therefore$$ $${x_1} = {{1.3} \\over {2.55}} = 0.50$$ and $${x_2} = {{1.25} \\over {2.55}} = 0.49$$</p>\n<p>Given : $$p_1^0$$ = 44.5 mm Hg and $$p_2^0$$ = 88.7 mm Hg</p>\n<p>$$\\therefore$$ $$p = {x_1}p_1^0 + {x_2}p_2^0 = (0.50 \\times 44.5 + 0.49 \\times 88.7)$$ mm Hg = 65.71 mm Hg</p>\n<p>$$\\therefore$$ Total vapour pressure of the solution = 65.71 mm Hg</p>\n<p> mole fraction of methanol in vapour $$ = {{Partial\\,v.p.\\,of\\,methanol\\,in\\,vapour\\,of\\,the\\,solution} \\over {Total\\,v.p.\\,of\\,solution}}$$</p>\n<p>$$ = {{{x_2}p_2^0} \\over P} = {{0.49 \\times 88.7} \\over {65.71}} = 0.66$$</p>"
+        }
+      },
+      "permalink": "the-vapour-pressure-of-ethanol-and-methanol-are-445-and-88-1986-marks-4-ooasik7u2rzsswev.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "topic": "raoults-law",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The vapour pressure of ethanol and methanol are 44.5 and 88.7 mm Hg respectively. An ideal solution is formed at the same temperature by mixing 60 g of ethanol with 40 g of methanol. Calculate the total vapour pressure of the solution and t..."
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6knoxtu5rjiu650pfvyb",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1983,
+      "paperTitle": "IIT-JEE 1983",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "An organic compound C<sub>x</sub>H<sub>2y</sub>O<sub>y</sub> was burnt with twice the amount of oxygen needed for complete combustion of CO<sub>2</sub> and H<sub>2</sub>O. The hot gases when cooled to 0<sup>o</sup>C and 1 atm pressure, measured 2.24 litres. The water collected during cooling weighed 0.9 g. The vapour pressure of pure water at 20<sup>o</sup>C is 17.5 mm Hg and is lowered by 0.104 mm when 50 g of the organic compound are dissolved in 1000 g of water. Give the molecular formula of the organic compound.",
+          "options": [],
+          "correct_options": [],
+          "answer": "C<sub>5</sub>H<sub>10</sub>O<sub>5</sub>",
+          "explanation": "<p>Given : $${C_x}{H_{2y}}{O_y} + 2x{O_2} \\to xC{O_2} + y{H_2}O + x{O_2}$$</p>\n<p>After cooling, only CO<sub>2</sub> and O<sub>2</sub> will be present in gaseous state because water exists in liquid form at 0$$^\\circ$$C and 1 atm.</p>\n<p>$$\\therefore$$ Number of moles of gases after cooling = x + x = 2x</p>\n<p>Volume of gases after cooling = 2.24 L (given)</p>\n<p>$$\\therefore$$ Moles of gases after cooling $$ = {{2.24} \\over {22.4}} = 0.1$$</p>\n<p>$$\\therefore$$ 0.1 = 2x, or, x = 0.05</p>\n<p>As given in the question, water collected during cooling = 0.9 g</p>\n<p>$$\\therefore$$ Number of moles of water $$ = {{0.9} \\over {18}} = 0.05$$; hence, y = 0.05</p>\n<p>$$\\therefore$$ The empirical formula of the organic compound is CH<sub>2</sub>O.</p>\n<p>Given, vapour pressure of pure water (p<sup>0</sup>) = 17.5 mm Hg</p>\n<p>Lowering of vapour pressure (p<sup>0</sup> $$-$$ p) = 0.104 mm Hg</p>\n<p>No. of moles of water in solution $$({n_1}) = {{1000} \\over {18}} = 55.55$$ mol of the molar mass of solute is Mg mol<sup>$$-$$1</sup>, then the number of moles of solute in solution $$({n_2}) = {{50} \\over M}$$ mol</p>\n<p>According to Raoults' law, $${{{p^0} - p} \\over {{p^0}}} = {x_2} \\approx {{{n_2}} \\over {{n_1}}}$$</p>\n<p>$$\\therefore$$ $${{0.104} \\over {17.5}} = {{50} \\over {M \\times 55.55}}$$ or, $$M = {{50 \\times 17.5} \\over {55.55 \\times 0.104}}$$ or, M  = 151.4</p>\n<p>$$\\therefore$$ Molar mass of the organic compound = 151.4 g mol<sup>$$-$$1</sup></p>\n<p>Now, empirical formula mass of CH<sub>2</sub>O = 30 g mol<sup>$$-$$1</sup></p>\n<p>$$\\therefore$$ $$n = {{Molecular\\,mass} \\over {Empirical\\,formula\\,mass}} = {{151.4} \\over {30}}$$ or, $$n = 5.04 \\simeq 5$$</p>\n<p>$$\\therefore$$ Molecular formula $$ = {[C({H_2}O)]_5} = {C_5}{H_{10}}{O_5}$$</p>"
+        }
+      },
+      "permalink": "an-organic-compound-cxh2yoy-was-burnt-with-twice-the-amount-1983-marks-5-fybnghvbymqfxchx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1983",
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1983",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "An organic compound CxH2yOy was burnt with twice the amount of oxygen needed for complete combustion of CO2 and H2O. The hot gases when cooled to 0oC and 1 atm pressure, measured 2.24 litres. The water collected during cooling weighed 0.9 g..."
+        }
+      },
+      "yearKey": "iit-jee-1983"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dumr6p46m27igfsrdgt8",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "solutions",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The vapour pressure of pure benzene is 639.7 mm of mercury and the vapour of a solution of a solute in benzene at the same temperature is 631.9 mm of mercury. Calculate this molality of the solution.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.156 m/kg",
+          "explanation": "<p>As given, vapour pressure of pure benzene, p<sup>0</sup> = 639.7 mm Hg and that of solution, p = 631.9 mm Hg.</p>\n<p>If, n<sub>1</sub> and n<sub>2</sub> be the number of moles of benzene and solute respectively, then according to Raoults' law,</p>\n<p>$${{{p^0} - p} \\over {{p^0}}} = {x_2} \\approx {{{n_2}} \\over {{n_1}}}$$ or $${{639.7 - 631.9} \\over {639.7}} = {{{n_2}} \\over {{n_1}}}$$</p>\n<p>$$\\therefore$$ $${n_2} = 0.0122 \\times {n_1}$$</p>\n<p>Amount of benzene in solution = n<sub>1</sub> mol = 78 $$\\times$$ n<sub>1</sub>g [$$\\because$$ Molar mass of benzene = 78 g mol<sup>$$-$$1</sup>]</p>\n<p>$$\\therefore$$ Molality of the solution $$ = {{{n_2} \\times 1000} \\over {78 \\times {n_1}}} = {{0.0122 \\times {n_1} \\times 1000} \\over {78 \\times {n_1}}}$$ = 0.156 mol kg<sup>$$-$$1</sup></p>"
+        }
+      },
+      "permalink": "the-vapour-pressure-of-pure-benzene-is-6397-mm-of-mercury-a-1981-marks-3-dkcmulqc8cgbswh3.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "topic": "relative-lowering-of-vapour-pressure-and-roults-law",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Solutions • Chemistry",
+          "excerpt": "The vapour pressure of pure benzene is 639.7 mm of mercury and the vapour of a solution of a solute in benzene at the same temperature is 631.9 mm of mercury. Calculate this molality of the solution."
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    }
+  ]
+}

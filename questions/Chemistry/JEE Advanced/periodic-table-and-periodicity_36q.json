@@ -1,0 +1,2201 @@
+{
+  "questions": [
+    {
+      "question_id": "o26nhu0xjs5l6hf9wko0",
+      "chapter": "periodic-table-and-periodicity",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pthe-correct-statements-regarding-the-periodic-propertie-jee-advanced-chemistry-hqtgwswhad38rued",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>The correct statement(s) regarding the periodic properties of elements is(are) :</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>Second ionization enthalpy of carbon atom is less than that of boron atom.</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>Increasing order of ionic radii: Al<sup>3+</sup> &lt; Mg<sup>2+</sup> &lt; Na<sup>+</sup></p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>Under identical conditions, in solid state, the density of potassium metal is more than density of sodium metal.</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>The H–H bond is weaker than F–F bond.</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>(A) The electronic configurations are:</p>\n<p>For carbon (C): $1s^2\\\\ 2s^2\\\\ 2p^2$</p>\n<p>For $\\mathrm{C}^{+}$: $1s^2\\\\ 2s^2\\\\ 2p^1$</p>\n<p>For boron (B): $1s^2\\\\ 2s^2\\\\ 2p^1$</p>\n<p>For $\\mathrm{B}^{+}$: $1s^2\\\\ 2s^2$</p>\n<p>The second ionisation energy ($\\\\mathrm{IE}_2$) means the energy required to remove one electron from a singly charged positive ion. Since in $\\mathrm{B}^{+}$, the next electron is removed from a completely filled 2s orbital, which is more stable, more energy is needed. Hence, $\\\\mathrm{IE}_2$ of B is greater than $\\\\mathrm{IE}_2$ of C. This statement is correct.</p>\n<p>(B) The ions $\\mathrm{Al}^{3+}$, $\\mathrm{Mg}^{2+}$, and $\\mathrm{Na}^{+}$ all have the same number of electrons (10), so they are called <b>isoelectronic species</b>.</p>\n<p>For isoelectronic ions, the ionic size depends on the number of protons; more protons mean greater attraction, leading to a smaller size.</p>\n<p>Number of protons:</p>\n<p>${Al}^{3+}$ → 13</p>\n<p>${Mg}^{2+}$ → 12</p>\n<p>${Na}^{+}$ → 11</p>\n<p>Therefore, the size order is: ${Al}^{3+} < {Mg}^{2+} < {Na}^{+}$. This statement is correct.</p>\n<p>(C) Density values are:</p>\n<p>Potassium (K): $0.86\\\\ {g/cm^3}$</p>\n<p>Sodium (Na): $0.97\\\\ {g/cm^3}$</p>\n<p>Since the density of Na is greater than that of K, this statement is incorrect as per the given periodic trend.</p>\n<p>(D) Bond energies:</p>\n<p>H–H bond energy = $435.88\\\\ {kJ/mol}$</p>\n<p>F–F bond energy = $155\\\\ {kJ/mol}$</p>\n<p>The F–F bond is weaker than the H–H bond because the small size of fluorine atoms leads to strong repulsion between lone pairs of electrons. Hence, this statement is incorrect.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "periodic-table-and-its-features",
+      "type": "mcqm",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The correct statement(s) regarding the periodic properties of elements is(are) :"
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "wlwi4q2tyletpq27o1f4",
+      "chapter": "periodic-table-and-periodicity",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "the-1st-2nd-and-3rd-ionisation-enthalpies-isub1sub-i-jee-advanced-chemistry-some-basic-concepts-of-chemistry-2llr7iqk8ezuiaf1",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The 1st, 2nd and 3rd ionisation enthalpies, I<sub>1</sub>, I<sub>2</sub> and I<sub>3</sub>, of four atoms with atomic numbers n, n + 1, n + 2, and n + 3, where n &lt; 10, are tabulated below. What is the value of n?<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lf44lr1c/8eeb9789-06ff-4cce-a14a-f8cd59a36589/00a22200-c022-11ed-b552-e7a88d45dbe9/file-1lf44lr1d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lf44lr1c/8eeb9789-06ff-4cce-a14a-f8cd59a36589/00a22200-c022-11ed-b552-e7a88d45dbe9/file-1lf44lr1d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - Periodic Table &amp; Periodicity Question 2 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "9",
+          "explanation": "By observing the values of different ionisation energies, I<sub>1</sub>, I<sub>2</sub> and I<sub>3</sub> for <br>atomic number (n + 2), it is observed that there is very large difference between the second ionisation energy and first ionisation energy (I<sub>2</sub> &gt;&gt; I<sub>1</sub>).<br><br>This indicates that number of valence shell electrons is 1 and atomic number (n + 2) should be an alkali metal.<br><br>Also for atomic number (n + 3), I<sub>3</sub> &gt;&gt; I<sub>2</sub>. This indicates that it will be an alkaline earth metal which suggests that atomic number (n + 1) should be a noble gas and atomic number (n) should belong to halogen family. Since, n &lt; 10; hence, n = 9 (F atom)"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>चार परमाणुओं के प्रथम $$\\left(I_{1}\\right)$$, द्वितीय $$\\left(I_{2}\\right)$$, तथा तृतीय $$\\left(I_{3}\\right)$$ आयनन एन्थैल्पी (ionization enthalpy) के मान नीचे सारणी में दिए गए हैं। इन परमाणुओं के परमाणु क्रमांक (atomic number) $$n, n+1, n+2$$, तथा $$n+3$$ हैं, जहाँ $$n &lt; 10$$ है | $$n$$ का मान क्या है ) ?</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lf44lr1c/8eeb9789-06ff-4cce-a14a-f8cd59a36589/00a22200-c022-11ed-b552-e7a88d45dbe9/file-1lf44lr1d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lf44lr1c/8eeb9789-06ff-4cce-a14a-f8cd59a36589/00a22200-c022-11ed-b552-e7a88d45dbe9/file-1lf44lr1d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2020 Paper 2 Offline Chemistry - Periodic Table &amp; Periodicity Question 2 Hindi\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "9",
+          "explanation": "विभिन्न आयनन ऊर्जाओं, I<sub>1</sub>, I<sub>2</sub> और I<sub>3</sub> के मानों का परमाणु संख्या (n + 2) के लिए अवलोकन करने पर, यह देखा जाता है कि दूसरी आयनन ऊर्जा और पहली आयनन ऊर्जा के बीच बहुत बड़ा अंतर है (I<sub>2</sub> &gt;&gt; I<sub>1</sub>)।<br><br>यह दर्शाता है कि संयोजकता कोश इलेक्ट्रॉनों की संख्या 1 है और परमाणु संख्या (n + 2) एक क्षार धातु होनी चाहिए।<br><br>इसके अलावा परमाणु संख्या (n + 3) के लिए, I<sub>3</sub> &gt;&gt; I<sub>2</sub>। यह दर्शाता है कि यह एक क्षारीय मृदा धातु होगी जो संकेत करती है कि परमाणु संख्या (n + 1) एक उत्कृष्ट गैस होनी चाहिए और परमाणु संख्या (n) हैलोजन परिवार से संबंधित होनी चाहिए। चूँकि, n &lt; 10; अतः, n = 9 (F परमाणु)"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "ionization-energy",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The 1st, 2nd and 3rd ionisation enthalpies, I1, I2 and I3, of four atoms with atomic numbers n, n + 1, n + 2, and n + 3, where n < 10, are tabulated below. What is the value of n?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "चार परमाणुओं के प्रथम $$\\left(I_{1}\\right)$$, द्वितीय $$\\left(I_{2}\\right)$$, तथा तृतीय $$\\left(I_{3}\\right)$$ आयनन एन्थैल्पी (ionization enthalpy) के मान नीचे सारणी में दिए गए हैं। इन परमाणुओं के परमाणु क्रमांक (atomic number) $$n, n+1, n+..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "384n7pnswg1tw60pfyky",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Among the following, the number of elements showing only one non-zero oxidation state is :<br>\nO, Cl, F, N, P, Sn, Tl, Na, Ti",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p><strong>Answer: 2</strong></p>\n<p><strong>Detailed Reasoning:</strong></p>\n<p>We are looking for elements from the given list that exhibit only one non-zero oxidation state. The elements given are:</p>\n\n<p><p>O (Oxygen)</p></p>\n<p><p>Cl (Chlorine)</p></p>\n<p><p>F (Fluorine)</p></p>\n<p><p>N (Nitrogen)</p></p>\n<p><p>P (Phosphorus)</p></p>\n<p><p>Sn (Tin)</p></p>\n<p><p>Tl (Thallium)</p></p>\n<p><p>Na (Sodium)</p></p>\n<p><p>Ti (Titanium)</p></p>\n\n<p>Let's analyze each:</p>\n\n<p><p><strong>Oxygen (O)</strong>:  </p>\n<p>Oxygen typically shows multiple non-zero oxidation states, such as -2 (most compounds), -1 (peroxides), and even positive oxidation states in compounds like OF₂ (+2). Hence, it has more than one non-zero oxidation state.</p></p>\n<p><p><strong>Chlorine (Cl)</strong>:  </p>\n<p>Chlorine exhibits a wide range of oxidation states: -1 (HCl), +1 (HOCl), +3 (HClO₂), +5 (HClO₃), and +7 (HClO₄). Clearly multiple non-zero states.</p></p>\n<p><p><strong>Fluorine (F)</strong>:  </p>\n<p>Fluorine is the most electronegative element and almost always exhibits an oxidation state of -1 in its compounds. It does not show other stable non-zero oxidation states. Thus, fluorine has only one non-zero oxidation state: -1.</p></p>\n<p><p><strong>Nitrogen (N)</strong>:  </p>\n<p>Nitrogen shows many oxidation states: from -3 (ammonia, NH₃) to +5 (in nitrates, NO₃⁻), passing through several intermediate states (+1, +2, +3, +4). Many non-zero oxidation states.</p></p>\n<p><p><strong>Phosphorus (P)</strong>:  </p>\n<p>Phosphorus can exist in -3 (PH₃), +3 (PCl₃), and +5 (PCl₅) states. Multiple non-zero oxidation states.</p></p>\n<p><p><strong>Tin (Sn)</strong>:  </p>\n<p>Tin commonly shows +2 and +4 oxidation states. Hence more than one non-zero oxidation state.</p></p>\n<p><p><strong>Thallium (Tl)</strong>:  </p>\n<p>Thallium typically shows +1 and +3 oxidation states. Again, multiple non-zero oxidation states.</p></p>\n<p><p><strong>Sodium (Na)</strong>:  </p>\n<p>Sodium, in stable compounds, is almost always present as Na⁺ (oxidation state +1). It does not commonly display any other non-zero oxidation state. So sodium has only one non-zero oxidation state.</p></p>\n<p><p><strong>Titanium (Ti)</strong>:  </p>\n<p>Titanium can exhibit +2, +3, and +4 oxidation states, among others. Multiple non-zero oxidation states.</p></p>\n\n<p><strong>Conclusion:</strong></p>\n<p>Only fluorine (F) and sodium (Na) have exactly one non-zero oxidation state.</p>\n<p><strong>Number of such elements = 2</strong></p>"
+        }
+      },
+      "permalink": "among-the-following-the-number-of-elements-showing-only-one-2010-marks-2-ekqe34x5rp19uct8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "topic": "periodic-table-and-its-features",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Among the following, the number of elements showing only one non-zero oxidation state is :\nO, Cl, F, N, P, Sn, Tl, Na, Ti"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qf7d6tn2t9mlpcuvfi7x",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 2002,
+      "paperTitle": "IIT-JEE 2002 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Identify the least stable ion amongst the following",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Li<sup>-</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "Be<sup>-</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "B<sup>-</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "C<sup>-</sup>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine the least stable ion among the given options, we need to consider the stability of negative ions (anions) formed by each element in their respective periods. Stability of anions generally decreases as we move across a period from left to right due to the increasing nuclear charge and decreasing atomic size, which causes higher electron-electron repulsion when an extra electron is added.</p>\n\n<p>The options given are:</p>\n\n<ul>\n\n<li>Option A: Li<sup>-</sup></li>\n\n<li>Option B: Be<sup>-</sup></li>\n\n<li>Option C: B<sup>-</sup></li>\n\n<li>Option D: C<sup>-</sup></li>\n\n</ul>\n\n<p>Let's analyze them in detail:</p>\n\n<p><strong>Li<sup>-</sup></strong>: Lithium has 3 electrons (1s<sup>2</sup>2s<sup>1</sup>). Adding an extra electron will fill the 2s orbital, resulting in a relatively stable configuration.</p>\n\n<p><strong>Be<sup>-</sup></strong>: Beryllium has 4 electrons (1s<sup>2</sup>2s<sup>2</sup>). Adding an extra electron will result in a configuration of 1s<sup>2</sup>2s<sup>2</sup>2p<sup>1</sup>. This electron now enters a higher energy 2p orbital, making the ion less stable due to the destabilizing effect of the electron repulsion in the 2p orbital.</p>\n\n<p><strong>B<sup>-</sup></strong>: Boron has 5 electrons (1s<sup>2</sup>2s<sup>2</sup>2p<sup>1</sup>). Adding an extra electron results in the configuration 1s<sup>2</sup>2s<sup>2</sup>2p<sup>2</sup>, which still holds a relatively stable configuration as the extra electron is accommodated in the 2p orbital.</p>\n\n<p><strong>C<sup>-</sup></strong>: Carbon has 6 electrons (1s<sup>2</sup>2s<sup>2</sup>2p<sup>2</sup>). Adding an extra electron results in the configuration 1s<sup>2</sup>2s<sup>2</sup>2p<sup>3</sup>, creating a half-filled p-orbital which can be considered relatively stable due to the Hund's Rule of maximum multiplicity.</p>\n\n<p>Among these, Be<sup>-</sup> is the least stable ion as the added electron goes into a new, higher-energy 2p orbital, significantly increasing electron-electron repulsion and destabilizing the ion.</p>\n\n<p>Thus, the least stable ion is:</p>\n\n<p><strong>Option B: Be<sup>-</sup></strong></p>"
+        }
+      },
+      "permalink": "identify-the-least-stable-ion-amongst-the-following-2002-screening-marks-2-fhol8yw0qbmrxto1.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2002-screening",
+      "isOutOfSyllabus": false,
+      "topic": "periodic-table-and-its-features",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2002 Screening",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Identify the least stable ion amongst the following"
+        }
+      },
+      "yearKey": "iit-jee-2002-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "250d5878lfbornvyo5p9",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 2002,
+      "paperTitle": "IIT-JEE 2002 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Identify the correct order of acidic strengths of CO<sub>2</sub>, CuO, CaO, H<sub>2</sub>O",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "CaO &lt; CuO &lt; H<sub>2</sub>O &lt; CO<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "H<sub>2</sub>O &lt; CuO &lt; CaO &lt; CO<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "CaO &lt; H<sub>2</sub>O &lt; CuO &lt; CO<sub>2</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "H<sub>2</sub>O &lt; CO<sub>2</sub>  &lt; CaO &lt; CuO"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Here's the correct answer and explanation:</p>\n\n<strong>Option A: CaO < CuO < H<sub>2</sub>O < CO<sub>2</sub></strong>\n\n<strong>Understanding Acid-Base Trends:</strong>\n\n<ul>\n<li><strong>Oxides of Metals:</strong></li><br>\n<li>Metal oxides are generally basic in nature.</li><br>\n<li>Basicity increases with increasing metallic character. Calcium (Ca)  is a more reactive metal than copper (Cu), making CaO more basic.</li><br>\n<li><strong>Oxides of Non-Metals:</strong></li><br>\n<li>Non-metal oxides are generally acidic.</li><br>\n<li>Acidity increases with increasing electronegativity of the central non-metal atom. Carbon is more electronegative than hydrogen, so CO<sub>2</sub> is more acidic than H<sub>2</sub>O.</li>\n</ul>\n<strong>Putting it together:</strong>\n\n<ul>\n<li><strong>Most Basic:</strong>  CaO (Calcium Oxide)</li><br>\n<li><strong>Less Basic:</strong>  CuO (Copper Oxide)</li><br>\n<li><strong>Neutral:</strong> H<sub>2</sub>O (Water)</li><br>\n<li><strong>Most Acidic:</strong> CO<sub>2</sub> (Carbon Dioxide)</li>\n</ul>"
+        }
+      },
+      "permalink": "identify-the-correct-order-of-acidic-strengths-of-co2-cuo-2002-screening-marks-1-fnfjylblnsiytjel.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2002-screening",
+      "isOutOfSyllabus": false,
+      "topic": "nature-of-oxide",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2002 Screening",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Identify the correct order of acidic strengths of CO2, CuO, CaO, H2O"
+        }
+      },
+      "yearKey": "iit-jee-2002-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ree0edn8od1q8vxpha62",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The correct order of acidic strength is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Cl<sub>2</sub>O<sub>7</sub> &gt; SO<sub>2</sub> &gt; P<sub>4</sub>O<sub>10</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "CO<sub>2</sub> &gt; N<sub>2</sub>O<sub>5</sub> &gt; SO<sub>3</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "Na<sub>2</sub>O &gt; MgO &gt; Al<sub>2</sub>O<sub>3</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "K<sub>2</sub>O &gt; CaO &gt; MgO"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine the correct order of acidic strength among given oxides, we need to understand the nature of the oxides produced by different elements across the periodic table. Oxides are classified into acidic, basic, amphoteric, or neutral based on the element they are derived from and their position in the periodic table.</p>\n\n<ul>\n\n<li><strong>Acidic oxides</strong> are generally formed by non-metallic elements (found on the right side of the periodic table).</li>\n\n<li><strong>Basic oxides</strong> are formed by metals (mainly on the left side of the periodic table).</li>\n\n<li><strong>Amphoteric oxides</strong> show both acidic and basic properties and are typically formed by metalloids or transition metals.</li>\n\n<li><strong>Neutral oxides</strong> show neither acidic nor basic properties.</li>\n\n</ul>\n\n<p>Let us examine the options:</p>\n\n<p><strong>Option A: Cl<sub>2</sub>O<sub>7</sub> &gt; SO<sub>2</sub> &gt; P<sub>4</sub>O<sub>10</sub></strong></p>\n\n<ul>\n\n<li>Cl<sub>2</sub>O<sub>7</sub> (Dichlorine heptoxide) is a very strong acidic oxide due to the highly electronegative nature of chlorine and its ability to form strong acids (like HClO<sub>4</sub>).</li>\n\n<li>SO<sub>2</sub> (Sulfur dioxide) is a moderately strong acidic oxide, capable of forming weak acids like H<sub>2</sub>SO<sub>3</sub>.</li>\n\n<li>P<sub>4</sub>O<sub>10</sub> (Phosphorus pentoxide) is also a strong acidic oxide, converting to H<sub>3</sub>PO<sub>4</sub> on hydrolysis.</li>\n\n</ul>\n\n<p><strong>Option B: CO<sub>2</sub> &gt; N<sub>2</sub>O<sub>5</sub> &gt; SO<sub>3</sub></strong></p>\n\n<ul>\n\n<li>CO<sub>2</sub> (Carbon dioxide) forms a weak acid (H<sub>2</sub>CO<sub>3</sub>) when dissolved in water.</li>\n\n<li>N<sub>2</sub>O<sub>5</sub> (Nitrogen pentoxide) is a strongly acidic oxide that hydrolyzes to form nitric acid (HNO<sub>3</sub>).</li>\n\n<li>SO<sub>3</sub> (Sulfur trioxide) is an extremely strong acid anhydride, forming H<sub>2</sub>SO<sub>4</sub> when combined with water.</li>\n\n</ul>\n\n<p><strong>Option C: Na<sub>2</sub>O &gt; MgO &gt; Al<sub>2</sub>O<sub>3</sub></strong></p>\n\n<ul>\n\n<li>Na<sub>2</sub>O (Sodium oxide) is a basic oxide.</li>\n\n<li>MgO (Magnesium oxide) is also a basic oxide, more basic than Na<sub>2</sub>O.</li>\n\n<li>Al<sub>2</sub>O<sub>3</sub> (Aluminium oxide) is an amphoteric oxide, exhibiting both acidic and basic properties but is not solely acidic.</li>\n\n</ul>\n\n<p><strong>Option D: K<sub>2</sub>O &gt; CaO &gt; MgO</strong></p>\n\n<ul>\n\n<li>K<sub>2</sub>O (Potassium oxide), CaO (Calcium oxide), and MgO are all basic oxides.</li>\n\n</ul>\n\n<p>From the analysis, it is clear that only <strong>Option A: Cl<sub>2</sub>O<sub>7</sub> &gt; SO<sub>2</sub> &gt; P<sub>4</sub>O<sub>10</sub></strong> presents the progressively correct order of acidic strength from strongest to less strong, among mainly acidic oxides. The other options list oxides that are either incorrectly ordered or primarily basic, rather than acidic.</p>"
+        }
+      },
+      "permalink": "the-correct-order-of-acidic-strength-is-2000-screening-marks-1-92dt4wekygz2ti3e.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000-screening",
+      "isOutOfSyllabus": false,
+      "topic": "nature-of-oxide",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000 Screening",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The correct order of acidic strength is"
+        }
+      },
+      "yearKey": "iit-jee-2000-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ksk2jyg17r02egjxp3bu",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The correct order of radii is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "N &lt; Be &lt; B"
+            },
+            {
+              "identifier": "B",
+              "content": "F<sup>-</sup> &lt; O<sup>2-</sup> &lt; N<sup>3-</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "Na &lt; Li &lt; K"
+            },
+            {
+              "identifier": "D",
+              "content": "Fe<sup>3+</sup> &lt; Fe<sup>2+</sup> &lt; Fe<sup>4+</sup>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The size of ions and atoms in elements varies according to their position in the periodic table, whether they are ions or atoms, their charge if they are ions, and electronic configuration. Understanding these factors can help correctly interpret the order of radii among elements and ions under comparison.</p>\n\n<p>Let's evaluate each of the provided options:</p>\n\n<p><strong>Option A: N &lt; Be &lt; B</strong></p>\n\n<p>This order considers the atomic radii of neutral atoms across a period in the periodic table (left to right). According to periodic trends, atomic radius decreases as we move from left to right across a period owing to the increase in effective nuclear charge attracting the electrons more strongly. Boron (B) and Beryllium (Be) are both elements in Period 2. Beryllium is to the left of Boron, and Nitrogen (N) is to the right of Boron. Therefore, the correct order should be $Be \\lt B \\lt N$, which contradicts the given order.</p>\n\n<p><strong>Option B: F<sup>-</sup> &lt; O<sup>2-</sup> &lt; N<sup>3-</sup></strong></p>\n\n<p>In the case of anions, the ionic radii generally increase with an increase in negative charge due to additional electron-electron repulsion outweighing the increased nuclear charge. Following this, given all anions are isoelectronic, having the same number of electrons, but differing in nuclear charge — fluorine has the highest (9 protons), followed by oxygen (8 protons), and finally nitrogen (7 protons). Thus, larger negative charges on an element with fewer protons result in larger radii because a lesser nuclear charge results in a larger size. N<sup>3-</sup> will be larger than O<sup>2-</sup>, and O<sup>2-</sup> larger than F<sup>-</sup>, making the correct order $F^- < O^{2-} < N^{3-}$, which matches with Option B.</p>\n\n<p><strong>Option C: Na &lt; Li &lt; K</strong></p>\n\n<p>Considering atoms of Sodium (Na), Lithium (Li), and Potassium (K), all located in the same group of the periodic table (alkali metals), we generally see an increase in atomic radii as we move down a group due to additional electron shells. The order defined by increasing radius should therefore be $Li < Na < K$. The contrary statement in Option C is incorrect.</p>\n\n<p><strong>Option D: Fe<sup>3+</sup> &lt; Fe<sup>2+</sup> &lt; Fe<sup>4+</sup></strong></p>\n\n<p>The size of a cation decreases with an increase in positive charge, since more electrons are removed, which enhances the effective nuclear charge attracting the remaining electrons more tightly. In iron ions, the order from smallest to largest based on the number of electrons removed (hence increasing charge) is: Fe<sup>4+</sup> (most electrons removed, thus smallest) &lt; Fe<sup>3+</sup> &lt; Fe<sup>2+</sup> (least electrons removed, thus largest). Thus, the order presented in Option D is incorrect.</p>\n\n<p><strong>Conclusion:</strong> Out of the options provided, only <strong>Option B</strong> correctly represents the order of ionic radii based on standard periodic and chemical principles.</p>"
+        }
+      },
+      "permalink": "the-correct-order-of-radii-is-2000-screening-marks-1-t1wznvcmoks5fv7e.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000-screening",
+      "isOutOfSyllabus": false,
+      "topic": "atomic-and-ionic-radius",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000 Screening",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The correct order of radii is"
+        }
+      },
+      "yearKey": "iit-jee-2000-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "niqmv9dqxjaetjoatk1t",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Read the following statement and explanation and answer as per the options given below<br><br>\n<b>ASSERTION :</b>  The first ionization energy of Be is greater than that of B.<br><br>\n<b>REASON :</b> 2p orbital is lower in energy than 2s.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "If both assertion and reason are CORRECT, and reason is the CORRECT explanation of the assertion"
+            },
+            {
+              "identifier": "B",
+              "content": "If both assertion and reason are CORRECT, and reason is not the CORRECT explanation of the assertion"
+            },
+            {
+              "identifier": "C",
+              "content": "If assertion is CORRECT, but reason is INCORRECT"
+            },
+            {
+              "identifier": "D",
+              "content": "If assertion is INCORRECT, but reason is CORRECT"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The <b>Assertion</b> states that the first ionization energy of Beryllium (Be) is greater than that of Boron (B). To analyze this, let's consider the electronic configurations and other factors influencing ionization energies. Beryllium (Be) has an electronic configuration of $$1s^2 2s^2$$, while Boron (B) has an electronic configuration of $$1s^2 2s^2 2p^1$$. The first ionization energy refers to the energy required to remove the most loosely held electron from an atom's outer shell. In Beryllium, this electron is removed from a completely filled $$2s$$ orbital, which is a stable state. In Boron, the electron to be removed is from a $$2p$$ orbital, where only one electron is present, and the $$2p$$ orbital is an in-progress shell filling after the $$2s$$ is filled.</p>\n\n<p>The stability associated with Beryllium's filled $$2s$$ orbital typically results in a higher ionization energy compared to Boron, which has an uncompleted subshell with a loosely held $$2p$$ electron. Thus, it is generally easier (less energy required) to remove an electron from the $$2p$$ orbital of Boron than to remove one from the filled $$2s$$ orbital of Beryllium, confirming that the Assertion is correct.</p>\n\n<p>The <b>Reason</b> provided states, \"2p orbital is lower in energy than 2s.\" However, this statement is not precise or accurately phrased in the context of atomic orbital theory. In actuality, in multi-electron atoms, the $$2s$$ orbital is generally lower in energy than the $$2p$$ orbital. The given Reason seems to imply the opposite, thereby making the Reason incorrect.</p>\n\n<p>Therefore, the appropriate answer here is:</p>\n\n<p>Option C: If assertion is CORRECT, but reason is INCORRECT.</p>"
+        }
+      },
+      "permalink": "read-the-following-statement-and-explanation-and-answer-as-p-2000-screening-marks-2-vpxzqmmelatnne2t.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000-screening",
+      "isOutOfSyllabus": false,
+      "topic": "ionization-energy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000 Screening",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Read the following statement and explanation and answer as per the options given below\nASSERTION :  The first ionization energy of Be is greater than that of B.\nREASON : 2p orbital is lower in energy than 2s."
+        }
+      },
+      "yearKey": "iit-jee-2000-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "5czh9alc5o8fhbkw6h9k",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Amongst H<sub>2</sub>O, H<sub>2</sub>S, H<sub>2</sub>Se and H<sub>2</sub>Te, the one with the highest boiling point is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "H<sub>2</sub>O because of hydrogen bonding"
+            },
+            {
+              "identifier": "B",
+              "content": "H<sub>2</sub>Te because of higher molecular weight"
+            },
+            {
+              "identifier": "C",
+              "content": "H<sub>2</sub>S because of hydrogen bonding"
+            },
+            {
+              "identifier": "D",
+              "content": "H<sub>2</sub>Se because of lower molecular weight"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The correct answer is Option A: H<sub>2</sub>O because of hydrogen bonding.</p>\n\n<p>To understand why this is the case, consider the molecular structures and intermolecular forces affecting each of these compounds. Hydrides of Group 16 elements (also known as chalcogens) such as H<sub>2</sub>O (water), H<sub>2</sub>S (hydrogen sulfide), H<sub>2</sub>Se (hydrogen selenide), and H<sub>2</sub>Te (hydrogen telluride) show a variety of physical properties, primarily influenced by their molecular weights and the types of intermolecular forces they exhibit.</p>\n\n<p>H<sub>2</sub>O has the lowest molecular weight among the given hydrides, but it exhibits unusually high boiling and melting points due to the presence of strong hydrogen bonds between the water molecules. Hydrogen bonds are strong dipole-dipole attractions between molecules that occur when a hydrogen atom is bonded to a highly electronegative atom (oxygen, in the case of water) and is attracted to another electronegative atom.</p>\n\n<p>In contrast, while H<sub>2</sub>S, H<sub>2</sub>Se, and H<sub>2</sub>Te have increasingly higher molecular weights, they predominantly exhibit weaker dipole-dipole interactions and London dispersion forces (which increase with molecular weight). However, they do not exhibit hydrogen bonding to the extent that water does because sulfur, selenium, and tellurium are less electronegative than oxygen, making their bonds with hydrogen less polar.</p>\n\n<p>As a result, despite the trend of increasing boiling point with molecular weight observed from H<sub>2</sub>S to H<sub>2</sub>Te, water's boiling point is significantly higher due to the strong intermolecular hydrogen bonding. Therefore, the higher boiling point of water compared to the other hydrides supports Option A.</p>"
+        }
+      },
+      "permalink": "amongst-h2o-h2s-h2se-and-h2te-the-one-with-the-highest-bo-2000-screening-marks-1-xfmm6bqtwvxfokfa.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000-screening",
+      "isOutOfSyllabus": false,
+      "topic": "nature-of-oxide",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000 Screening",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Amongst H2O, H2S, H2Se and H2Te, the one with the highest boiling point is"
+        }
+      },
+      "yearKey": "iit-jee-2000-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "iuurm1pr44sr06bu5fqz",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Ionic radii of",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Ti<sup>4+</sup> &lt; Mn<sup>7+</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "<sup>35</sup>Cl<sup>-</sup> &lt; <sup>37</sup>Cl<sup>-</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "K<sup>+</sup> &gt; Cl<sup>-</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "P<sup>3+</sup> &gt; P<sup>5+</sup>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The ionic radius of an ion is influenced by several factors, including the number of protons in the nucleus, the electron configuration, and the charge on the ion. Let’s discuss each option provided:</p>\n\n<p>Option A: Ti<sup>4+</sup> < Mn<sup>7+</sup><br>\n\n<p>This comparison is between titanium ion with a +4 charge and manganese ion with a +7 charge. Generally, as the positive charge on an ion increases, the radius decreases because the effective nuclear charge pulling on the electrons increases. Titanium (Ti) has an atomic number of 22, and manganese (Mn) has an atomic number of 25. Although Mn has more protons, the much higher charge of +7 in Mn<sup>7+</sup> compared to +4 in Ti<sup>4+</sup> significantly reduces its radius. Therefore, Mn<sup>7+</sup> typically has a smaller ionic radius than Ti<sup>4+</sup>. This suggests that Option A is incorrect.</p></p>\n\n<p>Option B: <sup>35</sup>Cl<sup>-</sup> < <sup>37</sup>Cl<sup>-</sup><br>\n\n<p>This option compares two isotopes of chlorine ions, each carrying a -1 charge, but with different mass numbers due to different numbers of neutrons. The ionic radii of isotopes are practically identical because isotopic differences involve neutrons, not protons or electrons. Electrons, which determine the size of the electron cloud and hence the ionic radius, are not affected by the number of neutrons. As a result, Option B is incorrect as isotopic differences do not influence ionic radii significantly.</p></p>\n\n<p>Option C: K<sup>+</sup> > Cl<sup>-</sup><br>\n\n<p>Potassium ion (K<sup>+</sup>) and chloride ion (Cl<sup>-</sup>) each have 18 electrons (isoelectronic), but potassium has more protons (19 for K versus 17 for Cl), meaning that K<sup>+</sup> has a stronger effective nuclear charge than Cl<sup>-</sup>. Despite this, ions typically expand with a negative charge and contract with a positive charge due to changes in electron-electron repulsion and nuclear pull. Here, since both ions have the same number of electrons, the ion with fewer protons (Cl<sup>-</sup>) will have a larger radius compare to K<sup>+</sup>. Thus, Option C is incorrect.</p></p>\n\n<p>Option D: P<sup>3+</sup> < P<sup>5+</sup><br>\n\n<p>This comparison involves phosphorus ions with different charges. Increasing the positive charge from +3 to +5 leads to an increased nuclear charge effect on fewer electrons, shrinking the ion. Thus, a phosphorus ion with a +5 charge will be smaller than with a +3 charge. This means that P<sup>3+</sup> is larger than P<sup>5+</sup>, making Option D correct.</p></p>\n\n<p>Summarily, the correct ionic radius comparison is Option D: P<sup>3+</sup> > P<sup>5+</sup>.</p>"
+        }
+      },
+      "permalink": "ionic-radii-of-1999-marks-3-kbl1pzhtbggrcrdo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "atomic-and-ionic-radius",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Ionic radii of"
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0tesjrag36gz659r67bv",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Which of the following has the maximum number of unpaired electrons?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Mg<sup>2+</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "Ti<sup>3+</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "V<sup>3+</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "Fe<sup>2+</sup>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>To find which of the given options has the maximum number of unpaired electrons, we first need to determine the electronic configurations of the ions and then count the number of unpaired electrons in each. Let's evaluate each option:</p>\n\n<p><b>Option A: Mg<sup>2+</sup></b></p>\n\n<p>Magnesium (Mg) has an atomic number of 12, so its ground state electronic configuration is $1s^2 2s^2 2p^6 3s^2$. The $Mg^{2+}$ ion loses two electrons:\n\n<p>$$\\text{Configuration of } Mg^{2+}: 1s^2 2s^2 2p^6$$</p>\n\n<p>All the electrons in $Mg^{2+}$ are paired, so there are 0 unpaired electrons.</p></p>\n\n<p><b>Option B: Ti<sup>3+</sup></b></p>\n\n<p>Titanium (Ti) has an atomic number of 22, and its ground state electronic configuration is $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^2$. The $Ti^{3+}$ ion loses two electrons from the 4s orbital and one from the 3d orbital:\n\n<p>$$\\text{Configuration of } Ti^{3+}: 1s^2 2s^2 2p^6 3s^2 3p^6 3d^1$$</p>\n\n<p>As there is one electron in the 3d orbital, $Ti^{3+}$ has 1 unpaired electron.</p></p>\n\n<p><b>Option C: V<sup>3+</sup></b></p>\n\n<p>Vanadium (V) has an atomic number of 23, and its ground state electronic configuration is $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^3$. The $V^{3+}$ ion loses two electrons from the 4s orbital and one electron from the 3d orbital:\n\n<p>$$\\text{Configuration of } V^{3+}: 1s^2 2s^2 2p^6 3s^2 3p^6 3d^2$$</p>\n\n<p>There are 2 unpaired electrons in the 3d orbital of $V^{3+}$.</p></p>\n\n<p><b>Option D: Fe<sup>2+</sup></b></p>\n\n<p>Iron (Fe) has an atomic number of 26, and its ground state electronic configuration is $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6$. The $Fe^{2+}$ ion loses two electrons from the 4s orbital:\n\n<p>$$\\text{Configuration of } Fe^{2+}: 1s^2 2s^2 2p^6 3s^2 3p^6 3d^6$$</p>\n\n<p>In the $Fe^{2+}$ ion, there are 4 unpaired electrons in the 3d subshell.</p></p>\n\n<p><b>Conclusion:</b> Among the given ions, $Fe^{2+}$ has the maximum number of unpaired electrons (4 unpaired electrons), making <b>Option D</b> the correct choice.</p>"
+        }
+      },
+      "permalink": "which-of-the-following-has-the-maximum-number-of-unpaired-el-1996-marks-1-fe9guyrz2fteskn1.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "isOutOfSyllabus": false,
+      "topic": "periodic-table-and-its-features",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Which of the following has the maximum number of unpaired electrons?"
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "14cwui1eaeg0jnwru6tn",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1995,
+      "paperTitle": "IIT-JEE 1995 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Which has most stable +2 oxidation state?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Sn"
+            },
+            {
+              "identifier": "B",
+              "content": "Pb"
+            },
+            {
+              "identifier": "C",
+              "content": "Fe"
+            },
+            {
+              "identifier": "D",
+              "content": "Ag"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The correct answer is <strong>B: Pb (lead)</strong>.</p>\n\n<p>Here's why:</p>\n\n<ul>\n<li><strong>Inert Pair Effect:</strong> Elements in the lower part of the periodic table, particularly in groups 13, 14, and 15, exhibit the inert pair effect. This means the two electrons in the outermost s-orbital tend to remain unshared, leading to a preference for a lower oxidation state (two less than the group number).</li><br>\n<li><strong>Relative Position:</strong> Lead (Pb) is located below tin (Sn) in Group 14 of the periodic table. As you move down a group, the inert pair effect becomes more pronounced. This means Pb will exhibit a more stable +2 oxidation state compared to Sn.</li><br>\n<li><strong>Other Options:</strong>  Iron (Fe) and Silver (Ag) are transition metals. Transition metals exhibit variable oxidation states and don't follow the inert pair effect trend.</li>\n</ul>\n<strong>Therefore, due to the strong inert pair effect, lead (Pb) has the most stable +2 oxidation state.</strong>\n\n<p></p>"
+        }
+      },
+      "permalink": "which-has-most-stable-2-oxidation-state-1995-screening-marks-1-zixvvoaxluzsrxzf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1995-screening",
+      "isOutOfSyllabus": false,
+      "topic": "nature-of-oxide",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1995 Screening",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Which has most stable +2 oxidation state?"
+        }
+      },
+      "yearKey": "iit-jee-1995-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vh6v2rzwtpdu4khvbxhl",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1993,
+      "paperTitle": "IIT-JEE 1993",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The basic nature of the hydroxides of group 13 (Gr. III B) decreases progressively down the group.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The answer is <strong>FALSE</strong>.</p>\n\n<p>Here's why:</p>\n\n<ul>\n<li><strong>Basic Nature and Metallic Character:</strong>  The basic nature of hydroxides is related to the metallic character of the element forming the hydroxide. As you move down a group in the periodic table, metallic character increases.</li><br>\n<li><strong>Group 13 Trends:</strong>  In Group 13, as you move down the group from Boron (B) to Thallium (Tl):</li><br>\n<li>Metallic character increases.</li><br>\n<li>The size of the atom increases.</li><br>\n<li>The tendency to lose electrons increases.</li><br>\n<li><strong>Hydroxide Formation:</strong> This increased metallic character leads to more ionic bonds between the metal and the hydroxide (OH<sup>-</sup>) group. More ionic bonds mean easier dissociation into ions in solution, making the hydroxide more basic.</li>\n</ul>\n<strong>Therefore, the basic nature of the hydroxides of group 13 elements INCREASES down the group.</strong>\n\n<p></p>"
+        }
+      },
+      "permalink": "the-basic-nature-of-the-hydroxides-of-group-13-gr-iii-b-d-1993-marks-1-35aa5nt9slz1kqfh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1993",
+      "isOutOfSyllabus": false,
+      "topic": "periodic-table-and-its-features",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1993",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The basic nature of the hydroxides of group 13 (Gr. III B) decreases progressively down the group."
+        }
+      },
+      "yearKey": "iit-jee-1993"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "4u0faaz327u7fsckdeit",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1993,
+      "paperTitle": "IIT-JEE 1993",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The decreasing order of electron affinity of F, Cl, Br is F &gt; Cl &gt; Br",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Electron affinity is the amount of energy released when an electron is added to a neutral atom in the gaseous state to form an ion. It is a measure of the attraction of an atom for an added electron.</p>\n\n<p>Generally, when moving from top to bottom in a group in the periodic table, the electron affinity decreases. This decrease is mainly because the atomic radius increases, which results in the added electron being farther from the atom's nucleus. A longer distance weakens the attraction between the electron and the nucleus.</p>\n\n<p>In the case of halogens (Group 17 in the periodic table), the electron affinities are high because these atoms need just one more electron to complete their outer electron shell, achieving a stable noble gas configuration. Looking at fluorine (F), chlorine (Cl), and bromine (Br), we can analyze their trends in electron affinity.</p>\n\n<p>Fluorine, being at the top of the halogens in the periodic table, might be expected to have the highest electron affinity. However, due to its very small size and high electron density, there is significant electron-electron repulsion when an extra electron is added. This repulsion somewhat diminishes the energy release upon gaining an electron.</p>\n\n<p>Chlorine, on the other hand, while larger than fluorine, experiences lesser electron-electron repulsion relative to its size. This optimal balance leads to a generally higher amount of energy released when an electron is added to chlorine compared to fluorine and bromine. Therefore, chlorine often has a higher electron affinity than fluorine.</p>\n\n<p>Bromine, being larger than both fluorine and chlorine, has an even smaller electron affinity because the added electron is further from the nucleus, reducing the effective nuclear charge experienced by the electron and consequently the energy release upon electron capture.</p>\n\n<p>Thus, the typical order for electron affinities in these halogens would be $$Cl > F > Br$$. Therefore, the statement in the question, \"The decreasing order of electron affinity of F, Cl, Br is F &gt; Cl &gt; Br\" is actually <strong>FALSE</strong>. The correct order, as explained, should ideally be $$Cl > F > Br$$.</p>"
+        }
+      },
+      "permalink": "the-decreasing-order-of-electron-affinity-of-f-cl-br-is-f-1993-marks-1-teqbixejnhuvud0h.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1993",
+      "isOutOfSyllabus": false,
+      "topic": "electron-gain-enthalpy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1993",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The decreasing order of electron affinity of F, Cl, Br is F > Cl > Br"
+        }
+      },
+      "yearKey": "iit-jee-1993"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "cg0kzjs87mwb1ik5p0st",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1992,
+      "paperTitle": "IIT-JEE 1992",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The statement that is not correct for the periodic classification of element is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The properties of elements are the periodic functions of their atomic numbers"
+            },
+            {
+              "identifier": "B",
+              "content": "Non-metallic elements are lesser in number than metallic elements"
+            },
+            {
+              "identifier": "C",
+              "content": "The first ionisation energies of elements along a period do not vary in a regular manner with increase in atomic number"
+            },
+            {
+              "identifier": "D",
+              "content": "For transition elements the d-subshells are filled with electrons monotonically with increase in atomic number."
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The statement that is not correct for the periodic classification of elements is <strong>Option D</strong>.</p>\n\n<p>Let's analyze each option for clarity:</p>\n\n<p><strong>Option A: The properties of elements are the periodic functions of their atomic numbers.</strong><br>\n\n<p>This statement is correct. The modern periodic table is arranged in order of increasing atomic number, and the properties of elements repeat periodically. This periodicity in properties arises due to the similar electronic configurations that occur periodically as the atomic number increases.</p></p>\n\n<p><strong>Option B: Non-metallic elements are lesser in number than metallic elements.</strong><br>\n\n<p>This statement is also correct. In the periodic table, the majority of elements are metals. Non-metals make up a smaller fraction of the elements, predominantly located in the upper right corner of the periodic table plus hydrogen.</p></p>\n\n<p><strong>Option C: The first ionization energies of elements along a period do not vary in a regular manner with increase in atomic number.</strong><br>\n\n<p>This statement is correct. As you move from left to right within a period, the first ionization energy generally increases. However, there are exceptions (such as between Groups II and III where the first ionization energy drops slightly), which means the variation isn't strictly regular or linear but shows a general trend with minor irregularities due to electronic structure differences.</p></p>\n\n<p><strong>Option D: For transition elements, the d-subshells are filled with electrons monotonically with increase in atomic number.</strong><br>\n\n<p>This statement is incorrect, which makes it the answer. In the series of transition elements, the filling of d-subshells with electrons doesn't always happen monotonically (i.e., in a strictly increasing order). The electron configuration of transition metals can appear complex due to the involvement of both 4s and 3d subshells, where electrons may not fill sequentially. A notable exception can be seen in elements like chromium and copper, where electron configurations show anomalies (e.g., $$\\text{Cr: [Ar]} 3d^5 4s^1$$ instead of the expected $$3d^4 4s^2$$). This statement falsely suggests a regular, uninterrupted filling pattern.</p></p>"
+        }
+      },
+      "permalink": "the-statement-that-is-not-correct-for-the-periodic-classific-1992-marks-1-yir9pcbyqnqqjhkr.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1992",
+      "isOutOfSyllabus": false,
+      "topic": "periodic-table-and-its-features",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1992",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The statement that is not correct for the periodic classification of element is"
+        }
+      },
+      "yearKey": "iit-jee-1992"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qtlh293vregdnq4xv4l5",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1991,
+      "paperTitle": "IIT-JEE 1991",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Arrange of the following in :<br>\nIncreasing order of ionic size:<br>\nN<sup>3-</sup>, Na<sup>+</sup>, F<sup>-</sup>, O<sup>2-</sup>, Mg<sup>2+</sup>",
+          "options": [],
+          "correct_options": [],
+          "answer": "Mg<sup>2+</sup> &lt; Na<sup>+</sup> &lt; F<sup>-</sup> &lt; O<sup>2-</sup> &lt; N<sup>3-</sup>",
+          "explanation": "<p>To arrange ions in order of increasing ionic size, we need to consider two main factors: the nuclear charge of the ions and the number of electrons each ion possesses. A general rule is that within an isoelectronic series (ions having the same number of electrons), an ion with a higher nuclear charge will be smaller because of the stronger attraction between the nucleus and the electron cloud.</p>\n\n<p>First, identify the total number of electrons in each species for comparison:</p>\n\n<ul>\n\n<li>N<sup>3-</sup> would have 7 (number of protons in N) + 3 = 10 electrons.</li>\n\n<li>Na<sup>+</sup> would have 11 (number of protons in Na) - 1 = 10 electrons.</li>\n\n<li>F<sup>-</sup> would have 9 (number of protons in F) + 1 = 10 electrons.</li>\n\n<li>O<sup>2-</sup> would have 8 (number of protons in O) + 2 = 10 electrons.</li>\n\n<li>Mg<sup>2+</sup> would have 12 (number of protons in Mg) - 2 = 10 electrons.</li>\n\n</ul>\n\n<p>All these ions are isoelectronic, having the same number of electrons, but the nuclear charge varies, affecting their sizes. The ionic radius decreases typically with an increase in nuclear charge due to the increased pull on the electrons:</p>\n\n<ul>\n\n<li><strong>N<sup>3-</sup></strong> (10 protons, most negative, least nuclear pull relative to its electron cloud)</li>\n\n<li><strong>O<sup>2-</sup></strong> (8 protons)</li>\n\n<li><strong>F<sup>-</sup></strong> (9 protons)</li>\n\n<li><strong>Na<sup>+</sup></strong> (11 protons)</li>\n\n<li><strong>Mg<sup>2+</sup></strong> (12 protons, most positive, strongest nuclear pull)</li>\n\n</ul>\n\n<p>Thus, in increasing order of ionic size, the sequence is:</p>\n\n<p>$$\\text{Mg}^{2+} < \\text{Na}^+ < \\text{F}^- < \\text{O}^{2-} < \\text{N}^{3-}$$</p>\n\n<p>This arrangement is due to the increasing effect of the nuclear charge in pulling the electron cloud closer as the charge becomes more positive, and the increasing number of electrons or increased negative charge would generally cause an increase in the ionic radius.</p>"
+        }
+      },
+      "permalink": "arrange-of-the-following-in-increasing-order-of-ionic-size-1991-marks-1-6p8rsmzqgfyjezxw.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1991",
+      "isOutOfSyllabus": false,
+      "topic": "atomic-and-ionic-radius",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1991",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Arrange of the following in :\nIncreasing order of ionic size:\nN3-, Na+, F-, O2-, Mg2+"
+        }
+      },
+      "yearKey": "iit-jee-1991"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8w0nee6aco7pbi9d6o7l",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1991,
+      "paperTitle": "IIT-JEE 1991",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Arrange of the following in :<br> \nIncreasing order of basic character<br>\nMgO, SrO, K<sub>2</sub>O, NiO, Cs<sub>2</sub>O",
+          "options": [],
+          "correct_options": [],
+          "answer": "NiO &lt; MgO  &lt; SrO &lt;  K<sub>2</sub>O &lt;  Cs<sub>2</sub>O",
+          "explanation": "<p>When comparing the basic character of oxides, we must consider several factors, including the position of the metal in the periodic table and the nature of the oxide (whether it is ionic or covalent). Basic character generally increases as you move down a group in the periodic table due to the decrease in electronegativity and the increase in metallic character. Basic character also tends to be higher in oxides of metals as compared to those of nonmetals.</p>\n\n<p>We have the following compounds to consider: MgO, SrO, K<sub>2</sub>O, NiO, and Cs<sub>2</sub>O. Oxides of alkali metals (K<sub>2</sub>O, Cs<sub>2</sub>O) and alkaline earth metals (MgO, SrO) tend to be more basic than oxides of transition metals (NiO). Within each group (alkali and alkaline earth metals), the basic character increases as we move down the group. This is due to the larger atomic size and reduced ionic character, making the oxide ion ($$ O^{2-} $$) more able to accept a proton.</p>\n\n<p>Among the given oxides:</p>\n\n<ul>\n\n<li>Alkali metal oxides (K<sub>2</sub>O and Cs<sub>2</sub>O) are generally more basic than alkaline earth metal oxides.</li>\n\n<li>In the alkaline earth group, beryllium and magnesium oxides behave more amphoteric and less basic compared to oxides of calcium, strontium, and barium. So, SrO is more basic than MgO.</li>\n\n<li>For alkali metals, cesium oxide (Cs<sub>2</sub>O) is more basic than potassium oxide (K<sub>2</sub>O) due to being further down the group in the periodic table.</li>\n\n<li>Nickel oxide (NiO), being a transition metal oxide, is generally less basic compared to oxides from either the alkali or alkaline earth metals.</li>\n\n</ul>\n\n<p>Therefore, the increasing order of basic strength for these oxides is:</p>\n\n<p>$$ \\text{NiO} < \\text{MgO} < \\text{SrO} < \\text{K}_2\\text{O} < \\text{Cs}_2\\text{O} $$</p>\n\n<p>This order reflects moving from transition metal oxides to more typical alkaline earth metal oxides, and then to more basic alkali metal oxides, with the basicity increasing significantly as we move from lighter to heavier elements within each metal group.</p>"
+        }
+      },
+      "permalink": "arrange-of-the-following-in-increasing-order-of-basic-cha-1991-marks-1-zr40n5ew9exh82is.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1991",
+      "isOutOfSyllabus": false,
+      "topic": "periodic-table-and-its-features",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1991",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Arrange of the following in : \nIncreasing order of basic character\nMgO, SrO, K2O, NiO, Cs2O"
+        }
+      },
+      "yearKey": "iit-jee-1991"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "idtyx9v72n2maaulzwsu",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1991,
+      "paperTitle": "IIT-JEE 1991",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Arrange of the following in :<br> \nArrange the following ions in order of their increasing radii:<br>\nLi<sup>+</sup>, Mg<sup>2+</sup>, K<sup>+</sup>, Al<sup>3+</sup> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "Al<sup>3+</sup> &lt; Mg<sup>2+</sup> &lt; Li<sup>+</sup> &lt; K<sup>+</sup>",
+          "explanation": "<p>To arrange the ions Li<sup>+</sup>, Mg<sup>2+</sup>, K<sup>+</sup>, and Al<sup>3+</sup> in order of their increasing radii, we need to consider several factors, primarily the atomic number (i.e., the number of protons in the nucleus), the number of electrons, and the effective nuclear charge experienced by the outer electrons.</p>\n\n<p>Here is a brief overview of each ion:</p>\n\n<ul>\n\n<li><strong>Li<sup>+</sup></strong>: This is a lithium ion with one electron removed, leaving it with 2 electrons. The original lithium atom has an atomic number of 3. The loss of one electron increases the effective nuclear charge experienced by the remaining electrons, pulling them closer and reducing the size of the ion compared to the neutral atom.</li>\n\n<li><strong>Mg<sup>2+</sup></strong>: This is a magnesium ion with two electrons removed, leaving it with 10 electrons. Its atomic number is 12. This ionization results in a smaller ionic radius, as the loss of two electrons greatly increases the effective nuclear charge, causing the electrons to be held more tightly and closer to the nucleus.</li>\n\n<li><strong>K<sup>+</sup></strong>: This is a potassium ion with one electron removed, leaving it with 18 electrons. It has an atomic number of 19. Like Li<sup>+</sup>, losing one electron increases its effective nuclear charge, but the effect is less pronounced compared to Li<sup>+</sup> and Mg<sup>2+</sup> because potassium starts with more electron shells.</li>\n\n<li><strong>Al<sup>3+</sup></strong>: This is an aluminum ion with three electrons removed, leaving it with 10 electrons. Its atomic number is 13. Removing three electrons substantially increases effective nuclear charge, thereby significantly decreasing the ionic radius.</li>\n\n</ul>\n\n<p>When arranging ions in order of increasing ionic radius, it's also critical to consider periodic trends:</p>\n\n<ol>\n\n<li>Within a period, as the nuclear charge increases and the number of electrons remains similar (across cations), the radius decreases.</li>\n\n<li>Across periods, ions with more electron shells tend to be larger if the number of missing electrons (from being cations) is the same or similar.</li>\n\n</ol>\n\n<p>Hence, considering that Li<sup>+</sup>, Mg<sup>2+</sup>, and Al<sup>3+</sup> are found in Period 2, and K<sup>+</sup> is in Period 4, we can ascertain that K<sup>+</sup> will generally be larger than those in Period 2. Within Period 2, the increasing removal of electrons (with Al<sup>3+</sup> losing most) implies that Al<sup>3+</sup> should be the smallest, followed by Mg<sup>2+</sup> and then Li<sup>+</sup>.</p>\n\n<p>Thus, the ions in order of increasing radii are:</p>\n\n<p>$$ \\text{Al}^{3+} < \\text{Mg}^{2+} < \\text{Li}^+ < \\text{K}^+ $$</p>\n\n<p>This arrangement follows both the periodic trend of decreasing radius with increasing nuclear charge (and ionic charge) in a period and the general increase in size with additional electron shells across periods.</p>"
+        }
+      },
+      "permalink": "arrange-of-the-following-in-arrange-the-following-ions-in-1991-marks-1-yyezwpvumkehgddy.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1991",
+      "isOutOfSyllabus": false,
+      "topic": "atomic-and-ionic-radius",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1991",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Arrange of the following in : \nArrange the following ions in order of their increasing radii:\nLi+, Mg2+, K+, Al3+ "
+        }
+      },
+      "yearKey": "iit-jee-1991"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7lh7ubw8s93486lwdy2x",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1990,
+      "paperTitle": "IIT-JEE 1990",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Amongst the following elements (whose electronic configuration are given below), the one having the highest ionization energy is:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "[Ne] 3s<sup>2</sup>3p<sup>1</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "[Ne] 3s<sup>2</sup>3p<sup>3</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "[Ne] 3s<sup>2</sup>3p<sup>2</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "[Ne] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>3</sup>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The ionization energy of an element is the energy required to remove an electron from a gaseous atom or ion. The higher the ionization energy, the more difficult it is to remove an electron. Ionization energy tends to increase across a period on the periodic table and decreases down a group. This pattern is due primarily to the increasing nuclear charge and the decreasing radius of atoms across a period, which results in a stronger attraction between the nucleus and the outermost electron.</p>\n\n<p>Let's analyze the given options based on their electron configurations and how they fit into the periodic table:</p>\n\n<ul>\n\n<li><strong>Option A: [Ne] 3s<sup>2</sup>3p<sup>1</sup></strong> - This configuration corresponds to aluminum (Al), which is in the 3rd group and 3rd period of the periodic table.</li>\n\n<li><strong>Option B: [Ne] 3s<sup>2</sup>3p<sup>3</sup></strong> - This configuration corresponds to phosphorus (P), which is in the 5th group and 3rd period.</li>\n\n<li><strong>Option C: [Ne] 3s<sup>2</sup>3p<sup>2</sup></strong> - This configuration corresponds to silicon (Si), which is in the 4th group and 3rd period.</li>\n\n<li><strong>Option D: [Ne] 3d<sup>10</sup>4s<sup>2</sup>4p<sup>3</sup></strong> - This configuration corresponds to arsenic (As), which is in the 5th group but in the 4th period.</li>\n\n</ul>\n\n<p>Comparing the elements within the same period (options A, B, and C), phosphorus (Option B) has electrons filled up to the higher p orbital (3p<sup>3</sup>) which leads to a higher effective nuclear charge exerted on the valence electrons compared to aluminum (3p<sup>1</sup>) and silicon (3p<sup>2</sup>). This increased effective nuclear charge results in higher electron-nucleus attraction, thus higher ionization energy. On the other hand, arsenic (Option D), though having an increased nuclear charge, is located in a higher period where increased shielding effect and a larger atomic radius might reduce the ionization energy compared to elements in the 3rd period.</p>\n\n<p>Therefore, amongst the given elements, phosphorus (Option B: [Ne] 3s<sup>2</sup>3p<sup>3</sup>) has the highest ionization energy because it has a higher effective nuclear charge compared to the others in the same period and less shielding effect than arsenic which is in the 4th period.</p>"
+        }
+      },
+      "permalink": "amongst-the-following-elements-whose-electronic-configurati-1990-marks-1-eyuvrim6wgdfs5sa.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1990",
+      "isOutOfSyllabus": false,
+      "topic": "ionization-energy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1990",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Amongst the following elements (whose electronic configuration are given below), the one having the highest ionization energy is:"
+        }
+      },
+      "yearKey": "iit-jee-1990"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "2wi5h4n70yc59t3ya9wa",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Which one of the following is the strongest base?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "AsH<sub>3</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "NH<sub>3</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "PH<sub>3</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "SbH<sub>3</sub>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine the strongest base among the options given (AsH<sub>3</sub>, NH<sub>3</sub>, PH<sub>3</sub>, SbH<sub>3</sub>), we should look into the basicity of these hydrides. Basicity refers to the ability of a molecule to donate a lone pair of electrons, which in the case of these hydrides involves the donation of the lone pair from the central atom to a proton. This ability largely depends on the electron density around the central atom which has the lone pair.</p>\n\n<p>In Group 15 of the periodic table (N, P, As, Sb), as we move down the group from nitrogen (N) to antimony (Sb), the size of the central atom increases and the electronegativity decreases. Consequently, the electron density available to be donated decreases because the larger atomic size causes the lone pair to be more diffused and less concentrated.</p>\n\n<p><strong>NH<sub>3</sub> (Ammonia)</strong>:\n\n<p>Ammonia is known to be a stronger base than the other Group 15 hydrides due to nitrogen's higher electronegativity relative to phosphorus, arsenic, and antimony. This higher electronegativity means the lone pair on nitrogen is held more tightly, making it more available for bonding compared to those lower in the group. </p></p>\n\n<p><strong>PH<sub>3</sub> (Phosphine)</strong>, <strong>AsH<sub>3</sub> (Arsine)</strong>, <strong>SbH<sub>3</sub> (Stibine)</strong>:\n\n<p>These molecules, being lower in the group, have central atoms with larger sizes and lower electronegativities than nitrogen. This results in a weaker ability to donate their lone pair of electrons, thus demonstrating weaker basic properties compared to ammonia.</p></p>\n\n<p>From the given choices, <strong>Option B: NH<sub>3</sub></strong> is the strongest base. This is because the ammonia molecule's smaller, more electronegative nitrogen atom can more effectively share its electron density compared to the larger, less electronegative atoms found in the other options.</p>"
+        }
+      },
+      "permalink": "which-one-of-the-following-is-the-strongest-base-1989-marks-1-jwp2cm5txc74yzdi.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "isOutOfSyllabus": false,
+      "topic": "periodic-table-and-its-features",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Which one of the following is the strongest base?"
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "5oe8pfxsowbl9hag57gn",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Which one of the following is the smallest in size?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "N<sup>3-</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "O<sup>2-</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "F<sup>-</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "Na<sup>+</sup>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The size of ions is generally influenced by two main factors: the number of protons in the nucleus (nuclear charge) and the number of electrons around the nucleus (electronic configuration). Additionally, ions of the same period on the periodic table can be compared based on their charge and number of electrons.</p>\n\n<p>In this set of options, all the ions are isoelectronic, meaning they all possess the same number of electrons (10 electrons each). They correspond to the electronic configuration of neon (Ne), a noble gas:</p>\n\n<ul>\n\n<li><strong>N<sup>3-</sup></strong> is a nitride ion with a -3 charge.</li>\n\n<li><strong>O<sup>2-</sup></strong> is an oxide ion with a -2 charge.</li>\n\n<li><strong>F<sup>-</sup></strong> is a fluoride ion with a -1 charge.</li>\n\n<li><strong>Na<sup>+</sup></strong> is a sodium ion with a +1 charge.</li>\n\n</ul>\n\n<p>To determine which ion is smallest, we look at the effective nuclear charge, which increases across a period from left to right due to an increase in protons while maintaining the same electronic shield (same number of electrons). Therefore, as the number of protons increases, the attraction between the nucleus and the electrons increases, pulling the electrons closer to the nucleus and decreasing the radius of the ion.</p>\n\n<p>Given the ions listed:</p>\n\n<ul>\n\n<li>Nitrogen (N) in <strong>N<sup>3-</sup></strong> has 7 protons.</li>\n\n<li>Oxygen (O) in <strong>O<sup>2-</sup></strong> has 8 protons.</li>\n\n<li>Fluorine (F) in <strong>F<sup>-</sup></strong> has 9 protons.</li>\n\n<li>Sodium (Na) in <strong>Na<sup>+</sup></strong> has 11 protons.</li>\n\n</ul>\n\n<p>Based on this count, <strong>Na<sup>+</sup></strong> with the highest number of protons will have the highest effective nuclear charge. This leads to a greater attraction of electrons towards the nucleus, making Na<sup>+</sup> the smallest ion among those listed.</p>\n\n<p>Thus, the answer is <strong>Option D: Na<sup>+</sup></strong>.</p>"
+        }
+      },
+      "permalink": "which-one-of-the-following-is-the-smallest-in-size-1989-marks-1-hccuhjygaeg22huz.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "isOutOfSyllabus": false,
+      "topic": "atomic-and-ionic-radius",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Which one of the following is the smallest in size?"
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "8wwx9z8rowps0y21kuph",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Sodium sulphate is soluble in water whereas barium sulphate is sparingly soluble because",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the hydration energy of sodium sulphate is more than its lattice energy"
+            },
+            {
+              "identifier": "B",
+              "content": "the lattice energy of barium sulphate is more than its hydration energy"
+            },
+            {
+              "identifier": "C",
+              "content": "the lattice energy has no role to play in solubility"
+            },
+            {
+              "identifier": "D",
+              "content": "the hydration energy of sodium sulphate is less than its lattice energy"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The solubility of ionic compounds in water is influenced by two principal factors: lattice energy and hydration energy. Lattice energy is the amount of energy that is released when the ions of an ionic compound come together to form a crystalline lattice. On the other hand, hydration energy is the amount of energy released when water molecules surround and interact with the ions of a solute.</p>\n\n<p>The solubility of an ionic compound in water generally increases when its hydration energy is greater than its lattice energy. This is because the energy provided by the water molecules (hydration energy) compensates for and surpasses the energy required to break apart the ions in the crystal lattice (lattice energy).</p>\n\n<p>For sodium sulphate ($\\text{Na}_2\\text{SO}_4$), it is highly soluble in water. This is because its hydration energy exceeds its lattice energy. The ions in sodium sulphate (Na+ and $\\text{SO}_4^{2-}$) are effectively stabilized by the relatively high hydration energy resulting from water molecules surrounding these ions, which compensates for the energy needed to separate the ions from the lattice. Thus, Option A is a correct statement describing this scenario.</p>\n\n<p>In the case of barium sulphate ($\\text{BaSO}_4$), it is sparingly soluble in water because its lattice energy is greater than its hydration energy. The ions (Ba$^{2+}$ and $\\text{SO}_4^{2-}$) form a very stable lattice which requires a lot of energy to be disrupted. The hydration energy provided by the surrounding water molecules is not sufficient to overcome this high lattice energy. Therefore, Option B correctly describes why barium sulphate is sparingly soluble.</p>\n\n<p>Option C is incorrect as the lattice energy does indeed play a crucial role in determining the solubility of an ionic compound. It is one of the key factors that need to be overcome by hydration energy for dissolution to occur.</p>\n\n<p>Option D is also incorrect because stating that the hydration energy of sodium sulphate is less than its lattice energy would imply that sodium sulphate is not soluble in water, which contradicts the known high solubility of the compound.</p>\n\n<p>Therefore, Option A is correct for sodium sulphate, and Option B is correct for barium sulphate."
+        }
+      },
+      "permalink": "sodium-sulphate-is-soluble-in-water-whereas-barium-sulphate-1989-marks-1-mugjztnsszqwkgsr.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "isOutOfSyllabus": false,
+      "topic": "periodic-table-and-its-features",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Sodium sulphate is soluble in water whereas barium sulphate is sparingly soluble because"
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "nlzd9j8f0p92uel3o8k1",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1988,
+      "paperTitle": "IIT-JEE 1988",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The first ionisation potential of Na, Mg, Al and Si are in the order",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Na &lt; Mg &gt; Al &lt; Si"
+            },
+            {
+              "identifier": "B",
+              "content": "Na &gt; Mg &gt; Al &gt; Si"
+            },
+            {
+              "identifier": "C",
+              "content": "Na &lt; Mg &lt; Al &lt; Si"
+            },
+            {
+              "identifier": "D",
+              "content": "Na &gt; Mg &gt; Al &lt; Si"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The ionisation potential or ionisation energy is the energy required to remove the most loosely bound electron from an isolated gaseous atom to form a cation. The ionisation energy generally increases across a period on the periodic table and decreases down a group. This is mainly due to the increase in nuclear charge and the decrease in atomic radius as we move across a period. When moving down a group, the outer electrons are farther from the nucleus and more shielded by additional electron shells, leading to a decrease in ionisation energy.</p>\n\n<p>Let's consider the given elements which are all in the third period of the periodic table: Na (Sodium), Mg (Magnesium), Al (Aluminum), and Si (Silicon).</p>\n\n<ul>\n\n<li><strong>Na</strong> has an electronic configuration of $$1s^2 2s^2 2p^6 3s^1$$. The single electron in the 3s orbital is relatively easy to remove.</li>\n\n<li><strong>Mg</strong> has an electronic configuration of $$1s^2 2s^2 2p^6 3s^2$$. The removal of one electron from a filled 3s orbital requires more energy than removing one from a partially filled orbital, as in sodium.</li>\n\n<li><strong>Al</strong> has an electronic configuration of $$1s^2 2s^2 2p^6 3s^2 3p^1$$. Its ionisation energy is less than that of magnesium because removing one electron from the 3p orbital, which is higher in energy and less shielded than the 3s orbital, is easier.</li>\n\n<li><strong>Si</strong> has an electronic configuration of $$1s^2 2s^2 2p^6 3s^2 3p^2$$. The increased effective nuclear charge and additional electron in the 3p orbital mean that more energy is required to remove an electron from silicon than from aluminum.</li>\n\n</ul>\n\n<p>Therefore, the trend in the first ionisation energies of these elements increases from Na to Mg due to the addition of electrons to the same shell where effective nuclear charge increases and shielding is similar. However, a decrease occurs moving from Mg to Al because electrons start filling a new subshell with slightly higher energy and less effective shielding. Then, silicon, again experiences an increase due to an increase in effective nuclear charge with the filling of the same p-subshell.</p>\n\n<p>This trend corresponds to Option A: Na &lt; Mg &gt; Al &lt; Si. This means:\n\n<ul>\n\n<li>Sodium has the lowest first ionisation energy.</li>\n\n<li>Magnesium has a higher first ionisation energy than sodium.</li>\n\n<li>Aluminum has a lower first ionisation energy than magnesium, due to the starting population of the p-orbital.</li>\n\n<li>Silicon has a higher first ionisation energy than aluminum, owing to its greater effective nuclear charge and half-filled p-subshell stability.</li>\n\n</ul>\n\n</p>"
+        }
+      },
+      "permalink": "the-first-ionisation-potential-of-na-mg-al-and-si-are-in-t-1988-marks-1-1t0xaulvpnxzi2bk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1988",
+      "isOutOfSyllabus": false,
+      "topic": "ionization-energy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1988",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The first ionisation potential of Na, Mg, Al and Si are in the order"
+        }
+      },
+      "yearKey": "iit-jee-1988"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "5dpearcicy1m2sdwudb4",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1988,
+      "paperTitle": "IIT-JEE 1988",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The statements that are true for the long form of the periodic table are:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "it reflects the sequence of filling the electrons in the order of sub-energy level s, p, d and f"
+            },
+            {
+              "identifier": "B",
+              "content": "it helps to predict the stable valency states of the elements"
+            },
+            {
+              "identifier": "C",
+              "content": "it reflects trends in physical and chemical properties of the elements"
+            },
+            {
+              "identifier": "D",
+              "content": "it helps to predict the relative ionicity of the bond between any two elements"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The periodic table is a vital tool in chemistry and physics, classifying elements according to their properties and atomic structures. We can validate each option to see if each statement is true regarding the long form of the periodic table:</p>\n\n<p><strong>Option A: \"It reflects the sequence of filling the electrons in the order of sub-energy levels s, p, d, and f\"</strong></p>\n<p>True. The long form of the periodic table is designed based on the electron configuration of elements, where elements are arranged in blocks corresponding to the type of atomic orbital (s, p, d, or f) being filled with electrons. The filling order reflects the Aufbau principle, which predicts the order in which orbitals are filled: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p. This arrangement allows chemists and physicists to understand and predict the electronic structure of the atoms.</p>\n\n<p><strong>Option B: \"It helps to predict the stable valency states of the elements\"</strong></p>\n<p>True. The periodic table provides information on the valence electrons of elements, which are the electrons that participate in chemical bonding. The elements in the same group (column) have similar valence electron configurations, leading to similar chemical behaviors, including valency. For example, all elements in Group 1 have one electron in their outermost shell and typically exhibit a +1 oxidation state in compounds.</p>\n\n<p><strong>Option C: \"It reflects trends in physical and chemical properties of the elements\"</strong></p>\n<p>True. The periodic table systematically arranges elements in rows (periods) and columns (groups) based on increasing atomic number and similar electronic configurations, respectively. This setup reflects and predicts trends in both physical (such as atomic radius, ionization energy, and electronegativity) and chemical properties (such as reactivity and common oxidation states) across periods and down groups.</p>\n\n<p><strong>Option D: \"It helps to predict the relative ionicity of the bond between any two elements\"</strong></p>\n<p>Generally, less accurate compared with other statements. While the periodic table can suggest trends in electronegativity (which affects ionic character when different elements form compounds), predicting the relative ionicity of bonds between any two elements requires more specific information about their electronegativity differences, which may not be directly inferred from the periodic table alone. Rather, it requires specific calculations or additional data aside from just the position in the periodic table.</p>\n\n<p>In conclusion, Options A, B, and C are true statements regarding the long form of the periodic table, whereas Option D, while somewhat supported by trends indicated in the periodic table, is not fully accurate without further information or context. Thus, D is less directly supported by the layout of the periodic table alone.</p>"
+        }
+      },
+      "permalink": "the-statements-that-are-true-for-the-long-form-of-the-period-1988-marks-1-etdn51zkmceazgab.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1988",
+      "isOutOfSyllabus": false,
+      "topic": "periodic-table-and-its-features",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1988",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The statements that are true for the long form of the periodic table are:"
+        }
+      },
+      "yearKey": "iit-jee-1988"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "awr9qkgb4t70jqc9gs4o",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The electronegativity of the following elements increases in the order",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "C, N, Si, P"
+            },
+            {
+              "identifier": "B",
+              "content": "N, Si, C, P"
+            },
+            {
+              "identifier": "C",
+              "content": "Si, P, C, N"
+            },
+            {
+              "identifier": "D",
+              "content": "P, Si, N, C"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Electronegativity is a measure of the tendency of an atom to attract a bonding pair of electrons. This property increases across a period from left to right in the periodic table and decreases down a group. To determine the correct order of electronegativity for the given elements (C, N, Si, P), we need to consider their positions in the periodic table:</p>\n\n<ul>\n\n<li><strong>Carbon (C)</strong> and <strong>Nitrogen (N)</strong> are in the second period. Carbon is in Group 14 and Nitrogen is in Group 15.</li>\n\n<li><strong>Silicon (Si)</strong> and <strong>Phosphorus (P)</strong> are directly below Carbon and Nitrogen in the periodic table, belonging to the third period, in Groups 14 and 15 respectively.</li>\n\n</ul>\n\n<p>According to the trends in electronegativity:</p>\n\n<ul>\n\n<li>Within the same period (e.g., Period 2), as we move from left to right (from Carbon to Nitrogen), electronegativity increases.</li>\n\n<li>Within the same group (e.g., Group 14 from Carbon to Silicon), as we move down the group, electronegativity decreases. The same applies to Group 15 (from Nitrogen to Phosphorus).</li>\n\n</ul>\n\n<p>Therefore, considering their positions:</p>\n\n<ul>\n\n<li>Nitrogen (N) has a higher electronegativity than Carbon (C) because they are in the same period (Period 2) with N to the right of C.</li>\n\n<li>Carbon (C) has a higher electronegativity than Silicon (Si), its counterpart in the period below (Period 3).</li>\n\n<li>Similarly, Nitrogen (N) has a higher electronegativity than Phosphorus (P).</li>\n\n<li>Between Silicon (Si) and Phosphorus (P), which are both in Period 3, P (being to the right) has a slightly higher electronegativity than Si.</li>\n\n</ul>\n\n<p>Thus, if we order these elements by increasing electronegativity, it would be:</p>\n\n<p>$$ \\text{Si} < \\text{P} < \\text{C} < \\text{N} $$</p>\n\n<p>Looking at the available choices:</p>\n\n<ul>\n\n<li>Option A (C, N, Si, P) - Incorrect: Here, it suggests C has a lower electronegativity than N but incorrectly orders Si and P.</li>\n\n<li>Option B (N, Si, C, P) - Incorrect: Wrong sequence, does not consider correct trends.</li>\n\n<li>Option C (Si, P, C, N) - Correct: This option correctly represents the increasing order of electronegativity.</li>\n\n<li>Option D (P, Si, N, C) - Incorrect: Completely reverses the electronegativity trend.</li>\n\n</ul>\n\n<p>The correct answer is <strong>Option C</strong>.</p>"
+        }
+      },
+      "permalink": "the-electronegativity-of-the-following-elements-increases-in-1987-marks-1-k75dkua3uoojtady.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "isOutOfSyllabus": false,
+      "topic": "electronegativity",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The electronegativity of the following elements increases in the order"
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9djgandlnyclds7z4zit",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Atomic radii of fluorine and neon in Angstrom units are respectively given by",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0.72, 1.60"
+            },
+            {
+              "identifier": "B",
+              "content": "1.60, 1.60"
+            },
+            {
+              "identifier": "C",
+              "content": "0.72, 0.72"
+            },
+            {
+              "identifier": "D",
+              "content": "None of these values"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine the correct atomic radii of fluorine and neon, we first need to understand what atomic radius means. Atomic radius is essentially half the distance between the nuclei of two atoms of the same element in a molecule. For elements in the noble gas group, such as neon, the radius typically refers to the van der Waals radius, which is the radius of a hypothetical hard sphere representing the distance of closest approach for another atom. For other elements like fluorine, which readily forms molecules, the covalent radius (half the distance between nuclei in a single bond) is often considered.</p>\n\n<p>The atomic radii values for fluorine (F) and neon (Ne) in angstrom units (Å) can be summarized as follows:</p>\n\n<ul>\n\n<li>Fluorine has a covalent radius of approximately 0.72 Å.</li>\n\n<li>Neon has a Van der Waals radius of approximately 1.60 Å.</li>\n\n</ul>\n\n<p>Therefore, reviewing the provided options:</p>\n\n<ul>\n\n<li>Option A: 0.72 Å for fluorine and 1.60 Å for neon</li>\n\n<li>Option B: 1.60 Å for both fluorine and neon</li>\n\n<li>Option C: 0.72 Å for both fluorine and neon</li>\n\n<li>Option D: None of these values</li>\n\n</ul>\n\n<p>Given the definitions and the typical atomic radius values for these elements, Option A is correct with fluorine having an atomic radius of about 0.72 Å, and neon having a radius of about 1.60 Å.</p>"
+        }
+      },
+      "permalink": "atomic-radii-of-fluorine-and-neon-in-angstrom-units-are-resp-1987-marks-1-zf2yqejlz7cdgmrb.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "isOutOfSyllabus": false,
+      "topic": "atomic-and-ionic-radius",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Atomic radii of fluorine and neon in Angstrom units are respectively given by"
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "b863cw38o2u0xqjxlh11",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The first ionisation potential in electron volts of nitrogen and oxygen atoms are respectively given by",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "14.6, 13.6"
+            },
+            {
+              "identifier": "B",
+              "content": "13.6, 14.6"
+            },
+            {
+              "identifier": "C",
+              "content": "13.6, 13.6"
+            },
+            {
+              "identifier": "D",
+              "content": "14.6, 14.6"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The ionization potential or ionization energy of an atom is defined as the energy required to remove an electron from a neutral atom in the gas phase. The first ionization potential is the energy needed to remove the first electron from the atom.</p>\n\n<p>Nitrogen (N) has an electron configuration of $$1s^2 2s^2 2p^3$$, while oxygen (O) has an electron configuration of $$1s^2 2s^2 2p^4$$. Although both elements are in the same period of the periodic table, nitrogen has a half-filled p-orbital, which is a relatively stable configuration compared to the configuration of oxygen. As a result, nitrogen requires more energy to remove one electron compared to oxygen, which would tend to stabilize after losing an electron due to the gain of a half-filled p-orbital configuration.</p>\n\n<p>\n\n<p>The first ionization energies for nitrogen and oxygen are indeed different with nitrogen generally having a higher ionization energy. According to experimental data:</p>\n\n<ul>\n\n<li>Ionization energy of nitrogen $$N$$ is approximately 14.6 eV.</li>\n\n<li>Ionization energy of oxygen $$O$$ is approximately 13.6 eV.</li>\n\n</ul>\n\n</p>\n\n<p>Given these values, the correct answer is:\n\n<br>Option A: 14.6, 13.6</p>"
+        }
+      },
+      "permalink": "the-first-ionisation-potential-in-electron-volts-of-nitrogen-1987-marks-1-freicax6nmvnrp75.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "isOutOfSyllabus": false,
+      "topic": "ionization-energy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The first ionisation potential in electron volts of nitrogen and oxygen atoms are respectively given by"
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "hlilfxrzv8c5a89verbx",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In group IA, of alkali metals, the ionisation potential decreases on moving down the group. Therefore, lithium is a strongest reducing agent",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The given statement that \"lithium is the strongest reducing agent\" in Group IA (the alkali metals) as ionisation potential decreases down the group is actually false. The reasoning behind this conclusion involves understanding the concept of reducing power among alkali metals.</p>\n\n<p>Reducing agents are substances that can donate electrons to other substances and thereby reduce them. The reducing strength of an element, especially metals, can often be attributed to its ability to lose electrons easily.</p>\n\n<p>Ionisation potential is the energy required to remove the most loosely held electron from an atom to form a cation. In the case of alkali metals, the ionisation potential indeed decreases as we move down the group; for example, from lithium (Li) to cesium (Cs). This decrease is due to the increasing size of the alkali metals, where the outermost electron becomes increasingly distant from the nucleus and is subjected to a lesser effective nuclear charge. Thus, it is easier to remove the outermost electron in cesium compared to lithium.</p>\n\n<p>Despite lithium having the highest ionisation potential in its group, suggesting it holds onto its electrons more strongly than its counterparts, lithium is not the strongest reducing agent in the group. The decreasing ionisation potential correlates with an increase in the reducing power down the group. Thus, elements like cesium or francium (at the bottom of the group) are stronger reducing agents because their lower ionisation energy makes them more prone to lose electrons and reduce other elements.</p>\n\n<p>Therefore, among the alkali metals, cesium or francium, and not lithium, would be considered the strongest reducing agents. The initial assumption in the statement that a higher ionisation potential (resulting in the harder release of electrons) makes lithium a stronger reducing agent is incorrect. The lower the ionisation potential, the easier it is for the atom to lose an electron and act as a reducing agent.</p>"
+        }
+      },
+      "permalink": "in-group-ia-of-alkali-metals-the-ionisation-potential-decr-1987-marks-1-ss8xc48arjd3csqi.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "isOutOfSyllabus": false,
+      "topic": "ionization-energy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "In group IA, of alkali metals, the ionisation potential decreases on moving down the group. Therefore, lithium is a strongest reducing agent"
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qtk0ps38g0vmnn7k9ubl",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Arrange the following in:<br>\nIncreasing size:<br>\nCl<sup>-</sup>, S<sup>2-</sup>, Ca<sup>2+</sup>, Ar",
+          "options": [],
+          "correct_options": [],
+          "answer": "Ca<sup>2+</sup> &lt; Ar &lt; Cl<sup>-</sup> &lt; S<sup>2-</sup>",
+          "explanation": "<p>To arrange the ions Cl<sup>-</sup>, S<sup>2-</sup>, Ca<sup>2+</sup>, and the neutral atom Ar in order of increasing size, we need to consider several factors including nuclear charge, number of electrons, and electron-electron interactions in the electron shells.</p>\n\n<p><b>1. Atomic and Ionic Sizes:</b> In general, neutral atoms and ions with more electrons and similar nuclear charge have larger sizes. This is due to increased electron-electron repulsion within the outer shells.</p>\n\n<p><b>2. Isoelectronic Species:</b> Cl<sup>-</sup>, Ca<sup>2+</sup>, and Ar are isoelectronic, meaning they each have the same number of electrons (18 electrons), but different nuclear charges. A higher nuclear charge (more protons in the nucleus) pulls the electron cloud closer, decreasing the size of the ion or atom. In this case, Ar (18 protons) has a higher nuclear charge than Cl<sup>-</sup> (17 protons) and Ca<sup>2+</sup> (20 protons) has the highest.</p>\n\n<p><b>3. Comparing a Non-Isoelectronic Species:</b> S<sup>2-</sup> has 18 electrons, the same as Cl<sup>-</sup>, Ca<sup>2+</sup>, and Ar, but sulfur typically has fewer protons (16 protons) than Argon. However, the addition of two electrons to form S<sup>2-</sup> significantly increases its radius compared to the neutral sulfur atom due to increased electron-electron repulsion outweighing the nuclear charge.</p>\n\n<p><b>Ordered by Size:</b> Smaller ions/atoms have higher nuclear charge relative to the number of electrons. Here’s the order:\n\n<ul>\n<li>Ca<sup>2+</sup> (smallest): higher nuclear charge tightly holds the electrons.</li><br>\n<li>Ar: similar electron count but slightly less nuclear charge than Ca<sup>2+</sup>.</li><br>\n<li>Cl<sup>-</sup>: one fewer proton than Ar, leading to less pull on the same number of electrons, resulting in a slightly larger size.</li><br>\n<li>S<sup>2-</sup> (largest): despite having an equal number of electrons as the others, the significantly lower nuclear charge (16 protons) allows more spread out electron cloud.</p></li>\n</ul>\n<p>In conclusion, the order of increasing size will be: $$ Ca^{2+} < Ar < Cl^{-} < S^{2-} $$. S<sup>2-</sup> is the largest due to its lower nuclear charge compared to its electron count, resulting in greater electron cloud expansion.</p>"
+        }
+      },
+      "permalink": "arrange-the-following-in-increasing-size-cl-s2-ca2-a-1986-marks-1-b9j3dmdm8mu5l4wv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "atomic-and-ionic-radius",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Arrange the following in:\nIncreasing size:\nCl-, S2-, Ca2+, Ar"
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ucoqlw7lo63q59v0p3uk",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "On Mulliken scale, the average of ionization potential and electron affinity is known as _____.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Electronegativity",
+          "explanation": "<p>On the Mulliken scale, the average of ionization potential and electron affinity is known as <strong>electronegativity</strong>. In essence, the Mulliken electronegativity scale is defined by the formula:</p>\n\n<p>$$ \\chi_{Mulliken} = \\frac{I + E}{2} $$</p>\n\n<p>Where:\n<ul>\n<li>$$ \\chi_{Mulliken} $$ is the Mulliken electronegativity,</li>\n<li>$$ I $$ is the ionization potential (the energy required to remove an electron from an atom in the gaseous state),</li>\n<li>$$ E $$ is the electron affinity (the energy released when an electron is added to a neutral atom in the gaseous state).</li>\n</ul>\n</p>\n\n<p>This formula essentially provides a measure of how strongly an atom in a molecule attracts electrons towards itself. The concept of electronegativity is crucial in understanding chemical bonding, particularly the polarity of bonds and molecular structures. By using the average of ionization potential and electron affinity, Mulliken's approach provides a quantitative way of assessing an atom's ability to attract shared electrons in a chemical bond.</p>"
+        }
+      },
+      "permalink": "on-mulliken-scale-the-average-of-ionization-potential-and-e-1985-marks-1-0zvwge8cqxkuyr1a.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "ionization-energy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "On Mulliken scale, the average of ionization potential and electron affinity is known as _____."
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "it7w6s5atmd2g5am2v4a",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Arrange the following in:<br>\nDecreasing ionic size:<br>\nMg<sup>2+</sup>, O<sup>2-</sup>, Na<sup>+</sup>, F<sup>-</sup> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "O<sup>2-</sup> &gt; F<sup>-</sup> &gt; Na<sup>+</sup> &gt; Mg<sup>2+</sup>",
+          "explanation": "<p>To determine the decreasing order of ionic size for the ions Mg<sup>2+</sup>, O<sup>2-</sup>, Na<sup>+</sup>, and F<sup>-</sup>, we need to consider several factors such as nuclear charge, electrons’ configurations, and their positions in the periodic table.</p>\n\n<p>Firstly, when ions have the same electronic configuration (which we can think of as isoelectronic), the nuclear charge and its effective pull on the electrons will determine their sizes. A higher positive charge (more protons in the nucleus) results in a smaller ionic radius because the protons pull the electron cloud more tightly towards the nucleus.</p>\n\n<p>The ions Mg<sup>2+</sup>, O<sup>2-</sup>, Na<sup>+</sup>, and F<sup>-</sup> are all approximately isoelectronic, having the same number of electrons as the noble gas Ne (10 electrons). Thus, the order of their ionic sizes will mainly depend on their nuclear charge:</p>\n\n<ul>\n\n<li>O<sup>2-</sup> (8 protons)</li>\n\n<li>F<sup>-</sup> (9 protons)</li>\n\n<li>Na<sup>+</sup> (11 protons)</li>\n\n<li>Mg<sup>2+</sup> (12 protons)</li>\n\n</ul>\n\n<p>Higher proton count correlates with greater effective nuclear charge, leading to a more strongly pulled-in electron cloud, and thus a smaller ionic radius.</p>\n\n<p>Therefore, the decreasing order of ionic size from largest to smallest is:</p>\n\n<p>$$ \\text{O}^{2-} > \\text{F}^{-} > \\text{Na}^{+} > \\text{Mg}^{2+} $$</p>\n\n<p>O<sup>2-</sup>, having the fewest protons among these ions, exhibits the largest ionic size due to a lesser effective nuclear pull on its electron cloud, compared to the other ions with more protons. Conversely, Mg<sup>2+</sup> is the smallest as it has the highest number of protons exerting the strongest pull on the same number of electrons.</p>"
+        }
+      },
+      "permalink": "arrange-the-following-in-decreasing-ionic-size-mg2-o2-1985-marks-1-mnhacv6mkljxqaei.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "atomic-and-ionic-radius",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Arrange the following in:\nDecreasing ionic size:\nMg2+, O2-, Na+, F- "
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "yglx8dy4d5t9sawjlhwl",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Arrange the following in:<br>\nIncreasing acidic property:<br>\nZnO, Na<sub>2</sub>O<sub>2</sub>, P<sub>2</sub>O<sub>5</sub>, MgO",
+          "options": [],
+          "correct_options": [],
+          "answer": "Na<sub>2</sub>O<sub>2</sub> &lt; MgO &lt; ZnO &lt; P<sub>2</sub>O<sub>5</sub>",
+          "explanation": "<p>When evaluating the acidic properties of compounds, we must consider the nature of the oxides formed by different elements. The acidity of an oxide depends on the position of the respective element in the periodic table, particularly their electronegativity and the period to which they belong.</p>\n\n<p>Oxides can be broadly categorized into four types based on the nature of the elements forming them:</p>\n\n<ul>\n\n<li><strong>Metallic oxides</strong> (usually basic)</li>\n\n<li><strong>Non-metallic oxides</strong> (usually acidic)</li>\n\n<li><strong>Amphoteric oxides</strong> (show both acidic and basic behavior)</li>\n\n<li><strong>Neutral oxides</strong> (do not show acidic or basic behavior)</li>\n\n</ul>\n\n<p>Let's analyze the given compounds:</p>\n\n<ul>\n\n<li><strong>ZnO</strong>: Zinc oxide is amphoteric. It reacts with both acids and bases, but tends more towards basic than acidic properties.</li>\n\n<li><strong>Na<sub>2</sub>O<sub>2</sub></strong>: Sodium peroxide is generally a basic oxide, but it can also react with water to form hydroxide ions, indicating it is less acidic than ZnO.</li>\n\n<li><strong>MgO</strong>: Magnesium oxide is a basic oxide. It reacts with acids to form salts and water but does not react with bases.</li>\n\n<li><strong>P<sub>2</sub>O<sub>5</sub></strong>: Diphosphorus pentoxide is strongly acidic. It reacts readily with water to form phosphoric acid.</li>\n\n</ul>\n\n<p>Based on the typical behavior of their chemical classification, here is the order of increasing acidic property:</p>\n\n<ol>\n\n<li><strong>Na<sub>2</sub>O<sub>2</sub></strong> (mostly basic)</li>\n\n<li><strong>MgO</strong> (basic)</li>\n\n<li><strong>ZnO</strong> (amphoteric, weakly acidic)</li>\n\n<li><strong>P<sub>2</sub>O<sub>5</sub></strong> (strongly acidic)</li>\n\n</ol>\n\n<p>The increasing acidic behavior aligns with moving from basic, through amphoteric, to strongly acidic oxides.</p>"
+        }
+      },
+      "permalink": "arrange-the-following-in-increasing-acidic-property-zno-n-1985-marks-1-sev8pivkdg1yis9g.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "nature-of-oxide",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Arrange the following in:\nIncreasing acidic property:\nZnO, Na2O2, P2O5, MgO"
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "l2wwckzo1m7bdd91mmme",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Arrange the following in:<br>\nIncreasing first ionisation potential :<br>\nMg, Al, Si, Na",
+          "options": [],
+          "correct_options": [],
+          "answer": "Na &lt; Al &lt; Mg &lt; Si",
+          "explanation": ""
+        }
+      },
+      "permalink": "arrange-the-following-in-increasing-first-ionisation-potent-1985-marks-1-ucbhj0dodmnoyl5h.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "ionization-energy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "Arrange the following in:\nIncreasing first ionisation potential :\nMg, Al, Si, Na"
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "q9888u5d8aad17yg0xgh",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The element with the highest first ionization potential is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "boron"
+            },
+            {
+              "identifier": "B",
+              "content": "carbon"
+            },
+            {
+              "identifier": "C",
+              "content": "nitrogen"
+            },
+            {
+              "identifier": "D",
+              "content": "oxygen"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The first ionization potential refers to the energy needed to remove the most loosely bound electron from a neutral gaseous atom, converting it into a positive ion. Essentially, it reflects the strength with which an atom holds onto its electrons.</p>\n\n<p>The ionization energy generally increases across a period on the periodic table due to an increase in the effective nuclear charge. However, there are specific trends and exceptions based on electron configuration and electron-electron repulsions in orbitals.</p>\n\n<p>In analyzing the options provided:</p>\n\n<ul>\n\n<li><strong>Boron</strong> (Z=5, Electron configuration: $$1s^2 2s^2 2p^1$$) - It has one electron in the 2p orbital.</li>\n\n<li><strong>Carbon</strong> (Z=6, Electron configuration: $$1s^2 2s^2 2p^2$$) - Electrons start pairing up in the 2p orbital.</li>\n\n<li><strong>Nitrogen</strong> (Z=7, Electron configuration: $$1s^2 2s^2 2p^3$$) - It has a half-filled p subshell (2p orbital), which is a particularly stable arrangement due to the equal distribution of electrons that minimizes repulsion.</li>\n\n<li><strong>Oxygen</strong> (Z=8, Electron configuration: $$1s^2 2s^2 2p^4$$) - Here, one of the p orbitals begins to pair up, which introduces additional electron-electron repulsion.</li>\n\n</ul>\n\n<p>Among these options, <strong>Nitrogen</strong> has the highest first ionization potential. This higher value is due to the added stability provided by the half-filled p subshell configuration in nitrogen, which strongly resists the removal of an electron. Moreover, its electron arrangement is symmetrically spread out, reducing electron-electron repulsions and providing extra stability, thus increasing the ionization energy.</p>\n\n<p>Therefore, the correct answer is:\n\n<strong>Option C: Nitrogen</strong></p>"
+        }
+      },
+      "permalink": "the-element-with-the-highest-first-ionization-potential-is-1982-marks-1-uogbjnoinlaessq8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "ionization-energy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The element with the highest first ionization potential is"
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "b89qe8jec4lkiaj4vqxn",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The energy released when an electron is added to a neutral gaseous atom is called ______ of the atom.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Electron Affinity",
+          "explanation": "<p>The energy released when an electron is added to a neutral gaseous atom is called the <strong>electron affinity</strong> of the atom. Electron affinity is a measure of the energy change that occurs when an electron is added to a neutral atom in the gas phase to form a negative ion. This property is important in understanding the chemical behavior of atoms. It can either release energy, indicated by a negative value, meaning the process is exothermic, or absorb energy, indicated by a positive value, indicating an endothermic process.</p>"
+        }
+      },
+      "permalink": "the-energy-released-when-an-electron-is-added-to-a-neutral-g-1982-marks-1-6vy7xxx2xuyvyxme.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "electron-gain-enthalpy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The energy released when an electron is added to a neutral gaseous atom is called ______ of the atom."
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "4m7wljqvlob96sqd08dy",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "periodic-table-and-periodicity",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The correct order of second ionisation potential of carbon, nitrogen, oxygen and fluorine is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "C &gt; N &gt; O &gt; F"
+            },
+            {
+              "identifier": "B",
+              "content": "O &gt; N &gt; F &gt; C"
+            },
+            {
+              "identifier": "C",
+              "content": "O &gt; F &gt; N &gt; C"
+            },
+            {
+              "identifier": "D",
+              "content": "F &gt; O &gt; N &gt; C"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>To determine the correct order of the second ionization potentials for carbon (C), nitrogen (N), oxygen (O), and fluorine (F), we need to consider how the removal of the second electron affects the electronic structure of each element's ion.</p>\n\n<p>Ionization potential (IP) is the energy required to remove an electron from a gaseous atom or ion. The second ionization potential specifically refers to the energy needed to remove a second electron after the first has already been removed. Generally, the second ionization potential is higher than the first because the remaining electrons experience a higher effective nuclear charge after one electron is removed.</p>\n\n<p>Let’s consider the electronic configurations of the singly ionized ions of these elements:</p>\n\n<ul>\n\n<li>$$C^+: 1s^2 2s^2 2p^1$$</li>\n\n<li>$$N^+: 1s^2 2s^2 2p^2$$</li>\n\n<li>$$O^+: 1s^2 2s^2 2p^3$$</li>\n\n<li>$$F^+: 1s^2 2s^2 2p^4$$</li>\n\n</ul>\n\n<p>Second ionization potential will involve removing an electron from the configurations as shown above. Here are some considerations:</p>\n\n<ul>\n\n<li>Removing a second electron from a half-filled or fully filled p-orbital (as in $$N^+$$ and $$F^+$$) requires more energy because of the increased stability of half-filled and fully filled configurations.</li>\n\n<li>In the case of $$O^+$$, removing one electron from the 2p orbitals will lead to a half-filled stable configuration (similar to $$N$$), which will make this ion less stable than $$N^+$$ initially, hence requiring lesser energy to remove an electron compared to $$N^+$$.</li>\n\n<li>$$C^+$$, having only one electron in the 2p orbitals, will have the least stable arrangement among these; hence it will likely have the lowest second ionization potential.</li>\n\n</ul>\n\n<p>Based on these considerations:</p>\n\n<ol>\n\n<li>$$F^+$$, having to remove an electron from a near half-filled p-orbital (2p4 to 2p3), will involve high energy.</li>\n\n<li>$$N^+$$, with a half-filled p-orbital configuration, will have a next higher second ionization potential.</li>\n\n<li>$$O^+$$, removal leads to a half-filled configuration which is energetically favorable, thus requiring less energy compared to $$N^+$$.</li>\n\n<li>$$C^+$$ will require the least energy to remove the second electron.</li>\n\n</ol>\n\n<p>Thus, the correct order of increasing second ionization potential is:</p>\n\n<p><strong>Option C:</strong> $$C &gt; O &gt; N &gt; F.$$</p>\n\n<p>This suggests that carbon will require the lowest energy to lose its second electron, followed by oxygen, then nitrogen, and fluorine needing the highest energy to lose its second electron among these elements.</p>"
+        }
+      },
+      "permalink": "the-correct-order-of-second-ionisation-potential-of-carbon-1981-marks-1-3y565axnxaxu9jky.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "ionization-energy",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Periodic Table and Periodicity • Chemistry",
+          "excerpt": "The correct order of second ionisation potential of carbon, nitrogen, oxygen and fluorine is"
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    }
+  ]
+}

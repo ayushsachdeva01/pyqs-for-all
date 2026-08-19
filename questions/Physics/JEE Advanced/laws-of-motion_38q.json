@@ -1,0 +1,2506 @@
+{
+  "questions": [
+    {
+      "question_id": "ku2ncon5ix5lw5ej6jf7",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "a-projectile-of-mass-200-g-is-launched-in-a-viscous-medium-a-jee-advanced-physics-5jcjj5ywrhzx1sp0",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A projectile of mass 200 g is launched in a viscous medium at an angle $60^{\\circ}$ with the horizontal, with an initial velocity of $270 \\mathrm{~m} / \\mathrm{s}$. It experiences a viscous drag force $\\vec{F}=-c \\vec{v}$ where the drag coefficient $c=0.1 \\mathrm{~kg} / \\mathrm{s}$ and $\\vec{v}$ is the instantaneous velocity of the projectile. The projectile hits a vertical wall after 2 s . Taking $e=2.7$, the horizontal distance of the wall from the point of projection (in m ) is ___________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "167TO171",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mayym9b4/64a09fab-32dc-441f-9658-b444ed389528/98d9ca00-36d1-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayym9b5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mayym9b4/64a09fab-32dc-441f-9658-b444ed389528/98d9ca00-36d1-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayym9b5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Laws of Motion Question 3 English Explanation\"></p>\n<p>$$ \\vec{F}_{n e t}=m \\frac{d \\vec{v}}{d t} $$</p>\n<p>$$ \\mathrm{m} \\overrightarrow{\\mathrm{~g}}+\\overrightarrow{\\mathrm{F}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}} $$</p>\n<p>$$ \\mathrm{m} \\overrightarrow{\\mathrm{~g}}-\\mathrm{C} \\overrightarrow{\\mathrm{v}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}} $$</p>\n<p>Horizontal direction</p>\n<p>$$ -\\mathrm{Cv}_{\\mathrm{x}}=\\frac{\\mathrm{mdv}_{\\mathrm{x}}}{\\mathrm{dt}} $$</p>\n<p>$\\begin{aligned} &amp; -\\frac{C}{m} \\int_0^t d t=\\int_{v_{0 x}}^{v_x} \\frac{d v_x}{v_x} \\\\ &amp; -\\frac{t}{2}=\\ln \\frac{v_x}{v_{0 x}} \\\\ &amp; \\frac{d x}{d t}=v_x=v_{0 x} e^{-t / 2} \\\\ &amp; \\int_0^{s_x} d x=v_{0 x} \\int_0^t e^{-t / 2} d t \\\\ &amp; S_x=2 v_{0 x}\\left(1-e^{-t / 2}\\right)\\end{aligned}$</p>\n<p>At t = 2 sec</p>\n<p>$\\begin{aligned} &amp; S_x=2 \\times 270 \\times \\cos 60^{\\circ}\\left[1-\\frac{1}{\\mathrm{e}}\\right] \\\\\\\\ &amp; S_x=270\\left(1-\\frac{1}{2.7}\\right) \\\\\\\\ &amp; =\\frac{270}{2.7} \\times(1.7) \\\\\\\\ &amp; =170 \\mathrm{~m} \\\\\\\\ &amp; S_x=170 \\mathrm{~m}\\end{aligned}$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक 200 g के प्रक्षेप्य (projectile) को क्षैतिज (horizontal) से $60^{\\circ}$ के कोण पर $270 \\mathrm{~m} / \\mathrm{s}$ के प्रारंभिक वेग से श्यान माध्यम (viscous medium) में प्रक्षेपित किया जाता है| श्यान माध्यम में प्रक्षेप्य पर $\\vec{F}=-c \\vec{v}$ कर्षणबल (drag force) लगता है, जहाँ $c=0.1 \\mathrm{~kg} / \\mathrm{s}$ कर्ष गुणांक (drag coefficient) है और $\\vec{v}$ प्रक्षेप्य का तात्क्षणिक वेग (instantaneous velocity) है| प्रक्षेप्य 2 s के पश्चात् एक ऊर्ध्वाधर दीवार से टकराता है। $e=2.7$ लेने पर दीवार की प्रक्षेपण बिंदु (point of projection) से क्षैतिज दूरी (m में) है ________</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "167TO171",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mayym9b4/64a09fab-32dc-441f-9658-b444ed389528/98d9ca00-36d1-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayym9b5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mayym9b4/64a09fab-32dc-441f-9658-b444ed389528/98d9ca00-36d1-11f0-9a5a-d7e71c43831e/file-jaoe38c1mayym9b5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2025 Paper 2 Online Physics - Laws of Motion Question 3 Hindi Explanation\"></p>\n<p>$$ \\vec{F}_{n e t}=m \\frac{d \\vec{v}}{d t} $$</p>\n<p>$$ \\mathrm{m} \\overrightarrow{\\mathrm{~g}}+\\overrightarrow{\\mathrm{F}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}} $$</p>\n<p>$$ \\mathrm{m} \\overrightarrow{\\mathrm{~g}}-\\mathrm{C} \\overrightarrow{\\mathrm{v}}=\\frac{\\mathrm{md} \\overrightarrow{\\mathrm{v}}}{\\mathrm{dt}} $$</p>\n<p>क्षैतिज दिशा</p>\n<p>$$ -\\mathrm{Cv}_{\\mathrm{x}}=\\frac{\\mathrm{mdv}_{\\mathrm{x}}}{\\mathrm{dt}} $$</p>\n<p>$\\begin{aligned} &amp; -\\frac{C}{m} \\int_0^t d t=\\int_{v_{0 x}}^{v_x} \\frac{d v_x}{v_x} \\\\ &amp; -\\frac{t}{2}=\\ln \\frac{v_x}{v_{0 x}} \\\\ &amp; \\frac{d x}{d t}=v_x=v_{0 x} e^{-t / 2} \\\\ &amp; \\int_0^{s_x} d x=v_{0 x} \\int_0^t e^{-t / 2} d t \\\\ &amp; S_x=2 v_{0 x}\\left(1-e^{-t / 2}\\right)\\end{aligned}$</p>\n<p>t = 2 सेकंड पर</p>\n<p>$\\begin{aligned} &amp; S_x=2 \\times 270 \\times \\cos 60^{\\circ}\\left[1-\\frac{1}{\\mathrm{e}}\\right] \\\\\\\\ &amp; S_x=270\\left(1-\\frac{1}{2.7}\\right) \\\\\\\\ &amp; =\\frac{270}{2.7} \\times(1.7) \\\\\\\\ &amp; =170 \\mathrm{~m} \\\\\\\\ &amp; S_x=170 \\mathrm{~m}\\end{aligned}$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "newtons-laws-of-motion",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A projectile of mass 200 g is launched in a viscous medium at an angle $60^{\\circ}$ with the horizontal, with an initial velocity of $270 \\mathrm{~m} / \\mathrm{s}$. It experiences a viscous drag force $\\vec{F}=-c \\vec{v}$ where the drag coe..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "एक 200 g के प्रक्षेप्य (projectile) को क्षैतिज (horizontal) से $60^{\\circ}$ के कोण पर $270 \\mathrm{~m} / \\mathrm{s}$ के प्रारंभिक वेग से श्यान माध्यम (viscous medium) में प्रक्षेपित किया जाता है| श्यान माध्यम में प्रक्षेप्य पर $\\vec{F}=-c \\..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "yx9y1bjzis9j47p4yc4i",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "a-particle-of-mass-m-is-moving-in-the-x-y-plane-such-tha-jee-advanced-physics-b7ohkp2kb12qcrqk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A particle of mass $m$ is moving in the $x y$-plane such that its velocity at a point $(x, y)$ is given as $\\overrightarrow{\\mathrm{v}}=\\alpha(y \\hat{x}+2 x \\hat{y})$, where $\\alpha$ is a non-zero constant. What is the force $\\vec{F}$ acting on the particle?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\vec{F}=2 m \\alpha^2(x \\hat{x}+y \\hat{y})$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\vec{F}=m \\alpha^2(y \\hat{x}+2 x \\hat{y})$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\vec{F}=2 m \\alpha^2(y \\hat{x}+x \\hat{y})$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\vec{F}=m \\alpha^2(x \\hat{x}+2 y \\hat{y})$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Given :\n<br/><br/>$ \\vec{v} = \\alpha(y \\hat{x} + 2x \\hat{y}) $</p>\n<p>For the x-component, $ v_x = \\alpha y $ :\n<br/><br/>$ \\frac{dv_x}{dt} = \\alpha \\frac{dy}{dt} = \\alpha v_y $\n<br/><br/>Given $ v_y = 2\\alpha x $ :\n<br/><br/>$ \\frac{dv_x}{dt} = \\alpha (2\\alpha x) = 2\\alpha^2 x $</p>\n<p>For the y-component, $ v_y = 2\\alpha x $ :\n<br/><br/>$ \\frac{dv_y}{dt} = 2\\alpha \\frac{dx}{dt} = 2\\alpha v_x $\n<br/><br/>Given $ v_x = \\alpha y $ :\n<br/><br/>$ \\frac{dv_y}{dt} = 2\\alpha (\\alpha y) = 2\\alpha^2 y $</p>\n<p>Thus, combining the components :\n<br/><br/>$ \\vec{a} = 2\\alpha^2 x \\hat{x} + 2\\alpha^2 y \\hat{y} $</p>\n<p>Now, the force acting on the particle is given by :\n<br/><br/>$ \\vec{F} = m\\vec{a} $\n<br/><br/>$ \\vec{F} = m\\alpha(2 \\alpha x \\hat{x} + 2 \\alpha y \\hat{y}) $\n<br/><br/>$ \\vec{F} = m\\alpha^2(2x \\hat{x} + 2y \\hat{y}) $</p>\n<p>This is equivalent to :\n<br/><br/>$ \\vec{F} = 2m\\alpha^2(x \\hat{x} + y \\hat{y}) $</p>\n<p>The correct answer is Option A :\n<br/><br/>$ \\vec{F} = 2m\\alpha^2(x \\hat{x} + y \\hat{y}) $</p>\n"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "$m$ द्रव्यमान का एक कण $x y$-तल में इस प्रकार गतिमान है कि एक बिन्दु $(x, y)$ पर कण का वेग $\\overrightarrow{\\mathrm{v}}=\\alpha(y \\hat{x}+2 x \\hat{y})$ है, जहाँ $\\alpha$ एक शून्येतर (non-zero) नियतांक है| कण पर लगने वाला बल $\\vec{F}$ क्या है?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\vec{F}=2 m \\alpha^2(x \\hat{x}+y \\hat{y})$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\vec{F}=m \\alpha^2(y \\hat{x}+2 x \\hat{y})$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\vec{F}=2 m \\alpha^2(y \\hat{x}+x \\hat{y})$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\vec{F}=m \\alpha^2(x \\hat{x}+2 y \\hat{y})$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>दिया गया है :\n<br/><br/>$ \\vec{v} = \\alpha(y \\hat{x} + 2x \\hat{y}) $</p>\n<p>x-घटक के लिए, $ v_x = \\alpha y $ :\n<br/><br/>$ \\frac{dv_x}{dt} = \\alpha \\frac{dy}{dt} = \\alpha v_y $\n<br/><br/>दिया गया है $ v_y = 2\\alpha x $ :\n<br/><br/>$ \\frac{dv_x}{dt} = \\alpha (2\\alpha x) = 2\\alpha^2 x $</p>\n<p>y-घटक के लिए, $ v_y = 2\\alpha x $ :\n<br/><br/>$ \\frac{dv_y}{dt} = 2\\alpha \\frac{dx}{dt} = 2\\alpha v_x $\n<br/><br/>दिया गया है $ v_x = \\alpha y $ :\n<br/><br/>$ \\frac{dv_y}{dt} = 2\\alpha (\\alpha y) = 2\\alpha^2 y $</p>\n<p>इस प्रकार, घटकों को संयोजित करने पर :\n<br/><br/>$ \\vec{a} = 2\\alpha^2 x \\hat{x} + 2\\alpha^2 y \\hat{y} $</p>\n<p>अब, कण पर कार्यरत बल इस प्रकार दिया गया है :\n<br/><br/>$ \\vec{F} = m\\vec{a} $\n<br/><br/>$ \\vec{F} = m\\alpha(2 \\alpha x \\hat{x} + 2 \\alpha y \\hat{y}) $\n<br/><br/>$ \\vec{F} = m\\alpha^2(2x \\hat{x} + 2y \\hat{y}) $</p>\n<p>यह इसके समतुल्य है :\n<br/><br/>$ \\vec{F} = 2m\\alpha^2(x \\hat{x} + y \\hat{y}) $</p>\n<p>सही उत्तर विकल्प A है :\n<br/><br/>$ \\vec{F} = 2m\\alpha^2(x \\hat{x} + y \\hat{y}) $</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "newtons-laws-of-motion",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A particle of mass $m$ is moving in the $x y$-plane such that its velocity at a point $(x, y)$ is given as $\\overrightarrow{\\mathrm{v}}=\\alpha(y \\hat{x}+2 x \\hat{y})$, where $\\alpha$ is a non-zero constant. What is the force $\\vec{F}$ actin..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "$m$ द्रव्यमान का एक कण $x y$-तल में इस प्रकार गतिमान है कि एक बिन्दु $(x, y)$ पर कण का वेग $\\overrightarrow{\\mathrm{v}}=\\alpha(y \\hat{x}+2 x \\hat{y})$ है, जहाँ $\\alpha$ एक शून्येतर (non-zero) नियतांक है| कण पर लगने वाला बल $\\vec{F}$ क्या है..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "l9ij6gp8sodkprloo6cx",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "a-projectile-is-thrown-from-a-point-o-on-the-ground-at-an-an-jee-advanced-physics-units-and-measurements-bqrf7ojwzhnmvaue",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A projectile is thrown from a point O on the ground at an angle 45$$^\\circ$$ from the vertical and with a speed 5$$\\sqrt 2 $$ m/s. The projectile at the highest point of its trajectory splits into two equal parts. One part falls vertically down to the ground, 0.5 s after the splitting. The other part, t seconds after splitting, falls to the ground at a distance x meters from the point O. The acceleration due to gravity g = 10 m/s<sup>2</sup>.<br><br>The value of t is _____________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.5",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rqqvx/85fa1287-3d1a-490b-bc5d-acaf4ce38bed/076a2be0-5b07-11ec-86b6-77bf7a2ad847/file-1kx2rqqvy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rqqvx/85fa1287-3d1a-490b-bc5d-acaf4ce38bed/076a2be0-5b07-11ec-86b6-77bf7a2ad847/file-1kx2rqqvy.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 15 English Explanation 1\"> <br>Range, $$R = {u_x} \\times T = {{2{u_x}{u_y}} \\over g} = {{2 \\times 5 \\times 5} \\over {10}} = 5$$ m<br><br>Time of flight, $$T = {{2{u_y}} \\over g} = {{2 \\times 5} \\over {10}} = 1$$ s<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rcfsj/952503cc-0e90-4de4-807d-d0c0b6cff7e0/79842430-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rcfsk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rcfsj/952503cc-0e90-4de4-807d-d0c0b6cff7e0/79842430-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rcfsk.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 15 English Explanation 2\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rddrq/248b7863-631e-4eb8-bb77-b85be000b0ff/93c35960-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rddrr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rddrq/248b7863-631e-4eb8-bb77-b85be000b0ff/93c35960-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rddrr.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 15 English Explanation 3\">\n<br>Both particle have no vertical velocity after splitting so both will take same time to reach the ground.\n<br><br>$$\\because$$ Time of motion of one part falling vertically downwards is 0.5 s<br><br>$$\\Rightarrow$$ Time of motion of another part, $$t = 0.5$$ s "
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक प्रक्षेप (projectile) को उर्ध्वाधर (vertical) से $$45^{\\circ}$$ के कोण पर $$5 \\sqrt{2} \\mathrm{~m} / \\mathrm{s}$$ की चाल से भूमि पर स्थित एक बिन्दु $$\\mathrm{O}$$ से प्रक्षेपित किया जाता है। अपने प्रक्षेप-पथ के उच्चतम बिन्दु पर यह प्रक्षेप दो बराबर भागों में विभाजित हो जाता है। विभाजन के $$0.5$$ सेकंड (second) उपरांत एक भाग भूमि पर लम्बवत नीचे गिरता है। दूसरा भाग, विभाजन के $$t$$ सेकंड उपरांत भूमि पर, बिन्दु $$\\mathrm{O}$$ से $$x$$ मीटर की दूरी पर गिरता है। गुरुत्वीय त्वरण $$g=10 \\mathrm{~m} / \\mathrm{s}^{2}$$ है।</p>\n<p>$$t$$ का मान __________ है</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.5",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rqqvx/85fa1287-3d1a-490b-bc5d-acaf4ce38bed/076a2be0-5b07-11ec-86b6-77bf7a2ad847/file-1kx2rqqvy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rqqvx/85fa1287-3d1a-490b-bc5d-acaf4ce38bed/076a2be0-5b07-11ec-86b6-77bf7a2ad847/file-1kx2rqqvy.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 15 Hindi Explanation 1\"> <br>परास, $$R = {u_x} \\times T = {{2{u_x}{u_y}} \\over g} = {{2 \\times 5 \\times 5} \\over {10}} = 5$$ m<br><br>उड्डयन काल, $$T = {{2{u_y}} \\over g} = {{2 \\times 5} \\over {10}} = 1$$ s<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rcfsj/952503cc-0e90-4de4-807d-d0c0b6cff7e0/79842430-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rcfsk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rcfsj/952503cc-0e90-4de4-807d-d0c0b6cff7e0/79842430-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rcfsk.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 15 Hindi Explanation 2\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rddrq/248b7863-631e-4eb8-bb77-b85be000b0ff/93c35960-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rddrr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rddrq/248b7863-631e-4eb8-bb77-b85be000b0ff/93c35960-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rddrr.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 15 Hindi Explanation 3\">\n<br>विभाजन के बाद दोनों कणों का कोई ऊर्ध्वाधर वेग नहीं है इसलिए दोनों को जमीन तक पहुँचने में समान समय लगेगा।\n<br><br>$$\\because$$ ऊर्ध्वाधर रूप से नीचे गिरने वाले एक भाग की गति का समय 0.5 s है<br><br>$$\\Rightarrow$$ दूसरे भाग की गति का समय, $$t = 0.5$$ s"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "newtons-laws-of-motion",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A projectile is thrown from a point O on the ground at an angle 45$$^\\circ$$ from the vertical and with a speed 5$$\\sqrt 2 $$ m/s. The projectile at the highest point of its trajectory splits into two equal parts. One part falls vertically ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "एक प्रक्षेप (projectile) को उर्ध्वाधर (vertical) से $$45^{\\circ}$$ के कोण पर $$5 \\sqrt{2} \\mathrm{~m} / \\mathrm{s}$$ की चाल से भूमि पर स्थित एक बिन्दु $$\\mathrm{O}$$ से प्रक्षेपित किया जाता है। अपने प्रक्षेप-पथ के उच्चतम बिन्दु पर यह प्रक्ष..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "question_id": "v6dj4jo0zz90q2w27ol5",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "a-projectile-is-thrown-from-a-point-o-on-the-ground-at-an-an-jee-advanced-physics-units-and-measurements-f9erce3ub93olgir",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A projectile is thrown from a point O on the ground at an angle 45$$^\\circ$$ from the vertical and with a speed 5$$\\sqrt 2 $$ m/s. The projectile at the highest point of its trajectory splits into two equal parts. One part falls vertically down to the ground, 0.5 s after the splitting. The other part, t seconds after splitting, falls to the ground at a distance x meters from the point O. The acceleration due to gravity g = 10 m/s<sup>2</sup>.<br><br>The value of x is _______________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "7.5",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rqqvx/85fa1287-3d1a-490b-bc5d-acaf4ce38bed/076a2be0-5b07-11ec-86b6-77bf7a2ad847/file-1kx2rqqvy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rqqvx/85fa1287-3d1a-490b-bc5d-acaf4ce38bed/076a2be0-5b07-11ec-86b6-77bf7a2ad847/file-1kx2rqqvy.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 14 English Explanation 1\"> <br>Range, $$R = {u_x} \\times T = {{2{u_x}{u_y}} \\over g} = {{2 \\times 5 \\times 5} \\over {10}} = 5$$ m<br><br>Time of flight, $$T = {{2{u_y}} \\over g} = {{2 \\times 5} \\over {10}} = 1$$ s<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rcfsj/952503cc-0e90-4de4-807d-d0c0b6cff7e0/79842430-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rcfsk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rcfsj/952503cc-0e90-4de4-807d-d0c0b6cff7e0/79842430-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rcfsk.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 14 English Explanation 2\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rddrq/248b7863-631e-4eb8-bb77-b85be000b0ff/93c35960-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rddrr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rddrq/248b7863-631e-4eb8-bb77-b85be000b0ff/93c35960-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rddrr.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 14 English Explanation 3\"><br>Both particle have no vertical velocity after splitting so both will take same time to reach the ground.\n<br><br>$$\\because$$ Time of motion of one part falling vertically downwards is 0.5 s<br><br>$$\\Rightarrow$$ Time of motion of another part, $$t = 0.5$$ s <br><br>From momentum conservation, p<sub>i</sub> = p<sub>f</sub><br><br>2m $$\\times$$ 5 = m $$\\times$$ v<br><br>v = 10 m/s<br><br>Displacement of other part in 0.5 s in horizontal direction,<br><br>$$ = v\\left( {{T \\over 2}} \\right) = 10 \\times 0.5 = 5$$ m = R<br><br>$$\\therefore$$ Total distance of second part from point O is $$x = {{3R} \\over 2} = 3 \\times {5 \\over 2}$$<br><br>$$ \\Rightarrow $$ x = 7.5 m "
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक प्रक्षेप (projectile) को उर्ध्वाधर (vertical) से $$45^{\\circ}$$ के कोण पर $$5 \\sqrt{2} \\mathrm{~m} / \\mathrm{s}$$ की चाल से भूमि पर स्थित एक बिन्दु $$\\mathrm{O}$$ से प्रक्षेपित किया जाता है। अपने प्रक्षेप-पथ के उच्चतम बिन्दु पर यह प्रक्षेप दो बराबर भागों में विभाजित हो जाता है। विभाजन के $$0.5$$ सेकंड (second) उपरांत एक भाग भूमि पर लम्बवत नीचे गिरता है। दूसरा भाग, विभाजन के $$t$$ सेकंड उपरांत भूमि पर, बिन्दु $$\\mathrm{O}$$ से $$x$$ मीटर की दूरी पर गिरता है। गुरुत्वीय त्वरण $$g=10 \\mathrm{~m} / \\mathrm{s}^{2}$$ है।</p>\n<p>$$x$$ का मान __________ है</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "7.5",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rqqvx/85fa1287-3d1a-490b-bc5d-acaf4ce38bed/076a2be0-5b07-11ec-86b6-77bf7a2ad847/file-1kx2rqqvy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rqqvx/85fa1287-3d1a-490b-bc5d-acaf4ce38bed/076a2be0-5b07-11ec-86b6-77bf7a2ad847/file-1kx2rqqvy.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 14 Hindi Explanation 1\"> <br>परास, $$R = {u_x} \\times T = {{2{u_x}{u_y}} \\over g} = {{2 \\times 5 \\times 5} \\over {10}} = 5$$ m<br><br>उड्डयन काल, $$T = {{2{u_y}} \\over g} = {{2 \\times 5} \\over {10}} = 1$$ s<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rcfsj/952503cc-0e90-4de4-807d-d0c0b6cff7e0/79842430-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rcfsk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rcfsj/952503cc-0e90-4de4-807d-d0c0b6cff7e0/79842430-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rcfsk.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 14 Hindi Explanation 2\"><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kx2rddrq/248b7863-631e-4eb8-bb77-b85be000b0ff/93c35960-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rddrr.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kx2rddrq/248b7863-631e-4eb8-bb77-b85be000b0ff/93c35960-5b05-11ec-86b6-77bf7a2ad847/file-1kx2rddrr.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Laws of Motion Question 14 Hindi Explanation 3\"><br>विभाजन के बाद दोनों कणों का कोई ऊर्ध्वाधर वेग नहीं है इसलिए दोनों को जमीन तक पहुंचने में समान समय लगेगा।\n<br><br>$$\\because$$ ऊर्ध्वाधर रूप से नीचे की ओर गिरने वाले एक भाग की गति का समय 0.5 s है<br><br>$$\\Rightarrow$$ दूसरे भाग की गति का समय, $$t = 0.5$$ s <br><br>संवेग संरक्षण से, p<sub>i</sub> = p<sub>f</sub><br><br>2m $$\\times$$ 5 = m $$\\times$$ v<br><br>v = 10 m/s<br><br>क्षैतिज दिशा में 0.5 s में दूसरे भाग का विस्थापन,<br><br>$$ = v\\left( {{T \\over 2}} \\right) = 10 \\times 0.5 = 5$$ m = R<br><br>$$\\therefore$$ बिंदु O से दूसरे भाग की कुल दूरी $$x = {{3R} \\over 2} = 3 \\times {5 \\over 2}$$ है<br><br>$$ \\Rightarrow $$ x = 7.5 m"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "newtons-laws-of-motion",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A projectile is thrown from a point O on the ground at an angle 45$$^\\circ$$ from the vertical and with a speed 5$$\\sqrt 2 $$ m/s. The projectile at the highest point of its trajectory splits into two equal parts. One part falls vertically ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "एक प्रक्षेप (projectile) को उर्ध्वाधर (vertical) से $$45^{\\circ}$$ के कोण पर $$5 \\sqrt{2} \\mathrm{~m} / \\mathrm{s}$$ की चाल से भूमि पर स्थित एक बिन्दु $$\\mathrm{O}$$ से प्रक्षेपित किया जाता है। अपने प्रक्षेप-पथ के उच्चतम बिन्दु पर यह प्रक्ष..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "exam": "jee-advanced",
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "chapter": "laws-of-motion",
+      "year": 2020,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "timeAllotted": 200000,
+      "marks": 3,
+      "negMarks": 1,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": "2020-09-27 09:00",
+      "question": {
+        "en": {
+          "content": "A football of radius R is kept on a hole of radius r (r &lt; R) made on a plank kept horizontally. One\nend of the plank is now lifted so that it gets tilted making an angle $$\\theta $$ from the horizontal as shown in\nthe figure below. The maximum value of $$\\theta $$ so that the football does not start rolling down the plank\nsatisfies (figure is schematic and not drawn to scale)\n<img src=\"https://imagex.cdn.examgoal.net/jgy2xukflvjc14/6ea2c9ac-d21b-4a6c-98ef-5cf03991e660/dd4f4280-012c-11eb-8293-3b6cc591631c/file-jgy2xukflvjc15-320w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Laws of Motion Question 18 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "sin $$\\theta $$ = $${r \\over R}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "tan $$\\theta $$ = $${r \\over R}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "sin $$\\theta $$ = $${r \\over {2R}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "cos $$\\theta $$ = $${r \\over {2R}}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Laws of Motion Question 18 English Explanation\"></picture>\n<br><br>For $$\\theta $$<sub>max</sub>, the football is about to roll, then N<sub>2</sub> = 0 and all the forces (mg and N<sub>1</sub>) must pass through contact point.<br><br>$$ \\therefore $$ $$\\cos (90^\\circ  - {\\theta _{\\max }}) = {r \\over R} $$\n<br><br>$$\\Rightarrow \\sin {\\theta _{\\max }} = {r \\over R}$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>क्षैतिज अवस्था में रखे हुए एक तखे (plank) में एक छिद्र है जिसकी त्रिज्या $r$ है। तख्ते के इस छिद्र पर एक $$R(R &gt; r)$$ त्रिज्या वाले फुटबॉल को रखा गया है । जैसा कि नीचे चित्र में दिखाया गया है, इस तख्ते को अब एक छोर से ऊपर उठाया जाता है जिससे कि यह उत्रत हो कर क्षितिज से $$\\theta$$ का कोण बनाता है। $$\\theta$$ का अधिकतम मान जब तक कि फुटबॉल तख्ते पर लोटना प्रारंभ नहीं करती है, इस तरह है कि हचित्र प्रतीकात्मक (schematic) हैं तथा माप के अनुसार नहीं है ]</p>\n<p><img src=\"https://imagex.cdn.examgoal.net/jgy2xukflvjc14/6ea2c9ac-d21b-4a6c-98ef-5cf03991e660/dd4f4280-012c-11eb-8293-3b6cc591631c/file-jgy2xukflvjc15-320w.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Laws of Motion Question 18 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sin \\theta=\\frac{r}{R}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\tan \\theta=\\frac{r}{R}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sin \\theta=\\frac{r}{2 R}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\cos \\theta=\\frac{r}{2 R}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s-860w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ks6drb2r/ebf58cbe-b4f7-4fef-955b-7157aabf175b/64e7c230-fa06-11eb-a041-ab0ab873b5e4/file-1ks6drb2s.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Laws of Motion Question 18 Hindi Explanation\"></picture>\n<br><br>$$\\theta $$<sub>max</sub> के लिए, फुटबॉल लुढ़कने वाली है, तब N<sub>2</sub> = 0 और सभी बल (mg और N<sub>1</sub>) संपर्क बिंदु से गुजरने चाहिए।<br><br>$$ \\therefore $$ $$\\cos (90^\\circ  - {\\theta _{\\max }}) = {r \\over R} $$\n<br><br>$$\\Rightarrow \\sin {\\theta _{\\max }} = {r \\over R}$$"
+        }
+      },
+      "question_id": "9ovymdbjy39krfvbepiq",
+      "updated_time": 1601258057,
+      "permalink": "a-football-of-radius-r-is-kept-on-a-hole-of-radius-r-r--r-jee-advanced-physics-rotational-motion-neyjxmjy9zbql2ln",
+      "topic": "equilibrium-of-a-particle",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A football of radius R is kept on a hole of radius r (r < R) made on a plank kept horizontally. One\nend of the plank is now lifted so that it gets tilted making an angle $$\\theta $$ from the horizontal as shown in\nthe figure below. The maxi..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "क्षैतिज अवस्था में रखे हुए एक तखे (plank) में एक छिद्र है जिसकी त्रिज्या $r$ है। तख्ते के इस छिद्र पर एक $$R(R > r)$$ त्रिज्या वाले फुटबॉल को रखा गया है । जैसा कि नीचे चित्र में दिखाया गया है, इस तख्ते को अब एक छोर से ऊपर उठाया जाता है जिसस..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "exam": "jee-advanced",
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "chapter": "laws-of-motion",
+      "year": 2020,
+      "paperTitle": "JEE Advanced 2020 Paper 1 Offline",
+      "timeAllotted": 200000,
+      "marks": 4,
+      "negMarks": 0,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": "2020-09-27 09:00",
+      "question": {
+        "en": {
+          "content": "Put a uniform meter scale horizontally on your extended index fingers with the left one at 0.00 cm\nand the right one at 90.00 cm. When you attempt to move both the fingers slowly towards the center,\ninitially only the left finger slips with respect to the scale and the right finger does not. After some\ndistance, the left finger stops and the right one starts slipping. Then the right finger stops at a distance\nx<sub>R</sub> from the center (50.00 cm) of the scale and the left one starts slipping again. This happens\nbecause of the difference in the frictional forces on the two fingers. If the coefficients of static and\ndynamic friction between the fingers and the scale are 0.40 and 0.32, respectively, the value of x<sub>R</sub> (in\ncm) is ______. ",
+          "options": [],
+          "correct_options": [],
+          "answer": "25.60",
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hkxea/f086a5a0-6160-4918-9158-945c0537527d/57ffef20-fa15-11eb-a14f-cb827b20a05e/file-1ks6hkxeb-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hkxea/f086a5a0-6160-4918-9158-945c0537527d/57ffef20-fa15-11eb-a14f-cb827b20a05e/file-1ks6hkxeb-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hkxea/f086a5a0-6160-4918-9158-945c0537527d/57ffef20-fa15-11eb-a14f-cb827b20a05e/file-1ks6hkxeb-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ks6hkxea/f086a5a0-6160-4918-9158-945c0537527d/57ffef20-fa15-11eb-a14f-cb827b20a05e/file-1ks6hkxeb.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Laws of Motion Question 17 English Explanation 1\"></picture> <br><br>Here, $$\\mu $$<sub>s</sub> = 0.40, $$\\mu $$<sub>k</sub> = 0.32<br><br>$$ \\because $$ $$\\mu $$<sub>k</sub>N<sub>3</sub> = $$\\mu $$<sub>s</sub>N<sub>4</sub><br><br>and x<sub>1</sub>N<sub>3</sub> = 40 $$ \\times $$ N<sub>4</sub><br><br>So, $${{{\\mu _k}} \\over {{x_1}}} = {{{\\mu _s}} \\over {40}} \\Rightarrow {{0.32} \\over {{x_1}}} = {{0.4} \\over {40}}$$<br><br>$$ \\Rightarrow {{0.32} \\over {{x_1}}} = {1 \\over {100}} \\Rightarrow {x_1} = 32$$ cm<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hnxcz/5a72ea60-ea3e-4884-9726-dae511aace75/ab662f30-fa15-11eb-993d-7f6f2f90a717/file-1ks6hnxd0-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hnxcz/5a72ea60-ea3e-4884-9726-dae511aace75/ab662f30-fa15-11eb-993d-7f6f2f90a717/file-1ks6hnxd0-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hnxcz/5a72ea60-ea3e-4884-9726-dae511aace75/ab662f30-fa15-11eb-993d-7f6f2f90a717/file-1ks6hnxd0-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ks6hnxcz/5a72ea60-ea3e-4884-9726-dae511aace75/ab662f30-fa15-11eb-993d-7f6f2f90a717/file-1ks6hnxd0.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Laws of Motion Question 17 English Explanation 2\"></picture> <br><br>$${{{\\mu _s}{N_5}} \\over {{x_1}{N_5}}} = {{{\\mu _s}{N_6}} \\over {{x_g}{N_6}}} \\Rightarrow {{0.40} \\over {10 \\times 32}} \\times {{0.32} \\over {{x_g}}}$$<br><br>$$ \\Rightarrow {x_g} = 25.6$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>आप अपने हाथों की पूर्णतः खुली हुई तर्जनी उंगलियों पर एक मीटर लम्बे एकसमान पैमाने (scale) को क्षैतिज अवस्था में इस प्रकार रखें कि बाईं उंगली $$0.00 \\mathrm{~cm}$$ पर तथा दायीं उंगली $$90.00 \\mathrm{~cm}$$ पर हो । जब आप ऊंगलियों को पैमाने के केंन्द्र की ओर धीरे-धीरे चलाकर लाने का प्रयत्न करते हैं, तब आरम्भ में केवल बाईं ऊंगली ही पैमाने के सापेक्ष फिसलती है तथा दायीं ऊंगली नहीं चलती है। कुछ दूरी चलने के बाद बाईं ऊंगली रुक जाती है तथा अब दायीं ऊंगली फिसलना आरम्भ करती है। पैमाने के केंद्र $$(50.00 \\mathrm{~cm})$$ से $$x_{R}$$ दूरी पर आ कर दायीं ऊंगली रुक जाती है तथा बाईं ऊंगली पुनः फिसलना आरम्भ करती है। ऐसा दोनों ऊंगलियों पर लगने वाले घर्षण बलों के अंतर के कारण होता है। यदि उँगलियों तथा पैमाने के बीच के स्थैतिक घर्षण गुणांक का मान $$0.40$$ तथा गतिज घर्षण गुणांक का मान $$0.32$$ हो तो, $$\\mathrm{cm}$$ में $$x_{R}$$ का मान ____________ होगा।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "25.60",
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hkxea/f086a5a0-6160-4918-9158-945c0537527d/57ffef20-fa15-11eb-a14f-cb827b20a05e/file-1ks6hkxeb-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hkxea/f086a5a0-6160-4918-9158-945c0537527d/57ffef20-fa15-11eb-a14f-cb827b20a05e/file-1ks6hkxeb-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hkxea/f086a5a0-6160-4918-9158-945c0537527d/57ffef20-fa15-11eb-a14f-cb827b20a05e/file-1ks6hkxeb-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ks6hkxea/f086a5a0-6160-4918-9158-945c0537527d/57ffef20-fa15-11eb-a14f-cb827b20a05e/file-1ks6hkxeb.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Laws of Motion Question 17 Hindi Explanation 1\"></picture> <br><br>यहाँ, $$\\mu $$<sub>s</sub> = 0.40, $$\\mu $$<sub>k</sub> = 0.32<br><br>$$ \\because $$ $$\\mu $$<sub>k</sub>N<sub>3</sub> = $$\\mu $$<sub>s</sub>N<sub>4</sub><br><br>और x<sub>1</sub>N<sub>3</sub> = 40 $$ \\times $$ N<sub>4</sub><br><br>अतः, $${{\\mu _k} \\over {x_1}} = {{\\mu _s} \\over {40}} \\Rightarrow {{0.32} \\over {x_1}} = {{0.4} \\over {40}}$$<br><br>$$ \\Rightarrow {{0.32} \\over {x_1}} = {1 \\over {100}} \\Rightarrow {x_1} = 32$$ cm<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hnxcz/5a72ea60-ea3e-4884-9726-dae511aace75/ab662f30-fa15-11eb-993d-7f6f2f90a717/file-1ks6hnxd0-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hnxcz/5a72ea60-ea3e-4884-9726-dae511aace75/ab662f30-fa15-11eb-993d-7f6f2f90a717/file-1ks6hnxd0-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ks6hnxcz/5a72ea60-ea3e-4884-9726-dae511aace75/ab662f30-fa15-11eb-993d-7f6f2f90a717/file-1ks6hnxd0-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ks6hnxcz/5a72ea60-ea3e-4884-9726-dae511aace75/ab662f30-fa15-11eb-993d-7f6f2f90a717/file-1ks6hnxd0.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 1 Offline Physics - Laws of Motion Question 17 Hindi Explanation 2\"></picture> <br><br>$${{\\mu _s}{N_5} \\over {x_1}{N_5}} = {{\\mu _s}{N_6} \\over {x_g}{N_6}} \\Rightarrow {{0.40} \\over {10 \\times 32}} = {{0.32} \\over {x_g}}$$<br><br>$$ \\Rightarrow {x_g} = 25.6$$"
+        }
+      },
+      "question_id": "vs1f4ggllw1wq6tj3p85",
+      "updated_time": null,
+      "permalink": "put-a-uniform-meter-scale-horizontally-on-your-extended-inde-jee-advanced-physics-rotational-motion-91rflepbfsrcqztv",
+      "topic": "friction-force",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "Put a uniform meter scale horizontally on your extended index fingers with the left one at 0.00 cm\nand the right one at 90.00 cm. When you attempt to move both the fingers slowly towards the center,\ninitially only the left finger slips with..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "आप अपने हाथों की पूर्णतः खुली हुई तर्जनी उंगलियों पर एक मीटर लम्बे एकसमान पैमाने (scale) को क्षैतिज अवस्था में इस प्रकार रखें कि बाईं उंगली $$0.00 \\mathrm{~cm}$$ पर तथा दायीं उंगली $$90.00 \\mathrm{~cm}$$ पर हो । जब आप ऊंगलियों को पैमाने के ..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-1-offline"
+    },
+    {
+      "question_id": "dgule5uhqp08qq5xlwt4",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 2 Offline",
+      "permalink": "a-block-of-mass-2m-is-attached-to-a-massless-spring-with-spr-jee-advanced-physics-units-and-measurements-9zgp4vskmjm1f4fr",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A block of mass 2M is attached to a massless spring with spring-constant k.This block is connected to two other blocks of masses M and 2M using two massless pulleys and strings. The accelerations of the blocks are a<sub>1</sub>, a<sub>2</sub> and a<sub>3</sub> as shown in the figure. The system is released from rest with the spring in its unstretched state. The maximum extension of the spring is x<sub>0</sub>. Which of the following option(s) is/are correct? [g is the acceleration due to gravity. Neglect friction]\n<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszc3ll3/d056b43c-f8cc-4952-bed5-bf2b84e0ebf2/a34ed170-09f2-11ec-837d-2903eea50152/file-1kszc3ll4-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszc3ll3/d056b43c-f8cc-4952-bed5-bf2b84e0ebf2/a34ed170-09f2-11ec-837d-2903eea50152/file-1kszc3ll4-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszc3ll3/d056b43c-f8cc-4952-bed5-bf2b84e0ebf2/a34ed170-09f2-11ec-837d-2903eea50152/file-1kszc3ll4-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kszc3ll3/d056b43c-f8cc-4952-bed5-bf2b84e0ebf2/a34ed170-09f2-11ec-837d-2903eea50152/file-1kszc3ll4.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Laws of Motion Question 16 English\"></picture>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${a_2} - {a_1} = {a_1} - {a_3}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "At an extension of $${{{x_0}} \\over 4}$$ of the spring, the magnitude of acceleration of the block connected to the spring is $${{3g} \\over {10}}$$."
+            },
+            {
+              "identifier": "C",
+              "content": "$${x_0} = {{4Mg} \\over k}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "When spring achieves an extension of $${{{x_0}} \\over 2}$$ for the first time, the speed of the block connected to the spring is $$3g\\sqrt {{M \\over {5k}}} $$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszcz04j/202f1a7f-72d4-457a-a368-5e41b1f99d5f/0c9fb240-09f6-11ec-837d-2903eea50152/file-1kszcz04k-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszcz04j/202f1a7f-72d4-457a-a368-5e41b1f99d5f/0c9fb240-09f6-11ec-837d-2903eea50152/file-1kszcz04k-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszcz04j/202f1a7f-72d4-457a-a368-5e41b1f99d5f/0c9fb240-09f6-11ec-837d-2903eea50152/file-1kszcz04k-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kszcz04j/202f1a7f-72d4-457a-a368-5e41b1f99d5f/0c9fb240-09f6-11ec-837d-2903eea50152/file-1kszcz04k.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Laws of Motion Question 16 English Explanation 1\"></picture> <br><br>In the frame of pulley B,<br><br>the hanging masses have accelerations :<br><br>$$M \\to ({a_2} - {a_1})$$<br><br>$$2M \\to ({a_3} - {a_1})$$ : downward.<br><br>$$ \\therefore $$ $$({a_2} - {a_1})$$ = $$( - {a_3} - {a_1})$$ [constant]<br><br>Assuming that the extension of the spring is x<br><br>We consider the FBD of A :<br><br>$$2M.{{{d^2}x} \\over {d{t^2}}} = 2T - kx$$<br><br> <img src=\"https://imagex.cdn.examgoal.net/1kszd4ifv/1f14fe91-1d9a-4e46-9fcb-15428359e1a5/a5d112b0-09f6-11ec-ac1f-e362cac4ba2a/file-1kszd4ifw.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Laws of Motion Question 16 English Explanation 2\"> <br><br>where, $${a_1} \\equiv {{{d^2}x} \\over {d{t^2}}}$$ ....(i)<br><br>and the FBD of the rest of the system in the frame of pulley B :<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszd7rg4/c943f044-1df6-41c6-9d48-32c1b41150da/0033a740-09f7-11ec-ac1f-e362cac4ba2a/file-1kszd7rg5-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszd7rg4/c943f044-1df6-41c6-9d48-32c1b41150da/0033a740-09f7-11ec-ac1f-e362cac4ba2a/file-1kszd7rg5-500w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kszd7rg4/c943f044-1df6-41c6-9d48-32c1b41150da/0033a740-09f7-11ec-ac1f-e362cac4ba2a/file-1kszd7rg5.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Laws of Motion Question 16 English Explanation 3\"></picture> <br><br>Upward acceleration of block M w.r.t. the pulley B = Downward acceleration of block 2M w.r.t. the pulley.<br><br>$${{T - M(g - {a_1})} \\over M} = {{2M(g - {a_1}) - T} \\over {2M}}$$<br><br>$$ \\Rightarrow T = {{4M} \\over 3}(g - {a_1})$$ .....(ii)<br><br>Substituting in Eq. (i), we get<br><br>$$2M.{a_1} = {{8M} \\over 3}(g - {a_1}) - kx$$<br><br>or $${{14M} \\over 3}{a_1} = {{8Mg} \\over 3} - kx$$ ....(iii)<br><br>This is equation of SHM<br><br>Maximum extension = 2 $$ \\times $$ amplitude<br><br>i.e., $${x_0} = 2 \\times {{8Mg} \\over {3k}}$$<br><br>Amplitude = $${{{x_0}} \\over 2} = {{3Mg} \\over {3k}}$$ and $$\\omega  = \\sqrt {{{3k} \\over {14M}}} $$<br><br>At $${{{x_0}} \\over 4}$$, acceleration is easily found from Eq. (iii),<br><br>$${{14M} \\over 3}{a_1} = {{8Mg} \\over 3} - {{4Mg} \\over 3}$$<br><br>$${a_1} = {{2g} \\over 7}$$<br><br>At $${{{x_0}} \\over 2}$$, speed of the block<br><br>$$(2M) = \\omega  \\times \\,amplitude$$<br><br>= $$\\sqrt {{{3k} \\over {14M}}}  \\times {{8Mg} \\over {3k}}$$<br><br>$$ \\therefore $$ option (a) is correct."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>$$2 M$$ द्रव्यमान का एक गुटका एक भारहीन स्प्रिंग, जिसका स्प्रिंग नियतांक $$k$$ है, से सम्बद्ध है । यह गुटका दो अन्य $$M$$ और $$2 M$$ द्रव्यमान के गुटकों से दो भारहीन पुलियों एवं डोरियों द्वारा जुड़ा है। गुटकों का त्वरण $$a_{1}, a_{2}$$ और $$a_{3}$$ है जैसा की चित्र मे दर्शाया गया है । इस निकाय को स्थिर तथा स्प्रिंग की अवितान्य (unstretched) अवस्था से छोड़ा जाता है | स्प्रिंग का अधिकतम खिचाव (extension) $$x_{0}$$ है। निम्नलिखित कथनों में से कौन सा(से) सही है(हैं) ?</p>\n<p>[ $$g$$ गुरुत्वीय त्वरण है | घर्षण उपेक्षणीय है| ]</p>\n<p><picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszc3ll3/d056b43c-f8cc-4952-bed5-bf2b84e0ebf2/a34ed170-09f2-11ec-837d-2903eea50152/file-1kszc3ll4-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszc3ll3/d056b43c-f8cc-4952-bed5-bf2b84e0ebf2/a34ed170-09f2-11ec-837d-2903eea50152/file-1kszc3ll4-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszc3ll3/d056b43c-f8cc-4952-bed5-bf2b84e0ebf2/a34ed170-09f2-11ec-837d-2903eea50152/file-1kszc3ll4-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kszc3ll3/d056b43c-f8cc-4952-bed5-bf2b84e0ebf2/a34ed170-09f2-11ec-837d-2903eea50152/file-1kszc3ll4.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Laws of Motion Question 16 Hindi\"></picture></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$a_{2}-a_{1}=a_{1}-a_{3}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "जब स्प्रिंग का खिचाव $$\\frac{x_{0}}{4}$$ है तब स्प्रिंग से जुड़े हुए गुटके के त्वरण का परिमाण $$\\frac{3 g}{10}$$ होता है।"
+            },
+            {
+              "identifier": "C",
+              "content": "$$x_{0}=\\frac{4 M g}{k}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "जब स्प्रिंग का खिचाव पहली बार $$\\frac{x_{0}}{2}$$ होता है तब स्प्रिंग से जुड़े हुए गुटके की गति का मान $$3 g \\sqrt{\\frac{M}{5 k}}$$ होता है।"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszcz04j/202f1a7f-72d4-457a-a368-5e41b1f99d5f/0c9fb240-09f6-11ec-837d-2903eea50152/file-1kszcz04k-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszcz04j/202f1a7f-72d4-457a-a368-5e41b1f99d5f/0c9fb240-09f6-11ec-837d-2903eea50152/file-1kszcz04k-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszcz04j/202f1a7f-72d4-457a-a368-5e41b1f99d5f/0c9fb240-09f6-11ec-837d-2903eea50152/file-1kszcz04k-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kszcz04j/202f1a7f-72d4-457a-a368-5e41b1f99d5f/0c9fb240-09f6-11ec-837d-2903eea50152/file-1kszcz04k.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Laws of Motion Question 16 Hindi Explanation 1\"></picture> <br><br>घिरनी B के निर्देश तंत्र में,<br><br>लटकते हुए द्रव्यमानों के त्वरण हैं:<br><br>$$M \\to ({a_2} - {a_1})$$<br><br>$$2M \\to ({a_3} - {a_1})$$ : नीचे की ओर।<br><br>$$ \\therefore $$ $$({a_2} - {a_1})$$ = $$( - {a_3} - {a_1})$$ [नियतांक]<br><br>यह मानते हुए कि स्प्रिंग का विस्तार x है<br><br>हम A का मुक्त पिण्ड आरेख लेते हैं:<br><br>$$2M.{{{d^2}x} \\over {d{t^2}}} = 2T - kx$$<br><br> <img src=\"https://imagex.cdn.examgoal.net/1kszd4ifv/1f14fe91-1d9a-4e46-9fcb-15428359e1a5/a5d112b0-09f6-11ec-ac1f-e362cac4ba2a/file-1kszd4ifw.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Laws of Motion Question 16 Hindi Explanation 2\"> <br><br>जहाँ, $${a_1} \\equiv {{{d^2}x} \\over {d{t^2}}}$$ ....(i)<br><br>और घिरनी B के निर्देश तंत्र में शेष निकाय का मुक्त पिण्ड आरेख:<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszd7rg4/c943f044-1df6-41c6-9d48-32c1b41150da/0033a740-09f7-11ec-ac1f-e362cac4ba2a/file-1kszd7rg5-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1kszd7rg4/c943f044-1df6-41c6-9d48-32c1b41150da/0033a740-09f7-11ec-ac1f-e362cac4ba2a/file-1kszd7rg5-500w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1kszd7rg4/c943f044-1df6-41c6-9d48-32c1b41150da/0033a740-09f7-11ec-ac1f-e362cac4ba2a/file-1kszd7rg5.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Laws of Motion Question 16 Hindi Explanation 3\"></picture> <br><br>घिरनी B के सापेक्ष ब्लॉक M का ऊपर की ओर त्वरण = घिरनी के सापेक्ष ब्लॉक 2M का नीचे की ओर त्वरण।<br><br>$${{T - M(g - {a_1})} \\over M} = {{2M(g - {a_1}) - T} \\over {2M}}$$<br><br>$$ \\Rightarrow T = {{4M} \\over 3}(g - {a_1})$$ .....(ii)<br><br>समीकरण (i) में प्रतिस्थापित करने पर, हमें प्राप्त होता है<br><br>$$2M.{a_1} = {{8M} \\over 3}(g - {a_1}) - kx$$<br><br>या $${{14M} \\over 3}{a_1} = {{8Mg} \\over 3} - kx$$ ....(iii)<br><br>यह सरल आवर्त गति का समीकरण है<br><br>अधिकतम विस्तार = 2 $$ \\times $$ आयाम<br><br>अर्थात्, $${x_0} = 2 \\times {{8Mg} \\over {3k}}$$<br><br>आयाम = $${{{x_0}} \\over 2} = {{3Mg} \\over {3k}}$$ और $$\\omega  = \\sqrt {{{3k} \\over {14M}}} $$<br><br>$${{{x_0}} \\over 4}$$ पर, त्वरण समीकरण (iii) से आसानी से ज्ञात किया जा सकता है,<br><br>$${{14M} \\over 3}{a_1} = {{8Mg} \\over 3} - {{4Mg} \\over 3}$$<br><br>$${a_1} = {{2g} \\over 7}$$<br><br>$${{{x_0}} \\over 2}$$ पर, ब्लॉक की चाल<br><br>$$(2M) = \\omega  \\times \\,आयाम$$<br><br>= $$\\sqrt {{{3k} \\over {14M}}}  \\times {{8Mg} \\over {3k}}$$<br><br>$$ \\therefore $$ विकल्प (a) सही है।"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "spring-force",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A block of mass 2M is attached to a massless spring with spring-constant k.This block is connected to two other blocks of masses M and 2M using two massless pulleys and strings. The accelerations of the blocks are a1, a2 and a3 as shown in ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "$$2 M$$ द्रव्यमान का एक गुटका एक भारहीन स्प्रिंग, जिसका स्प्रिंग नियतांक $$k$$ है, से सम्बद्ध है । यह गुटका दो अन्य $$M$$ और $$2 M$$ द्रव्यमान के गुटकों से दो भारहीन पुलियों एवं डोरियों द्वारा जुड़ा है। गुटकों का त्वरण $$a_{1}, a_{2}$$ और $..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "a161snc2gnz3v1zr7pcx",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A solid horizontal surface is covered with a thin layer of oil. A rectangular block of mass $$m=0.4$$ $$kg$$ is at rest on this surface. An impulse of $$1.0$$ $$Ns$$ is applied to the block at time $$t=0$$ so that it starts moving along the $$x$$-axis with a velocity $$v\\left( t \\right) = {v_0}{e^{ - t/\\tau }},$$ where $${v_0}$$ is a constant and $$\\tau  = 4s.$$ The displacement of the block, in <i>metres,</i> at $$t = \\tau $$ is ______________ Take $${e^{ - 1}} = 0.37.$$ ",
+          "options": [],
+          "correct_options": [],
+          "answer": "6.30",
+          "explanation": "<p>The block was initially at rest and its velocity just after the application of impulse is $$v(0) = {v_0}{e^{ - 0/\\tau }} = {v_0}$$. The applied impulse is equal to the change in linear momentum of the block i.e., J = mv<sub>0</sub>, which gives</p>\n<p>v<sub>0</sub> = J/m = 1/0.4 = 2.5 m/s.</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kzwlzd8t/cecaff82-c616-40bb-8411-fdd368ba8a06/729ff5f0-9308-11ec-b99e-fbe4f8eda4e7/file-1kzwlzd8v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kzwlzd8t/cecaff82-c616-40bb-8411-fdd368ba8a06/729ff5f0-9308-11ec-b99e-fbe4f8eda4e7/file-1kzwlzd8v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Physics - Laws of Motion Question 19 English Explanation\"></p>\n<p>The velocity of the particle is given as</p>\n<p>$$v(t) = {v_0}{e^{ - t/\\tau }}$$.</p>\n<p>Integrate to get the displacement</p>\n<p>$$x(t) = \\int_0^t {{v_0}{e^{ - t/\\tau }}dt = {v_0}\\tau (} 1 - {e^{ - t/\\tau }})$$.</p>\n<p>Substitute t = $$\\tau$$ = 4 s and v<sub>0</sub> = 2.5 m/s to get x($$\\tau$$) = (2.5) (4) (1 $$-$$ e<sup>$$-$$1</sup>) = 6.3 m.</p>"
+        },
+        "hi": {
+          "content": "एक ठोस क्षैतिज सतह को तेल की पतली परत से ढका गया है। 0.4 $$kg$$ द्रव्यमान का एक आयताकार ब्लॉक इस सतह पर स्थिर है। ब्लॉक को समय $$t=0$$ पर $$1.0$$ $$Ns$$ की प्रेरणा दी जाती है ताकि यह $$x$$-अक्ष के साथ $$v\\left( t \\right) = {v_0}{e^{ - t/\\tau }}$$ वेग के साथ चलना शुरू कर दे, जहां $${v_0}$$ एक स्थिरांक है और $$\\tau = 4s.$$ ब्लॉक का विस्थापन, $$t = \\tau $$ पर <i>मीटर में</i> है ______________ $${e^{ - 1}} = 0.37.$$ लें।",
+          "options": [],
+          "correct_options": [],
+          "answer": "6.30",
+          "explanation": "<p>ब्लॉक प्रारंभ में विराम अवस्था में था और आवेग के अनुप्रयोग के ठीक बाद इसका वेग $$v(0) = {v_0}{e^{ - 0/\\tau }} = {v_0}$$ है। अनुप्रयुक्त आवेग ब्लॉक के रैखिक संवेग में परिवर्तन के बराबर है अर्थात्, J = mv<sub>0</sub>, जो देता है</p>\n<p>v<sub>0</sub> = J/m = 1/0.4 = 2.5 m/s.</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kzwlzd8t/cecaff82-c616-40bb-8411-fdd368ba8a06/729ff5f0-9308-11ec-b99e-fbe4f8eda4e7/file-1kzwlzd8v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kzwlzd8t/cecaff82-c616-40bb-8411-fdd368ba8a06/729ff5f0-9308-11ec-b99e-fbe4f8eda4e7/file-1kzwlzd8v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Physics - Laws of Motion Question 19 Hindi Explanation\"></p>\n<p>कण का वेग इस प्रकार दिया गया है</p>\n<p>$$v(t) = {v_0}{e^{ - t/\\tau }}$$.</p>\n<p>विस्थापन प्राप्त करने के लिए समाकलन करें</p>\n<p>$$x(t) = \\int_0^t {{v_0}{e^{ - t/\\tau }}dt = {v_0}\\tau (} 1 - {e^{ - t/\\tau }})$$.</p>\n<p>t = $$\\tau$$ = 4 s और v<sub>0</sub> = 2.5 m/s प्रतिस्थापित करने पर x($$\\tau$$) = (2.5) (4) (1 $$-$$ e<sup>$$-$$1</sup>) = 6.3 m प्राप्त होता है।</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-solid-horizontal-surface-is-covered-with-a-thin-layer-of-o-2018-marks-3-joi3eibtqjpkywat.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "topic": "newtons-laws-of-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A solid horizontal surface is covered with a thin layer of oil. A rectangular block of mass $$m=0.4$$ $$kg$$ is at rest on this surface. An impulse of $$1.0$$ $$Ns$$ is applied to the block at time $$t=0$$ so that it starts moving along the..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "एक ठोस क्षैतिज सतह को तेल की पतली परत से ढका गया है। 0.4 $$kg$$ द्रव्यमान का एक आयताकार ब्लॉक इस सतह पर स्थिर है। ब्लॉक को समय $$t=0$$ पर $$1.0$$ $$Ns$$ की प्रेरणा दी जाती है ताकि यह $$x$$-अक्ष के साथ $$v\\left( t \\right) = {v_0}{e^{ - t/\\ta..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "question_id": "k8g1qkm1zhe0fm1bs8gd",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "permalink": "pa-wire-which-passes-through-the-hole-in-a-small-bead-is-jee-advanced-physics-units-and-measurements-zxigphpw0lgqkakl",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A wire, which passes through the hole in a small bead, is bent in the form of quarter of a circle. The wire is fixed vertically on ground as shown in the below figure. The bead is released from near the top of the wire and it slides along the wire without friction. As the bead moves from A to B, the force it applies on the wire is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l17p7vc5/b9f32ced-20af-405f-88c0-f059ac935d39/f0fbc060-aced-11ec-915c-c385b35e7182/file-1l17p7vc6.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l17p7vc5/b9f32ced-20af-405f-88c0-f059ac935d39/f0fbc060-aced-11ec-915c-c385b35e7182/file-1l17p7vc6.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 2 Offline Physics - Laws of Motion Question 11 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "always radially outwards."
+            },
+            {
+              "identifier": "B",
+              "content": "always radially inwards."
+            },
+            {
+              "identifier": "C",
+              "content": "radially outwards initially and radially inwards later."
+            },
+            {
+              "identifier": "D",
+              "content": "radially inwards initially and radially outwards later."
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Let v be speed of the bead when it makes an angle $$\\theta$$ with the vertical direction.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l17pi3x7/e650938b-3633-4d38-9af8-405f375e965f/0db4b2b0-acef-11ec-915c-c385b35e7182/file-1l17pi3x8.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l17pi3x7/e650938b-3633-4d38-9af8-405f375e965f/0db4b2b0-acef-11ec-915c-c385b35e7182/file-1l17pi3x8.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 2 Offline Physics - Laws of Motion Question 11 English Explanation\"></p>\n<p>The forces acting on the bead are its weight mg and normal reaction N. Since all the forces acting on the bead are conservative, the mechanical energy of the bead is conserved i.e.,</p>\n<p>$$mgr(1 - \\cos \\theta ) = {1 \\over 2}m{v^2}$$ ..... (1)</p>\n<p>The radially inward components of force provide centripetal acceleration to the bead i.e.,</p>\n<p>$$mg\\cos \\theta  - N = m{v^2}/r$$ ...... (2)</p>\n<p>Eliminate v<sup>2</sup> from equations (1) and (2) to get</p>\n<p>$$N = mg(3\\cos \\theta  - 2)$$ ...... (3)</p>\n<p>When 3cos$$\\theta$$ &gt; 2, direction of N will be same as shown in figure, i.e., radially outward.</p>\n<p>When 3cos$$\\theta$$ &lt; 2, direction of N will be radially inward. Now, normal on the bead is opposite to the force applied on the wire by the bead, following Newton's third law. Therefore, the force applied on the bead by the wire is radially inwards initially and radially outwards later, as it moves from A to B.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "newtons-laws-of-motion",
+      "type": "mcq",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A wire, which passes through the hole in a small bead, is bent in the form of quarter of a circle. The wire is fixed vertically on ground as shown in the below figure. The bead is released from near the top of the wire and it slides along t..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "question_id": "sxak2hle56rhzggkphv5",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "permalink": "pa-block-of-mass-msub1sub--1-kg-another-mass-msub2-jee-advanced-physics-units-and-measurements-xupek6f6ljaiidro",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A block of mass m<sub>1</sub> = 1 kg another mass m<sub>2</sub> = 2 kg, are placed together (see figure) on an inclined plane with angle of inclination $$\\theta$$. Various values of $$\\theta$$ are given in List I. The coefficient of friction between the block m<sub>1</sub> and the plane is always zero. The coefficient of static and dynamic friction between the block m<sub>2</sub> and the plane are equal to $$\\mu$$ = 0.3. In List II expressions for the friction on the block m<sub>2</sub> are given. Match the correct expression of the friction in List II with the angles given in List I, and choose the correct option. The acceleration due to gravity is denoted by g.</p>\n<p>[Useful information : tan (5.5$$^\\circ$$) $$\\approx$$ 0.1; tan (11.5$$^\\circ$$) $$\\approx$$ 0.2; tan (16.5$$^\\circ$$) $$\\approx$$ 0.3]</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l17q9erq/bb417eee-1727-461f-b88a-b5a74ca6cbf1/04eeba60-acf2-11ec-915c-c385b35e7182/file-1l17q9err.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l17q9erq/bb417eee-1727-461f-b88a-b5a74ca6cbf1/04eeba60-acf2-11ec-915c-c385b35e7182/file-1l17q9err.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 2 Offline Physics - Laws of Motion Question 12 English\"></p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n</p><table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-1wig\">List I</th>\n    <th class=\"tg-1wig\"></th>\n    <th class=\"tg-1wig\">List II</th>\n    <th class=\"tg-1wig\"></th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-1wig\">P.</td>\n    <td class=\"tg-0lax\">$$\\theta  = 5^\\circ $$<br></td>\n    <td class=\"tg-1wig\">1.</td>\n    <td class=\"tg-0lax\">$${m_2}g\\sin \\theta $$<br></td>\n  </tr>\n  <tr>\n    <td class=\"tg-1wig\">Q.</td>\n    <td class=\"tg-0lax\">$$\\theta  = 10^\\circ $$<br></td>\n    <td class=\"tg-1wig\">2.</td>\n    <td class=\"tg-0lax\">$$({m_1} + {m_2})g\\sin \\theta $$<br></td>\n  </tr>\n  <tr>\n    <td class=\"tg-1wig\">R.</td>\n    <td class=\"tg-0lax\">$$\\theta  = 15^\\circ $$<br></td>\n    <td class=\"tg-1wig\">3.</td>\n    <td class=\"tg-0lax\">$$\\mu {m_2}g\\cos \\theta $$<br></td>\n  </tr>\n  <tr>\n    <td class=\"tg-1wig\">S.</td>\n    <td class=\"tg-0lax\">$$\\theta  = 20^\\circ $$<br></td>\n    <td class=\"tg-1wig\">4.</td>\n    <td class=\"tg-0lax\">$$\\mu ({m_1} + {m_2})g\\cos \\theta $$<br></td>\n  </tr>\n</tbody>\n</table><p></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "P-1, Q-1, R-1, S-3"
+            },
+            {
+              "identifier": "B",
+              "content": "P-2, Q-2, R-2, S-3"
+            },
+            {
+              "identifier": "C",
+              "content": "P-2, Q-2, R-2, S-4"
+            },
+            {
+              "identifier": "D",
+              "content": "P-2, Q-2, R-3, S-3"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The forces on the block of mass m<sub>1</sub> are its weight m<sub>1</sub>g, normal reaction from the inclined plane N<sub>1</sub>, and the reaction from the second block R.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l17q6ss8/7d4d8adc-f3c2-4fdd-abbc-79125462c167/bc54c290-acf1-11ec-915c-c385b35e7182/file-1l17q6ss9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l17q6ss8/7d4d8adc-f3c2-4fdd-abbc-79125462c167/bc54c290-acf1-11ec-915c-c385b35e7182/file-1l17q6ss9.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 2 Offline Physics - Laws of Motion Question 12 English Explanation\"></p>\n<p>Similarly, forces on the block of mass m<sub>2</sub> are m<sub>2</sub>g, N<sub>2</sub>, R, and the frictional force f. If $$\\theta$$ is slowly increased, f starts increasing and attains its maximum value f = $$\\mu$$N<sub>2</sub> at $$\\theta$$ = $$\\theta$$<sub>r</sub> (angle of repose). The blocks are stationary if $$\\theta$$ $$\\le$$ $$\\theta$$<sub>r</sub> otherwise they are moving. Consider the limiting case, $$\\theta$$ = $$\\theta$$<sub>r</sub>, when the blocks are at rest and</p>\n<p>$$f = \\mu {N_2}$$ ...... (1)</p>\n<p>Apply Newton's second law to m<sub>1</sub>,</p>\n<p>$$R = {m_1}g\\sin \\theta $$ ....... (2)</p>\n<p>$${N_1} = R = {m_2}g\\cos \\theta $$ ....... (3)</p>\n<p>and to m<sub>2</sub>,</p>\n<p>$$f = R + {m_2}g\\sin \\theta $$ ...... (4)</p>\n<p>$${N_2} = {m_1}g\\cos \\theta $$ ...... (5)</p>\n<p>Eliminate R, N<sub>2</sub> and f from equations (1)-(5) to get</p>\n<p>$${\\theta _r} = {\\tan ^{ - 1}}\\left( {{{\\mu {m_2}} \\over {{m_1} + {m_2}}}} \\right) = {\\tan ^{ - 1}}\\left( {{{0.3 \\times 2} \\over {1 + 2}}} \\right)$$</p>\n<p>$$ = {\\tan ^{ - 1}}(0.2) = 11.5^\\circ $$</p>\n<p>Thus, for $$\\theta$$ = 5$$^\\circ$$ and $$\\theta$$  = 10$$^\\circ$$, blocks are at rest with frictional force</p>\n<p>$$f = R + {m_2}g\\sin \\theta  = ({m_1} + {m_2})g\\sin \\theta $$</p>\n<p>For $$\\theta$$ = 15$$^\\circ$$ and $$\\theta$$ = 20$$^\\circ$$, blocks are moving with frictional force</p>\n<p>$$f = \\mu {N_2} = \\mu {m_2}g\\cos \\theta $$, (limiting value).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "friction-force",
+      "type": "mcq",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A block of mass m1 = 1 kg another mass m2 = 2 kg, are placed together (see figure) on an inclined plane with angle of inclination $$\\theta$$. Various values of $$\\theta$$ are given in List I. The coefficient of friction between the block m1..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "question_id": "7nxbf0p7ht0oztz23ggw",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "permalink": "in-the-figure-a-ladder-of-mass-m-is-shown-leaning-against-a-jee-advanced-physics-units-and-measurements-qmqmbojk74h9fxmp",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In the figure, a ladder of mass m is shown leaning against a wall. It is in static equilibrium making an angle $$\\theta$$ with the horizontal floor. The coefficient of friction between the wall and the ladder is $$\\mu$$<sub>1</sub> and that between the floor and the ladder is $$\\mu$$<sub>2</sub>. The normal reaction of the wall on the ladder is N<sub>1</sub> and that of the floor is N<sub>2</sub>. If the ladder is about to slip, then<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ky4k4dae/15dee390-ba62-444c-a7ef-a236dd067a41/01e1ee60-6fcf-11ec-905a-a9d085ead7cd/file-1ky4k4daf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ky4k4dae/15dee390-ba62-444c-a7ef-a236dd067a41/01e1ee60-6fcf-11ec-905a-a9d085ead7cd/file-1ky4k4daf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Laws of Motion Question 13 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mu$$<sub>1</sub> = 0, $$\\mu$$<sub>2</sub> $$\\ne$$ 0 and $${N_2}\\tan \\theta  = {{mg} \\over 2}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mu$$<sub>1</sub> $$\\ne$$ 0, $$\\mu$$<sub>2</sub> = 0 and $${N_1}\\tan \\theta  = {{mg} \\over 2}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mu$$<sub>1</sub> $$\\ne$$ 0, $$\\mu$$<sub>2</sub> $$\\ne$$ 0 and $${N_2} = {{mg} \\over {1 + {\\mu _1}{\\mu _2}}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mu$$<sub>1</sub> = 0, $$\\mu$$<sub>2</sub> $$\\ne$$ 0 and $${N_1}\\tan \\theta  = {{mg} \\over 2}$$"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "As the rod is about to slip, wall and floor exert limiting friction on the ladder.\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ky4k75qg/d7f51591-cd7a-4201-8c7a-a4faf4eb9fd5/4f798480-6fcf-11ec-905a-a9d085ead7cd/file-1ky4k75qh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ky4k75qg/d7f51591-cd7a-4201-8c7a-a4faf4eb9fd5/4f798480-6fcf-11ec-905a-a9d085ead7cd/file-1ky4k75qh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Laws of Motion Question 13 English Explanation\">\n<br><br>Case 1 : If $$\\mu$$<sub>1</sub> = 0, $$\\sum {{{\\overrightarrow \\tau  }_A} = \\overrightarrow 0 } $$<br><br>$$mg\\left( {{l \\over 2}\\cos \\theta } \\right) = {N_1}(l\\sin \\theta )$$<br><br>$${N_1} = {{mg\\cot \\theta } \\over 2}$$<br><br>or $${N_1}\\tan \\theta  = {{mg} \\over 2}$$<br><br>and $${N_2} = mg$$<br><br>Case 2 : If $$\\mu$$<sub>2</sub> = 0, N<sub>1</sub> remain unbalanced and rod can never be in equilibrium.<br><br>Case 3 : If $$\\mu$$<sub>1</sub> $$\\ne$$ 0, $$\\mu$$<sub>2</sub> $$\\ne$$ 0<br><br>$${N_1} = {f_2} = {\\mu _2}{N_2}$$<br><br>$${N_2} + {f_1} = mg$$<br><br>or $${N_2} + {\\mu _1}{N_1} = mg$$<br><br>or $${N_2} + {\\mu _1}({\\mu _2}{N_2}) = mg$$<br><br>or $${N_2} = {{mg} \\over {1 + {\\mu _1}{\\mu _2}}}$$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "equilibrium-of-a-particle",
+      "type": "mcqm",
+      "year": 2014,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "In the figure, a ladder of mass m is shown leaning against a wall. It is in static equilibrium making an angle $$\\theta$$ with the horizontal floor. The coefficient of friction between the wall and the ladder is $$\\mu$$1 and that between th..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "question_id": "dxe81y03863u2z51d8ij",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "permalink": "pa-small-block-of-mass-01-kg-lies-on-a-fixed-inclined-pla-jee-advanced-physics-units-and-measurements-654kokeukqrgrpp4",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A small block of mass 0.1 kg lies on a fixed inclined plane PQ which makes an angle $$\\theta$$ with the horizontal. A horizontal force of 1 N acts on the block through its centre of mass as shown in the figure. The block remains stationary if (take g = 10 m/s<sup>2</sup>)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l24kzzly/a3572ecb-ed9b-4d52-966b-004c89e54766/4eb95a60-bf03-11ec-8fbf-67f2639a0a45/file-1l24kzzlz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l24kzzly/a3572ecb-ed9b-4d52-966b-004c89e54766/4eb95a60-bf03-11ec-8fbf-67f2639a0a45/file-1l24kzzlz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 1 Offline Physics - Laws of Motion Question 10 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\theta$$ = 45$$^\\circ$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\theta$$ > 45$$^\\circ$$ and a frictional force ats on the block towards P."
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\theta$$ > 45$$^\\circ$$ and a frictional force ats on the block towards Q."
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\theta$$ < 45$$^\\circ$$ and a frictional force ats on the block towards Q."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The forces acting on the block are F = 1 N towards the left, weight mg = 0.1 $$\\times$$ 10 = 1 N downwards, normal force N, and the frictional force f. Resolve F and mg along and perpendicular to the inclined plane.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l253yb13/25549356-80e2-49f8-9abb-4a60f58d2825/6d61b670-bf4d-11ec-b997-87cc5d16a405/file-1l253yb14.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l253yb13/25549356-80e2-49f8-9abb-4a60f58d2825/6d61b670-bf4d-11ec-b997-87cc5d16a405/file-1l253yb14.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 1 Offline Physics - Laws of Motion Question 10 English Explanation\"></p>\n<p>When $$\\theta$$ = 45$$^\\circ$$, the net force that brings the block down is</p>\n<p>$${F_d} = mg\\sin \\theta  - F\\cos \\theta  = {1 \\over {\\sqrt 2 }} - {1 \\over {\\sqrt 2 }} = 0$$.</p>\n<p>Thus, the block is stationary if $$\\theta  = 45^\\circ $$. When $$\\theta  &gt; 45^\\circ $$, the force $${F_d} &gt; 0$$, and hence the block has a tendency to move down. Thus, the frictional force f acts on the block upwards i.e., towards Q.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "motion-on-an-inclined-plane",
+      "type": "mcqm",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A small block of mass 0.1 kg lies on a fixed inclined plane PQ which makes an angle $$\\theta$$ with the horizontal. A horizontal force of 1 N acts on the block through its centre of mass as shown in the figure. The block remains stationary ..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "mvkp2l5erzrn63mynh36",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>A ball of mass (m) 0.5 kg is attached to the end of a string having length (L) 0.5 m. The ball is rotated on a horizontal circular path about vertical axis. The maximum tension that the string can bear is 324 N. The\nmaximum possible value of angular velocity of ball (in radian/s) is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2jfavhj/ba33dbb3-8900-4ecf-a0c1-a084f658d040/c867d860-c72c-11ec-9e4a-bf17a41218c9/file-1l2jfavhk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2jfavhj/ba33dbb3-8900-4ecf-a0c1-a084f658d040/c867d860-c72c-11ec-9e4a-bf17a41218c9/file-1l2jfavhk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Laws of Motion Question 27 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "9"
+            },
+            {
+              "identifier": "B",
+              "content": "18"
+            },
+            {
+              "identifier": "C",
+              "content": "27"
+            },
+            {
+              "identifier": "D",
+              "content": "36"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l4i9sawh/452d3673-01d7-4f8b-a2a3-2e46c9ab49a3/dc672a10-ee22-11ec-a735-e70f40715860/file-1l4i9sawi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l4i9sawh/452d3673-01d7-4f8b-a2a3-2e46c9ab49a3/dc672a10-ee22-11ec-a735-e70f40715860/file-1l4i9sawi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Laws of Motion Question 27 English Explanation\"></p>\n<p>Resolve T along the horizontal and the vertical directions. As the particle moves in a horizontal plane, net vertical fore on it is zero. Net horizontal force on it provides the necessary centripetal acceleration for circular motion. Apply Netwon's second law in the horizontal direction to get</p>\n<p>$$T\\sin \\theta  = m{\\omega ^2}r = m{\\omega ^2}(l\\sin \\theta )$$</p>\n<p>$$T = m{\\omega ^2}l$$</p>\n<p>$$\\omega  = \\sqrt {{T \\over {ml}}} $$</p>\n<p>Substituting the given values, we get</p>\n<p>$$\\omega  = \\sqrt {{{324} \\over {0.5 \\times 0.5}}}  = 36$$ rad/s</p>"
+        }
+      },
+      "permalink": "a-ball-of-mass-m-05-kg-is-attached-to-the-end-of-a-string-2011-marks-3-evlbrs79cugsqmjp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "topic": "newtons-laws-of-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A ball of mass (m) 0.5 kg is attached to the end of a string having length (L) 0.5 m. The ball is rotated on a horizontal circular path about vertical axis. The maximum tension that the string can bear is 324 N. The\nmaximum possible value o..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9df18op84zdjewk97ggp",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A block is moving on an inclined plane making an angle $$45^\\circ $$ with the horizontal and the coefficient of friction is $$\\mu $$. The force required to just push it up the inclined plane is 3 times the force required to just\nprevent it from sliding down. If we define N = 10 $$\\mu $$, then N is",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l4i9qhdw/f8504293-2b64-4755-9c67-6f4ffff7eb09/a9cb1440-ee22-11ec-a735-e70f40715860/file-1l4i9qhdx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l4i9qhdw/f8504293-2b64-4755-9c67-6f4ffff7eb09/a9cb1440-ee22-11ec-a735-e70f40715860/file-1l4i9qhdx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Laws of Motion Question 21 English Explanation\"></p>\n<p>The pushing force $${F_1} = mg\\sin \\theta  + f$$</p>\n<p>$$\\therefore$$ $${F_1} = mg\\sin \\theta  + \\mu mg\\cos \\theta  = mg(\\sin \\theta  + \\mu \\cos \\theta )$$</p>\n<p>The force required to just prevent it from sliding down</p>\n<p>$${F_2} = mg\\sin \\theta  - \\mu N = mg(\\sin \\theta  - \\mu \\cos \\theta )$$</p>\n<p>Given, $${F_1} = 3{F_2}$$</p>\n<p>$$\\therefore$$ $$\\sin \\theta  + \\mu \\cos \\theta  = 3(\\sin \\theta  - \\mu \\cos \\theta )$$</p>\n<p>$$\\therefore$$ $$1 + \\mu  = 3(1 - \\mu )$$ [$$\\because$$ $$\\sin \\theta  = \\mu \\cos \\theta $$]</p>\n<p>$$\\therefore$$ $$4\\mu  = 2$$</p>\n<p>$$\\therefore$$ $$\\mu  = 0.5$$</p>\n<p>$$\\therefore$$ $$N = 10\\mu  = 5$$</p>"
+        }
+      },
+      "permalink": "a-block-is-moving-on-an-inclined-plane-making-an-angle-45-2011-marks-4-ib44hkd6fkrf66xm.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "topic": "friction-force",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A block is moving on an inclined plane making an angle $$45^\\circ $$ with the horizontal and the coefficient of friction is $$\\mu $$. The force required to just push it up the inclined plane is 3 times the force required to just\nprevent it ..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "j2zoj4l4n7y9oen6qjz1",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>A block of mass m is on an inclined plane of angle θ. The coefficient of\nfriction between the block and the plane is μ and tan θ &gt; μ. The block is held\nstationary by applying a force P parallel to the plane. The direction of force\npointing up the plane is taken to be positive. As P is varied from P<sub>1</sub> =\nmg(sinθ − μ cosθ) to P<sub>2</sub> = mg(sinθ + μ cosθ), the frictional force f versus P\ngraph will look like</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2y4pny3/6c18989d-795f-4d99-95d9-f36858e0868a/2109eda0-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4pny4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2y4pny3/6c18989d-795f-4d99-95d9-f36858e0868a/2109eda0-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4pny4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Laws of Motion Question 28 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2y4rnc2/c62c737d-b1b5-47bd-94ba-c5911b16e375/582f5c20-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4rnc3.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2y4rnc2/c62c737d-b1b5-47bd-94ba-c5911b16e375/582f5c20-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4rnc3.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Laws of Motion Question 28 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2y4st9k/3292b7d1-6d2d-4dde-8952-022d7afac163/78937190-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4st9l.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2y4st9k/3292b7d1-6d2d-4dde-8952-022d7afac163/78937190-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4st9l.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Laws of Motion Question 28 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2y4trug/48172183-7fa2-4f0f-93f1-b19214ea0f7a/9349ab80-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4truh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2y4trug/48172183-7fa2-4f0f-93f1-b19214ea0f7a/9349ab80-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4truh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Laws of Motion Question 28 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2y4uby8/8875e6d7-21a2-4b3e-aab8-169d37c5fed6/a2d1a710-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4uby9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2y4uby8/8875e6d7-21a2-4b3e-aab8-169d37c5fed6/a2d1a710-cf43-11ec-96c2-cfdd3edc6cd1/file-1l2y4uby9.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Laws of Motion Question 28 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The forces acting on the block are its weight mg, normal reaction N, applied force P and frictional force f.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l308alj0/c2fb2fa4-e2c0-4c20-b363-5b1598563c8a/b3d95bc0-d06a-11ec-bfa4-213dbe55022f/file-1l308alj1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l308alj0/c2fb2fa4-e2c0-4c20-b363-5b1598563c8a/b3d95bc0-d06a-11ec-bfa4-213dbe55022f/file-1l308alj1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Physics - Laws of Motion Question 28 English Explanation\"></p>\n<p>Resolve mg along and normal to the inclined plane and apply Newton's second law to get</p>\n<p>$$0 = P + f - mg\\sin \\theta $$,</p>\n<p>which gives</p>\n<p>$$f =  - P + mg\\sin \\theta $$. ...... (1)</p>\n<p>This is a straight line with slope $$-$$1. Substitute the values of P<sub>1</sub> and P<sub>2</sub> in equation (1) to get the frictional force at those points i.e.,</p>\n<p>$${f_1} = \\mu mg\\cos \\theta $$ and $${f_2} =  - \\mu mg\\cos \\theta $$.</p>"
+        }
+      },
+      "permalink": "a-block-of-mass-m-is-on-an-inclined-plane-of-angle-the-c-2010-marks-3-c6mq2lhobwqqa3jg.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "friction-force",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A block of mass m is on an inclined plane of angle θ. The coefficient of\nfriction between the block and the plane is μ and tan θ > μ. The block is held\nstationary by applying a force P parallel to the plane. The direction of force\npointing ..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "awtt4dm1ddjr57dhuw4s",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A piece of wire is bent in the shape of a parabola y = kx<sup>2</sup> (y-axis vertical) with a bead of mass m on it. The bead can slide on the wire without friction. It stays at the lowest point of the parabola when the wire is at rest. The wire is now accelerated parallel to the x-axis with a constant acceleration $$a$$. The distance of the\nnew equilibrium position of the bead, where the bead can stays at rest with respect to the wire, from the y-axis is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${a \\over {gk}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${a \\over {2gk}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{2a} \\over {gk}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${a \\over {4gk}}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>While the parabola is moving right side, the bead experiences a force with a magnitude $$ma$$ to the left. That is, at equilibrium,</p>\n<p>$$N\\cos \\theta  = mg$$</p>\n<p>$$N\\sin \\theta  = ma$$</p>\n<p>Now, $$\\tan \\theta  = {a \\over g}$$</p>\n<p>Also, $$\\tan \\theta  = {{dy} \\over {dx}} = 2kx \\Rightarrow x = {a \\over {2gk}}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft3r5ar/55aa669f-75a3-4eba-b569-9903c19cd844/45cd4e30-cdde-11ed-b688-1d89ccbb9d7c/file-1lft3r5as.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft3r5ar/55aa669f-75a3-4eba-b569-9903c19cd844/45cd4e30-cdde-11ed-b688-1d89ccbb9d7c/file-1lft3r5as.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Laws of Motion Question 20 English Explanation\"></p>"
+        }
+      },
+      "permalink": "a-piece-of-wire-is-bent-in-the-shape-of-a-parabola-y-kx2-2009-marks-3-ac3vryqtigolj5ei.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "topic": "equilibrium-of-a-particle",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A piece of wire is bent in the shape of a parabola y = kx2 (y-axis vertical) with a bead of mass m on it. The bead can slide on the wire without friction. It stays at the lowest point of the parabola when the wire is at rest. The wire is no..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ycif4b4tl4pvoild44u9",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A block of base 10 cm × 10 cm and height 15 cm is kept on an inclined plane. The coefficient of friction\nbetween them is $$\\sqrt 3 $$. The inclination θ of this inclined plane from the horizontal plane is gradually\nincreased from $$0^\\circ $$. Then",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "at θ = $$60^\\circ $$, the block will start sliding down the plane"
+            },
+            {
+              "identifier": "B",
+              "content": "the block will remain at rest on the plane up to certain θ and then it will topple"
+            },
+            {
+              "identifier": "C",
+              "content": "at θ = $$60^\\circ $$, the block will start sliding down the plane and continue to do so at higher angles"
+            },
+            {
+              "identifier": "D",
+              "content": "at θ = $$60^\\circ $$, the block will start sliding down the plane and on further increasing θ, it will topple at certain θ"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The block slides on the incline when</p>\n<p>$$mg\\sin \\theta  \\ge \\mu mg\\cos \\theta $$</p>\n<p>$$ \\Rightarrow \\tan \\theta  \\ge \\mu $$</p>\n<p>$$ \\Rightarrow \\tan \\theta  \\ge \\sqrt 3  = 1.732$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lfrltdzi/7597b09b-2836-4325-b778-63b6350eee0b/572832e0-cd0b-11ed-8124-cf50c8498624/file-1lfrltdzj.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lfrltdzi/7597b09b-2836-4325-b778-63b6350eee0b/572832e0-cd0b-11ed-8124-cf50c8498624/file-1lfrltdzj.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 1 Offline Physics - Laws of Motion Question 29 English Explanation\"></p>\n<p>For the block to topple, we have</p>\n<p>$$f\\left( {{{15} \\over 2}} \\right) \\ge N(5)$$ (about centre of mass)</p>\n<p>$$ \\Rightarrow \\mu N\\left( {{{15} \\over 2}} \\right) \\ge N(5)$$</p>\n<p>$$ \\Rightarrow \\mu  \\ge {2 \\over 3} = 0.67$$</p>\n<p>or $$\\tan \\theta  \\ge 0.67$$</p>\n<p>That is, the block neither slides nor topples till $$\\theta  \\le {\\tan ^{ - 1}}(0.67)$$ (i.e. it remains at rest) and on exceeding this, it topples first before sliding.</p>"
+        }
+      },
+      "permalink": "a-block-of-base-10-cm-10-cm-and-height-15-cm-is-kept-on-a-2009-marks-3-sce9ln3g5dwz26sq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "topic": "motion-on-an-inclined-plane",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A block of base 10 cm × 10 cm and height 15 cm is kept on an inclined plane. The coefficient of friction\nbetween them is $$\\sqrt 3 $$. The inclination θ of this inclined plane from the horizontal plane is gradually\nincreased from $$0^\\circ ..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "rada10fvfee1tku0abnd",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "pstatement-1--it-is-easier-to-pull-a-heavy-object-than-to-jee-advanced-physics-motion-pyk80tblajc1c1pg",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>STATEMENT 1 : It is easier to pull a heavy object than to push it on a level ground.</p>\n<p>and</p>\n<p>STATEMENT 2 : The magnitude of frictional force depends on the nature of the two surfaces in contact.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement 1 is True, Statement 2 is True; Statement 2 is a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement 1 is True, Statement 2 is True; Statement 2 is a NOT CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement 1 is True, Statement 2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement 1 is False, Statement 2 is True"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p><b>Case I : Free body diagram.</b></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmqiida/46d3c048-508d-4b2a-9bfe-f84f7e7ef60f/026b69e0-de2a-11ed-8949-7f844f9a11f4/file-1lgmqiidb.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmqiida/46d3c048-508d-4b2a-9bfe-f84f7e7ef60f/026b69e0-de2a-11ed-8949-7f844f9a11f4/file-1lgmqiidb.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Laws of Motion Question 8 English Explanation 1\"></p>\n<p>Frictional force ($$fr$$) = $$\\mu$$N</p>\n<p>Normal force (N) = N$$_1$$ + $$mg$$</p>\n<p>Frictional force ($$fr$$)$$_\\mathrm{I}$$ = $$\\mu$$(N$$_1$$ + $$mg$$) ..... (i)</p>\n<p>Where N = Normal force</p>\n<p>$$\\mu$$ = Coefficient of friction</p>\n<p>$$m$$ = mass of object</p>\n<p>$$g$$ = acc. due to gravity</p>\n<p>N$$_1$$ = Normal force i.e., vertical component of force due to push.</p>\n<p>N$$_2$$ = Parallel component of force due to push.</p>\n<p><b>Case II : Free body diagram (Pull)</b></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmqjd0s/d198d1f9-741d-4b72-97fa-738cd6b29e72/1a191ec0-de2a-11ed-b148-8b01c4181132/file-1lgmqjd0t.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmqjd0s/d198d1f9-741d-4b72-97fa-738cd6b29e72/1a191ec0-de2a-11ed-b148-8b01c4181132/file-1lgmqjd0t.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Laws of Motion Question 8 English Explanation 2\"></p>\n<p>For balancing the force,</p>\n<p>N = N$$_1$$ $$-$$ $$mg$$</p>\n<p>Frictional force $$(fr)$$$$_\\mathrm{II}$$ = $$\\mu$$N ..... (ii)</p>\n<p>From eq. (i) and (ii)</p>\n<p>$$(fr)$$$$_\\mathrm{I}$$ &gt; $$(fr)$$$$_\\mathrm{II}$$</p>\n<p>In case of pull, it is easy to move object.</p>\n<p>Statement 1 is true. Statement 2 is true.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmqmq13/d007765e-5799-49ff-b850-423f7095488c/77932c80-de2a-11ed-b148-8b01c4181132/file-1lgmqmq14.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmqmq13/d007765e-5799-49ff-b850-423f7095488c/77932c80-de2a-11ed-b148-8b01c4181132/file-1lgmqmq14.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Laws of Motion Question 8 English Explanation 3\"></p>\n<p>Force of friction depends on roughness of two surfaces in contact. If roughness will increase, the force of friction will also increase.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "friction-force",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "STATEMENT 1 : It is easier to pull a heavy object than to push it on a level ground.\nand\nSTATEMENT 2 : The magnitude of frictional force depends on the nature of the two surfaces in contact."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "2vt49go68mqgxd058flw",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pthe-speed-of-the-block-at-point-b-immediately-after-it-st-jee-advanced-physics-motion-cpbh0rnxlwwqtwyx",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The speed of the block at point B immediately after it strikes the second incline is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sqrt{60}$$ m/s"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt{45}$$ m/s"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sqrt{30}$$ m/s"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\sqrt{75}$$ m/s"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Velocity along the plane just before collision,</p>\n<p>$${v^2} - {u^2} = 2gs \\Rightarrow v = \\sqrt {2g \\times 3}  = \\sqrt {60} \\,m/s$$</p>\n<p>Velocity along the plane just after collision</p>\n<p>$${v_B} - v\\cos 30 = \\sqrt {45} \\,m{s^{ - 1}}$$</p>",
+          "comprehension": "<p>A small block of mass M moves on a frictionless surface of an inclined plane, as shown in figure. The angle of the incline suddenly changes from 60$$^\\circ$$ to 30$$^\\circ$$ at point B. The block is initially at rest at A. Assume that collisions between the block and the incline are totally inelastic (g = 10 m/s$$^2$$).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgl79uia/b09be5ba-460c-45ed-8b40-66e4456457b3/fb693920-dd51-11ed-a791-9b5e9df9524e/file-1lgl79uib.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgl79uia/b09be5ba-460c-45ed-8b40-66e4456457b3/fb693920-dd51-11ed-a791-9b5e9df9524e/file-1lgl79uib.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Physics - Laws of Motion Question 6 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "motion-on-an-inclined-plane",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "The speed of the block at point B immediately after it strikes the second incline is"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "i54k2xlwxw5oiovztpz8",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "pthe-speed-of-the-block-at-point-c-immediately-before-it-jee-advanced-physics-motion-t2lmvm5w7e71in9o",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The speed of the block at point C, immediately before it leaves the second incline is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sqrt{120}$$ m/s"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt{105}$$ m/s"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sqrt{90}$$ m/s"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\sqrt{75}$$ m/s"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>$$v_C^2 - v_B^2 = 2as$$</p>\n<p>$$v_C^2 - 45 = 2 \\times 10 \\times 3$$</p>\n<p>$${v_c} = \\sqrt {60 + 45}  = \\sqrt {105} \\,m{s^{ - 1}}$$ is the velocity of block just before leaving incline.</p>",
+          "comprehension": "<p>A small block of mass M moves on a frictionless surface of an inclined plane, as shown in figure. The angle of the incline suddenly changes from 60$$^\\circ$$ to 30$$^\\circ$$ at point B. The block is initially at rest at A. Assume that collisions between the block and the incline are totally inelastic (g = 10 m/s$$^2$$).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgl79uia/b09be5ba-460c-45ed-8b40-66e4456457b3/fb693920-dd51-11ed-a791-9b5e9df9524e/file-1lgl79uib.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgl79uia/b09be5ba-460c-45ed-8b40-66e4456457b3/fb693920-dd51-11ed-a791-9b5e9df9524e/file-1lgl79uib.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 1 Offline Physics - Laws of Motion Question 7 English Comprehension\"></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "motion-on-an-inclined-plane",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "The speed of the block at point C, immediately before it leaves the second incline is"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "question_id": "odb0m2k0ub9pumm8d6yk",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pstatement-1p-pa-cloth-covers-a-table-some-dishes-ar-jee-advanced-physics-motion-7hbfmeflcc2rhtpp",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>STATEMENT 1</p>\n<p>A cloth covers a table. Some dishes are kept on it. The cloth can be pulled out without dislodging the dishes from the table.</p>\n<p>STATEMENT 2</p>\n<p>For every action there is an equal and opposite reaction.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1."
+            },
+            {
+              "identifier": "B",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1s."
+            },
+            {
+              "identifier": "C",
+              "content": " Statement-1 is True, Statement-2 is False."
+            },
+            {
+              "identifier": "D",
+              "content": "Statement-1 is False, Statement-2 is True."
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Statement 1 : Cloth can be pulled out without dislodging the dishes from the table because of inertia. Therefore, statement 1 true.</p>\n<p>Statement 2 : This is Newton's third law and hence true. But statement 2 is not a correct explanation of statement 1 .</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "newtons-laws-of-motion",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "STATEMENT 1\nA cloth covers a table. Some dishes are kept on it. The cloth can be pulled out without dislodging the dishes from the table.\nSTATEMENT 2\nFor every action there is an equal and opposite reaction."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "lbfatj18hpcwqopeqmxy",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 2007,
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle moves in the X - Y plane under the influence of a force such that its linear momentum is $$\\overrightarrow p \\left( t \\right) = A\\left[ {\\widehat i\\cos (kt) - \\widehat j\\sin (kt)} \\right]$$, where A and k are constants. The angle between the force and the momentum is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$0^\\circ $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$30^\\circ $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$45^\\circ $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$90^\\circ $$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Given that,</p>\n<p>$$\\overrightarrow{\\mathrm{P}}(t)=\\mathrm{A}[\\hat{i} \\cos (k t)-\\hat{j} \\sin (k t)]$$</p>\n<p>where, $$\\mathrm{A}$$ and $$k=$$ constant</p>\n<p>$$\\begin{aligned}\\text { Force }\\overrightarrow{\\mathrm{F}}) & =\\frac{d \\overrightarrow{\\mathrm{P}}}{d t}\\left(\\text { from Newton's } 2^{\\text {nd }}\\right. \\text { law) } \\\\\\\\\n\\Rightarrow \\quad \\overrightarrow{\\mathrm{F}} & =\\frac{d}{d t}[\\mathrm{~A}(\\hat{i} \\cos (k t)-\\hat{j} \\sin (k t))] \\\\\\\\& =\\mathrm{A} k[\\hat{i} \\cos (k t)-\\hat{j} \\sin (k t)]\\end{aligned}$$</p>\n<p>By applying dot product between $$\\vec{F} \\& \\vec{P}$$ we have</p>\n<p>$$\\begin{aligned}& \\overrightarrow{\\mathrm{F}} \\cdot \\overrightarrow{\\mathrm{P}}=0 \\\\\\\\\n& \\Rightarrow|\\vec{F}||\\vec{P}| \\cos \\theta=0 \\\\\\\\\n& \\Rightarrow \\quad \\cos \\theta=0 \\\\\\\\\n& \\text {Hence,} \\theta=90^{\\circ}\\end{aligned}$$</p>"
+        }
+      },
+      "permalink": "a-particle-moves-in-the-x-y-plane-under-the-influence-of-a-2007-marks-3-fjbmfqfn6gmszku7.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "topic": "newtons-laws-of-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A particle moves in the X - Y plane under the influence of a force such that its linear momentum is $$\\overrightarrow p \\left( t \\right) = A\\left[ {\\widehat i\\cos (kt) - \\widehat j\\sin (kt)} \\right]$$, where A and k are constants. The angle..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "question_id": "e6u5o9tjufh8eumrofxd",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "ptwo-particles-of-mass-m-each-are-tied-at-the-ends-of-a-li-jee-advanced-physics-motion-otgeix4wf1rlycli",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Two particles of mass m each are tied at the ends of a light string of length 2a. The whole system is kept on a frictionless horizontal surface with the string held tight so that each mass is at a distance 'a' form the centre P (as shown in the figure). Now, the mid-point of the string is pulled vertically upwards with a small but constant force F. As a result, the particles move towards each other on the surface. The magnitude of acceleration, with the separation between them becomes 2x, is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggcb828/b81c65c2-b6b5-4f11-b91d-b4b6df612cee/8dbac900-a35d-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggcb829.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggcb828/b81c65c2-b6b5-4f11-b91d-b4b6df612cee/8dbac900-a35d-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggcb829.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Laws of Motion Question 9 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${F \\over {2m}}{a \\over {\\sqrt {{a^2} - {x^2}} }}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${F \\over {2m}}{x \\over {\\sqrt {{a^2} - {x^2}} }}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${F \\over {2m}}{x \\over a}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${F \\over {2m}}{{\\sqrt {{a^2} - {x^2}} } \\over x}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggcdgh3/42cfa21d-3d7e-4b83-a1b2-69c1f06fbbca/cbd8bb70-a35d-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggcdgh4.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggcdgh3/42cfa21d-3d7e-4b83-a1b2-69c1f06fbbca/cbd8bb70-a35d-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggcdgh4.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Laws of Motion Question 9 English Explanation 1\"></p>\n<p>The acceleration of mass 'm' is due to the force $$T\\cos \\theta $$, from 2<sup>nd</sup> law of motion we have,</p>\n<p>$$T\\cos \\theta  = ma$$</p>\n<p>$$ \\Rightarrow a = {{T\\cos \\theta } \\over m}$$ ..... (i)</p>\n<p>and also, $$F = 2T\\sin \\theta $$</p>\n<p>$$ \\Rightarrow T = {F \\over {2\\sin \\theta }}$$ ..... (ii)</p>\n<p>From (i) &amp; (ii), we have,</p>\n<p>$$a = \\left( {{F \\over {2\\sin \\theta }}} \\right)\\,.\\,{{\\cos \\theta } \\over m}$$</p>\n<p>$$a = {F \\over {2m\\tan \\theta }}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggcen06/805f50e7-871a-4d02-8b8b-493bc52e76c1/ecb33960-a35d-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggcen07.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggcen06/805f50e7-871a-4d02-8b8b-493bc52e76c1/ecb33960-a35d-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggcen07.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Laws of Motion Question 9 English Explanation 2\"></p>\n<p>$$\\therefore$$ $$a = {F \\over {2m{{\\sqrt {{a^2} - {x^2}} } \\over x}}}$$</p>\n<p>$$\\therefore$$ $$a = {F \\over {2m}}\\,.\\,{x \\over {\\sqrt {{a^2} - {x^2}} }}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "friction-force",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "Two particles of mass m each are tied at the ends of a light string of length 2a. The whole system is kept on a frictionless horizontal surface with the string held tight so that each mass is at a distance 'a' form the centre P (as shown in..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "fkxi6on5an6gd23b9ygr",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "ptwo-blocks-a-and-b-of-masses-2-m-and-m-respectively-jee-advanced-physics-motion-xvos4mka1rsrmgiw",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Two blocks A and B of masses $2 m$ and $m$, respectively, are connected by a massless and inextensible string. The whole system is suspended by a massless spring as shown in the figure. The magnitudes of acceleration of A and B, immediately after the string is cut, are respectively,</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgt0t0of/add60d9c-fa6a-4d3c-b908-51222fe214ab/bf7bb3f0-aa56-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt0t0og.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgt0t0of/add60d9c-fa6a-4d3c-b908-51222fe214ab/bf7bb3f0-aa56-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt0t0og.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Laws of Motion Question 2 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$g, g / 2$</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$g / 2, g$</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$g, g$</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$\\frac{g}{2}, \\frac{g}{2}$</p>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Two blocks A and B of mass 2 m and m respectively are connected by a massless and in extensible string.</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgt0umrb/662c2d40-edbc-4057-8f8f-3f61fa0c621f/ec594c70-aa56-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt0umrc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgt0umrb/662c2d40-edbc-4057-8f8f-3f61fa0c621f/ec594c70-aa56-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt0umrc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Laws of Motion Question 2 English Explanation\">\n<p>The equilibrium condition FBD of 2 m</p>\n<p>$$ k x=\\mathrm{T}+2 m g=m g+2 m g=3 m g $$</p>\n<p>After the string is cut.</p>\n<p>$$ \\mathrm{T}=0 $$</p>\n<p>FBD of $2 m, a_2=\\frac{3 m g-2 m g}{2 m}=\\frac{m g}{2 m}=\\frac{g}{2}$</p>\n<p>FBD of $m, m a_1=m g=\\mathrm{T}$</p>\n<p>$$ \\therefore  a_1=g $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "motion-of-connected-bodies",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "Two blocks A and B of masses $2 m$ and $m$, respectively, are connected by a massless and inextensible string. The whole system is suspended by a massless spring as shown in the figure. The magnitudes of acceleration of A and B, immediately..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "2zx2cee8atqfrr5uzwfn",
+      "chapter": "laws-of-motion",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pa-circular-disc-with-a-groove-along-its-diameter-is-place-jee-advanced-physics-motion-wubfmreijee4majx",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A circular disc with a groove along its diameter is placed horizontally. A block of mass 1 kg is placed as shown. The coefficient of friction between the block and all surfaces of groove in contact is $\\mu=\\frac{2}{5}$. The disc has an acceleration of $25 \\mathrm{~m} / \\mathrm{s}^2$. Find the acceleration of the block with respect to disc.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgt4nt41/fed7186f-72a2-4f6a-8233-6f2b999c57de/d31c4730-aa65-11f0-82b2-bbffada9b493/file-jaoe38c1mgt4nt43.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgt4nt41/fed7186f-72a2-4f6a-8233-6f2b999c57de/d31c4730-aa65-11f0-82b2-bbffada9b493/file-jaoe38c1mgt4nt43.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Laws of Motion Question 1 English\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "10",
+          "explanation": "<p>Horizontal disc has a normal reaction $N_1=m g$. The normal reaction $\\mathrm{N}_2=m g \\sin \\theta$. acceleration of the man with respect to the disc is $a^{\\prime}$.</p>\n<p>$$ \\begin{aligned} a^{\\prime} & =\\frac{\\mathrm{R}}{m}=a \\cos \\theta-\\mu_k \\mathrm{~g}-\\mu_k a \\sin \\theta \\\\ a^{\\prime} & =25\\left(\\frac{4}{5}\\right)-\\left(\\frac{2}{5}\\right)(10)-\\left(\\frac{2}{5}\\right)(25)\\left(\\frac{3}{5}\\right) \\\\ a^{\\prime} & =20-4-6 \\\\ a^{\\prime} & =10 \\mathrm{~m} / \\mathrm{s}^2 \\end{aligned} $$</p>\n<p>OR</p>\n<p>Method (II)</p>\n<p>Normal reaction in vertical direction $\\mathrm{N}_1=m g$</p>\n<p>$\\Rightarrow$ Normal reaction from side to the groove</p>\n<p>$$ \\mathrm{N}_2=\\mathrm{ma} \\sin 37^{\\circ} $$</p>\n<p>Therefore, acceleration of block with respect to disc.</p>\n<p>$$ \\begin{aligned} a r & =\\frac{m a \\cos 37^{\\circ}-\\mu \\mathrm{N}_1-\\mu \\mathrm{N}_2}{m} \\\\ & =\\frac{m a \\cos 37^{\\circ}-\\mu m g-\\mu m a \\sin 37^{\\circ}}{m} \\\\ a r & =\\frac{1 \\times 25 \\times \\frac{4}{5}-\\frac{2}{5} \\times 1 \\times 10-\\frac{2}{5} \\times \\frac{3}{5} \\times 1 \\times 25}{1} \\\\ a r & =20-4-6 \\\\ a r & =10 \\mathrm{~m} / \\mathrm{s}^2 . \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "newtons-laws-of-motion",
+      "type": "integer",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A circular disc with a groove along its diameter is placed horizontally. A block of mass 1 kg is placed as shown. The coefficient of friction between the block and all surfaces of groove in contact is $\\mu=\\frac{2}{5}$. The disc has an acce..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "a995rnwej2ll9767q85d",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 2001,
+      "paperTitle": "IIT-JEE 2001 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The pulleys and strings shown in the figure are smooth and of negligible mass. For the system to remain in equilibrium, the angle $$\\theta $$ should be\n<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/WFnM0Ou4Wev6LVQTe/sid6ceaNTqJGOgfZE5N8xYL4FIYIv/cPk2ZtPCgYlkMIfo8ZaJOe/image.svg\" loading=\"lazy\" alt=\"IIT-JEE 2001 Screening Physics - Laws of Motion Question 23 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$0^\\circ $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$30^\\circ $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$45^\\circ $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$60^\\circ $$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-pulleys-and-strings-shown-in-the-figure-are-smooth-and-o-2001-screening-marks-2-bwoqxrcbzrirjog7.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2001-screening",
+      "isOutOfSyllabus": false,
+      "topic": "equilibrium-of-a-particle",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2001 Screening",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "The pulleys and strings shown in the figure are smooth and of negligible mass. For the system to remain in equilibrium, the angle $$\\theta $$ should be\n"
+        }
+      },
+      "yearKey": "iit-jee-2001-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0f2a0u57545swjqt38hc",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A block of mass 0.1 is held against a wall applying a horizontal force of 5 N on the block. If the coefficient of friction between the block and the wall is 0.5, the magnitude of the frictional force acting on the block is:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "2.5 N"
+            },
+            {
+              "identifier": "B",
+              "content": "0.98 N"
+            },
+            {
+              "identifier": "C",
+              "content": "4.9 N"
+            },
+            {
+              "identifier": "D",
+              "content": "0.49 N"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-block-of-mass-01-is-held-against-a-wall-applying-a-horizo-1994-marks-1-dkwodo2mk1l12apv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "isOutOfSyllabus": false,
+      "topic": "friction-force",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A block of mass 0.1 is held against a wall applying a horizontal force of 5 N on the block. If the coefficient of friction between the block and the wall is 0.5, the magnitude of the frictional force acting on the block is:"
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "balsfsx43y8h6km8zqqw",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1993,
+      "paperTitle": "IIT-JEE 1993",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A uniform rod of length L and density $$\\rho $$ is being pulled along a smooth floor with a horizontal acceleration $$\\alpha $$ (see Fig.). The magnitude of the stress at the transverse cross-secion through the mid-point of the rod is _________.\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l9flavqx/e459fe22-4c36-4ca6-b5b2-1dafc6f7c741/a06ff290-4fa6-11ed-9d23-ddd5ed7bd1c4/file-1l9flavqy.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l9flavqx/e459fe22-4c36-4ca6-b5b2-1dafc6f7c741/a06ff290-4fa6-11ed-9d23-ddd5ed7bd1c4/file-1l9flavqy.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 1993 Physics - Laws of Motion Question 37 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{\\rho L\\alpha } \\over 2}$$",
+          "explanation": null
+        }
+      },
+      "permalink": "a-uniform-rod-of-length-l-and-density-rho-is-being-pul-1993-marks-1-9uhgpzvajcyjvuyk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1993",
+      "topic": "newtons-laws-of-motion",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1993",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A uniform rod of length L and density $$\\rho $$ is being pulled along a smooth floor with a horizontal acceleration $$\\alpha $$ (see Fig.). The magnitude of the stress at the transverse cross-secion through the mid-point of the rod is _____..."
+        }
+      },
+      "yearKey": "iit-jee-1993"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "hcyln3v14apvliqat8ea",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A simple pendulum of length L and mass (bob) M is oscillating in a plane about a vertical line between angular limit $$ - \\phi $$ and $$ + \\phi $$. For an angular displacement $$\\theta $$ $$\\left( {\\left| \\theta  \\right| &lt; \\phi } \\right)$$, the tension in the string and the velocity of the bob are T and V respectively. The following relations hold good under the above conditions:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$T\\cos \\theta  = Mg$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$T - Mg\\cos \\theta  = {{M{V^2}} \\over L}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "The magnitude of the tangential acceleration of the bob $$\\left| {{a_T}} \\right| = g\\sin \\theta $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$T = Mg\\cos \\theta $$"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-simple-pendulum-of-length-l-and-mass-bob-m-is-oscillatin-1986-marks-2-hsvwkdravcvqf366.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "newtons-laws-of-motion",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A simple pendulum of length L and mass (bob) M is oscillating in a plane about a vertical line between angular limit $$ - \\phi $$ and $$ + \\phi $$. For an angular displacement $$\\theta $$ $$\\left( {\\left| \\theta  \\right| < \\phi } \\right)$$,..."
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ltv2us0yp8zcuihf5u6p",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A reference frame attached to the earth",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "is an inertial frame by definition"
+            },
+            {
+              "identifier": "B",
+              "content": "cannot be an inertial frame because the earth is revolving around the sun"
+            },
+            {
+              "identifier": "C",
+              "content": "is an inertial frame because Newton's laws are applicable in this frame"
+            },
+            {
+              "identifier": "D",
+              "content": "cannot be an inertial frame because the earth rotating about its own axis"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-reference-frame-attached-to-the-earth-1986-marks-2-phbimuc0yvn7vzsh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "newtons-laws-of-motion",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A reference frame attached to the earth"
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "on2r1m6e7hphmy65rw8r",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A block of mass 1 kg lies on a horizontal surface in a truck. The coefficient of static friction between the block and the surface is 0.6. If the acceleration of the truck is 5 m/s<sup>2</sup>, the frictional force acting on the block is _________ newtons.",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": null
+        }
+      },
+      "permalink": "a-block-of-mass-1-kg-lies-on-a-horizontal-surface-in-a-truck-1984-marks-2-4hpzr2wft00cyq8u.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "friction-force",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A block of mass 1 kg lies on a horizontal surface in a truck. The coefficient of static friction between the block and the surface is 0.6. If the acceleration of the truck is 5 m/s2, the frictional force acting on the block is _________ new..."
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1934xj9pbqehy4qxyzel",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A simple pendulum with a bob of mass m swings with an angular amplitude of $$40^\\circ $$. When its angular displacement is $$20^\\circ $$, the tension in the string is greater than mg cos$$20^\\circ $$.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>When a simple pendulum swings, the tension in the string is not just balancing the component of the gravitational force but also provides the necessary centripetal force for the circular motion of the bob.</p>\n<h4><strong>Forces Acting on the Pendulum Bob:</strong></h4>\n<p>At any angular displacement $ \\theta $:</p>\n\n<p><p><strong>Gravitational Force ($ mg $)</strong>: Acts downward.</p></p>\n<p><p><strong>Tension in the String ($ T $)</strong>: Acts along the string towards the pivot.</p></p>\n<p><p><strong>Radial Component of Gravitational Force</strong>: $ mg \\cos \\theta $</p></p>\n<p><p><strong>Tangential Component of Gravitational Force</strong>: $ mg \\sin \\theta $</p></p>\n\n<h4><strong>Net Radial Force:</strong></h4>\n<p>The net radial force provides the centripetal acceleration required for circular motion:</p>\n<p>$ T - mg \\cos \\theta = m \\frac{v^2}{L} $</p>\n<p>Where:</p>\n\n<p><p>$ T $ is the tension in the string,</p></p>\n<p><p>$ v $ is the speed of the bob at angle $ \\theta $,</p></p>\n<p><p>$ L $ is the length of the pendulum.</p></p>\n\n<h4><strong>Calculating the Speed $ v $ at $ \\theta = 20^\\circ $:</strong></h4>\n<p>Using conservation of mechanical energy between the highest point ($ \\theta_{\\text{max}} = 40^\\circ $) and the point at $ \\theta = 20^\\circ $:</p>\n\n<p><p><strong>Potential Energy at $ \\theta_{\\text{max}} $:</strong></p>\n<p>$    U_{\\text{max}} = mgL (1 - \\cos 40^\\circ)    $</p></p>\n<p><p><strong>Potential Energy at $ \\theta = 20^\\circ $:</strong></p>\n<p>$    U = mgL (1 - \\cos 20^\\circ)    $</p></p>\n<p><p><strong>Kinetic Energy at $ \\theta = 20^\\circ $:</strong></p>\n<p>$    K = \\frac{1}{2} m v^2 = U_{\\text{max}} - U    $</p></p>\n\n<p>Compute the difference in potential energy:</p>\n<p>$ \\Delta U = mgL (\\cos 20^\\circ - \\cos 40^\\circ) $</p>\n<p>Using known values:</p>\n\n<p><p>$ \\cos 20^\\circ \\approx 0.9397 $</p></p>\n<p><p>$ \\cos 40^\\circ \\approx 0.7660 $</p></p>\n\n<p>Calculate $ \\Delta U $:</p>\n<p>$ \\Delta U = mgL (0.9397 - 0.7660) = mgL (0.1737) $</p>\n<p>Set $ \\Delta U = \\frac{1}{2} m v^2 $ and solve for $ v^2 $:</p>\n<p>$ \\frac{1}{2} m v^2 = mgL (0.1737) \\implies v^2 = 2gL (0.1737) $</p>\n<h4><strong>Calculating the Centripetal Acceleration:</strong></h4>\n<p>$ a_{\\text{centripetal}} = \\frac{v^2}{L} = \\frac{2gL (0.1737)}{L} = 2g (0.1737) = 0.3474g $</p>\n<h4><strong>Calculating the Tension $ T $:</strong></h4>\n<p>$ T = mg \\cos \\theta + m a_{\\text{centripetal}} = mg \\cos 20^\\circ + m (0.3474g) $</p>\n<p>Plugging in $ \\cos 20^\\circ $:</p>\n<p>$ T = mg (0.9397) + m (0.3474g) = mg (0.9397 + 0.3474) = mg (1.2871) $</p>\n<h4><strong>Conclusion:</strong></h4>\n\n<p><p>The tension $ T $ is greater than $ mg \\cos 20^\\circ $ because it includes the additional centripetal force component.</p></p>\n<p><p>Therefore, at an angular displacement of $ 20^\\circ $, the tension in the string is indeed <strong>greater</strong> than $ mg \\cos 20^\\circ $.</p></p>\n\n<hr />\n<p><strong>Therefore, the statement is TRUE.</strong></p>"
+        }
+      },
+      "permalink": "a-simple-pendulum-with-a-bob-of-mass-m-swings-with-an-angula-1984-marks-2-h0xzinwfxri9cavm.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "newtons-laws-of-motion",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A simple pendulum with a bob of mass m swings with an angular amplitude of $$40^\\circ $$. When its angular displacement is $$20^\\circ $$, the tension in the string is greater than mg cos$$20^\\circ $$."
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "bp4e7rnroaj92nd3ccdl",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In the arrangement shown in Fig. the ends P and Q of an unstretchable string move downwards with uniform speed U. Pulleys A and B are fixed.\n<br>Mass M moves upwards with a speed\n<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/hkUGfGO4E0pRs1RgE/vxJTaG4v7WDiicmDwpIrOKusBSdNX/1BYkUruEyPR2itxDXQsgmc/image.svg\" loading=\"lazy\" alt=\"IIT-JEE 1982 Physics - Laws of Motion Question 26 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$2U\\cos \\theta $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${U \\over {\\cos \\theta }}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{2U} \\over {\\cos \\theta }}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$U\\cos \\theta $$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "in-the-arrangement-shown-in-fig-the-ends-p-and-q-of-an-unst-1982-marks-3-elkbeccvfayuuzyn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "motion-of-connected-bodies",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "In the arrangement shown in Fig. the ends P and Q of an unstretchable string move downwards with uniform speed U. Pulleys A and B are fixed.\nMass M moves upwards with a speed\n"
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7febl68x89elfk23hlm1",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "When a person walks on a rough surface, the frictional force exerted by the surface on the person is opposite  to the direction of his motion.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "when-a-person-walks-on-a-rough-surface-the-frictional-force-1981-marks-2-zeeymquzcmxx0xrj.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "friction-force",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "When a person walks on a rough surface, the frictional force exerted by the surface on the person is opposite  to the direction of his motion."
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "oqe6bt8z4qyhk96gzs8o",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A ship of mass 3 $$ \\times $$ 10<sup>7</sup> kg initially at rest, is pulled by a force of 5 $$ \\times $$ 10<sup>4</sup> N through a distance of 3 m. Assuming that the resistance due to water is negligible, the speed of the ship is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "1.5 m/s"
+            },
+            {
+              "identifier": "B",
+              "content": "60 m/s"
+            },
+            {
+              "identifier": "C",
+              "content": "0.1 m/s"
+            },
+            {
+              "identifier": "D",
+              "content": "5 m/s"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-ship-of-mass-3-times-107-kg-initially-at-rest-is-p-1980-marks-3-3dmuotohccrukrns.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "isOutOfSyllabus": false,
+      "topic": "newtons-laws-of-motion",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A ship of mass 3 $$ \\times $$ 107 kg initially at rest, is pulled by a force of 5 $$ \\times $$ 104 N through a distance of 3 m. Assuming that the resistance due to water is negligible, the speed of the ship is"
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0rkh39pi6tpfqzpqjhjb",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A block of mass 2 kg rests on a rough inclined plane making an angle of $$30^\\circ $$ with the horizontal. The coefficient of static friction between the block and the plane is 0.7. The frictional force on the block is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "9.8 N"
+            },
+            {
+              "identifier": "B",
+              "content": "0.7$$ \\times $$9.8$$ \\times $$$$\\sqrt 3 $$ N"
+            },
+            {
+              "identifier": "C",
+              "content": "9.8$$ \\times $$$$\\sqrt 3 $$ N"
+            },
+            {
+              "identifier": "D",
+              "content": "0.7$$ \\times $$9.8"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-block-of-mass-2-kg-rests-on-a-rough-inclined-plane-making-1980-marks-3-y1fismvg1x2w0cmf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "isOutOfSyllabus": false,
+      "topic": "friction-force",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A block of mass 2 kg rests on a rough inclined plane making an angle of $$30^\\circ $$ with the horizontal. The coefficient of static friction between the block and the plane is 0.7. The frictional force on the block is"
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "mf8de7chgjqdtj04sioe",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A rocket moves forward by pushing the surrounding air backwards.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p><strong>Explanation :</strong></p>\n<p>A rocket's propulsion in space (and even in the atmosphere) does not depend on pushing against the surrounding air. Instead, it relies on Newton's third law of motion: every action has an equal and opposite reaction. By expelling hot gases (the exhaust) at high speed out of its nozzle, the rocket produces a forward thrust. This mechanism works in the vacuum of space just as well as in an atmosphere, proving that it does not depend on air.</p>\n<p><strong>Correct Option :</strong></p>\n<p>B) FALSE</p>"
+        }
+      },
+      "permalink": "a-rocket-moves-forward-by-pushing-the-surrounding-air-backwa-1980-marks-1-vljrqvpja0e3o54p.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "isOutOfSyllabus": false,
+      "topic": "newtons-laws-of-motion",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A rocket moves forward by pushing the surrounding air backwards."
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ud4tfq0mh52169po07gm",
+      "exam": "jee-advanced",
+      "marks": 6,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "laws-of-motion",
+      "year": 1978,
+      "paperTitle": "IIT-JEE 1978",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A horizontal uniform rope of length L, resting on a frictionless horizontal surface, is pulled at one end by force F. What is the tension in the rope at a distance $$l$$ from the end where the force is applied? ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$T = F\\left( {1 - {l \\over L}} \\right)$$",
+          "explanation": null
+        }
+      },
+      "permalink": "a-horizontal-uniform-rope-of-length-l-resting-on-a-friction-1978-marks-6-mtfe4rgpsts1tyfo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1978",
+      "isOutOfSyllabus": false,
+      "topic": "newtons-laws-of-motion",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1978",
+          "subTitle": "Laws of Motion • Physics",
+          "excerpt": "A horizontal uniform rope of length L, resting on a frictionless horizontal surface, is pulled at one end by force F. What is the tension in the rope at a distance $$l$$ from the end where the force is applied? "
+        }
+      },
+      "yearKey": "iit-jee-1978"
+    }
+  ]
+}

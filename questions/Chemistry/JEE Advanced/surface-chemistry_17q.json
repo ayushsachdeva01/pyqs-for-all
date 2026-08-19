@@ -1,0 +1,1218 @@
+{
+  "questions": [
+    {
+      "question_id": "03gd3xk9xrf470lq1zvs",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pat-a-given-temperature-045-g-of-acetic-acid-in-50-ml-of-jee-advanced-chemistry-aqdset0469cgd4v8",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>At a given temperature, 0.45 g of acetic acid in 50 mL of water is shaken with 1.0 g of charcoal and the pH of the resulting solution is 3.0 . Assume, the adsorption of acetic acid from the aqueous solution by charcoal follows Freundlich isotherm,</p>\n<p>$$ \\frac{x}{m}=k C^{1 / n} $$</p>\n<p>If the plot of $\\log _{10}(x / m)$ against $\\log _{10} C$ gives a straight line with slope 1 , the value of $k$ in $\\mathrm{L} \\mathrm{mol}^{-1}$ is $\\_\\_\\_\\_$ .</p>\n<p>Given: The molar mass of acetic acid is $60 \\mathrm{~g} \\mathrm{~mol}^{-1}$.</p>\n<p>The acid dissociation constant of acetic acid is $1.0 \\times 10^{-5}$ at the given temperature.</p>\n<p>$x$ is the mass (in grams) of acetic acid adsorbed.</p>\n<p>$m$ is the mass (in grams) of charcoal.</p>\n<p>$C$ is the equilibrium concentration of acetic acid in the solution after the adsorption is complete.</p>\n<p>$k$ and $n$ are constants for acetic acid-charcoal system at the given temperature.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.45TO1.50",
+          "explanation": "<p>First, calculate the initial moles of acetic acid:</p>\n<p>$$\\text{Moles of CH}_3\\text{COOH} = \\frac{0.45}{60} = 0.0075$$</p>\n<p>Now, find its initial molarity. The solution volume is 50 mL = 0.05 L:</p>\n<p>$$\\text{Molarity} = \\frac{0.0075}{0.05} = 0.15\\ \\mathrm{M}$$</p>\n<p>After adsorption, the given pH is 3. Therefore, the concentration of hydrogen ions is:</p>\n<p>$$[\\text{H}^+] = 10^{-3}\\ \\mathrm{M}$$</p>\n<p>The dissociation of acetic acid is represented as:</p>\n<p>$$\\mathrm{CH_3COOH(aq)} \\rightleftharpoons \\mathrm{CH_3COO^-(aq)} + \\mathrm{H^+(aq)}$$</p>\n<p>According to the expression of the acid dissociation constant,</p>\n<p>$$K_a = \\frac{[\\text{CH}_3\\text{COO}^-] [\\text{H}^+]}{[\\text{CH}_3\\text{COOH}]}$$</p>\n<p>Substitute the known values:</p>\n<p>$$1.0 \\times 10^{-5} = \\frac{10^{-3} \\times 10^{-3}}{C - 10^{-3}}$$</p>\n<p>Solving for $ C $:</p>\n<p>$$C = 0.1\\ \\mathrm{M}$$</p>\n<p>Now, the amount of acetic acid adsorbed on 1 g of charcoal is the difference between initial and final concentrations:</p>\n<p>$$x = \\frac{(0.15 - 0.1) \\times 50 \\times 60}{1000} = 0.15\\ \\mathrm{g}$$</p>\n<p>From the Freundlich isotherm relation,</p>\n<p>$$\\log \\frac{x}{m} = \\log K + \\frac{1}{n} \\log C$$</p>\n<p>Since the slope is 1, $ \\frac{1}{n} = 1 $. Hence,</p>\n<p>$$\\log 0.15 = \\log K + \\log 0.1$$</p>\n<p>Combining the logarithmic terms,</p>\n<p>$$\\log 0.15 - \\log 0.1 = \\log K$$</p>\n<p>$$\\log 1.5 = \\log K$$</p>\n<p>Therefore,</p>\n<p>$$K = 1.5\\ \\mathrm{L\\ mol^{-1}}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "adsorption",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "At a given temperature, 0.45 g of acetic acid in 50 mL of water is shaken with 1.0 g of charcoal and the pH of the resulting solution is 3.0 . Assume, the adsorption of acetic acid from the aqueous solution by charcoal follows Freundlich is..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "64qkper243km0rghi7r7",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2025-paper-2-online",
+      "paperTitle": "JEE Advanced 2025 Paper 2 Online",
+      "permalink": "padsorption-of-phenol-from-its-aqueous-solution-on-to-fly-jee-advanced-chemistry-xeu6mnredbt0anwk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Adsorption of phenol from its aqueous solution on to fly ash obeys Freundlich isotherm. At a given temperature, from $10 \\mathrm{mg} \\mathrm{g}^{-1}$ and $16 \\mathrm{mg} \\mathrm{g}^{-1}$ aqueous phenol solutions, the concentrations of adsorbed phenol are measured to be $4 \\mathrm{mg} \\mathrm{g}^{-1}$ and $10 \\mathrm{mg} \\mathrm{g}^{-1}$, respectively. At this temperature, the concentration (in $\\mathrm{mg} \\mathrm{g}^{-1}$ ) of adsorbed phenol from $20 \\mathrm{mg} \\mathrm{g}^{-1}$ aqueous solution of phenol will be ______________.</p>\n<p><b>Use:</b> $\\log _{10} 2=0.3$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "15.5OR16.5",
+          "explanation": "<p>$\\begin{aligned} & \\frac{x}{m}=K(C)^{\\frac{1}{n}} \\\\\\\\ & 4=K(10)^{\\frac{1}{n}}........(i) \\\\\\\\ & 10=K(16)^{\\frac{1}{n}}.......(ii)\\end{aligned}$</p>\n<p>From (ii) and (i)</p>\n<p>$$ \\begin{aligned} & \\log 4-\\log 10=\\frac{1}{n}(\\log 10-\\log 16) \\\\ & 2 \\log 2-1=\\frac{1}{n}(1-4 \\log 2) \\\\ & 0.6-1=\\frac{1}{x}(1-1.2) \\\\ & -0.4=\\frac{-0.2}{n} \\\\ & n=\\frac{2}{4}=\\left(\\frac{1}{2}\\right) \\end{aligned} $$</p>\n<p>$\\begin{aligned} \\text { Now } 10 & =K(16)^2 \\\\ K & =\\frac{10}{256} \\\\ \\text { So, } \\frac{x}{m} & =K(20)^2 \\\\ \\frac{x}{m} & =\\frac{10}{256} \\times 400 \\\\ \\frac{x}{m} & =15.625\\end{aligned}$</p>\n<p>or</p>\n<p>$$ \\begin{aligned} & 4=K(10)^2 \\\\ & K=\\frac{4}{100} \\\\ & \\frac{x}{m}=K(20)^2 \\\\ & \\frac{x}{m}=\\frac{4}{100} \\times 400 \\\\ & \\frac{x}{m}=16 \\end{aligned} $$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>फिनॉल (Phenol) का उसके जलीय विलयन से फ्लाई ऐश (fly ash) पर अधिशोषण फ्रॉयन्डलिक समतापीवक्र (Freundlich isotherm) का पालन करता है। एक दिए तापमान पर, $10 \\mathrm{mg} \\mathrm{g}^{-1}$ तथा $16 \\mathrm{mg} \\mathrm{g}^{-1}$ फिनॉल के जलीय विलयन से अधिशोषित फिनॉल की सांद्रता क्रमशः $4 \\mathrm{mg} \\mathrm{g}^{-1}$ तथा $10 \\mathrm{mg} \\mathrm{g}^{-1}$ मापी गयी है। इसी तापमान पर, $20 \\mathrm{mg} \\mathrm{g}^{-1}$ फिनॉल के जलीय विलयन से अधिशोषित फिनॉल की सांद्रता ( $\\mathrm{mg} \\mathrm{g}^{-1}$ में) _________ होगी।</p>\n<p>उपयोग करें: $\\log _{10} 2=0.3$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "15.5OR16.5",
+          "explanation": "<p>$\\begin{aligned} & \\frac{x}{m}=K(C)^{\\frac{1}{n}} \\\\\\\\ & 4=K(10)^{\\frac{1}{n}}........(i) \\\\\\\\ & 10=K(16)^{\\frac{1}{n}}.......(ii)\\end{aligned}$</p>\n<p>(ii) और (i) से</p>\n<p>$$ \\begin{aligned} & \\log 4-\\log 10=\\frac{1}{n}(\\log 10-\\log 16) \\\\ & 2 \\log 2-1=\\frac{1}{n}(1-4 \\log 2) \\\\ & 0.6-1=\\frac{1}{x}(1-1.2) \\\\ & -0.4=\\frac{-0.2}{n} \\\\ & n=\\frac{2}{4}=\\left(\\frac{1}{2}\\right) \\end{aligned} $$</p>\n<p>$\\begin{aligned} \\text { अब } 10 & =K(16)^2 \\\\ K & =\\frac{10}{256} \\\\ \\text { अतः, } \\frac{x}{m} & =K(20)^2 \\\\ \\frac{x}{m} & =\\frac{10}{256} \\times 400 \\\\ \\frac{x}{m} & =15.625\\end{aligned}$</p>\n<p>या</p>\n<p>$$ \\begin{aligned} & 4=K(10)^2 \\\\ & K=\\frac{4}{100} \\\\ & \\frac{x}{m}=K(20)^2 \\\\ & \\frac{x}{m}=\\frac{4}{100} \\times 400 \\\\ & \\frac{x}{m}=16 \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "adsorption",
+      "type": "integer",
+      "year": 2025,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "Adsorption of phenol from its aqueous solution on to fly ash obeys Freundlich isotherm. At a given temperature, from $10 \\mathrm{mg} \\mathrm{g}^{-1}$ and $16 \\mathrm{mg} \\mathrm{g}^{-1}$ aqueous phenol solutions, the concentrations of adsor..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2025 Paper 2 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "फिनॉल (Phenol) का उसके जलीय विलयन से फ्लाई ऐश (fly ash) पर अधिशोषण फ्रॉयन्डलिक समतापीवक्र (Freundlich isotherm) का पालन करता है। एक दिए तापमान पर, $10 \\mathrm{mg} \\mathrm{g}^{-1}$ तथा $16 \\mathrm{mg} \\mathrm{g}^{-1}$ फिनॉल के जलीय विलयन से ..."
+        }
+      },
+      "yearKey": "jee-advanced-2025-paper-2-online"
+    },
+    {
+      "question_id": "lzrz9wn1h7h40pp4zgqi",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2024-paper-2-online",
+      "paperTitle": "JEE Advanced 2024 Paper 2 Online",
+      "permalink": "pto-form-a-complete-monolayer-of-acetic-acid-on-1-mathrm-jee-advanced-chemistry-09j6oqf6wqyxus5z",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>To form a complete monolayer of acetic acid on $1 \\mathrm{~g}$ of charcoal, $100 \\mathrm{~mL}$ of $0.5 \\mathrm{M}$ acetic acid was used. Some of the acetic acid remained unadsorbed. To neutralize the unadsorbed acetic acid, 40 $\\mathrm{mL}$ of $1 \\mathrm{M} \\mathrm{NaOH}$ solution was required. If each molecule of acetic acid occupies $\\mathbf{P} \\times 10^{-23} \\mathrm{~m}^2$ surface area on charcoal, the value of $\\mathbf{P}$ is  _____.<br/><br/> [Use given data: Surface area of charcoal $=1.5 \\times 10^2 \\mathrm{~m}^2 \\mathrm{~g}^{-1}$; Avogadro's number $\\left(\\mathrm{N}_{\\mathrm{A}}\\right)=6.0 \\times 10^{23}$ $\\left.\\mathrm{mol}^{-1}\\right]$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2500",
+          "explanation": "<p>Let's first understand and break down the given information. We are provided with the following details to solve for the value of $\\mathbf{P}$:</p>\n\n<p>1. Volume of acetic acid solution used: $100 \\mathrm{~mL}$ of $0.5 \\mathrm{M}$ acetic acid.</p>\n<p>2. Volume of $\\mathrm{NaOH}$ solution used for neutralization: $40 \\mathrm{~mL}$ of $1 \\mathrm{M} \\mathrm{NaOH}$.</p>\n<p>3. Surface area of the charcoal: $1.5 \\times 10^2 \\mathrm{~m}^2 \\mathrm{~g}^{-1}$.</p>\n<p>4. Avogadro's number: $\\mathrm{N}_{\\mathrm{A}}=6.0 \\times 10^{23} \\mathrm{~mol}^{-1}$.</p>\n\n<p>Let's start with the concentration and volume of acetic acid used:</p>\n\n$$\n\\text{Moles of acetic acid initially} = 0.5 \\text{ M} \\times \\frac{100 \\text{ mL}}{1000} = 0.05 \\text{ moles}\n$$\n\n<p>Next, let's determine the moles of $\\mathrm{NaOH}$ used for neutralization:</p>\n\n$$\n\\text{Moles of } \\mathrm{NaOH} = 1 \\text{ M} \\times \\frac{40 \\text{ mL}}{1000} = 0.04 \\text{ moles}\n$$\n\n<p>Since $\\mathrm{NaOH}$ completely neutralizes the unadsorbed acetic acid:</p>\n\n$$\n\\text{Moles of unadsorbed acetic acid} = 0.04 \\text{ moles}\n$$\n\n<p>Therefore, the moles of acetic acid adsorbed on the charcoal is given by:</p>\n\n$$\n\\text{Moles of adsorbed acetic acid} = 0.05 - 0.04 = 0.01 \\text{ moles}\n$$\n\n<p>Now, we need to calculate the total number of molecules of acetic acid adsorbed:</p>\n\n$$\n\\text{Number of molecules} = 0.01 \\text{ moles} \\times 6.0 \\times 10^{23} \\text{ molecules/mole} = 6.0 \\times 10^{21} \\text{ molecules}\n$$\n\n<p>Given the surface area of charcoal, we can find the total surface area:</p>\n\n$$\n\\text{Total surface area} = 1.5 \\times 10^2 \\text{ m}^2 / \\text{g} \\times 1 \\text{ g} = 1.5 \\times 10^2 \\text{ m}^2\n$$\n\n<p>Finally, we need to determine the area occupied by each molecule of acetic acid:</p>\n\n$$\n\\text{Area per molecule of acetic acid} = \\frac{\\text{Total surface area}}{\\text{Number of molecules}} = \\frac{1.5 \\times 10^2 \\text{ m}^2}{6.0 \\times 10^{21} \\text{ molecules}}\n$$\n\n<p>Let's perform the calculation:</p>\n\n$$\n\\text{Area per molecule of acetic acid} = \\frac{1.5 \\times 10^2}{6.0 \\times 10^{21}} = 0.25 \\times 10^{-19} \\text{ m}^2 = 2.5 \\times 10^{-20} \\text{ m}^2\n$$\n\n<p>Since the problem states that the area per molecule is $\\mathbf{P} \\times 10^{-23} \\mathrm{~m}^2$, we equate:</p>\n\n$$\n2.5 \\times 10^{-20} = \\mathbf{P} \\times 10^{-23}\n$$\n\n<p>Solving for $\\mathbf{P}$:</p>\n\n$$\n\\mathbf{P} = \\frac{2.5 \\times 10^{-20}}{10^{-23}} = 2.5 \\times 10^3 = 2500\n$$\n\n<p>Therefore, the value of $\\mathbf{P}$ is <strong>2500</strong>.</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>1 ग्राम चारकोल पर एसिटिक एसिड (acetic acid) की एक पूर्ण एकाणुक सतह (monolayer) के निर्माण के लिए $0.5 \\mathrm{M}$ एसिटिक एसिड (acetic acid) के $100 \\mathrm{~mL}$ का उपयोग किया गया। कुछ एसिटिक एसिड का अधिशोषण नहीं हुआ। अधिशोषित नहीं हुए एसिटिक एसिड को उदासीन करने के लिए $1 \\mathrm{M} \\mathrm{NaOH}$ के 40 $\\mathrm{mL}$ विलयन की आवश्यकता पड़ती है। यदि एसिटिक एसिड का प्रत्येक अणु चारकोल की सतह का $\\mathbf{P} \\times$ $10^{-23} \\mathrm{~m}^2$ क्षेत्रफल घेरता है तो $\\mathbf{P}$ का मान _________ है।</p>\n\n<p>[ दिया गया है: चारकोल के सतह का क्षेत्रफल $=1.5 \\times 10^2 \\mathrm{~m}^2 \\mathrm{~g}^{-1}$; Avogadro's संख्या $\\left(\\mathrm{N}_{\\mathrm{A}}\\right)=6.0 \\times 10^{23}$ $\\left.\\mathrm{mol}^{-1}\\right]$</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2500",
+          "explanation": "<p>आइए पहले दी गई जानकारी को समझें और विश्लेषित करें। हमें $\\mathbf{P}$ के मान को हल करने के लिए निम्नलिखित विवरण प्रदान किए गए हैं:</p>\n\n<p>1. उपयोग किए गए एसिटिक अम्ल विलयन का आयतन: $100 \\mathrm{~mL}$ का $0.5 \\mathrm{M}$ एसिटिक अम्ल।</p>\n<p>2. उदासीनीकरण के लिए उपयोग किए गए $\\mathrm{NaOH}$ विलयन का आयतन: $40 \\mathrm{~mL}$ का $1 \\mathrm{M} \\mathrm{NaOH}$।</p>\n<p>3. चारकोल का पृष्ठीय क्षेत्रफल: $1.5 \\times 10^2 \\mathrm{~m}^2 \\mathrm{~g}^{-1}$।</p>\n<p>4. आवोगाद्रो संख्या: $\\mathrm{N}_{\\mathrm{A}}=6.0 \\times 10^{23} \\mathrm{~mol}^{-1}$।</p>\n\n<p>आइए उपयोग किए गए एसिटिक अम्ल की सांद्रता और आयतन से शुरू करें:</p>\n\n$$\n\\text{एसिटिक अम्ल के प्रारंभिक मोल} = 0.5 \\text{ M} \\times \\frac{100 \\text{ mL}}{1000} = 0.05 \\text{ मोल}\n$$\n\n<p>अब, आइए उदासीनीकरण के लिए उपयोग किए गए $\\mathrm{NaOH}$ के मोल निर्धारित करें:</p>\n\n$$\n\\text{Moles of } \\mathrm{NaOH} = 1 \\text{ M} \\times \\frac{40 \\text{ mL}}{1000} = 0.04 \\text{ मोल}\n$$\n\n<p>चूंकि $\\mathrm{NaOH}$ अनअधिशोषित एसिटिक अम्ल को पूर्णतः उदासीन कर देता है:</p>\n\n$$\n\\text{अनअधिशोषित एसिटिक अम्ल के मोल} = 0.04 \\text{ मोल}\n$$\n\n<p>इसलिए, चारकोल पर अधिशोषित एसिटिक अम्ल के मोल निम्न द्वारा दिए जाते हैं:</p>\n\n$$\n\\text{अधिशोषित एसिटिक अम्ल के मोल} = 0.05 - 0.04 = 0.01 \\text{ मोल}\n$$\n\n<p>अब, हमें अधिशोषित एसिटिक अम्ल के अणुओं की कुल संख्या की गणना करनी होगी:</p>\n\n$$\n\\text{अणुओं की संख्या} = 0.01 \\text{ मोल} \\times 6.0 \\times 10^{23} \\text{ अणु/मोल} = 6.0 \\times 10^{21} \\text{ अणु}\n$$\n\n<p>चारकोल के पृष्ठीय क्षेत्रफल को देखते हुए, हम कुल पृष्ठीय क्षेत्रफल ज्ञात कर सकते हैं:</p>\n\n$$\n\\text{कुल पृष्ठीय क्षेत्रफल} = 1.5 \\times 10^2 \\text{ m}^2 / \\text{g} \\times 1 \\text{ g} = 1.5 \\times 10^2 \\text{ m}^2\n$$\n\n<p>अंत में, हमें एसिटिक अम्ल के प्रत्येक अणु द्वारा घेरे गए क्षेत्रफल को निर्धारित करना होगा:</p>\n\n$$\n\\text{एसिटिक अम्ल के प्रति अणु क्षेत्रफल} = \\frac{\\text{कुल पृष्ठीय क्षेत्रफल}}{\\text{अणुओं की संख्या}} = \\frac{1.5 \\times 10^2 \\text{ m}^2}{6.0 \\times 10^{21} \\text{ अणु}}\n$$\n\n<p>आइए गणना करें:</p>\n\n$$\n\\text{एसिटिक अम्ल के प्रति अणु क्षेत्रफल} = \\frac{1.5 \\times 10^2}{6.0 \\times 10^{21}} = 0.25 \\times 10^{-19} \\text{ m}^2 = 2.5 \\times 10^{-20} \\text{ m}^2\n$$\n\n<p>चूंकि प्रश्न में कहा गया है कि प्रति अणु क्षेत्रफल $\\mathbf{P} \\times 10^{-23} \\mathrm{~m}^2$ है, हम बराबर रखते हैं:</p>\n\n$$\n2.5 \\times 10^{-20} = \\mathbf{P} \\times 10^{-23}\n$$\n\n<p>$\\mathbf{P}$ के लिए हल करते हुए:</p>\n\n$$\n\\mathbf{P} = \\frac{2.5 \\times 10^{-20}}{10^{-23}} = 2.5 \\times 10^3 = 2500\n$$\n\n<p>इसलिए, $\\mathbf{P}$ का मान <strong>2500</strong> है।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 240000,
+      "topic": "adsorption",
+      "type": "integer",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "To form a complete monolayer of acetic acid on $1 \\mathrm{~g}$ of charcoal, $100 \\mathrm{~mL}$ of $0.5 \\mathrm{M}$ acetic acid was used. Some of the acetic acid remained unadsorbed. To neutralize the unadsorbed acetic acid, 40 $\\mathrm{mL}$..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 2 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "1 ग्राम चारकोल पर एसिटिक एसिड (acetic acid) की एक पूर्ण एकाणुक सतह (monolayer) के निर्माण के लिए $0.5 \\mathrm{M}$ एसिटिक एसिड (acetic acid) के $100 \\mathrm{~mL}$ का उपयोग किया गया। कुछ एसिटिक एसिड का अधिशोषण नहीं हुआ। अधिशोषित नहीं हुए एसिट..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-2-online"
+    },
+    {
+      "question_id": "tqa9mxojxqeuhbhw7k26",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-2-online",
+      "paperTitle": "JEE Advanced 2023 Paper 2 Online",
+      "permalink": "consider-the-following-statements-related-to-colloids-br-jee-advanced-chemistry-prwvoqn8bc5qqbqz",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Consider the following statements related to colloids.\n<br/><br/>(I) Lyophobic colloids are <b>not</b> formed by simple mixing of dispersed phase and dispersion medium.\n<br/><br/>(II) For emulsions, both the dispersed phase and the dispersion medium are liquid.\n<br/><br/>(III) Micelles are produced by dissolving a surfactant in any solvent at any temperature.\n<br/><br/>(IV) Tyndall effect can be observed from a colloidal solution with dispersed phase having the same refractive index as that of the dispersion medium.\n<br/><br/>The option with the correct set of statements is :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(I) and (II)"
+            },
+            {
+              "identifier": "B",
+              "content": "(II) and (III)"
+            },
+            {
+              "identifier": "C",
+              "content": "(III) and (IV)"
+            },
+            {
+              "identifier": "D",
+              "content": "(II) and (IV)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Analyzing each statement in regard to colloids:</p>\n\n<p>(I) Lyophobic colloids are <strong>not</strong> formed by simple mixing of dispersed phase and dispersion medium. This statement is correct. Lyophobic colloids (hydrophobic when water is the dispersion medium) have molecules or particles that do not have an affinity towards the dispersion medium. They require special methods to be prepared because the dispersed phase does not naturally mix with the dispersion medium. For example, high-energy inputs like ultrasonication, high-speed stirring, or the addition of stabilizing agents are often needed to create and stabilize these colloids.</p>\n\n<p>(II) For emulsions, both the dispersed phase and the dispersion medium are liquid. This statement is also correct. Emulsions are a type of colloid where both the dispersed phase and the dispersion medium are liquids. These two liquids are immiscible or not capable of mixing together without the help of emulsifying agents (like surfactants) which stabilize the emulsion.</p>\n\n<p>(III) Micelles are produced by dissolving a surfactant in any solvent at any temperature. This statement is incorrect for two reasons. First, micelle formation specifically depends on a critical concentration known as the critical micelle concentration (CMC) above which micelles begin to form in solution. Second, temperature also affects the formation of micelles, as the critical micelle concentration can change with temperature. Not any solvent or any temperature condition will result in micelle formation.</p>\n\n<p>(IV) Tyndall effect can be observed from a colloidal solution with dispersed phase having the same refractive index as that of the dispersion medium. This statement is incorrect. The Tyndall effect is the scattering of light by particles in a colloid or another fine dispersion. For the Tyndall effect to be observed, there must be a significant difference in the refractive index between the dispersed particles and the dispersion medium. If the dispersed phase and the dispersion medium have the same refractive index, the light will not scatter, and the Tyndall effect will not be observed.</p>\n\n<p>Given these analyses, the correct set of statements is Option A: (I) and (II).</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "कोलॉइडो के बारे में निम्नलिखित कथनों पर विचार करें।<br/><br/>\n(I) परिक्षिप्त प्रावस्था (dispersed phase) तथा परिक्षेपण माध्यम (dispersion medium) को केवल मिश्रित कर देने से द्रवविरागी कोलॉइड (lyophobic colloids) नहीं बनते हैं।<br/><br/>\n(II) इमल्शन में, परिक्षिप्त प्रावस्था (dispersed phase) और परिक्षेपण माध्यम (dispersion medium) दोनों ही द्रव होते हैं।<br/><br/>\n(III) एक पृष्ठसंक्रियक (surfactant) को किसी भी विलायक में किसी भी ताप पर घोलने से मिसेल (Micelle) बन जाता है।<br/><br/>\n(IV) परिक्षिप्त प्रावस्था और परिक्षेपण माध्यम का अपवर्तनांक (refractive index) समान होने पर कोलॉइडल विलयन से टिंडल प्रभाव दिखता है।\n<br/><br/>\nसही कथनों के समूहों का विकल्प है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(I) and (II)"
+            },
+            {
+              "identifier": "B",
+              "content": "(II) and (III)"
+            },
+            {
+              "identifier": "C",
+              "content": "(III) and (IV)"
+            },
+            {
+              "identifier": "D",
+              "content": "(II) and (IV)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>कोलाइडों के संबंध में प्रत्येक कथन का विश्लेषण:</p>\n\n<p>(I) लायोफोबिक कोलाइड, परिक्षिप्त प्रावस्था और परिक्षेपण माध्यम के साधारण मिश्रण से <strong>नहीं</strong> बनते हैं। यह कथन सही है। लायोफोबिक कोलाइड (जलविरागी जब जल परिक्षेपण माध्यम हो) में ऐसे अणु या कण होते हैं जिनमें परिक्षेपण माध्यम के प्रति आकर्षण नहीं होता है। इन्हें तैयार करने के लिए विशेष विधियों की आवश्यकता होती है क्योंकि परिक्षिप्त प्रावस्था स्वाभाविक रूप से परिक्षेपण माध्यम के साथ नहीं मिलती है। उदाहरण के लिए, इन कोलाइडों को बनाने और स्थिर करने के लिए उच्च ऊर्जा निवेश जैसे अल्ट्रासोनिकेशन, उच्च गति से मंथन, या स्थिरकारी पदार्थों का योग अक्सर आवश्यक होता है।</p>\n\n<p>(II) इमल्शन के लिए, परिक्षिप्त प्रावस्था और परिक्षेपण माध्यम दोनों द्रव होते हैं। यह कथन भी सही है। इमल्शन एक प्रकार का कोलाइड है जहां परिक्षिप्त प्रावस्था और परिक्षेपण माध्यम दोनों द्रव होते हैं। ये दोनों द्रव अमिश्रणीय होते हैं या इमल्शीकारी पदार्थों (जैसे पृष्ठसक्रियक) की सहायता के बिना एक साथ मिश्रित नहीं हो सकते जो इमल्शन को स्थिर करते हैं।</p>\n\n<p>(III) माइसेल किसी भी विलायक में किसी भी तापमान पर पृष्ठसक्रियक घोलकर उत्पन्न होते हैं। यह कथन दो कारणों से गलत है। प्रथम, माइसेल निर्माण विशेष रूप से एक क्रांतिक सांद्रता पर निर्भर करता है जिसे क्रांतिक माइसेल सांद्रता (CMC) कहते हैं, जिसके ऊपर विलयन में माइसेल बनने लगते हैं। द्वितीय, तापमान भी माइसेल के निर्माण को प्रभावित करता है, क्योंकि क्रांतिक माइसेल सांद्रता तापमान के साथ परिवर्तित हो सकती है। कोई भी विलायक या कोई भी तापमान स्थिति माइसेल निर्माण में परिणत नहीं होगी।</p>\n\n<p>(IV) टिंडल प्रभाव किसी कोलाइडी विलयन से देखा जा सकता है जिसमें परिक्षिप्त प्रावस्था का अपवर्तनांक परिक्षेपण माध्यम के समान हो। यह कथन गलत है। टिंडल प्रभाव कोलाइड या अन्य सूक्ष्म परिक्षेपण में कणों द्वारा प्रकाश का प्रकीर्णन है। टिंडल प्रभाव को देखने के लिए, परिक्षिप्त कणों और परिक्षेपण माध्यम के बीच अपवर्तनांक में महत्वपूर्ण अंतर होना चाहिए। यदि परिक्षिप्त प्रावस्था और परिक्षेपण माध्यम का अपवर्तनांक समान हो, तो प्रकाश प्रकीर्णित नहीं होगा, और टिंडल प्रभाव नहीं देखा जाएगा।</p>\n\n<p>इन विश्लेषणों को देखते हुए, कथनों का सही समुच्चय विकल्प A है: (I) और (II)।</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "timeAllotted": 180000,
+      "topic": "colloids",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "Consider the following statements related to colloids.\n(I) Lyophobic colloids are not formed by simple mixing of dispersed phase and dispersion medium.\n(II) For emulsions, both the dispersed phase and the dispersion medium are liquid.\n(III)..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 2 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "कोलॉइडो के बारे में निम्नलिखित कथनों पर विचार करें।\n(I) परिक्षिप्त प्रावस्था (dispersed phase) तथा परिक्षेपण माध्यम (dispersion medium) को केवल मिश्रित कर देने से द्रवविरागी कोलॉइड (lyophobic colloids) नहीं बनते हैं।\n(II) इमल्शन में, परिक्ष..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-2-online"
+    },
+    {
+      "question_id": "of29ny8rylldragakmrj",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "the-correct-options-related-to-adsorption-processes-isare-jee-advanced-chemistry-some-basic-concepts-of-chemistry-motsx5hdddy3ngkj",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "The correct option(s) related to adsorption processes is(are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Chemisorption results in a unimolecular layer."
+            },
+            {
+              "identifier": "B",
+              "content": "The enthalpy change during physisorption is in the range of 100 to $140 \\mathrm{~kJ} \\mathrm{~mol}^{-1}$."
+            },
+            {
+              "identifier": "C",
+              "content": "Chemisorption is an endothermic process."
+            },
+            {
+              "identifier": "D",
+              "content": "Lowering the temperature favors physisorption processes. "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "(A) In Chemisorption unimolecular layer is formed.\n<br/><br/> (B) In Phesisorption 20-40 kJ of heat is released.\n<br/><br/>(C) Chemisorption is exothermic process.\n<br/><br/> (D) Physisorption increases with decrease in temperature."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>अधिशोषण प्रक्रम से सम्बंधित सही विकल्प है (हैं)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "रासायनिक अधिशोषण से एकाणुक परत बनती है।"
+            },
+            {
+              "identifier": "B",
+              "content": "भौतिक अधिशोषण के दौरान एन्थैल्पी में बदलाव 100 से $$140 \\mathrm{~kJ} \\mathrm{~mol}^{-1}$$ के परिसर (range) में होता है।"
+            },
+            {
+              "identifier": "C",
+              "content": "रासायनिक अधिशोषण एक ऊश्माशोषी प्रक्रम है।"
+            },
+            {
+              "identifier": "D",
+              "content": "तापमान में गिरावट भौतिक अधिशोषण प्रक्रम में सहायता करता है।"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "(A) रासायनिक अधिशोषण में एकआण्विक परत बनती है।\n<br/><br/> (B) भौतिक अधिशोषण में 20-40 kJ ऊष्मा मुक्त होती है।\n<br/><br/>(C) रासायनिक अधिशोषण एक ऊष्माक्षेपी प्रक्रम है।\n<br/><br/> (D) भौतिक अधिशोषण तापमान में कमी के साथ बढ़ता है।"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "adsorption",
+      "type": "mcqm",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "The correct option(s) related to adsorption processes is(are)"
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "अधिशोषण प्रक्रम से सम्बंधित सही विकल्प है (हैं)"
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "n41evw5bs1zloekaczx6",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "the-correct-statements-related-to-colloids-is-are-jee-advanced-chemistry-some-basic-concepts-of-chemistry-g7bqvna8xrcevxxq",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The correct statement(s) related to colloids is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The process of precipitating colloidal sol by an electrolyte is called peptization."
+            },
+            {
+              "identifier": "B",
+              "content": "Colloidal solution freezes at higher temperature than the true solution at the same concentration."
+            },
+            {
+              "identifier": "C",
+              "content": "Surfactants form micelle above critical micelle concentration (CMC). CMC depends on temperature."
+            },
+            {
+              "identifier": "D",
+              "content": "Micelles are macromolecular colloids."
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Statements (b) and (c) are correct whereas statements\n(a) and (d) are incorrect.</p>\n<p>(a) Process of precipitating colloidal sol is known as\ncoagulation.</p>\n<p>(b) Concentration of colloidal solutions is small due to large\nmolar mass and thus, their colligative properties are very\nsmall compared to true solutions. Hence, these solution\nfreezes at higher temperature.</p>\n<p>(c) Micelles are formed at the critical micelle concentration\n(CMC) which depends to temperature.</p>\n<p>(d) Micelles and macromolecular colloids are two different\ntypes of colloid.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>कोलॉईडों (colloids) के सन्दर्म में सही कथन है(हैं)</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "कोलॉईडी सॉल (colloidal sol) को विद्युत अपघट्य (electrolyte) के द्वारा अवक्षेपित करने के प्रक्रम को पेप्टन (peptization) कहते है।"
+            },
+            {
+              "identifier": "B",
+              "content": "समान सांद्रता पर, कोलॉईडी विलयन (colloidal solution) का जमना वास्तविक विलयन के तुलना में अधिक ताप पर होता है।"
+            },
+            {
+              "identifier": "C",
+              "content": "पृष्ठ सक्रियक (surfactants) क्रांतिक मिसेल सांद्रता (critical micelle concentration, CMC) के ऊपर मिसेल निर्माण करता है। CMC ताप पर निर्भर करता है।"
+            },
+            {
+              "identifier": "D",
+              "content": "मिसेल बृहदाण्विक कोलॉईड (macromolecular colloids) हैं।"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>कथन (b) और (c) सही हैं जबकि कथन (a) और (d) गलत हैं।</p>\n<p>(a) कोलाइडी सॉल को अवक्षेपित करने की प्रक्रिया को स्कंदन (coagulation) के रूप में जाना जाता है।</p>\n<p>(b) कोलाइडी विलयनों की सांद्रता बड़े मोलर द्रव्यमान के कारण कम होती है और इस प्रकार, उनके अणुसंख्यात्मक गुण वास्तविक विलयनों की तुलना में बहुत कम होते हैं। अतः, ये विलयन उच्च तापमान पर जमते हैं।</p>\n<p>(c) मिसेल क्रांतिक मिसेल सांद्रता (CMC) पर बनते हैं जो तापमान पर निर्भर करती है।</p>\n<p>(d) मिसेल और वृहत्-आणविक कोलाइड दो भिन्न प्रकार के कोलाइड हैं।</p>"
+        }
+      },
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "colloids",
+      "type": "mcqm",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "The correct statement(s) related to colloids is (are)"
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "कोलॉईडों (colloids) के सन्दर्म में सही कथन है(हैं)"
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3ovhnj52pwygg0qd7pon",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "surface-chemistry",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The correct statement(s) about surface properties is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Adsorption is accompanied by decrease in ethalpy and decrease in entropy of the system "
+            },
+            {
+              "identifier": "B",
+              "content": "The critical temperatures of ethane and nitrogen are $$563$$ $$K$$ and $$126$$ $$K,$$ respectively. The adsorption of ethane will be more than that of nitrogen on same amount of activated charcoal at a given temperature"
+            },
+            {
+              "identifier": "C",
+              "content": "Cloud is an emulsion type of colloid in which liquid is dispersed phase and gas is dispersion medium  "
+            },
+            {
+              "identifier": "D",
+              "content": "Brownian motion of colloidal particles does not depend on the size of the particles but depends on viscosity of the solution"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Option (A) : Correct. Adsorption is a surface phenomenon in which the concentration of the adsorbate increases only on the surface. It is always accompanied by a decrease in the entropy ($$\\Delta$$S). Since adsorption is an exothermic process, the enthalpy change ($$\\Delta$$H) of the system is also negative.</p>\n<p>Option (B) : Correct. Easily liquefiable gases, that is, gases with high critical temperatures, are more readily adsorbed because van der Waals forces are stronger near the critical temperature. Thus, the adsorption of ethane will be more than that of nitrogen.</p>\n<p>Option (C) : Cloud is an aerosol in which liquid is dispersed phase and gas is dispersion medium. Whereas, emulsion is liquid in liquid colloidal system.</p>\n<p>Option (D) : Incorrect. Brownian movement varies with the size of the particles and viscosity of the solution. Smaller particles with lower viscosity show faster movement.</p>"
+        },
+        "hi": {
+          "content": "सतह गुणधर्मों के बारे में सही कथन हैं",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "विज्ञापन (Adsorption) एन्थाल्पी में कमी और प्रणाली की एन्ट्रॉपी में कमी के साथ होता है "
+            },
+            {
+              "identifier": "B",
+              "content": "एथेन और नाइट्रोजन के क्रिटिकल तापमान क्रमशः $$563$$ $$K$$ और $$126$$ $$K$$ हैं। समान मात्रा में सक्रिय चारकोल पर एक निश्चित तापमान पर एथेन का विज्ञापन नाइट्रोजन से अधिक होगा "
+            },
+            {
+              "identifier": "C",
+              "content": "बादल एक इमल्शन प्रकार का कोलाइड है जिसमें तरल विकृत चरण (dispersed phase) और गैस विकृति माध्यम (dispersion medium) है "
+            },
+            {
+              "identifier": "D",
+              "content": "कोलॉइडल कणों की ब्राउनियन गति कणों के आकार पर निर्भर नहीं करती है लेकिन विलयन की चिपचिपाहट (viscosity) पर निर्भर करती है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "the-correct-statements-about-surface-properties-is-are-2017-marks-4-jhlgkya1yyuukd14.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "topic": "adsorption",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "The correct statement(s) about surface properties is (are)"
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "सतह गुणधर्मों के बारे में सही कथन हैं"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "5f9zyxn9n2pa6mdk6eie",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "surface-chemistry",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "When O<sub>2</sub> is adsorbed on a metallic surface, electron transfer occurs from the metal to O<sub>2</sub>. The true statement(s) regarding this adsorption is(are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "O<sub>2</sub> is physisorbed"
+            },
+            {
+              "identifier": "B",
+              "content": "Heat is released"
+            },
+            {
+              "identifier": "C",
+              "content": "Occupancy of $$\\pi _{2p}^*$$ of O<sub>2</sub> is increased"
+            },
+            {
+              "identifier": "D",
+              "content": "Bond length of O<sub>2</sub> is increased"
+            }
+          ],
+          "correct_options": [
+            "C",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Since, adsorption involves electron transfer from metal to O<sub>2</sub>, it is chemical adsorption not physical adsorption, hence (a) is incorrect. Adsorption is spontaneous which involves some bonding between adsorbent and adsorbate, hence exothermic. The last occupied molecular orbital in O<sub>2</sub> is $$\\pi$$*2p. Hence, electron transfer from metal to oxygen will increase occupancy of $$\\pi$$*2p molecular orbitals. Also increase in occupancy of $$\\pi$$*2p orbitals will decrease bond order and hence increase bond length of O<sub>2</sub>.</p>"
+        }
+      },
+      "permalink": "when-o2-is-adsorbed-on-a-metallic-surface-electron-transfer-2015-marks-4-kpztxlufaevxaaoe.htm",
+      "timeAllotted": 180000,
+      "topic": "adsorption",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "When O2 is adsorbed on a metallic surface, electron transfer occurs from the metal to O2. The true statement(s) regarding this adsorption is(are)"
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ze0s6jvd6pxlst5s4qgt",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "surface-chemistry",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Methylene blue, from its aqueous solution, is adsorbed on activated charcoal at 25<sup>o</sup>C. For this process, the\ncorrect statement is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The adsorption requires activation at 25<sup>o</sup>C."
+            },
+            {
+              "identifier": "B",
+              "content": "The adsorption is accompanied by a decrease in enthalpy"
+            },
+            {
+              "identifier": "C",
+              "content": "The adsorption increases with increase of temperature"
+            },
+            {
+              "identifier": "D",
+              "content": "The adsorption is irreversible"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Methylene blue adsorbs onto activated charcoal from its aqueous solution at 25°C in a process known as physical adsorption (physisorption).</p>\n\n<p>(i) Physical adsorption of methylene blue on activated charcoal can occur at all temperatures, but it is more pronounced at lower temperatures. This means Option (A) is incorrect.</p>\n\n<p>(ii) In the bulk, forces between molecules are balanced. However, molecules on the surface experience unbalanced or residual attractive forces, leading to higher surface energy. These unbalanced forces are responsible for van der Waals attractions between the adsorbent (activated charcoal) and the adsorbate (methylene blue). The formation of these weak attractions reduces the energy of surface molecules, resulting in a decrease in the system's enthalpy. Therefore, Option (B) is correct.</p>\n\n<p>(iii) The extent of physisorption decreases as temperature increases because the weak van der Waals forces weaken at higher temperatures, reducing the adsorbate's ability to adhere to the adsorbent surface. Consequently, Option (C) is incorrect.</p>\n\n<p>(iv) Physical adsorption is a reversible process. As the temperature decreases, the attractive forces between the adsorbent and adsorbate strengthen, increasing the extent of physisorption. Thus, Option (D) is incorrect.</p>"
+        }
+      },
+      "permalink": "methylene-blue-from-its-aqueous-solution-is-adsorbed-on-ac-2013-marks-1-4zjvhqdcmvlhsjuy.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "topic": "adsorption",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "Methylene blue, from its aqueous solution, is adsorbed on activated charcoal at 25oC. For this process, the\ncorrect statement is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "question_id": "9188nry0n97ielxwnm3r",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2012-paper-2-offline",
+      "paperTitle": "IIT-JEE 2012 Paper 2 Offline",
+      "permalink": "pthe-given-graphsdata-i-ii-iii-and-iv-represent-general-jee-advanced-chemistry-some-basic-concepts-of-chemistry-mgegrn3qlrwa07ha",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>The given graphs/data I, II, III and IV represent general trends observed for different physisorption and chemisorption processes under mild conditions of temperature and pressure. Which of the following choice(s) about I, II, III and IV is(are) correct?</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l26ant5a/6f546f7d-5142-41a0-9efb-b5b9fd88c8f1/720776e0-bff4-11ec-9807-3fb7842b4dc6/file-1l26ant5b.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l26ant5a/6f546f7d-5142-41a0-9efb-b5b9fd88c8f1/720776e0-bff4-11ec-9807-3fb7842b4dc6/file-1l26ant5b.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 2 Offline Chemistry - Surface Chemistry Question 10 English 1\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l26aol77/3137474a-8a64-4119-9591-09ad2470fe65/87b31a30-bff4-11ec-9807-3fb7842b4dc6/file-1l26aol78.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l26aol77/3137474a-8a64-4119-9591-09ad2470fe65/87b31a30-bff4-11ec-9807-3fb7842b4dc6/file-1l26aol78.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 2 Offline Chemistry - Surface Chemistry Question 10 English 2\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l26apb9q/87764803-5d87-47aa-bce1-aed79b7948ea/9bd696e0-bff4-11ec-9807-3fb7842b4dc6/file-1l26apb9r.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l26apb9q/87764803-5d87-47aa-bce1-aed79b7948ea/9bd696e0-bff4-11ec-9807-3fb7842b4dc6/file-1l26apb9r.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 2 Offline Chemistry - Surface Chemistry Question 10 English 3\"></p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l26aq51p/cc2cd976-0900-4be7-b19d-f4555fdb702e/b2d742e0-bff4-11ec-9807-3fb7842b4dc6/file-1l26aq51q.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l26aq51p/cc2cd976-0900-4be7-b19d-f4555fdb702e/b2d742e0-bff4-11ec-9807-3fb7842b4dc6/file-1l26aq51q.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2012 Paper 2 Offline Chemistry - Surface Chemistry Question 10 English 4\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "I is physisorption and II is chemisorption."
+            },
+            {
+              "identifier": "B",
+              "content": "I is physisorption and III is chemisorption."
+            },
+            {
+              "identifier": "C",
+              "content": "IV is chemisorption and II is chemisorption."
+            },
+            {
+              "identifier": "D",
+              "content": "IV is chemisorption and III is chemisorption."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>In the case of physiorption, with the increase of temperature and pressure the rate of adsorption decreases because according to Le Chatelier's principle, increase of temperature and pressure will shift the equilibrium to the left</p>\n<p>Adsorbate + Adsorbent $$\\rightleftharpoons$$ Adsorption + Heat</p>\n<p>This is shown in Graphs I and III; whereas in the case of chemisorption, there is a formation of strong bond between the adsorbate and the adsorbent and so the rate of adsorption increases with increase in temperature (Graphs II and IV).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "adsorption",
+      "type": "mcqm",
+      "year": 2012,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 2 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "The given graphs/data I, II, III and IV represent general trends observed for different physisorption and chemisorption processes under mild conditions of temperature and pressure. Which of the following choice(s) about I, II, III and IV is..."
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "c37cu4wg3216p212f4o6",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "surface-chemistry",
+      "year": 2012,
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Choose the correct reason for the stability of the <b>Iyophobic</b> colloidal particles",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Preferential adsorption of ions on their surface from the solution"
+            },
+            {
+              "identifier": "B",
+              "content": "Preferential adsorption of solvent on their surface from the solution"
+            },
+            {
+              "identifier": "C",
+              "content": "Attraction between different particles having opposite charges on their surface"
+            },
+            {
+              "identifier": "D",
+              "content": "Potential difference between the fixed layer and the diffused layer of opposite charges around the colloidal particles."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The stability of lyophobic colloidal particles is generally due to two main factors:</p>\n\n<p></p><p><strong>Preferential Adsorption</strong>: The same charge (either positive or negative) is preferentially adsorbed onto the surface of lyophobic particles, preventing them from coming close to each other and precipitating. For instance, when a dilute solution of silver nitrate is mixed with potassium iodide, it forms a white precipitate of silver iodide. The iodide ions are preferentially adsorbed onto the silver iodide particles, making the sol negatively charged. These negatively charged particles repel each other, thus preventing precipitation.</p><p></p>\n<p></p><p><strong>Electrostatic Layers</strong>: Negatively charged sol particles attract positive charges from the surrounding medium, forming a second layer of positive charges around them. This results in two layers of opposite charges, known as the fixed layer and the diffused layer. The potential difference between these oppositely charged layers is referred to as electrokinetic potential or zeta potential.</p><p></p>\n\n<p>Here is a visual illustration of the concept (known as Helmholtz double layer):</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1m03hmk20/d2cd8163-ae6b-4952-a526-a5c95e240e3d/b0091170-5f88-11ef-9de4-f1119f73123a/file-jaoe38c1m03hmk21.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1m03hmk20/d2cd8163-ae6b-4952-a526-a5c95e240e3d/b0091170-5f88-11ef-9de4-f1119f73123a/file-jaoe38c1m03hmk21.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2012 Paper 1 Offline Chemistry - Surface Chemistry Question 15 English Explanation\"></p>\n<p>This double layer of opposite charges around the colloidal particles is crucial in maintaining their stability.</p>"
+        }
+      },
+      "permalink": "choose-the-correct-reason-for-the-stability-of-the-iyophobic-2012-marks-2-c4x2lfdjvg8wxsgq.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "topic": "colloids",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "Choose the correct reason for the stability of the Iyophobic colloidal particles"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "0ofscz2f2du37mtzi5js",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "surface-chemistry",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The correct statement(s) pertaining to the adsorption of a gas on a solid surface is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Adsorption is always exothermic"
+            },
+            {
+              "identifier": "B",
+              "content": "Physisorption may transform into chemisorption at high temperature"
+            },
+            {
+              "identifier": "C",
+              "content": "Physisorption increases with increasing temperature but chemisorption decreases with increasing temperature"
+            },
+            {
+              "identifier": "D",
+              "content": "Chemisorption is more exothermic than physisorption, however it is very slow due to higher energy of activation"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>(A) </p>\n\n<p><p>Adsorption, whether it is chemisorption or physisorption, is an exothermic process. In physisorption, gas molecules are adsorbed onto the surface of the adsorbent by van der Waals forces. When the attractive forces between the gas and the solid adsorbent are stronger than those between the gas molecules themselves, energy is released, making the process exothermic.</p></p>\n<p><p>In chemisorption, a chemical bond is formed between the adsorbent and the adsorbate. This bond formation releases energy, making the process exothermic.</p></p>\n\n<p>Thus, <strong>Option A is correct</strong>.</p>\n<p>(B) </p>\n<p>At low temperatures, gases such as hydrogen or oxygen can accumulate on the solid surface (adsorbent) through a process called physisorption, which has a low enthalpy of adsorption (20-40 kJ/mol). With increasing temperature, oxygen or hydrogen can react with metal surfaces (adsorbent) to form metal oxides or metal hydrides, a process known as chemisorption, with an enthalpy of chemisorption between 80-240 kJ/mol.</p>\n<p>Thus, <strong>Option B is correct</strong>.</p>\n<p>(C) </p>\n<p>Physisorption is a low enthalpy process that is favorable at low temperatures, while chemisorption has a high enthalpy process and occurs more readily at higher temperatures. Therefore, the statement that physisorption increases with increasing temperature and chemisorption decreases with increasing temperature is incorrect.</p>\n<p>Thus, <strong>Option C is incorrect</strong>.</p>\n<p>(D) </p>\n<p>Chemisorption occurs at higher temperatures because the energy of the reactant molecules (adsorbate and adsorbent) must be sufficient to overcome the potential energy barrier to form the product. However, once chemical bonds are formed between the reactant molecules, a significant amount of energy is released. Therefore, chemisorption is more exothermic than physisorption.</p>\n<p>Thus, <strong>Option D is correct</strong>.</p>\n<p><strong>Note :</strong> Physisorption arises due to weak forces of attraction between the adsorbent and the absorbent molecules.</p>"
+        }
+      },
+      "permalink": "the-correct-statements-pertaining-to-the-adsorption-of-a-g-2011-marks-2-t5hhmbklgfcvbnoi.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "topic": "adsorption",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "The correct statement(s) pertaining to the adsorption of a gas on a solid surface is (are)"
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "6fbyp79ytfcl0lkgqixo",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "permalink": "pamong-the-electrolytes-na2so4-cacl2-al-jee-advanced-chemistry-some-basic-concepts-of-chemistry-gfwggdkl3jnzmufg",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Among the electrolytes Na$$_2$$SO$$_4$$, CaCl$$_2$$, Al$$_2$$(SO$$_4$$)$$_3$$ and NH$$_4$$Cl, the most effective coagulating agent for Sb$$_2$$S$$_3$$ sol is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Na$$_2$$SO$$_4$$"
+            },
+            {
+              "identifier": "B",
+              "content": "CaCl$$_2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "Al$$_2$$(SO$$_4$$)$$_3$$"
+            },
+            {
+              "identifier": "D",
+              "content": "NH$$_4$$Cl"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>As Sb$$_2$$S$$_3$$ is a negative sol, so, Al$$_2$$(SO$$_4$$)$$_3$$ will be the most effective coagulant due to higher charge density on Al$$^{3+}$$ in accordance with Hardy-Schulze rule.</p>\n<p>Order of effectiveness of cations: Al$$^{3+}$$ > Ca$$^{2+}$$ > Na$$^{+}$$ > NH$$^{+}_{4}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "colloids",
+      "type": "mcq",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "Among the electrolytes Na$$_2$$SO$$_4$$, CaCl$$_2$$, Al$$_2$$(SO$$_4$$)$$_3$$ and NH$$_4$$Cl, the most effective coagulating agent for Sb$$_2$$S$$_3$$ sol is"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "5ylk9e27kab2r7fbzgat",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "pamong-the-following-the-surfactant-that-will-form-micell-jee-advanced-chemistry-some-basic-concepts-of-chemistry-0qhmsyigsgmih78z",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Among the following, the surfactant that will form micelles in aqueous solution at the lowest molar concentration at ambient condition is:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "CH$$_3$$(CH$$_2$$)$$_{15}$$N$$^+$$(CH$$_3$$)$$_3$$Br$$^-$$"
+            },
+            {
+              "identifier": "B",
+              "content": "CH$$_3$$(CH$$_2$$)$$_{11}$$OSO$$_3^-$$Na$$^+$$"
+            },
+            {
+              "identifier": "C",
+              "content": "CH$$_3$$(CH$$_2$$)$$_6$$COO$$^-$$Na$$^+$$"
+            },
+            {
+              "identifier": "D",
+              "content": "CH$$_3$$(CH$$_2$$)$$_{11}$$N$$^+$$(CH$$_3$$)$$_3$$Br$$^-$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The surfactant CH$$_3$$(CH$$_2$$)$$_{15}$$N$$^+$$(CH$$_3$$)$$_3$$Br$$^-$$ forms micelles at lowest concentration.</p>\n<p>Critical concentration for micelle formation decreases as the molecular weight of hydrocarbon chain of surfactant grows because its true solubility diminishes and the tendency of surfactant molecule to associate increases. The molecular weight is maximum in case of CH$$_3$$(CH$$_2$$)$$_{15}$$N$$^+$$(CH$$_3$$)$$_3$$Br$$^-$$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "colloids",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "Among the following, the surfactant that will form micelles in aqueous solution at the lowest molar concentration at ambient condition is:"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "l23i45xf07dgotl6uvo6",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pstatement-1--micelles-are-formed-by-surfactant-molecules-jee-advanced-chemistry-some-basic-concepts-of-chemistry-gwb2gfcdatl8rgaf",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p><b>Statement 1 :</b> Micelles are formed by surfactant molecules above the critical micellar concentration (CMC).</p>\n\n<p><b>Statement 2 :</b> The conductivity of a solution having surfactant molecules decreases sharply at the CMC.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement 1 is True, Statement 2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement 1 is False, Statement 2 is True"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>In colloidal surfactants, critical micelle concentration (CMC) is the concentration of surfactants above which micelles. Once micelles are formed, the polar surfactants are not free to conduct electricity. Also, a micelle is much larger than a monomer it diffuses more slowly through solution and so is a less efficient charge carrier.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "colloids",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "Statement 1 : Micelles are formed by surfactant molecules above the critical micellar concentration (CMC).\n\nStatement 2 : The conductivity of a solution having surfactant molecules decreases sharply at the CMC."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "ipmvrrywjcs8vzvpn7yp",
+      "chapter": "surface-chemistry",
+      "chapterGroup": "physical-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pnitrogen-gas-is-absorbed-on-20-surface-sites-on-heating-jee-advanced-chemistry-some-basic-concepts-of-chemistry-pa6xde9tregnigw8",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Nitrogen gas is absorbed on 20% surface sites. On heating N$$_2$$ gas evolved from sites and was collected at 0.01 atm and 298 K in a container of volume 2.46 cm$$^3$$. Find out the number of surface sites occupied per molecule of N, if the density of surface sites is $$6.023\\times10^{14}/\\mathrm{cm^3}$$ and surface area is 1000 cm$$^2$$.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p><b>Given Data</b>:</p>\n<p>P = 0.01 atm</p>\n<p>T = 298 K</p>\n<p>V = 2.46 cm$$^3$$</p>\n<p>Density of surface sites $$=6.023\\times10^{14}/\\mathrm{cm^3}$$</p>\n<p>Surface area (A) = 1000 cm$$^2$$</p>\n<p><b>Goal</b>:</p>\n<p>We want to find out how many surface sites are covered by each nitrogen (N$$_2$$) molecule.</p>\n<p><b>Step 1: Find the Total Number of Surface Sites</b></p>\n<p>We are given the number of sites per cm$$^3$$ and the total surface area. Multiply these to get the total number of sites:</p>\n<p>\n\nTotal number of surface sites = Density $\\times$ Total surface area\n\n</p>\n<p>\n\n$$=6.023\\times10^{14}\\mathrm{~cm}^{-3}\\times1000\\mathrm{~cm^2}$$\n\n</p>\n<p>\n\n$$=6.023\\times10^{17}$$ sites\n\n</p>\n<p><b>Step 2: Calculate the Number of Sites Occupied by N$$_2$$</b></p>\n<p>\n\nNitrogen covers just 20% of the sites. So, multiply the total sites by 20% (or 0.20):\n\n</p>\n<p>\n\nSites occupied by N$$_2$$ = $$\\frac{20}{100}\\times6.023\\times10^{17}$$\n\n</p>\n<p>\n\n$$=1.2046\\times10^{17}$$ sites\n\n</p>\n<p><b>Step 3: Find Number of N$$_2$$ Molecules Released (Using Gas Laws)</b></p>\n<p>\n\nTo get the number of N$$_2$$ molecules, first calculate how many moles of N$$_2$$ gas are collected using the ideal gas law:\n\n</p>\n<p>\n\n$$n = \\frac{PV}{RT}$$\n\n</p>\n<p>\n\nWhere R = 0.0821 L-atm/K·mol; V = 2.46 cm$^3$ = 2.46 × 10$^{-3}$ L\n\n</p>\n<p>\n\nNow, plug in the values:\n\n</p>\n<p>\n\n$$n = \\frac{0.01\\,\\text{atm} \\times 2.46 \\times 10^{-3}\\,\\text{L}}{0.0821\\, \\text{L-atm/(K·mol)} \\times 298\\,\\text{K}}$$\n\n</p>\n<p>\n\n$$n = 1.01 \\times 10^{-7}$$ moles\n\n</p>\n<p>\n\nNow, multiply the number of moles by Avogadro's number (6.023 × 10$^{23}$) to get molecules:\n\n</p>\n<p>\n\nTotal N$$_2$$ molecules released = $n \\times N_A$\n\n</p>\n<p>\n\n$$= 1.01\\times 10^{-7}\\times 6.023\\times10^{23} = 6.08\\times10^{16}$$ molecules\n\n</p>\n<p><b>Step 4: Number of Surface Sites Occupied by Each N$$_2$$ Molecule</b></p>\n<p>\n\nNow divide the number of sites occupied by the number of N$$_2$$ molecules:\n\n</p>\n<p>\n\n$$\\text{Number of sites per N}_2 = \\frac{1.2046\\times10^{17}}{6.08\\times10^{16}} = 1.98 \\approx 2$$\n\n</p>\n<p><b>Final Answer</b></p>\n<p>\n\nEach nitrogen molecule occupies about 2 surface sites.\n\n</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "adsorption",
+      "type": "integer",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "Nitrogen gas is absorbed on 20% surface sites. On heating N$$_2$$ gas evolved from sites and was collected at 0.01 atm and 298 K in a container of volume 2.46 cm$$^3$$. Find out the number of surface sites occupied per molecule of N, if the..."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qg7j7rvg4m302dc8l7pp",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "physical-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "surface-chemistry",
+      "year": 2003,
+      "paperTitle": "IIT-JEE 2003",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "1 gm of charcoal adsorbs 100 ml 0.5 M CH<sub>3</sub>COOH to form a monolayer, and thereby the molarity of CH<sub>3</sub>COOH reduces to 0.49. Calculate the surface area of the charcoal adsorbed by each molecule of acetic acid. Surface area of charcoal = 3.01 $$\\times$$ 10<sup>2</sup> m<sup>2</sup>/gm.",
+          "options": [],
+          "correct_options": [],
+          "answer": "5 $$\\times$$ 10<sup>-19</sup> m<sup>2</sup>",
+          "explanation": "<p>The number of moles of acetic acid in 100 mL (before\nadding charcoal) = 0.05 mol</p>\n<p>The number of moles of acetic acid in 100 mL (after adding charcoal) = 0.049 mol</p>\n<p>The number of moles of acetic acid adsorbed on the surface of charcoal = 0.05 - 0.049 = 0.001 mol</p>\n<p>The number of molecules of acetic acid adsorbed on the\nsurface of charcoal = 0.001 $$\\times$$ 6.02 $$\\times$$ 10<sup>23</sup> = 6.02 $$\\times$$ 10<sup>20</sup></p>\n<p>Given that the surface area of charcoal = 3.01 $$\\times$$ 10<sup>2</sup>\n m<sup>2</sup>\n, so the area occupied by single acetic acid molecule on the\nsurface of charcoal is\n<br/><br/>= $${{3.01 \\times {{10}^2}} \\over {6.02 \\times {{10}^{20}}}}$$ = 5 $$\\times$$ 10<sup>-19</sup> m<sup>2</sup>\n</p>\n"
+        }
+      },
+      "permalink": "1-gm-of-charcoal-adsorbs-100-ml-05-m-ch3cooh-to-form-a-mono-2003-marks-2-8dsk2aq0l4ga5j26.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2003",
+      "topic": "adsorption",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2003",
+          "subTitle": "Surface Chemistry • Chemistry",
+          "excerpt": "1 gm of charcoal adsorbs 100 ml 0.5 M CH3COOH to form a monolayer, and thereby the molarity of CH3COOH reduces to 0.49. Calculate the surface area of the charcoal adsorbed by each molecule of acetic acid. Surface area of charcoal = 3.01 $$\\..."
+        }
+      },
+      "yearKey": "iit-jee-2003"
+    }
+  ]
+}

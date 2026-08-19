@@ -1,0 +1,2584 @@
+{
+  "questions": [
+    {
+      "question_id": "qwcwxsggrh6f2yhry4nn",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "a-student-skates-up-a-ramp-that-makes-an-angle-30circ-jee-advanced-physics-units-and-measurements-1i4evbtmnekulmpe",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A student skates up a ramp that makes an angle 30$$^\\circ$$ with the horizontal. He/she starts (as shown in the figure) at the bottom of the ramp with speed v<sub>0</sub> and wants to turn around over a semicircular path xyz of radius R during which he/she reaches a maximum height h (at point y) from the ground as shown in the figure. Assume that the energy loss is negligible and the force required for this turn at the highest point is provided by his/her weight only. Then (g is the acceleration due to gravity)<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-860w.jpeg\"><source media=\"(max-width: 1040px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-1040w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 2 Offline Physics - Work Power &amp; Energy Question 11 English\"></picture>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$v_0^2 - 2gh = {1 \\over 2}gR$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$v_0^2 - 2gh = {{\\sqrt 3 } \\over 2}gR$$"
+            },
+            {
+              "identifier": "C",
+              "content": "the centripetal force required at points x and z is zero"
+            },
+            {
+              "identifier": "D",
+              "content": "the centripetal force required is maximum at points x and z"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "Apply energy conservation,<br><br>$${1 \\over 2}mv_0^2 = mgh + {1 \\over 2}m{v^2}$$<br><br>$${1 \\over 2}m{v^2} = {1 \\over 2}mv_0^2 - mgh$$ ..... (i)<br><br>At top point y, the centripetal force provided by the component of mg,<br><br>mg sin$$\\theta$$ = centripetal force = $${{m{v^2}} \\over R}$$<br><br>$${{m{v^2}} \\over R} = mg\\sin \\theta $$<br><br>Putting this value in Eq. (i), we get<br><br>$${{mgR\\sin \\theta } \\over 2} = {1 \\over 2}mv_0^2 - mgh$$<br><br>$${{mgR} \\over 2}{1 \\over 2} = {1 \\over 2}mv_0^2 - mgh$$<br><br>$${{gR} \\over 2} = v_0^2 - 2gh$$\n<br/><br/><p>At point x and a of circular path, the points are at same height but less than h. So the velocity is more than point y.</p>\n<p>So required centripetal force = $$\\frac{mv^{2}}{r}$$ is more.</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक रैंप (लम्बे उत्रत तल के समान) क्षैतिज से $$30^{\\circ}$$ का कोण बनाता है । एक विद्यार्थी इस रैंप पर नीचे से $$v_{o}$$ गति से आरम्भ कर ऊपर की ओर स्केटिंग करता/करती है |चित्रानुसार इस रैंप पर विद्यार्थी $$R$$ त्रिज्या के अर्धवृत्ताकार पथ $$x y z$$ पर वापस मुड़ना चाहता/चाहती है और ऐसा करने पर वह धरती से अधिकतम ऊँचाई $$h$$ (बिंदु $$y$$ पर ) तक पहुंचता/पहुंचती है । मान लीजिये कि ऊर्जा का क्षय नगण्य है तथा इस अधिकतम ऊँचाई पर वापस मुड़ने के लिए केवल उसका भार ही उसे आवश्यक बल प्रदान करता है ।तब (गुरुत्वीय त्वरण $$g$$ है)</p>\n<p> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-680w.jpeg\"><source media=\"(max-width: 860px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-860w.jpeg\"><source media=\"(max-width: 1040px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b-1040w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ksg9se6a/3e9fbe93-5df1-4ad7-9a2b-12bea35922ed/b515ca20-ff76-11eb-84d7-a5f6ae5cd65b/file-1ksg9se6b.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 2 Offline Physics - Work Power &amp; Energy Question 11 Hindi\"></picture></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$v_{0}^{2}-2 g h=\\frac{1}{2} g R$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$v_{0}^{2}-2 g h=\\frac{\\sqrt{3}}{2} g R$$"
+            },
+            {
+              "identifier": "C",
+              "content": "बिन्दुओं $$x$$ तथा $$z$$ पर आवश्यक अभिकेन्द्र बल (centripetal force) शून्य है।"
+            },
+            {
+              "identifier": "D",
+              "content": "बिन्दुओं $$x$$ तथा $$z$$ पर आवश्यक अभिकेन्द्र बल (centripetal force) अधिकतम है।"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "ऊर्जा संरक्षण लगाने पर,<br><br>$${1 \\over 2}mv_0^2 = mgh + {1 \\over 2}m{v^2}$$<br><br>$${1 \\over 2}m{v^2} = {1 \\over 2}mv_0^2 - mgh$$ ..... (i)<br><br>शीर्ष बिंदु y पर, अभिकेन्द्र बल mg के घटक द्वारा प्रदान किया जाता है,<br><br>mg sin$$\\theta$$ = अभिकेन्द्र बल = $${{m{v^2}} \\over R}$$<br><br>$${{m{v^2}} \\over R} = mg\\sin \\theta $$<br><br>इस मान को समीकरण (i) में रखने पर, हम पाते हैं<br><br>$${{mgR\\sin \\theta } \\over 2} = {1 \\over 2}mv_0^2 - mgh$$<br><br>$${{mgR} \\over 2}{1 \\over 2} = {1 \\over 2}mv_0^2 - mgh$$<br><br>$${{gR} \\over 2} = v_0^2 - 2gh$$\n<br/><br/><p>वृत्तीय पथ के बिंदु x और a पर, बिंदु समान ऊंचाई पर हैं लेकिन h से कम हैं। इसलिए वेग बिंदु y से अधिक है।</p>\n<p>अतः आवश्यक अभिकेन्द्र बल = $$\\frac{mv^{2}}{r}$$ अधिक है।</p>"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "energy",
+      "type": "mcqm",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A student skates up a ramp that makes an angle 30$$^\\circ$$ with the horizontal. He/she starts (as shown in the figure) at the bottom of the ramp with speed v0 and wants to turn around over a semicircular path xyz of radius R during which h..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "एक रैंप (लम्बे उत्रत तल के समान) क्षैतिज से $$30^{\\circ}$$ का कोण बनाता है । एक विद्यार्थी इस रैंप पर नीचे से $$v_{o}$$ गति से आरम्भ कर ऊपर की ओर स्केटिंग करता/करती है |चित्रानुसार इस रैंप पर विद्यार्थी $$R$$ त्रिज्या के अर्धवृत्ताकार पथ $$..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "hy75v58geddd175uw9fb",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2019 Paper 2 Offline",
+      "permalink": "a-small-particle-of-mass-m-moving-inside-a-heavy-hollow-and-jee-advanced-physics-units-and-measurements-otczffegvtneu5ky",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A small particle of mass m moving inside a heavy, hollow and straight tube along the tube axis undergoes elastic collision at two ends. The tube has no friction and it is closed at one end by a flat surface while the other end is fitted with a heavy movable flat piston as shown in figure.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l6zwya0o/bf2a747a-6a7f-4568-99cf-783f6bd524ed/3657d470-1f6f-11ed-8026-2d840eace413/file-1l6zwya0p.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l6zwya0o/bf2a747a-6a7f-4568-99cf-783f6bd524ed/3657d470-1f6f-11ed-8026-2d840eace413/file-1l6zwya0p.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Work Power &amp; Energy Question 12 English\"><br><br>When the distance of the piston from closed end is L = L<sub>0</sub>, the particle speed is v = v<sub>0</sub>. The piston is moved inward at a very low speed V such that $$V &lt;  &lt; {{dL} \\over L}{v_0}$$, where dL is the infinitesimal displacement of the piston. Which of the following statement(s) is/are correct?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "After each collision with the piston, the particle speed increases by 2V."
+            },
+            {
+              "identifier": "B",
+              "content": "If the piston moved inward by dL, the particle speed increases $$2v{{dL} \\over L}$$."
+            },
+            {
+              "identifier": "C",
+              "content": "The particle's kinetic energy increases by a factor of 4 when the piston is moved inward from L<sub>0</sub> to 1/2 L<sub>0</sub>."
+            },
+            {
+              "identifier": "D",
+              "content": "The rate at which the particle strikes the piston is v/L."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://imagex.cdn.examgoal.net/1kszb4a4d/bec2b008-4a45-4942-afaa-a57dfb22cc30/cd21bed0-09ee-11ec-a8f3-9320288f0d0d/file-1kszb4a4e.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Work Power &amp; Energy Question 12 English Explanation 1\"> <br><br>Change in speed = $$(2v + {v_0} - {v_0}) = 2v$$ In every collision it acquires 2v,<br><br> <img src=\"https://imagex.cdn.examgoal.net/1kszb5l48/eeb22f32-deed-4c4f-82ec-609468b5a6d8/f16f4370-09ee-11ec-b419-f733eb33510a/file-1kszb5l49.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Work Power &amp; Energy Question 12 English Explanation 2\"> <br><br>$$f = {v \\over {2x}}$$<br><br>$${{dv} \\over {dt}} = f \\times 2v$$<br><br>$$dv = {v \\over {2x}}2vdt$$<br><br>$$dv = {v \\over {2x}}2( - dx)$$<br><br>Integration on both sides limits v<sub>0</sub> to v, we get<br><br>$$\\int\\limits_{{v_0}}^v {{{dv} \\over v}}  = \\int\\limits_l^x {{{ - dx} \\over x}} $$<br><br>$$ \\Rightarrow \\ln {v \\over {{v_0}}} =  - \\ln {x \\over l}$$<br><br>$$ \\Rightarrow v = {{{v_0}l} \\over x}$$<br><br>where, $$x = {l \\over 2},v = 2{v_0}$$<br><br>so, $$f = {{2{v_0}} \\over {2{l \\over 2}}} = {{2{v_0}} \\over l}$$<br><br>$$ \\therefore $$ $${{{k_f}} \\over {{k_i}}} = 4$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक भारी, खोखली और सीधी नलिका के अक्ष की दिशा में एक $$m$$ द्रव्यमान का छोटा कण गतिशील है और वह नलिका के दोनों सिरों से प्रत्यास्थी संघट्ट (elastic collision) करता है। नलिका की सतह पर कोई घर्षण नहीं है और इसका एक सिरा एक समतल सतह से बंद है जबकि दूसरे सिरे पर एक समतल सतह वाला भारी चलायमान पिस्टन है जैसा कि चित्र में दर्शाया गया है । जब पिस्टन बंद सिरे से $$L=L_{0}$$ की दूरी पर है तब कण की गति $$v=v_{0}$$ है | पिस्टन को अंदर की ओर बहुत कम गति $$V \\ll \\frac{d L}{L} v_{0}$$ से चलाते हैं, जहां $$d L$$ पिस्टन का अतिसूक्ष्म (infinitesimal) विस्थापन है । निम्नलिखित कथनों में से कौन सा(से) सही है(हैं) ?</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l6zwya0o/bf2a747a-6a7f-4568-99cf-783f6bd524ed/3657d470-1f6f-11ed-8026-2d840eace413/file-1l6zwya0p.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l6zwya0o/bf2a747a-6a7f-4568-99cf-783f6bd524ed/3657d470-1f6f-11ed-8026-2d840eace413/file-1l6zwya0p.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Work Power &amp; Energy Question 12 Hindi\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "पिस्टन से प्रत्येक संघट्ट के बाद कण की गति $$2 V$$ से बढ़ जाती है।"
+            },
+            {
+              "identifier": "B",
+              "content": "यदि पिस्टन अंदर कि तरफ $$d L$$ दूरी चलता है तब कण कि गति $$2 v \\frac{d L}{L}$$ से बढ़ जाती है।"
+            },
+            {
+              "identifier": "C",
+              "content": "जब पिस्टन $$L_{0}$$ से $$\\frac{1}{2} L_{0}$$ तक जाता है तब कण की गतिज ऊर्जा 4 गुणा अधिक हो जाती है।"
+            },
+            {
+              "identifier": "D",
+              "content": "कण के पिस्टन से टकराने की दर $$v / L$$ है।"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://imagex.cdn.examgoal.net/1kszb4a4d/bec2b008-4a45-4942-afaa-a57dfb22cc30/cd21bed0-09ee-11ec-a8f3-9320288f0d0d/file-1kszb4a4e.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Work Power &amp; Energy Question 12 Hindi Explanation 1\"> <br><br>चाल में परिवर्तन = $$(2v + {v_0} - {v_0}) = 2v$$ प्रत्येक टक्कर में यह 2v प्राप्त करता है,<br><br> <img src=\"https://imagex.cdn.examgoal.net/1kszb5l48/eeb22f32-deed-4c4f-82ec-609468b5a6d8/f16f4370-09ee-11ec-b419-f733eb33510a/file-1kszb5l49.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 2 Offline Physics - Work Power &amp; Energy Question 12 Hindi Explanation 2\"> <br><br>$$f = {v \\over {2x}}$$<br><br>$${{dv} \\over {dt}} = f \\times 2v$$<br><br>$$dv = {v \\over {2x}}2vdt$$<br><br>$$dv = {v \\over {2x}}2( - dx)$$<br><br>दोनों पक्षों पर समाकलन करने पर सीमाएँ v<sub>0</sub> से v तक, हमें प्राप्त होता है<br><br>$$\\int\\limits_{{v_0}}^v {{{dv} \\over v}}  = \\int\\limits_l^x {{{ - dx} \\over x}} $$<br><br>$$ \\Rightarrow \\ln {v \\over {{v_0}}} =  - \\ln {x \\over l}$$<br><br>$$ \\Rightarrow v = {{{v_0}l} \\over x}$$<br><br>जहाँ, $$x = {l \\over 2},v = 2{v_0}$$<br><br>अतः, $$f = {{2{v_0}} \\over {2{l \\over 2}}} = {{2{v_0}} \\over l}$$<br><br>$$ \\therefore $$ $${{{k_f}} \\over {{k_i}}} = 4$$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "energy",
+      "type": "mcqm",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A small particle of mass m moving inside a heavy, hollow and straight tube along the tube axis undergoes elastic collision at two ends. The tube has no friction and it is closed at one end by a flat surface while the other end is fitted wit..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "एक भारी, खोखली और सीधी नलिका के अक्ष की दिशा में एक $$m$$ द्रव्यमान का छोटा कण गतिशील है और वह नलिका के दोनों सिरों से प्रत्यास्थी संघट्ट (elastic collision) करता है। नलिका की सतह पर कोई घर्षण नहीं है और इसका एक सिरा एक समतल सतह से बंद है ज..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-2-offline"
+    },
+    {
+      "question_id": "zjw043uomm3hnpyheoje",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "a-particle-is-moved-along-a-path-ab-bc-cd-de-ef-fa-as-shown-jee-advanced-physics-units-and-measurements-rhlkq3llcmxknheg",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A particle is moved along a path AB-BC-CD-DE-EF-FA, as shown in figure, in presence of a force $$F = (\\alpha y\\widehat i + 2\\alpha x\\widehat j)$$ N, where x and y are in meter and $$\\alpha $$ = $$ - $$1 Nm<sup>-1</sup>. The work done on the particle by this force F will be ............... Joule.<br><br> <img src=\"https://imagex.cdn.examgoal.net/1ksnhpgj3/9c45a1f9-0cc1-4f66-906d-0c783d67d582/290e77f0-036f-11ec-adb2-2901be21f9d7/file-1ksnhpgj4.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Physics - Work Power &amp; Energy Question 13 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.75",
+          "explanation": "d = F.dr<br><br>d = $$\\alpha $$ydx + 2$$\\alpha $$xdy<br><br>A$$ \\to $$B, y = 1, dy = 0<br><br>then $${W_{A \\to B}} = \\int {\\alpha ydx} $$$$ = \\alpha 1\\int_0^1 {dx}  = \\alpha $$<br><br>B$$ \\to $$C, x = 1, dx = 0<br><br>then $${W_{B \\to C}} = 2\\alpha 1\\int_1^{0.5} {dy}  =  - 2\\alpha (0.5) =  - \\alpha $$<br><br>C$$ \\to $$D, y = 0.5, dy = 0<br><br>then $${W_{C \\to D}} = \\int_1^{0.5} {\\alpha ydx}  = \\alpha .{1 \\over 2}\\int_1^{0.5} {dx}  =  - {\\alpha  \\over 4}$$<br><br>D$$ \\to $$E, x = 0.5, dx = 0<br><br>then $${W_{D \\to E}} = 2\\alpha \\int {xdy}  = 2\\alpha .{1 \\over 2}\\int\\limits_{0.5}^0 {dy}  =  - {\\alpha  \\over 2}$$<br><br>E$$ \\to $$F, y = 0, dy = 0 then W<sub>EF</sub> = 0<br><br>F$$ \\to $$A, x = 0, dx = 0 then W<sub>F$$ \\to $$A</sub> = 0<br><br>$$ \\therefore $$ $$W = \\alpha  - \\alpha  - {\\alpha  \\over 4} - {\\alpha  \\over 2} =  - {{3\\alpha } \\over 4}$$<br><br>Given, $$\\alpha  =  - 1 $$<br><br>$$\\Rightarrow W = {3 \\over 4}J = 0.75J$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक कण को बल $$\\vec{F}=(\\alpha y \\hat{\\imath}+2 \\alpha x \\hat{\\jmath}) ~\\mathrm{N}$$, जहाँ $$x$$ और $$y$$ का मान मीटर में हैं तथा $$\\alpha=-1 ~\\mathrm{Nm}^{-1}$$ है, की उपस्थिति में $$\\mathrm{AB}-\\mathrm{BC}-C D-D E-E F-F A$$ पथ पर चित्रानुसार चलाया जाता है। बल $$\\vec{F}$$ द्वारा कण पर किये गये कार्य का परिमाण ____________ जूल (Joule) होगा।</p>\n<p><img src=\"https://imagex.cdn.examgoal.net/1ksnhpgj3/9c45a1f9-0cc1-4f66-906d-0c783d67d582/290e77f0-036f-11ec-adb2-2901be21f9d7/file-1ksnhpgj4.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2019 Paper 1 Offline Physics - Work Power &amp; Energy Question 13 Hindi\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.75",
+          "explanation": "d = F.dr<br><br>d = $$\\alpha $$ydx + 2$$\\alpha $$xdy<br><br>A$$ \\to $$B, y = 1, dy = 0<br><br>तब $${W_{A \\to B}} = \\int {\\alpha ydx} $$$$ = \\alpha 1\\int_0^1 {dx}  = \\alpha $$<br><br>B$$ \\to $$C, x = 1, dx = 0<br><br>तब $${W_{B \\to C}} = 2\\alpha 1\\int_1^{0.5} {dy}  =  - 2\\alpha (0.5) =  - \\alpha $$<br><br>C$$ \\to $$D, y = 0.5, dy = 0<br><br>तब $${W_{C \\to D}} = \\int_1^{0.5} {\\alpha ydx}  = \\alpha .{1 \\over 2}\\int_1^{0.5} {dx}  =  - {\\alpha  \\over 4}$$<br><br>D$$ \\to $$E, x = 0.5, dx = 0<br><br>तब $${W_{D \\to E}} = 2\\alpha \\int {xdy}  = 2\\alpha .{1 \\over 2}\\int\\limits_{0.5}^0 {dy}  =  - {\\alpha  \\over 2}$$<br><br>E$$ \\to $$F, y = 0, dy = 0 तब W<sub>EF</sub> = 0<br><br>F$$ \\to $$A, x = 0, dx = 0 तब W<sub>F$$ \\to $$A</sub> = 0<br><br>$$ \\therefore $$ $$W = \\alpha  - \\alpha  - {\\alpha  \\over 4} - {\\alpha  \\over 2} =  - {{3\\alpha } \\over 4}$$<br><br>दिया गया है, $$\\alpha  =  - 1 $$<br><br>$$\\Rightarrow W = {3 \\over 4}J = 0.75J$$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "work",
+      "type": "integer",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A particle is moved along a path AB-BC-CD-DE-EF-FA, as shown in figure, in presence of a force $$F = (\\alpha y\\widehat i + 2\\alpha x\\widehat j)$$ N, where x and y are in meter and $$\\alpha $$ = $$ - $$1 Nm-1. The work done on the particle b..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "एक कण को बल $$\\vec{F}=(\\alpha y \\hat{\\imath}+2 \\alpha x \\hat{\\jmath}) ~\\mathrm{N}$$, जहाँ $$x$$ और $$y$$ का मान मीटर में हैं तथा $$\\alpha=-1 ~\\mathrm{Nm}^{-1}$$ है, की उपस्थिति में $$\\mathrm{AB}-\\mathrm{BC}-C D-D E-E F-F A$$ पथ पर चित्रानुस..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "f6i3b0fm9jijz6dio9zv",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In the List-$${\\rm I}$$  below, four different paths of a particle are given as functions of time. In these functions, $$\\alpha $$ and $$\\beta $$ are positive constants of appropriate dimensions and  $$\\alpha  \\ne \\beta $$  In each case, the force acting on the particle is either zero or conservative. In List-$${\\rm I}{\\rm I}$$, five physical quantities of the particle are mentioned $$\\overrightarrow p $$ is the linear momentum, $$\\overrightarrow L $$ is the angular momentum about the origin, $$K$$ is the kinetic energy, $$U$$ is the potential energy and $$E$$ is the total energy. Match each path in List-$${\\rm I}$$ with those quantities in List-$${\\rm II}$$, which are conserved for that path.\n<br><br><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-pjk9{font-size:22px;text-align:left}\n.tg .tg-wrg0{font-size:22px;text-align:center;vertical-align:top}\n.tg .tg-wv9z{font-size:22px;text-align:center}\n.tg .tg-de48{font-weight:bold;font-size:22px;text-align:center}\n</style>\n<table class=\"tg\">\n  <tbody><tr>\n    <th class=\"tg-de48\" colspan=\"2\">LIST - I </th>\n    <th class=\"tg-de48\" colspan=\"2\">LIST - II</th>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">P.</td>\n    <td class=\"tg-pjk9\">$$\\overrightarrow r $$(t)=$$\\alpha $$ $$t\\,\\widehat i + \\beta t\\widehat j$$ </td>\n    <td class=\"tg-de48\">1.</td>\n    <td class=\"tg-wv9z\">$$\\overrightarrow p $$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">Q.</td>\n    <td class=\"tg-pjk9\">$$\\overrightarrow r \\left( t \\right) = \\alpha \\cos \\,\\omega t\\,\\widehat i + \\beta \\sin \\omega t\\,\\widehat j$$  </td>\n    <td class=\"tg-de48\">2.</td>\n    <td class=\"tg-wv9z\">$$\\overrightarrow L $$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">R.</td>\n    <td class=\"tg-pjk9\">$$\\overrightarrow r \\left( t \\right) = \\alpha \\left( {\\cos \\omega t\\,\\widehat i + \\sin \\omega t\\widehat j} \\right)$$ </td>\n    <td class=\"tg-de48\">3.</td>\n    <td class=\"tg-wv9z\">K</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">S.</td>\n    <td class=\"tg-pjk9\">$$\\overrightarrow r \\left( t \\right) = \\alpha t\\,\\widehat i + {\\beta  \\over 2}{t^2}\\widehat j$$ </td>\n    <td class=\"tg-de48\">4.</td>\n    <td class=\"tg-wv9z\">U</td>\n  </tr>\n  <tr>\n    <td class=\"tg-wrg0\"></td>\n    <td class=\"tg-wrg0\"></td>\n    <td class=\"tg-wrg0\">5.</td>\n    <td class=\"tg-wrg0\">E</td>\n  </tr>\n</tbody></table>  ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P \\to 1,2,3,4,5;\\,Q \\to 2,5;R \\to 2,3,4,5;S \\to 5$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$P \\to 1,2,3,4,5;{\\mkern 1mu} Q \\to 3,5;R \\to 2,3,4,5;S \\to 2,5$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$P \\to 2,3,4;{\\mkern 1mu} Q \\to 5;R \\to 1,2,4;S \\to 2,5$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$P \\to 1,2,3,4,5;{\\mkern 1mu} Q \\to 2,5;R \\to 2,3,4,5;S \\to 2,5$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The linear momentum $$\\overrightarrow p $$ of a particle is conserved if force on it is zero i.e., $$\\overrightarrow F  = m\\overrightarrow a  = \\overrightarrow 0 $$. If $$\\overrightarrow p $$ is conserved then kinetic energy $$K = {p^2}/2m$$ is also conserved. The angular momentum $$\\overrightarrow L $$ of a particle is conserved if torque on it is zero i.e., $$\\overrightarrow \\tau   = \\overrightarrow r  \\times \\overrightarrow F  = \\overrightarrow 0 $$. The total energy E is conserved for conservative forces.</p>\n<p>For P : $$\\overrightarrow r (t) = \\alpha t\\widehat i + \\beta t\\widehat j$$</p>\n<p>$$\\overrightarrow v  = {{d\\overrightarrow r } \\over {dt}} = \\alpha \\widehat i + \\beta \\widehat j$$ = constant</p>\n<p>$$ \\Rightarrow \\overrightarrow p $$ is constant (conserved)</p>\n<p>Now, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2} + {\\beta ^2}} $$ = constant</p>\n<p>Therefore, $$K = {1 \\over 2}m{v^2}$$ is constant (conserved)</p>\n<p>Now, $$\\overrightarrow a  = {{d\\overrightarrow v } \\over {dt}} = 0 \\Rightarrow \\overrightarrow F  = m\\overrightarrow a  = 0$$</p>\n<p>Thus, $$F = \\nabla U \\Rightarrow U$$ is constant (conserved)</p>\n<p>Now, $$E = U + K \\Rightarrow E$$ is constant, since U and K are constant</p>\n<p>Now, $$\\overrightarrow L  = m(\\overrightarrow r  \\times \\overrightarrow v ) = 0 \\Rightarrow \\overrightarrow L $$ is constant (conserved)</p>\n<p>Thus, the correct mapping is $$P \\to 1,2,3,4,5$$.</p>\n<p>For Q : $$\\overrightarrow r (t) = \\alpha \\cos \\omega t\\,\\widehat i + \\beta \\sin \\omega t\\,\\widehat j$$</p>\n<p>$$ \\Rightarrow v = {{d\\overrightarrow r } \\over {dt}} =  - \\alpha \\omega \\sin \\omega t\\,\\widehat i + \\beta \\omega \\cos \\omega t\\,\\widehat j$$</p>\n<p>So v is not a constant $$ \\Rightarrow \\overrightarrow p $$ is not conserved for the path.</p>\n<p>Now, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2}{\\omega ^2}{{\\sin }^2}\\omega t + {\\beta ^2}{\\omega ^2}\\sin \\omega t} $$ which is not constant. Therefore,</p>\n<p>$$K = {1 \\over 2}m{v^2}$$ is not constant (not conserved)</p>\n<p>Now, $$\\overrightarrow a  = {{d\\overrightarrow v } \\over {dt}} =  - \\alpha {\\omega ^2}\\cos \\omega t\\,\\widehat i + \\beta {\\omega ^2}\\sin \\omega t\\,\\widehat j$$</p>\n<p>$$ \\Rightarrow \\overrightarrow a $$ is not constant</p>\n<p>$$ \\Rightarrow \\overrightarrow F $$ is not constant</p>\n<p>$$ \\Rightarrow \\overrightarrow U $$ is not constant (not conserved)</p>\n<p>E = U + K is constant (conserved)</p>\n<p>Now, $$\\overrightarrow L  = m(\\overrightarrow r  \\times \\overrightarrow v ) = m\\omega \\alpha \\beta \\widehat k$$</p>\n<p>$$ \\Rightarrow \\overrightarrow L $$ is constant (conserved)</p>\n<p>Thus, the correct mapping is $$Q \\to 2,5$$.</p>\n<p>For R : $$\\overrightarrow r (t) = \\alpha (\\cos \\omega t\\,\\widehat i + \\sin \\omega t\\,\\widehat j)$$</p>\n<p>$$\\overrightarrow v  = {{d\\overrightarrow r } \\over {dt}} = \\alpha \\omega ( - \\sin \\omega t\\,\\widehat i + \\cos \\omega t\\,\\widehat j)$$</p>\n<p>$$ \\Rightarrow \\overrightarrow v $$ is not a constant</p>\n<p>$$ \\Rightarrow \\overrightarrow p $$ is not a constant (not conserved)</p>\n<p>Now, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2}{\\omega ^2}({{\\sin }^2}\\omega t + {{\\cos }^2}\\omega t)}  = \\alpha \\omega $$</p>\n<p>$$ \\Rightarrow \\left| {\\overrightarrow v } \\right|$$ is constant</p>\n<p>$$ \\Rightarrow K = {1 \\over 2}m{v^2}$$ is a constant (conserved)</p>\n<p>Now, $$\\overrightarrow a  = {{dv} \\over {dt}} = \\alpha {\\omega ^2}( - \\sin \\omega t\\,\\widehat i - \\cos \\omega t\\,\\widehat j)$$</p>\n<p>$$ \\Rightarrow \\overrightarrow a $$ is not constant</p>\n<p>Since $$  E = U + K$$ is constant (conserved)</p>\n<p>$$\\Rightarrow U$$ is constant (conserved)</p>\n<p>Now, $$\\overrightarrow L  = m(\\overrightarrow r  \\times \\overrightarrow v ) = m\\omega {\\alpha ^2}\\widehat k$$</p>\n<p>$$ \\Rightarrow \\overrightarrow L $$ is constant (conserved)</p>\n<p>Thus, the correct mapping is $$R \\to 2,3,4,5.$$</p>\n<p>For S : $$\\overrightarrow r (t) = \\alpha t\\,\\widehat i + {\\beta  \\over 2}{t^2}\\,\\widehat j$$</p>\n<p>$$\\overrightarrow v  = {{d\\overrightarrow r } \\over {dt}} = \\alpha \\widehat i + \\beta t\\,\\widehat j$$</p>\n<p>$$ \\Rightarrow \\overrightarrow v $$ is not conserved</p>\n<p>$$ \\Rightarrow \\overrightarrow p $$ is not conserved</p>\n<p>Now, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2} + {\\beta ^2}\\,{t^2}} $$</p>\n<p>$$ \\Rightarrow \\left| {\\overrightarrow v } \\right|$$ is not conserved</p>\n<p>$$ \\Rightarrow K = {1 \\over 2}m{v^2}$$ is not conserved</p>\n<p>$$\\overrightarrow a  = {{d\\overrightarrow v } \\over {dt}} = \\beta \\widehat j$$</p>\n<p>$$ \\Rightarrow E = U + K$$ is conserved</p>\n<p>But, U is not conserved.</p>\n<p>Now, $$\\overrightarrow L  = m(\\overrightarrow r  \\times \\overrightarrow v ) = {1 \\over 2}\\alpha \\beta {t^2}\\widehat k$$</p>\n<p>$$ \\Rightarrow \\overrightarrow L $$ is not conserved.</p>\n<p>Thus, the correct mapping is $$S \\to 5$$.</p>\n<p>Therefore, option (A) is correct.</p>"
+        },
+        "hi": {
+          "content": "नीचे दी गई सूची-$${\\rm I}$$ में कण के चार अलग-अलग पथ समय के फलनों के रूप में दिए गए हैं। इन फलनों में, $$\\alpha $$ और $$\\beta $$ उचित आयामों के धनात्मक नियतांक हैं और $$\\alpha  \\ne \\beta $$  प्रत्येक मामले में, कण पर लगने वाला बल या तो शून्य होता है या परिरक्षित होता है। सूची-$${\\rm I}{\\rm I}$$ में, कण की पाँच भौतिक मात्राओं का उल्लेख किया गया है। $$\\overrightarrow p $$ रैखिक संवेग है, $$\\overrightarrow L $$ मूल बिंदु के बारे में कोणीय संवेग है, $$K$$ गतिज ऊर्जा है, $$U$$ गतिज ऊर्जा है और $$E$$ कुल ऊर्जा है। सूची-$${\\rm I}$$ में प्रत्येक पथ का मिलान सूची-$${\\rm II}$$ की उन मात्राओं से करें, जो उस पथ के लिए स्थिर रहती हैं।\n<br><br><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}\n.tg .tg-pjk9{font-size:22px;text-align:left}\n.tg .tg-wrg0{font-size:22px;text-align:center;vertical-align:top}\n.tg .tg-wv9z{font-size:22px;text-align:center}\n.tg .tg-de48{font-weight:bold;font-size:22px;text-align:center}\n</style>\n<table class=\"tg\">\n  <tbody><tr>\n    <th class=\"tg-de48\" colspan=\"2\">सूची - I </th>\n    <th class=\"tg-de48\" colspan=\"2\">सूची - II</th>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">P.</td>\n    <td class=\"tg-pjk9\">$$\\overrightarrow r $$(t)=$$\\alpha $$ $$t\\,\\widehat i + \\beta t\\widehat j$$ </td>\n    <td class=\"tg-de48\">1.</td>\n    <td class=\"tg-wv9z\">$$\\overrightarrow p $$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">Q.</td>\n    <td class=\"tg-pjk9\">$$\\overrightarrow r \\left( t \\right) = \\alpha \\cos \\,\\omega t\\,\\widehat i + \\beta \\sin \\omega t\\,\\widehat j$$  </td>\n    <td class=\"tg-de48\">2.</td>\n    <td class=\"tg-wv9z\">$$\\overrightarrow L $$</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">R.</td>\n    <td class=\"tg-pjk9\">$$\\overrightarrow r \\left( t \\right) = \\alpha \\left( {\\cos \\omega t\\,\\widehat i + \\sin \\omega t\\widehat j} \\right)$$ </td>\n    <td class=\"tg-de48\">3.</td>\n    <td class=\"tg-wv9z\">K</td>\n  </tr>\n  <tr>\n    <td class=\"tg-de48\">S.</td>\n    <td class=\"tg-pjk9\">$$\\overrightarrow r \\left( t \\right) = \\alpha t\\,\\widehat i + {\\beta  \\over 2}{t^2}\\widehat j$$ </td>\n    <td class=\"tg-de48\">4.</td>\n    <td class=\"tg-wv9z\">U</td>\n  </tr>\n  <tr>\n    <td class=\"tg-wrg0\"></td>\n    <td class=\"tg-wrg0\"></td>\n    <td class=\"tg-wrg0\">5.</td>\n    <td class=\"tg-wrg0\">E</td>\n  </tr>\n</tbody></table>  ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$P \\to 1,2,3,4,5;\\,Q \\to 2,5;R \\to 2,3,4,5;S \\to 5$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$P \\to 1,2,3,4,5;{\\mkern 1mu} Q \\to 3,5;R \\to 2,3,4,5;S \\to 2,5$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$P \\to 2,3,4;{\\mkern 1mu} Q \\to 5;R \\to 1,2,4;S \\to 2,5$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$P \\to 1,2,3,4,5;{\\mkern 1mu} Q \\to 2,5;R \\to 2,3,4,5;S \\to 2,5$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>एक कण का रैखिक संवेग $$\\overrightarrow p $$ संरक्षित रहता है यदि उस पर बल शून्य है अर्थात्, $$\\overrightarrow F  = m\\overrightarrow a  = \\overrightarrow 0 $$। यदि $$\\overrightarrow p $$ संरक्षित है तो गतिज ऊर्जा $$K = {p^2}/2m$$ भी संरक्षित है। एक कण का कोणीय संवेग $$\\overrightarrow L $$ संरक्षित रहता है यदि उस पर बल आघूर्ण शून्य है अर्थात्, $$\\overrightarrow \\tau   = \\overrightarrow r  \\times \\overrightarrow F  = \\overrightarrow 0 $$। संरक्षी बलों के लिए कुल ऊर्जा E संरक्षित है।</p>\n<p>P के लिए : $$\\overrightarrow r (t) = \\alpha t\\widehat i + \\beta t\\widehat j$$</p>\n<p>$$\\overrightarrow v  = {{d\\overrightarrow r } \\over {dt}} = \\alpha \\widehat i + \\beta \\widehat j$$ = नियत</p>\n<p>$$ \\Rightarrow \\overrightarrow p $$ नियत है (संरक्षित)</p>\n<p>अब, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2} + {\\beta ^2}} $$ = नियत</p>\n<p>इसलिए, $$K = {1 \\over 2}m{v^2}$$ नियत है (संरक्षित)</p>\n<p>अब, $$\\overrightarrow a  = {{d\\overrightarrow v } \\over {dt}} = 0 \\Rightarrow \\overrightarrow F  = m\\overrightarrow a  = 0$$</p>\n<p>इस प्रकार, $$F = \\nabla U \\Rightarrow U$$ नियत है (संरक्षित)</p>\n<p>अब, $$E = U + K \\Rightarrow E$$ नियत है, क्योंकि U और K नियत हैं</p>\n<p>अब, $$\\overrightarrow L  = m(\\overrightarrow r  \\times \\overrightarrow v ) = 0 \\Rightarrow \\overrightarrow L $$ नियत है (संरक्षित)</p>\n<p>इस प्रकार, सही मिलान है $$P \\to 1,2,3,4,5$$।</p>\n<p>Q के लिए : $$\\overrightarrow r (t) = \\alpha \\cos \\omega t\\,\\widehat i + \\beta \\sin \\omega t\\,\\widehat j$$</p>\n<p>$$ \\Rightarrow v = {{d\\overrightarrow r } \\over {dt}} =  - \\alpha \\omega \\sin \\omega t\\,\\widehat i + \\beta \\omega \\cos \\omega t\\,\\widehat j$$</p>\n<p>अतः v नियत नहीं है $$ \\Rightarrow \\overrightarrow p $$ पथ के लिए संरक्षित नहीं है।</p>\n<p>अब, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2}{\\omega ^2}{{\\sin }^2}\\omega t + {\\beta ^2}{\\omega ^2}\\sin \\omega t} $$ जो नियत नहीं है। इसलिए,</p>\n<p>$$K = {1 \\over 2}m{v^2}$$ नियत नहीं है (संरक्षित नहीं है)</p>\n<p>अब, $$\\overrightarrow a  = {{d\\overrightarrow v } \\over {dt}} =  - \\alpha {\\omega ^2}\\cos \\omega t\\,\\widehat i + \\beta {\\omega ^2}\\sin \\omega t\\,\\widehat j$$</p>\n<p>$$ \\Rightarrow \\overrightarrow a $$ नियत नहीं है</p>\n<p>$$ \\Rightarrow \\overrightarrow F $$ नियत नहीं है</p>\n<p>$$ \\Rightarrow \\overrightarrow U $$ नियत नहीं है (संरक्षित नहीं है)</p>\n<p>E = U + K नियत है (संरक्षित)</p>\n<p>अब, $$\\overrightarrow L  = m(\\overrightarrow r  \\times \\overrightarrow v ) = m\\omega \\alpha \\beta \\widehat k$$</p>\n<p>$$ \\Rightarrow \\overrightarrow L $$ नियत है (संरक्षित)</p>\n<p>इस प्रकार, सही मिलान है $$Q \\to 2,5$$।</p>\n<p>R के लिए : $$\\overrightarrow r (t) = \\alpha (\\cos \\omega t\\,\\widehat i + \\sin \\omega t\\,\\widehat j)$$</p>\n<p>$$\\overrightarrow v  = {{d\\overrightarrow r } \\over {dt}} = \\alpha \\omega ( - \\sin \\omega t\\,\\widehat i + \\cos \\omega t\\,\\widehat j)$$</p>\n<p>$$ \\Rightarrow \\overrightarrow v $$ नियत नहीं है</p>\n<p>$$ \\Rightarrow \\overrightarrow p $$ नियत नहीं है (संरक्षित नहीं है)</p>\n<p>अब, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2}{\\omega ^2}({{\\sin }^2}\\omega t + {{\\cos }^2}\\omega t)}  = \\alpha \\omega $$</p>\n<p>$$ \\Rightarrow \\left| {\\overrightarrow v } \\right|$$ नियत है</p>\n<p>$$ \\Rightarrow K = {1 \\over 2}m{v^2}$$ नियत है (संरक्षित)</p>\n<p>अब, $$\\overrightarrow a  = {{dv} \\over {dt}} = \\alpha {\\omega ^2}( - \\sin \\omega t\\,\\widehat i - \\cos \\omega t\\,\\widehat j)$$</p>\n<p>$$ \\Rightarrow \\overrightarrow a $$ नियत नहीं है</p>\n<p>चूंकि $$  E = U + K$$ नियत है (संरक्षित)</p>\n<p>$$\\Rightarrow U$$ नियत है (संरक्षित)</p>\n<p>अब, $$\\overrightarrow L  = m(\\overrightarrow r  \\times \\overrightarrow v ) = m\\omega {\\alpha ^2}\\widehat k$$</p>\n<p>$$ \\Rightarrow \\overrightarrow L $$ नियत है (संरक्षित)</p>\n<p>इस प्रकार, सही मिलान है $$R \\to 2,3,4,5.$$</p>\n<p>S के लिए : $$\\overrightarrow r (t) = \\alpha t\\,\\widehat i + {\\beta  \\over 2}{t^2}\\,\\widehat j$$</p>\n<p>$$\\overrightarrow v  = {{d\\overrightarrow r } \\over {dt}} = \\alpha \\widehat i + \\beta t\\,\\widehat j$$</p>\n<p>$$ \\Rightarrow \\overrightarrow v $$ संरक्षित नहीं है</p>\n<p>$$ \\Rightarrow \\overrightarrow p $$ संरक्षित नहीं है</p>\n<p>अब, $$\\left| {\\overrightarrow v } \\right| = \\sqrt {{\\alpha ^2} + {\\beta ^2}\\,{t^2}} $$</p>\n<p>$$ \\Rightarrow \\left| {\\overrightarrow v } \\right|$$ संरक्षित नहीं है</p>\n<p>$$ \\Rightarrow K = {1 \\over 2}m{v^2}$$ संरक्षित नहीं है</p>\n<p>$$\\overrightarrow a  = {{d\\overrightarrow v } \\over {dt}} = \\beta \\widehat j$$</p>\n<p>$$ \\Rightarrow E = U + K$$ संरक्षित है</p>\n<p>परन्तु, U संरक्षित नहीं है।</p>\n<p>अब, $$\\overrightarrow L  = m(\\overrightarrow r  \\times \\overrightarrow v ) = {1 \\over 2}\\alpha \\beta {t^2}\\widehat k$$</p>\n<p>$$ \\Rightarrow \\overrightarrow L $$ संरक्षित नहीं है।</p>\n<p>इस प्रकार, सही मिलान है $$S \\to 5$$।</p>\n<p>इसलिए, विकल्प (A) सही है।</p>",
+          "direction": null,
+          "comprehension": null
+        }
+      },
+      "permalink": "in-the-list-rm-i-below-four-different-paths-of-a-pa-2018-marks-3-ou95ixhuep1mbago.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "In the List-$${\\rm I}$$  below, four different paths of a particle are given as functions of time. In these functions, $$\\alpha $$ and $$\\beta $$ are positive constants of appropriate dimensions and  $$\\alpha  \\ne \\beta $$  In each case, th..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "नीचे दी गई सूची-$${\\rm I}$$ में कण के चार अलग-अलग पथ समय के फलनों के रूप में दिए गए हैं। इन फलनों में, $$\\alpha $$ और $$\\beta $$ उचित आयामों के धनात्मक नियतांक हैं और $$\\alpha  \\ne \\beta $$  प्रत्येक मामले में, कण पर लगने वाला बल या तो शून्..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "q3x4rzl2q51vczuhv7lv",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle of mass $$m$$ is initially at rest at the origin. It is subjected to a force and starts moving along the $$x$$-axis. Its kinetic energy $$K$$ changes with time as $$dK/dt = \\gamma t,$$ where $$\\gamma $$ is a positive constant of appropriate dimensions. Which of a positive constant of appropriate dimensions. Which of the following statement is (are) true? ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The force applied on the particle is constant "
+            },
+            {
+              "identifier": "B",
+              "content": "The speed of the particle is proportional to time "
+            },
+            {
+              "identifier": "C",
+              "content": "The distance of the particle from the origin increases linearly with time "
+            },
+            {
+              "identifier": "D",
+              "content": "The force is conservative"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Given, a particle at rest is subjected to force. Motion of particle is along x-axis.</p>\n<p>Change in kinetic energy is given as</p>\n<p>$$K = {{dK} \\over {dt}} = \\gamma t$$ ..... (1)</p>\n<p>where $$\\gamma$$ is positive constant.</p>\n<p>We know that kinetic energy is given by</p>\n<p>$$K = {1 \\over 2}m{v^2}$$...... (2)</p>\n<p>Now, differentiate Eq. (2), we get</p>\n<p>$${{dK} \\over {dt}} = {2 \\over 2}mv{{dv} \\over {dt}} = mv{{dv} \\over {dt}}$$</p>\n<p>$${{dK} \\over {dt}} = mv{{dv} \\over {dt}}$$ ....... (3)</p>\n<p>From Eqs. (1) and (3), we get</p>\n<p>$$mv{{dv} \\over {dt}} = \\gamma t$$</p>\n<p>$$ \\Rightarrow mv\\,dv = \\gamma t\\,dt$$ ...... (4)</p>\n<p>Integrating Eq. (4), we get</p>\n<p>$$\\int {mv\\,dv = \\int {\\gamma t\\,dt \\Rightarrow m\\int {v\\,dv = \\gamma \\int {t\\,dt} } } } $$</p>\n<p>$${{m{v^2}} \\over 2} = {{\\gamma {t^2}} \\over 2} \\Rightarrow m{v^2} = \\gamma {t^2}$$</p>\n<p>$$ \\Rightarrow {v^2} = {\\gamma  \\over m}{t^2} \\Rightarrow v = \\sqrt {{\\gamma  \\over m}} t$$</p>\n<p>$$ \\Rightarrow v \\propto t$$</p>\n<p>Since, $$\\gamma$$ and m are constant so the speed of particle is proportional to time therefore option (B) is true.</p>\n<p>Also, $$a = {{dv} \\over {dt}} \\Rightarrow a = \\sqrt {{\\gamma  \\over m}} $$ = constant</p>\n<p>F = ma = constant</p>\n<p>So, option (A) is true.</p>\n<p>Also, $$v = {{dr} \\over {dt}}$$</p>\n<p>$$ \\Rightarrow {{dr} \\over {dt}} = \\sqrt {{\\gamma  \\over m}} t$$</p>\n<p>$$ \\Rightarrow dr = \\sqrt {{\\gamma  \\over m}} t\\,dt$$ ...... (5)</p>\n<p>Integrating Eq. (5), we get</p>\n<p>$$\\int {dr = \\int {\\sqrt {{\\gamma  \\over m}} t\\,dt \\Rightarrow r = \\sqrt {{\\gamma  \\over m}} {{{t^2}} \\over 2}} } $$</p>\n<p>$$ \\Rightarrow r \\propto {t^2}$$</p>\n<p>So, the distance of the particle from the origin increases at t<sup>2</sup> so option (C) is false.</p>\n<p>A force is conservative if work done by the force in any closed loop is zero (i.e., work done is independent of the path). If force is constant (both magnitude and direction) then work done by the force in a closed loop is given by</p>\n<p>$$W = \\oint {\\overrightarrow F \\,.\\,d\\overrightarrow r  = \\overrightarrow F \\,.\\,\\oint {d\\overrightarrow r  = \\overrightarrow F \\,.\\,\\overrightarrow 0 }  = 0} $$.</p>\n<p>Note that we are able to take $$\\overrightarrow F $$ out of integral sign because $$\\overrightarrow F $$ is constant and $$\\oint {d\\overrightarrow r } $$ is zero because integration is carried out over a closed loop. The argument 'since force is constant, hence it is conservative' should be understood properly. The kinetic friction force and viscous drag force (when body moves with a terminal speed) are both constant (in magnitude) but are non-conservative. These forces cannot start the particle motion from the rest. The situation given in this problem is similar to a particle dropped from rest under the gravitational force. This force is constant, can initiate the motion given in the problem and is conservative.</p>"
+        },
+        "hi": {
+          "content": "द्रव्यमान $$m$$ का एक कण प्रारंभ में मूल बिंदु पर विश्राम की अवस्था में होता है। इस पर एक बल लगाया जाता है और यह $$x$$-अक्ष के साथ चलना शुरू करता है। इसका गतिज ऊर्जा $$K$$ समय के साथ इस प्रकार बदलती है $$dK/dt = \\gamma t,$$ जहां $$\\gamma $$ उपयुक्त आयामों का एक सकारात्मक स्थिरांक है। निम्नलिखित में से कौन सा कथन सत्य है(हैं)?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "कण पर लगाया गया बल स्थिर है"
+            },
+            {
+              "identifier": "B",
+              "content": "कण की गति समय के अनुक्रमानुपाती है"
+            },
+            {
+              "identifier": "C",
+              "content": "कण की दूरी मूल बिंदु से समय के साथ रैखिक रूप से बढ़ती है"
+            },
+            {
+              "identifier": "D",
+              "content": "बल रूढ़िवादी है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>दिया गया है, एक कण विरामावस्था में है जिस पर बल आरोपित किया जाता है। कण की गति x-अक्ष के अनुदिश है।</p>\n<p>गतिज ऊर्जा में परिवर्तन निम्न प्रकार दिया गया है</p>\n<p>$$K = {{dK} \\over {dt}} = \\gamma t$$ ..... (1)</p>\n<p>जहाँ $$\\gamma$$ एक धनात्मक नियतांक है।</p>\n<p>हम जानते हैं कि गतिज ऊर्जा निम्न द्वारा दी जाती है</p>\n<p>$$K = {1 \\over 2}m{v^2}$$...... (2)</p>\n<p>अब, समीकरण (2) का अवकलन करने पर, हमें प्राप्त होता है</p>\n<p>$${{dK} \\over {dt}} = {2 \\over 2}mv{{dv} \\over {dt}} = mv{{dv} \\over {dt}}$$</p>\n<p>$${{dK} \\over {dt}} = mv{{dv} \\over {dt}}$$ ....... (3)</p>\n<p>समीकरण (1) और (3) से, हमें प्राप्त होता है</p>\n<p>$$mv{{dv} \\over {dt}} = \\gamma t$$</p>\n<p>$$ \\Rightarrow mv\\,dv = \\gamma t\\,dt$$ ...... (4)</p>\n<p>समीकरण (4) का समाकलन करने पर, हमें प्राप्त होता है</p>\n<p>$$\\int {mv\\,dv = \\int {\\gamma t\\,dt \\Rightarrow m\\int {v\\,dv = \\gamma \\int {t\\,dt} } } } $$</p>\n<p>$${{m{v^2}} \\over 2} = {{\\gamma {t^2}} \\over 2} \\Rightarrow m{v^2} = \\gamma {t^2}$$</p>\n<p>$$ \\Rightarrow {v^2} = {\\gamma  \\over m}{t^2} \\Rightarrow v = \\sqrt {{\\gamma  \\over m}} t$$</p>\n<p>$$ \\Rightarrow v \\propto t$$</p>\n<p>चूँकि, $$\\gamma$$ और m नियतांक हैं, इसलिए कण की चाल समय के समानुपाती है, अतः विकल्प (B) सत्य है।</p>\n<p>साथ ही, $$a = {{dv} \\over {dt}} \\Rightarrow a = \\sqrt {{\\gamma  \\over m}} $$ = नियतांक</p>\n<p>F = ma = नियतांक</p>\n<p>अतः, विकल्प (A) सत्य है।</p>\n<p>साथ ही, $$v = {{dr} \\over {dt}}$$</p>\n<p>$$ \\Rightarrow {{dr} \\over {dt}} = \\sqrt {{\\gamma  \\over m}} t$$</p>\n<p>$$ \\Rightarrow dr = \\sqrt {{\\gamma  \\over m}} t\\,dt$$ ...... (5)</p>\n<p>समीकरण (5) का समाकलन करने पर, हमें प्राप्त होता है</p>\n<p>$$\\int {dr = \\int {\\sqrt {{\\gamma  \\over m}} t\\,dt \\Rightarrow r = \\sqrt {{\\gamma  \\over m}} {{{t^2}} \\over 2}} } $$</p>\n<p>$$ \\Rightarrow r \\propto {t^2}$$</p>\n<p>अतः, मूल बिंदु से कण की दूरी t<sup>2</sup> के अनुसार बढ़ती है, इसलिए विकल्प (C) असत्य है।</p>\n<p>एक बल संरक्षी होता है यदि किसी बंद पाश में बल द्वारा किया गया कार्य शून्य हो (अर्थात्, किया गया कार्य पथ से स्वतंत्र हो)। यदि बल नियत है (परिमाण और दिशा दोनों में) तो बंद पाश में बल द्वारा किया गया कार्य निम्न द्वारा दिया जाता है</p>\n<p>$$W = \\oint {\\overrightarrow F \\,.\\,d\\overrightarrow r  = \\overrightarrow F \\,.\\,\\oint {d\\overrightarrow r  = \\overrightarrow F \\,.\\,\\overrightarrow 0 }  = 0} $$।</p>\n<p>ध्यान दें कि हम $$\\overrightarrow F $$ को समाकलन चिह्न से बाहर ले जा सकते हैं क्योंकि $$\\overrightarrow F $$ नियत है और $$\\oint {d\\overrightarrow r } $$ शून्य है क्योंकि समाकलन बंद पाश पर किया जाता है। 'चूँकि बल नियत है, इसलिए यह संरक्षी है' इस तर्क को सही ढंग से समझा जाना चाहिए। गतिज घर्षण बल और श्यान प्रतिरोध बल (जब पिंड सीमान्त चाल से गति करता है) दोनों (परिमाण में) नियत हैं लेकिन असंरक्षी हैं। ये बल विरामावस्था से कण की गति प्रारंभ नहीं कर सकते। इस समस्या में दी गई स्थिति गुरुत्वीय बल के अंतर्गत विरामावस्था से छोड़े गए कण के समान है। यह बल नियत है, समस्या में दी गई गति को प्रारंभ कर सकता है और संरक्षी है।</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-particle-of-mass-m-is-initially-at-rest-at-the-origin-2018-marks-4-fr12ek01v2oazrd0.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A particle of mass $$m$$ is initially at rest at the origin. It is subjected to a force and starts moving along the $$x$$-axis. Its kinetic energy $$K$$ changes with time as $$dK/dt = \\gamma t,$$ where $$\\gamma $$ is a positive constant of ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "द्रव्यमान $$m$$ का एक कण प्रारंभ में मूल बिंदु पर विश्राम की अवस्था में होता है। इस पर एक बल लगाया जाता है और यह $$x$$-अक्ष के साथ चलना शुरू करता है। इसका गतिज ऊर्जा $$K$$ समय के साथ इस प्रकार बदलती है $$dK/dt = \\gamma t,$$ जहां $$\\gamma $$..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "axuwnjse4aa97rv46qjo",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A spring-block system is resting on a frictionless floor as shown in the figure. The spring constant is $$2.0\\,N{m^{ - 1}}$$ and the mass of the block is $$2.0$$ $$kg.$$ Ignore the mass of the spring. Initially the spring is an unstretched condition. Another block of mass $$1.0$$ $$kg$$ moving with a speed of $$2.0$$ $$m{s^{ - 1}}$$ collides elastically with the first block. The collision is  such that the $$2.0$$ $$kg$$ block does not hit the wall. The distance,  in metres, between the two blocks when the spring returns to its unstretched position for the first time after the collision is __________. \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/YYZCBSsKqzjdRDmVk/D2syh5J9SRh4bep1sO4pYm4qjPLa8/4ffJlWfmXTRr55aPhyQlKn/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Work Power &amp; Energy Question 17 English\"> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.09",
+          "explanation": "<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kyg0p41l/6e7eb5ab-c42c-4fcd-a90b-b38ec6421caf/73f15380-761c-11ec-860d-b35b50d4eea2/file-1kyg0p41m.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kyg0p41l/6e7eb5ab-c42c-4fcd-a90b-b38ec6421caf/73f15380-761c-11ec-860d-b35b50d4eea2/file-1kyg0p41m.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Work Power &amp; Energy Question 17 English Explanation\"> </p>\n<p>After collision the 2.0 kg block will perform simple harmonic oscillation with time period</p>\n<p>$$T = 2\\pi \\sqrt {{m \\over k}} $$</p>\n<p>Given m = 2.0 kg and k = 2.0 N m<sup>$$-$$1</sup>, we have</p>\n<p>T = 2$$\\pi$$</p>\n<p>Thus, the block returns to its original position in time</p>\n<p>$$t = {T \\over 2}$$ = $$\\pi$$ s</p>\n<p>That is, t = 3.14 s</p>\n<p>Now, if v<sub>1</sub> and v<sub>2</sub> are velocities of 1.0 kg block and 2.0 kg block, respectively, before collision; v'<sub>1</sub> and v'<sub>2</sub> are velocities of 1.0 kg block and 2.0 block, respectively, after collision. So, by conservation of momentum</p>\n<p>m<sub>1</sub>v<sub>1</sub> + m<sub>2</sub>v<sub>2</sub> = m<sub>1</sub>v'<sub>1</sub> + m<sub>2</sub>v'<sub>2</sub></p>\n<p>Here, m<sub>1</sub> = 1.0 kg, v<sub>1</sub> is initial speed of 1.0 kg block = 2.0 m s<sup>$$-$$1</sup>, m<sub>2</sub> = 2.0 kg, v<sub>2</sub> is initial speed of 2.0 kg block = 0.0 m s<sup>$$-$$1</sup>, v'<sub>1</sub> is final speed of 1.0 kg block after collision and v'<sub>2</sub> is final speed of 2.0 kg block after collision. Then, 1.0 kg $$\\times$$ 2.0 m/s + 2.0 kg $$\\times$$ 0 m/s = 1.0 v'<sub>1</sub> + 2.0 v'<sub>2</sub></p>\n<p>v'<sub>1</sub> + 2v'<sub>2</sub> = 2 ..... (1)</p>\n<p>Also, using definition of coefficient of restitution</p>\n<p>v'<sub>2</sub> $$-$$ v'<sub>1</sub> = $$\\varepsilon $$(v<sub>1</sub> $$-$$ v<sub>2</sub>)</p>\n<p>Since collision is elastic, So $$\\varepsilon $$ = 1</p>\n<p>$$\\Rightarrow$$ v'<sub>2</sub> $$-$$ v'<sub>1</sub> = v<sub>1</sub> $$-$$ v<sub>2</sub></p>\n<p>$$\\Rightarrow$$ v'<sub>2</sub> $$-$$ v'<sub>1</sub> = 2 $$-$$ 0</p>\n<p>$$\\Rightarrow$$ v'<sub>2</sub> $$-$$ v'<sub>1</sub> = 2 ...... (2)</p>\n<p>From Eqs. (1) and (2), we get</p>\n<p>$$v{'_2} = {4 \\over 3}$$ m s<sup>$$-$$1</sup> and $$v{'_1} = {-2 \\over 3}$$ m s<sup>$$-$$1</sup></p>\n<p>Therefore, distance between the blocks is given as</p>\n<p>$$s = v{'_1} \\times t = {{ - 2} \\over 3} \\times 3.14 = 2.09$$ m </p>"
+        },
+        "hi": {
+          "content": "एक स्प्रिंग-ब्लॉक प्रणाली घर्षण रहित फर्श पर आराम कर रही है जैसा कि चित्र में दिखाया गया है। स्प्रिंग स्थिरांक $$2.0\\,N{m^{ - 1}}$$ और ब्लॉक का द्रव्यमान $$2.0$$ $$kg$$ है। स्प्रिंग के द्रव्यमान को नजरअंदाज करें। प्रारंभ में स्प्रिंग एक असंवर्धित स्थिति में है। $$1.0$$ $$kg$$ द्रव्यमान का एक और ब्लॉक $$2.0$$ $$m{s^{ - 1}}$$ की गति से पहले ब्लॉक से टकराता है। टक्कर ऐसी होती है कि $$2.0$$ $$kg$$ का ब्लॉक दीवार से नहीं टकराता। स्प्रिंग के पहली बार असंवर्धित स्थिति में वापस आने पर दो ब्लॉकों के बीच की दूरी, मीटरों में, __________ है। \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/YYZCBSsKqzjdRDmVk/D2syh5J9SRh4bep1sO4pYm4qjPLa8/4ffJlWfmXTRr55aPhyQlKn/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Work Power &amp; Energy Question 17 Hindi\"> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "2.09",
+          "explanation": "<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kyg0p41l/6e7eb5ab-c42c-4fcd-a90b-b38ec6421caf/73f15380-761c-11ec-860d-b35b50d4eea2/file-1kyg0p41m.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kyg0p41l/6e7eb5ab-c42c-4fcd-a90b-b38ec6421caf/73f15380-761c-11ec-860d-b35b50d4eea2/file-1kyg0p41m.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Work Power &amp; Energy Question 17 Hindi Explanation\"> </p>\n<p>टक्कर के बाद 2.0 kg का ब्लॉक सरल आवर्त गति करेगा जिसका आवर्तकाल</p>\n<p>$$T = 2\\pi \\sqrt {{m \\over k}} $$</p>\n<p>दिया गया है m = 2.0 kg और k = 2.0 N m<sup>$$-$$1</sup>, हमारे पास</p>\n<p>T = 2$$\\pi$$</p>\n<p>इस प्रकार, ब्लॉक समय में अपनी मूल स्थिति पर वापस आता है</p>\n<p>$$t = {T \\over 2}$$ = $$\\pi$$ s</p>\n<p>अर्थात्, t = 3.14 s</p>\n<p>अब, यदि v<sub>1</sub> और v<sub>2</sub> क्रमशः टक्कर से पहले 1.0 kg ब्लॉक और 2.0 kg ब्लॉक के वेग हैं; v'<sub>1</sub> और v'<sub>2</sub> क्रमशः टक्कर के बाद 1.0 kg ब्लॉक और 2.0 kg ब्लॉक के वेग हैं। तो, संवेग संरक्षण से</p>\n<p>m<sub>1</sub>v<sub>1</sub> + m<sub>2</sub>v<sub>2</sub> = m<sub>1</sub>v'<sub>1</sub> + m<sub>2</sub>v'<sub>2</sub></p>\n<p>यहाँ, m<sub>1</sub> = 1.0 kg, v<sub>1</sub> 1.0 kg ब्लॉक की प्रारंभिक चाल है = 2.0 m s<sup>$$-$$1</sup>, m<sub>2</sub> = 2.0 kg, v<sub>2</sub> 2.0 kg ब्लॉक की प्रारंभिक चाल है = 0.0 m s<sup>$$-$$1</sup>, v'<sub>1</sub> टक्कर के बाद 1.0 kg ब्लॉक की अंतिम चाल है और v'<sub>2</sub> टक्कर के बाद 2.0 kg ब्लॉक की अंतिम चाल है। तब, 1.0 kg $$\\times$$ 2.0 m/s + 2.0 kg $$\\times$$ 0 m/s = 1.0 v'<sub>1</sub> + 2.0 v'<sub>2</sub></p>\n<p>v'<sub>1</sub> + 2v'<sub>2</sub> = 2 ..... (1)</p>\n<p>साथ ही, प्रत्यास्थता गुणांक की परिभाषा का उपयोग करते हुए</p>\n<p>v'<sub>2</sub> $$-$$ v'<sub>1</sub> = $$\\varepsilon $$(v<sub>1</sub> $$-$$ v<sub>2</sub>)</p>\n<p>चूंकि टक्कर प्रत्यास्थ है, इसलिए $$\\varepsilon $$ = 1</p>\n<p>$$\\Rightarrow$$ v'<sub>2</sub> $$-$$ v'<sub>1</sub> = v<sub>1</sub> $$-$$ v<sub>2</sub></p>\n<p>$$\\Rightarrow$$ v'<sub>2</sub> $$-$$ v'<sub>1</sub> = 2 $$-$$ 0</p>\n<p>$$\\Rightarrow$$ v'<sub>2</sub> $$-$$ v'<sub>1</sub> = 2 ...... (2)</p>\n<p>समीकरण (1) और (2) से, हमें प्राप्त होता है</p>\n<p>$$v{'_2} = {4 \\over 3}$$ m s<sup>$$-$$1</sup> और $$v{'_1} = {-2 \\over 3}$$ m s<sup>$$-$$1</sup></p>\n<p>इसलिए, ब्लॉकों के बीच की दूरी इस प्रकार दी गई है</p>\n<p>$$s = v{'_1} \\times t = {{ - 2} \\over 3} \\times 3.14 = 2.09$$ m </p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-spring-block-system-is-resting-on-a-frictionless-floor-as-2018-marks-3-pq8r27vaaeq7gwu0.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A spring-block system is resting on a frictionless floor as shown in the figure. The spring constant is $$2.0\\,N{m^{ - 1}}$$ and the mass of the block is $$2.0$$ $$kg.$$ Ignore the mass of the spring. Initially the spring is an unstretched ..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "एक स्प्रिंग-ब्लॉक प्रणाली घर्षण रहित फर्श पर आराम कर रही है जैसा कि चित्र में दिखाया गया है। स्प्रिंग स्थिरांक $$2.0\\,N{m^{ - 1}}$$ और ब्लॉक का द्रव्यमान $$2.0$$ $$kg$$ है। स्प्रिंग के द्रव्यमान को नजरअंदाज करें। प्रारंभ में स्प्रिंग एक असं..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9o6it4ppmspqp0ufts5f",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2017,
+      "paperTitle": "JEE Advanced 2017 Paper 1 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A flat plate is moving normal to its plane through a gas under the reaction of a constant force $$F.$$ The gas is kept at a very low pressure. The speed of the plate $$v$$ is much less than the average speed u of the gas molecules. \n<br><br>Which of the following options is /are true? ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The pressure difference between the leading and trailing faces of the plate is proportional to uv"
+            },
+            {
+              "identifier": "B",
+              "content": "The resistive force experimenced by the plate is proportional to $$v$$"
+            },
+            {
+              "identifier": "C",
+              "content": "The plate will continue to move with constant non-zero acceleration, at all times "
+            },
+            {
+              "identifier": "D",
+              "content": "At a later time the external force $$F$$ balances the resistive force"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>It is given that the average speed of gas molecules is u; the speed of the plate is v; the force on the plate if F.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0kk7ai4/96d11d6d-39ff-4bd4-abc0-1fc7c938fc93/4c4e82c0-a034-11ec-9819-f5ef8e3b6498/file-1l0kk7ai5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0kk7ai4/96d11d6d-39ff-4bd4-abc0-1fc7c938fc93/4c4e82c0-a034-11ec-9819-f5ef8e3b6498/file-1l0kk7ai5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 1 Offline Physics - Work Power &amp; Energy Question 14 English Explanation 1\"></p>\n<p>$$\\bullet$$ Just before the collision : The gas molecules are approaching the leading and trailing faces of the plate with speed u.</p>\n<p>$$\\bullet$$ Just after the collision : The gas molecules bounce back with speed u<sub>1</sub> and u<sub>2</sub>.</p>\n<p>$$\\bullet$$ At trailing face</p>\n<p>The speed before collision is u $$-$$ v.</p>\n<p>The speed after collision is u<sub>2</sub> + v.</p>\n<p>From law of conservation of linear momentum, we have</p>\n<p>u<sub>2</sub> + v = u $$-$$ v</p>\n<p>That is,</p>\n<p>u<sub>2</sub> = u $$-$$ 2v ....... (1)</p>\n<p>and</p>\n<p>$$\\Delta$$u<sub>2</sub> = 2u $$-$$ 2v ....... (2)</p>\n<p>$$\\bullet$$ At leading face</p>\n<p>The speed before collision is u + v.</p>\n<p>The speed after collision is u<sub>1</sub> $$-$$ v.</p>\n<p>From law of conservation of linear momentum, we have</p>\n<p>u<sub>1</sub> $$-$$ v = u + v</p>\n<p>That is,</p>\n<p>u<sub>1</sub> = u + 2v ..... (3)</p>\n<p>and</p>\n<p>$$\\Delta$$u<sub>1</sub> = 2u + 2v ...... (4)</p>\n<p>Now, from Newton's second law of motion, we have</p>\n<p>$$F = {{dp} \\over {dt}}$$</p>\n<p>$$\\bullet$$ For leading face : $${F_1} = {{d{p_1}} \\over {dt}}$$.</p>\n<p>The volume swept by the plate is A(u + v). Therefore,</p>\n<p>$${F_1} = {{d{p_1}} \\over {dt}} = \\rho A(u + v)\\Delta {u_1}$$</p>\n<p>$${F_1} = \\rho A(u + v)(2u + 2v)$$ ....... (5)</p>\n<p>$$\\bullet$$ For trailing face : $${F_2} = {{d{p_2}} \\over {dt}}$$</p>\n<p>The volume swept by the plate is A(u $$-$$ v). Therefore,</p>\n<p>$${F_2} = {{d{p_2}} \\over {dt}} = \\rho A(u - v)\\Delta {u_2}$$</p>\n<p>$${F_2} = \\rho A(u - v)(2u - 2v)$$ ....... (6)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0kk8mus/b683aeb8-508c-4df9-bf65-798d83c8a584/71a84740-a034-11ec-9819-f5ef8e3b6498/file-1l0kk8mut.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0kk8mus/b683aeb8-508c-4df9-bf65-798d83c8a584/71a84740-a034-11ec-9819-f5ef8e3b6498/file-1l0kk8mut.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2017 Paper 1 Offline Physics - Work Power &amp; Energy Question 14 English Explanation 2\"></p>\n<p>The net force on the plate is</p>\n<p>$${F_{net}} = {F_1} - {F_2}$$</p>\n<p>$$ = \\rho A(u + v)(2u + 2v) - \\rho A(u - v)(2u - 2v)$$</p>\n<p>$$ = 2\\rho A(u + v)(u + v) - 2\\rho A(u - v)(u - v)$$</p>\n<p>$$ = 2\\rho A{(u + v)^2} - 2\\rho A{(u - v)^2}$$</p>\n<p>$$ = 2\\rho A[{(u + v)^2} - {(u - v)^2}]$$</p>\n<p>$$ = 2\\rho A[{u^2} + {v^2} + 2uv - ({u^2} + {v^2} - 2uv)]$$</p>\n<p>$$ = 2\\rho A({u^2} + {v^2} + 2uv - {u^2} - {v^2} + 2uv)$$</p>\n<p>$$ = 2\\rho A(4uv)$$</p>\n<p>$$ = 8\\rho Auv$$</p>\n<p>Therefore, the pressure difference is</p>\n<p>$${{{F_{net}}} \\over A} = {{8\\rho Auv} \\over A} = 8\\rho uv$$</p>\n<p>Thus, the pressure difference between the leading and trailing faces of the plate is proportional to uv. Hence, option (A) is correct.</p>\n<p>Now,</p>\n<p>$${F_{net}} = 8\\rho Auv$$</p>\n<p>The net resistive force is</p>\n<p>$$F - (8\\rho Au)v = {{mdv} \\over {dt}}$$</p>\n<p>where F is the constant force applied by the gas molecules on the plate.</p>\n<p>The resistive force experienced by the plate is proportional to v.</p>\n<p>Hence, option (B) is also correct.</p>\n<p>At a later time, the velocity v becomes sufficient and the external force $$F( = 8\\rho Auv)$$ balances the resistive force.</p>\n<p>Hence, option (D) is also correct.</p>"
+        },
+        "hi": {
+          "content": "एक सपाट प्लेट अपने विमान के लम्बवत दिशा में एक गैस के माध्यम से एक निश्चित बल $$F$$ के द्वारा कम दबाव पर चल रही है। प्लेट की गति $$v$$ गैस अणुओं की औसत गति u से बहुत कम है। \n<br><br>निम्नलिखित में कौन सा/से विकल्प सही है/हैं?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "प्लेट के अग्रणी और पिछलग्गू सतहों के बीच का दबाव अंतर uv के समानुपाती होता है"
+            },
+            {
+              "identifier": "B",
+              "content": "प्लेट द्वारा अनुभव किए गए प्रतिरोधी बल $$v$$ के समानुपाती है"
+            },
+            {
+              "identifier": "C",
+              "content": "प्लेट हर समय निरंतर गैर-शून्य त्वरण के साथ चलती रहेगी "
+            },
+            {
+              "identifier": "D",
+              "content": "एक बाद के समय में बाहरी बल $$F$$ प्रतिरोधी बल को संतुलित करेगा"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "a-flat-plate-is-moving-normal-to-its-plane-through-a-gas-und-2017-marks-4-khjarhvixxnhbgrh.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-1-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A flat plate is moving normal to its plane through a gas under the reaction of a constant force $$F.$$ The gas is kept at a very low pressure. The speed of the plate $$v$$ is much less than the average speed u of the gas molecules. \nWhich o..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "एक सपाट प्लेट अपने विमान के लम्बवत दिशा में एक गैस के माध्यम से एक निश्चित बल $$F$$ के द्वारा कम दबाव पर चल रही है। प्लेट की गति $$v$$ गैस अणुओं की औसत गति u से बहुत कम है। \nनिम्नलिखित में कौन सा/से विकल्प सही है/हैं?"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-1-offline"
+    },
+    {
+      "question_id": "2huz1vqhzmy3emqlalqd",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 8,
+      "negMarks": 4,
+      "paperId": "jee-advanced-2015-paper-1-offline",
+      "paperTitle": "JEE Advanced 2015 Paper 1 Offline",
+      "permalink": "pa-particle-of-unit-mass-is-moving-along-the-x-axis-under-jee-advanced-physics-work-power-and-energy-skuwmzfhkxlbvj1j",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A particle of unit mass is moving along the x-axis under the\ninfluence of a force and its total energy is conserved. Four\npossible forms of the potential energy of the particle are given\nin Column I (a and U<sub>0</sub>\n are constants). Match the potential\nenergies in Column I to the corresponding statement(s) in\nColumn II:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l139c1wo/56d63edf-a53c-422e-8374-149260cd39a2/b0a17280-aa7c-11ec-beee-7b7448e3f0ef/file-1l139c1wp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l139c1wo/56d63edf-a53c-422e-8374-149260cd39a2/b0a17280-aa7c-11ec-beee-7b7448e3f0ef/file-1l139c1wp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 1 Offline Physics - Work Power &amp; Energy Question 10 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(A)→(P), (Q), (R); (B)→(Q), (S); (C)→(P), (Q), (R), (S); (D)→(P), (R), (T)"
+            },
+            {
+              "identifier": "B",
+              "content": "(A)→(P), (Q), (R), (T); (B)→(Q), (S); (C)→(P), (Q), (R), (S); (D)→(P), (R), (T)"
+            },
+            {
+              "identifier": "C",
+              "content": "(A)→(P), (Q), (R), (T); (B)→(Q); (C)→(P), (Q), (R), (S); (D)→(P), (R), (T)"
+            },
+            {
+              "identifier": "D",
+              "content": "(A)→(P), (Q), (R), (T); (B)→(Q), (S); (C)→(P), (Q), (R), (S); (D)→(P), (R)"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "(A)→(P), (Q), (R), (T); (B)→(Q), (S); (C)→(P), (Q); (D)→(P), (R), (T)"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "energy",
+      "type": "mcq",
+      "year": 2015,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A particle of unit mass is moving along the x-axis under the\ninfluence of a force and its total energy is conserved. Four\npossible forms of the potential energy of the particle are given\nin Column I (a and U0\n are constants). Match the pote..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qof3n5rtxog8mm8uqp0j",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A tennis ball is dropped on a horizontal smooth surface. It bounces back to its original position after hitting the surface. The force on the ball during the collision is proportional to the length of compression of the ball. Which one of the following sketches describes the variation of its kinetic energy K with time t most appropriately? The figures are only illustrative and not to the scale.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img class=\"question-image\" src=\"https://gateclass.cdn.examgoal.net/GTHVNE47ANgzXpqX7/fENtzY0dsUWkV07kfzw8KEDjLrj8N/soRF173aL3JcycLabHCFlP/uploadfile.jpg\" loading=\"lazy\" alt=\"JEE Advanced 2014 Paper 2 Offline Physics - Work Power &amp; Energy Question 29 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img class=\"question-image\" src=\"https://gateclass.cdn.examgoal.net/5B90U4XaTfUMlm09P/chsy0hGnnYE8kqcUYPMve0ifvveBk/2rD4TrolGfcFHpCPDzXnDX/uploadfile.jpg\" loading=\"lazy\" alt=\"JEE Advanced 2014 Paper 2 Offline Physics - Work Power &amp; Energy Question 29 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img class=\"question-image\" src=\"https://gateclass.cdn.examgoal.net/7FgYsJEXneWufxJGs/Qso2es97NInRtoKx5mLyeRRJuy3mp/No4O8rT8ONHRcuqOdOhiAz/uploadfile.jpg\" loading=\"lazy\" alt=\"JEE Advanced 2014 Paper 2 Offline Physics - Work Power &amp; Energy Question 29 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/vT5PeDIte9InZnlpi/gzJR1kDIBywH08RGqANmUX6EuIAyY/XHkeRzRiA7i1ocLUrr6GCS/uploadfile.jpg\" loading=\"lazy\" alt=\"JEE Advanced 2014 Paper 2 Offline Physics - Work Power &amp; Energy Question 29 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>As tennis ball is dropped, so its initial velocity, u = 0</p>\n<p>Suppose its velocity at any time t = v</p>\n<p>Acceleration due to gravity = g</p>\n<p>$$\\therefore$$ v = u + gt</p>\n<p>$$\\Rightarrow$$ v = gt ..... (i)</p>\n<p>We know, kinetic energy,</p>\n<p>$$K = {1 \\over 2}m{v^2} = {1 \\over 2}m({g^2}{t^2})$$ [Using eqn. (i)]</p>\n<p>$$ \\Rightarrow K = {1 \\over 2}m{g^2}{t^2}$$</p>\n<p>$$ \\Rightarrow K \\propto {t^2}$$ (As m and g are constant)</p>\n<p>This shows that relation between kinetic energy of tennis ball K and time t is parabolic.</p>\n<p>During the collision, velocity of the ball falls sharply to zero as it is compressed and regains maximum velocity in the same short time interval.</p>\n<p>This relation is best illustrated by the option (b).</p>"
+        }
+      },
+      "permalink": "a-tennis-ball-is-dropped-on-a-horizontal-smooth-surface-it-2014-marks-3-l8dasdiqzymtx3us.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-2-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A tennis ball is dropped on a horizontal smooth surface. It bounces back to its original position after hitting the surface. The force on the ball during the collision is proportional to the length of compression of the ball. Which one of t..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "2qzmrliwe2cr7hzop6vs",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Consider an elliptically shaped rail PQ in the vertical plane with\nOP = 3 m and OQ = 4 m. A block of mass 1 kg is pulled along the\nrail from P to Q with a force of 18 N, which is always parallel to\nline PQ (see the figure given). Assuming no frictional losses, the\nkinetic energy of the block when it reaches Q is (n × 10) Joules. The\nvalue of n is (take acceleration due to gravity = 10 ms<sup>–2</sup>)\n<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ky3jj6ah/cb0f45ef-a9d6-4296-8ce2-fca22129bb3d/ebd5e890-6f3f-11ec-906f-71c9536d8e44/file-1ky3jj6ai.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ky3jj6ah/cb0f45ef-a9d6-4296-8ce2-fca22129bb3d/ebd5e890-6f3f-11ec-906f-71c9536d8e44/file-1ky3jj6ai.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Work Power &amp; Energy Question 19 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "<p>Work done by the gravitational force is $${W_g} = mgh\\cos 180^\\circ $$</p>\n<p>= $$-$$ mgh = $$-$$1 $$\\times$$ 10 $$\\times$$ 4 = $$-$$40 J</p>\n<p>Work done by the applied force F</p>\n<p>$${W_F} = Fd\\cos 0^\\circ  = Fd = 18 \\times 5 = 90$$ J</p>\n<p>According to work-energy theorem</p>\n<p>$$\\Delta$$K = W<sub>g</sub> + W<sub>F</sub></p>\n<p>$$\\Delta$$K = $$-$$40 J + 90 J = 50 J = (5 $$\\times$$ 10) J</p>\n<p>$$\\therefore$$ n = 5</p>"
+        }
+      },
+      "permalink": "consider-an-elliptically-shaped-rail-pq-in-the-vertical-plan-2014-marks-3-5b2ifsosxb9vlnqo.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "Consider an elliptically shaped rail PQ in the vertical plane with\nOP = 3 m and OQ = 4 m. A block of mass 1 kg is pulled along the\nrail from P to Q with a force of 18 N, which is always parallel to\nline PQ (see the figure given). Assuming n..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "guyq9oo39cpbgcjdo6s7",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>The speed of the block when it reaches the point Q is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "5 ms<sup>-1</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "10 ms<sup>-1</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "$$10\\sqrt 3 $$ ms<sup>-1</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "20 ms<sup>-1</sup>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzug0j2o/520648c7-3822-49c7-b468-85c70c398a57/5480b900-5a8f-11ef-b2ce-1d34423c56ea/file-jaoe38c1lzug0j2p.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzug0j2o/520648c7-3822-49c7-b468-85c70c398a57/5480b900-5a8f-11ef-b2ce-1d34423c56ea/file-jaoe38c1lzug0j2p.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2013 Paper 2 Offline Physics - Work Power &amp; Energy Question 23 English Explanation\"></p>\n<p>Here we will use the concept of work-energy theorem. By work-energy theorem,</p>\n<p>Total work done = Change in KE</p>\n<p>$$\\Rightarrow$$ Workdone by gravity + workdone by friction = $$\\Delta KE$$</p>\n<p>$$ \\Rightarrow mgR\\sin 30^\\circ  - 150 = {1 \\over 2}m{v^2} - 0$$</p>\n<p>$$ \\Rightarrow 1 \\times 10 \\times 40 \\times {1 \\over 2} - 150 = {1 \\over 2}{v^2}$$</p>\n<p>$$ \\Rightarrow 200 - 150 = {1 \\over 2}{v^2}$$</p>\n<p>$$ \\Rightarrow {v^2} = 100$$</p>\n<p>$$ \\Rightarrow v = 10$$ m/s</p>\n<p>Hence, option (B) is correct.</p>",
+          "comprehension": "<p> A small block of mass 1 kg is released from rest at the top of a rough track. The track is circular arc of radius 40 m. The block slides along the track without toppling and a frictional force acts on it in the direction opposite to the instantaneous velocity. The work done in overcoming the friction up to the point Q, as shown in the figure, below, is 150 J. (Take the acceleration due to gravity, g = 10 m/s<sup>2</sup>) </p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l723h1dh/6aa63041-1c3b-4f10-9d53-29f1524c45cd/481d1650-20a2-11ed-8b98-7f5599df755c/file-1l723h1di.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l723h1dh/6aa63041-1c3b-4f10-9d53-29f1524c45cd/481d1650-20a2-11ed-8b98-7f5599df755c/file-1l723h1di.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2013 Paper 2 Offline Physics - Work Power &amp; Energy Question 23 English Comprehension\"> </p>"
+        }
+      },
+      "permalink": "a-small-block-of-mass-1-kg-is-released-from-rest-at-the-top-2013-marks-3-20q8kt0wnuplozyz.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "The speed of the block when it reaches the point Q is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1x79u2a16ilk8lmiqvqq",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>The magnitude of the normal reaction that acts on the block at the point Q is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "7.5 N"
+            },
+            {
+              "identifier": "B",
+              "content": "8.6 N"
+            },
+            {
+              "identifier": "C",
+              "content": "11.5 N"
+            },
+            {
+              "identifier": "D",
+              "content": "22.5 N"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzug0j2o/520648c7-3822-49c7-b468-85c70c398a57/5480b900-5a8f-11ef-b2ce-1d34423c56ea/file-jaoe38c1lzug0j2p.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzug0j2o/520648c7-3822-49c7-b468-85c70c398a57/5480b900-5a8f-11ef-b2ce-1d34423c56ea/file-jaoe38c1lzug0j2p.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2013 Paper 2 Offline Physics - Work Power &amp; Energy Question 22 English Explanation\">\n\n<p>At point Q, the forces acting on the particle are normal reaction $N_Q$, gravitational force $m g$ and frictional force $f$. Resolve these in the directions parallel and perpendicular to the path. The net force towards the centre $(P)$ provides the centripetal acceleration. Apply Newton's second law in a direction normal to the path to get</p>\n<p>$${N_Q} - mg\\sin 30^\\circ =  {{m{v^2}} \\over R}$$</p>\n<p>$$ \\Rightarrow $$ $${N_Q}  =  mg\\sin 30^\\circ +{{m{v^2}} \\over R}$$</p>\n<p>$$ = 1 \\times 10 \\times {1 \\over 2} + {{100} \\over {40}}$$</p>\n<p>$$ = 5 + {5 \\over 2} = {{15} \\over 2}$$</p>\n<p>$$ \\Rightarrow {N_Q} = 7.5$$ N</p>\n<p>Hence, option (A) is correct.</p>",
+          "comprehension": "<p> A small block of mass 1 kg is released from rest at the top of a rough track. The track is circular arc of radius 40 m. The block slides along the track without toppling and a frictional force acts on it in the direction opposite to the instantaneous velocity. The work done in overcoming the friction up to the point Q, as shown in the figure, below, is 150 J. (Take the acceleration due to gravity, g = 10 m/s<sup>2</sup>) </p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l723h1dh/6aa63041-1c3b-4f10-9d53-29f1524c45cd/481d1650-20a2-11ed-8b98-7f5599df755c/file-1l723h1di.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l723h1dh/6aa63041-1c3b-4f10-9d53-29f1524c45cd/481d1650-20a2-11ed-8b98-7f5599df755c/file-1l723h1di.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2013 Paper 2 Offline Physics - Work Power &amp; Energy Question 22 English Comprehension\">"
+        }
+      },
+      "permalink": "a-small-block-of-mass-1-kg-is-released-from-rest-at-the-top-2013-marks-3-ysye8yvp3ac3ircs.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-2-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "The magnitude of the normal reaction that acts on the block at the point Q is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "r6br3otl9058816glu6y",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The work done on a particle of mass m by a force\n$$$K\\left[ {{x \\over {{{\\left( {{x^2} + {y^2}} \\right)}^{3/2}}}}\\widehat i + {y \\over {{{\\left( {{x^2} + {y^2}} \\right)}^{3/2}}}}\\widehat j} \\right]$$$\n(K being a constant of appropriate dimensions), when the particle is taken from the point $$\\left( {a,0} \\right)$$ to the point $$\\left( {0,a} \\right)$$ along a circular path of radius a about the origin in the x-y plane is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{2K\\pi } \\over a}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{K\\pi } \\over a}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{K\\pi } \\over {2a}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "0"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The work done on a particle of mass <i>m</i> by a force</p>\n\n<p>$$ \\vec{F}=K\\left[\\frac{x}{\\left(x^2+y^2\\right)^{3/2}} \\hat{i}+\\frac{y}{\\left(x^2+y^2\\right)^{3/2}} \\hat{j}\\right] $$</p>\n\n<p>(with <i>K</i> being a constant with appropriate dimensions), when the particle is taken from the point <i>(a,0)</i> to the point <i>(0,a)</i> along a circular path of radius <i>a</i> about the origin in the x-y plane is:</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzxjl2f9/650779d9-eb7c-4895-ab24-ba2dc4d6a0cd/a4f7eb50-5c43-11ef-b86b-a93d2d1504ca/file-jaoe38c1lzxjl2fa.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzxjl2f9/650779d9-eb7c-4895-ab24-ba2dc4d6a0cd/a4f7eb50-5c43-11ef-b86b-a93d2d1504ca/file-jaoe38c1lzxjl2fa.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2013 Paper 1 Offline Physics - Work Power &amp; Energy Question 30 English Explanation\">\n\n<p>Let $ \\vec{r}=x \\hat{i}+y \\hat{j} $</p>\n\n<p>Therefore, $ d \\vec{r}=d x \\hat{i}+d y \\hat{j} $ and $ r=\\sqrt{x^2+y^2} $</p>\n\n<p>Work done by the force in moving a particle from A to B is</p>\n\n<p>$$\\begin{aligned}  W &amp; =\\int_{r_A}^{r_B} \\vec{F} \\cdot d \\vec{r} \\\\\\\\  &amp; =\\int_{r_A}^{r_B} K \\left[\\frac{x}{(x^2+y^2)^{3/2}} \\hat{i}+\\frac{y}{(x^2+y^2)^{3/2}} \\hat{j}\\right] \\cdot (d x \\hat{i}+d y \\hat{j}) \\\\\\\\  &amp; =K \\int_{r_A}^{r_B} \\frac{x d x}{(x^2+y^2)^{3/2}} + \\frac{y d y}{(x^2+y^2)^{3/2}} \\\\\\\\  &amp; =K \\int_{r_A}^{r_B} \\frac{1}{(x^2+y^2)^{3/2}} \\left[d\\left(\\frac{x^2}{2}\\right) + d\\left(\\frac{y^2}{2}\\right)\\right] \\\\\\\\  &amp; =K \\int_{r_A}^{r_B} \\frac{1}{2(x^2 + y^2)^{3/2}} d(x^2 + y^2) \\\\\\\\  &amp; =K \\int_{r_A}^{r_B} \\frac{1}{2 r^3} d(r^2) = K \\int_{r_A}^{r_B} \\frac{2 r d r}{2 r^3} = K \\int_{r_A}^{r_B} \\frac{d r}{r^2} \\quad (\\because r=\\sqrt{x^2 + y^2}) \\\\\\\\  &amp; =K\\left[-\\frac{1}{r}\\right]_{r_A}^{r_B} = K\\left[\\frac{1}{r_A} - \\frac{1}{r_B}\\right]  \\end{aligned}$$</p>\n\n<p>Here, $ r_A = a $ and $ r_B = a $</p>\n\n<p>Therefore, $ W = 0 $</p>"
+        }
+      },
+      "permalink": "the-work-done-on-a-particle-of-mass-m-by-a-force-kleft-2013-marks-2-iw5vacko79tjpwq0.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "topic": "work",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "The work done on a particle of mass m by a force\n$$$K\\left[ {{x \\over {{{\\left( {{x^2} + {y^2}} \\right)}^{3/2}}}}\\widehat i + {y \\over {{{\\left( {{x^2} + {y^2}} \\right)}^{3/2}}}}\\widehat j} \\right]$$$\n(K being a constant of appropriate dime..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "hbdwvkn0xxnc52vl0ak9",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A bob of mass m, suspended by a string of length l<sub>1</sub> is given a minimum velocity required to complete a full circle in the vertical plane. At the highest point, it collides elastically with another bob of mass m suspended by a string of length l<sub>2</sub>, which is initially at rest. Both the strings are mass-less and inextensible. If the second bob, after collision acquires the minimum speed required to complete a full circle in the vertical plane, the ratio $${{{l_1}} \\over {{l_2}}}$$ is",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "<p>To determine the minimum velocity required for the bob of mass $ m $ to complete a full circle in the vertical plane, we start with the condition at the bottommost point:</p>\n\n<p>$ u = \\sqrt{5 g l_1} \\text{ (at point A)} $</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzxj737d/26bbfc1c-1520-468f-b8a1-858143ad18f5/203e5e90-5c42-11ef-8c99-bfd52e9e328b/file-jaoe38c1lzxj737e.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzxj737d/26bbfc1c-1520-468f-b8a1-858143ad18f5/203e5e90-5c42-11ef-8c99-bfd52e9e328b/file-jaoe38c1lzxj737e.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2013 Paper 1 Offline Physics - Work Power &amp; Energy Question 18 English Explanation\">\n\n<p>At the highest point B, using the conservation of energy, we get:</p>\n\n<p>$ \\frac{1}{2} m u_1^2 = m g (2 l_1) + \\frac{1}{2} m v_1^2 $</p>\n\n<p>Simplifying, we have:</p>\n\n<p>$ v_1^2 = u_1^2 - 4 g l_1 $</p>\n\n<p>Substituting $ u_1 = \\sqrt{5 g l_1} $:</p>\n\n<p>$ v_1^2 = 5 g l_1 - 4 g l_1 $</p>\n\n<p>$ v_1 = \\sqrt{g l_1} $</p>\n\n<p>When the bob at point B elastically collides with another identical mass that is initially at rest, the velocities swap due to the nature of elastic collisions. Thus, the second bob attains the velocity:</p>\n\n<p>$ u_2 = v_1 = \\sqrt{g l_1} $</p>\n\n<p>For the second bob to complete its circular path, the minimum velocity requirement is:</p>\n\n<p>$ u_2 = \\sqrt{5 g l_2} = \\sqrt{g l_1} $</p>\n\n$\\therefore \\frac{l_1}{l_2}=5$"
+        }
+      },
+      "permalink": "a-bob-of-mass-m-suspended-by-a-string-of-length-l1-is-given-2013-marks-4-5jsx32bp659chrft.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A bob of mass m, suspended by a string of length l1 is given a minimum velocity required to complete a full circle in the vertical plane. At the highest point, it collides elastically with another bob of mass m suspended by a string of leng..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1880c30rtorv9sb3vqxk",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle of mass 0.2 kg is moving in one dimension under a force that delivers a constant power 0.5 W to\nthe particle. If the initial speed (in m/s) of the particle is zero, the speed (in m/s) after 5 s is",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "<p>To determine the speed of a particle after $ t = 5 $ seconds, given a constant power, the following steps should be taken :</p>\n\n<p><p><strong>Power Equation:</strong> Power is the rate at which work is done, and work is the change in kinetic energy :</p>\n<p>$$ P = \\frac{d(W)}{dt} = \\frac{d}{dt} \\left( \\frac{1}{2} m v^2 \\right) $$</p></p>\n<p><p><strong>Given Data :</strong></p></p>\n\n\n<p><p>Mass of the particle ($ m $) = 0.2 kg</p></p>\n<p><p>Constant power ($ P $) = 0.5 W</p></p>\n<p><p>Initial speed ($ v_0 $) = 0 m/s</p></p>\n\n\n<p><p><strong>Differentiating Kinetic Energy with Respect to Time :</strong></p>\n<p>$$ P = \\frac{d}{dt} \\left( \\frac{1}{2} m v^2 \\right) = m v \\frac{dv}{dt} $$</p></p>\n<p><p><strong>Rearranging to Solve for $ v \\frac{dv}{dt} $ :</strong></p>\n<p>$$ 0.5 = 0.2 \\cdot v \\cdot \\frac{dv}{dt} $$</p>\n<p>$$ \\frac{dv}{dt} = \\frac{5}{2v} $$</p></p>\n<p><p><strong>Integrating Both Sides :</strong></p>\n<p>$$ v \\, dv = \\frac{5}{2} \\, dt $$</p>\n<p>$$ \\int v \\, dv = \\int \\frac{5}{2} \\, dt $$</p>\n<p>$$ \\frac{v^2}{2} = \\frac{5t}{2} + C $$</p></p>\n<p><p><strong>Applying Initial Condition (when $ t = 0 $, $ v = 0 $) :</strong></p>\n<p>$$ 0 = \\frac{5 \\cdot 0}{2} + C $$</p>\n<p>$$ C = 0 $$</p></p>\n<p><p><strong>Solving for $ v $ :</strong></p>\n<p>$$ \\frac{v^2}{2} = \\frac{5t}{2} $$</p>\n<p>$$ v^2 = 5t $$</p>\n<p>$$ v = \\sqrt{5t} $$</p></p>\n<p><p><strong>Speed After 5 Seconds :</strong></p>\n<p>$$ v = \\sqrt{5 \\cdot 5} = \\sqrt{25} = 5 \\, \\text{m/s} $$</p></p>\n\n<p>Thus, the speed of the particle after 5 seconds is <strong>5 m/s</strong>.</p>"
+        }
+      },
+      "permalink": "a-particle-of-mass-02-kg-is-moving-in-one-dimension-under-a-2013-marks-4-zvh3bl6jkma13fxe.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "topic": "power",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A particle of mass 0.2 kg is moving in one dimension under a force that delivers a constant power 0.5 W to\nthe particle. If the initial speed (in m/s) of the particle is zero, the speed (in m/s) after 5 s is"
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "question_id": "czo5w6iv2xx29juyvbxt",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "permalink": "pa-thin-ring-of-mass-2-kg-and-radius-05-m-is-rolling-with-jee-advanced-physics-units-and-measurements-kqitwthyuqii4zju",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A thin ring of mass 2 kg and radius 0.5 m is rolling without on a horizontal plane with velocity 1 m/s. A small ball of mass 0.1 kg, moving with velocity 20 m/s in the opposite direction hits the ring at a height of 0.75 m and goes vertically up with velocity 10 m/s. Immediately after the collision,</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2mm234u/ed37b03f-fa71-4885-9dc0-f974dcc13836/8de237e0-c8ed-11ec-8c2d-13f33da2fbe1/file-1l2mm234v.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2mm234u/ed37b03f-fa71-4885-9dc0-f974dcc13836/8de237e0-c8ed-11ec-8c2d-13f33da2fbe1/file-1l2mm234v.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Work Power &amp; Energy Question 9 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the ring has pure rotation about its stationary CM."
+            },
+            {
+              "identifier": "B",
+              "content": "the ring comes to a complete stop."
+            },
+            {
+              "identifier": "C",
+              "content": "friction between the ring and the ground is to the left."
+            },
+            {
+              "identifier": "D",
+              "content": "there is no friction between the ring and the ground."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Let M be the mass of the ring and m that of the ball and \n let V and $$\\upsilon $$ be their velocity before collision. The initial momentum of the system (ring and ball) in the horizontal direction is</p>\n<p>$${\\overrightarrow p _i} = M\\overrightarrow V  + m\\overrightarrow \\upsilon  $$</p>\n<p>$$ = 2 \\times 1 + 0.1 \\times ( - 20)$$</p>\n<p>$$ = 2 - 2 = 0$$</p>\n<p>From conservation of momentum, the final momentum of the system $${\\overrightarrow p _f} = 0$$ in the horizontal direction. Hence $${V_{cm}} = 0$$ for the ring, i.e. the ring has pure rotation about its centre of mass. So choice (a) is correct.</p>\n<p>The total initial angular momentum of the system about the point of collision is</p>\n<p>$${L_i} = m\\upsilon r - I\\omega $$</p>\n<p>$$ = m\\upsilon r - M{R^2}{V \\over R}$$</p>\n<p>$$ = m\\upsilon r - MRV$$</p>\n<p>$$ = 0.1 \\times 20 \\times 0.75 - 2 \\times 0.5 \\times 1$$</p>\n<p>$$ = 1.5 - 1 = 0.5$$ kg m<sup>2</sup> s<sup>$$-$$1</sup></p>\n<p>From the conservation of angular momentum, the final angular velocity must be anticlockwise. Hence the friction between the ring and the ground is to the left. So the correct choices are (a) and (c).</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "energy",
+      "type": "mcqm",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A thin ring of mass 2 kg and radius 0.5 m is rolling without on a horizontal plane with velocity 1 m/s. A small ball of mass 0.1 kg, moving with velocity 20 m/s in the opposite direction hits the ring at a height of 0.75 m and goes vertical..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "cj4ad76ojzegl0dkhlpk",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>A block of mass 0.18 kg is attached to a spring of force-constant 2 N/m. The\ncoefficient of friction between the block and the floor is 0.1. Initially the\nblock is at rest and the spring is un-stretched. An impulse is given to the\nblock as shown in the figure. The block slides a distance of 0.06 m and\ncomes to rest for the first time. The initial velocity of the block in m/s is\nV = N/10. Then N is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l2jfj8nb/26b37588-c6bf-4721-b3f4-438fcf9c4ad0/b10ba970-c72d-11ec-9e4a-bf17a41218c9/file-1l2jfj8nc.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l2jfj8nb/26b37588-c6bf-4721-b3f4-438fcf9c4ad0/b10ba970-c72d-11ec-9e4a-bf17a41218c9/file-1l2jfj8nc.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Work Power &amp; Energy Question 21 English\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l4k3c275/e709e373-7712-4094-8945-9e512521b0cb/3341d910-ef23-11ec-af85-e5c347851f91/file-1l4k3c276.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l4k3c275/e709e373-7712-4094-8945-9e512521b0cb/3341d910-ef23-11ec-af85-e5c347851f91/file-1l4k3c276.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2011 Paper 2 Offline Physics - Work Power &amp; Energy Question 21 English Explanation\"></p>\n<p>Loss of kinetic energy $$ = {1 \\over 2}m{V^2}$$</p>\n<p>Work done against friction $$ = \\mu mgx$$</p>\n<p>Gain in potential energy $$ = {1 \\over 2}k{x^2}$$</p>\n<p>From work-energy principle,</p>\n<p>$${1 \\over 2}m{V^2} = \\mu mgx + {1 \\over 2}k{x^2}$$</p>\n<p>$$ \\Rightarrow {1 \\over 2} \\times 0.18 \\times {V^2} = 0.1 \\times 0.18 \\times 10 \\times 0.06 + {1 \\over 2} \\times 2 \\times {(0.06)^2}$$</p>\n<p>$$ \\Rightarrow V = 0.4 = {4 \\over {10}}$$ ms<sup>$$-$$1</sup>. Hence, N = 4.</p>"
+        }
+      },
+      "permalink": "a-block-of-mass-018-kg-is-attached-to-a-spring-of-force-con-2011-marks-4-qzsrfc9cfct2spau.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A block of mass 0.18 kg is attached to a spring of force-constant 2 N/m. The\ncoefficient of friction between the block and the floor is 0.1. Initially the\nblock is at rest and the spring is un-stretched. An impulse is given to the\nblock as ..."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "question_id": "bumzmhlqdesyeb4jntae",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "permalink": "pa-block-of-mass-2-kg-is-free-to-move-along-the-x-axis-it-jee-advanced-physics-units-and-measurements-o5efl5g6tmv7kfju",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A block of mass 2 kg is free to move along the x-axis. It is at rest and from t = 0 onwards, it is subjected to a time-dependent force F(t) in the x-direction. The force F(t) varies with t as shown in the figure. The kinetic energy of the block after 4.5 s is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l4bkrh4r/41205e7d-b7c1-4f7c-87bb-b61a42d8b283/4d47f4b0-ea74-11ec-a537-3baab2e403e6/file-1l4bkrh4s.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l4bkrh4r/41205e7d-b7c1-4f7c-87bb-b61a42d8b283/4d47f4b0-ea74-11ec-a537-3baab2e403e6/file-1l4bkrh4s.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 2 Offline Physics - Work Power &amp; Energy Question 8 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "4.50 J"
+            },
+            {
+              "identifier": "B",
+              "content": "7.50 J"
+            },
+            {
+              "identifier": "C",
+              "content": "5.06 J"
+            },
+            {
+              "identifier": "D",
+              "content": "14.06 J"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The t - F diagram is a straight line passing through (0, 4) and (3, 0). The equation of this straight line is</p>\n<p>$$F =  - {4 \\over 3}t + 4$$.</p>\n<p>Newton's second law gives acceleration of the block as</p>\n<p>$$a = F/m =  - {2 \\over 3}t + 2$$.</p>\n<p>Integrate to get the velocity v at 4.5 s</p>\n<p>$$v = \\int_0^{4.5} {a\\,dt = \\int_0^{4.5} {\\left( { - {2 \\over 3}t + 2} \\right)dt = 2.25} } $$ m/s.</p>\n<p>Thus, kinetic energy of the block at 4.5 s is</p>\n<p>$$K = {1 \\over 2}m{v^2} = 5.06$$ J.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "work",
+      "type": "mcq",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A block of mass 2 kg is free to move along the x-axis. It is at rest and from t = 0 onwards, it is subjected to a time-dependent force F(t) in the x-direction. The force F(t) varies with t as shown in the figure. The kinetic energy of the b..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "question_id": "vwyr1kwao8l54fgh2g2d",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pa-light-inextensible-string-that-goes-over-a-smooth-fixed-jee-advanced-physics-motion-zetnr5r5aytyrtbk",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>A light inextensible string that goes over a smooth fixed pulley as shown in the figure connects two blocks of masses 0.36 kg and 0.72 kg. Taking g = 10 m/s<sup>2</sup>, find the work done (in joules) by the string on the block of mass 0.36 kg during the first second after the system is released from rest.</p>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lg6nyu50/94151da7-b30d-4f87-958a-bd3176cd3e05/82ae0d40-d553-11ed-877c-0ff0b4b8bb2e/file-1lg6nyu51.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lg6nyu50/94151da7-b30d-4f87-958a-bd3176cd3e05/82ae0d40-d553-11ed-877c-0ff0b4b8bb2e/file-1lg6nyu51.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Work Power &amp; Energy Question 6 English\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "8",
+          "explanation": "<p>We have,</p>\n<p>$$a = \\left( {{{{m_1} - {m_2}} \\over {{m_1} + {m_2}}}} \\right)g = \\left( {{{0.72 - 0.36} \\over {0.72 - 0.36}}} \\right) \\times 10 = {g \\over 3} = {{10} \\over 3}$$</p>\n<p>$$T = {{2{m_1}{m_2}g} \\over {{m_1} + {m_2}}} = {{2 \\times 0.72 \\times 0.36 \\times 10} \\over {0.72 + 0.36}} = 4.8$$ N</p>\n<p>$$s = {1 \\over 2}a{t^2} = {1 \\over 2} \\times {{10} \\over 3} \\times {1^2} = {5 \\over 3}$$ m</p>\n<p>The work done by the rope on 0.36 kg is</p>\n<p>$$W = Ts\\cos 0^\\circ  = 4.8 \\times {5 \\over 3} =  + 8$$ J</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "work",
+      "type": "integer",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A light inextensible string that goes over a smooth fixed pulley as shown in the figure connects two blocks of masses 0.36 kg and 0.72 kg. Taking g = 10 m/s2, find the work done (in joules) by the string on the block of mass 0.36 kg during ..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "p1bmofhu5vik81doqdmm",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2009-paper-2-offline",
+      "paperTitle": "IIT-JEE 2009 Paper 2 Offline",
+      "permalink": "pthree-objects-a-b-and-c-are-kept-in-a-straight-line-on-a-jee-advanced-physics-motion-ehxxrqtvsfcf9vp0",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Three objects A, B and C are kept in a straight line on a frictionless horizontal surface. These have masses m, 2m and m, respectively. The object A moves towards B with a speed 9 m/s and makes an elastic collision with it. Thereafter, B makes completely inelastic collision with C. All motions occur on the same straight line. Find the final speed (in m/s) of the object C.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "4",
+          "explanation": "<p>Let $$V_1$$ and $$V_2$$ be the velocities of blocks A and B immediately after the elastic collision:</p>\n<p>$${v_1} = \\left( {{{{m_1} - {m_2}} \\over {{m_1} + {m_2}}}} \\right)m = \\left( {{{m - 2m} \\over {m + 2m}}} \\right) \\times 9 =  - 3$$ m/s</p>\n<p>$${v_2} = \\left( {{{2{m_1}} \\over {{m_1} + {m_2}}}} \\right)m = \\left( {{{2m} \\over {m + 2m}}} \\right) \\times 9 = 6$$ m/s</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lft4t36n/99da9ca8-d228-4945-befc-e9d2338b8b3a/64ea8ef0-cde2-11ed-9ce1-7bd2ccf24231/file-1lft4t36o.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lft4t36n/99da9ca8-d228-4945-befc-e9d2338b8b3a/64ea8ef0-cde2-11ed-9ce1-7bd2ccf24231/file-1lft4t36o.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2009 Paper 2 Offline Physics - Work Power &amp; Energy Question 7 English Explanation\"></p>\n<p>After the perfectly inelastic collision between blocks B and C, let $$v$$ be the common velocity. Applying centre of mass concept, we get</p>\n<p>$$2m{v_2} = (2m + m)v$$</p>\n<p>$$ \\Rightarrow v = {2 \\over 3} \\times 6 = 4$$ m/s</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "energy",
+      "type": "integer",
+      "year": 2009,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "Three objects A, B and C are kept in a straight line on a frictionless horizontal surface. These have masses m, 2m and m, respectively. The object A moves towards B with a speed 9 m/s and makes an elastic collision with it. Thereafter, B ma..."
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-2-offline"
+    },
+    {
+      "question_id": "8w12io8ysz652njcobfl",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "pa-block-b-is-attached-to-two-unstretched-springs-s1-and-jee-advanced-physics-motion-hi9zmwlqudzqbfgc",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A block (B) is attached to two unstretched springs S1 and S2 with spring constants k and 4k respectively (see figure I). The other ends are attached to identical supports M1 and M2 not attached to the walls. The springs and supports have negligible mass. There is no friction anywhere. The block displaced towards wall 1 by a small distance x (figure II) and released. The block returns and moves a maximum distance y towards wall 2. Displacements x and y are measured with respect to the equilibrium position of the block B. The ratio $$\\frac{y}{x}$$ is :</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgl8gkdy/76a4de67-dc27-4fed-92d9-43c00fe4d1b3/9f631470-dd56-11ed-86b8-29c641a84735/file-1lgl8gkdz.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgl8gkdy/76a4de67-dc27-4fed-92d9-43c00fe4d1b3/9f631470-dd56-11ed-86b8-29c641a84735/file-1lgl8gkdz.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Work Power &amp; Energy Question 5 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "4"
+            },
+            {
+              "identifier": "B",
+              "content": "2"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\frac{1}{2}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\frac{1}{4}$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>When the block B is displaced towards wall-1 only spring S$$_1$$ is compressed and S$$_2$$ is in natural state.</p>\n<p>If spring S$$_2$$ is not attached to wall but it is free but it gain momentum ($$\\uparrow$$) and moves towards S$$_1$$.</p>\n<p>The spring S$$_1$$ comes to natural length and spring S$$_2$$ gets compressed.</p>\n<p>So if there is no frictional force i.e.,</p>\n<p>$$fr=0$$</p>\n<p>So potential energy of spring S$$_1$$ as the potential energy of spring.</p>\n<p>Hence, $${(PE)_{{S_1}}} = {(PE)_{{S_2}}}$$</p>\n<p>$$ \\Rightarrow {1 \\over 2}{k_1}{x^2} = {1 \\over 2}{k_2}y$$</p>\n<p>$$ \\Rightarrow 1k{x^2} = (4k){y^2} \\Rightarrow {x^2} = 4{y^2}$$</p>\n<p>Potential energy of spring.</p>\n<p>Hence, $${(PE)_{{S_1}}} = {(PE)_{{S_2}}}$$</p>\n<p>$$ \\Rightarrow {1 \\over 2}{k_1}{x^2} = {1 \\over 2}{k_2}{y^2}$$</p>\n<p>$$ \\Rightarrow {1 \\over 2}k{x^2} = {1 \\over 2}(4k){y^2}$$</p>\n<p>$$ \\Rightarrow {x^2} = 4{y^2}$$</p>\n<p>$$ \\Rightarrow {y \\over x} = {1 \\over 2}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "energy",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A block (B) is attached to two unstretched springs S1 and S2 with spring constants k and 4k respectively (see figure I). The other ends are attached to identical supports M1 and M2 not attached to the walls. The springs and supports have ne..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "v20b20g1s65eyawf6i9y",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "permalink": "pa-bob-of-mass-m-is-suspended-by-a-massless-string-of-leng-jee-advanced-physics-motion-oa2d1hvtn7cjv8kf",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A bob of mass M is suspended by a massless string of length L. The horizontal velocity V at position A is just sufficient to make it reach the point B. The angle $$\\theta$$ at which the speed of the bob is half of that at A, satisfies,</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmdto7c/1b014ec0-92d6-4b60-83d4-da4419041304/62260480-ddf8-11ed-bcbe-bb31396c773e/file-1lgmdto7d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmdto7c/1b014ec0-92d6-4b60-83d4-da4419041304/62260480-ddf8-11ed-bcbe-bb31396c773e/file-1lgmdto7d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Work Power &amp; Energy Question 3 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\theta  = {\\pi  \\over 4}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${\\pi  \\over 4} < \\theta  < {\\pi  \\over 2}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${\\pi  \\over 2} < \\theta  < {{3\\pi } \\over 4}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{3\\pi } \\over 4} < \\theta  < \\pi $$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The bob of mass m requires velocity to reach at a point with vertical circular motion.</p>\n<p>$$V = \\sqrt {5gl} $$</p>\n<p>Then, $$h = L - L\\cos \\theta  = L(1 - \\cos \\theta )$$</p>\n<p>Applying law of conservation of energy at point A &amp; C</p>\n<p>Kinetic energy (K.E)<sub>A</sub> + Potential energy (U<sub>A</sub>) = Kinetic energy (K.E<sub>C</sub>) + Potential energy (U<sub>C</sub>)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgmdz6fh/de9f057e-3375-4402-945f-f03bbe58bf67/fb45ffd0-ddf8-11ed-bcbe-bb31396c773e/file-1lgmdz6fi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgmdz6fh/de9f057e-3375-4402-945f-f03bbe58bf67/fb45ffd0-ddf8-11ed-bcbe-bb31396c773e/file-1lgmdz6fi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2008 Paper 2 Offline Physics - Work Power &amp; Energy Question 3 English Explanation\"></p>\n<p>$$ \\Rightarrow {1 \\over 2}m{V^2} + 0 = {1 \\over 2}m{\\left( {{{\\sqrt {5gl} } \\over 2}} \\right)^2} + mgL(1 - \\theta )$$</p>\n<p>$$ \\Rightarrow {{5L} \\over 2} = {{5L} \\over 8} + L(1 - \\cos \\theta )$$ ($$\\because$$ $$V = \\sqrt {5gl} $$)</p>\n<p>$$ \\Rightarrow {5 \\over 2} - {5 \\over 8} = 1 - \\cos \\theta $$</p>\n<p>$$ \\Rightarrow {{20 - 5} \\over 8} = 1 - \\cos \\theta $$</p>\n<p>$$ \\Rightarrow \\cos \\theta  = 1 - {{15} \\over 8}$$</p>\n<p>$$ \\Rightarrow \\cos \\theta  = {{ - 7} \\over 8}$$</p>\n<p>$$ \\Rightarrow \\theta  = 152^\\circ $$</p>\n<p>$$\\therefore$$ $${{3\\pi } \\over 4} &lt; \\theta  &lt; \\pi $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "energy",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A bob of mass M is suspended by a massless string of length L. The horizontal velocity V at position A is just sufficient to make it reach the point B. The angle $$\\theta$$ at which the speed of the bob is half of that at A, satisfies,\n"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "question_id": "f540betpehu77uo8jqhp",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pstatement-1p-pa-block-of-mass-m-starts-moving-on-a-r-jee-advanced-physics-motion-y9gfnvvg6rdrzr6q",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p><b>Statement 1 :</b></p>\n<p>A block of mass m starts moving on a rough horizontal surface with a velocity v. It stops due to friction between the block and the surface after moving through a certain distance. The surface is now tilted to an angle of 30$$^\\circ$$ with the horizontal and the same block is made to go up on the surface with the same initial velocity v. The decrease in the mechanical energy in the second situation is smaller than that in the first situation.</p>\n<p><b>Statement 2 :</b></p>\n<p>The coefficient of friction between the block and the surface decreases with the increase in the angle of inclination.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement 1 is True, Statement 2 is True, Statement 2 is NOT a CORRECT explanation for Statement 1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement 1 is True, Statement 2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement 1 is False, Statement 2 is True"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Case I:</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggcyk9w/6512382d-c473-4c73-b612-87fce076895c/16c62e40-a360-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggcyk9x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggcyk9w/6512382d-c473-4c73-b612-87fce076895c/16c62e40-a360-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggcyk9x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Work Power &amp; Energy Question 4 English Explanation\"></p>\n<p>Case II : Tilted at 30$$^\\circ$$.</p>\n<p>$$N = mg\\cos 30^\\circ $$</p>\n<p>$$ = mg{{\\sqrt 3 } \\over 2}$$</p>\n<p>$${f_2} = \\mu B = rmg{{\\sqrt 3 } \\over 2}$$</p>\n<p>$${f_1} = {l \\over N} = {l \\over {mg{{\\sqrt 3 } \\over 2}}}$$</p>\n<p>Case III : $$\\Delta$$E $$ = {1 \\over 2}m{v^2} - mgh$$ = Decreases</p>\n<p>Option (C) is correct because friction is depend on surface.</p>\n<p>Case I :</p>\n<p>Statement 1 : In the 1<sup>st</sup> case the mechanical energy is completely converted into heat energy because of friction.</p>\n<p>Case II :</p>\n<p>M.E. is converted into heat due to friction but another part of M.E. is retained in the form of P.E. of block. Therefore statement I is correct.</p>\n<p>Statement 2 : This is a wrong statement because the coefficient of friction between block and surface does not depend on angle of inclination.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "work",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "Statement 1 :\nA block of mass m starts moving on a rough horizontal surface with a velocity v. It stops due to friction between the block and the surface after moving through a certain distance. The surface is now tilted to an angle of 30$$..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "r5xrad17d2jtlih382b8",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pa-ball-moves-over-a-fixed-track-as-shown-in-the-figure-f-jee-advanced-physics-motion-yfodqhhwkchow6mj",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A ball moves over a fixed track as shown in the figure. From $A$ to $B$, the ball rolls without slipping. Surface $B C$ is frictionless. $K_A, K_B$ and $K_c$ are kinetic energies of the ball at $A, B$ and C , respectively. Then</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgt286uu/086fad6f-78d3-4c34-a292-8602b1a34e78/4e85a560-aa5c-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt286uv.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgt286uu/086fad6f-78d3-4c34-a292-8602b1a34e78/4e85a560-aa5c-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt286uv.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Work Power &amp; Energy Question 2 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$h_{\\mathrm{A}}>h_{\\mathrm{c}^{\\prime}} \\mathrm{K}_{\\mathrm{B}}>\\mathrm{K}_{\\mathrm{C}}$.</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$h_{\\mathrm{A}}>h_{\\mathrm{c}} ; \\mathrm{K}_{\\mathrm{C}}>\\mathrm{K}_{\\mathrm{A}}$.</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$h_{\\mathrm{A}}=h_{\\mathrm{c}} ; \\mathrm{K}_{\\mathrm{B}}=\\mathrm{K}_{\\mathrm{C}}$.</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$h_{\\mathrm{A}} < h_{\\mathrm{c}} ; \\mathrm{K}_{\\mathrm{B}}>\\mathrm{K}_{\\mathrm{C}}$.</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>The work done by the friction force is zero in rolling without slipping. The surface BC is frictionless. Thus mechanical energy of the balls is conserved.</p>\n<p>i.e., it is same at point $\\mathrm{A}, \\mathrm{B}$ and C .</p>\n<p>If $K_A, K_B$ and $K_C$ represent the total oenergies (transtational plus rotational)</p>\n<p>Then, $\\mathrm{K}_{\\mathrm{A}}+\\mathrm{mgh}_{\\mathrm{A}}=\\mathrm{K}_{\\mathrm{B}}=\\mathrm{K}_{\\mathrm{C}}+\\mathrm{mgh}_{\\mathrm{C}}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i)$</p>\n<p>The equation (i) gives $K_B>K_C$ and $K_B>K_A$ irrespective of the relation between $\\mathrm{h}_{\\mathrm{A}}$ and $\\mathrm{h}_{\\mathrm{C}}$.</p>\n<p>Let us analyses the problem a little more.</p>\n<p>Let $K_B{ }^{\\text {tans }}$ and $K_C{ }^{\\text {trans }}$ are translational kinetics energies and $K_B{ }^{\\text {rot }}$ and $K_C{ }^{\\text {rot }}$ rotational kinetic energies of balls.</p>\n<p>The equation (i) can be written as</p>\n<p>$$ \\begin{aligned} \\mathrm{K}_{\\mathrm{A}}+m g h_A & =\\left(\\mathrm{K}_{\\mathrm{B}}\\right)_{\\operatorname{tran}}+\\left(\\mathrm{K}_{\\mathrm{B}}\\right)_{\\mathrm{rot}} \\\\ & =\\left(\\mathrm{K}_{\\mathrm{C}}\\right)_{\\operatorname{tran}}+\\left(\\mathrm{K}_{\\mathrm{C}}\\right)_{\\mathrm{rot}}+m g h_{\\mathrm{C}}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iii) \\end{aligned} $$</p>\n<p>Track $B C$ is frictionless and there is no torque on the ball about its centre of mass. Hence, its angular acceleration is zero, i.e., it moves with a constant angular velocity, which implies.</p>\n<p>$$ \\left(\\mathrm{K}_{\\mathrm{B}}\\right)_{\\mathrm{rot}}=\\left(\\mathrm{K}_{\\mathrm{C}}\\right)_{\\mathrm{rot}} \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(iv)$$</p>\n<p>The equation (iii) and (iv) gives $\\left(\\mathrm{K}_{\\mathrm{B}}\\right)_{\\text {trans }}>\\left(\\mathrm{K}_{\\mathrm{C}}\\right)_{\\text {trans }}$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "energy",
+      "type": "mcqm",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A ball moves over a fixed track as shown in the figure. From $A$ to $B$, the ball rolls without slipping. Surface $B C$ is frictionless. $K_A, K_B$ and $K_c$ are kinetic energies of the ball at $A, B$ and C , respectively. Then"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "jnwv3ef5bhawmjx8xp2m",
+      "chapter": "work-power-and-energy",
+      "chapterGroup": "mechanics",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pthere-is-a-rectangular-plate-of-mass-m-kg-of-dimensions--jee-advanced-physics-motion-knfbwbh534qtilcj",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>There is a rectangular plate of mass M kg of dimensions ( $a \\times b$ ). The plate is held in horizontal position by striking $n$ small balls each of mass m per unit area per unit time. These are striking in the shaded half region of the plate. The balls are colliding elastically with velocity $v$. What is $v$ ?</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgt3poq8/eb94ccd0-6857-4e3d-aac6-e39ee74f8171/1e365700-aa62-11f0-b080-53586e9eb299/file-jaoe38c1mgt3poq9.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgt3poq8/eb94ccd0-6857-4e3d-aac6-e39ee74f8171/1e365700-aa62-11f0-b080-53586e9eb299/file-jaoe38c1mgt3poq9.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Work Power &amp; Energy Question 1 English\">It is given $n=100, \\mathrm{M}=3 \\mathrm{~kg}, m=0.01 \\mathrm{~kg}$; $b=2 m ; a=1 \\mathrm{~m} ; g=10 \\mathrm{~m} / \\mathrm{s}^2$",
+          "options": [],
+          "correct_options": [],
+          "answer": "10",
+          "explanation": "<p>The ball collides elastically with the stationary plate. In this collision, velocity of the ball gets reversed.</p>\n<p>The conversation of linear momentum,</p>\n<p>$$ \\begin{aligned} \\mathrm{P}_{i(\\text { ball })}+\\mathrm{P}_{i(\\text { plate })} & =\\mathrm{P}_{f(\\text { ball })}+\\mathrm{P}_{f(\\text { plate })} \\\\ \\Delta \\mathrm{P}_{\\text {plate }} & =-\\Delta \\mathrm{P}_{\\text {ball }} \\\\ & =-m v-(-m v) \\\\ & =2 m v \\text { (upwards). } \\end{aligned} $$</p>\n<p>number of balls striking the plate in times $\\Delta t$ is $\\mathrm{N}=n(a b / 2) \\Delta \\mathrm{t}=n a b \\Delta t / 2$.</p>\n<p>Thus, the total change in the plate's momentum in time $\\Delta t$ is</p>\n<p>$$ \\Delta \\mathrm{P}=\\mathrm{N} \\Delta \\mathrm{P}_{(\\text {plate })}=\\text { mvnab } \\Delta t . $$</p>\n<p>By Newton's second law, upward force on the</p>\n<p>$$ \\text { plate is } \\mathrm{F}=\\frac{\\Delta \\mathrm{P}}{\\Delta t}=m v n a b .\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(i) $$</p>\n<p>This force effectively acts at the centre of the shaded region.</p>\n<p>i.e., at a distance $\\frac{3 b}{4}$ from the hinge.</p>\n<p>In equillibrium $\\mathrm{F}+\\mathrm{R}=m g$, and torque due to all the forces about any point is zero.</p>\n<p>The torque about a point on the hinge is</p>\n<p>$$ \\mathrm{F}\\left(\\frac{3 b}{4}\\right)-\\operatorname{Mg}\\left(\\frac{b}{2}\\right)=0 \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,...(ii)$$</p>\n<p>Substitute value of F from equation (i) into equation (ii) to get</p>\n<p>$$ \\begin{aligned} \\mathrm{F} & =\\frac{\\mathrm{Mg} b}{2} \\times \\frac{4}{3 b}=\\frac{\\mathrm{Mg} 2}{3}=\\text { mvnab } \\\\ v & =\\frac{q 2 \\mathrm{Mg}}{3 m n a b}=\\frac{2 \\times 3 \\times 10}{3 \\times 0.01 \\times 100 \\times 1 \\times 2} \\\\ & =\\frac{60}{6}=10 \\mathrm{~m} / \\mathrm{s} \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "work",
+      "type": "integer",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "There is a rectangular plate of mass M kg of dimensions ( $a \\times b$ ). The plate is held in horizontal position by striking $n$ small balls each of mass m per unit area per unit time. These are striking in the shaded half region of the p..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "rnkxye4l5igd8s29u5go",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle is acted by a force F = kx, where k is a +ve constant. Its potential energy at x = 0 is zero. Which\ncurve correctly represents the variation of potential energy of the block with respect to x\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<img class=\"question-image\" src=\"https://gateclass.static.cdn.examgoal.net/LRRd7Iny7XyvwWqvG/r9xCx3R2Ulo3jFigEenNKreh45hdk/aOvNhoMfQufgRPrld97I2M/uploadfile.jpg\" loading=\"lazy\" alt=\"IIT-JEE 2004 Screening Physics - Work Power &amp; Energy Question 31 English Option 1\">"
+            },
+            {
+              "identifier": "B",
+              "content": "<img class=\"question-image\" src=\"https://gateclass.cdn.examgoal.net/0qLSiSRZm286werDE/dKGURRMmPKBTH8OPlrGS2UYcdk0hK/nvoegm0TBXbzgw8p42GB5t/uploadfile.jpg\" loading=\"lazy\" alt=\"IIT-JEE 2004 Screening Physics - Work Power &amp; Energy Question 31 English Option 2\">"
+            },
+            {
+              "identifier": "C",
+              "content": "<img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/XmVKmhceDNlGK0jJ9/Mu4dIFNWaz60ahMavk7nLzSCIhkvE/AleiprC7KGAcjCRGhZbOqR/uploadfile.jpg\" loading=\"lazy\" alt=\"IIT-JEE 2004 Screening Physics - Work Power &amp; Energy Question 31 English Option 3\">"
+            },
+            {
+              "identifier": "D",
+              "content": "<img class=\"question-image\" src=\"https://gateclass.cdn.examgoal.net/5JfbzkXkBUV1F1qee/lcYwcG7KFIVFJarpIdWfiuAsLQUy4/3KwnI8g7I5QEHXq9QGeowC/uploadfile.jpg\" loading=\"lazy\" alt=\"IIT-JEE 2004 Screening Physics - Work Power &amp; Energy Question 31 English Option 4\">"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-particle-is-acted-by-a-force-f-kx-where-k-is-a-ve-cons-2004-screening-marks-2-rltbyeqp8gztps70.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004-screening",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004 Screening",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A particle is acted by a force F = kx, where k is a +ve constant. Its potential energy at x = 0 is zero. Which\ncurve correctly represents the variation of potential energy of the block with respect to x\n"
+        }
+      },
+      "yearKey": "iit-jee-2004-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vzot1yshn8qfotuy391i",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2003,
+      "paperTitle": "IIT-JEE 2003 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If W<sub>1</sub>, W<sub>2</sub> and W<sub>3</sub> represent the work done in moving a particle from A to B along three different paths 1, 2 and 3 respectively (as shown) in the\ngravitational field of a point mass m, find the correct relation between\nW<sub>1</sub>, W<sub>2</sub> and W<sub>3</sub>.\n<img class=\"question-image\" src=\"https://gateclass.cdn.examgoal.net/mUGqDVSryPvEqkfsM/dBSCIfMernQ0WtPtng4WooCymlvdb/HnD3yfwLvK1p7vavU8Z1u1/uploadfile.jpg\" loading=\"lazy\" alt=\"IIT-JEE 2003 Screening Physics - Work Power &amp; Energy Question 32 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "W1 &gt; W2 &gt; W3"
+            },
+            {
+              "identifier": "B",
+              "content": "W1 = W2 = W3"
+            },
+            {
+              "identifier": "C",
+              "content": "W1 &lt; W2 &lt; W3"
+            },
+            {
+              "identifier": "D",
+              "content": "W2 &gt; W1 &gt; W3"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-w1-w2-and-w3-represent-the-work-done-in-moving-a-particl-2003-screening-marks-2-yo8mgifhj37pwjm2.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2003-screening",
+      "topic": "work",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2003 Screening",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "If W1, W2 and W3 represent the work done in moving a particle from A to B along three different paths 1, 2 and 3 respectively (as shown) in the\ngravitational field of a point mass m, find the correct relation between\nW1, W2 and W3.\n"
+        }
+      },
+      "yearKey": "iit-jee-2003-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "tnoenv1wylyqspvqng2w",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2002,
+      "paperTitle": "IIT-JEE 2002 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "An ideal spring with spring-constant k is hung from the ceiling and a block of mass M is attached to its lower end. The mass is released with the spring initially unstretched. Then the maximum extension in the spring is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{4Mg} \\over k}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{2Mg} \\over k}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{Mg} \\over k}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{Mg} \\over {2k}}$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "an-ideal-spring-with-spring-constant-k-is-hung-from-the-ceil-2002-screening-marks-2-mv81wbpekttyshxd.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2002-screening",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2002 Screening",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "An ideal spring with spring-constant k is hung from the ceiling and a block of mass M is attached to its lower end. The mass is released with the spring initially unstretched. Then the maximum extension in the spring is"
+        }
+      },
+      "yearKey": "iit-jee-2002-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "jx0sod3ur3mvefwn5yz4",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 2000,
+      "paperTitle": "IIT-JEE 2000 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A wind-powered generator converts wind energy into electrical energy. Assume that the generator converts a fixed fraction of the wind energy intercepted by its blades into electrical energy. For wind speed v, the electrical power output will be proportional to",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "v"
+            },
+            {
+              "identifier": "B",
+              "content": "v<sup>2</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "v<sup>3</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "v<sup>4</sup>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-wind-powered-generator-converts-wind-energy-into-electrica-2000-screening-marks-2-97dx6aeas9kcyy0h.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2000-screening",
+      "topic": "power",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2000 Screening",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A wind-powered generator converts wind energy into electrical energy. Assume that the generator converts a fixed fraction of the wind energy intercepted by its blades into electrical energy. For wind speed v, the electrical power output wil..."
+        }
+      },
+      "yearKey": "iit-jee-2000-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ggkd3c35zrabi0h9mehq",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A spring of force-constant k is cut into two pieces such that one piece is double the length of the other. Then the long piece will have a force-constant of",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( {{2 \\over 3}} \\right)k$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( {{3 \\over 2}} \\right)k$$"
+            },
+            {
+              "identifier": "C",
+              "content": "3 k"
+            },
+            {
+              "identifier": "D",
+              "content": "6 k"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-spring-of-force-constant-k-is-cut-into-two-pieces-such-tha-1999-screening-marks-2-ehvrarzextceimko.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999-screening",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999 Screening",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A spring of force-constant k is cut into two pieces such that one piece is double the length of the other. Then the long piece will have a force-constant of"
+        }
+      },
+      "yearKey": "iit-jee-1999-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qr41egq82ign9lzsgpr1",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A stone tied to a string of length L is whirled in a vertical circle with the other end of the string at the center. At a certain instant of time, the stone is at its lowest position, and has a speed u. The magnitude of the change in its velocity as it reaches a position where the string is horizontal is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sqrt {{u^2} - 2gL} $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt {2gL} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\sqrt {{u^2} - gL} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\sqrt {2\\left( {{u^2} - gL} \\right)} $$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-stone-tied-to-a-string-of-length-l-is-whirled-in-a-vertica-1998-screening-marks-2-vywoe9widdm9zt5t.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998-screening",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998 Screening",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A stone tied to a string of length L is whirled in a vertical circle with the other end of the string at the center. At a certain instant of time, the stone is at its lowest position, and has a speed u. The magnitude of the change in its ve..."
+        }
+      },
+      "yearKey": "iit-jee-1998-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "je9b8wjh0gnjlmxbbxhx",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A force $$F =  - K\\left( {y\\widehat i + x\\widehat j} \\right)$$ (where K is a positive constant) acts on a particle moving in the xy plane. Starting from the origin, the particle is taken along the positive x axis to the point $$\\left( {a,0} \\right)$$, and then parallel to the y axis to the point $$\\left( {a,a} \\right)$$. The total work done by the force F on the particle is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$ - 2K{a^2}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$2K{a^2}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$ - K{a^2}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$K{a^2}$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-force-f-kleft-ywidehat-i-xwidehat-j-right-1998-screening-marks-2-xzvevl71gu6ad8cr.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998-screening",
+      "topic": "work",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998 Screening",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A force $$F =  - K\\left( {y\\widehat i + x\\widehat j} \\right)$$ (where K is a positive constant) acts on a particle moving in the xy plane. Starting from the origin, the particle is taken along the positive x axis to the point $$\\left( {a,0}..."
+        }
+      },
+      "yearKey": "iit-jee-1998-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3ohtitpuorkqx6n8mvkw",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle of mass m is moving in a circular path of constant radius r such that its centripetal acceleration $${a_c}$$ is varying with time t as $${a_c}$$ = k<sup>2</sup>rt<sup>2</sup> where k is a constant. The power delivered to the perticles by the force acting on it is:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$2\\pi m{k^2}{r^2}t$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$m{k^2}{r^2}t$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{\\left( {m{k^4}{r^2}{t^5}} \\right)} \\over 3}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "zero"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-particle-of-mass-m-is-moving-in-a-circular-path-of-constan-1994-marks-1-oaktfhfrmtvr8gvu.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "topic": "power",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A particle of mass m is moving in a circular path of constant radius r such that its centripetal acceleration $${a_c}$$ is varying with time t as $${a_c}$$ = k2rt2 where k is a constant. The power delivered to the perticles by the force act..."
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dhwqb373pn12cxr5z8fg",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A particle is acted upon by a force of constant magnitude which is always perpendicular to the velocity of the  particle. The motion of the particle takes place in a plane. It follows that :",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Its velocity is constant"
+            },
+            {
+              "identifier": "B",
+              "content": "its acceleration is constant"
+            },
+            {
+              "identifier": "C",
+              "content": "its kinetic energy is constant"
+            },
+            {
+              "identifier": "D",
+              "content": "it moves in a circular path"
+            }
+          ],
+          "correct_options": [
+            "D",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-particle-is-acted-upon-by-a-force-of-constant-magnitude-wh-1987-marks-2-zsixsdsn3qvsxqfd.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A particle is acted upon by a force of constant magnitude which is always perpendicular to the velocity of the  particle. The motion of the particle takes place in a plane. It follows that :"
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "oi6kc46gh3v8175xrv8t",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A uniform chain of length L and mass M is lying on a smooth table and one third of its length is hanging vertically down over the edge of the table. If g is acceleration due to gravity, the work required to pull the hanging part on to the table is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "MgL"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{MgL} \\over 3}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{MgL} \\over 9}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{MgL} \\over {18}}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-uniform-chain-of-length-l-and-mass-m-is-lying-on-a-smooth-1985-marks-2-vqikgvmu11krl7qw.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "topic": "work",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A uniform chain of length L and mass M is lying on a smooth table and one third of its length is hanging vertically down over the edge of the table. If g is acceleration due to gravity, the work required to pull the hanging part on to the t..."
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6bkccayibe0dhrqss871",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A body is moved along a straight line by a machine delivering constant power. The distance moved by the body in the time t is proportional to",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "t<sup>1/2</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "t<sup>3/4</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "t<sup>3/2</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "t<sup>2</sup>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-body-is-moved-along-a-straight-line-by-a-machine-deliverin-1984-marks-2-8rb8t8icbnw9ku8q.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "topic": "power",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "A body is moved along a straight line by a machine delivering constant power. The distance moved by the body in the time t is proportional to"
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3ipx8pwk00xpkouemxdq",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If a machine is lubricated with oil",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the mechanical advantage of the machine increases"
+            },
+            {
+              "identifier": "B",
+              "content": "the mechanical efficiency of the machine increases"
+            },
+            {
+              "identifier": "C",
+              "content": "both its mechanical advantage and efficiency increases"
+            },
+            {
+              "identifier": "D",
+              "content": "its efficiency increases, but its mechanical advantage decreases"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-a-machine-is-lubricated-with-oil-1980-marks-2-idua0bzx5xsxjhzk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "If a machine is lubricated with oil"
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "vijgqtwocnx0o6zdnnmy",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "mechanics",
+      "languages": [
+        "en"
+      ],
+      "chapter": "work-power-and-energy",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Two masses of 1gm and 4 gm are moving with equal kinetic energies. The ratio of the magnitude of their linear momentum is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "4 : 1"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt 2 :1$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$1:2$$"
+            },
+            {
+              "identifier": "D",
+              "content": "1 : 16"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "two-masses-of-1gm-and-4-gm-are-moving-with-equal-kinetic-ene-1980-marks-2-swll5m2qviivsbid.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "topic": "energy",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "Work Power and Energy • Physics",
+          "excerpt": "Two masses of 1gm and 4 gm are moving with equal kinetic energies. The ratio of the magnitude of their linear momentum is"
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    }
+  ]
+}

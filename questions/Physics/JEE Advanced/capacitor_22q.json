@@ -1,0 +1,1620 @@
+{
+  "questions": [
+    {
+      "question_id": "v7s3b46zjobdp8jdjz40",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pa-container-of-height-2-m--length-2-m-and-breadth-1-m-is-jee-advanced-physics-bpsmahpusajmneby",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A container of height 2 m , length 2 m and breadth 1 m is made of insulating vertical walls and two large area horizontal metal plates ( $\\mathrm{M}_1$ and $\\mathrm{M}_2$ ) which extend far beyond the vertical walls in all directions. The container is partitioned into two equal chambers with a thin insulating vertical wall. The partition wall contains a small hole of cross-sectional area $\\sqrt{10} \\mathrm{~cm}^2$ near its bottom edge. Initially the hole is closed and the left chamber of the container is completely filled with a liquid of dielectric constant $\\epsilon_r=15$ and the right chamber is empty ( $\\epsilon_r=1$ ). At time $t=0$, the hole is opened and the liquid flows from the left chamber to the right chamber. In both the chambers, the space above the liquid has $\\epsilon_r=1$ and is maintained at atmospheric pressure. The schematic of the container at a time $t&gt;0$ is shown in the figure.</p>\n<p>[Given : acceleration due to gravity is $10 \\mathrm{~ms}^{-2}$.]</p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Physics - Capacitor Question 1 English\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mp9xiove/33485919-5812-49c3-b498-8cf0df24d7ae/f2f49ca0-5204-11f1-af7d-734b282814df/file-6y3zli1mp9xiovf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mp9xiove/33485919-5812-49c3-b498-8cf0df24d7ae/f2f49ca0-5204-11f1-af7d-734b282814df/file-6y3zli1mp9xiovf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>The difference in the capacitance (in F) between the metal plates at $t=0$ and that at $t=500 \\mathrm{~s}$ is $(8-n) \\epsilon_0$, where $\\epsilon_0$ is the permittivity of free space. The value of $n$ is :</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.90TO2.10",
+          "explanation": "<p>The two large parallel horizontal metal plates ( $\\mathrm{M}_1$ and $\\mathrm{M}_2$ ) form a parallel-plate capacitor system.</p>\n<p>The total height of the container is $\\mathrm{H}=2 \\mathrm{~m}$, the total length is $\\mathrm{L}_{\\text {total }}=2 \\mathrm{~m}$, and the breadth is $\\mathrm{b}=1 \\mathrm{~m}$.</p>\n<p>The thin vertical insulating partition divides the container into two equal chambers, so each chamber has a length of $\\mathrm{L}_0=1 \\mathrm{~m}$ and a breadth of $\\mathrm{b}=1 \\mathrm{~m}$.</p>\n<p>Each chamber contains two stacked layers of media, liquid at the bottom and air/vacuum at the top, which act as two capacitors connected in series.</p>\n<p>The capacitance of a general two-layer vertical chamber of floor area $\\mathrm{A}_{\\text {floor }}=\\mathrm{L}_0 \\times \\mathrm{b}=1 \\mathrm{~m}^2$.</p>\n<p>If the liquid of dielectric constant $\\varepsilon_r$ fills the chamber up to a height $h$, the remaining height $(H-h)$ is occupied by air $(\\varepsilon_r=1)$.</p>\n<p>The capacitance of the liquid layer is:</p>\n<p>$$C_l=\\frac{\\varepsilon_r\\,\\varepsilon_0\\,A_{\\mathrm{floor}}}{h}$$</p>\n<p>The capacitance of the air layer above it is:</p>\n<p>$$C_a=\\frac{1\\cdot\\varepsilon_0\\,A_{\\mathrm{floor}}}{H-h}$$</p>\n<p>Since these two layers are stacked on top of each other between the main plates, they are in series.</p>\n<p>The equivalent capacitance $C_C$</p>\n<p>$$\\frac{1}{C_C}=\\frac{1}{C_l}+\\frac{1}{C_a}=\\frac{h}{\\varepsilon_r\\,\\varepsilon_0\\,A_{\\mathrm{floor}}}+\\frac{H-h}{\\varepsilon_0\\,A_{\\mathrm{floor}}}$$</p>\n<p>$$=\\frac{1}{\\varepsilon_0\\,A_{\\mathrm{floor}}}\\left(\\frac{h}{\\varepsilon_r}+H-h\\right)$$</p>\n<p>$$C_C=\\frac{\\varepsilon_0A_{\\mathrm{floor}}}{H-h\\left(1-\\frac{1}{\\varepsilon_r}\\right)}$$</p>\n<p>Given that $A_{\\mathrm{floor}}=1\\ \\mathrm{m}^2$ and $H=2\\ \\mathrm{m}$, the capacitance of chamber filled to a height $h$ is,</p>\n<p>$$C(h)=\\frac{\\varepsilon_0}{2-h\\left(1-\\frac{1}{\\varepsilon_r}\\right)}$$</p>\n<p>At $t=0$, the left chamber is completely filled with liquid $(h_1=2\\ \\mathrm{m},\\ \\varepsilon_r=15)$ and the right chamber is completely empty $(h_2=0\\ \\mathrm{m},\\ \\varepsilon_r=1)$.</p>\n<p>The capacitance of left chamber at $t=0$ is</p>\n<p><img alt=\"JEE Advanced 2026 Paper 2 Online Physics - Capacitor Question 1 English Explanation 1\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mppozq9y/5cbd1dc7-b9df-4a9e-9a06-d6edbe7b7537/25062660-5ab0-11f1-8102-9513e6272beb/file-6y3zli1mppozq9z.webp?format=webp\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mppozq9y/5cbd1dc7-b9df-4a9e-9a06-d6edbe7b7537/25062660-5ab0-11f1-8102-9513e6272beb/file-6y3zli1mppozq9z.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>$C_{\\text {left }, 0}=C(2)$ with $\\varepsilon_{\\mathrm{r}}=15$</p>\n<p>$$ \\mathrm{C}_{\\mathrm{left}, 0}=\\frac{\\varepsilon_0}{2-2\\left(1-\\frac{1}{15}\\right)}=\\frac{\\varepsilon_0}{2-2\\left(\\frac{14}{15}\\right)}=\\frac{\\varepsilon_0}{2-28 / 15}=\\frac{\\varepsilon_0}{2 / 15}=7.5 \\varepsilon_0 $$</p>\n<p>The capacitance of right chamber at $\\mathrm{t}=0 \\mathrm{~s}$ is (since it contains only air $\\mathrm{h}_2=0$ ):</p>\n<p>$$ \\mathrm{C}_{\\text {right }, 0}=\\frac{\\varepsilon_0}{2-0}=0.5 \\varepsilon_0 $$</p>\n<p>So, the total initial capacitance is the parallel sum of both chambers:</p>\n<p>$$ \\mathrm{C}_{\\mathrm{t}=0}=\\mathrm{C}_{\\text {left }, 0}+\\mathrm{C}_{\\text {right }, 0}=7.5 \\varepsilon_0+0.5 \\varepsilon_0=8 \\varepsilon_0 $$</p>\n<p>The height of the liquid in the left chamber at $\\mathrm{t}=500 \\mathrm{~s}$ is $\\mathrm{h}_1=1.25 \\mathrm{~m}$.</p>\n<p>Since the total liquid mass is conserved, the height of the liquid in the right chamber is:</p>\n<p>$$ \\mathrm{h}_2=2-\\mathrm{h}_1=2-1.25=0.75 \\mathrm{~m} $$</p>\n<p>The capacitance of left chamber at $\\mathrm{t}=500 \\mathrm{~s}$ is</p>\n<p>$$ \\mathrm{C}_{\\text {left }, 500}=\\frac{\\varepsilon_0}{2-1.25\\left(1-\\frac{1}{15}\\right)}=\\frac{\\varepsilon_0}{2-\\frac{5}{4}\\left(\\frac{14}{15}\\right)}=\\frac{\\varepsilon_0}{2-\\frac{7}{6}}=\\frac{\\varepsilon_0}{5 / 6}=1.2 \\varepsilon_0 $$</p>\n<p>The capacitance of right chamber at $\\mathrm{t}=500 \\mathrm{~s}$ where $\\mathrm{h}_2=0.75 \\mathrm{~m}$ with dielectric constant $\\varepsilon_{\\mathrm{r}}=15$ :</p>\n\n<img alt=\"JEE Advanced 2026 Paper 2 Online Physics - Capacitor Question 1 English Explanation 2\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mppp3cnt/7cc563ab-94b8-4d26-a6ee-80d79175947c/89be4c90-5ab0-11f1-8102-9513e6272beb/file-6y3zli1mppp3cnu.webp?format=webp\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mppp3cnt/7cc563ab-94b8-4d26-a6ee-80d79175947c/89be4c90-5ab0-11f1-8102-9513e6272beb/file-6y3zli1mppp3cnu.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\">\n\n<p>$$C_{\\text{right},500}=\\frac{\\varepsilon_0}{2-0.75\\left(1-\\frac{1}{15}\\right)}=\\frac{\\varepsilon_0}{2-34\\left(\\frac{14}{15}\\right)}=\\frac{\\varepsilon_0}{2-\\frac{7}{10}}=\\frac{\\varepsilon_0}{13/10}=\\frac{10}{13}\\varepsilon_0\\approx0.7692\\varepsilon_0$$</p>\n<p>So, the total capacitance at $t=500\\ \\mathrm{s}$ is:</p>\n<p>$$C_{t=500}=C_{\\text{left},500}+C_{\\text{right},500}=1.2\\varepsilon_0+\\frac{10}{13}\\varepsilon_0=$$</p>\n<p>$$C_{t=500}=\\frac{6}{5}\\varepsilon_0+\\frac{10}{13}\\varepsilon_0=\\frac{78+50}{65}\\varepsilon_0=\\frac{128}{65}\\varepsilon_0\\approx1.9692\\varepsilon_0$$</p>\n<p>The difference in capacitance between $t=0$ and $t=500\\ \\mathrm{s}$ is given by the expression $(8-n)\\varepsilon_0$:</p>\n<p>$$\\Delta\\ C=C_{t=0}-C_{t=500}=(8-n)\\varepsilon_0$$</p>\n<p>$$8\\varepsilon_0-\\frac{128}{65}\\varepsilon_0=8\\varepsilon_0-n\\varepsilon_0$$</p>\n<p>$$n=\\frac{128}{65}\\approx2$$</p>\n<p>Therefore, the correct answer is 2.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 120000,
+      "topic": "capacitors-with-dielectric",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "A container of height 2 m , length 2 m and breadth 1 m is made of insulating vertical walls and two large area horizontal metal plates ( $\\mathrm{M}_1$ and $\\mathrm{M}_2$ ) which extend far beyond the vertical walls in all directions. The c..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "3twptq0pxejripuhadbg",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2024-paper-1-online",
+      "paperTitle": "JEE Advanced 2024 Paper 1 Online",
+      "permalink": "pfour-identical-thin-square-metal-sheets-s1-s2-s3-jee-advanced-physics-6eh7tj58nh2xoq1g",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Four identical thin, square metal sheets, $S_1, S_2, S_3$ and $S_4$, each of side $a$ are kept parallel to each other with equal distance $d(\\ll a)$ between them, as shown in the figure. Let $${C_0} = {{{\\varepsilon _0}{a^2}} \\over d}$$, where $\\varepsilon_0$ is the permittivity of free space.</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpwv2ta/bea0af9c-661a-474b-ba44-3b31aa43153f/a6b531e0-1cac-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpwv2tb.webp?format=webp\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpwv2ta/bea0af9c-661a-474b-ba44-3b31aa43153f/a6b531e0-1cac-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpwv2tb.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 English\">\n\n<p>Match the quantities mentioned in <b>List-I</b> with their values in <b>List-II</b> and choose the correct option.</p>\n\n\n<table>\n<style>\n        table {\n            width: 100%;\n            border-collapse: collapse;\n        }\n        th {\n            background-color: #1E90FF;\n            color: white;\n        }\n        th, td {\n            border: 1px solid lightgrey;\n            padding: 8px;\n            text-align: left;\n        }\n        body[data-theme='dark'] th, body[data-theme='dark'] td {\n            border: 1px solid white;\n        }\n    </style>\n    <thead>\n        <tr>\n            <th>List-I</th>\n            <th>List-II</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>(P) The capacitance between $S_1$ and $S_4$, with $S_2$ and $S_3$ not connected, is</td>\n            <td>(1) $3C_0$</td>\n        </tr>\n        <tr>\n            <td>(Q) The capacitance between $S_1$ and $S_4$, with $S_2$ shorted to $S_3$, is</td>\n            <td>(2) $\\frac{C_0}{2}$</td>\n        </tr>\n        <tr>\n            <td>(R) The capacitance between $S_1$ and $S_3$, with $S_2$ shorted to $S_4$, is</td>\n            <td>(3) $\\frac{C_0}{3}$</td>\n        </tr>\n        <tr>\n            <td>(S) The capacitance between $S_1$ and $S_2$, with $S_3$ shorted to $S_1$, and $S_2$ shorted to $S_4$, is</td>\n            <td>(4) $\\frac{2C_0}{3}$</td>\n        </tr>\n        <tr>\n            <td></td>\n            <td>(5) $2C_0$</td>\n        </tr>\n    </tbody>\n</table>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 4 ; \\mathrm{S} \\rightarrow 5$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 4 ; \\mathrm{S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 5$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqjl7w/0b4d8d2a-1465-4821-9816-605ec4e6ad26/1a0836c0-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjl7x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqjl7w/0b4d8d2a-1465-4821-9816-605ec4e6ad26/1a0836c0-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjl7x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 English Explanation 1\">\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqji7b/930c4de5-398c-49cc-9744-0dd804470e6a/17b3bf70-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqji7c.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqji7b/930c4de5-398c-49cc-9744-0dd804470e6a/17b3bf70-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqji7c.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 English Explanation 2\">\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqjez4/a1bd995c-5449-4224-b4f6-5a033b2d279b/15357900-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjez5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqjez4/a1bd995c-5449-4224-b4f6-5a033b2d279b/15357900-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjez5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 English Explanation 3\">\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqjbck/f9c42419-7d40-471a-83f6-296b52af5f39/12684f40-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjbcl.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqjbck/f9c42419-7d40-471a-83f6-296b52af5f39/12684f40-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjbcl.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 English Explanation 4\">\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqj89c/cb351665-7bf6-474f-b438-0094a40d502f/10055900-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqj89d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqj89c/cb351665-7bf6-474f-b438-0094a40d502f/10055900-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqj89d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 English Explanation 5\">"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>चार एकसमान भुजा $a$ वालीं, वर्गाकार, पतली धातु की शीटें (sheets), $S_1, S_2, S_3$ एवं $S_4$ एक दूसरे के समानान्तर बराबर दूरी $d(\\ll a)$ पर चित्रानुसार रखी हैं। दिया है कि $C_0=\\varepsilon_0 a^2 / d$, जहाँ $\\varepsilon_0$ मुक्त आकाश की विद्युतशीलता (permittivity) है।</p>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lwpwv2ta/bea0af9c-661a-474b-ba44-3b31aa43153f/a6b531e0-1cac-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpwv2tb.webp?format=webp\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lwpwv2ta/bea0af9c-661a-474b-ba44-3b31aa43153f/a6b531e0-1cac-11ef-a7f1-8b6b33c30c4d/file-6y3zli1lwpwv2tb.webp\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 Hindi\">\n\n<p>नीचे दिए गए List-। की प्रत्येक प्रविष्टि का List-II की उचित प्रविष्टि से मेल कर सही विकल्प चुनें|</p>\n\n\n<table>\n<style>\n        table {\n            width: 100%;\n            border-collapse: collapse;\n        }\n        th {\n            background-color: #1E90FF;\n            color: white;\n        }\n        th, td {\n            border: 1px solid lightgrey;\n            padding: 8px;\n            text-align: left;\n        }\n        body[data-theme='dark'] th, body[data-theme='dark'] td {\n            border: 1px solid white;\n        }\n    </style>\n    <thead>\n        <tr>\n            <th>List-I</th>\n            <th>List-II</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>(P) $S_2$ एवं $S_3$ को वियोजित (not connected) रखने पर, $S_1$ एवं $S_4$ के बीच की धारिता का मान है</td>\n            <td>(1) $3C_0$</td>\n        </tr>\n        <tr>\n            <td>(Q)  $S_2$ को $S_3$ से लघुपथित (short) करने पर, $S_1$ एवं $S_4$ के बीच की धारिता का मान है</td>\n            <td>(2) $\\frac{C_0}{2}$</td>\n        </tr>\n        <tr>\n            <td>(R) $S_2$ को $S_4$ से लघुपथित (short) करने पर, $S_1$ एवं $S_3$ के बीच की धारिता का मान है</td>\n            <td>(3) $\\frac{C_0}{3}$</td>\n        </tr>\n        <tr>\n            <td>(S) $S_3$ को $S_1$ से एवं $S_2$ को $S_4$ से लघुपथित (short) करने पर, $S_1$ एवं $S_2$ के बीच की धारिता का मान है </td>\n            <td>(4) $\\frac{2C_0}{3}$</td>\n        </tr>\n        <tr>\n            <td></td>\n            <td>(5) $2C_0$</td>\n        </tr>\n    </tbody>\n</table>\n",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 4 ; \\mathrm{S} \\rightarrow 5$"
+            },
+            {
+              "identifier": "B",
+              "content": "$\\mathrm{P} \\rightarrow 2 ; \\mathrm{Q} \\rightarrow 3 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "C",
+              "content": "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 4 ; \\mathrm{S} \\rightarrow 1$"
+            },
+            {
+              "identifier": "D",
+              "content": "$\\mathrm{P} \\rightarrow 3 ; \\mathrm{Q} \\rightarrow 2 ; \\mathrm{R} \\rightarrow 2 ; \\mathrm{S} \\rightarrow 5$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqjl7w/0b4d8d2a-1465-4821-9816-605ec4e6ad26/1a0836c0-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjl7x.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqjl7w/0b4d8d2a-1465-4821-9816-605ec4e6ad26/1a0836c0-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjl7x.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 Hindi Explanation 1\">\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqji7b/930c4de5-398c-49cc-9744-0dd804470e6a/17b3bf70-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqji7c.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqji7b/930c4de5-398c-49cc-9744-0dd804470e6a/17b3bf70-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqji7c.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 Hindi Explanation 2\">\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqjez4/a1bd995c-5449-4224-b4f6-5a033b2d279b/15357900-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjez5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqjez4/a1bd995c-5449-4224-b4f6-5a033b2d279b/15357900-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjez5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 Hindi Explanation 3\">\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqjbck/f9c42419-7d40-471a-83f6-296b52af5f39/12684f40-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjbcl.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqjbck/f9c42419-7d40-471a-83f6-296b52af5f39/12684f40-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqjbcl.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 Hindi Explanation 4\">\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lziqj89c/cb351665-7bf6-474f-b438-0094a40d502f/10055900-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqj89d.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lziqj89c/cb351665-7bf6-474f-b438-0094a40d502f/10055900-541f-11ef-bbf7-3b0ed6883d86/file-jaoe38c1lziqj89d.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2024 Paper 1 Online Physics - Capacitor Question 3 Hindi Explanation 5\">"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "combination-of-capacitors",
+      "type": "mcq",
+      "year": 2024,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "Four identical thin, square metal sheets, $S_1, S_2, S_3$ and $S_4$, each of side $a$ are kept parallel to each other with equal distance $d(\\ll a)$ between them, as shown in the figure. Let $${C_0} = {{{\\varepsilon _0}{a^2}} \\over d}$$, wh..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2024 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "चार एकसमान भुजा $a$ वालीं, वर्गाकार, पतली धातु की शीटें (sheets), $S_1, S_2, S_3$ एवं $S_4$ एक दूसरे के समानान्तर बराबर दूरी $d(\\ll a)$ पर चित्रानुसार रखी हैं। दिया है कि $C_0=\\varepsilon_0 a^2 / d$, जहाँ $\\varepsilon_0$ मुक्त आकाश की विद्य..."
+        }
+      },
+      "yearKey": "jee-advanced-2024-paper-1-online"
+    },
+    {
+      "question_id": "sb1pt1c480bvu44h7eqa",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "a-container-has-a-base-of-50-mathrmcm-times-5-mathrm-jee-advanced-physics-hq6bep0s6c7tekow",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "A container has a base of $50 \\mathrm{~cm} \\times 5 \\mathrm{~cm}$ and height $50 \\mathrm{~cm}$, as shown in the figure. It has two parallel electrically conducting walls each of area $50 \\mathrm{~cm} \\times 50 \\mathrm{~cm}$. The remaining walls of the container are thin and non-conducting. The container is being filled with a liquid of dielectric constant 3 at a uniform rate of $250 \\mathrm{~cm}^3 \\mathrm{~s}^{-1}$. What is the value of the capacitance of the container after 10 seconds?<br><br>\n[Given: Permittivity of free space $\\epsilon_0=9 \\times 10^{-12} \\mathrm{C}^2 \\mathrm{~N}^{-1} \\mathrm{~m}^{-2}$, the effects of the non-conducting walls on the capacitance are negligible]<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liiph78l/b5c36518-959a-47b9-861f-1941ffb23299/410b2150-038b-11ee-add3-0f52d4fe427d/file-1liiph78m.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liiph78l/b5c36518-959a-47b9-861f-1941ffb23299/410b2150-038b-11ee-add3-0f52d4fe427d/file-1liiph78m.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 4 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$27 ~\\mathrm{pF}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$63 ~\\mathrm{pF}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$81 ~\\mathrm{pF}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$135 ~\\mathrm{pF}$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnqctoj/1c3c6a06-888c-48d9-833f-e9933f01e195/8e1ee930-b87c-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnqctok.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnqctoj/1c3c6a06-888c-48d9-833f-e9933f01e195/8e1ee930-b87c-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnqctok.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 4 English Explanation 1\">\n<br><br>Volume of dielectric filled in $10 \\mathrm{sec}$\n<br><br>$$\n\\begin{aligned}\n&amp; =250 \\times 10=2500 \\mathrm{~cm}^3 \\\\\\\\\nh \\times 50 \\times 5 &amp; =2500 \\\\\\\\\n\\Rightarrow h &amp; =10 \\mathrm{~cm}\n\\end{aligned}\n$$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnqgjpz/a935293a-985f-46c0-84ce-9b1ab3f76bf1/f5a9de70-b87c-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnqgjq0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnqgjpz/a935293a-985f-46c0-84ce-9b1ab3f76bf1/f5a9de70-b87c-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnqgjq0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 4 English Explanation 2\">\n<br>$C_1=\\frac{\\varepsilon_0 A_1}{d}, C_2=\\frac{\\varepsilon_0 A_2}{d} K$\n<br><br>$\\begin{aligned} A_1 &amp; =50 \\times(50-h) \\\\\\\\ A_2 &amp; =50 \\times h \\\\\\\\ C_{\\text {eq }} &amp; =C_1+C_2 \\\\\\\\ &amp; =\\frac{\\varepsilon_0 50(50-h) \\mathrm{cm}^2}{5 \\mathrm{~cm}}+\\frac{3 \\times \\varepsilon_0 \\times 50 \\times h}{5 \\mathrm{~cm}} \\\\\\\\ &amp; =\\varepsilon_0\\left[\\frac{50 \\times 40}{5}+\\frac{3 \\times 50 \\times 10}{5}\\right] \\times 10^{-2} \\\\\\\\ &amp; =7 \\varepsilon_0=63 \\times 10^{-12} \\\\\\\\ &amp; =63 \\mathrm{pF}\\end{aligned}$"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "चित्र में दिए गए पात्र का आधार $50 \\mathrm{~cm} \\times 5 \\mathrm{~cm}$ तथा ऊँचाई $50 \\mathrm{~cm}$ है। पात्र की दो समानान्तर दीवारें, जिनका क्षेत्रफल $50 \\mathrm{~cm} \\times 50 \\mathrm{~cm}$ है, विद्युत् की चालक (electrically conducting) हैं। शेष सभी दीवारें पतली तथा अचालक हैं। एक परावैद्युतांक 3 वाले द्रव को खाली पात्र में $250 \\mathrm{~cm}^3 \\mathrm{~s}^{-1}$ की एकसमान दर से भरा जाता है। 10 सेकंड समय के उपरान्त पात्र की धारिता का $\\mathrm{pF}$ में मान क्या है?<br><br>\n[दिया है : मुक्त आकाश की विद्युतशीलता $\\epsilon_0=9 \\times 10^{-12} \\mathrm{C}^2 \\mathrm{~N}^{-1} \\mathrm{~m}^{-2}$, अचालक दीवारों के धारिता पर प्रभाव नगण्य है]<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liiph78l/b5c36518-959a-47b9-861f-1941ffb23299/410b2150-038b-11ee-add3-0f52d4fe427d/file-1liiph78m.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liiph78l/b5c36518-959a-47b9-861f-1941ffb23299/410b2150-038b-11ee-add3-0f52d4fe427d/file-1liiph78m.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 4 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$27 ~\\mathrm{pF}$"
+            },
+            {
+              "identifier": "B",
+              "content": "$63 ~\\mathrm{pF}$"
+            },
+            {
+              "identifier": "C",
+              "content": "$81 ~\\mathrm{pF}$"
+            },
+            {
+              "identifier": "D",
+              "content": "$135 ~\\mathrm{pF}$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnqctoj/1c3c6a06-888c-48d9-833f-e9933f01e195/8e1ee930-b87c-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnqctok.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnqctoj/1c3c6a06-888c-48d9-833f-e9933f01e195/8e1ee930-b87c-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnqctok.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 4 Hindi Explanation 1\">\n<br><br>$10 \\mathrm{sec}$ में भरे गए परावैद्युत का आयतन\n<br><br>$$\n\\begin{aligned}\n&amp; =250 \\times 10=2500 \\mathrm{~cm}^3 \\\\\\\nh \\times 50 \\times 5 &amp; =2500 \\\\\\\n\\Rightarrow h &amp; =10 \\mathrm{~cm}\n\\end{aligned}\n$$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnqgjpz/a935293a-985f-46c0-84ce-9b1ab3f76bf1/f5a9de70-b87c-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnqgjq0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnqgjpz/a935293a-985f-46c0-84ce-9b1ab3f76bf1/f5a9de70-b87c-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnqgjq0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 4 Hindi Explanation 2\">\n<br>$C_1=\\frac{\\varepsilon_0 A_1}{d}, C_2=\\frac{\\varepsilon_0 A_2}{d} K$\n<br><br>$\\begin{aligned} A_1 &amp; =50 \\times(50-h) \\\\\\ A_2 &amp; =50 \\times h \\\\\\ C_{\\text {eq }} &amp; =C_1+C_2 \\\\\\ &amp; =\\frac{\\varepsilon_0 50(50-h) \\mathrm{cm}^2}{5 \\mathrm{~cm}}+\\frac{3 \\times \\varepsilon_0 \\times 50 \\times h}{5 \\mathrm{~cm}} \\\\\\ &amp; =\\varepsilon_0\\left[\\frac{50 \\times 40}{5}+\\frac{3 \\times 50 \\times 10}{5}\\right] \\times 10^{-2} \\\\\\ &amp; =7 \\varepsilon_0=63 \\times 10^{-12} \\\\\\ &amp; =63 \\mathrm{pF}\\end{aligned}$"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 180000,
+      "topic": "capacitors-with-dielectric",
+      "type": "mcq",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "A container has a base of $50 \\mathrm{~cm} \\times 5 \\mathrm{~cm}$ and height $50 \\mathrm{~cm}$, as shown in the figure. It has two parallel electrically conducting walls each of area $50 \\mathrm{~cm} \\times 50 \\mathrm{~cm}$. The remaining w..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "चित्र में दिए गए पात्र का आधार $50 \\mathrm{~cm} \\times 5 \\mathrm{~cm}$ तथा ऊँचाई $50 \\mathrm{~cm}$ है। पात्र की दो समानान्तर दीवारें, जिनका क्षेत्रफल $50 \\mathrm{~cm} \\times 50 \\mathrm{~cm}$ है, विद्युत् की चालक (electrically conducting) है..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "oa3azsuwpw31glucf4ag",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2023-paper-1-online",
+      "paperTitle": "JEE Advanced 2023 Paper 1 Online",
+      "permalink": "in-a-circuit-shown-in-the-figure-the-capacitor-c-is-initi-jee-advanced-physics-b0ftvg5s0zxcnsh6",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "In a circuit shown in the figure, the capacitor $C$ is initially uncharged and the key $K$ is open. In this condition, a current of $1 \\mathrm{~A}$ flows through the $1 \\Omega$ resistor. The key is closed at time $t=t_0$. Which of the following statement(s) is(are) correct?<br><br>\n[Given: $e^{-1}=0.36$ ]<br><br>\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liipba4r/de8ff26a-d4d6-4d98-a870-c88e8f463783/9c6c7db0-038a-11ee-add3-0f52d4fe427d/file-1liipba4s.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liipba4r/de8ff26a-d4d6-4d98-a870-c88e8f463783/9c6c7db0-038a-11ee-add3-0f52d4fe427d/file-1liipba4s.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The value of the resistance $R$ is $3 \\Omega$."
+            },
+            {
+              "identifier": "B",
+              "content": " For $t < t_0 $, the value of current $I_1$ is $2 \\mathrm{~A}$."
+            },
+            {
+              "identifier": "C",
+              "content": "At $t=t_0+7.2 \\mu \\mathrm{s}$, the current in the capacitor is $0.6 \\mathrm{~A}$."
+            },
+            {
+              "identifier": "D",
+              "content": "For $t \\rightarrow \\infty$, the charge on the capacitor is $12 \\mu \\mathrm{C}$."
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "At $\\mathbf{t}&lt;\\mathbf{t}_0$,\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnptmz6/f8af71be-57ff-41f5-9aa8-45a7f33f0061/78916720-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnptmz7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnptmz6/f8af71be-57ff-41f5-9aa8-45a7f33f0061/78916720-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnptmz7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 English Explanation 1\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnpthbx/a2bd5e99-cdb1-48c7-8e5c-b8616c891804/7434ead0-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnpthby.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnpthbx/a2bd5e99-cdb1-48c7-8e5c-b8616c891804/7434ead0-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnpthby.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 English Explanation 2\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnptcoe/7f9911e6-7c28-4e58-b85b-730f784cfc0c/709ca8e0-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnptcof.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnptcoe/7f9911e6-7c28-4e58-b85b-730f784cfc0c/709ca8e0-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnptcof.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 English Explanation 3\">\n<br><br>At $\\mathbf{t} &lt; \\mathbf{t}_0$\n<br><br>$$\n\\begin{aligned}\ni &amp; =\\frac{\\left(\\frac{45}{3+R}\\right)-5}{1=\\frac{3 R}{3+R}} \\\\\\\\\n1 &amp; =\\frac{45-15-5 R}{3+4 R} \\\\\\\\\n\\Rightarrow R &amp; =3 \\Omega\n\\end{aligned}\n$$\n<br><br>(A) is correct.\n<br><br>$$\nI_1=\\frac{\\frac{15}{2}}{3+\\frac{3}{4}} \\Rightarrow I_1=2 \\mathrm{~A}\n$$\n<br><br>(B) is correct.\n<br><br>At $\\mathbf{t} &gt; \\mathbf{t}_0$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnq4j81/e5f9d568-3b6f-4f13-a2bc-38f44d571bbd/a7919c10-b87b-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnq4j82.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnq4j81/e5f9d568-3b6f-4f13-a2bc-38f44d571bbd/a7919c10-b87b-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnq4j82.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 English Explanation 4\">\n<br><br>$\\begin{aligned} \\frac{\\varepsilon}{r} &amp; =\\frac{15}{3}+\\frac{5}{1}+\\frac{0}{3} \\\\\\\\ \\frac{1}{r} &amp; =\\frac{1}{3}+\\frac{1}{1}+\\frac{1}{3}=\\frac{5}{3} \\\\\\\\ \\varepsilon &amp; =10 \\times \\frac{3}{5} \\Rightarrow 6 \\mathrm{~V} \\\\\\\\ \\text { At } t \\rightarrow \\infty &amp; \\\\\\\\ q &amp; =\\mathrm{C} \\varepsilon \\\\\\\\ &amp; =2 \\times 10^{-6} \\times 6=12 \\mu \\mathrm{C}\\end{aligned}$\n<br><br>$\\begin{aligned} &amp; \\text { Time constant } \\tau=R C \\\\\\\\ &amp; =(r+3) 2 \\mu \\mathrm{C} \\\\\\\\ &amp; =\\left(\\frac{3}{5}+3\\right) \\times 12=7.2 \\mu \\mathrm{s} \\\\\\\\ &amp; i=i . e^{-t / \\tau} \\\\\\\\ &amp; i_0=\\frac{\\varepsilon}{r+3}=\\frac{6}{\\left(3+\\frac{3}{5}\\right)}\\end{aligned}$\n<br><br>$$\n\\begin{aligned}\n\\Rightarrow \\quad i &amp; =\\frac{6}{\\frac{18}{5}} \\times e^{-7.2 / 1.2} \\\\\\\\\n&amp; =\\frac{5}{3} \\times 0.36=0.6 \\mathrm{~A}\n\\end{aligned}\n$$\n\n<br><br>All options are correct."
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "चित्र में दिए गए परिपथ में प्रारंभ में संधारित्र $C$ अनावेशित है तथा कुंजी $K$ खुली है। इस अवस्था में $1 \\Omega$ प्रतिरोधक में $1 \\mathrm{~A}$ की धारा प्रवाहित होती है। समय $t=t_0$ पर कुंजी बंद कर दी जाती है| निम्न में से कौन सा(से) कथन सही है(हैं)?<br><br>\n[दिया है : $e^{-1}=0.36$ ]<br><br>\n\n<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1liipba4r/de8ff26a-d4d6-4d98-a870-c88e8f463783/9c6c7db0-038a-11ee-add3-0f52d4fe427d/file-1liipba4s.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1liipba4r/de8ff26a-d4d6-4d98-a870-c88e8f463783/9c6c7db0-038a-11ee-add3-0f52d4fe427d/file-1liipba4s.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 Hindi\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "प्रतिरोध $R$ का मान $3 \\Omega$ है।"
+            },
+            {
+              "identifier": "B",
+              "content": "$t < t_0$ के लिए धारा $I_1$ का मान $2 \\mathrm{~A}$ है।"
+            },
+            {
+              "identifier": "C",
+              "content": "$t=t_0+7.2 \\mu \\mathrm{s}$ पर संधारित्र में धारा का मान $0.6 \\mathrm{~A}$ है।"
+            },
+            {
+              "identifier": "D",
+              "content": " $t \\rightarrow \\infty$ के लिए संधारित्र का आवेश $12 \\mu \\mathrm{C}$ है।"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "At $\\mathbf{t}&lt;\\mathbf{t}_0$,\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnptmz6/f8af71be-57ff-41f5-9aa8-45a7f33f0061/78916720-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnptmz7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnptmz6/f8af71be-57ff-41f5-9aa8-45a7f33f0061/78916720-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnptmz7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 Hindi Explanation 1\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnpthbx/a2bd5e99-cdb1-48c7-8e5c-b8616c891804/7434ead0-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnpthby.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnpthbx/a2bd5e99-cdb1-48c7-8e5c-b8616c891804/7434ead0-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnpthby.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 Hindi Explanation 2\">\n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnptcoe/7f9911e6-7c28-4e58-b85b-730f784cfc0c/709ca8e0-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnptcof.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnptcoe/7f9911e6-7c28-4e58-b85b-730f784cfc0c/709ca8e0-b87a-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnptcof.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 Hindi Explanation 3\">\n<br><br>At $\\mathbf{t} &lt; \\mathbf{t}_0$\n<br><br>$$\n\\begin{aligned}\ni &amp; =\\frac{\\left(\\frac{45}{3+R}\\right)-5}{1=\\frac{3 R}{3+R}} \\\\\\\\\n1 &amp; =\\frac{45-15-5 R}{3+4 R} \\\\\\\\\n\\Rightarrow R &amp; =3 \\Omega\n\\end{aligned}\n$$\n<br><br>(A) सही है।\n<br><br>$$\nI_1=\\frac{\\frac{15}{2}}{3+\\frac{3}{4}} \\Rightarrow I_1=2 \\mathrm{~A}\n$$\n<br><br>(B) सही है।\n<br><br>At $\\mathbf{t} &gt; \\mathbf{t}_0$\n<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1lrnq4j81/e5f9d568-3b6f-4f13-a2bc-38f44d571bbd/a7919c10-b87b-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnq4j82.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1lrnq4j81/e5f9d568-3b6f-4f13-a2bc-38f44d571bbd/a7919c10-b87b-11ee-a3f2-bbef0b8d82be/file-6y3zli1lrnq4j82.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"JEE Advanced 2023 Paper 1 Online Physics - Capacitor Question 5 Hindi Explanation 4\">\n<br><br>$\\begin{aligned} \\frac{\\varepsilon}{r} &amp; =\\frac{15}{3}+\\frac{5}{1}+\\frac{0}{3} \\\\\\\\ \\frac{1}{r} &amp; =\\frac{1}{3}+\\frac{1}{1}+\\frac{1}{3}=\\frac{5}{3} \\\\\\\\ \\varepsilon &amp; =10 \\times \\frac{3}{5} \\Rightarrow 6 \\mathrm{~V} \\\\\\\\ \\text { At } t \\rightarrow \\infty &amp; \\\\\\\\ q &amp; =\\mathrm{C} \\varepsilon \\\\\\\\ &amp; =2 \\times 10^{-6} \\times 6=12 \\mu \\mathrm{C}\\end{aligned}$\n<br><br>$\\begin{aligned} &amp; \\text { समय नियतांक } \\tau=R C \\\\\\\\ &amp; =(r+3) 2 \\mu \\mathrm{C} \\\\\\\\ &amp; =\\left(\\frac{3}{5}+3\\right) \\times 12=7.2 \\mu \\mathrm{s} \\\\\\\\ &amp; i=i . e^{-t / \\tau} \\\\\\\\ &amp; i_0=\\frac{\\varepsilon}{r+3}=\\frac{6}{\\left(3+\\frac{3}{5}\\right)}\\end{aligned}$\n<br><br>$$\n\\begin{aligned}\n\\Rightarrow \\quad i &amp; =\\frac{6}{\\frac{18}{5}} \\times e^{-7.2 / 1.2} \\\\\\\\\n&amp; =\\frac{5}{3} \\times 0.36=0.6 \\mathrm{~A}\n\\end{aligned}\n$$\n\n<br><br>सभी विकल्प सही हैं।"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 240000,
+      "topic": "rc-circuit",
+      "type": "mcqm",
+      "year": 2023,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "In a circuit shown in the figure, the capacitor $C$ is initially uncharged and the key $K$ is open. In this condition, a current of $1 \\mathrm{~A}$ flows through the $1 \\Omega$ resistor. The key is closed at time $t=t_0$. Which of the follo..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2023 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "चित्र में दिए गए परिपथ में प्रारंभ में संधारित्र $C$ अनावेशित है तथा कुंजी $K$ खुली है। इस अवस्था में $1 \\Omega$ प्रतिरोधक में $1 \\mathrm{~A}$ की धारा प्रवाहित होती है। समय $t=t_0$ पर कुंजी बंद कर दी जाती है| निम्न में से कौन सा(से) कथन सही..."
+        }
+      },
+      "yearKey": "jee-advanced-2023-paper-1-online"
+    },
+    {
+      "question_id": "15w6b53ikgpjeukeiich",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperId": "jee-advanced-2022-paper-1-online",
+      "paperTitle": "JEE Advanced 2022 Paper 1 Online",
+      "permalink": "pa-medium-having-dielectric-constant-k1-fills-the-space-jee-advanced-physics-units-and-measurements-lej1uje2bdmue6xv",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A medium having dielectric constant $K&gt;1$ fills the space between the plates of a parallel plate capacitor. The plates have large area, and the distance between them is $d$. The capacitor is connected to a battery of voltage $V$, as shown in Figure (a). Now, both the plates are moved by a distance of $\\frac{d}{2}$ from their original positions, as shown in Figure (b).</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7ekltmo/e271cbc3-bd97-499a-8321-38269ea07711/b02a5400-277e-11ed-a329-f332b70f4e47/file-1l7ekltmp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7ekltmo/e271cbc3-bd97-499a-8321-38269ea07711/b02a5400-277e-11ed-a329-f332b70f4e47/file-1l7ekltmp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Capacitor Question 9 English\"></p>\n<p>In the process of going from the configuration depicted in Figure (a) to that in Figure (b), which of the following statement(s) is(are) correct?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The electric field inside the dielectric material is reduced by a factor of $2 K$."
+            },
+            {
+              "identifier": "B",
+              "content": "The capacitance is decreased by a factor of $\\frac{1}{K+1}$."
+            },
+            {
+              "identifier": "C",
+              "content": "The voltage between the capacitor plates is increased by a factor of $(K+1)$."
+            },
+            {
+              "identifier": "D",
+              "content": " The work done in the process <b>DOES NOT</b> depend on the presence of the dielectric material."
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld3emmrd/f7e141f7-d63e-4f37-8a33-fbacb3334ce6/fd06c4f0-9823-11ed-81bc-b1d481621c9e/file-1ld3emmrk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld3emmrd/f7e141f7-d63e-4f37-8a33-fbacb3334ce6/fd06c4f0-9823-11ed-81bc-b1d481621c9e/file-1ld3emmrk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Capacitor Question 9 English Explanation 1\"></p>\n<p>$C_a=\\frac{K \\varepsilon_0 A}{d}$\n<br><br>$$ \\therefore $$ $q_a=\\frac{K \\varepsilon_0 A}{d} V$</p>\n<p>$ E_a  =\\frac{q_a}{K A \\varepsilon_0}$\n<br><br>$=\\frac{K \\varepsilon_0 A V}{d K \\varepsilon_0 A} $\n<br><br>$ =\\frac{V}{d}$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld3euome/999a392d-9d03-4d58-b7b1-b2cfc6d0196f/dcef2c60-9824-11ed-81bc-b1d481621c9e/file-1ld3euomf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld3euome/999a392d-9d03-4d58-b7b1-b2cfc6d0196f/dcef2c60-9824-11ed-81bc-b1d481621c9e/file-1ld3euomf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Capacitor Question 9 English Explanation 2\"></p>\n<p>$\\begin{aligned} C_b &amp; =\\frac{\\varepsilon_0 A}{d+\\left(\\frac{d}{K}\\right)} \\\\\\\\ &amp; =\\frac{\\varepsilon_0 A K}{d(K+1)}\\end{aligned}$</p>\n<p>$q_b=\\frac{\\varepsilon_0 A K V}{d(K+1)}$\n<br><br>$\\left(E_b\\right)_{\\text {dielectric }}  $\n<br><br>$=\\frac{E_{\\text {air }}}{K}  $\n<br><br>$=\\frac{q_b}{K A \\varepsilon_0}  $\n<br><br>$=\\frac{\\varepsilon_0 A K V}{d(K+1)\\left(K A \\varepsilon_0\\right)}$\n<br><br>$ =\\frac{V}{d(K+1)}$</p>\n<p>$\\begin{aligned} &amp;\\therefore\\text {  Capacitance decrease by a factor of } \\frac{1}{K+1} \\\\\\\\ &amp; \\text { Work done in the process }=U_f-U_i \\\\\\\\ &amp;=\\frac{1}{2}\\left(C_f-C_i\\right) V^2 \\\\\\\\ &amp;=\\frac{1}{2}\\left(\\frac{\\varepsilon_0 A K}{d(K+1)}-\\frac{K \\varepsilon_0 A}{d}\\right) V^2 \\\\\\\\ &amp;=\\frac{1}{2} V^2 \\frac{\\varepsilon_0 A K}{d}\\left(\\frac{1}{K+1}-1\\right) \\\\\\\\ &amp;=\\frac{1}{2} \\frac{\\varepsilon_0 A K V^2}{d} \\frac{1-K-1}{K+1} \\\\\\\\ &amp;=\\frac{1}{2} \\frac{\\varepsilon_0 A V^2}{d}\\left(\\frac{-K^2}{K+1}\\right)\\end{aligned}$</p>"
+        },
+        "hi": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>एक समान्तर प्लेट संधारित्र की प्लेटों के मध्य अंतराल को परावैद्युतांक $K&gt;1$ वाले एक माध्यम से भरा जाता है। प्लेटों का क्षेत्रफल अत्यधिक है तथा इनके मध्य की दूरी $d$ है। संधारित्र को चित्र (a) में दर्शाए अनुसार वोल्टता $V$ की एक बैटरी से संयोजित किया जाता है। अब दोनों प्लेटों को चित्र (b) में दर्शाए अनुसार इनकी मूल स्थितियों से $\\frac{d}{2}$ दूरी तक गति करायी जाती है।</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l7ekltmo/e271cbc3-bd97-499a-8321-38269ea07711/b02a5400-277e-11ed-a329-f332b70f4e47/file-1l7ekltmp.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l7ekltmo/e271cbc3-bd97-499a-8321-38269ea07711/b02a5400-277e-11ed-a329-f332b70f4e47/file-1l7ekltmp.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Capacitor Question 9 Hindi\"></p>\n<p>चित्र (a) में तथा चित्र (b) में प्रदर्शित अभिविन्यास से गुजरने वाली प्रक्रिया में, निम्नलिखित में कौनसा / कौनसे कथन सही है / हैं?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "परावैद्युत पदार्थ के अन्दर विद्युत क्षेत्र $2 K$ के गुणक से घटता है"
+            },
+            {
+              "identifier": "B",
+              "content": "धारिता $\\frac{1}{K+1}$ के गुणक से घटती है।"
+            },
+            {
+              "identifier": "C",
+              "content": "संधारित्र की प्लेटों के मध्य वोल्टता $(K+1)$ के गुणक से बढ़ती है।"
+            },
+            {
+              "identifier": "D",
+              "content": "प्रक्रिया में किया गया कार्य परावैद्युत माध्यम की उपस्थिति पर निर्भर नहीं करता है।"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld3emmrd/f7e141f7-d63e-4f37-8a33-fbacb3334ce6/fd06c4f0-9823-11ed-81bc-b1d481621c9e/file-1ld3emmrk.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld3emmrd/f7e141f7-d63e-4f37-8a33-fbacb3334ce6/fd06c4f0-9823-11ed-81bc-b1d481621c9e/file-1ld3emmrk.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Capacitor Question 9 Hindi Explanation 1\"></p>\n<p>$C_a=\\frac{K \\varepsilon_0 A}{d}$\n<br><br>$$ \\therefore $$ $q_a=\\frac{K \\varepsilon_0 A}{d} V$</p>\n<p>$ E_a  =\\frac{q_a}{K A \\varepsilon_0}$\n<br><br>$=\\frac{K \\varepsilon_0 A V}{d K \\varepsilon_0 A} $\n<br><br>$ =\\frac{V}{d}$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ld3euome/999a392d-9d03-4d58-b7b1-b2cfc6d0196f/dcef2c60-9824-11ed-81bc-b1d481621c9e/file-1ld3euomf.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ld3euome/999a392d-9d03-4d58-b7b1-b2cfc6d0196f/dcef2c60-9824-11ed-81bc-b1d481621c9e/file-1ld3euomf.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 1 Online Physics - Capacitor Question 9 Hindi Explanation 2\"></p>\n<p>$\\begin{aligned} C_b &amp;=\\frac{\\varepsilon_0 A}{d+\\left(\\frac{d}{K}\\right)} \\\\\\\\ &amp;=\\frac{\\varepsilon_0 A K}{d(K+1)}\\end{aligned}$</p>\n<p>$q_b=\\frac{\\varepsilon_0 A K V}{d(K+1)}$\n<br><br>$\\left(E_b\\right)_{\\text {परावैद्युत }}  $\n<br><br>$=\\frac{E_{\\text {वायु }}}{K}  $\n<br><br>$=\\frac{q_b}{K A \\varepsilon_0}  $\n<br><br>$=\\frac{\\varepsilon_0 A K V}{d(K+1)\\left(K A \\varepsilon_0\\right)}$\n<br><br>$ =\\frac{V}{d(K+1)}$</p>\n<p>$\\begin{aligned} &amp;\\therefore\\text {  धारिता } \\frac{1}{K+1} \\text { के गुणक से कम हो जाती है} \\\\\\\\ &amp;\\text { प्रक्रिया में किया गया कार्य }=U_f-U_i \\\\\\\\ &amp;=\\frac{1}{2}\\left(C_f-C_i\\right) V^2 \\\\\\\\ &amp;=\\frac{1}{2}\\left(\\frac{\\varepsilon_0 A K}{d(K+1)}-\\frac{K \\varepsilon_0 A}{d}\\right) V^2 \\\\\\\\ &amp;=\\frac{1}{2} V^2 \\frac{\\varepsilon_0 A K}{d}\\left(\\frac{1}{K+1}-1\\right) \\\\\\\\ &amp;=\\frac{1}{2} \\frac{\\varepsilon_0 A K V^2}{d} \\frac{1-K-1}{K+1} \\\\\\\\ &amp;=\\frac{1}{2} \\frac{\\varepsilon_0 A V^2}{d}\\left(\\frac{-K^2}{K+1}\\right)\\end{aligned}$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "capacitors-with-dielectric",
+      "type": "mcqm",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "A medium having dielectric constant $K>1$ fills the space between the plates of a parallel plate capacitor. The plates have large area, and the distance between them is $d$. The capacitor is connected to a battery of voltage $V$, as shown i..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "एक समान्तर प्लेट संधारित्र की प्लेटों के मध्य अंतराल को परावैद्युतांक $K>1$ वाले एक माध्यम से भरा जाता है। प्लेटों का क्षेत्रफल अत्यधिक है तथा इनके मध्य की दूरी $d$ है। संधारित्र को चित्र (a) में दर्शाए अनुसार वोल्टता $V$ की एक बैटरी से संय..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-1-online"
+    },
+    {
+      "question_id": "lclu18oul764ej77m360",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "in-the-circuit-shown-below-the-switch-s-is-connected-to-pos-jee-advanced-physics-units-and-measurements-l6csi3nyfzt5clcf",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In the circuit shown below, the switch S is connected to position P for a long time so that the charge on the capacitor becomes q<sub>1</sub> $$\\mu$$C. Then S is switched to position Q. After a long time, the charge on the capacitor is q<sub>2</sub> $$\\mu$$C.<br><br><img src=\"https://imagex.cdn.examgoal.net/1kuckpn5r/34aecc1b-0843-4569-9a8e-f445abb5a5ed/b92e1800-2506-11ec-b291-1df06cb45b25/file-1kuckpn5s.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Capacitor Question 14 English\"><br><br>The magnitude of q<sub>1</sub> is ________________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.33",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l30xz9r4/5b17bc2c-6528-4339-825a-aa0e7bd70813/2635f200-d0cf-11ec-9372-d31f6f396ecf/file-1l30xz9r5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l30xz9r4/5b17bc2c-6528-4339-825a-aa0e7bd70813/2635f200-d0cf-11ec-9372-d31f6f396ecf/file-1l30xz9r5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Capacitor Question 14 English Explanation\"><br>Switch connected to position P<br><br>$${V_A} - 1\\,.\\,{i_1} - 1 + 2 - 2{i_1} = {V_A}$$<br><br>$$3{i_1} = 1$$<br><br>$${i_1} = {1 \\over 3}A$$<br><br>Now, $${V_A} - 1\\,.\\,{i_1} - 1 = {V_B}$$<br><br>$${V_A} - {V_B} = 1 + {i_1} = {4 \\over 3}V$$<br><br>Potential drop across capacitor, $$\\Delta V = {4 \\over 3}V$$<br><br>$$\\therefore$$ Charge on capacitor, $${q_1} = C\\Delta V = 1 \\times {4 \\over 3}\\mu C$$<br><br>$${q_1} = 1.33\\mu C$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>चित्र में दिखाए गए परिपथ में, कुंजी $$\\mathrm{S}$$ को $$\\mathrm{P}$$ सिरे से काफी समय तक जोड़कर रखते हैं जिससे संधारित्र (capacitor) पर आवेश $$q_{1} ~\\mu \\mathrm{C}$$ हो जाता है। फिर $$\\mathrm{S}$$ को $$\\mathrm{Q}$$ सिरे से जोड़ दिया जाता है। काफी समय के उपरांत संधारित्र पर आवेश $$q_{2} ~\\mu \\mathrm{C}$$ हो जाता है।</p>\n<p><img src=\"https://imagex.cdn.examgoal.net/1kuckpn5r/34aecc1b-0843-4569-9a8e-f445abb5a5ed/b92e1800-2506-11ec-b291-1df06cb45b25/file-1kuckpn5s.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Capacitor Question 14 Hindi\"></p>\n<p>$$q_{1}$$ का परिमाण __________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.33",
+          "explanation": "<img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l30xz9r4/5b17bc2c-6528-4339-825a-aa0e7bd70813/2635f200-d0cf-11ec-9372-d31f6f396ecf/file-1l30xz9r5.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l30xz9r4/5b17bc2c-6528-4339-825a-aa0e7bd70813/2635f200-d0cf-11ec-9372-d31f6f396ecf/file-1l30xz9r5.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Capacitor Question 14 Hindi Explanation\"><br>स्विच को स्थिति P से जोड़ा गया है<br><br>$${V_A} - 1\\,.\\,{i_1} - 1 + 2 - 2{i_1} = {V_A}$$<br><br>$$3{i_1} = 1$$<br><br>$${i_1} = {1 \\over 3}A$$<br><br>अब, $${V_A} - 1\\,.\\,{i_1} - 1 = {V_B}$$<br><br>$${V_A} - {V_B} = 1 + {i_1} = {4 \\over 3}V$$<br><br>संधारित्र के सिरों पर विभवांतर, $$\\Delta V = {4 \\over 3}V$$<br><br>$$\\therefore$$ संधारित्र पर आवेश, $${q_1} = C\\Delta V = 1 \\times {4 \\over 3}\\mu C$$<br><br>$${q_1} = 1.33\\mu C$$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "capacitor-in-circuit",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "In the circuit shown below, the switch S is connected to position P for a long time so that the charge on the capacitor becomes q1 $$\\mu$$C. Then S is switched to position Q. After a long time, the charge on the capacitor is q2 $$\\mu$$C.The..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "चित्र में दिखाए गए परिपथ में, कुंजी $$\\mathrm{S}$$ को $$\\mathrm{P}$$ सिरे से काफी समय तक जोड़कर रखते हैं जिससे संधारित्र (capacitor) पर आवेश $$q_{1} ~\\mu \\mathrm{C}$$ हो जाता है। फिर $$\\mathrm{S}$$ को $$\\mathrm{Q}$$ सिरे से जोड़ दिया जाता ह..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "question_id": "oa03lxfb44wsjdpiq20d",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 2,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2021 Paper 1 Online",
+      "permalink": "in-the-circuit-shown-below-the-switch-s-is-connected-to-pos-jee-advanced-physics-units-and-measurements-bppxcv0rxslmbuvj",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In the circuit shown below, the switch S is connected to position P for a long time so that the charge on the capacitor becomes q<sub>1</sub> $$\\mu$$C. Then S is switched to position Q. After a long time, the charge on the capacitor is q<sub>2</sub> $$\\mu$$C.<br><br><img src=\"https://imagex.cdn.examgoal.net/1kuckpn5r/34aecc1b-0843-4569-9a8e-f445abb5a5ed/b92e1800-2506-11ec-b291-1df06cb45b25/file-1kuckpn5s.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Capacitor Question 13 English\"><br><br>The magnitude of q<sub>2</sub> is ________________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.67",
+          "explanation": "Switch at position Q<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l30xuxnr/01eb16b2-4234-4562-926e-5b9db9906faa/ada1df70-d0ce-11ec-bc84-cf2f4c1919d3/file-1l30xuxns.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l30xuxnr/01eb16b2-4234-4562-926e-5b9db9906faa/ada1df70-d0ce-11ec-bc84-cf2f4c1919d3/file-1l30xuxns.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Capacitor Question 13 English Explanation\"><br>$${V_A} - 1\\,.\\,{i_2} + 2 - 2{i_2} = {V_A}$$<br><br>$$3{i_2} = 2$$<br><br>$$ \\Rightarrow {i_2} = {2 \\over 3}A$$<br><br>Now, $${V_A} - \\,{i_2} \\times 1 = {V_B}$$<br><br>$${V_A} - {V_B} = {i_2} \\times 1 = {2 \\over 3}V$$<br><br>Potential difference across capacitor, $$\\Delta V = {2 \\over 3}V$$<br><br>$$\\therefore$$ Charge on capacitor, $${q_2} = C\\Delta V = 1 \\times {2 \\over 3} = 0.67\\mu C$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>चित्र में दिखाए गए परिपथ में, कुंजी $$\\mathrm{S}$$ को $$\\mathrm{P}$$ सिरे से काफी समय तक जोड़कर रखते हैं जिससे संधारित्र (capacitor) पर आवेश $$q_{1} ~\\mu \\mathrm{C}$$ हो जाता है। फिर $$\\mathrm{S}$$ को $$\\mathrm{Q}$$ सिरे से जोड़ दिया जाता है। काफी समय के उपरांत संधारित्र पर आवेश $$q_{2} ~\\mu \\mathrm{C}$$ हो जाता है।</p>\n<p><img src=\"https://imagex.cdn.examgoal.net/1kuckpn5r/34aecc1b-0843-4569-9a8e-f445abb5a5ed/b92e1800-2506-11ec-b291-1df06cb45b25/file-1kuckpn5s.png\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Capacitor Question 13 Hindi\"></p>\n<p>$$q_{2}$$ का परिमाण __________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "0.67",
+          "explanation": "स्विच स्थिति Q पर<br><br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l30xuxnr/01eb16b2-4234-4562-926e-5b9db9906faa/ada1df70-d0ce-11ec-bc84-cf2f4c1919d3/file-1l30xuxns.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l30xuxnr/01eb16b2-4234-4562-926e-5b9db9906faa/ada1df70-d0ce-11ec-bc84-cf2f4c1919d3/file-1l30xuxns.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2021 Paper 1 Online Physics - Capacitor Question 13 Hindi Explanation\"><br>$${V_A} - 1\\,.\\,{i_2} + 2 - 2{i_2} = {V_A}$$<br><br>$$3{i_2} = 2$$<br><br>$$ \\Rightarrow {i_2} = {2 \\over 3}A$$<br><br>अब, $${V_A} - \\,{i_2} \\times 1 = {V_B}$$<br><br>$${V_A} - {V_B} = {i_2} \\times 1 = {2 \\over 3}V$$<br><br>संधारित्र के सिरों पर विभवांतर, $$\\Delta V = {2 \\over 3}V$$<br><br>$$\\therefore$$ संधारित्र पर आवेश, $${q_2} = C\\Delta V = 1 \\times {2 \\over 3} = 0.67\\mu C$$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 189474,
+      "topic": "capacitor-in-circuit",
+      "type": "integer",
+      "year": 2021,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2021-paper-1-online",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "In the circuit shown below, the switch S is connected to position P for a long time so that the charge on the capacitor becomes q1 $$\\mu$$C. Then S is switched to position Q. After a long time, the charge on the capacitor is q2 $$\\mu$$C.The..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2021 Paper 1 Online",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "चित्र में दिखाए गए परिपथ में, कुंजी $$\\mathrm{S}$$ को $$\\mathrm{P}$$ सिरे से काफी समय तक जोड़कर रखते हैं जिससे संधारित्र (capacitor) पर आवेश $$q_{1} ~\\mu \\mathrm{C}$$ हो जाता है। फिर $$\\mathrm{S}$$ को $$\\mathrm{Q}$$ सिरे से जोड़ दिया जाता ह..."
+        }
+      },
+      "yearKey": "jee-advanced-2021-paper-1-online"
+    },
+    {
+      "question_id": "p07t7odrgzs935dirijd",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "two-capacitors-with-capacitance-values-csub1sub--2000-jee-advanced-physics-units-and-measurements-siklgkjmmtux711k",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Two capacitors with capacitance values C<sub>1</sub> = 2000 $$ \\pm $$ 10 pF and C<sub>2</sub> = 3000 $$ \\pm $$ 15 pF are connected in series. The voltage applied across this combination is V = 5.00 $$ \\pm $$ 0.02 V. The percentage error in the calculation of the energy stored in this combination of capacitors is ________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.3",
+          "explanation": "Given that, $C_1=(2000 \\pm 10) \\mathrm{pF} ; \\quad C_2=(3000 \\pm 15) \\mathrm{pF}$ and $V=(5.00 \\pm 8.02) \\mathrm{V}$.<br/><br/>\nCombine capacitance of series combination<br/><br/>\n$$\n\\begin{aligned}\n\\frac{1}{C} & =\\frac{1}{C_1}+\\frac{1}{C_2} ~~~~....(1)\\\\\\\\\n\\Rightarrow & \\frac{1}{C}=\\frac{1}{2000}+\\frac{1}{3000}=\\frac{(6+4)}{12000} \\\\\\\\\n\\frac{1}{C} & =\\frac{10}{12000} \\Rightarrow C=1200 \\mathrm{pF}\n\\end{aligned}\n$$<br/><br/>\nDifferentiating Eq. (1), we get<br/><br/>\n$$\n\\begin{aligned}\n-\\frac{1}{C^2} \\cdot d C & =-\\frac{1}{C_1^2} d C_1+\\left(-\\frac{1}{C_2^2}\\right) \\cdot d C_2 \\\\\\\\\n\\Rightarrow \\frac{d C}{C^2} & =\\left(\\frac{d C_1}{C_1^2}+\\frac{d C_2}{C_2^2}\\right) \\\\\\\\\n\\Rightarrow \\frac{d C}{C} & =\\left[\\frac{d C_1}{C_1^2}+\\frac{d C_2}{C_2^2}\\right] \\cdot C \\\\\\\\\n\\Rightarrow \\frac{d C}{C} & =\\left[\\frac{10}{(2000)^2}+\\frac{15}{(3000)^2}\\right] \\times 1200 \\\\\\\\\n\\Rightarrow \\frac{d C}{C} & =\\left[\\frac{10}{4} \\times 10^{-6}+\\frac{15}{9} \\times 10^{-6}\\right] \\times 1200 \\\\\\\\\n& =\\left[\\frac{10}{4}+\\frac{15}{9}\\right] \\times 12 \\times 10^{-4}\n\\end{aligned}\n$$<br/><br/>\n$$\n\\Rightarrow \\frac{d C}{C}=[2.5+1.66] \\times 12 \\times 10^{-4}=[4.17 \\times 12] \\times 10^{-4}\n$$<br/><br/>\nAnd\n$$\n\\frac{d V}{V}=\\frac{0.02}{5}\n$$<br/><br/>\nEnergy stored in the capacitor is given by<br/><br/>\n$$\nU=\\frac{1}{2} C V^2\n$$    .....(2)<br/><br/>\nDifferentiating Eq. (2), we get<br/><br/>\n$$\n\\begin{aligned}\n\\frac{d U}{U} \\times 100 & =\\frac{d C}{C} \\times 100+2 \\frac{d V}{V} \\times 100 \\\\\\\\\n& =\\left[50.04 \\times 10^{-4} \\times 100+\\frac{2 \\times 0.02}{5} \\times 100\\right] \\\\\\\\\n\\left(\\frac{d U}{U}\\right)^{100} & =[0.5004+0.8] \\% \\Rightarrow 1.30 \\%\n\\end{aligned}\n$$"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>दो संधारित्र (capacitors), जिनकी धारिताएँ $$C_{1}=2000 \\pm 10 ~\\mathrm{pF}$$ एवं $$C_{2}=3000 \\pm 15 ~\\mathrm{pF}$$ हैं, श्रेणीक्रम (series) में संयोजित हैं।इस संयोजन के मध्य वोल्टता $$V=5.00 \\pm 0.02 \\mathrm{~V}$$ है । संधारित्र के इस संयोजन में संचित उर्जा की गणना में प्रतिशत त्रुटि _____________ है।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.3",
+          "explanation": "दिया गया है, $C_1=(2000 ± 10) \\mathrm{pF} ; \\quad C_2=(3000 ± 15) \\mathrm{pF}$ और $V=(5.00 ± 8.02) \\mathrm{V}$.<br/><br/>श्रेणीक्रम संयोजन की तुल्य धारिता<br/><br/>$$\\begin{aligned}\\frac{1}{C} & =\\frac{1}{C_1}+\\frac{1}{C_2} ~~~~....(1)\\\\\\\\\\Rightarrow & \\frac{1}{C}=\\frac{1}{2000}+\\frac{1}{3000}=\\frac{(6+4)}{12000} \\\\\\\\\\frac{1}{C} & =\\frac{10}{12000} \\Rightarrow C=1200 \\mathrm{pF}\\end{aligned}$$<br/><br/>समीकरण (1) का अवकलन करने पर, हमें प्राप्त होता है<br/><br/>$$\\begin{aligned}-\\frac{1}{C^2} \\cdot d C & =-\\frac{1}{C_1^2} d C_1+\\left(-\\frac{1}{C_2^2}\\right) \\cdot d C_2 \\\\\\\\\\Rightarrow \\frac{d C}{C^2} & =\\left(\\frac{d C_1}{C_1^2}+\\frac{d C_2}{C_2^2}\\right) \\\\\\\\\\Rightarrow \\frac{d C}{C} & =\\left[\\frac{d C_1}{C_1^2}+\\frac{d C_2}{C_2^2}\\right] \\cdot C \\\\\\\\\\Rightarrow \\frac{d C}{C} & =\\left[\\frac{10}{(2000)^2}+\\frac{15}{(3000)^2}\\right] \\times 1200 \\\\\\\\\\Rightarrow \\frac{d C}{C} & =\\left[\\frac{10}{4} \\times 10^{-6}+\\frac{15}{9} \\times 10^{-6}\\right] \\times 1200 \\\\\\\\& =\\left[\\frac{10}{4}+\\frac{15}{9}\\right] \\times 12 \\times 10^{-4}\\end{aligned}$$<br/><br/>$$\\Rightarrow \\frac{d C}{C}=[2.5+1.66] \\times 12 \\times 10^{-4}=[4.17 \\times 12] \\times 10^{-4}$$<br/><br/>और$$\\frac{d V}{V}=\\frac{0.02}{5}$$<br/><br/>संधारित्र में संचित ऊर्जा निम्न प्रकार से दी जाती है<br/><br/>$$U=\\frac{1}{2} C V^2$$    .....(2)<br/><br/>समीकरण (2) का अवकलन करने पर, हमें प्राप्त होता है<br/><br/>$$\\begin{aligned}\\frac{d U}{U} \\times 100 & =\\frac{d C}{C} \\times 100+2 \\frac{d V}{V} \\times 100 \\\\\\\\& =\\left[50.04 \\times 10^{-4} \\times 100+\\frac{2 \\times 0.02}{5} \\times 100\\right] \\\\\\\\\\left(\\frac{d U}{U}\\right) \\times 100 & =[0.5004+0.8] \\% \\Rightarrow 1.30 \\%\\end{aligned}$$"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "electric-energy-stored-by-capacitor",
+      "type": "integer",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "Two capacitors with capacitance values C1 = 2000 $$ \\pm $$ 10 pF and C2 = 3000 $$ \\pm $$ 15 pF are connected in series. The voltage applied across this combination is V = 5.00 $$ \\pm $$ 0.02 V. The percentage error in the calculation of the..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "दो संधारित्र (capacitors), जिनकी धारिताएँ $$C_{1}=2000 \\pm 10 ~\\mathrm{pF}$$ एवं $$C_{2}=3000 \\pm 15 ~\\mathrm{pF}$$ हैं, श्रेणीक्रम (series) में संयोजित हैं।इस संयोजन के मध्य वोल्टता $$V=5.00 \\pm 0.02 \\mathrm{~V}$$ है । संधारित्र के इस संयो..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "39x48uztzpwvy20qry9k",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperTitle": "JEE Advanced 2019 Paper 1 Offline",
+      "permalink": "a-parallel-plate-capacitor-of-capacitance-c-has-spacing-d-be-jee-advanced-physics-units-and-measurements-atitpdkyrcikorhl",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A parallel plate capacitor of capacitance C has spacing d between two plates having area A. The region between the plates is filled with N dielectric layers, parallel to its plates, each with thickness, $$\\delta  = {d \\over N}$$. The dielectric constant of the m<sup>th</sup> layer is $${K_m} = K\\left( {1 + {m \\over N}} \\right)$$. For a very large N(&gt;10<sup>3</sup>), the capacitance C is $$\\alpha \\left( {{{K{\\varepsilon _0}A} \\over {d\\ln 2}}} \\right)$$<br><br>The value of $$\\alpha $$ will be ..................<br><br>[$$ \\in $$<sub>0</sub> is the permittivity of free space.]",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "Parallel plate capacitor,<br><br>$${x \\over m} = {d \\over N}$$<br><br>$$d\\left( {{1 \\over C}} \\right) = {{dx} \\over {{K_m}{\\varepsilon _0}A}} = {{dx} \\over {K{\\varepsilon _0}A\\left( {1 + {m \\over N}} \\right)}} = {{dx} \\over {K{\\varepsilon _0}A\\left( {1 + {x \\over d}} \\right)}}$$<br><br>Integration on both sides, we get<br><br>$${1 \\over {{C_{eq}}}} = \\int {d\\left( {{1 \\over C}} \\right) = \\int_0^D {{{d\\,dx} \\over {K{\\varepsilon _0}A(d + x)}}} } $$<br><br>$${1 \\over {{C_{eq}}}} = \\int {{d \\over {K{\\varepsilon _0}A}}\\ln 2}  \\Rightarrow {C_{eq}} = {{K{\\varepsilon _0}A} \\over {d\\,\\ln 2}}$$<br><br>Therefore, $$\\alpha $$ = 1."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>एक $$C$$ धारिता वाले समान्तर प्लेट संधारित्र के प्लेटों के बीच की दूरी $$d$$ है और प्रत्येक प्लेट का क्षेत्रफल $$A$$ है | प्लेटों के बीच, पूरे स्थान को प्लेटों के समान्तर, $$\\delta=\\frac{d}{N}$$ मोटाई वाली $$N$$ परावैद्युत परतों से भर देते हैं। $$m^{\\text {th }}$$ परत का परावैद्युतांक $$K_{m}=K\\left(1+\\frac{m}{N}\\right)$$ है। बहुत अधिक $$N\\left(>10^{3}\\right)$$ के लिए धारिता $$C=\\alpha\\left(\\frac{K \\epsilon_{0} A}{d \\ln 2}\\right)$$ है | $$\\alpha$$ का मान __________ होगा |</p>\n<p>[मुक्त आकाश (free space) की वैद्युतशीलता $$\\epsilon_{0}$$ है ]</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "1",
+          "explanation": "समांतर प्लेट संधारित्र,<br><br>$${x \\over m} = {d \\over N}$$<br><br>$$d\\left( {{1 \\over C}} \\right) = {{dx} \\over {{K_m}{\\varepsilon _0}A}} = {{dx} \\over {K{\\varepsilon _0}A\\left( {1 + {m \\over N}} \\right)}} = {{dx} \\over {K{\\varepsilon _0}A\\left( {1 + {x \\over d}} \\right)}}$$<br><br>दोनों पक्षों पर समाकलन करने पर, हमें प्राप्त होता है<br><br>$${1 \\over {{C_{eq}}}} = \\int {d\\left( {{1 \\over C}} \\right) = \\int_0^D {{{d\\,dx} \\over {K{\\varepsilon _0}A(d + x)}}} } $$<br><br>$${1 \\over {{C_{eq}}}} = \\int {{d \\over {K{\\varepsilon _0}A}}\\ln 2}  \\Rightarrow {C_{eq}} = {{K{\\varepsilon _0}A} \\over {d\\,\\ln 2}}$$<br><br>इसलिए, $$\\alpha $$ = 1."
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "capacitance",
+      "type": "integer",
+      "year": 2019,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2019-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "A parallel plate capacitor of capacitance C has spacing d between two plates having area A. The region between the plates is filled with N dielectric layers, parallel to its plates, each with thickness, $$\\delta  = {d \\over N}$$. The dielec..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2019 Paper 1 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "एक $$C$$ धारिता वाले समान्तर प्लेट संधारित्र के प्लेटों के बीच की दूरी $$d$$ है और प्रत्येक प्लेट का क्षेत्रफल $$A$$ है | प्लेटों के बीच, पूरे स्थान को प्लेटों के समान्तर, $$\\delta=\\frac{d}{N}$$ मोटाई वाली $$N$$ परावैद्युत परतों से भर देते ..."
+        }
+      },
+      "yearKey": "jee-advanced-2019-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "xkn9nj7bs9hqhv2ntqs5",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "capacitor",
+      "year": 2018,
+      "paperTitle": "JEE Advanced 2018 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Three identical capacitors $${C_1},{C_2}$$ and $${C_3}$$ have a capacitance of $$1.0\\,\\mu F$$ each and they are unchanged initially. They are connected in a circuit as shown in the figure and $${C_1}$$ is then filled completely with a dielectric  material of relative permittivity $${\\varepsilon _r}.$$ The cell electromotive force $$\\left( {emf} \\right)\\,\\,{V_0} = 8V.$$ First the switch $${S_1}$$ is closed while the switch $${S_2}$$ is kept open. When the capacitor $${C_3}$$ is fully charged, $${S_1}$$ is opened and $${S_2}$$ is closed simultaneously. When all the capacitors reach equilibrium, the charge on $${C_3}$$ is found to be $$5\\,\\mu C.$$ The value of $${\\varepsilon _r} = $$ _________________. \n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/RCMHD6v2sBQ4MmOGj/AjFHl0IFT161RpIcGXickMlCYwEnh/UDU9JEpk9yAbn7wygeAL2u/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Capacitor Question 18 English\"> ",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.50",
+          "explanation": "<p>Given C<sub>1</sub> = C<sub>2</sub> = C<sub>3</sub> = 1.0 $$\\mu$$F and V<sub>0</sub> = 8 V</p>\n<p>When S<sub>1</sub> is close and S<sub>2</sub> is open. Charge on C<sub>3</sub> is 8 $$\\mu$$C.</p>\n<p>The circuit is</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kyg1c3z9/add13602-66c6-49b5-aa63-50690880af54/f380e550-761e-11ec-a1f6-57d2ed8f39f2/file-1kyg1c3za.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kyg1c3z9/add13602-66c6-49b5-aa63-50690880af54/f380e550-761e-11ec-a1f6-57d2ed8f39f2/file-1kyg1c3za.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Capacitor Question 18 English Explanation 1\"> </p>\n<p>When S<sub>1</sub> is open and S<sub>2</sub> is close. Charge on C<sub>3</sub> is 5 $$\\mu$$C. Therefore, charge on C<sub>1</sub> and C<sub>2</sub> will be 3 $$\\mu$$C.</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kyg1e05h/ece29ad0-b1a1-4e64-a2cd-e06c04b4254d/282a5750-761f-11ec-860d-b35b50d4eea2/file-1kyg1e05i.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kyg1e05h/ece29ad0-b1a1-4e64-a2cd-e06c04b4254d/282a5750-761f-11ec-860d-b35b50d4eea2/file-1kyg1e05i.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Capacitor Question 18 English Explanation 2\"> </p>\n<p>The potential difference across C<sub>3</sub> is equal to the potential difference across C<sub>1</sub> and C<sub>2</sub> together i.e.,</p>\n<p>$${{{q_1}} \\over {C{'_1}}} + {{{q_2}} \\over {{C_2}}} = {{{q_3}} \\over {{C_3}}}$$,</p>\n<p>$${{3\\mu C} \\over {{ \\in _r}(1\\mu F)}} + {{3\\mu C} \\over {1\\mu F}} = {{5\\mu C} \\over {1\\mu F}}$$.</p>\n<p>Solve to get $${ \\in _r} = 1.5$$.</p>"
+        },
+        "hi": {
+          "content": "तीन समान धारिता वाले संधारित्र $${C_1},{C_2}$$ और $${C_3}$$ की धारिता $$1.0\\,\\mu F$$ (माइक्रोफैराड) है और वे प्रारंभ में अप्रयुक्त होते हैं। उन्हें चित्र में दिखाए अनुसार परिपथ में जोड़ा जाता है और फिर $${C_1}$$ को सापेक्ष परमीविट्टी $${\\varepsilon _r}$$ के एक डाइलेक्ट्रिक पदार्थ से पूरी तरह से भरा जाता है। सेल विद्युत प्रेरक बल $$\\left( {emf} \\right)\\,\\,{V_0} = 8V.$$ पहले स्विच $${S_1}$$ को बंद किया जाता है जबकि स्विच $${S_2}$$ को खुला रखा जाता है। जब संधारित्र $${C_3}$$ पूरी तरह से चार्ज हो जाता है, तो $${S_1}$$ को खोल दिया जाता है और $${S_2}$$ को एक ही समय में बंद कर दिया जाता है। जब सभी संधारित्र संतुलन में पहुँच जाते हैं, तो $${C_3}$$ पर आवेश $$5\\,\\mu C$$ होता है। $${\\varepsilon _r}$$ का मान _________________.\n<br><br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/RCMHD6v2sBQ4MmOGj/AjFHl0IFT161RpIcGXickMlCYwEnh/UDU9JEpk9yAbn7wygeAL2u/image.png\" loading=\"lazy\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Capacitor Question 18 Hindi\">",
+          "options": [],
+          "correct_options": [],
+          "answer": "1.50",
+          "explanation": "<p>दिया गया है C<sub>1</sub> = C<sub>2</sub> = C<sub>3</sub> = 1.0 $$\\mu$$F और V<sub>0</sub> = 8 V</p>\n<p>जब S<sub>1</sub> बंद है और S<sub>2</sub> खुला है। C<sub>3</sub> पर आवेश 8 $$\\mu$$C है।</p>\n<p>परिपथ है</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kyg1c3z9/add13602-66c6-49b5-aa63-50690880af54/f380e550-761e-11ec-a1f6-57d2ed8f39f2/file-1kyg1c3za.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kyg1c3z9/add13602-66c6-49b5-aa63-50690880af54/f380e550-761e-11ec-a1f6-57d2ed8f39f2/file-1kyg1c3za.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Capacitor Question 18 Hindi Explanation 1\"> </p>\n<p>जब S<sub>1</sub> खुला है और S<sub>2</sub> बंद है। C<sub>3</sub> पर आवेश 5 $$\\mu$$C है। अतः, C<sub>1</sub> और C<sub>2</sub> पर आवेश 3 $$\\mu$$C होगा।</p>\n<p> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kyg1e05h/ece29ad0-b1a1-4e64-a2cd-e06c04b4254d/282a5750-761f-11ec-860d-b35b50d4eea2/file-1kyg1e05i.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kyg1e05h/ece29ad0-b1a1-4e64-a2cd-e06c04b4254d/282a5750-761f-11ec-860d-b35b50d4eea2/file-1kyg1e05i.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 1 Offline Physics - Capacitor Question 18 Hindi Explanation 2\"> </p>\n<p>C<sub>3</sub> के सिरों पर विभवांतर, C<sub>1</sub> और C<sub>2</sub> के सिरों पर कुल विभवांतर के बराबर है अर्थात्,</p>\n<p>$${{{q_1}} \\over {C{'_1}}} + {{{q_2}} \\over {{C_2}}} = {{{q_3}} \\over {{C_3}}}$$,</p>\n<p>$${{3\\mu C} \\over {{ \\in _r}(1\\mu F)}} + {{3\\mu C} \\over {1\\mu F}} = {{5\\mu C} \\over {1\\mu F}}$$.</p>\n<p>हल करने पर $${ \\in _r} = 1.5$$ प्राप्त होता है।</p>",
+          "comprehension": null,
+          "direction": null
+        }
+      },
+      "permalink": "three-identical-capacitors-c1c2-and-c3-hav-2018-marks-3-hxbz79zr0igc96ac.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-1-offline",
+      "topic": "capacitor-in-circuit",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "Three identical capacitors $${C_1},{C_2}$$ and $${C_3}$$ have a capacitance of $$1.0\\,\\mu F$$ each and they are unchanged initially. They are connected in a circuit as shown in the figure and $${C_1}$$ is then filled completely with a diele..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 1 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "तीन समान धारिता वाले संधारित्र $${C_1},{C_2}$$ और $${C_3}$$ की धारिता $$1.0\\,\\mu F$$ (माइक्रोफैराड) है और वे प्रारंभ में अप्रयुक्त होते हैं। उन्हें चित्र में दिखाए अनुसार परिपथ में जोड़ा जाता है और फिर $${C_1}$$ को सापेक्ष परमीविट्टी $${\\va..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-1-offline"
+    },
+    {
+      "question_id": "ajpfxhkkzjf6qtclthia",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "easy",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "permalink": "in-process-1-the-energy-stored-in-the-capacitor-esubcsu-jee-advanced-physics-units-and-measurements-qihn015lywmk5xss",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In Process 1, the energy stored in the capacitor E<sub>C</sub> and heat dissipated across resistance E<sub>D</sub> are related by",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "E<sub>C</sub> = E<sub>D</sub> ln2"
+            },
+            {
+              "identifier": "B",
+              "content": "E<sub>C</sub> = E<sub>D</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "E<sub>C</sub> = 2E<sub>D</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "E<sub>C</sub> = $${1 \\over 2}$$E<sub>D</sub>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "Energy supplied to the circuit is CV$$_0^2$$<br/><br/>Energy stored in capacitor, E<sub>C</sub> = $${1\\over 2}$$CV$$_0^2$$<br/><br/>Therefore, <br/><br/>Energy dissipated E<sub>0</sub> = Energy supplied $$-$$ Energy stored<br/><br/>= CV$$_0^2$$ $$-$$ $${1\\over 2}$$CV$$_0^2$$ = $${1\\over 2}$$CV$$_0^2$$<br/><br/>$$\\Rightarrow$$ E<sub>C</sub> = E<sub>D</sub>",
+          "comprehension": "Consider a simple RC circuit as shown in Figure 1.<br><br>Process 1 : In the circuit the switch S is closed at t = 0 and the capacitor is fully charged to voltage V<sub>0</sub> (i.e. charging continues for time T &gt;&gt; RC). In the process some dissipation (E<sub>D</sub>) occurs across the resistance R. The amount of energy finally stored in the fully charged capacitor is E<sub>C</sub>.<br><br>Process 2 : In a different process the voltage is first set to $${{{V_0}} \\over 3}$$ and maintained for a charging time T &gt;&gt; RC. Then, the voltage is raised to $${{2{V_0}} \\over 3}$$ without discharging the capacitor and again maintained for a time T &gt;&gt; RC. The process is repeated one more time by raising the voltage to V<sub>0</sub> and the capacitor is charged to the same final voltage V<sub>0</sub> as in Process 1.<br><br>These two processes are depicted in Figure 2.<br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kz1edbbp/918c03b8-8863-4770-931b-8ef08fe985e1/614de360-81de-11ec-ae8a-7b46b519f0dc/file-1kz1edbbq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kz1edbbp/918c03b8-8863-4770-931b-8ef08fe985e1/614de360-81de-11ec-ae8a-7b46b519f0dc/file-1kz1edbbq.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Capacitor Question 12 English Comprehension\">"
+        },
+        "hi": {
+          "direction": null,
+          "content": "प्रक्रिया 1 में, संधारित्र में संग्रहीत ऊर्जा E<sub>C</sub> और प्रतिरोध के पार अवशोषित गर्मी E<sub>D</sub> निम्नलिखित रूप में संबंधित हैं",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "E<sub>C</sub> = E<sub>D</sub> ln2"
+            },
+            {
+              "identifier": "B",
+              "content": "E<sub>C</sub> = E<sub>D</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "E<sub>C</sub> = 2E<sub>D</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "E<sub>C</sub> = $${1 \\over 2}$$E<sub>D</sub>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": "एक साधारण RC सर्किट पर विचार करें जैसा कि चित्र 1 में दिखाया गया है।<br><br>प्रक्रिया 1 : सर्किट में स्विच S को t = 0 पर बंद कर दिया जाता है और संधारित्र को पूर्ण रूप से V<sub>0</sub> वोल्टेज तक चार्ज किया जाता है (अर्थात चार्जिंग T &gt;&gt; RC समय तक जारी रहती है)। इस प्रक्रिया में कुछ अवशोषण (E<sub>D</sub>) प्रतिरोध R के पार होता है। अंत में पूर्ण चार्ज किए गए संधारित्र में संग्रहीत होने वाली ऊर्जा E<sub>C</sub> है।<br><br>प्रक्रिया 2 : एक अलग प्रक्रिया में वोल्टेज पहले $${{{V_0}} \\over 3}$$ पर सेट किया जाता है और चार्जिंग समय T &gt;&gt; RC के लिए बनाए रखा जाता है। फिर, वोल्टेज को $${{2{V_0}} \\over 3}$$ तक बढ़ाया जाता है बिना संधारित्र को डिस्चार्ज किए और इसे फिर से T &gt;&gt; RC समय के लिए बनाए रखा जाता है। प्रक्रिया एक और बार दोहराई जाती है, वोल्टेज को V<sub>0</sub> तक बढ़ाकर और संधारित्र को उसी अंतिम वोल्टेज V<sub>0</sub> पर चार्ज किया जाता है जैसा कि प्रक्रिया 1 में था।<br><br>ये दो प्रक्रियाएं चित्र 2 में दर्शाई गई हैं।<br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kz1edbbp/918c03b8-8863-4770-931b-8ef08fe985e1/614de360-81de-11ec-ae8a-7b46b519f0dc/file-1kz1edbbq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kz1edbbp/918c03b8-8863-4770-931b-8ef08fe985e1/614de360-81de-11ec-ae8a-7b46b519f0dc/file-1kz1edbbq.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Capacitor Question 12 Hindi Comprehension\">"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "growth-and-decay-of-current",
+      "type": "mcq",
+      "year": 2017,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "In Process 1, the energy stored in the capacitor EC and heat dissipated across resistance ED are related by"
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "प्रक्रिया 1 में, संधारित्र में संग्रहीत ऊर्जा EC और प्रतिरोध के पार अवशोषित गर्मी ED निम्नलिखित रूप में संबंधित हैं"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "4ekx2t6grcuxdj5srgxh",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2017-paper-2-offline",
+      "paperTitle": "JEE Advanced 2017 Paper 2 Offline",
+      "permalink": "in-process-2-total-energy-dissipated-across-the-resistance-jee-advanced-physics-units-and-measurements-bwhot5sbfk9l0mqs",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "In Process 2, total energy dissipated across the resistance E<sub>D</sub> is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${E_D} = {1 \\over 3}\\left( {{1 \\over 2}CV_0^2} \\right)$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${E_D} = 3\\left( {{1 \\over 2}CV_0^2} \\right)$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${E_D} = 3CV_0^2$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${E_D} = {1 \\over 2}CV_0^2$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "Process 1 :<br/><br/>Voltage is set to V<sub>0</sub>/3<br/><br/>Charge supplied = $${{C{V_0}} \\over 3}$$<br/><br/>Energy supplied = $${{{V_0}} \\over 3} \\times {{C{V_0}} \\over 3} = {{CV_0^2} \\over 9}$$<br/><br/>Process 2 :<br/><br/>Voltage is raised to 2V<sub>0</sub>/3<br/><br/>additional charge supplied = $${{2{V_0}C} \\over 3} - {{{V_0}C} \\over 3} = {{C{V_0}} \\over 3}$$<br/><br/>Energy supplied = $${{2{V_0}} \\over 3} \\times {{C{V_0}} \\over 3} = {{2CV_0^2} \\over 9}$$<br/><br/>Process 3 :<br/><br/>Voltage is raised to V<sub>0</sub><br/><br/>additional charge supplied = $${V_0}C - {{2{V_0}C} \\over 3} = {{C{V_0}} \\over 3}$$<br/><br/>Energy supplied = $${V_0} \\times {{C{V_0}} \\over 3} = {{CV_0^2} \\over 3}$$<br/><br/>Total energy supplied to circuit = $${{CV_0^2} \\over 9} + {{2CV_0^2} \\over 9} + {{CV_0^2} \\over 3}$$<br/><br/>$$ = {6 \\over 9}CV_0^2 = {2 \\over 3}CV_0^2$$<br/><br/>Final energy stored in capacitor = $${1 \\over 2}CV_0^2$$<br/><br/>Therefore,<br/><br/>Energy dissipated E<sub>D</sub> = Energy supplied $$-$$ Energy stored<br/><br/>$$ = {2 \\over 3}CV_0^2 - {1 \\over 2}CV_0^2$$<br/><br/>$$ = {{4CV_0^2 - 3CV_0^2} \\over 6} = {1 \\over 6}CV_0^2$$<br/><br/>$$ = {1 \\over 3}\\left( {{1 \\over 2}CV_0^2} \\right)$$",
+          "comprehension": "Consider a simple RC circuit as shown in Figure 1.<br><br>Process 1 : In the circuit the switch S is closed at t = 0 and the capacitor is fully charged to voltage V<sub>0</sub> (i.e. charging continues for time T &gt;&gt; RC). In the process some dissipation (E<sub>D</sub>) occurs across the resistance R. The amount of energy finally stored in the fully charged capacitor is E<sub>C</sub>.<br><br>Process 2 : In a different process the voltage is first set to $${{{V_0}} \\over 3}$$ and maintained for a charging time T &gt;&gt; RC. Then, the voltage is raised to $${{2{V_0}} \\over 3}$$ without discharging the capacitor and again maintained for a time T &gt;&gt; RC. The process is repeated one more time by raising the voltage to V<sub>0</sub> and the capacitor is charged to the same final voltage V<sub>0</sub> as in Process 1.<br><br>These two processes are depicted in Figure 2.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kz1edbbp/918c03b8-8863-4770-931b-8ef08fe985e1/614de360-81de-11ec-ae8a-7b46b519f0dc/file-1kz1edbbq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kz1edbbp/918c03b8-8863-4770-931b-8ef08fe985e1/614de360-81de-11ec-ae8a-7b46b519f0dc/file-1kz1edbbq.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Capacitor Question 11 English Comprehension\">"
+        },
+        "hi": {
+          "direction": null,
+          "content": "प्रक्रिया 2 में, प्रतिरोध R के पार पूरी अवशोषित ऊर्जा E<sub>D</sub> है",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${E_D} = {1 \\over 3}\\left( {{1 \\over 2}CV_0^2} \\right)$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${E_D} = 3\\left( {{1 \\over 2}CV_0^2} \\right)$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${E_D} = 3CV_0^2$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${E_D} = {1 \\over 2}CV_0^2$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": "एक साधारण RC सर्किट पर विचार करें जैसा कि चित्र 1 में दिखाया गया है।<br><br>प्रक्रिया 1 : सर्किट में स्विच S को t = 0 पर बंद कर दिया जाता है और संधारित्र को पूर्ण रूप से V<sub>0</sub> वोल्टेज तक चार्ज किया जाता है (अर्थात चार्जिंग T &gt;&gt; RC समय तक जारी रहती है)। इस प्रक्रिया में कुछ अवशोषण (E<sub>D</sub>) प्रतिरोध R के पार होता है। अंत में पूर्ण चार्ज किए गए संधारित्र में संग्रहीत होने वाली ऊर्जा E<sub>C</sub> है।<br><br>प्रक्रिया 2 : एक अलग प्रक्रिया में वोल्टेज पहले $${{{V_0}} \\over 3}$$ पर सेट किया जाता है और चार्जिंग समय T &gt;&gt; RC के लिए बनाए रखा जाता है। फिर, वोल्टेज को $${{2{V_0}} \\over 3}$$ तक बढ़ाया जाता है बिना संधारित्र को डिस्चार्ज किए और इसे फिर से T &gt;&gt; RC समय के लिए बनाए रखा जाता है। प्रक्रिया एक और बार दोहराई जाती है, वोल्टेज को V<sub>0</sub> तक बढ़ाकर और संधारित्र को उसी अंतिम वोल्टेज V<sub>0</sub> पर चार्ज किया जाता है जैसा कि प्रक्रिया 1 में था।<br><br>ये दो प्रक्रियाएं चित्र 2 में दर्शाई गई हैं।<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kz1edbbp/918c03b8-8863-4770-931b-8ef08fe985e1/614de360-81de-11ec-ae8a-7b46b519f0dc/file-1kz1edbbq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kz1edbbp/918c03b8-8863-4770-931b-8ef08fe985e1/614de360-81de-11ec-ae8a-7b46b519f0dc/file-1kz1edbbq.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2017 Paper 2 Offline Physics - Capacitor Question 11 Hindi Comprehension\">"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "rc-circuit",
+      "type": "mcq",
+      "year": 2017,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "In Process 2, total energy dissipated across the resistance ED is"
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 2 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "प्रक्रिया 2 में, प्रतिरोध R के पार पूरी अवशोषित ऊर्जा ED है"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-2-offline"
+    },
+    {
+      "question_id": "kxm0ldy7fmoqbbw30c16",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "permalink": "a-parallel-plate-capacitor-having-plates-of-area-s-and-plate-jee-advanced-physics-units-and-measurements-96yywok7xvxjdifb",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "A parallel plate capacitor having plates of area S and plate separation d, has capacitance C<sub>1</sub> in air. When two dielectrics of different relative permittivities ($$\\varepsilon $$<sub>1</sub> = 2 and $$\\varepsilon $$<sub>2</sub> = 4) are introduced between the two plates as shown in the figure, the capacitance becomes C<sub>2</sub>. The ratio $${{{C_2}} \\over {{C_1}}}$$ is<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0wn7s3z/a2616b50-b1b4-4fe0-a2fa-f1eb091b0abb/7d16c100-a6d9-11ec-bd73-d1f19edd5c44/file-1l0wn7s40.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0wn7s3z/a2616b50-b1b4-4fe0-a2fa-f1eb091b0abb/7d16c100-a6d9-11ec-bd73-d1f19edd5c44/file-1l0wn7s40.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Physics - Capacitor Question 15 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${6 \\over 5}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${5 \\over 3}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${7 \\over 5}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${7 \\over 3}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>We can think of this configuration to be made up of three parts:</p>\n<p>(a) Capacitor of plate area s/2, plate separation d, and filled with a dielectric of relative permittivity $$\\in$$<sub>1</sub> = 2 (lower half). The capacitance of this part is $${C_a} = { \\in _1}{ \\in _0}{{s/2} \\over d} = { \\in _0}{s \\over d} = {C_1}$$.</p>\n<p>(b) Capacitor of plate area s/2, plate separation d/2, and filled with a dielectric of relative permittivity $$\\in$$<sub>1</sub> = 2 (left upper half). The capacitance of this part is $${C_b} = { \\in _1}{ \\in _0}{{s/2} \\over {d/2}} = 2{ \\in _0}{s \\over d} = 2{C_1}$$.</p>\n<p>(c) Capacitor of plate area s/2, plate separation d/2, and filled with a dielectric of relative permittivity $$\\in$$<sub>2</sub> = 4 (right upper half). The capacitance of this part is $${C_c} = { \\in _2}{ \\in _0}{{s/2} \\over {d/2}} = 4{ \\in _0}{s \\over d} = 4{C_1}$$.</p>\n<p>The capacitors C<sub>b</sub> and C<sub>c</sub> are connected in series with equivalent capacitance</p>\n<p>$${C_{bc}} = {{{C_b}{C_c}} \\over {{C_b} + {C_c}}} = {{(2{C_1})(4{C_1})} \\over {(2{C_1}) + (4{C_1})}} = {4 \\over 3}{C_1}$$.</p>\n<p>The capacitor C<sub>bc</sub> is connected in parallel with C<sub>a</sub>. The equivalent capacitance is</p>\n<p>$$\\left. {{C_2} = {C_{abc}} = {C_a}} \\right\\|{C_{bc}} = {C_1} + {4 \\over 3}{C_1} = {7 \\over 3}{C_1}$$.</p>"
+        }
+      },
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 180000,
+      "topic": "capacitors-with-dielectric",
+      "type": "mcqm",
+      "year": 2015,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "A parallel plate capacitor having plates of area S and plate separation d, has capacitance C1 in air. When two dielectrics of different relative permittivities ($$\\varepsilon $$1 = 2 and $$\\varepsilon $$2 = 4) are introduced between the two..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6w39cpbuovop2oub7ksj",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "capacitor",
+      "year": 2014,
+      "paperTitle": "JEE Advanced 2014 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A parallel plate capacitor has a dielectric slab of dielectric constant $$K$$ between its plates that covers $$1/3$$ of the area of its plates, as shown in the figure. The total capacitance of the capacitor is $$C$$ while that of the portion with dielectric in between is $${C_1}.$$ When the capacitor is charged, the plate area covered by the dielectric gets charge $${Q_1}$$ and the rest of the area gets charge $${Q_2}.$$ The electric field in the dielectric is $${E_1}$$ and that in the other portion is $${E_2}.$$ Choose the correct option/ options, ignoring edge effects. \n<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1ky3k3ln0/0b675fef-96dd-4874-8de8-5afc8b5a66c9/23dfffd0-6f42-11ec-98a0-659ff4e22274/file-1ky3k3ln1.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1ky3k3ln0/0b675fef-96dd-4874-8de8-5afc8b5a66c9/23dfffd0-6f42-11ec-98a0-659ff4e22274/file-1ky3k3ln1.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Capacitor Question 19 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{{E_1}} \\over {{E_2}}} = 1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{{E_1}} \\over {{E_2}}} = {1 \\over K}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${{{Q_1}} \\over {{Q_2}}} = {3 \\over K}$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${C \\over {{C_1}}} = {{2 + K} \\over K}$$ "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l1chtmjz/674fc0ac-895d-41e7-a042-4e03795bc04c/f036aff0-af90-11ec-b0b3-439ca85bb50d/file-1l1chtmk0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l1chtmjz/674fc0ac-895d-41e7-a042-4e03795bc04c/f036aff0-af90-11ec-b0b3-439ca85bb50d/file-1l1chtmk0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2014 Paper 1 Offline Physics - Capacitor Question 19 English Explanation\"></p>\n<p>Let A be area of each plate and d is the distance between the plates.</p>\n<p>The given capacitor is equivalent to two capacitors in parallel with capacitances</p>\n<p>$${C_1} = {{K{\\varepsilon _0}(A/3)} \\over d} = {{K{\\varepsilon _0}A} \\over {3d}}$$</p>\n<p>$${C_2} = {{{\\varepsilon _0}(2A/3)} \\over d} = {{2{\\varepsilon _0}A} \\over {3d}}$$</p>\n<p>$$\\therefore$$ $$C = {C_1} + {C_2}$$</p>\n<p>$$ = {{K{\\varepsilon _0}A} \\over {3d}} + {{2{\\varepsilon _0}A} \\over {3d}} = {{{\\varepsilon _0}A} \\over {3d}}(K + 2)$$</p>\n<p>$$\\therefore$$ $${C \\over {{C_1}}} = {{K + 2} \\over K}$$</p>\n<p>Hence, option (d) is correct.</p>\n<p>Let V be potential difference between the plates. Then</p>\n<p>$${E_1} = {V \\over d}$$ and $${E_2} = {V \\over d}$$</p>\n<p>$$\\therefore$$ $${{{E_1}} \\over {{E_2}}} = 1$$</p>\n<p>Hence, option (a) is correct and option (b) is incorrect.</p>\n<p>$${Q_1} = {C_1}V = {{K{\\varepsilon _0}A} \\over {3d}}V$$ and $${Q_2} = {C_2}V = {{2{\\varepsilon _0}A} \\over {3d}}V$$</p>\n<p>$$\\therefore$$ $${{{Q_1}} \\over {{Q_2}}} = {K \\over 2}$$</p>\n<p>Hence, option (c) is incorrect.</p>"
+        }
+      },
+      "permalink": "a-parallel-plate-capacitor-has-a-dielectric-slab-of-dielectr-2014-marks-4-ulbgmzh0t43kcyah.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2014-paper-1-offline",
+      "topic": "capacitors-with-dielectric",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2014 Paper 1 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "A parallel plate capacitor has a dielectric slab of dielectric constant $$K$$ between its plates that covers $$1/3$$ of the area of its plates, as shown in the figure. The total capacitance of the capacitor is $$C$$ while that of the portio..."
+        }
+      },
+      "yearKey": "jee-advanced-2014-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9dawy1nqwvi5m75dslxl",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "capacitor",
+      "year": 2013,
+      "paperTitle": "JEE Advanced 2013 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In the circuit shown in the figure, there are two parallel plate capacitors each of capacitance $$C.$$ The switch $${S_1}$$ is pressed first to fully charge the capacitor $${C_1}$$ and then released. The switch $${S_2}$$ is then pressed to charge the capacitor $${C_2}.$$ After some time, $${S_2}$$ is released and then $${S_3}$$ is pressed. After some time \n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1lgyjk5qf/ad168ef7-9d5f-40e4-98f8-345f608fa58c/382aa170-e4a8-11ed-bc86-2728269408cd/file-1lgyjk5qg.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1lgyjk5qf/ad168ef7-9d5f-40e4-98f8-345f608fa58c/382aa170-e4a8-11ed-bc86-2728269408cd/file-1lgyjk5qg.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2013 Paper 1 Offline Physics - Capacitor Question 20 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The charge on the upper plate of $${C_1}$$ is $$2C{V_0}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "The charge on the upper plate of $${C_1}$$ is $$C{V_0}$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "The charge on the upper plate of $${C_2}$$ is $$0$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "The charge on the upper plate of $${C_2}$$ is $$ - C{V_0}$$ "
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "$$\n\\mathrm{C}_1=\\mathrm{C}_2=\\mathrm{C}\n$$<br/><br/>\n* When $\\mathrm{S}_1$ is closed.\ncharge on $\\mathrm{C}_1=+2 \\mathrm{VC}$ on upper plate and $-2 \\mathrm{Vc}$ on lower plate.<br/><br/>\n* When $S_1$ is released and $S_2$ is closed. charge on $C_1$ and $C_2=\\mathrm{VC}$<br/><br/>\n* When $\\mathrm{S}_2$ is released and $\\mathrm{C}_3$ is closed. charge on $\\mathrm{C}_2=\\mathrm{CV}$<br/><br/>\n* When $\\mathrm{S}_2$ is closed ( $\\mathrm{S}_1$ open)<br/><br/>\nAs $\\mathrm{C}_1=\\mathrm{C}_2$ the charge gets distributed equal. The upper plates of $C_1$ and $C_2$ now take charge to $\\mathrm{CV}_0$ each and lower plate $-\\mathrm{CV}_0$ each."
+        }
+      },
+      "permalink": "in-the-circuit-shown-in-the-figure-there-are-two-parallel-p-2013-marks-4-0sxfgprotg4e2ycy.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2013-paper-1-offline",
+      "topic": "capacitor-in-circuit",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2013 Paper 1 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "In the circuit shown in the figure, there are two parallel plate capacitors each of capacitance $$C.$$ The switch $${S_1}$$ is pressed first to fully charge the capacitor $${C_1}$$ and then released. The switch $${S_2}$$ is then pressed to ..."
+        }
+      },
+      "yearKey": "jee-advanced-2013-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "757ch5lvz58jqgtbwmpq",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "capacitor",
+      "year": 2012,
+      "paperTitle": "IIT-JEE 2012 Paper 2 Offline",
+      "difficulty": "hard",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "In the given circuit, a charge of $$+80$$ $$\\mu C$$ is given to the upper plate of the $$4$$ $$\\mu F$$ capacitor. Then in the steady state, the charge on the upper plate of the $$3$$ $$\\mu F$$ capacitor is \n<br><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1lzw0nsdw/27d0e388-36c0-43f3-ab56-5df7336a68d5/da89bc30-5b6c-11ef-9f07-f55db10181c4/file-jaoe38c1lzw0nsdx.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1lzw0nsdw/27d0e388-36c0-43f3-ab56-5df7336a68d5/da89bc30-5b6c-11ef-9f07-f55db10181c4/file-jaoe38c1lzw0nsdx.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2012 Paper 2 Offline Physics - Capacitor Question 21 English\">",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$ + \\,32\\,\\mu C$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$ + \\,40\\,\\mu C$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$ + \\,48\\,\\mu C$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$ + \\,80\\,\\mu C$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>Let the charges on the $ 3 \\mu \\mathrm{F} $ and $ 2 \\mu \\mathrm{F} $ capacitors be $ q $ and $ q' $ respectively. The charge on the lower plate of the $ 4 \\mu \\mathrm{F} $ capacitor is $ -80 \\mu \\mathrm{C} $. The lower plate of the $ 4 \\mu \\mathrm{F} $ capacitor and the upper plates of the $ 2 \\mu \\mathrm{F} $ and $ 3 \\mu \\mathrm{F} $ capacitors form an isolated system. Therefore, the net charge on this system must be zero, which can be represented as :</p>\n\n<p>$ q + q' - 80 \\mu \\mathrm{C} = 0 \\quad \\text{..........(i)} $</p>\n\n<p>The potentials ($ V = q / C $) across these two capacitors are equal, which gives :</p>\n\n<p>$ \\frac{q}{3} = \\frac{q'}{2} \\quad \\text{..........(ii)} $</p>\n\n<p>By substituting $ q' $ from equation (ii) into equation (i), we can solve for $ q $ and find :</p>\n\n<p>$ q = 48 \\mu \\mathrm{C} $</p>"
+        }
+      },
+      "permalink": "in-the-given-circuit-a-charge-of-80-mu-c-is-given-2012-marks-4-oxo7tkqtc0ndg0tn.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2012-paper-2-offline",
+      "topic": "combination-of-capacitors",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 2 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "In the given circuit, a charge of $$+80$$ $$\\mu C$$ is given to the upper plate of the $$4$$ $$\\mu F$$ capacitor. Then in the steady state, the charge on the upper plate of the $$3$$ $$\\mu F$$ capacitor is \n"
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3g0ip9jfjvd1rkpautl1",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "physics",
+      "chapterGroup": "electricity",
+      "languages": [
+        "en"
+      ],
+      "chapter": "capacitor",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A $$2$$  $$\\mu F$$ capacitor is charged as shown in the figure. The percentage of its stored energy dissipated after the switch $$S$$ is turned to position $$2$$ is \n<br><img class=\"question-image\" src=\"https://imagex.cdn.examgoal.net/Cs8ha5wRWdNm3uCUh/SVD4qABrer6Hy21U16aBtDpH0AfN8/BOV3o1FXL9AniF19PNNlg2/image.png\" loading=\"lazy\" alt=\"IIT-JEE 2011 Paper 1 Offline Physics - Capacitor Question 22 English\"> ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$0\\% $$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$20\\% $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$75\\% $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$80\\% $$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>When switch S is connected to terminal 1, the potential difference across the 2 $$\\mu$$F capacitor is V volt. Therefore, energy stored in the system is</p>\n<p>$${U_1} = {1 \\over 2}{C_1}{V^2} = {1 \\over 2} \\times 2 \\times {V^2}$$</p>\n<p>$$ = {V^2}\\,\\mu J$$</p>\n<p>When switch S is turned to terminal 2, the charge will flow from 2 $$\\mu$$F capacitor to 8 $$\\mu$$F capacitor until their potentials are equalized. The common potential is</p>\n<p>$${V^2} = {q \\over {{C_1} + {C_2}}} = {{{C_1}V} \\over {{C_1} + {C_2}}}$$</p>\n<p>$$ = {{2V} \\over {(2 + 8)}} = {V \\over 5}$$ volt</p>\n<p>$$\\therefore$$ Energy stored in the system now will be</p>\n<p>$${U_2} = {1 \\over 2}({C_1} + {C_2})V_2^2$$</p>\n<p>$$ = {1 \\over 2}(2 + 8) \\times {\\left( {{V \\over 5}} \\right)^2} = {{{V^2}} \\over 5}\\mu J$$</p>\n<p>$$\\therefore$$ Percentage loss of energy is</p>\n<p>$${{{U_1} - {U_2}} \\over {{U_1}}} \\times 100 = {{\\left( {{V^2} - {{{V^2}} \\over 5}} \\right)} \\over {{V^2}}} \\times 100 = 80\\% $$</p>"
+        }
+      },
+      "permalink": "a-2-mu-f-capacitor-is-charged-as-shown-in-the-figu-2011-marks-2-rrekxkyvog5azcbx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "topic": "electric-energy-stored-by-capacitor",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "A $$2$$  $$\\mu F$$ capacitor is charged as shown in the figure. The percentage of its stored energy dissipated after the switch $$S$$ is turned to position $$2$$ is \n "
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "question_id": "z176p5rpf4mxhuz7ycgj",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2010-paper-2-offline",
+      "paperTitle": "IIT-JEE 2010 Paper 2 Offline",
+      "permalink": "pat-time-t--0-a-battery-of-10-v-is-connected-across-poin-jee-advanced-physics-units-and-measurements-rz1z8rregc0933uf",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>At time t = 0, a battery of 10 V is connected across points A and B in the given circuit. If the capacitors have no charge initially, at what time (in seconds) does the voltage across them becomes 4 V? (Take ln5 = 1.6, ln3 = 1.1)</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l4bkk5sc/a2007d7f-8210-4f9f-8582-3edd86627584/81db3c10-ea73-11ec-8508-b5ef8b5f99e9/file-1l4bkk5sh.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l4bkk5sc/a2007d7f-8210-4f9f-8582-3edd86627584/81db3c10-ea73-11ec-8508-b5ef8b5f99e9/file-1l4bkk5sh.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 2 Offline Physics - Capacitor Question 10 English\"></p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>The equivalent resistance of the two parallel resistors is</p>\n<p>$$R = {{(2\\,M\\Omega )(2\\,M\\Omega )} \\over {(2\\,M\\Omega ) + (2\\,M\\Omega )}} = 1M\\Omega $$</p>\n<p>The equivalent capacitance of the two parallel capacitors is</p>\n<p>$$C = 2\\mu F + 2\\mu F = 4\\mu F$$</p>\n<p>This corresponding equivalent diagram is as shown in the figure.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l4bkm823/263995f2-7f20-4d0e-8297-1bb7cab72dfc/bb39f8c0-ea73-11ec-8508-b5ef8b5f99e9/file-1l4bkm824.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l4bkm823/263995f2-7f20-4d0e-8297-1bb7cab72dfc/bb39f8c0-ea73-11ec-8508-b5ef8b5f99e9/file-1l4bkm824.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 2 Offline Physics - Capacitor Question 10 English Explanation\"></p>\n<p>The voltage across the equivalent capacitor is same as the voltage across the individual capacitors (parallel combination). Thus, we need to find time t at which the voltage across C become 4 V in the equivalent circuit (charging of a capacitor). The voltage across C at time t is</p>\n<p>$$V = {V_0}\\left[ {1 - {e^{ - t/(RC)}}} \\right]$$,</p>\n<p>which simplifies to</p>\n<p>$$t = RC\\ln \\left( {{{{V_0}} \\over {{V_0} - V}}} \\right)$$.</p>\n<p>Substitute $${V_0} = 10$$ V, $$V = 4$$ V, $$R = 1 \\times {10^6}\\Omega $$ and $$C = 4 \\times {10^{ - 6}}F$$ to get</p>\n<p>$$t = 4\\ln (5/3) = 4(\\ln 5 - \\ln 3) = 2\\,s$$.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "rc-circuit",
+      "type": "integer",
+      "year": 2010,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 2 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "At time t = 0, a battery of 10 V is connected across points A and B in the given circuit. If the capacitors have no charge initially, at what time (in seconds) does the voltage across them becomes 4 V? (Take ln5 = 1.6, ln3 = 1.1)\n"
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-2-offline"
+    },
+    {
+      "question_id": "0cevarwbh7tc0jbe3ymd",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pa-circuit-is-connected-as-shown-in-the-figure-with-the-sw-jee-advanced-physics-motion-zwzfd3x0imjktdya",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A circuit is connected as shown in the figure with the switch S open. When the switch is closed, the total amount of charge that flows from Y to X is</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mggbnbnn/21321546-251d-4cc4-a41f-4a7c8cfc1c2a/f5165130-a35a-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggbnbno.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mggbnbnn/21321546-251d-4cc4-a41f-4a7c8cfc1c2a/f5165130-a35a-11f0-b814-0f72f73fa4cf/file-jaoe38c1mggbnbno.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2007 Paper 1 Offline Physics - Capacitor Question 8 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "0"
+            },
+            {
+              "identifier": "B",
+              "content": "54 $$\\mu$$C"
+            },
+            {
+              "identifier": "C",
+              "content": "27 $$\\mu$$C"
+            },
+            {
+              "identifier": "D",
+              "content": "81 $$\\mu$$C"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p><b>Step 1: Initial State (Switch Open)</b></p>\n<p>Let $q_1$ and $V_1$ be the charge and voltage on capacitor $C_1 = 3\\,\\mu\\mathrm{F}$. Let $q_2$ and $V_2$ be the charge and voltage on capacitor $C_2 = 6\\,\\mu\\mathrm{F}$.</p>\n<p>When the switch $S$ is open, the two capacitors are connected in series. This means that the charge stored on each capacitor is the same. So, $q_1 = q_2$.</p>\n<p>The voltages on the capacitors add up to the battery voltage:\n\n$$V_1 + V_2 = 9\\,\\mathrm{V}$$</p>\n<p>The charges and voltages on capacitors in series also follow this equation:\n\n$$C_1 V_1 = C_2 V_2$$\n\nThis means the charge on each capacitor is the same since $q_1 = C_1 V_1$ and $q_2 = C_2 V_2$.</p>\n<p>Solving these two equations gives:\n\n<ul>\n\n<li>$V_1 = 6\\,\\mathrm{V}$, $q_1 = 3\\,\\mu\\mathrm{F} \\times 6\\,\\mathrm{V} = 18\\,\\mu\\mathrm{C}$</li>\n\n<li>$V_2 = 3\\,\\mathrm{V}$, $q_2 = 6\\,\\mu\\mathrm{F} \\times 3\\,\\mathrm{V} = 18\\,\\mu\\mathrm{C}$</li>\n\n</ul>\n\n</p>\n<p>Total charge on the side connected to $X$ is $-q_1 + q_2 = 0$. No net charge has moved yet.</p>\n<p><b>Step 2: After Closing the Switch</b></p>\n<p>When the switch is closed, the resistors $R_1 = 3\\,\\Omega$ and $R_2 = 6\\,\\Omega$ are connected in series with the capacitors and battery.</p>\n<p>Total resistance is $R_1 + R_2 = 9\\,\\Omega$.</p>\n<p>The current from the battery is:\n\n$$I = \\\\frac{9\\,\\mathrm{V}}{9\\,\\Omega} = 1\\,\\mathrm{A}$$</p>\n<p>The voltage drop across each resistor is:\n\n<ul>\n\n<li>$V_1' = I \\times R_1 = 1\\,\\mathrm{A} \\times 3\\,\\Omega = 3\\,\\mathrm{V}$</li>\n\n<li>$V_2' = I \\times R_2 = 1\\,\\mathrm{A} \\times 6\\,\\Omega = 6\\,\\mathrm{V}$</li>\n\n</ul>\n\n</p>\n<p>The new charges on the capacitors are:\n\n<ul>\n\n<li>$q_1' = C_1 \\times V_1' = 3\\,\\mu\\mathrm{F} \\times 3\\,\\mathrm{V} = 9\\,\\mu\\mathrm{C}$</li>\n\n<li>$q_2' = C_2 \\times V_2' = 6\\,\\mu\\mathrm{F} \\times 6\\,\\mathrm{V} = 36\\,\\mu\\mathrm{C}$</li>\n\n</ul>\n\n</p>\n<p><b>Final Calculation</b></p>\n<p>The total charge on the plates connected to $X$ is now $-q_1' + q_2' = -9 + 36 = 27\\,\\mu\\mathrm{C}$.</p>\n<p>This means that $27\\,\\mu\\mathrm{C}$ of charge flows from $Y$ to $X$ when the switch is closed.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "rc-circuit",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "A circuit is connected as shown in the figure with the switch S open. When the switch is closed, the total amount of charge that flows from Y to X is\n"
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "3dhrmbxvt15lz3lpsfi0",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pcolumn-i-gives-certain-situations-in-which-a-straight-met-jee-advanced-physics-motion-pg5kqfvnmyase8jr",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Column I gives certain situations in which a straight metallic wire of resistance R is used and Column II gives some resulting effects. Match the statements in Column I with the statements in Column II and indicate your answer by darkening appropriate bubbles in the 4 $$\\times$$ 4 matrix given in the ORS.</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 472px\">\n<colgroup>\n<col style=\"width: 48px\">\n<col style=\"width: 192px\">\n<col style=\"width: 53px\">\n<col style=\"width: 179px\">\n</colgroup>\n<thead>\n  <tr>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column I</th>\n    <th class=\"tg-7btt\"></th>\n    <th class=\"tg-7btt\">Column II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-c3ow\">(A)</td>\n    <td class=\"tg-0pky\">A charged capacitor is connected to the ends of the wire</td>\n    <td class=\"tg-c3ow\">(P)</td>\n    <td class=\"tg-0pky\">A constant current flows through the wire</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(B)</td>\n    <td class=\"tg-0pky\">The wire is moved perpendicular to its length with a constant velocity in a uniform magnetic field perpendicular to the plane of motion</td>\n    <td class=\"tg-c3ow\">(Q)</td>\n    <td class=\"tg-0pky\">Thermal energy is generated in the wire</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(C)</td>\n    <td class=\"tg-0pky\">The wire is placed in a constant electric field that has a direction along the length of the wire.</td>\n    <td class=\"tg-c3ow\">(R)</td>\n    <td class=\"tg-0pky\">A constant potential difference develops between the ends of the wire</td>\n  </tr>\n  <tr>\n    <td class=\"tg-c3ow\">(D)</td>\n    <td class=\"tg-0pky\">A battery of constant emf is connected to the ends of the wire</td>\n    <td class=\"tg-c3ow\">(S)</td>\n    <td class=\"tg-0pky\">Charges of constant magnitude appear at the ends of the wire</td>\n  </tr>\n</tbody>\n</table></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "A $$\\to$$ (Q); B $$\\to$$ (R); C $$\\to$$ (R, S); D $$\\to$$ (P, Q)"
+            },
+            {
+              "identifier": "B",
+              "content": "A $$\\to$$ (Q); B $$\\to$$ (R, S); C $$\\to$$ (R, S); D $$\\to$$ (P, Q, R)"
+            },
+            {
+              "identifier": "C",
+              "content": "A $$\\to$$ (Q); B $$\\to$$ (R, S); C $$\\to$$ (R); D $$\\to$$ (Q, R)"
+            },
+            {
+              "identifier": "D",
+              "content": "A $$\\to$$ (Q, R); B $$\\to$$ (R, S); C $$\\to$$ (R); D $$\\to$$ (P, Q, R)"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": "A $$\\to$$ (Q); B $$\\to$$ (R, S); C $$\\to$$ (R, S); D $$\\to$$ (P, Q, R)",
+          "explanation": "<p>(A) When capacitor is shorted, current will begin to flow and capacitor will start discharging. Because of discharging, magnitude of current in circuit and potential across the two ends will reduce continually until becomes zero. Thermal energy will be generated due to flow of charges.</p>\n<p>(B) When wire is moved perpendicularly in magnetic field, due to change in flux associated with wire, a potential difference will be developed across its ends, but not current will flow as circuit is not complete and no heat will be generated.</p>\n<p>(C) Since wire is placed in electric field, electrons inside the wire will align in such a way that net electric field inside the metal is zero. Net charges will be developed across the two ends of wire, creating a potential difference. Here, circuit is incomplete, so no current will flow and no heat will be generated.</p>\n<p>(D) When a battery is connected, across two ends of wire, there will be constant potential difference. In this case circuit is complete, so current will start flowing and heat will be generated.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": null,
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "Column I gives certain situations in which a straight metallic wire of resistance R is used and Column II gives some resulting effects. Match the statements in Column I with the statements in Column II and indicate your answer by darkening ..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "bfzvy7bxypw1suybrygl",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pin-the-following-circuits-it-is-given-that-mathrmr1-jee-advanced-physics-motion-czi9r1lgmgsclpc9",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>In the following circuits, it is given that $\\mathrm{R}_1=1 \\Omega, \\mathrm{R}_2=2 \\Omega, \\mathrm{C}_1=2 \\mu \\mathrm{~F}$ and $\\mathrm{C}_2=4 \\mu \\mathrm{~F}$.</p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mgt0q1hc/3423eba3-4933-403a-a0df-c6735ab67a65/6cacf8f0-aa56-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt0q1hd.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mgt0q1hc/3423eba3-4933-403a-a0df-c6735ab67a65/6cacf8f0-aa56-11f0-b4b0-a3aba211cddc/file-jaoe38c1mgt0q1hd.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2006 Physics - Capacitor Question 2 English\">The time constants (in $\\mu \\mathrm{s}$ ) for the circuits I, II, III are, rcspectively.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>$18,8 / 9,4$</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>$18,4,8 / 9$</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>$4,8 / 9,18$</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>$8 / 9,18,4$</p>"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>For (i) : The net capacitance</p>\n<p>$$ \\begin{aligned} \\mathrm{C} & =\\frac{C_1 C_2}{C_1+C_2} \\\\ & =\\frac{2 \\times 4}{2+4}=\\frac{8}{6}=\\frac{4}{3} \\mu \\mathrm{~F} \\end{aligned} $$</p>\n<p>And net resistance, $R=\\frac{R_1 R_2}{R_1+R_2}$</p>\n<p>$$ =\\frac{1 \\times 2}{1+2}=\\frac{2}{3} \\Omega $$</p>\n<p>Thus, time constant, $\\mathrm{T}=\\mathrm{C} . \\mathrm{R}=\\frac{4}{3} \\times \\frac{2}{3}=\\frac{8}{9} \\mu \\mathrm{~s}$</p>\n<p>For (ii) :</p>\n<p>$$ \\begin{aligned} \\mathrm{C} & =\\mathrm{C}_1+\\mathrm{C}_2 \\\\ & =2+4=6 \\mu \\mathrm{~F} \\text { and } \\\\ \\mathrm{R} & =\\mathrm{R}_1+\\mathrm{R}_2 \\\\ & =1+2=3 \\Omega \\end{aligned} $$</p>\n<p>Time constant T = C.R</p>\n<p>$$ =6 \\times 3=18 \\mu \\mathrm{~s} $$</p>\n<p>$$ \\begin{aligned} &\\text { For (iii) : }\\\\ &\\begin{aligned} \\mathrm{C} & =\\mathrm{C}_1+\\mathrm{C}_2 \\\\ & =2+4=6 \\mu \\mathrm{~F} \\text { and } \\\\ \\mathrm{R} & =\\frac{\\mathrm{R}_1 \\mathrm{R}_2}{\\mathrm{R}_1+\\mathrm{R}_2} \\\\ & =\\frac{1 \\times 2}{1+2}=\\frac{2}{3} \\Omega \\\\ \\mathrm{~T} & =\\mathrm{C} . \\mathrm{R}=6 \\times \\frac{2}{3} \\\\ & =4 \\mu \\mathrm{~s} \\end{aligned} \\end{aligned} $$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "timeAllotted": 200000,
+      "topic": "rc-circuit",
+      "type": "mcq",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "In the following circuits, it is given that $\\mathrm{R}_1=1 \\Omega, \\mathrm{R}_2=2 \\Omega, \\mathrm{C}_1=2 \\mu \\mathrm{~F}$ and $\\mathrm{C}_2=4 \\mu \\mathrm{~F}$.The time constants (in $\\mu \\mathrm{s}$ ) for the circuits I, II, III are, rcspe..."
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "question_id": "znxrmv9rhotpqe3sw5cv",
+      "chapter": "capacitor",
+      "chapterGroup": "electricity",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "pin-the-given-circuit-the-switch-s-is-closed-at-time-t-jee-advanced-physics-motion-ehe4xraykr9zy1ta",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>In the given circuit, the switch S is closed at time $$t=0$$. The charge Q on the capacitor at any instant t is given by $$Q(t)=Q_0(1-e^{-\\alpha t})$$. Find the value of Q$$_0$$ and $$\\alpha$$ in terms of given parameters shown in the circuit.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh7g4svn/f5448789-3bd9-43a1-b885-82c45f9b5c1e/a9327830-b245-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7g4svo.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh7g4svn/f5448789-3bd9-43a1-b885-82c45f9b5c1e/a9327830-b245-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7g4svo.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Physics - Capacitor Question 6 English\"></p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\mathrm{Q_0=\\frac{2CVR_2}{R_1+R_2};\\alpha=\\frac{(R_1+R_2)}{CR_1R_2}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\mathrm{Q_0=\\frac{CVR_2}{R_1+R_2};\\alpha=\\frac{(R_1+R_2)}{3CR_1R_2}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\mathrm{Q_0=\\frac{CVR_2}{R_1+R_2};\\alpha=\\frac{(R_1+R_2)}{CR_1R_2}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\mathrm{Q_0=\\frac{2CVR_2}{R_1+R_2};\\alpha=\\frac{(R_1+R_2)}{3CR_1R_2}}$$"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": "$$\\mathrm{Q_0=\\frac{CVR_2}{R_1+R_2};\\alpha=\\frac{(R_1+R_2)}{CR_1R_2}}$$",
+          "explanation": "<p>Given, $$Q=Q_{0}\\left(1-e^{-\\alpha t}\\right)$$</p>\n<p>Where, Q$$_0$$ is the steady state charge stored in \nthe capacitor.</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh7g7ezs/dd3238e5-64e1-42be-8cfa-54c184fca8ff/f1e61280-b245-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7g7ezt.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh7g7ezs/dd3238e5-64e1-42be-8cfa-54c184fca8ff/f1e61280-b245-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7g7ezt.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Physics - Capacitor Question 6 English Explanation 1\"></p>\n<p>Q$$_0$$ = C[PD across capacitor in steady state]</p>\n<p>$$\\mathrm{Q}_{0}=C\\left(\\frac{\\mathrm{V}}{\\mathrm{R}_{1}+\\mathrm{R}_{2}}\\right) \\mathrm{R}_{2}$$</p>\n<p>$$\\therefore \\quad \\mathrm{Q}_{0}=\\frac{\\mathrm{CVR}_{2}}{\\mathrm{R}_{1}+\\mathrm{R}_{2}}$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/jaoe38c1mh7g7ufh/4212c59e-5122-4695-9cfb-606a7ec1e684/fdd297d0-b245-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7g7ufi.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/jaoe38c1mh7g7ufh/4212c59e-5122-4695-9cfb-606a7ec1e684/fdd297d0-b245-11f0-99cb-7b77b0f41524/file-jaoe38c1mh7g7ufi.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\" alt=\"IIT-JEE 2005 Mains Physics - Capacitor Question 6 English Explanation 2\"></p>\n<p>From, $$Q = {Q_0}(1 - {e^{ - \\alpha t}})$$</p>\n<p>$$\\alpha$$ is $$\\frac{1}{\\tau}$$ or $$\\frac{1}{\\mathrm{CR}_{e q}}$$</p>\n<p>Here, $$\\mathrm{R}_{e q}$$ is equivalent resistance across capacitor after short circuiting the battery.</p>\n<p>$$\\begin{aligned}\n\\therefore \\quad R_{e q} &amp; =\\frac{\\mathrm{R}_{1} R_{2}}{\\mathrm{R}_{1}+\\mathrm{R}_{2}} \\\\\n\\alpha &amp; =\\frac{1}{C\\left(\\frac{R_{1} R_{2}}{R_{1}+R_{2}}\\right)}=\\frac{R_{1}+R_{2}}{C_{1} R_{2}}\n\\end{aligned}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "physics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "rc-circuit",
+      "type": "mcq",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Capacitor • Physics",
+          "excerpt": "In the given circuit, the switch S is closed at time $$t=0$$. The charge Q on the capacitor at any instant t is given by $$Q(t)=Q_0(1-e^{-\\alpha t})$$. Find the value of Q$$_0$$ and $$\\alpha$$ in terms of given parameters shown in the circu..."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    }
+  ]
+}

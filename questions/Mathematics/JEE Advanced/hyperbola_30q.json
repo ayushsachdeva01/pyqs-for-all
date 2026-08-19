@@ -1,0 +1,2120 @@
+{
+  "questions": [
+    {
+      "question_id": "4due7fg2fygly1cpmlng",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 0,
+      "paperId": "jee-advanced-2026-paper-2-online",
+      "paperTitle": "JEE Advanced 2026 Paper 2 Online",
+      "permalink": "pconsider-the-ellipse-e-given-by-fracx218fracy-jee-advanced-mathematics-pylm1dnd2kbfjxcy",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Consider the ellipse $E$ given by $\\frac{x^2}{18}+\\frac{y^2}{12}=1$. Let $H$ be the hyperbola whose eccentricity is the reciprocal of the eccentricity of $E$ and whose foci are the same as that of $E$. Let $P$ and $Q$ be the points of intersection of $H$ and the parabola $\\sqrt{5} y=x^2$ in the first quadrant. Let $d$ be the distance between $P$ and $Q$.</p>\n<p>If $a$ and $b$ are the integers such that $d^2=a+b \\sqrt{5}$, then the value of $a-b$ is $\\_\\_\\_\\_$ .</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "18",
+          "explanation": "<p>The given ellipse is</p>\n<p>$$\\frac{x^2}{18}+\\frac{y^2}{12}=1$$</p>\n<p><b>Step 1: Find the eccentricity and foci of the ellipse</b></p>\n<p>The eccentricity of an ellipse is given by $ e_E = \\sqrt{1 - \\frac{b^2}{a^2}} $.</p>\n<p>Here, $ a^2 = 18 $ and $ b^2 = 12 $.</p>\n<p>So,</p>\n<p>$$e_E = \\sqrt{1 - \\frac{12}{18}} = \\frac{1}{\\sqrt{3}}$$</p>\n<p>The distance of the foci from the origin is $ a e_E = \\sqrt{18} \\times \\frac{1}{\\sqrt{3}} = \\sqrt{6} $.</p>\n<p>Therefore, the foci are at $ (\\pm \\sqrt{6}, 0) $.</p>\n<p><b>Step 2: Find the equation of the hyperbola</b></p>\n<p>The eccentricity of the hyperbola is given as the reciprocal of that of the ellipse:</p>\n<p>$$ e_H = \\frac{1}{e_E} = \\sqrt{3} $$</p>\n<p>Let the equation of the hyperbola be</p>\n<p>$$\\frac{x^2}{A^2} - \\frac{y^2}{B^2} = 1$$</p>\n<p>Its foci are at $ (\\pm A e_H, 0) $. Since the foci are the same as for the ellipse,</p>\n<p>$$A e_H = \\sqrt{6}$$</p>\n<p>Substitute $ e_H = \\sqrt{3} $:</p>\n<p>$$A = \\sqrt{2} \\Rightarrow A^2 = 2$$</p>\n<p>We know for a hyperbola, $ e_H^2 = 1 + \\frac{B^2}{A^2} $.</p>\n<p>So,</p>\n<p>$$ (\\sqrt{3})^2 = 1 + \\frac{B^2}{2} $$</p>\n<p>$$ 3 = 1 + \\frac{B^2}{2} \\Rightarrow B^2 = 4 $$</p>\n<p>Thus, the equation of the hyperbola is</p>\n<p>$$\\frac{x^2}{2} - \\frac{y^2}{4} = 1$$</p>\n<p><b>Step 3: Find the points of intersection with the parabola</b></p>\n<p>The parabola is given by $ \\sqrt{5} y = x^2 $, or $ y = \\frac{x^2}{\\sqrt{5}} $.</p>\n<p>Substitute $ x^2 = \\sqrt{5} y $ into the hyperbola equation:</p>\n<p>$$\\frac{\\sqrt{5} y}{2} - \\frac{y^2}{4} = 1$$</p>\n<p>Multiply by 4 to remove the denominators:</p>\n<p>$$2\\sqrt{5} y - y^2 = 4$$</p>\n<p>Rewriting,</p>\n<p>$$y^2 - 2\\sqrt{5} y + 4 = 0$$</p>\n<p>Solving the quadratic,</p>\n<p>$$y = \\frac{2\\sqrt{5} \\pm \\sqrt{(2\\sqrt{5})^2 - 16}}{2} = \\sqrt{5} \\pm 1$$</p>\n<p>So the intersection points have $ y_1 = \\sqrt{5} + 1 $ and $ y_2 = \\sqrt{5} - 1 $.</p>\n<p>For these values,</p>\n<p>$$x_1^2 = \\sqrt{5} (\\sqrt{5} + 1) = 5 + \\sqrt{5}$$</p>\n<p>$$x_2^2 = \\sqrt{5} (\\sqrt{5} - 1) = 5 - \\sqrt{5}$$</p>\n<p><b>Step 4: Find the distance between the points</b></p>\n<p>The distance between $ P(x_1, y_1) $ and $ Q(x_2, y_2) $ is</p>\n<p>$$d^2 = (x_1 - x_2)^2 + (y_1 - y_2)^2$$</p>\n<p>Now, $ (y_1 - y_2)^2 = [(\\sqrt{5} + 1) - (\\sqrt{5} - 1)]^2 = 4 $.</p>\n<p>Also,</p>\n<p>$$ (x_1 - x_2)^2 = x_1^2 + x_2^2 - 2x_1 x_2 $$</p>\n<p>Calculate $ x_1^2 + x_2^2 = (5 + \\sqrt{5}) + (5 - \\sqrt{5}) = 10. $</p>\n<p>Also, $ x_1 x_2 = \\sqrt{(5 + \\sqrt{5})(5 - \\sqrt{5})} = \\sqrt{20} = 2\\sqrt{5}. $</p>\n<p>Hence,</p>\n<p>$$ (x_1 - x_2)^2 = 10 - 2(2\\sqrt{5}) = 10 - 4\\sqrt{5} $$</p>\n<p>Therefore,</p>\n<p>$$ d^2 = (x_1 - x_2)^2 + (y_1 - y_2)^2 = (10 - 4\\sqrt{5}) + 4 = 14 - 4\\sqrt{5} $$</p>\n<p>We have $ d^2 = a + b\\sqrt{5} $ with $ a = 14 $ and $ b = -4 $.</p>\n<p>Therefore, $ a - b = 14 - (-4) = 18. $</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "type": "integer",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 2 Online",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Consider the ellipse $E$ given by $\\frac{x^2}{18}+\\frac{y^2}{12}=1$. Let $H$ be the hyperbola whose eccentricity is the reciprocal of the eccentricity of $E$ and whose foci are the same as that of $E$. Let $P$ and $Q$ be the points of inter..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-2-online"
+    },
+    {
+      "question_id": "60c5gzerayz1ke2h4xob",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "isBonus": false,
+      "isOutOfSyllabus": false,
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2026-paper-1-online",
+      "paperTitle": "JEE Advanced 2026 Paper 1 Online",
+      "permalink": "pmatch-each-entry-in-list-i-to-the-correct-entry-in-list-i-jee-advanced-mathematics-kwu7deat1vdq4tss",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Match each entry in List-I to the correct entry in List-II and choose the correct option. </p>\n<table style=\"width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ccc;\">\n\n  <thead>\n\n    <tr style=\"background-color:#007BFF; color:white;\">\n\n      <th style=\"padding:12px; border:1px solid #ccc; text-align:left;\">List-I</th>\n\n      <th style=\"padding:12px; border:1px solid #ccc; text-align:left;\">List-II</th>\n\n    </tr>\n\n  </thead>\n\n  <tbody>\n\n    <tr>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n\n        <strong>(P)</strong> The circle with centre $(1,2)$ and touching the straight line\n\n        $$3x + 4y = 1$$\n\n        passes through\n\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n\n        (1) the point $(1,1)$\n\n      </td>\n\n    </tr>\n\n    <tr>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n\n        <strong>(Q)</strong> The common tangent to the circle\n\n        $$x^2 + y^2 = 2$$\n\n        and the parabola\n\n        $$y^2 = 8x$$\n\n        with positive slope, passes through\n\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n\n        (2) the point $(7,9)$\n\n      </td>\n\n    </tr>\n\n    <tr>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n\n        <strong>(R)</strong> Let $M$ be the end point of the latus rectum of the ellipse\n\n        $$3x^2 + 4y^2 = 48$$\n\n        such that $M$ lies in the first quadrant. Then the normal to the ellipse drawn at $M$ passes through\n\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n\n        (3) the point $(3,2)$\n\n      </td>\n\n    </tr>\n\n    <tr>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n\n        <strong>(S)</strong> Let $H$ be the hyperbola whose centre is at the origin, one of the foci is at $(5,0)$, and one directrix is\n\n        $$5x + 16 = 0$$\n<br/><br/>\n        Then $H$ passes through\n\n      </td>\n\n      <td style=\"padding:12px; border:1px solid #ccc; vertical-align:top;\">\n\n        (4) the point $(2,5)$\n\n      </td>\n\n    </tr>\n\n<tr>\n<td></td>\n<td>(5) the point $(8, 3\\sqrt{3})$</td>\n</tr>\n\n  </tbody>\n\n</table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>(P) → (3), (Q) → (4), (R) → (1), (S) → (2)</p>"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>(P) → (3), (Q) → (2), (R) → (1), (S) → (5)</p>"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>(P) → (3), (Q) → (2), (R) → (4), (S) → (5)</p>"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>(P) → (4), (Q) → (1), (R) → (2), (S) → (3)</p>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p><img alt=\"JEE Advanced 2026 Paper 1 Online Mathematics - Hyperbola Question 2 English Explanation 1\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpcjf08b/7aefbaae-0aa5-405f-ad53-74fb6560a18d/26a22bb0-5374-11f1-aed4-773fcb3828ea/file-6y3zli1mpcjf08c.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpcjf08b/7aefbaae-0aa5-405f-ad53-74fb6560a18d/26a22bb0-5374-11f1-aed4-773fcb3828ea/file-6y3zli1mpcjf08c.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>$$ r=\\frac{|3(1)+4(2)-1|}{\\sqrt{3^2+4^2}}=\\frac{10}{5}=2 $$</p>\n<p>$$\\therefore $$ Equation of circle is $(x-1)^2+(y-2)^2=4$</p>\n<p>Passes through $(3,2) \\Rightarrow \\mathrm{P} \\rightarrow 3$</p>\n<p>(Q) Tangent to parabola: $y=m x+\\frac{2}{m}$</p>\n<p>Radius of circle, $r=\\sqrt{2}$</p>\n<p>Distance from $(0,0)$ to $m x-y+\\frac{2}{m}=0$ must be $\\sqrt{2}$</p>\n<p>$$ \\begin{aligned} &amp; \\therefore \\frac{\\frac{2}{m}}{\\sqrt{m^2+1}}=\\sqrt{2} \\Rightarrow \\frac{4}{m^2}=2\\left(m^2+1\\right) \\\\ &amp; \\Rightarrow m^4+m^2-2=0 \\\\ &amp; \\Rightarrow m^2=1 \\end{aligned} $$</p>\n<p>For positive slope, $m=1$</p>\n<p>$$\\therefore $$ Equation is $y=x+2$ passes through $(7,9) \\Rightarrow Q \\rightarrow 2$</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Mathematics - Hyperbola Question 2 English Explanation 2\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpcjjeeq/95864bb5-0e93-43fd-b6da-ca6c35b02845/a0d28920-5374-11f1-aed4-773fcb3828ea/file-6y3zli1mpcjjeer.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpcjjeeq/95864bb5-0e93-43fd-b6da-ca6c35b02845/a0d28920-5374-11f1-aed4-773fcb3828ea/file-6y3zli1mpcjjeer.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>$$ \\frac{x^2}{16}+\\frac{y^2}{12}=1, a^2=16, b^2=12, e=\\sqrt{1-\\frac{12}{16}}=\\frac{1}{2} $$</p>\n<p>Latus rectum point $M\\left(1^{\\text {st }}\\right.$ quadrant $): x=a e=4 \\times \\frac{1}{2}=2$</p>\n<p>$$ \\begin{aligned} &amp; y=\\frac{b^2}{a}=\\frac{12}{4}=3 \\\\ &amp; \\therefore M(2,3) \\end{aligned} $$</p>\n<p>Equation of normal at $(2,3)$ is</p>\n<p>$$ \\frac{a^2 x}{x_1}-\\frac{b^2 y}{y_1}=a^2 e^2 \\Rightarrow 2 x-y=1 $$</p>\n<p>which passes through $(1,1)$</p>\n<p><img alt=\"JEE Advanced 2026 Paper 1 Online Mathematics - Hyperbola Question 2 English Explanation 3\" src=\"https://app-content.cdn.examgoal.net/fly/@width/image/6y3zli1mpcjnadn/5cb8ff67-2f4c-4b83-bb7e-d1f8a11eb760/0cf221b0-5375-11f1-aed4-773fcb3828ea/file-6y3zli1mpcjnado.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/6y3zli1mpcjnadn/5cb8ff67-2f4c-4b83-bb7e-d1f8a11eb760/0cf221b0-5375-11f1-aed4-773fcb3828ea/file-6y3zli1mpcjnado.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0 auto;max-height:40vh;vertical-align:baseline\"></p>\n<p>$$ \\begin{aligned} &amp; a e=5, \\frac{a}{e}=\\frac{16}{5} \\\\ &amp; a^2=16 \\Rightarrow a=4 \\\\ &amp; \\therefore e=\\frac{5}{4} \\\\ &amp; b^2=a^2\\left(e^2-1\\right)=9 \\\\ &amp; \\therefore \\frac{x^2}{16}-\\frac{y^2}{9}=1 \\text { passes through }(8,3 \\sqrt{3}) \\Rightarrow S \\rightarrow 5 \\\\ &amp; (P) \\rightarrow(3),(Q) \\rightarrow(2),(R) \\rightarrow(1),(S) \\rightarrow(5) \\end{aligned} $$</p>\n<p>Option (B) is correct</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 240000,
+      "topic": "position-of-point-and-chord-joining-of-two-points",
+      "type": "mcq",
+      "year": 2026,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2026 Paper 1 Online",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Match each entry in List-I to the correct entry in List-II and choose the correct option. \n\n\n  \n\n    \n\n      List-I\n\n      List-II\n\n    \n\n  \n\n  \n\n    \n\n      \n\n        (P) The circle with centre $(1,2)$ and touching the straight line\n\n     ..."
+        }
+      },
+      "yearKey": "jee-advanced-2026-paper-1-online"
+    },
+    {
+      "question_id": "2hjxr7dvp8hq6uvgmb56",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "jee-advanced-2022-paper-2-online",
+      "paperTitle": "JEE Advanced 2022 Paper 2 Online",
+      "permalink": "consider-the-hyperbola-brbr-fracx2100-frac-jee-advanced-mathematics-conic-sections-ns1jbwwmgwfumtfe",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "Consider the hyperbola\n\n<br/><br/>$$\n\\frac{x^{2}}{100}-\\frac{y^{2}}{64}=1\n$$\n\n<br/><br/>with foci at $S$ and $S_{1}$, where $S$ lies on the positive $x$-axis. Let $P$ be a point on the hyperbola, in the first quadrant. Let $\\angle S P S_{1}=\\alpha$, with $\\alpha<\\frac{\\pi}{2}$. The straight line passing through the point $S$ and having the same slope as that of the tangent at $P$ to the hyperbola, intersects the straight line $S_{1} P$ at $P_{1}$. Let $\\delta$ be the distance of $P$ from the straight line $S P_{1}$, and $\\beta=S_{1} P$. Then the greatest integer less than or equal to $\\frac{\\beta \\delta}{9} \\sin \\frac{\\alpha}{2}$ is ________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "7",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l9425up6/dc27503c-bd4e-4d09-860d-9ae4012198f5/27fbc990-494f-11ed-8700-75ceab41d301/file-1l9425up7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l9425up6/dc27503c-bd4e-4d09-860d-9ae4012198f5/27fbc990-494f-11ed-8700-75ceab41d301/file-1l9425up7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Mathematics - Hyperbola Question 6 English Explanation\"></p>\n<p>From property we know, tangent and normal is bisector of the angle between focal radii.</p>\n<p>$$\\therefore$$ Tangent AB divides the angle $$\\angle SP{S_1} = \\alpha $$ equal parts.</p>\n<p>From another property, we know, if we draw perpendicular to the tangent on the hyperbola from two foci, then product of length of the perpendicular from foci = b<sup>2</sup></p>\n<p>$$\\therefore$$ $$l \\times \\delta  = {b^2}$$</p>\n<p>Given hyperbola, $${{{x^2}} \\over {100}} - {{{y^2}} \\over {64}} = 1$$</p>\n<p>$$\\therefore$$ $${a^2} = 100$$</p>\n<p>and $${b^2} = 64$$</p>\n<p>$$\\therefore$$ $$l \\times \\delta  = 64$$ ....... (1)</p>\n<p>From right angle triangle S<sub>1</sub> MP we get, $$\\sin {\\alpha  \\over 2} = {l \\over \\beta }$$</p>\n<p>$$\\therefore$$ $$l = \\beta \\sin {\\alpha  \\over 2}$$ ....... (2)</p>\n<p>Putting value of l in equation (1), we get</p>\n<p>$$\\left( {\\beta \\sin {\\alpha  \\over 2}} \\right) \\times \\delta  = 64$$</p>\n<p>$$ \\Rightarrow \\delta \\beta \\sin {\\alpha  \\over 2} = 64$$</p>\n<p>$$\\therefore$$ $${{\\beta \\delta } \\over 9}\\sin {\\alpha  \\over 2}$$</p>\n<p>$$ = {{64} \\over 9} = 7.1$$</p>\n<p>$$\\therefore$$ Greatest integer $$ = [7.1] = 7$$</p>"
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>अतिपरवलय $$\\frac{x^{2}}{100}-\\frac{y^{2}}{64}=1$$ पर विचार कीजिए जिसकी नाभि $$S$$ व $$S_{1}$$ पर है, जहाँ $$S$$ धनात्मक $$x$$-अक्ष पर स्थित है। माना $$P$$, प्रथम चतुर्थांश में अतिपरवलय पर एक बिन्दु है। माना $$\\angle S P S_{1}=\\alpha$$, जहाँ $$\\alpha < \\frac{\\pi}{2}$$ है। सरल रेखा, बिंदु $$S$$ से गुजरती है तथा इसकी प्रवणता, अतिपरवलय के बिन्दु $$P$$ पर स्पर्श रेखा की प्रवणता के समान है, जो सरल रेखा $$S_{1} P$$ को $$P_{1}$$ पर प्रतिच्छेद करती है। माना $$\\delta$$, एक सरल रेखा $$S P_{1}$$ से $$P$$ की दूरी है, तथा $$\\beta=S_{1} P$$, तब $$\\frac{\\beta \\delta}{9} \\sin \\frac{\\alpha}{2}$$ से कम या इसके बराबर महत्तम पूर्णांक ज्ञात कीजिए।</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "7",
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l9425up6/dc27503c-bd4e-4d09-860d-9ae4012198f5/27fbc990-494f-11ed-8700-75ceab41d301/file-1l9425up7.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l9425up6/dc27503c-bd4e-4d09-860d-9ae4012198f5/27fbc990-494f-11ed-8700-75ceab41d301/file-1l9425up7.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2022 Paper 2 Online Mathematics - Hyperbola Question 6 Hindi Explanation\"></p>\n<p>गुणधर्म से हम जानते हैं कि स्पर्श रेखा और अभिलंब, नाभीय त्रिज्याओं के बीच के कोण का समद्विभाजक होता है।</p>\n<p>$$\\therefore$$ स्पर्श रेखा AB कोण $$\\angle SP{S_1} = \\alpha $$ को समान भागों में विभाजित करती है।</p>\n<p>एक अन्य गुणधर्म से, हम जानते हैं कि यदि हम अतिपरवलय (hyperbola) पर स्पर्श रेखा से दोनों नाभियों से लंब खींचते हैं, तो नाभियों से लंबों की लंबाइयों का गुणनफल = b<sup>2</sup></p>\n<p>$$\\therefore$$ $$l \\times \\delta  = {b^2}$$</p>\n<p>दिया गया अतिपरवलय, $${{{x^2}} \\over {100}} - {{{y^2}} \\over {64}} = 1$$</p>\n<p>$$\\therefore$$ $${a^2} = 100$$</p>\n<p>और $${b^2} = 64$$</p>\n<p>$$\\therefore$$ $$l \\times \\delta  = 64$$ ....... (1)</p>\n<p>समकोण त्रिभुज S<sub>1</sub> MP से, हमें मिलता है, $$\\sin {\\alpha  \\over 2} = {l \\over \\beta }$$</p>\n<p>$$\\therefore$$ $$l = \\beta \\sin {\\alpha  \\over 2}$$ ....... (2)</p>\n<p>समीकरण (1) में l का मान रखने पर, हमें मिलता है</p>\n<p>$$\\left( {\\beta \\sin {\\alpha  \\over 2}} \\right) \\times \\delta  = 64$$</p>\n<p>$$ \\Rightarrow \\delta \\beta \\sin {\\alpha  \\over 2} = 64$$</p>\n<p>$$\\therefore$$ $${{{\\beta \\delta } \\over 9}\\sin {\\alpha  \\over 2}}$$</p>\n<p>$$ = {{64} \\over 9} = 7.1$$</p>\n<p>$$\\therefore$$ महत्तम पूर्णांक फलन का मान $$ = [7.1] = 7$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "tangent-to-hyperbola",
+      "type": "integer",
+      "year": 2022,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Consider the hyperbola\n\n$$\n\\frac{x^{2}}{100}-\\frac{y^{2}}{64}=1\n$$\n\nwith foci at $S$ and $S_{1}$, where $S$ lies on the positive $x$-axis. Let $P$ be a point on the hyperbola, in the first quadrant. Let $\\angle S P S_{1}=\\alpha$, with $\\alp..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2022 Paper 2 Online",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "अतिपरवलय $$\\frac{x^{2}}{100}-\\frac{y^{2}}{64}=1$$ पर विचार कीजिए जिसकी नाभि $$S$$ व $$S_{1}$$ पर है, जहाँ $$S$$ धनात्मक $$x$$-अक्ष पर स्थित है। माना $$P$$, प्रथम चतुर्थांश में अतिपरवलय पर एक बिन्दु है। माना $$\\angle S P S_{1}=\\alpha$$, जहाँ..."
+        }
+      },
+      "yearKey": "jee-advanced-2022-paper-2-online"
+    },
+    {
+      "question_id": "ets7mbxqbjejys8wzjc7",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "marks": 4,
+      "negMarks": 2,
+      "paperTitle": "JEE Advanced 2020 Paper 2 Offline",
+      "permalink": "let-a-and-b-be-positive-real-numbers-such-that-a--1-and-b--jee-advanced-mathematics-trigonometric-functions-and-equations-vjqsucdes1ohqmgm",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let a and b be positive real numbers such that a &gt; 1 and b &lt; a. Let P be a point in the first quadrant that lies on the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$. Suppose the tangent to the hyperbola at P passes through the point (1, 0), and suppose the normal to the hyperbola at P cuts off equal intercepts on the coordinate axes. Let $$\\Delta $$ denote the area of the triangle formed by the tangent at P, the normal at P and the X-axis. If e denotes the eccentricity of the hyperbola, then which of the following statements is/are TRUE?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1 &lt; e &lt; \\sqrt 2 $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt 2  &lt; e &lt; 2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\Delta  = {a^4}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\Delta  = {b^4}$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "Equation of given hyperbola is<br><br>$${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$, a &gt; b and a &gt; 1<br><br>Let point P(a sec$$\\theta $$, b tan$$\\theta $$) on the hyperbola in first quadrant i.e., $$Qe\\left( {0,{\\pi  \\over 2}} \\right)$$.<br><br>Now equation of tangent to the hyperbola at point P is<br><br>$${{x\\sec \\theta } \\over a} - {{y\\tan \\theta } \\over b} = 1$$ .... (i)<br><br>$$ \\because $$ The tangent (i) passes through point A(1, 0)<br><br>So, $$a = \\sec \\theta  &gt; 1$$. ....(ii)<br><br>and equation of normal to the hyperbola at point P having slope is $${{b\\sec \\theta } \\over {a\\tan \\theta }}$$, as normal cuts off equal intercepts on the coordinate axes, so slope must be $$-$$1.<br><br>Therefore, $${{b\\sec \\theta } \\over {a\\tan \\theta }}$$ = $$-$$1<br><br>$$ \\Rightarrow $$ $$b =  - \\tan \\theta $$ {from Eq. (ii)}<br><br>$$ \\because $$ The eccentricity of hyperbola<br><br>$$e = \\sqrt {1 + {{{b^2}} \\over {{a^2}}}}  = \\sqrt {1 + {{\\sin }^2}\\theta } $$<br><br>$$ \\therefore $$ $$1 &lt; e &lt; \\sqrt 2 $$, as $$\\theta  \\in \\left( {0,{\\pi  \\over 2}} \\right)$$<br><br>And the area of required triangle is, which is isosceles is <br><br>$$\\Delta  = {1 \\over 2}{(AP)^2} = {1 \\over 2}[{(1 - {\\sec ^2}\\theta )^2} + {\\tan ^4}\\theta ]$$<br><br> <picture><source media=\"(max-width: 320px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksadmiml/30557aed-0f7f-4a4a-bb0c-1991935ef1b9/024a20c0-fc39-11eb-872b-0b04ac6465bd/file-1ksadmimm-320w.jpeg\"><source media=\"(max-width: 500px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksadmiml/30557aed-0f7f-4a4a-bb0c-1991935ef1b9/024a20c0-fc39-11eb-872b-0b04ac6465bd/file-1ksadmimm-500w.jpeg\"><source media=\"(max-width: 680px)\" srcset=\"https://imagex.cdn.examgoal.net/1ksadmiml/30557aed-0f7f-4a4a-bb0c-1991935ef1b9/024a20c0-fc39-11eb-872b-0b04ac6465bd/file-1ksadmimm-680w.jpeg\"><img src=\"https://imagex.cdn.examgoal.net/1ksadmiml/30557aed-0f7f-4a4a-bb0c-1991935ef1b9/024a20c0-fc39-11eb-872b-0b04ac6465bd/file-1ksadmimm.jpeg\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;\" loading=\"lazy\" alt=\"JEE Advanced 2020 Paper 2 Offline Mathematics - Hyperbola Question 7 English Explanation\"></picture> <br><br>$$ = {1 \\over 2}(2{\\tan ^4}\\theta ) = {\\tan ^4}\\theta  = {b^4}$$."
+        },
+        "hi": {
+          "direction": null,
+          "comprehension": null,
+          "content": "<p>माना कि $$a$$ एवं $$b$$ इस प्रकार की धनात्मक वास्तविक संख्याएँ (positive real numbers) हैं जिनके लिये $$a > 1$$ और $$b < a$$ हैं | माना कि प्रथम चतुर्थांश (first quadrant) का एक बिन्दु $$P$$ अतिपरवलय (hyperbola) $$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$$ पर स्थित है । मान लीजिये कि बिन्दु $$P$$ पर डाली गयी अतिपरवलय की स्पशरिखा (tangent) बिन्दु $$(1,0)$$ से गुजरती है, एवं मान लीजिये कि बिन्दु $$P$$ पर डाले गये अतिपरवलय का अभिलम्ब (normal) निर्देशक अक्षों (coordinate axes) पर बराबर अन्तःखंड (equal intercepts) काटता है। माना कि $$P$$ पर डाली गयी स्पशरिखा, $$P$$ पर डाले गये अभिलम्ब एवं $$x$$-अक्ष द्वारा बनाये गए त्रिभुज (triangle) के क्षेत्रफल (area) को $$\\Delta$$ से दर्शाया जाता है। यदि अतिपरवलय की उत्केन्द्रता (eccentricity) को $$e$$ से दर्शाया जाता है, तब निम्न में से कौन सा (से) कथन सही है (हैं)?</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1 < e < \\sqrt{2}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt{2} < e < 2$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\Delta=a^{4}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\Delta=b^{4}$$"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "tangent-to-hyperbola",
+      "type": "mcqm",
+      "year": 2020,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2020-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Let a and b be positive real numbers such that a > 1 and b < a. Let P be a point in the first quadrant that lies on the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$. Suppose the tangent to the hyperbola at P passes th..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2020 Paper 2 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "माना कि $$a$$ एवं $$b$$ इस प्रकार की धनात्मक वास्तविक संख्याएँ (positive real numbers) हैं जिनके लिये $$a > 1$$ और $$b < a$$ हैं | माना कि प्रथम चतुर्थांश (first quadrant) का एक बिन्दु $$P$$ अतिपरवलय (hyperbola) $$\\frac{x^{2}}{a^{2}}-\\frac{..."
+        }
+      },
+      "yearKey": "jee-advanced-2020-paper-2-offline"
+    },
+    {
+      "question_id": "0jxbjj6m55w0a233fl4v",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "permalink": "let-hx2-over-a2-y2-over-b2--jee-advanced-mathematics-trigonometric-functions-and-equations-e6msgqbmay4kfmet",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let $$H:{{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$, where a &gt; b &gt; 0, be a hyperbola in the XY-plane whose conjugate axis LM subtends an angle of 60$$^\\circ $$ at one of its vertices N. Let the area of the $$\\Delta $$LMN be $$4\\sqrt 3 $$.<br><br><table>\n<thead>\n  <tr>\n    <th></th>\n    <th>List - I</th>\n    <th></th>\n    <th>List - II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td>P.</td>\n    <td>The length of the conjugate axis of H is</td>\n    <td>1.</td>\n    <td>8</td>\n  </tr>\n  <tr>\n    <td>Q.</td>\n    <td>The eccentricity of H is</td>\n    <td>2. </td>\n    <td>$${4 \\over {\\sqrt 3 }}$$</td>\n  </tr>\n  <tr>\n    <td>R.</td>\n    <td>The distance between the foci of H is</td>\n    <td>3. </td>\n    <td>$${2 \\over {\\sqrt 3 }}$$</td>\n  </tr>\n  <tr>\n    <td>S.</td>\n    <td>The length of the latus rectum of H is</td>\n    <td>4. </td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n</tbody>\n</table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "P $$ \\to $$ 4 ; Q $$ \\to $$ 2 ; R $$ \\to $$ 1 ; S $$ \\to $$ 3"
+            },
+            {
+              "identifier": "B",
+              "content": "P $$ \\to $$ 4 ; Q $$ \\to $$ 3 ; R $$ \\to $$ 1 ; S $$ \\to $$ 2"
+            },
+            {
+              "identifier": "C",
+              "content": "P $$ \\to $$ 4 ; Q $$ \\to $$ 1 ; R $$ \\to $$ 3 ; S $$ \\to $$ 2"
+            },
+            {
+              "identifier": "D",
+              "content": "P $$ \\to $$ 3 ; Q $$ \\to $$ 4 ; R $$ \\to $$ 2 ; S $$ \\to $$ 1"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "We have, <br><br>Equation of hyperbola<br><br>$${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywx4xok/dd6b415e-a153-4862-aca4-273e28713e1f/da808ea0-7f67-11ec-bfc2-c3b5b0b6038a/file-1kywx4xoq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywx4xok/dd6b415e-a153-4862-aca4-273e28713e1f/da808ea0-7f67-11ec-bfc2-c3b5b0b6038a/file-1kywx4xoq.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Hyperbola Question 12 English Explanation\"> <br><br>It is given, <br><br>$$\\angle LNM = 60^\\circ {4 \\over {\\sqrt 3 }}$$<br><br>and Area of $$\\Delta LMN = 4\\sqrt 3 $$<br><br>Now, $$\\Delta LMN$$ is an equilateral triangle whose sides is 2b [$$ \\because $$ $$\\Delta LON$$ $$ \\cong $$ $$\\Delta MOL$$; $$ \\because $$ $$\\angle NLO = \\angle NMO = 60^\\circ $$]<br><br>$$ \\therefore $$ Area of $$\\Delta LMN = {{\\sqrt 3 } \\over 4}{(2b)^2}$$<br><br>$$ \\Rightarrow $$ $$4\\sqrt 3  = \\sqrt 3 {b^2} \\Rightarrow b = 2$$<br><br>Also, area of $$\\Delta LMN = {1 \\over 2}a(2b) = ab$$<br><br>$$ \\Rightarrow $$ $$4\\sqrt 3  = a(2)$$<br><br>$$ \\Rightarrow $$ $$a = 2\\sqrt 3 $$<br><br>(P) Length of conjugate axis = 2b = 2(2) = 4 (Q)<br><br>Eccentricity (e) = $$\\sqrt {1 + {{{b^2}} \\over {{a^2}}}}  = \\sqrt {1 + {4 \\over {12}}} $$<br><br>= $${4 \\over {2\\sqrt 3 }} = {2 \\over {\\sqrt 3 }}$$<br><br>(R) Distance between the foci<br><br>= $$2ae = 2 \\times 2\\sqrt 3  \\times {2 \\over {\\sqrt 3 }} = 8$$<br><br>(S) The length of latusrectum<br><br>= $${{2{b^2}} \\over a} = {{2(4)} \\over {2\\sqrt 3 }} = {4 \\over {\\sqrt 3 }}$$<br><br>P $$ \\to $$ 4; Q $$ \\to $$ 3; R $$ \\to $$ 1; S $$ \\to $$ 2<br><br>Hence, option (b) is correct."
+        },
+        "hi": {
+          "direction": null,
+          "content": "मान लीजिए $$H:{{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$, जहाँ $$a > b > 0$$ है, XY-समतल में एक हाइपरबोला है जिसके संयुग्म अक्ष LM अपने एक शीर्ष N पर 60$$^\\circ $$ का कोण बनाता है। मान लीजिए कि $$\\Delta $$LMN का क्षेत्रफल $$4\\sqrt 3 $$ है।<br><br><table>\n<thead>\n  <tr>\n    <th></th>\n    <th>सूची - I</th>\n    <th></th>\n    <th>सूची - II</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td>P.</td>\n    <td>H के संयुग्म अक्ष की लंबाई है</td>\n    <td>1.</td>\n    <td>8</td>\n  </tr>\n  <tr>\n    <td>Q.</td>\n    <td>H का विकेंद्रीकरण है</td>\n    <td>2. </td>\n    <td>$${4 \\over {\\sqrt 3 }}$$</td>\n  </tr>\n  <tr>\n    <td>R.</td>\n    <td>H के फोकलों के बीच की दूरी है</td>\n    <td>3. </td>\n    <td>$${2 \\over {\\sqrt 3 }}$$</td>\n  </tr>\n  <tr>\n    <td>S.</td>\n    <td>H का लाटुस रेक्टम की लंबाई है</td>\n    <td>4. </td>\n    <td>4</td>\n  </tr>\n  <tr>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n</tbody>\n</table>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "P $$ \\to $$ 4 ; Q $$ \\to $$ 2 ; R $$ \\to $$ 1 ; S $$ \\to $$ 3"
+            },
+            {
+              "identifier": "B",
+              "content": "P $$ \\to $$ 4 ; Q $$ \\to $$ 3 ; R $$ \\to $$ 1 ; S $$ \\to $$ 2"
+            },
+            {
+              "identifier": "C",
+              "content": "P $$ \\to $$ 4 ; Q $$ \\to $$ 1 ; R $$ \\to $$ 3 ; S $$ \\to $$ 2"
+            },
+            {
+              "identifier": "D",
+              "content": "P $$ \\to $$ 3 ; Q $$ \\to $$ 4 ; R $$ \\to $$ 2 ; S $$ \\to $$ 1"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "हमारे पास है, <br><br>अतिपरवलय का समीकरण<br><br>$${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywx4xok/dd6b415e-a153-4862-aca4-273e28713e1f/da808ea0-7f67-11ec-bfc2-c3b5b0b6038a/file-1kywx4xoq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywx4xok/dd6b415e-a153-4862-aca4-273e28713e1f/da808ea0-7f67-11ec-bfc2-c3b5b0b6038a/file-1kywx4xoq.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Hyperbola Question 12 Hindi Explanation\"> <br><br>दिया गया है, <br><br>$$\\angle LNM = 60^\\circ {4 \\over {\\sqrt 3 }}$$<br><br>और $$\\Delta LMN$$ का क्षेत्रफल = $$4\\sqrt 3 $$<br><br>अब, $$\\Delta LMN$$ एक समबाहु त्रिभुज है जिसकी भुजा 2b है [$$ \\because $$ $$\\Delta LON$$ $$ \\cong $$ $$\\Delta MOL$$; $$ \\because $$ $$\\angle NLO = \\angle NMO = 60^\\circ $$]<br><br>$$ \\therefore $$ $$\\Delta LMN$$ का क्षेत्रफल = $${{\\sqrt 3 } \\over 4}{(2b)^2}$$<br><br>$$ \\Rightarrow $$ $$4\\sqrt 3  = \\sqrt 3 {b^2} \\Rightarrow b = 2$$<br><br>साथ ही, $$\\Delta LMN$$ का क्षेत्रफल = $${1 \\over 2}a(2b) = ab$$<br><br>$$ \\Rightarrow $$ $$4\\sqrt 3  = a(2)$$<br><br>$$ \\Rightarrow $$ $$a = 2\\sqrt 3 $$<br><br>(P) संयुग्मी अक्ष की लंबाई = 2b = 2(2) = 4 (Q)<br><br>उत्केंद्रता (e) = $$\\sqrt {1 + {{{b^2}} \\over {{a^2}}}}  = \\sqrt {1 + {4 \\over {12}}} $$<br><br>= $${4 \\over {2\\sqrt 3 }} = {2 \\over {\\sqrt 3 }}$$<br><br>(R) नाभियों के बीच की दूरी<br><br>= $$2ae = 2 \\times 2\\sqrt 3  \\times {2 \\over {\\sqrt 3 }} = 8$$<br><br>(S) नाभिलंब की लंबाई<br><br>= $${{2{b^2}} \\over a} = {{2(4)} \\over {2\\sqrt 3 }} = {4 \\over {\\sqrt 3 }}$$<br><br>P $$ \\to $$ 4; Q $$ \\to $$ 3; R $$ \\to $$ 1; S $$ \\to $$ 2<br><br>अतः, विकल्प (b) सही है।",
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "tangent-to-hyperbola",
+      "type": "mcq",
+      "year": 2018,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Let $$H:{{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$, where a > b > 0, be a hyperbola in the XY-plane whose conjugate axis LM subtends an angle of 60$$^\\circ $$ at one of its vertices N. Let the area of the $$\\Delta $$LMN be $$4\\..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "मान लीजिए $$H:{{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$, जहाँ $$a > b > 0$$ है, XY-समतल में एक हाइपरबोला है जिसके संयुग्म अक्ष LM अपने एक शीर्ष N पर 60$$^\\circ $$ का कोण बनाता है। मान लीजिए कि $$\\Delta $$LMN का क्षेत्रफल $$4\\s..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "question_id": "wdxqb1cp1ijkte5amz7r",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2018 Paper 2 Offline",
+      "permalink": "let-t-be-the-line-passing-through-the-points-p-2-7-an-jee-advanced-mathematics-trigonometric-functions-and-equations-8tb96ff0lx1aqffj",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "Let T be the line passing through the points P($$-$$2, 7) and Q(2, $$-$$5). Let F<sub>1</sub> be the set of al pairs of circles (S<sub>1</sub>, S<sub>2</sub>) such that T is tangent to S<sub>1</sub> at P and tangent to S<sub>2</sub> at Q, and also such that S<sub>1</sub> and S<sub>2</sub> touch each other at a point, say M. Let E<sub>1</sub> be the set representing the locus of M as the pair (S<sub>1</sub>, S<sub>2</sub>) varies in F<sub>1</sub>. Let the set of all straight line segments joining a pair of distinct points of E<sub>1</sub> and passing through the point R(1, 1) be F<sub>2</sub>. Let E<sub>2</sub> be the set of the mid-points of the line segments in the set F<sub>2</sub>. Then, which of the following statement(s) is (are) TRUE?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "The point ($$-$$2, 7) lies in E<sub>1</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "The point $$\\left( {{4 \\over 5},{7 \\over 5}} \\right)$$ does not lie in E<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "The point $$\\left( {{1 \\over 2},1} \\right)$$ lies in E<sub>2</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "The point $$\\left( {0,{3 \\over 2}} \\right)$$ does not lie in E<sub>1</sub>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "It is given that T is tangents to S<sub>1</sub> at P and S<sub>2</sub> at Q and S<sub>1</sub> and S<sub>2</sub> touch externally at M.<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywt2jko/d144bb5d-bc66-4e59-bc09-105e148fe621/f3777fa0-7f57-11ec-91f0-35ffd68c9c48/file-1kywt2jkq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywt2jko/d144bb5d-bc66-4e59-bc09-105e148fe621/f3777fa0-7f57-11ec-91f0-35ffd68c9c48/file-1kywt2jkq.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Hyperbola Question 11 English Explanation\"><br><br>$$ \\therefore $$ MN = NP = NQ<br><br>$$ \\therefore $$ Locus of M is a circle having PQ as its diameter of circle<br><br>$$ \\therefore $$ Equation of circle<br><br>$$(x - 2)(x + 2) + (y + 5)(y - 7) = 0$$<br><br>$$ \\Rightarrow {x^2} + {y^2} - 2y - 39 = 0$$<br><br>Hence,<br><br>$${E_1}:{x^2} + {y^2} - 2y - 39 = 0$$, $$x \\ne  \\pm 2$$<br><br>Locus of mid-point of chord (h, k) of the circle E<sub>1</sub> is<br><br>$$xh + yk - (y + k) - 39 = {h^2} + {k^2} - 2k - 39$$<br><br>$$ \\Rightarrow xh + yk - y - k = {h^2} + {k^2} - 2k$$<br><br>Since, chord is passing through (1, 1).<br><br>$$ \\therefore $$ Locus of mid-point of chord (h, k) is<br><br>$$h + k - 1 - k = {h^2} + {k^2} - 2k$$<br><br>$$ \\Rightarrow {h^2} + {k^2} - 2k - h + 1 = 0$$<br><br>Locus is $${E_2}:{x^2} + {y^2} - x - 2y + 1 = 0$$<br><br>Now, after checking options, (a) and (d) are correct."
+        },
+        "hi": {
+          "direction": null,
+          "content": "मान लें कि $$T$$ रेखा $$P$$($$-$$2, 7) और $$Q$$(2, $$-$$5) बिंदुओं से होकर गुजरती है। $$F_1$$ उन सभी वृत्तों के युग्मों ($$S_1$$, $$S_2$$) का सेट है जिनके लिए $$T$$ $$P$$ पर $$S_1$$ को स्पर्श करती है और $$Q$$ पर $$S_2$$ को स्पर्श करती है, और साथ ही $$S_1$$ और $$S_2$$ एक बिंदु, जिसे $$M$$ कहते हैं, पर एक-दूसरे को स्पर्श करते हैं। $$E_1$$ उस सेट का प्रतिनिधित्व करता है जो $$M$$ के लोकेस का प्रतिनिधित्व करता है जब युग्म ($$S_1$$, $$S_2$$) $$F_1$$ में परिवर्तन करता है। सभी सीधी रेखा खंडों का सेट जो $$E_1$$ के विभिन्न बिंदुओं के युग्मों को जोड़ता है और बिंदु $$R(1, 1)$$ से गुजरता है उसे $$F_2$$ कहते हैं। $$E_2$$ उस सेट का प्रतिनिधित्व करता है जो $$F_2$$ के रेखा खंडों के मध्य बिंदुओं को दर्शाता है। फिर, निम्नलिखित में से कौन सा कथन सत्य है/हैं?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "बिंदु ($$-$$2, 7) $$E_1$$ में स्थित है"
+            },
+            {
+              "identifier": "B",
+              "content": "बिंदु $$\\left( {{4 \\over 5},{7 \\over 5}} \\right)$$ $$E_2$$ में स्थित नहीं है"
+            },
+            {
+              "identifier": "C",
+              "content": "बिंदु $$\\left( {{1 \\over 2},1} \\right)$$ $$E_2$$ में स्थित है"
+            },
+            {
+              "identifier": "D",
+              "content": "बिंदु $$\\left( {0,{3 \\over 2}} \\right)$$ $$E_1$$ में स्थित नहीं है"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "यह दिया गया है कि T, S<sub>1</sub> पर P पर और S<sub>2</sub> पर Q पर स्पर्शरेखा है तथा S<sub>1</sub> और S<sub>2</sub> बाह्य रूप से M पर स्पर्श करते हैं।<br><br> <img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1kywt2jko/d144bb5d-bc66-4e59-bc09-105e148fe621/f3777fa0-7f57-11ec-91f0-35ffd68c9c48/file-1kywt2jkq.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1kywt2jko/d144bb5d-bc66-4e59-bc09-105e148fe621/f3777fa0-7f57-11ec-91f0-35ffd68c9c48/file-1kywt2jkq.png\" loading=\"lazy\" style=\"max-width: 100%;height: auto;display: block;margin: 0 auto;max-height: 60vh\" alt=\"JEE Advanced 2018 Paper 2 Offline Mathematics - Hyperbola Question 11 Hindi Explanation\"><br><br>$$ \\therefore $$ MN = NP = NQ<br><br>$$ \\therefore $$ M का बिन्दुपथ एक वृत्त है जिसका व्यास PQ है<br><br>$$ \\therefore $$ वृत्त का समीकरण<br><br>$$(x - 2)(x + 2) + (y + 5)(y - 7) = 0$$<br><br>$$ \\Rightarrow {x^2} + {y^2} - 2y - 39 = 0$$<br><br>अतः,<br><br>$${E_1}:{x^2} + {y^2} - 2y - 39 = 0$$, $$x \\ne  \\pm 2$$<br><br>वृत्त E<sub>1</sub> की जीवा के मध्य-बिन्दु (h, k) का बिन्दुपथ है<br><br>$$xh + yk - (y + k) - 39 = {h^2} + {k^2} - 2k - 39$$<br><br>$$ \\Rightarrow xh + yk - y - k = {h^2} + {k^2} - 2k$$<br><br>चूँकि जीवा (1, 1) से होकर जाती है।<br><br>$$ \\therefore $$ जीवा के मध्य-बिन्दु (h, k) का बिन्दुपथ है<br><br>$$h + k - 1 - k = {h^2} + {k^2} - 2k$$<br><br>$$ \\Rightarrow {h^2} + {k^2} - 2k - h + 1 = 0$$<br><br>बिन्दुपथ है $${E_2}:{x^2} + {y^2} - x - 2y + 1 = 0$$<br><br>अब, विकल्पों की जाँच करने पर, (a) और (d) सही हैं।",
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "locus",
+      "type": "mcqm",
+      "year": 2018,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2018-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Let T be the line passing through the points P($$-$$2, 7) and Q(2, $$-$$5). Let F1 be the set of al pairs of circles (S1, S2) such that T is tangent to S1 at P and tangent to S2 at Q, and also such that S1 and S2 touch each other at a point..."
+        },
+        "hi": {
+          "title": "JEE Advanced 2018 Paper 2 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "मान लें कि $$T$$ रेखा $$P$$($$-$$2, 7) और $$Q$$(2, $$-$$5) बिंदुओं से होकर गुजरती है। $$F_1$$ उन सभी वृत्तों के युग्मों ($$S_1$$, $$S_2$$) का सेट है जिनके लिए $$T$$ $$P$$ पर $$S_1$$ को स्पर्श करती है और $$Q$$ पर $$S_2$$ को स्पर्श करती है, औ..."
+        }
+      },
+      "yearKey": "jee-advanced-2018-paper-2-offline"
+    },
+    {
+      "question_id": "oluksbiaia4a9uot8isu",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2017 Paper 1 Offline",
+      "permalink": "the-tangent-to-a-suitable-conic-column-1-at-left-sqr-jee-advanced-mathematics-trigonometric-functions-and-equations-aprxzsalu2f62eyu",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "The tangent to a suitable conic (Column 1) at $$\\left( {\\sqrt 3 ,\\,{1 \\over 2}} \\right)$$ is found to be $$\\sqrt 3 x + 2y = 4$$, then which of the following options is the only CORRECT combination?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(IV) (iv) (S)"
+            },
+            {
+              "identifier": "B",
+              "content": "(II) (iv) (R)"
+            },
+            {
+              "identifier": "C",
+              "content": "(IV) (iii) (S)"
+            },
+            {
+              "identifier": "D",
+              "content": "(II) (ii) (R)"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Given, tangent to conic is $$\\sqrt 3 x + 2y = 4$$ and point of contact is</p>\n<p>$$\\left( {\\sqrt 3 ,{1 \\over 2}} \\right)$$ ..... (1)</p>\n<p>$$\\sqrt 3 x + 2y = 4 \\Rightarrow 2y = 4 - \\sqrt 3 x$$</p>\n<p>$$ \\Rightarrow y = {{ - \\sqrt 3 } \\over 2}x + 2$$ ....... (2)</p>\n<p>On comparing this equation with options in Column 2, we get</p>\n<p>$$m = {{ - \\sqrt 3 } \\over 2}$$</p>\n<p>Equation (1) can also be written as</p>\n<p>$$ \\Rightarrow \\sqrt 3 x + 4\\left( {{1 \\over 2}} \\right)y = 4$$</p>\n<p>On comparing with the option (II), we get</p>\n<p>$${a^2} = 4 \\Rightarrow a = 2$$</p>\n<p>Now, for a = 2, $$m = {{ - \\sqrt 3 } \\over 2}\\left( {{{ - {a^2}m} \\over {\\sqrt {{a^2}{m^2} + 1} }},{1 \\over {\\sqrt {{a^2}{m^2} + 1} }}} \\right)$$ gives $$\\left( {\\sqrt 3 ,{1 \\over 2}} \\right)$$ as the point of contact.</p>\n<p>Thus, the correct combination is (II) (iv) (R); hence, option (B) is correct.</p>",
+          "comprehension": "By appropriately matching the information given in the three columns of the following table.<br/><br/>Columns 1, 2 and 3 contain conics, equations of tangents to the conics and points of contact, respectively.<br/><br/><table style=\"width:100%\">\n<thead>\n  <tr>\n    <th></th>\n    <th>Column - 1</th>\n    <th>Column - 2</th>\n    <th>Column - 3</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td>(i)</td>\n    <td>$${x^2} + {y^2} = a$$</td>\n    <td>$$my = {m^2}x + a$$</td>\n    <td>$$\\left( {{a \\over {{m^2}}},\\,{{2a} \\over m}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(ii)</td>\n    <td>$${x^2}{a^2}{y^2} = {a^2}]$$</td>\n    <td>$$y = mx + a\\sqrt {{m^2} + 1} $$</td>\n    <td>$$\\left( {{{ - ma} \\over {\\sqrt {{m^2} + 1} }},\\,{a \\over {\\sqrt {{m^2} + 1} }}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(iii) </td>\n    <td>$${y^2} = 4ax$$</td>\n    <td>$$y = mx + \\sqrt {{a^2}{m^2} - 1} $$</td>\n    <td>$$\\left( {{{ - {a^2}m} \\over {\\sqrt {{a^2}{m^2} + 1} }},\\,{1 \\over {\\sqrt {{a^2}{m^2} + 1} }}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(iv)</td>\n    <td>$${x^2} - {a^2}{y^2} = {a^2}$$</td>\n    <td>$$y = mx + \\sqrt {{a^2}{m^2} + 1} $$</td>\n    <td>$$\\left( {{{ - {a^2}m} \\over {\\sqrt {{a^2}{m^2} - 1} }},\\,{{ - 1} \\over {\\sqrt {{a^2}{m^2} - 1} }}} \\right)$$</td>\n  </tr>\n</tbody>\n</table>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "किसी उपयुक्त शंकु (कॉलम 1) के लिए $$\\left( {\\sqrt 3 ,\\,{1 \\over 2}} \\right)$$ पर स्पर्शरेखा $$\\sqrt 3 x + 2y = 4$$ पाई जाती है, तो निम्नलिखित में से कौनसा विकल्प केवल सही संयोजन है?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(IV) (iv) (S)"
+            },
+            {
+              "identifier": "B",
+              "content": "(II) (iv) (R)"
+            },
+            {
+              "identifier": "C",
+              "content": "(IV) (iii) (S)"
+            },
+            {
+              "identifier": "D",
+              "content": "(II) (ii) (R)"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": "नीचे दिए गए तीन कॉलम की जानकारी को उचित रूप से मिलाकर।<br/><br/>कॉलम 1, 2 और 3 में शांकव, शांकवों के स्पर्शरेखाओं के समीकरण और संपर्क बिंदुओं की जानकारी है।<br/><br/><table style=\"width:100%\">\n<thead>\n  <tr>\n    <th></th>\n    <th>Column - 1</th>\n    <th>Column - 2</th>\n    <th>Column - 3</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td>(i)</td>\n    <td>$${x^2} + {y^2} = a$$</td>\n    <td>$$my = {m^2}x + a$$</td>\n    <td>$$\\left( {{a \\over {{m^2}}},\\,{{2a} \\over m}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(ii)</td>\n    <td>$${x^2}{a^2}{y^2} = {a^2}]$$</td>\n    <td>$$y = mx + a\\sqrt {{m^2} + 1} $$</td>\n    <td>$$\\left( {{{ - ma} \\over {\\sqrt {{m^2} + 1} }},\\,{a \\over {\\sqrt {{m^2} + 1} }}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(iii) </td>\n    <td>$${y^2} = 4ax$$</td>\n    <td>$$y = mx + \\sqrt {{a^2}{m^2} - 1} $$</td>\n    <td>$$\\left( {{{ - {a^2}m} \\over {\\sqrt {{a^2}{m^2} + 1} }},\\,{1 \\over {\\sqrt {{a^2}{m^2} + 1} }}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(iv)</td>\n    <td>$${x^2} - {a^2}{y^2} = {a^2}$$</td>\n    <td>$$y = mx + \\sqrt {{a^2}{m^2} + 1} $$</td>\n    <td>$$\\left( {{{ - {a^2}m} \\over {\\sqrt {{a^2}{m^2} - 1} }},\\,{{ - 1} \\over {\\sqrt {{a^2}{m^2} - 1} }}} \\right)$$</td>\n  </tr>\n</tbody>\n</table>"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "tangent-to-hyperbola",
+      "type": "mcq",
+      "year": 2017,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "The tangent to a suitable conic (Column 1) at $$\\left( {\\sqrt 3 ,\\,{1 \\over 2}} \\right)$$ is found to be $$\\sqrt 3 x + 2y = 4$$, then which of the following options is the only CORRECT combination?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "किसी उपयुक्त शंकु (कॉलम 1) के लिए $$\\left( {\\sqrt 3 ,\\,{1 \\over 2}} \\right)$$ पर स्पर्शरेखा $$\\sqrt 3 x + 2y = 4$$ पाई जाती है, तो निम्नलिखित में से कौनसा विकल्प केवल सही संयोजन है?"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-1-offline"
+    },
+    {
+      "question_id": "kqduutsxnswog0e2soew",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "hard",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2017 Paper 1 Offline",
+      "permalink": "for-a--sqrt-2--if-a-tangent-is-drawn-to-a-suitable-co-jee-advanced-mathematics-trigonometric-functions-and-equations-m9efkefugadumzv0",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "For $$a = \\sqrt 2 $$, if a tangent is drawn to a suitable conic (Column 1) at the point of contact ($$-$$1, 1), then which of the following options is the only CORRECT combination for obtaining its equation?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(I) (ii) Q)"
+            },
+            {
+              "identifier": "B",
+              "content": "(I) (ii) (P)"
+            },
+            {
+              "identifier": "C",
+              "content": "(III) (i) (P)"
+            },
+            {
+              "identifier": "D",
+              "content": "(II) (ii) (Q)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>$$\\bullet$$ For the given equation $$a = \\sqrt 2 $$ and point ($$-$$1, 1), x<sup>2</sup> + y<sup>2</sup> = a<sup>2</sup> satisfies these conditions (i.e. I of Column 1)</p>\n<p>$$\\bullet$$ Thus, equation of tangent is $$ - x + y = 2 \\Rightarrow y = x + 2$$; thus (ii) of Column 2 satisfies this condition with m = 1. That is, $$y = mx + a\\sqrt {{m^2} + 1} $$</p>\n<p>$$\\bullet$$ It is given that point of constant ($$-$$1, 1) given m = 1 and $$a = \\sqrt 2 $$ Q; of Columns 3 : $$\\left( {{{ - ma} \\over {\\sqrt {{m^2} + 1} }},{a \\over {\\sqrt {{m^2} + 1} }}} \\right)$$ gives point of contact ($$-$$1, 1).</p>\n<p>Thus, correct combination is (I) (II) (Q); thus, option (A) is correct.</p>",
+          "comprehension": "By appropriately matching the information given in the three columns of the following table.<br/><br/>Columns 1, 2 and 3 contain conics, equations of tangents to the conics and points of contact, respectively.<br/><br/><table style=\"width:100%\">\n<thead>\n  <tr>\n    <th></th>\n    <th>Column - 1</th>\n    <th>Column - 2</th>\n    <th>Column - 3</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td>(i)</td>\n    <td>$${x^2} + {y^2} = a$$</td>\n    <td>$$my = {m^2}x + a$$</td>\n    <td>$$\\left( {{a \\over {{m^2}}},\\,{{2a} \\over m}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(ii)</td>\n    <td>$${x^2}{a^2}{y^2} = {a^2}]$$</td>\n    <td>$$y = mx + a\\sqrt {{m^2} + 1} $$</td>\n    <td>$$\\left( {{{ - ma} \\over {\\sqrt {{m^2} + 1} }},\\,{a \\over {\\sqrt {{m^2} + 1} }}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(iii) </td>\n    <td>$${y^2} = 4ax$$</td>\n    <td>$$y = mx + \\sqrt {{a^2}{m^2} - 1} $$</td>\n    <td>$$\\left( {{{ - {a^2}m} \\over {\\sqrt {{a^2}{m^2} + 1} }},\\,{1 \\over {\\sqrt {{a^2}{m^2} + 1} }}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(iv)</td>\n    <td>$${x^2} - {a^2}{y^2} = {a^2}$$</td>\n    <td>$$y = mx + \\sqrt {{a^2}{m^2} + 1} $$</td>\n    <td>$$\\left( {{{ - {a^2}m} \\over {\\sqrt {{a^2}{m^2} - 1} }},\\,{{ - 1} \\over {\\sqrt {{a^2}{m^2} - 1} }}} \\right)$$</td>\n  </tr>\n</tbody>\n</table>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "$$a = \\sqrt 2 $$ के लिए, यदि किसी उपयुक्त शांकव (कॉलम 1) के संपर्क बिंदु ($$-$$1, 1) पर एक स्पर्शरेखा खींची जाती है, तो निम्नलिखित विकल्पों में से कौन सा विकल्प उसका समीकरण प्राप्त करने के लिए सही संयोजन है?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "(I) (ii) Q)"
+            },
+            {
+              "identifier": "B",
+              "content": "(I) (ii) (P)"
+            },
+            {
+              "identifier": "C",
+              "content": "(III) (i) (P)"
+            },
+            {
+              "identifier": "D",
+              "content": "(II) (ii) (Q)"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": "नीचे दिए गए तीन कॉलम की जानकारी को उचित रूप से मिलाकर।<br/><br/>कॉलम 1, 2 और 3 में शांकव, शांकवों के स्पर्शरेखाओं के समीकरण और संपर्क बिंदुओं की जानकारी है।<br/><br/><table style=\"width:100%\">\n<thead>\n  <tr>\n    <th></th>\n    <th>Column - 1</th>\n    <th>Column - 2</th>\n    <th>Column - 3</th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td>(i)</td>\n    <td>$${x^2} + {y^2} = a$$</td>\n    <td>$$my = {m^2}x + a$$</td>\n    <td>$$\\left( {{a \\over {{m^2}}},\\,{{2a} \\over m}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(ii)</td>\n    <td>$${x^2}{a^2}{y^2} = {a^2}]$$</td>\n    <td>$$y = mx + a\\sqrt {{m^2} + 1} $$</td>\n    <td>$$\\left( {{{ - ma} \\over {\\sqrt {{m^2} + 1} }},\\,{a \\over {\\sqrt {{m^2} + 1} }}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(iii) </td>\n    <td>$${y^2} = 4ax$$</td>\n    <td>$$y = mx + \\sqrt {{a^2}{m^2} - 1} $$</td>\n    <td>$$\\left( {{{ - {a^2}m} \\over {\\sqrt {{a^2}{m^2} + 1} }},\\,{1 \\over {\\sqrt {{a^2}{m^2} + 1} }}} \\right)$$</td>\n  </tr>\n  <tr>\n    <td>(iv)</td>\n    <td>$${x^2} - {a^2}{y^2} = {a^2}$$</td>\n    <td>$$y = mx + \\sqrt {{a^2}{m^2} + 1} $$</td>\n    <td>$$\\left( {{{ - {a^2}m} \\over {\\sqrt {{a^2}{m^2} - 1} }},\\,{{ - 1} \\over {\\sqrt {{a^2}{m^2} - 1} }}} \\right)$$</td>\n  </tr>\n</tbody>\n</table>"
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "tangent-to-hyperbola",
+      "type": "mcq",
+      "year": 2017,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "For $$a = \\sqrt 2 $$, if a tangent is drawn to a suitable conic (Column 1) at the point of contact ($$-$$1, 1), then which of the following options is the only CORRECT combination for obtaining its equation?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "$$a = \\sqrt 2 $$ के लिए, यदि किसी उपयुक्त शांकव (कॉलम 1) के संपर्क बिंदु ($$-$$1, 1) पर एक स्पर्शरेखा खींची जाती है, तो निम्नलिखित विकल्पों में से कौन सा विकल्प उसका समीकरण प्राप्त करने के लिए सही संयोजन है?"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-1-offline"
+    },
+    {
+      "question_id": "e9ojqknzc1snwc9w9qwo",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 4,
+      "negMarks": 1,
+      "paperTitle": "JEE Advanced 2017 Paper 1 Offline",
+      "permalink": "if-2x-y--1--0-is-a-tangent-to-the-hyperbola-x2-jee-advanced-mathematics-trigonometric-functions-and-equations-spdr9gulusewsywg",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "If $$2x - y + 1 = 0$$ is a tangent to the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {16}} = 1$$ then which of the following CANNOT be sides of a right angled triangle?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "a, 4, 1"
+            },
+            {
+              "identifier": "B",
+              "content": "2a, 4, 1"
+            },
+            {
+              "identifier": "C",
+              "content": "a, 4, 2"
+            },
+            {
+              "identifier": "D",
+              "content": "2a, 8, 1"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p>Line y = mx + C is tangent to hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$ if following condition is satisfied:</p>\n<p>$${C^2} = {a^2}{m^2} - {b^2}$$ ..... (1)</p>\n<p>Given : The equation of line = $$2x - y + 1 = 0$$</p>\n<p>Hyperbola = $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{{16}^2}}} = 1$$</p>\n<p>Consider equation $$2x - y + 1 = 0$$</p>\n<p>$$ \\Rightarrow y = 2x + 1 \\Rightarrow m = 2$$ and C = 1</p>\n<p>From equation of hyperbola, we get b<sup>2</sup> = 16 and a<sup>2</sup></p>\n<p>Substituting all values in Eq. (1), we get</p>\n<p>$${1^2} = {a^2}{(2)^2} - 16$$</p>\n<p>$$1 = 4{a^2} - 16 \\Rightarrow 4{a^2} = 16 + 1 \\Rightarrow 4{a^2} = 17$$</p>\n<p>$$ \\Rightarrow {a^2} = {{17} \\over 4} \\Rightarrow a = \\sqrt {{{17} \\over 4}}  = {{\\sqrt {17} } \\over 2}$$</p>\n<p>Therefore, $$a = {{\\sqrt {17} } \\over 2}$$</p>\n<p>Option (A) : a, 4, 1 $$ \\Rightarrow {{\\sqrt {17} } \\over 2}$$, 4, 1 is not a right triangle (Since $$\\sqrt {{4^2} + {1^1}}  \\ne {{\\sqrt {17} } \\over 2}$$)</p>\n<p>Option (B) : 2a, 4, 1 $$\\sqrt {17} $$, 4, 1 is a right angled triangle (since $$\\sqrt {{4^2} + {1^2}}  = \\sqrt {16 + 1}  = \\sqrt {17} $$)</p>\n<p>Option (C) : a, 4, 2 $$ \\Rightarrow {{\\sqrt {17} } \\over 2}$$, 4, 2 is not a right angled triangle (Since $$\\sqrt {{4^2} + {2^2}}  \\ne {{\\sqrt {17} } \\over 2}$$)</p>\n<p>Option (D) : 2a, 8, 1 $$\\sqrt {17} $$, 8, 1 is not a right angled triangle (Since $$\\sqrt {{8^2} + {1^2}}  \\ne \\sqrt {17} $$)</p>"
+        },
+        "hi": {
+          "direction": null,
+          "content": "यदि $$2x - y + 1 = 0$$ एक समरूपता है तो कटुते $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {16}} = 1$$ फिर निम्नलिखित में से कौन सी एक समकोण त्रिभुज के किनारे नहीं हो सकती है?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "a, 4, 1"
+            },
+            {
+              "identifier": "B",
+              "content": "2a, 4, 1"
+            },
+            {
+              "identifier": "C",
+              "content": "a, 4, 2"
+            },
+            {
+              "identifier": "D",
+              "content": "2a, 8, 1"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null,
+          "comprehension": null
+        }
+      },
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "tangent-to-hyperbola",
+      "type": "mcqm",
+      "year": 2017,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2017-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "If $$2x - y + 1 = 0$$ is a tangent to the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {16}} = 1$$ then which of the following CANNOT be sides of a right angled triangle?"
+        },
+        "hi": {
+          "title": "JEE Advanced 2017 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "यदि $$2x - y + 1 = 0$$ एक समरूपता है तो कटुते $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {16}} = 1$$ फिर निम्नलिखित में से कौन सी एक समकोण त्रिभुज के किनारे नहीं हो सकती है?"
+        }
+      },
+      "yearKey": "jee-advanced-2017-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ym6k73rlahj7mory1nky",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2015,
+      "paperTitle": "JEE Advanced 2015 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Consider the hyperbola $$H:{x^2} - {y^2} = 1$$ and a circle $$S$$ with center $$N\\left( {{x_2},0} \\right)$$. Suppose that $$H$$ and $$S$$ touch each other at a point $$P\\left( {{x_1},{y_1}} \\right)$$ with $${{x_1} &gt; 1}$$ and $${{y_1} &gt; 0}$$. The common tangent to $$H$$ and $$S$$ at $$P$$ intersects the $$x$$-axis at point $$M$$. If $$(l, m)$$ is the centroid of the triangle $$PMN$$, then the correct expressions(s) is(are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{dl} \\over {d{x_1}}} = 1 - {1 \\over {3x_1^2}}$$ for $${x_1} &gt; 1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${{dm} \\over {d{x_1}}} = {{{x_1}} \\over {3\\left( {\\sqrt {x_1^2 - 1} } \\right)}}$$ for $${x_1} &gt; 1$$  "
+            },
+            {
+              "identifier": "C",
+              "content": "$${{dl} \\over {d{x_1}}} = 1 + {1 \\over {3x_1^2}}$$ for $${x_1} &gt; 1$$  "
+            },
+            {
+              "identifier": "D",
+              "content": "$${{dm} \\over {d{y_1}}} = {1 \\over 3}$$ for $${y_1} &gt; 0$$ "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": "<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l0whscqs/e8cb526c-bf22-478d-b300-92c34e2e65d8/426f6440-a6c4-11ec-b979-0d1c868c8af2/file-1l0whscqt.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l0whscqs/e8cb526c-bf22-478d-b300-92c34e2e65d8/426f6440-a6c4-11ec-b979-0d1c868c8af2/file-1l0whscqt.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"JEE Advanced 2015 Paper 2 Offline Mathematics - Hyperbola Question 19 English Explanation\"></p>\n<p>Equation of family of circles touching hyperbola at (x<sub>1</sub>, y<sub>1</sub>) is</p>\n<p>(x $$-$$ x<sub>1</sub>)<sup>2</sup> + (y $$-$$ y<sub>1</sub>)<sup>2</sup> + $$\\lambda$$(xx<sub>1</sub> $$-$$ yy<sub>1</sub> $$-$$ 1) =0</p>\n<p>Now, its centre is (x<sub>2</sub>, 0).</p>\n<p>$$\\therefore$$ $$\\left[ {{{ - (\\lambda {x_1} - 2{x_1})} \\over 2},{{ - ( - 2{y_1} - \\lambda {y_1})} \\over 2}} \\right] = ({x_2},0)$$</p>\n<p>$$ \\Rightarrow 2{y_1} + \\lambda {y_1} = 0 \\Rightarrow \\lambda  =  - 2$$</p>\n<p>and $$2{x_1} - \\lambda x = 2{x_2} \\Rightarrow {x_2} = 2{x_1}$$</p>\n<p>$$\\therefore$$ $$P({x_1},\\sqrt {x_1^2 - 1} )$$</p>\n<p>and $$N({x_2},0) = (2{x_1},0)$$</p>\n<p>As tangent intersect X-axis at $$M\\left( {{1 \\over x},0} \\right)$$.</p>\n<p>Centroid of $$\\Delta PWN = (l,m)$$</p>\n<p>$$ \\Rightarrow \\left( {{{3{x_1} + {1 \\over {{x_1}}}} \\over 3},{{{y_1} + 0 + 0} \\over 3}} \\right) = (l,m)$$</p>\n<p>$$ \\Rightarrow l = {{3{x_1} + {1 \\over {{x_1}}}} \\over 3}$$</p>\n<p>On differentiating w.r.t. x<sub>1</sub>, we get</p>\n<p>$${{dl} \\over {d{x_1}}} = {{3 - {1 \\over {x_1^2}}} \\over 3}$$</p>\n<p>$$ \\Rightarrow {{dl} \\over {d{x_1}}} = 1 - {1 \\over {3x_2^1}}$$, for x<sub>1</sub> &gt; 1</p>\n<p>and $$m = {{\\sqrt {x_1^2 - 1} } \\over 3}$$</p>\n<p>On differentiating w.r.t. x<sub>1</sub>, we get</p>\n<p>$${{dm} \\over {d{x_1}}} = {{2{x_1}} \\over {2 \\times 3\\sqrt {x_1^2 - 1} }} = {{{x_1}} \\over {3\\sqrt {x_1^2 - 1} }}$$, for x<sub>1</sub> &gt; 1</p>\n<p>Also, $$m = {{{y_1}} \\over 3}$$</p>\n<p>On differentiating w.r.t. y<sub>1</sub>, we get</p>\n<p>$${{dm} \\over {d{y_1}}} = {1 \\over 3}$$, for y<sub>1</sub> &gt; 0</p>"
+        }
+      },
+      "permalink": "consider-the-hyperbola-hx2-y2-1-and-a-circle-s-with-center-n-jee-advanced-2015-marks-4-xyuldbjhjqivzwmj.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "jee-advanced-2015-paper-2-offline",
+      "topic": "common-tangent",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "JEE Advanced 2015 Paper 2 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Consider the hyperbola $$H:{x^2} - {y^2} = 1$$ and a circle $$S$$ with center $$N\\left( {{x_2},0} \\right)$$. Suppose that $$H$$ and $$S$$ touch each other at a point $$P\\left( {{x_1},{y_1}} \\right)$$ with $${{x_1} > 1}$$ and $${{y_1} > 0}$$..."
+        }
+      },
+      "yearKey": "jee-advanced-2015-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dalz9ayexn9mu5g0h5fg",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2012,
+      "paperTitle": "IIT-JEE 2012 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Tangents are drawn to the hyperbola $${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = 1,$$ parallel to the straight line $$2x - y = 1,$$ The points of contact of the tangents on the hyperbola are ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( {{9 \\over {2\\sqrt 2 }},{1 \\over {\\sqrt 2 }}} \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( -{{9 \\over {2\\sqrt 2 }},-{1 \\over {\\sqrt 2 }}} \\right)$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( {3\\sqrt 3 , - 2\\sqrt 2 } \\right)$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left( -{3\\sqrt 3 ,  2\\sqrt 2 } \\right)$$"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>Since, the tangents are parallel to the straight line $$2 x-y=1$$.</p>\n<p>$$\\therefore$$ Equation of the tangents is</p>\n<p>$$\\Rightarrow \\quad \\begin{aligned}\n2 x-y+\\mathrm{C} & =0 \\\\\ny & =2 x+\\mathrm{C}\n\\end{aligned}$$</p>\n<p>$$\\Rightarrow$$ Slope of the tangents is $$m=2$$.</p>\n<p>Now, from the standard equation of given hyperbola.</p>\n<p>$$\\begin{aligned}\n& \\quad a^2=9, b^2=4 \\\\\n\\therefore \\quad & C^2=a^2 m^2-b^2 \\\\\n\\Rightarrow \\quad & C^2=9 \\times 2^2-4 \\\\\n\\Rightarrow \\quad & C^2=32 \\\\\n\\Rightarrow \\quad & C= \\pm 4 \\sqrt{2}\n\\end{aligned}$$</p>\n<p>$$\\therefore$$ Point of contact is $$\\left( \\pm \\frac{a^2 m}{\\mathrm{C}}, \\pm \\frac{b^2}{\\mathrm{C}}\\right)$$</p>\n<p>i.e. $$\\left( \\pm \\frac{9 \\times 2}{4 \\sqrt{2}}, \\pm \\frac{4}{4 \\sqrt{2}}\\right)$$</p>\n<p>i.e. $$\\left( \\pm \\frac{9}{2 \\sqrt{2}}, \\pm \\frac{1}{\\sqrt{2}}\\right)$$</p>"
+        }
+      },
+      "permalink": "tangents-are-drawn-to-the-hyperbola-x2-over-9-y2-over-4-1-pa-jee-advanced-2012-marks-4-nzks6hzxfsxbcopi.htm",
+      "timeAllotted": 180000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2012-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-hyperbola",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2012 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Tangents are drawn to the hyperbola $${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = 1,$$ parallel to the straight line $$2x - y = 1,$$ The points of contact of the tangents on the hyperbola are "
+        }
+      },
+      "yearKey": "iit-jee-2012-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "eiiwcof56qm613542ybp",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$P(6, 3)$$ be a point on the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$. If the normal at the point $$P$$ intersects the $$x$$-axis at $$(9, 0)$$, then the eccentricity of the hyperbola is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\sqrt {{5 \\over 2}} $$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt {{3 \\over 2}} $$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${\\sqrt 2 }$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${\\sqrt 3 }$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Equation of normal is</p>\n<p>$$(y - 3) = {{ - {a^2}} \\over {2{b^2}}}(x - 6) \\Rightarrow {{{a^2}} \\over {2{b^2}}} = 1 \\Rightarrow e = \\sqrt {{3 \\over 2}} $$</p>"
+        }
+      },
+      "permalink": "let-p6-3-be-a-point-on-the-hyperbola-x2-over-a2-y2-over-b2-1-jee-advanced-2011-marks-3-gtcxtvfzacgugsnb.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-2-offline",
+      "isOutOfSyllabus": false,
+      "topic": "normal-to-hyperbola",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 2 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Let $$P(6, 3)$$ be a point on the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$. If the normal at the point $$P$$ intersects the $$x$$-axis at $$(9, 0)$$, then the eccentricity of the hyperbola is "
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ihlaj6dkwhs51mp5mi9e",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2011,
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let the eccentricity of the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$ be reciprocal to that of the ellipse $${x^2} + 4{y^2} = 4$$. If the hyperbola passes through a focus of the ellipse, then ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "the equation of the hyperbola is $${{{x^2}} \\over 3} - {{{y^2}} \\over 2} = 1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "a focus of the hyperbola is $$(2, 0)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "theeccentricity of the hyperbola is $$\\sqrt {{5 \\over 3}} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "The equation of the hyperbola is $${x^2} - 3{y^2} = 3$$ "
+            }
+          ],
+          "correct_options": [
+            "D",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>Ellipse is $${{{x^2}} \\over {{2^2}}} + {{{y^2}} \\over {{1^2}}} = 1$$.</p>\n<p>$${1^2} = {2^2}(1 - {e^2}) \\Rightarrow e = {{\\sqrt 3 } \\over 2}$$</p>\n<p>Therefore, the eccentricity of the hyperbola is</p>\n<p>$${2 \\over {\\sqrt 3 }} \\Rightarrow {b^2} = {a^2}\\left( {{4 \\over 3} - 1} \\right) \\Rightarrow 3{b^2} = {a^2}$$</p>\n<p>Foci of the ellipse are $$(\\sqrt 3 ,\\,0)$$ and $$( - \\sqrt 3 ,\\,0)$$.</p>\n<p>Hyperbola passes through $$(  \\sqrt 3 ,\\,0)$$.</p>\n<p>$${3 \\over {{a^2}}} = 1 \\Rightarrow {a^2} = 3$$ and $${b^2} = 1$$</p>\n<p>Therefore, the equation of hyperbola is $${x^2} - 3{y^2} = 3$$.</p>\n<p>Focus of hyperbola is $$(ae,\\,0) \\equiv \\left( {\\sqrt 3  \\times {2 \\over {\\sqrt 3 }},\\,0} \\right) \\equiv (2,0)$$.</p>"
+        }
+      },
+      "permalink": "let-the-eccentricity-of-the-hyperbola-x2-over-a2-y2-over-b2-jee-advanced-2011-marks-4-4ruuauvwirkvygfk.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Let the eccentricity of the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$ be reciprocal to that of the ellipse $${x^2} + 4{y^2} = 4$$. If the hyperbola passes through a focus of the ellipse, then "
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kx5f126tmbqtj3e9grna",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The circle $${x^2} + {y^2} - 8x = 0$$ and hyperbola $${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = 1$$ intersect at the points $$A$$ and $$B$$.\n<p>Equation of a common tangent with positive slope to the circle as well as to the hyperbola is </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$2x - \\sqrt {5y}  - 20 = 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$2x - \\sqrt {5y}  + 4 = 0$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$3x - 4y + 8 = 0$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$4x - 3y + 4 = 0$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>A tangent to $${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = 1$$ is</p>\n<p>$$y = mx + \\sqrt {9{m^2} - 4} ,\\,m > 0$$ .... (1)</p>\n<p>A tangent to $${(x - 4)^2} + {y^2} = 16$$ is</p>\n<p>$$xy = m(x - 4) + 4\\sqrt {1 + {m^2}} $$ ..... (2)</p>\n<p>Comparing (1) and (2),</p>\n<p>$$\\sqrt {9{m^2} - 4}  =  - 4m + 4\\sqrt {1 + {m^2}}  \\Rightarrow \\sqrt {9 - {4 \\over {{m^2}}}}  =  - 4 + 4\\sqrt {1 + {1 \\over {{m^2}}}} $$</p>\n<p>Let $${1 \\over {{m^2}}} = t$$, we have $$\\sqrt {9 - 4t}  =  - 4 + 4\\sqrt {1 + t} $$</p>\n<p>Squaring, we have</p>\n<p>$$ \\Rightarrow 9 - 4t = 16 + 16(1 + t) - 32\\sqrt {1 + t}  \\Rightarrow 32\\sqrt {1 + t}  = 23 + 20t$$</p>\n<p>Again squaring $$1024(1 + t) = 529 + 920t + 400{t^2}$$</p>\n<p>$$ \\Rightarrow 400{t^2} - 104t - 495 = 0 \\Rightarrow t = {5 \\over 4}$$</p>\n<p>Thus $${m^2} = {4 \\over 5},\\,m = {2 \\over {\\sqrt 5 }}$$</p>\n<p>The tangent is $$y = {2 \\over {\\sqrt 5 }}x + {4 \\over {\\sqrt 5 }}$$ i.e. $$2x - \\sqrt 5 y + 4 = 0$$</p>"
+        }
+      },
+      "permalink": "the-circle-x2-y2-8x-0-and-hyperbola-x2-over-9-y2-over-4-1-in-jee-advanced-2010-marks-4-ejpyzqv5hq7bz0x9.htm",
+      "timeAllotted": 200000,
+      "topic": "common-tangent",
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "The circle $${x^2} + {y^2} - 8x = 0$$ and hyperbola $${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = 1$$ intersect at the points $$A$$ and $$B$$.\nEquation of a common tangent with positive slope to the circle as well as to the hyperbola is "
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9wgbbighiyjw6fywbc3d",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The circle $${x^2} + {y^2} - 8x = 0$$ and hyperbola $${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = 1$$ intersect at the points $$A$$ and $$B$$.\n<p>Equation of the circle with $$AB$$ as its diameter is </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${x^2} + {y^2} - 12x + 24 = 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${x^2} + {y^2} + 12x + 24 = 0$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${x^2} + {y^2} + 24x - 12 = 0$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${x^2} + {y^2} - 24x - 12 = 0$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>A point on hyperbola is (3sec$$\\theta$$, 2tan$$\\theta$$).</p>\n<p>It lies on the circle, so</p>\n<p>$$9{\\sec ^2}\\theta  + 4{\\tan ^2}\\theta  - 24\\sec \\theta  = 0$$.</p>\n<p>$$ \\Rightarrow 13{\\sec ^2}\\theta  - 24\\sec \\theta  - 4 = 0 \\Rightarrow \\sec \\theta  = 2, - {2 \\over {13}}$$</p>\n<p>Therefore, $$\\sec \\theta  = 2 \\Rightarrow \\tan \\theta  = \\sqrt 3 $$</p>\n<p>The point of intersection are $$A(6,2\\sqrt 3 )$$ and $$B(6, - 2\\sqrt 3 )$$</p>\n<p>Hence, The circle with AB as diameter is</p>\n<p>$${(x - 6)^2} + {y^2} = {(2\\sqrt 3 )^2} \\Rightarrow {x^2} + {y^2} - 12x + 24 = 0$$</p>"
+        }
+      },
+      "permalink": "the-circle-x2-y2-8x-0-and-hyperbola-x2-over-9-y2-over-4-1-in-jee-advanced-2010-marks-4-xvvsskswdk51cihv.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "position-of-point-and-chord-joining-of-two-points",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "The circle $${x^2} + {y^2} - 8x = 0$$ and hyperbola $${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = 1$$ intersect at the points $$A$$ and $$B$$.\nEquation of the circle with $$AB$$ as its diameter is "
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ijny1nb4ast708iyrcs5",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2010,
+      "paperTitle": "IIT-JEE 2010 Paper 1 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "integer",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<p>The line $$2x + y = 1$$ is tangent to the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$.</p> <p>If this line passes through the point of intersection of the nearest directrix and the $$x$$-axis, then the eccentricity of the hyperbola is </p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "2",
+          "explanation": "<p>On substituting $$\\left( {{a \\over e},0} \\right)$$ in $$y =  - 2x + 1$$,</p>\n<p>we get</p>\n<p>$$0 =  - {{2a} \\over e} + 1$$</p>\n<p>$$ \\Rightarrow {a \\over e} = {1 \\over 2}$$</p>\n<p>Also, $$y =  - 2x + 1$$ is tangent to hyperbola</p>\n<p>$$\\therefore$$ $$1 = 4{a^2} - {b^2}$$</p>\n<p>$$ \\Rightarrow {1 \\over {{a^2}}} = 4 - ({e^2} - 1)$$</p>\n<p><img src=\"https://app-content.cdn.examgoal.net/fly/@width/image/1l308hvrz/f90ddd5f-1e14-4c17-b955-659e058f7767/7e6e5200-d06b-11ec-bfa4-213dbe55022f/file-1l308hvs0.png?format=png\" data-orsrc=\"https://app-content.cdn.examgoal.net/image/1l308hvrz/f90ddd5f-1e14-4c17-b955-659e058f7767/7e6e5200-d06b-11ec-bfa4-213dbe55022f/file-1l308hvs0.png\" loading=\"lazy\" style=\"max-width:100%;height:auto;display:block;margin:0px auto;max-height:40vh\" alt=\"IIT-JEE 2010 Paper 1 Offline Mathematics - Hyperbola Question 13 English Explanation\"></p>\n<p>$$ \\Rightarrow {4 \\over {{e^2}}} = 5 - {e^2}$$</p>\n<p>$$ \\Rightarrow {e^4} - 5{e^2} + 4 = 0$$</p>\n<p>$$ \\Rightarrow ({e^2} - 4)({e^2} - 1) = 0$$</p>\n<p>$$\\Rightarrow$$ e = 2, e = 1</p>\n<p>e = 1 gives the conic as parabola. But conic is given as hyperbola, hence e = 2.</p>"
+        }
+      },
+      "permalink": "the-line-2x-y-1-is-tangent-to-the-hyperbola-x2-over-a2-y2-ov-jee-advanced-2010-marks-4-sitwbdiqsqsmtudd.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2010-paper-1-offline",
+      "topic": "tangent-to-hyperbola",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2010 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "The line $$2x + y = 1$$ is tangent to the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$. If this line passes through the point of intersection of the nearest directrix and the $$x$$-axis, then the eccentricity of the h..."
+        }
+      },
+      "yearKey": "iit-jee-2010-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "1hbx2zdoxhnzesx0zacw",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 1,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2008,
+      "paperTitle": "IIT-JEE 2008 Paper 2 Offline",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Consider a branch  of the hyperbola \n$$${x^2} - 2{y^2} - 2\\sqrt 2 x - 4\\sqrt 2 y - 6 = 0$$$\n<p>with vertex at the point $$A$$. Let $$B$$ be one of the end points of its latus rectum. If $$C$$ is the focus of the hyperbola nearest to the point $$A$$, then the area of the triangle $$ABC$$ is </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$1 - \\sqrt {{2 \\over 3}} $$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\sqrt {{3 \\over 2}}  - 1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$1 + \\sqrt {{2 \\over 3}} $$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\sqrt {{3 \\over 2}}  + 1$$"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>We have,</p>\n<p>$${x^2} - 2{y^2} - 2\\sqrt 2 x - 4\\sqrt 2 y - 6 = 0$$</p>\n<p>$${{{{(x - \\sqrt 2 )}^2}} \\over 4} - {{{{(y + \\sqrt 2 )}^2}} \\over 2} = 1$$</p>\n<p>$$a = 2,b = \\sqrt 2 $$</p>\n<p>$$ \\Rightarrow e = \\sqrt {{3 \\over 2}} $$</p>\n<p>Now, $$e = \\sqrt {{{{a^2} + {b^2}} \\over {{a^2}}}}  = \\sqrt {{3 \\over 2}} $$</p>\n<p>Area, $$ = {1 \\over 2}$$ $$\\times$$ Base $$\\times$$ Height</p>\n<p>$$ = {1 \\over 2}a(e - 1){{{b^2}} \\over a}$$</p>\n<p>$$ = {1 \\over 2}{{(\\sqrt 3  - \\sqrt 2 ) \\times 2} \\over {\\sqrt 2 }}$$</p>\n<p>$$ = {{\\sqrt 3  - \\sqrt 2 } \\over {\\sqrt 2 }}$$</p>\n<p>$$ = \\left( {\\sqrt {{3 \\over 2}}  - 1} \\right)$$</p>"
+        }
+      },
+      "permalink": "consider-a-branch-of-the-hyperbola-x2-2y2-2sqrt-2-x-4sqrt-2-jee-advanced-2008-marks-3-zchnrjtko91fbojy.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2008-paper-2-offline",
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 2 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Consider a branch  of the hyperbola \n$$${x^2} - 2{y^2} - 2\\sqrt 2 x - 4\\sqrt 2 y - 6 = 0$$$\nwith vertex at the point $$A$$. Let $$B$$ be one of the end points of its latus rectum. If $$C$$ is the focus of the hyperbola nearest to the point ..."
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ium8wgxce3hnvedu0773",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0.75,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2007,
+      "paperTitle": "IIT-JEE 2007",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A hyperbola, having the transverse axis of length $$2\\sin \\theta ,$$ is confocal with the ellipse $$3{x^2} + 4{y^2} = 12.$$ Then its equation is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${x^2}\\cos e{c^2}\\theta  - {y^2}{\\sec ^2}\\theta  = 1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$${x^2}\\cos e{c^2}\\theta  - {y^2}{\\sec ^2}\\theta  = 1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${x^2}{\\sin ^2}\\theta  - {y^2}co{s^2}\\theta  = 1$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${x^2}{\\cos ^2}\\theta  - {y^2}{\\sin ^2}\\theta  = 1$$ "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-hyperbola-having-the-transverse-axis-of-length-2sin-theta-jee-advanced-2007-marks-3-bbmmxackrgxymxgm.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2007",
+      "isOutOfSyllabus": false,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "A hyperbola, having the transverse axis of length $$2\\sin \\theta ,$$ is confocal with the ellipse $$3{x^2} + 4{y^2} = 12.$$ Then its equation is "
+        }
+      },
+      "yearKey": "iit-jee-2007"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "bb824sc7sxzydgm10yir",
+      "exam": "jee-advanced",
+      "marks": 6,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2007,
+      "paperTitle": "IIT-JEE 2007",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Match the statements in Column $$I$$ with the properties in Column $$II$$ and indicate your answer by darkening the appropriate bubbles in the $$4 \\times 4$$ matrix given in the $$ORS$$. \n<p><b>Column $$I$$</b>\n<br>(A) Two intersecting circles \n<br>(B) Two mutually external circles \n<br>(C) Two circles, one strictly inside the other \n<br>(D) Two branches vof a hyperbola</p>\n<p><b>Column $$II$$</b>\n<br>(p) have a common tangent \n<br>(q) have a common normal \n<br>(r) do not have a common tangent \n<br>(s) do not have a common normal </p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "$$\\left( A \\right) - p,q;\\,$$ $$\\,\\,\\left( B \\right) - p,q;$$ $$\\left( C \\right) - q,r;\\,$$ $$\\left( D \\right) - q,r$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "match-the-statements-in-column-i-with-the-properties-in-colu-jee-advanced-2007-marks-6-40i6qxbqto2n5jry.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2007",
+      "isOutOfSyllabus": false,
+      "topic": "common-tangent",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Match the statements in Column $$I$$ with the properties in Column $$II$$ and indicate your answer by darkening the appropriate bubbles in the $$4 \\times 4$$ matrix given in the $$ORS$$. \nColumn $$I$$\n(A) Two intersecting circles \n(B) Two m..."
+        }
+      },
+      "yearKey": "iit-jee-2007"
+    },
+    {
+      "question_id": "72uw53a600yb1zyu5mc1",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-1-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 1 Offline",
+      "permalink": "pa-hyperbola-having-the-transverse-axis-of-the-length-2-jee-advanced-mathematics-complex-numbers-txx9bt92thlc5c11",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>A hyperbola, having the transverse axis of the length $$2\\sin \\theta $$, is confocal with the ellipse $$3{x^2} + 4{y^2} = 12$$. Then its equation is</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${x^2}\\cos e{c^2}\\theta  - {y^2}{\\sec ^2}\\theta  = 1$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${x^2}{\\sec ^2}\\theta  - {y^2}\\cos e{c^2}\\theta  = 1$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${x^2}{\\sin ^2}\\theta  - {y^2}{\\cos ^2}\\theta  = 1$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${x^2}{\\cos ^2}\\theta  - {y^2}{\\sin ^2}\\theta  = 1$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The length of transverse axis $$ = 2\\sin \\theta  = 2a$$</p>\n<p>$$a = \\sin \\theta $$</p>\n<p>also for ellipse $$3{x^2} + 4{y^2} = 12$$</p>\n<p>or $${{{x^2}} \\over 4} + {{{y^2}} \\over 3} = 1$$</p>\n<p>$${a^2} = 4,{b^3} = 3$$</p>\n<p>$$e = \\sqrt {1 - {{{b^2}} \\over {{a^2}}}} $$</p>\n<p>$$\\therefore$$ $$e = \\sqrt {1 - {3 \\over 4}}  = {1 \\over 2}$$</p>\n<p>$$\\therefore$$ Focus of ellipse $$ = \\left( {2 \\times {1 \\over 2},0} \\right) \\Rightarrow (1,0)$$</p>\n<p>As hyperbola is confocal with ellipse, focus of hyperbola is = (1, 0)</p>\n<p>$$ae = 1 \\Rightarrow \\sin \\theta  \\times e = 1$$</p>\n<p>$$e = \\cos ec\\theta $$</p>\n<p>$$\\therefore$$ $${b^2} = {a^2}({e^2} - 1)$$</p>\n<p>$${\\sin ^2}\\theta (\\cos e{c^2}\\theta  - 1) = {\\cos ^2}\\theta $$</p>\n<p>$$\\therefore$$ equation of hyperbola is</p>\n<p>$${{{x^2}} \\over {{{\\sin }^2}\\theta }} - {{{y^2}} \\over {{{\\cos }^2}\\theta }} = 1$$</p>\n<p>$${x^2}\\cos e{c^2}\\theta  - {y^2}{\\sec ^2}\\theta  = 1$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 1 Offline",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "A hyperbola, having the transverse axis of the length $$2\\sin \\theta $$, is confocal with the ellipse $$3{x^2} + 4{y^2} = 12$$. Then its equation is"
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-1-offline"
+    },
+    {
+      "question_id": "5neod01dbnmg2va9tejy",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2006",
+      "paperTitle": "IIT-JEE 2006",
+      "permalink": "pif-a-hyperbola-passes-through-the-focus-of-the-ellipse--jee-advanced-mathematics-complex-numbers-q6uhuwtbouoqeri7",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>If a hyperbola passes through the focus of the ellipse $\\frac{x^2}{25}+\\frac{y^2}{16}=1$ and its transverse and conjugate axes coincide with the major and minor axes of the ellipse, and the product of eccentricities is 1 , then</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "<p>the equation of hyperbola is $\\frac{x^2}{9}-\\frac{y^2}{16}=1$</p>\n"
+            },
+            {
+              "identifier": "B",
+              "content": "<p>the equation of hyperbola is $\\frac{x^2}{9}-\\frac{y^2}{25}=1$</p>\n"
+            },
+            {
+              "identifier": "C",
+              "content": "<p>focus of hyperbola is $(5,0)$</p>\n"
+            },
+            {
+              "identifier": "D",
+              "content": "<p>focus of hyperbola is $(5 \\sqrt{3}, 0)$</p>"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": "<p>The equation of the ellipse is $$\\frac{x^2}{25}+\\frac{y^2}{16}=1$$. </p>\n<p>Here, the numbers 25 and 16 are the squares of the lengths of the axes. This means the semi-major axis $ a = 5 $ and the semi-minor axis $ b = 4 $.</p>\n<p><b>Step 1: Find the eccentricity of the ellipse.</b></p>\n<p>The eccentricity of an ellipse is given by the formula: $$e = \\sqrt{1 - \\frac{b^2}{a^2}}$$</p>\n<p>Let’s plug in the values:\n\n$ b^2 = 16 $, $ a^2 = 25 $</p>\n<p>So, $ e = \\sqrt{1 - \\frac{16}{25}} = \\sqrt{\\frac{9}{25}} = \\frac{3}{5} $</p>\n<p><b>Step 2: Find the focus of the ellipse.</b></p>\n<p>The foci are at $ (\\pm \\sqrt{a^2 - b^2}, 0) $.</p>\n<p>So, $ a^2 - b^2 = 25 - 16 = 9 $. Take square root: $ \\sqrt{9} = 3 $.</p>\n<p>This means the foci are at $ (\\pm 3, 0) $.</p>\n<p><b>Step 3: Eccentricity of the hyperbola.</b></p>\n<p>The problem tells us: Product of eccentricities is 1.</p>\n<p>The ellipse's eccentricity $ e_{ellipse} = \\frac{3}{5} $. Let $ e_{hyperbola} $ be the hyperbola's eccentricity.</p>\n<p>So, $ e_{hyperbola} \\times \\frac{3}{5} = 1 $. \n\n$ e_{hyperbola} = \\frac{1}{\\frac{3}{5}} = \\frac{5}{3} $</p>\n<p><b>Step 4: Hyperbola passes through the focus (3, 0).</b></p>\n<p>Since the axes of the hyperbola match the ellipse, and it passes through (3, 0), write: $$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$$</p>\n<p>Plug in $ x = 3 $, $ y = 0 $:</p>\n<p>$$\\frac{3^2}{a^2} - 0 = 1 \\implies \\frac{9}{a^2} = 1 \\implies a^2 = 9$$</p>\n<p>So the hyperbola equation is: $$\\frac{x^2}{9} - \\frac{y^2}{b^2} = 1$$</p>\n<p><b>Step 5: Use the eccentricity formula for the hyperbola.</b></p>\n<p>For a hyperbola, eccentricity $ e_{hyperbola} = \\sqrt{1 + \\frac{b^2}{a^2}} $</p>\n<p>We know $ e_{hyperbola} = \\frac{5}{3} $, $ a^2 = 9 $. Set up the equation: </p>\n<p>$$\\sqrt{1 + \\frac{b^2}{9}} = \\frac{5}{3}$$</p>\n<p>Square both sides: $$1 + \\frac{b^2}{9} = \\frac{25}{9}$$</p>\n<p>So, $ b^2 = 16 $.</p>\n<p><b>Step 6: Final equation of the hyperbola.</b></p>\n<p>So, the hyperbola is $$\\frac{x^2}{9} - \\frac{y^2}{16} = 1$$ with $ a^2 = 9, b^2 = 16 $.</p>\n<p><b>Step 7: Find the foci of the hyperbola.</b></p>\n<p>The foci are at $ (\\pm \\sqrt{a^2 + b^2}, 0) $.</p>\n<p>Plug in $ a^2 = 9, b^2 = 16 $: $ \\sqrt{9 + 16} = \\sqrt{25} = 5 $.</p>\n<p>So, the foci are at $ (\\pm 5, 0) $.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "timeAllotted": 200000,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "type": "mcqm",
+      "year": 2006,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "If a hyperbola passes through the focus of the ellipse $\\frac{x^2}{25}+\\frac{y^2}{16}=1$ and its transverse and conjugate axes coincide with the major and minor axes of the ellipse, and the product of eccentricities is 1 , then"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dgbdl8j69o414jd9xup7",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2005,
+      "paperTitle": "IIT-JEE 2005",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Tangents are drawn from any point on the hyperbola $${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = 1$$ to the circle $${x^2} + {y^2} = 9$$.Find the locus of mid-point of the chord of contact. ",
+          "options": [],
+          "correct_options": [],
+          "answer": "$${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = {\\left( {{{{x^2} + {y^2}} \\over 9}} \\right)^2}$$ ",
+          "explanation": null
+        }
+      },
+      "permalink": "tangents-are-drawn-from-any-point-on-the-hyperbola-x2-over-9-jee-advanced-2005-marks-4-jf6tr3suqud8zc0k.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2005",
+      "isOutOfSyllabus": false,
+      "topic": "chord-of-contact",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Tangents are drawn from any point on the hyperbola $${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = 1$$ to the circle $${x^2} + {y^2} = 9$$.Find the locus of mid-point of the chord of contact. "
+        }
+      },
+      "yearKey": "iit-jee-2005"
+    },
+    {
+      "question_id": "54tls7mw26nxzmaxhad8",
+      "chapter": "hyperbola",
+      "chapterGroup": "coordinate-geometry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2005-mains",
+      "paperTitle": "IIT-JEE 2005 Mains",
+      "permalink": "ptangents-are-drawn-from-any-point-on-the-hyperbola-fra-jee-advanced-mathematics-complex-numbers-xwgtjepvirtdmtqn",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p>Tangents are drawn from any point on the hyperbola $$\\frac{x^{2}}{9}-\\frac{y^{2}}{4}=1$$ to the circle $$x^{2}+y^{2}=9$$. Find the locus of mid-point of the chord of contact.</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{{x^2}} \\over 4} + {{{y^2}} \\over 9} = {{{{({x^2} + {y^2})}^2}} \\over {81}}$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$${{{x^2}} \\over 4} - {{{y^2}} \\over 9} = {{{{({x^2} + {y^2})}^2}} \\over {81}}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$${{{x^2}} \\over 9} + {{{y^2}} \\over 4} = {{{{({x^2} + {y^2})}^2}} \\over {81}}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = {{{{({x^2} + {y^2})}^2}} \\over {81}}$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": "$${{{x^2}} \\over 9} - {{{y^2}} \\over 4} = {{{{({x^2} + {y^2})}^2}} \\over {81}}$$",
+          "explanation": "<p>Let, any point on the hyperbola is $$(3 \\sec \\theta, 2 \\tan \\theta)$$</p>\n<p>$$\\therefore$$ Chord of contact of the circle</p>\n<p>$$x^{2}+y^{2}=9$$ w.r.t $$(3 \\sec \\theta, 2 \\tan \\theta)$$ is as follows</p>\n<p>$$(3 \\sec \\theta) x+(2 \\tan \\theta) y=9$$ ..... (i)</p>\n<p>let $$\\left(x_{1}, y_{1}\\right)$$ be the mid point of the chord of the contact</p>\n<p>$$x x_{1}+y y_{1}=x_{1}^{2}+y_{1}^{2}$$ ..... (ii)</p>\n<p>From (i) and (ii), we have</p>\n<p>$$\\begin{aligned}\n\\frac{3 \\sec \\theta}{x_{1}} & =\\frac{2 \\tan \\theta}{y_{1}}=\\frac{9}{x_{1}^{2}+y_{1}^{2}} \\\\\n\\Rightarrow \\quad \\sec \\theta & =\\frac{9 x_{1}}{3\\left(x_{1}^{2}+y_{1}^{2}\\right)}\\quad ....(\\mathrm{iii}) \\\\\n\\text { and } \\tan \\theta & =\\frac{9 y_{1}}{2\\left(x_{1}^{2}+y_{1}^{2}\\right)}\\quad ....(\\mathrm{iv})\\end{aligned}$$</p>\n<p>Now, by eliminating $$\\theta$$ from (iii) and (iv), we get</p>\n<p>$$\\frac{81 x_{1}^{2}}{9\\left(x_{1}^{2}+y_{1}^{2}\\right)^{2}}-\\frac{81 y_{1}^{2}}{4\\left(x_{1}^{2}+y_{1}^{2}\\right)^{2}}=1$$</p>\n<p>$$\\left(\\because \\sec ^{2} \\theta-\\tan ^{2} \\theta=1\\right)$$</p>\n<p>Required locus $$\\frac{x^{2}}{9}-\\frac{y^{2}}{4}=\\frac{\\left(x^{2}+y^{2}\\right)^{2}}{81}$$</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "mathematics",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "chord-of-contact",
+      "type": "mcq",
+      "year": 2005,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2005 Mains",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Tangents are drawn from any point on the hyperbola $$\\frac{x^{2}}{9}-\\frac{y^{2}}{4}=1$$ to the circle $$x^{2}+y^{2}=9$$. Find the locus of mid-point of the chord of contact."
+        }
+      },
+      "yearKey": "iit-jee-2005-mains"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3nmsqbdqmlww58jwsboe",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004 Screening",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If the line $$62x + \\sqrt 6 y = 2$$ touches the hyperbola $${x^2} - 2{y^2} = 4$$, then the point of contact is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$\\left( { - 2,\\,\\sqrt 6 } \\right)$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$\\left( { - 5,\\,2\\sqrt 6 } \\right)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$\\left( {{1 \\over 2},{1 \\over {\\sqrt 6 }}} \\right)$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$$\\left( {4, - \\,\\sqrt 6 } \\right)$$ "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-the-line-62x-sqrt-6-y-2-touches-the-hyperbola-x2-2y2-4-th-jee-advanced-2004-screening-marks-2-cm5clnizjlabwavz.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004-screening",
+      "isOutOfSyllabus": false,
+      "topic": "tangent-to-hyperbola",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004 Screening",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "If the line $$62x + \\sqrt 6 y = 2$$ touches the hyperbola $${x^2} - 2{y^2} = 4$$, then the point of contact is "
+        }
+      },
+      "yearKey": "iit-jee-2004-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "yi5n0g38lqmc9rc7m888",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 2003,
+      "paperTitle": "IIT-JEE 2003 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "For hyperbola $${{{x^2}} \\over {{{\\cos }^2}\\alpha }} - {{{y^2}} \\over {{{\\sin }^2}\\alpha }} = 1$$ which of the following remains constant with change in $$'\\alpha '$$ ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "abscissae of vertices "
+            },
+            {
+              "identifier": "B",
+              "content": "abscissae  of foci"
+            },
+            {
+              "identifier": "C",
+              "content": "eccentricity "
+            },
+            {
+              "identifier": "D",
+              "content": "directrix "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "for-hyperbola-x2-over-cos-2alpha-y2-over-sin-2alpha-1-which-jee-advanced-2003-screening-marks-2-juvp201rshmikkab.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2003-screening",
+      "isOutOfSyllabus": false,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2003 Screening",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "For hyperbola $${{{x^2}} \\over {{{\\cos }^2}\\alpha }} - {{{y^2}} \\over {{{\\sin }^2}\\alpha }} = 1$$ which of the following remains constant with change in $$'\\alpha '$$ "
+        }
+      },
+      "yearKey": "iit-jee-2003-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "3n3vsz3ctntx1syofor8",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Let $$P$$ $$\\left( {a\\,\\sec \\,\\theta ,\\,\\,b\\,\\tan \\theta } \\right)$$ and $$Q$$  $$\\left( {a\\,\\sec \\,\\,\\phi ,\\,\\,b\\,\\tan \\,\\phi } \\right)$$, where $$\\theta  + \\phi  = \\pi /2,$$, be two points on the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$$. <p>If $$(h, k)$$ is the point of intersection of the normals at $$P$$ and $$Q$$, then $$k$$ is equal to </p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${{{a^2} + {b^2}} \\over a}$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$ - \\left( {{{{a^2} + {b^2}} \\over a}} \\right)$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${{{a^2} + {b^2}} \\over b}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$ - \\left( {{{{a^2} + {b^2}} \\over b}} \\right)$$"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "let-p-left-asec-theta-btan-theta-right-and-q-left-asec-phi-b-jee-advanced-1999-marks-2-0skayoswzyriubi1.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "normal-to-hyperbola",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Let $$P$$ $$\\left( {a\\,\\sec \\,\\theta ,\\,\\,b\\,\\tan \\theta } \\right)$$ and $$Q$$  $$\\left( {a\\,\\sec \\,\\,\\phi ,\\,\\,b\\,\\tan \\,\\phi } \\right)$$, where $$\\theta  + \\phi  = \\pi /2,$$, be two points on the hyperbola $${{{x^2}} \\over {{a^2}}} - {{{y..."
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kjjuns3w8et2ailaaxv4",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "If $$x$$ $$=$$ $$9$$ is the chord of contact of the hyperbola $${x^2} - {y^2} = 9,$$ then the equation of the vcorresponding pair of tangents is ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$9{x^2} - 8{y^2} + 18x - 9 = 0$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "$$9{x^2} - 8{y^2} - 18x + 9 = 0$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$$9{x^2} - 8{y^2} - 18x - 9 = 0$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$9{x^2} - 8{y^2} + 18x + 9 = 0$$ "
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "if-x-9-is-the-chord-of-contact-of-the-hyperbola-x2-y2-9-then-jee-advanced-1999-marks-2-lgelbzs88rakbz8s.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "chord-of-contact",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "If $$x$$ $$=$$ $$9$$ is the chord of contact of the hyperbola $${x^2} - {y^2} = 9,$$ then the equation of the vcorresponding pair of tangents is "
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6yulcrp270igat38yr3j",
+      "exam": "jee-advanced",
+      "marks": 8,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The angle between a pair of tangents drawn from a point $$P$$ to the parabola $${y^2} = 4ax$$ is $${45^ \\circ }$$. Show that the locus of the point $$P$$ is a hyperbola.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve it.",
+          "explanation": null
+        }
+      },
+      "permalink": "the-angle-between-a-pair-of-tangents-drawn-from-a-point-p-to-jee-advanced-1998-marks-8-kfc4bekckgbp8y1i.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998",
+      "isOutOfSyllabus": false,
+      "topic": "locus",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "The angle between a pair of tangents drawn from a point $$P$$ to the parabola $${y^2} = 4ax$$ is $${45^ \\circ }$$. Show that the locus of the point $$P$$ is a hyperbola."
+        }
+      },
+      "yearKey": "iit-jee-1998"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "rhewmnynhw9ob56ekxyk",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Each of the four inequalties given below defines a region in the $$xy$$ plane. One of these four regions does not have the following property. For any two points $$\\left( {{x_1},{y_1}} \\right)$$ and $$\\left( {{x_2},{y_2}} \\right)$$ in the region, the point $$\\left( {{{{x_1} + {x_2}} \\over 2},{{{y_1} + {y_2}} \\over 2}} \\right)$$ is also in the region. The inequality defining this region is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$${x^2} + 2{y^2} \\le 1$$ "
+            },
+            {
+              "identifier": "B",
+              "content": "Max  $$\\left\\{ {\\left| x \\right|,\\left| y \\right|} \\right\\} \\le 1$$ "
+            },
+            {
+              "identifier": "C",
+              "content": "$${x^2} - {y^2} \\le 1$$ "
+            },
+            {
+              "identifier": "D",
+              "content": "$${y^2} - x \\le 0$$ "
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "each-of-the-four-inequalties-given-below-defines-a-region-in-jee-advanced-1981-marks-2-poczbqejpsobcgcj.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "position-of-point-and-chord-joining-of-two-points",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "Each of the four inequalties given below defines a region in the $$xy$$ plane. One of these four regions does not have the following property. For any two points $$\\left( {{x_1},{y_1}} \\right)$$ and $$\\left( {{x_2},{y_2}} \\right)$$ in the r..."
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "325j0buyt5atifatm8tc",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "mathematics",
+      "chapterGroup": "coordinate-geometry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "hyperbola",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The equation $${{{x^2}} \\over {1 - r}} - {{{y^2}} \\over {1 + r}} = 1,\\,\\,\\,\\,r &gt; 1$$ represents ",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "an ellipse "
+            },
+            {
+              "identifier": "B",
+              "content": "a hyperbola "
+            },
+            {
+              "identifier": "C",
+              "content": "a circle "
+            },
+            {
+              "identifier": "D",
+              "content": "none of these "
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-equation-x2-over-1-r-y2-over-1-r-1r-1-represents-jee-advanced-1981-marks-2-ntkpwpze8o2psuw2.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "question-based-on-basic-definition-and-parametric-representation",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "Hyperbola • Mathematics",
+          "excerpt": "The equation $${{{x^2}} \\over {1 - r}} - {{{y^2}} \\over {1 + r}} = 1,\\,\\,\\,\\,r > 1$$ represents "
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    }
+  ]
+}

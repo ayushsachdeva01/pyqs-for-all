@@ -1,0 +1,2550 @@
+{
+  "questions": [
+    {
+      "question_id": "xwlwxd3ph8gklzgpv53q",
+      "chapter": "s-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 0,
+      "paperId": "iit-jee-2011-paper-1-offline",
+      "paperTitle": "IIT-JEE 2011 Paper 1 Offline",
+      "permalink": "preaction-of-brsub2sub-with-nasub2subcosub3s-jee-advanced-chemistry-some-basic-concepts-of-chemistry-dgpwskrl58u5cfcx",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Reaction of Br<sub>2</sub> with Na<sub>2</sub>CO<sub>3</sub> in aqueous solution gives sodium bromide and sodium bromate with evolution of CO<sub>2</sub> gas. The number of sodium bromide molecules involved in the balanced chemical equation is ________.</p>",
+          "options": [],
+          "correct_options": [],
+          "answer": "5",
+          "explanation": "<p>The balanced chemical equation is</p>\n<p>3Na<sub>2</sub>CO<sub>3</sub> + 3Br<sub>2</sub> $$\\to$$ 5NaBr + NaBrO<sub>3</sub> + 3CO<sub>2</sub></p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "compounds-of-alkali-metals",
+      "type": "integer",
+      "year": 2011,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2011 Paper 1 Offline",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Reaction of Br2 with Na2CO3 in aqueous solution gives sodium bromide and sodium bromate with evolution of CO2 gas. The number of sodium bromide molecules involved in the balanced chemical equation is ________."
+        }
+      },
+      "yearKey": "iit-jee-2011-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "j1myai2op22809f2avq1",
+      "exam": "jee-advanced",
+      "marks": 4,
+      "negMarks": 2,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 2009,
+      "paperTitle": "IIT-JEE 2009 Paper 1 Offline",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The compound(s) formed upon combustion of sodium metal in excess air is (are)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Na<sub>2</sub>O<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "Na<sub>2</sub>O"
+            },
+            {
+              "identifier": "C",
+              "content": "NaO<sub>2</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "NaOH"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The compound(s) formed upon the combustion\nof sodium metal in the excess air is sodium\nperoxide (Na<sub>2</sub>O<sub>2</sub>) and sodium\noxide (Na<sub>2</sub>O).</p>\n<p>$$\n\\begin{aligned}\n& 4 \\mathrm{Na}+\\mathrm{O}_2 \\rightarrow 2 \\mathrm{Na}_2 \\mathrm{O} \\\\\\\\\n& 2 \\mathrm{Na}+\\mathrm{O}_2 \\rightarrow \\mathrm{Na}_2 \\mathrm{O}_2\n\\end{aligned}\n$$</p>"
+        }
+      },
+      "permalink": "the-compounds-formed-upon-combustion-of-sodium-metal-in-ex-2009-marks-5-8ooatmsuuirauwhu.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2009-paper-1-offline",
+      "topic": "oxides-of-sodium",
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2009 Paper 1 Offline",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The compound(s) formed upon combustion of sodium metal in excess air is (are)"
+        }
+      },
+      "yearKey": "iit-jee-2009-paper-1-offline"
+    },
+    {
+      "question_id": "0taslhxzgd143c5z5f29",
+      "chapter": "s-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": "medium",
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2008-paper-1-offline",
+      "paperTitle": "IIT-JEE 2008 Paper 1 Offline",
+      "permalink": "paqueous-solutions-of-na2s2o3-on-reaction-w-jee-advanced-chemistry-some-basic-concepts-of-chemistry-7t5gowu76if6n1uy",
+      "question": {
+        "en": {
+          "direction": null,
+          "content": "<p>Aqueous solutions of Na$$_2$$S$$_2$$O$$_3$$ on reaction with Cl$$_2$$ gives:</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Na$$_2$$S$$_4$$O$$_6$$"
+            },
+            {
+              "identifier": "B",
+              "content": "NaHSO$$_4$$"
+            },
+            {
+              "identifier": "C",
+              "content": "NaCl"
+            },
+            {
+              "identifier": "D",
+              "content": "NaOH"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The product formed the reaction is used for chlorination of water bodies. The compound Na$$_2$$S$$_2$$O$$_3$$ gets oxidised by chlorine to form NaHSO$$_3$$. The balanced chemical reaction is,</p>\n<p>Na$$_2$$S$$_2$$O$$_3$$ + 4Cl$$_2$$ + 5H$$_2$$O $$\\to$$ 2NaHSO$$_4$$ + 8HCl</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "compounds-of-alkali-metals",
+      "type": "mcq",
+      "year": 2008,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2008 Paper 1 Offline",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Aqueous solutions of Na$$_2$$S$$_2$$O$$_3$$ on reaction with Cl$$_2$$ gives:"
+        }
+      },
+      "yearKey": "iit-jee-2008-paper-1-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "oeggt8e86vw6vvtyt0ba",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 2007,
+      "paperTitle": "IIT-JEE 2007",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The question contains STATEMENT - 1 (Assertion) and STATEMENT - 2 (Reason) and has 4 choices (a), (b), (c) and (d) out of which ONLY ONE is correct.<br>\n<b>STATEMENT - 1</b> Alkali metals dissolve in liquid ammonia to give blue solutions. because<br>\n<b>STATEMENT - 2</b> Alkali metals is liquid ammonia give solvated species of the type [M(NH<sub>3</sub>)<sub>n</sub>]<sup>+</sup> (M =  alkali metals)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement - 1 is true and Statement - 2 is true; Statement - 2 is a correct explanation for Statement - 1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement - 1 is true and Statement - 2 is true; Statement - 2 is not a correct explanation for Statement - 1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement - 1 is True, Statement - 2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement - 1 is False, Statement - 2 is True"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-question-contains-statement-1-assertion-and-statemen-2007-marks-2-tulbgvgksgp8ebqi.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2007",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The question contains STATEMENT - 1 (Assertion) and STATEMENT - 2 (Reason) and has 4 choices (a), (b), (c) and (d) out of which ONLY ONE is correct.\nSTATEMENT - 1 Alkali metals dissolve in liquid ammonia to give blue solutions. because\nSTAT..."
+        }
+      },
+      "yearKey": "iit-jee-2007"
+    },
+    {
+      "question_id": "t0wym4779l1if340v1l1",
+      "chapter": "s-block-elements",
+      "chapterGroup": "inorganic-chemistry",
+      "country": "in",
+      "difficulty": null,
+      "exam": "jee-advanced",
+      "examGroup": "jee",
+      "languages": [
+        "en"
+      ],
+      "marks": 3,
+      "negMarks": 1,
+      "paperId": "iit-jee-2007-paper-2-offline",
+      "paperTitle": "IIT-JEE 2007 Paper 2 Offline",
+      "permalink": "pstatement-1-alkali-metals-dissolves-in-liquid-ammonia-to-jee-advanced-chemistry-some-basic-concepts-of-chemistry-8dez1vkg4okjqvqk",
+      "question": {
+        "en": {
+          "comprehension": null,
+          "direction": null,
+          "content": "<p><b>Statement-1 :</b> Alkali metals dissolves in liquid ammonia to give blue solutions</p>\n<p><b>Statement-2 :</b> Alkali metals in liquid ammonia give solvated species of the type $$\\left[\\mathrm{M}\\left(\\mathrm{NH}_{3}\\right)_{n}\\right]^{+} (\\mathrm{M}=$$ alkali metals).</p>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1"
+            },
+            {
+              "identifier": "B",
+              "content": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1"
+            },
+            {
+              "identifier": "C",
+              "content": "Statement-1 is True, Statement-2 is False"
+            },
+            {
+              "identifier": "D",
+              "content": "Statement-1 is False, Statement-2 is True"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<h3><strong>Statement-1 :</strong></h3>\n<blockquote>\n  <p>Alkali metals dissolve in liquid ammonia to give blue solutions.  </p>\n</blockquote>\n<p>✅ <strong>True</strong></p>\n<p>Explanation: When alkali metals (Li, Na, K, etc.) are dissolved in liquid ammonia, they form deep blue conducting solutions at low concentrations.  </p>\n<p>Reaction:</p>\n<p>$ \\mathrm{M (s) \\xrightarrow{liq.\\,NH_3} M^+_{(solv)} + e^-_{(solv)}} $</p>\n<p>The blue color arises from <strong>solvated electrons</strong> ($ e^-_{(NH_3)} $), which absorb visible light.</p>\n\n<h3><strong>Statement-2 :</strong></h3>\n<blockquote>\n  <p>Alkali metals in liquid ammonia give solvated species of the type $\\left[\\mathrm{M}\\left(\\mathrm{NH}_{3}\\right)_n\\right]^+ (\\mathrm{M} = \\text{alkali metals})$.</p>\n</blockquote>\n<p>✅ <strong>True</strong></p>\n<p>During dissolution, the metal forms <strong>metal cations solvated by ammonia molecules</strong>, i.e., $\\mathrm{M^+}$ surrounded by several $\\mathrm{NH_3}$ molecules.</p>\n<p>$ \\mathrm{M^+ + e^- \\rightarrow [M(NH_3)_n]^+ + e^-_{(solv)}} $</p>\n\n<h3>But:</h3>\n<p>The <strong>blue color</strong> (Statement-1) is <strong>not</strong> due to $[\\mathrm{M(NH_3)_n}]^+$, but due to the <strong>solvated electrons</strong> ($e^-_{(NH_3)}$).  </p>\n<p>Therefore, although both statements are true, <strong>Statement-2 does not explain the blue color</strong>.</p>\n\n<p>✅ <strong>Final Answer :</strong></p>\n<p><strong>Option B</strong> — Statement-1 is True, Statement-2 is True; Statement-2 is <strong>NOT</strong> a correct explanation for Statement-1.</p>"
+        }
+      },
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "subject": "chemistry",
+      "subjectGroup": null,
+      "timeAllotted": 200000,
+      "topic": "compounds-of-alkali-metals",
+      "type": "mcq",
+      "year": 2007,
+      "isOutOfSyllabus": false,
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2007 Paper 2 Offline",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Statement-1 : Alkali metals dissolves in liquid ammonia to give blue solutions\nStatement-2 : Alkali metals in liquid ammonia give solvated species of the type $$\\left[\\mathrm{M}\\left(\\mathrm{NH}_{3}\\right)_{n}\\right]^{+} (\\mathrm{M}=$$ alka..."
+        }
+      },
+      "yearKey": "iit-jee-2007-paper-2-offline"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6mijay16hyr6vcr0wsoo",
+      "exam": "jee-advanced",
+      "marks": 5,
+      "negMarks": 1.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 2006,
+      "paperTitle": "IIT-JEE 2006",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "MgSO<sub>4</sub> on reaction with NH<sub>4</sub>OH and Na<sub>2</sub>HPO<sub>4</sub> forms a white crystalline precipitate. What is its formula?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Mg(NH<sub>4</sub>)PO<sub>4</sub> "
+            },
+            {
+              "identifier": "B",
+              "content": "Mg<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> "
+            },
+            {
+              "identifier": "C",
+              "content": "MgCl<sub>2</sub>.MgSO<sub>4</sub> "
+            },
+            {
+              "identifier": "D",
+              "content": "MgSO<sub>4</sub> "
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": "<p>The chemical reaction between $\\mathrm{MgSO}_4$, $\\mathrm{NH}_4 \\mathrm{OH}$ and $\\mathrm{Na}_2 \\mathrm{HPO}_4$ is given below.</p>\n<p>$\\underset{\\substack{\\text { Magnesium } \\\\ \\text { sulfate }}}{\\mathrm{MgSO}_4}+\\underset{\\substack{\\text { Ammonium } \\\\ \\text { hydroxide }}}{\\mathrm{NH}_4 \\mathrm{OH}}+\\underset{\\substack{\\text { Sodium hydrogen } \\\\ \\text { phosphate }}}{\\mathrm{Na}_2 \\mathrm{HPO}_4} \\rightarrow$$\\underset{\\substack{\\text { Magnesium ammonium } \\\\ \\text { white precipitate }}}{\\mathrm{Mg}\\left(\\mathrm{NH}_4\\right) \\mathrm{PO}_4 \\downarrow}+\\underset{\\text { Sodium sulfate }}{\\mathrm{Na}_2 \\mathrm{SO}_4}+\\mathrm{H}_2 \\mathrm{O}$</p>\n<p>The magnesium ammonium phosphate hexahydrate $\\left[\\mathrm{Mg}\\left(\\mathrm{NH}_4\\right) \\mathrm{PO}_4 \\cdot 6 \\mathrm{H}_2 \\mathrm{O}\\right]$ formed has white coloured precipitate.</p>\n<p>The other products formed during the chemical reaction include sodium sulfate and water.</p>\n<p>Ammonium chloride is used to prevent magnesium hydroxide and ammonia solutions from precipitating.</p>"
+        }
+      },
+      "permalink": "mgso4-on-reaction-with-nh4oh-and-na2hpo4-forms-a-white-cryst-2006-marks-5-jzqbs70scgmln7fx.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2006",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2006",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "MgSO4 on reaction with NH4OH and Na2HPO4 forms a white crystalline precipitate. What is its formula?"
+        }
+      },
+      "yearKey": "iit-jee-2006"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "jdeqw0gksss78yaqu344",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 2004,
+      "paperTitle": "IIT-JEE 2004 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A sodium salt on treatment with MgCl<sub>3</sub> gives white precipitate only on heating. The anion of the sodium salt is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "$$HCO_3^-$$"
+            },
+            {
+              "identifier": "B",
+              "content": "$$CO_3^{2-}$$"
+            },
+            {
+              "identifier": "C",
+              "content": "$$NO_3^{-}$$"
+            },
+            {
+              "identifier": "D",
+              "content": "$$SO_4^{2-}$$"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-sodium-salt-on-treatment-with-mgcl3-gives-white-precipitat-2004-screening-marks-1-711ywmnzhna4tg74.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2004-screening",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2004 Screening",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "A sodium salt on treatment with MgCl3 gives white precipitate only on heating. The anion of the sodium salt is"
+        }
+      },
+      "yearKey": "iit-jee-2004-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "deqc574y58uitf6t9615",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 2001,
+      "paperTitle": "IIT-JEE 2001 Screening",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The set representing the correct order of  first ionization potential is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "K &gt; Na &gt; Li"
+            },
+            {
+              "identifier": "B",
+              "content": "Be &gt; Mg &gt; Ca"
+            },
+            {
+              "identifier": "C",
+              "content": "B &gt; C &gt; N"
+            },
+            {
+              "identifier": "D",
+              "content": "Ge &gt; Si &gt; C"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-set-representing-the-correct-order-of-first-ionization-2001-screening-marks-1-4qbvhmup0eg1xgdr.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-2001-screening",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 2001 Screening",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The set representing the correct order of  first ionization potential is"
+        }
+      },
+      "yearKey": "iit-jee-2001-screening"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "xfsxwsgr8k955fgejjey",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1999,
+      "paperTitle": "IIT-JEE 1999",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Give reasons of the following:<br>\nBeCl<sub>2</sub> can be easily hydrolysed.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "give-reasons-of-the-following-becl2-can-be-easily-hydrolyse-1999-marks-2-6n3vybmtcphmkwpb.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1999",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1999",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Give reasons of the following:\nBeCl2 can be easily hydrolysed."
+        }
+      },
+      "yearKey": "iit-jee-1999"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "qmkcw3ie0wjxelw6pipu",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Highly pure dilute solution of sodium in liquid ammonia",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "shows blue color"
+            },
+            {
+              "identifier": "B",
+              "content": "exhibits electrical conductivity"
+            },
+            {
+              "identifier": "C",
+              "content": "produces sodium amide"
+            },
+            {
+              "identifier": "D",
+              "content": "produces hydrogen gas"
+            }
+          ],
+          "correct_options": [
+            "A",
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "highly-pure-dilute-solution-of-sodium-in-liquid-ammonia-1998-marks-2-52jy8pia6ob8yxbe.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Highly pure dilute solution of sodium in liquid ammonia"
+        }
+      },
+      "yearKey": "iit-jee-1998"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9np80r1eucz6hneli6vy",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1998,
+      "paperTitle": "IIT-JEE 1998",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Work out the following using chemical equation :<br>\nChlorination of calcium hydroxide produces bleaching powder.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "work-out-the-following-using-chemical-equation-chlorinatio-1998-marks-2-7qcwzmghvnk2sgya.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1998",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1998",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Work out the following using chemical equation :\nChlorination of calcium hydroxide produces bleaching powder."
+        }
+      },
+      "yearKey": "iit-jee-1998"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "zu6wha71xsp8h2vundpw",
+      "exam": "jee-advanced",
+      "marks": 3,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1997,
+      "paperTitle": "IIT-JEE 1997",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Element A burns in nitrogen to give an ionic compound B. Compound B reacts with water to give C and D. A solution of C becomes 'milky' on bubbling carbon dioxide. Identify A, B, C and D.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Ba, Ba<sub>3</sub>NO<sub>2</sub>, Ba(OH)<sub>2</sub>, BaCO<sub>3</sub>",
+          "explanation": null
+        }
+      },
+      "permalink": "element-a-burns-in-nitrogen-to-give-an-ionic-compound-b-com-1997-marks-3-jtww4xl5wiuispay.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1997",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1997",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Element A burns in nitrogen to give an ionic compound B. Compound B reacts with water to give C and D. A solution of C becomes 'milky' on bubbling carbon dioxide. Identify A, B, C and D."
+        }
+      },
+      "yearKey": "iit-jee-1997"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "6gbamw1c7x7t9jbt9zx7",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1997,
+      "paperTitle": "IIT-JEE 1997",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Arrange the following sulphates of Alkaline earth metals in order of decreasing thermal stability : BeSO<sub>4</sub>, MgSO<sub>4</sub>, CaSO<sub>4</sub>, SrSO<sub>4</sub>",
+          "options": [],
+          "correct_options": [],
+          "answer": "SrSO<sub>4</sub> &gt; CaSO<sub>4</sub> &gt; MgSO<sub>4</sub> &gt; BeSO<sub>4</sub>",
+          "explanation": null
+        }
+      },
+      "permalink": "arrange-the-following-sulphates-of-alkaline-earth-metals-in-1997-marks-1-hsphm0da09lsecm3.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1997",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1997",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Arrange the following sulphates of Alkaline earth metals in order of decreasing thermal stability : BeSO4, MgSO4, CaSO4, SrSO4"
+        }
+      },
+      "yearKey": "iit-jee-1997"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "wa4rlhreioip1e5y9vt7",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1997,
+      "paperTitle": "IIT-JEE 1997",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Give reasons of the following:<br>\nThe crystalline salts of alkaline earth metals contain more water of crystallisation than the corresponding alkali metal salts.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by your self",
+          "explanation": null
+        }
+      },
+      "permalink": "give-reasons-of-the-following-the-crystalline-salts-of-alka-1997-marks-2-rbmq3gayfmqgswkj.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1997",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1997",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Give reasons of the following:\nThe crystalline salts of alkaline earth metals contain more water of crystallisation than the corresponding alkali metal salts."
+        }
+      },
+      "yearKey": "iit-jee-1997"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "4g2oxyde068m7ohnkapg",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The following compounds have been arranged in order of their increasing thermal stabilities. Identify the correct order<br>\nK<sub>2</sub>CO<sub>3</sub> (A), MgCO<sub>3</sub> (B), CaCO<sub>3</sub> (C), BeCO<sub>3</sub> (D)",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "A &lt; B &lt; C &lt; D"
+            },
+            {
+              "identifier": "B",
+              "content": "D &lt; B &lt; C &lt; A"
+            },
+            {
+              "identifier": "C",
+              "content": "D &lt; B &lt; A &lt; C"
+            },
+            {
+              "identifier": "D",
+              "content": "B &lt; D &lt; C &lt; A"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-following-compounds-have-been-arranged-in-order-of-their-1996-marks-1-klq03yocaeyzmzz1.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The following compounds have been arranged in order of their increasing thermal stabilities. Identify the correct order\nK2CO3 (A), MgCO3 (B), CaCO3 (C), BeCO3 (D)"
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "i6ngjvil9esbgdfb2kjq",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1996,
+      "paperTitle": "IIT-JEE 1996",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Explain the difference in the nature of bonding in LiF and LiI.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "explain-the-difference-in-the-nature-of-bonding-in-lif-and-l-1996-marks-2-uhticduujnbhojnr.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1996",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1996",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Explain the difference in the nature of bonding in LiF and LiI."
+        }
+      },
+      "yearKey": "iit-jee-1996"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9iwp6rpjolcf2tu834lf",
+      "exam": "jee-advanced",
+      "marks": 2,
+      "negMarks": 0.5,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "<b>Statement (S)</b> The alkali metals can form ionic hydrides which contain the hydride ion H<sup>-</sup>.<br>\n<b>Explanation (E)</b> The alkali metals have low electronegativity; their hydrides conduct electricity when fused and liberate hydrogen at the anode.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Both S and E are true and E is the correct explanation of S"
+            },
+            {
+              "identifier": "B",
+              "content": "Both S and E are true but E is not the correct explanation of S"
+            },
+            {
+              "identifier": "C",
+              "content": "S is true but E is false"
+            },
+            {
+              "identifier": "D",
+              "content": "S is false but E is true"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "statement-s-the-alkali-metals-can-form-ionic-hydrides-whic-1994-marks-2-m6bsiyuu7sbi2qis.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Statement (S) The alkali metals can form ionic hydrides which contain the hydride ion H-.\nExplanation (E) The alkali metals have low electronegativity; their hydrides conduct electricity when fused and liberate hydrogen at the anode."
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "pl689ofy366zwntazwt9",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1994,
+      "paperTitle": "IIT-JEE 1994",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Complete and balance the following reactions:<br>\nCa<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F + H<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O $$\\buildrel {Heat} \\over\n \\longrightarrow $$ ........ + 5CaSO<sub>4</sub>.2H<sub>2</sub>O + ........",
+          "options": [],
+          "correct_options": [],
+          "answer": "Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F + 5H<sub>2</sub>SO<sub>4</sub> + 10H<sub>2</sub>O $$\\buildrel {Heat} \\over\n \\longrightarrow $$ 3H<sub>3</sub>PO<sub>4</sub> + 5CaSO<sub>4</sub>.2H<sub>2</sub>O + HF",
+          "explanation": null
+        }
+      },
+      "permalink": "complete-and-balance-the-following-reactions-ca5po43f-h-1994-marks-1-kpyzf9tiq8ql0x9v.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1994",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1994",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Complete and balance the following reactions:\nCa5(PO4)3F + H2SO4 + H2O $$\\buildrel {Heat} \\over\n \\longrightarrow $$ ........ + 5CaSO4.2H2O + ........"
+        }
+      },
+      "yearKey": "iit-jee-1994"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "00rohmncsxdtgz7qgjzs",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1993,
+      "paperTitle": "IIT-JEE 1993",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Ca<sup>2+</sup> has a small ionic radius than K<sup>+</sup> because it has ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "higher effective nuclear charge",
+          "explanation": null
+        }
+      },
+      "permalink": "ca2-has-a-small-ionic-radius-than-k-because-it-has-1993-marks-1-iw9crlhrrba2kl7y.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1993",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1993",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Ca2+ has a small ionic radius than K+ because it has ______."
+        }
+      },
+      "yearKey": "iit-jee-1993"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "k1mrsa8dnrabubxm8zjl",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1992,
+      "paperTitle": "IIT-JEE 1992",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The species that do not contain peroxide ions are",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "PbO<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "H<sub>2</sub>O<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "SrO<sub>2</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "BaO<sub>2</sub> "
+            }
+          ],
+          "correct_options": [
+            "A",
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-species-that-do-not-contain-peroxide-ions-are-1992-marks-1-auxbstgpcem68g4g.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1992",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1992",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The species that do not contain peroxide ions are"
+        }
+      },
+      "yearKey": "iit-jee-1992"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "el0ub96p7810x5u3ks4d",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1991,
+      "paperTitle": "IIT-JEE 1991",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Write down the balanced equation for the reaction when:<br>\nCarbon dioxide is passed through a suspension of lime stone in water.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself.",
+          "explanation": null
+        }
+      },
+      "permalink": "write-down-the-balanced-equation-for-the-reaction-when-carb-1991-marks-1-tswpwz8debyqoxyc.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1991",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1991",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Write down the balanced equation for the reaction when:\nCarbon dioxide is passed through a suspension of lime stone in water."
+        }
+      },
+      "yearKey": "iit-jee-1991"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "x9cta10wkykawx9d33q4",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1990,
+      "paperTitle": "IIT-JEE 1990",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcqm",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "When zeolite, which is hydrated sodium aluminium silicate is treated with hard water the sodium ions are exchanged with",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "H<sup>+</sup> ions"
+            },
+            {
+              "identifier": "B",
+              "content": "Ca<sup>++</sup> ions"
+            },
+            {
+              "identifier": "C",
+              "content": "$$SO_4^{--}$$ ions"
+            },
+            {
+              "identifier": "D",
+              "content": "Mg<sup>++</sup> ions"
+            }
+          ],
+          "correct_options": [
+            "B",
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "when-zeolite-which-is-hydrated-sodium-aluminium-silicate-is-1990-marks-1-ukelreswav7zjcf9.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1990",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1990",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "When zeolite, which is hydrated sodium aluminium silicate is treated with hard water the sodium ions are exchanged with"
+        }
+      },
+      "yearKey": "iit-jee-1990"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "v25xcrevu4jzo9cxk74m",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The electrolysis of molten sodium hydride liberates ____ gas at the _____",
+          "options": [],
+          "correct_options": [],
+          "answer": "hydrogen, anode",
+          "explanation": null
+        }
+      },
+      "permalink": "the-electrolysis-of-molten-sodium-hydride-liberates-gas-1989-marks-1-qqlmyadh4au72yih.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The electrolysis of molten sodium hydride liberates ____ gas at the _____"
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "9ckn405gdh2f3k37abi1",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1989,
+      "paperTitle": "IIT-JEE 1989",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Write down the balanced equation for the reaction when:<br>\nPotassium ferricyanide reacts with hydrogen peroxide in basic solution",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "write-down-the-balanced-equation-for-the-reaction-when-pota-1989-marks-1-tlfwn9hheyqhkjq6.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1989",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1989",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Write down the balanced equation for the reaction when:\nPotassium ferricyanide reacts with hydrogen peroxide in basic solution"
+        }
+      },
+      "yearKey": "iit-jee-1989"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "ja1kjr4u4cgijds6quck",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1988,
+      "paperTitle": "IIT-JEE 1988",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Write down the balanced equation for the reaction when:<br>\nCarbon dioxide is passed through a concentrated aqueous solution of sodium chloride saturated with ammonia.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "write-down-the-balanced-equation-for-the-reaction-when-carb-1988-marks-1-pombputokriujrq8.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1988",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1988",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Write down the balanced equation for the reaction when:\nCarbon dioxide is passed through a concentrated aqueous solution of sodium chloride saturated with ammonia."
+        }
+      },
+      "yearKey": "iit-jee-1988"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "7bzkzn1zg8d00dbfsboi",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The metallic lustre exhibited by sodium is explained by",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "diffusion of sodium ions"
+            },
+            {
+              "identifier": "B",
+              "content": "oscillation of loose electrons"
+            },
+            {
+              "identifier": "C",
+              "content": "excitation of free protons"
+            },
+            {
+              "identifier": "D",
+              "content": "existence of body centered cubic lattice"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-metallic-lustre-exhibited-by-sodium-is-explained-by-1987-marks-1-ip0jo4zk7mtqn3hn.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The metallic lustre exhibited by sodium is explained by"
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "k7e0bus1l81oglg700ln",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Sodium when burnt in excess of oxygen gives sodium oxide.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "sodium-when-burnt-in-excess-of-oxygen-gives-sodium-oxide-1987-marks-1-z4lmqmikuo0drry1.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "isOutOfSyllabus": false,
+      "topic": "oxides-of-sodium",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Sodium when burnt in excess of oxygen gives sodium oxide."
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "svk96l4pgxspqkub3m2b",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1987,
+      "paperTitle": "IIT-JEE 1987",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Give reasons of the following :<br>\nMagnesium oxide is used for the lining of steel making furnace.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Do by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "give-reasons-of-the-following-magnesium-oxide-is-used-for-t-1987-marks-1-8tjvzkynhdhdcvtf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1987",
+      "isOutOfSyllabus": false,
+      "topic": "oxides-of-sodium",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1987",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Give reasons of the following :\nMagnesium oxide is used for the lining of steel making furnace."
+        }
+      },
+      "yearKey": "iit-jee-1987"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "lw4p09v5bfgbmccup47f",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The pair of compound which cannot exist together in solution is:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "NaHCO<sub>3</sub> and NaOH"
+            },
+            {
+              "identifier": "B",
+              "content": "Na<sub>2</sub>CO<sub>3</sub> and NaHCO<sub>3</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "Na<sub>2</sub>CO<sub>3</sub> and NaOH"
+            },
+            {
+              "identifier": "D",
+              "content": "NaHCO<sub>3</sub> and NaCl"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-pair-of-compound-which-cannot-exist-together-in-solution-1986-marks-1-sdmgbifnkhn0rzcq.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The pair of compound which cannot exist together in solution is:"
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "kc2i4md35acnjmuqln4s",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1986,
+      "paperTitle": "IIT-JEE 1986",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The softness of group I-A metals increases down the group with increasing atomic number.",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-softness-of-group-i-a-metals-increases-down-the-group-wi-1986-marks-1-8kmuhrvrcua1kmyf.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1986",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1986",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The softness of group I-A metals increases down the group with increasing atomic number."
+        }
+      },
+      "yearKey": "iit-jee-1986"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "2tqu9d04ntu58je0jkji",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The oxide that gives hydrogen peroxide on treatment with a dilute acid is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "PbO<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "Na<sub>2</sub>O<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "MnO<sub>2</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "TiO<sub>2</sub>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-oxide-that-gives-hydrogen-peroxide-on-treatment-with-a-d-1985-marks-1-kqjxscsmcdxuvbih.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "oxides-of-sodium",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The oxide that gives hydrogen peroxide on treatment with a dilute acid is"
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "e2s4e9yl8ghqbahqz09o",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Molecular formula of Glauber's salt is:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "MgSO<sub>4</sub>.7H<sub>2</sub>O"
+            },
+            {
+              "identifier": "B",
+              "content": "CuSO<sub>4</sub>.5H<sub>2</sub>O"
+            },
+            {
+              "identifier": "C",
+              "content": "FeSO<sub>4</sub>.7H<sub>2</sub>O"
+            },
+            {
+              "identifier": "D",
+              "content": "Na<sub>2</sub>SO<sub>4</sub>.10H<sub>2</sub>O"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "molecular-formula-of-glaubers-salt-is-1985-marks-1-x4g955vola3btyvc.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Molecular formula of Glauber's salt is:"
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "4v1ltbpvbprds0fuul66",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Sodium dissolved in liquid ammonia conducts electricity because ________.",
+          "options": [],
+          "correct_options": [],
+          "answer": "of solvated electrons",
+          "explanation": null
+        }
+      },
+      "permalink": "sodium-dissolved-in-liquid-ammonia-conducts-electricity-beca-1985-marks-1-womx29xom6rxj249.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Sodium dissolved in liquid ammonia conducts electricity because ________."
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "keaay886n78gbfvt8f91",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1985,
+      "paperTitle": "IIT-JEE 1985",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Write down the balanced equations for the reaction when:<br>\nCalcium phosphate is heated with a mixture of sand and carbon;",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "write-down-the-balanced-equations-for-the-reaction-when-cal-1985-marks-1-uui6idl1sc4wruic.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1985",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1985",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Write down the balanced equations for the reaction when:\nCalcium phosphate is heated with a mixture of sand and carbon;"
+        }
+      },
+      "yearKey": "iit-jee-1985"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "r317medf49fh5lbqhgis",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1984,
+      "paperTitle": "IIT-JEE 1984",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The hydration energy of Mg<sup>++</sup> is larger than that of:",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "Al<sup>3+</sup>"
+            },
+            {
+              "identifier": "B",
+              "content": "Na<sup>+</sup>"
+            },
+            {
+              "identifier": "C",
+              "content": "Be<sup>++</sup>"
+            },
+            {
+              "identifier": "D",
+              "content": "Mg<sup>3+</sup>"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "the-hydration-energy-of-mg-is-larger-than-that-of-1984-marks-1-0o1y68kbtwgy8qe1.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1984",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1984",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The hydration energy of Mg++ is larger than that of:"
+        }
+      },
+      "yearKey": "iit-jee-1984"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "dfbu60r7jt5rsw3wzyj8",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "t/f",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "MgCl<sub>2</sub>.6H<sub>2</sub>O on heating give anhydrous MgCl<sub>2</sub>",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "TRUE"
+            },
+            {
+              "identifier": "B",
+              "content": "FALSE"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "mgcl26h2o-on-heating-give-anhydrous-mgcl2-1982-marks-1-gufg89wdwz6b2svl.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "MgCl2.6H2O on heating give anhydrous MgCl2"
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "bwnoy9ez6fivm3xd2v22",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Write down the balanced equations for the reaction when:<br>\nAn alkaline solution of potassium ferricyanide is reacted with hydrogen peroxide.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "write-down-the-balanced-equations-for-the-reaction-when-an-1982-marks-1-3o5rblllg8riiveo.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Write down the balanced equations for the reaction when:\nAn alkaline solution of potassium ferricyanide is reacted with hydrogen peroxide."
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "r7zq49felgu97nyb7ef1",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1982,
+      "paperTitle": "IIT-JEE 1982",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "How will you prepare bleaching powder from slaked lime.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Solve by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "how-will-you-prepare-bleaching-powder-from-slaked-lime-1982-marks-1-yjmgx46shxbledme.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1982",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1982",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "How will you prepare bleaching powder from slaked lime."
+        }
+      },
+      "yearKey": "iit-jee-1982"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "j03ilen6swglrj9xh8e2",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "A solution of sodium metal in liquid ammonia is strongly reducing due to the presence of",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "sodium atoms"
+            },
+            {
+              "identifier": "B",
+              "content": "sodium hydride"
+            },
+            {
+              "identifier": "C",
+              "content": "sodium amide"
+            },
+            {
+              "identifier": "D",
+              "content": "solvated electrons"
+            }
+          ],
+          "correct_options": [
+            "D"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "a-solution-of-sodium-metal-in-liquid-ammonia-is-strongly-red-1981-marks-1-ay4k51kfwn0p7pia.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "A solution of sodium metal in liquid ammonia is strongly reducing due to the presence of"
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "e7rkf3nawelitia2fcop",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1981,
+      "paperTitle": "IIT-JEE 1981",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "subjective",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Give reasons of the following:<br>\nSodium carbonate is made by Solvay process but the same process is not extended to the manufacture of potassium carbonate.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Do by yourself",
+          "explanation": null
+        }
+      },
+      "permalink": "give-reasons-of-the-following-sodium-carbonate-is-made-by-s-1981-marks-1-whuqulwoncwxrjuu.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1981",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkali-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1981",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Give reasons of the following:\nSodium carbonate is made by Solvay process but the same process is not extended to the manufacture of potassium carbonate."
+        }
+      },
+      "yearKey": "iit-jee-1981"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "51hb8elqbnppgr1oh8p0",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Calcium is obtained by",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "electrolysis of molten CaCl<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "electrolysis of solution CaCl<sub>2</sub> in water"
+            },
+            {
+              "identifier": "C",
+              "content": "Reduction of CaCl<sub>2</sub> with carbon"
+            },
+            {
+              "identifier": "D",
+              "content": "roasting of limestone"
+            }
+          ],
+          "correct_options": [
+            "A"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "calcium-is-obtained-by-1980-marks-1-cfm0hdcqxglavm86.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Calcium is obtained by"
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "jdac28aozzvp4yvf2mmz",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "HCL is added to the following oxides. Which one would give H<sub>2</sub>O<sub>2</sub>?",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "MnO<sub>2</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "PbO<sub>2</sub>"
+            },
+            {
+              "identifier": "C",
+              "content": "BaO<sub>2</sub>.8H<sub>2</sub>O"
+            },
+            {
+              "identifier": "D",
+              "content": "NO<sub>2</sub>"
+            }
+          ],
+          "correct_options": [
+            "C"
+          ],
+          "answer": null,
+          "explanation": null
+        }
+      },
+      "permalink": "hcl-is-added-to-the-following-oxides-which-one-would-give-h-1980-marks-1-fzifpryxs4vsiwzp.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "HCL is added to the following oxides. Which one would give H2O2?"
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "b2cftkwqxpqgq7t7s8yy",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1980,
+      "paperTitle": "IIT-JEE 1980",
+      "difficulty": "medium",
+      "topicName": null,
+      "type": "fill-blanks",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "Anhydrous MgCl<sub>2</sub> is obtained by hydrated salt with ______.",
+          "options": [],
+          "correct_options": [],
+          "answer": "Anhydrous HCl",
+          "explanation": null
+        }
+      },
+      "permalink": "anhydrous-mgcl2-is-obtained-by-hydrated-salt-with-1980-marks-1-k7lvnkt1elbwqkyl.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1980",
+      "isOutOfSyllabus": false,
+      "topic": "compounds-of-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1980",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "Anhydrous MgCl2 is obtained by hydrated salt with ______."
+        }
+      },
+      "yearKey": "iit-jee-1980"
+    },
+    {
+      "country": "in",
+      "examGroup": "jee",
+      "question_id": "hvgc4zugm6396apwb0h0",
+      "exam": "jee-advanced",
+      "marks": 1,
+      "negMarks": 0.25,
+      "subjectGroup": null,
+      "subject": "chemistry",
+      "chapterGroup": "inorganic-chemistry",
+      "languages": [
+        "en"
+      ],
+      "chapter": "s-block-elements",
+      "year": 1978,
+      "paperTitle": "IIT-JEE 1978",
+      "difficulty": "easy",
+      "topicName": null,
+      "type": "mcq",
+      "examDate": null,
+      "question": {
+        "en": {
+          "content": "The substance absorbs CO<sub>2</sub> and violently reacts with water. The substance is",
+          "options": [
+            {
+              "identifier": "A",
+              "content": "CaCO<sub>3</sub>"
+            },
+            {
+              "identifier": "B",
+              "content": "CaO"
+            },
+            {
+              "identifier": "C",
+              "content": "H<sub>2</sub>SO<sub>4</sub>"
+            },
+            {
+              "identifier": "D",
+              "content": "ZnO"
+            }
+          ],
+          "correct_options": [
+            "B"
+          ],
+          "answer": null,
+          "explanation": "<p>The correct answer to the question is Option B: CaO.</p>\n\n<p>Let's break down the reasoning:</p>\n\n<p><strong>CaO</strong> (Calcium oxide), also known as quicklime, vigorously reacts with water to form calcium hydroxide (Ca(OH)<sub>2</sub>) and releases a significant amount of heat. This reaction is known as slaking of lime and can be represented as:</p>\n\n<p>$$ \\text{CaO} + \\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 $$</p>\n\n<p>Additionally, calcium oxide has a strong affinity for carbon dioxide (CO<sub>2</sub>). It absorbs CO<sub>2</sub> from the air to form calcium carbonate (CaCO<sub>3</sub>) through the following reaction:</p>\n\n<p>$$ \\text{CaO} + \\text{CO}_2 \\rightarrow \\text{CaCO}_3 $$</p>\n\n<p>Thus, CaO fulfills both conditions: it absorbs CO<sub>2</sub> and reacts violently with water. The other substances listed do not meet these criteria:</p>\n\n<p><strong>CaCO<sub>3</sub>:</strong> Calcium carbonate reacts with acids but does not react violently with water and does not absorb CO<sub>2</sub>.</p>\n\n<p><strong>H<sub>2</sub>SO<sub>4</sub>:</strong> Sulfuric acid is a liquid that reacts vigorously with water (specifically, dilution of concentrated sulfuric acid is exothermic), but it does not absorb CO<sub>2</sub>.</p>\n\n<p><strong>ZnO:</strong> Zinc oxide is an amphoteric oxide that does not react violently with water and does not absorb CO<sub>2</sub>.</p>\n\n<p>Therefore, the most appropriate answer is:</p>\n\n<p><strong>Option B</strong>: CaO</p>"
+        }
+      },
+      "permalink": "the-substance-absorbs-co2-and-violently-reacts-with-water-t-1978-marks-1-xlemsw9qqbaisr7j.htm",
+      "timeAllotted": 200000,
+      "section": [
+        "chapter",
+        "paper"
+      ],
+      "paperId": "iit-jee-1978",
+      "isOutOfSyllabus": false,
+      "topic": "physiochemical-trends-in-alkaline-earth-metals",
+      "isBonus": false,
+      "bookmark": {
+        "en": {
+          "title": "IIT-JEE 1978",
+          "subTitle": "S Block Elements • Chemistry",
+          "excerpt": "The substance absorbs CO2 and violently reacts with water. The substance is"
+        }
+      },
+      "yearKey": "iit-jee-1978"
+    }
+  ]
+}
