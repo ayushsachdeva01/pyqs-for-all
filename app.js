@@ -7,7 +7,8 @@
     review: 'jeePractice_review_v3',
     sessions: 'jeePractice_sessions_v3',
     active: 'jeePractice_sessions_v3__active',
-    theme: 'jeePractice_theme_v3'
+    theme: 'jeePractice_theme_v3',
+    snapshotSettings: 'jeePractice_snapshot_settings_v1'
   };
 
   const $ = id => document.getElementById(id);
@@ -30,6 +31,37 @@
     }
   });
 
+  const DEFAULT_SNAPSHOT_SETTINGS = {
+    showKicker: true,
+    showTitle: true,
+    showPaper: true,
+    showBadges: true,
+    showQuestionNumber: false,
+    showQuestion: true,
+    showOptions: true,
+    showCorrectAnswer: false,
+    showExplanation: false,
+    showFooter: true,
+    showLogo: false,
+    logoData: '',
+    footerText: 'Saved from JEE Practice',
+    accent: '#6659f6',
+    pageBg: '#070d1a',
+    cardBg: '#0f1a30',
+    text: '#f2f5fc',
+    muted: '#8794ad',
+    optionBg: '#151f35',
+    border: '#344768',
+    badgeBg: '#24224e',
+    badgeText: '#aaa4ff',
+    width: 1000,
+    scale: 1.5,
+    radius: 28,
+    padding: 38,
+    questionSize: 22,
+    optionSize: 17
+  };
+
   const state = {
     questions: [],
     exam: 'jee-main',
@@ -46,7 +78,15 @@
     order: 'newest',
     resumeChoice: 'resume',
     detailFilters: {},
-    modalReturnFocus: null
+    modalReturnFocus: null,
+    manifestFiles: [],
+    loadedFiles: new Set(),
+    loadingFiles: new Set(),
+    manifestReady: false,
+    libraryLoadGeneration: 0,
+    imageExporting: new Set(),
+    filePromises: new Map(),
+    snapshotSettings: { ...DEFAULT_SNAPSHOT_SETTINGS }
   };
 
   function read(key, fallback = []) {
@@ -82,6 +122,19 @@
     const value = read(KEY.review, []);
     return new Set(Array.isArray(value) ? value.map(String) : []);
   };
+
+  function snapshotSettings() {
+    return { ...DEFAULT_SNAPSHOT_SETTINGS, ...(state.snapshotSettings || {}) };
+  }
+
+  function persistSnapshotSettings() {
+    write(KEY.snapshotSettings, snapshotSettings());
+  }
+
+  function loadSnapshotSettings() {
+    const saved = read(KEY.snapshotSettings, {});
+    state.snapshotSettings = { ...DEFAULT_SNAPSHOT_SETTINGS, ...(saved && typeof saved === 'object' ? saved : {}) };
+  }
 
   function normalize(list) {
     return (Array.isArray(list) ? list : []).map((q, i) => ({
@@ -221,7 +274,30 @@
   }
   function examQs() { return state.questions.filter(q => q._exam === state.exam); }
   function allSubjects() { return ['Physics', 'Chemistry', 'Mathematics']; }
-  function subjects() { return allSubjects().filter(s => state.questions.some(q => q._exam === state.exam && q._subject === s)); }
+  function subjects() {
+    const manifestSubjects = state.manifestFiles
+      .filter(file => file.exam === state.exam)
+      .map(file => file.subject);
+    return [...new Set(manifestSubjects.length ? manifestSubjects : allSubjects().filter(s => state.questions.some(q => q._exam === state.exam && q._subject === s)))];
+  }
+
+  function manifestFilesFor(exam, subject = '') {
+    return state.manifestFiles.filter(file => file.exam === exam && (!subject || file.subject === subject));
+  }
+
+  function manifestStats(exam, subject = '') {
+    const files = manifestFilesFor(exam, subject);
+    return {
+      files,
+      questions: files.reduce((sum, file) => sum + file.count, 0),
+      chapters: new Set(files.map(file => file.chapter)).size
+    };
+  }
+
+  function isExamFullyLoaded(exam) {
+    const files = manifestFilesFor(exam);
+    return files.length > 0 && files.every(file => state.loadedFiles.has(file.name));
+  }
 
   function getAttempts(id) { return attempts().filter(a => a.questionId === id); }
   function lastAttempt(id) {
@@ -256,6 +332,7 @@
   }
 
   async function init() {
+    loadSnapshotSettings();
     initTheme();
     bind();
     renderExamTabs();
@@ -269,45 +346,162 @@
 
   async function loadQuestionLibrary() {
     const base = new URL('./questions/', document.baseURI);
+    const generation = ++state.libraryLoadGeneration;
+    showLibraryLoading('Preparing your PYQ library…', 0, 0);
+
     try {
       const manifestResponse = await fetch(new URL('manifest.json', base), { cache: 'default' });
-      if (manifestResponse.ok) {
-        const manifest = await manifestResponse.json();
-        const files = Array.isArray(manifest) ? manifest : manifest.files;
-        if (!Array.isArray(files)) throw new Error('Invalid question manifest');
-        const manifestFiles = files.filter(name => typeof name === 'string' && /\.json$/i.test(name));
-        const results = await Promise.allSettled(manifestFiles.map(name => fetchQuestionFile(new URL(name, base))));
-        const payloads = results.filter(result => result.status === 'fulfilled').map(result => result.value);
-        const failedFiles = results.filter(result => result.status === 'rejected').length;
-        if (!payloads.length) throw new Error('No question files could be loaded');
-        if (failedFiles) console.warn(`${failedFiles} question file(s) failed to load.`);
+      if (!manifestResponse.ok) throw new Error('Question manifest unavailable');
+      const manifest = await manifestResponse.json();
+      const files = Array.isArray(manifest) ? manifest : manifest.files;
+      if (!Array.isArray(files)) throw new Error('Invalid question manifest');
 
-        state.questions = dedupeQuestions(normalize(payloads.flatMap(extractQuestionArray)));
-        toast(`Loaded ${state.questions.length} questions`);
-        return;
+      state.manifestFiles = files
+        .filter(name => typeof name === 'string' && /\.json$/i.test(name))
+        .map(name => {
+          const parts = name.split('/');
+          const subject = parts[0] || 'Unknown';
+          const examLabel = parts[1] || '';
+          const exam = /advanced/i.test(examLabel) ? 'jee-advanced' : 'jee-main';
+          const fileName = parts[parts.length - 1] || name;
+          const chapterSlug = fileName.replace(/_\d+q\.json$/i, '');
+          const countMatch = fileName.match(/_(\d+)q\.json$/i);
+          return { name, subject, exam, chapter: title(chapterSlug), count: Number(countMatch?.[1] || 0) };
+        });
+      state.manifestReady = true;
+
+      const initialSubject = subjects()[0] || 'Physics';
+      const initialFiles = manifestFilesFor(state.exam, initialSubject);
+      showLibraryLoading(`Loading ${initialSubject} questions…`, 0, initialFiles.length);
+      await loadManifestFiles(initialFiles, base, generation, { initial: true });
+      if (generation !== state.libraryLoadGeneration) return;
+
+      hideLibraryLoading();
+      renderExamTabs();
+      populateAllFilters();
+      renderHome();
+
+      // Keep the first screen responsive: the other subjects load quietly after
+      // the user already has usable questions on screen.
+      const remaining = manifestFilesFor(state.exam).filter(file => !state.loadedFiles.has(file.name));
+      if (remaining.length) {
+        loadManifestFiles(remaining, base, generation, { background: true }).then(() => {
+          if (generation !== state.libraryLoadGeneration) return;
+          renderHome();
+          if (state.page === 'chapters') renderChapters();
+          if (state.page === 'allQuestions') {
+            populateAllFilters();
+            renderAllQuestions();
+          }
+        });
       }
     } catch (error) {
       console.warn('Question manifest could not be loaded:', error);
-    }
-
-    // Optional fallback for servers that expose directory listings.
-    try {
-      const directoryResponse = await fetch(base, { cache: 'no-store' });
-      if (!directoryResponse.ok) throw new Error('Question directory unavailable');
-      const html = await directoryResponse.text();
-      const doc = new DOMParser().parseFromString(html, 'text/html');
-      const files = [...doc.querySelectorAll('a[href]')]
-        .map(a => a.getAttribute('href'))
-        .filter(href => href && /\.json(?:$|[?#])/i.test(href) && !/manifest\.json(?:$|[?#])/i.test(href));
-      if (!files.length) throw new Error('No question JSON files found');
-      const payloads = await Promise.all([...new Set(files)].map(name => fetchQuestionFile(new URL(name, base))));
-      state.questions = dedupeQuestions(normalize(payloads.flatMap(extractQuestionArray)));
-      toast(`Loaded ${state.questions.length} questions`);
-    } catch (error) {
       state.questions = [];
-      console.error('Could not load the question library:', error);
+      hideLibraryLoading();
       toast('Could not load the question library. Check the questions folder.');
     }
+  }
+
+  async function loadManifestFiles(files, base, generation, options = {}) {
+    const queue = files.filter(file => !state.loadedFiles.has(file.name));
+    if (!queue.length) return;
+
+    const concurrency = Math.min(6, queue.length);
+    let cursor = 0;
+    let completed = 0;
+    let failed = 0;
+
+    const worker = async () => {
+      while (cursor < queue.length) {
+        const file = queue[cursor++];
+        if (generation !== state.libraryLoadGeneration) return;
+        state.loadingFiles.add(file.name);
+        try {
+          let filePromise = state.filePromises.get(file.name);
+          if (!filePromise) {
+            filePromise = fetchQuestionFile(new URL(file.name, base));
+            state.filePromises.set(file.name, filePromise);
+            filePromise.then(() => state.filePromises.delete(file.name), () => state.filePromises.delete(file.name));
+          }
+          const payload = await filePromise;
+          const normalized = normalize(extractQuestionArray(payload));
+          if (normalized.length) {
+            state.questions = dedupeQuestions(state.questions.concat(normalized));
+          }
+          state.loadedFiles.add(file.name);
+        } catch (error) {
+          failed += 1;
+          console.warn(`Question file failed to load: ${file.name}`, error);
+        } finally {
+          state.loadingFiles.delete(file.name);
+          completed += 1;
+          if (!options.background) {
+            showLibraryLoading(
+              completed === queue.length ? `Finishing ${file.subject}…` : `Loading ${file.subject} questions…`,
+              completed,
+              queue.length
+            );
+          }
+          if (completed % 4 === 0 || completed === queue.length) {
+            if (state.page === 'home') renderHome();
+            if (state.page === 'chapters') renderChapters();
+          }
+        }
+      }
+    };
+
+    await Promise.all(Array.from({ length: concurrency }, worker));
+    if (failed) console.warn(`${failed} question file(s) failed to load.`);
+  }
+
+  async function ensureSubjectLoaded(exam, subject) {
+    if (!state.manifestReady) return;
+    const files = manifestFilesFor(exam, subject).filter(file => !state.loadedFiles.has(file.name));
+    if (!files.length) return;
+    const generation = state.libraryLoadGeneration;
+    const base = new URL('./questions/', document.baseURI);
+    showLibraryLoading(`Loading ${subject} questions…`, 0, files.length);
+    await loadManifestFiles(files, base, generation, { initial: true });
+    hideLibraryLoading();
+    renderHome();
+    if (state.page === 'chapters') renderChapters();
+  }
+
+  async function ensureExamLoaded(exam) {
+    if (!state.manifestReady || isExamFullyLoaded(exam)) return;
+    const files = manifestFilesFor(exam).filter(file => !state.loadedFiles.has(file.name));
+    if (!files.length) return;
+    const generation = state.libraryLoadGeneration;
+    const base = new URL('./questions/', document.baseURI);
+    showLibraryLoading(`Loading ${prettyExam(exam)} library…`, 0, files.length);
+    await loadManifestFiles(files, base, generation, { initial: true });
+    hideLibraryLoading();
+    populateAllFilters();
+    renderHome();
+  }
+
+  function showLibraryLoading(message, done = 0, total = 0) {
+    const overlay = $('libraryLoading');
+    if (!overlay) return;
+    overlay.classList.remove('hidden');
+    const titleEl = $('libraryLoadingTitle');
+    const detailEl = $('libraryLoadingDetail');
+    const fill = $('libraryLoadingFill');
+    const percentEl = $('libraryLoadingPercent');
+    if (titleEl) titleEl.textContent = message;
+    if (detailEl) {
+      detailEl.textContent = total
+        ? `${done.toLocaleString()} of ${total.toLocaleString()} files · Your questions will appear as they load.`
+        : 'Reading the question index…';
+    }
+    const percent = total ? Math.min(100, Math.round(done / total * 100)) : 8;
+    if (fill) fill.style.width = `${percent}%`;
+    if (percentEl) percentEl.textContent = `${percent}%`;
+  }
+
+  function hideLibraryLoading() {
+    $('libraryLoading')?.classList.add('hidden');
   }
 
   async function fetchQuestionFile(url) {
@@ -347,7 +541,7 @@
     $('cycleExam').onclick = () => switchExam(state.exam === 'jee-main' ? 'jee-advanced' : 'jee-main');
     $('quickPractice').onclick = () => openSession('all');
     $('weakPractice').onclick = () => openSession('weak');
-    $('openAllQuestions').onclick = () => showPage('allQuestions');
+    $('openAllQuestions').onclick = async () => { showPage('allQuestions'); await ensureExamLoaded(state.exam); showPage('allQuestions'); };
     $('allPractice').onclick = () => openSession('allFiltered');
     $('detailPractice').onclick = () => openSession(state.chapterView === 'mistakes' ? 'mistakes' : 'chapter');
     document.querySelectorAll('[data-chapter-view]').forEach(button => {
@@ -363,6 +557,9 @@
     $('backToChapters').onclick = () => showPage('chapters');
     $('menuButton').onclick = () => $('sidebar').classList.toggle('open');
     $('themeButton').onclick = toggleTheme;
+    $('openSnapshotSettings')?.addEventListener('click', openSnapshotSettings);
+    $('snapshotReset')?.addEventListener('click', resetSnapshotSettings);
+    $('snapshotLogoInput')?.addEventListener('change', handleSnapshotLogoUpload);
     $('chapterSort').onchange = renderChapters;
 
     document.querySelectorAll('[data-close]').forEach(button => {
@@ -436,19 +633,34 @@
     if (page === 'home') renderHome();
     if (page === 'chapters') renderChapters();
     if (page === 'chapter') renderChapterQuestions();
-    if (page === 'allQuestions') renderAllQuestions();
+    if (page === 'allQuestions') {
+      renderAllQuestions();
+      if (state.manifestReady && !isExamFullyLoaded(state.exam)) {
+        ensureExamLoaded(state.exam).then(() => { if (state.page === 'allQuestions') renderAllQuestions(); });
+      }
+    }
     if (page === 'bookmarks') renderBookmarks();
     if (page === 'history') renderHistory();
     if (page === 'analytics') renderAnalytics();
   }
 
-  function switchExam(exam) {
+  async function switchExam(exam) {
     state.exam = exam;
-    state.subject = subjects()[0] || 'Physics';
+    state.subject = allSubjects().find(subject => manifestFilesFor(exam, subject).length) || 'Physics';
     state.chapter = null;
     renderExamTabs();
-    populateAllFilters();
+    renderHome();
     showPage('home');
+    await ensureSubjectLoaded(state.exam, state.subject);
+    const remaining = manifestFilesFor(state.exam).filter(file => !state.loadedFiles.has(file.name));
+    if (remaining.length) {
+      const generation = state.libraryLoadGeneration;
+      const base = new URL('./questions/', document.baseURI);
+      loadManifestFiles(remaining, base, generation, { background: true }).then(() => {
+        if (generation !== state.libraryLoadGeneration) return;
+        renderHome();
+      });
+    }
   }
 
   function renderExamTabs() {
@@ -458,29 +670,37 @@
 
   function renderHome() {
     const qs = examQs();
+    const examStats = manifestStats(state.exam);
     $('homeTitle').textContent = prettyExam(state.exam);
     $('sideExam').textContent = prettyExam(state.exam);
-    $('homeSubtitle').textContent = `${qs.length.toLocaleString()} questions across ${new Set(qs.map(q => q._chapter)).size} chapters · ${yearRange(qs)} · progress is stored locally on this device.`;
+    const loadedLabel = examStats.questions > qs.length ? `${qs.length.toLocaleString()} loaded of ${examStats.questions.toLocaleString()}` : `${qs.length.toLocaleString()}`;
+    const chapterLabel = examStats.chapters || new Set(qs.map(q => q._chapter)).size;
+    $('homeSubtitle').textContent = `${loadedLabel} questions across ${chapterLabel} chapters · ${qs.length ? yearRange(qs) : 'PYQs ready to load'} · progress is stored locally on this device.`;
 
     const icons = { Physics: 'PHY', Chemistry: 'CHE', Mathematics: 'MAT' };
     $('subjectGrid').innerHTML = allSubjects().map(subject => {
       const data = qs.filter(q => q._subject === subject);
-      const chapters = new Set(data.map(q => q._chapter));
-      return `<article class="subject-card ${data.length ? '' : 'empty-subject'}" data-subject="${esc(subject)}">
+      const stats = manifestStats(state.exam, subject);
+      const loaded = data.length > 0 || stats.files.length === 0;
+      const questionCount = stats.questions || data.length;
+      const chapterCount = stats.chapters || new Set(data.map(q => q._chapter)).size;
+      const loadingCopy = data.length ? 'Chapter-wise questions with solutions, progress and personal timing.' : 'Ready to load when you open this subject.';
+      return `<article class="subject-card ${questionCount ? '' : 'empty-subject'}" data-subject="${esc(subject)}">
         <div class="subject-top">
           <div class="subject-icon">${icons[subject]}</div>
           <h2>${subject}</h2>
-          <p>${data.length ? 'Chapter-wise questions with solutions, progress and personal timing.' : 'No questions are available for this subject yet.'}</p>
-          <div class="subject-meta"><span>${data.length} questions</span><span>•</span><span>${chapters.size} chapters</span><span>•</span><span>${esc(yearRange(data))}</span></div>
+          <p>${loadingCopy}</p>
+          <div class="subject-meta"><span>${questionCount.toLocaleString()} questions</span><span>•</span><span>${chapterCount} chapters</span><span>•</span><span>${loaded && data.length ? esc(yearRange(data)) : 'On demand'}</span></div>
         </div>
-        <div class="subject-open">${data.length ? 'Explore chapters' : 'No questions'} <span>→</span></div>
+        <div class="subject-open">${data.length ? 'Explore chapters' : 'Load & explore'} <span>→</span></div>
       </article>`;
     }).join('');
 
     document.querySelectorAll('.subject-card').forEach(card => {
-      card.onclick = () => {
-        if (!examQs().some(q => q._subject === card.dataset.subject)) return;
-        state.subject = card.dataset.subject;
+      card.onclick = async () => {
+        const subject = card.dataset.subject;
+        state.subject = subject;
+        await ensureSubjectLoaded(state.exam, subject);
         showPage('chapters');
       };
     });
@@ -680,7 +900,10 @@
           <span class="status-${attempt?.correct ? 'correct' : attempt ? 'wrong' : 'new'}">${status}</span>
         </div>
       </div>
-      <div class="q-actions"><button class="tiny-action" data-bookmark-q="${esc(q._id)}" title="Bookmark">${saved ? '★' : '☆'}</button></div>
+      <div class="q-actions">
+        <button class="tiny-action" data-bookmark-q="${esc(q._id)}" title="Bookmark" aria-label="Bookmark">${saved ? '★' : '☆'}</button>
+        <button class="tiny-action image-action" data-save-image-q="${esc(q._id)}" title="Save as image" aria-label="Save question as image">⇩</button>
+      </div>
     </article>`;
   }
 
@@ -701,6 +924,266 @@
         if (state.page === 'bookmarks') renderBookmarks();
       };
     });
+    document.querySelectorAll('[data-save-image-q]').forEach(button => {
+      button.onclick = async event => {
+        event.stopPropagation();
+        const q = state.questions.find(item => item._id === button.dataset.saveImageQ);
+        if (q) await saveQuestionAsImage(q, button);
+      };
+    });
+  }
+
+  // Image export: render the real question DOM in an off-screen card, let the
+  // same MathJax instance typeset it, then snapshot only that small card.
+  // This avoids reconstructing TeX on a canvas and avoids rendering the whole app.
+  function imageFileName(q) {
+    const slug = `${prettyExam(q._exam)}-${q._subject}-${q._chapter}-${q._id}`
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-|-$/g, '');
+    return `${slug || 'jee-pyq'}.png`;
+  }
+
+  function nextPaint() {
+    return new Promise(resolve => requestAnimationFrame(() => resolve()));
+  }
+
+  let html2canvasPromise = null;
+  function loadHtml2Canvas() {
+    if (window.html2canvas) return Promise.resolve(window.html2canvas);
+    if (html2canvasPromise) return html2canvasPromise;
+    html2canvasPromise = new Promise((resolve, reject) => {
+      const existing = document.querySelector('script[data-html2canvas]');
+      if (existing) {
+        existing.addEventListener('load', () => window.html2canvas ? resolve(window.html2canvas) : reject(new Error('html2canvas unavailable')), { once: true });
+        existing.addEventListener('error', () => reject(new Error('html2canvas failed to load')), { once: true });
+        return;
+      }
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+      script.async = true;
+      script.dataset.html2canvas = 'true';
+      script.onload = () => window.html2canvas ? resolve(window.html2canvas) : reject(new Error('html2canvas unavailable'));
+      script.onerror = () => reject(new Error('Could not load image exporter'));
+      document.head.appendChild(script);
+    }).catch(error => { html2canvasPromise = null; throw error; });
+    return html2canvasPromise;
+  }
+
+  function snapshotSettingsMarkup() {
+    const s = snapshotSettings();
+    const toggle = (key, label, hint) => `
+      <label class="snapshot-toggle">
+        <input type="checkbox" data-snapshot-setting="${key}" ${s[key] ? 'checked' : ''}>
+        <span><b>${label}</b><small>${hint}</small></span>
+      </label>`;
+    const color = (key, label) => `<label class="snapshot-field color-field"><span>${label}</span><input type="color" data-snapshot-setting="${key}" value="${esc(s[key])}"></label>`;
+    return `
+      <div class="modal snapshot-modal" id="snapshotSettingsModal" role="dialog" aria-modal="true" aria-labelledby="snapshotSettingsTitle">
+        <div class="modal-card snapshot-settings-card">
+          <div class="modal-head">
+            <div><div class="eyebrow">IMAGE EXPORT</div><h2 id="snapshotSettingsTitle">Snapshot settings</h2><p>Choose exactly what appears in saved question images.</p></div>
+            <button class="close" id="closeSnapshotSettings" aria-label="Close">×</button>
+          </div>
+
+          <section class="snapshot-section">
+            <div class="section-heading"><div><h3>Elements</h3><p>Turn any part of the snapshot on or off.</p></div></div>
+            <div class="snapshot-toggle-grid">
+              ${toggle('showKicker','Brand kicker','JEE PRACTICE · PYQ')}
+              ${toggle('showTitle','Exam & subject','JEE Main · Physics')}
+              ${toggle('showPaper','Year & paper','Year and shift line')}
+              ${toggle('showBadges','Badges','Difficulty, type, chapter')}
+              ${toggle('showQuestionNumber','Question number','Small number above the question')}
+              ${toggle('showQuestion','Question','Question text and equations')}
+              ${toggle('showOptions','Options','All answer choices')}
+              ${toggle('showCorrectAnswer','Correct answer','Adds the correct option at the bottom')}
+              ${toggle('showExplanation','Explanation','Adds the saved explanation, if available')}
+              ${toggle('showFooter','Footer','Custom footer text')}
+              ${toggle('showLogo','Your logo','Use your uploaded logo at the top')}
+            </div>
+          </section>
+
+          <section class="snapshot-section">
+            <div class="section-heading"><div><h3>Branding & text</h3><p>Personalise the small details.</p></div></div>
+            <div class="snapshot-form-grid">
+              <label class="snapshot-field full-field"><span>Footer text</span><input type="text" maxlength="90" data-snapshot-setting="footerText" value="${esc(s.footerText)}"></label>
+              <label class="snapshot-field"><span>Logo</span><div class="snapshot-logo-row"><div class="snapshot-logo-preview" id="snapshotLogoPreview">${s.logoData ? `<img src="${esc(s.logoData)}" alt="Logo preview">` : '<span>+</span>'}</div><input id="snapshotLogoInput" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml"></div></label>
+              <div class="snapshot-field"><span>Logo actions</span><button class="secondary" id="removeSnapshotLogo" type="button">Remove logo</button></div>
+            </div>
+          </section>
+
+          <section class="snapshot-section">
+            <div class="section-heading"><div><h3>Colors</h3><p>Use your own palette instead of the default JEE Practice look.</p></div></div>
+            <div class="snapshot-color-grid">
+              ${color('accent','Accent')}${color('pageBg','Outer background')}${color('cardBg','Card background')}${color('text','Text')}
+              ${color('muted','Muted text')}${color('optionBg','Option background')}${color('border','Borders')}${color('badgeBg','Badge background')}
+            </div>
+          </section>
+
+          <section class="snapshot-section">
+            <div class="section-heading"><div><h3>Layout</h3><p>Control the image proportions and typography.</p></div></div>
+            <div class="snapshot-range-grid">
+              <label class="snapshot-field"><span>Width <b data-range-value="width">${s.width}px</b></span><input type="range" min="700" max="1400" step="10" data-snapshot-setting="width" value="${s.width}"></label>
+              <label class="snapshot-field"><span>Quality <b data-range-value="scale">${s.scale}×</b></span><input type="range" min="1" max="2" step="0.25" data-snapshot-setting="scale" value="${s.scale}"></label>
+              <label class="snapshot-field"><span>Corner radius <b data-range-value="radius">${s.radius}px</b></span><input type="range" min="0" max="42" step="1" data-snapshot-setting="radius" value="${s.radius}"></label>
+              <label class="snapshot-field"><span>Padding <b data-range-value="padding">${s.padding}px</b></span><input type="range" min="20" max="60" step="2" data-snapshot-setting="padding" value="${s.padding}"></label>
+              <label class="snapshot-field"><span>Question size <b data-range-value="questionSize">${s.questionSize}px</b></span><input type="range" min="16" max="30" step="1" data-snapshot-setting="questionSize" value="${s.questionSize}"></label>
+              <label class="snapshot-field"><span>Option size <b data-range-value="optionSize">${s.optionSize}px</b></span><input type="range" min="14" max="24" step="1" data-snapshot-setting="optionSize" value="${s.optionSize}"></label>
+            </div>
+          </section>
+
+          <div class="snapshot-settings-actions"><button class="secondary" id="snapshotReset">Reset defaults</button><button class="primary" id="closeSnapshotSettingsSave">Done</button></div>
+        </div>
+      </div>`;
+  }
+
+  function openSnapshotSettings() {
+    document.getElementById('snapshotSettingsModal')?.remove();
+    document.body.insertAdjacentHTML('beforeend', snapshotSettingsMarkup());
+    const modal = $('snapshotSettingsModal');
+    const close = () => { modal?.remove(); };
+    $('closeSnapshotSettings')?.addEventListener('click', close);
+    $('closeSnapshotSettingsSave')?.addEventListener('click', () => { persistSnapshotSettings(); close(); });
+    $('snapshotReset')?.addEventListener('click', () => {
+      state.snapshotSettings = { ...DEFAULT_SNAPSHOT_SETTINGS };
+      persistSnapshotSettings();
+      close();
+      openSnapshotSettings();
+    });
+    $('removeSnapshotLogo')?.addEventListener('click', () => {
+      state.snapshotSettings.logoData = '';
+      persistSnapshotSettings();
+      close();
+      openSnapshotSettings();
+    });
+    $('snapshotLogoInput')?.addEventListener('change', handleSnapshotLogoUpload);
+    modal?.addEventListener('click', event => { if (event.target === modal) close(); });
+    modal?.querySelectorAll('[data-snapshot-setting]').forEach(input => {
+      input.addEventListener('input', () => updateSnapshotSettingFromInput(input));
+      input.addEventListener('change', () => updateSnapshotSettingFromInput(input));
+    });
+  }
+
+  function updateSnapshotSettingFromInput(input) {
+    const key = input.dataset.snapshotSetting;
+    if (!key) return;
+    let value = input.type === 'checkbox' ? input.checked : input.value;
+    if (['width','scale','radius','padding','questionSize','optionSize'].includes(key)) value = Number(value);
+    state.snapshotSettings[key] = value;
+    persistSnapshotSettings();
+    const valueNode = document.querySelector(`[data-range-value="${key}"]`);
+    if (valueNode) valueNode.textContent = key === 'scale' ? `${value}×` : `${value}px`;
+  }
+
+  function handleSnapshotLogoUpload(event) {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    if (file.size > 1024 * 1024) {
+      toast('Please use a logo smaller than 1 MB.');
+      event.target.value = '';
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      state.snapshotSettings.logoData = String(reader.result || '');
+      persistSnapshotSettings();
+      const preview = $('snapshotLogoPreview');
+      if (preview) preview.innerHTML = `<img src="${esc(state.snapshotSettings.logoData)}" alt="Logo preview">`;
+    };
+    reader.readAsDataURL(file);
+  }
+
+  function resetSnapshotSettings() {
+    state.snapshotSettings = { ...DEFAULT_SNAPSHOT_SETTINGS };
+    persistSnapshotSettings();
+  }
+
+  function makeImageExportStage(q) {
+    const s = snapshotSettings();
+    const stage = document.createElement('div');
+    stage.className = 'image-export-stage';
+    stage.setAttribute('aria-hidden', 'true');
+    stage.style.width = `${s.width}px`;
+    stage.style.background = s.pageBg;
+    stage.style.color = s.text;
+
+    const options = qopts(q);
+    const meta = [q._difficulty || '', q._type || '', q._chapter || ''].filter(Boolean);
+    const answer = qcorrect(q);
+    const correctLabels = answer.length ? answer.join(', ') : '';
+    const logo = s.showLogo && s.logoData ? `<img class="image-export-logo" src="${esc(s.logoData)}" alt="">` : '';
+    const kicker = s.showKicker ? `<div class="image-export-kicker">JEE PRACTICE · PYQ</div>` : '';
+    const title = s.showTitle ? `<div class="image-export-title">${esc(prettyExam(q._exam))} · ${esc(q._subject || '')}</div>` : '';
+    const paper = s.showPaper ? `<div class="image-export-paper">${esc(prettyYear(q._year))}${paperLabel(q) ? ` · ${esc(paperLabel(q))}` : ''}</div>` : '';
+    const badges = s.showBadges ? `<div class="image-export-badges">${meta.map((item, i) => `<span class="image-export-badge badge-${i}">${esc(item)}</span>`).join('')}</div>` : '';
+    const number = s.showQuestionNumber ? `<div class="image-export-number">Question ${esc(q._number || q.question_number || '')}</div>` : '';
+    const question = s.showQuestion ? `<div class="image-export-question">${sanitizeHtml(qtext(q) || '')}</div>` : '';
+    const optionMarkup = s.showOptions && options.length ? `<div class="image-export-options">${options.map(option => `<div class="image-export-option"><span class="image-export-option-key">${esc(option.identifier)}</span><div class="image-export-option-content">${sanitizeHtml(option.content || '')}</div></div>`).join('')}</div>` : '';
+    const correctMarkup = s.showCorrectAnswer && correctLabels ? `<div class="image-export-answer"><strong>Correct answer</strong><span>${esc(correctLabels)}</span></div>` : '';
+    const explanation = s.showExplanation && qexplain(q) ? `<div class="image-export-explanation"><strong>Explanation</strong><div>${sanitizeHtml(qexplain(q))}</div></div>` : '';
+    const footer = s.showFooter ? `<footer class="image-export-footer">${esc(s.footerText || '')}</footer>` : '';
+
+    stage.innerHTML = `<div class="image-export-card" style="--export-accent:${esc(s.accent)};--export-card:${esc(s.cardBg)};--export-text:${esc(s.text)};--export-muted:${esc(s.muted)};--export-option:${esc(s.optionBg)};--export-border:${esc(s.border)};--export-badge:${esc(s.badgeBg)};--export-badge-text:${esc(s.badgeText)};--export-radius:${s.radius}px;--export-pad:${s.padding}px;--export-q-size:${s.questionSize}px;--export-option-size:${s.optionSize}px">
+      <header class="image-export-header">${logo}<div class="image-export-header-copy">${kicker}${title}${paper}</div></header>
+      <div class="image-export-body">${badges}${number}${question}${optionMarkup}${correctMarkup}${explanation}</div>${footer}
+    </div>`;
+    document.body.appendChild(stage);
+    return stage;
+  }
+
+  async function typesetExportStage(stage) {
+    const mj = window.MathJax;
+    if (!mj?.typesetPromise) return false;
+    try {
+      if (mj.startup?.promise) await mj.startup.promise;
+      await mj.typesetPromise([stage]);
+      return true;
+    } catch (error) {
+      console.warn('MathJax export typesetting failed:', error);
+      return false;
+    }
+  }
+
+  async function saveQuestionAsImage(q, button) {
+    if (state.imageExporting.has(q._id)) return;
+    state.imageExporting.add(q._id);
+    const previous = button?.textContent;
+    if (button) { button.disabled = true; button.textContent = '…'; }
+    let stage = null;
+    try {
+      toast('Preparing image…');
+      await nextPaint();
+      const html2canvas = await loadHtml2Canvas();
+      stage = makeImageExportStage(q);
+      const mathReady = await typesetExportStage(stage);
+      if (!mathReady) throw new Error('MathJax is not ready');
+      await nextPaint();
+      const card = stage.querySelector('.image-export-card');
+      if (!card) throw new Error('Export card was not created');
+      const s = snapshotSettings();
+      const canvas = await html2canvas(card, {
+        backgroundColor: s.pageBg,
+        scale: Math.min(2, Math.max(1, Number(s.scale) || 1.5)),
+        useCORS: false,
+        allowTaint: false,
+        foreignObjectRendering: false,
+        logging: false,
+        imageTimeout: 1500,
+        removeContainer: true
+      });
+      const blob = await new Promise((resolve, reject) => canvas.toBlob(result => result ? resolve(result) : reject(new Error('PNG encoding failed')), 'image/png'));
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url; link.download = imageFileName(q); document.body.appendChild(link); link.click(); link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1500);
+      toast('Question image saved');
+    } catch (error) {
+      console.error('Could not save question image:', error);
+      toast(error?.message === 'Could not load image exporter' ? 'Image exporter could not load. Check your connection.' : 'Could not create the image. Try again.');
+    } finally {
+      stage?.remove(); state.imageExporting.delete(q._id);
+      if (button) { button.disabled = false; button.textContent = previous || '⇩'; }
+    }
   }
 
   function openSingle(q) {
@@ -726,7 +1209,8 @@
 
   function renderAllQuestions() {
     const filtered = filteredAllQuestions();
-    $('allCount').textContent = `${filtered.length} questions`;
+    const total = manifestStats(state.exam).questions;
+    $('allCount').textContent = total > filtered.length ? `${filtered.length} loaded · ${total} total` : `${filtered.length} questions`;
     $('allQuestions').innerHTML = filtered.length
       ? filtered.map((q, i) => questionRow(q, i)).join('')
       : '<div class="empty">No questions match these filters.</div>';

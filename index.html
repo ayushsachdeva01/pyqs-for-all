@@ -11,12 +11,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script>
-    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] }, options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] } };
+    window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] }, svg: { fontCache: 'none' }, options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] } };
   </script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
+  <div class="library-loading" id="libraryLoading" role="status" aria-live="polite">
+    <div class="library-loading-card">
+      <div class="library-loading-brand">
+        <div class="brand-icon">J</div>
+        <div><strong>JEE Practice</strong><span>Building your PYQ library</span></div>
+      </div>
+      <div class="library-loading-spinner" aria-hidden="true"></div>
+      <div class="library-loading-copy">
+        <div class="eyebrow">FIRST LOAD</div>
+        <h2 id="libraryLoadingTitle">Preparing your PYQ library…</h2>
+        <p id="libraryLoadingDetail">Reading the question index…</p>
+      </div>
+      <div class="library-loading-progress">
+        <div class="library-loading-progress-track"><span id="libraryLoadingFill"></span></div>
+        <b id="libraryLoadingPercent">8%</b>
+      </div>
+      <div class="library-loading-tip"><span>✦</span> You can start practicing as soon as the first subject is ready. The rest loads quietly in the background.</div>
+    </div>
+  </div>
+
   <div class="app" id="app">
     <aside class="sidebar" id="sidebar">
       <div class="brand">
@@ -51,6 +71,7 @@
           <button data-exam="jee-main">JEE Main</button>
           <button data-exam="jee-advanced">JEE Advanced</button>
         </div>
+        <div class="top-actions"><button class="secondary snapshot-settings-button" id="openSnapshotSettings" type="button">⚙ Snapshot settings</button></div>
       </header>
 
       <section class="page active" id="homePage">
