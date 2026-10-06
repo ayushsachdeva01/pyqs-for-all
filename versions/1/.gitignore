@@ -1,0 +1,9 @@
+# Ignore all Python files
+*.py
+
+# Python cache
+__pycache__/
+*.pyc
+
+*.zip
+*.md

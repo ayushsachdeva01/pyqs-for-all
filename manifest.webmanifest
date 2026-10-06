@@ -1,0 +1,13 @@
+{
+  "name": "JEEwise",
+  "short_name": "JEEwise",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0c0a20",
+  "theme_color": "#100d2d",
+  "description": "JEE previous year question practice by Ayush Sachdeva.",
+  "icons": [
+    {"src":"assets/jeewise-180.png","sizes":"180x180","type":"image/png","purpose":"any maskable"},
+    {"src":"assets/jeewise-logo.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

@@ -4,8 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#0d1428">
-  <title>JEE PYQ Practice</title>
+  <meta name="theme-color" content="#100d2d">
+  <meta name="description" content="JEEwise — focused JEE previous year question practice by Ayush Sachdeva.">
+  <meta name="author" content="Ayush Sachdeva">
+  <meta name="apple-mobile-web-app-title" content="JEEwise">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/jeewise-logo.png">
+  <link rel="apple-touch-icon" href="assets/jeewise-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>JEEwise</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,35 +19,29 @@
   <script>
     window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] }, svg: { fontCache: 'none' }, options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] } };
   </script>
+  <!-- Snapshot/image export is intentionally disabled for now.
+  <script defer src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  -->
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
-  <div class="library-loading" id="libraryLoading" role="status" aria-live="polite">
-    <div class="library-loading-card">
-      <div class="library-loading-brand">
-        <div class="brand-icon">J</div>
-        <div><strong>JEE Practice</strong><span>Building your PYQ library</span></div>
-      </div>
-      <div class="library-loading-spinner" aria-hidden="true"></div>
-      <div class="library-loading-copy">
-        <div class="eyebrow">FIRST LOAD</div>
-        <h2 id="libraryLoadingTitle">Preparing your PYQ library…</h2>
-        <p id="libraryLoadingDetail">Reading the question index…</p>
-      </div>
-      <div class="library-loading-progress">
-        <div class="library-loading-progress-track"><span id="libraryLoadingFill"></span></div>
-        <b id="libraryLoadingPercent">8%</b>
-      </div>
-      <div class="library-loading-tip"><span>✦</span> You can start practicing as soon as the first subject is ready. The rest loads quietly in the background.</div>
+  <!-- JEEwise branded launch screen. The progress bar is the only loading status. -->
+  <div class="library-loading splash-screen" id="libraryLoading" role="status" aria-live="polite" aria-label="JEEwise loading">
+    <div class="splash-inner">
+      <img class="splash-app-logo" src="assets/jeewise-logo.png" alt="JEEwise">
+      <div class="splash-name">JEEwise</div>
+      <div class="splash-byline">by <strong>Ayush Sachdeva</strong></div>
+      <div class="splash-progress" aria-hidden="true"><span id="libraryLoadingFill"></span></div>
     </div>
+    <div class="splash-company"><img src="assets/monocode-logo.png" alt=""><span>MONOCODE</span></div>
   </div>
 
   <div class="app" id="app">
     <aside class="sidebar" id="sidebar">
       <div class="brand">
-        <div class="brand-icon">J</div>
-        <div><strong>JEE Practice</strong><span>Personal PYQ library</span></div>
+        <div class="brand-icon brand-logo"><img src="assets/jeewise-logo.png" alt=""></div>
+        <div><strong>JEEwise</strong><span>JEE PYQ library</span></div>
       </div>
 
       <div class="exam-card">
@@ -66,12 +66,14 @@
     <main class="main">
       <header class="topbar">
         <button class="mobile-menu" id="menuButton">☰</button>
-        <div class="wordmark">JEE Practice <span class="wordmark-sub">PYQ Library</span></div>
+        <div class="wordmark">JEEwise <span class="wordmark-sub">PYQ Library · by Ayush Sachdeva</span></div>
         <div class="exam-tabs" id="examTabs">
           <button data-exam="jee-main">JEE Main</button>
           <button data-exam="jee-advanced">JEE Advanced</button>
         </div>
-        <div class="top-actions"><button class="secondary snapshot-settings-button" id="openSnapshotSettings" type="button">⚙ Snapshot settings</button></div>
+        <!-- Snapshot export is temporarily disabled.
+<div class="top-actions"><button class="secondary snapshot-settings-button" id="openSnapshotSettings" type="button">⚙ Snapshot settings</button></div>
+-->
       </header>
 
       <section class="page active" id="homePage">
@@ -143,6 +145,9 @@
           </select><select id="typeFilter">
             <option value="">Question type</option>
           </select><button class="secondary" id="clearQuestionFilters">Clear</button>
+          <!-- JPG snapshot/export is temporarily disabled.
+          <button class="secondary" id="exportChapterFiltered">Export filtered</button><button class="secondary" data-bulk-export id="exportChapterSelected" disabled>Export selected</button>
+          -->
         </div>
         <div id="chapterQuestions"></div>
       </section>
@@ -152,8 +157,13 @@
           <div>
             <div class="eyebrow">QUESTION BANK</div>
             <h1>All questions</h1>
-            <p>Search and filter the complete question library.</p>
-          </div><button class="primary" id="allPractice">Practice filtered</button>
+            <p>Search, filter and practice exactly the questions you need.</p>
+          </div><div class="page-head-actions">
+            <!-- JPG snapshot/export is temporarily disabled.
+            <button class="secondary" id="exportFiltered">Export filtered</button><button class="secondary" data-bulk-export id="exportSelected" disabled>Export selected</button>
+            -->
+            <button class="primary" id="allPractice">Practice filtered</button>
+          </div>
         </div>
         <div class="question-tools">
           <div class="search-box"><span>⌕</span><input id="allSearch" placeholder="Search question text, topic, paper…">
@@ -172,8 +182,7 @@
             <option value="review">Review</option>
           </select>
         </div>
-        <div class="result-line"><span id="allCount">0 questions</span><button class="text-button"
-            id="clearAllFilters">Clear filters</button></div>
+        <div class="result-line"><span id="allCount">0 questions</span><div class="result-actions"><button class="text-button" id="clearSelection">Clear selection</button><button class="text-button" id="clearAllFilters">Clear filters</button></div></div>
         <div id="allQuestions"></div>
       </section>
 
@@ -316,11 +325,31 @@
         <button class="close" data-close="sessionModal" aria-label="Close">×</button>
       </div>
 
+      <section class="setup-section session-length-section">
+        <div class="section-heading inline">
+          <div>
+            <h3>Session length</h3>
+            <p>Keep practice focused instead of accidentally starting an 8-hour marathon.</p>
+          </div>
+          <span class="session-length-hint" id="sessionCountHint">Short focused set</span>
+        </div>
+        <div class="session-length-row">
+          <select id="sessionCount" aria-label="Session length">
+            <option value="10">10 questions</option>
+            <option value="20" selected>20 questions</option>
+            <option value="30">30 questions</option>
+            <option value="50">50 questions</option>
+            <option value="100">100 questions</option>
+            <option value="999999">Full matching set</option>
+          </select>
+        </div>
+      </section>
+
       <section class="setup-section">
         <div class="section-heading">
           <div>
             <h3>Question order</h3>
-            <p>Choose how the complete question set should be arranged.</p>
+            <p>Choose how the selected questions should be arranged.</p>
           </div>
         </div>
         <div class="setup-grid three">
@@ -350,8 +379,7 @@
         </div>
       </section>
 
-      <div class="session-summary"><strong id="sessionSummaryCount">All matching questions</strong><span>No
-          question-count limit</span></div>
+      <div class="session-summary"><strong id="sessionSummaryCount">20 questions in this session</strong><span>Questions are picked from the current selection.</span></div>
       <button class="primary full" id="launchSession">Start practice session <span>→</span></button>
     </div>
   </div>
@@ -416,6 +444,32 @@
       <button class="primary hidden" id="nextQuestion">Next →</button>
     </footer>
   </div>
+
+  <!-- JPG snapshot/export modal is temporarily disabled.
+  <div class="modal hidden" id="exportModal" role="dialog" aria-modal="true" aria-labelledby="exportTitle">
+    <div class="modal-card export-card">
+      <div class="modal-head">
+        <div>
+          <div class="eyebrow">JPG EXPORT</div>
+          <h2 id="exportTitle">Export questions</h2>
+          <p id="exportTotal">0 questions · 0 JPG slides</p>
+        </div>
+        <button class="close" id="exportClose" aria-label="Close">×</button>
+      </div>
+      <div class="export-progress-panel">
+        <div class="export-progress-top"><strong id="exportCurrent">Ready to export</strong><b id="exportPercent">0%</b></div>
+        <div class="export-progress-track"><span id="exportProgressFill"></span></div>
+        <p id="exportStatus">Each question produces two slides: question first, then answer and explanation.</p>
+      </div>
+      <div class="export-format-grid">
+        <div><span>Output</span><strong>JPG</strong></div>
+        <div><span>Slides / question</span><strong>2</strong></div>
+        <div><span>File naming</span><strong>slide_1_question</strong></div>
+      </div>
+      <div class="export-actions"><button class="secondary" id="exportCancel">Cancel</button><button class="primary" id="exportStart">Start export</button></div>
+    </div>
+  </div>
+  -->
 
   <div class="toast" id="toast"></div>
   <script src="app.js"></script>

@@ -72,7 +72,6 @@
     chapterView: 'all',
     session: null,
     index: 0,
-    selected: new Set(),
     timer: null,
     qStartedAt: 0,
     order: 'newest',
@@ -86,7 +85,20 @@
     libraryLoadGeneration: 0,
     imageExporting: new Set(),
     filePromises: new Map(),
-    snapshotSettings: { ...DEFAULT_SNAPSHOT_SETTINGS }
+    snapshotSettings: { ...DEFAULT_SNAPSHOT_SETTINGS },
+    questionById: new Map(),
+    questionIds: new Set(),
+    attemptIndex: new Map(),
+    bookmarkSet: new Set(),
+    reviewSet: new Set(),
+    storageLoaded: false,
+    selected: new Set(),
+    sessionCount: 20,
+    exportJob: null,
+    exportCancel: false,
+    backgroundWarmupStarted: false,
+    backgroundWarmupPaused: false,
+    backgroundWarmupTimer: null
   };
 
   function read(key, fallback = []) {
@@ -110,18 +122,50 @@
     }
   }
 
+  function refreshStorageCaches() {
+    const rawAttempts = read(KEY.attempts, []);
+    const list = Array.isArray(rawAttempts) ? rawAttempts : [];
+    state.attemptIndex = new Map();
+    list.forEach(item => {
+      if (!item?.questionId) return;
+      const id = String(item.questionId);
+      const bucket = state.attemptIndex.get(id);
+      if (bucket) bucket.push(item); else state.attemptIndex.set(id, [item]);
+    });
+    const rawBookmarks = read(KEY.bookmarks, []);
+    state.bookmarkSet = new Set(Array.isArray(rawBookmarks) ? rawBookmarks.map(String) : []);
+    const rawReviews = read(KEY.review, []);
+    state.reviewSet = new Set(Array.isArray(rawReviews) ? rawReviews.map(String) : []);
+    state.storageLoaded = true;
+  }
+
+  function invalidateStorageCache(key) {
+    if (key === KEY.attempts) {
+      const raw = read(KEY.attempts, []);
+      state.attemptIndex = new Map();
+      (Array.isArray(raw) ? raw : []).forEach(item => {
+        if (!item?.questionId) return;
+        const id = String(item.questionId);
+        const bucket = state.attemptIndex.get(id);
+        if (bucket) bucket.push(item); else state.attemptIndex.set(id, [item]);
+      });
+    }
+    if (key === KEY.bookmarks) {
+      const raw = read(KEY.bookmarks, []);
+      state.bookmarkSet = new Set(Array.isArray(raw) ? raw.map(String) : []);
+    }
+    if (key === KEY.review) {
+      const raw = read(KEY.review, []);
+      state.reviewSet = new Set(Array.isArray(raw) ? raw.map(String) : []);
+    }
+  }
+
   const attempts = () => {
     const value = read(KEY.attempts, []);
     return Array.isArray(value) ? value : [];
   };
-  const bookmarks = () => {
-    const value = read(KEY.bookmarks, []);
-    return new Set(Array.isArray(value) ? value.map(String) : []);
-  };
-  const reviews = () => {
-    const value = read(KEY.review, []);
-    return new Set(Array.isArray(value) ? value.map(String) : []);
-  };
+  const bookmarks = () => state.bookmarkSet;
+  const reviews = () => state.reviewSet;
 
   function snapshotSettings() {
     return { ...DEFAULT_SNAPSHOT_SETTINGS, ...(state.snapshotSettings || {}) };
@@ -150,7 +194,12 @@
       _group: title(q.chapterGroup || 'Other'),
       _marks: Number.isFinite(Number(q.marks)) ? Number(q.marks) : 4,
       _negMarks: Number.isFinite(Number(q.negMarks)) ? Number(q.negMarks) : 0
-    }));
+    })).map(q => {
+      const plain = strip(qLang(q)?.content || '');
+      q._plainText = plain;
+      q._searchText = `${plain} ${q._topic} ${q._chapter} ${q.paperTitle || ''}`.toLowerCase();
+      return q;
+    });
   }
 
   function dedupeQuestions(list) {
@@ -299,7 +348,7 @@
     return files.length > 0 && files.every(file => state.loadedFiles.has(file.name));
   }
 
-  function getAttempts(id) { return attempts().filter(a => a.questionId === id); }
+  function getAttempts(id) { return state.attemptIndex.get(String(id)) || []; }
   function lastAttempt(id) {
     const list = getAttempts(id);
     return list[list.length - 1] || null;
@@ -333,6 +382,7 @@
 
   async function init() {
     loadSnapshotSettings();
+    refreshStorageCaches();
     initTheme();
     bind();
     renderExamTabs();
@@ -347,7 +397,8 @@
   async function loadQuestionLibrary() {
     const base = new URL('./questions/', document.baseURI);
     const generation = ++state.libraryLoadGeneration;
-    showLibraryLoading('Preparing your PYQ library…', 0, 0);
+    const splashStartedAt = performance.now();
+    showLibraryLoading(8);
 
     try {
       const manifestResponse = await fetch(new URL('manifest.json', base), { cache: 'default' });
@@ -356,48 +407,47 @@
       const files = Array.isArray(manifest) ? manifest : manifest.files;
       if (!Array.isArray(files)) throw new Error('Invalid question manifest');
 
-      state.manifestFiles = files
-        .filter(name => typeof name === 'string' && /\.json$/i.test(name))
-        .map(name => {
-          const parts = name.split('/');
+      state.manifestFiles = files.map(entry => {
+        if (typeof entry === 'string') {
+          const parts = entry.split('/');
           const subject = parts[0] || 'Unknown';
           const examLabel = parts[1] || '';
           const exam = /advanced/i.test(examLabel) ? 'jee-advanced' : 'jee-main';
-          const fileName = parts[parts.length - 1] || name;
+          const fileName = parts[parts.length - 1] || entry;
           const chapterSlug = fileName.replace(/_\d+q\.json$/i, '');
           const countMatch = fileName.match(/_(\d+)q\.json$/i);
-          return { name, subject, exam, chapter: title(chapterSlug), count: Number(countMatch?.[1] || 0) };
-        });
+          return { name: entry, subject, exam, chapter: title(chapterSlug), count: Number(countMatch?.[1] || 0), group: 'Chapters' };
+        }
+        return {
+          name: entry.path || entry.name,
+          subject: entry.subject || 'Unknown',
+          exam: entry.exam || (/advanced/i.test(entry.examName || '') ? 'jee-advanced' : 'jee-main'),
+          chapter: entry.chapter || title(String(entry.name || '').split('/').pop()?.replace(/_\d+q\.json$/i, '') || 'Chapter'),
+          count: Number(entry.count || 0),
+          group: entry.group || 'Chapters'
+        };
+      }).filter(file => file.name);
       state.manifestReady = true;
 
-      const initialSubject = subjects()[0] || 'Physics';
-      const initialFiles = manifestFilesFor(state.exam, initialSubject);
-      showLibraryLoading(`Loading ${initialSubject} questions…`, 0, initialFiles.length);
-      await loadManifestFiles(initialFiles, base, generation, { initial: true });
-      if (generation !== state.libraryLoadGeneration) return;
-
-      hideLibraryLoading();
+      refreshStorageCaches();
       renderExamTabs();
       populateAllFilters();
       renderHome();
 
-      // Keep the first screen responsive: the other subjects load quietly after
-      // the user already has usable questions on screen.
-      const remaining = manifestFilesFor(state.exam).filter(file => !state.loadedFiles.has(file.name));
-      if (remaining.length) {
-        loadManifestFiles(remaining, base, generation, { background: true }).then(() => {
-          if (generation !== state.libraryLoadGeneration) return;
-          renderHome();
-          if (state.page === 'chapters') renderChapters();
-          if (state.page === 'allQuestions') {
-            populateAllFilters();
-            renderAllQuestions();
-          }
-        });
-      }
+      // The launch screen is intentionally independent from the question data.
+      // It stays solid for exactly 1.8s, while the tiny manifest is fetched.
+      const remaining = Math.max(0, 1800 - (performance.now() - splashStartedAt));
+      await new Promise(resolve => setTimeout(resolve, remaining));
+      hideLibraryLoading();
+
+      // Once the app is visible, progressively warm the browser cache in the
+      // background. Only one file is parsed at a time so the UI remains snappy.
+      startBackgroundWarmup(generation);
     } catch (error) {
       console.warn('Question manifest could not be loaded:', error);
       state.questions = [];
+      const remaining = Math.max(0, 1800 - (performance.now() - splashStartedAt));
+      await new Promise(resolve => setTimeout(resolve, remaining));
       hideLibraryLoading();
       toast('Could not load the question library. Check the questions folder.');
     }
@@ -407,15 +457,16 @@
     const queue = files.filter(file => !state.loadedFiles.has(file.name));
     if (!queue.length) return;
 
-    const concurrency = Math.min(6, queue.length);
+    const concurrency = options.background ? 1 : Math.min(4, queue.length);
     let cursor = 0;
     let completed = 0;
     let failed = 0;
 
     const worker = async () => {
       while (cursor < queue.length) {
+        if (options.background && state.backgroundWarmupPaused) return;
         const file = queue[cursor++];
-        if (generation !== state.libraryLoadGeneration) return;
+        if (!file || generation !== state.libraryLoadGeneration) return;
         state.loadingFiles.add(file.name);
         try {
           let filePromise = state.filePromises.get(file.name);
@@ -427,7 +478,12 @@
           const payload = await filePromise;
           const normalized = normalize(extractQuestionArray(payload));
           if (normalized.length) {
-            state.questions = dedupeQuestions(state.questions.concat(normalized));
+            for (const q of normalized) {
+              if (state.questionIds.has(q._id)) continue;
+              state.questionIds.add(q._id);
+              state.questionById.set(q._id, q);
+              state.questions.push(q);
+            }
           }
           state.loadedFiles.add(file.name);
         } catch (error) {
@@ -437,13 +493,9 @@
           state.loadingFiles.delete(file.name);
           completed += 1;
           if (!options.background) {
-            showLibraryLoading(
-              completed === queue.length ? `Finishing ${file.subject}…` : `Loading ${file.subject} questions…`,
-              completed,
-              queue.length
-            );
+            showLibraryLoading(completed / queue.length * 100);
           }
-          if (completed % 4 === 0 || completed === queue.length) {
+          if (completed % 5 === 0 || completed === queue.length) {
             if (state.page === 'home') renderHome();
             if (state.page === 'chapters') renderChapters();
           }
@@ -456,52 +508,75 @@
   }
 
   async function ensureSubjectLoaded(exam, subject) {
+    // Subject selection is manifest-only. Actual JSON is loaded when a chapter
+    // is opened, keeping the chapters screen effectively instant.
     if (!state.manifestReady) return;
-    const files = manifestFilesFor(exam, subject).filter(file => !state.loadedFiles.has(file.name));
-    if (!files.length) return;
-    const generation = state.libraryLoadGeneration;
-    const base = new URL('./questions/', document.baseURI);
-    showLibraryLoading(`Loading ${subject} questions…`, 0, files.length);
-    await loadManifestFiles(files, base, generation, { initial: true });
-    hideLibraryLoading();
-    renderHome();
+    state.subject = subject;
     if (state.page === 'chapters') renderChapters();
   }
 
   async function ensureExamLoaded(exam) {
     if (!state.manifestReady || isExamFullyLoaded(exam)) return;
+    pauseBackgroundWarmup();
     const files = manifestFilesFor(exam).filter(file => !state.loadedFiles.has(file.name));
     if (!files.length) return;
     const generation = state.libraryLoadGeneration;
     const base = new URL('./questions/', document.baseURI);
-    showLibraryLoading(`Loading ${prettyExam(exam)} library…`, 0, files.length);
-    await loadManifestFiles(files, base, generation, { initial: true });
-    hideLibraryLoading();
+    await loadManifestFiles(files, base, generation, { background: false });
     populateAllFilters();
     renderHome();
+    resumeBackgroundWarmup(generation);
   }
 
-  function showLibraryLoading(message, done = 0, total = 0) {
+  function startBackgroundWarmup(generation) {
+    if (state.backgroundWarmupStarted || !state.manifestReady) return;
+    state.backgroundWarmupStarted = true;
+    state.backgroundWarmupPaused = false;
+    const run = async () => {
+      // Yield once so the first visible paint is never competing with parsing.
+      await new Promise(resolve => setTimeout(resolve, 250));
+      const base = new URL('./questions/', document.baseURI);
+      const queue = state.manifestFiles.slice();
+      for (const file of queue) {
+        if (generation !== state.libraryLoadGeneration) return;
+        while (state.backgroundWarmupPaused) {
+          await new Promise(resolve => setTimeout(resolve, 120));
+          if (generation !== state.libraryLoadGeneration) return;
+        }
+        if (state.loadedFiles.has(file.name)) continue;
+        await loadManifestFiles([file], base, generation, { background: true });
+        // Small idle gap: active navigation always gets priority over warmup.
+        await new Promise(resolve => setTimeout(resolve, 90));
+      }
+    };
+    run().catch(error => console.warn('Background question warmup stopped:', error));
+  }
+
+  function pauseBackgroundWarmup() {
+    state.backgroundWarmupPaused = true;
+  }
+
+  function resumeBackgroundWarmup(generation = state.libraryLoadGeneration) {
+    state.backgroundWarmupPaused = false;
+    if (!state.backgroundWarmupStarted) startBackgroundWarmup(generation);
+  }
+
+  function showLibraryLoading(percent = 8) {
+    if (!state.initialSplash) return;
     const overlay = $('libraryLoading');
     if (!overlay) return;
     overlay.classList.remove('hidden');
-    const titleEl = $('libraryLoadingTitle');
-    const detailEl = $('libraryLoadingDetail');
     const fill = $('libraryLoadingFill');
-    const percentEl = $('libraryLoadingPercent');
-    if (titleEl) titleEl.textContent = message;
-    if (detailEl) {
-      detailEl.textContent = total
-        ? `${done.toLocaleString()} of ${total.toLocaleString()} files · Your questions will appear as they load.`
-        : 'Reading the question index…';
-    }
-    const percent = total ? Math.min(100, Math.round(done / total * 100)) : 8;
-    if (fill) fill.style.width = `${percent}%`;
-    if (percentEl) percentEl.textContent = `${percent}%`;
+    if (fill) fill.style.width = `${Math.max(8, Math.min(100, percent))}%`;
   }
 
   function hideLibraryLoading() {
-    $('libraryLoading')?.classList.add('hidden');
+    const overlay = $('libraryLoading');
+    if (!overlay) return;
+    const fill = $('libraryLoadingFill');
+    if (fill) fill.style.width = '100%';
+    state.initialSplash = false;
+    overlay.classList.add('hidden');
   }
 
   async function fetchQuestionFile(url) {
@@ -527,6 +602,11 @@
     if (payload.question_id || payload.id) return [payload];
 
     return [];
+  }
+
+  function debounce(fn, wait = 100) {
+    let timer;
+    return (...args) => { clearTimeout(timer); timer = setTimeout(() => fn(...args), wait); };
   }
 
   function bind() {
@@ -557,9 +637,12 @@
     $('backToChapters').onclick = () => showPage('chapters');
     $('menuButton').onclick = () => $('sidebar').classList.toggle('open');
     $('themeButton').onclick = toggleTheme;
+    // Snapshot/image export is temporarily disabled. Keep the implementation below for a future re-enable.
+    /*
     $('openSnapshotSettings')?.addEventListener('click', openSnapshotSettings);
     $('snapshotReset')?.addEventListener('click', resetSnapshotSettings);
     $('snapshotLogoInput')?.addEventListener('change', handleSnapshotLogoUpload);
+    */
     $('chapterSort').onchange = renderChapters;
 
     document.querySelectorAll('[data-close]').forEach(button => {
@@ -572,11 +655,9 @@
     });
 
     document.querySelectorAll('[data-order-choice]').forEach(button => {
-      button.onclick = () => {
-        state.order = button.dataset.orderChoice;
-        document.querySelectorAll('[data-order-choice]').forEach(x => x.classList.toggle('active', x === button));
-      };
+      button.onclick = () => { state.order = button.dataset.orderChoice; document.querySelectorAll('[data-order-choice]').forEach(x => x.classList.toggle('active', x === button)); };
     });
+    $('sessionCount')?.addEventListener('change', () => { state.sessionCount = Number($('sessionCount').value) || state._pool?.length || 20; updateSessionSummary(state._pool?.length || 0); });
 
     document.querySelectorAll('[data-resume-choice]').forEach(button => {
       button.onclick = () => {
@@ -611,13 +692,28 @@
       ['questionSearch', 'yearFilter', 'difficultyFilter', 'typeFilter'].forEach(id => $(id).value = '');
       renderChapterQuestions();
     };
+    // JPG snapshot/export is temporarily disabled.
+    /*
+    $('exportChapterFiltered')?.addEventListener('click', () => openExportForQuestions(filteredChapterQuestions(), 'Filtered chapter questions'));
+    $('exportChapterSelected')?.addEventListener('click', () => openExportForQuestions(filteredChapterQuestions().filter(q => state.selected.has(q._id)), 'Selected chapter questions'));
+    */
 
-    $('allSearch').oninput = renderAllQuestions;
-    ['allSubject', 'allChapter', 'allYear', 'allStatus'].forEach(id => $(id).onchange = renderAllQuestions);
+    $('allSearch').oninput = debounce(() => { state.allRenderLimit = 400; renderAllQuestions(); }, 90);
+    ['allSubject', 'allChapter', 'allYear', 'allStatus'].forEach(id => $(id).onchange = () => { state.allRenderLimit = 400; renderAllQuestions(); });
     $('clearAllFilters').onclick = () => {
       ['allSearch', 'allSubject', 'allChapter', 'allYear', 'allStatus'].forEach(id => $(id).value = '');
+      state.allRenderLimit = 400;
       renderAllQuestions();
     };
+    $('clearSelection')?.addEventListener('click', clearSelection);
+    // JPG snapshot/export controls are intentionally disabled for now.
+    /*
+    $('exportSelected')?.addEventListener('click', () => openExportForQuestions([...state.selected].map(id => state.questionById.get(id)).filter(Boolean), 'Selected questions'));
+    $('exportFiltered')?.addEventListener('click', () => openExportForQuestions(filteredAllQuestions(), 'Filtered questions'));
+    $('exportStart')?.addEventListener('click', runExport);
+    $('exportCancel')?.addEventListener('click', () => { if (state.exportJob?.running) state.exportCancel = true; else $('exportModal')?.classList.add('hidden'); });
+    $('exportClose')?.addEventListener('click', closeExportModal);
+    */
 
     document.addEventListener('keydown', keyboard);
   }
@@ -645,22 +741,16 @@
   }
 
   async function switchExam(exam) {
+    state.libraryLoadGeneration++;
+    state.backgroundWarmupStarted = false;
+    state.backgroundWarmupPaused = false;
     state.exam = exam;
     state.subject = allSubjects().find(subject => manifestFilesFor(exam, subject).length) || 'Physics';
     state.chapter = null;
     renderExamTabs();
     renderHome();
     showPage('home');
-    await ensureSubjectLoaded(state.exam, state.subject);
-    const remaining = manifestFilesFor(state.exam).filter(file => !state.loadedFiles.has(file.name));
-    if (remaining.length) {
-      const generation = state.libraryLoadGeneration;
-      const base = new URL('./questions/', document.baseURI);
-      loadManifestFiles(remaining, base, generation, { background: true }).then(() => {
-        if (generation !== state.libraryLoadGeneration) return;
-        renderHome();
-      });
-    }
+    populateAllFilters();
   }
 
   function renderExamTabs() {
@@ -673,9 +763,8 @@
     const examStats = manifestStats(state.exam);
     $('homeTitle').textContent = prettyExam(state.exam);
     $('sideExam').textContent = prettyExam(state.exam);
-    const loadedLabel = examStats.questions > qs.length ? `${qs.length.toLocaleString()} loaded of ${examStats.questions.toLocaleString()}` : `${qs.length.toLocaleString()}`;
     const chapterLabel = examStats.chapters || new Set(qs.map(q => q._chapter)).size;
-    $('homeSubtitle').textContent = `${loadedLabel} questions across ${chapterLabel} chapters · ${qs.length ? yearRange(qs) : 'PYQs ready to load'} · progress is stored locally on this device.`;
+    $('homeSubtitle').textContent = `${examStats.questions.toLocaleString()} questions across ${chapterLabel} chapters · question data loads as needed and warms in the background · progress is stored locally on this device.`;
 
     const icons = { Physics: 'PHY', Chemistry: 'CHE', Mathematics: 'MAT' };
     $('subjectGrid').innerHTML = allSubjects().map(subject => {
@@ -684,7 +773,7 @@
       const loaded = data.length > 0 || stats.files.length === 0;
       const questionCount = stats.questions || data.length;
       const chapterCount = stats.chapters || new Set(data.map(q => q._chapter)).size;
-      const loadingCopy = data.length ? 'Chapter-wise questions with solutions, progress and personal timing.' : 'Ready to load when you open this subject.';
+      const loadingCopy = loaded ? 'Chapter-wise questions with solutions, progress and personal timing.' : 'Opens instantly; chapter data loads only when needed.';
       return `<article class="subject-card ${questionCount ? '' : 'empty-subject'}" data-subject="${esc(subject)}">
         <div class="subject-top">
           <div class="subject-icon">${icons[subject]}</div>
@@ -692,17 +781,34 @@
           <p>${loadingCopy}</p>
           <div class="subject-meta"><span>${questionCount.toLocaleString()} questions</span><span>•</span><span>${chapterCount} chapters</span><span>•</span><span>${loaded && data.length ? esc(yearRange(data)) : 'On demand'}</span></div>
         </div>
-        <div class="subject-open">${data.length ? 'Explore chapters' : 'Load & explore'} <span>→</span></div>
+        <button type="button" class="subject-open" data-open-subject="${esc(subject)}">${data.length ? 'Explore chapters' : 'Load & explore'} <span aria-hidden="true">→</span></button>
       </article>`;
     }).join('');
 
+    const openSubject = subject => {
+      if (!subject) return;
+      state.subject = subject;
+      state.chapter = null;
+      state.chapterFilter = 'all';
+      // Navigation must never wait for question JSON. The manifest already
+      // contains the complete chapter/count index, so the chapters screen is
+      // rendered immediately. Individual JSON files are loaded only when a
+      // chapter is opened.
+      showPage('chapters');
+    };
+
     document.querySelectorAll('.subject-card').forEach(card => {
-      card.onclick = async () => {
-        const subject = card.dataset.subject;
-        state.subject = subject;
-        await ensureSubjectLoaded(state.exam, subject);
-        showPage('chapters');
-      };
+      card.addEventListener('click', event => {
+        if (event.target.closest('.subject-open')) return;
+        openSubject(card.dataset.subject);
+      });
+    });
+    document.querySelectorAll('[data-open-subject]').forEach(button => {
+      button.addEventListener('click', event => {
+        event.preventDefault();
+        event.stopPropagation();
+        openSubject(button.dataset.openSubject);
+      });
     });
 
     const relevant = attempts().filter(a => qs.some(q => q._id === a.questionId));
@@ -710,7 +816,7 @@
     const correct = relevant.filter(a => a.correct).length;
     const saved = [...bookmarks()].filter(id => qs.some(q => q._id === id)).length;
     $('homeOverview').innerHTML = [
-      ['Questions', qs.length],
+      ['Questions', examStats.questions || qs.length],
       ['Attempted', attempted],
       ['Accuracy', relevant.length ? `${Math.round(correct / relevant.length * 100)}%` : '—'],
       ['Bookmarks', saved]
@@ -768,83 +874,109 @@
   function renderChapters() {
     renderSubjectTabs();
     $('chaptersTitle').textContent = `${state.subject} Chapters`;
-
     const filter = state.chapterFilter;
-    const qs = examQs().filter(q => q._subject === state.subject);
-    let chapters = [...new Set(qs.map(q => q._chapter))].map(chapter => {
-      const data = qs.filter(q => q._chapter === chapter);
-      const progress = progressFor(data);
-      const accuracy = progress.attempted ? Math.round(progress.correct / progress.attempted * 100) : 0;
-      return { chapter, data, ...progress, accuracy, weak: data.length > 0 && accuracy < 60 };
+    const files = manifestFilesFor(state.exam, state.subject);
+    const loaded = examQs().filter(q => q._subject === state.subject);
+    const loadedByChapter = new Map();
+    loaded.forEach(q => {
+      const list = loadedByChapter.get(q._chapter);
+      if (list) list.push(q); else loadedByChapter.set(q._chapter, [q]);
     });
-
+    let chapters = files.map(file => {
+      const data = loadedByChapter.get(file.chapter) || [];
+      const count = file.count || data.length;
+      const progress = data.length ? progressFor(data) : { attempted: 0, correct: 0, wrong: 0 };
+      const accuracy = progress.attempted ? Math.round(progress.correct / progress.attempted * 100) : 0;
+      return { chapter: file.chapter, data, count, attempted: progress.attempted, correct: progress.correct, wrong: progress.wrong, accuracy, weak: data.length > 0 && accuracy < 60, loaded: !!data.length };
+    });
     if (filter === 'weak') chapters = chapters.filter(x => x.weak);
-    if (filter === 'unattempted') chapters = chapters.filter(x => x.attempted < x.data.length);
-
+    if (filter === 'unattempted') chapters = chapters.filter(x => !x.loaded || x.attempted < x.count);
     const sort = $('chapterSort').value;
-    if (sort === 'questions') chapters.sort((a, b) => b.data.length - a.data.length);
-    if (sort === 'accuracy') chapters.sort((a, b) => b.accuracy - a.accuracy);
-    if (sort === 'weakness') chapters.sort((a, b) => a.accuracy - b.accuracy);
-
+    if (sort === 'questions') chapters.sort((a, b) => b.count - a.count);
+    if (sort === 'accuracy') chapters.sort((a, b) => (b.loaded ? b.accuracy : -1) - (a.loaded ? a.accuracy : -1));
+    if (sort === 'weakness') chapters.sort((a, b) => (a.loaded ? a.accuracy : 101) - (b.loaded ? b.accuracy : 101));
     const groups = {};
-    chapters.forEach(chapter => (groups[chapter.data[0]?._group || 'Other'] ??= []).push(chapter));
-
+    chapters.forEach(chapter => {
+      const group = chapter.data[0]?._group || fileGroupForChapter(files, chapter.chapter) || 'Other';
+      (groups[group] ??= []).push(chapter);
+    });
     $('chapterGroups').innerHTML = Object.entries(groups).map(([group, items]) =>
       `<section class="chapter-group"><h2>${esc(title(group))}</h2><div class="chapter-grid">${items.map(chapterCard).join('')}</div></section>`
     ).join('') || '<div class="empty">No chapters match this filter.</div>';
+    document.querySelectorAll('.chapter-card').forEach(card => card.onclick = () => openChapter(card.dataset.chapter));
+  }
 
-    document.querySelectorAll('.chapter-card').forEach(card => {
-      card.onclick = () => openChapter(card.dataset.chapter);
-    });
+  function fileGroupForChapter(files, chapter) {
+    return files.find(file => file.chapter === chapter)?.group || 'Chapters';
   }
 
   function chapterCard(item) {
-    const correctPct = item.data.length ? (item.correct / item.data.length * 100) : 0;
-    const wrongPct = item.data.length ? (item.wrong / item.data.length * 100) : 0;
+    const correctPct = item.count ? (item.correct / item.count * 100) : 0;
+    const wrongPct = item.count ? (item.wrong / item.count * 100) : 0;
     return `<article class="chapter-card" data-chapter="${esc(item.chapter)}">
       <div class="chapter-card-top">
-        <div class="chapter-count"><b>${item.data.length}</b><span>Qs</span></div>
+        <div class="chapter-count"><b>${item.count.toLocaleString()}</b><span>Qs</span></div>
         <div class="chapter-card-info"><h3>${esc(item.chapter)}</h3>
-          <div class="chapter-tags"><span class="tag">${esc(prettyExam(item.data[0]?._exam))}</span><span class="tag">${esc(yearRange(item.data))}</span></div>
-          <div class="chapter-progress"><span>${item.attempted}/${item.data.length} attempted · ${item.correct} correct · ${item.wrong} wrong</span><b>${item.attempted ? item.accuracy : 0}%</b></div>
+          <div class="chapter-tags"><span class="tag">${esc(prettyExam(state.exam))}</span><span class="tag">${item.loaded ? esc(yearRange(item.data)) : 'On demand'}</span></div>
+          <div class="chapter-progress"><span>${item.attempted}/${item.count} attempted · ${item.correct} correct · ${item.wrong} wrong${item.loaded ? '' : ' · not loaded yet'}</span><b>${item.attempted ? item.accuracy : 0}%</b></div>
         </div>
       </div>
-      <div class="progress progress-multi" aria-label="${item.correct} correct, ${item.wrong} wrong, ${item.data.length - item.attempted} unattempted">
-        <i class="progress-correct" style="width:${correctPct}%"></i><i class="progress-wrong" style="width:${wrongPct}%"></i>
+      <div class="progress progress-multi" aria-label="${item.correct} correct, ${item.wrong} wrong, ${item.count - item.attempted} unattempted">
+        <i class="progress-correct" style="width:${Math.min(100, correctPct)}%"></i><i class="progress-wrong" style="width:${Math.min(100 - Math.min(100, correctPct), wrongPct)}%"></i>
       </div>
       <div class="chapter-card-foot">Open chapter <span>→</span></div>
     </article>`;
   }
 
-  function openChapter(chapter) {
+  async function openChapter(chapter) {
     state.chapter = chapter;
     state.chapterView = 'all';
-    state.subject = examQs().find(q => q._chapter === chapter)?._subject || state.subject;
+    state.subject = state.subject || 'Physics';
     showPage('chapter');
+    const files = manifestFilesFor(state.exam, state.subject).filter(file => file.chapter === chapter && !state.loadedFiles.has(file.name));
+    if (files.length) {
+      pauseBackgroundWarmup();
+      const generation = state.libraryLoadGeneration;
+      const base = new URL('./questions/', document.baseURI);
+      renderChapterQuestions();
+      await loadManifestFiles(files, base, generation, { background: false });
+      if (state.page === 'chapter') renderChapterQuestions();
+      resumeBackgroundWarmup(generation);
+    }
+  }
+
+  function filteredChapterQuestions() {
+    const allQs = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
+    const qs = state.chapterView === 'mistakes' ? getChapterMistakes() : allQs;
+    const search = $('questionSearch').value.trim().toLowerCase();
+    const year = $('yearFilter').value; const difficulty = $('difficultyFilter').value; const type = $('typeFilter').value;
+    return qs.filter(q => (!search || q._searchText.includes(search)) && (!year || String(q._year) === year) && (!difficulty || q._difficulty === difficulty) && (!type || q._type === type));
   }
 
   function renderChapterQuestions() {
     const allQs = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
+    const manifestFile = manifestFilesFor(state.exam, state.subject).find(file => file.chapter === state.chapter);
+    const manifestCount = manifestFile?.count || allQs.length;
     const qs = state.chapterView === 'mistakes' ? getChapterMistakes() : allQs;
     updateChapterViewTabs();
     $('detailSubject').textContent = state.subject.toUpperCase();
     $('detailTitle').textContent = state.chapter || 'Chapter';
     const mistakeCount = getChapterMistakes().length;
-    $('detailSub').textContent = `${state.chapterView === 'mistakes' ? 'Questions currently in your mistake list' : `${allQs.length} questions`} · ${new Set(allQs.map(q => q._topic)).size} topics · ${yearRange(allQs)}`;
+    const loadingText = allQs.length ? `${allQs.length} questions` : `${manifestCount.toLocaleString()} questions · loading when opened`;
+    $('detailSub').textContent = `${state.chapterView === 'mistakes' ? 'Questions currently in your mistake list' : loadingText} · ${new Set(allQs.map(q => q._topic)).size} topics${allQs.length ? ` · ${yearRange(allQs)}` : ''}`;
     $('detailPractice').textContent = state.chapterView === 'mistakes' ? `Retry ${mistakeCount} mistake${mistakeCount === 1 ? '' : 's'}` : 'Start practice';
-    $('detailPractice').disabled = state.chapterView === 'mistakes' && mistakeCount === 0;
+    $('detailPractice').disabled = state.chapterView === 'mistakes' ? mistakeCount === 0 : !allQs.length;
 
     const relevant = latestAttemptsFor(allQs);
     const correct = relevant.filter(a => a.correct).length;
     const avg = relevant.length ? Math.round(relevant.reduce((sum, a) => sum + (Number(a.timeMs) || 0), 0) / relevant.length) : 0;
     $('detailStats').innerHTML = [
-      ['Questions', allQs.length],
+      ['Questions', manifestCount],
       ['Attempted', relevant.length],
       ['Accuracy', relevant.length ? `${Math.round(correct / relevant.length * 100)}%` : '—'],
       ['Mistakes', mistakeCount]
     ].map(([label, value]) => `<div class="detail-stat"><span>${label}</span><b>${value}</b></div>`).join('');
 
-    const search = $('questionSearch').value.trim().toLowerCase();
     const selectedYear = $('yearFilter').value;
     const selectedDifficulty = $('difficultyFilter').value;
     const selectedType = $('typeFilter').value;
@@ -862,34 +994,27 @@
     $('typeFilter').innerHTML = '<option value="">Question type</option>' + types.map(x => `<option value="${esc(x)}">${esc(x)}</option>`).join('');
     $('typeFilter').value = types.includes(selectedType) ? selectedType : '';
 
-    const year = $('yearFilter').value;
-    const difficulty = $('difficultyFilter').value;
-    const type = $('typeFilter').value;
-    const filtered = qs.filter(q =>
-      (!search || strip(qtext(q)).toLowerCase().includes(search) || q._topic.toLowerCase().includes(search)) &&
-      (!year || String(q._year) === year) &&
-      (!difficulty || q._difficulty === difficulty) &&
-      (!type || q._type === type)
-    );
+    const filtered = filteredChapterQuestions();
 
     const grouped = {};
     filtered.forEach(q => (grouped[q._year || 'Other'] ??= []).push(q));
     $('chapterQuestions').innerHTML = Object.entries(grouped).sort((a, b) => Number(b[0]) - Number(a[0])).map(([yearKey, list]) =>
       `<section><h2 class="year-heading">${esc(yearKey)}</h2>${list.map((q, i) => questionRow(q, i)).join('')}</section>`
-    ).join('') || `<div class="empty"><strong>${state.chapterView === 'mistakes' ? 'No mistakes here' : 'No questions match these filters.'}</strong><span>${state.chapterView === 'mistakes' ? 'Questions leave this tab automatically once your latest attempt is correct.' : ''}</span></div>`;
+    ).join('') || (allQs.length ? `<div class="empty"><strong>${state.chapterView === 'mistakes' ? 'No mistakes here' : 'No questions match these filters.'}</strong><span>${state.chapterView === 'mistakes' ? 'Questions leave this tab automatically once your latest attempt is correct.' : ''}</span></div>` : `<div class="empty chapter-loading-state"><strong>Loading ${manifestCount.toLocaleString()} questions…</strong><span>This chapter is being loaded now. Other chapters stay lightweight until you open them.</span></div>`);
 
     bindQuestionRows();
-    typeset();
+    updateBulkExportControls();
   }
 
-  function questionRow(q, index) {
+  function questionRow(q, index, options = {}) {
+    const selectable = options.selectable !== false;
     const attempt = lastAttempt(q._id);
     const saved = bookmarks().has(q._id);
     const statusClass = attempt ? (attempt.correct ? 'row-correct' : 'row-wrong') : '';
     const status = attempt ? (attempt.correct ? 'Correct' : 'Wrong') : 'Unattempted';
-    const text = strip(qtext(q));
-    return `<article class="question-row ${statusClass}" data-open-q="${esc(q._id)}">
-      <div class="q-index">${index + 1}</div>
+    const text = q._plainText || strip(qtext(q));
+    return `<article class="question-row ${statusClass} ${state.selected.has(q._id) ? 'row-selected' : ''}" data-open-q="${esc(q._id)}">
+      ${selectable ? `<label class="q-select" data-select-control title="Select for export"><input type="checkbox" data-select-q="${esc(q._id)}" ${state.selected.has(q._id) ? 'checked' : ''}><span></span></label>` : ''}<div class="q-index">${index + 1}</div>
       <div class="q-row-content">
         <div class="q-text">${esc(text.slice(0, 420))}${text.length > 420 ? '…' : ''}</div>
         <div class="q-meta">
@@ -908,10 +1033,20 @@
   }
 
   function bindQuestionRows() {
+    document.querySelectorAll('[data-select-q]').forEach(input => {
+      input.onchange = event => {
+        event.stopPropagation();
+        const id = input.dataset.selectQ;
+        if (input.checked) state.selected.add(id); else state.selected.delete(id);
+        input.closest('.question-row')?.classList.toggle('row-selected', input.checked);
+        updateBulkExportControls();
+      };
+      input.onclick = event => event.stopPropagation();
+    });
     document.querySelectorAll('[data-open-q]').forEach(button => {
       button.onclick = event => {
-        if (event.target.closest('[data-bookmark-q]')) return;
-        const q = state.questions.find(item => item._id === button.dataset.openQ);
+        if (event.target.closest('[data-bookmark-q], [data-save-image-q], [data-select-q], [data-select-control]')) return;
+        const q = state.questionById.get(String(button.dataset.openQ));
         if (q) openSingle(q);
       };
     });
@@ -927,47 +1062,384 @@
     document.querySelectorAll('[data-save-image-q]').forEach(button => {
       button.onclick = async event => {
         event.stopPropagation();
-        const q = state.questions.find(item => item._id === button.dataset.saveImageQ);
+        const q = state.questionById.get(String(button.dataset.saveImageQ));
         if (q) await saveQuestionAsImage(q, button);
       };
     });
+  }
+
+  function updateBulkExportControls() {
+    const count = state.selected.size;
+    document.querySelectorAll('[data-bulk-export]').forEach(button => {
+      const chapterButton = button.id === 'exportChapterSelected';
+      const visibleCount = chapterButton && state.chapter ? filteredChapterQuestions().filter(q => state.selected.has(q._id)).length : count;
+      button.disabled = visibleCount === 0;
+      button.textContent = visibleCount ? `Export selected · ${visibleCount}` : 'Export selected';
+    });
+    const filteredButton = $('exportFiltered');
+    if (filteredButton) filteredButton.textContent = `Export filtered · ${filteredAllQuestions().length}`;
+  }
+
+  function clearSelection() {
+    state.selected.clear();
+    document.querySelectorAll('[data-select-q]').forEach(input => { input.checked = false; input.closest('.question-row')?.classList.remove('row-selected'); });
+    updateBulkExportControls();
+  }
+
+  function openExportForQuestions(questions, label = 'Selected questions') {
+    const unique = [...new Map(questions.map(q => [q._id, q])).values()];
+    if (!unique.length) { toast('No questions to export.'); return; }
+    state.exportJob = { questions: unique, label, totalSlides: unique.length * 2 };
+    state.exportCancel = false;
+    const modal = $('exportModal');
+    if (!modal) return;
+    $('exportTitle').textContent = label;
+    $('exportTotal').textContent = `${unique.length} question${unique.length === 1 ? '' : 's'} · ${unique.length * 2} JPG slides`;
+    $('exportProgressFill').style.width = '0%';
+    $('exportPercent').textContent = '0%';
+    $('exportCurrent').textContent = 'Ready to export';
+    $('exportStatus').textContent = 'The app will stay responsive while slides are generated.';
+    $('exportStart').disabled = false;
+    $('exportCancel').disabled = false;
+    modal.classList.remove('hidden');
+  }
+
+  function closeExportModal() {
+    if (state.exportJob?.running) { state.exportCancel = true; return; }
+    $('exportModal')?.classList.add('hidden');
+    state.exportJob = null;
+  }
+
+  function nextFrame() { return new Promise(resolve => requestAnimationFrame(() => resolve())); }
+  function yieldToBrowser() { return new Promise(resolve => setTimeout(resolve, 0)); }
+
+  function exportCss() {
+    return `.image-export-card{width:100%;box-sizing:border-box;background:var(--export-card);color:var(--export-text);border-radius:var(--export-radius);overflow:hidden;font-family:Inter,Arial,sans-serif}.image-export-header{box-sizing:border-box;padding:calc(var(--export-pad)*.9) var(--export-pad) calc(var(--export-pad)*.78);background:var(--export-accent);color:#fff;display:flex;align-items:flex-start;gap:24px}.image-export-header-copy{min-width:0}.image-export-logo{width:52px;height:52px;object-fit:contain;flex:0 0 52px;border-radius:10px;background:rgba(255,255,255,.12);padding:6px;box-sizing:border-box;order:2}.image-export-kicker{font-size:14px;line-height:20px;font-weight:800;letter-spacing:.02em}.image-export-title{margin-top:8px;font-size:29px;line-height:36px;font-weight:800}.image-export-paper{margin-top:6px;font-size:16px;line-height:24px;font-weight:500}.image-export-body{padding:calc(var(--export-pad)*.8) var(--export-pad) calc(var(--export-pad)*.72)}.image-export-badges{display:flex;flex-wrap:nowrap;white-space:nowrap;gap:9px;margin-bottom:22px}.image-export-badge{display:inline-flex;align-items:center;min-height:28px;padding:5px 12px;border-radius:999px;background:var(--export-badge);color:var(--export-badge-text);font-size:12px;line-height:18px;font-weight:700}.image-export-question{color:var(--export-text);font-size:var(--export-q-size);line-height:1.48;font-weight:650;overflow-wrap:anywhere}.image-export-question p{display:inline;margin:0}.image-export-question mjx-container{color:var(--export-text)!important}.image-export-question mjx-container[display=true]{margin:10px 0!important}.image-export-options{display:grid;gap:10px;margin-top:24px}.image-export-option{display:grid;grid-template-columns:40px minmax(0,1fr);align-items:center;gap:12px;box-sizing:border-box;min-height:58px;padding:12px 14px;border:1px solid var(--export-border);border-radius:13px;background:var(--export-option);color:var(--export-text);font-size:var(--export-option-size);line-height:1.5}.image-export-option-key{width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border-radius:9px;background:var(--export-badge);color:var(--export-badge-text);font-size:12px;font-weight:800}.image-export-option-content{min-width:0}.image-export-answer,.image-export-explanation{margin-top:18px;padding:16px;border:1px solid var(--export-border);border-radius:13px;background:var(--export-option);color:var(--export-text);font-size:15px;line-height:1.55}.image-export-answer{display:flex;gap:12px;align-items:center}.image-export-answer strong,.image-export-explanation strong{color:var(--export-muted);font-size:11px;text-transform:uppercase;letter-spacing:.04em}.image-export-explanation strong{display:block;margin-bottom:8px}.image-export-footer{margin:0 var(--export-pad);padding:15px 0 24px;border-top:1px solid var(--export-border);color:var(--export-muted);font-size:12px;line-height:18px}`;
+  }
+
+  function makeImageExportStage(q, mode = 'question') {
+    const s = snapshotSettings();
+    const stage = document.createElement('div');
+    stage.className = 'image-export-stage';
+    stage.setAttribute('aria-hidden', 'true');
+    stage.style.width = `${s.width}px`;
+    stage.style.background = s.pageBg;
+    stage.style.color = s.text;
+
+    const options = qopts(q);
+    const answer = qcorrect(q);
+    const correctLabels = answer.length ? answer.join(', ') : (qanswer(q) || 'Not provided');
+    const explanationText = qexplain(q) || 'No explanation is available for this question.';
+    const meta = [q._difficulty || '', q._type || '', q._chapter || ''].filter(Boolean);
+
+    const logo = s.showLogo && s.logoData
+      ? `<img class="image-export-logo" src="${esc(s.logoData)}" alt="">`
+      : '';
+
+    const header = `
+      <header class="image-export-header">
+        ${logo}
+        <div class="image-export-header-copy">
+          ${s.showKicker ? '<div class="image-export-kicker">JEE PRACTICE · PYQ</div>' : ''}
+          ${s.showTitle ? `<div class="image-export-title">${esc(prettyExam(q._exam))} · ${esc(q._subject || '')}</div>` : ''}
+          ${s.showPaper ? `<div class="image-export-paper">${esc(prettyYear(q._year))}${paperLabel(q) ? ` · ${esc(paperLabel(q))}` : ''}</div>` : ''}
+        </div>
+      </header>`;
+
+    const badges = s.showBadges && meta.length
+      ? `<div class="image-export-badges">${meta.map(item => `<span class="image-export-badge">${esc(item)}</span>`).join('')}</div>`
+      : '';
+
+    const number = s.showQuestionNumber
+      ? `<div class="image-export-number">Question ${esc(q._number || q.question_number || '')}</div>`
+      : '';
+
+    const question = `
+      <div class="image-export-question">
+        ${sanitizeHtml(qtext(q) || 'Question text unavailable.')}
+      </div>`;
+
+    const optionMarkup = options.length
+      ? `<div class="image-export-options">${options.map(option => `
+          <div class="image-export-option">
+            <span class="image-export-option-key">${esc(option.identifier)}</span>
+            <div class="image-export-option-content">${sanitizeHtml(option.content || '')}</div>
+          </div>`).join('')}</div>`
+      : '';
+
+    /*
+     * IMPORTANT:
+     * Export is deliberately a strict two-slide sequence per question:
+     *
+     *   slide N   -> question + options
+     *   slide N+1 -> answer + explanation
+     *
+     * The answer slide does NOT render the question/options again. This prevents
+     * the old "answer slide looks like another question" behaviour.
+     */
+    let body;
+    if (mode === 'answer') {
+      body = `
+        <div class="image-export-answer-page">
+          <div class="image-export-answer-label">ANSWER</div>
+          <div class="image-export-correct">${esc(correctLabels)}</div>
+          <div class="image-export-explanation">
+            <div class="image-export-explanation-title">Explanation</div>
+            <div>${sanitizeHtml(explanationText)}</div>
+          </div>
+        </div>`;
+    } else {
+      body = `${badges}${number}${question}${optionMarkup}`;
+    }
+
+    stage.innerHTML = `
+      <div class="image-export-card image-export-${mode}"
+        style="--export-accent:${esc(s.accent)};
+               --export-card:${esc(s.cardBg)};
+               --export-text:${esc(s.text)};
+               --export-muted:${esc(s.muted)};
+               --export-option:${esc(s.optionBg)};
+               --export-border:${esc(s.border)};
+               --export-badge:${esc(s.badgeBg)};
+               --export-badge-text:${esc(s.badgeText)};
+               --export-radius:${s.radius}px;
+               --export-pad:${s.padding}px;
+               --export-q-size:${s.questionSize}px;
+               --export-option-size:${s.optionSize}px">
+        ${header}
+        <div class="image-export-body">${body}</div>
+        ${s.showFooter ? `<footer class="image-export-footer">${esc(s.footerText || '')}</footer>` : ''}
+      </div>`;
+
+    document.body.appendChild(stage);
+    return stage;
+  }
+
+  async function fastDomToJpeg(card, quality = .92) {
+    /*
+     * JPG EXPORT RENDERER
+     *
+     * The previous SVG/foreignObject implementation looked attractive but is
+     * not a safe rasterization path in Chromium: drawing an SVG containing a
+     * foreignObject onto a canvas can produce an opaque/tainted canvas and
+     * canvas.toBlob() then throws:
+     *   SecurityError: Tainted canvases may not be exported.
+     *
+     * Use html2canvas for the actual DOM -> bitmap conversion. It renders the
+     * already-typeset question DOM directly, keeps MathJax output intact and
+     * avoids the cross-origin SVG canvas trap. The library is loaded once in
+     * index.html from jsDelivr. A dynamic loader is retained as a fallback.
+     */
+    const settings = snapshotSettings();
+    const scale = Math.min(2, Math.max(1, Number(settings.scale) || 1));
+
+    if (!window.html2canvas) {
+      await loadHtml2Canvas();
+    }
+    if (typeof window.html2canvas !== 'function') {
+      throw new Error('JPG renderer unavailable: html2canvas could not be loaded');
+    }
+
+    // Images inside the export card must be same-origin/data URLs for a clean
+    // canvas. Convert local images once; cached data URLs are reused.
+    const clone = card.cloneNode(true);
+    clone.style.width = `${Math.ceil(card.getBoundingClientRect().width)}px`;
+    clone.style.margin = '0';
+    clone.style.boxShadow = 'none';
+
+    const images = [...clone.querySelectorAll('img')];
+    await Promise.all(images.map(async (img) => {
+      const src = img.getAttribute('src');
+      if (!src || src.startsWith('data:')) return;
+
+      try {
+        const absolute = new URL(src, document.baseURI).href;
+        const response = await fetch(absolute, { cache: 'force-cache' });
+        if (!response.ok) throw new Error(`Image HTTP ${response.status}`);
+        img.setAttribute('src', await blobToDataUrl(await response.blob()));
+      } catch (_) {
+        // Hide an optional failed image instead of poisoning the whole export.
+        img.removeAttribute('src');
+        img.style.display = 'none';
+      }
+    }));
+
+    // Render a detached clone so export never changes or scrolls the visible UI.
+    const host = document.createElement('div');
+    host.style.cssText = [
+      'position:fixed',
+      'left:-100000px',
+      'top:0',
+      'width:0',
+      'height:0',
+      'overflow:visible',
+      'pointer-events:none',
+      'opacity:1',
+      'z-index:-1'
+    ].join(';');
+    host.appendChild(clone);
+    document.body.appendChild(host);
+
+    try {
+      // Force the same computed export CSS onto the detached clone.
+      // html2canvas reads computed styles from the real DOM, so this style
+      // element must live beside the clone rather than inside an SVG.
+      const styleTag = document.createElement('style');
+      styleTag.textContent = exportCss();
+      clone.prepend(styleTag);
+
+      await nextFrame();
+
+      const canvas = await window.html2canvas(clone, {
+        backgroundColor: settings.pageBg || '#ffffff',
+        scale,
+        useCORS: true,
+        allowTaint: false,
+        logging: false,
+        imageTimeout: 10000,
+        removeContainer: true,
+        foreignObjectRendering: false
+      });
+
+      if (!canvas || !canvas.width || !canvas.height) {
+        throw new Error('JPG renderer produced an empty canvas');
+      }
+
+      return await new Promise((resolve, reject) => {
+        canvas.toBlob(
+          blob => blob ? resolve(blob) : reject(new Error('JPG encoding failed')),
+          'image/jpeg',
+          quality
+        );
+      });
+    } finally {
+      host.remove();
+    }
+  }
+
+  let html2CanvasLoadPromise = null;
+
+  function loadHtml2Canvas() {
+    if (window.html2canvas) return Promise.resolve(window.html2canvas);
+    if (html2CanvasLoadPromise) return html2CanvasLoadPromise;
+
+    html2CanvasLoadPromise = new Promise((resolve, reject) => {
+      const existing = document.querySelector('script[data-html2canvas-fallback]');
+      if (existing) {
+        existing.addEventListener('load', () => resolve(window.html2canvas), { once: true });
+        existing.addEventListener('error', () => reject(new Error('Could not load html2canvas')), { once: true });
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+      script.async = true;
+      script.dataset.html2canvasFallback = 'true';
+      script.onload = () => window.html2canvas
+        ? resolve(window.html2canvas)
+        : reject(new Error('html2canvas loaded without exposing its API'));
+      script.onerror = () => reject(new Error('Could not load html2canvas'));
+      document.head.appendChild(script);
+    });
+
+    return html2CanvasLoadPromise;
+  }
+
+  function blobToDataUrl(blob) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(String(reader.result));
+      reader.onerror = () => reject(reader.error || new Error('Could not read image'));
+      reader.readAsDataURL(blob);
+    });
+  }
+
+  function downloadBlob(blob, filename) {
+    const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = filename; document.body.appendChild(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 5000);
+  }
+
+  const zipCrcTable = (() => {
+    const table = new Uint32Array(256);
+    for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = (c & 1) ? (0xedb88320 ^ (c >>> 1)) : (c >>> 1); table[n] = c >>> 0; }
+    return table;
+  })();
+
+  function crc32(bytes) {
+    let crc = 0xffffffff;
+    for (let i = 0; i < bytes.length; i++) crc = zipCrcTable[(crc ^ bytes[i]) & 255] ^ (crc >>> 8);
+    return (crc ^ 0xffffffff) >>> 0;
+  }
+
+  function zipStored(entries) {
+    const enc = new TextEncoder();
+    const chunks = []; const central = []; let offset = 0;
+    const u16 = n => new Uint8Array([n & 255, (n >>> 8) & 255]);
+    const u32 = n => new Uint8Array([n & 255, (n >>> 8) & 255, (n >>> 16) & 255, (n >>> 24) & 255]);
+    const concat = parts => { const total = parts.reduce((n,p) => n + p.length, 0); const out = new Uint8Array(total); let at=0; for(const part of parts){out.set(part,at);at+=part.length;} return out; };
+    for (const entry of entries) {
+      const name = enc.encode(entry.name); const data = new Uint8Array(entry.bytes); const crc = crc32(data);
+      const local = concat([u32(0x04034b50),u16(20),u16(0x0800),u16(0),u16(0),u16(0),u32(crc),u32(data.length),u32(data.length),u16(name.length),u16(0),name,data]);
+      chunks.push(local);
+      const centralHeader = concat([u32(0x02014b50),u16(20),u16(20),u16(0x0800),u16(0),u16(0),u16(0),u32(crc),u32(data.length),u32(data.length),u16(name.length),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),name]);
+      central.push(centralHeader); offset += local.length;
+    }
+    const centralBytes = concat(central); const all = concat([...chunks, centralBytes, u32(0x06054b50),u16(0),u16(0),u16(entries.length),u16(entries.length),u32(centralBytes.length),u32(offset),u16(0)]);
+    return new Blob([all], {type:'application/zip'});
+  }
+
+  async function runExport() {
+    const job = state.exportJob; if (!job || job.running) return;
+    job.running = true; state.exportCancel = false; $('exportStart').disabled = true;
+    let slide = 0;
+    const entries = [];
+    try {
+      for (let i = 0; i < job.questions.length; i++) {
+        const q = job.questions[i];
+        for (const mode of ['question', 'answer']) {
+          if (state.exportCancel) throw new Error('EXPORT_CANCELLED');
+          slide++;
+          $('exportCurrent').textContent = `Rendering slide ${slide} of ${job.totalSlides} · Question ${i + 1}`;
+          $('exportPercent').textContent = `${Math.round(slide / job.totalSlides * 100)}%`;
+          $('exportProgressFill').style.width = `${slide / job.totalSlides * 100}%`;
+          await nextFrame();
+          const stage = makeImageExportStage(q, mode);
+          try {
+            await typesetExportStage(stage);
+            await nextFrame();
+            const blob = await fastDomToJpeg(stage.querySelector('.image-export-card'));
+            // Deliberately use only the slide number. No exam/chapter/ID slug:
+            // slide_1.jpg, slide_2.jpg, slide_3.jpg, ...
+            entries.push({ name: `slide_${slide}.jpg`, bytes: await blob.arrayBuffer() });
+          } finally { stage.remove(); }
+          await yieldToBrowser();
+        }
+      }
+      $('exportCurrent').textContent = 'Packaging JPG slides';
+      $('exportStatus').textContent = 'Creating one ZIP so your browser does not have to handle dozens of separate downloads.';
+      await yieldToBrowser();
+      const zip = zipStored(entries);
+      downloadBlob(zip, `jee-pyq-export-${Date.now()}.zip`);
+      $('exportPercent').textContent = '100%';
+      $('exportProgressFill').style.width = '100%';
+      $('exportStatus').textContent = `Finished ${job.totalSlides} slides and packaged them into one ZIP.`;
+      toast(`Export complete · ${job.totalSlides} JPG slides`);
+    } catch (error) {
+      if (error?.message === 'EXPORT_CANCELLED') $('exportStatus').textContent = 'Export cancelled. Slides already generated remain saved.';
+      else { console.error('Bulk export failed:', error); $('exportStatus').textContent = 'Export failed. Try a smaller selection or lower image quality.'; toast('Export failed.'); }
+    } finally {
+      job.running = false; $('exportStart').disabled = false; $('exportCancel').disabled = false;
+    }
   }
 
   // Image export: render the real question DOM in an off-screen card, let the
   // same MathJax instance typeset it, then snapshot only that small card.
   // This avoids reconstructing TeX on a canvas and avoids rendering the whole app.
   function imageFileName(q) {
-    const slug = `${prettyExam(q._exam)}-${q._subject}-${q._chapter}-${q._id}`
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-|-$/g, '');
-    return `${slug || 'jee-pyq'}.png`;
+    return `slide.jpg`;
   }
 
   function nextPaint() {
     return new Promise(resolve => requestAnimationFrame(() => resolve()));
-  }
-
-  let html2canvasPromise = null;
-  function loadHtml2Canvas() {
-    if (window.html2canvas) return Promise.resolve(window.html2canvas);
-    if (html2canvasPromise) return html2canvasPromise;
-    html2canvasPromise = new Promise((resolve, reject) => {
-      const existing = document.querySelector('script[data-html2canvas]');
-      if (existing) {
-        existing.addEventListener('load', () => window.html2canvas ? resolve(window.html2canvas) : reject(new Error('html2canvas unavailable')), { once: true });
-        existing.addEventListener('error', () => reject(new Error('html2canvas failed to load')), { once: true });
-        return;
-      }
-      const script = document.createElement('script');
-      script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
-      script.async = true;
-      script.dataset.html2canvas = 'true';
-      script.onload = () => window.html2canvas ? resolve(window.html2canvas) : reject(new Error('html2canvas unavailable'));
-      script.onerror = () => reject(new Error('Could not load image exporter'));
-      document.head.appendChild(script);
-    }).catch(error => { html2canvasPromise = null; throw error; });
-    return html2canvasPromise;
   }
 
   function snapshotSettingsMarkup() {
@@ -1147,47 +1619,25 @@
   async function saveQuestionAsImage(q, button) {
     if (state.imageExporting.has(q._id)) return;
     state.imageExporting.add(q._id);
-    const previous = button?.textContent;
     if (button) { button.disabled = true; button.textContent = '…'; }
     let stage = null;
     try {
-      toast('Preparing image…');
-      await nextPaint();
-      const html2canvas = await loadHtml2Canvas();
-      stage = makeImageExportStage(q);
-      const mathReady = await typesetExportStage(stage);
-      if (!mathReady) throw new Error('MathJax is not ready');
-      await nextPaint();
-      const card = stage.querySelector('.image-export-card');
-      if (!card) throw new Error('Export card was not created');
-      const s = snapshotSettings();
-      const canvas = await html2canvas(card, {
-        backgroundColor: s.pageBg,
-        scale: Math.min(2, Math.max(1, Number(s.scale) || 1.5)),
-        useCORS: false,
-        allowTaint: false,
-        foreignObjectRendering: false,
-        logging: false,
-        imageTimeout: 1500,
-        removeContainer: true
-      });
-      const blob = await new Promise((resolve, reject) => canvas.toBlob(result => result ? resolve(result) : reject(new Error('PNG encoding failed')), 'image/png'));
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement('a');
-      link.href = url; link.download = imageFileName(q); document.body.appendChild(link); link.click(); link.remove();
-      setTimeout(() => URL.revokeObjectURL(url), 1500);
-      toast('Question image saved');
-    } catch (error) {
-      console.error('Could not save question image:', error);
-      toast(error?.message === 'Could not load image exporter' ? 'Image exporter could not load. Check your connection.' : 'Could not create the image. Try again.');
-    } finally {
-      stage?.remove(); state.imageExporting.delete(q._id);
-      if (button) { button.disabled = false; button.textContent = previous || '⇩'; }
-    }
+      await nextFrame();
+      stage = makeImageExportStage(q, 'question');
+      await typesetExportStage(stage);
+      await nextFrame();
+      const blob = await fastDomToJpeg(stage.querySelector('.image-export-card'));
+      downloadBlob(blob, `slide_1.jpg`);
+      toast('JPG saved');
+    } catch (error) { console.error('Could not save question image:', error); toast('Could not create the JPG.'); }
+    finally { stage?.remove(); state.imageExporting.delete(q._id); if (button) { button.disabled = false; button.textContent = '⇩'; } }
   }
 
   function openSingle(q) {
+    if (!q) return;
     state.session = createSession([q], 'single');
+    state._sessionSource = 'single';
+    clearActiveSession();
     openPractice();
   }
 
@@ -1199,7 +1649,7 @@
     const year = $('allYear').value;
     const status = $('allStatus').value;
     return qs.filter(q =>
-      (!search || strip(qtext(q)).toLowerCase().includes(search) || q._topic.toLowerCase().includes(search) || String(q.paperTitle || '').toLowerCase().includes(search)) &&
+      (!search || q._searchText.includes(search)) &&
       (!subject || q._subject === subject) &&
       (!chapter || q._chapter === chapter) &&
       (!year || String(q._year) === year) &&
@@ -1210,12 +1660,18 @@
   function renderAllQuestions() {
     const filtered = filteredAllQuestions();
     const total = manifestStats(state.exam).questions;
-    $('allCount').textContent = total > filtered.length ? `${filtered.length} loaded · ${total} total` : `${filtered.length} questions`;
-    $('allQuestions').innerHTML = filtered.length
-      ? filtered.map((q, i) => questionRow(q, i)).join('')
+    const limit = state.allRenderLimit || 400;
+    $('allCount').textContent = total > filtered.length ? `${filtered.length.toLocaleString()} loaded · ${total.toLocaleString()} total` : `${filtered.length.toLocaleString()} questions`;
+    const visible = filtered.slice(0, limit);
+    $('allQuestions').innerHTML = visible.length
+      ? visible.map((q, i) => questionRow(q, i)).join('')
       : '<div class="empty">No questions match these filters.</div>';
+    if (filtered.length > limit) {
+      $('allQuestions').insertAdjacentHTML('beforeend', `<div class="load-more-wrap"><button class="secondary" id="loadMoreQuestions">Show next ${Math.min(400, filtered.length - limit).toLocaleString()} · ${filtered.length.toLocaleString()} total matches</button></div>`);
+      $('loadMoreQuestions').onclick = () => { state.allRenderLimit = limit + 400; renderAllQuestions(); };
+    }
     bindQuestionRows();
-    typeset();
+    updateBulkExportControls();
   }
 
   function statusMatch(q, status) {
@@ -1240,6 +1696,7 @@
     const qs = state.questions.filter(q => q._exam === state.exam && ids.has(q._id));
     $('bookmarksContent').innerHTML = `<div class="result-line"><span>${qs.length} saved questions</span></div>${qs.length ? qs.map((q, i) => questionRow(q, i)).join('') : '<div class="empty">No bookmarks yet.</div>'}`;
     bindQuestionRows();
+    updateBulkExportControls();
   }
 
   function renderHistory() {
@@ -1252,14 +1709,14 @@
           <div class="analysis-card"><span>Total score</span><b>${history.reduce((sum, x) => sum + attemptScore(x), 0)}</b></div>
         </div>
         <div>${history.slice(0, 100).map(item => {
-          const q = state.questions.find(x => x._id === item.questionId);
-          return q ? questionRow(q, 0).replace('data-open-q', 'data-history-q') : '';
+          const q = state.questionById.get(String(item.questionId));
+          return q ? questionRow(q, 0, { selectable: false }).replace('data-open-q', 'data-history-q') : '';
         }).join('')}</div>`
       : '<div class="empty">Your practice history will appear here after your first answer.</div>';
 
     document.querySelectorAll('[data-history-q]').forEach(button => {
       button.onclick = () => {
-        const q = state.questions.find(x => x._id === button.dataset.historyQ);
+        const q = state.questionById.get(String(button.dataset.historyQ));
         if (q) openSingle(q);
       };
     });
@@ -1328,11 +1785,13 @@
 
     state._pool = [...pool];
     state._sessionSource = source;
-    state.order = 'newest';
+    state.order = 'random';
     state.resumeChoice = 'resume';
+    state.sessionCount = Math.min(20, pool.length) || 1;
     $('sessionTitle').textContent = source === 'chapter' ? state.chapter : 'Practice session';
     $('sessionSubtitle').textContent = `${pool.length} questions · ${prettyExam(state.exam)} · ${yearRange(pool)}. All matching questions will be included.`;
-    $('sessionSummaryCount').textContent = `${pool.length} question${pool.length === 1 ? '' : 's'} in this session`;
+    $('sessionCount').value = String(state.sessionCount);
+    updateSessionSummary(pool.length);
 
     document.querySelectorAll('[data-order-choice]').forEach(b => b.classList.toggle('active', b.dataset.orderChoice === 'newest'));
     document.querySelectorAll('[data-resume-choice]').forEach(b => b.classList.toggle('active', b.dataset.resumeChoice === 'resume'));
@@ -1405,6 +1864,12 @@
     try { localStorage.removeItem(KEY.active); } catch { /* storage may be unavailable */ }
   }
 
+  function updateSessionSummary(poolLength) {
+    const count = Number(state.sessionCount) || poolLength;
+    $('sessionSummaryCount').textContent = `${Math.min(count, poolLength)} question${Math.min(count, poolLength) === 1 ? '' : 's'} in this session`;
+    const hint = $('sessionCountHint'); if (hint) hint.textContent = count >= poolLength ? 'Full set' : `${poolLength - count} left out for a shorter session`;
+  }
+
   function launchSession() {
     let pool = [...(state._pool || examQs())];
     if (!pool.length) {
@@ -1438,6 +1903,8 @@
     if (state.order === 'random') pool = shuffle(pool);
     if (state.order === 'newest') pool.sort((a, b) => b._year - a._year);
     if (state.order === 'oldest') pool.sort((a, b) => a._year - b._year);
+    const requestedCount = Number(state.sessionCount) || pool.length;
+    if (requestedCount < pool.length) pool = pool.slice(0, requestedCount);
 
     state.session = createSession(pool, state._sessionSource);
     clearActiveSession();
@@ -1498,7 +1965,7 @@
     if (!state.session.answers[q._id]?.submitted) startTimer();
     else stopTimer();
     saveActiveSession();
-    typeset();
+    typeset([$('practicePrompt'), $('answerArea')].filter(Boolean));
   }
 
   function renderAnswers(q) {
@@ -1630,7 +2097,7 @@
     updateSubmitButtons(q);
     saveActiveSession();
     toast(correct ? 'Correct answer' : 'Wrong answer');
-    typeset();
+    typeset([$('answerArea'), $('explanation')].filter(Boolean));
   }
 
   function updateQuestionStatusVisuals(q) {
@@ -1725,7 +2192,7 @@
     setAnswerVisibility(visible);
     state.session.answerVisible = visible;
     saveActiveSession();
-    typeset();
+    if (visible) typeset($('explanation'));
   }
 
   function setAnswerVisibility(visible) {
@@ -1746,10 +2213,12 @@
   function toggleSaved(kind) {
     const q = currentQuestion();
     if (!q) return;
-    const set = kind === 'bookmark' ? bookmarks() : reviews();
+    const set = kind === 'bookmark' ? state.bookmarkSet : state.reviewSet;
     const had = set.has(q._id);
     if (had) set.delete(q._id); else set.add(q._id);
-    write(kind === 'bookmark' ? KEY.bookmarks : KEY.review, [...set]);
+    const key = kind === 'bookmark' ? KEY.bookmarks : KEY.review;
+    write(key, [...set]);
+    invalidateStorageCache(key);
     updateSavedButtons();
     toast(had ? (kind === 'bookmark' ? 'Bookmark removed' : 'Removed from review') : (kind === 'bookmark' ? 'Bookmarked' : 'Added to review'));
   }
@@ -1778,6 +2247,7 @@
       year: q._year
     });
     write(KEY.attempts, list);
+    invalidateStorageCache(KEY.attempts);
   }
 
   function finishSession() {
@@ -1823,9 +2293,10 @@
   }
 
   function toggleBookmark(id) {
-    const set = bookmarks();
+    const set = state.bookmarkSet;
     if (set.has(id)) set.delete(id); else set.add(id);
     write(KEY.bookmarks, [...set]);
+    invalidateStorageCache(KEY.bookmarks);
     toast(set.has(id) ? 'Bookmarked' : 'Bookmark removed');
   }
 
@@ -1966,4 +2437,12 @@
   });
 
   init();
+
+  // Cache the question library after the first visit. This makes subsequent
+  // opens much faster without moving progress/history out of localStorage.
+  if ('serviceWorker' in navigator && window.isSecureContext) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./service-worker.js').catch(() => {});
+    }, { once: true });
+  }
 })();
