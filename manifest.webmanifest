@@ -1,13 +1,13 @@
 {
   "name": "JEEwise",
   "short_name": "JEEwise",
+  "description": "Focused JEE previous year question practice.",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#0c0a20",
-  "theme_color": "#100d2d",
-  "description": "JEE previous year question practice by Ayush Sachdeva.",
+  "background_color": "#0d0b1f",
+  "theme_color": "#0d0b1f",
   "icons": [
-    {"src":"assets/jeewise-180.png","sizes":"180x180","type":"image/png","purpose":"any maskable"},
-    {"src":"assets/jeewise-logo.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+    { "src": "assets/jeewise-logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
   ]
 }

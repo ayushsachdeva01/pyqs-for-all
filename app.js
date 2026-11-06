@@ -1,2448 +1,1493 @@
+/* JEEwise — rewritten. Question JSON is loaded per chapter, only when needed. */
 (() => {
   'use strict';
 
-  const KEY = {
+  /* ===================== Utilities ===================== */
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
+  const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const titleCase = s => String(s ?? '').replace(/[-_]+/g, ' ').replace(/\b\w/g, m => m.toUpperCase());
+  const norm = s => String(s ?? '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const plural = (n, one, many = one + 's') => `${n.toLocaleString()} ${n === 1 ? one : many}`;
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
+
+  function fmtTime(ms) {
+    let s = Math.floor(Math.max(0, Number(ms) || 0) / 1000);
+    const h = Math.floor(s / 3600); s -= h * 3600;
+    const m = Math.floor(s / 60); s -= m * 60;
+    const mm = String(m).padStart(2, '0'), ss = String(s).padStart(2, '0');
+    return h ? `${h}:${mm}:${ss}` : `${mm}:${ss}`;
+  }
+  function fmtDate(ts) {
+    const d = new Date(ts);
+    return d.toLocaleDateString(undefined, { day: 'numeric', month: 'short' }) + ' · ' + d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' });
+  }
+
+  let toastTimer;
+  function toast(msg) {
+    const el = $('#toast');
+    el.textContent = msg;
+    el.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove('show'), 2400);
+  }
+
+  const ICONS = {
+    home: '<path d="M3 11l9-8 9 8v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/>',
+    book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
+    target: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
+    star: '<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>',
+    chart: '<line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>',
+    play: '<polygon points="5 3 19 12 5 21 5 3"/>',
+    check: '<polyline points="20 6 9 17 4 12"/>',
+    x: '<line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>',
+    flag: '<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>',
+    grid: '<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>',
+    left: '<polyline points="15 18 9 12 15 6"/>',
+    right: '<polyline points="9 18 15 12 9 6"/>',
+    down: '<line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/>',
+    up: '<line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/>',
+    shuffle: '<polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/>',
+    sun: '<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>',
+    keyboard: '<rect x="2" y="5" width="20" height="14" rx="2"/><line x1="6" y1="9" x2="6.01" y2="9"/><line x1="10" y1="9" x2="10.01" y2="9"/><line x1="14" y1="9" x2="14.01" y2="9"/><line x1="18" y1="9" x2="18.01" y2="9"/><line x1="7" y1="15" x2="17" y2="15"/>',
+    retry: '<polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>',
+    eye: '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>'
+  };
+  const icon = (name, cls = '') => `<svg class="i ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[name] || ''}</svg>`;
+  function hydrateIcons(root = document) {
+    $$('[data-icon]', root).forEach(el => { if (!el.firstChild) el.innerHTML = icon(el.dataset.icon); });
+  }
+
+  /* ===================== Storage ===================== */
+  const KEYS = {
     attempts: 'jeePractice_attempts_v3',
     bookmarks: 'jeePractice_bookmarks_v3',
     review: 'jeePractice_review_v3',
     sessions: 'jeePractice_sessions_v3',
-    active: 'jeePractice_sessions_v3__active',
     theme: 'jeePractice_theme_v3',
-    snapshotSettings: 'jeePractice_snapshot_settings_v1'
+    active: 'jeewise_active_v4',
+    exam: 'jeewise_exam_v4',
+    lang: 'jeewise_lang_v4',
+    prefs: 'jeewise_prefs_v4',
+    meta: 'jeewise_qmeta_v4'
+  };
+  const store = {
+    get(key, fallback) {
+      try {
+        const raw = localStorage.getItem(key);
+        if (raw == null || raw === '') return fallback;
+        const v = JSON.parse(raw);
+        return v ?? fallback;
+      } catch { return fallback; }
+    },
+    set(key, value) {
+      try { localStorage.setItem(key, JSON.stringify(value)); return true; }
+      catch { toast('Could not save to this device (storage full or blocked).'); return false; }
+    },
+    del(key) { try { localStorage.removeItem(key); } catch { /* ignore */ } }
   };
 
-  const $ = id => document.getElementById(id);
+  let attempts = [];
+  let bookmarks = new Set();
+  let reviews = new Set();
+  let meta = { f: [], m: {} };           // question id -> index into meta.f (the file that contains it)
+  let prefs = { order: 'newest', length: 20, include: 'all' };
 
-  const shortcutsBtn = $('shortcutsBtn');
-  const shortcutsModal = $('shortcutsModal');
-  const closeShortcutsModal = $('closeShortcutsModal');
+  function loadStorage() {
+    const a = store.get(KEYS.attempts, []);
+    attempts = Array.isArray(a) ? a.filter(x => x && x.questionId != null) : [];
+    const b = store.get(KEYS.bookmarks, []);
+    bookmarks = new Set(Array.isArray(b) ? b.map(String) : []);
+    const r = store.get(KEYS.review, []);
+    reviews = new Set(Array.isArray(r) ? r.map(String) : []);
+    const m = store.get(KEYS.meta, null);
+    if (m && Array.isArray(m.f) && m.m && typeof m.m === 'object') meta = m;
+    const p = store.get(KEYS.prefs, null);
+    if (p && typeof p === 'object') prefs = { ...prefs, ...p };
+    store.del('jeePractice_sessions_v3__active'); // old, incompatible in-progress session format
+  }
 
-  shortcutsBtn?.addEventListener('click', () => {
-    shortcutsModal?.classList.remove('hidden');
-  });
+  let metaTimer;
+  function saveMetaSoon() {
+    clearTimeout(metaTimer);
+    metaTimer = setTimeout(() => store.set(KEYS.meta, meta), 600);
+  }
 
-  closeShortcutsModal?.addEventListener('click', () => {
-    shortcutsModal?.classList.add('hidden');
-  });
-
-  shortcutsModal?.addEventListener('click', (event) => {
-    if (event.target === shortcutsModal) {
-      shortcutsModal.classList.add('hidden');
-    }
-  });
-
-  const DEFAULT_SNAPSHOT_SETTINGS = {
-    showKicker: true,
-    showTitle: true,
-    showPaper: true,
-    showBadges: true,
-    showQuestionNumber: false,
-    showQuestion: true,
-    showOptions: true,
-    showCorrectAnswer: false,
-    showExplanation: false,
-    showFooter: true,
-    showLogo: false,
-    logoData: '',
-    footerText: 'Saved from JEE Practice',
-    accent: '#6659f6',
-    pageBg: '#070d1a',
-    cardBg: '#0f1a30',
-    text: '#f2f5fc',
-    muted: '#8794ad',
-    optionBg: '#151f35',
-    border: '#344768',
-    badgeBg: '#24224e',
-    badgeText: '#aaa4ff',
-    width: 1000,
-    scale: 1.5,
-    radius: 28,
-    padding: 38,
-    questionSize: 22,
-    optionSize: 17
+  /* ===================== Data layer ===================== */
+  const data = {
+    files: [],              // manifest entries
+    byPath: new Map(),
+    cache: new Map(),       // path -> Question[]
+    pending: new Map(),     // path -> Promise<Question[]>
+    byId: new Map(),        // id -> Question (only for loaded files)
+    ready: false
   };
+  const SUBJECTS = ['Physics', 'Chemistry', 'Mathematics'];
+  const SUBJECT_TAG = { Physics: 'PHY', Chemistry: 'CHE', Mathematics: 'MAT' };
+  const MONTHS = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+  const QBASE = new URL('./questions/', document.baseURI);
 
-  const state = {
-    questions: [],
-    exam: 'jee-main',
-    subject: 'Physics',
-    page: 'home',
-    chapter: null,
-    chapterFilter: 'all',
-    chapterView: 'all',
-    session: null,
-    index: 0,
-    timer: null,
-    qStartedAt: 0,
-    order: 'newest',
-    resumeChoice: 'resume',
-    detailFilters: {},
-    modalReturnFocus: null,
-    manifestFiles: [],
-    loadedFiles: new Set(),
-    loadingFiles: new Set(),
-    manifestReady: false,
-    libraryLoadGeneration: 0,
-    imageExporting: new Set(),
-    filePromises: new Map(),
-    snapshotSettings: { ...DEFAULT_SNAPSHOT_SETTINGS },
-    questionById: new Map(),
-    questionIds: new Set(),
-    attemptIndex: new Map(),
-    bookmarkSet: new Set(),
-    reviewSet: new Set(),
-    storageLoaded: false,
-    selected: new Set(),
-    sessionCount: 20,
-    exportJob: null,
-    exportCancel: false,
-    backgroundWarmupStarted: false,
-    backgroundWarmupPaused: false,
-    backgroundWarmupTimer: null
-  };
+  const examName = e => (e === 'jee-advanced' ? 'JEE Advanced' : 'JEE Main');
 
-  function read(key, fallback = []) {
-    try {
-      const raw = localStorage.getItem(key);
-      if (raw == null || raw === '') return fallback;
-      const parsed = JSON.parse(raw);
-      return parsed ?? fallback;
-    } catch {
-      return fallback;
-    }
-  }
-
-  function write(key, value) {
-    try {
-      localStorage.setItem(key, JSON.stringify(value));
-      return true;
-    } catch {
-      toast('Could not save changes on this device.');
-      return false;
-    }
-  }
-
-  function refreshStorageCaches() {
-    const rawAttempts = read(KEY.attempts, []);
-    const list = Array.isArray(rawAttempts) ? rawAttempts : [];
-    state.attemptIndex = new Map();
-    list.forEach(item => {
-      if (!item?.questionId) return;
-      const id = String(item.questionId);
-      const bucket = state.attemptIndex.get(id);
-      if (bucket) bucket.push(item); else state.attemptIndex.set(id, [item]);
-    });
-    const rawBookmarks = read(KEY.bookmarks, []);
-    state.bookmarkSet = new Set(Array.isArray(rawBookmarks) ? rawBookmarks.map(String) : []);
-    const rawReviews = read(KEY.review, []);
-    state.reviewSet = new Set(Array.isArray(rawReviews) ? rawReviews.map(String) : []);
-    state.storageLoaded = true;
-  }
-
-  function invalidateStorageCache(key) {
-    if (key === KEY.attempts) {
-      const raw = read(KEY.attempts, []);
-      state.attemptIndex = new Map();
-      (Array.isArray(raw) ? raw : []).forEach(item => {
-        if (!item?.questionId) return;
-        const id = String(item.questionId);
-        const bucket = state.attemptIndex.get(id);
-        if (bucket) bucket.push(item); else state.attemptIndex.set(id, [item]);
-      });
-    }
-    if (key === KEY.bookmarks) {
-      const raw = read(KEY.bookmarks, []);
-      state.bookmarkSet = new Set(Array.isArray(raw) ? raw.map(String) : []);
-    }
-    if (key === KEY.review) {
-      const raw = read(KEY.review, []);
-      state.reviewSet = new Set(Array.isArray(raw) ? raw.map(String) : []);
-    }
-  }
-
-  const attempts = () => {
-    const value = read(KEY.attempts, []);
-    return Array.isArray(value) ? value : [];
-  };
-  const bookmarks = () => state.bookmarkSet;
-  const reviews = () => state.reviewSet;
-
-  function snapshotSettings() {
-    return { ...DEFAULT_SNAPSHOT_SETTINGS, ...(state.snapshotSettings || {}) };
-  }
-
-  function persistSnapshotSettings() {
-    write(KEY.snapshotSettings, snapshotSettings());
-  }
-
-  function loadSnapshotSettings() {
-    const saved = read(KEY.snapshotSettings, {});
-    state.snapshotSettings = { ...DEFAULT_SNAPSHOT_SETTINGS, ...(saved && typeof saved === 'object' ? saved : {}) };
-  }
-
-  function normalize(list) {
-    return (Array.isArray(list) ? list : []).map((q, i) => ({
-      ...q,
-      _id: String(q.question_id ?? q.id ?? `q-${i}`),
-      _exam: q.exam || 'jee-main',
-      _subject: title(q.subject || 'Unknown'),
-      _chapter: title(q.chapter || 'Uncategorized'),
-      _topic: title(q.topic || 'General'),
-      _year: Number(q.year || 0),
-      _difficulty: title(q.difficulty || 'Unknown'),
-      _type: title(q.type || 'Unknown'),
-      _group: title(q.chapterGroup || 'Other'),
-      _marks: Number.isFinite(Number(q.marks)) ? Number(q.marks) : 4,
-      _negMarks: Number.isFinite(Number(q.negMarks)) ? Number(q.negMarks) : 0
-    })).map(q => {
-      const plain = strip(qLang(q)?.content || '');
-      q._plainText = plain;
-      q._searchText = `${plain} ${q._topic} ${q._chapter} ${q.paperTitle || ''}`.toLowerCase();
-      return q;
-    });
-  }
-
-  function dedupeQuestions(list) {
-    const map = new Map();
-    list.forEach(q => map.set(q._id, q));
-    return [...map.values()];
-  }
-
-  function title(value) {
-    return String(value).replace(/[-_]+/g, ' ').replace(/\b\w/g, m => m.toUpperCase());
-  }
-
-  function strip(html) {
-    const d = document.createElement('div');
-    d.innerHTML = html || '';
-    return d.textContent || '';
-  }
-
-  function esc(value) {
-    return String(value ?? '').replace(/[&<>"']/g, c => ({
-      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
-    }[c]));
-  }
-
-  function qLang(q) {
-    const question = q?.question;
-    if (!question) return {};
-    if (question.en) return question.en;
-    if (question.hi) return question.hi;
-    return question;
-  }
-
-  function qtext(q) { return qLang(q)?.content || ''; }
-
-  function sanitizeHtml(html) {
-    const template = document.createElement('template');
-    template.innerHTML = String(html ?? '');
-    const blocked = new Set(['script', 'iframe', 'object', 'embed', 'applet', 'base', 'meta', 'link']);
-    template.content.querySelectorAll('*').forEach(element => {
-      if (blocked.has(element.tagName.toLowerCase())) {
-        element.remove();
-        return;
-      }
-      [...element.attributes].forEach(attribute => {
-        const name = attribute.name.toLowerCase();
-        const value = attribute.value.trim();
-        if (name.startsWith('on') || name === 'srcdoc') {
-          element.removeAttribute(attribute.name);
-          return;
-        }
-        if (['href', 'src', 'xlink:href', 'action', 'formaction'].includes(name)) {
-          if (/^\s*(javascript|vbscript|data:text\/html)/i.test(value)) {
-            element.removeAttribute(attribute.name);
-          } else if (name === 'src' && value && /^(javascript|vbscript|data:text\/html):/i.test(value)) {
-            element.removeAttribute(attribute.name);
-          } else if (name === 'href' && value && /^(javascript|vbscript|data:text\/html):/i.test(value)) {
-            element.removeAttribute(attribute.name);
-          }
-        }
-        if (name === 'style' && /url\s*\(|expression\s*\(|behavior\s*:|-moz-binding/i.test(value)) {
-          element.removeAttribute(attribute.name);
-        }
-      });
-    });
-    return template.innerHTML;
-  }
-
-  function qopts(q) {
-    const options = qLang(q)?.options || [];
-    return options.map((option, index) => {
-      if (option && typeof option === 'object') {
+  async function loadManifest() {
+    const res = await fetch(new URL('manifest.json', QBASE), { cache: 'no-cache' });
+    if (!res.ok) throw new Error('manifest ' + res.status);
+    const json = await res.json();
+    const list = Array.isArray(json) ? json : json.files;
+    if (!Array.isArray(list)) throw new Error('Invalid manifest');
+    data.files = list.map(entry => {
+      if (typeof entry === 'string') {
+        const parts = entry.split('/');
+        const fileName = parts[parts.length - 1];
         return {
-          identifier: String(option.identifier ?? String.fromCharCode(65 + index)),
-          content: String(option.content ?? '')
+          path: entry, subject: titleCase(parts[0] || 'Unknown'),
+          exam: /advanced/i.test(parts[1] || '') ? 'jee-advanced' : 'jee-main',
+          chapter: titleCase(fileName.replace(/_\d+q\.json$/i, '')),
+          count: Number(fileName.match(/_(\d+)q\.json$/i)?.[1] || 0), group: 'Chapters'
         };
       }
+      const path = entry.path || entry.name;
       return {
-        identifier: String.fromCharCode(65 + index),
-        content: String(option ?? '')
+        path, subject: titleCase(entry.subject || 'Unknown'),
+        exam: entry.exam || (/advanced/i.test(path || '') ? 'jee-advanced' : 'jee-main'),
+        chapter: entry.chapter || titleCase(String(path || '').split('/').pop().replace(/_\d+q\.json$/i, '')),
+        count: Number(entry.count || 0), group: entry.group || 'Chapters'
       };
-    });
+    }).filter(f => f.path);
+    data.byPath = new Map(data.files.map(f => [f.path, f]));
+    data.ready = true;
   }
 
-  function qcorrect(q) { return (qLang(q)?.correct_options || []).map(String); }
-  function qanswer(q) { return qLang(q)?.answer ?? ''; }
-  function qexplain(q) { return qLang(q)?.explanation || ''; }
+  const filesFor = (exam, subject) => data.files.filter(f => f.exam === exam && (!subject || f.subject === subject));
+  const fileForChapter = (exam, subject, chapter) => data.files.find(f => f.exam === exam && f.subject === subject && norm(f.chapter) === norm(chapter));
+  const examSubjects = exam => SUBJECTS.filter(s => filesFor(exam, s).length).concat([...new Set(filesFor(exam).map(f => f.subject))].filter(s => !SUBJECTS.includes(s)));
 
-  function questionMarks(q) {
-    return {
-      correct: Math.max(0, Number(q?._marks) || 0),
-      incorrect: Math.max(0, Number(q?._negMarks) || 0)
+  function parseSortKey(raw) {
+    // Orders papers by real date: year, then month/day/shift parsed from the paper title.
+    const year = Number(raw.year) || 0;
+    const title = String(raw.paperTitle || raw.paperId || '');
+    let key = year * 1e6;
+    const m = title.match(/(\d{1,2})\s*(?:st|nd|rd|th)?\s+(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*/i);
+    if (m) key += (MONTHS[m[2].toLowerCase()] || 0) * 1e4 + Number(m[1]) * 1e2;
+    if (/morning|shift[\s-]*1/i.test(title)) key += 10; else if (/evening|shift[\s-]*2/i.test(title)) key += 20;
+    const p = title.match(/paper[\s-]*(\d)/i);
+    if (p) key += Number(p[1]);
+    return key;
+  }
+
+  function langBlock(raw, lang) {
+    const q = raw.question || {};
+    return q[lang] || q.en || q.hi || (q.content != null ? q : {});
+  }
+
+  function kindOf(raw) {
+    const d = langBlock(raw, 'en');
+    if (!(d.options || []).length) return 'number';
+    const t = String(raw.type || '').toLowerCase();
+    if (t.includes('mcqm') || t.includes('multi') || (d.correct_options || []).length > 1) return 'multi';
+    return 'single';
+  }
+
+  function makeQuestion(raw, file) {
+    const q = {
+      id: String(raw.question_id ?? raw.id),
+      file: file.path,
+      exam: raw.exam || file.exam,
+      subject: file.subject,
+      chapter: file.chapter,
+      topic: titleCase(raw.topic || ''),
+      year: Number(raw.year) || 0,
+      diff: titleCase(raw.difficulty || 'Unknown'),
+      kind: kindOf(raw),
+      marks: Number.isFinite(Number(raw.marks)) ? Number(raw.marks) : 4,
+      neg: Number.isFinite(Number(raw.negMarks)) ? Math.abs(Number(raw.negMarks)) : 0,
+      paper: String(raw.paperTitle || ''),
+      sortKey: parseSortKey(raw),
+      raw
     };
+    return q;
   }
 
-  function scoreForResult(q, correct, submitted = true) {
-    if (!submitted) return 0;
-    const marks = questionMarks(q);
-    return correct ? marks.correct : -marks.incorrect;
-  }
-
-  function attemptScore(item) {
-    if (Number.isFinite(Number(item?.score))) return Number(item.score);
-    const q = state.questions.find(x => x._id === item?.questionId);
-    return q ? scoreForResult(q, !!item.correct, true) : 0;
-  }
-
-  function prettyExam(exam) { return exam === 'jee-advanced' ? 'JEE Advanced' : 'JEE Main'; }
-  function prettyYear(year) {
-    const value = Number(year);
-    return Number.isFinite(value) && value > 0 ? String(value) : 'Year not specified';
-  }
-  function paperLabel(q) {
-    const paper = q?.paperTitle || '';
-    return paper ? strip(paper) : '';
-  }
-  function yearRange(list) {
-    const years = [...new Set(list.map(q => Number(q._year)).filter(y => Number.isFinite(y) && y > 0))].sort((a, b) => b - a);
-    if (!years.length) return 'Years unavailable';
-    if (years.length === 1) return String(years[0]);
-    return `${years[years.length - 1]}–${years[0]}`;
-  }
-  function examQs() { return state.questions.filter(q => q._exam === state.exam); }
-  function allSubjects() { return ['Physics', 'Chemistry', 'Mathematics']; }
-  function subjects() {
-    const manifestSubjects = state.manifestFiles
-      .filter(file => file.exam === state.exam)
-      .map(file => file.subject);
-    return [...new Set(manifestSubjects.length ? manifestSubjects : allSubjects().filter(s => state.questions.some(q => q._exam === state.exam && q._subject === s)))];
-  }
-
-  function manifestFilesFor(exam, subject = '') {
-    return state.manifestFiles.filter(file => file.exam === exam && (!subject || file.subject === subject));
-  }
-
-  function manifestStats(exam, subject = '') {
-    const files = manifestFilesFor(exam, subject);
-    return {
-      files,
-      questions: files.reduce((sum, file) => sum + file.count, 0),
-      chapters: new Set(files.map(file => file.chapter)).size
-    };
-  }
-
-  function isExamFullyLoaded(exam) {
-    const files = manifestFilesFor(exam);
-    return files.length > 0 && files.every(file => state.loadedFiles.has(file.name));
-  }
-
-  function getAttempts(id) { return state.attemptIndex.get(String(id)) || []; }
-  function lastAttempt(id) {
-    const list = getAttempts(id);
-    return list[list.length - 1] || null;
-  }
-
-  function accuracyFor(qs) {
-    const ids = new Set(qs.map(q => q._id));
-    const list = attempts().filter(a => ids.has(a.questionId));
-    return list.length ? Math.round(list.filter(a => a.correct).length / list.length * 100) : 0;
-  }
-
-  function formatTime(ms) {
-    let seconds = Math.floor(Math.max(0, Number(ms) || 0) / 1000);
-    let minutes = Math.floor(seconds / 60);
-    seconds %= 60;
-    const hours = Math.floor(minutes / 60);
-    minutes %= 60;
-    return hours
-      ? `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
-      : `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-  }
-
-  function toast(message) {
-    const element = $('toast');
-    if (!element) return;
-    element.textContent = message;
-    element.classList.add('show');
-    clearTimeout(toast.timer);
-    toast.timer = setTimeout(() => element.classList.remove('show'), 2200);
-  }
-
-  async function init() {
-    loadSnapshotSettings();
-    refreshStorageCaches();
-    initTheme();
-    bind();
-    renderExamTabs();
-    renderHome();
-    showPage('home');
-    await loadQuestionLibrary();
-    renderExamTabs();
-    renderHome();
-    showPage(state.page || 'home');
-  }
-
-  async function loadQuestionLibrary() {
-    const base = new URL('./questions/', document.baseURI);
-    const generation = ++state.libraryLoadGeneration;
-    const splashStartedAt = performance.now();
-    showLibraryLoading(8);
-
-    try {
-      const manifestResponse = await fetch(new URL('manifest.json', base), { cache: 'default' });
-      if (!manifestResponse.ok) throw new Error('Question manifest unavailable');
-      const manifest = await manifestResponse.json();
-      const files = Array.isArray(manifest) ? manifest : manifest.files;
-      if (!Array.isArray(files)) throw new Error('Invalid question manifest');
-
-      state.manifestFiles = files.map(entry => {
-        if (typeof entry === 'string') {
-          const parts = entry.split('/');
-          const subject = parts[0] || 'Unknown';
-          const examLabel = parts[1] || '';
-          const exam = /advanced/i.test(examLabel) ? 'jee-advanced' : 'jee-main';
-          const fileName = parts[parts.length - 1] || entry;
-          const chapterSlug = fileName.replace(/_\d+q\.json$/i, '');
-          const countMatch = fileName.match(/_(\d+)q\.json$/i);
-          return { name: entry, subject, exam, chapter: title(chapterSlug), count: Number(countMatch?.[1] || 0), group: 'Chapters' };
-        }
-        return {
-          name: entry.path || entry.name,
-          subject: entry.subject || 'Unknown',
-          exam: entry.exam || (/advanced/i.test(entry.examName || '') ? 'jee-advanced' : 'jee-main'),
-          chapter: entry.chapter || title(String(entry.name || '').split('/').pop()?.replace(/_\d+q\.json$/i, '') || 'Chapter'),
-          count: Number(entry.count || 0),
-          group: entry.group || 'Chapters'
-        };
-      }).filter(file => file.name);
-      state.manifestReady = true;
-
-      refreshStorageCaches();
-      renderExamTabs();
-      populateAllFilters();
-      renderHome();
-
-      // The launch screen is intentionally independent from the question data.
-      // It stays solid for exactly 1.8s, while the tiny manifest is fetched.
-      const remaining = Math.max(0, 1800 - (performance.now() - splashStartedAt));
-      await new Promise(resolve => setTimeout(resolve, remaining));
-      hideLibraryLoading();
-
-      // Once the app is visible, progressively warm the browser cache in the
-      // background. Only one file is parsed at a time so the UI remains snappy.
-      startBackgroundWarmup(generation);
-    } catch (error) {
-      console.warn('Question manifest could not be loaded:', error);
-      state.questions = [];
-      const remaining = Math.max(0, 1800 - (performance.now() - splashStartedAt));
-      await new Promise(resolve => setTimeout(resolve, remaining));
-      hideLibraryLoading();
-      toast('Could not load the question library. Check the questions folder.');
-    }
-  }
-
-  async function loadManifestFiles(files, base, generation, options = {}) {
-    const queue = files.filter(file => !state.loadedFiles.has(file.name));
-    if (!queue.length) return;
-
-    const concurrency = options.background ? 1 : Math.min(4, queue.length);
-    let cursor = 0;
-    let completed = 0;
-    let failed = 0;
-
-    const worker = async () => {
-      while (cursor < queue.length) {
-        if (options.background && state.backgroundWarmupPaused) return;
-        const file = queue[cursor++];
-        if (!file || generation !== state.libraryLoadGeneration) return;
-        state.loadingFiles.add(file.name);
-        try {
-          let filePromise = state.filePromises.get(file.name);
-          if (!filePromise) {
-            filePromise = fetchQuestionFile(new URL(file.name, base));
-            state.filePromises.set(file.name, filePromise);
-            filePromise.then(() => state.filePromises.delete(file.name), () => state.filePromises.delete(file.name));
-          }
-          const payload = await filePromise;
-          const normalized = normalize(extractQuestionArray(payload));
-          if (normalized.length) {
-            for (const q of normalized) {
-              if (state.questionIds.has(q._id)) continue;
-              state.questionIds.add(q._id);
-              state.questionById.set(q._id, q);
-              state.questions.push(q);
-            }
-          }
-          state.loadedFiles.add(file.name);
-        } catch (error) {
-          failed += 1;
-          console.warn(`Question file failed to load: ${file.name}`, error);
-        } finally {
-          state.loadingFiles.delete(file.name);
-          completed += 1;
-          if (!options.background) {
-            showLibraryLoading(completed / queue.length * 100);
-          }
-          if (completed % 5 === 0 || completed === queue.length) {
-            if (state.page === 'home') renderHome();
-            if (state.page === 'chapters') renderChapters();
-          }
-        }
-      }
-    };
-
-    await Promise.all(Array.from({ length: concurrency }, worker));
-    if (failed) console.warn(`${failed} question file(s) failed to load.`);
-  }
-
-  async function ensureSubjectLoaded(exam, subject) {
-    // Subject selection is manifest-only. Actual JSON is loaded when a chapter
-    // is opened, keeping the chapters screen effectively instant.
-    if (!state.manifestReady) return;
-    state.subject = subject;
-    if (state.page === 'chapters') renderChapters();
-  }
-
-  async function ensureExamLoaded(exam) {
-    if (!state.manifestReady || isExamFullyLoaded(exam)) return;
-    pauseBackgroundWarmup();
-    const files = manifestFilesFor(exam).filter(file => !state.loadedFiles.has(file.name));
-    if (!files.length) return;
-    const generation = state.libraryLoadGeneration;
-    const base = new URL('./questions/', document.baseURI);
-    await loadManifestFiles(files, base, generation, { background: false });
-    populateAllFilters();
-    renderHome();
-    resumeBackgroundWarmup(generation);
-  }
-
-  function startBackgroundWarmup(generation) {
-    if (state.backgroundWarmupStarted || !state.manifestReady) return;
-    state.backgroundWarmupStarted = true;
-    state.backgroundWarmupPaused = false;
-    const run = async () => {
-      // Yield once so the first visible paint is never competing with parsing.
-      await new Promise(resolve => setTimeout(resolve, 250));
-      const base = new URL('./questions/', document.baseURI);
-      const queue = state.manifestFiles.slice();
-      for (const file of queue) {
-        if (generation !== state.libraryLoadGeneration) return;
-        while (state.backgroundWarmupPaused) {
-          await new Promise(resolve => setTimeout(resolve, 120));
-          if (generation !== state.libraryLoadGeneration) return;
-        }
-        if (state.loadedFiles.has(file.name)) continue;
-        await loadManifestFiles([file], base, generation, { background: true });
-        // Small idle gap: active navigation always gets priority over warmup.
-        await new Promise(resolve => setTimeout(resolve, 90));
-      }
-    };
-    run().catch(error => console.warn('Background question warmup stopped:', error));
-  }
-
-  function pauseBackgroundWarmup() {
-    state.backgroundWarmupPaused = true;
-  }
-
-  function resumeBackgroundWarmup(generation = state.libraryLoadGeneration) {
-    state.backgroundWarmupPaused = false;
-    if (!state.backgroundWarmupStarted) startBackgroundWarmup(generation);
-  }
-
-  function showLibraryLoading(percent = 8) {
-    if (!state.initialSplash) return;
-    const overlay = $('libraryLoading');
-    if (!overlay) return;
-    overlay.classList.remove('hidden');
-    const fill = $('libraryLoadingFill');
-    if (fill) fill.style.width = `${Math.max(8, Math.min(100, percent))}%`;
-  }
-
-  function hideLibraryLoading() {
-    const overlay = $('libraryLoading');
-    if (!overlay) return;
-    const fill = $('libraryLoadingFill');
-    if (fill) fill.style.width = '100%';
-    state.initialSplash = false;
-    overlay.classList.add('hidden');
-  }
-
-  async function fetchQuestionFile(url) {
-    const response = await fetch(url, { cache: 'default' });
-    if (!response.ok) throw new Error(`Failed to load ${url.pathname}`);
-    return response.json();
-  }
-
-  function extractQuestionArray(payload) {
-    // Question JSON files may be wrapped in an API-style response such as:
-    // { statusCode, total, results: [{ title, chapter, questions: [...] }] }.
-    // Keep this loader tolerant of all supported formats.
-    if (Array.isArray(payload)) return payload.flatMap(extractQuestionArray);
+  function extractQuestions(payload) {
+    if (Array.isArray(payload)) return payload.flatMap(extractQuestions);
     if (!payload || typeof payload !== 'object') return [];
-
     if (Array.isArray(payload.questions)) return payload.questions;
     if (Array.isArray(payload.data)) return payload.data;
-    if (Array.isArray(payload.results)) {
-      return payload.results.flatMap(result => extractQuestionArray(result));
-    }
-
-    // A single question object is also a valid payload.
+    if (Array.isArray(payload.results)) return payload.results.flatMap(extractQuestions);
     if (payload.question_id || payload.id) return [payload];
-
     return [];
   }
 
-  function debounce(fn, wait = 100) {
-    let timer;
-    return (...args) => { clearTimeout(timer); timer = setTimeout(() => fn(...args), wait); };
+  function registerFile(path, qs) {
+    let idx = meta.f.indexOf(path);
+    if (idx < 0) { meta.f.push(path); idx = meta.f.length - 1; }
+    let changed = false;
+    for (const q of qs) if (meta.m[q.id] !== idx) { meta.m[q.id] = idx; changed = true; }
+    if (changed) { saveMetaSoon(); statsDirty = true; }
   }
 
-  function bind() {
-    document.querySelectorAll('[data-page]').forEach(button => {
-      button.onclick = () => showPage(button.dataset.page);
-    });
-
-    document.querySelectorAll('#examTabs button').forEach(button => {
-      button.onclick = () => switchExam(button.dataset.exam);
-    });
-
-    $('cycleExam').onclick = () => switchExam(state.exam === 'jee-main' ? 'jee-advanced' : 'jee-main');
-    $('quickPractice').onclick = () => openSession('all');
-    $('weakPractice').onclick = () => openSession('weak');
-    $('openAllQuestions').onclick = async () => { showPage('allQuestions'); await ensureExamLoaded(state.exam); showPage('allQuestions'); };
-    $('allPractice').onclick = () => openSession('allFiltered');
-    $('detailPractice').onclick = () => openSession(state.chapterView === 'mistakes' ? 'mistakes' : 'chapter');
-    document.querySelectorAll('[data-chapter-view]').forEach(button => {
-      button.onclick = () => {
-        state.chapterView = button.dataset.chapterView;
-        updateChapterViewTabs();
-        const mistakes = getChapterMistakes();
-        $('detailPractice').textContent = state.chapterView === 'mistakes' ? `Retry ${mistakes.length} mistake${mistakes.length === 1 ? '' : 's'}` : 'Start practice';
-        $('detailPractice').disabled = state.chapterView === 'mistakes' && mistakes.length === 0;
-        renderChapterQuestions();
-      };
-    });
-    $('backToChapters').onclick = () => showPage('chapters');
-    $('menuButton').onclick = () => $('sidebar').classList.toggle('open');
-    $('themeButton').onclick = toggleTheme;
-    // Snapshot/image export is temporarily disabled. Keep the implementation below for a future re-enable.
-    /*
-    $('openSnapshotSettings')?.addEventListener('click', openSnapshotSettings);
-    $('snapshotReset')?.addEventListener('click', resetSnapshotSettings);
-    $('snapshotLogoInput')?.addEventListener('change', handleSnapshotLogoUpload);
-    */
-    $('chapterSort').onchange = renderChapters;
-
-    document.querySelectorAll('[data-close]').forEach(button => {
-      button.onclick = () => closeModal(button.dataset.close);
-    });
-    document.querySelectorAll('.modal').forEach(modal => {
-      modal.addEventListener('click', event => {
-        if (event.target === modal) closeModal(modal.id);
-      });
-    });
-
-    document.querySelectorAll('[data-order-choice]').forEach(button => {
-      button.onclick = () => { state.order = button.dataset.orderChoice; document.querySelectorAll('[data-order-choice]').forEach(x => x.classList.toggle('active', x === button)); };
-    });
-    $('sessionCount')?.addEventListener('change', () => { state.sessionCount = Number($('sessionCount').value) || state._pool?.length || 20; updateSessionSummary(state._pool?.length || 0); });
-
-    document.querySelectorAll('[data-resume-choice]').forEach(button => {
-      button.onclick = () => {
-        state.resumeChoice = button.dataset.resumeChoice;
-        document.querySelectorAll('[data-resume-choice]').forEach(x => x.classList.toggle('active', x === button));
-      };
-    });
-
-    document.querySelectorAll('[data-filter]').forEach(button => {
-      button.onclick = () => {
-        state.chapterFilter = button.dataset.filter;
-        document.querySelectorAll('[data-filter]').forEach(x => x.classList.toggle('active', x === button));
-        renderChapters();
-      };
-    });
-
-    $('launchSession').onclick = launchSession;
-    $('closePractice').onclick = closePractice;
-    $('submitAnswer').onclick = submitAnswer;
-    $('nextQuestion').onclick = nextQuestion;
-    $('prevQuestion').onclick = prevQuestion;
-    $('showAnswerToggle').onclick = toggleAnswer;
-    $('bookmarkCurrent').onclick = () => toggleSaved('bookmark');
-    $('reviewCurrent').onclick = () => toggleSaved('review');
-    $('practiceThemeButton').onclick = toggleTheme;
-    $('prevStrip').onclick = prevQuestion;
-    $('nextStrip').onclick = nextQuestion;
-
-    $('questionSearch').oninput = renderChapterQuestions;
-    ['yearFilter', 'difficultyFilter', 'typeFilter'].forEach(id => $(id).onchange = renderChapterQuestions);
-    $('clearQuestionFilters').onclick = () => {
-      ['questionSearch', 'yearFilter', 'difficultyFilter', 'typeFilter'].forEach(id => $(id).value = '');
-      renderChapterQuestions();
-    };
-    // JPG snapshot/export is temporarily disabled.
-    /*
-    $('exportChapterFiltered')?.addEventListener('click', () => openExportForQuestions(filteredChapterQuestions(), 'Filtered chapter questions'));
-    $('exportChapterSelected')?.addEventListener('click', () => openExportForQuestions(filteredChapterQuestions().filter(q => state.selected.has(q._id)), 'Selected chapter questions'));
-    */
-
-    $('allSearch').oninput = debounce(() => { state.allRenderLimit = 400; renderAllQuestions(); }, 90);
-    ['allSubject', 'allChapter', 'allYear', 'allStatus'].forEach(id => $(id).onchange = () => { state.allRenderLimit = 400; renderAllQuestions(); });
-    $('clearAllFilters').onclick = () => {
-      ['allSearch', 'allSubject', 'allChapter', 'allYear', 'allStatus'].forEach(id => $(id).value = '');
-      state.allRenderLimit = 400;
-      renderAllQuestions();
-    };
-    $('clearSelection')?.addEventListener('click', clearSelection);
-    // JPG snapshot/export controls are intentionally disabled for now.
-    /*
-    $('exportSelected')?.addEventListener('click', () => openExportForQuestions([...state.selected].map(id => state.questionById.get(id)).filter(Boolean), 'Selected questions'));
-    $('exportFiltered')?.addEventListener('click', () => openExportForQuestions(filteredAllQuestions(), 'Filtered questions'));
-    $('exportStart')?.addEventListener('click', runExport);
-    $('exportCancel')?.addEventListener('click', () => { if (state.exportJob?.running) state.exportCancel = true; else $('exportModal')?.classList.add('hidden'); });
-    $('exportClose')?.addEventListener('click', closeExportModal);
-    */
-
-    document.addEventListener('keydown', keyboard);
-  }
-
-  function showPage(page) {
-    state.page = page;
-    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-    const target = $(page + 'Page');
-    if (target) target.classList.add('active');
-    document.querySelectorAll('.side-link[data-page]').forEach(b => b.classList.toggle('active', b.dataset.page === page));
-    $('sidebar').classList.remove('open');
-
-    if (page === 'home') renderHome();
-    if (page === 'chapters') renderChapters();
-    if (page === 'chapter') renderChapterQuestions();
-    if (page === 'allQuestions') {
-      renderAllQuestions();
-      if (state.manifestReady && !isExamFullyLoaded(state.exam)) {
-        ensureExamLoaded(state.exam).then(() => { if (state.page === 'allQuestions') renderAllQuestions(); });
-      }
-    }
-    if (page === 'bookmarks') renderBookmarks();
-    if (page === 'history') renderHistory();
-    if (page === 'analytics') renderAnalytics();
-  }
-
-  async function switchExam(exam) {
-    state.libraryLoadGeneration++;
-    state.backgroundWarmupStarted = false;
-    state.backgroundWarmupPaused = false;
-    state.exam = exam;
-    state.subject = allSubjects().find(subject => manifestFilesFor(exam, subject).length) || 'Physics';
-    state.chapter = null;
-    renderExamTabs();
-    renderHome();
-    showPage('home');
-    populateAllFilters();
-  }
-
-  function renderExamTabs() {
-    document.querySelectorAll('#examTabs button').forEach(b => b.classList.toggle('active', b.dataset.exam === state.exam));
-    $('sideExam').textContent = prettyExam(state.exam);
-  }
-
-  function renderHome() {
-    const qs = examQs();
-    const examStats = manifestStats(state.exam);
-    $('homeTitle').textContent = prettyExam(state.exam);
-    $('sideExam').textContent = prettyExam(state.exam);
-    const chapterLabel = examStats.chapters || new Set(qs.map(q => q._chapter)).size;
-    $('homeSubtitle').textContent = `${examStats.questions.toLocaleString()} questions across ${chapterLabel} chapters · question data loads as needed and warms in the background · progress is stored locally on this device.`;
-
-    const icons = { Physics: 'PHY', Chemistry: 'CHE', Mathematics: 'MAT' };
-    $('subjectGrid').innerHTML = allSubjects().map(subject => {
-      const data = qs.filter(q => q._subject === subject);
-      const stats = manifestStats(state.exam, subject);
-      const loaded = data.length > 0 || stats.files.length === 0;
-      const questionCount = stats.questions || data.length;
-      const chapterCount = stats.chapters || new Set(data.map(q => q._chapter)).size;
-      const loadingCopy = loaded ? 'Chapter-wise questions with solutions, progress and personal timing.' : 'Opens instantly; chapter data loads only when needed.';
-      return `<article class="subject-card ${questionCount ? '' : 'empty-subject'}" data-subject="${esc(subject)}">
-        <div class="subject-top">
-          <div class="subject-icon">${icons[subject]}</div>
-          <h2>${subject}</h2>
-          <p>${loadingCopy}</p>
-          <div class="subject-meta"><span>${questionCount.toLocaleString()} questions</span><span>•</span><span>${chapterCount} chapters</span><span>•</span><span>${loaded && data.length ? esc(yearRange(data)) : 'On demand'}</span></div>
-        </div>
-        <button type="button" class="subject-open" data-open-subject="${esc(subject)}">${data.length ? 'Explore chapters' : 'Load & explore'} <span aria-hidden="true">→</span></button>
-      </article>`;
-    }).join('');
-
-    const openSubject = subject => {
-      if (!subject) return;
-      state.subject = subject;
-      state.chapter = null;
-      state.chapterFilter = 'all';
-      // Navigation must never wait for question JSON. The manifest already
-      // contains the complete chapter/count index, so the chapters screen is
-      // rendered immediately. Individual JSON files are loaded only when a
-      // chapter is opened.
-      showPage('chapters');
-    };
-
-    document.querySelectorAll('.subject-card').forEach(card => {
-      card.addEventListener('click', event => {
-        if (event.target.closest('.subject-open')) return;
-        openSubject(card.dataset.subject);
-      });
-    });
-    document.querySelectorAll('[data-open-subject]').forEach(button => {
-      button.addEventListener('click', event => {
-        event.preventDefault();
-        event.stopPropagation();
-        openSubject(button.dataset.openSubject);
-      });
-    });
-
-    const relevant = attempts().filter(a => qs.some(q => q._id === a.questionId));
-    const attempted = new Set(relevant.map(a => a.questionId)).size;
-    const correct = relevant.filter(a => a.correct).length;
-    const saved = [...bookmarks()].filter(id => qs.some(q => q._id === id)).length;
-    $('homeOverview').innerHTML = [
-      ['Questions', examStats.questions || qs.length],
-      ['Attempted', attempted],
-      ['Accuracy', relevant.length ? `${Math.round(correct / relevant.length * 100)}%` : '—'],
-      ['Bookmarks', saved]
-    ].map(([label, value]) => `<div class="mini-stat"><b>${value}</b><span>${label}</span></div>`).join('');
-  }
-
-  function renderSubjectTabs() {
-    $('subjectTabs').innerHTML = allSubjects().map(subject =>
-      `<button class="${subject === state.subject ? 'active' : ''}" data-subject-tab="${esc(subject)}">${subject}</button>`
-    ).join('');
-    document.querySelectorAll('[data-subject-tab]').forEach(button => {
-      button.onclick = () => {
-        state.subject = button.dataset.subjectTab;
-        renderChapters();
-      };
-    });
-  }
-
-  function latestAttemptsFor(qs) {
-    const ids = new Set(qs.map(q => q._id));
-    const latest = new Map();
-    attempts().forEach(item => {
-      if (ids.has(item.questionId)) latest.set(item.questionId, item);
-    });
-    return [...latest.values()];
-  }
-
-  function progressFor(qs) {
-    const latest = latestAttemptsFor(qs);
-    return {
-      attempted: latest.length,
-      correct: latest.filter(a => a.correct).length,
-      wrong: latest.filter(a => !a.correct).length
-    };
-  }
-
-  function updateChapterViewTabs() {
-    document.querySelectorAll('[data-chapter-view]').forEach(button => {
-      const active = button.dataset.chapterView === state.chapterView;
-      button.classList.toggle('active', active);
-      button.setAttribute('aria-selected', String(active));
-    });
-    const badge = $('mistakeCountBadge');
-    if (badge) badge.textContent = String(getChapterMistakes().length);
-  }
-
-  function getChapterMistakes() {
-    if (!state.chapter) return [];
-    const allQs = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
-    const latest = latestAttemptsFor(allQs);
-    const wrongIds = new Set(latest.filter(a => !a.correct).map(a => a.questionId));
-    return allQs.filter(q => wrongIds.has(q._id));
-  }
-
-  function renderChapters() {
-    renderSubjectTabs();
-    $('chaptersTitle').textContent = `${state.subject} Chapters`;
-    const filter = state.chapterFilter;
-    const files = manifestFilesFor(state.exam, state.subject);
-    const loaded = examQs().filter(q => q._subject === state.subject);
-    const loadedByChapter = new Map();
-    loaded.forEach(q => {
-      const list = loadedByChapter.get(q._chapter);
-      if (list) list.push(q); else loadedByChapter.set(q._chapter, [q]);
-    });
-    let chapters = files.map(file => {
-      const data = loadedByChapter.get(file.chapter) || [];
-      const count = file.count || data.length;
-      const progress = data.length ? progressFor(data) : { attempted: 0, correct: 0, wrong: 0 };
-      const accuracy = progress.attempted ? Math.round(progress.correct / progress.attempted * 100) : 0;
-      return { chapter: file.chapter, data, count, attempted: progress.attempted, correct: progress.correct, wrong: progress.wrong, accuracy, weak: data.length > 0 && accuracy < 60, loaded: !!data.length };
-    });
-    if (filter === 'weak') chapters = chapters.filter(x => x.weak);
-    if (filter === 'unattempted') chapters = chapters.filter(x => !x.loaded || x.attempted < x.count);
-    const sort = $('chapterSort').value;
-    if (sort === 'questions') chapters.sort((a, b) => b.count - a.count);
-    if (sort === 'accuracy') chapters.sort((a, b) => (b.loaded ? b.accuracy : -1) - (a.loaded ? a.accuracy : -1));
-    if (sort === 'weakness') chapters.sort((a, b) => (a.loaded ? a.accuracy : 101) - (b.loaded ? b.accuracy : 101));
-    const groups = {};
-    chapters.forEach(chapter => {
-      const group = chapter.data[0]?._group || fileGroupForChapter(files, chapter.chapter) || 'Other';
-      (groups[group] ??= []).push(chapter);
-    });
-    $('chapterGroups').innerHTML = Object.entries(groups).map(([group, items]) =>
-      `<section class="chapter-group"><h2>${esc(title(group))}</h2><div class="chapter-grid">${items.map(chapterCard).join('')}</div></section>`
-    ).join('') || '<div class="empty">No chapters match this filter.</div>';
-    document.querySelectorAll('.chapter-card').forEach(card => card.onclick = () => openChapter(card.dataset.chapter));
-  }
-
-  function fileGroupForChapter(files, chapter) {
-    return files.find(file => file.chapter === chapter)?.group || 'Chapters';
-  }
-
-  function chapterCard(item) {
-    const correctPct = item.count ? (item.correct / item.count * 100) : 0;
-    const wrongPct = item.count ? (item.wrong / item.count * 100) : 0;
-    return `<article class="chapter-card" data-chapter="${esc(item.chapter)}">
-      <div class="chapter-card-top">
-        <div class="chapter-count"><b>${item.count.toLocaleString()}</b><span>Qs</span></div>
-        <div class="chapter-card-info"><h3>${esc(item.chapter)}</h3>
-          <div class="chapter-tags"><span class="tag">${esc(prettyExam(state.exam))}</span><span class="tag">${item.loaded ? esc(yearRange(item.data)) : 'On demand'}</span></div>
-          <div class="chapter-progress"><span>${item.attempted}/${item.count} attempted · ${item.correct} correct · ${item.wrong} wrong${item.loaded ? '' : ' · not loaded yet'}</span><b>${item.attempted ? item.accuracy : 0}%</b></div>
-        </div>
-      </div>
-      <div class="progress progress-multi" aria-label="${item.correct} correct, ${item.wrong} wrong, ${item.count - item.attempted} unattempted">
-        <i class="progress-correct" style="width:${Math.min(100, correctPct)}%"></i><i class="progress-wrong" style="width:${Math.min(100 - Math.min(100, correctPct), wrongPct)}%"></i>
-      </div>
-      <div class="chapter-card-foot">Open chapter <span>→</span></div>
-    </article>`;
-  }
-
-  async function openChapter(chapter) {
-    state.chapter = chapter;
-    state.chapterView = 'all';
-    state.subject = state.subject || 'Physics';
-    showPage('chapter');
-    const files = manifestFilesFor(state.exam, state.subject).filter(file => file.chapter === chapter && !state.loadedFiles.has(file.name));
-    if (files.length) {
-      pauseBackgroundWarmup();
-      const generation = state.libraryLoadGeneration;
-      const base = new URL('./questions/', document.baseURI);
-      renderChapterQuestions();
-      await loadManifestFiles(files, base, generation, { background: false });
-      if (state.page === 'chapter') renderChapterQuestions();
-      resumeBackgroundWarmup(generation);
-    }
-  }
-
-  function filteredChapterQuestions() {
-    const allQs = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
-    const qs = state.chapterView === 'mistakes' ? getChapterMistakes() : allQs;
-    const search = $('questionSearch').value.trim().toLowerCase();
-    const year = $('yearFilter').value; const difficulty = $('difficultyFilter').value; const type = $('typeFilter').value;
-    return qs.filter(q => (!search || q._searchText.includes(search)) && (!year || String(q._year) === year) && (!difficulty || q._difficulty === difficulty) && (!type || q._type === type));
-  }
-
-  function renderChapterQuestions() {
-    const allQs = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
-    const manifestFile = manifestFilesFor(state.exam, state.subject).find(file => file.chapter === state.chapter);
-    const manifestCount = manifestFile?.count || allQs.length;
-    const qs = state.chapterView === 'mistakes' ? getChapterMistakes() : allQs;
-    updateChapterViewTabs();
-    $('detailSubject').textContent = state.subject.toUpperCase();
-    $('detailTitle').textContent = state.chapter || 'Chapter';
-    const mistakeCount = getChapterMistakes().length;
-    const loadingText = allQs.length ? `${allQs.length} questions` : `${manifestCount.toLocaleString()} questions · loading when opened`;
-    $('detailSub').textContent = `${state.chapterView === 'mistakes' ? 'Questions currently in your mistake list' : loadingText} · ${new Set(allQs.map(q => q._topic)).size} topics${allQs.length ? ` · ${yearRange(allQs)}` : ''}`;
-    $('detailPractice').textContent = state.chapterView === 'mistakes' ? `Retry ${mistakeCount} mistake${mistakeCount === 1 ? '' : 's'}` : 'Start practice';
-    $('detailPractice').disabled = state.chapterView === 'mistakes' ? mistakeCount === 0 : !allQs.length;
-
-    const relevant = latestAttemptsFor(allQs);
-    const correct = relevant.filter(a => a.correct).length;
-    const avg = relevant.length ? Math.round(relevant.reduce((sum, a) => sum + (Number(a.timeMs) || 0), 0) / relevant.length) : 0;
-    $('detailStats').innerHTML = [
-      ['Questions', manifestCount],
-      ['Attempted', relevant.length],
-      ['Accuracy', relevant.length ? `${Math.round(correct / relevant.length * 100)}%` : '—'],
-      ['Mistakes', mistakeCount]
-    ].map(([label, value]) => `<div class="detail-stat"><span>${label}</span><b>${value}</b></div>`).join('');
-
-    const selectedYear = $('yearFilter').value;
-    const selectedDifficulty = $('difficultyFilter').value;
-    const selectedType = $('typeFilter').value;
-
-    const filterSource = qs.length ? qs : allQs;
-    const years = [...new Set(filterSource.map(q => q._year).filter(Boolean))].sort((a, b) => b - a);
-    $('yearFilter').innerHTML = '<option value="">All years</option>' + years.map(y => `<option value="${y}">${y}</option>`).join('');
-    $('yearFilter').value = years.some(y => String(y) === selectedYear) ? selectedYear : '';
-
-    const difficulties = [...new Set(filterSource.map(q => q._difficulty))].sort();
-    $('difficultyFilter').innerHTML = '<option value="">Difficulty</option>' + difficulties.map(x => `<option value="${esc(x)}">${esc(x)}</option>`).join('');
-    $('difficultyFilter').value = difficulties.includes(selectedDifficulty) ? selectedDifficulty : '';
-
-    const types = [...new Set(filterSource.map(q => q._type))].sort();
-    $('typeFilter').innerHTML = '<option value="">Question type</option>' + types.map(x => `<option value="${esc(x)}">${esc(x)}</option>`).join('');
-    $('typeFilter').value = types.includes(selectedType) ? selectedType : '';
-
-    const filtered = filteredChapterQuestions();
-
-    const grouped = {};
-    filtered.forEach(q => (grouped[q._year || 'Other'] ??= []).push(q));
-    $('chapterQuestions').innerHTML = Object.entries(grouped).sort((a, b) => Number(b[0]) - Number(a[0])).map(([yearKey, list]) =>
-      `<section><h2 class="year-heading">${esc(yearKey)}</h2>${list.map((q, i) => questionRow(q, i)).join('')}</section>`
-    ).join('') || (allQs.length ? `<div class="empty"><strong>${state.chapterView === 'mistakes' ? 'No mistakes here' : 'No questions match these filters.'}</strong><span>${state.chapterView === 'mistakes' ? 'Questions leave this tab automatically once your latest attempt is correct.' : ''}</span></div>` : `<div class="empty chapter-loading-state"><strong>Loading ${manifestCount.toLocaleString()} questions…</strong><span>This chapter is being loaded now. Other chapters stay lightweight until you open them.</span></div>`);
-
-    bindQuestionRows();
-    updateBulkExportControls();
-  }
-
-  function questionRow(q, index, options = {}) {
-    const selectable = options.selectable !== false;
-    const attempt = lastAttempt(q._id);
-    const saved = bookmarks().has(q._id);
-    const statusClass = attempt ? (attempt.correct ? 'row-correct' : 'row-wrong') : '';
-    const status = attempt ? (attempt.correct ? 'Correct' : 'Wrong') : 'Unattempted';
-    const text = q._plainText || strip(qtext(q));
-    return `<article class="question-row ${statusClass} ${state.selected.has(q._id) ? 'row-selected' : ''}" data-open-q="${esc(q._id)}">
-      ${selectable ? `<label class="q-select" data-select-control title="Select for export"><input type="checkbox" data-select-q="${esc(q._id)}" ${state.selected.has(q._id) ? 'checked' : ''}><span></span></label>` : ''}<div class="q-index">${index + 1}</div>
-      <div class="q-row-content">
-        <div class="q-text">${esc(text.slice(0, 420))}${text.length > 420 ? '…' : ''}</div>
-        <div class="q-meta">
-          <span class="q-exam">${esc(prettyExam(q._exam))}</span>
-          <span class="q-year">${esc(prettyYear(q._year))}</span>
-          ${paperLabel(q) ? `<span class="q-paper">${esc(paperLabel(q))}</span>` : ''}
-          <span class="difficulty">${esc(q._difficulty)}</span>
-          <span class="status-${attempt?.correct ? 'correct' : attempt ? 'wrong' : 'new'}">${status}</span>
-        </div>
-      </div>
-      <div class="q-actions">
-        <button class="tiny-action" data-bookmark-q="${esc(q._id)}" title="Bookmark" aria-label="Bookmark">${saved ? '★' : '☆'}</button>
-        <button class="tiny-action image-action" data-save-image-q="${esc(q._id)}" title="Save as image" aria-label="Save question as image">⇩</button>
-      </div>
-    </article>`;
-  }
-
-  function bindQuestionRows() {
-    document.querySelectorAll('[data-select-q]').forEach(input => {
-      input.onchange = event => {
-        event.stopPropagation();
-        const id = input.dataset.selectQ;
-        if (input.checked) state.selected.add(id); else state.selected.delete(id);
-        input.closest('.question-row')?.classList.toggle('row-selected', input.checked);
-        updateBulkExportControls();
-      };
-      input.onclick = event => event.stopPropagation();
-    });
-    document.querySelectorAll('[data-open-q]').forEach(button => {
-      button.onclick = event => {
-        if (event.target.closest('[data-bookmark-q], [data-save-image-q], [data-select-q], [data-select-control]')) return;
-        const q = state.questionById.get(String(button.dataset.openQ));
-        if (q) openSingle(q);
-      };
-    });
-    document.querySelectorAll('[data-bookmark-q]').forEach(button => {
-      button.onclick = event => {
-        event.stopPropagation();
-        toggleBookmark(button.dataset.bookmarkQ);
-        if (state.page === 'chapter') renderChapterQuestions();
-        if (state.page === 'allQuestions') renderAllQuestions();
-        if (state.page === 'bookmarks') renderBookmarks();
-      };
-    });
-    document.querySelectorAll('[data-save-image-q]').forEach(button => {
-      button.onclick = async event => {
-        event.stopPropagation();
-        const q = state.questionById.get(String(button.dataset.saveImageQ));
-        if (q) await saveQuestionAsImage(q, button);
-      };
-    });
-  }
-
-  function updateBulkExportControls() {
-    const count = state.selected.size;
-    document.querySelectorAll('[data-bulk-export]').forEach(button => {
-      const chapterButton = button.id === 'exportChapterSelected';
-      const visibleCount = chapterButton && state.chapter ? filteredChapterQuestions().filter(q => state.selected.has(q._id)).length : count;
-      button.disabled = visibleCount === 0;
-      button.textContent = visibleCount ? `Export selected · ${visibleCount}` : 'Export selected';
-    });
-    const filteredButton = $('exportFiltered');
-    if (filteredButton) filteredButton.textContent = `Export filtered · ${filteredAllQuestions().length}`;
-  }
-
-  function clearSelection() {
-    state.selected.clear();
-    document.querySelectorAll('[data-select-q]').forEach(input => { input.checked = false; input.closest('.question-row')?.classList.remove('row-selected'); });
-    updateBulkExportControls();
-  }
-
-  function openExportForQuestions(questions, label = 'Selected questions') {
-    const unique = [...new Map(questions.map(q => [q._id, q])).values()];
-    if (!unique.length) { toast('No questions to export.'); return; }
-    state.exportJob = { questions: unique, label, totalSlides: unique.length * 2 };
-    state.exportCancel = false;
-    const modal = $('exportModal');
-    if (!modal) return;
-    $('exportTitle').textContent = label;
-    $('exportTotal').textContent = `${unique.length} question${unique.length === 1 ? '' : 's'} · ${unique.length * 2} JPG slides`;
-    $('exportProgressFill').style.width = '0%';
-    $('exportPercent').textContent = '0%';
-    $('exportCurrent').textContent = 'Ready to export';
-    $('exportStatus').textContent = 'The app will stay responsive while slides are generated.';
-    $('exportStart').disabled = false;
-    $('exportCancel').disabled = false;
-    modal.classList.remove('hidden');
-  }
-
-  function closeExportModal() {
-    if (state.exportJob?.running) { state.exportCancel = true; return; }
-    $('exportModal')?.classList.add('hidden');
-    state.exportJob = null;
-  }
-
-  function nextFrame() { return new Promise(resolve => requestAnimationFrame(() => resolve())); }
-  function yieldToBrowser() { return new Promise(resolve => setTimeout(resolve, 0)); }
-
-  function exportCss() {
-    return `.image-export-card{width:100%;box-sizing:border-box;background:var(--export-card);color:var(--export-text);border-radius:var(--export-radius);overflow:hidden;font-family:Inter,Arial,sans-serif}.image-export-header{box-sizing:border-box;padding:calc(var(--export-pad)*.9) var(--export-pad) calc(var(--export-pad)*.78);background:var(--export-accent);color:#fff;display:flex;align-items:flex-start;gap:24px}.image-export-header-copy{min-width:0}.image-export-logo{width:52px;height:52px;object-fit:contain;flex:0 0 52px;border-radius:10px;background:rgba(255,255,255,.12);padding:6px;box-sizing:border-box;order:2}.image-export-kicker{font-size:14px;line-height:20px;font-weight:800;letter-spacing:.02em}.image-export-title{margin-top:8px;font-size:29px;line-height:36px;font-weight:800}.image-export-paper{margin-top:6px;font-size:16px;line-height:24px;font-weight:500}.image-export-body{padding:calc(var(--export-pad)*.8) var(--export-pad) calc(var(--export-pad)*.72)}.image-export-badges{display:flex;flex-wrap:nowrap;white-space:nowrap;gap:9px;margin-bottom:22px}.image-export-badge{display:inline-flex;align-items:center;min-height:28px;padding:5px 12px;border-radius:999px;background:var(--export-badge);color:var(--export-badge-text);font-size:12px;line-height:18px;font-weight:700}.image-export-question{color:var(--export-text);font-size:var(--export-q-size);line-height:1.48;font-weight:650;overflow-wrap:anywhere}.image-export-question p{display:inline;margin:0}.image-export-question mjx-container{color:var(--export-text)!important}.image-export-question mjx-container[display=true]{margin:10px 0!important}.image-export-options{display:grid;gap:10px;margin-top:24px}.image-export-option{display:grid;grid-template-columns:40px minmax(0,1fr);align-items:center;gap:12px;box-sizing:border-box;min-height:58px;padding:12px 14px;border:1px solid var(--export-border);border-radius:13px;background:var(--export-option);color:var(--export-text);font-size:var(--export-option-size);line-height:1.5}.image-export-option-key{width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;border-radius:9px;background:var(--export-badge);color:var(--export-badge-text);font-size:12px;font-weight:800}.image-export-option-content{min-width:0}.image-export-answer,.image-export-explanation{margin-top:18px;padding:16px;border:1px solid var(--export-border);border-radius:13px;background:var(--export-option);color:var(--export-text);font-size:15px;line-height:1.55}.image-export-answer{display:flex;gap:12px;align-items:center}.image-export-answer strong,.image-export-explanation strong{color:var(--export-muted);font-size:11px;text-transform:uppercase;letter-spacing:.04em}.image-export-explanation strong{display:block;margin-bottom:8px}.image-export-footer{margin:0 var(--export-pad);padding:15px 0 24px;border-top:1px solid var(--export-border);color:var(--export-muted);font-size:12px;line-height:18px}`;
-  }
-
-  function makeImageExportStage(q, mode = 'question') {
-    const s = snapshotSettings();
-    const stage = document.createElement('div');
-    stage.className = 'image-export-stage';
-    stage.setAttribute('aria-hidden', 'true');
-    stage.style.width = `${s.width}px`;
-    stage.style.background = s.pageBg;
-    stage.style.color = s.text;
-
-    const options = qopts(q);
-    const answer = qcorrect(q);
-    const correctLabels = answer.length ? answer.join(', ') : (qanswer(q) || 'Not provided');
-    const explanationText = qexplain(q) || 'No explanation is available for this question.';
-    const meta = [q._difficulty || '', q._type || '', q._chapter || ''].filter(Boolean);
-
-    const logo = s.showLogo && s.logoData
-      ? `<img class="image-export-logo" src="${esc(s.logoData)}" alt="">`
-      : '';
-
-    const header = `
-      <header class="image-export-header">
-        ${logo}
-        <div class="image-export-header-copy">
-          ${s.showKicker ? '<div class="image-export-kicker">JEE PRACTICE · PYQ</div>' : ''}
-          ${s.showTitle ? `<div class="image-export-title">${esc(prettyExam(q._exam))} · ${esc(q._subject || '')}</div>` : ''}
-          ${s.showPaper ? `<div class="image-export-paper">${esc(prettyYear(q._year))}${paperLabel(q) ? ` · ${esc(paperLabel(q))}` : ''}</div>` : ''}
-        </div>
-      </header>`;
-
-    const badges = s.showBadges && meta.length
-      ? `<div class="image-export-badges">${meta.map(item => `<span class="image-export-badge">${esc(item)}</span>`).join('')}</div>`
-      : '';
-
-    const number = s.showQuestionNumber
-      ? `<div class="image-export-number">Question ${esc(q._number || q.question_number || '')}</div>`
-      : '';
-
-    const question = `
-      <div class="image-export-question">
-        ${sanitizeHtml(qtext(q) || 'Question text unavailable.')}
-      </div>`;
-
-    const optionMarkup = options.length
-      ? `<div class="image-export-options">${options.map(option => `
-          <div class="image-export-option">
-            <span class="image-export-option-key">${esc(option.identifier)}</span>
-            <div class="image-export-option-content">${sanitizeHtml(option.content || '')}</div>
-          </div>`).join('')}</div>`
-      : '';
-
-    /*
-     * IMPORTANT:
-     * Export is deliberately a strict two-slide sequence per question:
-     *
-     *   slide N   -> question + options
-     *   slide N+1 -> answer + explanation
-     *
-     * The answer slide does NOT render the question/options again. This prevents
-     * the old "answer slide looks like another question" behaviour.
-     */
-    let body;
-    if (mode === 'answer') {
-      body = `
-        <div class="image-export-answer-page">
-          <div class="image-export-answer-label">ANSWER</div>
-          <div class="image-export-correct">${esc(correctLabels)}</div>
-          <div class="image-export-explanation">
-            <div class="image-export-explanation-title">Explanation</div>
-            <div>${sanitizeHtml(explanationText)}</div>
-          </div>
-        </div>`;
-    } else {
-      body = `${badges}${number}${question}${optionMarkup}`;
-    }
-
-    stage.innerHTML = `
-      <div class="image-export-card image-export-${mode}"
-        style="--export-accent:${esc(s.accent)};
-               --export-card:${esc(s.cardBg)};
-               --export-text:${esc(s.text)};
-               --export-muted:${esc(s.muted)};
-               --export-option:${esc(s.optionBg)};
-               --export-border:${esc(s.border)};
-               --export-badge:${esc(s.badgeBg)};
-               --export-badge-text:${esc(s.badgeText)};
-               --export-radius:${s.radius}px;
-               --export-pad:${s.padding}px;
-               --export-q-size:${s.questionSize}px;
-               --export-option-size:${s.optionSize}px">
-        ${header}
-        <div class="image-export-body">${body}</div>
-        ${s.showFooter ? `<footer class="image-export-footer">${esc(s.footerText || '')}</footer>` : ''}
-      </div>`;
-
-    document.body.appendChild(stage);
-    return stage;
-  }
-
-  async function fastDomToJpeg(card, quality = .92) {
-    /*
-     * JPG EXPORT RENDERER
-     *
-     * The previous SVG/foreignObject implementation looked attractive but is
-     * not a safe rasterization path in Chromium: drawing an SVG containing a
-     * foreignObject onto a canvas can produce an opaque/tainted canvas and
-     * canvas.toBlob() then throws:
-     *   SecurityError: Tainted canvases may not be exported.
-     *
-     * Use html2canvas for the actual DOM -> bitmap conversion. It renders the
-     * already-typeset question DOM directly, keeps MathJax output intact and
-     * avoids the cross-origin SVG canvas trap. The library is loaded once in
-     * index.html from jsDelivr. A dynamic loader is retained as a fallback.
-     */
-    const settings = snapshotSettings();
-    const scale = Math.min(2, Math.max(1, Number(settings.scale) || 1));
-
-    if (!window.html2canvas) {
-      await loadHtml2Canvas();
-    }
-    if (typeof window.html2canvas !== 'function') {
-      throw new Error('JPG renderer unavailable: html2canvas could not be loaded');
-    }
-
-    // Images inside the export card must be same-origin/data URLs for a clean
-    // canvas. Convert local images once; cached data URLs are reused.
-    const clone = card.cloneNode(true);
-    clone.style.width = `${Math.ceil(card.getBoundingClientRect().width)}px`;
-    clone.style.margin = '0';
-    clone.style.boxShadow = 'none';
-
-    const images = [...clone.querySelectorAll('img')];
-    await Promise.all(images.map(async (img) => {
-      const src = img.getAttribute('src');
-      if (!src || src.startsWith('data:')) return;
-
-      try {
-        const absolute = new URL(src, document.baseURI).href;
-        const response = await fetch(absolute, { cache: 'force-cache' });
-        if (!response.ok) throw new Error(`Image HTTP ${response.status}`);
-        img.setAttribute('src', await blobToDataUrl(await response.blob()));
-      } catch (_) {
-        // Hide an optional failed image instead of poisoning the whole export.
-        img.removeAttribute('src');
-        img.style.display = 'none';
-      }
-    }));
-
-    // Render a detached clone so export never changes or scrolls the visible UI.
-    const host = document.createElement('div');
-    host.style.cssText = [
-      'position:fixed',
-      'left:-100000px',
-      'top:0',
-      'width:0',
-      'height:0',
-      'overflow:visible',
-      'pointer-events:none',
-      'opacity:1',
-      'z-index:-1'
-    ].join(';');
-    host.appendChild(clone);
-    document.body.appendChild(host);
-
-    try {
-      // Force the same computed export CSS onto the detached clone.
-      // html2canvas reads computed styles from the real DOM, so this style
-      // element must live beside the clone rather than inside an SVG.
-      const styleTag = document.createElement('style');
-      styleTag.textContent = exportCss();
-      clone.prepend(styleTag);
-
-      await nextFrame();
-
-      const canvas = await window.html2canvas(clone, {
-        backgroundColor: settings.pageBg || '#ffffff',
-        scale,
-        useCORS: true,
-        allowTaint: false,
-        logging: false,
-        imageTimeout: 10000,
-        removeContainer: true,
-        foreignObjectRendering: false
-      });
-
-      if (!canvas || !canvas.width || !canvas.height) {
-        throw new Error('JPG renderer produced an empty canvas');
-      }
-
-      return await new Promise((resolve, reject) => {
-        canvas.toBlob(
-          blob => blob ? resolve(blob) : reject(new Error('JPG encoding failed')),
-          'image/jpeg',
-          quality
-        );
-      });
-    } finally {
-      host.remove();
-    }
-  }
-
-  let html2CanvasLoadPromise = null;
-
-  function loadHtml2Canvas() {
-    if (window.html2canvas) return Promise.resolve(window.html2canvas);
-    if (html2CanvasLoadPromise) return html2CanvasLoadPromise;
-
-    html2CanvasLoadPromise = new Promise((resolve, reject) => {
-      const existing = document.querySelector('script[data-html2canvas-fallback]');
-      if (existing) {
-        existing.addEventListener('load', () => resolve(window.html2canvas), { once: true });
-        existing.addEventListener('error', () => reject(new Error('Could not load html2canvas')), { once: true });
-        return;
-      }
-
-      const script = document.createElement('script');
-      script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
-      script.async = true;
-      script.dataset.html2canvasFallback = 'true';
-      script.onload = () => window.html2canvas
-        ? resolve(window.html2canvas)
-        : reject(new Error('html2canvas loaded without exposing its API'));
-      script.onerror = () => reject(new Error('Could not load html2canvas'));
-      document.head.appendChild(script);
-    });
-
-    return html2CanvasLoadPromise;
-  }
-
-  function blobToDataUrl(blob) {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onload = () => resolve(String(reader.result));
-      reader.onerror = () => reject(reader.error || new Error('Could not read image'));
-      reader.readAsDataURL(blob);
-    });
-  }
-
-  function downloadBlob(blob, filename) {
-    const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = filename; document.body.appendChild(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 5000);
-  }
-
-  const zipCrcTable = (() => {
-    const table = new Uint32Array(256);
-    for (let n = 0; n < 256; n++) { let c = n; for (let k = 0; k < 8; k++) c = (c & 1) ? (0xedb88320 ^ (c >>> 1)) : (c >>> 1); table[n] = c >>> 0; }
-    return table;
-  })();
-
-  function crc32(bytes) {
-    let crc = 0xffffffff;
-    for (let i = 0; i < bytes.length; i++) crc = zipCrcTable[(crc ^ bytes[i]) & 255] ^ (crc >>> 8);
-    return (crc ^ 0xffffffff) >>> 0;
-  }
-
-  function zipStored(entries) {
-    const enc = new TextEncoder();
-    const chunks = []; const central = []; let offset = 0;
-    const u16 = n => new Uint8Array([n & 255, (n >>> 8) & 255]);
-    const u32 = n => new Uint8Array([n & 255, (n >>> 8) & 255, (n >>> 16) & 255, (n >>> 24) & 255]);
-    const concat = parts => { const total = parts.reduce((n,p) => n + p.length, 0); const out = new Uint8Array(total); let at=0; for(const part of parts){out.set(part,at);at+=part.length;} return out; };
-    for (const entry of entries) {
-      const name = enc.encode(entry.name); const data = new Uint8Array(entry.bytes); const crc = crc32(data);
-      const local = concat([u32(0x04034b50),u16(20),u16(0x0800),u16(0),u16(0),u16(0),u32(crc),u32(data.length),u32(data.length),u16(name.length),u16(0),name,data]);
-      chunks.push(local);
-      const centralHeader = concat([u32(0x02014b50),u16(20),u16(20),u16(0x0800),u16(0),u16(0),u16(0),u32(crc),u32(data.length),u32(data.length),u16(name.length),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),name]);
-      central.push(centralHeader); offset += local.length;
-    }
-    const centralBytes = concat(central); const all = concat([...chunks, centralBytes, u32(0x06054b50),u16(0),u16(0),u16(entries.length),u16(entries.length),u32(centralBytes.length),u32(offset),u16(0)]);
-    return new Blob([all], {type:'application/zip'});
-  }
-
-  async function runExport() {
-    const job = state.exportJob; if (!job || job.running) return;
-    job.running = true; state.exportCancel = false; $('exportStart').disabled = true;
-    let slide = 0;
-    const entries = [];
-    try {
-      for (let i = 0; i < job.questions.length; i++) {
-        const q = job.questions[i];
-        for (const mode of ['question', 'answer']) {
-          if (state.exportCancel) throw new Error('EXPORT_CANCELLED');
-          slide++;
-          $('exportCurrent').textContent = `Rendering slide ${slide} of ${job.totalSlides} · Question ${i + 1}`;
-          $('exportPercent').textContent = `${Math.round(slide / job.totalSlides * 100)}%`;
-          $('exportProgressFill').style.width = `${slide / job.totalSlides * 100}%`;
-          await nextFrame();
-          const stage = makeImageExportStage(q, mode);
-          try {
-            await typesetExportStage(stage);
-            await nextFrame();
-            const blob = await fastDomToJpeg(stage.querySelector('.image-export-card'));
-            // Deliberately use only the slide number. No exam/chapter/ID slug:
-            // slide_1.jpg, slide_2.jpg, slide_3.jpg, ...
-            entries.push({ name: `slide_${slide}.jpg`, bytes: await blob.arrayBuffer() });
-          } finally { stage.remove(); }
-          await yieldToBrowser();
+  function loadFile(path) {
+    if (data.cache.has(path)) return Promise.resolve(data.cache.get(path));
+    if (data.pending.has(path)) return data.pending.get(path);
+    const file = data.byPath.get(path);
+    if (!file) return Promise.reject(new Error('Unknown file ' + path));
+    const p = fetch(new URL(path, QBASE))
+      .then(res => { if (!res.ok) throw new Error(`${res.status} loading ${path}`); return res.json(); })
+      .then(json => {
+        const seen = new Set();
+        const qs = [];
+        for (const raw of extractQuestions(json)) {
+          const id = String(raw.question_id ?? raw.id ?? '');
+          if (!id || seen.has(id) || !raw.question) continue;
+          seen.add(id);
+          qs.push(makeQuestion(raw, file));
         }
+        data.cache.set(path, qs);
+        qs.forEach(q => data.byId.set(q.id, q));
+        registerFile(path, qs);
+        return qs;
+      })
+      .finally(() => data.pending.delete(path));
+    data.pending.set(path, p);
+    return p;
+  }
+
+  async function loadFiles(paths, onProgress) {
+    const unique = [...new Set(paths)];
+    let done = 0;
+    const out = [];
+    let cursor = 0;
+    const worker = async () => {
+      while (cursor < unique.length) {
+        const path = unique[cursor++];
+        try { out.push(...await loadFile(path)); }
+        catch (err) { console.warn('Could not load', path, err); }
+        onProgress?.(++done, unique.length);
       }
-      $('exportCurrent').textContent = 'Packaging JPG slides';
-      $('exportStatus').textContent = 'Creating one ZIP so your browser does not have to handle dozens of separate downloads.';
-      await yieldToBrowser();
-      const zip = zipStored(entries);
-      downloadBlob(zip, `jee-pyq-export-${Date.now()}.zip`);
-      $('exportPercent').textContent = '100%';
-      $('exportProgressFill').style.width = '100%';
-      $('exportStatus').textContent = `Finished ${job.totalSlides} slides and packaged them into one ZIP.`;
-      toast(`Export complete · ${job.totalSlides} JPG slides`);
-    } catch (error) {
-      if (error?.message === 'EXPORT_CANCELLED') $('exportStatus').textContent = 'Export cancelled. Slides already generated remain saved.';
-      else { console.error('Bulk export failed:', error); $('exportStatus').textContent = 'Export failed. Try a smaller selection or lower image quality.'; toast('Export failed.'); }
-    } finally {
-      job.running = false; $('exportStart').disabled = false; $('exportCancel').disabled = false;
+    };
+    await Promise.all(Array.from({ length: Math.min(3, unique.length) }, worker));
+    return out;
+  }
+
+  /* ===================== Per-question helpers ===================== */
+  let lang = store.get(KEYS.lang, 'en');
+  const qd = (q, l = lang) => langBlock(q.raw, l);
+  const hasHindi = q => !!(q.raw.question && q.raw.question.hi && q.raw.question.en);
+  const qOptions = q => (qd(q).options || []).map((o, i) => (o && typeof o === 'object'
+    ? { id: String(o.identifier ?? String.fromCharCode(65 + i)), html: String(o.content ?? '') }
+    : { id: String.fromCharCode(65 + i), html: String(o ?? '') }));
+  const qCorrect = q => (langBlock(q.raw, 'en').correct_options || []).map(String);
+  const qAnswer = q => String(langBlock(q.raw, 'en').answer ?? '').trim();
+
+  const tpl = document.createElement('template');
+  function plainText(html) { tpl.innerHTML = html || ''; return tpl.content.textContent || ''; }
+
+  function sanitize(html) {
+    const t = document.createElement('template');
+    t.innerHTML = String(html ?? '');
+    const blocked = new Set(['SCRIPT', 'IFRAME', 'OBJECT', 'EMBED', 'APPLET', 'BASE', 'META', 'LINK', 'STYLE', 'FORM']);
+    t.content.querySelectorAll('*').forEach(el => {
+      if (blocked.has(el.tagName)) { el.remove(); return; }
+      [...el.attributes].forEach(at => {
+        const name = at.name.toLowerCase(), val = at.value.trim();
+        if (name.startsWith('on') || name === 'srcdoc' || name === 'style' && /url\s*\(|expression\s*\(/i.test(val)) el.removeAttribute(at.name);
+        else if (['href', 'src', 'xlink:href'].includes(name) && /^(javascript|vbscript|data:text\/html)/i.test(val)) el.removeAttribute(at.name);
+      });
+      if (el.tagName === 'IMG') el.setAttribute('loading', 'lazy');
+    });
+    return t.innerHTML;
+  }
+
+  function previewText(q) {
+    let text = plainText(qd(q).content).replace(/\s+/g, ' ').trim();
+    if (text.length > 220) {
+      let cut = text.slice(0, 220);
+      cut = cut.slice(0, Math.max(cut.lastIndexOf(' '), 120));
+      if ((cut.match(/\$/g) || []).length % 2) cut = cut.slice(0, cut.lastIndexOf('$')).trimEnd(); // never cut inside $…$
+      text = cut + '…';
     }
+    return text;
+  }
+  const searchText = q => (q._s ??= `${plainText(qd(q, 'en').content)} ${q.topic} ${q.chapter} ${q.paper}`.toLowerCase());
+  const paperShort = q => q.paper.replace(/^(jee\s*main|jee\s*advanced|iit[-\s]*jee)\s*/i, '').replace(/^\d{4}\s*/, '').trim();
+
+  /* ---- grading ---- */
+  function gradeAnswer(q, entry) {
+    const marks = { right: q.marks, wrong: -q.neg };
+    if (q.kind !== 'number') {
+      const right = qCorrect(q).slice().sort();
+      if (!right.length) return { gradable: false };
+      const got = (entry.sel || []).map(String).sort();
+      const correct = got.length === right.length && got.every((v, i) => v === right[i]);
+      return { gradable: true, correct, score: correct ? marks.right : marks.wrong };
+    }
+    const expected = qAnswer(q);
+    const typed = String(entry.val ?? '').trim();
+    if (!expected) return { gradable: false };
+    let correct = false;
+    const range = expected.match(/^(-?\d+(?:\.\d+)?)\s*(?:to|-)\s*(-?\d+(?:\.\d+)?)$/i);
+    const num = Number(typed.replace(/,/g, ''));
+    if (range && typed !== '' && Number.isFinite(num)) {
+      const lo = Math.min(Number(range[1]), Number(range[2])), hi = Math.max(Number(range[1]), Number(range[2]));
+      correct = num >= lo - 1e-9 && num <= hi + 1e-9;
+    } else if (typed !== '' && Number.isFinite(num) && Number.isFinite(Number(expected))) {
+      const target = Number(expected);
+      correct = Math.abs(num - target) <= Math.max(1e-6, Math.abs(target) * 1e-6);
+    } else {
+      correct = typed.toLowerCase() === expected.toLowerCase();
+    }
+    return { gradable: true, correct, score: correct ? marks.right : marks.wrong };
   }
 
-  // Image export: render the real question DOM in an off-screen card, let the
-  // same MathJax instance typeset it, then snapshot only that small card.
-  // This avoids reconstructing TeX on a canvas and avoids rendering the whole app.
-  function imageFileName(q) {
-    return `slide.jpg`;
+  /* ===================== Progress statistics (no question data needed) ===================== */
+  let statsDirty = true;
+  let latest = new Map();      // questionId -> most recent attempt
+  let chapStats = new Map();   // exam|subject|chapterKey -> {attempted, correct, wrong, time}
+
+  function attemptExam(a) {
+    if (a.exam) return a.exam;
+    const idx = meta.m[String(a.questionId)];
+    return idx != null ? data.byPath.get(meta.f[idx])?.exam || null : null;
   }
 
-  function nextPaint() {
-    return new Promise(resolve => requestAnimationFrame(() => resolve()));
+  function rebuildStats() {
+    latest = new Map();
+    for (const a of attempts) latest.set(String(a.questionId), a);
+    chapStats = new Map();
+    for (const a of latest.values()) {
+      const exam = attemptExam(a);
+      if (!exam) continue;
+      const key = `${exam}|${a.subject}|${norm(a.chapter)}`;
+      const s = chapStats.get(key) || { attempted: 0, correct: 0, wrong: 0, time: 0 };
+      s.attempted++; a.correct ? s.correct++ : s.wrong++; s.time += Number(a.timeMs) || 0;
+      chapStats.set(key, s);
+    }
+    statsDirty = false;
+  }
+  function chapterStats(exam, subject, chapter) {
+    if (statsDirty) rebuildStats();
+    return chapStats.get(`${exam}|${subject}|${norm(chapter)}`) || { attempted: 0, correct: 0, wrong: 0, time: 0 };
+  }
+  function subjectStats(exam, subject) {
+    const total = { attempted: 0, correct: 0, wrong: 0, questions: 0, chapters: 0 };
+    for (const f of filesFor(exam, subject)) {
+      const s = chapterStats(exam, subject, f.chapter);
+      total.attempted += s.attempted; total.correct += s.correct; total.wrong += s.wrong;
+      total.questions += f.count; total.chapters++;
+    }
+    return total;
+  }
+  const latestOf = id => { if (statsDirty) rebuildStats(); return latest.get(String(id)); };
+  function wrongIds(exam) {
+    if (statsDirty) rebuildStats();
+    return [...latest.values()].filter(a => !a.correct && attemptExam(a) === exam).map(a => String(a.questionId));
+  }
+  function filesForIds(ids) {
+    const paths = new Set(), missing = [];
+    for (const id of ids) {
+      const idx = meta.m[String(id)];
+      if (idx != null && data.byPath.has(meta.f[idx])) paths.add(meta.f[idx]); else missing.push(String(id));
+    }
+    return { paths: [...paths], missing };
   }
 
-  function snapshotSettingsMarkup() {
-    const s = snapshotSettings();
-    const toggle = (key, label, hint) => `
-      <label class="snapshot-toggle">
-        <input type="checkbox" data-snapshot-setting="${key}" ${s[key] ? 'checked' : ''}>
-        <span><b>${label}</b><small>${hint}</small></span>
-      </label>`;
-    const color = (key, label) => `<label class="snapshot-field color-field"><span>${label}</span><input type="color" data-snapshot-setting="${key}" value="${esc(s[key])}"></label>`;
-    return `
-      <div class="modal snapshot-modal" id="snapshotSettingsModal" role="dialog" aria-modal="true" aria-labelledby="snapshotSettingsTitle">
-        <div class="modal-card snapshot-settings-card">
-          <div class="modal-head">
-            <div><div class="eyebrow">IMAGE EXPORT</div><h2 id="snapshotSettingsTitle">Snapshot settings</h2><p>Choose exactly what appears in saved question images.</p></div>
-            <button class="close" id="closeSnapshotSettings" aria-label="Close">×</button>
-          </div>
-
-          <section class="snapshot-section">
-            <div class="section-heading"><div><h3>Elements</h3><p>Turn any part of the snapshot on or off.</p></div></div>
-            <div class="snapshot-toggle-grid">
-              ${toggle('showKicker','Brand kicker','JEE PRACTICE · PYQ')}
-              ${toggle('showTitle','Exam & subject','JEE Main · Physics')}
-              ${toggle('showPaper','Year & paper','Year and shift line')}
-              ${toggle('showBadges','Badges','Difficulty, type, chapter')}
-              ${toggle('showQuestionNumber','Question number','Small number above the question')}
-              ${toggle('showQuestion','Question','Question text and equations')}
-              ${toggle('showOptions','Options','All answer choices')}
-              ${toggle('showCorrectAnswer','Correct answer','Adds the correct option at the bottom')}
-              ${toggle('showExplanation','Explanation','Adds the saved explanation, if available')}
-              ${toggle('showFooter','Footer','Custom footer text')}
-              ${toggle('showLogo','Your logo','Use your uploaded logo at the top')}
-            </div>
-          </section>
-
-          <section class="snapshot-section">
-            <div class="section-heading"><div><h3>Branding & text</h3><p>Personalise the small details.</p></div></div>
-            <div class="snapshot-form-grid">
-              <label class="snapshot-field full-field"><span>Footer text</span><input type="text" maxlength="90" data-snapshot-setting="footerText" value="${esc(s.footerText)}"></label>
-              <label class="snapshot-field"><span>Logo</span><div class="snapshot-logo-row"><div class="snapshot-logo-preview" id="snapshotLogoPreview">${s.logoData ? `<img src="${esc(s.logoData)}" alt="Logo preview">` : '<span>+</span>'}</div><input id="snapshotLogoInput" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml"></div></label>
-              <div class="snapshot-field"><span>Logo actions</span><button class="secondary" id="removeSnapshotLogo" type="button">Remove logo</button></div>
-            </div>
-          </section>
-
-          <section class="snapshot-section">
-            <div class="section-heading"><div><h3>Colors</h3><p>Use your own palette instead of the default JEE Practice look.</p></div></div>
-            <div class="snapshot-color-grid">
-              ${color('accent','Accent')}${color('pageBg','Outer background')}${color('cardBg','Card background')}${color('text','Text')}
-              ${color('muted','Muted text')}${color('optionBg','Option background')}${color('border','Borders')}${color('badgeBg','Badge background')}
-            </div>
-          </section>
-
-          <section class="snapshot-section">
-            <div class="section-heading"><div><h3>Layout</h3><p>Control the image proportions and typography.</p></div></div>
-            <div class="snapshot-range-grid">
-              <label class="snapshot-field"><span>Width <b data-range-value="width">${s.width}px</b></span><input type="range" min="700" max="1400" step="10" data-snapshot-setting="width" value="${s.width}"></label>
-              <label class="snapshot-field"><span>Quality <b data-range-value="scale">${s.scale}×</b></span><input type="range" min="1" max="2" step="0.25" data-snapshot-setting="scale" value="${s.scale}"></label>
-              <label class="snapshot-field"><span>Corner radius <b data-range-value="radius">${s.radius}px</b></span><input type="range" min="0" max="42" step="1" data-snapshot-setting="radius" value="${s.radius}"></label>
-              <label class="snapshot-field"><span>Padding <b data-range-value="padding">${s.padding}px</b></span><input type="range" min="20" max="60" step="2" data-snapshot-setting="padding" value="${s.padding}"></label>
-              <label class="snapshot-field"><span>Question size <b data-range-value="questionSize">${s.questionSize}px</b></span><input type="range" min="16" max="30" step="1" data-snapshot-setting="questionSize" value="${s.questionSize}"></label>
-              <label class="snapshot-field"><span>Option size <b data-range-value="optionSize">${s.optionSize}px</b></span><input type="range" min="14" max="24" step="1" data-snapshot-setting="optionSize" value="${s.optionSize}"></label>
-            </div>
-          </section>
-
-          <div class="snapshot-settings-actions"><button class="secondary" id="snapshotReset">Reset defaults</button><button class="primary" id="closeSnapshotSettingsSave">Done</button></div>
-        </div>
-      </div>`;
-  }
-
-  function openSnapshotSettings() {
-    document.getElementById('snapshotSettingsModal')?.remove();
-    document.body.insertAdjacentHTML('beforeend', snapshotSettingsMarkup());
-    const modal = $('snapshotSettingsModal');
-    const close = () => { modal?.remove(); };
-    $('closeSnapshotSettings')?.addEventListener('click', close);
-    $('closeSnapshotSettingsSave')?.addEventListener('click', () => { persistSnapshotSettings(); close(); });
-    $('snapshotReset')?.addEventListener('click', () => {
-      state.snapshotSettings = { ...DEFAULT_SNAPSHOT_SETTINGS };
-      persistSnapshotSettings();
-      close();
-      openSnapshotSettings();
+  function recordAttempt(q, entry) {
+    attempts.push({
+      questionId: q.id, correct: !!entry.correct, score: entry.score, timeMs: Math.round(entry.spent || 0),
+      date: Date.now(), subject: q.subject, chapter: q.chapter, year: q.year, exam: q.exam
     });
-    $('removeSnapshotLogo')?.addEventListener('click', () => {
-      state.snapshotSettings.logoData = '';
-      persistSnapshotSettings();
-      close();
-      openSnapshotSettings();
-    });
-    $('snapshotLogoInput')?.addEventListener('change', handleSnapshotLogoUpload);
-    modal?.addEventListener('click', event => { if (event.target === modal) close(); });
-    modal?.querySelectorAll('[data-snapshot-setting]').forEach(input => {
-      input.addEventListener('input', () => updateSnapshotSettingFromInput(input));
-      input.addEventListener('change', () => updateSnapshotSettingFromInput(input));
-    });
+    if (!store.set(KEYS.attempts, attempts)) { /* toast already shown */ }
+    statsDirty = true;
   }
 
-  function updateSnapshotSettingFromInput(input) {
-    const key = input.dataset.snapshotSetting;
-    if (!key) return;
-    let value = input.type === 'checkbox' ? input.checked : input.value;
-    if (['width','scale','radius','padding','questionSize','optionSize'].includes(key)) value = Number(value);
-    state.snapshotSettings[key] = value;
-    persistSnapshotSettings();
-    const valueNode = document.querySelector(`[data-range-value="${key}"]`);
-    if (valueNode) valueNode.textContent = key === 'scale' ? `${value}×` : `${value}px`;
+  // Old attempts were saved without an exam. Quietly resolve the few chapters you have practised.
+  async function migrateLegacyAttempts() {
+    const orphan = attempts.filter(a => !a.exam && meta.m[String(a.questionId)] == null);
+    if (!orphan.length) return;
+    const wanted = new Set();
+    for (const a of orphan) {
+      data.files.filter(f => f.subject === a.subject && norm(f.chapter) === norm(a.chapter)).forEach(f => wanted.add(f.path));
+    }
+    if (!wanted.size) return;
+    await loadFiles([...wanted]);
+    statsDirty = true;
+    const hash = location.hash;
+    if (!document.body.classList.contains('in-session') && (hash === '' || hash === '#/' || hash.startsWith('#/subject') || hash === '#/progress')) route();
   }
 
-  function handleSnapshotLogoUpload(event) {
-    const file = event.target.files?.[0];
-    if (!file) return;
-    if (file.size > 1024 * 1024) {
-      toast('Please use a logo smaller than 1 MB.');
-      event.target.value = '';
+  /* ===================== Maths typesetting (lazy) ===================== */
+  const mjWaiters = [];
+  let mjChain = Promise.resolve();
+  function doTypeset(els) {
+    mjChain = mjChain.then(() => {
+      const live = els.filter(e => e.isConnected);
+      if (live.length && window.MathJax?.typesetPromise) return window.MathJax.typesetPromise(live);
+    }).catch(err => console.warn('MathJax:', err));
+    return mjChain;
+  }
+  function typeset(els) {
+    els = (Array.isArray(els) ? els : [els]).filter(e => e && e.isConnected);
+    if (!els.length || window.__mjFailed) return Promise.resolve();
+    if (!window.__mjReady) return new Promise(res => mjWaiters.push({ els, res }));
+    return doTypeset(els);
+  }
+  document.addEventListener('mj-ready', () => {
+    mjWaiters.splice(0).forEach(({ els, res }) => (window.__mjFailed ? res() : doTypeset(els).then(res)));
+  });
+  function typesetReveal(el) {
+    el.classList.add('mj-wait');
+    const done = () => el.classList.remove('mj-wait');
+    const t = setTimeout(done, 2500);
+    typeset(el).then(() => { clearTimeout(t); done(); });
+  }
+  const mathIO = 'IntersectionObserver' in window
+    ? new IntersectionObserver(entries => {
+      for (const e of entries) if (e.isIntersecting) { mathIO.unobserve(e.target); typeset(e.target); }
+    }, { rootMargin: '500px' })
+    : null;
+  function observeMath(root) {
+    $$('.mj:not([data-mj])', root).forEach(el => { el.dataset.mj = '1'; mathIO ? mathIO.observe(el) : typeset(el); });
+  }
+
+  /* ===================== App state & router ===================== */
+  const app = { exam: store.get(KEYS.exam, 'jee-main'), subject: 'Physics', token: 0 };
+  if (app.exam !== 'jee-advanced') app.exam = 'jee-main';
+  const view = () => $('#view');
+  const hrefs = {
+    home: () => '#/', subject: s => `#/subject/${encodeURIComponent(s)}`,
+    chapter: (s, c) => `#/chapter/${encodeURIComponent(s)}/${encodeURIComponent(c)}`,
+    build: () => '#/build', saved: () => '#/saved', progress: () => '#/progress'
+  };
+
+  function parseRoute() {
+    const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(p => { try { return decodeURIComponent(p); } catch { return p; } });
+    return { name: parts[0] || 'home', a: parts[1], b: parts[2] };
+  }
+
+  function renderNav(r) {
+    const lib = r.name === 'subject' || r.name === 'chapter';
+    const items = [
+      { id: 'home', label: 'Home', icon: 'home', href: hrefs.home(), on: r.name === 'home' },
+      { id: 'lib', label: 'Library', icon: 'book', href: hrefs.subject(app.subject), on: lib },
+      { id: 'build', label: 'Practice', icon: 'target', href: hrefs.build(), on: r.name === 'build' },
+      { id: 'saved', label: 'Saved', icon: 'star', href: hrefs.saved(), on: r.name === 'saved' },
+      { id: 'progress', label: 'Progress', icon: 'chart', href: hrefs.progress(), on: r.name === 'progress' }
+    ];
+    $('#sideNav').innerHTML = items.map(i => `<a class="nav-item ${i.on ? 'active' : ''}" href="${i.href}">${icon(i.icon)}<span>${i.label}</span></a>`).join('');
+    $('#tabBar').innerHTML = items.map(i => `<a class="${i.on ? 'active' : ''}" href="${i.href}" ${i.on ? 'aria-current="page"' : ''}>${icon(i.icon)}<span>${i.label}</span></a>`).join('');
+    $$('#examSeg button').forEach(b => { const on = b.dataset.v === app.exam; b.classList.toggle('active', on); b.setAttribute('aria-selected', String(on)); });
+  }
+
+  function setView(html, { scroll = true } = {}) {
+    const v = view();
+    v.innerHTML = html;
+    hydrateIcons(v);
+    observeMath(v);
+    if (scroll) window.scrollTo(0, 0);
+  }
+
+  function route() {
+    const r = parseRoute();
+    if (r.name === 'session') {
+      if (!S) { location.replace('#/'); return; }
+      showPractice();
       return;
     }
-    const reader = new FileReader();
-    reader.onload = () => {
-      state.snapshotSettings.logoData = String(reader.result || '');
-      persistSnapshotSettings();
-      const preview = $('snapshotLogoPreview');
-      if (preview) preview.innerHTML = `<img src="${esc(state.snapshotSettings.logoData)}" alt="Logo preview">`;
-    };
-    reader.readAsDataURL(file);
-  }
-
-  function resetSnapshotSettings() {
-    state.snapshotSettings = { ...DEFAULT_SNAPSHOT_SETTINGS };
-    persistSnapshotSettings();
-  }
-
-  function makeImageExportStage(q) {
-    const s = snapshotSettings();
-    const stage = document.createElement('div');
-    stage.className = 'image-export-stage';
-    stage.setAttribute('aria-hidden', 'true');
-    stage.style.width = `${s.width}px`;
-    stage.style.background = s.pageBg;
-    stage.style.color = s.text;
-
-    const options = qopts(q);
-    const meta = [q._difficulty || '', q._type || '', q._chapter || ''].filter(Boolean);
-    const answer = qcorrect(q);
-    const correctLabels = answer.length ? answer.join(', ') : '';
-    const logo = s.showLogo && s.logoData ? `<img class="image-export-logo" src="${esc(s.logoData)}" alt="">` : '';
-    const kicker = s.showKicker ? `<div class="image-export-kicker">JEE PRACTICE · PYQ</div>` : '';
-    const title = s.showTitle ? `<div class="image-export-title">${esc(prettyExam(q._exam))} · ${esc(q._subject || '')}</div>` : '';
-    const paper = s.showPaper ? `<div class="image-export-paper">${esc(prettyYear(q._year))}${paperLabel(q) ? ` · ${esc(paperLabel(q))}` : ''}</div>` : '';
-    const badges = s.showBadges ? `<div class="image-export-badges">${meta.map((item, i) => `<span class="image-export-badge badge-${i}">${esc(item)}</span>`).join('')}</div>` : '';
-    const number = s.showQuestionNumber ? `<div class="image-export-number">Question ${esc(q._number || q.question_number || '')}</div>` : '';
-    const question = s.showQuestion ? `<div class="image-export-question">${sanitizeHtml(qtext(q) || '')}</div>` : '';
-    const optionMarkup = s.showOptions && options.length ? `<div class="image-export-options">${options.map(option => `<div class="image-export-option"><span class="image-export-option-key">${esc(option.identifier)}</span><div class="image-export-option-content">${sanitizeHtml(option.content || '')}</div></div>`).join('')}</div>` : '';
-    const correctMarkup = s.showCorrectAnswer && correctLabels ? `<div class="image-export-answer"><strong>Correct answer</strong><span>${esc(correctLabels)}</span></div>` : '';
-    const explanation = s.showExplanation && qexplain(q) ? `<div class="image-export-explanation"><strong>Explanation</strong><div>${sanitizeHtml(qexplain(q))}</div></div>` : '';
-    const footer = s.showFooter ? `<footer class="image-export-footer">${esc(s.footerText || '')}</footer>` : '';
-
-    stage.innerHTML = `<div class="image-export-card" style="--export-accent:${esc(s.accent)};--export-card:${esc(s.cardBg)};--export-text:${esc(s.text)};--export-muted:${esc(s.muted)};--export-option:${esc(s.optionBg)};--export-border:${esc(s.border)};--export-badge:${esc(s.badgeBg)};--export-badge-text:${esc(s.badgeText)};--export-radius:${s.radius}px;--export-pad:${s.padding}px;--export-q-size:${s.questionSize}px;--export-option-size:${s.optionSize}px">
-      <header class="image-export-header">${logo}<div class="image-export-header-copy">${kicker}${title}${paper}</div></header>
-      <div class="image-export-body">${badges}${number}${question}${optionMarkup}${correctMarkup}${explanation}</div>${footer}
-    </div>`;
-    document.body.appendChild(stage);
-    return stage;
-  }
-
-  async function typesetExportStage(stage) {
-    const mj = window.MathJax;
-    if (!mj?.typesetPromise) return false;
+    if (S && !$('#practice').hidden) hidePractice();
+    const token = ++app.token;
+    renderNav(r);
+    document.title = 'JEEwise';
+    if (!data.ready) return;
     try {
-      if (mj.startup?.promise) await mj.startup.promise;
-      await mj.typesetPromise([stage]);
-      return true;
-    } catch (error) {
-      console.warn('MathJax export typesetting failed:', error);
-      return false;
+      switch (r.name) {
+        case 'subject': return pageSubject(r.a);
+        case 'chapter': return pageChapter(r.a, r.b, token);
+        case 'build': return pageBuild();
+        case 'saved': return pageSaved(token);
+        case 'progress': return pageProgress();
+        default: return pageHome();
+      }
+    } catch (err) {
+      console.error(err);
+      setView(`<div class="empty"><strong>Something went wrong showing this page</strong><span>${esc(err.message)}</span><a class="btn" href="#/">Go home</a></div>`);
     }
   }
 
-  async function saveQuestionAsImage(q, button) {
-    if (state.imageExporting.has(q._id)) return;
-    state.imageExporting.add(q._id);
-    if (button) { button.disabled = true; button.textContent = '…'; }
-    let stage = null;
-    try {
-      await nextFrame();
-      stage = makeImageExportStage(q, 'question');
-      await typesetExportStage(stage);
-      await nextFrame();
-      const blob = await fastDomToJpeg(stage.querySelector('.image-export-card'));
-      downloadBlob(blob, `slide_1.jpg`);
-      toast('JPG saved');
-    } catch (error) { console.error('Could not save question image:', error); toast('Could not create the JPG.'); }
-    finally { stage?.remove(); state.imageExporting.delete(q._id); if (button) { button.disabled = false; button.textContent = '⇩'; } }
+  function switchExam(exam) {
+    if (exam === app.exam) return;
+    app.exam = exam;
+    store.set(KEYS.exam, exam);
+    const r = parseRoute();
+    if (r.name === 'chapter') { location.hash = hrefs.subject(r.a); return; }
+    BUILD.sel.clear();
+    route();
   }
 
-  function openSingle(q) {
-    if (!q) return;
-    state.session = createSession([q], 'single');
-    state._sessionSource = 'single';
-    clearActiveSession();
-    openPractice();
+  /* ===================== Pages ===================== */
+  const rowStat = a => `<div class="stat"><b>${a[1]}</b><span>${a[0]}</span></div>`;
+
+  function pageHome() {
+    const exam = app.exam;
+    const subs = examSubjects(exam);
+    const totalQ = filesFor(exam).reduce((s, f) => s + f.count, 0);
+    if (statsDirty) rebuildStats();
+    const examAttempts = attempts.filter(a => attemptExam(a) === exam);
+    const uniq = new Set(examAttempts.map(a => String(a.questionId))).size;
+    const acc = examAttempts.length ? pct(examAttempts.filter(a => a.correct).length, examAttempts.length) + '%' : '—';
+    const dayStart = new Date().setHours(0, 0, 0, 0);
+    const today = attempts.filter(a => a.date >= dayStart).length;
+    const wrong = wrongIds(exam).length;
+    const active = readActive();
+    const answered = active ? Object.values(active.answers || {}).filter(a => a.status).length : 0;
+
+    setView(`
+      <div class="page-head"><div>
+        <div class="eyebrow">${examName(exam)} · Previous year questions</div>
+        <h1>What are we solving today?</h1>
+        <p>${totalQ.toLocaleString()} questions across ${filesFor(exam).length} chapters. Chapters load only when you open them.</p>
+      </div></div>
+      ${active ? `<div class="resume">
+        <div class="grow"><b>Continue where you left off</b>
+          <span class="muted">${esc(active.title)} · ${answered} of ${active.ids.length} answered · ${examName(active.exam)}</span></div>
+        <button class="btn primary" data-act="resume">${icon('play')} Resume</button>
+        <button class="btn ghost" data-act="discard-active">Discard</button></div>` : ''}
+      <div class="grid cols-3">${subs.map(s => {
+        const st = subjectStats(exam, s);
+        return `<a class="subject-card" href="${hrefs.subject(s)}">
+          <div class="tag">${SUBJECT_TAG[s] || esc(s.slice(0, 3).toUpperCase())}</div>
+          <div><h2>${esc(s)}</h2><div class="meta">${plural(st.questions, 'question')} · ${plural(st.chapters, 'chapter')}</div></div>
+          <div><div class="bar" title="${st.correct} correct, ${st.wrong} wrong">
+            <i class="g" style="width:${pct(st.correct, st.questions)}%"></i><i class="r" style="width:${pct(st.wrong, st.questions)}%"></i></div>
+          <div class="meta" style="margin-top:6px">${st.attempted} attempted${st.attempted ? ` · ${pct(st.correct, st.attempted)}% accuracy` : ''}</div></div>
+        </a>`;
+      }).join('')}</div>
+      <h2 class="section-title">Jump in</h2>
+      <div class="action-row">
+        <a class="action" href="${hrefs.build()}"><span class="ic">${icon('target')}</span><span><b>Custom practice</b><small>Pick chapters, length and order</small></span></a>
+        <button class="action" data-act="practice-mistakes" ${wrong ? '' : 'disabled'}><span class="ic">${icon('retry')}</span><span><b>Retry mistakes</b><small>${wrong ? plural(wrong, 'question') + ' you got wrong' : 'Nothing wrong yet'}</small></span></button>
+        <a class="action" href="${hrefs.saved()}"><span class="ic">${icon('star')}</span><span><b>Saved questions</b><small>${plural(bookmarks.size, 'bookmark')} · ${reviews.size} marked for review</small></span></a>
+      </div>
+      <h2 class="section-title">Your progress in ${examName(exam)}</h2>
+      <div class="grid cols-4">${[['Attempted', uniq], ['Accuracy', acc], ['Answered today', today], ['Questions', totalQ.toLocaleString()]].map(rowStat).join('')}</div>`);
   }
 
-  function filteredAllQuestions() {
-    const qs = examQs();
-    const search = $('allSearch').value.trim().toLowerCase();
-    const subject = $('allSubject').value;
-    const chapter = $('allChapter').value;
-    const year = $('allYear').value;
-    const status = $('allStatus').value;
-    return qs.filter(q =>
-      (!search || q._searchText.includes(search)) &&
-      (!subject || q._subject === subject) &&
-      (!chapter || q._chapter === chapter) &&
-      (!year || String(q._year) === year) &&
-      (!status || statusMatch(q, status))
-    );
+  /* ---- Library: chapters of a subject ---- */
+  const LIB = { q: '', filter: 'all', sort: 'default' };
+
+  function pageSubject(subject) {
+    const exam = app.exam;
+    const subs = examSubjects(exam);
+    if (!subject || !subs.includes(subject)) subject = subs[0];
+    app.subject = subject;
+    renderNav({ name: 'subject' });
+    setView(`
+      <div class="page-head"><div>
+        <div class="eyebrow">Question library · ${examName(exam)}</div>
+        <h1>${esc(subject)}</h1>
+        <p>Pick a chapter. Only that chapter's questions are loaded.</p></div></div>
+      <div class="tabs">${subs.map(s => `<a class="tab ${s === subject ? 'active' : ''}" href="${hrefs.subject(s)}">${esc(s)}<span class="n">${filesFor(exam, s).length}</span></a>`).join('')}</div>
+      <div class="toolbar">
+        <input class="input search" id="libSearch" type="search" placeholder="Search chapters…" value="${esc(LIB.q)}" aria-label="Search chapters">
+        <select class="select" id="libFilter" aria-label="Filter">
+          ${[['all', 'All chapters'], ['todo', 'Not started'], ['progress', 'In progress'], ['weak', 'Needs work (<60%)']].map(([v, l]) => `<option value="${v}" ${LIB.filter === v ? 'selected' : ''}>${l}</option>`).join('')}
+        </select>
+        <select class="select" id="libSort" aria-label="Sort">
+          ${[['default', 'Default order'], ['questions', 'Most questions'], ['weak', 'Weakest first'], ['best', 'Best accuracy']].map(([v, l]) => `<option value="${v}" ${LIB.sort === v ? 'selected' : ''}>${l}</option>`).join('')}
+        </select>
+      </div>
+      <div class="grid cols-auto" id="chapGrid"></div>`);
+    renderChapterGrid();
   }
 
-  function renderAllQuestions() {
-    const filtered = filteredAllQuestions();
-    const total = manifestStats(state.exam).questions;
-    const limit = state.allRenderLimit || 400;
-    $('allCount').textContent = total > filtered.length ? `${filtered.length.toLocaleString()} loaded · ${total.toLocaleString()} total` : `${filtered.length.toLocaleString()} questions`;
-    const visible = filtered.slice(0, limit);
-    $('allQuestions').innerHTML = visible.length
-      ? visible.map((q, i) => questionRow(q, i)).join('')
-      : '<div class="empty">No questions match these filters.</div>';
-    if (filtered.length > limit) {
-      $('allQuestions').insertAdjacentHTML('beforeend', `<div class="load-more-wrap"><button class="secondary" id="loadMoreQuestions">Show next ${Math.min(400, filtered.length - limit).toLocaleString()} · ${filtered.length.toLocaleString()} total matches</button></div>`);
-      $('loadMoreQuestions').onclick = () => { state.allRenderLimit = limit + 400; renderAllQuestions(); };
+  function renderChapterGrid() {
+    const exam = app.exam, subject = app.subject;
+    let rows = filesFor(exam, subject).map(f => {
+      const s = chapterStats(exam, subject, f.chapter);
+      return { f, s, acc: pct(s.correct, s.attempted) };
+    });
+    const q = LIB.q.trim().toLowerCase();
+    if (q) rows = rows.filter(r => r.f.chapter.toLowerCase().includes(q));
+    if (LIB.filter === 'todo') rows = rows.filter(r => !r.s.attempted);
+    if (LIB.filter === 'progress') rows = rows.filter(r => r.s.attempted && r.s.attempted < r.f.count);
+    if (LIB.filter === 'weak') rows = rows.filter(r => r.s.attempted >= 3 && r.acc < 60);
+    if (LIB.sort === 'questions') rows.sort((a, b) => b.f.count - a.f.count);
+    if (LIB.sort === 'weak') rows.sort((a, b) => (a.s.attempted ? a.acc : 101) - (b.s.attempted ? b.acc : 101));
+    if (LIB.sort === 'best') rows.sort((a, b) => (b.s.attempted ? b.acc : -1) - (a.s.attempted ? a.acc : -1));
+    const grid = $('#chapGrid');
+    if (!grid) return;
+    grid.innerHTML = rows.map(({ f, s, acc }) => `
+      <a class="chapter-card" href="${hrefs.chapter(subject, f.chapter)}">
+        <h3>${esc(f.chapter)}</h3>
+        <div class="bar"><i class="g" style="width:${pct(s.correct, f.count)}%"></i><i class="r" style="width:${pct(s.wrong, f.count)}%"></i></div>
+        <div class="row"><span>${plural(f.count, 'question')}</span><span>${s.attempted ? `${s.attempted} done · ${acc}%` : 'Not started'}</span></div>
+      </a>`).join('') || '<div class="empty" style="grid-column:1/-1"><strong>No chapters match</strong><span>Try clearing the search or filter.</span></div>';
+  }
+
+  /* ---- Chapter detail ---- */
+  let CP = null; // chapter page state
+
+  async function pageChapter(subject, chapter, token) {
+    const exam = app.exam;
+    const file = fileForChapter(exam, subject, chapter);
+    if (!file) {
+      setView(`<a class="back" href="${hrefs.subject(subject)}">${icon('left')} ${esc(subject || 'Library')}</a><div class="empty"><strong>Chapter not found</strong><span>It may not exist in ${examName(exam)}.</span></div>`);
+      return;
     }
-    bindQuestionRows();
-    updateBulkExportControls();
+    app.subject = file.subject;
+    renderNav({ name: 'chapter' });
+    const key = `${exam}|${file.path}`;
+    if (!CP || CP.key !== key) CP = { key, file, qs: [], tab: 'all', search: '', year: '', diff: '', kind: '', status: '', order: 'newest', limit: 60, filtered: [] };
+    if (!data.cache.has(file.path)) {
+      setView(`<a class="back" href="${hrefs.subject(file.subject)}">${icon('left')} ${esc(file.subject)}</a>
+        <div class="page-head"><div><div class="eyebrow">${esc(file.subject)} · ${examName(exam)}</div><h1>${esc(file.chapter)}</h1><p>Loading ${plural(file.count, 'question')}…</p></div></div>
+        ${'<div class="skeleton"></div>'.repeat(5)}`);
+    }
+    let qs;
+    try { qs = await loadFile(file.path); }
+    catch (err) {
+      if (token !== app.token) return;
+      setView(`<a class="back" href="${hrefs.subject(file.subject)}">${icon('left')} ${esc(file.subject)}</a>
+        <div class="empty"><strong>Couldn't load this chapter</strong><span>${esc(err.message)}. Check your connection and try again.</span><button class="btn primary" data-act="retry-route">Try again</button></div>`);
+      return;
+    }
+    if (token !== app.token) return;
+    CP.qs = qs;
+    drawChapter();
   }
 
-  function statusMatch(q, status) {
-    const attempt = lastAttempt(q._id);
-    if (status === 'unattempted') return !attempt;
-    if (status === 'correct') return !!attempt?.correct;
-    if (status === 'incorrect') return !!attempt && !attempt.correct;
-    if (status === 'bookmarked') return bookmarks().has(q._id);
-    if (status === 'review') return reviews().has(q._id);
+  function drawChapter() {
+    const { file, qs } = CP;
+    const years = [...new Set(qs.map(q => q.year).filter(Boolean))].sort((a, b) => b - a);
+    const diffs = [...new Set(qs.map(q => q.diff))].sort();
+    const kinds = [['single', 'Single correct'], ['multi', 'Multiple correct'], ['number', 'Numerical']].filter(([k]) => qs.some(q => q.kind === k));
+    const opt = (v, l, cur) => `<option value="${esc(v)}" ${String(cur) === String(v) ? 'selected' : ''}>${esc(l)}</option>`;
+    setView(`
+      <a class="back" href="${hrefs.subject(file.subject)}">${icon('left')} ${esc(file.subject)}</a>
+      <div class="page-head"><div>
+        <div class="eyebrow">${esc(file.subject)} · ${examName(app.exam)}</div>
+        <h1>${esc(file.chapter)}</h1>
+        <p>${plural(qs.length, 'question')}${years.length ? ` · ${years[years.length - 1]}–${years[0]}` : ''}</p></div>
+        <button class="btn primary" data-act="chapter-practice">${icon('play')} Practice</button></div>
+      <div class="grid cols-4" id="cpStats"></div>
+      <div class="tabs" style="margin-top:22px" id="cpTabs"></div>
+      <div class="toolbar">
+        <input class="input search" id="cpSearch" type="search" placeholder="Search in this chapter…" value="${esc(CP.search)}" aria-label="Search questions">
+        <select class="select" data-cp="year" aria-label="Year">${opt('', 'All years', CP.year)}${years.map(y => opt(y, y, CP.year)).join('')}</select>
+        <select class="select" data-cp="diff" aria-label="Difficulty">${opt('', 'Any difficulty', CP.diff)}${diffs.map(d => opt(d, d, CP.diff)).join('')}</select>
+        <select class="select" data-cp="kind" aria-label="Question type">${opt('', 'Any type', CP.kind)}${kinds.map(([k, l]) => opt(k, l, CP.kind)).join('')}</select>
+        <select class="select" data-cp="status" aria-label="Status">${[['', 'Any status'], ['new', 'Unattempted'], ['ok', 'Correct'], ['bad', 'Wrong'], ['bookmarked', 'Bookmarked'], ['review', 'For review']].map(([v, l]) => opt(v, l, CP.status)).join('')}</select>
+        <select class="select" data-cp="order" aria-label="Order">${opt('newest', 'Newest first', CP.order)}${opt('oldest', 'Oldest first', CP.order)}</select>
+      </div>
+      <div class="result-line"><span id="cpCount"></span><button class="btn ghost sm" data-act="cp-clear">Clear filters</button></div>
+      <div id="cpList"></div>`);
+    drawChapterMeta();
+    drawChapterList();
+  }
+
+  function drawChapterMeta() {
+    const qs = CP.qs;
+    const done = qs.map(q => latestOf(q.id)).filter(Boolean);
+    const wrong = done.filter(a => !a.correct).length;
+    const avg = done.length ? fmtTime(done.reduce((s, a) => s + (Number(a.timeMs) || 0), 0) / done.length) : '—';
+    $('#cpStats').innerHTML = [['Questions', qs.length], ['Attempted', done.length], ['Accuracy', done.length ? pct(done.length - wrong, done.length) + '%' : '—'], ['Avg time', avg]].map(rowStat).join('');
+    $('#cpTabs').innerHTML = `
+      <button class="tab ${CP.tab === 'all' ? 'active' : ''}" data-act="cp-tab" data-v="all">All questions<span class="n">${qs.length}</span></button>
+      <button class="tab ${CP.tab === 'mistakes' ? 'active' : ''}" data-act="cp-tab" data-v="mistakes">Mistakes<span class="n">${wrong}</span></button>`;
+  }
+
+  function chapterFiltered() {
+    let list = CP.qs;
+    if (CP.tab === 'mistakes') list = list.filter(q => { const a = latestOf(q.id); return a && !a.correct; });
+    const s = CP.search.trim().toLowerCase();
+    if (s) list = list.filter(q => searchText(q).includes(s));
+    if (CP.year) list = list.filter(q => String(q.year) === CP.year);
+    if (CP.diff) list = list.filter(q => q.diff === CP.diff);
+    if (CP.kind) list = list.filter(q => q.kind === CP.kind);
+    if (CP.status) list = list.filter(q => statusMatch(q, CP.status));
+    return ordered(list, CP.order);
+  }
+
+  function statusMatch(q, st) {
+    const a = latestOf(q.id);
+    if (st === 'new') return !a;
+    if (st === 'ok') return !!a && a.correct;
+    if (st === 'bad') return !!a && !a.correct;
+    if (st === 'bookmarked') return bookmarks.has(q.id);
+    if (st === 'review') return reviews.has(q.id);
     return true;
   }
 
-  function populateAllFilters() {
-    const qs = examQs();
-    $('allSubject').innerHTML = '<option value="">All subjects</option>' + subjects().map(s => `<option>${esc(s)}</option>`).join('');
-    $('allChapter').innerHTML = '<option value="">All chapters</option>' + [...new Set(qs.map(q => q._chapter))].sort().map(x => `<option>${esc(x)}</option>`).join('');
-    $('allYear').innerHTML = '<option value="">All years</option>' + [...new Set(qs.map(q => q._year).filter(Boolean))].sort((a, b) => b - a).map(x => `<option>${x}</option>`).join('');
+  function ordered(list, order) {
+    const arr = [...list];
+    if (order === 'random') {
+      for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; }
+      return arr;
+    }
+    const dir = order === 'oldest' ? 1 : -1;
+    return arr.map((q, i) => [q, i]).sort((x, y) => dir * (x[0].sortKey - y[0].sortKey) || x[1] - y[1]).map(x => x[0]);
   }
 
-  function renderBookmarks() {
-    const ids = bookmarks();
-    const qs = state.questions.filter(q => q._exam === state.exam && ids.has(q._id));
-    $('bookmarksContent').innerHTML = `<div class="result-line"><span>${qs.length} saved questions</span></div>${qs.length ? qs.map((q, i) => questionRow(q, i)).join('') : '<div class="empty">No bookmarks yet.</div>'}`;
-    bindQuestionRows();
-    updateBulkExportControls();
-  }
-
-  function renderHistory() {
-    const history = attempts().slice().reverse();
-    $('historyContent').innerHTML = history.length
-      ? `<div class="analytics-grid">
-          <div class="analysis-card"><span>Attempts</span><b>${history.length}</b></div>
-          <div class="analysis-card"><span>Accuracy</span><b>${Math.round(history.filter(x => x.correct).length / history.length * 100)}%</b></div>
-          <div class="analysis-card"><span>Avg. time</span><b>${formatTime(history.reduce((sum, x) => sum + (Number(x.timeMs) || 0), 0) / history.length)}</b></div>
-          <div class="analysis-card"><span>Total score</span><b>${history.reduce((sum, x) => sum + attemptScore(x), 0)}</b></div>
+  function qRow(q, i) {
+    const a = latestOf(q.id);
+    const st = a ? (a.correct ? ['ok', 'Correct'] : ['bad', 'Wrong']) : ['new', 'Unattempted'];
+    const saved = bookmarks.has(q.id);
+    return `<article class="qrow ${a ? (a.correct ? 'ok' : 'bad') : ''}" data-act="open-q" data-id="${esc(q.id)}" tabindex="0" role="button">
+      <div class="qnum">${i + 1}</div>
+      <div class="qbody">
+        <div class="qtext mj">${esc(previewText(q))}</div>
+        <div class="qmeta">
+          <span class="chip">${esc(q.year || 'Year n/a')}</span>
+          ${paperShort(q) ? `<span class="chip">${esc(paperShort(q))}</span>` : ''}
+          <span class="chip ${q.diff.toLowerCase()}">${esc(q.diff)}</span>
+          <span class="chip ${st[0]}">${st[1]}</span>
         </div>
-        <div>${history.slice(0, 100).map(item => {
-          const q = state.questionById.get(String(item.questionId));
-          return q ? questionRow(q, 0, { selectable: false }).replace('data-open-q', 'data-history-q') : '';
-        }).join('')}</div>`
-      : '<div class="empty">Your practice history will appear here after your first answer.</div>';
-
-    document.querySelectorAll('[data-history-q]').forEach(button => {
-      button.onclick = () => {
-        const q = state.questionById.get(String(button.dataset.historyQ));
-        if (q) openSingle(q);
-      };
-    });
-  }
-
-  function renderAnalytics() {
-    const qs = examQs();
-    const ids = new Set(qs.map(q => q._id));
-    const list = attempts().filter(a => ids.has(a.questionId));
-    const correct = list.filter(a => a.correct).length;
-    const bySubject = subjects().map(subject => {
-      const subIds = new Set(qs.filter(q => q._subject === subject).map(q => q._id));
-      const data = list.filter(a => subIds.has(a.questionId));
-      return [subject, data.length ? Math.round(data.filter(a => a.correct).length / data.length * 100) : 0, data.length];
-    });
-    const chapters = [...new Set(qs.map(q => q._chapter))].map(chapter => {
-      const chapterIds = new Set(qs.filter(q => q._chapter === chapter).map(q => q._id));
-      const data = list.filter(a => chapterIds.has(a.questionId));
-      return [chapter, data.length ? Math.round(data.filter(a => a.correct).length / data.length * 100) : 0, data.length];
-    }).filter(x => x[2]).sort((a, b) => a[1] - b[1]).slice(0, 8);
-
-    $('analyticsContent').innerHTML = `
-      <div class="analytics-grid">
-        <div class="analysis-card"><span>Accuracy</span><b>${list.length ? Math.round(correct / list.length * 100) + '%' : '—'}</b></div>
-        <div class="analysis-card"><span>Average time</span><b>${list.length ? formatTime(list.reduce((s, x) => s + x.timeMs, 0) / list.length) : '—'}</b></div>
-        <div class="analysis-card"><span>Questions attempted</span><b>${new Set(list.map(x => x.questionId)).size}</b></div>
-        <div class="analysis-card"><span>Bookmarks</span><b>${[...bookmarks()].filter(id => ids.has(id)).length}</b></div>
       </div>
-      <div class="analysis-panels">
-        <div class="analysis-panel"><h3>Accuracy by subject</h3>${bySubject.map(x => `<div class="bar-row"><span>${esc(x[0])}</span><div class="bar"><i style="width:${x[1]}%"></i></div><b>${x[1]}%</b></div>`).join('') || '<div class="empty">Attempt some questions first.</div>'}</div>
-        <div class="analysis-panel"><h3>Weakest chapters</h3>${chapters.map(x => `<div class="bar-row"><span title="${esc(x[0])}">${esc(x[0])}</span><div class="bar"><i style="width:${x[1]}%"></i></div><b>${x[1]}%</b></div>`).join('') || '<div class="empty">Attempt some questions first.</div>'}</div>
-      </div>`;
+      <button class="icon-btn ${saved ? 'on' : ''}" data-act="bookmark" data-id="${esc(q.id)}" aria-label="${saved ? 'Remove bookmark' : 'Bookmark'}" aria-pressed="${saved}">${icon('star')}</button>
+    </article>`;
   }
 
-  function createSession(pool, source) {
-    return {
-      id: `session-${Date.now()}`,
-      source,
-      questions: [...pool],
-      index: 0,
-      startedAt: Date.now(),
-      seen: [],
-      answers: {},
-      answerVisible: false
+  let listCtx = { qs: [], title: '', sourceKey: '' };
+
+  function drawChapterList() {
+    CP.filtered = chapterFiltered();
+    listCtx = { qs: CP.filtered, title: CP.file.chapter, sourceKey: '' };
+    const shown = CP.filtered.slice(0, CP.limit);
+    $('#cpCount').textContent = CP.filtered.length === CP.qs.length || CP.tab === 'mistakes' && !CP.search
+      ? plural(CP.filtered.length, 'question') : `${CP.filtered.length} of ${CP.qs.length} questions`;
+    const list = $('#cpList');
+    list.innerHTML = shown.length
+      ? shown.map(qRow).join('') + (CP.filtered.length > shown.length ? `<div style="text-align:center;margin-top:14px"><button class="btn" data-act="cp-more">Show ${Math.min(60, CP.filtered.length - shown.length)} more</button></div>` : '')
+      : `<div class="empty"><strong>${CP.tab === 'mistakes' ? 'No mistakes here' : 'No questions match'}</strong><span>${CP.tab === 'mistakes' ? 'A question leaves this list once you get it right.' : 'Try clearing a filter.'}</span></div>`;
+    hydrateIcons(list);
+    observeMath(list);
+  }
+
+  /* ---- Custom practice builder ---- */
+  const BUILD = { sel: new Set(), busy: false };
+
+  function pageBuild() {
+    const exam = app.exam;
+    const subs = examSubjects(exam);
+    for (const p of [...BUILD.sel]) if (data.byPath.get(p)?.exam !== exam) BUILD.sel.delete(p);
+    setView(`
+      <div class="page-head"><div>
+        <div class="eyebrow">Custom practice · ${examName(exam)}</div>
+        <h1>Build a session</h1>
+        <p>Choose the chapters you want to mix. Then set the length and order.</p></div></div>
+      ${subs.map(s => {
+        const files = filesFor(exam, s);
+        return `<section class="pick-group"><h3><span>${esc(s)}</span><button class="btn ghost sm" data-act="pick-subject" data-v="${esc(s)}">Select all / none</button></h3>
+          <div class="grid cols-auto">${files.map(f => `<button class="pick ${BUILD.sel.has(f.path) ? 'on' : ''}" data-act="pick" data-path="${esc(f.path)}" aria-pressed="${BUILD.sel.has(f.path)}">
+            <span class="box">${icon('check')}</span><span class="name">${esc(f.chapter)}</span><small>${f.count}</small></button>`).join('')}</div></section>`;
+      }).join('')}
+      <div class="sticky-bar"><div id="buildSummary"></div><button class="btn primary" id="buildGo" data-act="build-go">Continue ${icon('right')}</button></div>`);
+    drawBuildSummary();
+  }
+
+  function drawBuildSummary() {
+    const sel = [...BUILD.sel].map(p => data.byPath.get(p)).filter(Boolean);
+    const n = sel.reduce((s, f) => s + f.count, 0);
+    const el = $('#buildSummary'), btn = $('#buildGo');
+    if (!el) return;
+    el.innerHTML = sel.length ? `<b>${plural(sel.length, 'chapter')}</b> <span class="muted">· ${plural(n, 'question')}</span>` : '<span class="muted">Select at least one chapter</span>';
+    btn.disabled = !sel.length || BUILD.busy;
+  }
+
+  async function buildContinue() {
+    const paths = [...BUILD.sel];
+    if (!paths.length || BUILD.busy) return;
+    BUILD.busy = true;
+    const btn = $('#buildGo');
+    try {
+      const qs = await loadFiles(paths, (d, t) => { if (btn) btn.textContent = `Loading ${d}/${t}…`; });
+      if (!qs.length) { toast('Could not load those chapters.'); return; }
+      openSetup({ title: 'Custom practice', sourceKey: 'custom|' + app.exam + '|' + paths.slice().sort().join(','), pool: qs });
+    } finally {
+      BUILD.busy = false;
+      if ($('#buildGo')) { $('#buildGo').innerHTML = `Continue ${icon('right')}`; drawBuildSummary(); }
+    }
+  }
+
+  /* ---- Saved ---- */
+  const SV = { tab: 'bookmarks', findingOld: false };
+
+  async function pageSaved(token) {
+    const exam = app.exam;
+    const set = SV.tab === 'bookmarks' ? bookmarks : reviews;
+    const ids = [...set];
+    const { paths, missing } = filesForIds(ids);
+    const need = paths.filter(p => data.byPath.get(p)?.exam === exam && !data.cache.has(p));
+    if (need.length) {
+      setView(`<div class="page-head"><div><div class="eyebrow">Saved</div><h1>Your saved questions</h1></div></div>${'<div class="skeleton"></div>'.repeat(3)}`);
+      await loadFiles(need);
+      if (token !== app.token) return;
+    }
+    const list = ids.map(id => data.byId.get(id)).filter(q => q && q.exam === exam);
+    const unresolved = ids.filter(id => meta.m[id] == null).length;
+    listCtx = { qs: list, title: SV.tab === 'bookmarks' ? 'Bookmarks' : 'Review later', sourceKey: `saved|${SV.tab}|${exam}` };
+    setView(`
+      <div class="page-head"><div>
+        <div class="eyebrow">Saved · ${examName(exam)}</div><h1>Your saved questions</h1>
+        <p>Bookmark questions to keep them handy, or flag them to review later.</p></div>
+        <button class="btn primary" data-act="saved-practice" ${list.length ? '' : 'disabled'}>${icon('play')} Practice these</button></div>
+      <div class="tabs">
+        <button class="tab ${SV.tab === 'bookmarks' ? 'active' : ''}" data-act="sv-tab" data-v="bookmarks">Bookmarks<span class="n">${bookmarks.size}</span></button>
+        <button class="tab ${SV.tab === 'review' ? 'active' : ''}" data-act="sv-tab" data-v="review">Review later<span class="n">${reviews.size}</span></button>
+      </div>
+      ${unresolved ? `<div class="notice"><span class="grow">${plural(unresolved, 'older saved question')} haven't been located yet.</span><button class="btn sm" data-act="find-old" ${SV.findingOld ? 'disabled' : ''}>${SV.findingOld ? 'Searching…' : 'Find them'}</button></div>` : ''}
+      <div id="svList">${list.length ? list.map(qRow).join('') : `<div class="empty"><strong>Nothing here yet</strong><span>${SV.tab === 'bookmarks' ? 'Tap the star on any question to bookmark it.' : 'Use the flag button while practising to mark a question for review.'}</span></div>`}</div>`);
+  }
+
+  async function findOldSaved() {
+    if (SV.findingOld) return;
+    SV.findingOld = true;
+    const btn = $('[data-act="find-old"]'); if (btn) btn.disabled = true;
+    const todo = filesFor(app.exam).map(f => f.path).filter(p => !data.cache.has(p));
+    await loadFiles(todo, (d, t) => { const b = $('[data-act="find-old"]'); if (b) b.textContent = `Searching ${d}/${t}…`; });
+    SV.findingOld = false;
+    route();
+  }
+
+  /* ---- Progress ---- */
+  function pageProgress() {
+    const exam = app.exam;
+    if (statsDirty) rebuildStats();
+    const mine = attempts.filter(a => attemptExam(a) === exam);
+    const uniq = new Set(mine.map(a => String(a.questionId))).size;
+    const acc = mine.length ? pct(mine.filter(a => a.correct).length, mine.length) : 0;
+    const avg = mine.length ? fmtTime(mine.reduce((s, a) => s + (Number(a.timeMs) || 0), 0) / mine.length) : '—';
+    const score = mine.reduce((s, a) => s + (Number.isFinite(Number(a.score)) ? Number(a.score) : 0), 0);
+
+    const subjects = examSubjects(exam).map(s => ({ s, st: subjectStats(exam, s) }));
+    const weak = filesFor(exam).map(f => ({ f, st: chapterStats(exam, f.subject, f.chapter) }))
+      .filter(x => x.st.attempted >= 3).map(x => ({ ...x, acc: pct(x.st.correct, x.st.attempted) }))
+      .filter(x => x.acc < 75).sort((a, b) => a.acc - b.acc).slice(0, 6);
+
+    const days = [];
+    for (let i = 13; i >= 0; i--) { const d = new Date(); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - i); days.push({ d, n: 0 }); }
+    const startMs = days[0].d.getTime();
+    attempts.forEach(a => { if (a.date >= startMs) { const idx = Math.floor((new Date(a.date).setHours(0, 0, 0, 0) - startMs) / 864e5); if (days[idx]) days[idx].n++; } });
+    const maxDay = Math.max(1, ...days.map(d => d.n));
+    const sessions = store.get(KEYS.sessions, []);
+    const recent = (Array.isArray(sessions) ? sessions : []).slice(-8).reverse();
+
+    setView(`
+      <div class="page-head"><div><div class="eyebrow">Progress · ${examName(exam)}</div><h1>How you're doing</h1>
+        <p>Accuracy, speed and the chapters that need more work.</p></div></div>
+      ${mine.length ? '' : `<div class="empty" style="margin-bottom:18px"><strong>No attempts in ${examName(exam)} yet</strong><span>Solve a few questions and your stats will show up here.</span><a class="btn primary" href="${hrefs.build()}">Start practising</a></div>`}
+      <div class="grid cols-4">${[['Questions attempted', uniq], ['Accuracy (all attempts)', mine.length ? acc + '%' : '—'], ['Avg time per question', avg], ['Total score', score]].map(rowStat).join('')}</div>
+      <h2 class="section-title">By subject</h2>
+      <div class="card row-bars">${subjects.map(({ s, st }) => `<div class="row-bar">
+        <div class="top-line"><b>${esc(s)}</b><span class="muted">${st.attempted}/${st.questions} attempted${st.attempted ? ` · ${pct(st.correct, st.attempted)}% accuracy` : ''}</span></div>
+        <div class="bar"><i class="g" style="width:${pct(st.correct, st.questions)}%"></i><i class="r" style="width:${pct(st.wrong, st.questions)}%"></i></div></div>`).join('')}</div>
+      <h2 class="section-title">Last 14 days</h2>
+      <div class="card"><div class="activity">${days.map(d => `<div class="col" title="${d.n} answered"><i style="height:${Math.max(3, Math.round(d.n / maxDay * 80))}px;opacity:${d.n ? 1 : .25}"></i><span>${d.d.getDate()}</span></div>`).join('')}</div></div>
+      <div class="grid cols-2" style="margin-top:6px">
+        <div><h2 class="section-title">Chapters to revisit</h2><div class="card">${weak.length ? weak.map(({ f, acc: a }) => `<a class="list-row" href="${hrefs.chapter(f.subject, f.chapter)}"><span><b>${esc(f.chapter)}</b><span class="muted">${esc(f.subject)}</span></span><span class="chip ${a < 50 ? 'bad' : 'warn'}">${a}%</span></a>`).join('') : '<span class="muted">Chapters with at least 3 answers and under 75% accuracy will appear here.</span>'}</div></div>
+        <div><h2 class="section-title">Recent sessions</h2><div class="card">${recent.length ? recent.map(s => `<div class="list-row"><span><b>${esc(s.label || 'Practice')}</b><span class="muted">${fmtDate(s.date)}</span></span><span class="chip ${pct(s.correct, s.answered) >= 60 ? 'ok' : 'warn'}">${s.correct}/${s.answered}</span></div>`).join('') : '<span class="muted">Finish a session to see it here.</span>'}</div></div>
+      </div>`);
+  }
+
+  /* ===================== Practice setup dialog ===================== */
+  let SU = null;
+  function openModal(html, onClose) {
+    const root = $('#modalRoot');
+    root.innerHTML = `<div class="modal" role="dialog" aria-modal="true">${html}</div>`;
+    root.hidden = false;
+    root._onClose = onClose;
+    hydrateIcons(root);
+    const f = $('button, input, select', root.firstChild); f?.focus();
+  }
+  function closeModal() {
+    const root = $('#modalRoot');
+    if (root.hidden) return;
+    root.hidden = true; root.innerHTML = '';
+    root._onClose?.(); root._onClose = null;
+    SU = null;
+  }
+
+  function suPool() {
+    let list = SU.pool;
+    if (SU.include === 'new') list = list.filter(q => !latestOf(q.id));
+    if (SU.include === 'bad') list = list.filter(q => { const a = latestOf(q.id); return a && !a.correct; });
+    if (SU.diff) list = list.filter(q => q.diff === SU.diff);
+    return list;
+  }
+
+  function openSetup({ title, sourceKey, pool }) {
+    SU = { title, sourceKey, pool, include: 'all', diff: '', order: prefs.order, length: prefs.length };
+    drawSetup();
+  }
+
+  function drawSetup() {
+    const root = $('#modalRoot');
+    const counts = { all: SU.pool.length, new: SU.pool.filter(q => !latestOf(q.id)).length, bad: SU.pool.filter(q => { const a = latestOf(q.id); return a && !a.correct; }).length };
+    const diffs = [...new Set(SU.pool.map(q => q.diff))].filter(d => d !== 'Unknown').sort((a, b) => ['Easy', 'Medium', 'Hard'].indexOf(a) - ['Easy', 'Medium', 'Hard'].indexOf(b));
+    const avail = suPool();
+    const n = avail.length;
+    const eff = SU.length === 'all' ? n : Math.min(Number(SU.length) || 20, n);
+    const years = avail.map(q => q.year).filter(Boolean);
+    const saved = readActive();
+    const hasSaved = saved && saved.sourceKey === SU.sourceKey && saved.exam === app.exam;
+    const lens = [10, 20, 30, 50, 100].filter(v => v < n);
+    const html = `
+      <div class="modal-head"><div><div class="eyebrow">Practice setup</div><h2>${esc(SU.title)}</h2>
+        <p>${plural(SU.pool.length, 'question')} available${years.length ? ` · ${Math.min(...years)}–${Math.max(...years)}` : ''}</p></div>
+        <button class="icon-btn" data-act="close-modal" aria-label="Close">${icon('x')}</button></div>
+      ${hasSaved ? `<div class="notice"><span class="grow"><b>Unfinished session</b><br><span class="muted">${Object.values(saved.answers || {}).filter(a => a.status).length} of ${saved.ids.length} answered</span></span>
+        <button class="btn primary sm" data-act="resume">Resume</button></div>` : ''}
+      <div class="field"><span class="label">Questions to include</span><div class="choices">
+        ${[['all', 'All'], ['new', 'Unattempted'], ['bad', 'Previously wrong']].map(([v, l]) => `<button class="choice ${SU.include === v ? 'active' : ''}" data-act="su" data-k="include" data-v="${v}" ${counts[v] ? '' : 'disabled'}>${l} · ${counts[v]}</button>`).join('')}</div></div>
+      ${diffs.length > 1 ? `<div class="field"><span class="label">Difficulty</span><div class="choices">
+        <button class="choice ${SU.diff === '' ? 'active' : ''}" data-act="su" data-k="diff" data-v="">Any</button>
+        ${diffs.map(d => `<button class="choice ${SU.diff === d ? 'active' : ''}" data-act="su" data-k="diff" data-v="${esc(d)}">${esc(d)} · ${SU.pool.filter(q => q.diff === d).length}</button>`).join('')}</div></div>` : ''}
+      <div class="field"><span class="label">Session length</span><div class="choices">
+        ${lens.map(v => `<button class="choice ${eff === v && SU.length !== 'all' ? 'active' : ''}" data-act="su" data-k="length" data-v="${v}">${v}</button>`).join('')}
+        <button class="choice ${eff === n && (SU.length === 'all' || !lens.includes(eff)) ? 'active' : ''}" data-act="su" data-k="length" data-v="all" ${n ? '' : 'disabled'}>All · ${n}</button></div></div>
+      <div class="field"><span class="label">Question order</span><div class="order-grid">
+        ${[['newest', 'down', 'Newest first', 'Latest paper first'], ['oldest', 'up', 'Oldest first', 'Earliest paper first'], ['random', 'shuffle', 'Random', 'Shuffled']].map(([v, ic, l, s]) =>
+          `<button class="order-card ${SU.order === v ? 'active' : ''}" data-act="su" data-k="order" data-v="${v}"><span class="i">${icon(ic)}</span><b>${l}</b><small>${s}</small></button>`).join('')}</div></div>
+      <div class="modal-foot"><span class="muted">${hasSaved ? 'Starting a new session replaces the unfinished one.' : ''}</span>
+        <button class="btn primary" data-act="su-start" ${n ? '' : 'disabled'}>Start ${plural(eff, 'question')} ${icon('right')}</button></div>`;
+    if (root.hidden) openModal(html); else { root.firstChild.innerHTML = html; hydrateIcons(root); }
+  }
+
+  function startFromSetup() {
+    if (!SU) return;
+    const pool = suPool();
+    if (!pool.length) return;
+    prefs.order = SU.order; if (SU.length) prefs.length = SU.length; store.set(KEYS.prefs, prefs);
+    let list = ordered(pool, SU.order);
+    if (SU.length !== 'all') list = list.slice(0, Number(SU.length) || 20);
+    const { title, sourceKey } = SU;
+    closeModal();
+    startSession({ title, sourceKey, qs: list });
+  }
+
+  function openShortcuts() {
+    openModal(`<div class="modal-head"><div><h2>Keyboard shortcuts</h2><p>While practising</p></div><button class="icon-btn" data-act="close-modal" aria-label="Close">${icon('x')}</button></div>
+      <div class="kbd-list">
+        ${[['Select an option', '<kbd>1</kbd>–<kbd>5</kbd> or <kbd>A</kbd>–<kbd>E</kbd>'], ['Type a numerical answer', '<kbd>0</kbd>–<kbd>9</kbd>'], ['Submit / next question', '<kbd>Enter</kbd>'],
+          ['Next / previous', '<kbd>→</kbd> <kbd>←</kbd>'], ['Show answer', '<kbd>S</kbd>'], ['Bookmark', '<kbd>M</kbd>'], ['Review later', '<kbd>R</kbd>'], ['Question list', '<kbd>G</kbd>'], ['Close dialogs', '<kbd>Esc</kbd>']]
+          .map(([a, b]) => `<div class="kbd-row"><span>${a}</span><span>${b}</span></div>`).join('')}
+      </div>`);
+  }
+
+  /* ===================== Practice session ===================== */
+  let S = null;
+  let tickTimer = null;
+
+  const cur = () => S.qs[S.index];
+  const ans = q => (S.answers[q.id] ||= { sel: [], val: '', status: '', spent: 0 });
+
+  function readActive() {
+    const a = store.get(KEYS.active, null);
+    if (!a || !Array.isArray(a.ids) || !a.ids.length || !a.answers || typeof a.answers !== 'object') return null;
+    return a;
+  }
+  function saveActive() {
+    if (!S || S.ephemeral || S.finished) return;
+    flushTime();
+    store.set(KEYS.active, {
+      v: 4, title: S.title, sourceKey: S.sourceKey, exam: S.exam, ids: S.ids,
+      files: [...new Set(S.qs.map(q => q.file))], index: S.index, startedAt: S.startedAt, answers: S.answers
+    });
+  }
+  function discardActive() { store.del(KEYS.active); }
+
+  function flushTime() {
+    if (!S || S.view !== 'question' || !S.tick) return;
+    const e = ans(cur());
+    const now = Date.now();
+    if (!e.status) e.spent += now - S.tick;
+    S.tick = document.hidden ? 0 : now;
+  }
+
+  function startSession({ title, sourceKey, qs, index = 0, ephemeral = false, answers = {}, startedAt }) {
+    if (!qs.length) { toast('No questions to practise.'); return; }
+    S = {
+      title, sourceKey, qs, ids: qs.map(q => q.id), index: Math.max(0, Math.min(index, qs.length - 1)),
+      ephemeral, answers, startedAt: startedAt || Date.now(), tick: 0, view: 'question',
+      drawer: false, exam: app.exam, finished: false, pushed: false
     };
+    if (!ephemeral) saveActive();
+    if (parseRoute().name === 'session') { showPractice(); return; }
+    S.pushed = true;
+    location.hash = '#/session';
   }
 
-  function openSession(source = 'current') {
-    let pool;
-    if (source === 'chapter') {
-      pool = examQs().filter(q => q._subject === state.subject && q._chapter === state.chapter);
-    } else if (source === 'weak') {
-      pool = examQs().filter(q => {
-        const list = getAttempts(q._id);
-        return list.length && (list.filter(x => x.correct).length / list.length < 0.6 || list.some(x => x.timeMs > 120000));
-      });
-    } else if (source === 'mistakes') {
-      pool = getChapterMistakes();
-    } else if (source === 'allFiltered') {
-      pool = filteredAllQuestions();
-    } else if (source === 'single') {
-      pool = [state.questions[state.index]].filter(Boolean);
-    } else {
-      pool = examQs();
-    }
-
-    state._pool = [...pool];
-    state._sessionSource = source;
-    state.order = 'random';
-    state.resumeChoice = 'resume';
-    state.sessionCount = Math.min(20, pool.length) || 1;
-    $('sessionTitle').textContent = source === 'chapter' ? state.chapter : 'Practice session';
-    $('sessionSubtitle').textContent = `${pool.length} questions · ${prettyExam(state.exam)} · ${yearRange(pool)}. All matching questions will be included.`;
-    $('sessionCount').value = String(state.sessionCount);
-    updateSessionSummary(pool.length);
-
-    document.querySelectorAll('[data-order-choice]').forEach(b => b.classList.toggle('active', b.dataset.orderChoice === 'newest'));
-    document.querySelectorAll('[data-resume-choice]').forEach(b => b.classList.toggle('active', b.dataset.resumeChoice === 'resume'));
-    $('sessionFound').hidden = !getSavedSession(pool);
-    state.modalReturnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
-    const modal = $('sessionModal');
-    modal.classList.remove('hidden');
-    modal.setAttribute('aria-hidden', 'false');
-    requestAnimationFrame(() => modal.querySelector('button, [href], input, select, textarea')?.focus());
+  function showPractice() {
+    const root = $('#practice');
+    root.hidden = false;
+    document.body.classList.add('in-session');
+    document.body.style.overflow = 'hidden';
+    if (S.view === 'question') S.tick = document.hidden ? 0 : Date.now();
+    renderPractice();
+    clearInterval(tickTimer);
+    tickTimer = setInterval(updateTimer, 500);
   }
 
-  function closeModal(id) {
-    const modal = $(id);
-    if (!modal) return;
-    modal.classList.add('hidden');
-    modal.setAttribute('aria-hidden', 'true');
-    const returnFocus = state.modalReturnFocus;
-    state.modalReturnFocus = null;
-    if (returnFocus && document.contains(returnFocus)) {
-      requestAnimationFrame(() => returnFocus.focus());
-    }
-  }
-
-  function sessionSourceKey(pool) {
-    return pool.map(q => q._id).join('|');
-  }
-
-  function getSavedSession(pool) {
-    const raw = read(KEY.active, null);
-    if (!raw || !Array.isArray(raw.questions) || !raw.questions.length) return null;
-    if (raw.sourceKey !== sessionSourceKey(pool)) return null;
-    if (!Number.isInteger(raw.index) || raw.index < 0 || raw.index >= raw.questions.length) return null;
-    if (!raw.answers || typeof raw.answers !== 'object') return null;
-    return raw;
-  }
-
-  function saveActiveSession() {
-    if (!state.session?.questions?.length) return;
-    write(KEY.active, {
-      sourceKey: sessionSourceKey(state.session.questions),
-      questions: state.session.questions.map(q => q._id),
-      index: state.index,
-      startedAt: state.session.startedAt,
-      seen: state.session.seen,
-      answers: state.session.answers
-    });
-  }
-
-  function normalizeSavedAnswers(rawAnswers, questions) {
-    const source = rawAnswers && typeof rawAnswers === 'object' ? rawAnswers : {};
-    const ids = new Set(questions.map(q => q._id));
-    const result = {};
-    Object.entries(source).forEach(([id, raw]) => {
-      if (!ids.has(id) || !raw || typeof raw !== 'object') return;
-      const selectedIds = Array.isArray(raw.selectedIds) ? raw.selectedIds.map(String) : [];
-      result[id] = {
-        selectedIds,
-        value: typeof raw.value === 'string' ? raw.value : '',
-        submitted: raw.submitted === true,
-        correct: raw.correct === true,
-        score: Number.isFinite(Number(raw.score)) ? Number(raw.score) : undefined,
-        timeMs: Number.isFinite(Number(raw.timeMs)) ? Math.max(0, Number(raw.timeMs)) : 0,
-        date: Number.isFinite(Number(raw.date)) ? Number(raw.date) : Date.now()
-      };
-    });
-    return result;
-  }
-
-  function clearActiveSession() {
-    try { localStorage.removeItem(KEY.active); } catch { /* storage may be unavailable */ }
-  }
-
-  function updateSessionSummary(poolLength) {
-    const count = Number(state.sessionCount) || poolLength;
-    $('sessionSummaryCount').textContent = `${Math.min(count, poolLength)} question${Math.min(count, poolLength) === 1 ? '' : 's'} in this session`;
-    const hint = $('sessionCountHint'); if (hint) hint.textContent = count >= poolLength ? 'Full set' : `${poolLength - count} left out for a shorter session`;
-  }
-
-  function launchSession() {
-    let pool = [...(state._pool || examQs())];
-    if (!pool.length) {
-      closeModal('sessionModal');
-      toast('There are no questions in this selection.');
-      return;
-    }
-
-    const saved = getSavedSession(pool);
-    if (state.resumeChoice === 'resume' && saved) {
-      const byId = new Map(pool.map(q => [q._id, q]));
-      const questions = saved.questions.map(id => byId.get(id)).filter(Boolean);
-      if (questions.length) {
-        state.session = {
-          id: `resumed-${Date.now()}`,
-          source: state._sessionSource,
-          questions,
-          index: Math.min(saved.index || 0, questions.length - 1),
-          startedAt: saved.startedAt || Date.now(),
-          seen: saved.seen || [],
-          answers: saved.answers || {},
-          answerVisible: false
-        };
-        state.index = state.session.index;
-        closeModal('sessionModal');
-        openPractice(true);
-        return;
-      }
-    }
-
-    if (state.order === 'random') pool = shuffle(pool);
-    if (state.order === 'newest') pool.sort((a, b) => b._year - a._year);
-    if (state.order === 'oldest') pool.sort((a, b) => a._year - b._year);
-    const requestedCount = Number(state.sessionCount) || pool.length;
-    if (requestedCount < pool.length) pool = pool.slice(0, requestedCount);
-
-    state.session = createSession(pool, state._sessionSource);
-    clearActiveSession();
-    closeModal('sessionModal');
-    openPractice();
-  }
-
-  function shuffle(array) {
-    const copy = [...array];
-    for (let i = copy.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [copy[i], copy[j]] = [copy[j], copy[i]];
-    }
-    return copy;
-  }
-
-  function openPractice() {
-    state.index = state.session.index || 0;
-    $('practiceOverlay').classList.remove('hidden');
-    saveActiveSession();
-    showPracticeQuestion();
-  }
-
-  function currentQuestion() { return state.session?.questions?.[state.index]; }
-
-  function showPracticeQuestion() {
-    const q = currentQuestion();
-    if (!q) return closePractice();
-
-    if (!state.session.seen.includes(q._id)) state.session.seen.push(q._id);
-    state.selected = new Set(state.session.answers[q._id]?.selectedIds || []);
-    state.session.answerVisible = false;
-    state.qStartedAt = Date.now();
-
-    $('practiceChapter').textContent = q._chapter;
-    $('practiceExam').textContent = `${prettyExam(q._exam)} · ${prettyYear(q._year)}`;
-    $('practiceNumber').textContent = state.index + 1;
-    $('questionTime').textContent = state.session.answers[q._id]?.submitted ? formatTime(state.session.answers[q._id].timeMs) : '00:00';
-    $('practiceBadges').innerHTML = [
-      `<span class="practice-badge exam-badge">${esc(prettyExam(q._exam))}</span>`,
-      `<span class="practice-badge year-badge">${esc(prettyYear(q._year))}</span>`,
-      `<span class="practice-badge">${esc(q._subject)}</span>`,
-      q.paperTitle ? `<span class="practice-badge paper-badge">${esc(paperLabel(q))}</span>` : ''
-    ].join('');
-    $('practicePrompt').innerHTML = sanitizeHtml(qtext(q));
-
-    renderAnswers(q);
-    // MathJax output is replaced whenever the answer options are re-rendered.
-    // Typeset the newly-created answer area so selecting an option never exposes raw TeX.
-    typeset($('answerArea'));
-    updateQuestionStatusVisuals(q);
-    renderStrip();
-    renderPalette();
-    setAnswerVisibility(false);
-    updateSavedButtons();
-    updateSubmitButtons(q);
-
-    if (!state.session.answers[q._id]?.submitted) startTimer();
-    else stopTimer();
-    saveActiveSession();
-    typeset([$('practicePrompt'), $('answerArea')].filter(Boolean));
-  }
-
-  function renderAnswers(q) {
-    const opts = qopts(q);
-    const answer = state.session.answers[q._id];
-
-    if (opts.length) {
-      $('answerArea').innerHTML = `<div class="answer-options">${opts.map((option, i) => {
-        const selected = state.selected.has(String(option.identifier));
-        const correct = answer?.submitted && qcorrect(q).includes(String(option.identifier));
-        const incorrect = answer?.submitted && selected && !correct;
-        return `<button class="answer-option ${selected ? 'selected' : ''} ${correct ? 'correct' : ''} ${incorrect ? 'incorrect' : ''}" data-option="${i}">
-          <span class="option-key">${esc(option.identifier)}</span><span class="option-content">${sanitizeHtml(option.content)}</span>
-        </button>`;
-      }).join('')}</div>`;
-      document.querySelectorAll('.answer-option').forEach(button => {
-        button.onclick = () => toggleOption(Number(button.dataset.option));
-        button.disabled = !!answer?.submitted;
-      });
-    } else {
-      $('answerArea').innerHTML = `<input class="fill-answer" id="fillAnswer" inputmode="${q._type.toLowerCase().includes('integer') ? 'decimal' : 'text'}" autocomplete="off" aria-label="Your answer" placeholder="Enter your answer" value="${esc(answer?.value || '')}" ${answer?.submitted ? 'disabled' : ''}>`;
-      const input = $('fillAnswer');
-      if (input && !answer?.submitted) {
-        input.addEventListener('input', () => {
-          state.session.answers[q._id] = {
-            ...(state.session.answers[q._id] || {}),
-            value: input.value
-          };
-          updateSubmitButtons(q);
-          saveActiveSession();
-        });
-      }
-    }
-  }
-
-  function toggleOption(index) {
-    const q = currentQuestion();
-    const answer = state.session.answers[q._id];
-    if (answer?.submitted) return;
-
-    const options = qopts(q);
-    const id = String(options[index]?.identifier ?? String.fromCharCode(65 + index));
-    const type = (q._type || '').toLowerCase();
-    if (type.includes('single') || type === 'mcq' || qcorrect(q).length <= 1) {
-      state.selected = new Set([id]);
-    } else if (state.selected.has(id)) {
-      state.selected.delete(id);
-    } else {
-      state.selected.add(id);
-    }
-
-    state.session.answers[q._id] = {
-      ...(state.session.answers[q._id] || {}),
-      selectedIds: [...state.selected]
-    };
-    renderAnswers(q);
-    updateSubmitButtons(q);
-    // Re-typeset after replacing the option DOM; otherwise MathJax markup can
-    // temporarily appear as literal TeX when the selected state changes.
-    typeset($('answerArea'));
-    renderStrip();
-    renderPalette();
-    saveActiveSession();
-  }
-
-  function isCorrectInput(q, value) {
-    const entered = String(value ?? '').trim();
-    if (!entered) return false;
-    const expected = String(qanswer(q) ?? '').trim();
-    if (!expected) return false;
-
-    if ((q._type || '').toLowerCase().includes('integer')) {
-      const range = expected.match(/^\\s*(-?\\d+(?:\\.\\d+)?)\\s*TO\\s*(-?\\d+(?:\\.\\d+)?)\\s*$/i);
-      if (range) {
-        const number = Number(entered);
-        const low = Number(range[1]);
-        const high = Number(range[2]);
-        return Number.isFinite(number) && number >= Math.min(low, high) && number <= Math.max(low, high);
-      }
-      const number = Number(entered);
-      const target = Number(expected);
-      return Number.isFinite(number) && Number.isFinite(target) && number === target;
-    }
-
-    return entered.toLowerCase() === expected.toLowerCase();
-  }
-
-  function submitAnswer() {
-    const q = currentQuestion();
-    if (!q) return;
-    if (state.session.answers[q._id]?.submitted) return;
-
-    const elapsed = Date.now() - state.qStartedAt;
-    const correctOptions = qcorrect(q).slice().sort();
-    let selectedIds = [...state.selected].map(String).sort();
-    let correct = false;
-    let value = '';
-
-    if (qopts(q).length) {
-      correct = selectedIds.length === correctOptions.length && selectedIds.every((v, i) => v === correctOptions[i]);
-    } else {
-      value = ($('fillAnswer')?.value || '').trim();
-      correct = isCorrectInput(q, value);
-    }
-
-    const score = scoreForResult(q, correct, true);
-    state.session.answers[q._id] = {
-      selectedIds,
-      value,
-      submitted: true,
-      correct,
-      score,
-      timeMs: elapsed,
-      date: Date.now()
-    };
-
-    recordAttempt(q, correct, elapsed, score);
-    // Keep the library UI in sync immediately; do not require a page reload.
-    renderHome();
-    renderChapters();
-    if (state.chapter) renderChapterQuestions();
-    stopTimer();
-    state.session.answerVisible = true;
-    setAnswerVisibility(true);
-    renderAnswers(q);
-    updateQuestionStatusVisuals(q);
-    renderStrip();
-    renderPalette();
-    updateSubmitButtons(q);
-    saveActiveSession();
-    toast(correct ? 'Correct answer' : 'Wrong answer');
-    typeset([$('answerArea'), $('explanation')].filter(Boolean));
-  }
-
-  function updateQuestionStatusVisuals(q) {
-    const answer = state.session.answers[q._id];
-    const number = $('practiceNumber');
-    number.classList.remove('status-blue', 'status-correct', 'status-wrong');
-    number.classList.add(answer?.submitted ? (answer.correct ? 'status-correct' : 'status-wrong') : 'status-blue');
-  }
-
-  function updateSubmitButtons(q) {
-    const submitted = !!state.session.answers[q._id]?.submitted;
-    const hasAnswer = qopts(q).length ? state.selected.size > 0 : !!($('fillAnswer')?.value || '').trim();
-    $('submitAnswer').classList.toggle('hidden', submitted);
-    $('submitAnswer').disabled = submitted || !hasAnswer;
-    $('nextQuestion').classList.remove('hidden');
-    $('nextQuestion').textContent = state.index >= state.session.questions.length - 1 ? 'Finish →' : 'Next →';
-    $('nextQuestion').title = 'Go to the next question without submitting';
-    const marks = questionMarks(q);
-    $('scoreCorrect').textContent = `+${marks.correct}`;
-    $('scoreIncorrect').textContent = `−${marks.incorrect}`;
-  }
-
-  function renderStrip() {
-    const questions = state.session.questions;
-    $('questionStrip').innerHTML = questions.map((q, i) =>
-      `<button class="strip-number ${stripStatus(q, i)}" data-strip="${i}" title="Question ${i + 1}">${i + 1}</button>`
-    ).join('');
-    document.querySelectorAll('[data-strip]').forEach(button => {
-      button.onclick = () => goToQuestion(Number(button.dataset.strip));
-    });
-    requestAnimationFrame(() => {
-      const active = $('questionStrip').querySelector('.current');
-      active?.scrollIntoView({ inline: 'center', block: 'nearest' });
-    });
-  }
-
-  function stripStatus(q, index) {
-    const answer = state.session.answers[q._id];
-    const classes = [];
-    if (index === state.index) classes.push('current');
-    if (answer?.submitted) classes.push(answer.correct ? 'correct' : 'wrong');
-    else if (answer?.selectedIds?.length) classes.push('attempted');
-    else if (state.session.seen.includes(q._id)) classes.push('seen');
-    else classes.push('not-seen');
-    return classes.join(' ');
-  }
-
-  function renderPalette() {
-    const questions = state.session.questions;
-    $('paletteSubject').textContent = `${state.subject || questions[state.index]?._subject || 'Questions'} · ${questions.length}`;
-    $('paletteNumbers').innerHTML = questions.map((q, i) =>
-      `<button class="palette-number ${paletteStatus(q, i)}" data-pal="${i}">${i + 1}</button>`
-    ).join('');
-    document.querySelectorAll('[data-pal]').forEach(button => {
-      button.onclick = () => goToQuestion(Number(button.dataset.pal));
-    });
-  }
-
-  function paletteStatus(q, index) {
-    const answer = state.session.answers[q._id];
-    const classes = [];
-    if (index === state.index) classes.push('current');
-    if (answer?.submitted) classes.push(answer.correct ? 'correct' : 'wrong');
-    else if (answer?.selectedIds?.length) classes.push('attempted');
-    else if (state.session.seen.includes(q._id)) classes.push('seen');
-    else classes.push('not-seen');
-    return classes.join(' ');
-  }
-
-  function goToQuestion(index) {
-    if (!state.session?.questions[index]) return;
-    state.index = index;
-    state.session.index = index;
-    saveActiveSession();
-    showPracticeQuestion();
-  }
-
-  function nextQuestion() {
-    if (state.index >= state.session.questions.length - 1) {
-      finishSession();
-      return;
-    }
-    goToQuestion(state.index + 1);
-  }
-
-  function prevQuestion() {
-    if (state.index > 0) goToQuestion(state.index - 1);
-  }
-
-  function toggleAnswer() {
-    const visible = !state.session.answerVisible;
-    setAnswerVisibility(visible);
-    state.session.answerVisible = visible;
-    saveActiveSession();
-    if (visible) typeset($('explanation'));
-  }
-
-  function setAnswerVisibility(visible) {
-    const q = currentQuestion();
-    if (!q) return;
-    $('explanation').classList.toggle('hidden', !visible);
-    $('showAnswerToggle').classList.toggle('active', visible);
-    $('showAnswerToggle').textContent = visible ? 'Hide Answer' : 'Show Answer';
-    if (visible) {
-      const answer = qanswer(q);
-      const explanation = qexplain(q);
-      $('explanationBody').innerHTML = `${answer ? `<div class="answer-reveal"><strong>Answer</strong><div>${esc(answer)}</div></div>` : ''}${sanitizeHtml(explanation) || '<p>No explanation was provided in the question data.</p>'}`;
-    } else {
-      $('explanationBody').innerHTML = '';
-    }
-  }
-
-  function toggleSaved(kind) {
-    const q = currentQuestion();
-    if (!q) return;
-    const set = kind === 'bookmark' ? state.bookmarkSet : state.reviewSet;
-    const had = set.has(q._id);
-    if (had) set.delete(q._id); else set.add(q._id);
-    const key = kind === 'bookmark' ? KEY.bookmarks : KEY.review;
-    write(key, [...set]);
-    invalidateStorageCache(key);
-    updateSavedButtons();
-    toast(had ? (kind === 'bookmark' ? 'Bookmark removed' : 'Removed from review') : (kind === 'bookmark' ? 'Bookmarked' : 'Added to review'));
-  }
-
-  function updateSavedButtons() {
-    const q = currentQuestion();
-    if (!q) return;
-    const saved = bookmarks().has(q._id);
-    const review = reviews().has(q._id);
-    $('bookmarkCurrent').textContent = saved ? '★' : '☆';
-    $('bookmarkCurrent').classList.toggle('active', saved);
-    $('reviewCurrent').textContent = review ? '⚑' : '⚐';
-    $('reviewCurrent').classList.toggle('active', review);
-  }
-
-  function recordAttempt(q, correct, timeMs, score = scoreForResult(q, correct, true)) {
-    const list = attempts();
-    list.push({
-      questionId: q._id,
-      correct,
-      score,
-      timeMs,
-      date: Date.now(),
-      subject: q._subject,
-      chapter: q._chapter,
-      year: q._year
-    });
-    write(KEY.attempts, list);
-    invalidateStorageCache(KEY.attempts);
-  }
-
-  function finishSession() {
-    stopTimer();
-    const session = state.session;
-    const answered = Object.values(session.answers || {}).filter(a => a.submitted);
-    const correct = answered.filter(a => a.correct).length;
-    const totalScore = answered.reduce((sum, answer) => sum + (Number(answer.score) || 0), 0);
-    const sessions = read(KEY.sessions, []);
-    const sessionList = Array.isArray(sessions) ? sessions : [];
-    sessionList.push({
-      date: Date.now(),
-      total: session.questions.length,
-      answered: answered.length,
-      correct,
-      score: totalScore,
-      label: session.questions[0]?._chapter || 'Practice'
-    });
-    write(KEY.sessions, sessionList);
-    clearActiveSession();
-    closePractice();
-    toast(`Session complete · ${correct}/${answered.length} answered correctly`);
-    showPage(state.chapter ? 'chapter' : 'home');
+  function hidePractice() {
+    if (!S) return;
+    const answered = Object.values(S.answers).filter(a => a.status).length;
+    if (S.view === 'question') saveActive();
+    clearInterval(tickTimer);
+    $('#practice').hidden = true;
+    $('#practice').innerHTML = '';
+    document.body.classList.remove('in-session');
+    document.body.style.overflow = '';
+    if (!S.ephemeral && !S.finished && answered) toast('Session saved — resume it from Home.');
+    S = null;
   }
 
   function closePractice() {
-    stopTimer();
-    $('practiceOverlay').classList.add('hidden');
+    if (!S) return;
+    if (S.pushed) history.back(); else location.hash = '#/';
   }
 
-  function startTimer() {
-    stopTimer();
-    state.timer = setInterval(() => {
-      const q = currentQuestion();
-      if (!q || state.session.answers[q._id]?.submitted) return;
-      $('questionTime').textContent = formatTime(Date.now() - state.qStartedAt);
-    }, 250);
+  function updateTimer() {
+    if (!S || S.view !== 'question') return;
+    const el = $('#pTimer'); if (!el) return;
+    const e = ans(cur());
+    el.textContent = fmtTime(e.spent + (!e.status && S.tick ? Date.now() - S.tick : 0));
   }
 
-  function stopTimer() {
-    if (state.timer) clearInterval(state.timer);
-    state.timer = null;
+  const palClass = q => {
+    const e = S.answers[q.id];
+    if (!e) return '';
+    if (e.status === 'submitted') return e.correct ? 's-ok' : 's-bad';
+    if (e.status === 'revealed') return 's-rev';
+    return (e.sel && e.sel.length) || String(e.val || '').trim() ? 's-sel' : '';
+  };
+
+  function renderPractice() {
+    const root = $('#practice');
+    if (S.view === 'summary') { renderSummary(root); return; }
+    const q = cur(), e = ans(q), d = qd(q), opts = qOptions(q), n = S.qs.length;
+    const locked = !!e.status;
+    const answeredCount = Object.values(S.answers).filter(a => a.status).length;
+    const correctIds = qCorrect(q);
+    const explanation = d.explanation || langBlock(q.raw, 'en').explanation || '';
+    const submitted = e.status === 'submitted';
+    const saved = bookmarks.has(q.id), flagged = reviews.has(q.id);
+
+    let result = '';
+    if (submitted) {
+      const shown = q.kind === 'number' ? qAnswer(q) : correctIds.join(', ');
+      result = `<div class="result ${e.correct ? 'ok' : 'bad'}">
+        <h3>${e.correct ? 'Correct' : 'Incorrect'} · ${e.score >= 0 ? '+' : '−'}${Math.abs(e.score)}</h3>
+        <div>${q.kind === 'number' && !e.correct ? `Your answer: <b>${esc(e.val)}</b> · ` : ''}Correct answer: <b>${esc(shown)}</b> · Time ${fmtTime(e.spent)}</div>
+        ${explanation ? `<div class="explain">${sanitize(explanation)}</div>` : ''}</div>`;
+    } else if (e.status === 'revealed') {
+      const shown = q.kind === 'number' ? qAnswer(q) : correctIds.join(', ');
+      result = `<div class="result info"><h3>Answer revealed · not scored</h3>
+        ${shown ? `<div>Correct answer: <b>${esc(shown)}</b></div>` : ''}
+        ${explanation ? `<div class="explain">${sanitize(explanation)}</div>` : ''}</div>`;
+    }
+
+    const body = q.kind === 'number'
+      ? `<input class="num-input" id="numInput" inputmode="decimal" autocomplete="off" placeholder="Your answer" value="${esc(e.val || '')}" ${locked ? 'disabled' : ''} aria-label="Your answer">`
+      : `<div class="options" role="group" aria-label="Options">${opts.map(o => {
+        const sel = (e.sel || []).includes(o.id);
+        const right = locked && correctIds.includes(o.id);
+        const wrong = submitted && sel && !correctIds.includes(o.id);
+        return `<button class="opt ${sel && !locked ? 'sel' : ''} ${right ? 'right' : ''} ${wrong ? 'wrong' : ''}" data-act="p-opt" data-id="${esc(o.id)}" ${locked ? 'disabled' : ''}>
+          <span class="key">${esc(o.id)}</span><span class="txt">${sanitize(o.html)}</span></button>`;
+      }).join('')}</div>`;
+
+    const callouts = [d.direction, d.comprehension].filter(Boolean).map(h => `<div class="callout">${sanitize(h)}</div>`).join('');
+    const canSubmit = q.kind === 'number' ? String(e.val || '').trim() !== '' : (e.sel || []).length > 0;
+    const last = S.index === n - 1;
+
+    root.innerHTML = `
+      <header class="p-head">
+        <button class="icon-btn" data-act="p-close" aria-label="Save and exit">${icon('left')}</button>
+        <div class="p-title"><b>${esc(S.title)}</b><small>${esc(q.subject)} · ${esc(q.chapter)}</small></div>
+        <span class="p-count">${S.index + 1} / ${n}</span>
+        ${hasHindi(q) ? `<button class="btn sm ghost" data-act="p-lang" title="Language">${lang === 'hi' ? 'EN' : 'हिं'}</button>` : ''}
+        <button class="icon-btn" data-act="p-drawer" aria-label="All questions (G)">${icon('grid')}</button>
+        <button class="btn sm" data-act="p-end">End</button>
+      </header>
+      <div class="p-progress"><i style="width:${pct(answeredCount, n)}%"></i></div>
+      <div class="p-scroll" id="pScroll"><main class="p-main" id="pMain">
+        <div class="p-badges">
+          <span class="chip new">${esc(examName(q.exam))}</span><span class="chip">${esc(q.year || 'Year n/a')}</span>
+          <span class="chip ${q.diff.toLowerCase()}">${esc(q.diff)}</span>
+          ${paperShort(q) ? `<span class="chip">${esc(paperShort(q))}</span>` : ''}
+        </div>
+        <div class="p-status"><span class="timer" id="pTimer">${fmtTime(e.spent)}</span><span class="plus">+${q.marks}</span><span class="minus">−${q.neg}</span>
+          <span class="hint">${q.kind === 'multi' ? 'One or more options can be correct' : q.kind === 'number' ? 'Type your numerical answer' : 'Single correct option'}</span></div>
+        ${callouts}
+        <div class="prompt" id="pPrompt">${sanitize(d.content || 'Question text unavailable.')}</div>
+        ${body}
+        ${result}
+      </main></div>
+      <footer class="p-foot">
+        <button class="btn" data-act="p-prev" ${S.index === 0 ? 'disabled' : ''} aria-label="Previous question">${icon('left')}<span class="lbl">Previous</span></button>
+        <button class="icon-btn ${saved ? 'on' : ''}" data-act="p-bm" data-id="${esc(q.id)}" aria-label="Bookmark (M)" aria-pressed="${saved}">${icon('star')}</button>
+        <button class="icon-btn flag ${flagged ? 'on' : ''}" data-act="p-review" aria-label="Review later (R)" aria-pressed="${flagged}">${icon('flag')}</button>
+        <button class="btn show" data-act="p-show" ${locked ? 'disabled' : ''}>${icon('eye')}<span class="lbl">Show answer</span></button>
+        <span class="spacer"></span>
+        ${locked
+          ? `<button class="btn primary" data-act="p-next">${last ? 'Finish' : 'Next'} ${icon('right')}</button>`
+          : `<button class="btn" data-act="p-next" aria-label="Skip question"><span class="lbl">${last ? 'Finish' : 'Skip'}</span>${icon('right')}</button>
+             <button class="btn primary" id="pSubmit" data-act="p-submit" ${canSubmit ? '' : 'disabled'}>Submit</button>`}
+      </footer>
+      <div class="drawer" id="pDrawer" ${S.drawer ? '' : 'hidden'} data-act="p-drawer-bg">
+        <div class="drawer-panel">
+          <div style="display:flex;justify-content:space-between;align-items:center"><h2>Questions</h2><button class="icon-btn" data-act="p-drawer" aria-label="Close">${icon('x')}</button></div>
+          <div class="muted">${answeredCount} of ${n} answered</div>
+          <div class="legend"><span><i style="background:var(--green)"></i>Correct</span><span><i style="background:var(--red)"></i>Wrong</span><span><i style="background:var(--amber)"></i>Revealed</span><span><i style="background:var(--blue)"></i>Picked</span><span><i style="background:var(--surface-3)"></i>Not answered</span></div>
+          <div class="pal">${S.qs.map((x, i) => `<button class="${palClass(x)} ${i === S.index ? 'cur' : ''}" data-act="p-go" data-i="${i}" aria-label="Question ${i + 1}">${i + 1}</button>`).join('')}</div>
+        </div>
+      </div>`;
+    hydrateIcons(root);
+    typesetReveal($('#pMain'));
+    if (submitted || e.status === 'revealed') requestAnimationFrame(() => $('.result')?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }));
+    else $('#pScroll').scrollTop = 0;
   }
 
-  function toggleBookmark(id) {
-    const set = state.bookmarkSet;
-    if (set.has(id)) set.delete(id); else set.add(id);
-    write(KEY.bookmarks, [...set]);
-    invalidateStorageCache(KEY.bookmarks);
-    toast(set.has(id) ? 'Bookmarked' : 'Bookmark removed');
+  function updateSubmit() {
+    const q = cur(), e = ans(q), btn = $('#pSubmit');
+    if (!btn) return;
+    btn.disabled = q.kind === 'number' ? String(e.val || '').trim() === '' : !(e.sel || []).length;
   }
 
-
-
-  function toggleTheme() {
-    const light = document.documentElement.classList.toggle('light');
-    write(KEY.theme, light ? 'light' : 'dark');
+  function pickOption(id) {
+    const q = cur(), e = ans(q);
+    if (e.status || q.kind === 'number') return;
+    if (q.kind === 'multi') e.sel = e.sel.includes(id) ? e.sel.filter(x => x !== id) : [...e.sel, id];
+    else e.sel = [id];
+    $$('.opt').forEach(b => b.classList.toggle('sel', e.sel.includes(b.dataset.id)));
+    updateSubmit();
+    saveActive();
   }
 
-  function initTheme() {
-    if (read(KEY.theme, '') === 'light') document.documentElement.classList.add('light');
+  function submitAnswer() {
+    const q = cur(), e = ans(q);
+    if (e.status) return;
+    if (q.kind === 'number') { const inp = $('#numInput'); if (inp) e.val = inp.value; if (!String(e.val || '').trim()) return; }
+    else if (!(e.sel || []).length) return;
+    flushTime();
+    const g = gradeAnswer(q, e);
+    if (!g.gradable) { e.status = 'revealed'; }
+    else { e.status = 'submitted'; e.correct = g.correct; e.score = g.score; recordAttempt(q, e); }
+    S.tick = 0;
+    saveActive();
+    renderPractice();
   }
 
-  function keyboard(event) {
-    const modal = $('sessionModal');
-    if (modal && !modal.classList.contains('hidden')) {
-      if (event.key === 'Escape') {
-        event.preventDefault();
-        closeModal(modal.id);
-        return;
+  function revealAnswer() {
+    const q = cur(), e = ans(q);
+    if (e.status) return;
+    flushTime();
+    e.status = 'revealed';
+    S.tick = 0;
+    saveActive();
+    renderPractice();
+  }
+
+  function goTo(i) {
+    if (!S || i < 0 || i >= S.qs.length) return;
+    if (S.view === 'question') flushTime();
+    S.view = 'question';
+    S.index = i;
+    S.drawer = false;
+    S.tick = document.hidden ? 0 : Date.now();
+    saveActive();
+    renderPractice();
+  }
+  const nextQ = () => { if (S.index >= S.qs.length - 1) finishSession(); else goTo(S.index + 1); };
+  const prevQ = () => { if (S.index > 0) goTo(S.index - 1); };
+
+  function toggleSaved(kind, id) {
+    const set = kind === 'bookmark' ? bookmarks : reviews;
+    const key = kind === 'bookmark' ? KEYS.bookmarks : KEYS.review;
+    const had = set.has(id);
+    if (had) set.delete(id); else set.add(id);
+    store.set(key, [...set]);
+    toast(had ? (kind === 'bookmark' ? 'Bookmark removed' : 'Removed from review') : (kind === 'bookmark' ? 'Bookmarked' : 'Marked for review'));
+    const on = !had;
+    if (kind === 'bookmark') {
+      $$(`[data-act="bookmark"][data-id="${CSS.escape(id)}"], [data-act="p-bm"][data-id="${CSS.escape(id)}"]`).forEach(b => { b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
+    } else if (S && S.view === 'question' && cur().id === id) {
+      $('[data-act="p-review"]')?.classList.toggle('on', on);
+    }
+    if (!S && parseRoute().name === 'saved' && SV.tab === (kind === 'bookmark' ? 'bookmarks' : 'review') && had) {
+      $(`.qrow[data-id="${CSS.escape(id)}"]`)?.remove();
+      listCtx.qs = listCtx.qs.filter(q => q.id !== id);
+      const tabN = $(`.tab[data-v="${SV.tab}"] .n`); if (tabN) tabN.textContent = set.size;
+      if (!listCtx.qs.length) pageSaved(++app.token);
+    }
+  }
+
+  function finishSession() {
+    flushTime();
+    const answers = Object.values(S.answers);
+    const done = answers.filter(a => a.status === 'submitted');
+    const correct = done.filter(a => a.correct).length;
+    if (!S.finished) {
+      S.finished = true;
+      if (done.length) {
+        const list = store.get(KEYS.sessions, []);
+        const arr = Array.isArray(list) ? list : [];
+        arr.push({
+          date: Date.now(), total: S.qs.length, answered: done.length, correct,
+          score: done.reduce((s, a) => s + (Number(a.score) || 0), 0), label: S.title, exam: S.exam,
+          timeMs: done.reduce((s, a) => s + a.spent, 0)
+        });
+        store.set(KEYS.sessions, arr.slice(-200));
       }
-      if (event.key === 'Tab') {
-        const focusable = [...modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])')]
-          .filter(element => !element.disabled && element.offsetParent !== null);
-        if (focusable.length) {
-          const first = focusable[0];
-          const last = focusable[focusable.length - 1];
-          if (event.shiftKey && document.activeElement === first) {
-            event.preventDefault();
-            last.focus();
-          } else if (!event.shiftKey && document.activeElement === last) {
-            event.preventDefault();
-            first.focus();
-          }
-        }
+      if (!S.ephemeral) discardActive();
+    }
+    S.view = 'summary';
+    S.drawer = false;
+    renderPractice();
+  }
+
+  function renderSummary(root) {
+    const entries = S.qs.map(q => ({ q, e: S.answers[q.id] }));
+    const done = entries.filter(x => x.e?.status === 'submitted');
+    const right = done.filter(x => x.e.correct).length;
+    const wrong = done.length - right;
+    const skipped = S.qs.length - done.length;
+    const score = done.reduce((s, x) => s + (Number(x.e.score) || 0), 0);
+    const time = done.reduce((s, x) => s + x.e.spent, 0);
+    const wrongQs = done.filter(x => !x.e.correct).map(x => x.q);
+    root.innerHTML = `
+      <header class="p-head"><button class="icon-btn" data-act="p-close" aria-label="Close">${icon('left')}</button>
+        <div class="p-title"><b>${esc(S.title)}</b><small>Session summary</small></div></header>
+      <div class="p-scroll"><div class="summary">
+        <div class="eyebrow">Session complete</div>
+        <div class="big">${done.length ? pct(right, done.length) + '%' : '—'}</div>
+        <div class="muted">${done.length ? `${right} of ${done.length} answered correctly` : 'You did not submit any answers'}</div>
+        <div class="grid cols-2">${[['Score', score], ['Time spent', fmtTime(time)], ['Wrong', wrong], ['Not answered', skipped]].map(rowStat).join('')}</div>
+        <div class="muted" style="text-align:left;margin-bottom:8px">Tap a number to review that question</div>
+        <div class="pal" style="margin-bottom:26px">${S.qs.map((x, i) => `<button class="${palClass(x)}" data-act="p-go" data-i="${i}">${i + 1}</button>`).join('')}</div>
+        <div class="actions">
+          ${wrongQs.length ? `<button class="btn" data-act="p-retry-wrong" data-ids="${esc(wrongQs.map(q => q.id).join(','))}">${icon('retry')} Retry ${plural(wrongQs.length, 'mistake')}</button>` : ''}
+          <button class="btn primary" data-act="p-close">Done</button>
+        </div>
+      </div></div>`;
+    hydrateIcons(root);
+  }
+
+  async function resumeActive() {
+    const a = readActive();
+    if (!a) return;
+    closeModal();
+    if (a.exam && a.exam !== app.exam) { app.exam = a.exam; store.set(KEYS.exam, a.exam); }
+    await loadFiles((a.files || []).filter(p => data.byPath.has(p)));
+    const qs = a.ids.map(id => data.byId.get(String(id))).filter(Boolean);
+    if (!qs.length) { discardActive(); toast('Could not restore that session.'); route(); return; }
+    startSession({ title: a.title, sourceKey: a.sourceKey, qs, index: Math.min(a.index || 0, qs.length - 1), answers: a.answers, startedAt: a.startedAt });
+  }
+
+  async function practiceMistakes() {
+    const ids = wrongIds(app.exam);
+    const { paths } = filesForIds(ids);
+    await loadFiles(paths.filter(p => data.byPath.get(p).exam === app.exam));
+    const pool = ids.map(id => data.byId.get(id)).filter(q => q && q.exam === app.exam);
+    if (!pool.length) { toast('No mistakes to retry.'); return; }
+    openSetup({ title: 'Retry mistakes', sourceKey: `mistakes|${app.exam}`, pool });
+  }
+
+  /* ===================== Events ===================== */
+  function setTheme(next) {
+    document.documentElement.dataset.theme = next;
+    store.set(KEYS.theme, next);
+    const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = next === 'light' ? '#f4f3fb' : '#0d0b1f';
+  }
+
+  document.addEventListener('click', e => {
+    const t = e.target.closest('[data-act]');
+    if (!t) return;
+    const act = t.dataset.act;
+    if (act === 'p-drawer-bg' && e.target !== t) return; // only the dim backdrop itself closes the drawer
+    switch (act) {
+      case 'exam': switchExam(t.dataset.v); break;
+      case 'theme': setTheme(document.documentElement.dataset.theme === 'light' ? 'dark' : 'light'); break;
+      case 'shortcuts': openShortcuts(); break;
+      case 'close-modal': closeModal(); break;
+      case 'retry-route': route(); break;
+      case 'resume': resumeActive(); break;
+      case 'discard-active': discardActive(); route(); toast('Unfinished session discarded.'); break;
+      case 'practice-mistakes': practiceMistakes(); break;
+      case 'chapter-practice': if (CP) openSetup({ title: CP.file.chapter, sourceKey: `chapter|${app.exam}|${CP.file.path}`, pool: CP.qs }); break;
+      case 'cp-tab': CP.tab = t.dataset.v; CP.limit = 60; drawChapterMeta(); drawChapterList(); break;
+      case 'cp-clear': Object.assign(CP, { search: '', year: '', diff: '', kind: '', status: '', limit: 60 }); drawChapter(); break;
+      case 'cp-more': {
+        const before = Math.min(CP.limit, CP.filtered.length);
+        CP.limit += 60;
+        const rows = CP.filtered.slice(before, CP.limit);
+        const list = $('#cpList');
+        t.parentElement.remove();
+        list.insertAdjacentHTML('beforeend', rows.map((q, i) => qRow(q, before + i)).join('') + (CP.filtered.length > CP.limit ? `<div style="text-align:center;margin-top:14px"><button class="btn" data-act="cp-more">Show ${Math.min(60, CP.filtered.length - CP.limit)} more</button></div>` : ''));
+        hydrateIcons(list); observeMath(list);
+        break;
+      }
+      case 'open-q': {
+        const idx = listCtx.qs.findIndex(q => q.id === t.dataset.id);
+        if (idx >= 0) startSession({ title: listCtx.title || 'Practice', sourceKey: '', qs: listCtx.qs, index: idx, ephemeral: true });
+        break;
+      }
+      case 'bookmark': e.stopPropagation(); toggleSaved('bookmark', t.dataset.id); break;
+      case 'pick': {
+        const p = t.dataset.path;
+        if (BUILD.sel.has(p)) BUILD.sel.delete(p); else BUILD.sel.add(p);
+        t.classList.toggle('on', BUILD.sel.has(p)); t.setAttribute('aria-pressed', String(BUILD.sel.has(p)));
+        drawBuildSummary(); break;
+      }
+      case 'pick-subject': {
+        const files = filesFor(app.exam, t.dataset.v);
+        const all = files.every(f => BUILD.sel.has(f.path));
+        files.forEach(f => (all ? BUILD.sel.delete(f.path) : BUILD.sel.add(f.path)));
+        $$('.pick', t.closest('.pick-group')).forEach(b => { const on = BUILD.sel.has(b.dataset.path); b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
+        drawBuildSummary(); break;
+      }
+      case 'build-go': buildContinue(); break;
+      case 'sv-tab': SV.tab = t.dataset.v; pageSaved(++app.token); break;
+      case 'saved-practice': if (listCtx.qs.length) openSetup({ title: listCtx.title, sourceKey: listCtx.sourceKey, pool: listCtx.qs }); break;
+      case 'find-old': findOldSaved(); break;
+      case 'su': {
+        const { k, v } = t.dataset;
+        SU[k] = k === 'length' && v !== 'all' ? Number(v) : v;
+        drawSetup(); break;
+      }
+      case 'su-start': startFromSetup(); break;
+      /* practice */
+      case 'p-close': closePractice(); break;
+      case 'p-opt': pickOption(t.dataset.id); break;
+      case 'p-submit': submitAnswer(); break;
+      case 'p-show': revealAnswer(); break;
+      case 'p-next': nextQ(); break;
+      case 'p-prev': prevQ(); break;
+      case 'p-go': goTo(Number(t.dataset.i)); break;
+      case 'p-bm': toggleSaved('bookmark', cur().id); break;
+      case 'p-review': toggleSaved('review', cur().id); break;
+      case 'p-end': finishSession(); break;
+      case 'p-lang': lang = lang === 'hi' ? 'en' : 'hi'; store.set(KEYS.lang, lang); flushTime(); renderPractice(); break;
+      case 'p-drawer': case 'p-drawer-bg': S.drawer = !S.drawer; $('#pDrawer').hidden = !S.drawer; break;
+      case 'p-retry-wrong': {
+        const ids = (t.dataset.ids || '').split(',');
+        const qs = ids.map(id => data.byId.get(id)).filter(Boolean);
+        S.finished = true;
+        startSession({ title: 'Retry mistakes', sourceKey: '', qs, ephemeral: true });
+        break;
+      }
+    }
+  });
+
+  const debounce = (fn, ms = 120) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
+  const onSearch = debounce(v => { CP.search = v; CP.limit = 60; drawChapterList(); });
+  const onLibSearch = debounce(v => { LIB.q = v; renderChapterGrid(); });
+
+  document.addEventListener('input', e => {
+    const t = e.target;
+    if (t.id === 'cpSearch' && CP) onSearch(t.value);
+    else if (t.id === 'libSearch') onLibSearch(t.value);
+    else if (t.id === 'numInput' && S) { ans(cur()).val = t.value; updateSubmit(); saveActive(); }
+  });
+  document.addEventListener('change', e => {
+    const t = e.target;
+    if (t.dataset?.cp && CP) { CP[t.dataset.cp] = t.value; CP.limit = 60; drawChapterList(); }
+    else if (t.id === 'libFilter') { LIB.filter = t.value; renderChapterGrid(); }
+    else if (t.id === 'libSort') { LIB.sort = t.value; renderChapterGrid(); }
+  });
+
+  document.addEventListener('keydown', e => {
+    const modalOpen = !$('#modalRoot').hidden;
+    if (e.key === 'Escape') {
+      if (modalOpen) { closeModal(); e.preventDefault(); }
+      else if (S?.drawer) { S.drawer = false; $('#pDrawer').hidden = true; e.preventDefault(); }
+      return;
+    }
+    if (modalOpen) {
+      if (e.key === 'Tab') { // keep focus inside the dialog
+        const f = $$('button:not(:disabled), input, select', $('#modalRoot'));
+        if (!f.length) return;
+        const first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
       }
       return;
     }
-
-    const practice = $('practiceOverlay');
-    if (!practice || practice.classList.contains('hidden')) return;
-
-    const target = event.target;
-    const typing = target instanceof HTMLElement && (
-      target.matches('input, textarea, select, [contenteditable="true"]') ||
-      target.isContentEditable
-    );
-    if (typing) return;
-
-    const key = event.key.toLowerCase();
-    if (key === 'enter' && !$('submitAnswer').classList.contains('hidden') && !$('submitAnswer').disabled) {
-      event.preventDefault();
-      submitAnswer();
+    const t = e.target;
+    if (!S) {
+      if ((e.key === 'Enter' || e.key === ' ') && t.classList?.contains('qrow')) { e.preventDefault(); t.click(); }
+      if (e.key === '?' && !/input|textarea|select/i.test(t.tagName)) openShortcuts();
       return;
     }
-     if (key === 'n' || event.key === 'ArrowRight') {
-      event.preventDefault();
-      nextQuestion();
-    } else if (key === 'p' || event.key === 'ArrowLeft') {
-      event.preventDefault();
-      prevQuestion();
-    } else if (key === 'm') {
-      event.preventDefault();
-      toggleSaved('bookmark');
-    } else if (key === 'r') {
-      event.preventDefault();
-      toggleSaved('review');
-    } else if (key === 's') {
-      event.preventDefault();
-      toggleAnswer();
-    } else if (/^[0-9]$/.test(event.key)) {
-  const fillInput = $('fillAnswer');
-
-  // Integer/numerical question:
-  // Any number key focuses the answer field and inserts the number.
-  if (fillInput && !fillInput.disabled) {
-    event.preventDefault();
-
-    fillInput.focus();
-
-    const start = fillInput.selectionStart ?? fillInput.value.length;
-    const end = fillInput.selectionEnd ?? fillInput.value.length;
-
-    fillInput.setRangeText(event.key, start, end, 'end');
-    fillInput.dispatchEvent(new Event('input', { bubbles: true }));
-
-    return;
-  }
-
-  // MCQ:
-  // 1-5 select options A-E.
-  const optionIndex = Number(event.key) - 1;
-
-  if (optionIndex >= 0 && optionIndex < 5) {
-    const buttons = document.querySelectorAll('.answer-option');
-    const button = buttons[optionIndex];
-
-    if (button && !button.disabled) {
-      event.preventDefault();
-      button.click();
+    if (e.ctrlKey || e.metaKey || e.altKey) return; // never hijack browser shortcuts (Ctrl+R, Ctrl+F, …)
+    const typing = t instanceof HTMLElement && (t.matches('input, textarea, select') || t.isContentEditable);
+    if (typing) {
+      if (e.key === 'Enter' && t.id === 'numInput') { e.preventDefault(); const q = cur(); if (ans(q).status) nextQ(); else submitAnswer(); }
+      return;
     }
-  }
-} else if (/^[a-eA-E]$/.test(event.key)) {
-  // A-E select options 1-5.
-  const optionIndex = event.key.toUpperCase().charCodeAt(0) - 'A'.charCodeAt(0);
-
-  const buttons = document.querySelectorAll('.answer-option');
-  const button = buttons[optionIndex];
-
-  if (button && !button.disabled) {
-    event.preventDefault();
-    button.click();
-  }
-}
-  }
-
-  function typeset(element = null) {
-    const mathJax = window.MathJax;
-    if (!mathJax?.typesetPromise) return;
-
-    // Passing the newly-rendered container is important: answer options are
-    // replaced with innerHTML on every selection, so their TeX must be
-    // explicitly processed again.
-    const targets = element ? [element] : undefined;
-    mathJax.typesetPromise(targets).catch(error => {
-      console.warn('MathJax typesetting failed:', error);
-    });
-  }
-
-  window.addEventListener('error', event => {
-    console.error('Unhandled application error:', event.error || event.message);
-    toast('Something went wrong. Please refresh and try again.');
-  });
-  window.addEventListener('unhandledrejection', event => {
-    console.error('Unhandled promise rejection:', event.reason);
-    toast('A background operation failed. Please try again.');
+    const interactive = t instanceof HTMLElement && t.closest('button, a');
+    if (S.view === 'summary') return;
+    const q = cur(), en = ans(q);
+    const key = e.key.toLowerCase();
+    if (e.key === 'Enter') {
+      if (interactive) return; // Enter on a focused button just presses that button
+      e.preventDefault(); if (en.status) nextQ(); else submitAnswer(); return;
+    }
+    if (e.key === 'ArrowRight' || key === 'n') { e.preventDefault(); nextQ(); }
+    else if (e.key === 'ArrowLeft' || key === 'p') { e.preventDefault(); prevQ(); }
+    else if (key === 'm') { e.preventDefault(); toggleSaved('bookmark', q.id); }
+    else if (key === 'r') { e.preventDefault(); toggleSaved('review', q.id); }
+    else if (key === 's') { e.preventDefault(); revealAnswer(); }
+    else if (key === 'g') { e.preventDefault(); S.drawer = !S.drawer; $('#pDrawer').hidden = !S.drawer; }
+    else if (e.key === '?') { openShortcuts(); }
+    else if (q.kind === 'number' && !en.status && /^[0-9.\-]$/.test(e.key)) {
+      const inp = $('#numInput'); if (inp) { e.preventDefault(); inp.focus(); inp.setRangeText(e.key, inp.selectionStart ?? inp.value.length, inp.selectionEnd ?? inp.value.length, 'end'); inp.dispatchEvent(new Event('input', { bubbles: true })); }
+    } else if (q.kind !== 'number' && !en.status) {
+      let idx = -1;
+      if (/^[1-9]$/.test(e.key)) idx = Number(e.key) - 1;
+      else if (/^[a-e]$/.test(key)) idx = key.charCodeAt(0) - 97;
+      const btn = $$('.opt')[idx];
+      if (btn) { e.preventDefault(); pickOption(btn.dataset.id); }
+    }
   });
 
-  init();
+  document.addEventListener('visibilitychange', () => {
+    if (!S || S.view !== 'question') return;
+    if (document.hidden) { flushTime(); S.tick = 0; saveActive(); }
+    else S.tick = Date.now();
+  });
+  window.addEventListener('pagehide', () => { if (S) saveActive(); });
+  window.addEventListener('hashchange', route);
+  $('#modalRoot').addEventListener('mousedown', e => { if (e.target.id === 'modalRoot') closeModal(); });
 
-  // Cache the question library after the first visit. This makes subsequent
-  // opens much faster without moving progress/history out of localStorage.
-  if ('serviceWorker' in navigator && window.isSecureContext) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./service-worker.js').catch(() => {});
-    }, { once: true });
+  /* ===================== Boot ===================== */
+  function hideSplash() {
+    const s = $('#splash');
+    if (!s) return;
+    s.classList.add('out');
+    setTimeout(() => s.remove(), 300);
+  }
+
+  async function boot() {
+    loadStorage();
+    hydrateIcons();
+    try {
+      await loadManifest();
+    } catch (err) {
+      console.error(err);
+      hideSplash();
+      setView(`<div class="empty"><strong>Couldn't load the question library</strong><span>${esc(err.message)}. Make sure the <code>questions/</code> folder is next to index.html, and that you're opening the app through a web server.</span><button class="btn primary" onclick="location.reload()">Try again</button></div>`);
+      return;
+    }
+    if (!examSubjects(app.exam).length) app.exam = app.exam === 'jee-main' ? 'jee-advanced' : 'jee-main';
+    route();
+    hideSplash();
+    (window.requestIdleCallback || (f => setTimeout(f, 400)))(() => migrateLegacyAttempts().catch(() => {}));
+  }
+
+  boot();
+
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js').catch(() => {}), { once: true });
   }
 })();
