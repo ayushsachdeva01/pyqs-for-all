@@ -1,0 +1,1562 @@
+{
+  "version": 2,
+  "files": [
+    {
+      "path": "Chemistry/JEE Advanced/alcohols-phenols-and-ethers_31q.json",
+      "name": "Chemistry/JEE Advanced/alcohols-phenols-and-ethers_31q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Alcohols Phenols And Ethers",
+      "count": 31,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/aldehydes-ketones-and-carboxylic-acids_82q.json",
+      "name": "Chemistry/JEE Advanced/aldehydes-ketones-and-carboxylic-acids_82q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Aldehydes Ketones And Carboxylic Acids",
+      "count": 82,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/basics-of-organic-chemistry_50q.json",
+      "name": "Chemistry/JEE Advanced/basics-of-organic-chemistry_50q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Basics Of Organic Chemistry",
+      "count": 50,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/biomolecules_24q.json",
+      "name": "Chemistry/JEE Advanced/biomolecules_24q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Biomolecules",
+      "count": 24,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/chemical-bonding-and-molecular-structure_106q.json",
+      "name": "Chemistry/JEE Advanced/chemical-bonding-and-molecular-structure_106q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Chemical Bonding And Molecular Structure",
+      "count": 106,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/chemical-equilibrium_12q.json",
+      "name": "Chemistry/JEE Advanced/chemical-equilibrium_12q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Chemical Equilibrium",
+      "count": 12,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/chemical-kinetics-and-nuclear-chemistry_53q.json",
+      "name": "Chemistry/JEE Advanced/chemical-kinetics-and-nuclear-chemistry_53q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Chemical Kinetics And Nuclear Chemistry",
+      "count": 53,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/chemistry-in-everyday-life_1q.json",
+      "name": "Chemistry/JEE Advanced/chemistry-in-everyday-life_1q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Chemistry In Everyday Life",
+      "count": 1,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/compounds-containing-nitrogen_40q.json",
+      "name": "Chemistry/JEE Advanced/compounds-containing-nitrogen_40q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Compounds Containing Nitrogen",
+      "count": 40,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/coordination-compounds_59q.json",
+      "name": "Chemistry/JEE Advanced/coordination-compounds_59q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Coordination Compounds",
+      "count": 59,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/d-and-f-block-elements_25q.json",
+      "name": "Chemistry/JEE Advanced/d-and-f-block-elements_25q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "D And F Block Elements",
+      "count": 25,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/electrochemistry_64q.json",
+      "name": "Chemistry/JEE Advanced/electrochemistry_64q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Electrochemistry",
+      "count": 64,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/gaseous-state_43q.json",
+      "name": "Chemistry/JEE Advanced/gaseous-state_43q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Gaseous State",
+      "count": 43,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/haloalkanes-and-haloarenes_8q.json",
+      "name": "Chemistry/JEE Advanced/haloalkanes-and-haloarenes_8q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Haloalkanes And Haloarenes",
+      "count": 8,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/hydrocarbons_34q.json",
+      "name": "Chemistry/JEE Advanced/hydrocarbons_34q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Hydrocarbons",
+      "count": 34,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/hydrogen_11q.json",
+      "name": "Chemistry/JEE Advanced/hydrogen_11q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Hydrogen",
+      "count": 11,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/ionic-equilibrium_19q.json",
+      "name": "Chemistry/JEE Advanced/ionic-equilibrium_19q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Ionic Equilibrium",
+      "count": 19,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/isolation-of-elements_26q.json",
+      "name": "Chemistry/JEE Advanced/isolation-of-elements_26q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Isolation Of Elements",
+      "count": 26,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/p-block-elements_75q.json",
+      "name": "Chemistry/JEE Advanced/p-block-elements_75q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "P Block Elements",
+      "count": 75,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/periodic-table-and-periodicity_36q.json",
+      "name": "Chemistry/JEE Advanced/periodic-table-and-periodicity_36q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Periodic Table And Periodicity",
+      "count": 36,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/polymers_10q.json",
+      "name": "Chemistry/JEE Advanced/polymers_10q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Polymers",
+      "count": 10,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/practical-organic-chemistry_6q.json",
+      "name": "Chemistry/JEE Advanced/practical-organic-chemistry_6q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Practical Organic Chemistry",
+      "count": 6,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/redox-reactions_37q.json",
+      "name": "Chemistry/JEE Advanced/redox-reactions_37q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Redox Reactions",
+      "count": 37,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/s-block-elements_44q.json",
+      "name": "Chemistry/JEE Advanced/s-block-elements_44q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "S Block Elements",
+      "count": 44,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/salt-analysis_26q.json",
+      "name": "Chemistry/JEE Advanced/salt-analysis_26q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Salt Analysis",
+      "count": 26,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/solid-state_23q.json",
+      "name": "Chemistry/JEE Advanced/solid-state_23q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Solid State",
+      "count": 23,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/solutions_42q.json",
+      "name": "Chemistry/JEE Advanced/solutions_42q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Solutions",
+      "count": 42,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/some-basic-concepts-of-chemistry_81q.json",
+      "name": "Chemistry/JEE Advanced/some-basic-concepts-of-chemistry_81q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Some Basic Concepts Of Chemistry",
+      "count": 81,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/structure-of-atom_105q.json",
+      "name": "Chemistry/JEE Advanced/structure-of-atom_105q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Structure Of Atom",
+      "count": 105,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/surface-chemistry_17q.json",
+      "name": "Chemistry/JEE Advanced/surface-chemistry_17q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Surface Chemistry",
+      "count": 17,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Advanced/thermodynamics_47q.json",
+      "name": "Chemistry/JEE Advanced/thermodynamics_47q.json",
+      "subject": "Chemistry",
+      "exam": "jee-advanced",
+      "chapter": "Thermodynamics",
+      "count": 47,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/alcohols-phenols-and-ethers_184q.json",
+      "name": "Chemistry/JEE Main/alcohols-phenols-and-ethers_184q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Alcohols Phenols And Ethers",
+      "count": 184,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/aldehydes-ketones-and-carboxylic-acids_284q.json",
+      "name": "Chemistry/JEE Main/aldehydes-ketones-and-carboxylic-acids_284q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Aldehydes Ketones And Carboxylic Acids",
+      "count": 284,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/basics-of-organic-chemistry_296q.json",
+      "name": "Chemistry/JEE Main/basics-of-organic-chemistry_296q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Basics Of Organic Chemistry",
+      "count": 296,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/biomolecules_200q.json",
+      "name": "Chemistry/JEE Main/biomolecules_200q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Biomolecules",
+      "count": 200,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/chemical-bonding-and-molecular-structure_266q.json",
+      "name": "Chemistry/JEE Main/chemical-bonding-and-molecular-structure_266q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Chemical Bonding And Molecular Structure",
+      "count": 266,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/chemical-equilibrium_122q.json",
+      "name": "Chemistry/JEE Main/chemical-equilibrium_122q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Chemical Equilibrium",
+      "count": 122,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/chemical-kinetics-and-nuclear-chemistry_224q.json",
+      "name": "Chemistry/JEE Main/chemical-kinetics-and-nuclear-chemistry_224q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Chemical Kinetics And Nuclear Chemistry",
+      "count": 224,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/chemistry-in-everyday-life_78q.json",
+      "name": "Chemistry/JEE Main/chemistry-in-everyday-life_78q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Chemistry In Everyday Life",
+      "count": 78,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/compounds-containing-nitrogen_252q.json",
+      "name": "Chemistry/JEE Main/compounds-containing-nitrogen_252q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Compounds Containing Nitrogen",
+      "count": 252,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/coordination-compounds_354q.json",
+      "name": "Chemistry/JEE Main/coordination-compounds_354q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Coordination Compounds",
+      "count": 354,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/d-and-f-block-elements_242q.json",
+      "name": "Chemistry/JEE Main/d-and-f-block-elements_242q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "D And F Block Elements",
+      "count": 242,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/electrochemistry_226q.json",
+      "name": "Chemistry/JEE Main/electrochemistry_226q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Electrochemistry",
+      "count": 226,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/environmental-chemistry_96q.json",
+      "name": "Chemistry/JEE Main/environmental-chemistry_96q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Environmental Chemistry",
+      "count": 96,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/gaseous-state_66q.json",
+      "name": "Chemistry/JEE Main/gaseous-state_66q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Gaseous State",
+      "count": 66,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/haloalkanes-and-haloarenes_191q.json",
+      "name": "Chemistry/JEE Main/haloalkanes-and-haloarenes_191q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Haloalkanes And Haloarenes",
+      "count": 191,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/hydrocarbons_174q.json",
+      "name": "Chemistry/JEE Main/hydrocarbons_174q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Hydrocarbons",
+      "count": 174,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/hydrogen_87q.json",
+      "name": "Chemistry/JEE Main/hydrogen_87q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Hydrogen",
+      "count": 87,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/ionic-equilibrium_143q.json",
+      "name": "Chemistry/JEE Main/ionic-equilibrium_143q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Ionic Equilibrium",
+      "count": 143,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/isolation-of-elements_112q.json",
+      "name": "Chemistry/JEE Main/isolation-of-elements_112q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Isolation Of Elements",
+      "count": 112,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/p-block-elements_276q.json",
+      "name": "Chemistry/JEE Main/p-block-elements_276q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "P Block Elements",
+      "count": 276,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/periodic-table-and-periodicity_179q.json",
+      "name": "Chemistry/JEE Main/periodic-table-and-periodicity_179q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Periodic Table And Periodicity",
+      "count": 179,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/polymers_79q.json",
+      "name": "Chemistry/JEE Main/polymers_79q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Polymers",
+      "count": 79,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/practical-organic-chemistry_113q.json",
+      "name": "Chemistry/JEE Main/practical-organic-chemistry_113q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Practical Organic Chemistry",
+      "count": 113,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/redox-reactions_74q.json",
+      "name": "Chemistry/JEE Main/redox-reactions_74q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Redox Reactions",
+      "count": 74,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/s-block-elements_123q.json",
+      "name": "Chemistry/JEE Main/s-block-elements_123q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "S Block Elements",
+      "count": 123,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/salt-analysis_43q.json",
+      "name": "Chemistry/JEE Main/salt-analysis_43q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Salt Analysis",
+      "count": 43,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/solid-state_69q.json",
+      "name": "Chemistry/JEE Main/solid-state_69q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Solid State",
+      "count": 69,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/solutions_195q.json",
+      "name": "Chemistry/JEE Main/solutions_195q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Solutions",
+      "count": 195,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/some-basic-concepts-of-chemistry_246q.json",
+      "name": "Chemistry/JEE Main/some-basic-concepts-of-chemistry_246q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Some Basic Concepts Of Chemistry",
+      "count": 246,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/structure-of-atom_220q.json",
+      "name": "Chemistry/JEE Main/structure-of-atom_220q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Structure Of Atom",
+      "count": 220,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/surface-chemistry_116q.json",
+      "name": "Chemistry/JEE Main/surface-chemistry_116q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Surface Chemistry",
+      "count": 116,
+      "group": "Chapters"
+    },
+    {
+      "path": "Chemistry/JEE Main/thermodynamics_233q.json",
+      "name": "Chemistry/JEE Main/thermodynamics_233q.json",
+      "subject": "Chemistry",
+      "exam": "jee-main",
+      "chapter": "Thermodynamics",
+      "count": 233,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/3d-geometry_63q.json",
+      "name": "Mathematics/JEE Advanced/3d-geometry_63q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "3D Geometry",
+      "count": 63,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/application-of-derivatives_127q.json",
+      "name": "Mathematics/JEE Advanced/application-of-derivatives_127q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Application Of Derivatives",
+      "count": 127,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/application-of-integration_65q.json",
+      "name": "Mathematics/JEE Advanced/application-of-integration_65q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Application Of Integration",
+      "count": 65,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/circle_101q.json",
+      "name": "Mathematics/JEE Advanced/circle_101q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Circle",
+      "count": 101,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/complex-numbers_106q.json",
+      "name": "Mathematics/JEE Advanced/complex-numbers_106q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Complex Numbers",
+      "count": 106,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/definite-integration_113q.json",
+      "name": "Mathematics/JEE Advanced/definite-integration_113q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Definite Integration",
+      "count": 113,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/differential-equations_45q.json",
+      "name": "Mathematics/JEE Advanced/differential-equations_45q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Differential Equations",
+      "count": 45,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/differentiation_38q.json",
+      "name": "Mathematics/JEE Advanced/differentiation_38q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Differentiation",
+      "count": 38,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/ellipse_45q.json",
+      "name": "Mathematics/JEE Advanced/ellipse_45q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Ellipse",
+      "count": 45,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/functions_33q.json",
+      "name": "Mathematics/JEE Advanced/functions_33q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Functions",
+      "count": 33,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/hyperbola_30q.json",
+      "name": "Mathematics/JEE Advanced/hyperbola_30q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Hyperbola",
+      "count": 30,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/indefinite-integrals_22q.json",
+      "name": "Mathematics/JEE Advanced/indefinite-integrals_22q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Indefinite Integrals",
+      "count": 22,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/inverse-trigonometric-functions_30q.json",
+      "name": "Mathematics/JEE Advanced/inverse-trigonometric-functions_30q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Inverse Trigonometric Functions",
+      "count": 30,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/limits-continuity-and-differentiability_63q.json",
+      "name": "Mathematics/JEE Advanced/limits-continuity-and-differentiability_63q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Limits Continuity And Differentiability",
+      "count": 63,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/mathematical-induction-and-binomial-theorem_54q.json",
+      "name": "Mathematics/JEE Advanced/mathematical-induction-and-binomial-theorem_54q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Mathematical Induction And Binomial Theorem",
+      "count": 54,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/matrices-and-determinants_62q.json",
+      "name": "Mathematics/JEE Advanced/matrices-and-determinants_62q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Matrices And Determinants",
+      "count": 62,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/parabola_64q.json",
+      "name": "Mathematics/JEE Advanced/parabola_64q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Parabola",
+      "count": 64,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/permutations-and-combinations_56q.json",
+      "name": "Mathematics/JEE Advanced/permutations-and-combinations_56q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Permutations And Combinations",
+      "count": 56,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/probability_141q.json",
+      "name": "Mathematics/JEE Advanced/probability_141q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Probability",
+      "count": 141,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/properties-of-triangle_78q.json",
+      "name": "Mathematics/JEE Advanced/properties-of-triangle_78q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Properties Of Triangle",
+      "count": 78,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/quadratic-equation-and-inequalities_106q.json",
+      "name": "Mathematics/JEE Advanced/quadratic-equation-and-inequalities_106q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Quadratic Equation And Inequalities",
+      "count": 106,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/sequences-and-series_79q.json",
+      "name": "Mathematics/JEE Advanced/sequences-and-series_79q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Sequences And Series",
+      "count": 79,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/statistics_3q.json",
+      "name": "Mathematics/JEE Advanced/statistics_3q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Statistics",
+      "count": 3,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/straight-lines-and-pair-of-straight-lines_87q.json",
+      "name": "Mathematics/JEE Advanced/straight-lines-and-pair-of-straight-lines_87q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Straight Lines And Pair Of Straight Lines",
+      "count": 87,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/trigonometric-functions-and-equations_100q.json",
+      "name": "Mathematics/JEE Advanced/trigonometric-functions-and-equations_100q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Trigonometric Functions And Equations",
+      "count": 100,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Advanced/vector-algebra_115q.json",
+      "name": "Mathematics/JEE Advanced/vector-algebra_115q.json",
+      "subject": "Mathematics",
+      "exam": "jee-advanced",
+      "chapter": "Vector Algebra",
+      "count": 115,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/3d-geometry_390q.json",
+      "name": "Mathematics/JEE Main/3d-geometry_390q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "3D Geometry",
+      "count": 390,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/application-of-derivatives_234q.json",
+      "name": "Mathematics/JEE Main/application-of-derivatives_234q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Application Of Derivatives",
+      "count": 234,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/area-under-the-curves_170q.json",
+      "name": "Mathematics/JEE Main/area-under-the-curves_170q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Area Under The Curves",
+      "count": 170,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/binomial-theorem_252q.json",
+      "name": "Mathematics/JEE Main/binomial-theorem_252q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Binomial Theorem",
+      "count": 252,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/circle_187q.json",
+      "name": "Mathematics/JEE Main/circle_187q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Circle",
+      "count": 187,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/complex-numbers_206q.json",
+      "name": "Mathematics/JEE Main/complex-numbers_206q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Complex Numbers",
+      "count": 206,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/definite-integration_331q.json",
+      "name": "Mathematics/JEE Main/definite-integration_331q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Definite Integration",
+      "count": 331,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/differential-equations_246q.json",
+      "name": "Mathematics/JEE Main/differential-equations_246q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Differential Equations",
+      "count": 246,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/differentiation_83q.json",
+      "name": "Mathematics/JEE Main/differentiation_83q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Differentiation",
+      "count": 83,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/ellipse_117q.json",
+      "name": "Mathematics/JEE Main/ellipse_117q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Ellipse",
+      "count": 117,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/functions_173q.json",
+      "name": "Mathematics/JEE Main/functions_173q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Functions",
+      "count": 173,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/height-and-distance_41q.json",
+      "name": "Mathematics/JEE Main/height-and-distance_41q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Height And Distance",
+      "count": 41,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/hyperbola_98q.json",
+      "name": "Mathematics/JEE Main/hyperbola_98q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Hyperbola",
+      "count": 98,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/indefinite-integrals_90q.json",
+      "name": "Mathematics/JEE Main/indefinite-integrals_90q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Indefinite Integrals",
+      "count": 90,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/inverse-trigonometric-functions_97q.json",
+      "name": "Mathematics/JEE Main/inverse-trigonometric-functions_97q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Inverse Trigonometric Functions",
+      "count": 97,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/limits-continuity-and-differentiability_278q.json",
+      "name": "Mathematics/JEE Main/limits-continuity-and-differentiability_278q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Limits Continuity And Differentiability",
+      "count": 278,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/logarithm_11q.json",
+      "name": "Mathematics/JEE Main/logarithm_11q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Logarithm",
+      "count": 11,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/mathematical-induction_3q.json",
+      "name": "Mathematics/JEE Main/mathematical-induction_3q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Mathematical Induction",
+      "count": 3,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/mathematical-reasoning_122q.json",
+      "name": "Mathematics/JEE Main/mathematical-reasoning_122q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Mathematical Reasoning",
+      "count": 122,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/matrices-and-determinants_375q.json",
+      "name": "Mathematics/JEE Main/matrices-and-determinants_375q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Matrices And Determinants",
+      "count": 375,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/parabola_151q.json",
+      "name": "Mathematics/JEE Main/parabola_151q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Parabola",
+      "count": 151,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/permutations-and-combinations_220q.json",
+      "name": "Mathematics/JEE Main/permutations-and-combinations_220q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Permutations And Combinations",
+      "count": 220,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/probability_235q.json",
+      "name": "Mathematics/JEE Main/probability_235q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Probability",
+      "count": 235,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/properties-of-triangle_38q.json",
+      "name": "Mathematics/JEE Main/properties-of-triangle_38q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Properties Of Triangle",
+      "count": 38,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/quadratic-equation-and-inequalities_198q.json",
+      "name": "Mathematics/JEE Main/quadratic-equation-and-inequalities_198q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Quadratic Equation And Inequalities",
+      "count": 198,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/sequences-and-series_309q.json",
+      "name": "Mathematics/JEE Main/sequences-and-series_309q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Sequences And Series",
+      "count": 309,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/sets-and-relations_121q.json",
+      "name": "Mathematics/JEE Main/sets-and-relations_121q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Sets And Relations",
+      "count": 121,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/statistics_150q.json",
+      "name": "Mathematics/JEE Main/statistics_150q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Statistics",
+      "count": 150,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/straight-lines-and-pair-of-straight-lines_179q.json",
+      "name": "Mathematics/JEE Main/straight-lines-and-pair-of-straight-lines_179q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Straight Lines And Pair Of Straight Lines",
+      "count": 179,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/trigonometric-functions-and-equations_62q.json",
+      "name": "Mathematics/JEE Main/trigonometric-functions-and-equations_62q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Trigonometric Functions And Equations",
+      "count": 62,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/trigonometric-ratio-and-identites_69q.json",
+      "name": "Mathematics/JEE Main/trigonometric-ratio-and-identites_69q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Trigonometric Ratio And Identites",
+      "count": 69,
+      "group": "Chapters"
+    },
+    {
+      "path": "Mathematics/JEE Main/vector-algebra_282q.json",
+      "name": "Mathematics/JEE Main/vector-algebra_282q.json",
+      "subject": "Mathematics",
+      "exam": "jee-main",
+      "chapter": "Vector Algebra",
+      "count": 282,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/alternating-current_19q.json",
+      "name": "Physics/JEE Advanced/alternating-current_19q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Alternating Current",
+      "count": 19,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/atoms-and-nuclei_58q.json",
+      "name": "Physics/JEE Advanced/atoms-and-nuclei_58q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Atoms And Nuclei",
+      "count": 58,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/capacitor_22q.json",
+      "name": "Physics/JEE Advanced/capacitor_22q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Capacitor",
+      "count": 22,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/current-electricity_35q.json",
+      "name": "Physics/JEE Advanced/current-electricity_35q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Current Electricity",
+      "count": 35,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/dual-nature-of-radiation_29q.json",
+      "name": "Physics/JEE Advanced/dual-nature-of-radiation_29q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Dual Nature Of Radiation",
+      "count": 29,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/electromagnetic-induction_24q.json",
+      "name": "Physics/JEE Advanced/electromagnetic-induction_24q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Electromagnetic Induction",
+      "count": 24,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/electromagnetic-waves_7q.json",
+      "name": "Physics/JEE Advanced/electromagnetic-waves_7q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Electromagnetic Waves",
+      "count": 7,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/electrostatics_69q.json",
+      "name": "Physics/JEE Advanced/electrostatics_69q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Electrostatics",
+      "count": 69,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/geometrical-optics_70q.json",
+      "name": "Physics/JEE Advanced/geometrical-optics_70q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Geometrical Optics",
+      "count": 70,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/gravitation_24q.json",
+      "name": "Physics/JEE Advanced/gravitation_24q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Gravitation",
+      "count": 24,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/heat-and-thermodynamics_80q.json",
+      "name": "Physics/JEE Advanced/heat-and-thermodynamics_80q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Heat And Thermodynamics",
+      "count": 80,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/impulse-and-momentum_16q.json",
+      "name": "Physics/JEE Advanced/impulse-and-momentum_16q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Impulse And Momentum",
+      "count": 16,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/laws-of-motion_38q.json",
+      "name": "Physics/JEE Advanced/laws-of-motion_38q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Laws Of Motion",
+      "count": 38,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/magnetism_53q.json",
+      "name": "Physics/JEE Advanced/magnetism_53q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Magnetism",
+      "count": 53,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/motion-in-a-plane_1q.json",
+      "name": "Physics/JEE Advanced/motion-in-a-plane_1q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Motion In A Plane",
+      "count": 1,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/motion_29q.json",
+      "name": "Physics/JEE Advanced/motion_29q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Motion",
+      "count": 29,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/practical-physics_1q.json",
+      "name": "Physics/JEE Advanced/practical-physics_1q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Practical Physics",
+      "count": 1,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/properties-of-matter_53q.json",
+      "name": "Physics/JEE Advanced/properties-of-matter_53q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Properties Of Matter",
+      "count": 53,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/rotational-motion_72q.json",
+      "name": "Physics/JEE Advanced/rotational-motion_72q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Rotational Motion",
+      "count": 72,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/simple-harmonic-motion_32q.json",
+      "name": "Physics/JEE Advanced/simple-harmonic-motion_32q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Simple Harmonic Motion",
+      "count": 32,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/units-and-measurements_63q.json",
+      "name": "Physics/JEE Advanced/units-and-measurements_63q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Units And Measurements",
+      "count": 63,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/wave-optics_21q.json",
+      "name": "Physics/JEE Advanced/wave-optics_21q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Wave Optics",
+      "count": 21,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/waves_43q.json",
+      "name": "Physics/JEE Advanced/waves_43q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Waves",
+      "count": 43,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Advanced/work-power-and-energy_38q.json",
+      "name": "Physics/JEE Advanced/work-power-and-energy_38q.json",
+      "subject": "Physics",
+      "exam": "jee-advanced",
+      "chapter": "Work Power And Energy",
+      "count": 38,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/alternating-current_191q.json",
+      "name": "Physics/JEE Main/alternating-current_191q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Alternating Current",
+      "count": 191,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/atoms-and-nuclei_300q.json",
+      "name": "Physics/JEE Main/atoms-and-nuclei_300q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Atoms And Nuclei",
+      "count": 300,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/capacitor_169q.json",
+      "name": "Physics/JEE Main/capacitor_169q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Capacitor",
+      "count": 169,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/center-of-mass_134q.json",
+      "name": "Physics/JEE Main/center-of-mass_134q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Center Of Mass",
+      "count": 134,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/circular-motion_75q.json",
+      "name": "Physics/JEE Main/circular-motion_75q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Circular Motion",
+      "count": 75,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/communication-systems_101q.json",
+      "name": "Physics/JEE Main/communication-systems_101q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Communication Systems",
+      "count": 101,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/current-electricity_379q.json",
+      "name": "Physics/JEE Main/current-electricity_379q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Current Electricity",
+      "count": 379,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/dual-nature-of-radiation_209q.json",
+      "name": "Physics/JEE Main/dual-nature-of-radiation_209q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Dual Nature Of Radiation",
+      "count": 209,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/electromagnetic-induction_153q.json",
+      "name": "Physics/JEE Main/electromagnetic-induction_153q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Electromagnetic Induction",
+      "count": 153,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/electromagnetic-waves_168q.json",
+      "name": "Physics/JEE Main/electromagnetic-waves_168q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Electromagnetic Waves",
+      "count": 168,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/electronic-devices_246q.json",
+      "name": "Physics/JEE Main/electronic-devices_246q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Electronic Devices",
+      "count": 246,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/electrostatics_280q.json",
+      "name": "Physics/JEE Main/electrostatics_280q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Electrostatics",
+      "count": 280,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/geometrical-optics_272q.json",
+      "name": "Physics/JEE Main/geometrical-optics_272q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Geometrical Optics",
+      "count": 272,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/gravitation_210q.json",
+      "name": "Physics/JEE Main/gravitation_210q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Gravitation",
+      "count": 210,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/heat-and-thermodynamics_486q.json",
+      "name": "Physics/JEE Main/heat-and-thermodynamics_486q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Heat And Thermodynamics",
+      "count": 486,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/laws-of-motion_153q.json",
+      "name": "Physics/JEE Main/laws-of-motion_153q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Laws Of Motion",
+      "count": 153,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/magnetic-properties-of-matter_76q.json",
+      "name": "Physics/JEE Main/magnetic-properties-of-matter_76q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Magnetic Properties Of Matter",
+      "count": 76,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/magnetics_241q.json",
+      "name": "Physics/JEE Main/magnetics_241q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Magnetics",
+      "count": 241,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/motion-in-a-plane_93q.json",
+      "name": "Physics/JEE Main/motion-in-a-plane_93q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Motion In A Plane",
+      "count": 93,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/motion-in-a-straight-line_123q.json",
+      "name": "Physics/JEE Main/motion-in-a-straight-line_123q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Motion In A Straight Line",
+      "count": 123,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/properties-of-matter_313q.json",
+      "name": "Physics/JEE Main/properties-of-matter_313q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Properties Of Matter",
+      "count": 313,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/rotational-motion_262q.json",
+      "name": "Physics/JEE Main/rotational-motion_262q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Rotational Motion",
+      "count": 262,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/simple-harmonic-motion_181q.json",
+      "name": "Physics/JEE Main/simple-harmonic-motion_181q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Simple Harmonic Motion",
+      "count": 181,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/units-and-measurements_230q.json",
+      "name": "Physics/JEE Main/units-and-measurements_230q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Units And Measurements",
+      "count": 230,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/vector-algebra_39q.json",
+      "name": "Physics/JEE Main/vector-algebra_39q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Vector Algebra",
+      "count": 39,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/wave-optics_179q.json",
+      "name": "Physics/JEE Main/wave-optics_179q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Wave Optics",
+      "count": 179,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/waves_154q.json",
+      "name": "Physics/JEE Main/waves_154q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Waves",
+      "count": 154,
+      "group": "Chapters"
+    },
+    {
+      "path": "Physics/JEE Main/work-power-and-energy_155q.json",
+      "name": "Physics/JEE Main/work-power-and-energy_155q.json",
+      "subject": "Physics",
+      "exam": "jee-main",
+      "chapter": "Work Power And Energy",
+      "count": 155,
+      "group": "Chapters"
+    }
+  ]
+}

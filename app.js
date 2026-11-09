@@ -52,7 +52,14 @@
     sun: '<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>',
     keyboard: '<rect x="2" y="5" width="20" height="14" rx="2"/><line x1="6" y1="9" x2="6.01" y2="9"/><line x1="10" y1="9" x2="10.01" y2="9"/><line x1="14" y1="9" x2="14.01" y2="9"/><line x1="18" y1="9" x2="18.01" y2="9"/><line x1="7" y1="15" x2="17" y2="15"/>',
     retry: '<polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>',
-    eye: '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>'
+    eye: '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>',
+    teacher: '<path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/><line x1="22" y1="10" x2="22" y2="16"/>',
+    download: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>',
+    print: '<polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/>',
+    image: '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>',
+    lock: '<rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>',
+    trash: '<polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/>',
+    save: '<path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/>'
   };
   const icon = (name, cls = '') => `<svg class="i ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[name] || ''}</svg>`;
   function hydrateIcons(root = document) {
@@ -91,7 +98,7 @@
   let attempts = [];
   let bookmarks = new Set();
   let reviews = new Set();
-  let meta = { f: [], m: {} };           // question id -> index into meta.f (the file that contains it)
+  let meta = { f: [], m: {}, c: {} };           // question id -> index into meta.f (the file that contains it)
   let prefs = { order: 'newest', length: 20, include: 'all' };
 
   function loadStorage() {
@@ -103,6 +110,7 @@
     reviews = new Set(Array.isArray(r) ? r.map(String) : []);
     const m = store.get(KEYS.meta, null);
     if (m && Array.isArray(m.f) && m.m && typeof m.m === 'object') meta = m;
+    if (!meta.c || typeof meta.c !== 'object') meta.c = {};
     const p = store.get(KEYS.prefs, null);
     if (p && typeof p === 'object') prefs = { ...prefs, ...p };
     store.del('jeePractice_sessions_v3__active'); // old, incompatible in-progress session format
@@ -144,7 +152,7 @@
           path: entry, subject: titleCase(parts[0] || 'Unknown'),
           exam: /advanced/i.test(parts[1] || '') ? 'jee-advanced' : 'jee-main',
           chapter: titleCase(fileName.replace(/_\d+q\.json$/i, '')),
-          count: Number(fileName.match(/_(\d+)q\.json$/i)?.[1] || 0), group: 'Chapters'
+          count: Number(fileName.match(/_(\d+)q\.json$/i)?.[1] || 0), group: 'Chapters', oos: null, bonus: null, topics: null, years: null
         };
       }
       const path = entry.path || entry.name;
@@ -152,7 +160,9 @@
         path, subject: titleCase(entry.subject || 'Unknown'),
         exam: entry.exam || (/advanced/i.test(path || '') ? 'jee-advanced' : 'jee-main'),
         chapter: entry.chapter || titleCase(String(path || '').split('/').pop().replace(/_\d+q\.json$/i, '')),
-        count: Number(entry.count || 0), group: entry.group || 'Chapters'
+        count: Number(entry.count || 0), group: entry.group ? titleCase(entry.group) : 'Chapters',
+        oos: entry.oos ?? null, bonus: entry.bonus ?? null,
+        topics: Array.isArray(entry.topics) ? entry.topics : null, years: Array.isArray(entry.years) ? entry.years : null
       };
     }).filter(f => f.path);
     data.byPath = new Map(data.files.map(f => [f.path, f]));
@@ -162,6 +172,25 @@
   const filesFor = (exam, subject) => data.files.filter(f => f.exam === exam && (!subject || f.subject === subject));
   const fileForChapter = (exam, subject, chapter) => data.files.find(f => f.exam === exam && f.subject === subject && norm(f.chapter) === norm(chapter));
   const examSubjects = exam => SUBJECTS.filter(s => filesFor(exam, s).length).concat([...new Set(filesFor(exam).map(f => f.subject))].filter(s => !SUBJECTS.includes(s)));
+
+  // Chapter-level flags. The manifest can carry them (see tools/build-manifest.js); otherwise they are
+  // learned the first time a chapter is opened and remembered on this device.
+  function chapInfo(f) {
+    const c = meta.c[f.path];
+    const count = f.count || c?.n || 0;
+    const oos = f.oos != null ? Number(f.oos) : (c ? c.o : 0);
+    const bonus = f.bonus != null ? Number(f.bonus) : (c ? c.b : 0);
+    const group = f.group && f.group !== 'Chapters' ? f.group : (c?.g || 'Chapters');
+    return { group, count, oos, bonus, allOos: count > 0 && oos >= count };
+  }
+  const inSyllabusFirst = files => files.map((f, i) => [f, i]).sort((a, b) => (chapInfo(a[0]).allOos - chapInfo(b[0]).allOos) || a[1] - b[1]).map(x => x[0]);
+  function groupFiles(files) {
+    const m = new Map();
+    for (const f of files) { const g = chapInfo(f).group; if (!m.has(g)) m.set(g, []); m.get(g).push(f); }
+    return [...m];
+  }
+  const chapTags = info => (info.allOos ? '<span class="chip oos">Out of syllabus</span>' : info.oos ? `<span class="chip oos">${info.oos} out of syllabus</span>` : '')
+    + (info.bonus ? `<span class="chip bonus">${info.bonus} bonus</span>` : '');
 
   function parseSortKey(raw) {
     // Orders papers by real date: year, then month/day/shift parsed from the paper title.
@@ -204,6 +233,12 @@
       neg: Number.isFinite(Number(raw.negMarks)) ? Math.abs(Number(raw.negMarks)) : 0,
       paper: String(raw.paperTitle || ''),
       sortKey: parseSortKey(raw),
+      group: titleCase(raw.chapterGroup || ''),
+      examGroup: String(raw.examGroup || ''),
+      paperId: String(raw.paperId || ''),
+      bonus: raw.isBonus === true,
+      oos: raw.isOutOfSyllabus === true,
+      tags: Array.isArray(raw.tags) ? raw.tags.map(String).filter(Boolean) : [],
       raw
     };
     return q;
@@ -224,6 +259,9 @@
     if (idx < 0) { meta.f.push(path); idx = meta.f.length - 1; }
     let changed = false;
     for (const q of qs) if (meta.m[q.id] !== idx) { meta.m[q.id] = idx; changed = true; }
+    const info = { g: qs[0]?.group || '', n: qs.length, o: qs.filter(q => q.oos).length, b: qs.filter(q => q.bonus).length };
+    const old = meta.c[path];
+    if (!old || old.g !== info.g || old.n !== info.n || old.o !== info.o || old.b !== info.b) { meta.c[path] = info; changed = true; }
     if (changed) { saveMetaSoon(); statsDirty = true; }
   }
 
@@ -296,11 +334,25 @@
       });
       if (el.tagName === 'IMG') el.setAttribute('loading', 'lazy');
     });
-    return t.innerHTML;
+    return fixMath(t.innerHTML);
+  }
+
+  // The question data writes inline maths as $$…$$, which MathJax would draw as a centred block and
+  // break the sentence. A $$…$$ that shares its paragraph with other text becomes inline; one that
+  // stands alone stays a display equation.
+  const BLOCK_TAG = /<\/?(?:p|div|br|li|tr|td|th|table|ul|ol|h[1-6]|blockquote)\b[^>]*>/i;
+  const blank = s => !s.replace(/&nbsp;|\s/g, '');
+  function fixMath(html) {
+    if (!html.includes('$$')) return html;
+    return html.replace(/\$\$([\s\S]+?)\$\$/g, (m, tex, off, str) => {
+      const before = str.slice(0, off).split(BLOCK_TAG).pop();
+      const after = str.slice(off + m.length).split(BLOCK_TAG)[0];
+      return blank(before) && blank(after) ? m : `\\(${tex}\\)`;
+    });
   }
 
   function previewText(q) {
-    let text = plainText(qd(q).content).replace(/\s+/g, ' ').trim();
+    let text = plainText(qd(q).content).replace(/\s+/g, ' ').trim().replace(/\$\$([\s\S]+?)\$\$/g, (m, t) => '$' + t + '$'); // list preview: always inline
     if (text.length > 220) {
       let cut = text.slice(0, 220);
       cut = cut.slice(0, Math.max(cut.lastIndexOf(' '), 120));
@@ -474,7 +526,8 @@
       { id: 'saved', label: 'Saved', icon: 'star', href: hrefs.saved(), on: r.name === 'saved' },
       { id: 'progress', label: 'Progress', icon: 'chart', href: hrefs.progress(), on: r.name === 'progress' }
     ];
-    $('#sideNav').innerHTML = items.map(i => `<a class="nav-item ${i.on ? 'active' : ''}" href="${i.href}">${icon(i.icon)}<span>${i.label}</span></a>`).join('');
+    const sideItems = items.concat([{ id: 'teacher', label: 'Teacher mode', icon: 'teacher', href: '#/teacher', on: r.name === 'teacher' }]);
+    $('#sideNav').innerHTML = sideItems.map(i => `<a class="nav-item ${i.on ? 'active' : ''}" href="${i.href}">${icon(i.icon)}<span>${i.label}</span></a>`).join('');
     $('#tabBar').innerHTML = items.map(i => `<a class="${i.on ? 'active' : ''}" href="${i.href}" ${i.on ? 'aria-current="page"' : ''}>${icon(i.icon)}<span>${i.label}</span></a>`).join('');
     $$('#examSeg button').forEach(b => { const on = b.dataset.v === app.exam; b.classList.toggle('active', on); b.setAttribute('aria-selected', String(on)); });
   }
@@ -506,6 +559,10 @@
         case 'build': return pageBuild();
         case 'saved': return pageSaved(token);
         case 'progress': return pageProgress();
+        case 'teacher':
+          if (window.JWT) return window.JWT.page(token);
+          window.addEventListener('load', () => route(), { once: true });
+          return;
         default: return pageHome();
       }
     } catch (err) {
@@ -588,26 +645,28 @@
         <p>Pick a chapter. Only that chapter's questions are loaded.</p></div></div>
       <div class="tabs">${subs.map(s => `<a class="tab ${s === subject ? 'active' : ''}" href="${hrefs.subject(s)}">${esc(s)}<span class="n">${filesFor(exam, s).length}</span></a>`).join('')}</div>
       <div class="toolbar">
-        <input class="input search" id="libSearch" type="search" placeholder="Search chapters…" value="${esc(LIB.q)}" aria-label="Search chapters">
+        <input class="input search" id="libSearch" type="search" placeholder="Search chapters or topics…" value="${esc(LIB.q)}" aria-label="Search chapters">
         <select class="select" id="libFilter" aria-label="Filter">
-          ${[['all', 'All chapters'], ['todo', 'Not started'], ['progress', 'In progress'], ['weak', 'Needs work (<60%)']].map(([v, l]) => `<option value="${v}" ${LIB.filter === v ? 'selected' : ''}>${l}</option>`).join('')}
+          ${[['all', 'All chapters'], ['syllabus', 'In syllabus only'], ['oos', 'Out of syllabus'], ['todo', 'Not started'], ['progress', 'In progress'], ['weak', 'Needs work (<60%)']].map(([v, l]) => `<option value="${v}" ${LIB.filter === v ? 'selected' : ''}>${l}</option>`).join('')}
         </select>
         <select class="select" id="libSort" aria-label="Sort">
           ${[['default', 'Default order'], ['questions', 'Most questions'], ['weak', 'Weakest first'], ['best', 'Best accuracy']].map(([v, l]) => `<option value="${v}" ${LIB.sort === v ? 'selected' : ''}>${l}</option>`).join('')}
         </select>
       </div>
-      <div class="grid cols-auto" id="chapGrid"></div>`);
+      <div id="chapGrid"></div>`);
     renderChapterGrid();
   }
 
   function renderChapterGrid() {
     const exam = app.exam, subject = app.subject;
-    let rows = filesFor(exam, subject).map(f => {
+    let rows = inSyllabusFirst(filesFor(exam, subject)).map(f => {
       const s = chapterStats(exam, subject, f.chapter);
-      return { f, s, acc: pct(s.correct, s.attempted) };
+      return { f, s, acc: pct(s.correct, s.attempted), info: chapInfo(f) };
     });
     const q = LIB.q.trim().toLowerCase();
-    if (q) rows = rows.filter(r => r.f.chapter.toLowerCase().includes(q));
+    if (q) rows = rows.filter(r => r.f.chapter.toLowerCase().includes(q) || r.info.group.toLowerCase().includes(q) || (r.f.topics || []).some(t => String(t.n).toLowerCase().includes(q)));
+    if (LIB.filter === 'syllabus') rows = rows.filter(r => !r.info.allOos);
+    if (LIB.filter === 'oos') rows = rows.filter(r => r.info.oos > 0);
     if (LIB.filter === 'todo') rows = rows.filter(r => !r.s.attempted);
     if (LIB.filter === 'progress') rows = rows.filter(r => r.s.attempted && r.s.attempted < r.f.count);
     if (LIB.filter === 'weak') rows = rows.filter(r => r.s.attempted >= 3 && r.acc < 60);
@@ -616,16 +675,59 @@
     if (LIB.sort === 'best') rows.sort((a, b) => (b.s.attempted ? b.acc : -1) - (a.s.attempted ? a.acc : -1));
     const grid = $('#chapGrid');
     if (!grid) return;
-    grid.innerHTML = rows.map(({ f, s, acc }) => `
-      <a class="chapter-card" href="${hrefs.chapter(subject, f.chapter)}">
+    const card = ({ f, s, acc, info }) => `
+      <a class="chapter-card ${info.allOos ? 'oos' : ''}" href="${hrefs.chapter(subject, f.chapter)}">
         <h3>${esc(f.chapter)}</h3>
+        ${chapTags(info) ? `<div class="chap-tags">${chapTags(info)}</div>` : ''}
+        ${f.topics?.length ? `<div class="chap-topics">${esc(f.topics.slice(0, 3).map(t => t.n).join(' · '))}${f.topics.length > 3 ? ` +${f.topics.length - 3} more` : ''}</div>` : ''}
         <div class="bar"><i class="g" style="width:${pct(s.correct, f.count)}%"></i><i class="r" style="width:${pct(s.wrong, f.count)}%"></i></div>
-        <div class="row"><span>${plural(f.count, 'question')}</span><span>${s.attempted ? `${s.attempted} done · ${acc}%` : 'Not started'}</span></div>
-      </a>`).join('') || '<div class="empty" style="grid-column:1/-1"><strong>No chapters match</strong><span>Try clearing the search or filter.</span></div>';
+        <div class="row"><span>${plural(f.count, 'question')}${f.topics?.length ? ` · ${plural(f.topics.length, 'topic')}` : ''}${f.years ? ` · ${f.years[0] === f.years[1] ? f.years[0] : f.years[0] + '–' + f.years[1]}` : ''}</span><span>${s.attempted ? `${s.attempted} done · ${acc}%` : 'Not started'}</span></div>
+      </a>`;
+    // Sections follow the chapter groups (Mechanics, Electricity, …) in the order the manifest lists them.
+    const order = [...new Set(filesFor(exam, subject).map(f => chapInfo(f).group))];
+    const byGroup = new Map(order.map(g => [g, []]));
+    rows.forEach(r => { if (!byGroup.has(r.info.group)) byGroup.set(r.info.group, []); byGroup.get(r.info.group).push(r); });
+    const sections = [...byGroup].filter(([, list]) => list.length);
+    const titled = sections.length > 1 || (sections[0] && sections[0][0] !== 'Chapters');
+    grid.innerHTML = sections.map(([g, list]) => `
+      ${titled ? `<h2 class="group-title">${esc(g)}<span>${plural(list.length, 'chapter')} · ${plural(list.reduce((n, r) => n + r.f.count, 0), 'question')}</span></h2>` : ''}
+      <div class="grid cols-auto">${list.map(card).join('')}</div>`).join('')
+      || '<div class="empty"><strong>No chapters match</strong><span>Try clearing the search or filter.</span></div>';
   }
 
   /* ---- Chapter detail ---- */
   let CP = null; // chapter page state
+
+  const KIND_LABEL = { single: 'Single correct', multi: 'Multiple correct', number: 'Numerical' };
+  const marksLabel = q => `+${q.marks} / −${q.neg}`;
+  const sylLabel = q => (q.bonus ? 'Bonus' : q.oos ? 'Out of syllabus' : 'In syllabus');
+  // [key, label, function that puts a question into a group]
+  const GROUPS = [
+    ['topic', 'Topic', q => q.topic || 'General'],
+    ['year', 'Year', q => (q.year ? String(q.year) : 'Year n/a')],
+    ['paper', 'Paper', q => q.paper || 'Paper n/a'],
+    ['diff', 'Difficulty', q => q.diff],
+    ['type', 'Question type', q => KIND_LABEL[q.kind]],
+    ['marks', 'Marks', marksLabel],
+    ['syllabus', 'Syllabus', sylLabel]
+  ];
+  const groupFn = k => GROUPS.find(g => g[0] === k)?.[2];
+  const initialGroup = () => (prefs.group === 'none' || groupFn(prefs.group) ? prefs.group : 'topic');
+
+  function orderGroups(list, key) {
+    const fn = groupFn(key), m = new Map();
+    for (const q of list) { const l = fn(q); (m.get(l) || m.set(l, []).get(l)).push(q); }
+    const arr = [...m].map(([label, qs]) => ({ label, qs }));
+    const rank = (a, l) => { const i = a.indexOf(l); return i < 0 ? 99 : i; };
+    const dir = CP.order === 'oldest' ? 1 : -1;
+    if (key === 'topic') arr.sort((a, b) => b.qs.length - a.qs.length || a.label.localeCompare(b.label));
+    else if (key === 'year' || key === 'paper') arr.sort((a, b) => dir * (a.qs[0].sortKey - b.qs[0].sortKey));
+    else if (key === 'diff') arr.sort((a, b) => rank(['Easy', 'Medium', 'Hard'], a.label) - rank(['Easy', 'Medium', 'Hard'], b.label));
+    else if (key === 'type') arr.sort((a, b) => rank(Object.values(KIND_LABEL), a.label) - rank(Object.values(KIND_LABEL), b.label));
+    else if (key === 'marks') arr.sort((a, b) => b.qs[0].marks - a.qs[0].marks || a.qs[0].neg - b.qs[0].neg);
+    else if (key === 'syllabus') arr.sort((a, b) => rank(['In syllabus', 'Bonus', 'Out of syllabus'], a.label) - rank(['In syllabus', 'Bonus', 'Out of syllabus'], b.label));
+    return arr;
+  }
 
   async function pageChapter(subject, chapter, token) {
     const exam = app.exam;
@@ -637,7 +739,7 @@
     app.subject = file.subject;
     renderNav({ name: 'chapter' });
     const key = `${exam}|${file.path}`;
-    if (!CP || CP.key !== key) CP = { key, file, qs: [], tab: 'all', search: '', year: '', diff: '', kind: '', status: '', order: 'newest', limit: 60, filtered: [] };
+    if (!CP || CP.key !== key) CP = { key, file, qs: [], tab: 'all', search: '', year: '', diff: '', kind: '', status: '', paper: '', marks: '', syl: '', tag: '', group: initialGroup(), gsel: '', groups: [], baseCount: 0, order: 'newest', limit: 60, filtered: [] };
     if (!data.cache.has(file.path)) {
       setView(`<a class="back" href="${hrefs.subject(file.subject)}">${icon('left')} ${esc(file.subject)}</a>
         <div class="page-head"><div><div class="eyebrow">${esc(file.subject)} · ${examName(exam)}</div><h1>${esc(file.chapter)}</h1><p>Loading ${plural(file.count, 'question')}…</p></div></div>
@@ -660,25 +762,38 @@
     const { file, qs } = CP;
     const years = [...new Set(qs.map(q => q.year).filter(Boolean))].sort((a, b) => b - a);
     const diffs = [...new Set(qs.map(q => q.diff))].sort();
-    const kinds = [['single', 'Single correct'], ['multi', 'Multiple correct'], ['number', 'Numerical']].filter(([k]) => qs.some(q => q.kind === k));
+    const kinds = Object.entries(KIND_LABEL).filter(([k]) => qs.some(q => q.kind === k));
+    const papers = [...new Map(qs.filter(q => q.paper).map(q => [q.paper, q.sortKey]))].sort((a, b) => b[1] - a[1]).map(x => x[0]);
+    const markSets = [...new Set(qs.map(marksLabel))];
+    const tags = [...new Set(qs.flatMap(q => q.tags))].sort();
+    const nBonus = qs.filter(q => q.bonus).length, nOos = qs.filter(q => q.oos).length;
+    const allOos = qs.length > 0 && nOos === qs.length;
     const opt = (v, l, cur) => `<option value="${esc(v)}" ${String(cur) === String(v) ? 'selected' : ''}>${esc(l)}</option>`;
     setView(`
       <a class="back" href="${hrefs.subject(file.subject)}">${icon('left')} ${esc(file.subject)}</a>
       <div class="page-head"><div>
-        <div class="eyebrow">${esc(file.subject)} · ${examName(app.exam)}</div>
+        <div class="eyebrow">${esc(file.subject)} · ${examName(app.exam)}${qs[0]?.group ? ' · ' + esc(qs[0].group) : ''}</div>
         <h1>${esc(file.chapter)}</h1>
-        <p>${plural(qs.length, 'question')}${years.length ? ` · ${years[years.length - 1]}–${years[0]}` : ''}</p></div>
+        <p>${plural(qs.length, 'question')}${years.length ? ` · ${years[years.length - 1]}–${years[0]}` : ''}</p>
+        ${allOos || nBonus || nOos ? `<div class="chap-tags">${allOos ? '<span class="chip oos">Out of syllabus</span>' : nOos ? `<span class="chip oos">${nOos} out of syllabus</span>` : ''}${nBonus ? `<span class="chip bonus">${nBonus} bonus</span>` : ''}</div>` : ''}</div>
         <button class="btn primary" data-act="chapter-practice">${icon('play')} Practice</button></div>
+      ${allOos ? '<div class="notice oos-banner"><span class="grow"><b>This chapter is out of syllabus.</b><br><span class="muted">Every question here is outside the current syllabus.</span></span></div>' : ''}
       <div class="grid cols-4" id="cpStats"></div>
       <div class="tabs" style="margin-top:22px" id="cpTabs"></div>
       <div class="toolbar">
         <input class="input search" id="cpSearch" type="search" placeholder="Search in this chapter…" value="${esc(CP.search)}" aria-label="Search questions">
+        <select class="select" data-cp="group" aria-label="Group by">${opt('none', 'No grouping', CP.group)}${GROUPS.map(g => opt(g[0], 'Group by ' + g[1].toLowerCase(), CP.group)).join('')}</select>
         <select class="select" data-cp="year" aria-label="Year">${opt('', 'All years', CP.year)}${years.map(y => opt(y, y, CP.year)).join('')}</select>
+        ${papers.length > 1 ? `<select class="select" data-cp="paper" aria-label="Paper">${opt('', 'All papers', CP.paper)}${papers.map(p => opt(p, p, CP.paper)).join('')}</select>` : ''}
         <select class="select" data-cp="diff" aria-label="Difficulty">${opt('', 'Any difficulty', CP.diff)}${diffs.map(d => opt(d, d, CP.diff)).join('')}</select>
         <select class="select" data-cp="kind" aria-label="Question type">${opt('', 'Any type', CP.kind)}${kinds.map(([k, l]) => opt(k, l, CP.kind)).join('')}</select>
+        ${markSets.length > 1 ? `<select class="select" data-cp="marks" aria-label="Marks">${opt('', 'Any marks', CP.marks)}${markSets.map(m => opt(m, m, CP.marks)).join('')}</select>` : ''}
+        ${nBonus || nOos ? `<select class="select" data-cp="syl" aria-label="Syllabus">${[['', 'Any syllabus status'], ['in', 'In syllabus'], ['oos', 'Out of syllabus'], ['bonus', 'Bonus']].map(([v, l]) => opt(v, l, CP.syl)).join('')}</select>` : ''}
+        ${tags.length ? `<select class="select" data-cp="tag" aria-label="Tag">${opt('', 'Any tag', CP.tag)}${tags.map(t => opt(t, t, CP.tag)).join('')}</select>` : ''}
         <select class="select" data-cp="status" aria-label="Status">${[['', 'Any status'], ['new', 'Unattempted'], ['ok', 'Correct'], ['bad', 'Wrong'], ['bookmarked', 'Bookmarked'], ['review', 'For review']].map(([v, l]) => opt(v, l, CP.status)).join('')}</select>
         <select class="select" data-cp="order" aria-label="Order">${opt('newest', 'Newest first', CP.order)}${opt('oldest', 'Oldest first', CP.order)}</select>
       </div>
+      <div class="gstrip" id="cpGroups"></div>
       <div class="result-line"><span id="cpCount"></span><button class="btn ghost sm" data-act="cp-clear">Clear filters</button></div>
       <div id="cpList"></div>`);
     drawChapterMeta();
@@ -696,16 +811,30 @@
       <button class="tab ${CP.tab === 'mistakes' ? 'active' : ''}" data-act="cp-tab" data-v="mistakes">Mistakes<span class="n">${wrong}</span></button>`;
   }
 
-  function chapterFiltered() {
+  // Everything except the group-chip selection.
+  function chapterBase() {
     let list = CP.qs;
     if (CP.tab === 'mistakes') list = list.filter(q => { const a = latestOf(q.id); return a && !a.correct; });
     const s = CP.search.trim().toLowerCase();
     if (s) list = list.filter(q => searchText(q).includes(s));
     if (CP.year) list = list.filter(q => String(q.year) === CP.year);
+    if (CP.paper) list = list.filter(q => q.paper === CP.paper);
     if (CP.diff) list = list.filter(q => q.diff === CP.diff);
     if (CP.kind) list = list.filter(q => q.kind === CP.kind);
+    if (CP.marks) list = list.filter(q => marksLabel(q) === CP.marks);
+    if (CP.syl) list = list.filter(q => (CP.syl === 'bonus' ? q.bonus : CP.syl === 'oos' ? q.oos : !q.oos));
+    if (CP.tag) list = list.filter(q => q.tags.includes(CP.tag));
     if (CP.status) list = list.filter(q => statusMatch(q, CP.status));
     return ordered(list, CP.order);
+  }
+
+  function chapterFiltered() {
+    const base = chapterBase();
+    CP.baseCount = base.length;
+    if (CP.group === 'none') { CP.groups = []; return base; }
+    CP.groups = orderGroups(base, CP.group);
+    if (CP.gsel && !CP.groups.some(g => g.label === CP.gsel)) CP.gsel = '';
+    return (CP.gsel ? CP.groups.filter(g => g.label === CP.gsel) : CP.groups).flatMap(g => g.qs);
   }
 
   function statusMatch(q, st) {
@@ -728,17 +857,19 @@
     return arr.map((q, i) => [q, i]).sort((x, y) => dir * (x[0].sortKey - y[0].sortKey) || x[1] - y[1]).map(x => x[0]);
   }
 
-  function qRow(q, i) {
+  function qRow(q, i, hideTopic = false) {
     const a = latestOf(q.id);
     const st = a ? (a.correct ? ['ok', 'Correct'] : ['bad', 'Wrong']) : ['new', 'Unattempted'];
     const saved = bookmarks.has(q.id);
-    return `<article class="qrow ${a ? (a.correct ? 'ok' : 'bad') : ''}" data-act="open-q" data-id="${esc(q.id)}" tabindex="0" role="button">
+    return `<article class="qrow ${a ? (a.correct ? 'ok' : 'bad') : ''} ${q.oos ? 'is-oos' : ''}" data-act="open-q" data-id="${esc(q.id)}" tabindex="0" role="button">
       <div class="qnum">${i + 1}</div>
       <div class="qbody">
         <div class="qtext mj">${esc(previewText(q))}</div>
         <div class="qmeta">
+          ${q.bonus ? '<span class="chip bonus">Bonus</span>' : ''}${q.oos ? '<span class="chip oos">Out of syllabus</span>' : ''}
           <span class="chip">${esc(q.year || 'Year n/a')}</span>
           ${paperShort(q) ? `<span class="chip">${esc(paperShort(q))}</span>` : ''}
+          ${q.topic && !hideTopic ? `<span class="chip">${esc(q.topic)}</span>` : ''}
           <span class="chip ${q.diff.toLowerCase()}">${esc(q.diff)}</span>
           <span class="chip ${st[0]}">${st[1]}</span>
         </div>
@@ -747,17 +878,44 @@
     </article>`;
   }
 
+  function groupHead(label) {
+    const g = CP.groups.find(x => x.label === label);
+    if (!g) return '';
+    const done = g.qs.map(q => latestOf(q.id)).filter(Boolean);
+    const ok = done.filter(a => a.correct).length;
+    return `<div class="ghead"><div><b>${esc(label)}</b><span>${plural(g.qs.length, 'question')}${done.length ? ` · ${done.length} done · ${pct(ok, done.length)}%` : ''}</span></div>
+      <button class="btn ghost sm" data-act="cp-gpractice" data-g="${esc(label)}">${icon('play')} Practice</button></div>`;
+  }
+
+  // Question rows for filtered[start…], with a header whenever the group changes.
+  function rowsHtml(slice, start) {
+    const gk = CP.group === 'none' ? null : groupFn(CP.group);
+    let prev = gk && start > 0 ? gk(CP.filtered[start - 1]) : undefined;
+    return slice.map((q, i) => {
+      let head = '';
+      if (gk) { const g = gk(q); if (g !== prev) { head = groupHead(g); prev = g; } }
+      return head + qRow(q, start + i, CP.group === 'topic');
+    }).join('');
+  }
+
   let listCtx = { qs: [], title: '', sourceKey: '' };
 
   function drawChapterList() {
     CP.filtered = chapterFiltered();
     listCtx = { qs: CP.filtered, title: CP.file.chapter, sourceKey: '' };
     const shown = CP.filtered.slice(0, CP.limit);
+    const strip = $('#cpGroups');
+    if (strip) {
+      strip.innerHTML = CP.groups.length > 1
+        ? `<button class="gchip ${CP.gsel === '' ? 'active' : ''}" data-act="cp-gsel" data-g="">All<span>${CP.baseCount}</span></button>`
+          + CP.groups.map(g => `<button class="gchip ${CP.gsel === g.label ? 'active' : ''}" data-act="cp-gsel" data-g="${esc(g.label)}">${esc(g.label)}<span>${g.qs.length}</span></button>`).join('')
+        : '';
+    }
     $('#cpCount').textContent = CP.filtered.length === CP.qs.length || CP.tab === 'mistakes' && !CP.search
       ? plural(CP.filtered.length, 'question') : `${CP.filtered.length} of ${CP.qs.length} questions`;
     const list = $('#cpList');
     list.innerHTML = shown.length
-      ? shown.map(qRow).join('') + (CP.filtered.length > shown.length ? `<div style="text-align:center;margin-top:14px"><button class="btn" data-act="cp-more">Show ${Math.min(60, CP.filtered.length - shown.length)} more</button></div>` : '')
+      ? rowsHtml(shown, 0) + (CP.filtered.length > shown.length ? `<div style="text-align:center;margin-top:14px"><button class="btn" data-act="cp-more">Show ${Math.min(60, CP.filtered.length - shown.length)} more</button></div>` : '')
       : `<div class="empty"><strong>${CP.tab === 'mistakes' ? 'No mistakes here' : 'No questions match'}</strong><span>${CP.tab === 'mistakes' ? 'A question leaves this list once you get it right.' : 'Try clearing a filter.'}</span></div>`;
     hydrateIcons(list);
     observeMath(list);
@@ -765,6 +923,12 @@
 
   /* ---- Custom practice builder ---- */
   const BUILD = { sel: new Set(), busy: false };
+
+  function pickBtn(f) {
+    const info = chapInfo(f), on = BUILD.sel.has(f.path);
+    return `<button class="pick ${on ? 'on' : ''} ${info.allOos ? 'oos' : ''}" data-act="pick" data-path="${esc(f.path)}" aria-pressed="${on}">
+      <span class="box">${icon('check')}</span><span class="name">${esc(f.chapter)}${info.allOos ? ' <i class="oos-tag">Out of syllabus</i>' : ''}</span><small>${f.count}</small></button>`;
+  }
 
   function pageBuild() {
     const exam = app.exam;
@@ -776,10 +940,9 @@
         <h1>Build a session</h1>
         <p>Choose the chapters you want to mix. Then set the length and order.</p></div></div>
       ${subs.map(s => {
-        const files = filesFor(exam, s);
+        const groups = groupFiles(inSyllabusFirst(filesFor(exam, s)));
         return `<section class="pick-group"><h3><span>${esc(s)}</span><button class="btn ghost sm" data-act="pick-subject" data-v="${esc(s)}">Select all / none</button></h3>
-          <div class="grid cols-auto">${files.map(f => `<button class="pick ${BUILD.sel.has(f.path) ? 'on' : ''}" data-act="pick" data-path="${esc(f.path)}" aria-pressed="${BUILD.sel.has(f.path)}">
-            <span class="box">${icon('check')}</span><span class="name">${esc(f.chapter)}</span><small>${f.count}</small></button>`).join('')}</div></section>`;
+          ${groups.map(([g, files]) => `${groups.length > 1 || g !== 'Chapters' ? `<h4 class="group-title">${esc(g)}</h4>` : ''}<div class="grid cols-auto">${files.map(pickBtn).join('')}</div>`).join('')}</section>`;
       }).join('')}
       <div class="sticky-bar"><div id="buildSummary"></div><button class="btn primary" id="buildGo" data-act="build-go">Continue ${icon('right')}</button></div>`);
     drawBuildSummary();
@@ -912,11 +1075,14 @@
     if (SU.include === 'new') list = list.filter(q => !latestOf(q.id));
     if (SU.include === 'bad') list = list.filter(q => { const a = latestOf(q.id); return a && !a.correct; });
     if (SU.diff) list = list.filter(q => q.diff === SU.diff);
+    if (SU.syl === 'in') list = list.filter(q => !q.oos);
+    if (SU.syl === 'oos') list = list.filter(q => q.oos);
+    if (SU.syl === 'bonus') list = list.filter(q => q.bonus);
     return list;
   }
 
   function openSetup({ title, sourceKey, pool }) {
-    SU = { title, sourceKey, pool, include: 'all', diff: '', order: prefs.order, length: prefs.length };
+    SU = { title, sourceKey, pool, include: 'all', diff: '', syl: '', order: prefs.order, length: prefs.length };
     drawSetup();
   }
 
@@ -942,6 +1108,12 @@
       ${diffs.length > 1 ? `<div class="field"><span class="label">Difficulty</span><div class="choices">
         <button class="choice ${SU.diff === '' ? 'active' : ''}" data-act="su" data-k="diff" data-v="">Any</button>
         ${diffs.map(d => `<button class="choice ${SU.diff === d ? 'active' : ''}" data-act="su" data-k="diff" data-v="${esc(d)}">${esc(d)} · ${SU.pool.filter(q => q.diff === d).length}</button>`).join('')}</div></div>` : ''}
+      ${(() => {
+        const c = { '': SU.pool.length, in: SU.pool.filter(q => !q.oos).length, oos: SU.pool.filter(q => q.oos).length, bonus: SU.pool.filter(q => q.bonus).length };
+        if (!c.oos && !c.bonus) return '';
+        return `<div class="field"><span class="label">Syllabus</span><div class="choices">${[['', 'All'], ['in', 'In syllabus'], ['oos', 'Out of syllabus'], ['bonus', 'Bonus']].filter(([v]) => v === '' || c[v])
+          .map(([v, l]) => `<button class="choice ${SU.syl === v ? 'active' : ''}" data-act="su" data-k="syl" data-v="${v}">${l} · ${c[v]}</button>`).join('')}</div></div>`;
+      })()}
       <div class="field"><span class="label">Session length</span><div class="choices">
         ${lens.map(v => `<button class="choice ${eff === v && SU.length !== 'all' ? 'active' : ''}" data-act="su" data-k="length" data-v="${v}">${v}</button>`).join('')}
         <button class="choice ${eff === n && (SU.length === 'all' || !lens.includes(eff)) ? 'active' : ''}" data-act="su" data-k="length" data-v="all" ${n ? '' : 'disabled'}>All · ${n}</button></div></div>
@@ -1096,7 +1268,9 @@
           <span class="key">${esc(o.id)}</span><span class="txt">${sanitize(o.html)}</span></button>`;
       }).join('')}</div>`;
 
-    const callouts = [d.direction, d.comprehension].filter(Boolean).map(h => `<div class="callout">${sanitize(h)}</div>`).join('');
+    const callouts = (q.bonus ? '<div class="callout bonus-note"><b>Bonus question</b> — marked as bonus by the exam authority.</div>' : '')
+      + (q.oos ? '<div class="callout oos-note"><b>Out of syllabus</b> — this question is outside the current syllabus.</div>' : '')
+      + [d.direction, d.comprehension].filter(Boolean).map(h => `<div class="callout">${sanitize(h)}</div>`).join('');
     const canSubmit = q.kind === 'number' ? String(e.val || '').trim() !== '' : (e.sel || []).length > 0;
     const last = S.index === n - 1;
 
@@ -1112,7 +1286,9 @@
       <div class="p-progress"><i style="width:${pct(answeredCount, n)}%"></i></div>
       <div class="p-scroll" id="pScroll"><main class="p-main" id="pMain">
         <div class="p-badges">
+          ${q.bonus ? '<span class="chip bonus">Bonus</span>' : ''}${q.oos ? '<span class="chip oos">Out of syllabus</span>' : ''}
           <span class="chip new">${esc(examName(q.exam))}</span><span class="chip">${esc(q.year || 'Year n/a')}</span>
+          ${q.topic ? `<span class="chip">${esc(q.topic)}</span>` : ''}
           <span class="chip ${q.diff.toLowerCase()}">${esc(q.diff)}</span>
           ${paperShort(q) ? `<span class="chip">${esc(paperShort(q))}</span>` : ''}
         </div>
@@ -1139,7 +1315,7 @@
           <div style="display:flex;justify-content:space-between;align-items:center"><h2>Questions</h2><button class="icon-btn" data-act="p-drawer" aria-label="Close">${icon('x')}</button></div>
           <div class="muted">${answeredCount} of ${n} answered</div>
           <div class="legend"><span><i style="background:var(--green)"></i>Correct</span><span><i style="background:var(--red)"></i>Wrong</span><span><i style="background:var(--amber)"></i>Revealed</span><span><i style="background:var(--blue)"></i>Picked</span><span><i style="background:var(--surface-3)"></i>Not answered</span></div>
-          <div class="pal">${S.qs.map((x, i) => `<button class="${palClass(x)} ${i === S.index ? 'cur' : ''}" data-act="p-go" data-i="${i}" aria-label="Question ${i + 1}">${i + 1}</button>`).join('')}</div>
+          <div class="pal">${S.qs.map((x, i) => `<button class="${palClass(x)} ${i === S.index ? 'cur' : ''} ${x.bonus ? 'bonus' : ''}" data-act="p-go" data-i="${i}" aria-label="Question ${i + 1}">${i + 1}</button>`).join('')}</div>
         </div>
       </div>`;
     hydrateIcons(root);
@@ -1316,14 +1492,20 @@
       case 'practice-mistakes': practiceMistakes(); break;
       case 'chapter-practice': if (CP) openSetup({ title: CP.file.chapter, sourceKey: `chapter|${app.exam}|${CP.file.path}`, pool: CP.qs }); break;
       case 'cp-tab': CP.tab = t.dataset.v; CP.limit = 60; drawChapterMeta(); drawChapterList(); break;
-      case 'cp-clear': Object.assign(CP, { search: '', year: '', diff: '', kind: '', status: '', limit: 60 }); drawChapter(); break;
+      case 'cp-clear': Object.assign(CP, { search: '', year: '', diff: '', kind: '', status: '', paper: '', marks: '', syl: '', tag: '', gsel: '', limit: 60 }); drawChapter(); break;
+      case 'cp-gsel': CP.gsel = t.dataset.g; CP.limit = 60; drawChapterList(); break;
+      case 'cp-gpractice': {
+        const g = CP.groups.find(x => x.label === t.dataset.g);
+        if (g) openSetup({ title: `${CP.file.chapter} · ${g.label}`, sourceKey: `chapter|${app.exam}|${CP.file.path}|${CP.group}|${g.label}`, pool: g.qs });
+        break;
+      }
       case 'cp-more': {
         const before = Math.min(CP.limit, CP.filtered.length);
         CP.limit += 60;
         const rows = CP.filtered.slice(before, CP.limit);
         const list = $('#cpList');
         t.parentElement.remove();
-        list.insertAdjacentHTML('beforeend', rows.map((q, i) => qRow(q, before + i)).join('') + (CP.filtered.length > CP.limit ? `<div style="text-align:center;margin-top:14px"><button class="btn" data-act="cp-more">Show ${Math.min(60, CP.filtered.length - CP.limit)} more</button></div>` : ''));
+        list.insertAdjacentHTML('beforeend', rowsHtml(rows, before) + (CP.filtered.length > CP.limit ? `<div style="text-align:center;margin-top:14px"><button class="btn" data-act="cp-more">Show ${Math.min(60, CP.filtered.length - CP.limit)} more</button></div>` : ''));
         hydrateIcons(list); observeMath(list);
         break;
       }
@@ -1341,8 +1523,10 @@
       }
       case 'pick-subject': {
         const files = filesFor(app.exam, t.dataset.v);
-        const all = files.every(f => BUILD.sel.has(f.path));
-        files.forEach(f => (all ? BUILD.sel.delete(f.path) : BUILD.sel.add(f.path)));
+        const wanted = files.filter(f => !chapInfo(f).allOos);          // "select all" skips out-of-syllabus chapters
+        const target = wanted.length ? wanted : files;
+        const all = target.every(f => BUILD.sel.has(f.path));
+        if (all) files.forEach(f => BUILD.sel.delete(f.path)); else target.forEach(f => BUILD.sel.add(f.path));
         $$('.pick', t.closest('.pick-group')).forEach(b => { const on = BUILD.sel.has(b.dataset.path); b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
         drawBuildSummary(); break;
       }
@@ -1391,7 +1575,11 @@
   });
   document.addEventListener('change', e => {
     const t = e.target;
-    if (t.dataset?.cp && CP) { CP[t.dataset.cp] = t.value; CP.limit = 60; drawChapterList(); }
+    if (t.dataset?.cp && CP) {
+      CP[t.dataset.cp] = t.value; CP.limit = 60;
+      if (t.dataset.cp === 'group') { CP.gsel = ''; prefs.group = t.value; store.set(KEYS.prefs, prefs); }
+      drawChapterList();
+    }
     else if (t.id === 'libFilter') { LIB.filter = t.value; renderChapterGrid(); }
     else if (t.id === 'libSort') { LIB.sort = t.value; renderChapterGrid(); }
   });
@@ -1484,6 +1672,16 @@
     hideSplash();
     (window.requestIdleCallback || (f => setTimeout(f, 400)))(() => migrateLegacyAttempts().catch(() => {}));
   }
+
+  /* Bridge for teacher.js (kept separate so this file stays focused on the student experience). */
+  window.JW = {
+    $, $$, esc, icon, hydrateIcons, toast, plural, titleCase, pct, store, app, data, SUBJECTS, examName, examSubjects,
+    filesFor, chapInfo, loadFiles, filesForIds, qd, qOptions, qCorrect, qAnswer, langBlock, hasHindi, sanitize, plainText,
+    previewText, searchText, paperShort, setView, ordered, latestOf, openModal, closeModal, observeMath, typeset,
+    isCurrent: token => token === app.token,
+    bookmarks: () => bookmarks, reviews: () => reviews, wrongIds: () => wrongIds(app.exam),
+    getLang: () => lang, byId: id => data.byId.get(String(id))
+  };
 
   boot();
 
