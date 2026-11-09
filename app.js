@@ -1676,7 +1676,7 @@
   /* Bridge for teacher.js (kept separate so this file stays focused on the student experience). */
   window.JW = {
     $, $$, esc, icon, hydrateIcons, toast, plural, titleCase, pct, store, app, data, SUBJECTS, examName, examSubjects,
-    filesFor, chapInfo, loadFiles, filesForIds, qd, qOptions, qCorrect, qAnswer, langBlock, hasHindi, sanitize, plainText,
+    filesFor, chapInfo, groupFiles, inSyllabusFirst, loadFiles, filesForIds, qd, qOptions, qCorrect, qAnswer, langBlock, hasHindi, sanitize, plainText,
     previewText, searchText, paperShort, setView, ordered, latestOf, openModal, closeModal, observeMath, typeset,
     isCurrent: token => token === app.token,
     bookmarks: () => bookmarks, reviews: () => reviews, wrongIds: () => wrongIds(app.exam),

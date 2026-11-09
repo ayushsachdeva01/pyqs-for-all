@@ -2,7 +2,7 @@
 // - App shell + manifest: network first (so updates always arrive), cache as offline fallback.
 // - Question JSON files: cache first, refreshed quietly in the background.
 // - MathJax from the CDN: cached after first use so maths works offline.
-const VERSION = 'jeewise-v7';
+const VERSION = 'jeewise-v13';
 const SHELL = VERSION + '-shell';
 const DATA = VERSION + '-data';
 const CDN = VERSION + '-cdn';
