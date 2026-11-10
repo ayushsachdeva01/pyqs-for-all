@@ -59,6 +59,7 @@
     image: '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>',
     lock: '<rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>',
     trash: '<polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/>',
+    clock: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
     save: '<path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/>'
   };
   const icon = (name, cls = '') => `<svg class="i ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[name] || ''}</svg>`;
@@ -129,6 +130,7 @@
     cache: new Map(),       // path -> Question[]
     pending: new Map(),     // path -> Promise<Question[]>
     byId: new Map(),        // id -> Question (only for loaded files)
+    manifest: null, version: null,
     ready: false
   };
   const SUBJECTS = ['Physics', 'Chemistry', 'Mathematics'];
@@ -144,7 +146,7 @@
     const json = await res.json();
     const list = Array.isArray(json) ? json : json.files;
     if (!Array.isArray(list)) throw new Error('Invalid manifest');
-    data.files = list.map(entry => {
+    data.files = list.map((entry, i) => {
       if (typeof entry === 'string') {
         const parts = entry.split('/');
         const fileName = parts[parts.length - 1];
@@ -152,7 +154,7 @@
           path: entry, subject: titleCase(parts[0] || 'Unknown'),
           exam: /advanced/i.test(parts[1] || '') ? 'jee-advanced' : 'jee-main',
           chapter: titleCase(fileName.replace(/_\d+q\.json$/i, '')),
-          count: Number(fileName.match(/_(\d+)q\.json$/i)?.[1] || 0), group: 'Chapters', oos: null, bonus: null, topics: null, years: null
+          count: Number(fileName.match(/_(\d+)q\.json$/i)?.[1] || 0), group: 'Chapters', oos: null, bonus: null, topics: null, years: null, v: null, _i: i
         };
       }
       const path = entry.path || entry.name;
@@ -162,9 +164,13 @@
         chapter: entry.chapter || titleCase(String(path || '').split('/').pop().replace(/_\d+q\.json$/i, '')),
         count: Number(entry.count || 0), group: entry.group ? titleCase(entry.group) : 'Chapters',
         oos: entry.oos ?? null, bonus: entry.bonus ?? null,
-        topics: Array.isArray(entry.topics) ? entry.topics : null, years: Array.isArray(entry.years) ? entry.years : null
+        topics: Array.isArray(entry.topics) ? entry.topics : null, years: Array.isArray(entry.years) ? entry.years : null,
+        v: entry.v ? String(entry.v) : null,      // content hash (manifest v2). Missing in old manifests - still works.
+        _i: i                                     // position in the manifest; exam-index.json refers to files by this number
       };
     }).filter(f => f.path);
+    data.manifest = Array.isArray(json) ? { files: list } : json;
+    data.version = data.manifest.version || null;
     data.byPath = new Map(data.files.map(f => [f.path, f]));
     data.ready = true;
   }
@@ -265,13 +271,88 @@
     if (changed) { saveMetaSoon(); statsDirty = true; }
   }
 
+  /* ---- Saved copies of question files (IndexedDB). A file is downloaded once; after that it is read from
+     this device until the manifest says its version ("v") changed. Falls back to plain fetch if IndexedDB is blocked. ---- */
+  const fileDB = (() => {
+    let dbp;
+    const open = () => (dbp ||= new Promise(res => {
+      if (!('indexedDB' in window)) return res(null);
+      try {
+        const r = indexedDB.open('jeewise-data', 1);
+        r.onupgradeneeded = () => r.result.createObjectStore('files', { keyPath: 'k' });
+        r.onsuccess = () => res(r.result);
+        r.onerror = r.onblocked = () => res(null);
+      } catch { res(null); }
+    }));
+    const run = async (mode, fn) => {
+      const db = await open();
+      if (!db) return null;
+      return new Promise(res => {
+        try {
+          const t = db.transaction('files', mode);
+          const req = fn(t.objectStore('files'));
+          t.oncomplete = () => res(req && 'result' in req ? req.result : null);
+          t.onerror = t.onabort = () => res(null);
+        } catch { res(null); }
+      });
+    };
+    return {
+      get: k => run('readonly', s => s.get(k)),
+      put: (k, v, d) => run('readwrite', s => s.put({ k, v, d, t: Date.now() })),
+      del: k => run('readwrite', s => s.delete(k)),
+      keys: () => run('readonly', s => s.getAllKeys()),
+      // Drop saved copies whose file no longer exists or whose version is out of date.
+      async prune(live) {
+        const keys = (await this.keys()) || [];
+        for (const k of keys) {
+          if (k === '__index__') continue;
+          const want = live.get(k);
+          if (want === undefined) { await this.del(k); continue; }
+          if (want) { const rec = await this.get(k); if (rec && rec.v !== want) await this.del(k); }
+        }
+      }
+    };
+  })();
+
+  async function fetchJson(path, v, label) {
+    const url = new URL(path, QBASE);
+    if (v) url.searchParams.set('v', v);          // new version = new URL, so no stale copy can be served
+    const res = await fetch(url, v ? undefined : { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`${res.status} loading ${label || path}`);
+    return res.json();
+  }
+
+  async function fetchFileJson(file) {
+    if (!file.v) return fetchJson(file.path, null);          // old manifest: no version info, behave as before
+    const hit = await fileDB.get(file.path);
+    if (hit && hit.v === file.v && hit.d) return hit.d;
+    const json = await fetchJson(file.path, file.v);
+    fileDB.put(file.path, file.v, json);
+    return json;
+  }
+
+  // exam-index.json: one compact list of every question (no text). Saved on this device like the chapter files.
+  let indexPromise = null;
+  function loadIndex() {
+    const ref = data.manifest?.index;
+    if (!ref || !ref.path) return Promise.resolve(null);
+    return (indexPromise ||= (async () => {
+      try {
+        const hit = await fileDB.get('__index__');
+        if (hit && hit.v === ref.v && hit.d) return hit.d;
+        const json = await fetchJson(ref.path, ref.v, 'exam index');
+        fileDB.put('__index__', ref.v, json);
+        return json;
+      } catch (err) { console.warn('Exam index unavailable:', err); return null; }
+    })());
+  }
+
   function loadFile(path) {
     if (data.cache.has(path)) return Promise.resolve(data.cache.get(path));
     if (data.pending.has(path)) return data.pending.get(path);
     const file = data.byPath.get(path);
     if (!file) return Promise.reject(new Error('Unknown file ' + path));
-    const p = fetch(new URL(path, QBASE))
-      .then(res => { if (!res.ok) throw new Error(`${res.status} loading ${path}`); return res.json(); })
+    const p = fetchFileJson(file)
       .then(json => {
         const seen = new Set();
         const qs = [];
@@ -524,6 +605,7 @@
       { id: 'lib', label: 'Library', icon: 'book', href: hrefs.subject(app.subject), on: lib },
       { id: 'build', label: 'Practice', icon: 'target', href: hrefs.build(), on: r.name === 'build' },
       { id: 'saved', label: 'Saved', icon: 'star', href: hrefs.saved(), on: r.name === 'saved' },
+      { id: 'exam', label: 'Exams', icon: 'clock', href: '#/exam', on: r.name === 'exam' },
       { id: 'progress', label: 'Progress', icon: 'chart', href: hrefs.progress(), on: r.name === 'progress' }
     ];
     const sideItems = items.concat([{ id: 'teacher', label: 'Teacher mode', icon: 'teacher', href: '#/teacher', on: r.name === 'teacher' }]);
@@ -559,6 +641,10 @@
         case 'build': return pageBuild();
         case 'saved': return pageSaved(token);
         case 'progress': return pageProgress();
+        case 'exam':
+          if (window.JWE) return window.JWE.page(token);
+          window.addEventListener('load', () => route(), { once: true });
+          return;
         case 'teacher':
           if (window.JWT) return window.JWT.page(token);
           window.addEventListener('load', () => route(), { once: true });
@@ -1670,7 +1756,11 @@
     if (!examSubjects(app.exam).length) app.exam = app.exam === 'jee-main' ? 'jee-advanced' : 'jee-main';
     route();
     hideSplash();
-    (window.requestIdleCallback || (f => setTimeout(f, 400)))(() => migrateLegacyAttempts().catch(() => {}));
+    (window.requestIdleCallback || (f => setTimeout(f, 400)))(() => {
+      migrateLegacyAttempts().catch(() => {});
+      fileDB.prune(new Map(data.files.map(f => [f.path, f.v || '']))).catch(() => {});
+      navigator.storage?.persist?.().catch(() => {});   // ask the browser not to evict the saved question files
+    });
   }
 
   /* Bridge for teacher.js (kept separate so this file stays focused on the student experience). */
@@ -1680,7 +1770,10 @@
     previewText, searchText, paperShort, setView, ordered, latestOf, openModal, closeModal, observeMath, typeset,
     isCurrent: token => token === app.token,
     bookmarks: () => bookmarks, reviews: () => reviews, wrongIds: () => wrongIds(app.exam),
-    getLang: () => lang, byId: id => data.byId.get(String(id))
+    getLang: () => lang, byId: id => data.byId.get(String(id)),
+    // used by exam.js
+    loadFile, loadIndex, makeQuestion, kindOf, parseSortKey, fmtTime, fmtDate, norm, titleCase, KEYS, fileDB,
+    recordAttempt, setLang: l => { lang = l; store.set(KEYS.lang, l); }, routeNow: () => route(), registerFile
   };
 
   boot();
